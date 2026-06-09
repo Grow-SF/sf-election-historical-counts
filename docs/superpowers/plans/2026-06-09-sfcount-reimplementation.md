@@ -14,14 +14,17 @@
 
 ## Verified facts the code relies on (probed live 2026-06-09)
 
-All five fixture files below were cross-checked against the archive's PDF-derived
-`sf_count_timeline.csv` — every count matches exactly.
+All summary fixture values below were cross-checked against the archive's
+PDF-derived `sf_count_timeline.csv` — every count matches exactly. The psov
+sums fill blanks the archive could never populate, and reconcile exactly with
+the summary total.
 
 | Source | URL pattern | Values |
 |---|---|---|
 | Era C modern XML | `/results/20241105/data/20241108/summary.xml` | total=289135 reg=522265 ED=37668 VBM=251467 |
 | Era C election night | `/results/20241105/data/20241105_1/summary.xml` | total=197108 reg=522265 ED=0 VBM=197108 |
-| Era C 2019 variant | `/results/20191105/data/20191108/summary.xml` | total=190504 reg=495050, **no usable split** |
+| Era C 2019 variant | `/results/20191105/data/20191108/summary.xml` | total=190504 reg=495050, **summary has no split** |
+| Era C 2019 psov | `/results/20191105/data/20191108/20191108_psov.xml` | ED=45594 VBM=144910 — sums to 190504 **exactly** (475 precincts) |
 | Era B general TSV | `/results/20161108/data/20161110/summary.txt` | ED=131900 VBM=151149 reg=513573 total=283049 |
 | Era B primary TSV | `/results/20160607/data/20160610/summary.txt` | ED=89220 VBM=135794 reg=468238 total=225014 (citywide block) |
 
@@ -34,7 +37,22 @@ Structure notes:
 - **Era C 2019 variant:** no `RegistrationAndTurnout` block. Instead
   `<Details2 reported3="Registered Voters: 190504 of 495050 (0.38...)"/>`.
   The `<cgId2 ballotsTextBox=.../>` ED/VBM numbers are **per-contest** (sum 190,500 ≠ 190,504
-  total) — leave the split null, matching the archive's 13 blank Nov-2019 rows.
+  total) — the summary parser leaves the split null.
+- **Era C 2019 psov (split recovery):** every 2019 snapshot also publishes
+  `{snap}_psov.xml` (night releases `20191105_1_psov.xml`, daily
+  `20191108_psov.xml`) — `StatementOfVotesCastRPT` namespace, ~27 MB,
+  per-precinct per-contest. The citywide ED/VBM split lives in the **turnout
+  table**: the `Tablix2` with `Textbox1003="Precinct"` (later per-contest
+  `Tablix2` sections reuse the same row element names and must be excluded).
+  Inside it, per precinct (`pdGroup_splitByPrecincts`), each
+  `<cgName cgName="Election Day|Vote by Mail">` row carries Voters Cast as
+  `<Textbox18 ballots4="N"/>` (`Textbox1002 ballots=` counts **cards** —
+  never use it). Summing `ballots4` per counting group across all 475
+  precincts gives ED=45,594 VBM=144,910 = 190,504, reconciling exactly with
+  the summary total. The cumulative section at the bottom of the sheet has no
+  ED/VBM breakdown — summing precinct rows is required. Fixture note:
+  truncating the document at the first `</Tablix2>` and appending `</Report>`
+  yields a valid ~591 KB XML with identical sums (verified live).
 - **Era B TSV:** tab-separated, header row. Citywide turnout rows have
   `CONTEST_FULL_NAME == "Registration & Turnout"` exactly (primaries add per-party
   contests named e.g. `"Democratic Registration & Turnout"` — excluded by exact match).
@@ -53,7 +71,8 @@ Structure notes:
 pyproject.toml                  # uv project, pytest config (network/migration markers)
 .gitignore                      # raw/, .venv/, caches
 sfcount/__init__.py
-sfcount/parsers.py              # TurnoutRecord, ParseError, parse_era_c_xml, parse_era_b_tsv (pure)
+sfcount/parsers.py              # TurnoutRecord, ParseError, parse_era_c_xml,
+                                #   parse_era_c_psov, parse_era_b_tsv (pure)
 sfcount/inventory.py            # era_for, extract_elections (pure), stage_inventory, load_elections
 sfcount/fetch.py                # snap_candidates, MissCache, http_date_to_pacific_iso,
                                 #   manifest load/save, fetch_election, stage_fetch
@@ -66,7 +85,8 @@ sfcount/cli.py                  # argparse entry point
 artifact/sf-long-count.jsx      # copied from archive + generated-data markers
 data/                           # committed outputs (created by live run, Task 14)
 tests/conftest.py               # fixtures helper (mini_pipeline)
-tests/fixtures/                 # 5 real downloaded source files + sfgov_results.html
+tests/fixtures/                 # 6 real downloaded source files (psov trimmed to its
+                                #   turnout table) + sfgov_results.html
 tests/test_parsers.py
 tests/test_inventory.py
 tests/test_fetch.py
@@ -164,9 +184,9 @@ git commit -m "chore: scaffold sfcount package with uv and pytest"
 Real source files are the test fixtures. This task needs the network (one time).
 
 **Files:**
-- Create: `tests/fixtures/era_c_modern.xml`, `tests/fixtures/era_c_night.xml`, `tests/fixtures/era_c_2019.xml`, `tests/fixtures/era_b_general.txt`, `tests/fixtures/era_b_primary.txt`, `tests/fixtures/sfgov_results.html`
+- Create: `tests/fixtures/era_c_modern.xml`, `tests/fixtures/era_c_night.xml`, `tests/fixtures/era_c_2019.xml`, `tests/fixtures/era_c_2019_psov_turnout.xml`, `tests/fixtures/era_b_general.txt`, `tests/fixtures/era_b_primary.txt`, `tests/fixtures/sfgov_results.html`
 
-- [ ] **Step 1: Download the six fixtures**
+- [ ] **Step 1: Download the six small fixtures**
 
 ```bash
 mkdir -p tests/fixtures
@@ -180,12 +200,28 @@ curl -s -A "$UA" "$B/20160607/data/20160610/summary.txt"   -o tests/fixtures/era
 curl -s -A "$UA" "https://www.sf.gov/results"              -o tests/fixtures/sfgov_results.html
 ```
 
-- [ ] **Step 2: Verify each fixture contains the expected data**
+- [ ] **Step 2: Download and trim the 2019 psov fixture**
+
+The full file is 27 MB; only its turnout table (the first `Tablix2`) is needed.
+The trim keeps the document prefix byte-for-byte, so the precinct sums are
+unchanged (verified live: ED=45,594 VBM=144,910).
+
+```bash
+curl -s -A "$UA" "$B/20191105/data/20191108/20191108_psov.xml" -o /tmp/psov_full.xml
+python3 - <<'EOF'
+s = open("/tmp/psov_full.xml", encoding="utf-8-sig").read()
+end = s.find("</Tablix2>") + len("</Tablix2>")
+open("tests/fixtures/era_c_2019_psov_turnout.xml", "w").write(s[:end] + "</Report>")
+EOF
+```
+
+- [ ] **Step 3: Verify each fixture contains the expected data**
 
 ```bash
 grep -c 'ballots3="289135"' tests/fixtures/era_c_modern.xml        # expect 1
 grep -c 'ballots3="197108"' tests/fixtures/era_c_night.xml         # expect 1
 grep -c 'Registered Voters: 190504 of 495050' tests/fixtures/era_c_2019.xml  # expect 1
+grep -c 'pdName pdName="PCT' tests/fixtures/era_c_2019_psov_turnout.xml      # expect 475
 head -1 tests/fixtures/era_b_general.txt | grep -c CONTEST_ID      # expect 1
 head -1 tests/fixtures/era_b_primary.txt | grep -c CONTEST_ID      # expect 1
 grep -c 'November' tests/fixtures/sfgov_results.html               # expect >0
@@ -194,11 +230,11 @@ grep -c 'November' tests/fixtures/sfgov_results.html               # expect >0
 If any check fails, stop — the source layout changed and the plan's parsing
 assumptions must be re-verified before continuing.
 
-- [ ] **Step 3: Commit**
+- [ ] **Step 4: Commit**
 
 ```bash
 git add tests/fixtures/
-git commit -m "test: add real downloaded source fixtures (xml/tsv/html)"
+git commit -m "test: add real downloaded source fixtures (xml/tsv/psov/html)"
 ```
 
 ---
@@ -426,6 +462,85 @@ def parse_era_b_tsv(text: str) -> TurnoutRecord:
 ```bash
 git add sfcount/parsers.py tests/test_parsers.py
 git commit -m "feat: Era B TSV parser (citywide turnout block)"
+```
+
+---
+
+### Task 4B: Era C psov parser (Nov 2019 split recovery)
+
+The Nov 2019 `summary.xml` has no citywide ED/VBM split. Each 2019 snapshot
+also publishes `{snap}_psov.xml` (per-precinct statement of the vote); summing
+Voters Cast per counting group across the turnout table's precincts gives the
+split, reconciling exactly with the summary total.
+
+**Files:**
+- Modify: `sfcount/parsers.py` (append)
+- Modify: `tests/test_parsers.py` (append)
+
+- [ ] **Step 1: Append the failing tests to `tests/test_parsers.py`**
+
+```python
+from sfcount.parsers import parse_era_c_psov  # add to imports at top
+
+
+def test_era_c_psov_sums_precinct_voters():
+    ed, vbm = parse_era_c_psov(read("era_c_2019_psov_turnout.xml"))
+    assert (ed, vbm) == (45594, 144910)
+    assert ed + vbm == 190504  # reconciles exactly with the summary.xml total
+
+
+def test_era_c_psov_rejects_input_without_turnout_table():
+    with pytest.raises(ParseError):
+        parse_era_c_psov("<?xml version='1.0'?><Report></Report>")
+    with pytest.raises(ParseError):
+        parse_era_c_psov("not xml")
+```
+
+- [ ] **Step 2: Run `uv run pytest tests/test_parsers.py -q`** — expected: 2 new tests FAIL (ImportError)
+
+- [ ] **Step 3: Append to `sfcount/parsers.py`**
+
+```python
+def parse_era_c_psov(text: str) -> tuple[int, int]:
+    """Per-precinct statement of the vote -> citywide (election_day, vbm).
+
+    Sums Voters Cast (ballots4 - the ballots/ballots2 attributes count CARDS)
+    per counting group across the precinct rows of the turnout table. The
+    cumulative section at the bottom of the sheet has no ED/VBM breakdown,
+    hence the summation. Only the Tablix2 with Textbox1003="Precinct" is the
+    turnout table; later per-contest Tablix2 sections reuse the same row
+    element names and must be excluded.
+    """
+    try:
+        root = ET.fromstring(text.lstrip("\ufeff"))
+    except ET.ParseError as ex:
+        raise ParseError(f"not XML: {ex}") from ex
+
+    sums = {"Election Day": 0, "Vote by Mail": 0}
+    seen = False
+    for tablix in root.findall(".//{*}Tablix2"):
+        if tablix.get("Textbox1003") != "Precinct":
+            continue
+        for cg in tablix.findall(".//{*}cgName"):
+            name = cg.get("cgName")
+            if name not in sums:
+                continue
+            voters = cg.find("{*}Textbox18").get("ballots4")
+            sums[name] += int(voters or 0)
+            seen = True
+        break
+    if not seen:
+        raise ParseError("no precinct turnout table found in psov XML")
+    return sums["Election Day"], sums["Vote by Mail"]
+```
+
+- [ ] **Step 4: Run `uv run pytest tests/test_parsers.py -q`** — expected: 11 passed
+
+- [ ] **Step 5: Commit**
+
+```bash
+git add sfcount/parsers.py tests/test_parsers.py
+git commit -m "feat: Era C psov parser (2019 ED/VBM split from precinct sums)"
 ```
 
 ---
@@ -777,6 +892,25 @@ def test_manifest_roundtrip(tmp_path):
     save_manifest(tmp_path / "manifest.csv", manifest)
     assert load_manifest(tmp_path / "manifest.csv") == manifest
     assert load_manifest(tmp_path / "missing.csv") == {}
+
+
+def test_fetch_election_downloads_psov_for_2019(tmp_path):
+    edate = dt.date(2019, 11, 5)
+    base = "https://www.sfelections.org/results/20191105/data"
+    session = FakeSession({
+        f"{base}/20191108/summary.xml": FakeResponse(
+            200, XML, {"Last-Modified": "Fri, 08 Nov 2019 23:35:55 GMT"}),
+        f"{base}/20191108/20191108_psov.xml": FakeResponse(200, XML, {}),
+    })
+    cache = MissCache(tmp_path / "misses.txt")
+    fetch_election(session, edate, "C", tmp_path / "raw", cache, {},
+                   today=dt.date(2026, 6, 9))
+    # psov fetched alongside the snapshot whose summary was found, and never
+    # probed for snapshots whose summary was missing
+    assert (tmp_path / "raw/20191105/20191108/20191108_psov.xml").read_bytes() == XML
+    assert len([c for c in session.calls if "psov" in c[1]]) == 1
+    # summary misses still cached (41 of 42 candidates missed)
+    assert len([u for u in cache.urls if "summary.xml" in u]) == 41
 ```
 
 - [ ] **Step 2: Run `uv run pytest tests/test_fetch.py -q`** — expected: new tests FAIL (ImportError)
@@ -814,6 +948,26 @@ def _manifest_row(e, snap, fname, status, headers):
     }
 
 
+# Era C elections whose summary.xml lacks the ED/VBM split; their snapshots
+# also get the per-precinct statement of the vote ({snap}_psov.xml, ~27 MB).
+PSOV_ELECTIONS = {"20191105"}
+
+
+def _fetch_psov(session, e: str, snap: str, raw_dir: Path,
+                cache: MissCache, certifiable: bool) -> None:
+    dest = raw_dir / e / snap / f"{snap}_psov.xml"
+    if dest.exists():
+        return
+    url = f"{BASE}/{e}/data/{snap}/{snap}_psov.xml"
+    if url in cache:
+        return
+    r = session.get(url, timeout=120)
+    if r.status_code == 200 and looks_like_source("C", r.content):
+        dest.write_bytes(r.content)
+    elif certifiable:
+        cache.add(url)
+
+
 def fetch_election(session, edate: dt.date, era: str, raw_dir: Path,
                    cache: MissCache, manifest: dict, today: dt.date) -> int:
     fname = ERA_FILES[era]
@@ -828,18 +982,23 @@ def fetch_election(session, edate: dt.date, era: str, raw_dir: Path,
                 r = session.head(url, timeout=30)
                 manifest[(e, snap)] = _manifest_row(e, snap, fname, "cached", r.headers)
             found += 1
+        elif url in cache:
             continue
-        if url in cache:
-            continue
-        r = session.get(url, timeout=30)
-        if r.status_code == 200 and looks_like_source(era, r.content):
-            dest.parent.mkdir(parents=True, exist_ok=True)
-            dest.write_bytes(r.content)
-            manifest[(e, snap)] = _manifest_row(e, snap, fname, "downloaded", r.headers)
-            found += 1
-        elif certifiable:
-            # future report dates of an ongoing count are not permanent misses
-            cache.add(url)
+        else:
+            r = session.get(url, timeout=30)
+            if r.status_code == 200 and looks_like_source(era, r.content):
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                dest.write_bytes(r.content)
+                manifest[(e, snap)] = _manifest_row(e, snap, fname, "downloaded", r.headers)
+                found += 1
+            else:
+                if certifiable:
+                    # future report dates of an ongoing count are not permanent misses
+                    cache.add(url)
+                continue
+        # snapshot exists -> also fetch its psov where the summary lacks the split
+        if e in PSOV_ELECTIONS:
+            _fetch_psov(session, e, snap, raw_dir, cache, certifiable)
     return found
 
 
@@ -878,7 +1037,7 @@ def stage_fetch(data_dir: Path, raw_dir: Path, eras: tuple[str, ...]) -> None:
         print(f"fetch {edate}: {n} snapshots", flush=True)
 ```
 
-- [ ] **Step 4: Run `uv run pytest tests/test_fetch.py -q`** — expected: 8 passed
+- [ ] **Step 4: Run `uv run pytest tests/test_fetch.py -q`** — expected: 9 passed
 
 - [ ] **Step 5: Commit**
 
@@ -966,7 +1125,7 @@ FIXTURES = Path(__file__).parent / "fixtures"
 
 @pytest.fixture
 def mini_pipeline(tmp_path):
-    """A raw/ tree built from the five fixtures, plus matching data/ inputs."""
+    """A raw/ tree built from the source fixtures, plus matching data/ inputs."""
     data, raw = tmp_path / "data", tmp_path / "raw"
     data.mkdir()
     raw.mkdir()
@@ -974,12 +1133,13 @@ def mini_pipeline(tmp_path):
         ("20241105", "20241108", "summary.xml", "era_c_modern.xml"),
         ("20241105", "20241105_1", "summary.xml", "era_c_night.xml"),
         ("20191105", "20191108", "summary.xml", "era_c_2019.xml"),
+        ("20191105", "20191108", "20191108_psov.xml", "era_c_2019_psov_turnout.xml"),
         ("20161108", "20161110", "summary.txt", "era_b_general.txt"),
         ("20160607", "20160610", "summary.txt", "era_b_primary.txt"),
     ]
     for e, snap, fname, fixture in spec:
         dest = raw / e / snap / fname
-        dest.parent.mkdir(parents=True)
+        dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy(FIXTURES / fixture, dest)
     (data / "elections.csv").write_text(
         "election_date,election_name,era\n"
@@ -1031,9 +1191,12 @@ def test_stage_parse_builds_timeline(mini_pipeline):
     assert night["report_seq"] == "1"
     assert modern["report_seq"] == "2"
 
+    # the 2019 summary has no split; it is recovered from the psov precinct sums
     v2019 = by_key[("2019-11-05", "20191108")]
     assert v2019["ballots_counted_total"] == "190504"
-    assert v2019["ballots_vbm"] == ""  # no split in the 2019 variant
+    assert v2019["ballots_election_day"] == "45594"
+    assert v2019["ballots_vbm"] == "144910"
+    assert v2019["parser"] == "era_c_xml+psov"
 
     primary = by_key[("2016-06-07", "20160610")]
     assert primary["parser"] == "era_b_tsv"
@@ -1056,9 +1219,42 @@ def test_stage_parse_records_failures_not_crashes(mini_pipeline):
     assert len(failures) == 1
     assert failures[0]["file"].endswith("20241109/summary.xml")
     assert len(read_timeline(data)) == 7  # bad file excluded, others parsed
+
+
+def test_stage_parse_2019_without_psov_leaves_split_blank(mini_pipeline):
+    data, raw = mini_pipeline
+    (raw / "20191105/20191108/20191108_psov.xml").unlink()
+    stage_parse(data, raw, eras=("B", "C"))
+    v2019 = {(r["election_date"], r["snapshot"]): r
+             for r in read_timeline(data)}[("2019-11-05", "20191108")]
+    assert v2019["ballots_vbm"] == ""
+    assert v2019["parser"] == "era_c_xml"
+
+
+MISMATCHING_PSOV = """<?xml version="1.0"?><Report xmlns="StatementOfVotesCastRPT">
+<Tablix2 Textbox1003="Precinct"><pdGroup_splitByPrecincts>
+<cgGroup_splitByPrecincts><cgName cgName="Election Day"><Textbox18 ballots4="1" /></cgName></cgGroup_splitByPrecincts>
+<cgGroup_splitByPrecincts><cgName cgName="Vote by Mail"><Textbox18 ballots4="2" /></cgName></cgGroup_splitByPrecincts>
+</pdGroup_splitByPrecincts></Tablix2></Report>"""
+
+
+def test_stage_parse_2019_psov_mismatch_fails_loudly(mini_pipeline):
+    # a psov that doesn't reconcile with the summary total must be recorded as
+    # a failure and the split left blank - never silently accepted
+    data, raw = mini_pipeline
+    (raw / "20191105/20191108/20191108_psov.xml").write_text(MISMATCHING_PSOV)
+    stage_parse(data, raw, eras=("B", "C"))
+    v2019 = {(r["election_date"], r["snapshot"]): r
+             for r in read_timeline(data)}[("2019-11-05", "20191108")]
+    assert v2019["ballots_vbm"] == ""
+    assert v2019["parser"] == "era_c_xml"
+    with open(data / "parse_failures.csv") as f:
+        failures = list(csv.DictReader(f))
+    assert len(failures) == 1
+    assert "psov sum 3 != summary total 190504" in failures[0]["error"]
 ```
 
-- [ ] **Step 3: Run `uv run pytest tests/test_timeline.py -q`** — expected: 2 new tests FAIL (ImportError)
+- [ ] **Step 3: Run `uv run pytest tests/test_timeline.py -q`** — expected: 4 new tests FAIL (ImportError)
 
 - [ ] **Step 4: Implement `sfcount/timeline.py`**
 
@@ -1066,12 +1262,15 @@ def test_stage_parse_records_failures_not_crashes(mini_pipeline):
 """Stage 3: walk raw/, dispatch era parsers, assemble sf_count_timeline.csv."""
 import csv
 import datetime as dt
+from dataclasses import replace
 from pathlib import Path
 
 from sfcount.archival import ARCHIVAL_ROWS
 from sfcount.fetch import BASE, load_manifest
 from sfcount.inventory import load_elections
-from sfcount.parsers import ParseError, parse_era_b_tsv, parse_era_c_xml
+from sfcount.parsers import (
+    ParseError, parse_era_b_tsv, parse_era_c_psov, parse_era_c_xml,
+)
 
 PARSERS = {"C": ("era_c_xml", parse_era_c_xml), "B": ("era_b_tsv", parse_era_b_tsv)}
 TIMELINE_COLS = [
@@ -1101,6 +1300,25 @@ def stage_parse(data_dir: Path, raw_dir: Path, eras: tuple[str, ...]) -> None:
         except ParseError as ex:
             failures.append({"file": str(path), "error": str(ex)})
             continue
+        # The Nov 2019 summary publishes no ED/VBM split; recover it from the
+        # per-precinct statement of the vote, but only when the precinct sums
+        # reconcile exactly with the summary's total.
+        psov_path = path.parent / f"{snap}_psov.xml"
+        if rec.ballots_vbm is None and el["era"] == "C" and psov_path.exists():
+            try:
+                ed, vbm = parse_era_c_psov(
+                    psov_path.read_text(encoding="utf-8-sig", errors="replace"))
+            except ParseError as ex:
+                failures.append({"file": str(psov_path), "error": str(ex)})
+            else:
+                if ed + vbm == rec.ballots_counted_total:
+                    rec = replace(rec, ballots_election_day=ed, ballots_vbm=vbm)
+                    parser_name = "era_c_xml+psov"
+                else:
+                    failures.append({
+                        "file": str(psov_path),
+                        "error": f"psov sum {ed + vbm} != summary total "
+                                 f"{rec.ballots_counted_total}; split left blank"})
         mrow = manifest.get((e, snap), {})
         if mrow.get("last_modified"):
             rdt, dt_src = mrow["last_modified"], "header"
@@ -1141,7 +1359,7 @@ def stage_parse(data_dir: Path, raw_dir: Path, eras: tuple[str, ...]) -> None:
     print(f"parse: {len(rows)} rows, {len(failures)} failures", flush=True)
 ```
 
-- [ ] **Step 5: Run `uv run pytest tests/test_timeline.py -q`** — expected: 3 passed
+- [ ] **Step 5: Run `uv run pytest tests/test_timeline.py -q`** — expected: 5 passed
 
 - [ ] **Step 6: Commit**
 
@@ -1795,6 +2013,18 @@ def test_live_era_b_snapshot_parses():
     assert r.status_code == 200
     rec = parse_era_b_tsv(r.content.decode("utf-8-sig"))
     assert rec.ballots_counted_total == 283049
+
+
+@pytest.mark.network
+def test_live_2019_psov_reconciles_with_summary():
+    from sfcount.parsers import parse_era_c_psov
+
+    r = requests.get(
+        "https://www.sfelections.org/results/20191105/data/20191108/20191108_psov.xml",
+        headers=UA, timeout=120)  # ~27 MB
+    assert r.status_code == 200
+    ed, vbm = parse_era_c_psov(r.content.decode("utf-8-sig"))
+    assert (ed, vbm) == (45594, 144910)  # sums exactly to the summary total 190504
 ```
 
 - [ ] **Step 2: Write `tests/test_reconciliation.py`**
@@ -1832,14 +2062,24 @@ def test_counts_match_archive():
             if n[col] != o[col]:
                 mismatches.append((key, col, o[col], n[col]))
         for col in SPLIT_COLS:
-            # archive blanks (Nov 2019) may gain values; non-blanks must match
+            # archive blanks (Nov 2019) gain psov-recovered values; non-blanks must match
             if o[col] != "" and n[col] != o[col]:
                 mismatches.append((key, col, o[col], n[col]))
     assert not missing, f"archive snapshots absent from new fetch: {missing}"
     assert not mismatches, f"count mismatches vs archive: {mismatches}"
+
+
+@pytest.mark.migration
+def test_2019_rows_gained_the_split_the_pdfs_never_had():
+    new = load(ROOT / "data/sf_count_timeline.csv")
+    rows = [r for (e, _), r in new.items() if e == "2019-11-05"]
+    assert len(rows) >= 13  # the archive had 13 split-less Nov 2019 rows
+    for r in rows:
+        assert r["parser"] == "era_c_xml+psov", f"{r['snapshot']}: no psov recovery"
+        assert r["ballots_vbm"] != "" and r["ballots_election_day"] != ""
 ```
 
-- [ ] **Step 3: Run `uv run pytest -q`** — expected: all pass, network/migration deselected by default. Then run `uv run pytest -m network -q` — expected: 2 passed (requires network).
+- [ ] **Step 3: Run `uv run pytest -q`** — expected: all pass, network/migration deselected by default. Then run `uv run pytest -m network -q` — expected: 3 passed (requires network; the psov test downloads ~27 MB).
 
 - [ ] **Step 4: Commit**
 
@@ -1861,19 +2101,25 @@ the same command if interrupted).
   elections and eras (the live page may have added post-archive elections; that's fine).
 
 - [ ] **Step 2: Fetch** — `uv run sfcount fetch`
-  Expected: per-election `fetch YYYY-MM-DD: N snapshots` lines; ~240+ files in `raw/`.
+  Expected: per-election `fetch YYYY-MM-DD: N snapshots` lines; ~240+ summary
+  files in `raw/`, plus ~13 `*_psov.xml` files (~27 MB each, ~350 MB total)
+  under `raw/20191105/` — the 2019 fetch takes correspondingly longer.
 
 - [ ] **Step 3: Parse** — `uv run sfcount parse`
-  Expected: `parse: ~242+ rows, 0 failures`. If failures appear, inspect
-  `data/parse_failures.csv` and the named files before proceeding — do not
-  weaken a parser without understanding the variant.
+  Expected: `parse: ~242+ rows, 0 failures`, with every 2019-11-05 row tagged
+  `era_c_xml+psov` and carrying the recovered ED/VBM split. If failures appear
+  (including psov-reconciliation failures), inspect `data/parse_failures.csv`
+  and the named files before proceeding — do not weaken a parser without
+  understanding the variant.
 
 - [ ] **Step 4: Validate** — `uv run sfcount validate`
   Expected: `validate: N rows, 0 errors`, exit 0.
 
 - [ ] **Step 5: Migration gate** — `uv run pytest -m migration -v`
-  Expected: PASS. Any mismatch means a parser bug or a source discrepancy —
-  investigate the specific (election, snapshot) before touching code.
+  Expected: 2 passed (counts match the archive row-for-row; all Nov 2019 rows
+  gained the psov-recovered split). Any mismatch means a parser bug or a
+  source discrepancy — investigate the specific (election, snapshot) before
+  touching code.
 
 - [ ] **Step 6: Derive + artifact** — `uv run sfcount derive && uv run sfcount artifact`
   Expected: per-election summary lines matching the archive's
@@ -1909,7 +2155,9 @@ ingests the structured files SF Elections publishes per release —
 `summary.xml` (2019+, Dominion) and `summary.txt` TSV (2008-2018) — instead of
 parsing PDFs. Report timestamps come from HTTP `Last-Modified` headers,
 captured in `data/manifest.csv`. Counts were reconciled row-for-row against
-the PDF-derived archive dataset (`tests/test_reconciliation.py`).
+the PDF-derived archive dataset (`tests/test_reconciliation.py`), and the
+Nov 2019 ED/VBM split — absent from every per-release summary format — was
+recovered from the per-precinct statements of the vote.
 
 ## Usage
 
@@ -1933,10 +2181,14 @@ rerun after certification, then commit `data/` and the artifact.
 ## Data boundaries
 
 - Per-release snapshots exist on sfelections.org only from Nov 2015.
-- The Nov 2019 report format publishes no VBM/election-day split (those rows
-  are blank by design; its XML's per-counting-group figures are per-contest,
-  not citywide). Do not backfill from the eData "returned VBM ballots" tool:
-  returned-and-accepted is not the same measure as counted.
+- The Nov 2019 summary format publishes no VBM/election-day split (its XML's
+  per-counting-group figures are per-contest, not citywide). The split is
+  recovered from `{snap}_psov.xml` — the per-precinct statement of the vote —
+  by summing Voters Cast per counting group across precincts (parser tag
+  `era_c_xml+psov`); a row only gets the recovered split when the precinct
+  sums reconcile exactly with the summary total. Do not backfill from the
+  eData "returned VBM ballots" tool: returned-and-accepted is not the same
+  measure as counted.
 - Nov 2012 is recovered from a single Wayback capture (`parser=archival`),
   excluded from days-to-90 derivation.
 ```

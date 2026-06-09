@@ -28,6 +28,7 @@ at the same snapshot URLs the PDF pipeline used
 | Era | Years | File | Format |
 |---|---|---|---|
 | C | 2019–present | `summary.xml` | Dominion ElectionSummaryReportRPT XML |
+| C | Nov 2019 only | `{snap}_psov.xml` | per-precinct StatementOfVotesCastRPT XML (~27 MB) — source of the ED/VBM split the 2019 summary lacks |
 | B | 2008–2018 (snapshots exist from Nov 2015) | `summary.txt` | TSV, one row per contest/candidate |
 
 Verified facts the design rests on:
@@ -47,6 +48,16 @@ Verified facts the design rests on:
    (`RegistrationAndTurnout` block: registered voters, total voters cast, and
    per-counting-group ED/VBM voter counts) — avoiding the 2019-layout
    "Ballots Cast counts cards" trap the PDF parser had to dodge.
+5. The Nov 2019 `summary.xml` carries no citywide ED/VBM split (its
+   `cgId2`/`ballotsTextBox` figures are per-contest: they sum to 190,500, not
+   the 190,504 report total). The split lives in the per-precinct statement
+   of the vote, `{snap}_psov.xml` (`StatementOfVotesCastRPT`): summing Voters
+   Cast (`ballots4` — not the `ballots*` card counts) per counting group
+   across the turnout table's 475 precincts gives ED = 45,594 and
+   VBM = 144,910, reconciling **exactly** with the 190,504 summary total
+   (verified on the 2019-11-08 snapshot). The cumulative section at the
+   bottom of that sheet has no ED/VBM breakdown — summation across precincts
+   is required.
 
 ## Repo layout
 
@@ -76,10 +87,12 @@ sf-election-count/
 suffixes `{date}_1` … `{date}_6`, then daily candidates election day through
 election day + 35; probe-miss cache on disk makes reruns free; rate-limited
 with a polite User-Agent; never re-download an existing file. Downloads
-`summary.xml` or `summary.txt` per the election's era. The manifest gains a
-`last_modified` column captured from the response header at download time.
-Misses for future report dates of an ongoing count are not cached as
-permanent.
+`summary.xml` or `summary.txt` per the election's era. For the Nov 2019
+election (the only Era C election whose summary lacks the ED/VBM split), it
+also downloads `{snap}_psov.xml` for every snapshot whose summary was found.
+The manifest gains a `last_modified` column captured from the response header
+at download time. Misses for future report dates of an ongoing count are not
+cached as permanent.
 
 **Timestamps.** `report_datetime` = `Last-Modified` converted to
 America/Los_Angeles via stdlib `zoneinfo`. New `datetime_source` column
@@ -89,10 +102,20 @@ header timestamp (if any) fall back to the folder date, tagged accordingly.
 **Era C parser.** Pure function: XML text in → record out. From the
 `RegistrationAndTurnout` block: total ballots cast (voters), registered
 voters, ED/VBM split from the per-counting-group details. Uses voters
-attributes, never cards attributes. Implementation must check whether the
-Nov 2019 XML carries the ED/VBM split its PDF lacked — if so, those 13
-previously-blank rows get recovered (a strict improvement over the archive;
-the reconciliation gate treats it as such, not as a mismatch).
+attributes, never cards attributes. For the 2019 layout (no
+`RegistrationAndTurnout` block) it falls back to the
+"Registered Voters: N of M" headline, leaving the split null.
+
+**Era C psov parser (Nov 2019 split recovery).** A second pure function over
+`{snap}_psov.xml`: sums Voters Cast (`ballots4`) per counting group
+("Election Day" / "Vote by Mail") across the precinct rows of the turnout
+table (the `Tablix2` with `Textbox1003="Precinct"` — later per-contest
+sections reuse the same row element names and must be excluded). The parse
+stage fills a null split from the psov **only if ED + VBM equals the
+summary's total exactly**; a mismatch is recorded as a parse failure and the
+split stays blank. Recovered rows get parser tag `era_c_xml+psov` — those 13
+rows are a strict improvement over the archive (the PDFs had no split), and
+the reconciliation gate treats them as such, not as a mismatch.
 
 **Era B parser.** Pure function over TSV. Selects rows where contest is
 `Registration & Turnout` and the party field is empty (citywide block):
@@ -133,8 +156,9 @@ rules currently buried in the hand-built array:
 - regeneration is idempotent
 
 **Output schema.** Same columns as the archive's `sf_count_timeline.csv`
-plus `datetime_source`. Parser tags: `era_c_xml`, `era_b_tsv`, `archival`.
-`source_url` points at the xml/txt file actually parsed.
+plus `datetime_source`. Parser tags: `era_c_xml`, `era_c_xml+psov`,
+`era_b_tsv`, `archival`. `source_url` points at the xml/txt file actually
+parsed.
 
 ## TDD and test strategy
 
@@ -147,6 +171,9 @@ to green, refactor.
 - Era B primary: Jun 2016 snapshot `summary.txt` (per-party + citywide blocks)
 - Era C current: Nov 2024 snapshot `summary.xml`
 - Era C early variant: Nov 2019 snapshot `summary.xml`
+- Era C psov: Nov 2019 snapshot `{snap}_psov.xml`, trimmed to its turnout
+  table (~590 KB of the 27 MB file; the trim preserves the exact precinct
+  sums — verified ED 45,594 / VBM 144,910)
 - One election-night (`_1`) snapshot
 
 **Test layers:**
@@ -167,8 +194,10 @@ resumable), every ballot count (`ballots_counted_total`, `ballots_vbm`,
 the archive's PDF-derived `sf_count_timeline.csv` exactly — two independent
 source formats agreeing row for row. Expected, documented differences:
 `report_datetime` shifts by minutes (header time vs. PDF-internal render
-time); Nov 2019 rows may gain a previously-unavailable ED/VBM split. After
-the gate passes, the committed `data/` CSVs become the regression baseline.
+time); Nov 2019 rows **gain** the ED/VBM split the PDFs never published
+(recovered from psov precinct sums, enforced by a dedicated migration test).
+After the gate passes, the committed `data/` CSVs become the regression
+baseline.
 
 ## Out of scope this round
 
@@ -189,3 +218,6 @@ the gate passes, the committed `data/` CSVs become the regression baseline.
 - Approach: single structured-file pipeline with one-time reconciliation
   against the PDF-derived archive CSV, not a permanent dual pipeline
   (user, 2026-06-09)
+- Nov 2019 ED/VBM split recovered from the per-precinct SOV files
+  (`{snap}_psov.xml`), summing Voters Cast across precincts; the summary's
+  cumulative section has no ED/VBM breakdown (user, 2026-06-09)
