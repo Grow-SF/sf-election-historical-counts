@@ -14,13 +14,24 @@ Two layers, both in this repo:
 1. **`data/sf_count_timeline.csv`** — every per-release results report,
    Nov 2015 – present (243 rows, exact release-by-release counts from the
    Department of Elections' own files).
-2. **`data/sf_archival_canvass_points.csv`** — 27 mid-canvass observations for
-   nine elections, Feb 2008 – Nov 2014, recovered from Wayback Machine
-   captures of the DOE's live results pages (plus one OCR'd press-release PDF
-   for Feb 2008). Sparse by nature: each point is a snapshot some crawler
-   happened to take, so pre-2015 crossing days are *brackets*, not exact.
-   Certified finals come from the DOE's still-live legacy pages and, for
-   Feb 2008, the CA Secretary of State's Statement of Vote.
+2. **`data/sf_archival_canvass_points.csv`** — 36 mid-canvass observations for
+   thirteen elections, Mar 2002 – Nov 2014, recovered from Wayback Machine
+   captures of the DOE's live results pages across four site generations
+   (sfgov.org/election ES&S report pages, the /site/ CMS, sfelections.org,
+   plus one OCR'd press-release PDF for Feb 2008). Sparse by nature: each
+   point is a snapshot some crawler happened to take, so pre-2015 crossing
+   days are *brackets*, not exact. Certified finals come from the DOE's
+   still-live legacy pages, the DOE's own 1960–2002 turnout history
+   (`data/sf_turnout_history_1960_2002.csv`), and the CA Secretary of
+   State's Statements of Vote.
+3. **Recovery limit:** no canvass-progress captures survive for 1995–2001 —
+   the Internet Archive's crawler hit the DOE's Lotus Domino results system
+   only between elections (all 57 recovered documents carry stale Nov 1998
+   stamps), and the Nov/Dec 2003 CMS result pages were never captured
+   mid-canvass. Those years are recoverable only from DOE internal records
+   (request pending). The DOE's certified result datasets for every election
+   Nov 1995 – Nov 2002 were recovered (`mirror/doe-archives/`) along with
+   its official turnout history back to 1960.
 
 Raw captures are mirrored (CDN hosting planned; not in git). The committed
 `data/mirror_manifest.csv` maps every mirrored file to its source memento URL
@@ -30,6 +41,8 @@ and SHA-256, so the mirror is independently verifiable.
 
 | General | counted by election night | days to 80% | days to 90% | days to 98% |
 |---|---|---|---|---|
+| 2002 | — | ≤9 | ≤9 | ≤9 (99.8% on day 9) |
+| 2004 | **74.9%** | 0–13 | 0–13 | 13–28 |
 | 2010 | — | 3–5 | >5 | — |
 | 2012 | **71.4%** | **3** | 6–8 | — |
 | 2014 | **70.3%** | 2–13 (capture gap) | 2–13 | — |
@@ -43,10 +56,13 @@ and SHA-256, so the mirror is independently verifiable.
 were pre-processed, so election night covered nearly everything. It is the
 exception that proves the mechanism.
 
-Other recovered elections: Feb 2008 presidential primary (81.4% of final by
+Other recovered elections: Mar 2002 primary (certified 150,249); Nov 2005
+municipal (92.4% by day 13); Feb 2008 presidential primary (81.4% of final by
 day 6 — a slow front even then, at 64.75% turnout); Jun 2010 primary (71.5%
 by day 2); Nov 2011 municipal (90% crossed on day 2); Jun 2012 (≥94% by day
-2); Nov 2013 (≥95% by day 3); Jun 2014 (≥96% by day 3).
+2); Nov 2013 (≥95% by day 3); Jun 2014 (≥96% by day 3). Nov 2002 stands out:
+100% of precincts and 99.8% of the final count reported by day 9, in the
+punch-card era with absentees around a third of the vote.
 
 ## Findings
 
@@ -56,7 +72,8 @@ by day 2); Nov 2011 municipal (90% crossed on day 2); Jun 2012 (≥94% by day
    days) sit squarely in the modern range (2024 general: 6; 2019 municipal: 3).
 
 2. **The election-night share has fallen hard — this is the real trend.**
-   Generals: ~70–71% (2012, 2014) → 66% (2016) → 51–57% (2022, 2024).
+   Generals: 74.9% (2004) → ~70–71% (2012, 2014) → 66% (2016) → 59% (2018)
+   → 51–57% (2022, 2024). A near-monotone twenty-year decline of ~20 points.
    Driver: VBM share of the vote keeps rising, and California accepts mail
    ballots postmarked by election day for 7 days after; signature
    verification means those simply cannot appear in night-one releases.
