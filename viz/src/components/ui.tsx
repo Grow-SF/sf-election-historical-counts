@@ -74,6 +74,32 @@ export function FitBadge({
   );
 }
 
+/** Tooltip anchored to a chart point (chart-pixel coords from a custom shape). */
+export function PointTooltip({
+  cx,
+  cy,
+  children,
+}: {
+  cx: number;
+  cy: number;
+  children: React.ReactNode;
+}) {
+  const flip = cy < 110;
+  return (
+    <div
+      className="pointer-events-none absolute z-10 border border-ink bg-paper px-3 py-2 text-sm shadow"
+      style={{
+        left: cx,
+        top: cy + (flip ? 14 : -14),
+        transform: `translate(-50%, ${flip ? "0" : "-100%"})`,
+        maxWidth: 260,
+      }}
+    >
+      {children}
+    </div>
+  );
+}
+
 export function ChartFrame({
   children,
   note,

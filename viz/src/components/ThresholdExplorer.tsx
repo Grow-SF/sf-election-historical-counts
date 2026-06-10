@@ -1,12 +1,11 @@
 "use client";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import {
   CartesianGrid,
   ComposedChart,
   Line,
   ResponsiveContainer,
   Scatter,
-  Tooltip,
   XAxis,
   YAxis,
 } from "recharts";
@@ -17,7 +16,7 @@ import {
   THRESHOLDS,
   yearFrac,
 } from "@/lib/data";
-import { ChartFrame, FitBadge } from "@/components/ui";
+import { ChartFrame, FitBadge, PointTooltip } from "@/components/ui";
 
 type Pt = {
   x: number;
@@ -29,39 +28,6 @@ type Pt = {
   provisional: boolean;
 };
 
-function DaysTooltip({
-  active,
-  payload,
-  threshold,
-}: {
-  active?: boolean;
-  payload?: { payload: Pt }[];
-  threshold: number;
-}) {
-  if (!active || !payload?.length) return null;
-  const p = payload[0].payload;
-  if (p.id === undefined) return null;
-  return (
-    <div className="border border-ink bg-paper px-3 py-2 text-sm shadow">
-      <div className="smallcaps" style={{ color: KIND_COLOR[p.kind] }}>
-        {p.kind}
-        {p.source === "archival" ? " · archival" : ""}
-        {p.provisional ? " · count ongoing" : ""}
-      </div>
-      <div className="font-semibold">{p.id}</div>
-      <div className="stat-figure">
-        {p.bound ? "≤ " : ""}
-        {p.y} day{p.y === 1 ? "" : "s"} to reach {threshold}%
-      </div>
-      {p.bound && (
-        <div className="text-xs italic text-faint">
-          upper bound (crossed by day {p.y} at the latest) — sparse archive captures
-        </div>
-      )}
-    </div>
-  );
-}
-
 export default function ThresholdExplorer({
   elections,
   threshold,
@@ -71,6 +37,7 @@ export default function ThresholdExplorer({
   threshold: number;
   setThreshold: (t: number) => void;
 }) {
+  const [hover, setHover] = useState<{ cx: number; cy: number; p: Pt } | null>(null);
   const { pts, fit } = useMemo(() => {
     const pts: Pt[] = [];
     for (const e of elections) {
@@ -133,6 +100,26 @@ export default function ThresholdExplorer({
           </>
         }
       >
+        <div className="relative">
+          {hover && (
+            <PointTooltip cx={hover.cx} cy={hover.cy}>
+              <div className="smallcaps" style={{ color: KIND_COLOR[hover.p.kind] }}>
+                {hover.p.kind}
+                {hover.p.source === "archival" ? " · archival" : ""}
+                {hover.p.provisional ? " · count ongoing" : ""}
+              </div>
+              <div className="font-semibold">{hover.p.id}</div>
+              <div className="stat-figure">
+                {hover.p.bound ? "≤ " : ""}
+                {hover.p.y} day{hover.p.y === 1 ? "" : "s"} to reach {threshold}%
+              </div>
+              {hover.p.bound && (
+                <div className="text-xs italic text-faint">
+                  upper bound — crossed by day {hover.p.y} at the latest
+                </div>
+              )}
+            </PointTooltip>
+          )}
         <ResponsiveContainer width="100%" height={360}>
           <ComposedChart margin={{ top: 12, right: 20, bottom: 8, left: 0 }}>
             <CartesianGrid stroke="var(--color-rule)" strokeDasharray="2 4" />
@@ -161,10 +148,6 @@ export default function ThresholdExplorer({
                 style: { fontFamily: "var(--font-mono)", fontSize: 10, fill: "var(--color-faint)" },
               }}
             />
-            <Tooltip
-              content={<DaysTooltip threshold={threshold} />}
-              isAnimationActive={false}
-            />
             {trend && (
               <Line
                 data={trend}
@@ -186,27 +169,34 @@ export default function ThresholdExplorer({
                   payload: Pt;
                 };
                 const c = KIND_COLOR[payload.kind];
+                const common = {
+                  onMouseEnter: () => setHover({ cx, cy, p: payload }),
+                  onMouseLeave: () => setHover(null),
+                  style: { cursor: "pointer" },
+                };
                 if (payload.bound) {
                   // downward open triangle: the crossing is at or before this day
                   return (
                     <path
-                      d={`M ${cx - 5.5} ${cy - 4.5} L ${cx + 5.5} ${cy - 4.5} L ${cx} ${cy + 5} Z`}
+                      d={`M ${cx - 6} ${cy - 5} L ${cx + 6} ${cy - 5} L ${cx} ${cy + 5.5} Z`}
                       fill="var(--color-paper)"
                       stroke={c}
                       strokeWidth={1.8}
+                      {...common}
                     />
                   );
                 }
                 if (payload.provisional) {
                   return (
-                    <circle cx={cx} cy={cy} r={5} fill="var(--color-paper)" stroke={c} strokeWidth={1.8} strokeDasharray="2 2" />
+                    <circle cx={cx} cy={cy} r={6} fill="var(--color-paper)" stroke={c} strokeWidth={1.8} strokeDasharray="2 2" {...common} />
                   );
                 }
-                return <circle cx={cx} cy={cy} r={5.5} fill={c} />;
+                return <circle cx={cx} cy={cy} r={6.5} fill={c} {...common} />;
               }}
             />
           </ComposedChart>
         </ResponsiveContainer>
+        </div>
       </ChartFrame>
     </div>
   );
