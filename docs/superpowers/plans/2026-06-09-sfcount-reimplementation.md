@@ -221,7 +221,7 @@ EOF
 grep -c 'ballots3="289135"' tests/fixtures/era_c_modern.xml        # expect 1
 grep -c 'ballots3="197108"' tests/fixtures/era_c_night.xml         # expect 1
 grep -c 'Registered Voters: 190504 of 495050' tests/fixtures/era_c_2019.xml  # expect 1
-grep -c 'pdName pdName="PCT' tests/fixtures/era_c_2019_psov_turnout.xml      # expect 475
+grep -o 'pdName pdName="PCT' tests/fixtures/era_c_2019_psov_turnout.xml | wc -l  # expect ~475 (file is one line; grep -c counts lines)
 head -1 tests/fixtures/era_b_general.txt | grep -c CONTEST_ID      # expect 1
 head -1 tests/fixtures/era_b_primary.txt | grep -c CONTEST_ID      # expect 1
 grep -c 'November' tests/fixtures/sfgov_results.html               # expect >0
