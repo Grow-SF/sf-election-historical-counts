@@ -37,6 +37,13 @@ def test_certified_finals():
     assert check_certified([row(edate="2026-06-02", total="5")]) == []
 
 
+def test_certified_elections_must_be_present_when_required():
+    # a dataset that silently LOST a certified election must fail the gate
+    rows = [row(total="412231")]  # only 2024-11-05 present
+    assert check_certified(rows, require_all=True)
+    assert check_certified(rows) == []  # partial row sets stay valid by default
+
+
 def test_validate_rows_aggregates():
     rows = [row(snap="a", total="100", vbm="60", ed="41")]
     errs = validate_rows(rows)
