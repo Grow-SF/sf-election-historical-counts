@@ -126,8 +126,8 @@ def main():
               "snap": ""}
              for r in rs), key=lambda r: r["dt"])
         final = int(rs[0]["certified_final"])
-        night_rows = [r for r in rows
-                      if r["dt"].date() <= edate + dt.timedelta(days=1)]
+        cutoff = dt.datetime.combine(edate + dt.timedelta(days=1), dt.time(6, 0))
+        night_rows = [r for r in rows if r["dt"] <= cutoff]
         night = max((r["total"] for r in night_rows), default=None)
         fin = max(rows, key=lambda r: r["total"])
         elections[e] = {
@@ -187,6 +187,37 @@ def main():
     H = OUT.parent / "vbm_history.json"
     H.write_text(json.dumps(hist, indent=1))
     print(f"{len(hist)} VBM-share points -> {H}")
+
+    # ---- election-night floor: the non-absentee (precinct) share of the
+    # certified total. Precinct ballots were reported on election night, so
+    # this bounds the night share from below - tightest exactly where no
+    # canvass data survives (validated <= actual in all 20 known cases).
+    floor = {}
+    with open(ROOT / "data" / "sf_turnout_history_1960_2002.csv", newline="") as f:
+        for r in csv.DictReader(f):
+            if r["absentee"] in ("n/a", ""):
+                continue
+            m, d, y = r["date"].split("/")
+            year = int(y) + (1900 if int(y) >= 60 else 2000)
+            date = f"{year}-{m}-{d}"
+            total = int(r["ballots_cast"].replace(",", ""))
+            prec = int(r["precinct"].replace(",", ""))
+            floor[date] = {"date": date, "floorPct": round(100 * prec / total, 1),
+                           "source": "doe-turnout-history"}
+    with open(ROOT / "data" / "sf_vbm_share_sos.csv", newline="") as f:
+        for r in csv.DictReader(f):
+            floor[r["election_date"]] = {
+                "date": r["election_date"],
+                "floorPct": round(100 * int(r["ballots_polling"]) / int(r["ballots_total"]), 1),
+                "source": "certified-sov"}
+    for e in out:
+        if e["vbmShare"] is not None and e["id"] not in floor:
+            floor[e["id"]] = {"date": e["id"], "floorPct": round(100 - e["vbmShare"], 1),
+                              "source": e["source"]}
+    fl = sorted(floor.values(), key=lambda x: x["date"])
+    F = OUT.parent / "night_floor.json"
+    F.write_text(json.dumps(fl, indent=1))
+    print(f"{len(fl)} night-floor points -> {F}")
 
 
 if __name__ == "__main__":

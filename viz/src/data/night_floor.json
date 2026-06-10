@@ -1,0 +1,477 @@
+[
+ {
+  "date": "1964-11-03",
+  "floorPct": 94.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1968-11-05",
+  "floorPct": 93.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1972-06-06",
+  "floorPct": 92.9,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1972-11-07",
+  "floorPct": 91.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1973-11-06",
+  "floorPct": 94.0,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1974-06-04",
+  "floorPct": 92.9,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1974-11-05",
+  "floorPct": 93.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1975-11-04",
+  "floorPct": 95.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1975-12-11",
+  "floorPct": 95.0,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1976-06-08",
+  "floorPct": 91.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1976-11-02",
+  "floorPct": 91.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1977-08-02",
+  "floorPct": 90.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1977-11-08",
+  "floorPct": 92.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1978-06-06",
+  "floorPct": 91.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1978-11-07",
+  "floorPct": 90.5,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1979-11-06",
+  "floorPct": 92.9,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1979-12-11",
+  "floorPct": 90.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1980-06-03",
+  "floorPct": 92.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1980-08-19",
+  "floorPct": 85.1,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1980-11-04",
+  "floorPct": 88.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1981-11-03",
+  "floorPct": 89.1,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1982-06-08",
+  "floorPct": 88.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1982-11-02",
+  "floorPct": 88.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1983-04-26",
+  "floorPct": 64.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1983-11-08",
+  "floorPct": 82.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1984-06-05",
+  "floorPct": 83.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1984-11-06",
+  "floorPct": 85.1,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1985-11-05",
+  "floorPct": 78.3,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1986-06-03",
+  "floorPct": 85.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1986-11-04",
+  "floorPct": 85.3,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1987-04-07",
+  "floorPct": 72.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1987-06-02",
+  "floorPct": 62.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1987-11-03",
+  "floorPct": 80.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1987-12-08",
+  "floorPct": 73.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1988-06-07",
+  "floorPct": 84.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1988-11-08",
+  "floorPct": 71.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1989-11-07",
+  "floorPct": 79.5,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1990-06-05",
+  "floorPct": 75.3,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1990-11-06",
+  "floorPct": 76.7,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1991-11-05",
+  "floorPct": 77.7,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1991-12-10",
+  "floorPct": 66.7,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1992-06-02",
+  "floorPct": 78.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1992-11-03",
+  "floorPct": 77.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1993-06-15",
+  "floorPct": 59.1,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1993-11-02",
+  "floorPct": 71.7,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1994-06-07",
+  "floorPct": 72.7,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1994-11-08",
+  "floorPct": 70.3,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1995-11-07",
+  "floorPct": 70.1,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1995-12-12",
+  "floorPct": 65.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1996-03-26",
+  "floorPct": 71.1,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1996-11-05",
+  "floorPct": 74.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1997-06-03",
+  "floorPct": 72.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1997-11-04",
+  "floorPct": 69.5,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1998-06-02",
+  "floorPct": 69.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1998-11-03",
+  "floorPct": 73.3,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1999-11-02",
+  "floorPct": 74.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1999-12-14",
+  "floorPct": 67.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "2000-03-07",
+  "floorPct": 74.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "2000-11-07",
+  "floorPct": 74.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "2000-12-12",
+  "floorPct": 63.0,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "2001-11-06",
+  "floorPct": 72.3,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "2002-03-05",
+  "floorPct": 65.7,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2002-11-05",
+  "floorPct": 70.9,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2004-03-02",
+  "floorPct": 62.9,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2004-11-02",
+  "floorPct": 62.6,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2005-11-08",
+  "floorPct": 59.6,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2006-06-06",
+  "floorPct": 51.9,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2006-11-07",
+  "floorPct": 57.3,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2008-02-05",
+  "floorPct": 59.1,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2008-06-03",
+  "floorPct": 48.2,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2008-11-04",
+  "floorPct": 54.0,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2010-06-08",
+  "floorPct": 40.9,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2010-11-02",
+  "floorPct": 49.7,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2012-06-05",
+  "floorPct": 34.3,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2012-11-06",
+  "floorPct": 47.1,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2013-11-05",
+  "floorPct": 33.8,
+  "source": "archival"
+ },
+ {
+  "date": "2014-06-03",
+  "floorPct": 30.5,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2014-11-04",
+  "floorPct": 41.1,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2015-11-03",
+  "floorPct": 38.1,
+  "source": "exact"
+ },
+ {
+  "date": "2016-06-07",
+  "floorPct": 39.6,
+  "source": "exact"
+ },
+ {
+  "date": "2016-11-08",
+  "floorPct": 36.5,
+  "source": "exact"
+ },
+ {
+  "date": "2018-06-05",
+  "floorPct": 35.4,
+  "source": "exact"
+ },
+ {
+  "date": "2018-11-06",
+  "floorPct": 34.3,
+  "source": "exact"
+ },
+ {
+  "date": "2020-03-03",
+  "floorPct": 35.1,
+  "source": "exact"
+ },
+ {
+  "date": "2020-11-03",
+  "floorPct": 8.5,
+  "source": "exact"
+ },
+ {
+  "date": "2021-09-14",
+  "floorPct": 8.5,
+  "source": "exact"
+ },
+ {
+  "date": "2022-02-15",
+  "floorPct": 6.6,
+  "source": "exact"
+ },
+ {
+  "date": "2022-04-19",
+  "floorPct": 4.7,
+  "source": "exact"
+ },
+ {
+  "date": "2022-06-07",
+  "floorPct": 9.7,
+  "source": "exact"
+ },
+ {
+  "date": "2022-11-08",
+  "floorPct": 11.5,
+  "source": "exact"
+ },
+ {
+  "date": "2024-03-05",
+  "floorPct": 12.0,
+  "source": "exact"
+ },
+ {
+  "date": "2024-11-05",
+  "floorPct": 14.2,
+  "source": "exact"
+ },
+ {
+  "date": "2025-09-16",
+  "floorPct": 5.4,
+  "source": "exact"
+ },
+ {
+  "date": "2025-11-04",
+  "floorPct": 9.6,
+  "source": "exact"
+ },
+ {
+  "date": "2026-06-02",
+  "floorPct": 9.4,
+  "source": "exact"
+ }
+]

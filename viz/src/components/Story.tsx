@@ -115,9 +115,11 @@ export default function Story() {
         title="Election night tells you less every cycle"
         intro={
           <p>
-            In 2004, three quarters of San Francisco’s final vote was public by
-            midnight. Twenty years later, barely half is. The decline is the
-            one robust trend in this data — and it isn’t about counting speed.
+            In 1964, election night could deliver 94% of the vote by simple
+            arithmetic — almost nobody voted absentee. In 2004, three quarters
+            of San Francisco’s final vote was public by midnight. Twenty years
+            later, barely half is. The decline is the one robust trend in this
+            data — and it isn’t about counting speed.
             Specials and recalls are small and noisy —{" "}
             <button
               onClick={() => update({ kinds: new Set(["General"]) })}
@@ -129,7 +131,7 @@ export default function Story() {
           </p>
         }
       >
-        <NightShareChart elections={elections} />
+        <NightShareChart elections={elections} from={state.from} to={state.to} />
       </Section>
 
       <Section

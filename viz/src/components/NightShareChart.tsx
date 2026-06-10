@@ -9,7 +9,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { Election, Fit, KIND_COLOR, linearFit, yearFrac } from "@/lib/data";
+import { Election, Fit, KIND_COLOR, linearFit, NIGHT_FLOOR, yearFrac } from "@/lib/data";
 import { ChartFrame, FitBadge, PointTooltip } from "@/components/ui";
 
 type Pt = {
@@ -23,8 +23,12 @@ type Pt = {
 
 export default function NightShareChart({
   elections,
+  from,
+  to,
 }: {
   elections: Election[];
+  from: number;
+  to: number;
 }) {
   const [hover, setHover] = useState<{ cx: number; cy: number; p: Pt } | null>(null);
 
@@ -43,6 +47,15 @@ export default function NightShareChart({
     return { pts, fit };
   }, [elections]);
 
+  const floorPts = useMemo(
+    () =>
+      NIGHT_FLOOR.filter((p) => {
+        const y = Number(p.date.slice(0, 4));
+        return y >= from && y <= to;
+      }).map((p) => ({ x: yearFrac(p.date), y: p.floorPct, date: p.date })),
+    [from, to],
+  );
+
   const trend =
     fit && [
       { x: fit.x0, y: fit.intercept + fit.slope * fit.x0 },
@@ -55,10 +68,14 @@ export default function NightShareChart({
       <ChartFrame
         note={
           <>
-            Share of the certified final count already reported by the end of
-            election night. Hollow points are web-archive recoveries
-            (2002–2014); 2020–21 ran high because pandemic-era mail ballots
-            arrived weeks early. Ongoing counts are excluded.
+            Colored points: share of the certified final already reported by
+            the end of election night (hollow = web-archive recoveries; trend
+            fit uses these only). Small grey diamonds: the{" "}
+            <strong>election-night floor</strong> — the non-absentee share of
+            each certified count, 1964–present. Precinct ballots were reported
+            on election night, so the night share can never sit below its
+            diamond; in 1964 the floor alone was 94%. 2020–21 ran high because
+            pandemic-era mail arrived weeks early. Ongoing counts excluded.
           </>
         }
       >
@@ -90,15 +107,31 @@ export default function NightShareChart({
               <YAxis
                 type="number"
                 dataKey="y"
-                domain={[30, 100]}
-                ticks={[30, 40, 50, 60, 70, 80, 90, 100]}
+                domain={[0, 100]}
+                ticks={[0, 20, 40, 60, 80, 100]}
                 tickFormatter={(v: number) => `${v}%`}
                 tick={{ fontFamily: "var(--font-mono)", fontSize: 11, fill: "var(--color-faint)" }}
                 stroke="var(--color-faint)"
                 tickLine={false}
                 width={48}
               />
-              {trend && (
+              <Scatter
+              data={floorPts}
+              isAnimationActive={false}
+              shape={(props: unknown) => {
+                const { cx, cy } = props as { cx: number; cy: number };
+                return (
+                  <path
+                    d={`M ${cx} ${cy - 4} L ${cx + 4} ${cy} L ${cx} ${cy + 4} L ${cx - 4} ${cy} Z`}
+                    fill="none"
+                    stroke="var(--color-faint)"
+                    strokeWidth={1.2}
+                    opacity={0.75}
+                  />
+                );
+              }}
+            />
+            {trend && (
                 <Line
                   data={trend}
                   dataKey="y"

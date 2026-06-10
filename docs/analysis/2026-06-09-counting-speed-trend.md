@@ -73,25 +73,34 @@ around a third of the vote.
    2010–2014 brackets (2012 general: 6–8 days; 2011/2013 municipals: 2–3
    days) sit squarely in the modern range (2024 general: 6; 2019 municipal: 3).
 
-2. **The election-night share has fallen hard — this is the real trend.**
+2. **The election-night floor (1964–present).** The non-absentee share of
+   each certified count bounds the night share from below — precinct ballots
+   were reported on election night. The floor was 94% in 1964, ~80% through
+   the 1970s–80s, ~65% in the 1990s, ~50% by 2008, and ~10% under universal
+   VBM (validated ≤ the actual night share in all 20 cases where both are
+   known; `data/sf_night_floor_1964_2026.csv`). Even with zero canvass
+   records before 2001, arithmetic alone proves election night once delivered
+   nearly the whole count.
+
+3. **The election-night share has fallen hard — this is the real trend.**
    Generals: 74.9% (2004) → ~70–71% (2012, 2014) → 66% (2016) → 59% (2018)
    → 51–57% (2022, 2024). A near-monotone twenty-year decline of ~20 points.
    Driver: VBM share of the vote keeps rising, and California accepts mail
    ballots postmarked by election day for 7 days after; signature
    verification means those simply cannot appear in night-one releases.
 
-3. **The early canvass (to 80%) slowed relative to 2011–2014, but that era
+4. **The early canvass (to 80%) slowed relative to 2011–2014, but that era
    was the historical fast patch, not the baseline.** Nov 2012 hit 80% on
    day 3; modern generals take 5–7 days. But Feb 2008 took ~6 days to 80%,
    like today. The 2011–2014 period — VBM around half the vote, most of it
    arriving *before* election day — was the sweet spot where mail could be
    pre-processed and election-day volume was small.
 
-4. **The slow tail has not lengthened.** Days from 90% to 98% is stable to
+5. **The slow tail has not lengthened.** Days from 90% to 98% is stable to
    slightly improving in the modern data. Once late mail is in hand, the DOE
    clears it as fast as it ever has.
 
-5. **Perception check.** Two recent artifacts feed the "it's getting slower"
+6. **Perception check.** Two recent artifacts feed the "it's getting slower"
    feeling: (a) less is known on election night (real, structural, not a
    counting-speed problem); (b) Nov 2025 shows days-to-90 = 13, the worst in
    the dataset — but the count stood at 89.9% on day 6 and the DOE simply

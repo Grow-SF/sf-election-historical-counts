@@ -1,5 +1,6 @@
 import elections from "@/data/elections.json";
 import vbmHistory from "@/data/vbm_history.json";
+import nightFloor from "@/data/night_floor.json";
 
 export type Threshold = { days: number; bound: boolean };
 
@@ -21,13 +22,19 @@ export type Election = {
 
 export type VbmPoint = { date: string; share: number; source: string };
 
+export type FloorPoint = { date: string; floorPct: number; source: string };
+
 export const ELECTIONS = elections as unknown as Election[];
 export const VBM_HISTORY = vbmHistory as VbmPoint[];
+export const NIGHT_FLOOR = nightFloor as FloorPoint[];
 
 export const KINDS = ["General", "Primary", "Municipal", "Special", "Recall"] as const;
 export const THRESHOLDS = [50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 98, 99];
 
-export const YEAR_MIN = Math.min(...ELECTIONS.map((e) => e.year));
+export const YEAR_MIN = Math.min(
+  ...ELECTIONS.map((e) => e.year),
+  ...NIGHT_FLOOR.map((p) => Number(p.date.slice(0, 4))),
+);
 export const YEAR_MAX = Math.max(...ELECTIONS.map((e) => e.year));
 
 /** Fractional year of an election date, for regression and x-axes. */

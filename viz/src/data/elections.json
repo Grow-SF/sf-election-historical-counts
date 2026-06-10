@@ -652,7 +652,7 @@
   "source": "archival",
   "provisional": false,
   "nReports": 4,
-  "nightPct": 79.6,
+  "nightPct": null,
   "vbmShare": null,
   "pts": [
    [
@@ -1085,7 +1085,7 @@
   "source": "archival",
   "provisional": false,
   "nReports": 5,
-  "nightPct": 74.5,
+  "nightPct": 70.3,
   "vbmShare": 58.9,
   "pts": [
    [
