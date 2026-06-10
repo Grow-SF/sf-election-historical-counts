@@ -25,6 +25,18 @@ def test_extract_elections_from_real_page():
     assert min(seen) >= dt.date(2000, 11, 1)
 
 
+def test_extract_includes_supplemental_elections():
+    # Recently-held elections appear on the sf.gov past-results page only
+    # after certification; SUPPLEMENTAL covers the gap.
+    seen = extract_elections("")
+    assert seen[dt.date(2026, 6, 2)] == "Consolidated Statewide Direct Primary Election"
+
+
+def test_page_listing_overrides_supplemental():
+    html = 'June 2, 2026, Renamed Primary Election<'
+    assert extract_elections(html)[dt.date(2026, 6, 2)] == "Renamed Primary Election"
+
+
 def test_write_and_load_roundtrip(tmp_path):
     seen = {
         dt.date(2016, 11, 8): "Consolidated General Election",

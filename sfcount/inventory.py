@@ -16,6 +16,13 @@ ELECTION_RE = re.compile(
     r"(January|February|March|April|May|June|July|August|September|October|November|December)"
     r"\s+(\d{1,2}),\s+(\d{4})[, ]*([^\\<]{0,70}?Election[^\\<]{0,30}?)(?:\\u003c|<)")
 
+# Elections already underway on sfelections.org but not yet listed on the
+# sf.gov past-results page (it adds elections only after certification).
+# Page listings override these once they appear.
+SUPPLEMENTAL_ELECTIONS = {
+    dt.date(2026, 6, 2): "Consolidated Statewide Direct Primary Election",
+}
+
 
 def era_for(date: dt.date) -> str:
     if date >= ERA_C_START:
@@ -26,7 +33,7 @@ def era_for(date: dt.date) -> str:
 
 
 def extract_elections(html: str) -> dict[dt.date, str]:
-    seen: dict[dt.date, str] = {}
+    seen: dict[dt.date, str] = dict(SUPPLEMENTAL_ELECTIONS)
     for month, day, year, name in ELECTION_RE.findall(html):
         date = dt.date(int(year), MONTHS[month], int(day))
         name = re.sub(r"\s+", " ", name).strip(" ,").removesuffix(" Results")
