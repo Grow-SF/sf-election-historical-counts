@@ -47,3 +47,10 @@ def test_era_c_rejects_non_xml():
 def test_era_c_rejects_xml_without_turnout():
     with pytest.raises(ParseError):
         parse_era_c_xml("<?xml version='1.0'?><Report></Report>")
+
+
+def test_era_c_rejects_turnout_block_with_missing_attributes():
+    # a truncated/corrupt download must raise ParseError, never TypeError
+    broken = '<Report><electorGroupId2 electorGroupId2="Total" ballots3="5" /></Report>'
+    with pytest.raises(ParseError):
+        parse_era_c_xml(broken)  # Textbox32 missing

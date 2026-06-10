@@ -14,6 +14,13 @@ class ParseError(ValueError):
     """The file is not a recognizable summary report."""
 
 
+def _int_attr(element, name: str) -> int:
+    value = element.get(name)
+    if value is None:
+        raise ParseError(f"turnout block missing attribute {name!r}")
+    return int(value)
+
+
 @dataclass(frozen=True)
 class TurnoutRecord:
     ballots_counted_total: int
@@ -34,12 +41,12 @@ def parse_era_c_xml(text: str) -> TurnoutRecord:
         if eg.get("electorGroupId2") != "Total":
             continue
         groups = {
-            d.get("countingGroup1"): int(d.get("Textbox171"))
+            d.get("countingGroup1"): _int_attr(d, "Textbox171")
             for d in eg.findall(".//{*}Details1")
         }
         return TurnoutRecord(
-            ballots_counted_total=int(eg.get("ballots3")),
-            registered_voters=int(eg.get("Textbox32")),
+            ballots_counted_total=_int_attr(eg, "ballots3"),
+            registered_voters=_int_attr(eg, "Textbox32"),
             ballots_vbm=groups.get("Vote by Mail"),
             ballots_election_day=groups.get("Election Day"),
         )
