@@ -2,13 +2,19 @@ from pathlib import Path
 
 import pytest
 
-from sfcount.parsers import ParseError, TurnoutRecord, parse_era_c_xml
+from sfcount.parsers import ParseError, TurnoutRecord, parse_era_b_tsv, parse_era_c_xml
 
 FIXTURES = Path(__file__).parent / "fixtures"
 
 
 def read(name: str) -> str:
-    return (FIXTURES / name).read_text(encoding="utf-8-sig")
+    path = FIXTURES / name
+    # Era B summary.txt files were exported as Windows-1252/Latin-1;
+    # Era C XML files are UTF-8 (possibly with BOM). Try UTF-8 first.
+    try:
+        return path.read_text(encoding="utf-8-sig")
+    except UnicodeDecodeError:
+        return path.read_text(encoding="latin-1")
 
 
 def test_era_c_modern():
@@ -54,3 +60,36 @@ def test_era_c_rejects_turnout_block_with_missing_attributes():
     broken = '<Report><electorGroupId2 electorGroupId2="Total" ballots3="5" /></Report>'
     with pytest.raises(ParseError):
         parse_era_c_xml(broken)  # Textbox32 missing
+
+
+def test_era_b_general():
+    rec = parse_era_b_tsv(read("era_b_general.txt"))
+    assert rec == TurnoutRecord(
+        ballots_counted_total=283049,
+        registered_voters=513573,
+        ballots_vbm=151149,
+        ballots_election_day=131900,
+    )
+
+
+def test_era_b_primary_uses_citywide_block_not_party_blocks():
+    rec = parse_era_b_tsv(read("era_b_primary.txt"))
+    assert rec == TurnoutRecord(
+        ballots_counted_total=225014,
+        registered_voters=468238,
+        ballots_vbm=135794,
+        ballots_election_day=89220,
+    )
+
+
+def test_era_b_rejects_non_tsv():
+    with pytest.raises(ParseError):
+        parse_era_b_tsv("<html>404</html>")
+    with pytest.raises(ParseError):
+        parse_era_b_tsv("")
+
+
+def test_era_b_rejects_tsv_without_turnout_rows():
+    header = "CONTEST_ID\tTOTAL\tCONTEST_FULL_NAME\tCANDIDATE_FULL_NAME\tCONTEST_TOTAL\n"
+    with pytest.raises(ParseError):
+        parse_era_b_tsv(header + "1\t5\tMayor\tALICE\t10\n")
