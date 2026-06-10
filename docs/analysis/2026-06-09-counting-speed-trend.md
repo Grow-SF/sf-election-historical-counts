@@ -57,12 +57,14 @@ were pre-processed, so election night covered nearly everything. It is the
 exception that proves the mechanism.
 
 Other recovered elections: Mar 2002 primary (certified 150,249); Nov 2005
-municipal (92.4% by day 13); Feb 2008 presidential primary (81.4% of final by
-day 6 — a slow front even then, at 64.75% turnout); Jun 2010 primary (71.5%
-by day 2); Nov 2011 municipal (90% crossed on day 2); Jun 2012 (≥94% by day
-2); Nov 2013 (≥95% by day 3); Jun 2014 (≥96% by day 3). Nov 2002 stands out:
-100% of precincts and 99.8% of the final count reported by day 9, in the
-punch-card era with absentees around a third of the vote.
+municipal (80.1% by day 3 and 92.4% by day 7, from the Department's own
+press-release series — five dated releases recovered intact); Feb 2008
+presidential primary (81.4% of final by day 6 — a slow front even then, at
+64.75% turnout); Jun 2010 primary (71.5% by day 2); Nov 2011 municipal (90%
+crossed on day 2); Jun 2012 (≥94% by day 2); Nov 2013 (≥95% by day 3);
+Jun 2014 (≥96% by day 3). Nov 2002 stands out: 100% of precincts and 99.8%
+of the final count reported by day 9, in the punch-card era with absentees
+around a third of the vote.
 
 ## Findings
 

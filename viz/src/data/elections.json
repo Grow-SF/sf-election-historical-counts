@@ -239,19 +239,31 @@
   "registered": 428481,
   "source": "archival",
   "provisional": false,
-  "nReports": 3,
+  "nReports": 5,
   "nightPct": null,
   "vbmShare": null,
   "pts": [
    [
-    12.8,
+    2.83,
+    80.1,
+    null,
+    null
+   ],
+   [
+    6.83,
     92.4,
     null,
     null
    ],
    [
-    13.81,
-    94.3,
+    13.83,
+    99.0,
+    null,
+    null
+   ],
+   [
+    21.83,
+    100.0,
     null,
     null
    ],
@@ -264,51 +276,51 @@
   ],
   "thresholds": {
    "50": {
-    "days": 13,
+    "days": 3,
     "bound": true
    },
    "55": {
-    "days": 13,
+    "days": 3,
     "bound": true
    },
    "60": {
-    "days": 13,
+    "days": 3,
     "bound": true
    },
    "65": {
-    "days": 13,
+    "days": 3,
     "bound": true
    },
    "70": {
-    "days": 13,
+    "days": 3,
     "bound": true
    },
    "75": {
-    "days": 13,
+    "days": 3,
     "bound": true
    },
    "80": {
-    "days": 13,
+    "days": 3,
     "bound": true
    },
    "85": {
-    "days": 13,
+    "days": 7,
     "bound": true
    },
    "90": {
-    "days": 13,
+    "days": 7,
     "bound": true
    },
    "95": {
-    "days": 27,
+    "days": 14,
     "bound": true
    },
    "98": {
-    "days": 27,
+    "days": 14,
     "bound": true
    },
    "99": {
-    "days": 27,
+    "days": 22,
     "bound": true
    }
   }
