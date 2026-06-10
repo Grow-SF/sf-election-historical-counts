@@ -1,0 +1,168 @@
+CONTEST_ID	CONTEST_ORDER	CANDIDATE_ORDER	TOTAL	CANDIDATE_PARTY_ID	CANDIDATE_ID	VOTE_FOR	CONTEST_TYPE	CANDIDATE_TYPE	TOTAL_PRECINCTS	PROCESSED_DONE	PROCESSED_STARTED	IS_WRITEIN_CANDIDATE	CONTEST_FULL_NAME	CANDIDATE_FULL_NAME	CONTEST_TOTAL	undervote	overvote	IS_WINNER	cf_cand_class	IS_PRECINCT_LEVEL	PRECINCT_NAME	is_visible
+0	-100	1	131900		1	0	-2	0		597	0	0	Registration & Turnout	Election Day Reporting Turnout	513573	0	0	0	candidate	0	 	0
+0	-100	2	151149		2	0	-2	0		597	0	0	Registration & Turnout	VBM Reporting Turnout	513573	0	0	0	candidate	0	 	0
+1	1	1	6325	3	102	1	0	0	597	597	597	0	President and Vice President	GRN - JILL STEIN / AJAMU BARAKA	279406	3265	378	0	candidate	0	 	0
+1	1	2	235633	1	103	1	0	0	597	597	597	0	President and Vice President	DEM - HILLARY CLINTON / TIM KAINE	279406	3265	378	1	winner	0	 	0
+1	1	3	1170	5	104	1	0	0	597	597	597	0	President and Vice President	PF - GLORIA ESTELA LA RIVA / DENNIS J. BANKS	279406	3265	378	0	candidate	0	 	0
+1	1	4	27242	2	105	1	0	0	597	597	597	0	President and Vice President	REP/AI - DONALD J. TRUMP / MICHAEL R. PENCE	279406	3265	378	0	candidate	0	 	0
+1	1	5	5841	4	106	1	0	0	597	597	597	0	President and Vice President	LIB - GARY JOHNSON / BILL WELD	279406	3265	378	0	candidate	0	 	0
+1	1	6	3195		1	1	0	3	597	597	597	1	President and Vice President	WRITE-IN	279406	3265	378	0	candidate	0	 	0
+2	2	1	55961	1	107	1	0	0	597	597	597	0	U.S. Senator	DEM - LORETTA L. SANCHEZ	254356	28405	288	0	candidate	0	 	0
+2	2	2	198395	1	108	1	0	0	597	597	597	0	U.S. Senator	DEM - KAMALA D. HARRIS	254356	28405	288	1	winner	0	 	0
+3	3	1	191147	1	109	1	0	0	522	522	522	0	U.S. Representative, District 12	DEM - NANCY PELOSI	234082	17778	62	1	winner	0	 	0
+3	3	2	42935	6	110	1	0	0	522	522	522	0	U.S. Representative, District 12	NPP - PRESTON PICUS	234082	17778	62	0	candidate	0	 	0
+4	4	1	0	44	111	1	0	0	1	1	1	0	U.S. Representative, District 13	REP - SUE CARO	0	0	0		candidate	0	 	0
+4	4	2	0	1	112	1	0	0	1	1	1	0	U.S. Representative, District 13	DEM - BARBARA LEE	0	0	0		candidate	0	 	0
+5	5	1	23459	1	113	1	0	0	74	74	74	0	U.S. Representative, District 14	DEM - JACKIE SPEIER	28145	2976	6	1	winner	0	 	0
+5	5	2	4686	44	114	1	0	0	74	74	74	0	U.S. Representative, District 14	REP - ANGEL CARDENAS	28145	2976	6	0	candidate	0	 	0
+6	6	1	122029	1	115	1	0	0	597	597	597	0	State Senate, District 11	DEM - JANE KIM	257152	25677	220	0	candidate	0	 	0
+6	6	2	135123	1	116	1	0	0	597	597	597	0	State Senate, District 11	DEM - SCOTT WIENER	257152	25677	220	1	winner	0	 	0
+7	7	1	19063	44	117	1	0	0	346	346	346	0	State Assembly, District 17	REP - MATTHEW DEL CARLO	139106	24274	44	0	candidate	0	 	0
+7	7	2	120043	1	118	1	0	0	346	346	346	0	State Assembly, District 17	DEM - DAVID CHIU	139106	24274	44	1	winner	0	 	0
+8	8	1	82908	1	119	1	0	0	251	251	251	0	State Assembly, District 19	DEM - PHIL TING	102281	17316	28	1	winner	0	 	0
+8	8	2	19373	44	120	1	0	0	251	251	251	0	State Assembly, District 19	REP - CARLOS ''CHUCK'' TAYLOR	102281	17316	28	0	candidate	0	 	0
+15	9	1	148090		149	1	0	0	597	597	597	0	Superior Court Judge, Seat 7	VICTOR HWANG	231949	50861	239	1	winner	0	 	0
+15	9	2	83859		150	1	0	0	597	597	597	0	Superior Court Judge, Seat 7	PAUL HENDERSON	231949	50861	239	0	candidate	0	 	0
+16	10	1	30685		151	4	0	0	597	597	597	0	Member, Board of Education	IAN KALIN	655912	474592	1692	0	candidate	0	 	0
+16	10	2	45638		152	4	0	0	597	597	597	0	Member, Board of Education	PHIL KIM	655912	474592	1692	0	candidate	0	 	0
+16	10	3	68131		153	4	0	0	597	597	597	0	Member, Board of Education	JILL WYNNS	655912	474592	1692	0	candidate	0	 	0
+16	10	4	109977		154	4	0	0	597	597	597	0	Member, Board of Education	MARK SANCHEZ	655912	474592	1692	1	winner	0	 	0
+16	10	5	92683		155	4	0	0	597	597	597	0	Member, Board of Education	RACHEL NORTON	655912	474592	1692	1	winner	0	 	0
+16	10	6	123676		156	4	0	0	597	597	597	0	Member, Board of Education	MATT HANEY	655912	474592	1692	1	winner	0	 	0
+16	10	7	105777		157	4	0	0	597	597	597	0	Member, Board of Education	STEVON COOK	655912	474592	1692	1	winner	0	 	0
+16	10	8	18193		158	4	0	0	597	597	597	0	Member, Board of Education	ROB GELLER	655912	474592	1692	0	candidate	0	 	0
+16	10	9	60121		159	4	0	0	597	597	597	0	Member, Board of Education	TREVOR MCNEIL	655912	474592	1692	0	candidate	0	 	0
+16	10	10	1031		8	4	0	3	597	597	597	1	Member, Board of Education	WRITE-IN	655912	474592	1692	0	candidate	0	 	0
+17	11	1	133460		160	4	0	0	597	597	597	0	Member, Community College Board	SHANELL WILLIAMS	567174	564514	508	1	winner	0	 	0
+17	11	2	111231		161	4	0	0	597	597	597	0	Member, Community College Board	ALEX RANDOLPH	567174	564514	508	1	winner	0	 	0
+17	11	3	99781		162	4	0	0	597	597	597	0	Member, Community College Board	TOM TEMPRANO	567174	564514	508	1	winner	0	 	0
+17	11	4	126108		163	4	0	0	597	597	597	0	Member, Community College Board	RAFAEL MANDELMAN	567174	564514	508	1	winner	0	 	0
+17	11	5	95264		164	4	0	0	597	597	597	0	Member, Community College Board	AMY BACHARACH	567174	564514	508	0	candidate	0	 	0
+17	11	6	1330		12	4	0	3	597	597	597	1	Member, Community College Board	WRITE-IN	567174	564514	508	0	candidate	0	 	0
+9	12	1	515		121	1	0	0	48	48	48	0	Board of Supervisors, District 1	SAMUEL KWONG	21836	1607	116	0	candidate	0	 	0
+9	12	2	390		122	1	0	0	48	48	48	0	Board of Supervisors, District 1	SHERMAN R. D'SILVA	21836	1607	116	0	candidate	0	 	0
+9	12	3	7744		123	1	0	0	48	48	48	0	Board of Supervisors, District 1	MARJAN PHILHOUR	21836	1607	116	0	candidate	0	 	0
+9	12	4	720		124	1	0	0	48	48	48	0	Board of Supervisors, District 1	RICHIE GREENBERG	21836	1607	116	0	candidate	0	 	0
+9	12	5	2381		125	1	0	0	48	48	48	0	Board of Supervisors, District 1	DAVID LEE	21836	1607	116	0	candidate	0	 	0
+9	12	6	532		126	1	0	0	48	48	48	0	Board of Supervisors, District 1	BRIAN J. LARKIN	21836	1607	116	0	candidate	0	 	0
+9	12	7	416		127	1	0	0	48	48	48	0	Board of Supervisors, District 1	JONATHAN LYENS	21836	1607	116	0	candidate	0	 	0
+9	12	8	8454		128	1	0	0	48	48	48	0	Board of Supervisors, District 1	SANDRA LEE FEWER	21836	1607	116	1	winner	0	 	0
+9	12	9	261		129	1	0	0	48	48	48	0	Board of Supervisors, District 1	ANDY THORNLEY	21836	1607	116	0	candidate	0	 	0
+9	12	10	423		130	1	0	0	48	48	48	0	Board of Supervisors, District 1	JASON JUNGREIS	21836	1607	116	0	candidate	0	 	0
+9	12	11	0		2	1	0	3	48	48	48	1	Board of Supervisors, District 1	WRITE-IN	0	1607	116		candidate	0	 	0
+10	13	1	4602		131	1	0	0	45	45	45	0	Board of Supervisors, District 3	TIM E. DONNELLY	17108	2352	10	0	candidate	0	 	0
+10	13	2	12506		132	1	0	0	45	45	45	0	Board of Supervisors, District 3	AARON PESKIN	17108	2352	10	1	winner	0	 	0
+10	13	3	0		3	1	0	3	45	45	45	1	Board of Supervisors, District 3	WRITE-IN	0	2352	10		candidate	0	 	0
+11	14	1	11894		133	1	0	0	67	67	67	0	Board of Supervisors, District 5	DEAN PRESTON	25587	2191	17	0	candidate	0	 	0
+11	14	2	13693		134	1	0	0	67	67	67	0	Board of Supervisors, District 5	LONDON BREED	25587	2191	17	1	winner	0	 	0
+11	14	3	0		4	1	0	3	67	67	67	1	Board of Supervisors, District 5	WRITE-IN	0	2191	17		candidate	0	 	0
+12	15	1	5355		135	1	0	0	63	63	63	0	Board of Supervisors, District 7	JOEL ENGARDIO	24775	2032	73	0	candidate	0	 	0
+12	15	2	3614		136	1	0	0	63	63	63	0	Board of Supervisors, District 7	JOHN FARRELL	24775	2032	73	0	candidate	0	 	0
+12	15	3	1367		137	1	0	0	63	63	63	0	Board of Supervisors, District 7	MIKE YOUNG	24775	2032	73	0	candidate	0	 	0
+12	15	4	9776		138	1	0	0	63	63	63	0	Board of Supervisors, District 7	NORMAN YEE	24775	2032	73	1	winner	0	 	0
+12	15	5	4663		139	1	0	0	63	63	63	0	Board of Supervisors, District 7	BEN MATRANGA	24775	2032	73	0	candidate	0	 	0
+12	15	6	0		5	1	0	3	63	63	63	1	Board of Supervisors, District 7	WRITE-IN	0	2032	73		candidate	0	 	0
+13	16	1	2332		140	1	0	0	53	53	53	0	Board of Supervisors, District 9	MELISSA SAN MIGUEL	22084	1407	68	0	candidate	0	 	0
+13	16	2	12617		141	1	0	0	53	53	53	0	Board of Supervisors, District 9	HILLARY RONEN	22084	1407	68	1	winner	0	 	0
+13	16	3	361		142	1	0	0	53	53	53	0	Board of Supervisors, District 9	ISWARI ESPAÑA	22084	1407	68	0	candidate	0	 	0
+13	16	4	6774		143	1	0	0	53	53	53	0	Board of Supervisors, District 9	JOSHUA ARCE	22084	1407	68	0	candidate	0	 	0
+13	16	5	0		6	1	0	3	53	53	53	1	Board of Supervisors, District 9	WRITE-IN	0	1407	68		candidate	0	 	0
+14	17	1	6606		144	1	0	0	45	45	45	0	Board of Supervisors, District 11	AHSHA SAFAI	17049	1282	78	1	winner	0	 	0
+14	17	2	2090		145	1	0	0	45	45	45	0	Board of Supervisors, District 11	MAGDALENA DE GUZMAN	17049	1282	78	0	candidate	0	 	0
+14	17	3	1767		146	1	0	0	45	45	45	0	Board of Supervisors, District 11	FRANCISCO HERRERA	17049	1282	78	0	candidate	0	 	0
+14	17	4	1095		147	1	0	0	45	45	45	0	Board of Supervisors, District 11	BERTA HERNANDEZ	17049	1282	78	0	candidate	0	 	0
+14	17	5	5491		148	1	0	0	45	45	45	0	Board of Supervisors, District 11	KIM ALVARENGA	17049	1282	78	0	candidate	0	 	0
+14	17	6	0		7	1	0	3	45	45	45	1	Board of Supervisors, District 11	WRITE-IN	0	1282	78		candidate	0	 	0
+18	18	1	6201		165	1	0	0	43	43	43	0	BART Director, District 7	LATEEFAH SIMON	13015	4462	69	1	winner	0	 	0
+18	18	2	2498		166	1	0	0	43	43	43	0	BART Director, District 7	WILL ROSCOE	13015	4462	69	0	candidate	0	 	0
+18	18	3	656		167	1	0	0	43	43	43	0	BART Director, District 7	ROLAND EMERSON	13015	4462	69	0	candidate	0	 	0
+18	18	4	3605		168	1	0	0	43	43	43	0	BART Director, District 7	ZAKHARY MALLETT	13015	4462	69	0	candidate	0	 	0
+18	18	5	55		16	1	0	3	43	43	43	1	BART Director, District 7	WRITE-IN	13015	4462	69	0	candidate	0	 	0
+19	19	1	65709		169	1	0	0	287	287	287	0	BART Director, District 9	BEVAN DUFTY	107571	30598	204	1	winner	0	 	0
+19	19	2	7596		170	1	0	0	287	287	287	0	BART Director, District 9	MICHAEL PETRELIS	107571	30598	204	0	candidate	0	 	0
+19	19	3	33759		171	1	0	0	287	287	287	0	BART Director, District 9	GWYNETH BORDEN	107571	30598	204	0	candidate	0	 	0
+19	19	4	507		17	1	0	3	287	287	287	1	BART Director, District 9	WRITE-IN	107571	30598	204	0	candidate	0	 	0
+20	20	1	175911		18	1	4	4	597	597	597	0	State Proposition 51	Yes	261944	18469	135	1	winner	0	 	0
+20	20	2	86033		19	1	4	4	597	597	597	0	State Proposition 51	No	261944	18469	135	0	candidate	0	 	0
+21	21	1	204727		20	1	4	4	597	597	597	0	State Proposition 52	Yes	259238	21225	85	1	winner	0	 	0
+21	21	2	54511		21	1	4	4	597	597	597	0	State Proposition 52	No	259238	21225	85	0	candidate	0	 	0
+22	22	1	77367		22	1	4	4	597	597	597	0	State Proposition 53	Yes	254559	25836	153	0	candidate	0	 	0
+22	22	2	177192		23	1	4	4	597	597	597	0	State Proposition 53	No	254559	25836	153	1	winner	0	 	0
+23	23	1	155708		24	1	4	4	597	597	597	0	State Proposition 54	Yes	253773	26616	159	1	winner	0	 	0
+23	23	2	98065		25	1	4	4	597	597	597	0	State Proposition 54	No	253773	26616	159	0	candidate	0	 	0
+24	24	1	190783		26	1	4	4	597	597	597	0	State Proposition 55	Yes	264187	16217	144	1	winner	0	 	0
+24	24	2	73404		27	1	4	4	597	597	597	0	State Proposition 55	No	264187	16217	144	0	candidate	0	 	0
+25	25	1	220330		28	1	4	4	597	597	597	0	State Proposition 56	Yes	272241	8232	75	1	winner	0	 	0
+25	25	2	51911		29	1	4	4	597	597	597	0	State Proposition 56	No	272241	8232	75	0	candidate	0	 	0
+26	26	1	215506		30	1	4	4	597	597	597	0	State Proposition 57	Yes	261759	18692	97	1	winner	0	 	0
+26	26	2	46253		31	1	4	4	597	597	597	0	State Proposition 57	No	261759	18692	97	0	candidate	0	 	0
+27	27	1	225868		32	1	4	4	597	597	597	0	State Proposition 58	Yes	261290	19214	44	1	winner	0	 	0
+27	27	2	35422		33	1	4	4	597	597	597	0	State Proposition 58	No	261290	19214	44	0	candidate	0	 	0
+28	28	1	187716		34	1	4	4	597	597	597	0	State Proposition 59	Yes	246423	34045	80	1	winner	0	 	0
+28	28	2	58707		35	1	4	4	597	597	597	0	State Proposition 59	No	246423	34045	80	0	candidate	0	 	0
+29	29	1	80658		36	1	4	4	597	597	597	0	State Proposition 60	Yes	255962	24458	128	0	candidate	0	 	0
+29	29	2	175304		37	1	4	4	597	597	597	0	State Proposition 60	No	255962	24458	128	1	winner	0	 	0
+30	30	1	132277		38	1	4	4	597	597	597	0	State Proposition 61	Yes	252512	27889	147	1	winner	0	 	0
+30	30	2	120235		39	1	4	4	597	597	597	0	State Proposition 61	No	252512	27889	147	0	candidate	0	 	0
+31	31	1	184658		40	1	4	4	597	597	597	0	State Proposition 62	Yes	261880	18612	56	1	winner	0	 	0
+31	31	2	77222		41	1	4	4	597	597	597	0	State Proposition 62	No	261880	18612	56	0	candidate	0	 	0
+32	32	1	231899		42	1	4	4	597	597	597	0	State Proposition 63	Yes	271073	10185	59	1	winner	0	 	0
+32	32	2	39174		43	1	4	4	597	597	597	0	State Proposition 63	No	271073	10185	59	0	candidate	0	 	0
+33	33	1	201204		44	1	4	4	597	597	597	0	State Proposition 64	Yes	273014	8228	75	1	winner	0	 	0
+33	33	2	71810		45	1	4	4	597	597	597	0	State Proposition 64	No	273014	8228	75	0	candidate	0	 	0
+34	34	1	104959		46	1	4	4	597	597	597	0	State Proposition 65	Yes	264605	16574	138	0	candidate	0	 	0
+34	34	2	159646		47	1	4	4	597	597	597	0	State Proposition 65	No	264605	16574	138	1	winner	0	 	0
+35	35	1	79531		48	1	4	4	597	597	597	0	State Proposition 66	Yes	250901	30298	118	0	candidate	0	 	0
+35	35	2	171370		49	1	4	4	597	597	597	0	State Proposition 66	No	250901	30298	118	1	winner	0	 	0
+36	36	1	201732		50	1	4	4	597	597	597	0	State Proposition 67	Yes	267250	13994	73	1	winner	0	 	0
+36	36	2	65518		51	1	4	4	597	597	597	0	State Proposition 67	No	267250	13994	73	0	candidate	0	 	0
+37	37	1	198634		52	1	4	4	597	597	597	0	School Measure A	Yes	251041	30097	179	1	winner	0	 	0
+37	37	2	52407		53	1	4	4	597	597	597	0	School Measure A	No	251041	30097	179	0	candidate	0	 	0
+38	38	1	199695		54	1	4	4	597	597	597	0	School Measure B	Yes	250107	31141	69	1	winner	0	 	0
+38	38	2	50412		55	1	4	4	597	597	597	0	School Measure B	No	250107	31141	69	0	candidate	0	 	0
+39	39	1	185857		56	1	4	4	597	597	597	0	Local Measure C	Yes	244548	36669	100	1	winner	0	 	0
+39	39	2	58691		57	1	4	4	597	597	597	0	Local Measure C	No	244548	36669	100	0	candidate	0	 	0
+40	40	1	112538		58	1	4	4	597	597	597	0	Local Measure D	Yes	239449	41738	130	0	candidate	0	 	0
+40	40	2	126911		59	1	4	4	597	597	597	0	Local Measure D	No	239449	41738	130	1	winner	0	 	0
+41	41	1	196884		60	1	4	4	597	597	597	0	Local Measure E	Yes	249516	31600	201	1	winner	0	 	0
+41	41	2	52632		61	1	4	4	597	597	597	0	Local Measure E	No	249516	31600	201	0	candidate	0	 	0
+42	42	1	117855		62	1	4	4	597	597	597	0	Local Measure F	Yes	249346	31860	111	0	candidate	0	 	0
+42	42	2	131491		63	1	4	4	597	597	597	0	Local Measure F	No	249346	31860	111	1	winner	0	 	0
+43	43	1	193564		64	1	4	4	597	597	597	0	Local Measure G	Yes	242252	38940	125	1	winner	0	 	0
+43	43	2	48688		65	1	4	4	597	597	597	0	Local Measure G	No	242252	38940	125	0	candidate	0	 	0
+44	44	1	114180		66	1	4	4	597	597	597	0	Local Measure H	Yes	243174	38063	80	0	candidate	0	 	0
+44	44	2	128994		67	1	4	4	597	597	597	0	Local Measure H	No	243174	38063	80	1	winner	0	 	0
+45	45	1	169773		68	1	4	4	597	597	597	0	Local Measure I	Yes	256029	22800	94	1	winner	0	 	0
+45	45	2	86256		69	1	4	4	597	597	597	0	Local Measure I	No	256029	22800	94	0	candidate	0	 	0
+46	46	1	171362		70	1	4	4	597	597	597	0	Local Measure J	Yes	257903	20880	140	1	winner	0	 	0
+46	46	2	86541		71	1	4	4	597	597	597	0	Local Measure J	No	257903	20880	140	0	candidate	0	 	0
+47	47	1	90614		72	1	4	4	597	597	597	0	Local Measure K	Yes	259168	19654	101	0	candidate	0	 	0
+47	47	2	168554		73	1	4	4	597	597	597	0	Local Measure K	No	259168	19654	101	1	winner	0	 	0
+48	48	1	109448		74	1	4	4	597	597	597	0	Local Measure L	Yes	246157	32632	134	0	candidate	0	 	0
+48	48	2	136709		75	1	4	4	597	597	597	0	Local Measure L	No	246157	32632	134	1	winner	0	 	0
+49	49	1	106423		76	1	4	4	597	597	597	0	Local Measure M	Yes	244593	34240	90	0	candidate	0	 	0
+49	49	2	138170		77	1	4	4	597	597	597	0	Local Measure M	No	244593	34240	90	1	winner	0	 	0
+50	50	1	135428		78	1	4	4	597	597	597	0	Local Measure N	Yes	257225	21557	141	1	winner	0	 	0
+50	50	2	121797		79	1	4	4	597	597	597	0	Local Measure N	No	257225	21557	141	0	candidate	0	 	0
+51	51	1	131233		80	1	4	4	597	597	597	0	Local Measure O	Yes	249491	29259	173	1	winner	0	 	0
+51	51	2	118258		81	1	4	4	597	597	597	0	Local Measure O	No	249491	29259	173	0	candidate	0	 	0
+52	52	1	81467		82	1	4	4	597	597	597	0	Local Measure P	Yes	249412	29406	105	0	candidate	0	 	0
+52	52	2	167945		83	1	4	4	597	597	597	0	Local Measure P	No	249412	29406	105	1	winner	0	 	0
+53	53	1	136321		84	1	4	4	597	597	597	0	Local Measure Q	Yes	258393	20404	126	1	winner	0	 	0
+53	53	2	122072		85	1	4	4	597	597	597	0	Local Measure Q	No	258393	20404	126	0	candidate	0	 	0
+54	54	1	114852		86	1	4	4	597	597	597	0	Local Measure R	Yes	252821	26000	102	0	candidate	0	 	0
+54	54	2	137969		87	1	4	4	597	597	597	0	Local Measure R	No	252821	26000	102	1	winner	0	 	0
+55	55	1	158321		88	1	4	4	597	597	597	0	Local Measure S	Yes	251781	27053	89	1	winner	0	 	0
+55	55	2	93460		89	1	4	4	597	597	597	0	Local Measure S	No	251781	27053	89	0	candidate	0	 	0
+56	56	1	216002		90	1	4	4	597	597	597	0	Local Measure T	Yes	248096	30690	137	1	winner	0	 	0
+56	56	2	32094		91	1	4	4	597	597	597	0	Local Measure T	No	248096	30690	137	0	candidate	0	 	0
+57	57	1	87025		92	1	4	4	597	597	597	0	Local Measure U	Yes	248008	30718	197	0	candidate	0	 	0
+57	57	2	160983		93	1	4	4	597	597	597	0	Local Measure U	No	248008	30718	197	1	winner	0	 	0
+58	58	1	161555		94	1	4	4	597	597	597	0	Local Measure V	Yes	260603	18159	161	1	winner	0	 	0
+58	58	2	99048		95	1	4	4	597	597	597	0	Local Measure V	No	260603	18159	161	0	candidate	0	 	0
+59	59	1	155343		96	1	4	4	597	597	597	0	Local Measure W	Yes	250939	27821	163	1	winner	0	 	0
+59	59	2	95596		97	1	4	4	597	597	597	0	Local Measure W	No	250939	27821	163	0	candidate	0	 	0
+60	60	1	144935		98	1	4	4	597	597	597	0	Local Measure X	Yes	244021	34795	107	1	winner	0	 	0
+60	60	2	99086		99	1	4	4	597	597	597	0	Local Measure X	No	244021	34795	107	0	candidate	0	 	0
+61	61	1	204441		100	1	4	4	597	597	597	0	District Measure RR	Yes	251915	26976	32	1	winner	0	 	0
+61	61	2	47474		101	1	4	4	597	597	597	0	District Measure RR	No	251915	26976	32	0	candidate	0	 	0
