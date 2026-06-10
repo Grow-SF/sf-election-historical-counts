@@ -24,7 +24,7 @@ class TurnoutRecord:
 
 def parse_era_c_xml(text: str) -> TurnoutRecord:
     try:
-        root = ET.fromstring(text.lstrip("﻿"))
+        root = ET.fromstring(text.lstrip("\ufeff"))
     except ET.ParseError as ex:
         raise ParseError(f"not XML: {ex}") from ex
 
