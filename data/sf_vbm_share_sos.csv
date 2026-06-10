@@ -1,0 +1,17 @@
+election_date,ballots_polling,ballots_absentee,ballots_total,vbm_share_pct,source_url
+2002-03-05,98669,51580,150249,34.3,"DOE SOV sf020305.xls (mirror/doe-archives), sheet 'Propositions'"
+2002-11-05,159645,65457,225102,29.1,"DOE SOV sf021105.xls (mirror/doe-archives), sheet 'PROPOSITIONS'"
+2004-03-02,120104,70724,190828,37.1,https://elections.cdn.sos.ca.gov/sov/2004-primary/voter_part_by_county.pdf
+2004-11-02,226354,135468,361822,37.4,https://elections.cdn.sos.ca.gov/sov/2004-general/sov_pref_pg7_8_voter_participation_stats.pdf
+2005-11-08,136897,92817,229714,40.4,https://elections.cdn.sos.ca.gov/sov/2005-special/sov_pref_pgvi_vii_voter_participation_stats.pdf
+2006-06-06,81132,75140,156272,48.1,https://elections.cdn.sos.ca.gov/sov/2006-primary/p5regandpart.pdf
+2006-11-07,145371,108348,253719,42.7,https://elections.cdn.sos.ca.gov/sov/2006-general/complete_sov.pdf
+2008-02-05,158995,110217,269212,40.9,https://elections.cdn.sos.ca.gov/sov/2008-primary/04_voter_stats_by_county_feb08.pdf
+2008-06-03,83441,89594,173035,51.8,https://elections.cdn.sos.ca.gov/sov/2008-statewide-direct-primary/03_voter_stats_by_county_june_08.pdf
+2008-11-04,209527,178585,388112,46.0,https://elections.cdn.sos.ca.gov/sov/2008-general/3_voter_part_stats_by_county.pdf
+2010-06-08,63607,91926,155533,59.1,https://sfelections.org/results/20100608/summary.php (per-party turnout blocks summed)
+2010-11-02,141319,143306,284625,50.3,https://elections.cdn.sos.ca.gov/sov/2010-general/03-voter-particpation-stats-by-county.pdf
+2012-06-05,49779,95326,145105,65.7,https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf
+2012-11-06,171679,193196,364875,52.9,https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf
+2014-06-03,39406,89993,129399,69.5,https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf
+2014-11-04,94995,136219,231214,58.9,https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf

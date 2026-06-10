@@ -307,22 +307,72 @@
  {
   "date": "2002-03-05",
   "share": 34.3,
-  "source": "doe-turnout-history"
+  "source": "certified-sov"
+ },
+ {
+  "date": "2002-11-05",
+  "share": 29.1,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2004-03-02",
+  "share": 37.1,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2004-11-02",
+  "share": 37.4,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2005-11-08",
+  "share": 40.4,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2006-06-06",
+  "share": 48.1,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2006-11-07",
+  "share": 42.7,
+  "source": "certified-sov"
  },
  {
   "date": "2008-02-05",
-  "share": 34.2,
-  "source": "archival"
+  "share": 40.9,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2008-06-03",
+  "share": 51.8,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2008-11-04",
+  "share": 46.0,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2010-06-08",
+  "share": 59.1,
+  "source": "certified-sov"
+ },
+ {
+  "date": "2010-11-02",
+  "share": 50.3,
+  "source": "certified-sov"
  },
  {
   "date": "2012-06-05",
   "share": 65.7,
-  "source": "archival"
+  "source": "certified-sov"
  },
  {
   "date": "2012-11-06",
   "share": 52.9,
-  "source": "archival"
+  "source": "certified-sov"
  },
  {
   "date": "2013-11-05",
@@ -332,12 +382,12 @@
  {
   "date": "2014-06-03",
   "share": 69.5,
-  "source": "archival"
+  "source": "certified-sov"
  },
  {
   "date": "2014-11-04",
   "share": 58.9,
-  "source": "archival"
+  "source": "certified-sov"
  },
  {
   "date": "2015-11-03",

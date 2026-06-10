@@ -60,6 +60,12 @@ trajectory explorer. Filters are encoded in the URL for sharing.
 
 ## Pre-2015 archival recovery
 
+`data/sf_vbm_share_sos.csv` carries certified polling/absentee splits for
+sixteen elections 2002–2014, extracted from CA Secretary of State county
+participation statistics and the DOE's own SOV spreadsheets (each row links
+its source; polling + absentee = total validated on extraction).
+
+
 `data/sf_archival_canvass_points.csv` holds 27 mid-canvass observations for
 nine elections (Feb 2008 - Nov 2014) recovered from Wayback Machine captures
 of the DOE's live results pages. `data/mirror_manifest.csv` maps every

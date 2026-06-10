@@ -167,9 +167,22 @@ def main():
             share = 100 * int(r["absentee"].replace(",", "")) / int(r["ballots_cast"].replace(",", ""))
             hist.append({"date": f"{year}-{m}-{d}", "share": round(share, 1),
                          "source": "doe-turnout-history"})
+    # certified splits recovered from SoS SOVs / DOE SOV spreadsheets /
+    # legacy result pages (fills 2002-2014); preferred over archival page reads
+    certified = {}
+    with open(ROOT / "data" / "sf_vbm_share_sos.csv", newline="") as f:
+        for r in csv.DictReader(f):
+            certified[r["election_date"]] = float(r["vbm_share_pct"])
+    for date, share in certified.items():
+        hist.append({"date": date, "share": share, "source": "certified-sov"})
     for e in out:
-        if e["vbmShare"] is not None:
+        if e["vbmShare"] is not None and e["id"] not in certified:
             hist.append({"date": e["id"], "share": e["vbmShare"], "source": e["source"]})
+    # one share per election: certified beats the 2002 turnout-history row too
+    dedup = {}
+    for h in sorted(hist, key=lambda h: (h["date"], h["source"] != "certified-sov")):
+        dedup.setdefault(h["date"], h)
+    hist = list(dedup.values())
     hist.sort(key=lambda h: h["date"])
     H = OUT.parent / "vbm_history.json"
     H.write_text(json.dumps(hist, indent=1))

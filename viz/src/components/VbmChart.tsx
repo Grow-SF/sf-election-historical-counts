@@ -65,9 +65,10 @@ export default function VbmChart() {
           every voter a ballot · 2022 — AB 37 makes it permanent.
           <br />
           Mail (absentee) ballots as a share of all ballots cast, 1964–2026.
-          Sources: the Department of Elections’ own turnout history (1964–2002,
-          recovered from a 2002 web capture) and per-release results data
-          (2008–present).
+          Sources: the Department of Elections’ turnout history (1964–2000,
+          recovered from a 2002 web capture), certified Statements of Vote
+          (2002–2014: CA Secretary of State county statistics and the DOE’s
+          own SOV spreadsheets), and per-release results data (2015–present).
         </>
       }
     >
