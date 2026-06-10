@@ -48,6 +48,15 @@ commit `data/` and the artifact.
     uv run pytest -m network      # live smoke tests against sfelections.org
     uv run pytest -m migration    # reconciliation vs sf-long-count-archive/
 
+## Pre-2015 archival recovery
+
+`data/sf_archival_canvass_points.csv` holds 27 mid-canvass observations for
+nine elections (Feb 2008 - Nov 2014) recovered from Wayback Machine captures
+of the DOE's live results pages. `data/mirror_manifest.csv` maps every
+mirrored capture to its source memento URL and SHA-256 (raw mirror in
+`mirror/`, gitignored - CDN hosting planned). Analysis:
+`docs/analysis/2026-06-09-counting-speed-trend.md`.
+
 ## Data boundaries
 
 - Per-release snapshots exist on sfelections.org only from Nov 2015.
