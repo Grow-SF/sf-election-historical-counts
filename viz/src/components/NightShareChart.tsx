@@ -31,7 +31,11 @@ export default function NightShareChart({
   from: number;
   to: number;
 }) {
-  const [hover, setHover] = useState<{ cx: number; cy: number; p: Pt } | null>(null);
+  const [hover, setHover] = useState<
+    | { kind: "pt"; cx: number; cy: number; p: Pt }
+    | { kind: "floor"; cx: number; cy: number; date: string; y: number }
+    | null
+  >(null);
 
   const { pts, fit } = useMemo(() => {
     const pts: Pt[] = elections
@@ -78,23 +82,25 @@ export default function NightShareChart({
       <ChartFrame
         note={
           <>
-            Colored points: share of the certified final already reported by
-            the end of election night (hollow = web-archive recoveries; trend
-            fit uses these only). Small grey diamonds: the{" "}
-            <strong>election-night floor</strong> — the non-absentee share of
-            each certified count, 1964–present. Precinct ballots were reported
-            on election night, so the night share can never sit below its
-            diamond; in 1964 the floor alone was 94%. The dotted stem between a
-            point and its diamond is mail that arrived early enough to be
-            pre-processed into the night count — night share is now set by
-            voter return timing, not counting capacity. 2020–21 ran high
-            because pandemic-era mail arrived weeks early. Ongoing counts
-            excluded.
+            <strong>How to read this chart:</strong> Each colored dot shows how
+            much of an election’s final vote was already counted by the end of
+            election night. (Hollow dots were recovered from old web archives.)
+            Each grey diamond shows how much of that election’s vote was cast
+            in person at the polls. In-person votes always get counted on
+            election night, so a dot can never be lower than its diamond. The
+            dotted stem between them is mail that arrived early — early mail
+            gets counted on election night too. In 1964 almost everyone voted
+            in person, so election night showed 94% of the vote. Today most
+            people vote by mail, and mail that arrives late simply can’t be
+            counted that night. 2020–21 look high because people mailed their
+            ballots weeks early during the pandemic. Elections still being
+            counted are left out. The dashed trend line is fitted to the
+            colored dots only.
           </>
         }
       >
         <div className="relative">
-          {hover && (
+          {hover?.kind === "pt" && (
             <PointTooltip cx={hover.cx} cy={hover.cy}>
               <div className="smallcaps" style={{ color: KIND_COLOR[hover.p.kind] }}>
                 {hover.p.kind}
@@ -103,6 +109,17 @@ export default function NightShareChart({
               <div className="font-semibold">{hover.p.id}</div>
               <div className="stat-figure">
                 {hover.p.y}% counted by election night
+              </div>
+            </PointTooltip>
+          )}
+          {hover?.kind === "floor" && (
+            <PointTooltip cx={hover.cx} cy={hover.cy}>
+              <div className="smallcaps text-faint">election-night floor</div>
+              <div className="font-semibold">{hover.date}</div>
+              <div className="stat-figure">{hover.y}% voted in person</div>
+              <div className="text-xs italic text-faint">
+                in-person votes are counted on election night, so that night
+                showed at least this much
               </div>
             </PointTooltip>
           )}
@@ -146,14 +163,24 @@ export default function NightShareChart({
               data={floorPts}
               isAnimationActive={false}
               shape={(props: unknown) => {
-                const { cx, cy } = props as { cx: number; cy: number };
+                const { cx, cy, payload } = props as {
+                  cx: number;
+                  cy: number;
+                  payload: { date: string; y: number };
+                };
                 return (
                   <path
-                    d={`M ${cx} ${cy - 4} L ${cx + 4} ${cy} L ${cx} ${cy + 4} L ${cx - 4} ${cy} Z`}
-                    fill="none"
+                    d={`M ${cx} ${cy - 4.5} L ${cx + 4.5} ${cy} L ${cx} ${cy + 4.5} L ${cx - 4.5} ${cy} Z`}
+                    fill="var(--color-paper)"
+                    fillOpacity={0.01}
                     stroke="var(--color-faint)"
                     strokeWidth={1.2}
                     opacity={0.75}
+                    style={{ cursor: "pointer" }}
+                    onMouseEnter={() =>
+                      setHover({ kind: "floor", cx, cy, date: payload.date, y: payload.y })
+                    }
+                    onMouseLeave={() => setHover(null)}
                   />
                 );
               }}
@@ -180,7 +207,7 @@ export default function NightShareChart({
                   };
                   const c = KIND_COLOR[payload.kind];
                   const common = {
-                    onMouseEnter: () => setHover({ cx, cy, p: payload }),
+                    onMouseEnter: () => setHover({ kind: "pt" as const, cx, cy, p: payload }),
                     onMouseLeave: () => setHover(null),
                     style: { cursor: "pointer" },
                   };
