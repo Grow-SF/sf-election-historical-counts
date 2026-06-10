@@ -1,5 +1,171 @@
 [
  {
+  "id": "2001-11-06",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 2001,
+  "final": 134024,
+  "registered": 452543,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 4,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    1.46,
+    86.2,
+    null,
+    null
+   ],
+   [
+    4.25,
+    96.3,
+    null,
+    null
+   ],
+   [
+    7.1,
+    99.8,
+    null,
+    null
+   ],
+   [
+    27.94,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 2,
+    "bound": true
+   },
+   "55": {
+    "days": 2,
+    "bound": true
+   },
+   "60": {
+    "days": 2,
+    "bound": true
+   },
+   "65": {
+    "days": 2,
+    "bound": true
+   },
+   "70": {
+    "days": 2,
+    "bound": true
+   },
+   "75": {
+    "days": 2,
+    "bound": true
+   },
+   "80": {
+    "days": 2,
+    "bound": true
+   },
+   "85": {
+    "days": 2,
+    "bound": true
+   },
+   "90": {
+    "days": 5,
+    "bound": true
+   },
+   "95": {
+    "days": 5,
+    "bound": true
+   },
+   "98": {
+    "days": 7,
+    "bound": false
+   },
+   "99": {
+    "days": 7,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2001-12-11",
+  "name": "Municipal Run-Off Election",
+  "kind": "Municipal",
+  "year": 2001,
+  "final": 75267,
+  "registered": 453961,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    5.49,
+    100.0,
+    null,
+    null
+   ],
+   [
+    65.09,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 6,
+    "bound": true
+   },
+   "55": {
+    "days": 6,
+    "bound": true
+   },
+   "60": {
+    "days": 6,
+    "bound": true
+   },
+   "65": {
+    "days": 6,
+    "bound": true
+   },
+   "70": {
+    "days": 6,
+    "bound": true
+   },
+   "75": {
+    "days": 6,
+    "bound": true
+   },
+   "80": {
+    "days": 6,
+    "bound": true
+   },
+   "85": {
+    "days": 6,
+    "bound": true
+   },
+   "90": {
+    "days": 6,
+    "bound": true
+   },
+   "95": {
+    "days": 6,
+    "bound": true
+   },
+   "98": {
+    "days": 6,
+    "bound": true
+   },
+   "99": {
+    "days": 6,
+    "bound": true
+   }
+  }
+ },
+ {
   "id": "2002-03-05",
   "name": "Consolidated Primary Election",
   "kind": "Primary",
