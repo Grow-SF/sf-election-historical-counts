@@ -46,3 +46,122 @@ class MissCache:
     def save(self) -> None:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         self.path.write_text("\n".join(sorted(self.urls)))
+
+
+def looks_like_source(era: str, content: bytes) -> bool:
+    """Guard against soft-404 HTML served with status 200."""
+    head = content.lstrip(b"\xef\xbb\xbf")[:64]
+    return head.startswith(b"<?xml") if era == "C" else head.startswith(b"CONTEST_ID")
+
+
+def load_manifest(path: Path) -> dict[tuple[str, str], dict]:
+    if not path.exists():
+        return {}
+    with open(path, newline="") as f:
+        return {(r["election"], r["snapshot"]): r for r in csv.DictReader(f)}
+
+
+def save_manifest(path: Path, manifest: dict[tuple[str, str], dict]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=MANIFEST_COLS)
+        w.writeheader()
+        for key in sorted(manifest):
+            w.writerow(manifest[key])
+
+
+def _manifest_row(e, snap, fname, status, headers):
+    lm = headers.get("Last-Modified")
+    return {
+        "election": e, "snapshot": snap, "filename": fname, "status": status,
+        "last_modified": http_date_to_pacific_iso(lm) if lm else "",
+    }
+
+
+# Era C elections whose summary.xml lacks the ED/VBM split; their snapshots
+# also get the per-precinct statement of the vote ({snap}_psov.xml, ~27 MB).
+PSOV_ELECTIONS = {"20191105"}
+
+
+def _fetch_psov(session, e: str, snap: str, raw_dir: Path,
+                cache: MissCache, certifiable: bool) -> None:
+    dest = raw_dir / e / snap / f"{snap}_psov.xml"
+    if dest.exists():
+        return
+    url = f"{BASE}/{e}/data/{snap}/{snap}_psov.xml"
+    if url in cache:
+        return
+    r = session.get(url, timeout=120)
+    if r.status_code == 200 and looks_like_source("C", r.content):
+        dest.write_bytes(r.content)
+    elif certifiable:
+        cache.add(url)
+
+
+def fetch_election(session, edate: dt.date, era: str, raw_dir: Path,
+                   cache: MissCache, manifest: dict, today: dt.date) -> int:
+    fname = ERA_FILES[era]
+    e = edate.strftime("%Y%m%d")
+    certifiable = today > edate + dt.timedelta(days=PROBE_DAYS)
+    found = 0
+    for snap in snap_candidates(edate):
+        dest = raw_dir / e / snap / fname
+        url = f"{BASE}/{e}/data/{snap}/{fname}"
+        if dest.exists():
+            if (e, snap) not in manifest:
+                r = session.head(url, timeout=30)
+                manifest[(e, snap)] = _manifest_row(e, snap, fname, "cached", r.headers)
+            found += 1
+        elif url in cache:
+            continue
+        else:
+            r = session.get(url, timeout=30)
+            if r.status_code == 200 and looks_like_source(era, r.content):
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                dest.write_bytes(r.content)
+                manifest[(e, snap)] = _manifest_row(e, snap, fname, "downloaded", r.headers)
+                found += 1
+            else:
+                if certifiable:
+                    # future report dates of an ongoing count are not permanent misses
+                    cache.add(url)
+                continue
+        # snapshot exists -> also fetch its psov where the summary lacks the split
+        if e in PSOV_ELECTIONS:
+            _fetch_psov(session, e, snap, raw_dir, cache, certifiable)
+    return found
+
+
+class PoliteSession:
+    """requests.Session wrapper with a fixed delay before every request."""
+
+    def __init__(self, session, delay: float = DELAY):
+        self._session = session
+        self._delay = delay
+
+    def get(self, url, **kw):
+        time.sleep(self._delay)
+        return self._session.get(url, **kw)
+
+    def head(self, url, **kw):
+        time.sleep(self._delay)
+        return self._session.head(url, **kw)
+
+
+def stage_fetch(data_dir: Path, raw_dir: Path, eras: tuple[str, ...]) -> None:
+    import requests
+
+    from sfcount.inventory import load_elections
+
+    raw_session = requests.Session()
+    raw_session.headers.update(UA)
+    session = PoliteSession(raw_session)
+    cache = MissCache(raw_dir / "probe_misses.txt")
+    manifest = load_manifest(data_dir / "manifest.csv")
+    today = dt.date.today()
+    for el in load_elections(data_dir, eras):
+        edate = dt.date.fromisoformat(el["election_date"])
+        n = fetch_election(session, edate, el["era"], raw_dir, cache, manifest, today)
+        cache.save()
+        save_manifest(data_dir / "manifest.csv", manifest)
+        print(f"fetch {edate}: {n} snapshots", flush=True)
