@@ -37,11 +37,20 @@ def test_counts_match_archive():
     assert not mismatches, f"count mismatches vs archive: {mismatches}"
 
 
+# The DOE published no psov for these three snapshots (verified 404 live,
+# 2026-06-09): the 2nd and 3rd election-night releases and the Nov 25 report.
+PSOV_UNPUBLISHED = {"20191105_2", "20191105_3", "20191125"}
+
+
 @pytest.mark.migration
 def test_2019_rows_gained_the_split_the_pdfs_never_had():
     new = load(ROOT / "data/sf_count_timeline.csv")
-    rows = [r for (e, _), r in new.items() if e == "2019-11-05"]
+    rows = {snap: r for (e, snap), r in new.items() if e == "2019-11-05"}
     assert len(rows) >= 13  # the archive had 13 split-less Nov 2019 rows
-    for r in rows:
-        assert r["parser"] == "era_c_xml+psov", f"{r['snapshot']}: no psov recovery"
-        assert r["ballots_vbm"] != "" and r["ballots_election_day"] != ""
+    for snap, r in rows.items():
+        if snap in PSOV_UNPUBLISHED:
+            assert r["parser"] == "era_c_xml"
+            assert r["ballots_vbm"] == "" and r["ballots_election_day"] == ""
+        else:
+            assert r["parser"] == "era_c_xml+psov", f"{snap}: no psov recovery"
+            assert r["ballots_vbm"] != "" and r["ballots_election_day"] != ""

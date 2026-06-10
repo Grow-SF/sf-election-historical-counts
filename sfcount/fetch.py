@@ -154,11 +154,17 @@ class PoliteSession:
 
 def stage_fetch(data_dir: Path, raw_dir: Path, eras: tuple[str, ...]) -> None:
     import requests
+    from requests.adapters import HTTPAdapter, Retry
 
     from sfcount.inventory import load_elections
 
     raw_session = requests.Session()
     raw_session.headers.update(UA)
+    # ~2000 requests per cold run: ride out transient drops and 5xx blips
+    # instead of aborting the stage (it is resumable, but should not need it).
+    raw_session.mount("https://", HTTPAdapter(max_retries=Retry(
+        total=3, backoff_factor=1.0, status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET", "HEAD"])))
     session = PoliteSession(raw_session)
     cache = MissCache(raw_dir / "probe_misses.txt")
     manifest = load_manifest(data_dir / "manifest.csv")
