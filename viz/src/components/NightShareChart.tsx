@@ -1,5 +1,5 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   CartesianGrid,
   ComposedChart,
@@ -36,6 +36,8 @@ export default function NightShareChart({
     | { kind: "floor"; cx: number; cy: number; date: string; y: number }
     | null
   >(null);
+  // a hovered shape that unmounts on filter change never fires onMouseLeave
+  useEffect(() => setHover(null), [elections, from, to]);
 
   const { pts, fit } = useMemo(() => {
     const pts: Pt[] = elections

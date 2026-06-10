@@ -1,5 +1,5 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   CartesianGrid,
   ComposedChart,
@@ -13,6 +13,7 @@ import {
   Election,
   KIND_COLOR,
   linearFit,
+  NIGHT_FLOOR,
   THRESHOLDS,
   yearFrac,
 } from "@/lib/data";
@@ -26,39 +27,74 @@ type Pt = {
   source: string;
   bound: boolean;
   provisional: boolean;
+  viaFloor: boolean;
+  floorPct?: number;
 };
 
 export default function ThresholdExplorer({
   elections,
   threshold,
   setThreshold,
+  from,
+  to,
 }: {
   elections: Election[];
   threshold: number;
   setThreshold: (t: number) => void;
+  from: number;
+  to: number;
 }) {
   const [hover, setHover] = useState<{ cx: number; cy: number; p: Pt } | null>(null);
+  // a hovered shape that unmounts on filter change never fires onMouseLeave
+  useEffect(() => setHover(null), [elections, threshold, from, to]);
   const { pts, fit } = useMemo(() => {
-    const pts: Pt[] = [];
+    const floorBy = new Map(NIGHT_FLOOR.map((f) => [f.date, f.floorPct]));
+    const byDate = new Map<string, Pt>();
     for (const e of elections) {
       const t = e.thresholds[String(threshold)];
-      if (!t) continue;
-      pts.push({
+      const fp = floorBy.get(e.id);
+      const base = {
         x: yearFrac(e.id),
-        y: t.days,
         id: e.id,
         kind: e.kind,
         source: e.source,
-        bound: t.bound,
         provisional: e.provisional,
+      };
+      if (t && !t.bound) {
+        byDate.set(e.id, { ...base, y: t.days, bound: false, viaFloor: false });
+      } else if (fp !== undefined && fp >= threshold) {
+        // the in-person share alone clears the threshold, so the crossing
+        // happened on election night - exact, even without count records
+        byDate.set(e.id, { ...base, y: 0, bound: false, viaFloor: true, floorPct: fp });
+      } else if (t) {
+        byDate.set(e.id, { ...base, y: t.days, bound: true, viaFloor: false });
+      }
+    }
+    // elections with no surviving count data at all, placed at day 0 by the
+    // in-person floor (year-filtered only, like the floors in part one)
+    for (const f of NIGHT_FLOOR) {
+      const y = Number(f.date.slice(0, 4));
+      if (byDate.has(f.date) || y < from || y > to || f.floorPct < threshold) continue;
+      byDate.set(f.date, {
+        x: yearFrac(f.date),
+        y: 0,
+        id: f.date,
+        kind: "",
+        source: f.source,
+        bound: false,
+        provisional: false,
+        viaFloor: true,
+        floorPct: f.floorPct,
       });
     }
-    // bounds and ongoing counts can't anchor a regression
+    const pts = [...byDate.values()].sort((a, b) => a.x - b.x);
+    // floor-derived day-0 crossings are exact, so they anchor the regression;
+    // bounds and ongoing counts can't
     const fit = linearFit(
       pts.filter((p) => !p.bound && !p.provisional).map((p) => [p.x, p.y]),
     );
     return { pts, fit };
-  }, [elections, threshold]);
+  }, [elections, threshold, from, to]);
 
   const trend =
     fit && [
@@ -92,20 +128,30 @@ export default function ThresholdExplorer({
       <ChartFrame
         note={
           <>
-            Days from election day to the first results release at or above the
-            chosen share of the certified final. Hollow triangles are archival
-            upper bounds (“crossed by day N at the latest”) and are excluded
-            from the fit, as are ongoing counts. Drag the slider — at every
-            threshold, the fitted line stays nearly flat.
+            <strong>How to read this chart:</strong> Each dot shows how many
+            days it took to count up to {threshold}% of an election&rsquo;s
+            final total. Day 0 is election night. Grey diamonds are elections
+            with no surviving day-by-day records — but we can still place them
+            at day 0, because we know enough of their vote was cast in person
+            to clear {threshold}% on election night alone. Hollow triangles
+            mean &ldquo;crossed by day N at the latest&rdquo; (the old archives
+            only kept occasional snapshots); triangles and still-ongoing counts
+            are left out of the trend line. Drag the slider to change the
+            threshold.
           </>
         }
       >
         <div className="relative">
           {hover && (
             <PointTooltip cx={hover.cx} cy={hover.cy}>
-              <div className="smallcaps" style={{ color: KIND_COLOR[hover.p.kind] }}>
-                {hover.p.kind}
-                {hover.p.source === "archival" ? " · archival" : ""}
+              <div
+                className="smallcaps"
+                style={{ color: hover.p.kind ? KIND_COLOR[hover.p.kind] : "var(--color-faint)" }}
+              >
+                {hover.p.viaFloor
+                  ? `${hover.p.kind ? hover.p.kind + " · " : ""}known from the in-person floor`
+                  : hover.p.kind}
+                {!hover.p.viaFloor && hover.p.source === "archival" ? " · archival" : ""}
                 {hover.p.provisional ? " · count ongoing" : ""}
               </div>
               <div className="font-semibold">{hover.p.id}</div>
@@ -113,6 +159,13 @@ export default function ThresholdExplorer({
                 {hover.p.bound ? "≤ " : ""}
                 {hover.p.y} day{hover.p.y === 1 ? "" : "s"} to reach {threshold}%
               </div>
+              {hover.p.viaFloor && (
+                <div className="max-w-52 text-xs italic text-faint">
+                  {hover.p.floorPct}% of this vote was cast in person, and in-person
+                  ballots are counted on election night — so the night count was
+                  already past {threshold}%.
+                </div>
+              )}
               {hover.p.bound && (
                 <div className="text-xs italic text-faint">
                   upper bound — crossed by day {hover.p.y} at the latest
@@ -174,6 +227,20 @@ export default function ThresholdExplorer({
                   onMouseLeave: () => setHover(null),
                   style: { cursor: "pointer" },
                 };
+                if (payload.viaFloor) {
+                  // same grey diamond as the floors in part one
+                  return (
+                    <path
+                      d={`M ${cx} ${cy - 4.5} L ${cx + 4.5} ${cy} L ${cx} ${cy + 4.5} L ${cx - 4.5} ${cy} Z`}
+                      fill="var(--color-paper)"
+                      fillOpacity={0.01}
+                      stroke="var(--color-faint)"
+                      strokeWidth={1.2}
+                      opacity={0.75}
+                      {...common}
+                    />
+                  );
+                }
                 if (payload.bound) {
                   // downward open triangle: the crossing is at or before this day
                   return (

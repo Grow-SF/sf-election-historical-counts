@@ -140,11 +140,20 @@ export default function Story() {
         title="But the count itself never slowed down"
         intro={
           <p>
-            If the Department were getting slower, the days needed to reach any
-            fixed share of the final count would be rising. They aren’t. Pick
-            any threshold — the fitted slope stays near zero and explains
-            almost nothing (r² ≈ 0). The 90% line everyone quotes is just one
-            arbitrary cut; the flatness holds at all of them.
+            For decades, election night alone delivered 80–90% of the final
+            count — the grey diamonds sitting at day zero. As mail voting grew,
+            every threshold drifted upward: not because counting slowed, but
+            because less of the vote is in the building on election night. The
+            test is what happens once the mail era is underway.{" "}
+            <button
+              onClick={() => update({ from: 2001 })}
+              className="border-b border-rust font-semibold text-rust hover:bg-rust/10"
+            >
+              Start the clock in 2001
+            </button>{" "}
+            — when detailed count records begin — and the trend vanishes at
+            every threshold (slope ≈ 0, r² ≈ 0). Twenty-five years of mail
+            growth, zero slowdown in the count itself.
           </p>
         }
       >
@@ -152,6 +161,8 @@ export default function Story() {
           elections={elections}
           threshold={state.threshold}
           setThreshold={(t) => update({ threshold: t })}
+          from={state.from}
+          to={state.to}
         />
       </Section>
 
