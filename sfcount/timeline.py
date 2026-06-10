@@ -19,6 +19,18 @@ TIMELINE_COLS = [
     "datetime_source", "source_url",
 ]
 
+# A Last-Modified header is only believable as the report timestamp when it
+# falls near the snapshot's own date (the folder name IS the report date).
+# The DOE re-uploaded older elections' files (e.g. Dec 2023), and those
+# headers carry the migration time, years after the report.
+MAX_HEADER_DRIFT_DAYS = 2
+
+
+def _header_is_authentic(snap: str, last_modified: str) -> bool:
+    snap_date = dt.datetime.strptime(snap.split("_")[0], "%Y%m%d").date()
+    header_date = dt.datetime.fromisoformat(last_modified).date()
+    return abs((header_date - snap_date).days) <= MAX_HEADER_DRIFT_DAYS
+
 
 def stage_parse(data_dir: Path, raw_dir: Path, eras: tuple[str, ...]) -> None:
     elections = {
@@ -59,8 +71,9 @@ def stage_parse(data_dir: Path, raw_dir: Path, eras: tuple[str, ...]) -> None:
                         "error": f"psov sum {ed + vbm} != summary total "
                                  f"{rec.ballots_counted_total}; split left blank"})
         mrow = manifest.get((e, snap), {})
-        if mrow.get("last_modified"):
-            rdt, dt_src = mrow["last_modified"], "header"
+        lm = mrow.get("last_modified")
+        if lm and _header_is_authentic(snap, lm):
+            rdt, dt_src = lm, "header"
         else:
             rdt = dt.datetime.strptime(snap.split("_")[0], "%Y%m%d").isoformat()
             dt_src = "folder"
