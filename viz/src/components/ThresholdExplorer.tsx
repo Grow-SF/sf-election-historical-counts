@@ -55,7 +55,7 @@ function DaysTooltip({
       </div>
       {p.bound && (
         <div className="text-xs italic text-faint">
-          upper bound — sparse archive captures
+          upper bound (crossed by day {p.y} at the latest) — sparse archive captures
         </div>
       )}
     </div>

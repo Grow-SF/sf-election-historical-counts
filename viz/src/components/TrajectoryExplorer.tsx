@@ -67,6 +67,13 @@ export default function TrajectoryExplorer({
     () => elections.find((e) => e.id === selected) ?? null,
     [elections, selected],
   );
+  const lineData = useMemo(
+    () =>
+      new Map(
+        elections.map((e) => [e.id, e.pts.map(([d, p]) => ({ d, p }))]),
+      ),
+    [elections],
+  );
 
   return (
     <div>
@@ -166,7 +173,7 @@ export default function TrajectoryExplorer({
                 return (
                   <Line
                     key={e.id}
-                    data={e.pts.map(([d, p]) => ({ d, p }))}
+                    data={lineData.get(e.id)}
                     dataKey="p"
                     name={e.id}
                     stroke={color}

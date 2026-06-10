@@ -52,7 +52,7 @@ function Hero() {
         </div>
 
         <p
-          className="smallcaps fade-up mt-14 text-paper/40"
+          className="smallcaps fade-up mt-14 text-paper/55"
           style={{ animationDelay: "380ms" }}
         >
           ↓ scroll — filters apply to every chart and are encoded in the URL
@@ -91,7 +91,7 @@ function Footer() {
             </p>
           </div>
         </div>
-        <p className="smallcaps mt-8 text-paper/40">
+        <p className="smallcaps mt-8 text-paper/55">
           built from the sf-election-count pipeline · data and recovery
           provenance in the repository · {new Date().getFullYear()}
         </p>

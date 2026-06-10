@@ -33,7 +33,7 @@ export const YEAR_MAX = Math.max(...ELECTIONS.map((e) => e.year));
 /** Fractional year of an election date, for regression and x-axes. */
 export function yearFrac(id: string): number {
   const d = new Date(id + "T00:00:00");
-  return d.getFullYear() + (d.getMonth() + d.getDate() / 31) / 12;
+  return d.getFullYear() + (d.getMonth() + (d.getDate() - 1) / 31) / 12;
 }
 
 export type Filters = {

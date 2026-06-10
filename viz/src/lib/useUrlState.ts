@@ -1,6 +1,6 @@
 "use client";
 import { useCallback, useEffect, useState } from "react";
-import { Filters, KINDS, YEAR_MAX, YEAR_MIN } from "./data";
+import { Filters, KINDS, THRESHOLDS, YEAR_MAX, YEAR_MIN } from "./data";
 
 export type UrlState = Filters & {
   threshold: number;
@@ -32,9 +32,10 @@ function parse(params: URLSearchParams): UrlState {
   if (to >= YEAR_MIN && to <= YEAR_MAX) s.to = to;
   if (params.get("arch") === "0") s.archival = false;
   const t = Number(params.get("t"));
-  if (t >= 50 && t <= 99) s.threshold = t;
+  if (THRESHOLDS.includes(t)) s.threshold = t;
   const sel = params.get("sel");
   if (sel) s.selected = sel;
+  if (s.from > s.to) [s.from, s.to] = [s.to, s.from];
   return s;
 }
 
@@ -52,10 +53,13 @@ function serialize(s: UrlState): string {
 
 /** Filter/selection state mirrored into the URL so any view is shareable. */
 export function useUrlState(): [UrlState, (patch: Partial<UrlState>) => void] {
-  const [state, setState] = useState<UrlState>(DEFAULT_STATE);
+  const [state, setState] = useState<UrlState>(() =>
+    typeof window === "undefined"
+      ? DEFAULT_STATE
+      : parse(new URLSearchParams(window.location.search)),
+  );
 
   useEffect(() => {
-    setState(parse(new URLSearchParams(window.location.search)));
     const onPop = () =>
       setState(parse(new URLSearchParams(window.location.search)));
     window.addEventListener("popstate", onPop);
