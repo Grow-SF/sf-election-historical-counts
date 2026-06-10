@@ -93,6 +93,7 @@ def _fetch_psov(session, e: str, snap: str, raw_dir: Path,
         return
     r = session.get(url, timeout=120)
     if r.status_code == 200 and looks_like_source("C", r.content):
+        dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_bytes(r.content)
     elif certifiable:
         cache.add(url)
@@ -109,6 +110,9 @@ def fetch_election(session, edate: dt.date, era: str, raw_dir: Path,
         url = f"{BASE}/{e}/data/{snap}/{fname}"
         if dest.exists():
             if (e, snap) not in manifest:
+                # HEAD may 404 if the server no longer serves a file we hold;
+                # the row then has last_modified="" and the parse stage falls
+                # back to the folder date.
                 r = session.head(url, timeout=30)
                 manifest[(e, snap)] = _manifest_row(e, snap, fname, "cached", r.headers)
             found += 1
