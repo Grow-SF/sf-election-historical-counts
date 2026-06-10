@@ -1,6 +1,8 @@
 """Pure parsers for SF Elections per-release summary files.
 
-Era C (2019-present): Dominion ElectionSummaryReportRPT XML.
+Era C (2019-present): Dominion ElectionSummaryReportRPT XML (summary.xml) and,
+                      for Nov 2019 split recovery, StatementOfVotesCastRPT XML
+                      ({snap}_psov.xml).
 Era B (2008-2018):    "summary.txt" TSV, one row per contest/candidate.
 """
 import csv
@@ -18,7 +20,11 @@ def _int_attr(element, name: str) -> int:
     value = element.get(name)
     if value is None:
         raise ParseError(f"turnout block missing attribute {name!r}")
-    return int(value)
+    try:
+        return int(value)
+    except ValueError as ex:
+        raise ParseError(
+            f"turnout block attribute {name!r} is not an integer: {value!r}") from ex
 
 
 def _int_field(row: dict, key: str) -> int:
