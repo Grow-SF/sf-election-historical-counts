@@ -1,0 +1,48 @@
+election_date,election_name,era
+2000-11-07,Consolidated Presidential General Election,A
+2000-12-12,Municipal Run-Off Election,A
+2001-11-06,Consolidated Municipal Election,A
+2001-12-11,Municipal Run-Off Election,A
+2002-03-05,Consolidated Primary Election,A
+2002-11-05,Consolidated General Election,A
+2002-12-10,Municipal Run-Off Election,A
+2003-10-07,Statewide Special Election,A
+2003-11-04,Consolidated Municipal Election,A
+2003-12-09,Municipal Run-Off Election,A
+2004-03-02,Consolidated Primary Election,A
+2004-11-02,Consolidated General Election,A
+2005-11-08,Consolidated Special Statewide Election,A
+2006-06-06,Consolidated Primary Election,A
+2006-11-07,Consolidated General Election,A
+2007-11-06,Municipal Election,A
+2008-04-08,Special Congressional Open Primary Election,B
+2008-06-03,Consolidated Statewide Direct Primary Election,B
+2008-11-04,Consolidated Presidential General Election,B
+2009-05-19,Statewide Special Election,B
+2009-11-03,Municipal Election,B
+2010-06-08,Consolidated Statewide Direct Primary Election,B
+2010-11-02,Consolidated General Election,B
+2011-11-08,Consolidated Municipal Election,B
+2012-06-05,Consolidated Presidential Primary Election,B
+2012-11-06,Consolidated General Election,B
+2013-11-05,Municipal Election,B
+2014-06-03,Consolidated Direct Primary Election,B
+2014-11-04,Consolidated General Election,B
+2015-11-03,Consolidated Municipal Election,B
+2016-06-07,Presidential Primary Election,B
+2016-11-08,Consolidated General Election,B
+2018-06-05,Consolidated Statewide Primary Election,B
+2018-11-06,General Election,B
+2019-11-05,Consolidated Municipal Election,C
+2020-03-03,Presidential Primary Election,C
+2020-11-03,Consolidated General Election,C
+2021-09-14,California Gubernatorial Recall Election,C
+2022-02-15,Consolidated Special Municipal Election,C
+2022-04-19,Special General Election,C
+2022-06-07,Consolidated Statewide Direct Primary Election,C
+2022-11-08,Consolidated General Election,C
+2024-03-05,Presidential Primary Election,C
+2024-11-05,Consolidated General Election,C
+2025-09-16,Special Recall Election,C
+2025-11-04,Statewide Special Election,C
+2026-06-02,Consolidated Statewide Direct Primary Election,C
