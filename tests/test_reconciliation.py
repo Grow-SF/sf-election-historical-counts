@@ -10,6 +10,13 @@ ROOT = Path(__file__).parent.parent
 COUNT_COLS = ["ballots_counted_total", "registered_voters"]
 SPLIT_COLS = ["ballots_vbm", "ballots_election_day"]
 
+# The archive's PDF parser read the FIRST party block (Democratic) of the
+# Dominion-era presidential-primary summaries instead of the citywide totals,
+# so every archive row for these two elections is wrong. The new pipeline's
+# citywide figures are verified against the DOE results pages:
+# 2020-03-03 -> 305,184 of 503,899 (60.56%); 2024-03-05 -> 233,465 (46.61%).
+KNOWN_ARCHIVE_ERRORS = {"2020-03-03", "2024-03-05"}
+
 
 def load(path):
     with open(path, newline="") as f:
@@ -22,6 +29,8 @@ def test_counts_match_archive():
     old = load(ROOT / "sf-long-count-archive/sf_count_timeline.csv")
     missing, mismatches = [], []
     for key, o in old.items():
+        if key[0] in KNOWN_ARCHIVE_ERRORS:
+            continue  # archive values are party-block, not citywide; see above
         n = new.get(key)
         if n is None:
             missing.append(key)
@@ -35,6 +44,17 @@ def test_counts_match_archive():
                 mismatches.append((key, col, o[col], n[col]))
     assert not missing, f"archive snapshots absent from new fetch: {missing}"
     assert not mismatches, f"count mismatches vs archive: {mismatches}"
+
+
+@pytest.mark.migration
+def test_presidential_primaries_corrected_to_citywide_totals():
+    new = load(ROOT / "data/sf_count_timeline.csv")
+    finals = {}
+    for (e, _), r in new.items():
+        if e in KNOWN_ARCHIVE_ERRORS:
+            finals[e] = max(finals.get(e, 0), int(r["ballots_counted_total"]))
+    # citywide ballots cast, verified on the DOE results pages
+    assert finals == {"2020-03-03": 305184, "2024-03-05": 233465}
 
 
 # The DOE published no psov for these three snapshots (verified 404 live,

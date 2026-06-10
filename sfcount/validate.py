@@ -3,8 +3,13 @@ import csv
 from pathlib import Path
 
 # Certified turnout from the Department of Elections' final official summaries.
+# The two presidential-primary figures are citywide ballots cast, verified
+# against the DOE results pages (the archive dataset mistakenly carried the
+# Democratic-party block for those elections).
 CERTIFIED_FINALS = {
     "2024-11-05": 412231,
+    "2024-03-05": 233465,  # 46.61% of 500,856
+    "2020-03-03": 305184,  # 60.56% of 503,899
     "2016-11-08": 414528,
     "2012-11-06": 364875,
 }
