@@ -77,6 +77,41 @@ def parse_era_c_xml(text: str) -> TurnoutRecord:
     raise ParseError("no turnout block found in Era C XML")
 
 
+def parse_era_c_psov(text: str) -> tuple[int, int]:
+    """Per-precinct statement of the vote -> citywide (election_day, vbm).
+
+    Sums Voters Cast (ballots4 - the ballots/ballots2 attributes count CARDS)
+    per counting group across the precinct rows of the turnout table. The
+    cumulative section at the bottom of the sheet has no ED/VBM breakdown,
+    hence the summation. Only the Tablix2 with Textbox1003="Precinct" is the
+    turnout table; later per-contest Tablix2 sections reuse the same row
+    element names and must be excluded.
+    """
+    try:
+        root = ET.fromstring(text.lstrip("﻿"))
+    except ET.ParseError as ex:
+        raise ParseError(f"not XML: {ex}") from ex
+
+    sums = {"Election Day": 0, "Vote by Mail": 0}
+    seen = False
+    for tablix in root.findall(".//{*}Tablix2"):
+        if tablix.get("Textbox1003") != "Precinct":
+            continue
+        for cg in tablix.findall(".//{*}cgName"):
+            name = cg.get("cgName")
+            if name not in sums:
+                continue
+            voters = cg.find("{*}Textbox18")
+            if voters is None:
+                raise ParseError("psov turnout row missing Textbox18 element")
+            sums[name] += _int_attr(voters, "ballots4")
+            seen = True
+        break
+    if not seen:
+        raise ParseError("no precinct turnout table found in psov XML")
+    return sums["Election Day"], sums["Vote by Mail"]
+
+
 def parse_era_b_tsv(text: str) -> TurnoutRecord:
     reader = csv.DictReader(io.StringIO(text.lstrip("\ufeff")), delimiter="\t")
     required = {"CONTEST_FULL_NAME", "CANDIDATE_FULL_NAME", "TOTAL", "CONTEST_TOTAL"}

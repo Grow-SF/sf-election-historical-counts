@@ -2,7 +2,7 @@ from pathlib import Path
 
 import pytest
 
-from sfcount.parsers import ParseError, TurnoutRecord, parse_era_b_tsv, parse_era_c_xml
+from sfcount.parsers import ParseError, TurnoutRecord, parse_era_b_tsv, parse_era_c_psov, parse_era_c_xml
 
 FIXTURES = Path(__file__).parent / "fixtures"
 
@@ -106,3 +106,49 @@ def test_era_b_rejects_truncated_row():
 def test_era_b_rejects_header_missing_required_columns():
     with pytest.raises(ParseError):
         parse_era_b_tsv("CONTEST_FULL_NAME\tCANDIDATE_FULL_NAME\nx\ty\n")
+
+
+def test_era_c_psov_sums_precinct_voters():
+    ed, vbm = parse_era_c_psov(read("era_c_2019_psov_turnout.xml"))
+    assert (ed, vbm) == (45594, 144910)
+    assert ed + vbm == 190504  # reconciles exactly with the summary.xml total
+
+
+def test_era_c_psov_rejects_input_without_turnout_table():
+    with pytest.raises(ParseError):
+        parse_era_c_psov("<?xml version='1.0'?><Report></Report>")
+    with pytest.raises(ParseError):
+        parse_era_c_psov("not xml")
+
+
+def test_era_c_psov_rejects_malformed_turnout_rows():
+    # A cgName row with no Textbox18 child must raise ParseError, not AttributeError.
+    missing_textbox18 = (
+        "<?xml version='1.0'?>"
+        '<Report xmlns:ns0="StatementOfVotesCastRPT">'
+        '<ns0:Tablix2 Textbox1003="Precinct">'
+        '<ns0:pdGroup_splitByPrecincts>'
+        '<ns0:cgName cgName="Election Day">'
+        "</ns0:cgName>"
+        "</ns0:pdGroup_splitByPrecincts>"
+        "</ns0:Tablix2>"
+        "</Report>"
+    )
+    with pytest.raises(ParseError):
+        parse_era_c_psov(missing_textbox18)
+
+    # A Textbox18 that exists but lacks ballots4 must raise ParseError, not AttributeError.
+    missing_ballots4 = (
+        "<?xml version='1.0'?>"
+        '<Report xmlns:ns0="StatementOfVotesCastRPT">'
+        '<ns0:Tablix2 Textbox1003="Precinct">'
+        '<ns0:pdGroup_splitByPrecincts>'
+        '<ns0:cgName cgName="Election Day">'
+        "<ns0:Textbox18 />"
+        "</ns0:cgName>"
+        "</ns0:pdGroup_splitByPrecincts>"
+        "</ns0:Tablix2>"
+        "</Report>"
+    )
+    with pytest.raises(ParseError):
+        parse_era_c_psov(missing_ballots4)
