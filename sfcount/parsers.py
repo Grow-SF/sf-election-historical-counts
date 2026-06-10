@@ -68,7 +68,7 @@ def parse_era_c_xml(text: str) -> TurnoutRecord:
 
 
 def parse_era_b_tsv(text: str) -> TurnoutRecord:
-    reader = csv.DictReader(io.StringIO(text.lstrip("﻿")), delimiter="\t")
+    reader = csv.DictReader(io.StringIO(text.lstrip("\ufeff")), delimiter="\t")
     if reader.fieldnames is None or "CONTEST_FULL_NAME" not in reader.fieldnames:
         raise ParseError("not an Era B summary TSV")
 
