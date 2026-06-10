@@ -22,6 +22,8 @@ def check_monotonic(rows) -> list[str]:
     errs, prev = [], {}
     for r in _sorted(rows):
         k, total = r["election_date"], _int(r["ballots_counted_total"])
+        if total is None:
+            continue
         if k in prev and total < prev[k]:
             errs.append(f"non-monotonic {k} {r['snapshot']}: {total} < {prev[k]}")
         prev[k] = total
@@ -44,8 +46,11 @@ def check_split_sum(rows) -> list[str]:
 def check_certified(rows) -> list[str]:
     errs, finals = [], {}
     for r in rows:
+        total = _int(r["ballots_counted_total"])
+        if total is None:
+            continue
         k = r["election_date"]
-        finals[k] = max(finals.get(k, 0), _int(r["ballots_counted_total"]))
+        finals[k] = max(finals.get(k, 0), total)
     for k, certified in CERTIFIED_FINALS.items():
         if k in finals and finals[k] != certified:
             errs.append(f"certified mismatch {k}: max {finals[k]} != certified {certified}")
