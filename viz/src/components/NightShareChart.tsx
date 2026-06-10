@@ -4,6 +4,7 @@ import {
   CartesianGrid,
   ComposedChart,
   Line,
+  ReferenceLine,
   ResponsiveContainer,
   Scatter,
   XAxis,
@@ -56,6 +57,15 @@ export default function NightShareChart({
     [from, to],
   );
 
+  // stem between an election's actual night share and its floor: the gap is
+  // the share of mail that arrived early enough to make the night count
+  const stems = useMemo(() => {
+    const floorBy = new Map(NIGHT_FLOOR.map((p) => [p.date, p.floorPct]));
+    return pts
+      .filter((p) => floorBy.has(p.id))
+      .map((p) => ({ x: p.x, y0: floorBy.get(p.id) as number, y1: p.y }));
+  }, [pts]);
+
   const trend =
     fit && [
       { x: fit.x0, y: fit.intercept + fit.slope * fit.x0 },
@@ -74,8 +84,12 @@ export default function NightShareChart({
             <strong>election-night floor</strong> — the non-absentee share of
             each certified count, 1964–present. Precinct ballots were reported
             on election night, so the night share can never sit below its
-            diamond; in 1964 the floor alone was 94%. 2020–21 ran high because
-            pandemic-era mail arrived weeks early. Ongoing counts excluded.
+            diamond; in 1964 the floor alone was 94%. The dotted stem between a
+            point and its diamond is mail that arrived early enough to be
+            pre-processed into the night count — night share is now set by
+            voter return timing, not counting capacity. 2020–21 ran high
+            because pandemic-era mail arrived weeks early. Ongoing counts
+            excluded.
           </>
         }
       >
@@ -115,7 +129,20 @@ export default function NightShareChart({
                 tickLine={false}
                 width={48}
               />
-              <Scatter
+              {stems.map((st) => (
+              <ReferenceLine
+                key={st.x}
+                segment={[
+                  { x: st.x, y: st.y0 },
+                  { x: st.x, y: st.y1 },
+                ]}
+                stroke="var(--color-faint)"
+                strokeWidth={1}
+                strokeDasharray="1 3"
+                opacity={0.6}
+              />
+            ))}
+            <Scatter
               data={floorPts}
               isAnimationActive={false}
               shape={(props: unknown) => {
