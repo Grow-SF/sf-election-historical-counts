@@ -1,0 +1,3611 @@
+[
+ {
+  "id": "2002-03-05",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 2002,
+  "final": 150249,
+  "registered": 440016,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    27.73,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 28,
+    "bound": true
+   },
+   "55": {
+    "days": 28,
+    "bound": true
+   },
+   "60": {
+    "days": 28,
+    "bound": true
+   },
+   "65": {
+    "days": 28,
+    "bound": true
+   },
+   "70": {
+    "days": 28,
+    "bound": true
+   },
+   "75": {
+    "days": 28,
+    "bound": true
+   },
+   "80": {
+    "days": 28,
+    "bound": true
+   },
+   "85": {
+    "days": 28,
+    "bound": true
+   },
+   "90": {
+    "days": 28,
+    "bound": true
+   },
+   "95": {
+    "days": 28,
+    "bound": true
+   },
+   "98": {
+    "days": 28,
+    "bound": true
+   },
+   "99": {
+    "days": 28,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2002-11-05",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 2002,
+  "final": 224990,
+  "registered": 449508,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    8.84,
+    99.8,
+    null,
+    null
+   ],
+   [
+    14.79,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 9,
+    "bound": true
+   },
+   "55": {
+    "days": 9,
+    "bound": true
+   },
+   "60": {
+    "days": 9,
+    "bound": true
+   },
+   "65": {
+    "days": 9,
+    "bound": true
+   },
+   "70": {
+    "days": 9,
+    "bound": true
+   },
+   "75": {
+    "days": 9,
+    "bound": true
+   },
+   "80": {
+    "days": 9,
+    "bound": true
+   },
+   "85": {
+    "days": 9,
+    "bound": true
+   },
+   "90": {
+    "days": 9,
+    "bound": true
+   },
+   "95": {
+    "days": 9,
+    "bound": true
+   },
+   "98": {
+    "days": 9,
+    "bound": true
+   },
+   "99": {
+    "days": 9,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2004-11-02",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 2004,
+  "final": 361822,
+  "registered": 486937,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 3,
+  "nightPct": 74.9,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.12,
+    74.9,
+    null,
+    null
+   ],
+   [
+    12.8,
+    98.4,
+    null,
+    null
+   ],
+   [
+    27.54,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": true
+   },
+   "55": {
+    "days": 0,
+    "bound": true
+   },
+   "60": {
+    "days": 0,
+    "bound": true
+   },
+   "65": {
+    "days": 0,
+    "bound": true
+   },
+   "70": {
+    "days": 0,
+    "bound": true
+   },
+   "75": {
+    "days": 13,
+    "bound": true
+   },
+   "80": {
+    "days": 13,
+    "bound": true
+   },
+   "85": {
+    "days": 13,
+    "bound": true
+   },
+   "90": {
+    "days": 13,
+    "bound": true
+   },
+   "95": {
+    "days": 13,
+    "bound": true
+   },
+   "98": {
+    "days": 13,
+    "bound": true
+   },
+   "99": {
+    "days": 28,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2005-11-08",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 2005,
+  "final": 229714,
+  "registered": 428481,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 3,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    12.8,
+    92.4,
+    null,
+    null
+   ],
+   [
+    13.81,
+    94.3,
+    null,
+    null
+   ],
+   [
+    26.74,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 13,
+    "bound": true
+   },
+   "55": {
+    "days": 13,
+    "bound": true
+   },
+   "60": {
+    "days": 13,
+    "bound": true
+   },
+   "65": {
+    "days": 13,
+    "bound": true
+   },
+   "70": {
+    "days": 13,
+    "bound": true
+   },
+   "75": {
+    "days": 13,
+    "bound": true
+   },
+   "80": {
+    "days": 13,
+    "bound": true
+   },
+   "85": {
+    "days": 13,
+    "bound": true
+   },
+   "90": {
+    "days": 13,
+    "bound": true
+   },
+   "95": {
+    "days": 27,
+    "bound": true
+   },
+   "98": {
+    "days": 27,
+    "bound": true
+   },
+   "99": {
+    "days": 27,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2008-02-05",
+  "name": "Consolidated Presidential Primary",
+  "kind": "Primary",
+  "year": 2008,
+  "final": 269212,
+  "registered": 415761,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": 34.2,
+  "pts": [
+   [
+    6.08,
+    81.4,
+    27.9,
+    53.6
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 6,
+    "bound": true
+   },
+   "55": {
+    "days": 6,
+    "bound": true
+   },
+   "60": {
+    "days": 6,
+    "bound": true
+   },
+   "65": {
+    "days": 6,
+    "bound": true
+   },
+   "70": {
+    "days": 6,
+    "bound": true
+   },
+   "75": {
+    "days": 6,
+    "bound": true
+   },
+   "80": {
+    "days": 6,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2010-06-08",
+  "name": "Consolidated Statewide Direct Primary",
+  "kind": "Primary",
+  "year": 2010,
+  "final": 155533,
+  "registered": 447985,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    1.83,
+    71.5,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 2,
+    "bound": true
+   },
+   "55": {
+    "days": 2,
+    "bound": true
+   },
+   "60": {
+    "days": 2,
+    "bound": true
+   },
+   "65": {
+    "days": 2,
+    "bound": true
+   },
+   "70": {
+    "days": 2,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2010-11-02",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 2010,
+  "final": 284625,
+  "registered": 461771,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    2.7,
+    67.0,
+    null,
+    null
+   ],
+   [
+    4.96,
+    80.6,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 3,
+    "bound": true
+   },
+   "55": {
+    "days": 3,
+    "bound": true
+   },
+   "60": {
+    "days": 3,
+    "bound": true
+   },
+   "65": {
+    "days": 3,
+    "bound": true
+   },
+   "70": {
+    "days": 5,
+    "bound": false
+   },
+   "75": {
+    "days": 5,
+    "bound": false
+   },
+   "80": {
+    "days": 5,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2011-11-08",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 2011,
+  "final": 197242,
+  "registered": 464380,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 4,
+  "nightPct": 79.6,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.83,
+    79.6,
+    null,
+    null
+   ],
+   [
+    1.84,
+    92.4,
+    null,
+    null
+   ],
+   [
+    8.81,
+    100.0,
+    null,
+    null
+   ],
+   [
+    13.73,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 2,
+    "bound": false
+   },
+   "85": {
+    "days": 2,
+    "bound": false
+   },
+   "90": {
+    "days": 2,
+    "bound": false
+   },
+   "95": {
+    "days": 9,
+    "bound": true
+   },
+   "98": {
+    "days": 9,
+    "bound": true
+   },
+   "99": {
+    "days": 9,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2012-06-05",
+  "name": "Consolidated Presidential Primary",
+  "kind": "Primary",
+  "year": 2012,
+  "final": 145105,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 3,
+  "nightPct": null,
+  "vbmShare": 65.7,
+  "pts": [
+   [
+    1.84,
+    93.9,
+    62.3,
+    31.6
+   ],
+   [
+    2.85,
+    94.7,
+    63.1,
+    31.6
+   ],
+   [
+    9.84,
+    100.0,
+    65.7,
+    34.3
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 2,
+    "bound": true
+   },
+   "55": {
+    "days": 2,
+    "bound": true
+   },
+   "60": {
+    "days": 2,
+    "bound": true
+   },
+   "65": {
+    "days": 2,
+    "bound": true
+   },
+   "70": {
+    "days": 2,
+    "bound": true
+   },
+   "75": {
+    "days": 2,
+    "bound": true
+   },
+   "80": {
+    "days": 2,
+    "bound": true
+   },
+   "85": {
+    "days": 2,
+    "bound": true
+   },
+   "90": {
+    "days": 2,
+    "bound": true
+   },
+   "95": {
+    "days": 10,
+    "bound": true
+   },
+   "98": {
+    "days": 10,
+    "bound": true
+   },
+   "99": {
+    "days": 10,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2012-11-06",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 2012,
+  "final": 364875,
+  "registered": 502841,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 7,
+  "nightPct": 71.4,
+  "vbmShare": 52.9,
+  "pts": [
+   [
+    0.1,
+    71.4,
+    30.2,
+    41.2
+   ],
+   [
+    1.83,
+    77.8,
+    36.5,
+    41.2
+   ],
+   [
+    2.84,
+    83.7,
+    42.5,
+    41.2
+   ],
+   [
+    4.85,
+    89.2,
+    47.9,
+    41.3
+   ],
+   [
+    7.83,
+    93.8,
+    52.1,
+    41.7
+   ],
+   [
+    12.84,
+    97.3,
+    52.9,
+    44.4
+   ],
+   [
+    20.53,
+    100.0,
+    52.9,
+    47.1
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": true
+   },
+   "55": {
+    "days": 0,
+    "bound": true
+   },
+   "60": {
+    "days": 0,
+    "bound": true
+   },
+   "65": {
+    "days": 0,
+    "bound": true
+   },
+   "70": {
+    "days": 0,
+    "bound": true
+   },
+   "75": {
+    "days": 2,
+    "bound": false
+   },
+   "80": {
+    "days": 3,
+    "bound": false
+   },
+   "85": {
+    "days": 5,
+    "bound": false
+   },
+   "90": {
+    "days": 8,
+    "bound": true
+   },
+   "95": {
+    "days": 13,
+    "bound": true
+   },
+   "98": {
+    "days": 21,
+    "bound": true
+   },
+   "99": {
+    "days": 21,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2013-11-05",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 2013,
+  "final": 128937,
+  "registered": 440028,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": null,
+  "vbmShare": 66.2,
+  "pts": [
+   [
+    2.84,
+    95.3,
+    64.6,
+    30.6
+   ],
+   [
+    9.75,
+    100.0,
+    66.2,
+    33.8
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 3,
+    "bound": true
+   },
+   "55": {
+    "days": 3,
+    "bound": true
+   },
+   "60": {
+    "days": 3,
+    "bound": true
+   },
+   "65": {
+    "days": 3,
+    "bound": true
+   },
+   "70": {
+    "days": 3,
+    "bound": true
+   },
+   "75": {
+    "days": 3,
+    "bound": true
+   },
+   "80": {
+    "days": 3,
+    "bound": true
+   },
+   "85": {
+    "days": 3,
+    "bound": true
+   },
+   "90": {
+    "days": 3,
+    "bound": true
+   },
+   "95": {
+    "days": 3,
+    "bound": true
+   },
+   "98": {
+    "days": 10,
+    "bound": true
+   },
+   "99": {
+    "days": 10,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2014-06-03",
+  "name": "Consolidated Statewide Direct Primary",
+  "kind": "Primary",
+  "year": 2014,
+  "final": 129399,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": null,
+  "vbmShare": 69.5,
+  "pts": [
+   [
+    2.84,
+    95.8,
+    67.9,
+    27.9
+   ],
+   [
+    8.65,
+    100.0,
+    69.5,
+    30.5
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 3,
+    "bound": true
+   },
+   "55": {
+    "days": 3,
+    "bound": true
+   },
+   "60": {
+    "days": 3,
+    "bound": true
+   },
+   "65": {
+    "days": 3,
+    "bound": true
+   },
+   "70": {
+    "days": 3,
+    "bound": true
+   },
+   "75": {
+    "days": 3,
+    "bound": true
+   },
+   "80": {
+    "days": 3,
+    "bound": true
+   },
+   "85": {
+    "days": 3,
+    "bound": true
+   },
+   "90": {
+    "days": 3,
+    "bound": true
+   },
+   "95": {
+    "days": 3,
+    "bound": true
+   },
+   "98": {
+    "days": 9,
+    "bound": true
+   },
+   "99": {
+    "days": 9,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2014-11-04",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 2014,
+  "final": 231214,
+  "registered": 436019,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 5,
+  "nightPct": 74.5,
+  "vbmShare": 58.9,
+  "pts": [
+   [
+    0.16,
+    70.3,
+    33.3,
+    37.0
+   ],
+   [
+    0.84,
+    74.5,
+    37.5,
+    37.0
+   ],
+   [
+    1.84,
+    78.8,
+    41.8,
+    37.0
+   ],
+   [
+    12.83,
+    100.0,
+    58.9,
+    41.1
+   ],
+   [
+    16.66,
+    100.0,
+    58.9,
+    41.1
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": true
+   },
+   "55": {
+    "days": 0,
+    "bound": true
+   },
+   "60": {
+    "days": 0,
+    "bound": true
+   },
+   "65": {
+    "days": 0,
+    "bound": true
+   },
+   "70": {
+    "days": 0,
+    "bound": true
+   },
+   "75": {
+    "days": 2,
+    "bound": false
+   },
+   "80": {
+    "days": 13,
+    "bound": true
+   },
+   "85": {
+    "days": 13,
+    "bound": true
+   },
+   "90": {
+    "days": 13,
+    "bound": true
+   },
+   "95": {
+    "days": 13,
+    "bound": true
+   },
+   "98": {
+    "days": 13,
+    "bound": true
+   },
+   "99": {
+    "days": 13,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2015-11-03",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 2015,
+  "final": 203069,
+  "registered": 446828,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 15,
+  "nightPct": 65.1,
+  "vbmShare": 61.9,
+  "pts": [
+   [
+    0.0,
+    32.5,
+    32.5,
+    0.0
+   ],
+   [
+    0.0,
+    44.7,
+    32.5,
+    12.2
+   ],
+   [
+    0.0,
+    65.1,
+    32.5,
+    32.7
+   ],
+   [
+    0.17,
+    69.4,
+    36.7,
+    32.7
+   ],
+   [
+    1.17,
+    76.7,
+    44.0,
+    32.7
+   ],
+   [
+    2.17,
+    84.8,
+    52.1,
+    32.7
+   ],
+   [
+    3.17,
+    88.5,
+    55.8,
+    32.7
+   ],
+   [
+    4.17,
+    89.3,
+    56.6,
+    32.7
+   ],
+   [
+    5.17,
+    92.0,
+    59.4,
+    32.7
+   ],
+   [
+    6.17,
+    96.1,
+    61.0,
+    35.0
+   ],
+   [
+    7.17,
+    97.1,
+    61.1,
+    36.1
+   ],
+   [
+    8.17,
+    99.9,
+    61.9,
+    38.0
+   ],
+   [
+    9.17,
+    100.0,
+    61.9,
+    38.1
+   ],
+   [
+    12.17,
+    100.0,
+    61.9,
+    38.1
+   ],
+   [
+    15.17,
+    100.0,
+    61.9,
+    38.1
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": false
+   },
+   "55": {
+    "days": 0,
+    "bound": false
+   },
+   "60": {
+    "days": 0,
+    "bound": false
+   },
+   "65": {
+    "days": 0,
+    "bound": false
+   },
+   "70": {
+    "days": 2,
+    "bound": false
+   },
+   "75": {
+    "days": 2,
+    "bound": false
+   },
+   "80": {
+    "days": 3,
+    "bound": false
+   },
+   "85": {
+    "days": 4,
+    "bound": false
+   },
+   "90": {
+    "days": 6,
+    "bound": false
+   },
+   "95": {
+    "days": 7,
+    "bound": false
+   },
+   "98": {
+    "days": 9,
+    "bound": false
+   },
+   "99": {
+    "days": 9,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2016-06-07",
+  "name": "Presidential Primary Election",
+  "kind": "Primary",
+  "year": 2016,
+  "final": 264993,
+  "registered": 468238,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 17,
+  "nightPct": 70.1,
+  "vbmShare": 60.4,
+  "pts": [
+   [
+    0.0,
+    36.4,
+    36.4,
+    0.0
+   ],
+   [
+    0.0,
+    49.9,
+    36.4,
+    13.5
+   ],
+   [
+    0.0,
+    69.6,
+    36.4,
+    33.2
+   ],
+   [
+    0.0,
+    70.1,
+    36.4,
+    33.7
+   ],
+   [
+    0.17,
+    72.8,
+    39.2,
+    33.7
+   ],
+   [
+    1.17,
+    79.4,
+    45.8,
+    33.7
+   ],
+   [
+    2.17,
+    84.9,
+    51.2,
+    33.7
+   ],
+   [
+    3.17,
+    90.2,
+    56.5,
+    33.7
+   ],
+   [
+    4.17,
+    91.0,
+    57.3,
+    33.7
+   ],
+   [
+    5.17,
+    92.1,
+    58.5,
+    33.7
+   ],
+   [
+    6.17,
+    93.0,
+    59.4,
+    33.7
+   ],
+   [
+    7.17,
+    95.9,
+    59.4,
+    36.5
+   ],
+   [
+    8.17,
+    97.0,
+    60.0,
+    37.0
+   ],
+   [
+    9.17,
+    98.2,
+    60.1,
+    38.0
+   ],
+   [
+    12.17,
+    99.7,
+    60.3,
+    39.4
+   ],
+   [
+    13.17,
+    100.0,
+    60.4,
+    39.6
+   ],
+   [
+    16.17,
+    100.0,
+    60.4,
+    39.6
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": false
+   },
+   "55": {
+    "days": 0,
+    "bound": false
+   },
+   "60": {
+    "days": 0,
+    "bound": false
+   },
+   "65": {
+    "days": 0,
+    "bound": false
+   },
+   "70": {
+    "days": 0,
+    "bound": false
+   },
+   "75": {
+    "days": 2,
+    "bound": false
+   },
+   "80": {
+    "days": 3,
+    "bound": false
+   },
+   "85": {
+    "days": 4,
+    "bound": false
+   },
+   "90": {
+    "days": 4,
+    "bound": false
+   },
+   "95": {
+    "days": 8,
+    "bound": false
+   },
+   "98": {
+    "days": 10,
+    "bound": false
+   },
+   "99": {
+    "days": 13,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2016-11-08",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 2016,
+  "final": 414528,
+  "registered": 513573,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 22,
+  "nightPct": 66.1,
+  "vbmShare": 63.5,
+  "pts": [
+   [
+    0.0,
+    34.3,
+    34.3,
+    0.0
+   ],
+   [
+    0.07,
+    47.2,
+    34.3,
+    12.9
+   ],
+   [
+    0.12,
+    66.0,
+    34.3,
+    31.7
+   ],
+   [
+    0.17,
+    66.1,
+    34.3,
+    31.8
+   ],
+   [
+    0.83,
+    66.9,
+    35.1,
+    31.8
+   ],
+   [
+    1.83,
+    68.3,
+    36.5,
+    31.8
+   ],
+   [
+    2.82,
+    69.2,
+    37.4,
+    31.8
+   ],
+   [
+    3.84,
+    71.5,
+    39.7,
+    31.8
+   ],
+   [
+    4.84,
+    75.3,
+    43.5,
+    31.8
+   ],
+   [
+    5.83,
+    78.2,
+    46.4,
+    31.8
+   ],
+   [
+    6.84,
+    82.2,
+    50.4,
+    31.8
+   ],
+   [
+    7.83,
+    86.1,
+    54.3,
+    31.8
+   ],
+   [
+    8.85,
+    90.4,
+    58.6,
+    31.8
+   ],
+   [
+    9.84,
+    92.9,
+    61.1,
+    31.8
+   ],
+   [
+    10.83,
+    94.9,
+    62.7,
+    32.2
+   ],
+   [
+    11.83,
+    95.7,
+    63.0,
+    32.7
+   ],
+   [
+    12.83,
+    98.0,
+    63.4,
+    34.6
+   ],
+   [
+    13.9,
+    99.9,
+    63.5,
+    36.5
+   ],
+   [
+    14.83,
+    100.0,
+    63.5,
+    36.5
+   ],
+   [
+    19.87,
+    100.0,
+    63.5,
+    36.5
+   ],
+   [
+    22.83,
+    100.0,
+    63.5,
+    36.5
+   ],
+   [
+    27.77,
+    100.0,
+    63.5,
+    36.5
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": false
+   },
+   "55": {
+    "days": 0,
+    "bound": false
+   },
+   "60": {
+    "days": 0,
+    "bound": false
+   },
+   "65": {
+    "days": 0,
+    "bound": false
+   },
+   "70": {
+    "days": 4,
+    "bound": false
+   },
+   "75": {
+    "days": 5,
+    "bound": false
+   },
+   "80": {
+    "days": 7,
+    "bound": false
+   },
+   "85": {
+    "days": 8,
+    "bound": false
+   },
+   "90": {
+    "days": 9,
+    "bound": false
+   },
+   "95": {
+    "days": 12,
+    "bound": false
+   },
+   "98": {
+    "days": 14,
+    "bound": false
+   },
+   "99": {
+    "days": 14,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2018-06-05",
+  "name": "Consolidated Statewide Primary Election",
+  "kind": "Primary",
+  "year": 2018,
+  "final": 253583,
+  "registered": 478113,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 17,
+  "nightPct": 60.8,
+  "vbmShare": 64.6,
+  "pts": [
+   [
+    0.04,
+    31.2,
+    31.2,
+    0.0
+   ],
+   [
+    0.09,
+    48.6,
+    31.2,
+    17.5
+   ],
+   [
+    0.12,
+    60.7,
+    31.2,
+    29.6
+   ],
+   [
+    0.17,
+    60.8,
+    31.2,
+    29.7
+   ],
+   [
+    0.83,
+    62.7,
+    33.0,
+    29.7
+   ],
+   [
+    1.84,
+    65.9,
+    36.2,
+    29.7
+   ],
+   [
+    2.84,
+    73.5,
+    43.9,
+    29.7
+   ],
+   [
+    3.83,
+    82.7,
+    53.0,
+    29.7
+   ],
+   [
+    4.83,
+    89.2,
+    59.5,
+    29.7
+   ],
+   [
+    5.83,
+    92.7,
+    63.1,
+    29.7
+   ],
+   [
+    6.82,
+    96.4,
+    63.8,
+    32.6
+   ],
+   [
+    7.83,
+    97.5,
+    64.0,
+    33.4
+   ],
+   [
+    8.83,
+    98.4,
+    64.1,
+    34.4
+   ],
+   [
+    9.84,
+    99.7,
+    64.6,
+    35.2
+   ],
+   [
+    12.85,
+    100.0,
+    64.6,
+    35.4
+   ],
+   [
+    15.84,
+    100.0,
+    64.6,
+    35.4
+   ],
+   [
+    21.83,
+    100.0,
+    64.6,
+    35.4
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": false
+   },
+   "55": {
+    "days": 0,
+    "bound": false
+   },
+   "60": {
+    "days": 0,
+    "bound": false
+   },
+   "65": {
+    "days": 2,
+    "bound": false
+   },
+   "70": {
+    "days": 3,
+    "bound": false
+   },
+   "75": {
+    "days": 4,
+    "bound": false
+   },
+   "80": {
+    "days": 4,
+    "bound": false
+   },
+   "85": {
+    "days": 5,
+    "bound": false
+   },
+   "90": {
+    "days": 6,
+    "bound": false
+   },
+   "95": {
+    "days": 7,
+    "bound": false
+   },
+   "98": {
+    "days": 9,
+    "bound": false
+   },
+   "99": {
+    "days": 10,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2018-11-06",
+  "name": "General Election",
+  "kind": "General",
+  "year": 2018,
+  "final": 372848,
+  "registered": 500516,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 19,
+  "nightPct": 59.3,
+  "vbmShare": 65.7,
+  "pts": [
+   [
+    0.04,
+    31.9,
+    31.9,
+    0.0
+   ],
+   [
+    0.07,
+    41.5,
+    31.9,
+    9.6
+   ],
+   [
+    0.11,
+    58.9,
+    31.9,
+    27.1
+   ],
+   [
+    0.21,
+    59.3,
+    31.9,
+    27.4
+   ],
+   [
+    0.83,
+    63.1,
+    35.7,
+    27.4
+   ],
+   [
+    1.83,
+    65.1,
+    37.6,
+    27.4
+   ],
+   [
+    2.83,
+    67.8,
+    40.4,
+    27.4
+   ],
+   [
+    3.82,
+    73.4,
+    45.9,
+    27.4
+   ],
+   [
+    4.83,
+    80.5,
+    53.1,
+    27.4
+   ],
+   [
+    5.84,
+    86.7,
+    59.3,
+    27.5
+   ],
+   [
+    6.83,
+    90.7,
+    63.1,
+    27.6
+   ],
+   [
+    7.82,
+    92.7,
+    63.8,
+    28.9
+   ],
+   [
+    8.83,
+    95.9,
+    64.1,
+    31.8
+   ],
+   [
+    9.85,
+    98.0,
+    64.5,
+    33.5
+   ],
+   [
+    10.83,
+    99.4,
+    65.6,
+    33.8
+   ],
+   [
+    12.84,
+    99.8,
+    65.6,
+    34.1
+   ],
+   [
+    13.83,
+    99.9,
+    65.7,
+    34.2
+   ],
+   [
+    19.83,
+    100.0,
+    65.7,
+    34.3
+   ],
+   [
+    20.82,
+    100.0,
+    65.7,
+    34.3
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": false
+   },
+   "55": {
+    "days": 0,
+    "bound": false
+   },
+   "60": {
+    "days": 1,
+    "bound": false
+   },
+   "65": {
+    "days": 2,
+    "bound": false
+   },
+   "70": {
+    "days": 4,
+    "bound": false
+   },
+   "75": {
+    "days": 5,
+    "bound": false
+   },
+   "80": {
+    "days": 5,
+    "bound": false
+   },
+   "85": {
+    "days": 6,
+    "bound": false
+   },
+   "90": {
+    "days": 7,
+    "bound": false
+   },
+   "95": {
+    "days": 9,
+    "bound": false
+   },
+   "98": {
+    "days": 10,
+    "bound": false
+   },
+   "99": {
+    "days": 11,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2019-11-05",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 2019,
+  "final": 206122,
+  "registered": 495050,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 13,
+  "nightPct": 55.9,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.03,
+    33.8,
+    33.8,
+    0.0
+   ],
+   [
+    0.07,
+    51.3,
+    null,
+    null
+   ],
+   [
+    0.12,
+    55.9,
+    null,
+    null
+   ],
+   [
+    0.19,
+    55.9,
+    33.8,
+    22.1
+   ],
+   [
+    0.84,
+    64.8,
+    42.7,
+    22.1
+   ],
+   [
+    1.84,
+    79.4,
+    57.3,
+    22.1
+   ],
+   [
+    2.86,
+    92.4,
+    70.3,
+    22.1
+   ],
+   [
+    3.83,
+    99.4,
+    71.1,
+    28.2
+   ],
+   [
+    4.83,
+    100.0,
+    71.1,
+    28.8
+   ],
+   [
+    6.83,
+    100.0,
+    71.1,
+    28.8
+   ],
+   [
+    7.84,
+    100.0,
+    71.1,
+    28.8
+   ],
+   [
+    8.84,
+    100.0,
+    71.2,
+    28.8
+   ],
+   [
+    20.82,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": false
+   },
+   "55": {
+    "days": 0,
+    "bound": false
+   },
+   "60": {
+    "days": 1,
+    "bound": false
+   },
+   "65": {
+    "days": 2,
+    "bound": false
+   },
+   "70": {
+    "days": 2,
+    "bound": false
+   },
+   "75": {
+    "days": 2,
+    "bound": false
+   },
+   "80": {
+    "days": 3,
+    "bound": false
+   },
+   "85": {
+    "days": 3,
+    "bound": false
+   },
+   "90": {
+    "days": 3,
+    "bound": false
+   },
+   "95": {
+    "days": 4,
+    "bound": false
+   },
+   "98": {
+    "days": 4,
+    "bound": false
+   },
+   "99": {
+    "days": 4,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2020-03-03",
+  "name": "Presidential Primary Election",
+  "kind": "Primary",
+  "year": 2020,
+  "final": 305184,
+  "registered": 503899,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 14,
+  "nightPct": 47.4,
+  "vbmShare": 64.9,
+  "pts": [
+   [
+    0.03,
+    23.7,
+    23.7,
+    0.0
+   ],
+   [
+    0.07,
+    33.8,
+    23.7,
+    10.1
+   ],
+   [
+    0.12,
+    47.4,
+    23.7,
+    23.7
+   ],
+   [
+    0.2,
+    47.4,
+    23.7,
+    23.7
+   ],
+   [
+    0.84,
+    59.0,
+    35.3,
+    23.7
+   ],
+   [
+    1.9,
+    78.9,
+    55.2,
+    23.7
+   ],
+   [
+    2.84,
+    87.1,
+    63.4,
+    23.7
+   ],
+   [
+    3.83,
+    90.2,
+    64.5,
+    25.7
+   ],
+   [
+    5.84,
+    92.4,
+    64.6,
+    27.8
+   ],
+   [
+    6.84,
+    96.0,
+    64.7,
+    31.3
+   ],
+   [
+    7.83,
+    98.8,
+    64.8,
+    34.0
+   ],
+   [
+    8.85,
+    99.9,
+    64.9,
+    35.0
+   ],
+   [
+    9.85,
+    100.0,
+    64.9,
+    35.1
+   ],
+   [
+    22.17,
+    100.0,
+    64.9,
+    35.1
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": false
+   },
+   "55": {
+    "days": 1,
+    "bound": false
+   },
+   "60": {
+    "days": 2,
+    "bound": false
+   },
+   "65": {
+    "days": 2,
+    "bound": false
+   },
+   "70": {
+    "days": 2,
+    "bound": false
+   },
+   "75": {
+    "days": 2,
+    "bound": false
+   },
+   "80": {
+    "days": 3,
+    "bound": false
+   },
+   "85": {
+    "days": 3,
+    "bound": false
+   },
+   "90": {
+    "days": 4,
+    "bound": false
+   },
+   "95": {
+    "days": 7,
+    "bound": false
+   },
+   "98": {
+    "days": 8,
+    "bound": false
+   },
+   "99": {
+    "days": 9,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2020-11-03",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 2020,
+  "final": 449866,
+  "registered": 521099,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 17,
+  "nightPct": 78.4,
+  "vbmShare": 91.5,
+  "pts": [
+   [
+    0.04,
+    71.6,
+    71.6,
+    0.0
+   ],
+   [
+    0.08,
+    76.9,
+    71.6,
+    5.3
+   ],
+   [
+    0.11,
+    78.3,
+    71.6,
+    6.8
+   ],
+   [
+    0.2,
+    78.4,
+    71.6,
+    6.8
+   ],
+   [
+    0.84,
+    78.6,
+    71.8,
+    6.8
+   ],
+   [
+    1.83,
+    85.2,
+    78.4,
+    6.8
+   ],
+   [
+    2.84,
+    93.1,
+    86.3,
+    6.9
+   ],
+   [
+    3.85,
+    97.2,
+    89.9,
+    7.3
+   ],
+   [
+    4.83,
+    98.6,
+    90.6,
+    8.0
+   ],
+   [
+    5.84,
+    99.3,
+    90.8,
+    8.5
+   ],
+   [
+    6.84,
+    99.7,
+    91.2,
+    8.5
+   ],
+   [
+    8.83,
+    99.8,
+    91.3,
+    8.5
+   ],
+   [
+    9.83,
+    99.9,
+    91.3,
+    8.5
+   ],
+   [
+    13.84,
+    99.9,
+    91.3,
+    8.5
+   ],
+   [
+    15.83,
+    99.9,
+    91.4,
+    8.5
+   ],
+   [
+    20.83,
+    100.0,
+    91.4,
+    8.5
+   ],
+   [
+    27.86,
+    100.0,
+    91.5,
+    8.5
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": false
+   },
+   "55": {
+    "days": 0,
+    "bound": false
+   },
+   "60": {
+    "days": 0,
+    "bound": false
+   },
+   "65": {
+    "days": 0,
+    "bound": false
+   },
+   "70": {
+    "days": 0,
+    "bound": false
+   },
+   "75": {
+    "days": 0,
+    "bound": false
+   },
+   "80": {
+    "days": 2,
+    "bound": false
+   },
+   "85": {
+    "days": 2,
+    "bound": false
+   },
+   "90": {
+    "days": 3,
+    "bound": false
+   },
+   "95": {
+    "days": 4,
+    "bound": false
+   },
+   "98": {
+    "days": 5,
+    "bound": false
+   },
+   "99": {
+    "days": 6,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2021-09-14",
+  "name": "California Gubernatorial Recall Election",
+  "kind": "Recall",
+  "year": 2021,
+  "final": 341055,
+  "registered": 501919,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 13,
+  "nightPct": 78.7,
+  "vbmShare": 91.5,
+  "pts": [
+   [
+    0.03,
+    72.2,
+    72.2,
+    0.0
+   ],
+   [
+    0.07,
+    76.5,
+    72.2,
+    4.3
+   ],
+   [
+    0.11,
+    78.6,
+    72.2,
+    6.4
+   ],
+   [
+    0.14,
+    78.7,
+    72.2,
+    6.4
+   ],
+   [
+    0.83,
+    79.0,
+    72.6,
+    6.4
+   ],
+   [
+    1.83,
+    86.7,
+    80.3,
+    6.4
+   ],
+   [
+    2.84,
+    93.7,
+    87.3,
+    6.4
+   ],
+   [
+    3.81,
+    96.9,
+    90.5,
+    6.4
+   ],
+   [
+    5.83,
+    98.7,
+    90.5,
+    8.2
+   ],
+   [
+    6.84,
+    99.8,
+    91.4,
+    8.4
+   ],
+   [
+    7.83,
+    99.9,
+    91.5,
+    8.4
+   ],
+   [
+    16.83,
+    100.0,
+    91.5,
+    8.5
+   ],
+   [
+    20.82,
+    100.0,
+    91.5,
+    8.5
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": false
+   },
+   "55": {
+    "days": 0,
+    "bound": false
+   },
+   "60": {
+    "days": 0,
+    "bound": false
+   },
+   "65": {
+    "days": 0,
+    "bound": false
+   },
+   "70": {
+    "days": 0,
+    "bound": false
+   },
+   "75": {
+    "days": 0,
+    "bound": false
+   },
+   "80": {
+    "days": 2,
+    "bound": false
+   },
+   "85": {
+    "days": 2,
+    "bound": false
+   },
+   "90": {
+    "days": 3,
+    "bound": false
+   },
+   "95": {
+    "days": 4,
+    "bound": false
+   },
+   "98": {
+    "days": 6,
+    "bound": false
+   },
+   "99": {
+    "days": 7,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2022-02-15",
+  "name": "Consolidated Special Municipal Election",
+  "kind": "Special",
+  "year": 2022,
+  "final": 179981,
+  "registered": 499771,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 8,
+  "nightPct": 72.4,
+  "vbmShare": 93.4,
+  "pts": [
+   [
+    0.02,
+    66.5,
+    66.5,
+    0.0
+   ],
+   [
+    0.07,
+    71.6,
+    66.5,
+    5.1
+   ],
+   [
+    0.11,
+    72.4,
+    66.5,
+    5.9
+   ],
+   [
+    1.83,
+    83.0,
+    77.1,
+    5.9
+   ],
+   [
+    2.83,
+    97.0,
+    91.1,
+    5.9
+   ],
+   [
+    3.8,
+    99.7,
+    93.1,
+    6.6
+   ],
+   [
+    6.82,
+    99.9,
+    93.3,
+    6.6
+   ],
+   [
+    7.83,
+    100.0,
+    93.4,
+    6.6
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": false
+   },
+   "55": {
+    "days": 0,
+    "bound": false
+   },
+   "60": {
+    "days": 0,
+    "bound": false
+   },
+   "65": {
+    "days": 0,
+    "bound": false
+   },
+   "70": {
+    "days": 0,
+    "bound": false
+   },
+   "75": {
+    "days": 2,
+    "bound": false
+   },
+   "80": {
+    "days": 2,
+    "bound": false
+   },
+   "85": {
+    "days": 3,
+    "bound": false
+   },
+   "90": {
+    "days": 3,
+    "bound": false
+   },
+   "95": {
+    "days": 3,
+    "bound": false
+   },
+   "98": {
+    "days": 4,
+    "bound": false
+   },
+   "99": {
+    "days": 4,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2022-04-19",
+  "name": "Special General Election",
+  "kind": "Special",
+  "year": 2022,
+  "final": 78764,
+  "registered": 268722,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 7,
+  "nightPct": 78.7,
+  "vbmShare": 95.3,
+  "pts": [
+   [
+    0.03,
+    74.5,
+    74.5,
+    0.0
+   ],
+   [
+    0.07,
+    78.7,
+    74.5,
+    4.2
+   ],
+   [
+    0.09,
+    78.7,
+    74.5,
+    4.2
+   ],
+   [
+    1.83,
+    99.0,
+    94.8,
+    4.2
+   ],
+   [
+    2.83,
+    99.9,
+    95.2,
+    4.7
+   ],
+   [
+    7.84,
+    100.0,
+    95.3,
+    4.7
+   ],
+   [
+    8.83,
+    100.0,
+    95.3,
+    4.7
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": false
+   },
+   "55": {
+    "days": 0,
+    "bound": false
+   },
+   "60": {
+    "days": 0,
+    "bound": false
+   },
+   "65": {
+    "days": 0,
+    "bound": false
+   },
+   "70": {
+    "days": 0,
+    "bound": false
+   },
+   "75": {
+    "days": 0,
+    "bound": false
+   },
+   "80": {
+    "days": 2,
+    "bound": false
+   },
+   "85": {
+    "days": 2,
+    "bound": false
+   },
+   "90": {
+    "days": 2,
+    "bound": false
+   },
+   "95": {
+    "days": 2,
+    "bound": false
+   },
+   "98": {
+    "days": 2,
+    "bound": false
+   },
+   "99": {
+    "days": 2,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2022-06-07",
+  "name": "Consolidated Statewide Direct Primary Election",
+  "kind": "Primary",
+  "year": 2022,
+  "final": 229229,
+  "registered": 495498,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 11,
+  "nightPct": 55.8,
+  "vbmShare": 90.3,
+  "pts": [
+   [
+    0.03,
+    47.6,
+    47.6,
+    0.0
+   ],
+   [
+    0.07,
+    52.7,
+    47.6,
+    5.0
+   ],
+   [
+    0.11,
+    55.8,
+    47.6,
+    8.2
+   ],
+   [
+    0.15,
+    55.8,
+    47.6,
+    8.2
+   ],
+   [
+    1.83,
+    61.9,
+    53.7,
+    8.2
+   ],
+   [
+    2.83,
+    80.5,
+    72.4,
+    8.2
+   ],
+   [
+    3.83,
+    96.9,
+    88.8,
+    8.2
+   ],
+   [
+    4.79,
+    99.4,
+    89.8,
+    9.6
+   ],
+   [
+    6.83,
+    99.9,
+    90.2,
+    9.6
+   ],
+   [
+    8.83,
+    100.0,
+    90.3,
+    9.7
+   ],
+   [
+    14.82,
+    100.0,
+    90.3,
+    9.7
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": false
+   },
+   "55": {
+    "days": 0,
+    "bound": false
+   },
+   "60": {
+    "days": 2,
+    "bound": false
+   },
+   "65": {
+    "days": 3,
+    "bound": false
+   },
+   "70": {
+    "days": 3,
+    "bound": false
+   },
+   "75": {
+    "days": 3,
+    "bound": false
+   },
+   "80": {
+    "days": 3,
+    "bound": false
+   },
+   "85": {
+    "days": 4,
+    "bound": false
+   },
+   "90": {
+    "days": 4,
+    "bound": false
+   },
+   "95": {
+    "days": 4,
+    "bound": false
+   },
+   "98": {
+    "days": 5,
+    "bound": false
+   },
+   "99": {
+    "days": 5,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2022-11-08",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 2022,
+  "final": 310071,
+  "registered": 497561,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 16,
+  "nightPct": 51.0,
+  "vbmShare": 88.5,
+  "pts": [
+   [
+    0.03,
+    42.7,
+    42.7,
+    0.0
+   ],
+   [
+    0.06,
+    46.3,
+    42.7,
+    3.7
+   ],
+   [
+    0.11,
+    51.0,
+    42.7,
+    8.3
+   ],
+   [
+    0.17,
+    51.0,
+    42.7,
+    8.4
+   ],
+   [
+    1.83,
+    54.1,
+    45.8,
+    8.4
+   ],
+   [
+    2.83,
+    63.0,
+    54.6,
+    8.4
+   ],
+   [
+    3.83,
+    72.5,
+    64.2,
+    8.4
+   ],
+   [
+    4.83,
+    79.5,
+    71.1,
+    8.4
+   ],
+   [
+    5.83,
+    86.8,
+    78.4,
+    8.4
+   ],
+   [
+    6.83,
+    94.1,
+    85.7,
+    8.4
+   ],
+   [
+    7.83,
+    97.5,
+    87.0,
+    10.5
+   ],
+   [
+    8.83,
+    99.0,
+    87.7,
+    11.4
+   ],
+   [
+    9.83,
+    99.7,
+    88.3,
+    11.4
+   ],
+   [
+    13.83,
+    100.0,
+    88.5,
+    11.5
+   ],
+   [
+    20.83,
+    100.0,
+    88.5,
+    11.5
+   ],
+   [
+    22.82,
+    100.0,
+    88.5,
+    11.5
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": false
+   },
+   "55": {
+    "days": 3,
+    "bound": false
+   },
+   "60": {
+    "days": 3,
+    "bound": false
+   },
+   "65": {
+    "days": 4,
+    "bound": false
+   },
+   "70": {
+    "days": 4,
+    "bound": false
+   },
+   "75": {
+    "days": 5,
+    "bound": false
+   },
+   "80": {
+    "days": 6,
+    "bound": false
+   },
+   "85": {
+    "days": 6,
+    "bound": false
+   },
+   "90": {
+    "days": 7,
+    "bound": false
+   },
+   "95": {
+    "days": 8,
+    "bound": false
+   },
+   "98": {
+    "days": 9,
+    "bound": false
+   },
+   "99": {
+    "days": 9,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2024-03-05",
+  "name": "Presidential Primary Election",
+  "kind": "Primary",
+  "year": 2024,
+  "final": 233465,
+  "registered": 500856,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 15,
+  "nightPct": 44.9,
+  "vbmShare": 88.0,
+  "pts": [
+   [
+    0.03,
+    35.6,
+    35.6,
+    0.0
+   ],
+   [
+    0.07,
+    39.0,
+    35.6,
+    3.3
+   ],
+   [
+    0.11,
+    44.8,
+    35.6,
+    9.2
+   ],
+   [
+    0.16,
+    44.9,
+    35.6,
+    9.2
+   ],
+   [
+    1.83,
+    56.6,
+    47.3,
+    9.2
+   ],
+   [
+    2.83,
+    82.8,
+    73.6,
+    9.2
+   ],
+   [
+    3.83,
+    92.6,
+    83.4,
+    9.2
+   ],
+   [
+    5.83,
+    95.4,
+    86.1,
+    9.2
+   ],
+   [
+    6.83,
+    96.5,
+    87.2,
+    9.4
+   ],
+   [
+    7.83,
+    97.1,
+    87.3,
+    9.8
+   ],
+   [
+    8.84,
+    98.2,
+    87.3,
+    10.9
+   ],
+   [
+    9.84,
+    99.9,
+    88.0,
+    12.0
+   ],
+   [
+    14.83,
+    100.0,
+    88.0,
+    12.0
+   ],
+   [
+    15.83,
+    100.0,
+    88.0,
+    12.0
+   ],
+   [
+    16.82,
+    100.0,
+    88.0,
+    12.0
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 2,
+    "bound": false
+   },
+   "55": {
+    "days": 2,
+    "bound": false
+   },
+   "60": {
+    "days": 3,
+    "bound": false
+   },
+   "65": {
+    "days": 3,
+    "bound": false
+   },
+   "70": {
+    "days": 3,
+    "bound": false
+   },
+   "75": {
+    "days": 3,
+    "bound": false
+   },
+   "80": {
+    "days": 3,
+    "bound": false
+   },
+   "85": {
+    "days": 4,
+    "bound": false
+   },
+   "90": {
+    "days": 4,
+    "bound": false
+   },
+   "95": {
+    "days": 6,
+    "bound": false
+   },
+   "98": {
+    "days": 9,
+    "bound": false
+   },
+   "99": {
+    "days": 10,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2024-11-05",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 2024,
+  "final": 412231,
+  "registered": 522265,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 18,
+  "nightPct": 56.9,
+  "vbmShare": 85.8,
+  "pts": [
+   [
+    0.03,
+    47.8,
+    47.8,
+    0.0
+   ],
+   [
+    0.06,
+    50.4,
+    47.8,
+    2.5
+   ],
+   [
+    0.11,
+    56.5,
+    47.8,
+    8.7
+   ],
+   [
+    0.19,
+    56.9,
+    47.8,
+    9.1
+   ],
+   [
+    1.83,
+    62.9,
+    53.8,
+    9.1
+   ],
+   [
+    2.82,
+    70.1,
+    61.0,
+    9.1
+   ],
+   [
+    3.82,
+    78.9,
+    69.7,
+    9.2
+   ],
+   [
+    4.83,
+    88.5,
+    79.3,
+    9.3
+   ],
+   [
+    5.82,
+    92.7,
+    83.0,
+    9.7
+   ],
+   [
+    6.82,
+    94.3,
+    84.2,
+    10.1
+   ],
+   [
+    7.82,
+    94.7,
+    84.6,
+    10.1
+   ],
+   [
+    8.82,
+    96.2,
+    85.2,
+    11.0
+   ],
+   [
+    9.82,
+    97.9,
+    85.3,
+    12.5
+   ],
+   [
+    10.83,
+    99.4,
+    85.5,
+    13.9
+   ],
+   [
+    12.82,
+    99.9,
+    85.6,
+    14.2
+   ],
+   [
+    13.84,
+    100.0,
+    85.7,
+    14.3
+   ],
+   [
+    15.82,
+    100.0,
+    85.7,
+    14.2
+   ],
+   [
+    27.79,
+    100.0,
+    85.8,
+    14.2
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": false
+   },
+   "55": {
+    "days": 0,
+    "bound": false
+   },
+   "60": {
+    "days": 2,
+    "bound": false
+   },
+   "65": {
+    "days": 3,
+    "bound": false
+   },
+   "70": {
+    "days": 3,
+    "bound": false
+   },
+   "75": {
+    "days": 4,
+    "bound": false
+   },
+   "80": {
+    "days": 5,
+    "bound": false
+   },
+   "85": {
+    "days": 5,
+    "bound": false
+   },
+   "90": {
+    "days": 6,
+    "bound": false
+   },
+   "95": {
+    "days": 9,
+    "bound": false
+   },
+   "98": {
+    "days": 11,
+    "bound": false
+   },
+   "99": {
+    "days": 11,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2025-09-16",
+  "name": "Special Recall Election",
+  "kind": "Recall",
+  "year": 2025,
+  "final": 21542,
+  "registered": 50273,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 4,
+  "nightPct": 76.5,
+  "vbmShare": 94.6,
+  "pts": [
+   [
+    0.03,
+    71.8,
+    71.8,
+    0.0
+   ],
+   [
+    0.11,
+    76.5,
+    71.8,
+    4.7
+   ],
+   [
+    1.82,
+    98.7,
+    94.0,
+    4.7
+   ],
+   [
+    8.81,
+    100.0,
+    94.6,
+    5.4
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": false
+   },
+   "55": {
+    "days": 0,
+    "bound": false
+   },
+   "60": {
+    "days": 0,
+    "bound": false
+   },
+   "65": {
+    "days": 0,
+    "bound": false
+   },
+   "70": {
+    "days": 0,
+    "bound": false
+   },
+   "75": {
+    "days": 0,
+    "bound": false
+   },
+   "80": {
+    "days": 2,
+    "bound": false
+   },
+   "85": {
+    "days": 2,
+    "bound": false
+   },
+   "90": {
+    "days": 2,
+    "bound": false
+   },
+   "95": {
+    "days": 2,
+    "bound": false
+   },
+   "98": {
+    "days": 2,
+    "bound": false
+   },
+   "99": {
+    "days": 9,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2025-11-04",
+  "name": "Statewide Special Election",
+  "kind": "Special",
+  "year": 2025,
+  "final": 295232,
+  "registered": 531310,
+  "source": "exact",
+  "provisional": false,
+  "nReports": 7,
+  "nightPct": 66.4,
+  "vbmShare": 90.4,
+  "pts": [
+   [
+    0.02,
+    59.2,
+    59.2,
+    0.0
+   ],
+   [
+    0.14,
+    66.4,
+    59.2,
+    7.2
+   ],
+   [
+    1.82,
+    70.8,
+    63.6,
+    7.2
+   ],
+   [
+    5.81,
+    89.9,
+    82.7,
+    7.2
+   ],
+   [
+    12.81,
+    98.9,
+    90.2,
+    8.7
+   ],
+   [
+    19.81,
+    99.9,
+    90.3,
+    9.6
+   ],
+   [
+    28.79,
+    100.0,
+    90.4,
+    9.6
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": false
+   },
+   "55": {
+    "days": 0,
+    "bound": false
+   },
+   "60": {
+    "days": 0,
+    "bound": false
+   },
+   "65": {
+    "days": 0,
+    "bound": false
+   },
+   "70": {
+    "days": 2,
+    "bound": false
+   },
+   "75": {
+    "days": 6,
+    "bound": false
+   },
+   "80": {
+    "days": 6,
+    "bound": false
+   },
+   "85": {
+    "days": 6,
+    "bound": false
+   },
+   "90": {
+    "days": 13,
+    "bound": false
+   },
+   "95": {
+    "days": 13,
+    "bound": false
+   },
+   "98": {
+    "days": 13,
+    "bound": false
+   },
+   "99": {
+    "days": 20,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "2026-06-02",
+  "name": "Consolidated Statewide Direct Primary Election",
+  "kind": "Primary",
+  "year": 2026,
+  "final": 259288,
+  "registered": 533546,
+  "source": "exact",
+  "provisional": true,
+  "nReports": 8,
+  "nightPct": 48.2,
+  "vbmShare": 90.6,
+  "pts": [
+   [
+    0.03,
+    38.9,
+    38.9,
+    0.0
+   ],
+   [
+    0.07,
+    41.9,
+    38.9,
+    3.0
+   ],
+   [
+    0.1,
+    48.2,
+    38.9,
+    9.3
+   ],
+   [
+    0.18,
+    48.2,
+    38.9,
+    9.4
+   ],
+   [
+    1.83,
+    54.1,
+    44.8,
+    9.4
+   ],
+   [
+    2.83,
+    68.1,
+    58.7,
+    9.4
+   ],
+   [
+    5.83,
+    86.0,
+    76.6,
+    9.4
+   ],
+   [
+    6.83,
+    100.0,
+    90.6,
+    9.4
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 2,
+    "bound": false
+   },
+   "55": {
+    "days": 3,
+    "bound": false
+   },
+   "60": {
+    "days": 3,
+    "bound": false
+   },
+   "65": {
+    "days": 3,
+    "bound": false
+   },
+   "70": {
+    "days": 6,
+    "bound": false
+   },
+   "75": {
+    "days": 6,
+    "bound": false
+   },
+   "80": {
+    "days": 6,
+    "bound": false
+   },
+   "85": {
+    "days": 6,
+    "bound": false
+   },
+   "90": {
+    "days": 7,
+    "bound": false
+   },
+   "95": {
+    "days": 7,
+    "bound": false
+   },
+   "98": {
+    "days": 7,
+    "bound": false
+   },
+   "99": {
+    "days": 7,
+    "bound": false
+   }
+  }
+ }
+]

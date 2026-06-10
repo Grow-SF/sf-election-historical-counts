@@ -1,0 +1,427 @@
+[
+ {
+  "date": "1964-11-03",
+  "share": 5.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1968-11-05",
+  "share": 6.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1972-06-06",
+  "share": 7.1,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1972-11-07",
+  "share": 8.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1973-11-06",
+  "share": 6.0,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1974-06-04",
+  "share": 7.1,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1974-11-05",
+  "share": 6.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1975-11-04",
+  "share": 4.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1975-12-11",
+  "share": 5.0,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1976-06-08",
+  "share": 8.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1976-11-02",
+  "share": 8.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1977-08-02",
+  "share": 9.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1977-11-08",
+  "share": 7.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1978-06-06",
+  "share": 8.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1978-11-07",
+  "share": 9.5,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1979-11-06",
+  "share": 7.1,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1979-12-11",
+  "share": 9.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1980-06-03",
+  "share": 7.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1980-08-19",
+  "share": 14.9,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1980-11-04",
+  "share": 11.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1981-11-03",
+  "share": 10.9,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1982-06-08",
+  "share": 11.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1982-11-02",
+  "share": 11.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1983-04-26",
+  "share": 35.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1983-11-08",
+  "share": 17.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1984-06-05",
+  "share": 16.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1984-11-06",
+  "share": 14.9,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1985-11-05",
+  "share": 21.7,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1986-06-03",
+  "share": 14.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1986-11-04",
+  "share": 14.7,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1987-04-07",
+  "share": 27.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1987-06-02",
+  "share": 37.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1987-11-03",
+  "share": 19.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1987-12-08",
+  "share": 26.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1988-06-07",
+  "share": 15.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1988-11-08",
+  "share": 28.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1989-11-07",
+  "share": 20.5,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1990-06-05",
+  "share": 24.7,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1990-11-06",
+  "share": 23.3,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1991-11-05",
+  "share": 22.3,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1991-12-10",
+  "share": 33.3,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1992-06-02",
+  "share": 21.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1992-11-03",
+  "share": 22.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1993-06-15",
+  "share": 40.9,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1993-11-02",
+  "share": 28.3,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1994-06-07",
+  "share": 27.3,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1994-11-08",
+  "share": 29.7,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1995-11-07",
+  "share": 29.9,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1995-12-12",
+  "share": 34.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1996-03-26",
+  "share": 28.9,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1996-11-05",
+  "share": 25.2,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1997-06-03",
+  "share": 27.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1997-11-04",
+  "share": 30.5,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1998-06-02",
+  "share": 30.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1998-11-03",
+  "share": 26.7,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1999-11-02",
+  "share": 25.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "1999-12-14",
+  "share": 32.4,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "2000-03-07",
+  "share": 25.8,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "2000-11-07",
+  "share": 25.6,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "2000-12-12",
+  "share": 37.0,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "2001-11-06",
+  "share": 27.7,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "2002-03-05",
+  "share": 34.3,
+  "source": "doe-turnout-history"
+ },
+ {
+  "date": "2008-02-05",
+  "share": 34.2,
+  "source": "archival"
+ },
+ {
+  "date": "2012-06-05",
+  "share": 65.7,
+  "source": "archival"
+ },
+ {
+  "date": "2012-11-06",
+  "share": 52.9,
+  "source": "archival"
+ },
+ {
+  "date": "2013-11-05",
+  "share": 66.2,
+  "source": "archival"
+ },
+ {
+  "date": "2014-06-03",
+  "share": 69.5,
+  "source": "archival"
+ },
+ {
+  "date": "2014-11-04",
+  "share": 58.9,
+  "source": "archival"
+ },
+ {
+  "date": "2015-11-03",
+  "share": 61.9,
+  "source": "exact"
+ },
+ {
+  "date": "2016-06-07",
+  "share": 60.4,
+  "source": "exact"
+ },
+ {
+  "date": "2016-11-08",
+  "share": 63.5,
+  "source": "exact"
+ },
+ {
+  "date": "2018-06-05",
+  "share": 64.6,
+  "source": "exact"
+ },
+ {
+  "date": "2018-11-06",
+  "share": 65.7,
+  "source": "exact"
+ },
+ {
+  "date": "2020-03-03",
+  "share": 64.9,
+  "source": "exact"
+ },
+ {
+  "date": "2020-11-03",
+  "share": 91.5,
+  "source": "exact"
+ },
+ {
+  "date": "2021-09-14",
+  "share": 91.5,
+  "source": "exact"
+ },
+ {
+  "date": "2022-02-15",
+  "share": 93.4,
+  "source": "exact"
+ },
+ {
+  "date": "2022-04-19",
+  "share": 95.3,
+  "source": "exact"
+ },
+ {
+  "date": "2022-06-07",
+  "share": 90.3,
+  "source": "exact"
+ },
+ {
+  "date": "2022-11-08",
+  "share": 88.5,
+  "source": "exact"
+ },
+ {
+  "date": "2024-03-05",
+  "share": 88.0,
+  "source": "exact"
+ },
+ {
+  "date": "2024-11-05",
+  "share": 85.8,
+  "source": "exact"
+ },
+ {
+  "date": "2025-09-16",
+  "share": 94.6,
+  "source": "exact"
+ },
+ {
+  "date": "2025-11-04",
+  "share": 90.4,
+  "source": "exact"
+ },
+ {
+  "date": "2026-06-02",
+  "share": 90.6,
+  "source": "exact"
+ }
+]
