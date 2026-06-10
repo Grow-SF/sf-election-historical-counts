@@ -2,18 +2,20 @@
 import { Fit } from "@/lib/data";
 
 export function Section({
+  id,
   kicker,
   title,
   children,
   intro,
 }: {
+  id: string;
   kicker: string;
   title: string;
   intro?: React.ReactNode;
   children: React.ReactNode;
 }) {
   return (
-    <section className="mx-auto max-w-5xl px-5 py-16 sm:py-20">
+    <section id={id} className="mx-auto max-w-5xl scroll-mt-16 px-5 py-16 sm:py-20">
       <div className="rule-double pt-6">
         <p className="smallcaps text-rust">{kicker}</p>
         <h2 className="mt-2 max-w-3xl text-3xl font-semibold leading-tight sm:text-4xl">

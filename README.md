@@ -42,6 +42,16 @@ After a new election: add it to `SUPPLEMENTAL_ELECTIONS` in
 add the certified total to `CERTIFIED_FINALS` in `sfcount/validate.py`, and
 commit `data/` and the artifact.
 
+## Visualization
+
+`viz/` is a Next.js story site ("The Long Count") built from the committed
+datasets: night-share trend, an any-threshold days-to-X explorer with live
+trend lines and r², the 1964-2026 mail-ballot share, and a per-canvass
+trajectory explorer. Filters are encoded in the URL for sharing.
+
+    python3 scripts/build_viz_data.py   # rebake viz data after pipeline runs
+    cd viz && npm install && npm run dev
+
 ## Tests
 
     uv run pytest                 # offline suite (fixtures are real downloaded files)

@@ -19,6 +19,12 @@ export const metadata: Metadata = {
   description:
     "Every results release from every San Francisco election since 2002. " +
     "The count never got slower — election night just stopped being when the counting happens.",
+  openGraph: {
+    title: "The Long Count",
+    description:
+      "San Francisco hasn’t gotten slower at counting ballots. Election night just stopped being when the counting happens.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

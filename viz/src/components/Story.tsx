@@ -110,6 +110,7 @@ export default function Story() {
       <FilterBar state={state} update={update} />
 
       <Section
+        id="night"
         kicker="part one"
         title="Election night tells you less every cycle"
         intro={
@@ -117,8 +118,14 @@ export default function Story() {
             In 2004, three quarters of San Francisco’s final vote was public by
             midnight. Twenty years later, barely half is. The decline is the
             one robust trend in this data — and it isn’t about counting speed.
-            Filter to <strong>General</strong> elections to see it cleanly;
-            specials and recalls are small and noisy.
+            Specials and recalls are small and noisy —{" "}
+            <button
+              onClick={() => update({ kinds: new Set(["General"]) })}
+              className="border-b border-rust font-semibold text-rust hover:bg-rust/10"
+            >
+              show generals only
+            </button>{" "}
+            to see it cleanly.
           </p>
         }
       >
@@ -126,6 +133,7 @@ export default function Story() {
       </Section>
 
       <Section
+        id="thresholds"
         kicker="part two"
         title="But the count itself never slowed down"
         intro={
@@ -146,6 +154,7 @@ export default function Story() {
       </Section>
 
       <Section
+        id="mail"
         kicker="part three"
         title="What changed is the mail"
         intro={
@@ -162,6 +171,7 @@ export default function Story() {
       </Section>
 
       <Section
+        id="explore"
         kicker="part four"
         title="Explore every canvass since 2002"
         intro={
