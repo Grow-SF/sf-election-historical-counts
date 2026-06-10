@@ -21,6 +21,16 @@ def _int_attr(element, name: str) -> int:
     return int(value)
 
 
+def _int_field(row: dict, key: str) -> int:
+    value = row[key]
+    if value is None:
+        raise ParseError(f"Era B row missing field {key!r}")
+    try:
+        return int(value)
+    except ValueError as ex:
+        raise ParseError(f"Era B field {key!r} is not an integer: {value!r}") from ex
+
+
 @dataclass(frozen=True)
 class TurnoutRecord:
     ballots_counted_total: int
@@ -69,7 +79,8 @@ def parse_era_c_xml(text: str) -> TurnoutRecord:
 
 def parse_era_b_tsv(text: str) -> TurnoutRecord:
     reader = csv.DictReader(io.StringIO(text.lstrip("\ufeff")), delimiter="\t")
-    if reader.fieldnames is None or "CONTEST_FULL_NAME" not in reader.fieldnames:
+    required = {"CONTEST_FULL_NAME", "CANDIDATE_FULL_NAME", "TOTAL", "CONTEST_TOTAL"}
+    if reader.fieldnames is None or not required.issubset(reader.fieldnames):
         raise ParseError("not an Era B summary TSV")
 
     ed = vbm = registered = None
@@ -79,10 +90,10 @@ def parse_era_b_tsv(text: str) -> TurnoutRecord:
         if row["CONTEST_FULL_NAME"] != "Registration & Turnout":
             continue
         if row["CANDIDATE_FULL_NAME"] == "Election Day Reporting Turnout":
-            ed = int(row["TOTAL"])
-            registered = int(row["CONTEST_TOTAL"])
+            ed = _int_field(row, "TOTAL")
+            registered = _int_field(row, "CONTEST_TOTAL")
         elif row["CANDIDATE_FULL_NAME"] == "VBM Reporting Turnout":
-            vbm = int(row["TOTAL"])
+            vbm = _int_field(row, "TOTAL")
 
     if ed is None or vbm is None or registered is None:
         raise ParseError("citywide turnout rows not found in Era B TSV")

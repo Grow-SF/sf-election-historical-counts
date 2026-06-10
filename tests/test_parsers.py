@@ -93,3 +93,16 @@ def test_era_b_rejects_tsv_without_turnout_rows():
     header = "CONTEST_ID\tTOTAL\tCONTEST_FULL_NAME\tCANDIDATE_FULL_NAME\tCONTEST_TOTAL\n"
     with pytest.raises(ParseError):
         parse_era_b_tsv(header + "1\t5\tMayor\tALICE\t10\n")
+
+
+def test_era_b_rejects_truncated_row():
+    header = "CONTEST_ID\tTOTAL\tCONTEST_FULL_NAME\tCANDIDATE_FULL_NAME\tCONTEST_TOTAL\n"
+    # CONTEST_TOTAL absent on the ED row - DictReader yields None
+    truncated = header + "1\t131900\tRegistration & Turnout\tElection Day Reporting Turnout"
+    with pytest.raises(ParseError):
+        parse_era_b_tsv(truncated)
+
+
+def test_era_b_rejects_header_missing_required_columns():
+    with pytest.raises(ParseError):
+        parse_era_b_tsv("CONTEST_FULL_NAME\tCANDIDATE_FULL_NAME\nx\ty\n")
