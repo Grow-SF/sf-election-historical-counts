@@ -1,5 +1,65 @@
 [
  {
+  "id": "1984-11-06",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 1984,
+  "final": 298517,
+  "registered": 424091,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 94.6,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.21,
+    94.6,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   }
+  }
+ },
+ {
   "id": "1986-06-03",
   "name": "Consolidated Primary Election",
   "kind": "Primary",
