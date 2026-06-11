@@ -95,7 +95,7 @@ export default function FilterBar({
             onChange={(e) => update({ archival: e.target.checked })}
             className="accent-rust"
           />
-          archival (1960–2014)
+          recovered history (1960–2014)
         </label>
 
         <a
