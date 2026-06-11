@@ -1854,14 +1854,20 @@
   "registered": 459213,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": 69.0,
+  "nReports": 2,
+  "nightPct": 84.7,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.21,
     69.0,
+    null,
+    null
+   ],
+   [
+    0.25,
+    84.7,
     null,
     null
    ]
@@ -1882,6 +1888,18 @@
    "65": {
     "days": 1,
     "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": false
+   },
+   "75": {
+    "days": 1,
+    "bound": false
+   },
+   "80": {
+    "days": 1,
+    "bound": false
    }
   }
  },
@@ -2205,6 +2223,42 @@
    },
    "99": {
     "days": 27,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2006-11-07",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 2006,
+  "final": 253719,
+  "registered": 418285,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.88,
+    61.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
     "bound": true
    }
   }
@@ -2687,7 +2741,7 @@
   "kind": "Primary",
   "year": 2012,
   "final": 145105,
-  "registered": null,
+  "registered": 470668,
   "source": "archival",
   "provisional": false,
   "nReports": 3,
@@ -2957,7 +3011,7 @@
   "kind": "Primary",
   "year": 2014,
   "final": 129399,
-  "registered": null,
+  "registered": 435757,
   "source": "archival",
   "provisional": false,
   "nReports": 2,
