@@ -71,14 +71,22 @@ reindex artifact; "322 of 644 precincts" label contradicts vote totals).
 - Chronicle 1995–1999 swept (E+1..E+3 + cert windows). 1995-12, 1996-03,
   1996-11, 1997-11, 1997-12 yielded nothing usable.
 
-## Open threads
+## Chronicle 2000–2007 outcome (retry agent died; salvaged from disk)
 
-1. **Chronicle 2000–2007 retry agent running** (launched ~19:0x after rate
-   limit cleared). If it dies: articles are in mirror/chronicle-sfgate/
-   (365+ files); rescan with python regex (keywords: absentee, remain,
-   precincts reporting, ballots cast) and salvage the transcript via
-   `~/.claude/projects/.../subagents/agent-*.jsonl` (extract assistant text
-   + bash-comment lines).
+- **2000-03-07: 90.2% by day 1** (commit `f57b058`) — same-contest ratio:
+  day-after Prop A table (MN87716) vs certified Prop A in sf000307.xls.
+  The ratio method cancels undervote; use it wherever a day-after results
+  table + certified SOV contest totals both exist.
+- **Cross-validation**: Chronicle Nov 8 2001 "19,000 must still be counted"
+  → 115,024 implied vs our captured results page 115,477 (0.4% apart).
+- Closed: Nov 2000 (no SF count coverage — Bush/Gore; all "remaining"
+  figures are Sonoma/Santa Clara), Dec 2001 (no numbers), Nov 2003
+  (zero articles archived for Nov 5–7 2003 — confirmed via CDX).
+- 838+ articles in mirror/chronicle-sfgate/ (incl. 2003sweep_* fetched
+  inline). Dec 2003 runoff retry was in flight at last save; recall and
+  Dec-runoff articles scanned so far carry no SF count numbers.
+
+## Open threads
 2. **CNN 2000 night estimate** (~83% of contest votes) — needs a design
    decision: "estimated night share" marker type in NightShareChart.
 3. **DOE records request** (user-side) — pipeline ingests directly.
