@@ -241,7 +241,7 @@
   "name": "Consolidated General Election",
   "kind": "General",
   "year": 2002,
-  "final": 224990,
+  "final": 225102,
   "registered": 449508,
   "source": "archival",
   "provisional": false,
@@ -538,6 +538,83 @@
    },
    "80": {
     "days": 6,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2009-11-03",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 2009,
+  "final": 102061,
+  "registered": 451988,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    2.83,
+    90.1,
+    null,
+    null
+   ],
+   [
+    13.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 3,
+    "bound": true
+   },
+   "55": {
+    "days": 3,
+    "bound": true
+   },
+   "60": {
+    "days": 3,
+    "bound": true
+   },
+   "65": {
+    "days": 3,
+    "bound": true
+   },
+   "70": {
+    "days": 3,
+    "bound": true
+   },
+   "75": {
+    "days": 3,
+    "bound": true
+   },
+   "80": {
+    "days": 3,
+    "bound": true
+   },
+   "85": {
+    "days": 3,
+    "bound": true
+   },
+   "90": {
+    "days": 3,
+    "bound": true
+   },
+   "95": {
+    "days": 14,
+    "bound": true
+   },
+   "98": {
+    "days": 14,
+    "bound": true
+   },
+   "99": {
+    "days": 14,
     "bound": true
    }
   }

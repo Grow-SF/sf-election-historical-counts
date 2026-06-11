@@ -305,6 +305,11 @@
   "source": "doe-turnout-history"
  },
  {
+  "date": "2001-12-11",
+  "floorPct": 58.8,
+  "source": "doe-turnout-table"
+ },
+ {
   "date": "2002-03-05",
   "floorPct": 65.7,
   "source": "certified-sov"
@@ -313,6 +318,26 @@
   "date": "2002-11-05",
   "floorPct": 70.9,
   "source": "certified-sov"
+ },
+ {
+  "date": "2002-12-10",
+  "floorPct": 53.1,
+  "source": "doe-turnout-table"
+ },
+ {
+  "date": "2003-10-07",
+  "floorPct": 69.7,
+  "source": "doe-turnout-table"
+ },
+ {
+  "date": "2003-11-04",
+  "floorPct": 66.8,
+  "source": "doe-turnout-table"
+ },
+ {
+  "date": "2003-12-09",
+  "floorPct": 64.1,
+  "source": "doe-turnout-table"
  },
  {
   "date": "2004-03-02",
@@ -340,9 +365,19 @@
   "source": "certified-sov"
  },
  {
+  "date": "2007-11-06",
+  "floorPct": 47.7,
+  "source": "doe-turnout-table"
+ },
+ {
   "date": "2008-02-05",
   "floorPct": 59.1,
   "source": "certified-sov"
+ },
+ {
+  "date": "2008-04-08",
+  "floorPct": 27.0,
+  "source": "doe-turnout-table"
  },
  {
   "date": "2008-06-03",
@@ -355,6 +390,16 @@
   "source": "certified-sov"
  },
  {
+  "date": "2009-05-19",
+  "floorPct": 35.9,
+  "source": "doe-turnout-table"
+ },
+ {
+  "date": "2009-11-03",
+  "floorPct": 31.8,
+  "source": "doe-turnout-table"
+ },
+ {
   "date": "2010-06-08",
   "floorPct": 40.9,
   "source": "certified-sov"
@@ -363,6 +408,11 @@
   "date": "2010-11-02",
   "floorPct": 49.7,
   "source": "certified-sov"
+ },
+ {
+  "date": "2011-11-08",
+  "floorPct": 42.7,
+  "source": "doe-turnout-table"
  },
  {
   "date": "2012-06-05",
@@ -413,6 +463,11 @@
   "date": "2018-11-06",
   "floorPct": 34.3,
   "source": "exact"
+ },
+ {
+  "date": "2019-11-05",
+  "floorPct": 28.8,
+  "source": "doe-turnout-table"
  },
  {
   "date": "2020-03-03",

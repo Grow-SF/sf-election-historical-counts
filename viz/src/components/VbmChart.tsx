@@ -68,7 +68,9 @@ export default function VbmChart() {
           Sources: the Department of Elections’ turnout history (1964–2000,
           recovered from a 2002 web capture), certified Statements of Vote
           (2002–2014: CA Secretary of State county statistics and the DOE’s
-          own SOV spreadsheets), and per-release results data (2015–present).
+          own SOV spreadsheets), the DOE’s official historical turnout table
+          (municipal elections 2001–2013 and Nov 2019, from a 2023 web
+          capture), and per-release results data (2015–present).
         </>
       }
     >

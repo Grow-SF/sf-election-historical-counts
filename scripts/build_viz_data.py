@@ -178,6 +178,27 @@ def main():
     for e in out:
         if e["vbmShare"] is not None and e["id"] not in certified:
             hist.append({"date": e["id"], "share": e["vbmShare"], "source": e["source"]})
+    # DOE's official 1899-2019 turnout table (wayback 2023-02-04 capture):
+    # gap-fill only - it agrees exactly with every series above where they
+    # overlap, and uniquely covers the 2003-2013 municipal elections + the
+    # certified 2019-11-05 split (whose PSOVs were never published)
+    # the table dates the Dec 2001 runoff "12/10/2001" - a Monday; the runoff
+    # was Tuesday Dec 11 and the table's turnout (75,267) matches our
+    # certified final for 2001-12-11 exactly
+    DOE_TABLE_DATE_FIXES = {"2001-12-10": "2001-12-11"}
+    doe_table = []
+    with open(ROOT / "data" / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
+        for r in csv.DictReader(f):
+            if r["mail"] == "n/a":
+                continue
+            r["election_date"] = DOE_TABLE_DATE_FIXES.get(r["election_date"], r["election_date"])
+            doe_table.append(r)
+    have = {h["date"] for h in hist}
+    for r in doe_table:
+        if r["election_date"] not in have:
+            hist.append({"date": r["election_date"],
+                         "share": round(100 * int(r["mail"]) / int(r["ballots_cast"]), 1),
+                         "source": "doe-turnout-table"})
     # one share per election: certified beats the 2002 turnout-history row too
     dedup = {}
     for h in sorted(hist, key=lambda h: (h["date"], h["source"] != "certified-sov")):
@@ -214,6 +235,12 @@ def main():
         if e["vbmShare"] is not None and e["id"] not in floor:
             floor[e["id"]] = {"date": e["id"], "floorPct": round(100 - e["vbmShare"], 1),
                               "source": e["source"]}
+    for r in doe_table:
+        if r["election_date"] not in floor:
+            floor[r["election_date"]] = {
+                "date": r["election_date"],
+                "floorPct": round(100 * int(r["precinct"]) / int(r["ballots_cast"]), 1),
+                "source": "doe-turnout-table"}
     fl = sorted(floor.values(), key=lambda x: x["date"])
     F = OUT.parent / "night_floor.json"
     F.write_text(json.dumps(fl, indent=1))
