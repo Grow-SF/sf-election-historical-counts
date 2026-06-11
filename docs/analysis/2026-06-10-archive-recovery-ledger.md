@@ -197,6 +197,20 @@ New derivation method validated: top-contest sums from night results
 tables are conservative count floors. Corpus + proposals remain in
 mirror/newsbank/ (licensed content - NOT for CDN).
 
+## Results-table vein: text-format tables exhausted (2026-06-11)
+
+The Chronicle printed a results table after every election, but in
+NewsBank's Text collection many ran as GRAPHICS ('Caption: CHART: SEE
+TEXT') with no OCR. Text-format tables exist and are harvested for:
+1989-11 (Prop P 94.1% night), 1991-11 (93.6%), 1991-12 (87.8%),
+1993-06, 1994-06, 1995-11/12, 2003-11 (84.7% night), 2006-11 (61.7%
+d2). Verified dry for the 29 still-missing-night elections via
+'"precincts rptg"' / '"HOW SAN FRANCISCO VOTED"' body-text queries
+(confirmed working on known-positive windows). The remaining night
+values live in: (a) the Image collection page scans incl. the printed
+graphic tables - 1865-2017, needs scan access/OCR; (b) the DOE records
+request. Today's final state: 63 elections, 87 archival observations.
+
 ## Open threads
 
 1. **CNN 2000 night estimate** (~83% of contest votes) — needs a design
