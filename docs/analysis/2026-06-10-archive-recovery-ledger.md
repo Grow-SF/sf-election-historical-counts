@@ -89,6 +89,20 @@ reindex artifact; "322 of 644 precincts" label contradicts vote totals).
   morning - no count drama, no coverage). 58 of 102 2003 fetches blocked
   by the rate limiter, but both day-after sets are well sampled.
 
+## Chronicle/SFGate vein: CLOSED (final sweep 2026-06-10 evening)
+
+Title-first sweep (front-page captures → headline filter → selective
+fetch; ~150 requests vs 800+ brute force). Outcome: **no further count
+data exists in Chronicle web coverage.** 1996-11: 14/19 archived articles
+are national-focus, zero SF count lines. 2002–2009 morning-after stories
+never print count-status numbers (SFGate linked the DOE's live results
+instead; count-drama stories only existed in the close-race era
+1998–2001). The three percentage-only hits (2006 AG race, 2006 31%-of-
+precincts partial, 2007 question-time measure) are not count data.
+Final Chronicle yield stands: 1998-11, 1999-11, 1999-12, 2000-03 points
++ the 2001-11 cross-validation. Artifacts: title_queue.tsv (auditable
+headline selections), index_*/titled_* in mirror/chronicle-sfgate/.
+
 ## Open threads
 
 1. **CNN 2000 night estimate** (~83% of contest votes) — needs a design
@@ -96,8 +110,8 @@ reindex artifact; "322 of 644 precincts" label contradicts vote totals).
 2. **DOE records request** (user-side) — pipeline ingests directly.
 3. **Mirror CDN upload** (user-side); manifest committed.
 4. Possible: BOS journal declarations (SFPL, offline) for pre-1995 cert
-   dates; ProQuest Chronicle for the 1995-12/1996/1997 night-of holes;
-   the 58 rate-limited 2003 fetches (low expected value).
+   dates; ProQuest print-Chronicle for the 1995-12/1996/1997 night-of
+   holes (print edition carried count tables the web never did).
 
 ## Conventions
 
