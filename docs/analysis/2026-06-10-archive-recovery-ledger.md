@@ -82,9 +82,11 @@ reindex artifact; "322 of 644 precincts" label contradicts vote totals).
 - Closed: Nov 2000 (no SF count coverage — Bush/Gore; all "remaining"
   figures are Sonoma/Santa Clara), Dec 2001 (no numbers), Nov 2003
   (zero articles archived for Nov 5–7 2003 — confirmed via CDX).
-- 838+ articles in mirror/chronicle-sfgate/ (incl. 2003sweep_* fetched
-  inline). Dec 2003 runoff retry was in flight at last save; recall and
-  Dec-runoff articles scanned so far carry no SF count numbers.
+- 886 articles in mirror/chronicle-sfgate/ (incl. 48 2003sweep_* fetched
+  inline). 2003 vein closed: all recall + Dec-runoff day-after articles
+  scanned, zero SF count statements (Newsom's margin was settled by
+  morning - no count drama, no coverage). 58 of 102 2003 fetches blocked
+  by the rate limiter, but both day-after sets are well sampled.
 
 ## Open threads
 2. **CNN 2000 night estimate** (~83% of contest votes) — needs a design
