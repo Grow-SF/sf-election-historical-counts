@@ -10,6 +10,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -73,6 +74,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -136,6 +138,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -199,6 +202,7 @@
   "provisional": false,
   "nReports": 2,
   "nightPct": 86.3,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -276,6 +280,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": 90.4,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -335,6 +340,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -406,6 +412,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -477,6 +484,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": 93.6,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -536,6 +544,7 @@
   "provisional": false,
   "nReports": 2,
   "nightPct": 87.8,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -613,6 +622,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": 93.6,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -672,6 +682,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": 81.9,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -723,6 +734,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -786,6 +798,7 @@
   "provisional": false,
   "nReports": 2,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -855,6 +868,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": 68.2,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
    [
@@ -894,6 +908,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -949,6 +964,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": 97.5,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -1012,6 +1028,7 @@
   "provisional": false,
   "nReports": 2,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -1089,6 +1106,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -1148,6 +1166,7 @@
   "provisional": false,
   "nReports": 2,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -1221,6 +1240,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -1280,6 +1300,7 @@
   "provisional": false,
   "nReports": 2,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -1349,6 +1370,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": 37.0,
   "pts": [
    [
@@ -1420,6 +1442,7 @@
   "provisional": false,
   "nReports": 4,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -1509,6 +1532,7 @@
   "provisional": false,
   "nReports": 2,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -1586,6 +1610,7 @@
   "provisional": false,
   "nReports": 2,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -1663,6 +1688,7 @@
   "provisional": false,
   "nReports": 5,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -1758,6 +1784,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -1829,6 +1856,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": 69.0,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -1868,6 +1896,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -1939,6 +1968,7 @@
   "provisional": false,
   "nReports": 3,
   "nightPct": 74.9,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -2022,6 +2052,7 @@
   "provisional": false,
   "nReports": 5,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -2117,6 +2148,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -2188,6 +2220,7 @@
   "provisional": false,
   "nReports": 2,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -2265,6 +2298,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": 34.2,
   "pts": [
    [
@@ -2316,6 +2350,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -2387,6 +2422,7 @@
   "provisional": false,
   "nReports": 2,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -2464,6 +2500,7 @@
   "provisional": false,
   "nReports": 1,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -2507,6 +2544,7 @@
   "provisional": false,
   "nReports": 2,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -2564,6 +2602,7 @@
   "provisional": false,
   "nReports": 4,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
@@ -2653,6 +2692,7 @@
   "provisional": false,
   "nReports": 3,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": 65.7,
   "pts": [
    [
@@ -2736,6 +2776,7 @@
   "provisional": false,
   "nReports": 7,
   "nightPct": 71.4,
+  "nightPartial": false,
   "vbmShare": 52.9,
   "pts": [
    [
@@ -2843,6 +2884,7 @@
   "provisional": false,
   "nReports": 2,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": 66.2,
   "pts": [
    [
@@ -2920,6 +2962,7 @@
   "provisional": false,
   "nReports": 2,
   "nightPct": null,
+  "nightPartial": false,
   "vbmShare": 69.5,
   "pts": [
    [
@@ -2997,6 +3040,7 @@
   "provisional": false,
   "nReports": 5,
   "nightPct": 70.3,
+  "nightPartial": false,
   "vbmShare": 58.9,
   "pts": [
    [

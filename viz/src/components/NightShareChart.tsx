@@ -20,6 +20,7 @@ type Pt = {
   name: string;
   kind: string;
   source: string;
+  partial: boolean;
 };
 
 // races where the election-night leader lost - decided by late-counted
@@ -58,8 +59,12 @@ export default function NightShareChart({
         name: e.name,
         kind: e.kind,
         source: e.source,
+        partial: Boolean(e.nightPartial),
       }));
-    const fit: Fit | null = linearFit(pts.map((p) => [p.x, p.y]));
+    // mid-count partials understate the night - keep them out of the fit
+    const fit: Fit | null = linearFit(
+      pts.filter((p) => !p.partial).map((p) => [p.x, p.y]),
+    );
     return { pts, fit };
   }, [elections]);
 
@@ -106,7 +111,9 @@ export default function NightShareChart({
             counted that night. The gold line marks November 2020, when
             California began mailing every voter a ballot; gold rings mark
             races where the election-night leader went on to lose (hover
-            them). 2020–21 sit high because pandemic voters mailed ballots
+            them). The one dim, dashed dot (December 1995) is a mid-count
+            snapshot — the chad-jam night — shown faintly because the real
+            end-of-night number was higher; it is left out of the trend. 2020–21 sit high because pandemic voters mailed ballots
             weeks early; the elections since show the new normal — barely
             half the vote on the board by midnight. Elections still being
             counted are left out. The dashed trend line is fitted to the
@@ -123,8 +130,15 @@ export default function NightShareChart({
               </div>
               <div className="font-semibold">{hover.p.id}</div>
               <div className="stat-figure">
+                {hover.p.partial ? "\u2265 " : ""}
                 {hover.p.y}% counted by election night
               </div>
+              {hover.p.partial && (
+                <div className="max-w-52 text-xs italic text-faint">
+                  mid-count snapshot (339 of 551 precincts, the chad-jam
+                  night) - the true end-of-night share was higher
+                </div>
+              )}
               {FLIPS[hover.p.id] && (
                 <div className="max-w-56 text-xs italic" style={{ color: "var(--color-gold)" }}>
                   {FLIPS[hover.p.id]}
@@ -241,7 +255,10 @@ export default function NightShareChart({
                     onMouseLeave: () => setHover(null),
                     style: { cursor: "pointer" },
                   };
-                  const dot = payload.source === "archival" ? (
+                  const dot = payload.partial ? (
+                    // mid-count partial: dim, dashed - a lower bound, not the night
+                    <circle cx={cx} cy={cy} r={6.5} fill="var(--color-paper)" stroke={c} strokeWidth={1.5} strokeDasharray="3 3" opacity={0.35} {...common} />
+                  ) : payload.source === "archival" ? (
                     <circle cx={cx} cy={cy} r={6.5} fill="var(--color-paper)" stroke={c} strokeWidth={2} {...common} />
                   ) : (
                     <circle cx={cx} cy={cy} r={6.5} fill={c} {...common} />

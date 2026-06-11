@@ -129,6 +129,11 @@ def main():
         cutoff = dt.datetime.combine(edate + dt.timedelta(days=1), dt.time(6, 0))
         night_rows = [r for r in rows if r["dt"] <= cutoff]
         night = max((r["total"] for r in night_rows), default=None)
+        # Dec 1995 runoff: the only night observation is a mid-count partial
+        # (339 of 551 precincts, chad-jammed punch cards) - the true
+        # end-of-night share was higher; flag so the chart dims it and
+        # keeps it out of the trend fit
+        night_partial = e in {"1995-12-12"}
         fin = max(rows, key=lambda r: r["total"])
         elections[e] = {
             "id": e,
@@ -141,6 +146,7 @@ def main():
             "provisional": False,
             "nReports": len(rows),
             "nightPct": pct(night, final) if night is not None else None,
+            "nightPartial": night_partial,
             "vbmShare": pct(fin["vbm"], fin["total"]) if fin["vbm"] else None,
             "pts": [[d_axis(r["dt"], edate), pct(r["total"], final),
                      pct(r["vbm"], final) if r["vbm"] is not None else None,

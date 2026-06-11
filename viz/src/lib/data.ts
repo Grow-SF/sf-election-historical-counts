@@ -15,6 +15,7 @@ export type Election = {
   provisional: boolean;
   nReports: number;
   nightPct: number | null;
+  nightPartial?: boolean;
   vbmShare: number | null;
   pts: [number, number, number | null, number | null][];
   thresholds: Record<string, Threshold>;
