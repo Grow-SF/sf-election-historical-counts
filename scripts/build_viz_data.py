@@ -94,9 +94,13 @@ def main():
         last_dt = max(r["dt"] for r in rows)
         modern_src[e] = {
             "n": len(rows),
-            "firstDays": (min(r["dt"] for r in rows).date() - edate).days,
-            "lastDays": (last_dt.date() - edate).days,
-            "lastDate": last_dt.date().isoformat(),
+            "obs": [{"date": r["dt"].date().isoformat(),
+                     "days": (r["dt"].date() - edate).days,
+                     "total": r["total"],
+                     "pct": pct(r["total"], max(x["total"] for x in rows)),
+                     "label": "SF Dept. of Elections results release",
+                     "citation": f"per-release summary report, snapshot {r['snap']}, reported {r['dt'].isoformat()} (Department XML/TSV; validated against certified totals)"}
+                    for r in rows],
         }
         elections[e] = {
             "id": e,
@@ -201,10 +205,7 @@ def main():
                 ms = modern_src[e["id"]]
                 sources.append({"id": e["id"], "name": e["name"], "final": e["final"],
                     "finalSource": "SF Dept. of Elections certified results",
-                    "observations": [{"date": ms["lastDate"], "days": ms["lastDays"],
-                        "total": e["final"], "pct": 100.0,
-                        "label": "SF Dept. of Elections per-release reports",
-                        "citation": f"{ms['n']} per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release {ms['lastDays']} days after the election, validated against certified totals"}]})
+                    "observations": ms["obs"]})
     sources.sort(key=lambda s: s["id"], reverse=True)
     (OUT.parent / "sources.json").write_text(json.dumps(sources, indent=1))
     print(f"{len(sources)} election source records -> sources.json")

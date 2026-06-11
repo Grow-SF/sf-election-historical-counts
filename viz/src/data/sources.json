@@ -6,12 +6,68 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2026-06-02",
+    "days": 0,
+    "total": 100817,
+    "pct": 38.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20260602_1, reported 2026-06-02T20:44:45 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2026-06-02",
+    "days": 0,
+    "total": 108513,
+    "pct": 41.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20260602_2, reported 2026-06-02T21:42:45 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2026-06-02",
+    "days": 0,
+    "total": 124971,
+    "pct": 48.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20260602_3, reported 2026-06-02T22:29:48 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2026-06-03",
+    "days": 1,
+    "total": 125086,
+    "pct": 48.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20260602_4, reported 2026-06-03T00:18:40 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2026-06-04",
+    "days": 2,
+    "total": 140315,
+    "pct": 54.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20260604, reported 2026-06-04T15:58:23 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2026-06-05",
+    "days": 3,
+    "total": 176467,
+    "pct": 68.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20260605, reported 2026-06-05T15:57:15 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2026-06-08",
+    "days": 6,
+    "total": 222980,
+    "pct": 86.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20260608, reported 2026-06-08T15:58:58 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2026-06-09",
     "days": 7,
     "total": 259288,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "8 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 7 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20260609, reported 2026-06-09T15:58:14 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -22,12 +78,60 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2025-11-04",
+    "days": 0,
+    "total": 174760,
+    "pct": 59.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20251104_1, reported 2025-11-04T20:30:16 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2025-11-04",
+    "days": 0,
+    "total": 196007,
+    "pct": 66.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20251104_2, reported 2025-11-04T23:25:03 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2025-11-06",
+    "days": 2,
+    "total": 209091,
+    "pct": 70.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20251106, reported 2025-11-06T15:39:48 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2025-11-10",
+    "days": 6,
+    "total": 265344,
+    "pct": 89.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20251110, reported 2025-11-10T15:33:27 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2025-11-17",
+    "days": 13,
+    "total": 291968,
+    "pct": 98.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20251117, reported 2025-11-17T15:27:28 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2025-11-24",
+    "days": 20,
+    "total": 294941,
+    "pct": 99.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20251124, reported 2025-11-24T15:25:57 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2025-12-03",
     "days": 29,
     "total": 295232,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "7 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 29 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20251203, reported 2025-12-03T14:57:43 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -38,12 +142,36 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2025-09-16",
+    "days": 0,
+    "total": 15468,
+    "pct": 71.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20250916_1, reported 2025-09-16T20:42:51 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2025-09-16",
+    "days": 0,
+    "total": 16485,
+    "pct": 76.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20250916_2, reported 2025-09-16T22:43:53 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2025-09-18",
+    "days": 2,
+    "total": 21269,
+    "pct": 98.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20250918, reported 2025-09-18T15:42:02 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2025-09-25",
     "days": 9,
     "total": 21542,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "4 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 9 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20250925, reported 2025-09-25T15:20:15 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -54,12 +182,148 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2024-11-05",
+    "days": 0,
+    "total": 197108,
+    "pct": 47.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241105_1, reported 2024-11-05T20:41:41 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-05",
+    "days": 0,
+    "total": 207592,
+    "pct": 50.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241105_2, reported 2024-11-05T21:32:01 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-05",
+    "days": 0,
+    "total": 232985,
+    "pct": 56.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241105_3, reported 2024-11-05T22:34:32 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-06",
+    "days": 1,
+    "total": 234453,
+    "pct": 56.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241105_4, reported 2024-11-06T00:30:46 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-07",
+    "days": 2,
+    "total": 259218,
+    "pct": 62.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241107, reported 2024-11-07T15:56:48 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-08",
+    "days": 3,
+    "total": 289135,
+    "pct": 70.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241108, reported 2024-11-08T15:45:18 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-09",
+    "days": 4,
+    "total": 325114,
+    "pct": 78.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241109, reported 2024-11-09T15:35:57 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-10",
+    "days": 5,
+    "total": 364959,
+    "pct": 88.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241110, reported 2024-11-10T15:58:38 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-11",
+    "days": 6,
+    "total": 382292,
+    "pct": 92.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241111, reported 2024-11-11T15:42:09 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-12",
+    "days": 7,
+    "total": 388758,
+    "pct": 94.3,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241112, reported 2024-11-12T15:41:11 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-13",
+    "days": 8,
+    "total": 390437,
+    "pct": 94.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241113, reported 2024-11-13T15:40:07 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-14",
+    "days": 9,
+    "total": 396543,
+    "pct": 96.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241114, reported 2024-11-14T15:45:15 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-15",
+    "days": 10,
+    "total": 403466,
+    "pct": 97.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241115, reported 2024-11-15T15:45:11 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-16",
+    "days": 11,
+    "total": 409747,
+    "pct": 99.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241116, reported 2024-11-16T15:58:23 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-18",
+    "days": 13,
+    "total": 411708,
+    "pct": 99.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241118, reported 2024-11-18T15:40:15 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-19",
+    "days": 14,
+    "total": 412041,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241119, reported 2024-11-19T16:13:16 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-11-21",
+    "days": 16,
+    "total": 412090,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241121, reported 2024-11-21T15:41:20 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2024-12-03",
     "days": 28,
     "total": 412231,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "18 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 28 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20241203, reported 2024-12-03T15:00:57 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -70,12 +334,124 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2024-03-05",
+    "days": 0,
+    "total": 83190,
+    "pct": 35.6,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20240305_1, reported 2024-03-05T20:38:21 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-03-05",
+    "days": 0,
+    "total": 90943,
+    "pct": 39.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20240305_2, reported 2024-03-05T21:39:45 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-03-05",
+    "days": 0,
+    "total": 104630,
+    "pct": 44.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20240305_3, reported 2024-03-05T22:42:07 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-03-05",
+    "days": 0,
+    "total": 104760,
+    "pct": 44.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20240305_4, reported 2024-03-05T23:43:56 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-03-07",
+    "days": 2,
+    "total": 132091,
+    "pct": 56.6,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20240307, reported 2024-03-07T15:55:04 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-03-08",
+    "days": 3,
+    "total": 193382,
+    "pct": 82.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20240308, reported 2024-03-08T15:56:54 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-03-09",
+    "days": 4,
+    "total": 216280,
+    "pct": 92.6,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20240309, reported 2024-03-09T15:55:22 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-03-11",
+    "days": 6,
+    "total": 222612,
+    "pct": 95.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20240311, reported 2024-03-11T15:58:33 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-03-12",
+    "days": 7,
+    "total": 225406,
+    "pct": 96.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20240312, reported 2024-03-12T15:58:19 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-03-13",
+    "days": 8,
+    "total": 226648,
+    "pct": 97.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20240313, reported 2024-03-13T15:57:26 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-03-14",
+    "days": 9,
+    "total": 229227,
+    "pct": 98.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20240314, reported 2024-03-14T16:08:49 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-03-15",
+    "days": 10,
+    "total": 233279,
+    "pct": 99.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20240315, reported 2024-03-15T16:03:34 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-03-20",
+    "days": 15,
+    "total": 233424,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20240320, reported 2024-03-20T15:56:27 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2024-03-21",
+    "days": 16,
+    "total": 233465,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20240321, reported 2024-03-21T15:58:24 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2024-03-22",
     "days": 17,
     "total": 233465,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "15 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 17 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20240322, reported 2024-03-22T15:39:52 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -86,12 +462,132 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2022-11-08",
+    "days": 0,
+    "total": 132296,
+    "pct": 42.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221108_1, reported 2022-11-08T20:42:45 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-11-08",
+    "days": 0,
+    "total": 143682,
+    "pct": 46.3,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221108_2, reported 2022-11-08T21:30:53 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-11-08",
+    "days": 0,
+    "total": 157996,
+    "pct": 51.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221108_3, reported 2022-11-08T22:32:04 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-11-09",
+    "days": 1,
+    "total": 158200,
+    "pct": 51.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221108_4, reported 2022-11-09T00:01:28 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-11-10",
+    "days": 2,
+    "total": 167798,
+    "pct": 54.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221110, reported 2022-11-10T15:56:41 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-11-11",
+    "days": 3,
+    "total": 195327,
+    "pct": 63.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221111, reported 2022-11-11T15:55:17 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-11-12",
+    "days": 4,
+    "total": 224871,
+    "pct": 72.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221112, reported 2022-11-12T15:56:05 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-11-13",
+    "days": 5,
+    "total": 246515,
+    "pct": 79.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221113, reported 2022-11-13T15:54:55 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-11-14",
+    "days": 6,
+    "total": 269050,
+    "pct": 86.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221114, reported 2022-11-14T15:56:48 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-11-15",
+    "days": 7,
+    "total": 291726,
+    "pct": 94.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221115, reported 2022-11-15T15:57:35 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-11-16",
+    "days": 8,
+    "total": 302256,
+    "pct": 97.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221116, reported 2022-11-16T15:55:51 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-11-17",
+    "days": 9,
+    "total": 307121,
+    "pct": 99.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221117, reported 2022-11-17T15:55:56 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-11-18",
+    "days": 10,
+    "total": 309294,
+    "pct": 99.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221118, reported 2022-11-18T15:56:32 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-11-22",
+    "days": 14,
+    "total": 309994,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221122, reported 2022-11-22T15:57:07 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-11-29",
+    "days": 21,
+    "total": 310071,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221129, reported 2022-11-29T16:00:22 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2022-12-01",
     "days": 23,
     "total": 310071,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "16 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 23 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20221201, reported 2022-12-01T15:41:43 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -102,12 +598,92 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2022-06-07",
+    "days": 0,
+    "total": 109193,
+    "pct": 47.6,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220607_1, reported 2022-06-07T20:45:38 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-06-07",
+    "days": 0,
+    "total": 120724,
+    "pct": 52.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220607_2, reported 2022-06-07T21:37:20 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-06-07",
+    "days": 0,
+    "total": 127926,
+    "pct": 55.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220607_3, reported 2022-06-07T22:37:26 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-06-07",
+    "days": 0,
+    "total": 127926,
+    "pct": 55.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220607_4, reported 2022-06-07T23:38:31 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-06-09",
+    "days": 2,
+    "total": 141788,
+    "pct": 61.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220609, reported 2022-06-09T16:00:11 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-06-10",
+    "days": 3,
+    "total": 184582,
+    "pct": 80.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220610, reported 2022-06-10T15:57:49 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-06-11",
+    "days": 4,
+    "total": 222215,
+    "pct": 96.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220611, reported 2022-06-11T16:01:49 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-06-12",
+    "days": 5,
+    "total": 227955,
+    "pct": 99.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220612, reported 2022-06-12T14:59:47 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-06-14",
+    "days": 7,
+    "total": 228915,
+    "pct": 99.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220614, reported 2022-06-14T15:55:50 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-06-16",
+    "days": 9,
+    "total": 229122,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220616, reported 2022-06-16T15:55:28 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2022-06-22",
     "days": 15,
     "total": 229229,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "11 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 15 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220621, reported 2022-06-22T15:37:28 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -118,12 +694,60 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2022-04-19",
+    "days": 0,
+    "total": 58659,
+    "pct": 74.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220419_1, reported 2022-04-19T20:36:52 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-04-19",
+    "days": 0,
+    "total": 61965,
+    "pct": 78.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220419_2, reported 2022-04-19T21:43:13 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-04-19",
+    "days": 0,
+    "total": 61965,
+    "pct": 78.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220419_3, reported 2022-04-19T22:02:44 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-04-21",
+    "days": 2,
+    "total": 77994,
+    "pct": 99.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220421, reported 2022-04-21T15:55:26 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-04-22",
+    "days": 3,
+    "total": 78690,
+    "pct": 99.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220422, reported 2022-04-22T15:55:09 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-04-27",
+    "days": 8,
+    "total": 78764,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220427, reported 2022-04-27T16:02:43 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2022-04-28",
     "days": 9,
     "total": 78764,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "7 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 9 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220428, reported 2022-04-28T15:55:59 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -134,12 +758,68 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2022-02-15",
+    "days": 0,
+    "total": 119718,
+    "pct": 66.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220215_1, reported 2022-02-15T20:35:07 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-02-15",
+    "days": 0,
+    "total": 128826,
+    "pct": 71.6,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220215_2, reported 2022-02-15T21:43:44 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-02-15",
+    "days": 0,
+    "total": 130302,
+    "pct": 72.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220215_3, reported 2022-02-15T22:37:11 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-02-17",
+    "days": 2,
+    "total": 149377,
+    "pct": 83.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220217, reported 2022-02-17T16:01:11 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-02-18",
+    "days": 3,
+    "total": 174528,
+    "pct": 97.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220218, reported 2022-02-18T15:48:46 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-02-19",
+    "days": 4,
+    "total": 179429,
+    "pct": 99.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220219, reported 2022-02-19T15:08:44 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2022-02-22",
+    "days": 7,
+    "total": 179752,
+    "pct": 99.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220222, reported 2022-02-22T15:46:53 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2022-02-23",
     "days": 8,
     "total": 179981,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "8 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 8 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20220223, reported 2022-02-23T15:58:17 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -150,12 +830,108 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2021-09-14",
+    "days": 0,
+    "total": 246319,
+    "pct": 72.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20210914_1, reported 2021-09-14T20:46:28 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2021-09-14",
+    "days": 0,
+    "total": 261077,
+    "pct": 76.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20210914_2, reported 2021-09-14T21:41:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2021-09-14",
+    "days": 0,
+    "total": 268166,
+    "pct": 78.6,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20210914_3, reported 2021-09-14T22:34:45 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2021-09-14",
+    "days": 0,
+    "total": 268285,
+    "pct": 78.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20210914_4, reported 2021-09-14T23:27:42 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2021-09-15",
+    "days": 1,
+    "total": 269473,
+    "pct": 79.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20210915, reported 2021-09-15T15:53:13 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2021-09-16",
+    "days": 2,
+    "total": 295719,
+    "pct": 86.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20210916, reported 2021-09-16T15:52:40 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2021-09-17",
+    "days": 3,
+    "total": 319577,
+    "pct": 93.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20210917, reported 2021-09-17T16:02:39 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2021-09-18",
+    "days": 4,
+    "total": 330645,
+    "pct": 96.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20210918, reported 2021-09-18T15:27:48 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2021-09-20",
+    "days": 6,
+    "total": 336626,
+    "pct": 98.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20210920, reported 2021-09-20T15:55:43 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2021-09-21",
+    "days": 7,
+    "total": 340349,
+    "pct": 99.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20210921, reported 2021-09-21T16:13:14 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2021-09-22",
+    "days": 8,
+    "total": 340702,
+    "pct": 99.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20210922, reported 2021-09-22T16:02:19 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2021-10-01",
+    "days": 17,
+    "total": 341040,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20211001, reported 2021-10-01T16:00:39 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2021-10-05",
     "days": 21,
     "total": 341055,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "13 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 21 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20211005, reported 2021-10-05T15:38:45 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -166,12 +942,140 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2020-11-03",
+    "days": 0,
+    "total": 321880,
+    "pct": 71.6,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201103_1, reported 2020-11-03T21:03:48 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-11-03",
+    "days": 0,
+    "total": 345915,
+    "pct": 76.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201103_2, reported 2020-11-03T21:57:03 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-11-03",
+    "days": 0,
+    "total": 352398,
+    "pct": 78.3,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201103_3, reported 2020-11-03T22:32:21 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-11-04",
+    "days": 1,
+    "total": 352537,
+    "pct": 78.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201103_4, reported 2020-11-04T00:44:46 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-11-04",
+    "days": 1,
+    "total": 353572,
+    "pct": 78.6,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201104, reported 2020-11-04T16:10:43 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-11-05",
+    "days": 2,
+    "total": 383191,
+    "pct": 85.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201105, reported 2020-11-05T15:59:19 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-11-06",
+    "days": 3,
+    "total": 419050,
+    "pct": 93.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201106, reported 2020-11-06T16:15:56 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-11-07",
+    "days": 4,
+    "total": 437259,
+    "pct": 97.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201107, reported 2020-11-07T16:21:21 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-11-08",
+    "days": 5,
+    "total": 443435,
+    "pct": 98.6,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201108, reported 2020-11-08T15:58:54 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-11-09",
+    "days": 6,
+    "total": 446751,
+    "pct": 99.3,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201109, reported 2020-11-09T16:04:13 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-11-10",
+    "days": 7,
+    "total": 448485,
+    "pct": 99.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201110, reported 2020-11-10T16:10:20 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-11-12",
+    "days": 9,
+    "total": 448938,
+    "pct": 99.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201112, reported 2020-11-12T15:49:42 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-11-13",
+    "days": 10,
+    "total": 449318,
+    "pct": 99.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201113, reported 2020-11-13T16:01:51 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-11-17",
+    "days": 14,
+    "total": 449365,
+    "pct": 99.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201117, reported 2020-11-17T16:12:04 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-11-19",
+    "days": 16,
+    "total": 449558,
+    "pct": 99.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201119, reported 2020-11-19T15:51:14 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-11-24",
+    "days": 21,
+    "total": 449825,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201124, reported 2020-11-24T16:01:54 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2020-12-01",
     "days": 28,
     "total": 449866,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "17 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 28 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20201201, reported 2020-12-01T16:45:18 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -182,12 +1086,116 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2020-03-03",
+    "days": 0,
+    "total": 72340,
+    "pct": 23.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20200303_1, reported 2020-03-03T20:37:27 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-03-03",
+    "days": 0,
+    "total": 103223,
+    "pct": 33.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20200303_2, reported 2020-03-03T21:42:53 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-03-03",
+    "days": 0,
+    "total": 144613,
+    "pct": 47.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20200303_3, reported 2020-03-03T22:49:29 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-03-04",
+    "days": 1,
+    "total": 144667,
+    "pct": 47.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20200303_4, reported 2020-03-04T00:53:02 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-03-04",
+    "days": 1,
+    "total": 180205,
+    "pct": 59.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20200304, reported 2020-03-04T16:11:41 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-03-05",
+    "days": 2,
+    "total": 240682,
+    "pct": 78.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20200305, reported 2020-03-05T17:29:39 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-03-06",
+    "days": 3,
+    "total": 265722,
+    "pct": 87.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20200306, reported 2020-03-06T16:04:41 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-03-07",
+    "days": 4,
+    "total": 275200,
+    "pct": 90.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20200307, reported 2020-03-07T15:58:08 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-03-09",
+    "days": 6,
+    "total": 281975,
+    "pct": 92.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20200309, reported 2020-03-09T16:07:31 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-03-10",
+    "days": 7,
+    "total": 292944,
+    "pct": 96.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20200310, reported 2020-03-10T16:09:02 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-03-11",
+    "days": 8,
+    "total": 301449,
+    "pct": 98.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20200311, reported 2020-03-11T15:50:56 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-03-12",
+    "days": 9,
+    "total": 304730,
+    "pct": 99.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20200312, reported 2020-03-12T16:20:50 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2020-03-13",
+    "days": 10,
+    "total": 305148,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20200313, reported 2020-03-13T16:20:49 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2020-03-26",
     "days": 23,
     "total": 305184,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "14 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 23 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20200326, reported 2020-03-26T00:00:00 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -198,12 +1206,108 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2019-11-05",
+    "days": 0,
+    "total": 69589,
+    "pct": 33.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20191105_1, reported 2019-11-05T20:48:33 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2019-11-05",
+    "days": 0,
+    "total": 105793,
+    "pct": 51.3,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20191105_2, reported 2019-11-05T21:43:23 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2019-11-05",
+    "days": 0,
+    "total": 115149,
+    "pct": 55.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20191105_3, reported 2019-11-05T22:58:35 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2019-11-06",
+    "days": 1,
+    "total": 115183,
+    "pct": 55.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20191105_4, reported 2019-11-06T00:32:09 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2019-11-06",
+    "days": 1,
+    "total": 133638,
+    "pct": 64.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20191106, reported 2019-11-06T16:04:30 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2019-11-07",
+    "days": 2,
+    "total": 163743,
+    "pct": 79.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20191107, reported 2019-11-07T16:03:52 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2019-11-08",
+    "days": 3,
+    "total": 190504,
+    "pct": 92.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20191108, reported 2019-11-08T16:34:10 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2019-11-09",
+    "days": 4,
+    "total": 204791,
+    "pct": 99.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20191109, reported 2019-11-09T15:55:43 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2019-11-10",
+    "days": 5,
+    "total": 206025,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20191110, reported 2019-11-10T15:57:24 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2019-11-12",
+    "days": 7,
+    "total": 206039,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20191112, reported 2019-11-12T16:00:44 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2019-11-13",
+    "days": 8,
+    "total": 206050,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20191113, reported 2019-11-13T16:06:40 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2019-11-14",
+    "days": 9,
+    "total": 206090,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20191114, reported 2019-11-14T16:08:14 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2019-11-26",
     "days": 21,
     "total": 206122,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "13 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 21 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20191125, reported 2019-11-26T15:39:22 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -214,12 +1318,156 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2018-11-06",
+    "days": 0,
+    "total": 118806,
+    "pct": 31.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181106_1, reported 2018-11-06T20:51:44 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-06",
+    "days": 0,
+    "total": 154730,
+    "pct": 41.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181106_2, reported 2018-11-06T21:40:47 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-06",
+    "days": 0,
+    "total": 219746,
+    "pct": 58.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181106_3, reported 2018-11-06T22:36:41 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-07",
+    "days": 1,
+    "total": 221151,
+    "pct": 59.3,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181106_4, reported 2018-11-07T01:00:13 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-07",
+    "days": 1,
+    "total": 235393,
+    "pct": 63.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181107, reported 2018-11-07T15:56:53 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-08",
+    "days": 2,
+    "total": 242704,
+    "pct": 65.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181108, reported 2018-11-08T15:59:15 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-09",
+    "days": 3,
+    "total": 252945,
+    "pct": 67.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181109, reported 2018-11-09T15:55:11 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-10",
+    "days": 4,
+    "total": 273520,
+    "pct": 73.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181110, reported 2018-11-10T15:44:19 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-11",
+    "days": 5,
+    "total": 300277,
+    "pct": 80.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181111, reported 2018-11-11T15:49:50 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-12",
+    "days": 6,
+    "total": 323320,
+    "pct": 86.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181112, reported 2018-11-12T16:07:49 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-13",
+    "days": 7,
+    "total": 338348,
+    "pct": 90.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181113, reported 2018-11-13T15:49:34 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-14",
+    "days": 8,
+    "total": 345806,
+    "pct": 92.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181114, reported 2018-11-14T15:38:03 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-15",
+    "days": 9,
+    "total": 357443,
+    "pct": 95.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181115, reported 2018-11-15T15:51:31 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-16",
+    "days": 10,
+    "total": 365404,
+    "pct": 98.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181116, reported 2018-11-16T16:27:52 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-17",
+    "days": 11,
+    "total": 370703,
+    "pct": 99.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181117, reported 2018-11-17T16:00:11 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-19",
+    "days": 13,
+    "total": 371919,
+    "pct": 99.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181119, reported 2018-11-19T16:06:48 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-20",
+    "days": 14,
+    "total": 372461,
+    "pct": 99.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181120, reported 2018-11-20T16:01:32 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-11-26",
+    "days": 20,
+    "total": 372848,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181126, reported 2018-11-26T15:54:53 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2018-11-27",
     "days": 21,
     "total": 372848,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "19 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 21 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20181127, reported 2018-11-27T15:46:48 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -230,12 +1478,140 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2018-06-05",
+    "days": 0,
+    "total": 79024,
+    "pct": 31.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180605_1, reported 2018-06-05T20:52:50 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-06-05",
+    "days": 0,
+    "total": 123283,
+    "pct": 48.6,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180605_2, reported 2018-06-05T22:06:36 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-06-05",
+    "days": 0,
+    "total": 154012,
+    "pct": 60.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180605_3, reported 2018-06-05T22:59:03 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-06-06",
+    "days": 1,
+    "total": 154290,
+    "pct": 60.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180605_4, reported 2018-06-06T00:10:36 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-06-06",
+    "days": 1,
+    "total": 158944,
+    "pct": 62.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180606, reported 2018-06-06T15:58:04 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-06-07",
+    "days": 2,
+    "total": 167009,
+    "pct": 65.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180607, reported 2018-06-07T16:03:59 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-06-08",
+    "days": 3,
+    "total": 186484,
+    "pct": 73.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180608, reported 2018-06-08T16:05:02 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-06-09",
+    "days": 4,
+    "total": 209697,
+    "pct": 82.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180609, reported 2018-06-09T16:01:22 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-06-10",
+    "days": 5,
+    "total": 226124,
+    "pct": 89.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180610, reported 2018-06-10T15:57:20 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-06-11",
+    "days": 6,
+    "total": 235190,
+    "pct": 92.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180611, reported 2018-06-11T15:49:19 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-06-12",
+    "days": 7,
+    "total": 244398,
+    "pct": 96.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180612, reported 2018-06-12T15:43:23 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-06-13",
+    "days": 8,
+    "total": 247160,
+    "pct": 97.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180613, reported 2018-06-13T15:48:11 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-06-14",
+    "days": 9,
+    "total": 249573,
+    "pct": 98.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180614, reported 2018-06-14T15:56:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-06-15",
+    "days": 10,
+    "total": 252919,
+    "pct": 99.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180615, reported 2018-06-15T16:06:39 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-06-18",
+    "days": 13,
+    "total": 253582,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180618, reported 2018-06-18T16:30:27 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2018-06-21",
+    "days": 16,
+    "total": 253583,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180621, reported 2018-06-21T16:08:39 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2018-06-27",
     "days": 22,
     "total": 253583,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "17 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 22 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20180627, reported 2018-06-27T15:54:03 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -246,12 +1622,180 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2016-11-08",
+    "days": 0,
+    "total": 142307,
+    "pct": 34.3,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161108_1, reported 2016-11-08T20:02:17 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-08",
+    "days": 0,
+    "total": 195839,
+    "pct": 47.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161108_2, reported 2016-11-08T21:44:48 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-08",
+    "days": 0,
+    "total": 273736,
+    "pct": 66.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161108_3, reported 2016-11-08T22:47:05 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-09",
+    "days": 1,
+    "total": 274207,
+    "pct": 66.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161108_4, reported 2016-11-09T00:01:46 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-09",
+    "days": 1,
+    "total": 277331,
+    "pct": 66.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161109, reported 2016-11-09T15:59:55 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-10",
+    "days": 2,
+    "total": 283049,
+    "pct": 68.3,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161110, reported 2016-11-10T16:01:57 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-11",
+    "days": 3,
+    "total": 286975,
+    "pct": 69.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161111, reported 2016-11-11T15:40:19 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-12",
+    "days": 4,
+    "total": 296564,
+    "pct": 71.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161112, reported 2016-11-12T16:12:41 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-13",
+    "days": 5,
+    "total": 312183,
+    "pct": 75.3,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161113, reported 2016-11-13T16:09:41 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-14",
+    "days": 6,
+    "total": 324258,
+    "pct": 78.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161114, reported 2016-11-14T15:58:30 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-15",
+    "days": 7,
+    "total": 340701,
+    "pct": 82.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161115, reported 2016-11-15T16:06:42 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-16",
+    "days": 8,
+    "total": 357025,
+    "pct": 86.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161116, reported 2016-11-16T15:57:09 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-17",
+    "days": 9,
+    "total": 374822,
+    "pct": 90.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161117, reported 2016-11-17T16:29:02 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-18",
+    "days": 10,
+    "total": 385049,
+    "pct": 92.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161118, reported 2016-11-18T16:14:28 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-19",
+    "days": 11,
+    "total": 393318,
+    "pct": 94.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161119, reported 2016-11-19T15:57:07 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-20",
+    "days": 12,
+    "total": 396891,
+    "pct": 95.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161120, reported 2016-11-20T15:54:24 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-21",
+    "days": 13,
+    "total": 406193,
+    "pct": 98.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161121, reported 2016-11-21T16:00:43 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-22",
+    "days": 14,
+    "total": 414189,
+    "pct": 99.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161122, reported 2016-11-22T17:37:38 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-23",
+    "days": 15,
+    "total": 414516,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161123, reported 2016-11-23T15:55:07 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-11-28",
+    "days": 20,
+    "total": 414516,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161128, reported 2016-11-28T16:56:09 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-12-01",
+    "days": 23,
+    "total": 414528,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161201, reported 2016-12-01T16:00:47 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2016-12-06",
     "days": 28,
     "total": 414528,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "22 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 28 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20161206, reported 2016-12-06T14:23:57 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -262,12 +1806,140 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2016-06-07",
+    "days": 0,
+    "total": 96478,
+    "pct": 36.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160607_1, reported 2016-06-07T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-06-07",
+    "days": 0,
+    "total": 132242,
+    "pct": 49.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160607_2, reported 2016-06-07T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-06-07",
+    "days": 0,
+    "total": 184418,
+    "pct": 69.6,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160607_3, reported 2016-06-07T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-06-07",
+    "days": 0,
+    "total": 185698,
+    "pct": 70.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160607_4, reported 2016-06-07T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-06-08",
+    "days": 1,
+    "total": 193038,
+    "pct": 72.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160608, reported 2016-06-08T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-06-09",
+    "days": 2,
+    "total": 210509,
+    "pct": 79.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160609, reported 2016-06-09T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-06-10",
+    "days": 3,
+    "total": 225014,
+    "pct": 84.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160610, reported 2016-06-10T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-06-11",
+    "days": 4,
+    "total": 238960,
+    "pct": 90.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160611, reported 2016-06-11T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-06-12",
+    "days": 5,
+    "total": 241026,
+    "pct": 91.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160612, reported 2016-06-12T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-06-13",
+    "days": 6,
+    "total": 244141,
+    "pct": 92.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160613, reported 2016-06-13T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-06-14",
+    "days": 7,
+    "total": 246506,
+    "pct": 93.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160614, reported 2016-06-14T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-06-15",
+    "days": 8,
+    "total": 254160,
+    "pct": 95.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160615, reported 2016-06-15T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-06-16",
+    "days": 9,
+    "total": 256967,
+    "pct": 97.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160616, reported 2016-06-16T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-06-17",
+    "days": 10,
+    "total": 260107,
+    "pct": 98.2,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160617, reported 2016-06-17T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-06-20",
+    "days": 13,
+    "total": 264175,
+    "pct": 99.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160620, reported 2016-06-20T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2016-06-21",
+    "days": 14,
+    "total": 264993,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160621, reported 2016-06-21T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2016-06-24",
     "days": 17,
     "total": 264993,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "17 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 17 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20160624, reported 2016-06-24T00:00:00 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
@@ -278,12 +1950,124 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
+    "date": "2015-11-03",
+    "days": 0,
+    "total": 65923,
+    "pct": 32.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20151103_1, reported 2015-11-03T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2015-11-03",
+    "days": 0,
+    "total": 90793,
+    "pct": 44.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20151103_2, reported 2015-11-03T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2015-11-03",
+    "days": 0,
+    "total": 132262,
+    "pct": 65.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20151103_3, reported 2015-11-03T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2015-11-04",
+    "days": 1,
+    "total": 140946,
+    "pct": 69.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20151104, reported 2015-11-04T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2015-11-05",
+    "days": 2,
+    "total": 155675,
+    "pct": 76.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20151105, reported 2015-11-05T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2015-11-06",
+    "days": 3,
+    "total": 172153,
+    "pct": 84.8,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20151106, reported 2015-11-06T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2015-11-07",
+    "days": 4,
+    "total": 179713,
+    "pct": 88.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20151107, reported 2015-11-07T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2015-11-08",
+    "days": 5,
+    "total": 181240,
+    "pct": 89.3,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20151108, reported 2015-11-08T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2015-11-09",
+    "days": 6,
+    "total": 186863,
+    "pct": 92.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20151109, reported 2015-11-09T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2015-11-10",
+    "days": 7,
+    "total": 195117,
+    "pct": 96.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20151110, reported 2015-11-10T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2015-11-11",
+    "days": 8,
+    "total": 197264,
+    "pct": 97.1,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20151111, reported 2015-11-11T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2015-11-12",
+    "days": 9,
+    "total": 202914,
+    "pct": 99.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20151112, reported 2015-11-12T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2015-11-13",
+    "days": 10,
+    "total": 203069,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20151113, reported 2015-11-13T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
+    "date": "2015-11-16",
+    "days": 13,
+    "total": 203069,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20151116, reported 2015-11-16T00:00:00 (Department XML/TSV; validated against certified totals)"
+   },
+   {
     "date": "2015-11-19",
     "days": 16,
     "total": 203069,
     "pct": 100.0,
-    "label": "SF Dept. of Elections per-release reports",
-    "citation": "15 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 16 days after the election, validated against certified totals"
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, snapshot 20151119, reported 2015-11-19T00:00:00 (Department XML/TSV; validated against certified totals)"
    }
   ]
  },
