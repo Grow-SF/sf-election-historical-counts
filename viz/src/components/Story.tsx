@@ -98,8 +98,11 @@ function Footer() {
           </div>
         </div>
         <p className="smallcaps mt-8 text-paper/55">
-          built from the sf-election-count pipeline · data and recovery
-          provenance in the repository · {new Date().getFullYear()}
+          built from the sf-election-count pipeline ·{" "}
+          <a href="/sources" className="border-b border-gold/60 text-gold hover:bg-gold/10">
+            every number, sourced — the full citation list
+          </a>{" "}
+          · {new Date().getFullYear()}
         </p>
       </div>
     </footer>

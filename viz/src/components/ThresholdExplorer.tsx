@@ -29,6 +29,7 @@ type Pt = {
   provisional: boolean;
   viaFloor: boolean;
   floorPct?: number;
+  src?: string | null;
 };
 
 export default function ThresholdExplorer({
@@ -59,6 +60,7 @@ export default function ThresholdExplorer({
         kind: e.kind,
         source: e.source,
         provisional: e.provisional,
+        src: e.srcShort || null,
       };
       if (t && !t.bound) {
         byDate.set(e.id, { ...base, y: t.days, bound: false, viaFloor: false });
@@ -182,6 +184,15 @@ export default function ThresholdExplorer({
                   upper bound — crossed by day {hover.p.y} at the latest
                 </div>
               )}
+              {hover.p.viaFloor ? (
+                <div className="mt-1 text-[11px] text-faint">
+                  source: certified precinct/mail split (DOE / SoS)
+                </div>
+              ) : hover.p.src ? (
+                <div className="mt-1 text-[11px] text-faint">
+                  source: {hover.p.src} · full citation on the sources page
+                </div>
+              ) : null}
             </PointTooltip>
           )}
         <ResponsiveContainer width="100%" height={360}>

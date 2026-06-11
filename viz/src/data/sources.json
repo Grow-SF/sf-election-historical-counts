@@ -1,0 +1,1426 @@
+[
+ {
+  "id": "2026-06-02",
+  "name": "Consolidated Statewide Direct Primary Election",
+  "final": 259288,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2026-06-02",
+    "days": 0,
+    "total": 259288,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "8 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2025-11-04",
+  "name": "Statewide Special Election",
+  "final": 295232,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2025-11-04",
+    "days": 0,
+    "total": 295232,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "7 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2025-09-16",
+  "name": "Special Recall Election",
+  "final": 21542,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2025-09-16",
+    "days": 0,
+    "total": 21542,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "4 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2024-11-05",
+  "name": "Consolidated General Election",
+  "final": 412231,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2024-11-05",
+    "days": 0,
+    "total": 412231,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "18 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2024-03-05",
+  "name": "Presidential Primary Election",
+  "final": 233465,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2024-03-05",
+    "days": 0,
+    "total": 233465,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "15 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2022-11-08",
+  "name": "Consolidated General Election",
+  "final": 310071,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2022-11-08",
+    "days": 0,
+    "total": 310071,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "16 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2022-06-07",
+  "name": "Consolidated Statewide Direct Primary Election",
+  "final": 229229,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2022-06-07",
+    "days": 0,
+    "total": 229229,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "11 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2022-04-19",
+  "name": "Special General Election",
+  "final": 78764,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2022-04-19",
+    "days": 0,
+    "total": 78764,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "7 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2022-02-15",
+  "name": "Consolidated Special Municipal Election",
+  "final": 179981,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2022-02-15",
+    "days": 0,
+    "total": 179981,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "8 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2021-09-14",
+  "name": "California Gubernatorial Recall Election",
+  "final": 341055,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2021-09-14",
+    "days": 0,
+    "total": 341055,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "13 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2020-11-03",
+  "name": "Consolidated General Election",
+  "final": 449866,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2020-11-03",
+    "days": 0,
+    "total": 449866,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "17 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2020-03-03",
+  "name": "Presidential Primary Election",
+  "final": 305184,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2020-03-03",
+    "days": 0,
+    "total": 305184,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "14 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2019-11-05",
+  "name": "Consolidated Municipal Election",
+  "final": 206122,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2019-11-05",
+    "days": 0,
+    "total": 206122,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "13 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2018-11-06",
+  "name": "General Election",
+  "final": 372848,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2018-11-06",
+    "days": 0,
+    "total": 372848,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "19 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2018-06-05",
+  "name": "Consolidated Statewide Primary Election",
+  "final": 253583,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2018-06-05",
+    "days": 0,
+    "total": 253583,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "17 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2016-11-08",
+  "name": "Consolidated General Election",
+  "final": 414528,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2016-11-08",
+    "days": 0,
+    "total": 414528,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "22 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2016-06-07",
+  "name": "Presidential Primary Election",
+  "final": 264993,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2016-06-07",
+    "days": 0,
+    "total": 264993,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "17 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2015-11-03",
+  "name": "Consolidated Municipal Election",
+  "final": 203069,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2015-11-03",
+    "days": 0,
+    "total": 203069,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections per-release reports",
+    "citation": "15 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+   }
+  ]
+ },
+ {
+  "id": "2014-11-04",
+  "name": "Consolidated General Election",
+  "final": 231214,
+  "finalSource": "https://www.sfelections.org/results/20141104/",
+  "observations": [
+   {
+    "date": "2014-11-04",
+    "days": 0,
+    "total": 162539,
+    "pct": 70.3,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20141105160259/http://www.sfelections.org/results/20141104/index.php"
+   },
+   {
+    "date": "2014-11-05",
+    "days": 1,
+    "total": 172140,
+    "pct": 74.5,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20141106173520/http://www.sfelections.org:80/results/20141104/"
+   },
+   {
+    "date": "2014-11-06",
+    "days": 2,
+    "total": 182215,
+    "pct": 78.8,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20141107033643/http://www.sfelections.org/results/20141104/index.php"
+   },
+   {
+    "date": "2014-11-17",
+    "days": 13,
+    "total": 231214,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20141119020018/http://www.sfelections.org:80/results/20141104/"
+   },
+   {
+    "date": "2014-11-21",
+    "days": 17,
+    "total": 231214,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20141130070727/http://www.sfelections.org/results/20141104/"
+   }
+  ]
+ },
+ {
+  "id": "2014-06-03",
+  "name": "Consolidated Statewide Direct Primary",
+  "final": 129399,
+  "finalSource": "https://www.sfelections.org/results/20140603/",
+  "observations": [
+   {
+    "date": "2014-06-06",
+    "days": 3,
+    "total": 123978,
+    "pct": 95.8,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20140608000135/http://www.sfelections.org:80/results/20140603/"
+   },
+   {
+    "date": "2014-06-12",
+    "days": 9,
+    "total": 129399,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20140629063326/http://sfelections.org/results/20140603/"
+   }
+  ]
+ },
+ {
+  "id": "2013-11-05",
+  "name": "Consolidated Municipal Election",
+  "final": 128937,
+  "finalSource": "https://www.sfelections.org/results/20131105/",
+  "observations": [
+   {
+    "date": "2013-11-08",
+    "days": 3,
+    "total": 122813,
+    "pct": 95.3,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20131109013913/http://sfelections.org:80/results/20131105/"
+   },
+   {
+    "date": "2013-11-15",
+    "days": 10,
+    "total": 128937,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20131203165834/http://www.sfelections.org/results/20131105/"
+   }
+  ]
+ },
+ {
+  "id": "2012-11-06",
+  "name": "Consolidated General Election",
+  "final": 364875,
+  "finalSource": "https://www.sfelections.org/results/20121106/",
+  "observations": [
+   {
+    "date": "2012-11-06",
+    "days": 0,
+    "total": 260535,
+    "pct": 71.4,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20121107165615/http://sfelections.org/results/20121106/index.php"
+   },
+   {
+    "date": "2012-11-08",
+    "days": 2,
+    "total": 283714,
+    "pct": 77.8,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20121109165128/http://sfelections.org:80/results/20121106/index.php"
+   },
+   {
+    "date": "2012-11-09",
+    "days": 3,
+    "total": 305539,
+    "pct": 83.7,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20121110054934/http://sfelections.org:80/results/20121106/index.php"
+   },
+   {
+    "date": "2012-11-11",
+    "days": 5,
+    "total": 325298,
+    "pct": 89.2,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20121112020016/http://sfelections.org/results/20121106/"
+   },
+   {
+    "date": "2012-11-14",
+    "days": 8,
+    "total": 342242,
+    "pct": 93.8,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20121115094436/http://www.sfelections.org:80/results/20121106/"
+   },
+   {
+    "date": "2012-11-19",
+    "days": 13,
+    "total": 354851,
+    "pct": 97.3,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20121120185014/http://sfelections.org/results/20121106/index.php"
+   },
+   {
+    "date": "2012-11-27",
+    "days": 21,
+    "total": 364875,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20121128022737/http://sfelections.org/results/20121106/index.php"
+   }
+  ]
+ },
+ {
+  "id": "2012-06-05",
+  "name": "Consolidated Presidential Primary",
+  "final": 145105,
+  "finalSource": "https://www.sfelections.org/results/20120605/",
+  "observations": [
+   {
+    "date": "2012-06-07",
+    "days": 2,
+    "total": 136285,
+    "pct": 93.9,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20120608225921/http://www.sfelections.org:80/results/20120605/"
+   },
+   {
+    "date": "2012-06-08",
+    "days": 3,
+    "total": 137374,
+    "pct": 94.7,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20120609234942/http://www.sfelections.org:80/results/20120605/"
+   },
+   {
+    "date": "2012-06-15",
+    "days": 10,
+    "total": 145105,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20120617010717/http://www.sfelections.org/results/20120605/"
+   }
+  ]
+ },
+ {
+  "id": "2011-11-08",
+  "name": "Consolidated Municipal Election",
+  "final": 197242,
+  "finalSource": "https://www.sfelections.org/results/20111108/",
+  "observations": [
+   {
+    "date": "2011-11-09",
+    "days": 1,
+    "total": 157026,
+    "pct": 79.6,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20111110070445/http://sfelections.org:80/results/20111108/"
+   },
+   {
+    "date": "2011-11-10",
+    "days": 2,
+    "total": 182317,
+    "pct": 92.4,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20111111002226/http://www.sfelections.org:80/results/20111108/"
+   },
+   {
+    "date": "2011-11-17",
+    "days": 9,
+    "total": 197181,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20111118222301/http://sfelections.org:80/results/20111108/"
+   },
+   {
+    "date": "2011-11-22",
+    "days": 14,
+    "total": 197242,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20111127003453/http://www.sfelections.org:80/results/20111108/"
+   }
+  ]
+ },
+ {
+  "id": "2010-11-02",
+  "name": "Consolidated General Election",
+  "final": 284625,
+  "finalSource": "https://www.sfelections.org/results/20101102/",
+  "observations": [
+   {
+    "date": "2010-11-05",
+    "days": 3,
+    "total": 190739,
+    "pct": 67.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20101105124135/http://www.sfelections.org:80/results/20101102/"
+   },
+   {
+    "date": "2010-11-07",
+    "days": 5,
+    "total": 229397,
+    "pct": 80.6,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20101107190303/http://www.sfelections.org:80/results/20101102/"
+   }
+  ]
+ },
+ {
+  "id": "2010-06-08",
+  "name": "Consolidated Statewide Direct Primary",
+  "final": 155533,
+  "finalSource": "https://sfelections.org/results/20100608/summary.php",
+  "observations": [
+   {
+    "date": "2010-06-10",
+    "days": 2,
+    "total": 111222,
+    "pct": 71.5,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20100610232550/http://sfelections.org:80/results/20100608/summary.php"
+   }
+  ]
+ },
+ {
+  "id": "2009-11-03",
+  "name": "Consolidated Municipal Election",
+  "final": 102061,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2009-11-06",
+    "days": 3,
+    "total": 91970,
+    "pct": 90.1,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20091108235937/http://www.sfgov.org:80/site/elections_page.asp?id=92589"
+   },
+   {
+    "date": "2009-11-17",
+    "days": 14,
+    "total": 102061,
+    "pct": 100.0,
+    "label": "Elections Commission minutes",
+    "citation": "Elections Commission minutes 2009-11-18 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=113990.html): canvassing completed Nov 17 2009, certified with SoS Nov 19 2009"
+   }
+  ]
+ },
+ {
+  "id": "2008-11-04",
+  "name": "Consolidated General Election",
+  "final": 388112,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2008-12-02",
+    "days": 28,
+    "total": 388112,
+    "pct": 100.0,
+    "label": "Elections Commission minutes",
+    "citation": "Elections Commission minutes 2008-12-17 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=95751.html): officially certified December 2 2008; Board declared December 9"
+   }
+  ]
+ },
+ {
+  "id": "2008-02-05",
+  "name": "Consolidated Presidential Primary",
+  "final": 269212,
+  "finalSource": "https://elections.cdn.sos.ca.gov/sov/2008-primary/04_voter_stats_by_county_feb08.pdf",
+  "observations": [
+   {
+    "date": "2008-02-11",
+    "days": 6,
+    "total": 219206,
+    "pct": 81.4,
+    "label": "wayback-pdf-ocr",
+    "citation": "https://web.archive.org/web/20080212055315/http://www.sfgov.org/site/uploadedfiles/elections/Announcements/PR2008/February5_%202008UnofficialSummaryReport8_%20for_%20theCityandCountyofSanFrancisco.pdf"
+   }
+  ]
+ },
+ {
+  "id": "2007-11-06",
+  "name": "Consolidated Municipal Election",
+  "final": 149465,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2007-11-09",
+    "days": 3,
+    "total": 115901,
+    "pct": 77.5,
+    "label": "SF Chronicle archive",
+    "citation": "SF Chronicle 2007-11-09 'Prop A pulls ahead' (sfchronicle.com/bayarea/article/3236738): '5 percent of polling place ballots still to be tallied [~3,564 of 71,276], about 25,000 uncounted absentee and 5,000 provisional remaining' - conservative floor"
+   },
+   {
+    "date": "2007-12-11",
+    "days": 35,
+    "total": 149465,
+    "pct": 100.0,
+    "label": "Elections Commission minutes",
+    "citation": "Elections Commission minutes 2008-01-16 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=51883.html): election certified December 11"
+   }
+  ]
+ },
+ {
+  "id": "2006-11-07",
+  "name": "Consolidated General Election",
+  "final": 253719,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2006-11-08",
+    "days": 2,
+    "total": 156441,
+    "pct": 61.7,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'LOCAL ELECTION RESULTS - San Francisco' 2006-11-09 pB7 (1154BE08AF2058A8): table 580/580 precincts, largest yes/no sum 156441 - conservative day-2 floor; first count observation for this election"
+   }
+  ]
+ },
+ {
+  "id": "2006-06-06",
+  "name": "Consolidated Primary Election",
+  "final": 156272,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2006-07-03",
+    "days": 27,
+    "total": 156272,
+    "pct": 100.0,
+    "label": "Elections Commission minutes",
+    "citation": "Elections Commission minutes 2006-07-19 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=42915.html): canvass completed, election certified Monday July 3"
+   }
+  ]
+ },
+ {
+  "id": "2005-11-08",
+  "name": "Consolidated Municipal Election",
+  "final": 229714,
+  "finalSource": "PR_FinalNov8thElectionResults2.pdf (certified, Dec 7 2005)",
+  "observations": [
+   {
+    "date": "2005-11-11",
+    "days": 3,
+    "total": 183942,
+    "pct": 80.1,
+    "label": "doe-press-release",
+    "citation": "https://web.archive.org/web/*/http://www.sfgov.org/site/uploadedfiles/election/Elections_Pages/PR_UpdatedNov8thElectionResults.pdf"
+   },
+   {
+    "date": "2005-11-15",
+    "days": 7,
+    "total": 212260,
+    "pct": 92.4,
+    "label": "doe-press-release",
+    "citation": "https://web.archive.org/web/*/http://www.sfgov.org/site/uploadedfiles/election/Elections_Pages/PR_UpdatedNov8thElectionResults111505.pdf"
+   },
+   {
+    "date": "2005-11-22",
+    "days": 14,
+    "total": 227392,
+    "pct": 99.0,
+    "label": "doe-press-release",
+    "citation": "https://web.archive.org/web/*/http://www.sfgov.org/site/uploadedfiles/election/Elections_Pages/PR_UpdatedNov8thElectionResults112305.pdf"
+   },
+   {
+    "date": "2005-11-30",
+    "days": 22,
+    "total": 229714,
+    "pct": 100.0,
+    "label": "doe-press-release",
+    "citation": "https://web.archive.org/web/*/http://www.sfgov.org/site/uploadedfiles/election/Elections_Pages/PR_UpdatedNov8thElectionResults113005.pdf"
+   },
+   {
+    "date": "2005-12-05",
+    "days": 27,
+    "total": 229714,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20060704153423/http://sfgov.org/site/uploadedfiles/election/2005results.htm"
+   }
+  ]
+ },
+ {
+  "id": "2004-11-02",
+  "name": "Consolidated General Election",
+  "final": 361822,
+  "finalSource": "CA SoS SOV voter participation stats (certified)",
+  "observations": [
+   {
+    "date": "2004-11-02",
+    "days": 0,
+    "total": 271058,
+    "pct": 74.9,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20041104022244/http://www.sfgov.org:80/site/uploadedfiles/election/nstats.htm"
+   },
+   {
+    "date": "2004-11-15",
+    "days": 13,
+    "total": 356175,
+    "pct": 98.4,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20041116033707/http://www.sfgov.org:80/site/uploadedfiles/election/nstats.htm"
+   },
+   {
+    "date": "2004-11-30",
+    "days": 28,
+    "total": 361822,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20060702111135/http://www.sfgov.org:80/site/uploadedfiles/election/2004results.htm"
+   }
+  ]
+ },
+ {
+  "id": "2004-03-02",
+  "name": "Consolidated Primary Election",
+  "final": 190828,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2004-03-25",
+    "days": 23,
+    "total": 190828,
+    "pct": 100.0,
+    "label": "Elections Commission minutes",
+    "citation": "Elections Commission minutes 2004-05-19 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=24595.html): election certified March 25, 2004"
+   }
+  ]
+ },
+ {
+  "id": "2003-11-04",
+  "name": "Consolidated Municipal Election",
+  "final": 209723,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2003-11-05",
+    "days": 1,
+    "total": 144723,
+    "pct": 69.0,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Welcome change: Glitches few in S.F.' 2003-11-05 pA20: election night ended 'leaving 65,000 absentee ballots uncounted' - conservative night floor; consistent with 140,010 precinct + ~4,700 early absentees"
+   },
+   {
+    "date": "2003-11-05",
+    "days": 1,
+    "total": 177650,
+    "pct": 84.7,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'ELECTION RESULTS - San Francisco' 2003-11-05 pA24 (0FEA384414F836E1): night table 562/562 precincts, mayor contest sum 177,650 (Newsom 73,635, Gonzalez 35,753, Alioto 28,493, Ammiano 18,717, Leal 14,718, Ribera 4,266 + minor) - conservative night floor; supersedes the looser '65,000 uncounted' narrative figure"
+   }
+  ]
+ },
+ {
+  "id": "2002-12-10",
+  "name": "Municipal Run-Off Election",
+  "final": 35897,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2002-12-16",
+    "days": 6,
+    "total": 35897,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "wayback sfgov.org/election/results1202 RUN DATE:12/16/02 02:28 PM (OFFICIAL RESULTS MUNICIPAL RUN-OFF ELECTION, 128/128 precincts; district 4+8 runoff)"
+   }
+  ]
+ },
+ {
+  "id": "2002-11-05",
+  "name": "Consolidated General Election",
+  "final": 225102,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2002-11-08",
+    "days": 3,
+    "total": 200102,
+    "pct": 88.9,
+    "label": "SF Chronicle archive",
+    "citation": "SF Chronicle 2002-11-08 'Close, but no cigar yet for Daly' (sfchronicle.com/politics/article/2756026): 'about 25,000 absentee and provisional ballots to count citywide' - conservative floor"
+   },
+   {
+    "date": "2002-11-12",
+    "days": 7,
+    "total": 223097,
+    "pct": 99.1,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20021113121822/http://www.sfgov.org:80/election/results1102/statistics.htm RUN DATE:11/12/02 03:25 PM (Unofficial Results, 632/632 precincts)"
+   },
+   {
+    "date": "2002-11-14",
+    "days": 9,
+    "total": 224635,
+    "pct": 99.8,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20021117121823/http://www.sfgov.org:80/election/results1102/statistics.htm"
+   },
+   {
+    "date": "2002-11-20",
+    "days": 15,
+    "total": 224990,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20021203034538/http://www.sfgov.org:80/election/results1102/statistics.htm"
+   },
+   {
+    "date": "2002-12-03",
+    "days": 28,
+    "total": 225102,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20021208000000*/sfgov.org/election/results1102/statistics.htm RUN DATE:12/03/02 03:27 PM (Official Results)"
+   }
+  ]
+ },
+ {
+  "id": "2002-03-05",
+  "name": "Consolidated Primary Election",
+  "final": 150249,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2002-03-08",
+    "days": 3,
+    "total": 129749,
+    "pct": 86.4,
+    "label": "SF Chronicle archive",
+    "citation": "SF Chronicle 2002-03-08 'Leno widens lead over Britt' (sfchronicle.com/politics/article/2867971): '16,500 absentee ballots remained to be tallied citywide, plus 4,000 provisional' - conservative floor"
+   },
+   {
+    "date": "2002-04-02",
+    "days": 28,
+    "total": 150249,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20020416181609/http://www.sfgov.org:80/election/results0302/statistics.htm"
+   }
+  ]
+ },
+ {
+  "id": "2001-12-11",
+  "name": "Municipal Run-Off Election",
+  "final": 75267,
+  "finalSource": "post-certification results page capture 2002-02-14 (75,267)",
+  "observations": [
+   {
+    "date": "2001-12-17",
+    "days": 6,
+    "total": 75248,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20011217074852/http://www.ci.sf.ca.us:80/election/results01/results.htm"
+   },
+   {
+    "date": "2002-02-14",
+    "days": 65,
+    "total": 75267,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20020214220816/http://www.ci.sf.ca.us:80/election/results01/results.htm"
+   }
+  ]
+ },
+ {
+  "id": "2001-11-06",
+  "name": "Consolidated Municipal Election",
+  "final": 134024,
+  "finalSource": "DOE turnout history 1960-2002 (certified)",
+  "observations": [
+   {
+    "date": "2001-11-08",
+    "days": 2,
+    "total": 115477,
+    "pct": 86.2,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20011108070639/http://www.ci.sf.ca.us:80/election/results01/results.htm"
+   },
+   {
+    "date": "2001-11-11",
+    "days": 5,
+    "total": 129093,
+    "pct": 96.3,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20011111020653/http://www.ci.sf.ca.us:80/election/results01/results.htm"
+   },
+   {
+    "date": "2001-11-13",
+    "days": 7,
+    "total": 133755,
+    "pct": 99.8,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20011113222410/http://www.ci.sf.ca.us:80/election/results01/results.htm"
+   },
+   {
+    "date": "2001-12-04",
+    "days": 28,
+    "total": 134019,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20011204183320/http://www.ci.sf.ca.us:80/election/results01/results.htm"
+   }
+  ]
+ },
+ {
+  "id": "2000-12-12",
+  "name": "Municipal Run-Off Election",
+  "final": 129629,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2000-12-15",
+    "days": 3,
+    "total": 129620,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/20010124075700/http://sunset.ci.sf.ca.us:80/election2.nsf/NEIGHBOR (ballots/splits; contest views e.g. /web/20010124075500/.../SUPERVISOR01 carry the stamp '100% (529 of 529) precincts reporting as of 12/15/2000 at 04:18:38 PM')"
+   }
+  ]
+ },
+ {
+  "id": "2000-11-07",
+  "name": "Consolidated General Election",
+  "final": 324031,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2000-11-08",
+    "days": 1,
+    "total": 277575,
+    "pct": 85.7,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Absentee, Provisional Ballots Left to Count in S.F.' 2000-11-09 pA26 (docref news/0EB4F969E1C867F6): 'Late yesterday, the Department of Elections said it still had 46,456 ballots left to count' - conservative floor, certified minus stated remaining; article's 486,636 registered matches DOE table exactly"
+   },
+   {
+    "date": "2000-11-12",
+    "days": 5,
+    "total": 314031,
+    "pct": 96.9,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Prop. L Continues To Lose Ground As Tally Proceeds' 2000-11-13 pA17: 'about 10,000 ballots left to be counted' - conservative floor"
+   }
+  ]
+ },
+ {
+  "id": "2000-03-07",
+  "name": "Consolidated Primary Election",
+  "final": 210229,
+  "finalSource": "DOE turnout history 1960-2002 / SOV sf000307.xls (certified)",
+  "observations": [
+   {
+    "date": "2000-03-08",
+    "days": 1,
+    "total": 189634,
+    "pct": 90.2,
+    "label": "Wayback Machine capture",
+    "citation": "SF Chronicle 2000-03-08 results table (wayback sfgate MN87716): Prop A 130,673 yes / 34,656 no published day 1 = 90.2% of certified Prop A votes (144,474+38,885=183,359, DOE SOV sf000307.xls); total = 0.902 * certified ballots - same-contest ratio estimate; https://web.archive.org/web/20001119153200/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/2000/03/08/MN87716.DTL"
+   }
+  ]
+ },
+ {
+  "id": "1999-12-14",
+  "name": "Municipal Run-Off Election",
+  "final": 228247,
+  "finalSource": "DOE turnout history 1960-2002 (certified)",
+  "observations": [
+   {
+    "date": "1999-12-16",
+    "days": 2,
+    "total": 215247,
+    "pct": 94.3,
+    "label": "Wayback Machine capture",
+    "citation": "SF Chronicle 1999-12-16 'D.A. Vote Count Hits Snag' (wayback sfgate MN95634): 'Nearly 13,000 ballots remain to be counted' at 4 p.m. count - conservative floor, certified minus stated remaining; https://web.archive.org/web/20030922004742/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/12/16/MN95634.DTL"
+   },
+   {
+    "date": "1999-12-21",
+    "days": 7,
+    "total": 224047,
+    "pct": 98.2,
+    "label": "SF Chronicle archive",
+    "citation": "SF Chronicle 1999-12-22 'Hallinan lead grows as count nears end' (sfchronicle.com/politics/article/3053708): 'Tuesday, about 4,000 provisional and 200 absentee ballots left' - conservative floor"
+   }
+  ]
+ },
+ {
+  "id": "1999-11-02",
+  "name": "Consolidated Municipal Election",
+  "final": 203674,
+  "finalSource": "DOE turnout history 1960-2002 (certified)",
+  "observations": [
+   {
+    "date": "1999-11-05",
+    "days": 3,
+    "total": 184674,
+    "pct": 90.7,
+    "label": "Wayback Machine capture",
+    "citation": "SF Chronicle 1999-11-05 'Ammiano vs. Brown' (wayback sfgate MN82008): 'still has 19,000 absentee and provisional ballots to count today' - conservative floor, certified minus stated remaining; https://web.archive.org/web/20001210003900/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/11/05/MN82008.DTL"
+   }
+  ]
+ },
+ {
+  "id": "1998-11-03",
+  "name": "Consolidated General Election",
+  "final": 250719,
+  "finalSource": "DOE turnout history 1960-2002 (certified)",
+  "observations": [
+   {
+    "date": "1998-11-06",
+    "days": 3,
+    "total": 242719,
+    "pct": 96.8,
+    "label": "Wayback Machine capture",
+    "citation": "SF Chronicle 1998-11-06 'Ballot Jam Broken' (wayback sfgate MN103975): 'About 8,000 provisional and absentee ballots remain uncounted' - conservative floor, certified minus stated remaining; https://web.archive.org/web/19990911230303/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1998/11/06/MN103975.DTL"
+   },
+   {
+    "date": "1998-11-20",
+    "days": 17,
+    "total": 250719,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "https://web.archive.org/web/19991004190405/http://civiccenter.ci.sf.ca.us:80/election/eresults.nsf/72c62c5428f1b027882566b1007bec42"
+   }
+  ]
+ },
+ {
+  "id": "1997-06-03",
+  "name": "Special Municipal Election",
+  "final": 178948,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1997-06-04",
+    "days": 1,
+    "total": 174448,
+    "pct": 97.5,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1997-06-04 (0EB4F7B76F4FACD0): absentees counted into predawn; 'won't start counting about 4,500 provisional ballots until 9 a.m. today' - conservative night floor; stadium-election all-nighter"
+   }
+  ]
+ },
+ {
+  "id": "1996-03-26",
+  "name": "Consolidated Primary Election",
+  "final": 178165,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1996-03-27",
+    "days": 1,
+    "total": 158513,
+    "pct": 89.0,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1996-03-28 (0EB4F73F7318D872): 'With all but a few provisional or disputed ballots counted yesterday, Proposition B had 105,336... 53,177 against' - conservative floor (top-contest sum)"
+   }
+  ]
+ },
+ {
+  "id": "1995-12-12",
+  "name": "Municipal Run-Off Election",
+  "final": 198326,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1995-12-12",
+    "days": 1,
+    "total": 135231,
+    "pct": 68.2,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1995-12-13 (0EB4F70FC8AEDEDE): MID-NIGHT partial, 339 of 551 precincts: Brown 73,403 / Jordan 61,828 - conservative floor; true night-end higher (power-era punch-card delays)"
+   }
+  ]
+ },
+ {
+  "id": "1995-11-07",
+  "name": "Consolidated Municipal Election",
+  "final": 216735,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1995-11-09",
+    "days": 2,
+    "total": 195267,
+    "pct": 90.1,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1995-11-10 (0EB4F6FF665242DA): results table 'totals as of yesterday, with some absentee ballots still to be counted', 543/543 precincts, mayor sum 195,267 - conservative floor"
+   },
+   {
+    "date": "1995-11-10",
+    "days": 3,
+    "total": 206735,
+    "pct": 95.4,
+    "label": "SF Chronicle archive",
+    "citation": "SF Chronicle 1995-11-10 'registrar operating under a cloud' (sfchronicle.com/news/article/3121516): 'roughly 10,000 absentee ballots left to count' - conservative floor, certified minus stated remaining"
+   }
+  ]
+ },
+ {
+  "id": "1994-11-08",
+  "name": "Consolidated General Election",
+  "final": 249669,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1994-11-09",
+    "days": 1,
+    "total": 239669,
+    "pct": 96.0,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'S.F. Voters Pass Bond Measure For Art Museum' 1994-11-10 pB5: 'registrar officials said about 10,000 absentee ballots were still uncounted'; companion piece itemizes 6,000 absentee + 4,000 provisional - conservative floor"
+   }
+  ]
+ },
+ {
+  "id": "1994-06-07",
+  "name": "Consolidated Primary Election",
+  "final": 135495,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1994-06-08",
+    "days": 1,
+    "total": 110974,
+    "pct": 81.9,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1994-06-09 (0EB4F5EC914918D5): night table 551/551 precincts, Prop A 76,181 yes / 34,793 no - conservative night floor (top-contest sum)"
+   }
+  ]
+ },
+ {
+  "id": "1993-06-15",
+  "name": "Special Municipal Election",
+  "final": 84786,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1993-06-16",
+    "days": 1,
+    "total": 79338,
+    "pct": 93.6,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1993-06-16 (0EB4F5238AE9867C): night count Prop A 58,495 yes / 20,843 no - conservative night floor (top-contest sum)"
+   }
+  ]
+ },
+ {
+  "id": "1991-12-10",
+  "name": "Municipal Run-Off Election",
+  "final": 215751,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1991-12-11",
+    "days": 1,
+    "total": 189366,
+    "pct": 87.8,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1991-12-11 (13E41D5657CC3578): night table 627/627 precincts, Jordan 98,491 / Agnos 90,875 - conservative night floor (mayor-contest sum)"
+   },
+   {
+    "date": "1991-12-17",
+    "days": 7,
+    "total": 215751,
+    "pct": 100.0,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1991-12-18 (13E41D5271A05880): 'The official tally released yesterday... include[s] contested ballots not counted on election day' - count complete day 7"
+   }
+  ]
+ },
+ {
+  "id": "1991-11-05",
+  "name": "Consolidated Municipal Election",
+  "final": 200875,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1991-11-06",
+    "days": 1,
+    "total": 187990,
+    "pct": 93.6,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1991-11-06 (13E41D6D56423A18): night table 628/628 precincts, mayor contest sum 187,990 (Jordan 59,928, Agnos 51,714, Alioto 34,910, Hsieh 18,241, Hongisto 17,663 + minor) - conservative night floor"
+   }
+  ]
+ },
+ {
+  "id": "1990-11-06",
+  "name": "Consolidated General Election",
+  "final": 236413,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1990-11-08",
+    "days": 2,
+    "total": 234413,
+    "pct": 99.2,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1990-11-09 (0EB4F2D1A68C546B): headline '2,000 ballots remain to be examined in San Francisco' - conservative floor"
+   }
+  ]
+ },
+ {
+  "id": "1990-06-05",
+  "name": "Consolidated Primary Election",
+  "final": 161989,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1990-06-08",
+    "days": 3,
+    "total": 160989,
+    "pct": 99.4,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1990-06-09 (0EB4F2776A49A703): citywide judge race 'about 1,000 left to count' by late June 8 - conservative floor"
+   }
+  ]
+ },
+ {
+  "id": "1989-11-07",
+  "name": "Consolidated Municipal Election",
+  "final": 181862,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1989-11-08",
+    "days": 1,
+    "total": 171210,
+    "pct": 94.1,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1989-11-08 (0EB4F1E1F451DBA3): night results table 621/621 precincts, Prop P China Basin Ballpark 84,618 yes / 86,592 no (the measure that lost by 1,974) - top-contest sum is a conservative night floor"
+   }
+  ]
+ },
+ {
+  "id": "1988-11-08",
+  "name": "Consolidated General Election",
+  "final": 292097,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1988-11-09",
+    "days": 1,
+    "total": 252097,
+    "pct": 86.3,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1988-11-10 (0EB4F0EB158C3BF3): election-night state 'with most votes counted, except about 40,000 absentee ballots' - conservative night floor"
+   },
+   {
+    "date": "1988-11-09",
+    "days": 1,
+    "total": 289597,
+    "pct": 99.1,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1988-11-10 (0EB4F0EB2983145D): figures 'announced late yesterday afternoon... did not include about 2,500 absentee ballots still to be counted' - conservative floor; 40,000 absentees counted in one day"
+   }
+  ]
+ },
+ {
+  "id": "1987-11-03",
+  "name": "Consolidated Municipal Election",
+  "final": 193742,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1987-11-04",
+    "days": 1,
+    "total": 188850,
+    "pct": 97.5,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1987-11-05 (0EB4EFBFBAB11E9B): 'Yesterday he [Registrar Patterson] reported that 188,850 votes were cast Tuesday' - registrar day-1 count"
+   }
+  ]
+ },
+ {
+  "id": "1987-04-07",
+  "name": "Special Congressional Election",
+  "final": 111523,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1987-04-08",
+    "days": 1,
+    "total": 108563,
+    "pct": 97.3,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 1987-04-09 (docref 0EB4EF2D8E65D869): 'An analysis of the 108,563 votes cast Tuesday' - single-contest special, contest count ~= ballots"
+   }
+  ]
+ },
+ {
+  "id": "1986-06-03",
+  "name": "Consolidated Primary Election",
+  "final": 146480,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1986-06-04",
+    "days": 1,
+    "total": 142480,
+    "pct": 97.3,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Feinstein's Name Failed To Carry Her Big Issues' 1986-06-05 p1: 'Registrar of Voters Jay Patterson said about 4000 absentee ballots have yet to be counted' - conservative floor"
+   }
+  ]
+ },
+ {
+  "id": "1984-11-06",
+  "name": "Consolidated General Election",
+  "final": 298517,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1984-11-07",
+    "days": 1,
+    "total": 282479,
+    "pct": 94.6,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle 1984-11-07 p6 'ELECTION RESULTS - BAY AREA', SAN FRANCISCO VOTE table, 708/708 precincts reporting: presidential sum 282,479 (Mondale 190,396 + Reagan 88,683 + Bergland 1,615 + Johnson 942 + Richards 843) - conservative night floor (top-contest sum); NewsBank image doc v2:142051F45F422A02@NGPA-CASFC-1524C6011B7EE156@2446012-15226ADB90415F74@5 via SFPL ezproxy, read 2026-06-11"
+   }
+  ]
+ },
+ {
+  "id": "1983-11-08",
+  "name": "Consolidated Municipal Election",
+  "final": 170628,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1983-11-09",
+    "days": 1,
+    "total": 142709,
+    "pct": 83.6,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle 1983-11-09 p24 'S.F. VOTE' table, 100% precincts reporting: Prop A (Recall Election) 106,762 yes / 35,947 no = 142,709 - conservative night floor (top-contest sum; PCT column 75/25 validates); NewsBank image scan mirror/newsbank/scans/19831108_issue19831109_p23.png via SFPL, read 2026-06-11"
+   }
+  ]
+ },
+ {
+  "id": "1982-11-02",
+  "name": "Consolidated General Election",
+  "final": 238991,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1982-11-03",
+    "days": 1,
+    "total": 230991,
+    "pct": 96.7,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1982-11-03 p4 'Nelder Leads the Pack in S.F. Supervisors Race': 'With all the votes cast yesterday counted...' / 'The race probably will not be decided until 8,000 absentee ballots, turned in at polling places yesterday, are counted later this week' - conservative floor, certified minus stated remaining; scan ...19821102_issue19821103_p4.png, verified 2026-06-11"
+   }
+  ]
+ },
+ {
+  "id": "1976-11-02",
+  "name": "Consolidated General Election",
+  "final": 252932,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1976-11-02",
+    "days": 1,
+    "total": 149461,
+    "pct": 59.1,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1976-11-03 p3 'S.F. Results' box, MID-NIGHT PARTIAL 545 of 935 precincts: Carter 77,452 + Ford 63,186 + others 8,823 = 149,461 - partial night observation, true night-end higher; scan ...19761102_issue19761103_p3.png"
+   }
+  ]
+ },
+ {
+  "id": "1960-11-08",
+  "name": "Consolidated General Election",
+  "final": 348290,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1960-11-09",
+    "days": 1,
+    "total": 318462,
+    "pct": 91.4,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1960-11-09 p3 'Here Are Election Results--County-by-County' AP table, San Francisco row: 1,282 of 1,286 precincts reporting, Nixon 132,833 + Kennedy 185,629 = 318,462 - conservative night floor (presidential sum); scan mirror/newsbank/scans/19601108_issue19601109_p3.png, read+verified 2026-06-11"
+   }
+  ]
+ }
+]

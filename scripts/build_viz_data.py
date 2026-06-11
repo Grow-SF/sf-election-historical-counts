@@ -155,6 +155,50 @@ def main():
             "thresholds": thresholds_for(rows, final, edate, archival=True),
         }
 
+    EXTRACT_LABEL = {
+        "wayback-html": "Wayback Machine capture",
+        "chronicle-subscription": "SF Chronicle archive",
+        "newsbank-sfpl": "SF Chronicle via NewsBank (SFPL)",
+        "newsbank-image-scan": "SF Chronicle page scan (NewsBank/SFPL)",
+    }
+    def short_label(r):
+        if r["stamp_kind"] == "minutes-stated":
+            return "Elections Commission minutes"
+        return EXTRACT_LABEL.get(r["extraction"], r["extraction"])
+    # per-election citations + short source labels for tooltips
+    sources = []
+    for e, rs in aby.items():
+        edate = dt.date.fromisoformat(e)
+        cutoff = dt.datetime.combine(edate + dt.timedelta(days=1), dt.time(6, 0))
+        obs = []
+        night_best = None
+        for r in sorted(rs, key=lambda r: r["observed_at"]):
+            o = {"date": r["observed_at"][:10], "days": int(r["days_since_election"]),
+                 "total": int(r["ballots_counted_total"]), "pct": float(r["pct_of_final"]),
+                 "label": short_label(r), "citation": r["source_url"]}
+            obs.append(o)
+            if dt.datetime.fromisoformat(r["observed_at"]) <= cutoff:
+                if night_best is None or o["total"] > night_best["total"]:
+                    night_best = o
+        if e in elections:
+            elections[e]["nightSrc"] = night_best["label"] if night_best else None
+            elections[e]["srcShort"] = obs[0]["label"] if obs else None
+        sources.append({"id": e, "name": rs[0]["election_name"], "final": int(rs[0]["certified_final"]),
+                        "finalSource": rs[0]["final_source"], "observations": obs})
+    for e in elections.values():
+        if e["source"] == "exact":
+            e["nightSrc"] = "SF Dept. of Elections results release"
+            e["srcShort"] = "SF Dept. of Elections results release"
+            if not any(s["id"] == e["id"] for s in sources):
+                sources.append({"id": e["id"], "name": e["name"], "final": e["final"],
+                    "finalSource": "SF Dept. of Elections certified results",
+                    "observations": [{"date": e["id"], "days": 0, "total": e["final"], "pct": 100.0,
+                        "label": "SF Dept. of Elections per-release reports",
+                        "citation": f"{e['nReports']} per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"}]})
+    sources.sort(key=lambda s: s["id"], reverse=True)
+    (OUT.parent / "sources.json").write_text(json.dumps(sources, indent=1))
+    print(f"{len(sources)} election source records -> sources.json")
+
     out = sorted(elections.values(), key=lambda e: e["id"])
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, indent=1))

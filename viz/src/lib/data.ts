@@ -16,6 +16,8 @@ export type Election = {
   nReports: number;
   nightPct: number | null;
   nightPartial?: boolean;
+  nightSrc?: string | null;
+  srcShort?: string | null;
   vbmShare: number | null;
   pts: [number, number, number | null, number | null][];
   thresholds: Record<string, Threshold>;

@@ -21,6 +21,7 @@ type Pt = {
   kind: string;
   source: string;
   partial: boolean;
+  src: string | null;
 };
 
 // races where the election-night leader lost - decided by late-counted
@@ -60,6 +61,7 @@ export default function NightShareChart({
         kind: e.kind,
         source: e.source,
         partial: Boolean(e.nightPartial),
+        src: e.nightSrc || null,
       }));
     // mid-count partials understate the night - keep them out of the fit
     const fit: Fit | null = linearFit(
@@ -147,6 +149,11 @@ export default function NightShareChart({
                   {FLIPS[hover.p.id]}
                 </div>
               )}
+              {hover.p.src && (
+                <div className="mt-1 text-[11px] text-faint">
+                  source: {hover.p.src} · full citation on the sources page
+                </div>
+              )}
             </PointTooltip>
           )}
           {hover?.kind === "floor" && (
@@ -157,6 +164,9 @@ export default function NightShareChart({
               <div className="text-xs italic text-faint">
                 in-person votes are counted on election night, so that night
                 showed at least this much
+              </div>
+              <div className="mt-1 text-[11px] text-faint">
+                source: certified precinct/mail split (DOE turnout history / SoS)
               </div>
             </PointTooltip>
           )}
