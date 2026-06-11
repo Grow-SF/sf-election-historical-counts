@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata = { title: "Sources — The Long Count" };
 
-type Obs = { date: string; days: number; total: number; pct: number; label: string; citation: string };
+type Obs = { date: string; days: number; night?: boolean; total: number; pct: number; label: string; citation: string };
 type Src = { id: string; name: string; final: number; finalSource: string; observations: Obs[] };
 
 function Linkify({ text }: { text: string }) {
@@ -62,7 +62,7 @@ export default function SourcesPage() {
               {s.observations.map((o, i) => (
                 <li key={i} className="grid gap-x-4 sm:grid-cols-[7.5rem_1fr]">
                   <span className="stat-figure whitespace-nowrap text-faint">
-                    day {o.days} · {o.pct}%
+                    {o.night ? "election night" : `day ${o.days}`} · {o.pct}%
                   </span>
                   <span>
                     <strong>{o.label}.</strong> <Linkify text={o.citation} />

@@ -8,6 +8,7 @@
    {
     "date": "2026-06-03",
     "days": 1,
+    "night": true,
     "total": 125086,
     "pct": 48.2,
     "label": "SF Dept. of Elections results release",
@@ -16,6 +17,7 @@
    {
     "date": "2026-06-04",
     "days": 2,
+    "night": false,
     "total": 140315,
     "pct": 54.1,
     "label": "SF Dept. of Elections results release",
@@ -24,6 +26,7 @@
    {
     "date": "2026-06-05",
     "days": 3,
+    "night": false,
     "total": 176467,
     "pct": 68.1,
     "label": "SF Dept. of Elections results release",
@@ -32,6 +35,7 @@
    {
     "date": "2026-06-08",
     "days": 6,
+    "night": false,
     "total": 222980,
     "pct": 86.0,
     "label": "SF Dept. of Elections results release",
@@ -40,6 +44,7 @@
    {
     "date": "2026-06-09",
     "days": 7,
+    "night": false,
     "total": 259288,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -56,6 +61,7 @@
    {
     "date": "2025-11-04",
     "days": 0,
+    "night": true,
     "total": 196007,
     "pct": 66.4,
     "label": "SF Dept. of Elections results release",
@@ -64,6 +70,7 @@
    {
     "date": "2025-11-06",
     "days": 2,
+    "night": false,
     "total": 209091,
     "pct": 70.8,
     "label": "SF Dept. of Elections results release",
@@ -72,6 +79,7 @@
    {
     "date": "2025-11-10",
     "days": 6,
+    "night": false,
     "total": 265344,
     "pct": 89.9,
     "label": "SF Dept. of Elections results release",
@@ -80,6 +88,7 @@
    {
     "date": "2025-11-17",
     "days": 13,
+    "night": false,
     "total": 291968,
     "pct": 98.9,
     "label": "SF Dept. of Elections results release",
@@ -88,6 +97,7 @@
    {
     "date": "2025-11-24",
     "days": 20,
+    "night": false,
     "total": 294941,
     "pct": 99.9,
     "label": "SF Dept. of Elections results release",
@@ -96,6 +106,7 @@
    {
     "date": "2025-12-03",
     "days": 29,
+    "night": false,
     "total": 295232,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -112,6 +123,7 @@
    {
     "date": "2025-09-16",
     "days": 0,
+    "night": true,
     "total": 16485,
     "pct": 76.5,
     "label": "SF Dept. of Elections results release",
@@ -120,6 +132,7 @@
    {
     "date": "2025-09-18",
     "days": 2,
+    "night": false,
     "total": 21269,
     "pct": 98.7,
     "label": "SF Dept. of Elections results release",
@@ -128,6 +141,7 @@
    {
     "date": "2025-09-25",
     "days": 9,
+    "night": false,
     "total": 21542,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -144,6 +158,7 @@
    {
     "date": "2024-11-06",
     "days": 1,
+    "night": true,
     "total": 234453,
     "pct": 56.9,
     "label": "SF Dept. of Elections results release",
@@ -152,6 +167,7 @@
    {
     "date": "2024-11-07",
     "days": 2,
+    "night": false,
     "total": 259218,
     "pct": 62.9,
     "label": "SF Dept. of Elections results release",
@@ -160,6 +176,7 @@
    {
     "date": "2024-11-08",
     "days": 3,
+    "night": false,
     "total": 289135,
     "pct": 70.1,
     "label": "SF Dept. of Elections results release",
@@ -168,6 +185,7 @@
    {
     "date": "2024-11-09",
     "days": 4,
+    "night": false,
     "total": 325114,
     "pct": 78.9,
     "label": "SF Dept. of Elections results release",
@@ -176,6 +194,7 @@
    {
     "date": "2024-11-10",
     "days": 5,
+    "night": false,
     "total": 364959,
     "pct": 88.5,
     "label": "SF Dept. of Elections results release",
@@ -184,6 +203,7 @@
    {
     "date": "2024-11-11",
     "days": 6,
+    "night": false,
     "total": 382292,
     "pct": 92.7,
     "label": "SF Dept. of Elections results release",
@@ -192,6 +212,7 @@
    {
     "date": "2024-11-12",
     "days": 7,
+    "night": false,
     "total": 388758,
     "pct": 94.3,
     "label": "SF Dept. of Elections results release",
@@ -200,6 +221,7 @@
    {
     "date": "2024-11-13",
     "days": 8,
+    "night": false,
     "total": 390437,
     "pct": 94.7,
     "label": "SF Dept. of Elections results release",
@@ -208,6 +230,7 @@
    {
     "date": "2024-11-14",
     "days": 9,
+    "night": false,
     "total": 396543,
     "pct": 96.2,
     "label": "SF Dept. of Elections results release",
@@ -216,6 +239,7 @@
    {
     "date": "2024-11-15",
     "days": 10,
+    "night": false,
     "total": 403466,
     "pct": 97.9,
     "label": "SF Dept. of Elections results release",
@@ -224,6 +248,7 @@
    {
     "date": "2024-11-16",
     "days": 11,
+    "night": false,
     "total": 409747,
     "pct": 99.4,
     "label": "SF Dept. of Elections results release",
@@ -232,6 +257,7 @@
    {
     "date": "2024-11-18",
     "days": 13,
+    "night": false,
     "total": 411708,
     "pct": 99.9,
     "label": "SF Dept. of Elections results release",
@@ -240,6 +266,7 @@
    {
     "date": "2024-11-19",
     "days": 14,
+    "night": false,
     "total": 412041,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -248,6 +275,7 @@
    {
     "date": "2024-11-21",
     "days": 16,
+    "night": false,
     "total": 412090,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -256,6 +284,7 @@
    {
     "date": "2024-12-03",
     "days": 28,
+    "night": false,
     "total": 412231,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -272,6 +301,7 @@
    {
     "date": "2024-03-05",
     "days": 0,
+    "night": true,
     "total": 104760,
     "pct": 44.9,
     "label": "SF Dept. of Elections results release",
@@ -280,6 +310,7 @@
    {
     "date": "2024-03-07",
     "days": 2,
+    "night": false,
     "total": 132091,
     "pct": 56.6,
     "label": "SF Dept. of Elections results release",
@@ -288,6 +319,7 @@
    {
     "date": "2024-03-08",
     "days": 3,
+    "night": false,
     "total": 193382,
     "pct": 82.8,
     "label": "SF Dept. of Elections results release",
@@ -296,6 +328,7 @@
    {
     "date": "2024-03-09",
     "days": 4,
+    "night": false,
     "total": 216280,
     "pct": 92.6,
     "label": "SF Dept. of Elections results release",
@@ -304,6 +337,7 @@
    {
     "date": "2024-03-11",
     "days": 6,
+    "night": false,
     "total": 222612,
     "pct": 95.4,
     "label": "SF Dept. of Elections results release",
@@ -312,6 +346,7 @@
    {
     "date": "2024-03-12",
     "days": 7,
+    "night": false,
     "total": 225406,
     "pct": 96.5,
     "label": "SF Dept. of Elections results release",
@@ -320,6 +355,7 @@
    {
     "date": "2024-03-13",
     "days": 8,
+    "night": false,
     "total": 226648,
     "pct": 97.1,
     "label": "SF Dept. of Elections results release",
@@ -328,6 +364,7 @@
    {
     "date": "2024-03-14",
     "days": 9,
+    "night": false,
     "total": 229227,
     "pct": 98.2,
     "label": "SF Dept. of Elections results release",
@@ -336,6 +373,7 @@
    {
     "date": "2024-03-15",
     "days": 10,
+    "night": false,
     "total": 233279,
     "pct": 99.9,
     "label": "SF Dept. of Elections results release",
@@ -344,6 +382,7 @@
    {
     "date": "2024-03-20",
     "days": 15,
+    "night": false,
     "total": 233424,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -352,6 +391,7 @@
    {
     "date": "2024-03-21",
     "days": 16,
+    "night": false,
     "total": 233465,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -360,6 +400,7 @@
    {
     "date": "2024-03-22",
     "days": 17,
+    "night": false,
     "total": 233465,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -376,6 +417,7 @@
    {
     "date": "2022-11-09",
     "days": 1,
+    "night": true,
     "total": 158200,
     "pct": 51.0,
     "label": "SF Dept. of Elections results release",
@@ -384,6 +426,7 @@
    {
     "date": "2022-11-10",
     "days": 2,
+    "night": false,
     "total": 167798,
     "pct": 54.1,
     "label": "SF Dept. of Elections results release",
@@ -392,6 +435,7 @@
    {
     "date": "2022-11-11",
     "days": 3,
+    "night": false,
     "total": 195327,
     "pct": 63.0,
     "label": "SF Dept. of Elections results release",
@@ -400,6 +444,7 @@
    {
     "date": "2022-11-12",
     "days": 4,
+    "night": false,
     "total": 224871,
     "pct": 72.5,
     "label": "SF Dept. of Elections results release",
@@ -408,6 +453,7 @@
    {
     "date": "2022-11-13",
     "days": 5,
+    "night": false,
     "total": 246515,
     "pct": 79.5,
     "label": "SF Dept. of Elections results release",
@@ -416,6 +462,7 @@
    {
     "date": "2022-11-14",
     "days": 6,
+    "night": false,
     "total": 269050,
     "pct": 86.8,
     "label": "SF Dept. of Elections results release",
@@ -424,6 +471,7 @@
    {
     "date": "2022-11-15",
     "days": 7,
+    "night": false,
     "total": 291726,
     "pct": 94.1,
     "label": "SF Dept. of Elections results release",
@@ -432,6 +480,7 @@
    {
     "date": "2022-11-16",
     "days": 8,
+    "night": false,
     "total": 302256,
     "pct": 97.5,
     "label": "SF Dept. of Elections results release",
@@ -440,6 +489,7 @@
    {
     "date": "2022-11-17",
     "days": 9,
+    "night": false,
     "total": 307121,
     "pct": 99.0,
     "label": "SF Dept. of Elections results release",
@@ -448,6 +498,7 @@
    {
     "date": "2022-11-18",
     "days": 10,
+    "night": false,
     "total": 309294,
     "pct": 99.7,
     "label": "SF Dept. of Elections results release",
@@ -456,6 +507,7 @@
    {
     "date": "2022-11-22",
     "days": 14,
+    "night": false,
     "total": 309994,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -464,6 +516,7 @@
    {
     "date": "2022-11-29",
     "days": 21,
+    "night": false,
     "total": 310071,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -472,6 +525,7 @@
    {
     "date": "2022-12-01",
     "days": 23,
+    "night": false,
     "total": 310071,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -488,6 +542,7 @@
    {
     "date": "2022-06-07",
     "days": 0,
+    "night": true,
     "total": 127926,
     "pct": 55.8,
     "label": "SF Dept. of Elections results release",
@@ -496,6 +551,7 @@
    {
     "date": "2022-06-09",
     "days": 2,
+    "night": false,
     "total": 141788,
     "pct": 61.9,
     "label": "SF Dept. of Elections results release",
@@ -504,6 +560,7 @@
    {
     "date": "2022-06-10",
     "days": 3,
+    "night": false,
     "total": 184582,
     "pct": 80.5,
     "label": "SF Dept. of Elections results release",
@@ -512,6 +569,7 @@
    {
     "date": "2022-06-11",
     "days": 4,
+    "night": false,
     "total": 222215,
     "pct": 96.9,
     "label": "SF Dept. of Elections results release",
@@ -520,6 +578,7 @@
    {
     "date": "2022-06-12",
     "days": 5,
+    "night": false,
     "total": 227955,
     "pct": 99.4,
     "label": "SF Dept. of Elections results release",
@@ -528,6 +587,7 @@
    {
     "date": "2022-06-14",
     "days": 7,
+    "night": false,
     "total": 228915,
     "pct": 99.9,
     "label": "SF Dept. of Elections results release",
@@ -536,6 +596,7 @@
    {
     "date": "2022-06-16",
     "days": 9,
+    "night": false,
     "total": 229122,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -544,6 +605,7 @@
    {
     "date": "2022-06-22",
     "days": 15,
+    "night": false,
     "total": 229229,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -560,6 +622,7 @@
    {
     "date": "2022-04-19",
     "days": 0,
+    "night": true,
     "total": 61965,
     "pct": 78.7,
     "label": "SF Dept. of Elections results release",
@@ -568,6 +631,7 @@
    {
     "date": "2022-04-21",
     "days": 2,
+    "night": false,
     "total": 77994,
     "pct": 99.0,
     "label": "SF Dept. of Elections results release",
@@ -576,6 +640,7 @@
    {
     "date": "2022-04-22",
     "days": 3,
+    "night": false,
     "total": 78690,
     "pct": 99.9,
     "label": "SF Dept. of Elections results release",
@@ -584,6 +649,7 @@
    {
     "date": "2022-04-27",
     "days": 8,
+    "night": false,
     "total": 78764,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -592,6 +658,7 @@
    {
     "date": "2022-04-28",
     "days": 9,
+    "night": false,
     "total": 78764,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -608,6 +675,7 @@
    {
     "date": "2022-02-15",
     "days": 0,
+    "night": true,
     "total": 130302,
     "pct": 72.4,
     "label": "SF Dept. of Elections results release",
@@ -616,6 +684,7 @@
    {
     "date": "2022-02-17",
     "days": 2,
+    "night": false,
     "total": 149377,
     "pct": 83.0,
     "label": "SF Dept. of Elections results release",
@@ -624,6 +693,7 @@
    {
     "date": "2022-02-18",
     "days": 3,
+    "night": false,
     "total": 174528,
     "pct": 97.0,
     "label": "SF Dept. of Elections results release",
@@ -632,6 +702,7 @@
    {
     "date": "2022-02-19",
     "days": 4,
+    "night": false,
     "total": 179429,
     "pct": 99.7,
     "label": "SF Dept. of Elections results release",
@@ -640,6 +711,7 @@
    {
     "date": "2022-02-22",
     "days": 7,
+    "night": false,
     "total": 179752,
     "pct": 99.9,
     "label": "SF Dept. of Elections results release",
@@ -648,6 +720,7 @@
    {
     "date": "2022-02-23",
     "days": 8,
+    "night": false,
     "total": 179981,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -664,6 +737,7 @@
    {
     "date": "2021-09-14",
     "days": 0,
+    "night": true,
     "total": 268285,
     "pct": 78.7,
     "label": "SF Dept. of Elections results release",
@@ -672,6 +746,7 @@
    {
     "date": "2021-09-15",
     "days": 1,
+    "night": false,
     "total": 269473,
     "pct": 79.0,
     "label": "SF Dept. of Elections results release",
@@ -680,6 +755,7 @@
    {
     "date": "2021-09-16",
     "days": 2,
+    "night": false,
     "total": 295719,
     "pct": 86.7,
     "label": "SF Dept. of Elections results release",
@@ -688,6 +764,7 @@
    {
     "date": "2021-09-17",
     "days": 3,
+    "night": false,
     "total": 319577,
     "pct": 93.7,
     "label": "SF Dept. of Elections results release",
@@ -696,6 +773,7 @@
    {
     "date": "2021-09-18",
     "days": 4,
+    "night": false,
     "total": 330645,
     "pct": 96.9,
     "label": "SF Dept. of Elections results release",
@@ -704,6 +782,7 @@
    {
     "date": "2021-09-20",
     "days": 6,
+    "night": false,
     "total": 336626,
     "pct": 98.7,
     "label": "SF Dept. of Elections results release",
@@ -712,6 +791,7 @@
    {
     "date": "2021-09-21",
     "days": 7,
+    "night": false,
     "total": 340349,
     "pct": 99.8,
     "label": "SF Dept. of Elections results release",
@@ -720,6 +800,7 @@
    {
     "date": "2021-09-22",
     "days": 8,
+    "night": false,
     "total": 340702,
     "pct": 99.9,
     "label": "SF Dept. of Elections results release",
@@ -728,6 +809,7 @@
    {
     "date": "2021-10-01",
     "days": 17,
+    "night": false,
     "total": 341040,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -736,6 +818,7 @@
    {
     "date": "2021-10-05",
     "days": 21,
+    "night": false,
     "total": 341055,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -752,6 +835,7 @@
    {
     "date": "2020-11-04",
     "days": 1,
+    "night": true,
     "total": 352537,
     "pct": 78.4,
     "label": "SF Dept. of Elections results release",
@@ -760,6 +844,7 @@
    {
     "date": "2020-11-04",
     "days": 1,
+    "night": false,
     "total": 353572,
     "pct": 78.6,
     "label": "SF Dept. of Elections results release",
@@ -768,6 +853,7 @@
    {
     "date": "2020-11-05",
     "days": 2,
+    "night": false,
     "total": 383191,
     "pct": 85.2,
     "label": "SF Dept. of Elections results release",
@@ -776,6 +862,7 @@
    {
     "date": "2020-11-06",
     "days": 3,
+    "night": false,
     "total": 419050,
     "pct": 93.1,
     "label": "SF Dept. of Elections results release",
@@ -784,6 +871,7 @@
    {
     "date": "2020-11-07",
     "days": 4,
+    "night": false,
     "total": 437259,
     "pct": 97.2,
     "label": "SF Dept. of Elections results release",
@@ -792,6 +880,7 @@
    {
     "date": "2020-11-08",
     "days": 5,
+    "night": false,
     "total": 443435,
     "pct": 98.6,
     "label": "SF Dept. of Elections results release",
@@ -800,6 +889,7 @@
    {
     "date": "2020-11-09",
     "days": 6,
+    "night": false,
     "total": 446751,
     "pct": 99.3,
     "label": "SF Dept. of Elections results release",
@@ -808,6 +898,7 @@
    {
     "date": "2020-11-10",
     "days": 7,
+    "night": false,
     "total": 448485,
     "pct": 99.7,
     "label": "SF Dept. of Elections results release",
@@ -816,6 +907,7 @@
    {
     "date": "2020-11-12",
     "days": 9,
+    "night": false,
     "total": 448938,
     "pct": 99.8,
     "label": "SF Dept. of Elections results release",
@@ -824,6 +916,7 @@
    {
     "date": "2020-11-13",
     "days": 10,
+    "night": false,
     "total": 449318,
     "pct": 99.9,
     "label": "SF Dept. of Elections results release",
@@ -832,6 +925,7 @@
    {
     "date": "2020-11-17",
     "days": 14,
+    "night": false,
     "total": 449365,
     "pct": 99.9,
     "label": "SF Dept. of Elections results release",
@@ -840,6 +934,7 @@
    {
     "date": "2020-11-19",
     "days": 16,
+    "night": false,
     "total": 449558,
     "pct": 99.9,
     "label": "SF Dept. of Elections results release",
@@ -848,6 +943,7 @@
    {
     "date": "2020-11-24",
     "days": 21,
+    "night": false,
     "total": 449825,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -856,6 +952,7 @@
    {
     "date": "2020-12-01",
     "days": 28,
+    "night": false,
     "total": 449866,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -872,6 +969,7 @@
    {
     "date": "2020-03-04",
     "days": 1,
+    "night": true,
     "total": 144667,
     "pct": 47.4,
     "label": "SF Dept. of Elections results release",
@@ -880,6 +978,7 @@
    {
     "date": "2020-03-04",
     "days": 1,
+    "night": false,
     "total": 180205,
     "pct": 59.0,
     "label": "SF Dept. of Elections results release",
@@ -888,6 +987,7 @@
    {
     "date": "2020-03-05",
     "days": 2,
+    "night": false,
     "total": 240682,
     "pct": 78.9,
     "label": "SF Dept. of Elections results release",
@@ -896,6 +996,7 @@
    {
     "date": "2020-03-06",
     "days": 3,
+    "night": false,
     "total": 265722,
     "pct": 87.1,
     "label": "SF Dept. of Elections results release",
@@ -904,6 +1005,7 @@
    {
     "date": "2020-03-07",
     "days": 4,
+    "night": false,
     "total": 275200,
     "pct": 90.2,
     "label": "SF Dept. of Elections results release",
@@ -912,6 +1014,7 @@
    {
     "date": "2020-03-09",
     "days": 6,
+    "night": false,
     "total": 281975,
     "pct": 92.4,
     "label": "SF Dept. of Elections results release",
@@ -920,6 +1023,7 @@
    {
     "date": "2020-03-10",
     "days": 7,
+    "night": false,
     "total": 292944,
     "pct": 96.0,
     "label": "SF Dept. of Elections results release",
@@ -928,6 +1032,7 @@
    {
     "date": "2020-03-11",
     "days": 8,
+    "night": false,
     "total": 301449,
     "pct": 98.8,
     "label": "SF Dept. of Elections results release",
@@ -936,6 +1041,7 @@
    {
     "date": "2020-03-12",
     "days": 9,
+    "night": false,
     "total": 304730,
     "pct": 99.9,
     "label": "SF Dept. of Elections results release",
@@ -944,6 +1050,7 @@
    {
     "date": "2020-03-13",
     "days": 10,
+    "night": false,
     "total": 305148,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -952,6 +1059,7 @@
    {
     "date": "2020-03-26",
     "days": 23,
+    "night": false,
     "total": 305184,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -968,6 +1076,7 @@
    {
     "date": "2019-11-06",
     "days": 1,
+    "night": true,
     "total": 115183,
     "pct": 55.9,
     "label": "SF Dept. of Elections results release",
@@ -976,6 +1085,7 @@
    {
     "date": "2019-11-06",
     "days": 1,
+    "night": false,
     "total": 133638,
     "pct": 64.8,
     "label": "SF Dept. of Elections results release",
@@ -984,6 +1094,7 @@
    {
     "date": "2019-11-07",
     "days": 2,
+    "night": false,
     "total": 163743,
     "pct": 79.4,
     "label": "SF Dept. of Elections results release",
@@ -992,6 +1103,7 @@
    {
     "date": "2019-11-08",
     "days": 3,
+    "night": false,
     "total": 190504,
     "pct": 92.4,
     "label": "SF Dept. of Elections results release",
@@ -1000,6 +1112,7 @@
    {
     "date": "2019-11-09",
     "days": 4,
+    "night": false,
     "total": 204791,
     "pct": 99.4,
     "label": "SF Dept. of Elections results release",
@@ -1008,6 +1121,7 @@
    {
     "date": "2019-11-10",
     "days": 5,
+    "night": false,
     "total": 206025,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1016,6 +1130,7 @@
    {
     "date": "2019-11-12",
     "days": 7,
+    "night": false,
     "total": 206039,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1024,6 +1139,7 @@
    {
     "date": "2019-11-13",
     "days": 8,
+    "night": false,
     "total": 206050,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1032,6 +1148,7 @@
    {
     "date": "2019-11-14",
     "days": 9,
+    "night": false,
     "total": 206090,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1040,6 +1157,7 @@
    {
     "date": "2019-11-26",
     "days": 21,
+    "night": false,
     "total": 206122,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1056,6 +1174,7 @@
    {
     "date": "2018-11-07",
     "days": 1,
+    "night": true,
     "total": 221151,
     "pct": 59.3,
     "label": "SF Dept. of Elections results release",
@@ -1064,6 +1183,7 @@
    {
     "date": "2018-11-07",
     "days": 1,
+    "night": false,
     "total": 235393,
     "pct": 63.1,
     "label": "SF Dept. of Elections results release",
@@ -1072,6 +1192,7 @@
    {
     "date": "2018-11-08",
     "days": 2,
+    "night": false,
     "total": 242704,
     "pct": 65.1,
     "label": "SF Dept. of Elections results release",
@@ -1080,6 +1201,7 @@
    {
     "date": "2018-11-09",
     "days": 3,
+    "night": false,
     "total": 252945,
     "pct": 67.8,
     "label": "SF Dept. of Elections results release",
@@ -1088,6 +1210,7 @@
    {
     "date": "2018-11-10",
     "days": 4,
+    "night": false,
     "total": 273520,
     "pct": 73.4,
     "label": "SF Dept. of Elections results release",
@@ -1096,6 +1219,7 @@
    {
     "date": "2018-11-11",
     "days": 5,
+    "night": false,
     "total": 300277,
     "pct": 80.5,
     "label": "SF Dept. of Elections results release",
@@ -1104,6 +1228,7 @@
    {
     "date": "2018-11-12",
     "days": 6,
+    "night": false,
     "total": 323320,
     "pct": 86.7,
     "label": "SF Dept. of Elections results release",
@@ -1112,6 +1237,7 @@
    {
     "date": "2018-11-13",
     "days": 7,
+    "night": false,
     "total": 338348,
     "pct": 90.7,
     "label": "SF Dept. of Elections results release",
@@ -1120,6 +1246,7 @@
    {
     "date": "2018-11-14",
     "days": 8,
+    "night": false,
     "total": 345806,
     "pct": 92.7,
     "label": "SF Dept. of Elections results release",
@@ -1128,6 +1255,7 @@
    {
     "date": "2018-11-15",
     "days": 9,
+    "night": false,
     "total": 357443,
     "pct": 95.9,
     "label": "SF Dept. of Elections results release",
@@ -1136,6 +1264,7 @@
    {
     "date": "2018-11-16",
     "days": 10,
+    "night": false,
     "total": 365404,
     "pct": 98.0,
     "label": "SF Dept. of Elections results release",
@@ -1144,6 +1273,7 @@
    {
     "date": "2018-11-17",
     "days": 11,
+    "night": false,
     "total": 370703,
     "pct": 99.4,
     "label": "SF Dept. of Elections results release",
@@ -1152,6 +1282,7 @@
    {
     "date": "2018-11-19",
     "days": 13,
+    "night": false,
     "total": 371919,
     "pct": 99.8,
     "label": "SF Dept. of Elections results release",
@@ -1160,6 +1291,7 @@
    {
     "date": "2018-11-20",
     "days": 14,
+    "night": false,
     "total": 372461,
     "pct": 99.9,
     "label": "SF Dept. of Elections results release",
@@ -1168,6 +1300,7 @@
    {
     "date": "2018-11-26",
     "days": 20,
+    "night": false,
     "total": 372848,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1176,6 +1309,7 @@
    {
     "date": "2018-11-27",
     "days": 21,
+    "night": false,
     "total": 372848,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1192,6 +1326,7 @@
    {
     "date": "2018-06-06",
     "days": 1,
+    "night": true,
     "total": 154290,
     "pct": 60.8,
     "label": "SF Dept. of Elections results release",
@@ -1200,6 +1335,7 @@
    {
     "date": "2018-06-06",
     "days": 1,
+    "night": false,
     "total": 158944,
     "pct": 62.7,
     "label": "SF Dept. of Elections results release",
@@ -1208,6 +1344,7 @@
    {
     "date": "2018-06-07",
     "days": 2,
+    "night": false,
     "total": 167009,
     "pct": 65.9,
     "label": "SF Dept. of Elections results release",
@@ -1216,6 +1353,7 @@
    {
     "date": "2018-06-08",
     "days": 3,
+    "night": false,
     "total": 186484,
     "pct": 73.5,
     "label": "SF Dept. of Elections results release",
@@ -1224,6 +1362,7 @@
    {
     "date": "2018-06-09",
     "days": 4,
+    "night": false,
     "total": 209697,
     "pct": 82.7,
     "label": "SF Dept. of Elections results release",
@@ -1232,6 +1371,7 @@
    {
     "date": "2018-06-10",
     "days": 5,
+    "night": false,
     "total": 226124,
     "pct": 89.2,
     "label": "SF Dept. of Elections results release",
@@ -1240,6 +1380,7 @@
    {
     "date": "2018-06-11",
     "days": 6,
+    "night": false,
     "total": 235190,
     "pct": 92.7,
     "label": "SF Dept. of Elections results release",
@@ -1248,6 +1389,7 @@
    {
     "date": "2018-06-12",
     "days": 7,
+    "night": false,
     "total": 244398,
     "pct": 96.4,
     "label": "SF Dept. of Elections results release",
@@ -1256,6 +1398,7 @@
    {
     "date": "2018-06-13",
     "days": 8,
+    "night": false,
     "total": 247160,
     "pct": 97.5,
     "label": "SF Dept. of Elections results release",
@@ -1264,6 +1407,7 @@
    {
     "date": "2018-06-14",
     "days": 9,
+    "night": false,
     "total": 249573,
     "pct": 98.4,
     "label": "SF Dept. of Elections results release",
@@ -1272,6 +1416,7 @@
    {
     "date": "2018-06-15",
     "days": 10,
+    "night": false,
     "total": 252919,
     "pct": 99.7,
     "label": "SF Dept. of Elections results release",
@@ -1280,6 +1425,7 @@
    {
     "date": "2018-06-18",
     "days": 13,
+    "night": false,
     "total": 253582,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1288,6 +1434,7 @@
    {
     "date": "2018-06-21",
     "days": 16,
+    "night": false,
     "total": 253583,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1296,6 +1443,7 @@
    {
     "date": "2018-06-27",
     "days": 22,
+    "night": false,
     "total": 253583,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1312,6 +1460,7 @@
    {
     "date": "2016-11-09",
     "days": 1,
+    "night": true,
     "total": 274207,
     "pct": 66.1,
     "label": "SF Dept. of Elections results release",
@@ -1320,6 +1469,7 @@
    {
     "date": "2016-11-09",
     "days": 1,
+    "night": false,
     "total": 277331,
     "pct": 66.9,
     "label": "SF Dept. of Elections results release",
@@ -1328,6 +1478,7 @@
    {
     "date": "2016-11-10",
     "days": 2,
+    "night": false,
     "total": 283049,
     "pct": 68.3,
     "label": "SF Dept. of Elections results release",
@@ -1336,6 +1487,7 @@
    {
     "date": "2016-11-11",
     "days": 3,
+    "night": false,
     "total": 286975,
     "pct": 69.2,
     "label": "SF Dept. of Elections results release",
@@ -1344,6 +1496,7 @@
    {
     "date": "2016-11-12",
     "days": 4,
+    "night": false,
     "total": 296564,
     "pct": 71.5,
     "label": "SF Dept. of Elections results release",
@@ -1352,6 +1505,7 @@
    {
     "date": "2016-11-13",
     "days": 5,
+    "night": false,
     "total": 312183,
     "pct": 75.3,
     "label": "SF Dept. of Elections results release",
@@ -1360,6 +1514,7 @@
    {
     "date": "2016-11-14",
     "days": 6,
+    "night": false,
     "total": 324258,
     "pct": 78.2,
     "label": "SF Dept. of Elections results release",
@@ -1368,6 +1523,7 @@
    {
     "date": "2016-11-15",
     "days": 7,
+    "night": false,
     "total": 340701,
     "pct": 82.2,
     "label": "SF Dept. of Elections results release",
@@ -1376,6 +1532,7 @@
    {
     "date": "2016-11-16",
     "days": 8,
+    "night": false,
     "total": 357025,
     "pct": 86.1,
     "label": "SF Dept. of Elections results release",
@@ -1384,6 +1541,7 @@
    {
     "date": "2016-11-17",
     "days": 9,
+    "night": false,
     "total": 374822,
     "pct": 90.4,
     "label": "SF Dept. of Elections results release",
@@ -1392,6 +1550,7 @@
    {
     "date": "2016-11-18",
     "days": 10,
+    "night": false,
     "total": 385049,
     "pct": 92.9,
     "label": "SF Dept. of Elections results release",
@@ -1400,6 +1559,7 @@
    {
     "date": "2016-11-19",
     "days": 11,
+    "night": false,
     "total": 393318,
     "pct": 94.9,
     "label": "SF Dept. of Elections results release",
@@ -1408,6 +1568,7 @@
    {
     "date": "2016-11-20",
     "days": 12,
+    "night": false,
     "total": 396891,
     "pct": 95.7,
     "label": "SF Dept. of Elections results release",
@@ -1416,6 +1577,7 @@
    {
     "date": "2016-11-21",
     "days": 13,
+    "night": false,
     "total": 406193,
     "pct": 98.0,
     "label": "SF Dept. of Elections results release",
@@ -1424,6 +1586,7 @@
    {
     "date": "2016-11-22",
     "days": 14,
+    "night": false,
     "total": 414189,
     "pct": 99.9,
     "label": "SF Dept. of Elections results release",
@@ -1432,6 +1595,7 @@
    {
     "date": "2016-11-23",
     "days": 15,
+    "night": false,
     "total": 414516,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1440,6 +1604,7 @@
    {
     "date": "2016-11-28",
     "days": 20,
+    "night": false,
     "total": 414516,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1448,6 +1613,7 @@
    {
     "date": "2016-12-01",
     "days": 23,
+    "night": false,
     "total": 414528,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1456,6 +1622,7 @@
    {
     "date": "2016-12-06",
     "days": 28,
+    "night": false,
     "total": 414528,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1472,6 +1639,7 @@
    {
     "date": "2016-06-08",
     "days": 1,
+    "night": true,
     "total": 193038,
     "pct": 72.8,
     "label": "SF Dept. of Elections results release",
@@ -1480,6 +1648,7 @@
    {
     "date": "2016-06-09",
     "days": 2,
+    "night": false,
     "total": 210509,
     "pct": 79.4,
     "label": "SF Dept. of Elections results release",
@@ -1488,6 +1657,7 @@
    {
     "date": "2016-06-10",
     "days": 3,
+    "night": false,
     "total": 225014,
     "pct": 84.9,
     "label": "SF Dept. of Elections results release",
@@ -1496,6 +1666,7 @@
    {
     "date": "2016-06-11",
     "days": 4,
+    "night": false,
     "total": 238960,
     "pct": 90.2,
     "label": "SF Dept. of Elections results release",
@@ -1504,6 +1675,7 @@
    {
     "date": "2016-06-12",
     "days": 5,
+    "night": false,
     "total": 241026,
     "pct": 91.0,
     "label": "SF Dept. of Elections results release",
@@ -1512,6 +1684,7 @@
    {
     "date": "2016-06-13",
     "days": 6,
+    "night": false,
     "total": 244141,
     "pct": 92.1,
     "label": "SF Dept. of Elections results release",
@@ -1520,6 +1693,7 @@
    {
     "date": "2016-06-14",
     "days": 7,
+    "night": false,
     "total": 246506,
     "pct": 93.0,
     "label": "SF Dept. of Elections results release",
@@ -1528,6 +1702,7 @@
    {
     "date": "2016-06-15",
     "days": 8,
+    "night": false,
     "total": 254160,
     "pct": 95.9,
     "label": "SF Dept. of Elections results release",
@@ -1536,6 +1711,7 @@
    {
     "date": "2016-06-16",
     "days": 9,
+    "night": false,
     "total": 256967,
     "pct": 97.0,
     "label": "SF Dept. of Elections results release",
@@ -1544,6 +1720,7 @@
    {
     "date": "2016-06-17",
     "days": 10,
+    "night": false,
     "total": 260107,
     "pct": 98.2,
     "label": "SF Dept. of Elections results release",
@@ -1552,6 +1729,7 @@
    {
     "date": "2016-06-20",
     "days": 13,
+    "night": false,
     "total": 264175,
     "pct": 99.7,
     "label": "SF Dept. of Elections results release",
@@ -1560,6 +1738,7 @@
    {
     "date": "2016-06-21",
     "days": 14,
+    "night": false,
     "total": 264993,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1568,6 +1747,7 @@
    {
     "date": "2016-06-24",
     "days": 17,
+    "night": false,
     "total": 264993,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1584,6 +1764,7 @@
    {
     "date": "2015-11-04",
     "days": 1,
+    "night": true,
     "total": 140946,
     "pct": 69.4,
     "label": "SF Dept. of Elections results release",
@@ -1592,6 +1773,7 @@
    {
     "date": "2015-11-05",
     "days": 2,
+    "night": false,
     "total": 155675,
     "pct": 76.7,
     "label": "SF Dept. of Elections results release",
@@ -1600,6 +1782,7 @@
    {
     "date": "2015-11-06",
     "days": 3,
+    "night": false,
     "total": 172153,
     "pct": 84.8,
     "label": "SF Dept. of Elections results release",
@@ -1608,6 +1791,7 @@
    {
     "date": "2015-11-07",
     "days": 4,
+    "night": false,
     "total": 179713,
     "pct": 88.5,
     "label": "SF Dept. of Elections results release",
@@ -1616,6 +1800,7 @@
    {
     "date": "2015-11-08",
     "days": 5,
+    "night": false,
     "total": 181240,
     "pct": 89.3,
     "label": "SF Dept. of Elections results release",
@@ -1624,6 +1809,7 @@
    {
     "date": "2015-11-09",
     "days": 6,
+    "night": false,
     "total": 186863,
     "pct": 92.0,
     "label": "SF Dept. of Elections results release",
@@ -1632,6 +1818,7 @@
    {
     "date": "2015-11-10",
     "days": 7,
+    "night": false,
     "total": 195117,
     "pct": 96.1,
     "label": "SF Dept. of Elections results release",
@@ -1640,6 +1827,7 @@
    {
     "date": "2015-11-11",
     "days": 8,
+    "night": false,
     "total": 197264,
     "pct": 97.1,
     "label": "SF Dept. of Elections results release",
@@ -1648,6 +1836,7 @@
    {
     "date": "2015-11-12",
     "days": 9,
+    "night": false,
     "total": 202914,
     "pct": 99.9,
     "label": "SF Dept. of Elections results release",
@@ -1656,6 +1845,7 @@
    {
     "date": "2015-11-13",
     "days": 10,
+    "night": false,
     "total": 203069,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1664,6 +1854,7 @@
    {
     "date": "2015-11-16",
     "days": 13,
+    "night": false,
     "total": 203069,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
@@ -1672,6 +1863,7 @@
    {
     "date": "2015-11-19",
     "days": 16,
+    "night": false,
     "total": 203069,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",

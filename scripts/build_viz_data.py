@@ -102,6 +102,7 @@ def main():
             "n": len(rows),
             "obs": [{"date": r["dt"].date().isoformat(),
                      "days": (r["dt"].date() - edate).days,
+                     "night": bool(night_releases) and r["dt"] == max(nr["dt"] for nr in night_releases),
                      "total": r["total"],
                      "pct": pct(r["total"], max(x["total"] for x in rows)),
                      "label": "SF Dept. of Elections results release",
