@@ -184,6 +184,19 @@ in the debug Chrome; fetch full text (Text collection via America's
 News) and page scans (Image collection) for the inventory; derive
 observations via certified-minus-remaining and same-contest-ratio.
 
+## NewsBank harvest COMPLETE (2026-06-11)
+
+732 Chronicle docs fetched via SFPL ezproxy (4 parallel tabs, zero
+failures, full provenance headers incl. SOURCE/ACCESSED). Extraction:
+1,290 statements; deep-mine agent proposed 34 derivations (incremental
+CSV survived its context death); 21 verified and ingested across two
+passes. DATASET: 62 elections, 85 archival observations. Night shares
+now recovered for 1988-1997 (86-97% actual), incl. the 1997 stadium
+all-nighter (97.5% by dawn) and 1988's 40,000-absentees-in-a-day.
+New derivation method validated: top-contest sums from night results
+tables are conservative count floors. Corpus + proposals remain in
+mirror/newsbank/ (licensed content - NOT for CDN).
+
 ## Open threads
 
 1. **CNN 2000 night estimate** (~83% of contest votes) — needs a design
