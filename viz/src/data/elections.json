@@ -1,5 +1,131 @@
 [
  {
+  "id": "1986-06-03",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 1986,
+  "final": 146480,
+  "registered": 369468,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.88,
+    97.3,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "1994-11-08",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 1994,
+  "final": 249669,
+  "registered": 450649,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.88,
+    96.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   }
+  }
+ },
+ {
   "id": "1995-11-07",
   "name": "Consolidated Municipal Election",
   "kind": "Municipal",
@@ -326,6 +452,75 @@
    },
    "90": {
     "days": 1,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2000-11-07",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 2000,
+  "final": 324031,
+  "registered": 486636,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.92,
+    85.7,
+    null,
+    null
+   ],
+   [
+    4.88,
+    96.9,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 5,
+    "bound": true
+   },
+   "95": {
+    "days": 5,
     "bound": true
    }
   }
@@ -806,6 +1001,45 @@
    },
    "99": {
     "days": 6,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2003-11-04",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 2003,
+  "final": 209723,
+  "registered": 459213,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 69.0,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.21,
+    69.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
     "bound": true
    }
   }
