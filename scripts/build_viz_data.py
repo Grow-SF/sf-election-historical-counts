@@ -92,6 +92,12 @@ def main():
         fin = max(rows, key=lambda r: r["total"])
         night = night_total(rows, edate)
         last_dt = max(r["dt"] for r in rows)
+        # collapse intra-night releases: cite only the final election-night
+        # release, then every later one
+        night_cut = dt.datetime.combine(edate + dt.timedelta(days=1), dt.time(6, 0))
+        night_releases = [r for r in rows if r["dt"] <= night_cut]
+        cite_rows = ([max(night_releases, key=lambda r: r["dt"])] if night_releases else []) \
+            + [r for r in rows if r["dt"] > night_cut]
         modern_src[e] = {
             "n": len(rows),
             "obs": [{"date": r["dt"].date().isoformat(),
@@ -99,8 +105,8 @@ def main():
                      "total": r["total"],
                      "pct": pct(r["total"], max(x["total"] for x in rows)),
                      "label": "SF Dept. of Elections results release",
-                     "citation": f"per-release summary report, snapshot {r['snap']}, reported {r['dt'].isoformat()} (Department XML/TSV; validated against certified totals)"}
-                    for r in rows],
+                     "citation": (lambda fn: f"per-release summary report, reported {r['dt'].isoformat()} - https://www.sfelections.org/results/{edate.strftime('%Y%m%d')}/data/{r['snap']}/{fn} (validated against certified totals)")("summary.xml" if edate.year >= 2019 else "summary.txt")}
+                    for r in cite_rows],
         }
         elections[e] = {
             "id": e,
