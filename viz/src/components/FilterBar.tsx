@@ -95,12 +95,18 @@ export default function FilterBar({
             onChange={(e) => update({ archival: e.target.checked })}
             className="accent-rust"
           />
-          archival (2002–14)
+          archival (1960–2014)
         </label>
 
+        <a
+          href="/sources"
+          className="smallcaps ml-auto border border-rust px-2.5 py-1 text-rust transition-colors hover:bg-rust hover:text-paper"
+        >
+          sources
+        </a>
         <button
           onClick={share}
-          className="smallcaps ml-auto border border-ink px-2.5 py-1 text-ink transition-colors hover:bg-ink hover:text-paper"
+          className="smallcaps border border-ink px-2.5 py-1 text-ink transition-colors hover:bg-ink hover:text-paper"
         >
           {copied ? "link copied ✓" : "share this view"}
         </button>
