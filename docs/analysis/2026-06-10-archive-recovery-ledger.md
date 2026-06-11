@@ -168,6 +168,22 @@ to Count in S.F." (doc 0EB4F969E1C867F6 - Nov 2000 has NO data);
 1995-11 "SAN FRANCISCO ELECTION RESULTS" day-after table (543/543
 precincts, doc 0EB4F6FF665242DA); Jun 1997 day-after coverage exists.
 
+## NewsBank inventory COMPLETE (2026-06-11)
+
+mirror/newsbank/master_inventory.csv: 449 hits across 62 elections,
+1960-2009, newest-first. Text collection (1985-2009): 284 snippets w/
+headlines + doc IDs. Image collection (1960-1984): 165 page-scan hits
+w/ issue dates (decoded from Julian day numbers in the v2 doc URLs)
+and page numbers - every pre-1985 election in the target list has
+hits, incl. the 1983 Feinstein recall, 1979 + 1975 runoffs, and the
+1960/1964/1968 generals. Supplementary round pending: '"election
+results"' + 'registrar' queries to catch day-after results tables.
+
+NEXT (blocked on user's SFPL card renewal): log into SFPL eResources
+in the debug Chrome; fetch full text (Text collection via America's
+News) and page scans (Image collection) for the inventory; derive
+observations via certified-minus-remaining and same-contest-ratio.
+
 ## Open threads
 
 1. **CNN 2000 night estimate** (~83% of contest votes) — needs a design
