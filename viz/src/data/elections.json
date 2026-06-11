@@ -62,6 +62,65 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1973-11-06",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 1973,
+  "final": 202237,
+  "registered": 337065,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 57.9,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.25,
+    57.9,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1974-06-04",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 1974,
+  "final": 198508,
+  "registered": 350380,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 44.9,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.25,
+    44.9,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1976-11-02",
   "name": "Consolidated General Election",
   "kind": "General",
@@ -93,6 +152,185 @@
    }
   },
   "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1978-06-06",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 1978,
+  "final": 203931,
+  "registered": 350856,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 46.6,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.25,
+    46.6,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1979-11-06",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 1979,
+  "final": 204869,
+  "registered": 372061,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 93.9,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.25,
+    93.9,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1980-11-04",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 1980,
+  "final": 268070,
+  "registered": 407982,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 93.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.25,
+    93.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1982-06-08",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 1982,
+  "final": 176381,
+  "registered": 344483,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.88,
+    53.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {

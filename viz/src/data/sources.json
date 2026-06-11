@@ -2976,6 +2976,70 @@
   ]
  },
  {
+  "id": "1982-06-08",
+  "name": "Consolidated Primary Election",
+  "final": 176381,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1982-06-09",
+    "days": 2,
+    "total": 93431,
+    "pct": 53.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1982-06-10 'S.F. VOTE' box, '100% of vote': Democratic governor primary sum 93,431 (Bradley 58,923, Garamendi 25,936 + minor; PCT validates) - party-subset conservative floor; scan tbl_19820608_issue19820610_p7.png"
+   }
+  ]
+ },
+ {
+  "id": "1980-11-04",
+  "name": "Consolidated General Election",
+  "final": 268070,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1980-11-05",
+    "days": 1,
+    "total": 249291,
+    "pct": 93.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1980-11-05 'S.F. VOTE' box, 100% precincts: presidential sum 249,291 (Carter 131,103, Reagan 78,962, Anderson 28,880, Commoner 5,098, Clark 4,019 + minor; PCT validates) - conservative night floor; scan tbl_19801104_issue19801105_p4.png"
+   }
+  ]
+ },
+ {
+  "id": "1979-11-06",
+  "name": "Consolidated Municipal Election",
+  "final": 204869,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1979-11-07",
+    "days": 1,
+    "total": 192462,
+    "pct": 93.9,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1979-11-07/08 'COMPLETE S.F. VOTE' box, 100% precincts: mayor sum 192,462 (Feinstein 81,115, Kopp 77,784, Scott 18,506, Biafra 6,591 + minor; PCT column validates) - conservative night floor; scan tbl_19791106_issue19791108_p3.png"
+   }
+  ]
+ },
+ {
+  "id": "1978-06-06",
+  "name": "Consolidated Primary Election",
+  "final": 203931,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1978-06-07",
+    "days": 1,
+    "total": 95129,
+    "pct": 46.6,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1978-06-07 'S.F. VOTE', PARTIAL 81.3% of 912 precincts: Democratic governor primary sum 95,129 (Brown 80,761 + others) - party-subset mid-night partial floor; scan tbl_19780606_issue19780607_p5.png"
+   }
+  ]
+ },
+ {
   "id": "1976-11-02",
   "name": "Consolidated General Election",
   "final": 252932,
@@ -2988,6 +3052,38 @@
     "pct": 59.1,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1976-11-03 p3 'S.F. Results' box, MID-NIGHT PARTIAL 545 of 935 precincts: Carter 77,452 + Ford 63,186 + others 8,823 = 149,461 - partial night observation, true night-end higher; scan ...19761102_issue19761103_p3.png"
+   }
+  ]
+ },
+ {
+  "id": "1974-06-04",
+  "name": "Consolidated Primary Election",
+  "final": 198508,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1974-06-05",
+    "days": 1,
+    "total": 89229,
+    "pct": 44.9,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1974-06-05 'SF Vote Tally', PARTIAL 815 of 1,356 precincts: Prop A (Elective BART Board) 55,698 yes / 33,531 no = 89,229 - mid-night partial floor; scan tbl_19740604_issue19740605_p1.png"
+   }
+  ]
+ },
+ {
+  "id": "1973-11-06",
+  "name": "Consolidated Municipal Election",
+  "final": 202237,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1973-11-07",
+    "days": 1,
+    "total": 117066,
+    "pct": 57.9,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1973-11-07 'SF Vote Tally', COMPLETE 1,000/1,000 precincts: supervisors race, Feinstein 117,066 - single-candidate floor (each ballot votes a candidate at most once); scan tbl_19731106_issue19731107_p3.png"
    }
   ]
  },
