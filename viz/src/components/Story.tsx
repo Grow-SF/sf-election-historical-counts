@@ -72,14 +72,15 @@ function Footer() {
           <div>
             <p>
               2015–present: every per-release summary report published by the
-              SF Department of Elections (243 releases across 18 elections),
+              SF Department of Elections (241 releases across 18 elections),
               parsed from the Department’s own XML and TSV files and validated
-              against certified totals. 1995–2014: mid-canvass observations
+              against certified totals. 1986–2014: 69 mid-canvass observations
               recovered from Wayback Machine captures of four generations of
               city results pages, frozen Lotus Domino canvass views, Elections
-              Commission minutes, and Chronicle count reporting, with
-              certified finals from the Department’s own turnout history and
-              the California Secretary of State.
+              Commission minutes, and Chronicle count reporting (via the
+              paper’s NewsBank archive), with certified finals from the
+              Department’s own turnout history and the California Secretary
+              of State.
             </p>
           </div>
           <div>
@@ -87,10 +88,12 @@ function Footer() {
               Archival values are marked throughout: hollow points, dashed
               lines, and “≤” bounds mean the truth is at or before the shown
               value — a crawler’s snapshot, not a release schedule. Counts for
-              elections within ~32 days are provisional. Pre-1995 elections
-              are anchored by their in-person floors and certified totals; a
-              newspaper-archive recovery for 1960–1994 and a records request
-              with the Department are both in progress.
+              elections within ~32 days are provisional. “News-derived”
+              points are conservative floors: the certified total minus the
+              ballots a registrar told a reporter were still uncounted.
+              Elections before 1986 are anchored by their in-person floors
+              and certified totals; the newspaper recovery for 1960–1985 and
+              a records request with the Department are both in progress.
             </p>
           </div>
         </div>
