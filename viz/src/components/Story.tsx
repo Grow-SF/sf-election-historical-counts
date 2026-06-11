@@ -129,14 +129,15 @@ export default function Story() {
             <em>election-night leader lost</em>: the 2018 mayor’s race and a
             2020 supervisor seat, both decided by ballots counted days later.
             That is what losing election-night knowledge means in practice.
-            Specials and recalls are small and noisy —{" "}
+            Small specials are noisy —{" "}
             <button
-              onClick={() => update({ kinds: new Set(["General"]) })}
+              onClick={() => update({ kinds: new Set(["General", "Municipal", "Primary"]) })}
               className="border-b border-rust font-semibold text-rust hover:bg-rust/10"
             >
-              show generals only
+              show the regular elections
             </button>{" "}
-            to see the trend cleanly.
+            to see the trend cleanly (the 1980s–90s record lives in the
+            mayoral races, so keep municipals on).
           </p>
         }
       >
