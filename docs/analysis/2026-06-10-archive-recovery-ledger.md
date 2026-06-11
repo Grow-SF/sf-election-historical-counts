@@ -211,6 +211,26 @@ values live in: (a) the Image collection page scans incl. the printed
 graphic tables - 1865-2017, needs scan access/OCR; (b) the DOE records
 request. Today's final state: 63 elections, 87 archival observations.
 
+## Image-scan OCR attempt: blocked by broken proxy backend (2026-06-11)
+
+The pre-1985 page-scan route was tested end to end. Findings:
+- The NewsBank image viewer (OpenSeadragon over DZI tiles of bitonal
+  TIFF G4 scans - ideal OCR material) loads through SFPL ezproxy, but
+  its tile server URL rewrites to aws-maxdac.int.newsbank.com, an
+  INTERNAL hostname the proxy cannot resolve: "Unable to locate
+  address". The viewer canvas renders blank for any SFPL remote user -
+  this is a NewsBank/SFPL proxy configuration bug, not a licensing
+  limit. Page thumbnails (public maximus cache, 200px) work but are
+  too small to OCR. Download PDF is inert (same backend). The
+  Chronicle-subscription side walls image docs entirely.
+- RECOURSE: (a) report the broken remote image viewer to SFPL
+  eResources support - it is broken for everyone; (b) in-library
+  terminals are on NewsBank's network path and likely render scans -
+  mirror/newsbank/master_inventory.csv's 165 image citations (exact
+  issue dates + page numbers, 1960-1984) are a ready-made library
+  session worklist; (c) the DOE records request supersedes all of it
+  if fulfilled.
+
 ## Open threads
 
 1. **CNN 2000 night estimate** (~83% of contest votes) — needs a design
