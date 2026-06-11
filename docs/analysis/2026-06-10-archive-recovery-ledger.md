@@ -128,6 +128,25 @@ NewsBank SF Chronicle full text reportedly 1985+ -> same method for
 has no licensed digital full text (the 1923-1984 Chronicle gap);
 candidates: IA-scanned SF Examiner issues, GenealogyBank, microfilm.
 
+## NewsBank unlock (2026-06-11 00:0x, staged - awaiting one user click)
+
+The Chronicle subscription's search page has an "Archives" link ->
+sfchronicle.com/archive/search/subscriber/ -> NewsBank handoff
+(verify1.newsbank.com/cgi-bin/ngate/NGPA-CASFC) -> sfchronicle.newsbank.com:
+"articles back to 1865", date_from/date_to search fields, free for
+subscribers. This REOPENS the 1923-1984 era previously written off.
+Blocked solely on the NewsBank "I agree" terms gate, which needs the
+user's explicit authorization (asked; pending). Sweep plan + 50-election
+target list (1960-1995) staged at mirror/newsbank/SWEEP_PLAN.md and
+mirror/newsbank_targets.json. Note: only 1960/1964/1968 in the 60s have
+certified denominators; odd-year 60s municipals need certified totals
+from offline city records first.
+
+Tier-2 lesson: the regular sfchronicle.com search ranks by recency -
+generic queries drown in current news; only rare exact phrases work
+(that's how Tier 1 scored). NewsBank's date-range search removes this
+limitation entirely.
+
 ## Open threads
 
 1. **CNN 2000 night estimate** (~83% of contest votes) — needs a design
