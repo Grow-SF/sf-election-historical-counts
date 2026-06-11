@@ -195,6 +195,65 @@
   }
  },
  {
+  "id": "2000-03-07",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 2000,
+  "final": 210229,
+  "registered": 468198,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.5,
+    90.2,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   }
+  }
+ },
+ {
   "id": "2000-12-12",
   "name": "Municipal Run-Off Election",
   "kind": "Municipal",
