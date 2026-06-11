@@ -103,6 +103,31 @@ Final Chronicle yield stands: 1998-11, 1999-11, 1999-12, 2000-03 points
 + the 2001-11 cross-validation. Artifacts: title_queue.tsv (auditable
 headline selections), index_*/titled_* in mirror/chronicle-sfgate/.
 
+## Chronicle SUBSCRIPTION recovery (2026-06-10 night, ongoing)
+
+User's sfchronicle.com login + debug-port Chrome (puppeteer-core on
+127.0.0.1:9222, throwaway profile /tmp/chrome-chronicle). The Hearst
+archive search reaches 1995 (verified: finds both known 1998 and 1995
+headlines wayback had). Method: phrase queries on the /search/ page ->
+result dates parsed client-side -> logged-in article fetches saved to
+mirror/chronicle-sfgate/sub_*.txt (text + provenance header).
+
+Commit `38a2208`: 1995-11-07 NEW (95.4% d3), 1999-12-14 d7 tail,
+2002-03-05 first early point (86.4% d3), 2002-11-05 d3, 2007-11-06
+first early point (77.5% d3). 45 elections.
+
+Tier 2 in flight: systematic per-election queries for 1995-12, 1996-03,
+1996-11, 1997-06 (49ers stadium squeaker - new election candidate),
+1997-11, 1998-06, 2000-11, 2003-10/11/12, 2006-11, 2008-04/06, 2009-05.
+Queue + articles persist in mirror/chronicle-sfgate/ (tier2_queue.json,
+sub2_*.txt) - scan offline with the usual regex if session dies.
+
+Tier 3 (needs user): SFPL eResources login in the same debug Chrome ->
+NewsBank SF Chronicle full text reportedly 1985+ -> same method for
+1985-1994 (8 elections incl. 1987 Agnos, 1991 Jordan runoff). Pre-1985
+has no licensed digital full text (the 1923-1984 Chronicle gap);
+candidates: IA-scanned SF Examiner issues, GenealogyBank, microfilm.
+
 ## Open threads
 
 1. **CNN 2000 night estimate** (~83% of contest votes) — needs a design
