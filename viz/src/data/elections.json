@@ -195,6 +195,77 @@
   }
  },
  {
+  "id": "2000-12-12",
+  "name": "Municipal Run-Off Election",
+  "kind": "Municipal",
+  "year": 2000,
+  "final": 129629,
+  "registered": 398234,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": 37.0,
+  "pts": [
+   [
+    2.85,
+    100.0,
+    37.0,
+    63.0
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 3,
+    "bound": true
+   },
+   "55": {
+    "days": 3,
+    "bound": true
+   },
+   "60": {
+    "days": 3,
+    "bound": true
+   },
+   "65": {
+    "days": 3,
+    "bound": true
+   },
+   "70": {
+    "days": 3,
+    "bound": true
+   },
+   "75": {
+    "days": 3,
+    "bound": true
+   },
+   "80": {
+    "days": 3,
+    "bound": true
+   },
+   "85": {
+    "days": 3,
+    "bound": true
+   },
+   "90": {
+    "days": 3,
+    "bound": true
+   },
+   "95": {
+    "days": 3,
+    "bound": true
+   },
+   "98": {
+    "days": 3,
+    "bound": true
+   },
+   "99": {
+    "days": 3,
+    "bound": true
+   }
+  }
+ },
+ {
   "id": "2001-11-06",
   "name": "Consolidated Municipal Election",
   "kind": "Municipal",
@@ -440,10 +511,16 @@
   "registered": 449508,
   "source": "archival",
   "provisional": false,
-  "nReports": 2,
+  "nReports": 4,
   "nightPct": null,
   "vbmShare": null,
   "pts": [
+   [
+    6.81,
+    99.1,
+    null,
+    null
+   ],
    [
     8.84,
     99.8,
@@ -455,55 +532,132 @@
     100.0,
     null,
     null
+   ],
+   [
+    27.81,
+    100.0,
+    null,
+    null
    ]
   ],
   "thresholds": {
    "50": {
-    "days": 9,
+    "days": 7,
     "bound": true
    },
    "55": {
-    "days": 9,
+    "days": 7,
     "bound": true
    },
    "60": {
-    "days": 9,
+    "days": 7,
     "bound": true
    },
    "65": {
-    "days": 9,
+    "days": 7,
     "bound": true
    },
    "70": {
-    "days": 9,
+    "days": 7,
     "bound": true
    },
    "75": {
-    "days": 9,
+    "days": 7,
     "bound": true
    },
    "80": {
-    "days": 9,
+    "days": 7,
     "bound": true
    },
    "85": {
-    "days": 9,
+    "days": 7,
     "bound": true
    },
    "90": {
-    "days": 9,
+    "days": 7,
     "bound": true
    },
    "95": {
-    "days": 9,
+    "days": 7,
     "bound": true
    },
    "98": {
-    "days": 9,
+    "days": 7,
     "bound": true
    },
    "99": {
-    "days": 9,
+    "days": 7,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2002-12-10",
+  "name": "Municipal Run-Off Election",
+  "kind": "Municipal",
+  "year": 2002,
+  "final": 35897,
+  "registered": 93537,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    5.77,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 6,
+    "bound": true
+   },
+   "55": {
+    "days": 6,
+    "bound": true
+   },
+   "60": {
+    "days": 6,
+    "bound": true
+   },
+   "65": {
+    "days": 6,
+    "bound": true
+   },
+   "70": {
+    "days": 6,
+    "bound": true
+   },
+   "75": {
+    "days": 6,
+    "bound": true
+   },
+   "80": {
+    "days": 6,
+    "bound": true
+   },
+   "85": {
+    "days": 6,
+    "bound": true
+   },
+   "90": {
+    "days": 6,
+    "bound": true
+   },
+   "95": {
+    "days": 6,
+    "bound": true
+   },
+   "98": {
+    "days": 6,
+    "bound": true
+   },
+   "99": {
+    "days": 6,
     "bound": true
    }
   }
