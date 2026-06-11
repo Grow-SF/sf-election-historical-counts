@@ -1,5 +1,76 @@
 [
  {
+  "id": "1998-11-03",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 1998,
+  "final": 250719,
+  "registered": 448888,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    16.76,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 17,
+    "bound": true
+   },
+   "55": {
+    "days": 17,
+    "bound": true
+   },
+   "60": {
+    "days": 17,
+    "bound": true
+   },
+   "65": {
+    "days": 17,
+    "bound": true
+   },
+   "70": {
+    "days": 17,
+    "bound": true
+   },
+   "75": {
+    "days": 17,
+    "bound": true
+   },
+   "80": {
+    "days": 17,
+    "bound": true
+   },
+   "85": {
+    "days": 17,
+    "bound": true
+   },
+   "90": {
+    "days": 17,
+    "bound": true
+   },
+   "95": {
+    "days": 17,
+    "bound": true
+   },
+   "98": {
+    "days": 17,
+    "bound": true
+   },
+   "99": {
+    "days": 17,
+    "bound": true
+   }
+  }
+ },
+ {
   "id": "2001-11-06",
   "name": "Consolidated Municipal Election",
   "kind": "Municipal",
