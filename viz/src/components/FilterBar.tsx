@@ -88,15 +88,6 @@ export default function FilterBar({
           </select>
         </label>
 
-        <label className="smallcaps flex cursor-pointer items-center gap-1.5 text-faint">
-          <input
-            type="checkbox"
-            checked={state.archival}
-            onChange={(e) => update({ archival: e.target.checked })}
-            className="accent-rust"
-          />
-          recovered history (1960–2014)
-        </label>
 
         <a
           href="/sources"

@@ -50,7 +50,6 @@ export type Filters = {
   kinds: Set<string>;
   from: number;
   to: number;
-  archival: boolean;
 };
 
 export function filterElections(f: Filters): Election[] {
@@ -58,8 +57,7 @@ export function filterElections(f: Filters): Election[] {
     (e) =>
       f.kinds.has(e.kind) &&
       e.year >= f.from &&
-      e.year <= f.to &&
-      (f.archival || e.source === "exact"),
+      e.year <= f.to,
   );
 }
 

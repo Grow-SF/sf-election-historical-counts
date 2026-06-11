@@ -11,7 +11,6 @@ export const DEFAULT_STATE: UrlState = {
   kinds: new Set(KINDS),
   from: YEAR_MIN,
   to: YEAR_MAX,
-  archival: true,
   threshold: 80,
   selected: null,
 };
@@ -30,7 +29,6 @@ function parse(params: URLSearchParams): UrlState {
   if (from >= YEAR_MIN && from <= YEAR_MAX) s.from = from;
   const to = Number(params.get("to"));
   if (to >= YEAR_MIN && to <= YEAR_MAX) s.to = to;
-  if (params.get("arch") === "0") s.archival = false;
   const t = Number(params.get("t"));
   if (THRESHOLDS.includes(t)) s.threshold = t;
   const sel = params.get("sel");
@@ -44,7 +42,6 @@ function serialize(s: UrlState): string {
   if (s.kinds.size !== KINDS.length) p.set("kinds", [...s.kinds].join(","));
   if (s.from !== YEAR_MIN) p.set("from", String(s.from));
   if (s.to !== YEAR_MAX) p.set("to", String(s.to));
-  if (!s.archival) p.set("arch", "0");
   if (s.threshold !== DEFAULT_STATE.threshold) p.set("t", String(s.threshold));
   if (s.selected) p.set("sel", s.selected);
   const q = p.toString();
