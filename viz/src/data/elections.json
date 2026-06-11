@@ -385,6 +385,77 @@
   }
  },
  {
+  "id": "2004-03-02",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 2004,
+  "final": 190828,
+  "registered": 448948,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    22.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 23,
+    "bound": true
+   },
+   "55": {
+    "days": 23,
+    "bound": true
+   },
+   "60": {
+    "days": 23,
+    "bound": true
+   },
+   "65": {
+    "days": 23,
+    "bound": true
+   },
+   "70": {
+    "days": 23,
+    "bound": true
+   },
+   "75": {
+    "days": 23,
+    "bound": true
+   },
+   "80": {
+    "days": 23,
+    "bound": true
+   },
+   "85": {
+    "days": 23,
+    "bound": true
+   },
+   "90": {
+    "days": 23,
+    "bound": true
+   },
+   "95": {
+    "days": 23,
+    "bound": true
+   },
+   "98": {
+    "days": 23,
+    "bound": true
+   },
+   "99": {
+    "days": 23,
+    "bound": true
+   }
+  }
+ },
+ {
   "id": "2004-11-02",
   "name": "Consolidated General Election",
   "kind": "General",
@@ -563,6 +634,148 @@
   }
  },
  {
+  "id": "2006-06-06",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 2006,
+  "final": 156272,
+  "registered": 421094,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    26.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 27,
+    "bound": true
+   },
+   "55": {
+    "days": 27,
+    "bound": true
+   },
+   "60": {
+    "days": 27,
+    "bound": true
+   },
+   "65": {
+    "days": 27,
+    "bound": true
+   },
+   "70": {
+    "days": 27,
+    "bound": true
+   },
+   "75": {
+    "days": 27,
+    "bound": true
+   },
+   "80": {
+    "days": 27,
+    "bound": true
+   },
+   "85": {
+    "days": 27,
+    "bound": true
+   },
+   "90": {
+    "days": 27,
+    "bound": true
+   },
+   "95": {
+    "days": 27,
+    "bound": true
+   },
+   "98": {
+    "days": 27,
+    "bound": true
+   },
+   "99": {
+    "days": 27,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2007-11-06",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 2007,
+  "final": 149465,
+  "registered": 419598,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    34.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 35,
+    "bound": true
+   },
+   "55": {
+    "days": 35,
+    "bound": true
+   },
+   "60": {
+    "days": 35,
+    "bound": true
+   },
+   "65": {
+    "days": 35,
+    "bound": true
+   },
+   "70": {
+    "days": 35,
+    "bound": true
+   },
+   "75": {
+    "days": 35,
+    "bound": true
+   },
+   "80": {
+    "days": 35,
+    "bound": true
+   },
+   "85": {
+    "days": 35,
+    "bound": true
+   },
+   "90": {
+    "days": 35,
+    "bound": true
+   },
+   "95": {
+    "days": 35,
+    "bound": true
+   },
+   "98": {
+    "days": 35,
+    "bound": true
+   },
+   "99": {
+    "days": 35,
+    "bound": true
+   }
+  }
+ },
+ {
   "id": "2008-02-05",
   "name": "Consolidated Presidential Primary",
   "kind": "Primary",
@@ -609,6 +822,77 @@
    },
    "80": {
     "days": 6,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "2008-11-04",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 2008,
+  "final": 388112,
+  "registered": 477651,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    27.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 28,
+    "bound": true
+   },
+   "55": {
+    "days": 28,
+    "bound": true
+   },
+   "60": {
+    "days": 28,
+    "bound": true
+   },
+   "65": {
+    "days": 28,
+    "bound": true
+   },
+   "70": {
+    "days": 28,
+    "bound": true
+   },
+   "75": {
+    "days": 28,
+    "bound": true
+   },
+   "80": {
+    "days": 28,
+    "bound": true
+   },
+   "85": {
+    "days": 28,
+    "bound": true
+   },
+   "90": {
+    "days": 28,
+    "bound": true
+   },
+   "95": {
+    "days": 28,
+    "bound": true
+   },
+   "98": {
+    "days": 28,
+    "bound": true
+   },
+   "99": {
+    "days": 28,
     "bound": true
    }
   }

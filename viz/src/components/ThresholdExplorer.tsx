@@ -188,8 +188,8 @@ export default function ThresholdExplorer({
             <YAxis
               type="number"
               dataKey="y"
-              domain={[0, 30]}
-              ticks={[0, 5, 10, 15, 20, 25, 30]}
+              domain={[0, 36]}
+              ticks={[0, 5, 10, 15, 20, 25, 30, 35]}
               tick={{ fontFamily: "var(--font-mono)", fontSize: 11, fill: "var(--color-faint)" }}
               stroke="var(--color-faint)"
               tickLine={false}

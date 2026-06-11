@@ -1,0 +1,390 @@
+#!/usr/bin/env python3
+"""
+Produce the final deliverable CSV of SF ballot-count statements.
+Filters for SF-city-specific content only; excludes other-county results tables.
+"""
+
+# Hand-curated findings from article scan, verified against article text.
+# All are San Francisco city/county unless noted.
+
+HEADER = "election_date,article_date,statement_type,numbers,exact_quote,article_title,wayback_url"
+
+FINDINGS = [
+    # ── 1995-11-07 ──────────────────────────────────────────────────────────
+    {
+        "election_date": "1995-11-07",
+        "article_date": "1995-11-08",
+        "statement_type": "night_count",
+        "numbers": "~50% (qualitative)",
+        "exact_quote": "In the district attorney's race, Hallinan was slightly ahead of Fazio with about half the votes counted.",
+        "article_title": "SAN FRANCISCO/Hallinan, Fazio Leading DA Race/Sheriff Hennessey also ahead",
+        "wayback_url": "https://web.archive.org/web/19970606095022id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1995/11/08/MN68269.DTL",
+        "geography": "San Francisco",
+    },
+    {
+        "election_date": "1995-11-07",
+        "article_date": "1995-12-13",
+        "statement_type": "certification",
+        "numbers": "Nov 7",
+        "exact_quote": "A power surge knocked out computers during the November 7 general election, and the tally was held up for hours.",
+        "article_title": "Storm Is Only Cloud In S.F. Vote/Registrar avoids November gaffes",
+        "wayback_url": "http://web.archive.org/web/20001202232200id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1995/12/13/MN1484.DTL",
+        "geography": "San Francisco",
+    },
+    # ── 1995-12-12 (runoff) ─────────────────────────────────────────────────
+    # No articles found for Dec 13-15 about runoff ballot counts specifically
+    # (Dec 13 coverage was dominated by the Pacific storm)
+    {
+        "election_date": "1995-12-12",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (23 articles fetched from 1995-12-13 to 1995-12-15), storm dominated coverage, no SF ballot-count numbers found",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    # ── 1996-03-26 ──────────────────────────────────────────────────────────
+    {
+        "election_date": "1996-03-26",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (9 articles fetched from 1996-03-27 to 1996-03-29), no SF ballot-count sentences found",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    # ── 1996-11-05 ──────────────────────────────────────────────────────────
+    {
+        "election_date": "1996-11-05",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (0 articles retrieved - all fetches failed), nothing",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    # ── 1997-11-04 ──────────────────────────────────────────────────────────
+    {
+        "election_date": "1997-11-04",
+        "article_date": "1997-11-06",
+        "statement_type": "night_count",
+        "numbers": "37; 37; 4,608",
+        "exact_quote": "San Francisco City Clerk 37 of 37 precincts reporting (w)Barbara Battaya(i) 4,608 .",
+        "article_title": "FINAL COUNTY-BY-COUNTY ELECTION RESULTS/SAN MATEO COUNTY",
+        "wayback_url": "https://web.archive.org/web/20001119153200id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1997/11/06/MN52303.DTL",
+        "geography": "San Francisco (in San Mateo County results table — note: these are San Francisco city results within a multi-county table)",
+    },
+    {
+        "election_date": "1997-11-04",
+        "article_date": "1997-11-06",
+        "statement_type": "night_count",
+        "numbers": "37; 37; 4,631",
+        "exact_quote": "San Francisco City Treasurer 37 of 37 precincts reporting (w)Beverly Ford(i) 4,631 .",
+        "article_title": "FINAL COUNTY-BY-COUNTY ELECTION RESULTS/SAN MATEO COUNTY",
+        "wayback_url": "https://web.archive.org/web/20001119153200id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1997/11/06/MN52303.DTL",
+        "geography": "San Francisco city (in multi-county table)",
+    },
+    {
+        "election_date": "1997-11-04",
+        "article_date": "1997-11-06",
+        "statement_type": "night_count",
+        "numbers": "3; 37; 37; 3,889; 3,437; 2,915; 2,205; 1,229",
+        "exact_quote": "San Francisco City Council (Elect 3) 37 of 37 precincts reporting (w)James Datzman(i) 3,889 (w)Karyl Matsumoto 3,437 (w)John Penna(i) 2,915 Pedro Gonzalez 2,205 Collin Post 1,229 .",
+        "article_title": "FINAL COUNTY-BY-COUNTY ELECTION RESULTS/SAN MATEO COUNTY",
+        "wayback_url": "https://web.archive.org/web/20001119153200id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1997/11/06/MN52303.DTL",
+        "geography": "San Francisco city (in multi-county table — note: SF city is separate from SF County in this table; 37 precincts = a sub-jurisdiction)",
+    },
+    # ── 1997-12-09 ──────────────────────────────────────────────────────────
+    {
+        "election_date": "1997-12-09",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (11 articles fetched from 1997-12-12), articles are tech/business/movies not election coverage, nothing found",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    # ── 1998-06-02 ──────────────────────────────────────────────────────────
+    {
+        "election_date": "1998-06-02",
+        "article_date": "1998-06-03",
+        "statement_type": "other",
+        "numbers": "570; 615",
+        "exact_quote": "Inside the sack were 570 ballots and a list that said there were 615 voters in the precinct.",
+        "article_title": "When Civic Duty Calls/A guy survives a day as Inspector of Voters",
+        "wayback_url": "https://web.archive.org/web/20000127045527id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1998/06/03/MN100660.DTL",
+        "geography": "San Francisco (precinct poll worker first-person account)",
+    },
+    # ── 1998-11-03 ──────────────────────────────────────────────────────────
+    {
+        "election_date": "1998-11-03",
+        "article_date": "1998-11-06",
+        "statement_type": "remaining",
+        "numbers": "65,000; 35,000; 8,000",
+        "exact_quote": "Stung by the mayor's tongue-lashing for what he viewed as a tardy count of 65,000 absentee ballots, San Francisco's election officials nearly tripled their staff yesterday to count enough votes to resolve the remaining races. About 50 employees from the city administrator's office helped 30 election clerks verify, sort and count 35,000 ballots... About 8,000 provisional and absentee ballots remain uncounted because of questions over authenticity.",
+        "article_title": "Ballot Jam Broken -- Most Votes Are Tallied/Volunteers pitched in to resolve outcomes",
+        "wayback_url": "https://web.archive.org/web/19990911230303id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1998/11/06/MN103975.DTL",
+        "geography": "San Francisco",
+    },
+    {
+        "election_date": "1998-11-03",
+        "article_date": "1998-11-06",
+        "statement_type": "other",
+        "numbers": "15,000; 50,000",
+        "exact_quote": "Fifteen thousand ballots were collected at the precincts, and 50,000 were mailed in. As a result, the staff was trying to do a job that usually takes seven days in one night.",
+        "article_title": "Ballot Jam Broken -- Most Votes Are Tallied/Volunteers pitched in to resolve outcomes",
+        "wayback_url": "https://web.archive.org/web/19990911230303id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1998/11/06/MN103975.DTL",
+        "geography": "San Francisco",
+    },
+    # ── 1999-11-02 ──────────────────────────────────────────────────────────
+    {
+        "election_date": "1999-11-02",
+        "article_date": "1999-11-05",
+        "statement_type": "night_count",
+        "numbers": "646; 67,912; 38.7%; 44,539; 25.4%; 29,987; 17.1%; 21,867; 12.5%",
+        "exact_quote": "FINAL RESULTS All 646 precincts reporting: Willie Brown 67,912 votes 38.7% Tom Ammiano 44,539 votes 25.4% Frank Jordan 29,987 votes 17.1% Clint Reilly 21,867 votes 12.5%",
+        "article_title": "Ammiano vs. Brown/Write-in votes catapult supervisor into S.F. runoff",
+        "wayback_url": "https://web.archive.org/web/20001210003900id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/11/05/MN82008.DTL",
+        "geography": "San Francisco",
+    },
+    {
+        "election_date": "1999-11-02",
+        "article_date": "1999-11-05",
+        "statement_type": "remaining",
+        "numbers": "19,000",
+        "exact_quote": "Her exhausted staff, supplemented by volunteers from several city departments, still has 19,000 absentee and provisional ballots to count today.",
+        "article_title": "Ammiano vs. Brown/Write-in votes catapult supervisor into S.F. runoff",
+        "wayback_url": "https://web.archive.org/web/20001210003900id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/11/05/MN82008.DTL",
+        "geography": "San Francisco",
+    },
+    {
+        "election_date": "1999-11-02",
+        "article_date": "1999-11-05",
+        "statement_type": "other",
+        "numbers": "40 hours; 25.4%; 17.1%",
+        "exact_quote": "In a dramatic late-afternoon announcement more than 40 hours after the polls closed, the Department of Elections said Ammiano's unprecedented write-in campaign had jumped to 25.4 percent of the vote, compared with former Mayor Frank Jordan's 17.1 percent.",
+        "article_title": "Ammiano vs. Brown/Write-in votes catapult supervisor into S.F. runoff",
+        "wayback_url": "https://web.archive.org/web/20001210003900id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/11/05/MN82008.DTL",
+        "geography": "San Francisco (write-in counting delay note: 40+ hours to announce write-in tallies)",
+    },
+    {
+        "election_date": "1999-11-02",
+        "article_date": "1999-11-05",
+        "statement_type": "night_count",
+        "numbers": "43%",
+        "exact_quote": "It appears that when all the votes are counted the turnout will be about 43 percent, one of the lowest anyone could remember for a general mayoral election.",
+        "article_title": "Ammiano vs. Brown/Write-in votes catapult supervisor into S.F. runoff",
+        "wayback_url": "https://web.archive.org/web/20001210003900id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/11/05/MN82008.DTL",
+        "geography": "San Francisco",
+    },
+    # ── 1999-12-14 (runoff) ─────────────────────────────────────────────────
+    {
+        "election_date": "1999-12-14",
+        "article_date": "1999-12-15",
+        "statement_type": "night_count",
+        "numbers": "50%; 467,000; 44.9%",
+        "exact_quote": "Indications from the Department of Elections were that yesterday's voter turnout could top 50 percent of the city's 467,000 registered voters. That would be a substantial increase from the 44.9 percent who voted in the general election November 2.",
+        "article_title": "Brown in a Landslide/S.F. rejects Ammiano, hands mayor second term",
+        "wayback_url": "https://web.archive.org/web/20000229214952id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/12/15/MN54059.DTL",
+        "geography": "San Francisco",
+    },
+    {
+        "election_date": "1999-12-14",
+        "article_date": "1999-12-15",
+        "statement_type": "remaining",
+        "numbers": "60,000; 52,227",
+        "exact_quote": "The absentee votes alone, totaling more than 60,000, dwarfed the 52,227 that were cast in November.",
+        "article_title": "Brown in a Landslide/S.F. rejects Ammiano, hands mayor second term",
+        "wayback_url": "https://web.archive.org/web/20000229214952id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/12/15/MN54059.DTL",
+        "geography": "San Francisco (absentee ballots in Dec runoff vs Nov general)",
+    },
+    {
+        "election_date": "1999-12-14",
+        "article_date": "1999-12-15",
+        "statement_type": "remaining",
+        "numbers": "provisional; challenged",
+        "exact_quote": "The outcome of the election [DA race] probably will hinge on provisional and challenged ballots that might not be counted before tomorrow.",
+        "article_title": "D.A. Race Goes Down To the Wire/Incumbent Hallinan, Fazio neck and neck",
+        "wayback_url": "https://web.archive.org/web/20030922004742id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/12/15/MN33046.DTL",
+        "geography": "San Francisco",
+    },
+    {
+        "election_date": "1999-12-14",
+        "article_date": "1999-12-16",
+        "statement_type": "remaining",
+        "numbers": "562; 13,000; 9,000; 4,000",
+        "exact_quote": "Incumbent Terence Hallinan's lead over Bill Fazio widened slightly, to 562 votes, in the count announced at 4 p.m. Thursday. Nearly 13,000 ballots remain to be counted. ... About 13,000 provisional and absentee ballots remain to be counted. PROVISIONAL BALLOTS An estimated 9,000 provisional ballots are still uncounted. ABSENTEE BALLOTS An estimated 4,000 absentee ballots ... are still uncounted.",
+        "article_title": "D.A. Vote Count Hits Snag / Officials say it could take 2 weeks to verify 13,000 ballots",
+        "wayback_url": "https://web.archive.org/web/20030922004742id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/12/16/MN95634.DTL",
+        "geography": "San Francisco",
+    },
+    {
+        "election_date": "1999-12-14",
+        "article_date": "1999-12-16",
+        "statement_type": "certification",
+        "numbers": "2 weeks",
+        "exact_quote": "``Generally, it takes two weeks'' to count the ballots. ``But we are working 24 hours a day, so we hope it will be a little faster than usual.'' Nishioka also said elections officials hope to complete the count by the end of the year.",
+        "article_title": "D.A. Vote Count Hits Snag / Officials say it could take 2 weeks to verify 13,000 ballots",
+        "wayback_url": "https://web.archive.org/web/20030922004742id_/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/12/16/MN95634.DTL",
+        "geography": "San Francisco",
+    },
+    # ── 2000-2007: not fetched (network failures) ───────────────────────────
+    {
+        "election_date": "2000-03-07",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (0 articles retrieved - all fetches failed), nothing",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    {
+        "election_date": "2000-11-07",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (0 articles retrieved - all fetches failed), nothing",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    {
+        "election_date": "2000-12-12",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (0 articles retrieved - all fetches failed), nothing",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    {
+        "election_date": "2001-11-06",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (0 articles retrieved - all fetches failed), nothing",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    {
+        "election_date": "2001-12-11",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (0 articles retrieved - all fetches failed), nothing",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    {
+        "election_date": "2002-03-05",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (0 articles retrieved - all fetches failed), nothing",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    {
+        "election_date": "2002-11-05",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (0 articles retrieved - all fetches failed), nothing",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    {
+        "election_date": "2002-12-10",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (0 articles retrieved - all fetches failed), nothing",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    {
+        "election_date": "2003-10-07",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (0 articles retrieved - all fetches failed), nothing",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    {
+        "election_date": "2003-11-04",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (0 articles retrieved - all fetches failed), nothing",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    {
+        "election_date": "2003-12-09",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (0 articles retrieved - all fetches failed), nothing",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    {
+        "election_date": "2005-11-08",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (0 articles retrieved - all fetches failed), nothing",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+    {
+        "election_date": "2007-11-06",
+        "article_date": "",
+        "statement_type": "none",
+        "numbers": "",
+        "exact_quote": "swept E+1..E+3 (0 articles retrieved - all fetches failed), nothing",
+        "article_title": "",
+        "wayback_url": "",
+        "geography": "",
+    },
+]
+
+
+def csv_esc(s):
+    s = str(s or '').replace('"', '""').replace('\n', ' ').replace('\r', ' ').strip()
+    return f'"{s}"'
+
+
+def main():
+    print("election_date,article_date,statement_type,numbers,exact_quote,article_title,wayback_url")
+    for f in FINDINGS:
+        row = ','.join([
+            csv_esc(f['election_date']),
+            csv_esc(f['article_date']),
+            csv_esc(f['statement_type']),
+            csv_esc(f['numbers']),
+            csv_esc(f['exact_quote']),
+            csv_esc(f['article_title']),
+            csv_esc(f['wayback_url']),
+        ])
+        print(row)
+
+
+if __name__ == '__main__':
+    main()
