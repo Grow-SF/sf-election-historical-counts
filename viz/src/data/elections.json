@@ -279,13 +279,13 @@
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 90.4,
+  "nightPct": 94.1,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.21,
-    90.4,
+    94.1,
     null,
     null
    ]
@@ -2243,7 +2243,7 @@
   "pts": [
    [
     0.88,
-    61.0,
+    61.7,
     null,
     null
    ]
