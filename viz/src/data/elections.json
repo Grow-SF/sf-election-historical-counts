@@ -1,5 +1,161 @@
 [
  {
+  "id": "1960-11-08",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 1960,
+  "final": 348290,
+  "registered": 404613,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 91.4,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.25,
+    91.4,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "1976-11-02",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 1976,
+  "final": 252932,
+  "registered": 345954,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 59.1,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.12,
+    59.1,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": true
+   },
+   "55": {
+    "days": 0,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "1982-11-02",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 1982,
+  "final": 238991,
+  "registered": 377069,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.5,
+    96.7,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   }
+  }
+ },
+ {
   "id": "1983-11-08",
   "name": "Consolidated Municipal Election",
   "kind": "Municipal",

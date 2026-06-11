@@ -133,7 +133,7 @@ def main():
         # (339 of 551 precincts, chad-jammed punch cards) - the true
         # end-of-night share was higher; flag so the chart dims it and
         # keeps it out of the trend fit
-        night_partial = e in {"1995-12-12"}
+        night_partial = e in {"1995-12-12", "1976-11-02"}
         fin = max(rows, key=lambda r: r["total"])
         elections[e] = {
             "id": e,
