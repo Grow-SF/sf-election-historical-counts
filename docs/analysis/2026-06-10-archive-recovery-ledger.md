@@ -5,13 +5,14 @@ transcript access. Everything listed as "committed" is on main.
 
 ## Dataset state (end of session)
 
-43 elections in `viz/src/data/elections.json` (18 exact, 25 archival); 58
+44 elections in `viz/src/data/elections.json` (18 exact, 26 archival); 59
 rows in `data/sf_archival_canvass_points.csv`; 106 night-floor and VBM-share
 points (1964–2026, continuous). Commits today: `15fc513` (floor diamonds in
 threshold chart), `4a00eca` (DOE 1899–2019 turnout table + 2009 points +
 2002-11 final fix), `7679023` (1998 Domino day-17), `cc48c10` (cert dates
 from minutes), `cff288e` (Chronicle-derived 1998–99 points), `e6c395b`
-(Domino census: Dec 2000 + Dec 2002 runoffs).
+(Domino census: Dec 2000 + Dec 2002 runoffs), `f57b058` (March 2000 day-1
+via same-contest ratio).
 
 ## Elections added today (first-ever count data)
 
@@ -89,12 +90,14 @@ reindex artifact; "322 of 644 precincts" label contradicts vote totals).
   by the rate limiter, but both day-after sets are well sampled.
 
 ## Open threads
-2. **CNN 2000 night estimate** (~83% of contest votes) — needs a design
+
+1. **CNN 2000 night estimate** (~83% of contest votes) — needs a design
    decision: "estimated night share" marker type in NightShareChart.
-3. **DOE records request** (user-side) — pipeline ingests directly.
-4. **Mirror CDN upload** (user-side); manifest committed.
-5. Possible: BOS journal declarations (SFPL, offline) for pre-1995 cert
-   dates; ProQuest Chronicle for the 1995-12/1996/1997 night-of holes.
+2. **DOE records request** (user-side) — pipeline ingests directly.
+3. **Mirror CDN upload** (user-side); manifest committed.
+4. Possible: BOS journal declarations (SFPL, offline) for pre-1995 cert
+   dates; ProQuest Chronicle for the 1995-12/1996/1997 night-of holes;
+   the 58 rate-limited 2003 fetches (low expected value).
 
 ## Conventions
 
