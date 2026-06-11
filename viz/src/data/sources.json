@@ -6,12 +6,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2026-06-02",
-    "days": 0,
+    "date": "2026-06-09",
+    "days": 7,
     "total": 259288,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "8 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "8 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 7 days after the election, validated against certified totals"
    }
   ]
  },
@@ -22,12 +22,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2025-11-04",
-    "days": 0,
+    "date": "2025-12-03",
+    "days": 29,
     "total": 295232,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "7 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "7 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 29 days after the election, validated against certified totals"
    }
   ]
  },
@@ -38,12 +38,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2025-09-16",
-    "days": 0,
+    "date": "2025-09-25",
+    "days": 9,
     "total": 21542,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "4 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "4 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 9 days after the election, validated against certified totals"
    }
   ]
  },
@@ -54,12 +54,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2024-11-05",
-    "days": 0,
+    "date": "2024-12-03",
+    "days": 28,
     "total": 412231,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "18 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "18 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 28 days after the election, validated against certified totals"
    }
   ]
  },
@@ -70,12 +70,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2024-03-05",
-    "days": 0,
+    "date": "2024-03-22",
+    "days": 17,
     "total": 233465,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "15 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "15 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 17 days after the election, validated against certified totals"
    }
   ]
  },
@@ -86,12 +86,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2022-11-08",
-    "days": 0,
+    "date": "2022-12-01",
+    "days": 23,
     "total": 310071,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "16 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "16 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 23 days after the election, validated against certified totals"
    }
   ]
  },
@@ -102,12 +102,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2022-06-07",
-    "days": 0,
+    "date": "2022-06-22",
+    "days": 15,
     "total": 229229,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "11 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "11 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 15 days after the election, validated against certified totals"
    }
   ]
  },
@@ -118,12 +118,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2022-04-19",
-    "days": 0,
+    "date": "2022-04-28",
+    "days": 9,
     "total": 78764,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "7 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "7 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 9 days after the election, validated against certified totals"
    }
   ]
  },
@@ -134,12 +134,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2022-02-15",
-    "days": 0,
+    "date": "2022-02-23",
+    "days": 8,
     "total": 179981,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "8 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "8 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 8 days after the election, validated against certified totals"
    }
   ]
  },
@@ -150,12 +150,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2021-09-14",
-    "days": 0,
+    "date": "2021-10-05",
+    "days": 21,
     "total": 341055,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "13 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "13 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 21 days after the election, validated against certified totals"
    }
   ]
  },
@@ -166,12 +166,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2020-11-03",
-    "days": 0,
+    "date": "2020-12-01",
+    "days": 28,
     "total": 449866,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "17 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "17 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 28 days after the election, validated against certified totals"
    }
   ]
  },
@@ -182,12 +182,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2020-03-03",
-    "days": 0,
+    "date": "2020-03-26",
+    "days": 23,
     "total": 305184,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "14 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "14 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 23 days after the election, validated against certified totals"
    }
   ]
  },
@@ -198,12 +198,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2019-11-05",
-    "days": 0,
+    "date": "2019-11-26",
+    "days": 21,
     "total": 206122,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "13 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "13 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 21 days after the election, validated against certified totals"
    }
   ]
  },
@@ -214,12 +214,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2018-11-06",
-    "days": 0,
+    "date": "2018-11-27",
+    "days": 21,
     "total": 372848,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "19 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "19 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 21 days after the election, validated against certified totals"
    }
   ]
  },
@@ -230,12 +230,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2018-06-05",
-    "days": 0,
+    "date": "2018-06-27",
+    "days": 22,
     "total": 253583,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "17 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "17 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 22 days after the election, validated against certified totals"
    }
   ]
  },
@@ -246,12 +246,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2016-11-08",
-    "days": 0,
+    "date": "2016-12-06",
+    "days": 28,
     "total": 414528,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "22 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "22 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 28 days after the election, validated against certified totals"
    }
   ]
  },
@@ -262,12 +262,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2016-06-07",
-    "days": 0,
+    "date": "2016-06-24",
+    "days": 17,
     "total": 264993,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "17 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "17 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 17 days after the election, validated against certified totals"
    }
   ]
  },
@@ -278,12 +278,12 @@
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
-    "date": "2015-11-03",
-    "days": 0,
+    "date": "2015-11-19",
+    "days": 16,
     "total": 203069,
     "pct": 100.0,
     "label": "SF Dept. of Elections per-release reports",
-    "citation": "15 per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"
+    "citation": "15 per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release 16 days after the election, validated against certified totals"
    }
   ]
  },

@@ -70,6 +70,7 @@ def thresholds_for(rows, final, edate, archival: bool):
 
 def main():
     elections = {}
+    modern_src = {}
 
     # ---- modern, exact (2015-present)
     with open(ROOT / "data" / "sf_count_timeline.csv", newline="") as f:
@@ -90,6 +91,13 @@ def main():
         final = max(r["total"] for r in rows)
         fin = max(rows, key=lambda r: r["total"])
         night = night_total(rows, edate)
+        last_dt = max(r["dt"] for r in rows)
+        modern_src[e] = {
+            "n": len(rows),
+            "firstDays": (min(r["dt"] for r in rows).date() - edate).days,
+            "lastDays": (last_dt.date() - edate).days,
+            "lastDate": last_dt.date().isoformat(),
+        }
         elections[e] = {
             "id": e,
             "name": rs[0]["election_name"],
@@ -190,11 +198,13 @@ def main():
             e["nightSrc"] = "SF Dept. of Elections results release"
             e["srcShort"] = "SF Dept. of Elections results release"
             if not any(s["id"] == e["id"] for s in sources):
+                ms = modern_src[e["id"]]
                 sources.append({"id": e["id"], "name": e["name"], "final": e["final"],
                     "finalSource": "SF Dept. of Elections certified results",
-                    "observations": [{"date": e["id"], "days": 0, "total": e["final"], "pct": 100.0,
+                    "observations": [{"date": ms["lastDate"], "days": ms["lastDays"],
+                        "total": e["final"], "pct": 100.0,
                         "label": "SF Dept. of Elections per-release reports",
-                        "citation": f"{e['nReports']} per-release summary reports published by the SF Department of Elections (XML/TSV), validated against certified totals"}]})
+                        "citation": f"{ms['n']} per-release summary reports published by the SF Department of Elections (XML/TSV), election night through the final release {ms['lastDays']} days after the election, validated against certified totals"}]})
     sources.sort(key=lambda s: s["id"], reverse=True)
     (OUT.parent / "sources.json").write_text(json.dumps(sources, indent=1))
     print(f"{len(sources)} election source records -> sources.json")
