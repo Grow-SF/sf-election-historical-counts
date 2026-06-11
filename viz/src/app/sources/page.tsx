@@ -62,7 +62,7 @@ export default function SourcesPage() {
               {s.observations.map((o, i) => (
                 <li key={i} className="grid gap-x-4 sm:grid-cols-[7.5rem_1fr]">
                   <span className="stat-figure whitespace-nowrap text-faint">
-                    {o.night ? "election night" : `day ${o.days}`} · {o.pct}%
+                    {o.night ? "night" : `day ${o.days}`} · {o.pct}%
                   </span>
                   <span>
                     <strong>{o.label}.</strong> <Linkify text={o.citation} />
