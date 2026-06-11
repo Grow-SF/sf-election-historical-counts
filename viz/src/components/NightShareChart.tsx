@@ -100,7 +100,10 @@ export default function NightShareChart({
           <>
             <strong>How to read this chart:</strong> Each colored dot shows how
             much of an election’s final vote was already counted by the end of
-            election night. (Hollow dots were recovered from old web archives.)
+            election night. (Hollow dots were recovered from old archives.)
+            Only elections whose actual night count is known get a dot —
+            about half the dataset; the rest have day-after-or-later records
+            and appear in the charts below.
             Each grey diamond shows how much of that election’s vote was cast
             in person at the polls. In-person votes always get counted on
             election night, so a dot can never be lower than its diamond. The

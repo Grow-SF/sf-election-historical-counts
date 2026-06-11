@@ -1,5 +1,57 @@
 [
  {
+  "id": "1983-11-08",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 1983,
+  "final": 170628,
+  "registered": 371005,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 83.6,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.21,
+    83.6,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   }
+  }
+ },
+ {
   "id": "1984-11-06",
   "name": "Consolidated General Election",
   "kind": "General",
