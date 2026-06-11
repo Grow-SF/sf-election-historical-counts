@@ -22,6 +22,15 @@ type Pt = {
   source: string;
 };
 
+// races where the election-night leader lost - decided by late-counted
+// ballots (KQED/Mission Local coverage cited in the repository)
+const FLIPS: Record<string, string> = {
+  "2018-06-05":
+    "Mayor: Leno led by ~1,000 on election night; Breed passed him on day 4 and won",
+  "2020-11-03":
+    "Supervisor D1: Philhour led election night; Chan won by 134 after late ballots",
+};
+
 export default function NightShareChart({
   elections,
   from,
@@ -94,8 +103,12 @@ export default function NightShareChart({
             gets counted on election night too. In 1964 almost everyone voted
             in person, so election night showed 94% of the vote. Today most
             people vote by mail, and mail that arrives late simply can’t be
-            counted that night. 2020–21 look high because people mailed their
-            ballots weeks early during the pandemic. Elections still being
+            counted that night. The gold line marks November 2020, when
+            California began mailing every voter a ballot; gold rings mark
+            races where the election-night leader went on to lose (hover
+            them). 2020–21 sit high because pandemic voters mailed ballots
+            weeks early; the elections since show the new normal — barely
+            half the vote on the board by midnight. Elections still being
             counted are left out. The dashed trend line is fitted to the
             colored dots only.
           </>
@@ -112,6 +125,11 @@ export default function NightShareChart({
               <div className="stat-figure">
                 {hover.p.y}% counted by election night
               </div>
+              {FLIPS[hover.p.id] && (
+                <div className="max-w-56 text-xs italic" style={{ color: "var(--color-gold)" }}>
+                  {FLIPS[hover.p.id]}
+                </div>
+              )}
             </PointTooltip>
           )}
           {hover?.kind === "floor" && (
@@ -128,6 +146,16 @@ export default function NightShareChart({
           <ResponsiveContainer width="100%" height={360}>
             <ComposedChart margin={{ top: 12, right: 20, bottom: 8, left: 0 }}>
               <CartesianGrid stroke="var(--color-rule)" strokeDasharray="2 4" />
+              {from <= 2020 && to >= 2020 && (
+                // AB 860: every California voter mailed a ballot (Nov 2020)
+                <ReferenceLine
+                  x={2020.6}
+                  stroke="var(--color-gold)"
+                  strokeWidth={1.2}
+                  strokeDasharray="5 4"
+                  opacity={0.8}
+                />
+              )}
               <XAxis
                 type="number"
                 dataKey="x"
@@ -213,10 +241,18 @@ export default function NightShareChart({
                     onMouseLeave: () => setHover(null),
                     style: { cursor: "pointer" },
                   };
-                  return payload.source === "archival" ? (
+                  const dot = payload.source === "archival" ? (
                     <circle cx={cx} cy={cy} r={6.5} fill="var(--color-paper)" stroke={c} strokeWidth={2} {...common} />
                   ) : (
                     <circle cx={cx} cy={cy} r={6.5} fill={c} {...common} />
+                  );
+                  if (!FLIPS[payload.id]) return dot;
+                  // ring marks a race the election-night leader went on to lose
+                  return (
+                    <g>
+                      <circle cx={cx} cy={cy} r={11} fill="none" stroke="var(--color-gold)" strokeWidth={2} />
+                      {dot}
+                    </g>
                   );
                 }}
               />

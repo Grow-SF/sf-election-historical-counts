@@ -103,11 +103,19 @@ export default function ThresholdExplorer({
     ];
 
   const idx = THRESHOLDS.indexOf(threshold);
+  // a leader is mathematically safe once counted-share c leaves fewer
+  // uncounted ballots than the margin: settled when c >= 1/(1+M), so the
+  // margin a threshold t can settle is (100-t)/t
+  const margin = Math.round(((100 - threshold) / threshold) * 100);
 
   return (
     <div>
       <div className="mb-5 flex flex-wrap items-center gap-4 border border-rule bg-paper-deep/60 px-4 py-3">
-        <span className="smallcaps text-faint">days until</span>
+        <span className="smallcaps text-faint">days until a race won by</span>
+        <span className="stat-figure text-2xl font-semibold text-rust">
+          {margin >= 100 ? "any margin" : `${margin}+ pts`}
+        </span>
+        <span className="smallcaps text-faint">is beyond doubt</span>
         <input
           type="range"
           min={0}
@@ -116,28 +124,28 @@ export default function ThresholdExplorer({
           value={idx === -1 ? 6 : idx}
           onChange={(e) => setThreshold(THRESHOLDS[Number(e.target.value)])}
           className="w-44 accent-rust sm:w-64"
-          aria-label="threshold percentage of final count"
+          aria-label="race margin / threshold percentage of final count"
         />
-        <span className="stat-figure text-2xl font-semibold text-rust">
-          {threshold}%
+        <span className="smallcaps text-faint">
+          = {threshold}% of the final count
         </span>
-        <span className="smallcaps text-faint">of the final count</span>
       </div>
 
-      <FitBadge fit={fit} unit="days/yr" flatIsGood />
+      <FitBadge fit={fit} unit="days/yr" />
       <ChartFrame
         note={
           <>
-            <strong>How to read this chart:</strong> Each dot shows how many
-            days it took to count up to {threshold}% of an election&rsquo;s
-            final total. Day 0 is election night. Grey diamonds are elections
-            with no surviving day-by-day records — but we can still place them
-            at day 0, because we know enough of their vote was cast in person
-            to clear {threshold}% on election night alone. Hollow triangles
-            mean &ldquo;crossed by day N at the latest&rdquo; (the old archives
-            only kept occasional snapshots); triangles and still-ongoing counts
-            are left out of the trend line. Drag the slider to change the
-            threshold.
+            <strong>How to read this chart:</strong> A winner is beyond doubt
+            once the ballots still uncounted are fewer than the lead. For a
+            race won by {margin >= 100 ? "any visible margin" : `${margin} points or more`},
+            that happens when {threshold}% of the final total is counted —
+            each dot shows how many days that took. Day 0 is election night.
+            Grey diamonds are elections with no surviving day-by-day records,
+            placed at day 0 because enough of their vote was cast in person
+            to clear the line on election night alone. Hollow triangles mean
+            &ldquo;crossed by day N at the latest&rdquo;; triangles and
+            still-ongoing counts are left out of the trend line. Drag the
+            slider to make the race closer or wider.
           </>
         }
       >
@@ -158,6 +166,9 @@ export default function ThresholdExplorer({
               <div className="stat-figure">
                 {hover.p.bound ? "≤ " : ""}
                 {hover.p.y} day{hover.p.y === 1 ? "" : "s"} to reach {threshold}%
+                {margin < 100 && (
+                  <span className="text-faint"> · settles a {margin}+ pt race</span>
+                )}
               </div>
               {hover.p.viaFloor && (
                 <div className="max-w-52 text-xs italic text-faint">

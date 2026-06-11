@@ -14,8 +14,8 @@ function Hero() {
     <header className="grain relative overflow-hidden bg-night text-paper">
       <div className="mx-auto max-w-5xl px-5 pb-20 pt-24 sm:pb-28 sm:pt-32">
         <p className="smallcaps fade-up max-w-full text-gold">
-          san francisco · every results release
-          <span className="hidden sm:inline"> · 2002–2026</span>
+          san francisco · sixty years of ballot counting
+          <span className="hidden sm:inline"> · 1960–2026</span>
         </p>
         <h1
           className="fade-up mt-4 max-w-4xl text-[2.6rem] font-bold leading-[1.05] sm:text-7xl"
@@ -27,9 +27,10 @@ function Hero() {
           className="fade-up mt-6 max-w-2xl text-xl leading-relaxed text-paper/85 sm:text-2xl"
           style={{ animationDelay: "180ms" }}
         >
-          San Francisco hasn’t gotten slower at counting ballots.{" "}
+          It takes longer to know who won our elections than it used to.{" "}
           <em className="text-rust-bright">
-            Election night just stopped being when the counting happens.
+            Not because counting got slower — because election night went
+            from telling us almost everything to telling us barely half.
           </em>
         </p>
 
@@ -38,8 +39,8 @@ function Hero() {
           style={{ animationDelay: "280ms" }}
         >
           {[
-            ["counted by midnight, nov 2004", "74.9%"],
-            ["counted by midnight, nov 2024", "56.9%"],
+            ["a race election night could settle, 1964", "6 points"],
+            ["a race election night could settle, 2024", "76 points"],
             ["days to finish the count", "unchanged"],
           ].map(([label, value]) => (
             <div key={label} className="bg-night-soft px-5 py-4">
@@ -73,11 +74,12 @@ function Footer() {
               2015–present: every per-release summary report published by the
               SF Department of Elections (243 releases across 18 elections),
               parsed from the Department’s own XML and TSV files and validated
-              against certified totals. 2002–2014: 36 mid-canvass observations
-              recovered from Wayback Machine captures of the Department’s
-              results pages across four website generations, with certified
-              finals from the Department’s turnout history and the California
-              Secretary of State.
+              against certified totals. 1995–2014: mid-canvass observations
+              recovered from Wayback Machine captures of four generations of
+              city results pages, frozen Lotus Domino canvass views, Elections
+              Commission minutes, and Chronicle count reporting, with
+              certified finals from the Department’s own turnout history and
+              the California Secretary of State.
             </p>
           </div>
           <div>
@@ -85,9 +87,10 @@ function Footer() {
               Archival values are marked throughout: hollow points, dashed
               lines, and “≤” bounds mean the truth is at or before the shown
               value — a crawler’s snapshot, not a release schedule. Counts for
-              elections within ~32 days are provisional. No canvass-progress
-              records survive on the public web for 1995–2001; a records
-              request with the Department is pending.
+              elections within ~32 days are provisional. Pre-1995 elections
+              are anchored by their in-person floors and certified totals; a
+              newspaper-archive recovery for 1960–1994 and a records request
+              with the Department are both in progress.
             </p>
           </div>
         </div>
@@ -115,11 +118,14 @@ export default function Story() {
         title="Election night tells you less every cycle"
         intro={
           <p>
-            In 1964, election night could deliver 94% of the vote by simple
-            arithmetic — almost nobody voted absentee. In 2004, three quarters
-            of San Francisco’s final vote was public by midnight. Twenty years
-            later, barely half is. The decline is the one robust trend in this
-            data — and it isn’t about counting speed.
+            In 1964, election night put 94% of the vote on the table. In 2004
+            it was three quarters. Since 2020 — when California started
+            mailing every voter a ballot, and voters learned they could hang
+            onto it until the last day — it has been barely half. The two
+            ringed points are races where the{" "}
+            <em>election-night leader lost</em>: the 2018 mayor’s race and a
+            2020 supervisor seat, both decided by ballots counted days later.
+            That is what losing election-night knowledge means in practice.
             Specials and recalls are small and noisy —{" "}
             <button
               onClick={() => update({ kinds: new Set(["General"]) })}
@@ -127,7 +133,7 @@ export default function Story() {
             >
               show generals only
             </button>{" "}
-            to see it cleanly.
+            to see the trend cleanly.
           </p>
         }
       >
@@ -137,23 +143,19 @@ export default function Story() {
       <Section
         id="thresholds"
         kicker="part two"
-        title="But the count itself never slowed down"
+        title="How long until the winner is beyond doubt?"
         intro={
           <p>
-            For decades, election night alone delivered 80–90% of the final
-            count — the grey diamonds sitting at day zero. As mail voting grew,
-            every threshold drifted upward: not because counting slowed, but
-            because less of the vote is in the building on election night. The
-            test is what happens once the mail era is underway.{" "}
-            <button
-              onClick={() => update({ from: 2001 })}
-              className="border-b border-rust font-semibold text-rust hover:bg-rust/10"
-            >
-              Start the clock in 2001
-            </button>{" "}
-            — when detailed count records begin — and the trend vanishes at
-            every threshold (slope ≈ 0, r² ≈ 0). Twenty-five years of mail
-            growth, zero slowdown in the count itself.
+            A race is mathematically settled once the uncounted ballots are
+            too few to flip it — the closer the race, the more of the count
+            you need. Set the slider to a margin and see how many days that
+            took, election by election. Two things jump out. Tight races have{" "}
+            <em>always</em> taken a week or more — even in 1964, a 5-point
+            race had to wait for the absentees. But landslides used to be
+            settled by midnight (the grey diamonds at day zero), and now even
+            a 25-point blowout waits a day or two, and a 10-point race most
+            of a week. The wait moved down-ballot from the nail-biters to
+            nearly everything.
           </p>
         }
       >
@@ -173,10 +175,13 @@ export default function Story() {
         intro={
           <p>
             Mail ballots were 5% of the vote in 1964, a quarter in the 1990s,
-            and nine in ten today. California counts any ballot postmarked by
-            election day that arrives within a week — and every one needs a
-            signature check first. That work physically cannot happen on
-            election night. The count didn’t slow down; it moved.
+            and nine in ten today — with COVID as the accelerant: in 2020
+            California mailed every voter a ballot (AB 860), made it permanent
+            in 2022 (AB 37), and voters never went back. A ballot postmarked
+            by election day counts if it arrives within a week, and every one
+            needs a signature check first. That work physically cannot happen
+            on election night. The count didn’t slow down; it moved to where
+            we can’t watch it.
           </p>
         }
       >
@@ -186,13 +191,17 @@ export default function Story() {
       <Section
         id="explore"
         kicker="part four"
-        title="Explore every canvass since 2002"
+        title="The back end never changed"
         intro={
           <p>
             The full record: every election’s count, release by release, as a
-            share of its certified final. The shape is remarkably stable — a
-            big election-night step, a fast first week, a long tail of late
-            mail, provisionals, and cures.
+            share of its certified final. The tail is structural — late mail
+            that legally counts if it arrives within a week, provisional
+            checks, signature cures — and it has taken roughly the same few
+            weeks for as long as records exist. That part isn’t fixable and
+            isn’t a scandal. The thing that changed is the front: how much of
+            the vote is already on the board when we go to bed on election
+            night.
           </p>
         }
       >
