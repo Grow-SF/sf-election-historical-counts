@@ -147,6 +147,27 @@ generic queries drown in current news; only rare exact phrases work
 (that's how Tier 1 scored). NewsBank's date-range search removes this
 limitation entirely.
 
+## NewsBank status update (2026-06-11)
+
+User authorized terms; search works but full-doc view requires a
+NewsBank account the Chronicle subscription does NOT include. PLAN:
+inventory via free search snippets now (running - newest-first per
+user, floor at 1960); full-text fetching switches to SFPL's NewsBank
+access (America's News) once the user renews their library card. Doc
+IDs/headlines/dates in mirror/newsbank/phaseA_snippets.json map onto
+SFPL's portal (same backend).
+
+Search mechanics: sfchronicle.newsbank.com/search?text=...&date_from=
+MM/DD/YYYY&date_to=...&pub[0]=SFCB (Text 1985+) or
+pub[0]=142051F45F422A02 (Image 1865-2017, OCR page scans - the
+1923-1984 source). Result snippets carry article lead text - some
+count statements derivable from snippets alone.
+
+Early inventory gold: 2000-11-09 "Absentee, Provisional Ballots Left
+to Count in S.F." (doc 0EB4F969E1C867F6 - Nov 2000 has NO data);
+1995-11 "SAN FRANCISCO ELECTION RESULTS" day-after table (543/543
+precincts, doc 0EB4F6FF665242DA); Jun 1997 day-after coverage exists.
+
 ## Open threads
 
 1. **CNN 2000 night estimate** (~83% of contest votes) — needs a design
