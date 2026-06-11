@@ -63,6 +63,656 @@
   }
  },
  {
+  "id": "1987-04-07",
+  "name": "Special Congressional Election",
+  "kind": "Special",
+  "year": 1987,
+  "final": 111523,
+  "registered": 280811,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.88,
+    97.3,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "1987-11-03",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 1987,
+  "final": 193742,
+  "registered": 378546,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.88,
+    97.5,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "1988-11-08",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 1988,
+  "final": 292097,
+  "registered": 435536,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": 86.3,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.21,
+    86.3,
+    null,
+    null
+   ],
+   [
+    0.88,
+    99.1,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": false
+   },
+   "95": {
+    "days": 1,
+    "bound": false
+   },
+   "98": {
+    "days": 1,
+    "bound": false
+   },
+   "99": {
+    "days": 1,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "1989-11-07",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 1989,
+  "final": 181862,
+  "registered": 405536,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 90.4,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.21,
+    90.4,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "1990-06-05",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 1990,
+  "final": 161989,
+  "registered": 389552,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    2.88,
+    99.4,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 3,
+    "bound": true
+   },
+   "55": {
+    "days": 3,
+    "bound": true
+   },
+   "60": {
+    "days": 3,
+    "bound": true
+   },
+   "65": {
+    "days": 3,
+    "bound": true
+   },
+   "70": {
+    "days": 3,
+    "bound": true
+   },
+   "75": {
+    "days": 3,
+    "bound": true
+   },
+   "80": {
+    "days": 3,
+    "bound": true
+   },
+   "85": {
+    "days": 3,
+    "bound": true
+   },
+   "90": {
+    "days": 3,
+    "bound": true
+   },
+   "95": {
+    "days": 3,
+    "bound": true
+   },
+   "98": {
+    "days": 3,
+    "bound": true
+   },
+   "99": {
+    "days": 3,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "1990-11-06",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 1990,
+  "final": 236413,
+  "registered": 409163,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    1.88,
+    99.2,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 2,
+    "bound": true
+   },
+   "55": {
+    "days": 2,
+    "bound": true
+   },
+   "60": {
+    "days": 2,
+    "bound": true
+   },
+   "65": {
+    "days": 2,
+    "bound": true
+   },
+   "70": {
+    "days": 2,
+    "bound": true
+   },
+   "75": {
+    "days": 2,
+    "bound": true
+   },
+   "80": {
+    "days": 2,
+    "bound": true
+   },
+   "85": {
+    "days": 2,
+    "bound": true
+   },
+   "90": {
+    "days": 2,
+    "bound": true
+   },
+   "95": {
+    "days": 2,
+    "bound": true
+   },
+   "98": {
+    "days": 2,
+    "bound": true
+   },
+   "99": {
+    "days": 2,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "1991-11-05",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 1991,
+  "final": 200875,
+  "registered": 421919,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 93.6,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.21,
+    93.6,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "1991-12-10",
+  "name": "Municipal Run-Off Election",
+  "kind": "Municipal",
+  "year": 1991,
+  "final": 215751,
+  "registered": 425316,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": 87.8,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.21,
+    87.8,
+    null,
+    null
+   ],
+   [
+    6.88,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 7,
+    "bound": true
+   },
+   "95": {
+    "days": 7,
+    "bound": true
+   },
+   "98": {
+    "days": 7,
+    "bound": true
+   },
+   "99": {
+    "days": 7,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "1993-06-15",
+  "name": "Special Municipal Election",
+  "kind": "Special",
+  "year": 1993,
+  "final": 84786,
+  "registered": 421635,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 93.6,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.21,
+    93.6,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "1994-06-07",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 1994,
+  "final": 135495,
+  "registered": 422776,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 81.9,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.21,
+    81.9,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   }
+  }
+ },
+ {
   "id": "1994-11-08",
   "name": "Consolidated General Election",
   "kind": "General",
@@ -134,10 +784,16 @@
   "registered": 417883,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
+  "nReports": 2,
   "nightPct": null,
   "vbmShare": null,
   "pts": [
+   [
+    1.88,
+    90.1,
+    null,
+    null
+   ],
    [
     2.5,
     95.4,
@@ -147,43 +803,200 @@
   ],
   "thresholds": {
    "50": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "55": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "60": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "65": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "70": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "75": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "80": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "85": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "90": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "95": {
     "days": 3,
+    "bound": false
+   }
+  }
+ },
+ {
+  "id": "1995-12-12",
+  "name": "Municipal Run-Off Election",
+  "kind": "Municipal",
+  "year": 1995,
+  "final": 198326,
+  "registered": 425969,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 68.2,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.1,
+    68.2,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": true
+   },
+   "55": {
+    "days": 0,
+    "bound": true
+   },
+   "60": {
+    "days": 0,
+    "bound": true
+   },
+   "65": {
+    "days": 0,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "1996-03-26",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 1996,
+  "final": 178165,
+  "registered": 440254,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.88,
+    89.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   }
+  }
+ },
+ {
+  "id": "1997-06-03",
+  "name": "Special Municipal Election",
+  "kind": "Special",
+  "year": 1997,
+  "final": 178948,
+  "registered": 411230,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 97.5,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.38,
+    97.5,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
     "bound": true
    }
   }
