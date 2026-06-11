@@ -231,6 +231,29 @@ The pre-1985 page-scan route was tested end to end. Findings:
   session worklist; (c) the DOE records request supersedes all of it
   if fulfilled.
 
+## Scan-reading campaign results (2026-06-11 afternoon)
+
+84 table-candidate pages captured via OCR-index queries ('VOTE PCT'
+was the key phrase - user's find; windows E+1..E+5 after E+1..E+2
+proved too strict). Vision agents read them with PCT-column
+validation; every ingested row re-verified against the scan. Night
+floors now: 1960 (91.4), 1973 (57.9 single-candidate floor, dim),
+1974-06 (44.9 partial, dim), 1976-11 (59.1 partial, dim), 1978-06
+(46.6 partial, dim), 1979-11 (93.9!), 1980-11 (93.0!), 1982-11 day-1
+(96.7), 1983-11 (83.6), 1984-11 (94.6) + 1982-06 day-2. 74 elections.
+
+CONTRADICTION (excluded, needs SOS 1978 SOV): the Nov 8 1978 'S.F.
+VOTE' box is internally PCT-consistent but its governor sum (223,147)
+exceeds the DOE-certified ballots (217,965) under a '62.1% of
+precincts' label. Night-feed inflation or DOE-row error.
+
+STILL DRY pre-1985: 1964 (captures clipped before the vote box),
+1968, 1972-11, 1975-11, 1975-12, 1977-08 (pct-only page), 1977-11
+(captured the election-DAY issue by mistake), 1981-11 (front-page
+scan top only), 1983-04 recall (no totals on captured pages),
+1984-06 (pct-only box). Each needs issue-page browsing (Page N of 80
+navigation) or accepts the floor-only status.
+
 ## Open threads
 
 1. **CNN 2000 night estimate** (~83% of contest votes) — needs a design
