@@ -226,11 +226,10 @@ export default function NightShareChart({
                   strokeDasharray="5 4"
                   opacity={0.45}
                   label={{
-                    value: "2002 · permanent VBM list",
-                    position: "insideTopLeft",
-                    angle: -90,
-                    offset: 12,
-                    style: { fontFamily: "var(--font-mono)", fontSize: 10, fill: "var(--color-faint)" },
+                    value: "2002: permanent vote-by-mail opens to everyone",
+                    position: "insideTopRight",
+                    offset: 8,
+                    style: { fontFamily: "var(--font-mono)", fontSize: 10.5, fill: "var(--color-ink)" },
                   }}
                 />
               )}
@@ -243,11 +242,10 @@ export default function NightShareChart({
                   strokeDasharray="5 4"
                   opacity={0.8}
                   label={{
-                    value: "2020 · every voter mailed a ballot",
-                    position: "insideTopLeft",
-                    angle: -90,
-                    offset: 12,
-                    style: { fontFamily: "var(--font-mono)", fontSize: 10, fill: "var(--color-gold)" },
+                    value: "2020: COVID - every voter mailed a ballot",
+                    position: "insideBottomLeft",
+                    offset: 8,
+                    style: { fontFamily: "var(--font-mono)", fontSize: 10.5, fill: "var(--color-gold-deep, #8a6d1a)" },
                   }}
                 />
               )}
