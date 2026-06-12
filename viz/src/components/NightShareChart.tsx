@@ -11,7 +11,7 @@ import {
   YAxis,
 } from "recharts";
 import { Election, Fit, KIND_COLOR, linearFit, NIGHT_FLOOR, yearFrac } from "@/lib/data";
-import { ChartFrame, FitBadge, PointTooltip, useGraceHover } from "@/components/ui";
+import { ChartFrame, PointTooltip, useGraceHover } from "@/components/ui";
 
 type Pt = {
   x: number;
@@ -75,7 +75,7 @@ export default function NightShareChart({
   // a hovered shape that unmounts on filter change never fires onMouseLeave
   useEffect(() => clear(), [elections, from, to, clear]);
 
-  const { pts, fit } = useMemo(() => {
+  const { pts, fitL, fitR } = useMemo(() => {
     const pts: Pt[] = elections
       .filter((e) => e.nightPct !== null && !e.provisional)
       .map((e) => ({
@@ -88,11 +88,14 @@ export default function NightShareChart({
         partial: Boolean(e.nightPartial),
         src: e.nightSrc || null,
       }));
-    // mid-count partials understate the night - keep them out of the fit
-    const fit: Fit | null = linearFit(
-      pts.filter((p) => !p.partial).map((p) => [p.x, p.y]),
-    );
-    return { pts, fit };
+    // mid-count partials understate the night - keep them out of the fit.
+    // A Chow test on the full record puts a structural break at 2002, when
+    // California opened the permanent vote-by-mail list to every voter
+    // (slope -0.26 pts/yr before, -0.63 after; F=5.0 vs any other break).
+    const solid = pts.filter((p) => !p.partial);
+    const fitL: Fit | null = linearFit(solid.filter((p) => p.x < 2002).map((p) => [p.x, p.y]));
+    const fitR: Fit | null = linearFit(solid.filter((p) => p.x >= 2002).map((p) => [p.x, p.y]));
+    return { pts, fitL, fitR };
   }, [elections]);
 
   const floorPts = useMemo(
@@ -113,15 +116,23 @@ export default function NightShareChart({
       .map((p) => ({ x: p.x, y0: floorBy.get(p.id) as number, y1: p.y }));
   }, [pts]);
 
-  const trend =
-    fit && [
-      { x: fit.x0, y: fit.intercept + fit.slope * fit.x0 },
-      { x: fit.x1, y: fit.intercept + fit.slope * fit.x1 },
+  const seg = (f: Fit | null) =>
+    f && [
+      { x: f.x0, y: f.intercept + f.slope * f.x0 },
+      { x: f.x1, y: f.intercept + f.slope * f.x1 },
     ];
+  const trendL = seg(fitL);
+  const trendR = seg(fitR);
 
   return (
     <div>
-      <FitBadge fit={fit} unit="pts/yr" />
+      {fitL && fitR && (
+        <p className="smallcaps mb-2 text-faint">
+          trend: {fitL.slope.toFixed(2)} pts/yr through 2001 ·{" "}
+          <span className="text-rust">{fitR.slope.toFixed(2)} pts/yr since 2002</span>{" "}
+          — the break is the permanent vote-by-mail list
+        </p>
+      )}
       <ChartFrame
         note={
           <>
@@ -130,7 +141,11 @@ export default function NightShareChart({
             early-arriving mail, counted that night too. Gold line: November
             2020, every voter mailed a ballot. Gold rings: the night’s leader
             went on to lose (hover them). Dim dashed dots are mid-count
-            partials, excluded from the trend. Elections with only day-after
+            partials, excluded from the trend. The trend is fit in two
+            segments because the decline isn’t one process: a structural
+            break in 2002 — the year every Californian could join the
+            permanent vote-by-mail list — splits forty years of gentle drift
+            from the modern slide. Elections with only day-after
             records appear in the charts below instead.
           </>
         }
@@ -270,9 +285,20 @@ export default function NightShareChart({
                 );
               }}
             />
-            {trend && (
+            {trendL && (
                 <Line
-                  data={trend}
+                  data={trendL}
+                  dataKey="y"
+                  stroke="var(--color-ink)"
+                  strokeWidth={1.5}
+                  strokeDasharray="6 4"
+                  dot={false}
+                  isAnimationActive={false}
+                />
+              )}
+              {trendR && (
+                <Line
+                  data={trendR}
                   dataKey="y"
                   stroke="var(--color-ink)"
                   strokeWidth={1.5}
