@@ -125,15 +125,29 @@ export default function Story() {
         kicker="part one"
         title="Election night tells you less every cycle"
         intro={
-          <p>
-            In 1964, election night put 93.5% of the vote on the table; in
-            the late seventies it topped 98, and through the nineties it still
-            ran 80 to 93. In 2004 it was three quarters. Since 2020 it has
-            been barely half. The
-            ringed points are races the <em>election-night leader lost</em> —
-            the 2018 mayor’s race and a 2020 supervisor seat, decided by
-            ballots counted days later.
-          </p>
+          <>
+            <p>
+              Three eras emerge from the recovered record. <em>Before 2002</em>,
+              mail voting grew slowly — and mail voters returned their ballots
+              early enough to be counted with the night’s tally, so election
+              night stayed nearly complete: 93.5% in 1964, over 98% in the
+              late seventies, 80 to 93 through the nineties. <em>From 2002</em>,
+              when any Californian could join the permanent vote-by-mail
+              list, election-day turnout shrank every cycle and the night
+              count began a steady slide. <em>Since 2020</em>, with nearly
+              everyone voting by mail and most returning ballots late,
+              election night reports barely half.
+            </p>
+            <p>
+              The ringed points are races the{" "}
+              <em>election-night leader lost</em> — the 2018 mayor’s race and
+              a 2020 supervisor seat, decided by ballots counted days later.
+              Recalls (purple) and special elections (gold) sit above the
+              trend: their electorates vote early by mail, so the night count
+              catches more of them. Filter to primaries and generals and the
+              slide is at its sharpest.
+            </p>
+          </>
         }
       >
         <NightShareChart elections={elections} from={state.from} to={state.to} />
