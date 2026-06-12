@@ -116,30 +116,6 @@ export default function NightShareChart({
       .map((p) => ({ x: p.x, y0: floorBy.get(p.id) as number, y1: p.y }));
   }, [pts]);
 
-  // annotation label pinned to the bottom of a vertical ReferenceLine,
-  // with a paper halo so it stays readable over the dot field
-  const annLabel =
-    (text: string, color: string) =>
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (props: any) => {
-      const vb = props.viewBox;
-      return (
-        <text
-          x={vb.x - 6}
-          y={vb.y + vb.height - 8}
-          textAnchor="end"
-          fontFamily="var(--font-mono)"
-          fontSize={10.5}
-          fill={color}
-          stroke="var(--color-paper)"
-          strokeWidth={4}
-          paintOrder="stroke"
-        >
-          {text}
-        </text>
-      );
-    };
-
   const seg = (f: Fit | null) =>
     f && [
       { x: f.x0, y: f.intercept + f.slope * f.x0 },
@@ -249,7 +225,6 @@ export default function NightShareChart({
                   strokeWidth={1}
                   strokeDasharray="5 4"
                   opacity={0.45}
-                  label={annLabel("2002: permanent vote-by-mail opens to everyone", "var(--color-ink)")}
                 />
               )}
               {from <= 2020 && to >= 2020 && (
@@ -260,7 +235,6 @@ export default function NightShareChart({
                   strokeWidth={1.2}
                   strokeDasharray="5 4"
                   opacity={0.8}
-                  label={annLabel("2020: COVID - every voter mailed a ballot", "var(--color-gold)")}
                 />
               )}
               <XAxis
@@ -378,6 +352,14 @@ export default function NightShareChart({
             </ComposedChart>
           </ResponsiveContainer>
         </div>
+        <p className="smallcaps mt-2 text-faint">
+          dashed verticals:{" "}
+          <span className="text-ink">2002 — permanent vote-by-mail opens to everyone</span>
+          {" · "}
+          <span style={{ color: "var(--color-gold)" }}>
+            2020 — COVID: every voter mailed a ballot
+          </span>
+        </p>
       </ChartFrame>
     </div>
   );
