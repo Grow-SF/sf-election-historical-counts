@@ -3112,6 +3112,22 @@
   ]
  },
  {
+  "id": "1992-11-03",
+  "name": "Consolidated General Election",
+  "final": 329695,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1992-11-04",
+    "days": 1,
+    "total": 266868,
+    "pct": 80.9,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1992-11-04 'HOW SAN FRANCISCO VOTED' box (masthead-verified Wednesday Nov 4), 513 of 609 precincts reporting: president sum 266,868 - conservative night floor, press-deadline partial; exceeds certified precinct ballots 255,071 so night count included absentees; scans cols/sweep_19921103_issue19921104_p13_*.png"
+   }
+  ]
+ },
+ {
   "id": "1992-06-02",
   "name": "Consolidated Primary Election",
   "final": 182577,

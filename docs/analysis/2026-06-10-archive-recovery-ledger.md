@@ -497,3 +497,15 @@ present; SF ran as a graphic). Remaining night/table gaps need image
 sweeps of specific day-after papers: 1985-11, 1987-04, 1987-06,
 1992-11, 1993-11, 1995-11, 1996-03(night), 1999-11(night), 1999-12,
 2002-12, 2003-10 - or the DOE records request.
+
+### Session 2026-06-12, part 9 — final sweeps wrap
+
+1992-11 NIGHT 80.9% (partial 513/609, masthead-verified day-after) and
+1996-03 NIGHT 59.7% (partial 400/650) ingested. E+2 papers for 1968/
+1976/1978 carry NO tables - those dim partials are print-final. 1974-06
+'complete' table REJECTED: Prop B sum 203,381 > certified 198,508
+(printed contradiction, like 1978-11). 1973 single-candidate floor was
+already complete-precinct. Label offsets vary PER ISSUE (1995 label =
+masthead; 1983 = masthead+1) - masthead-verify always. Still open for
+records request: 1985-11, 1987-04/06, 1993-11, 1995-11, 1999-11/12
+night, 2000-11, 2002-12, 2003-10, 2005-11/2006-11/2010-11 night.
