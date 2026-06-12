@@ -51,7 +51,7 @@ export default function SourcesPage() {
       </p>
       <div className="mt-10 space-y-10">
         {list.map((s) => (
-          <section key={s.id} id={s.id} className="border-t border-rule pt-5">
+          <section key={s.id} id={s.id} className="scroll-mt-6 border-t border-rule pt-5">
             <h2 className="text-xl font-bold">
               {s.id} <span className="font-normal text-faint">— {s.name}</span>
             </h2>

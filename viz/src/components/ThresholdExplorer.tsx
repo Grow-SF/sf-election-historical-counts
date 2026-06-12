@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo } from "react";
 import {
   CartesianGrid,
   ComposedChart,
@@ -17,7 +17,7 @@ import {
   THRESHOLDS,
   yearFrac,
 } from "@/lib/data";
-import { ChartFrame, FitBadge, PointTooltip } from "@/components/ui";
+import { ChartFrame, FitBadge, PointTooltip, useGraceHover } from "@/components/ui";
 
 type Pt = {
   x: number;
@@ -45,9 +45,9 @@ export default function ThresholdExplorer({
   from: number;
   to: number;
 }) {
-  const [hover, setHover] = useState<{ cx: number; cy: number; p: Pt } | null>(null);
+  const { hover, show, hide, hold, clear } = useGraceHover<{ cx: number; cy: number; p: Pt }>();
   // a hovered shape that unmounts on filter change never fires onMouseLeave
-  useEffect(() => setHover(null), [elections, threshold, from, to]);
+  useEffect(() => clear(), [elections, threshold, from, to, clear]);
   const { pts, fit } = useMemo(() => {
     const floorBy = new Map(NIGHT_FLOOR.map((f) => [f.date, f.floorPct]));
     const byDate = new Map<string, Pt>();
@@ -153,7 +153,7 @@ export default function ThresholdExplorer({
       >
         <div className="relative">
           {hover && (
-            <PointTooltip cx={hover.cx} cy={hover.cy}>
+            <PointTooltip cx={hover.cx} cy={hover.cy} onMouseEnter={hold} onMouseLeave={hide}>
               <div
                 className="smallcaps"
                 style={{ color: hover.p.kind ? KIND_COLOR[hover.p.kind] : "var(--color-faint)" }}
@@ -186,11 +186,20 @@ export default function ThresholdExplorer({
               )}
               {hover.p.viaFloor ? (
                 <div className="mt-1 text-[11px] text-faint">
-                  source: certified precinct/mail split (DOE / SoS)
+                  source: certified precinct/mail split (DOE / SoS) ·{" "}
+                  <a href="/sources" className="border-b border-rust/40 text-rust hover:bg-rust/10">
+                    sources →
+                  </a>
                 </div>
               ) : hover.p.src ? (
                 <div className="mt-1 text-[11px] text-faint">
-                  source: {hover.p.src} · full citation on the sources page
+                  source: {hover.p.src} ·{" "}
+                  <a
+                    href={`/sources#${hover.p.id}`}
+                    className="border-b border-rust/40 text-rust hover:bg-rust/10"
+                  >
+                    full citation →
+                  </a>
                 </div>
               ) : null}
             </PointTooltip>
@@ -245,8 +254,8 @@ export default function ThresholdExplorer({
                 };
                 const c = KIND_COLOR[payload.kind];
                 const common = {
-                  onMouseEnter: () => setHover({ cx, cy, p: payload }),
-                  onMouseLeave: () => setHover(null),
+                  onMouseEnter: () => show({ cx, cy, p: payload }),
+                  onMouseLeave: hide,
                   style: { cursor: "pointer" },
                 };
                 if (payload.viaFloor) {

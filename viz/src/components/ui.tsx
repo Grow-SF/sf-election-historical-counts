@@ -1,5 +1,39 @@
 "use client";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Fit } from "@/lib/data";
+
+/**
+ * Hover state with a grace period: the tooltip stays mounted while the
+ * pointer travels from the data point into the tooltip (so links inside
+ * it are clickable), and hides shortly after leaving both.
+ */
+export function useGraceHover<T>(delay = 300) {
+  const [hover, setHover] = useState<T | null>(null);
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const hold = useCallback(() => {
+    if (timer.current) {
+      clearTimeout(timer.current);
+      timer.current = null;
+    }
+  }, []);
+  const show = useCallback(
+    (h: T) => {
+      hold();
+      setHover(h);
+    },
+    [hold],
+  );
+  const hide = useCallback(() => {
+    hold();
+    timer.current = setTimeout(() => setHover(null), delay);
+  }, [hold, delay]);
+  const clear = useCallback(() => {
+    hold();
+    setHover(null);
+  }, [hold]);
+  useEffect(() => hold, [hold]);
+  return { hover, show, hide, hold, clear };
+}
 
 export function Section({
   id,
@@ -79,21 +113,27 @@ export function PointTooltip({
   cx,
   cy,
   children,
+  onMouseEnter,
+  onMouseLeave,
 }: {
   cx: number;
   cy: number;
   children: React.ReactNode;
+  onMouseEnter?: () => void;
+  onMouseLeave?: () => void;
 }) {
   const flip = cy < 110;
   return (
     <div
-      className="pointer-events-none absolute z-10 border border-ink bg-paper px-3 py-2 text-sm shadow"
+      className="pointer-events-auto absolute z-10 border border-ink bg-paper px-3 py-2 text-sm shadow"
       style={{
         left: cx,
         top: cy + (flip ? 14 : -14),
         transform: `translate(-50%, ${flip ? "0" : "-100%"})`,
         maxWidth: 260,
       }}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
     >
       {children}
     </div>

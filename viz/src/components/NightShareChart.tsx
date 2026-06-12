@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo } from "react";
 import {
   CartesianGrid,
   ComposedChart,
@@ -11,7 +11,7 @@ import {
   YAxis,
 } from "recharts";
 import { Election, Fit, KIND_COLOR, linearFit, NIGHT_FLOOR, yearFrac } from "@/lib/data";
-import { ChartFrame, FitBadge, PointTooltip } from "@/components/ui";
+import { ChartFrame, FitBadge, PointTooltip, useGraceHover } from "@/components/ui";
 
 type Pt = {
   x: number;
@@ -68,13 +68,12 @@ export default function NightShareChart({
   from: number;
   to: number;
 }) {
-  const [hover, setHover] = useState<
+  const { hover, show, hide, hold, clear } = useGraceHover<
     | { kind: "pt"; cx: number; cy: number; p: Pt }
     | { kind: "floor"; cx: number; cy: number; date: string; y: number }
-    | null
-  >(null);
+  >();
   // a hovered shape that unmounts on filter change never fires onMouseLeave
-  useEffect(() => setHover(null), [elections, from, to]);
+  useEffect(() => clear(), [elections, from, to, clear]);
 
   const { pts, fit } = useMemo(() => {
     const pts: Pt[] = elections
@@ -148,7 +147,7 @@ export default function NightShareChart({
         </div>
         <div className="relative">
           {hover?.kind === "pt" && (
-            <PointTooltip cx={hover.cx} cy={hover.cy}>
+            <PointTooltip cx={hover.cx} cy={hover.cy} onMouseEnter={hold} onMouseLeave={hide}>
               <div className="smallcaps" style={{ color: KIND_COLOR[hover.p.kind] }}>
                 {hover.p.kind}
                 {hover.p.source === "archival" ? " · archival" : ""}
@@ -171,13 +170,19 @@ export default function NightShareChart({
               )}
               {hover.p.src && (
                 <div className="mt-1 text-[11px] text-faint">
-                  source: {hover.p.src} · full citation on the sources page
+                  source: {hover.p.src} ·{" "}
+                  <a
+                    href={`/sources#${hover.p.id}`}
+                    className="border-b border-rust/40 text-rust hover:bg-rust/10"
+                  >
+                    full citation →
+                  </a>
                 </div>
               )}
             </PointTooltip>
           )}
           {hover?.kind === "floor" && (
-            <PointTooltip cx={hover.cx} cy={hover.cy}>
+            <PointTooltip cx={hover.cx} cy={hover.cy} onMouseEnter={hold} onMouseLeave={hide}>
               <div className="smallcaps text-faint">election-night floor</div>
               <div className="font-semibold">{hover.date}</div>
               <div className="stat-figure">{hover.y}% voted in person</div>
@@ -186,7 +191,10 @@ export default function NightShareChart({
                 showed at least this much
               </div>
               <div className="mt-1 text-[11px] text-faint">
-                source: certified precinct/mail split (DOE turnout history / SoS)
+                source: certified precinct/mail split (DOE turnout history / SoS) ·{" "}
+                <a href="/sources" className="border-b border-rust/40 text-rust hover:bg-rust/10">
+                  sources →
+                </a>
               </div>
             </PointTooltip>
           )}
@@ -255,9 +263,9 @@ export default function NightShareChart({
                     opacity={0.75}
                     style={{ cursor: "pointer" }}
                     onMouseEnter={() =>
-                      setHover({ kind: "floor", cx, cy, date: payload.date, y: payload.y })
+                      show({ kind: "floor", cx, cy, date: payload.date, y: payload.y })
                     }
-                    onMouseLeave={() => setHover(null)}
+                    onMouseLeave={hide}
                   />
                 );
               }}
@@ -284,8 +292,8 @@ export default function NightShareChart({
                   };
                   const c = KIND_COLOR[payload.kind];
                   const common = {
-                    onMouseEnter: () => setHover({ kind: "pt" as const, cx, cy, p: payload }),
-                    onMouseLeave: () => setHover(null),
+                    onMouseEnter: () => show({ kind: "pt" as const, cx, cy, p: payload }),
+                    onMouseLeave: hide,
                     style: { cursor: "pointer" },
                   };
                   const dot = payload.partial ? (
