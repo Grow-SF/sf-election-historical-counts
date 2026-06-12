@@ -39,7 +39,7 @@ function Hero() {
           style={{ animationDelay: "280ms" }}
         >
           {[
-            ["a race election night could settle, 1964", "6 points"],
+            ["a race election night could settle, 1964", "7 points"],
             ["a race election night could settle, 2024", "76 points"],
             ["days to finish the count", "unchanged"],
           ].map(([label, value]) => (
@@ -74,7 +74,7 @@ function Footer() {
               2015–present: every per-release summary report published by the
               SF Department of Elections (241 releases across 18 elections),
               parsed from the Department’s own XML and TSV files and validated
-              against certified totals. 1986–2014: 69 mid-canvass observations
+              against certified totals. 1986–2014: 94 mid-canvass observations
               recovered from Wayback Machine captures of four generations of
               city results pages, frozen Lotus Domino canvass views, Elections
               Commission minutes, and Chronicle count reporting (via the
@@ -90,9 +90,11 @@ function Footer() {
               elections within ~32 days are provisional. “News-derived”
               points are conservative floors: the certified total minus the
               ballots a registrar told a reporter were still uncounted.
-              Elections before 1986 are anchored by their in-person floors
-              and certified totals; the newspaper recovery for 1960–1985 and
-              a records request with the Department are both in progress.
+              1960–1985: 19 election-night counts read from page scans of the
+              Chronicle’s vote-tally boxes and count reporting, every digit
+              independently re-verified and checked against certified totals.
+              A records request with the Department is in progress for the
+              remaining web-era gaps.
             </p>
           </div>
         </div>
@@ -123,8 +125,9 @@ export default function Story() {
         title="Election night tells you less every cycle"
         intro={
           <p>
-            In 1964, election night put 94% of the vote on the table. In 2004
-            it was three quarters. Since 2020 it has been barely half. The
+            In 1964, election night put 93.5% of the vote on the table — and
+            in the late seventies it topped 98. In 2004 it was three quarters.
+            Since 2020 it has been barely half. The
             ringed points are races the <em>election-night leader lost</em> —
             the 2018 mayor’s race and a 2020 supervisor seat, decided by
             ballots counted days later.
@@ -143,10 +146,10 @@ export default function Story() {
             A race is mathematically settled once the uncounted ballots are
             too few to flip it — the closer the race, the more of the count
             you need. Set the slider to a margin and see how many days that
-            took, election by election. Two things jump out. Tight races have{" "}
-            <em>always</em> taken a week or more — even in 1964, a 5-point
-            race had to wait for the absentees. But landslides used to be
-            settled by midnight (the grey diamonds at day zero), and now even
+            took, election by election. It didn&rsquo;t used to take long, even
+            when it was close: in December 1975 a mayor&rsquo;s race decided by{" "}
+            <em>2.2 points</em> was over the same night — 99% of the vote was
+            counted by midnight and the loser conceded at 11:30 p.m. Now even
             a 25-point blowout waits a day or two, and a 10-point race most
             of a week. The wait moved down-ballot from the nail-biters to
             nearly everything.

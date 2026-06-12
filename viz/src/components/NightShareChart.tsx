@@ -33,6 +33,24 @@ const FLIPS: Record<string, string> = {
     "Supervisor D1: Philhour led election night; Chan won by 134 after late ballots",
 };
 
+// why each dimmed point understates the true end-of-night share
+const PARTIAL_NOTES: Record<string, string> = {
+  "1968-11-05":
+    "press-deadline snapshot (1,140 of 1,282 precincts) — the true end-of-night share was higher",
+  "1973-11-06":
+    "single-candidate floor (Feinstein's supervisor votes only) — the true night share was higher",
+  "1974-06-04":
+    "mid-night snapshot (815 of 1,356 precincts) — the true end-of-night share was higher",
+  "1976-11-02":
+    "mid-night snapshot (545 of 935 precincts) — the true end-of-night share was higher",
+  "1978-06-06":
+    "partial press snapshot (81% of precincts, one party's primary) — the true night share was higher",
+  "1995-12-12":
+    "mid-count snapshot (339 of 551 precincts, the chad-jam night) — the true end-of-night share was higher",
+  "2007-11-06":
+    "the night release held only absentee/early votes — the state had decertified the city's voting machines, so every polling-place ballot was counted in the days after",
+};
+
 export default function NightShareChart({
   elections,
   from,
@@ -134,8 +152,8 @@ export default function NightShareChart({
               </div>
               {hover.p.partial && (
                 <div className="max-w-52 text-xs italic text-faint">
-                  mid-count snapshot (339 of 551 precincts, the chad-jam
-                  night) - the true end-of-night share was higher
+                  {PARTIAL_NOTES[hover.p.id] ??
+                    "partial night snapshot — the true end-of-night share was higher"}
                 </div>
               )}
               {FLIPS[hover.p.id] && (
