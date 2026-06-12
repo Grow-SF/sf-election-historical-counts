@@ -3544,10 +3544,10 @@
   "registered": 415761,
   "source": "archival",
   "provisional": false,
-  "nReports": 2,
+  "nReports": 6,
   "nightPct": 63.1,
   "nightPartial": true,
-  "vbmShare": 34.2,
+  "vbmShare": 40.9,
   "pts": [
    [
     0.25,
@@ -3556,10 +3556,34 @@
     null
    ],
    [
-    6.08,
+    0.81,
     81.4,
     27.9,
     53.6
+   ],
+   [
+    2.82,
+    89.7,
+    36.1,
+    53.6
+   ],
+   [
+    5.8,
+    93.3,
+    39.7,
+    53.6
+   ],
+   [
+    9.74,
+    95.9,
+    40.3,
+    55.6
+   ],
+   [
+    19.78,
+    99.8,
+    40.9,
+    58.9
    ]
   ],
   "thresholds": {
@@ -3576,19 +3600,123 @@
     "bound": true
    },
    "65": {
-    "days": 6,
-    "bound": true
+    "days": 1,
+    "bound": false
    },
    "70": {
-    "days": 6,
-    "bound": true
+    "days": 1,
+    "bound": false
    },
    "75": {
+    "days": 1,
+    "bound": false
+   },
+   "80": {
+    "days": 1,
+    "bound": false
+   },
+   "85": {
+    "days": 3,
+    "bound": false
+   },
+   "90": {
     "days": 6,
     "bound": true
    },
+   "95": {
+    "days": 10,
+    "bound": true
+   },
+   "98": {
+    "days": 20,
+    "bound": true
+   },
+   "99": {
+    "days": 20,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "2008-06-03",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 2008,
+  "final": 173035,
+  "registered": 430259,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 4,
+  "nightPct": 62.8,
+  "nightPartial": true,
+  "vbmShare": 53.3,
+  "pts": [
+   [
+    0.25,
+    62.8,
+    null,
+    null
+   ],
+   [
+    0.81,
+    74.0,
+    28.7,
+    45.3
+   ],
+   [
+    2.77,
+    84.9,
+    39.6,
+    45.3
+   ],
+   [
+    9.67,
+    96.9,
+    51.6,
+    45.3
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": false
+   },
+   "70": {
+    "days": 1,
+    "bound": false
+   },
+   "75": {
+    "days": 3,
+    "bound": false
+   },
    "80": {
-    "days": 6,
+    "days": 3,
+    "bound": false
+   },
+   "85": {
+    "days": 10,
+    "bound": true
+   },
+   "90": {
+    "days": 10,
+    "bound": true
+   },
+   "95": {
+    "days": 10,
     "bound": true
    }
   },
@@ -3676,6 +3804,72 @@
   "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {
+  "id": "2009-05-19",
+  "name": "Statewide Special Election",
+  "kind": "Special",
+  "year": 2009,
+  "final": 130644,
+  "registered": 465428,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    7.83,
+    97.3,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 8,
+    "bound": true
+   },
+   "55": {
+    "days": 8,
+    "bound": true
+   },
+   "60": {
+    "days": 8,
+    "bound": true
+   },
+   "65": {
+    "days": 8,
+    "bound": true
+   },
+   "70": {
+    "days": 8,
+    "bound": true
+   },
+   "75": {
+    "days": 8,
+    "bound": true
+   },
+   "80": {
+    "days": 8,
+    "bound": true
+   },
+   "85": {
+    "days": 8,
+    "bound": true
+   },
+   "90": {
+    "days": 8,
+    "bound": true
+   },
+   "95": {
+    "days": 8,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "Wayback Machine capture"
+ },
+ {
   "id": "2009-11-03",
   "name": "Consolidated Municipal Election",
   "kind": "Municipal",
@@ -3684,11 +3878,17 @@
   "registered": 451988,
   "source": "archival",
   "provisional": false,
-  "nReports": 2,
-  "nightPct": null,
+  "nReports": 3,
+  "nightPct": 68.3,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.09,
+    68.3,
+    null,
+    null
+   ],
    [
     2.83,
     90.1,
@@ -3704,19 +3904,19 @@
   ],
   "thresholds": {
    "50": {
-    "days": 3,
+    "days": 0,
     "bound": true
    },
    "55": {
-    "days": 3,
+    "days": 0,
     "bound": true
    },
    "60": {
-    "days": 3,
+    "days": 0,
     "bound": true
    },
    "65": {
-    "days": 3,
+    "days": 0,
     "bound": true
    },
    "70": {
@@ -3752,7 +3952,7 @@
     "bound": true
    }
   },
-  "nightSrc": null,
+  "nightSrc": "Wayback Machine capture",
   "srcShort": "Wayback Machine capture"
  },
  {

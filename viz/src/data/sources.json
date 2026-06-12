@@ -2150,6 +2150,14 @@
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
    {
+    "date": "2009-11-03",
+    "days": 0,
+    "total": 69733,
+    "pct": 68.3,
+    "label": "Wayback Machine capture",
+    "citation": "DOE Election Summary page (live), 'Last Updated: 11/3/2009 10:14 PM', 428 of 428 precincts: Total Ballots Cast 69,733 (15.43% of registered) - complete election-night release - https://web.archive.org/web/20091104154107/http://www.sfgov.org/site/elections_index.asp?id=92589 (stamp and figure verified against capture)"
+   },
+   {
     "date": "2009-11-06",
     "days": 3,
     "total": 91970,
@@ -2164,6 +2172,22 @@
     "pct": 100.0,
     "label": "Elections Commission minutes",
     "citation": "Elections Commission minutes 2009-11-18 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=113990.html): canvassing completed Nov 17 2009, certified with SoS Nov 19 2009"
+   }
+  ]
+ },
+ {
+  "id": "2009-05-19",
+  "name": "Statewide Special Election",
+  "final": 130644,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2009-05-27",
+    "days": 8,
+    "total": 127083,
+    "pct": 97.3,
+    "label": "Wayback Machine capture",
+    "citation": "DOE Election Summary page (live), 'Last Updated: 5/27/2009 3:57 PM', 428/428 precincts: Total Ballots Cast 127,083 (27.30% of registered) - https://web.archive.org/web/20090528095634/http://www.sfgov.org/site/elections_index.asp?id=100512 (stamp and figure verified against capture)"
    }
   ]
  },
@@ -2192,6 +2216,46 @@
   ]
  },
  {
+  "id": "2008-06-03",
+  "name": "Consolidated Primary Election",
+  "final": 173035,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2008-06-04",
+    "days": 1,
+    "total": 108611,
+    "pct": 62.8,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 2008-06-04 results box, SAN FRANCISCO column, 515 of 580 precincts reporting: Prop A (SFUSD parcel tax) YES 75,599 (69.61) + NO 33,012 = 108,611, printed pct validates - conservative night floor, press-deadline partial; exceeds certified precinct ballots 83,441 so night count included VBM; scan sweep_20080603_issue20080604_p22_s2/s3.png"
+   },
+   {
+    "date": "2008-06-04",
+    "days": 1,
+    "total": 127984,
+    "pct": 74.0,
+    "label": "Wayback Machine capture",
+    "citation": "DOE Election Summary page (live), 'Last Updated: June 4 2008 3:30 PM': ED 78,406 + VBM 49,578 = 127,984 (29.75% of registered) - https://web.archive.org/web/20080605195018/http://www.sfgov.org/site/elections_index.asp?id=70719 (stamp and figures verified against capture)"
+   },
+   {
+    "date": "2008-06-06",
+    "days": 3,
+    "total": 146905,
+    "pct": 84.9,
+    "label": "Wayback Machine capture",
+    "citation": "DOE Election Summary page (live), 'Last Updated: June 6 2008 2:30 PM': ED 78,406 + VBM 68,499 = 146,905 - https://web.archive.org/web/20080607021534/http://www.sfgov.org/site/elections_index.asp?id=70719"
+   },
+   {
+    "date": "2008-06-13",
+    "days": 10,
+    "total": 167718,
+    "pct": 96.9,
+    "label": "Wayback Machine capture",
+    "citation": "DOE Election Summary page (live), 'Last Updated: June 13 2008 12:08 PM': ED 78,406 + VBM 89,312 = 167,718 - https://web.archive.org/web/20080616155545/http://www.sfgov.org/site/elections_index.asp?id=70719"
+   }
+  ]
+ },
+ {
   "id": "2008-02-05",
   "name": "Consolidated Presidential Primary",
   "final": 269212,
@@ -2206,12 +2270,44 @@
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 2008-02-06 pB3 'BAY AREA ELECTION RESULTS' box, San Francisco column, 450 of 580 precincts reporting: Prop A sum 169,840 (YES 121,068 71.28% + NO 48,772; printed pct validates exactly) - conservative night floor, press-deadline partial; exceeds certified precinct ballots 158,995 so night count included absentees; scan pan7_20080205_issue20080206_pB3_s6.png"
    },
    {
-    "date": "2008-02-11",
-    "days": 6,
+    "date": "2008-02-06",
+    "days": 1,
     "total": 219206,
     "pct": 81.4,
     "label": "wayback-pdf-ocr",
-    "citation": "https://web.archive.org/web/20080212055315/http://www.sfgov.org/site/uploadedfiles/elections/Announcements/PR2008/February5_%202008UnofficialSummaryReport8_%20for_%20theCityandCountyofSanFrancisco.pdf"
+    "citation": "https://web.archive.org/web/20080212055315/http://www.sfgov.org/site/uploadedfiles/elections/Announcements/PR2008/February5_%202008UnofficialSummaryReport8_%20for_%20theCityandCountyofSanFrancisco.pdf (Unofficial Summary Report #8; page footer internally dated February 06 2008 3:31 PM - previously misdated to the wayback capture time)"
+   },
+   {
+    "date": "2008-02-08",
+    "days": 3,
+    "total": 241426,
+    "pct": 89.7,
+    "label": "Wayback Machine capture",
+    "citation": "DOE Election Summary page (live), 'Last Updated: February 8 2008 3:36 PM': ED 144,176 + VBM 97,250 = 241,426 (58.07% of registered) - https://web.archive.org/web/20080209085622/http://www.sfgov.org/site/elections_index.asp?id=70716 (stamp and figures verified against capture)"
+   },
+   {
+    "date": "2008-02-11",
+    "days": 6,
+    "total": 251150,
+    "pct": 93.3,
+    "label": "Wayback Machine capture",
+    "citation": "DOE Election Summary page (live), 'Last Updated: February 11 2008 3:06 PM': ED 144,176 + VBM 106,974 = 251,150 - https://web.archive.org/web/20080212033936/http://www.sfgov.org/site/elections_index.asp?id=70716"
+   },
+   {
+    "date": "2008-02-15",
+    "days": 10,
+    "total": 258249,
+    "pct": 95.9,
+    "label": "Wayback Machine capture",
+    "citation": "DOE Election Summary page (live), 'Last Updated: February 15 2008 1:52 PM': ED 149,786 + VBM 108,463 = 258,249 - https://web.archive.org/web/20080219032332/http://www.sfgov.org/site/elections_index.asp?id=70716"
+   },
+   {
+    "date": "2008-02-25",
+    "days": 20,
+    "total": 268704,
+    "pct": 99.8,
+    "label": "Wayback Machine capture",
+    "citation": "DOE Election Summary page (live), 'Last Updated: February 25 2008 2:38 PM': ED 158,681 + VBM 110,023 = 268,704 (certified final 269,212) - https://web.archive.org/web/20080226040322/http://www.sfgov.org/site/elections_index.asp?id=70716"
    }
   ]
  },

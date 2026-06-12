@@ -397,3 +397,37 @@ Open: 1964 senate-vs-DOE-split anomaly (needs 1964 SOV - not online; via
 HathiTrust or records request); 1977-08 (pct-only); 2009-05/2009-11 (zero
 Chronicle hits even with broad queries - likely web-era gap, DOE records
 request is the fix).
+
+### Session 2026-06-12, part 3 — section-B print boxes + wayback DOE summary pages
+
+Two veins (both user-instigated) filled most of the remaining 2000s gaps:
+
+Print results boxes (image edition, section B of the day-after paper):
+- 2008-02-05 NIGHT 63.1% (partial, 450/580) — Prop A 121,068/48,772, pct
+  validates exactly. Found by the user on p B3.
+- 2008-06-03 NIGHT 62.8% (partial, 515/580) — Prop A (SFUSD parcel tax)
+  75,599/33,012, pct validates. Found by the playbook sweep (pages 20-26,
+  pan-until-bottom, tesseract TSV word-coords to locate the SF column).
+
+Wayback DOE "Election Summary" pages (live-stamped, every figure
+re-verified against the capture before ingestion):
+- 2009-11-03 NIGHT 68.3% — complete 428/428 release stamped 10:14 PM.
+- 2009-05-19 d8 97.3% (was: zero observations).
+- 2008-06-03 d1 74.0% / d3 84.9% / d10 96.9% (was: zero observations).
+- 2008-02-05 d3 89.7% / d6 93.3% / d10 95.9% / d20 99.8%.
+
+Misdated-row correction: the existing 2008-02 "d6 81.4%" row (Unofficial
+Summary Report #8 PDF) was stamped with its wayback CAPTURE time; the
+PDF's own footer reads "February 06, 2008 3:31 PM" — it is a DAY-1
+report. Re-stamped; the 2008-02 curve is now monotone night 169,840 →
+d1 219,206 → d3 241,426 → d6 251,150 → d10 258,249 → d20 268,704 →
+certified 269,212. (Caught because the new verified d6 contradicted it —
+the arithmetic gates work on timestamps too.)
+
+Confirmed dry: 2004-03-02 (no wayback captures of any results page within
+21 days; print box not yet swept - TODO). Duplicates skipped: 2009-11 d3
+and 2002-12 d6/7 (already in dataset from the same sources).
+
+Remaining 2000s print-box sweep targets: 2002-12-11, 2004-03-03,
+2010-06-09, 2010-11-03, 2011-11-09, 2012-06-06, 2012-11-07 (+ night-of
+for 2000-11, 2004-11, 2005-11, 2006-06, 2006-11).
