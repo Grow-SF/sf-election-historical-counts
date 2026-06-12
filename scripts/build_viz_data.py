@@ -152,7 +152,9 @@ def main():
         # (339 of 551 precincts, chad-jammed punch cards) - the true
         # end-of-night share was higher; flag so the chart dims it and
         # keeps it out of the trend fit
-        night_partial = e in {"1995-12-12", "1976-11-02", "1973-11-06", "1974-06-04", "1978-06-06"}
+        # 2007-11-06: ES&S decertification kept every polling-place ballot out of
+        # the night release (48,104 absentee/early only) - operational one-off
+        night_partial = e in {"1995-12-12", "1976-11-02", "1973-11-06", "1974-06-04", "1978-06-06", "2007-11-06", "1968-11-05"}
         fin = max(rows, key=lambda r: r["total"])
         elections[e] = {
             "id": e,

@@ -2206,6 +2206,14 @@
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
    {
+    "date": "2007-11-07",
+    "days": 1,
+    "total": 48104,
+    "pct": 32.2,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'NEWSOM'S 2ND ACT' 2007-11-07 pA1 (11CC61605959E228): 'not a single ballot cast anywhere in the city Tuesday showed up in the vote totals released Tuesday night, which included only 48,104 absentee and early votes' - exact night release (ES&S decertification forced hand-check of all polling-place ballots before machine count)"
+   },
+   {
     "date": "2007-11-09",
     "days": 3,
     "total": 115901,
@@ -2470,6 +2478,14 @@
   "finalSource": "post-certification results page capture 2002-02-14 (75,267)",
   "observations": [
    {
+    "date": "2001-12-13",
+    "days": 2,
+    "total": 70244,
+    "pct": 93.3,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Record-low vote came at high price' 2001-12-13 pA20 (0F0626B2ED1F15FC): chart 'Ballots counted 70,244 / Voter turnout 15.47 percent' with '5,100 absentee and provisional ballots left to count' (70,244+5,100=75,344 ~ certified 75,267; Herrera/Lazarus pcts internally consistent)"
+   },
+   {
     "date": "2001-12-17",
     "days": 6,
     "total": 75248,
@@ -2580,6 +2596,14 @@
     "pct": 90.2,
     "label": "Wayback Machine capture",
     "citation": "SF Chronicle 2000-03-08 results table (wayback sfgate MN87716): Prop A 130,673 yes / 34,656 no published day 1 = 90.2% of certified Prop A votes (144,474+38,885=183,359, DOE SOV sf000307.xls); total = 0.902 * certified ballots - same-contest ratio estimate; https://web.archive.org/web/20001119153200/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/2000/03/08/MN87716.DTL"
+   },
+   {
+    "date": "2000-03-09",
+    "days": 2,
+    "total": 194229,
+    "pct": 92.4,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Academy of Sciences Bond Measure Too Close to Call' 2000-03-09 (0EB4F91262A37D59): 'about 16,000 more absentee and provisional ballots to first verify and count' - conservative floor, certified 210,229 - 16,000"
    }
   ]
  },
@@ -2992,6 +3016,22 @@
   ]
  },
  {
+  "id": "1981-11-03",
+  "name": "Consolidated Municipal Election",
+  "final": 99658,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1981-11-04",
+    "days": 1,
+    "total": 91078,
+    "pct": 91.4,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after SF VOTE table, 100% precincts reporting: Prop B (cable car fare) sum 91,078 (YES 56,505 + NO 34,573; printed 62/38 pcts validate) - conservative night floor (top-contest sum); exceeds certified precinct ballots 88,783 so night count included absentees; scan tbl_19811103_issue19811104_p19.png"
+   }
+  ]
+ },
+ {
   "id": "1980-11-04",
   "name": "Consolidated General Election",
   "final": 268070,
@@ -3040,6 +3080,22 @@
   ]
  },
  {
+  "id": "1977-11-08",
+  "name": "Consolidated Municipal Election",
+  "final": 175582,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1977-11-09",
+    "days": 1,
+    "total": 173555,
+    "pct": 98.8,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after 'Low Turnout' article (Jerry Burns): 'The final, unofficial results showed that just 51.2 percent of the city's 339,306 registered voters went to the polls' - conservative floor 0.5115 x 339,306 = 173,555 (rounding-safe); consistent with 912/912-precinct contest tables on same page (Prop E sum 162,150); scan flip_19771108_issue19771110_p4.png"
+   }
+  ]
+ },
+ {
   "id": "1976-11-02",
   "name": "Consolidated General Election",
   "final": 252932,
@@ -3052,6 +3108,22 @@
     "pct": 59.1,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1976-11-03 p3 'S.F. Results' box, MID-NIGHT PARTIAL 545 of 935 precincts: Carter 77,452 + Ford 63,186 + others 8,823 = 149,461 - partial night observation, true night-end higher; scan ...19761102_issue19761103_p3.png"
+   }
+  ]
+ },
+ {
+  "id": "1975-11-04",
+  "name": "Consolidated Municipal Election",
+  "final": 215559,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1975-11-05",
+    "days": 1,
+    "total": 209980,
+    "pct": 97.4,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after front-page scoreboard, 'Percent Precincts Reported: 99.19%' of 942: mayor contest sum 209,980 (Moscone 66,195 + Barbagelata 40,540 + Feinstein 39,344 + Ertola 30,360 + Marks 27,910 + 6 minor) - conservative night floor; exceeds certified precinct ballots 206,167 so night count included absentees; digits verified against narrative (Barbagelata-Feinstein gap 1,196 = 'about 1200 votes'); scan flip_19751104_issue19751106_p1.png"
    }
   ]
  },
@@ -3084,6 +3156,54 @@
     "pct": 57.9,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1973-11-07 'SF Vote Tally', COMPLETE 1,000/1,000 precincts: supervisors race, Feinstein 117,066 - single-candidate floor (each ballot votes a candidate at most once); scan tbl_19731106_issue19731107_p3.png"
+   }
+  ]
+ },
+ {
+  "id": "1972-11-07",
+  "name": "Consolidated General Election",
+  "final": 316803,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1972-11-08",
+    "days": 1,
+    "total": 292341,
+    "pct": 92.3,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after Vote Tally, 1308 of 1351 precincts: president sum 292,341 (McGovern 163,333 + Nixon 122,937 + Schmitz 3,579 + Spock 2,492) - conservative night floor; exceeds certified precinct ballots 289,010, so night count included some absentees; digits independently re-verified (corrected from first-pass OCR); scan flip_19721107_issue19721109_p8.png"
+   }
+  ]
+ },
+ {
+  "id": "1968-11-05",
+  "name": "Consolidated General Election",
+  "final": 307012,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1968-11-06",
+    "days": 1,
+    "total": 255938,
+    "pct": 83.4,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 'The Vote Tally' day-after paper, 1140 of 1282 precincts (press-deadline snapshot): president sum 255,938 (Humphrey 151,730 + Nixon 85,786 + Wallace 16,112 + Cleaver 2,310) - conservative night floor, partial precincts; digits independently re-verified; scan flip_19681105_issue19681107_p2.png"
+   }
+  ]
+ },
+ {
+  "id": "1964-11-03",
+  "name": "Consolidated General Election",
+  "final": 331612,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1964-11-04",
+    "days": 1,
+    "total": 310193,
+    "pct": 93.5,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 'The Vote Tally' day-after paper, 1341 of 1341 precincts: president sum 310,193 (Johnson 221,343 + Goldwater 88,850) - conservative night floor (top-contest sum); digits independently re-verified; senate line (Salinger 197,863 + Murphy 125,716 = 323,579) printed as-is but exceeds certified precinct ballots 313,134 - anomaly logged, not used; scan flip_19641103_issue19641105_p2.png"
    }
   ]
  },

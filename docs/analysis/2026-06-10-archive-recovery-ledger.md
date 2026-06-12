@@ -275,3 +275,84 @@ navigation) or accepts the floor-only status.
   stamp lives on the contest views).
 - Archival csv schema: stamp_kinds are capture-time | page-self-reported |
   minutes-stated | news-derived.
+
+## Session 2026-06-12 — flip round 2 + trailing re-harvest (post auth-wall fix)
+
+The 2026-06-11 ezproxy expiry poisoned two operations; both scripts now
+hard-abort (process.exit 2) on the SFPL auth page ('Articles and
+Databases - Authentication'). Re-run was clean: 61/61 trailing docs
+(corpus now 793), 148 day-after pages captured across all 12 round-2
+issues, zero auth garbage.
+
+### Ingested this session (data/sf_archival_canvass_points.csv)
+
+Trailing harvest (2000s):
+- 2000-03-07 d2 92.4% — floor, "16,000 more absentee and provisional"
+  (doc 0EB4F91262A37D59).
+- 2001-12-11 d2 93.3% — printed chart "Ballots counted 70,244"; internally
+  consistent (Herrera/Lazarus pcts; 70,244+5,100 ≈ certified 75,267).
+- 2007-11-06 NIGHT 32.2% — exact: "only 48,104 absentee and early votes"
+  released Tuesday night (ES&S decertification; every polling-place ballot
+  hand-checked). Marked night_partial (operational one-off, like 1995-12).
+
+Flip round 2 (the off-by-one fix worked — label E+2 = true day-after paper):
+- 1964-11-03 NIGHT 93.5% — president sum 310,193, 1341/1341 precincts.
+- 1968-11-05 NIGHT 83.4% — president sum 255,938 at 1140/1282 (press
+  deadline); marked night_partial.
+- 1972-11-07 NIGHT 92.3% — president sum 292,341, 1308/1351; > certified
+  precinct ballots 289,010 ⇒ night count included absentees.
+- 1975-11-04 NIGHT 97.4% — 11-candidate mayor sum 209,980 at 99.19% of 942
+  precincts; > precinct ballots 206,167 ⇒ absentees in night count;
+  Barbagelata−Feinstein gap 1,196 matches "about 1200 votes" narrative.
+- 1977-11-08 NIGHT 98.8% — PROSE: "final, unofficial results... 51.2
+  percent of the city's 339,306 registered voters"; rounding-safe floor
+  0.5115×339,306 = 173,555. Beats every contest sum (no undervote).
+- 1981-11-03 NIGHT 91.4% — Prop B (cable car fare) sum 91,078, 100%
+  reporting, pct-validated; > precinct ballots 88,783.
+
+Era finding: 1972/1975/1981 night sums each exceed the DOE precinct-ballot
+column ⇒ SF counted absentees ON election night through at least 1981.
+The in-person "diamond" floors for that era are therefore conservative in
+the right direction.
+
+### Rejected / not ingested (with reasons)
+
+- 2001-11-06 "almost 15,000 yet to be counted" (Nov 7 paper) — implies
+  ≥119,024 night, but the city's own page showed 115,477 at d2. Registrar
+  estimate too low; floor unsafe.
+- 1964 SENATE line (Salinger 197,863 + Murphy 125,716 = 323,579) — digits
+  re-verified as printed, but sum exceeds certified precinct ballots
+  313,134 while the president line fits precinct-only. Internal newspaper
+  inconsistency (senate > president). Logged, unused.
+- 1972-06 Dem-primary sum 132,109 (56.3%) and 1984-06 Prop 24 sum 135,327
+  (74.9%) — both below their in-person floors; recorded in readings only.
+- 1972-11 senate sum 278,365 (after digit corrections) — superseded by the
+  recovered full president line.
+- 1975-12 runoff — Dec 12 paper pages 1-3, 20 carry prose only ("about 66
+  per cent" turnout = final estimate, matches certified 66.42%; not a
+  count statement). Table location unknown; pages 4-19 OCR lack Moscone.
+- 1977-08 — district map prints percentages only, no absolute counts.
+
+### Verification protocol (worked; keep)
+
+Haiku readers (4 parallel + 1 sweep) transcribe with incremental CSVs →
+arithmetic gates vs DOE certified columns catch impossible sums (caught:
+"Moscone 661,495", Powell 264,424 > total ballots, 1964 senate) → Sonnet
+verifiers re-read load-bearing digit strings blind (corrected three 1972
+digits, recovered the McGovern line, found the 1977 turnout prose).
+Ingestion rule: a contest-sum floor only matters if it beats the
+in-person floor (precinct/certified); prose ballots-cast statements beat
+contest sums (no undervote).
+
+Readings: scans/readings_F..J.csv (haiku passes), readings_V1/V2.csv
+(sonnet verification), readings_R.csv (hi-res 1983/1976 re-read).
+Hi-res recaptures: scans/hi_*.png (2400×2600 window).
+
+### Still open after this session
+
+- 1983-04 recall totals (hi-res re-read in flight at ledger time).
+- 1976-06 Vote Tally (same).
+- 1975-12 runoff numbers — not in captured pages; would need full-issue
+  page-walk past p20 or SOV.
+- 1960s gaps: 1972-06 GOP primary line could beat its floor if a Republican
+  presidential sum is ever recovered; 1977-08 needs a different source.
