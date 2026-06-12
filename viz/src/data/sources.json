@@ -2878,6 +2878,14 @@
   "finalSource": "DOE turnout history 1960-2002 (certified)",
   "observations": [
    {
+    "date": "1999-11-03",
+    "days": 1,
+    "total": 103674,
+    "pct": 50.9,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'SLOW GOING AT CITY HALL' 1999-11-04 (and 'Ammiano Edges Ahead Of Jordan', same day): 'yesterday, the exhausted crew was sent home with roughly 100,000 ballots uncounted' - conservative day-1 floor 203,674 - 100,000; the write-in mayoral campaign forced hand counting (itemized: 64 of 646 precincts + ~33,000 absentee/write-in + ~9,000 provisional)"
+   },
+   {
     "date": "1999-11-05",
     "days": 3,
     "total": 184674,

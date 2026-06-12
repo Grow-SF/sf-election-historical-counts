@@ -486,3 +486,14 @@ STILL OPEN (no SF table doc in text archive; image sweep or records
 request): 1985-11, 1987-04, 1987-06, 1992-11, 1993-11, 1995-11
 (Brown-Jordan), 1996-03 night, 1999-11, 1999-12 night, 2002-12,
 2003-10, plus the five 2000s print-exhausted slots.
+
+### Session 2026-06-12, part 8 — 1999-11 and the county-series dead end
+
+1999-11 d1 50.9% floor ingested ('sent home with roughly 100,000
+ballots uncounted' - the Ammiano write-in hand-count). CONFIRMED: the
+SF edition of the Chronicle's county-by-county results series
+(1992-1999) is NOT in the NewsBank text archive (sibling counties all
+present; SF ran as a graphic). Remaining night/table gaps need image
+sweeps of specific day-after papers: 1985-11, 1987-04, 1987-06,
+1992-11, 1993-11, 1995-11, 1996-03(night), 1999-11(night), 1999-12,
+2002-12, 2003-10 - or the DOE records request.
