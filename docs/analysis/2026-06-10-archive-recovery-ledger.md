@@ -356,3 +356,44 @@ Hi-res recaptures: scans/hi_*.png (2400×2600 window).
   page-walk past p20 or SOV.
 - 1960s gaps: 1972-06 GOP primary line could beat its floor if a Republican
   presidential sum is ever recovered; 1977-08 needs a different source.
+
+### Session 2026-06-12, part 2 — user-verified digits, pan captures, runoff resolution
+
+User hand-verified the key scans: confirmed 1964 (incl. the senate
+anomaly as-printed), 1968, 1975-11, 1977-11; corrected 1972-11 precincts
+to 1300/1351 (was misread 1308).
+
+Pan-capture technique (mouse-drag the OSD canvas, 3 vertical slices/page)
+solved the cut-canvas problem - canvas captures only hold the visible
+viewport, so front-page ledes below the fold were systematically missing.
+
+New ingestions (part 2):
+- 1983-04-26 NIGHT 93.5% — front-page 'FINAL VOTE ON RECALL' box with
+  absentee/precinct split: 51,033 absentees counted ELECTION NIGHT of a
+  35%-absentee election. Rows/pcts fully internally consistent.
+- 1975-12-11 runoff NIGHT 99.0% — Moscone 101,528 / Barbagelata 97,213,
+  942/942, victory claimed 11:16 p.m. A 2.2-point race settled by
+  midnight: the sharpest old-vs-new contrast in the dataset.
+- 2001-11-06 d3 90.3%, 2002-03-05 d2 84.0% + d7 97.3%, 2008-11-04 NIGHT
+  65.0% — from the broadened 2000s harvest.
+
+RUNOFF DATE RESOLVED (and a method rule): the Dec 1975 runoff was held
+THURSDAY Dec 11, 1975 — masthead-verified: Thu 12/11 front page reads
+"S.F. Picks A Mayor Today"; Fri 12/12 carries full results. DOE's date
+was right; the Tuesday-law prior does not hold for this charter-era
+runoff. RULE: NewsBank issue labels are NOT uniformly offset from
+masthead dates (1983 label = masthead+1; 1975-12 label = masthead).
+Masthead-verify every issue before assigning observation dates.
+
+2000s harvest gap found by user pressure: the original trailing window
+started at E+2, skipping day-after papers entirely; query set too narrow.
+Re-harvest E+1..E+14 with 7 queries over 20 thin elections: 113 new docs
+(corpus 907). Rejected: 2010-11 "as many as 85,000 left" (implies 70.1%
+vs the city's own 67.0% at d3 - estimate too low); 2000-12-12 "early
+results showed about 30 percent went to the polls" (projection-vs-counted
+ambiguity; logged next to the CNN-2000 estimate thread).
+
+Open: 1964 senate-vs-DOE-split anomaly (needs 1964 SOV - not online; via
+HathiTrust or records request); 1977-08 (pct-only); 2009-05/2009-11 (zero
+Chronicle hits even with broad queries - likely web-era gap, DOE records
+request is the fix).

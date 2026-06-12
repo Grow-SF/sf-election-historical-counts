@@ -255,6 +255,10 @@ def main():
     # the table dates the Dec 2001 runoff "12/10/2001" - a Monday; the runoff
     # was Tuesday Dec 11 and the table's turnout (75,267) matches our
     # certified final for 2001-12-11 exactly
+    # the Dec 1975 runoff really was held Thursday December 11, 1975 - the
+    # rare non-Tuesday: masthead-verified, the Thu 12/11 Chronicle front page
+    # reads "S.F. Picks A Mayor Today" and the Fri 12/12 paper carries the
+    # results (Moscone 101,528 / Barbagelata 97,213, 942/942 precincts)
     DOE_TABLE_DATE_FIXES = {"2001-12-10": "2001-12-11"}
     doe_table = []
     with open(ROOT / "data" / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:

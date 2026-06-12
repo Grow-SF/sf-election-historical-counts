@@ -2174,6 +2174,14 @@
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
    {
+    "date": "2008-11-05",
+    "days": 1,
+    "total": 252112,
+    "pct": 65.0,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 2008-11-07 (1244FE3BB0477B58): 'As of Wednesday morning, San Francisco's Department of Elections reported having 136,000 ballots left to count' (provisional + mail-in + early; all in hand - 2008 VBM had to arrive by election day) - conservative night floor 388,112 - 136,000"
+   },
+   {
     "date": "2008-12-02",
     "days": 28,
     "total": 388112,
@@ -2454,12 +2462,28 @@
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
    {
+    "date": "2002-03-07",
+    "days": 2,
+    "total": 126249,
+    "pct": 84.0,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Leno, Britt wait for final S.F. tally' 2002-03-07 (0F21D7620CF4E17E): 'Approximately 20,000 absentee ballots remain to be counted citywide' (Haygood) - statement omits provisionals (~4,000 per 2002-03-08 article), so conservative floor 150,249 - 20,000 - 4,000"
+   },
+   {
     "date": "2002-03-08",
     "days": 3,
     "total": 129749,
     "pct": 86.4,
     "label": "SF Chronicle archive",
     "citation": "SF Chronicle 2002-03-08 'Leno widens lead over Britt' (sfchronicle.com/politics/article/2867971): '16,500 absentee ballots remained to be tallied citywide, plus 4,000 provisional' - conservative floor"
+   },
+   {
+    "date": "2002-03-12",
+    "days": 7,
+    "total": 146249,
+    "pct": 97.3,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Intricate ballot process challenged' 2002-03-12 (0F237E1FB4528843): 'About 4,000 ballots remain uncounted in San Francisco' - conservative floor 150,249 - 4,000"
    },
    {
     "date": "2002-04-02",
@@ -2516,6 +2540,14 @@
     "pct": 86.2,
     "label": "Wayback Machine capture",
     "citation": "https://web.archive.org/web/20011108070639/http://www.ci.sf.ca.us:80/election/results01/results.htm"
+   },
+   {
+    "date": "2001-11-09",
+    "days": 3,
+    "total": 121024,
+    "pct": 90.3,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'State looking at S.F. ballot oddities' 2001-11-09 (0EFAF2C92BE459E9): 'All precincts have reported, but approximately 13,000 absentee and provisional ballots must still be counted' - conservative floor 134,024 - 13,000"
    },
    {
     "date": "2001-11-11",
@@ -2984,6 +3016,22 @@
   ]
  },
  {
+  "id": "1983-04-26",
+  "name": "Special Recall Election",
+  "final": 167267,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1983-04-27",
+    "days": 1,
+    "total": 156312,
+    "pct": 93.5,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1983-04-27 front page 'FINAL VOTE ON RECALL' box: ABSENTEES 5,690 yes / 45,343 no; PRECINCTS 23,579 yes / 81,700 no; TOTALS 29,269 (18.8%) / 127,043 (81.2%) = 156,312 - night count incl. 51,033 absentees counted election night; internally consistent (rows sum, pcts validate); 'another 5000 absentee ballots, which arrived late at City Hall, will be counted today'; scans pan_19830426_issue19830428_p1_s1/s2.png"
+   }
+  ]
+ },
+ {
   "id": "1982-11-02",
   "name": "Consolidated General Election",
   "final": 238991,
@@ -3112,6 +3160,22 @@
   ]
  },
  {
+  "id": "1975-12-11",
+  "name": "Municipal Run-Off Election",
+  "final": 200804,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1975-12-12",
+    "days": 1,
+    "total": 198741,
+    "pct": 99.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), Friday 1975-12-12 front page (masthead-verified), 'Moscone Elected in Runoff - Close Margin of Victory', all 942 precincts: Moscone 101,528 + Barbagelata 97,213 = 198,741 - conservative night floor (mayor-contest sum); margin 4,315 = 2.2% matches 'less than three per cent'; victory claimed 11:16 p.m.; exceeds certified precinct ballots 190,741 so night count included absentees; election held Thursday Dec 11 1975 per election-day paper 'S.F. Picks A Mayor Today'; scans pan_19751211_issue19751212_p1_s*.png"
+   }
+  ]
+ },
+ {
   "id": "1975-11-04",
   "name": "Consolidated Municipal Election",
   "final": 215559,
@@ -3171,7 +3235,7 @@
     "total": 292341,
     "pct": 92.3,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after Vote Tally, 1308 of 1351 precincts: president sum 292,341 (McGovern 163,333 + Nixon 122,937 + Schmitz 3,579 + Spock 2,492) - conservative night floor; exceeds certified precinct ballots 289,010, so night count included some absentees; digits independently re-verified (corrected from first-pass OCR); scan flip_19721107_issue19721109_p8.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after Vote Tally, 1300 of 1351 precincts: president sum 292,341 (McGovern 163,333 + Nixon 122,937 + Schmitz 3,579 + Spock 2,492) - conservative night floor; exceeds certified precinct ballots 289,010, so night count included some absentees; digits independently re-verified (corrected from first-pass OCR); scan flip_19721107_issue19721109_p8.png"
    }
   ]
  },

@@ -365,6 +365,76 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1975-12-11",
+  "name": "Municipal Run-Off Election",
+  "kind": "Municipal",
+  "year": 1975,
+  "final": 200804,
+  "registered": 302344,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 99.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.25,
+    99.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1976-11-02",
   "name": "Consolidated General Election",
   "kind": "General",
@@ -773,6 +843,68 @@
    }
   },
   "nightSrc": null,
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1983-04-26",
+  "name": "Special Recall Election",
+  "kind": "Recall",
+  "year": 1983,
+  "final": 167267,
+  "registered": 354104,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 93.5,
+  "nightPartial": false,
+  "vbmShare": 32.6,
+  "pts": [
+   [
+    0.25,
+    93.5,
+    30.5,
+    62.9
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
@@ -2382,7 +2514,7 @@
   "registered": 452543,
   "source": "archival",
   "provisional": false,
-  "nReports": 4,
+  "nReports": 5,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
@@ -2390,6 +2522,12 @@
    [
     1.46,
     86.2,
+    null,
+    null
+   ],
+   [
+    2.5,
+    90.3,
     null,
     null
    ],
@@ -2446,12 +2584,12 @@
     "bound": true
    },
    "90": {
-    "days": 5,
-    "bound": true
+    "days": 3,
+    "bound": false
    },
    "95": {
     "days": 5,
-    "bound": true
+    "bound": false
    },
    "98": {
     "days": 7,
@@ -2560,14 +2698,26 @@
   "registered": 440016,
   "source": "archival",
   "provisional": false,
-  "nReports": 2,
+  "nReports": 4,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
+    1.5,
+    84.0,
+    null,
+    null
+   ],
+   [
     2.5,
     86.4,
+    null,
+    null
+   ],
+   [
+    6.5,
+    97.3,
     null,
     null
    ],
@@ -2580,43 +2730,43 @@
   ],
   "thresholds": {
    "50": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "55": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "60": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "65": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "70": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "75": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "80": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "85": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "90": {
-    "days": 28,
+    "days": 7,
     "bound": true
    },
    "95": {
-    "days": 28,
+    "days": 7,
     "bound": true
    },
    "98": {
@@ -2629,7 +2779,7 @@
    }
   },
   "nightSrc": null,
-  "srcShort": "SF Chronicle archive"
+  "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {
   "id": "2002-11-05",
@@ -3382,11 +3532,17 @@
   "registered": 477651,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
+  "nReports": 2,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.5,
+    65.0,
+    null,
+    null
+   ],
    [
     27.67,
     100.0,
@@ -3396,15 +3552,15 @@
   ],
   "thresholds": {
    "50": {
-    "days": 28,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 28,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 28,
+    "days": 1,
     "bound": true
    },
    "65": {
@@ -3445,7 +3601,7 @@
    }
   },
   "nightSrc": null,
-  "srcShort": "Elections Commission minutes"
+  "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {
   "id": "2009-11-03",
