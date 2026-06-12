@@ -1096,6 +1096,68 @@
   "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {
+  "id": "1986-11-04",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 1986,
+  "final": 236863,
+  "registered": 385847,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    1.5,
+    93.9,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 2,
+    "bound": true
+   },
+   "55": {
+    "days": 2,
+    "bound": true
+   },
+   "60": {
+    "days": 2,
+    "bound": true
+   },
+   "65": {
+    "days": 2,
+    "bound": true
+   },
+   "70": {
+    "days": 2,
+    "bound": true
+   },
+   "75": {
+    "days": 2,
+    "bound": true
+   },
+   "80": {
+    "days": 2,
+    "bound": true
+   },
+   "85": {
+    "days": 2,
+    "bound": true
+   },
+   "90": {
+    "days": 2,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+ },
+ {
   "id": "1987-04-07",
   "name": "Special Congressional Election",
   "kind": "Special",
@@ -1228,6 +1290,68 @@
    "95": {
     "days": 1,
     "bound": false
+   }
+  },
+  "nightSrc": "SF Chronicle via NewsBank (SFPL)",
+  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+ },
+ {
+  "id": "1987-12-08",
+  "name": "Municipal Run-Off Election",
+  "kind": "Municipal",
+  "year": 1987,
+  "final": 153720,
+  "registered": 380852,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 94.4,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.25,
+    94.4,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
    }
   },
   "nightSrc": "SF Chronicle via NewsBank (SFPL)",
@@ -3554,11 +3678,17 @@
   "registered": 428481,
   "source": "archival",
   "provisional": false,
-  "nReports": 5,
+  "nReports": 6,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    1.5,
+    70.2,
+    null,
+    null
+   ],
    [
     2.83,
     80.1,
@@ -3592,32 +3722,32 @@
   ],
   "thresholds": {
    "50": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "55": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "60": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "65": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "70": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "75": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 7,
@@ -3641,7 +3771,7 @@
    }
   },
   "nightSrc": null,
-  "srcShort": "doe-press-release"
+  "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {
   "id": "2006-06-06",
