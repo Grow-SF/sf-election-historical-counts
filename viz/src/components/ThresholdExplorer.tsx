@@ -38,12 +38,14 @@ export default function ThresholdExplorer({
   setThreshold,
   from,
   to,
+  kinds,
 }: {
   elections: Election[];
   threshold: number;
   setThreshold: (t: number) => void;
   from: number;
   to: number;
+  kinds: Set<string>;
 }) {
   const { hover, show, hide, hold, clear } = useGraceHover<{ cx: number; cy: number; p: Pt }>();
   // a hovered shape that unmounts on filter change never fires onMouseLeave
@@ -76,7 +78,7 @@ export default function ThresholdExplorer({
     // in-person floor (year-filtered only, like the floors in part one)
     for (const f of NIGHT_FLOOR) {
       const y = Number(f.date.slice(0, 4));
-      if (byDate.has(f.date) || y < from || y > to || f.floorPct < threshold) continue;
+      if (byDate.has(f.date) || y < from || y > to || f.floorPct < threshold || !kinds.has(f.kind)) continue;
       byDate.set(f.date, {
         x: yearFrac(f.date),
         y: 0,
@@ -96,7 +98,7 @@ export default function ThresholdExplorer({
       pts.filter((p) => !p.bound && !p.provisional).map((p) => [p.x, p.y]),
     );
     return { pts, fit };
-  }, [elections, threshold, from, to]);
+  }, [elections, threshold, from, to, kinds]);
 
   const trend =
     fit && [

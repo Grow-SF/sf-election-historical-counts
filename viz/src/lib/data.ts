@@ -25,7 +25,7 @@ export type Election = {
 
 export type VbmPoint = { date: string; share: number; source: string };
 
-export type FloorPoint = { date: string; floorPct: number; source: string };
+export type FloorPoint = { date: string; floorPct: number; source: string; kind: string };
 
 export const ELECTIONS = elections as unknown as Election[];
 export const VBM_HISTORY = vbmHistory as VbmPoint[];

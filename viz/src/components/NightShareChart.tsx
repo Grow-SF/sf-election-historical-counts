@@ -65,10 +65,12 @@ export default function NightShareChart({
   elections,
   from,
   to,
+  kinds,
 }: {
   elections: Election[];
   from: number;
   to: number;
+  kinds: Set<string>;
 }) {
   const { hover, show, hide, hold, clear } = useGraceHover<
     | { kind: "pt"; cx: number; cy: number; p: Pt }
@@ -104,9 +106,9 @@ export default function NightShareChart({
     () =>
       NIGHT_FLOOR.filter((p) => {
         const y = Number(p.date.slice(0, 4));
-        return y >= from && y <= to;
+        return y >= from && y <= to && kinds.has(p.kind);
       }).map((p) => ({ x: yearFrac(p.date), y: p.floorPct, date: p.date })),
-    [from, to],
+    [from, to, kinds],
   );
 
   // stem between an election's actual night share and its floor: the gap is

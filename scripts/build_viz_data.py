@@ -341,6 +341,17 @@ def main():
                 "date": r["election_date"],
                 "floorPct": round(100 * int(r["precinct"]) / int(r["ballots_cast"]), 1),
                 "source": "doe-turnout-table"}
+    # attach election kind so the charts can filter diamonds like dots
+    kind_by_id = {e["id"]: e["kind"] for e in out}
+    def kind_for_date(d):
+        y, m = d.split("-")[0], d.split("-")[1]
+        if m == "11":
+            return "General" if int(y) % 2 == 0 else "Municipal"
+        if m in ("03", "06"):
+            return "Primary"
+        return "Special"
+    for fp in floor.values():
+        fp["kind"] = kind_by_id.get(fp["date"]) or kind_for_date(fp["date"])
     fl = sorted(floor.values(), key=lambda x: x["date"])
     F = OUT.parent / "night_floor.json"
     F.write_text(json.dumps(fl, indent=1))

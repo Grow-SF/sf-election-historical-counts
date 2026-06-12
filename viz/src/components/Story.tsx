@@ -150,7 +150,7 @@ export default function Story() {
           </>
         }
       >
-        <NightShareChart elections={elections} from={state.from} to={state.to} />
+        <NightShareChart elections={elections} from={state.from} to={state.to} kinds={state.kinds} />
       </Section>
 
       <Section
@@ -178,6 +178,7 @@ export default function Story() {
           setThreshold={(t) => update({ threshold: t })}
           from={state.from}
           to={state.to}
+          kinds={state.kinds}
         />
       </Section>
 
