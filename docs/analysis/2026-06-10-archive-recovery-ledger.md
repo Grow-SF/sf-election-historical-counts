@@ -431,3 +431,15 @@ and 2002-12 d6/7 (already in dataset from the same sources).
 Remaining 2000s print-box sweep targets: 2002-12-11, 2004-03-03,
 2010-06-09, 2010-11-03, 2011-11-09, 2012-06-06, 2012-11-07 (+ night-of
 for 2000-11, 2004-11, 2005-11, 2006-06, 2006-11).
+
+### Session 2026-06-12, part 4 — parallel section-B sweeps (12 issues)
+
+Pre-located SF columns via tesseract TSV word coordinates and handed
+readers ready-made crops (no crop_helper fumbling). Ingested: 2004-03
+NIGHT 75.1% (Measure H 143,244, 577/577 - the wayback-dry election,
+print was its only source) and 2006-06 NIGHT 66.3% (Measure B 103,555,
+578/578). Rejected: 2012-06 "SF D5 supervisor Tissler 59,830" - that is
+San Mateo's District 5 (Tissier); SF had no June 2012 supervisor race.
+Sub-citywide contests (CD-8 2006/2010) recorded but can't beat in-person
+floors. Boxes NOT in swept ranges (second-pass targets): 2000-11,
+2002-12, 2004-11, 2005-11, 2006-11, 2010-06, 2010-11, 2012-06.

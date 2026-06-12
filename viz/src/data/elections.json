@@ -3088,11 +3088,17 @@
   "registered": 448948,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
+  "nReports": 2,
+  "nightPct": 75.1,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.25,
+    75.1,
+    null,
+    null
+   ],
    [
     22.67,
     100.0,
@@ -3102,27 +3108,27 @@
   ],
   "thresholds": {
    "50": {
-    "days": 23,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 23,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 23,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 23,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 23,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 23,
+    "days": 1,
     "bound": true
    },
    "80": {
@@ -3150,8 +3156,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "Elections Commission minutes"
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
   "id": "2004-11-02",
@@ -3346,11 +3352,17 @@
   "registered": 421094,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
+  "nReports": 2,
+  "nightPct": 66.3,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.25,
+    66.3,
+    null,
+    null
+   ],
    [
     26.67,
     100.0,
@@ -3360,19 +3372,19 @@
   ],
   "thresholds": {
    "50": {
-    "days": 27,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 27,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 27,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 27,
+    "days": 1,
     "bound": true
    },
    "70": {
@@ -3408,8 +3420,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "Elections Commission minutes"
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
   "id": "2006-11-07",

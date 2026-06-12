@@ -2366,6 +2366,14 @@
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
    {
+    "date": "2006-06-07",
+    "days": 1,
+    "total": 103555,
+    "pct": 66.3,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 2006-06-07 results box, SAN FRANCISCO column, 578 of 578 precincts reporting (complete night release): Measure B (eviction disclosure) YES 54,492 + NO 49,063 = 103,555 - conservative night floor (largest-contest sum; A/C/D sums 98,902-102,860 consistent); exceeds certified precinct ballots 81,132 so night count included VBM; scans cols/sweep_20060606_issue20060607_p22_*.png"
+   },
+   {
     "date": "2006-07-03",
     "days": 27,
     "total": 156272,
@@ -2461,6 +2469,14 @@
   "final": 190828,
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
+   {
+    "date": "2004-03-03",
+    "days": 1,
+    "total": 143244,
+    "pct": 75.1,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 2004-03-03 results box, SAN FRANCISCO column, 577 of 577 precincts reporting (complete night release): Measure H (public education fund) YES 101,657 + NO 41,587 = 143,244 - conservative night floor (largest-contest sum; Regional Measure 2 SF rows sum 138,893, consistent); exceeds certified precinct ballots 120,104 so night count included VBM; scans cols/sweep_20040302_issue20040303_p23_*.png"
+   },
    {
     "date": "2004-03-25",
     "days": 23,
