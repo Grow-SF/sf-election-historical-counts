@@ -2198,6 +2198,14 @@
   "finalSource": "https://elections.cdn.sos.ca.gov/sov/2008-primary/04_voter_stats_by_county_feb08.pdf",
   "observations": [
    {
+    "date": "2008-02-06",
+    "days": 1,
+    "total": 169840,
+    "pct": 63.1,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 2008-02-06 pB3 'BAY AREA ELECTION RESULTS' box, San Francisco column, 450 of 580 precincts reporting: Prop A sum 169,840 (YES 121,068 71.28% + NO 48,772; printed pct validates exactly) - conservative night floor, press-deadline partial; exceeds certified precinct ballots 158,995 so night count included absentees; scan pan7_20080205_issue20080206_pB3_s6.png"
+   },
+   {
     "date": "2008-02-11",
     "days": 6,
     "total": 219206,

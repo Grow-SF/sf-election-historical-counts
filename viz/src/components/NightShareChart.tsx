@@ -49,6 +49,8 @@ const PARTIAL_NOTES: Record<string, string> = {
     "mid-count snapshot (339 of 551 precincts, the chad-jam night) — the true end-of-night share was higher",
   "2007-11-06":
     "the night release held only absentee/early votes — the state had decertified the city's voting machines, so every polling-place ballot was counted in the days after",
+  "2008-02-05":
+    "press-deadline snapshot (450 of 580 precincts) — the true end-of-night share was higher",
 };
 
 export default function NightShareChart({

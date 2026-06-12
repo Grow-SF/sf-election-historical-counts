@@ -3544,11 +3544,17 @@
   "registered": 415761,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 63.1,
+  "nightPartial": true,
   "vbmShare": 34.2,
   "pts": [
+   [
+    0.25,
+    63.1,
+    null,
+    null
+   ],
    [
     6.08,
     81.4,
@@ -3558,15 +3564,15 @@
   ],
   "thresholds": {
    "50": {
-    "days": 6,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 6,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 6,
+    "days": 1,
     "bound": true
    },
    "65": {
@@ -3586,8 +3592,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "wayback-pdf-ocr"
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
   "id": "2008-11-04",
