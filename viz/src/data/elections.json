@@ -3976,11 +3976,17 @@
   "registered": 447985,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 64.7,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.25,
+    64.7,
+    null,
+    null
+   ],
    [
     1.83,
     71.5,
@@ -3990,28 +3996,28 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "65": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "70": {
     "days": 2,
-    "bound": true
+    "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "Wayback Machine capture"
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
   "id": "2010-11-02",
@@ -4174,11 +4180,17 @@
   "registered": 470668,
   "source": "archival",
   "provisional": false,
-  "nReports": 3,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 4,
+  "nightPct": 73.2,
+  "nightPartial": true,
   "vbmShare": 65.7,
   "pts": [
+   [
+    0.25,
+    73.2,
+    null,
+    null
+   ],
    [
     1.84,
     93.9,
@@ -4200,40 +4212,40 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "75": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 10,
@@ -4248,8 +4260,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "Wayback Machine capture"
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
   "id": "2012-11-06",

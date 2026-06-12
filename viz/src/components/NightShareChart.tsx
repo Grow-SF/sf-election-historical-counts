@@ -53,6 +53,10 @@ const PARTIAL_NOTES: Record<string, string> = {
     "press-deadline snapshot (450 of 580 precincts) — the true end-of-night share was higher",
   "2008-06-03":
     "press-deadline snapshot (515 of 580 precincts) — the true end-of-night share was higher",
+  "2010-06-08":
+    "press-deadline snapshot (statewide tables, 36% of precincts at press) — the true end-of-night share was higher",
+  "2012-06-05":
+    "press-deadline snapshot (statewide tables, 49% of precincts at press) — the true end-of-night share was higher",
 };
 
 export default function NightShareChart({

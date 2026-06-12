@@ -2038,6 +2038,14 @@
   "finalSource": "https://www.sfelections.org/results/20120605/",
   "observations": [
    {
+    "date": "2012-06-06",
+    "days": 1,
+    "total": 106273,
+    "pct": 73.2,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 2012-06-06 statewide proposition county tables, San Francisco row, Prop 29 (cigarette tax): YES 77,676 (73%) + NO 28,597 (27%) = 106,273, printed pcts validate - conservative night floor, press-deadline partial (49% precincts statewide at press); exceeds certified precinct ballots 49,779 so night count included VBM; scan cols/sweep_20120605_issue20120606_p11_s3_col1.png"
+   },
+   {
     "date": "2012-06-07",
     "days": 2,
     "total": 136285,
@@ -2133,6 +2141,14 @@
   "final": 155533,
   "finalSource": "https://sfelections.org/results/20100608/summary.php",
   "observations": [
+   {
+    "date": "2010-06-09",
+    "days": 1,
+    "total": 100698,
+    "pct": 64.7,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 2010-06-09 statewide proposition county tables, San Francisco row, Prop 16: YES 32,542 (32%) + NO 68,156 (68%) = 100,698, printed pcts validate - conservative night floor, press-deadline partial (36% precincts statewide at press); exceeds certified precinct ballots 63,607 so night count included VBM; scan cols/sweep_20100608_issue20100609_p13_s2_col0.png"
+   },
    {
     "date": "2010-06-10",
     "days": 2,

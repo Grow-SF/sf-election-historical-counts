@@ -443,3 +443,14 @@ San Mateo's District 5 (Tissier); SF had no June 2012 supervisor race.
 Sub-citywide contests (CD-8 2006/2010) recorded but can't beat in-person
 floors. Boxes NOT in swept ranges (second-pass targets): 2000-11,
 2002-12, 2004-11, 2005-11, 2006-11, 2010-06, 2010-11, 2012-06.
+
+### Session 2026-06-12, part 5 — second-pass sweeps close the print vein
+
+Pass 2 (widened ranges, 8 issues): 2010-06 NIGHT 64.7% (Prop 16 SF row,
+100,698) and 2012-06 NIGHT 73.2% (Prop 29 SF row, 106,273) - both from
+statewide-proposition county tables, pct-validated, press-deadline
+partials. 2004-11's box held only elect-4 pools (weaker than the
+existing 74.9% d0 release). PRINT VEIN NOW EXHAUSTED for: 2000-11,
+2002-12, 2005-11, 2006-11, 2010-11 (ranges swept: 20-40, 12-25, 12-26,
+18-33, 15-30 respectively; no SF results box found). Those five night
+slots are the remaining ask for the DOE records request.
