@@ -216,6 +216,24 @@ export default function NightShareChart({
           <ResponsiveContainer width="100%" height={360}>
             <ComposedChart margin={{ top: 12, right: 20, bottom: 8, left: 0 }}>
               <CartesianGrid stroke="var(--color-rule)" strokeDasharray="2 4" />
+              {from <= 2002 && to >= 2002 && (
+                // permanent vote-by-mail list opens to all voters (2002) -
+                // the structural break in the night-share trend
+                <ReferenceLine
+                  x={2002}
+                  stroke="var(--color-ink)"
+                  strokeWidth={1}
+                  strokeDasharray="5 4"
+                  opacity={0.45}
+                  label={{
+                    value: "2002 · permanent VBM list",
+                    position: "insideTopLeft",
+                    angle: -90,
+                    offset: 12,
+                    style: { fontFamily: "var(--font-mono)", fontSize: 10, fill: "var(--color-faint)" },
+                  }}
+                />
+              )}
               {from <= 2020 && to >= 2020 && (
                 // AB 860: every California voter mailed a ballot (Nov 2020)
                 <ReferenceLine
@@ -224,6 +242,13 @@ export default function NightShareChart({
                   strokeWidth={1.2}
                   strokeDasharray="5 4"
                   opacity={0.8}
+                  label={{
+                    value: "2020 · every voter mailed a ballot",
+                    position: "insideTopLeft",
+                    angle: -90,
+                    offset: 12,
+                    style: { fontFamily: "var(--font-mono)", fontSize: 10, fill: "var(--color-gold)" },
+                  }}
                 />
               )}
               <XAxis
