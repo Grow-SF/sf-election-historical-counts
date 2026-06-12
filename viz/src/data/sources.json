@@ -2368,6 +2368,22 @@
   ]
  },
  {
+  "id": "2003-12-09",
+  "name": "Municipal Run-Off Election",
+  "final": 253872,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2003-12-12",
+    "days": 3,
+    "total": 247890,
+    "pct": 97.6,
+    "label": "contemporary news report (live web)",
+    "citation": "Berkeley Daily Planet 2003-12-19 'Absentees Proved Crucial in Newsom's Victory': 'In the unofficial statement of vote released last Friday afternoon [2003-12-12], Newsom had 131,280 votes to 116,610 votes for Gonzalez' - conservative floor (mayor contest sum 247,890); 37% absentee share matches certified 35.9%; https://berkeleydailyplanet.com/issue/2003-12-19/article/17957"
+   }
+  ]
+ },
+ {
   "id": "2003-11-04",
   "name": "Consolidated Municipal Election",
   "final": 209723,

@@ -3014,6 +3014,72 @@
   "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {
+  "id": "2003-12-09",
+  "name": "Municipal Run-Off Election",
+  "kind": "Municipal",
+  "year": 2003,
+  "final": 253872,
+  "registered": 466127,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    2.83,
+    97.6,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 3,
+    "bound": true
+   },
+   "55": {
+    "days": 3,
+    "bound": true
+   },
+   "60": {
+    "days": 3,
+    "bound": true
+   },
+   "65": {
+    "days": 3,
+    "bound": true
+   },
+   "70": {
+    "days": 3,
+    "bound": true
+   },
+   "75": {
+    "days": 3,
+    "bound": true
+   },
+   "80": {
+    "days": 3,
+    "bound": true
+   },
+   "85": {
+    "days": 3,
+    "bound": true
+   },
+   "90": {
+    "days": 3,
+    "bound": true
+   },
+   "95": {
+    "days": 3,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "contemporary news report (live web)"
+ },
+ {
   "id": "2004-03-02",
   "name": "Consolidated Primary Election",
   "kind": "Primary",

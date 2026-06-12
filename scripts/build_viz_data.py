@@ -181,6 +181,7 @@ def main():
         "chronicle-subscription": "SF Chronicle archive",
         "newsbank-sfpl": "SF Chronicle via NewsBank (SFPL)",
         "newsbank-image-scan": "SF Chronicle page scan (NewsBank/SFPL)",
+        "web-news": "contemporary news report (live web)",
     }
     def short_label(r):
         if r["stamp_kind"] == "minutes-stated":
