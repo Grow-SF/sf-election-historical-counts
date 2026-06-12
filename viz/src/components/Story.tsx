@@ -85,9 +85,8 @@ function Footer() {
           </div>
           <div>
             <p>
-              Archival values are marked throughout: hollow points, dashed
-              lines, and “≤” bounds mean the truth is at or before the shown
-              value — a crawler’s snapshot, not a release schedule. Counts for
+              Recovered values are conservative: dashed marks and “≤” bounds
+              mean the truth is at or above/before the shown value. Counts for
               elections within ~32 days are provisional. “News-derived”
               points are conservative floors: the certified total minus the
               ballots a registrar told a reporter were still uncounted.
@@ -125,22 +124,10 @@ export default function Story() {
         intro={
           <p>
             In 1964, election night put 94% of the vote on the table. In 2004
-            it was three quarters. Since 2020 — when California started
-            mailing every voter a ballot, and voters learned they could hang
-            onto it until the last day — it has been barely half. The two
-            ringed points are races where the{" "}
-            <em>election-night leader lost</em>: the 2018 mayor’s race and a
-            2020 supervisor seat, both decided by ballots counted days later.
-            That is what losing election-night knowledge means in practice.
-            Small specials are noisy —{" "}
-            <button
-              onClick={() => update({ kinds: new Set(["General", "Municipal", "Primary"]) })}
-              className="border-b border-rust font-semibold text-rust hover:bg-rust/10"
-            >
-              show the regular elections
-            </button>{" "}
-            to see the trend cleanly (the 1980s–90s record lives in the
-            mayoral races, so keep municipals on).
+            it was three quarters. Since 2020 it has been barely half. The
+            ringed points are races the <em>election-night leader lost</em> —
+            the 2018 mayor’s race and a 2020 supervisor seat, decided by
+            ballots counted days later.
           </p>
         }
       >

@@ -100,32 +100,26 @@ export default function NightShareChart({
       <ChartFrame
         note={
           <>
-            <strong>How to read this chart:</strong> Each colored dot shows how
-            much of an election’s final vote was already counted by the end of
-            election night. (Hollow dots were recovered from old archives.)
-            Only elections whose actual night count is known get a dot —
-            about half the dataset; the rest have day-after-or-later records
-            and appear in the charts below.
-            Each grey diamond shows how much of that election’s vote was cast
-            in person at the polls. In-person votes always get counted on
-            election night, so a dot can never be lower than its diamond. The
-            dotted stem between them is mail that arrived early — early mail
-            gets counted on election night too. In 1964 almost everyone voted
-            in person, so election night showed 94% of the vote. Today most
-            people vote by mail, and mail that arrives late simply can’t be
-            counted that night. The gold line marks November 2020, when
-            California began mailing every voter a ballot; gold rings mark
-            races where the election-night leader went on to lose (hover
-            them). The one dim, dashed dot (December 1995) is a mid-count
-            snapshot — the chad-jam night — shown faintly because the real
-            end-of-night number was higher; it is left out of the trend. 2020–21 sit high because pandemic voters mailed ballots
-            weeks early; the elections since show the new normal — barely
-            half the vote on the board by midnight. Elections still being
-            counted are left out. The dashed trend line is fitted to the
-            colored dots only.
+            A dot can never sit below its diamond — in-person ballots are
+            counted on election night, and the dotted stem between them is
+            early-arriving mail, counted that night too. Gold line: November
+            2020, every voter mailed a ballot. Gold rings: the night’s leader
+            went on to lose (hover them). Dim dashed dots are mid-count
+            partials, excluded from the trend. Elections with only day-after
+            records appear in the charts below instead.
           </>
         }
       >
+        <div className="smallcaps mb-2 flex flex-wrap items-center gap-x-5 gap-y-1 text-faint">
+          <span className="flex items-center gap-1.5">
+            <svg width="11" height="11" aria-hidden><path d="M5.5 1 L10 5.5 L5.5 10 L1 5.5 Z" fill="none" stroke="var(--color-faint)" strokeWidth="1.2"/></svg>
+            in-person vote
+          </span>
+          <span className="flex items-center gap-1.5">
+            <svg width="12" height="12" aria-hidden><circle cx="6" cy="6" r="5" fill="var(--color-rust)"/></svg>
+            counted by election night (in-person + early mail)
+          </span>
+        </div>
         <div className="relative">
           {hover?.kind === "pt" && (
             <PointTooltip cx={hover.cx} cy={hover.cy}>
@@ -271,8 +265,6 @@ export default function NightShareChart({
                   const dot = payload.partial ? (
                     // mid-count partial: dim, dashed - a lower bound, not the night
                     <circle cx={cx} cy={cy} r={6.5} fill="var(--color-paper)" stroke={c} strokeWidth={1.5} strokeDasharray="3 3" opacity={0.35} {...common} />
-                  ) : payload.source === "archival" ? (
-                    <circle cx={cx} cy={cy} r={6.5} fill="var(--color-paper)" stroke={c} strokeWidth={2} {...common} />
                   ) : (
                     <circle cx={cx} cy={cy} r={6.5} fill={c} {...common} />
                   );
