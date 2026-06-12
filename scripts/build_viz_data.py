@@ -11,6 +11,8 @@ Output: viz/src/data/elections.json — one record per election with:
 import csv
 import datetime as dt
 import json
+import re
+import urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
@@ -187,6 +189,29 @@ def main():
         if r["stamp_kind"] == "minutes-stated":
             return "Elections Commission minutes"
         return EXTRACT_LABEL.get(r["extraction"], r["extraction"])
+
+    # readers with SFPL cards can open NewsBank pages directly - synthesize
+    # ezproxy links from docref IDs / issue labels embedded in citations
+    EZPROXY = "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref="
+    docref_file = ROOT / "data" / "newsbank_issue_docrefs.json"
+    ISSUE_DOCREFS = json.loads(docref_file.read_text()) if docref_file.exists() else {}
+
+    def link_citation(cite, extraction):
+        out = cite
+        if "ezproxy" not in out:
+            for did in re.findall(r"\((?:docref )?(?:news/)?([0-9A-F]{16})\)", out):
+                out += f" · read at SFPL: {EZPROXY}news/{did}"
+            m = re.search(r"image doc (v2:[^ ]+)", out)
+            if m:
+                out += f" · view the page scan at SFPL: {EZPROXY}image/{urllib.parse.quote(m.group(1))}"
+            elif extraction == "newsbank-image-scan":
+                mi = re.search(r"issue(\d{8})", out)
+                ref = ISSUE_DOCREFS.get(mi.group(1)) if mi else None
+                if ref:
+                    out += f" · view the scanned issue at SFPL (browse to the cited page): {EZPROXY}image/{urllib.parse.quote(ref)}"
+        # bare sfchronicle.com article refs -> absolute URLs for the linkifier
+        out = re.sub(r"(?<![/.\w])(sfchronicle\.com/[^\s)]+)", r"https://\1", out)
+        return out
     # per-election citations + short source labels for tooltips
     sources = []
     for e, rs in aby.items():
@@ -197,7 +222,7 @@ def main():
         for r in sorted(rs, key=lambda r: r["observed_at"]):
             o = {"date": r["observed_at"][:10], "days": int(r["days_since_election"]),
                  "total": int(r["ballots_counted_total"]), "pct": float(r["pct_of_final"]),
-                 "label": short_label(r), "citation": r["source_url"]}
+                 "label": short_label(r), "citation": link_citation(r["source_url"], r["extraction"])}
             obs.append(o)
             if dt.datetime.fromisoformat(r["observed_at"]) <= cutoff:
                 if night_best is None or o["total"] > night_best["total"]:

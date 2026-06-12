@@ -2203,7 +2203,7 @@
     "total": 252112,
     "pct": 65.0,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 2008-11-07 (1244FE3BB0477B58): 'As of Wednesday morning, San Francisco's Department of Elections reported having 136,000 ballots left to count' (provisional + mail-in + early; all in hand - 2008 VBM had to arrive by election day) - conservative night floor 388,112 - 136,000"
+    "citation": "SF Chronicle via NewsBank (SFPL), 2008-11-07 (1244FE3BB0477B58): 'As of Wednesday morning, San Francisco's Department of Elections reported having 136,000 ballots left to count' (provisional + mail-in + early; all in hand - 2008 VBM had to arrive by election day) - conservative night floor 388,112 - 136,000 \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1244FE3BB0477B58"
    },
    {
     "date": "2008-12-02",
@@ -2227,7 +2227,7 @@
     "total": 108611,
     "pct": 62.8,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 2008-06-04 results box, SAN FRANCISCO column, 515 of 580 precincts reporting: Prop A (SFUSD parcel tax) YES 75,599 (69.61) + NO 33,012 = 108,611, printed pct validates - conservative night floor, press-deadline partial; exceeds certified precinct ballots 83,441 so night count included VBM; scan sweep_20080603_issue20080604_p22_s2/s3.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 2008-06-04 results box, SAN FRANCISCO column, 515 of 580 precincts reporting: Prop A (SFUSD parcel tax) YES 75,599 (69.61) + NO 33,012 = 108,611, printed pct validates - conservative night floor, press-deadline partial; exceeds certified precinct ballots 83,441 so night count included VBM; scan sweep_20080603_issue20080604_p22_s2/s3.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-165E947404FEFE6D%402454622-165DE1B22EC9549E%401-165DE1B22EC9549E%40"
    },
    {
     "date": "2008-06-04",
@@ -2267,7 +2267,7 @@
     "total": 169840,
     "pct": 63.1,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 2008-02-06 pB3 'BAY AREA ELECTION RESULTS' box, San Francisco column, 450 of 580 precincts reporting: Prop A sum 169,840 (YES 121,068 71.28% + NO 48,772; printed pct validates exactly) - conservative night floor, press-deadline partial; exceeds certified precinct ballots 158,995 so night count included absentees; scan pan7_20080205_issue20080206_pB3_s6.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 2008-02-06 pB3 'BAY AREA ELECTION RESULTS' box, San Francisco column, 450 of 580 precincts reporting: Prop A sum 169,840 (YES 121,068 71.28% + NO 48,772; printed pct validates exactly) - conservative night floor, press-deadline partial; exceeds certified precinct ballots 158,995 so night count included absentees; scan pan7_20080205_issue20080206_pB3_s6.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-165E89B3A4AFDA8F%402454503-165DA33A617CD925%4016-165DA33A617CD925%40"
    },
    {
     "date": "2008-02-06",
@@ -2323,7 +2323,7 @@
     "total": 48104,
     "pct": 32.2,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 'NEWSOM'S 2ND ACT' 2007-11-07 pA1 (11CC61605959E228): 'not a single ballot cast anywhere in the city Tuesday showed up in the vote totals released Tuesday night, which included only 48,104 absentee and early votes' - exact night release (ES&S decertification forced hand-check of all polling-place ballots before machine count)"
+    "citation": "SF Chronicle via NewsBank (SFPL), 'NEWSOM'S 2ND ACT' 2007-11-07 pA1 (11CC61605959E228): 'not a single ballot cast anywhere in the city Tuesday showed up in the vote totals released Tuesday night, which included only 48,104 absentee and early votes' - exact night release (ES&S decertification forced hand-check of all polling-place ballots before machine count) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/11CC61605959E228"
    },
    {
     "date": "2007-11-09",
@@ -2331,7 +2331,7 @@
     "total": 115901,
     "pct": 77.5,
     "label": "SF Chronicle archive",
-    "citation": "SF Chronicle 2007-11-09 'Prop A pulls ahead' (sfchronicle.com/bayarea/article/3236738): '5 percent of polling place ballots still to be tallied [~3,564 of 71,276], about 25,000 uncounted absentee and 5,000 provisional remaining' - conservative floor"
+    "citation": "SF Chronicle 2007-11-09 'Prop A pulls ahead' (https://sfchronicle.com/bayarea/article/3236738): '5 percent of polling place ballots still to be tallied [~3,564 of 71,276], about 25,000 uncounted absentee and 5,000 provisional remaining' - conservative floor"
    },
    {
     "date": "2007-12-11",
@@ -2355,7 +2355,7 @@
     "total": 156441,
     "pct": 61.7,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 'LOCAL ELECTION RESULTS - San Francisco' 2006-11-09 pB7 (1154BE08AF2058A8): table 580/580 precincts, largest yes/no sum 156441 - conservative day-2 floor; first count observation for this election"
+    "citation": "SF Chronicle via NewsBank (SFPL), 'LOCAL ELECTION RESULTS - San Francisco' 2006-11-09 pB7 (1154BE08AF2058A8): table 580/580 precincts, largest yes/no sum 156441 - conservative day-2 floor; first count observation for this election \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1154BE08AF2058A8"
    }
   ]
  },
@@ -2371,7 +2371,7 @@
     "total": 103555,
     "pct": 66.3,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 2006-06-07 results box, SAN FRANCISCO column, 578 of 578 precincts reporting (complete night release): Measure B (eviction disclosure) YES 54,492 + NO 49,063 = 103,555 - conservative night floor (largest-contest sum; A/C/D sums 98,902-102,860 consistent); exceeds certified precinct ballots 81,132 so night count included VBM; scans cols/sweep_20060606_issue20060607_p22_*.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 2006-06-07 results box, SAN FRANCISCO column, 578 of 578 precincts reporting (complete night release): Measure B (eviction disclosure) YES 54,492 + NO 49,063 = 103,555 - conservative night floor (largest-contest sum; A/C/D sums 98,902-102,860 consistent); exceeds certified precinct ballots 81,132 so night count included VBM; scans cols/sweep_20060606_issue20060607_p22_*.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-165D82130AF4DEC4%402453894-165BE38518948B45%4073-165BE38518948B45%40"
    },
    {
     "date": "2006-07-03",
@@ -2475,7 +2475,7 @@
     "total": 143244,
     "pct": 75.1,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 2004-03-03 results box, SAN FRANCISCO column, 577 of 577 precincts reporting (complete night release): Measure H (public education fund) YES 101,657 + NO 41,587 = 143,244 - conservative night floor (largest-contest sum; Regional Measure 2 SF rows sum 138,893, consistent); exceeds certified precinct ballots 120,104 so night count included VBM; scans cols/sweep_20040302_issue20040303_p23_*.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 2004-03-03 results box, SAN FRANCISCO column, 577 of 577 precincts reporting (complete night release): Measure H (public education fund) YES 101,657 + NO 41,587 = 143,244 - conservative night floor (largest-contest sum; Regional Measure 2 SF rows sum 138,893, consistent); exceeds certified precinct ballots 120,104 so night count included VBM; scans cols/sweep_20040302_issue20040303_p23_*.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1659A7179286CE61%402453068-165949AD444E25A7%4016-165949AD444E25A7%40"
    },
    {
     "date": "2004-03-25",
@@ -2515,7 +2515,7 @@
     "total": 144723,
     "pct": 69.0,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 'Welcome change: Glitches few in S.F.' 2003-11-05 pA20: election night ended 'leaving 65,000 absentee ballots uncounted' - conservative night floor; consistent with 140,010 precinct + ~4,700 early absentees"
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Welcome change: Glitches few in S.F.' 2003-11-05 pA20 (0FEA3843DA7A9BC0): election night ended 'leaving 65,000 absentee ballots uncounted' - conservative night floor; consistent with 140,010 precinct + ~4,700 early absentees \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0FEA3843DA7A9BC0"
    },
    {
     "date": "2003-11-05",
@@ -2523,7 +2523,7 @@
     "total": 177650,
     "pct": 84.7,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 'ELECTION RESULTS - San Francisco' 2003-11-05 pA24 (0FEA384414F836E1): night table 562/562 precincts, mayor contest sum 177,650 (Newsom 73,635, Gonzalez 35,753, Alioto 28,493, Ammiano 18,717, Leal 14,718, Ribera 4,266 + minor) - conservative night floor; supersedes the looser '65,000 uncounted' narrative figure"
+    "citation": "SF Chronicle via NewsBank (SFPL), 'ELECTION RESULTS - San Francisco' 2003-11-05 pA24 (0FEA384414F836E1): night table 562/562 precincts, mayor contest sum 177,650 (Newsom 73,635, Gonzalez 35,753, Alioto 28,493, Ammiano 18,717, Leal 14,718, Ribera 4,266 + minor) - conservative night floor; supersedes the looser '65,000 uncounted' narrative figure \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0FEA384414F836E1"
    }
   ]
  },
@@ -2555,7 +2555,7 @@
     "total": 200102,
     "pct": 88.9,
     "label": "SF Chronicle archive",
-    "citation": "SF Chronicle 2002-11-08 'Close, but no cigar yet for Daly' (sfchronicle.com/politics/article/2756026): 'about 25,000 absentee and provisional ballots to count citywide' - conservative floor"
+    "citation": "SF Chronicle 2002-11-08 'Close, but no cigar yet for Daly' (https://sfchronicle.com/politics/article/2756026): 'about 25,000 absentee and provisional ballots to count citywide' - conservative floor"
    },
    {
     "date": "2002-11-12",
@@ -2603,7 +2603,7 @@
     "total": 126249,
     "pct": 84.0,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 'Leno, Britt wait for final S.F. tally' 2002-03-07 (0F21D7620CF4E17E): 'Approximately 20,000 absentee ballots remain to be counted citywide' (Haygood) - statement omits provisionals (~4,000 per 2002-03-08 article), so conservative floor 150,249 - 20,000 - 4,000"
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Leno, Britt wait for final S.F. tally' 2002-03-07 (0F21D7620CF4E17E): 'Approximately 20,000 absentee ballots remain to be counted citywide' (Haygood) - statement omits provisionals (~4,000 per 2002-03-08 article), so conservative floor 150,249 - 20,000 - 4,000 \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F21D7620CF4E17E"
    },
    {
     "date": "2002-03-08",
@@ -2611,7 +2611,7 @@
     "total": 129749,
     "pct": 86.4,
     "label": "SF Chronicle archive",
-    "citation": "SF Chronicle 2002-03-08 'Leno widens lead over Britt' (sfchronicle.com/politics/article/2867971): '16,500 absentee ballots remained to be tallied citywide, plus 4,000 provisional' - conservative floor"
+    "citation": "SF Chronicle 2002-03-08 'Leno widens lead over Britt' (https://sfchronicle.com/politics/article/2867971): '16,500 absentee ballots remained to be tallied citywide, plus 4,000 provisional' - conservative floor"
    },
    {
     "date": "2002-03-12",
@@ -2619,7 +2619,7 @@
     "total": 146249,
     "pct": 97.3,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 'Intricate ballot process challenged' 2002-03-12 (0F237E1FB4528843): 'About 4,000 ballots remain uncounted in San Francisco' - conservative floor 150,249 - 4,000"
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Intricate ballot process challenged' 2002-03-12 (0F237E1FB4528843): 'About 4,000 ballots remain uncounted in San Francisco' - conservative floor 150,249 - 4,000 \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F237E1FB4528843"
    },
    {
     "date": "2002-04-02",
@@ -2643,7 +2643,7 @@
     "total": 70244,
     "pct": 93.3,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 'Record-low vote came at high price' 2001-12-13 pA20 (0F0626B2ED1F15FC): chart 'Ballots counted 70,244 / Voter turnout 15.47 percent' with '5,100 absentee and provisional ballots left to count' (70,244+5,100=75,344 ~ certified 75,267; Herrera/Lazarus pcts internally consistent)"
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Record-low vote came at high price' 2001-12-13 pA20 (0F0626B2ED1F15FC): chart 'Ballots counted 70,244 / Voter turnout 15.47 percent' with '5,100 absentee and provisional ballots left to count' (70,244+5,100=75,344 ~ certified 75,267; Herrera/Lazarus pcts internally consistent) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F0626B2ED1F15FC"
    },
    {
     "date": "2001-12-17",
@@ -2683,7 +2683,7 @@
     "total": 121024,
     "pct": 90.3,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 'State looking at S.F. ballot oddities' 2001-11-09 (0EFAF2C92BE459E9): 'All precincts have reported, but approximately 13,000 absentee and provisional ballots must still be counted' - conservative floor 134,024 - 13,000"
+    "citation": "SF Chronicle via NewsBank (SFPL), 'State looking at S.F. ballot oddities' 2001-11-09 (0EFAF2C92BE459E9): 'All precincts have reported, but approximately 13,000 absentee and provisional ballots must still be counted' - conservative floor 134,024 - 13,000 \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EFAF2C92BE459E9"
    },
    {
     "date": "2001-11-11",
@@ -2739,7 +2739,7 @@
     "total": 277575,
     "pct": 85.7,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 'Absentee, Provisional Ballots Left to Count in S.F.' 2000-11-09 pA26 (docref news/0EB4F969E1C867F6): 'Late yesterday, the Department of Elections said it still had 46,456 ballots left to count' - conservative floor, certified minus stated remaining; article's 486,636 registered matches DOE table exactly"
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Absentee, Provisional Ballots Left to Count in S.F.' 2000-11-09 pA26 (docref news/0EB4F969E1C867F6): 'Late yesterday, the Department of Elections said it still had 46,456 ballots left to count' - conservative floor, certified minus stated remaining; article's 486,636 registered matches DOE table exactly \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F969E1C867F6"
    },
    {
     "date": "2000-11-12",
@@ -2747,7 +2747,7 @@
     "total": 314031,
     "pct": 96.9,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 'Prop. L Continues To Lose Ground As Tally Proceeds' 2000-11-13 pA17: 'about 10,000 ballots left to be counted' - conservative floor"
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Prop. L Continues To Lose Ground As Tally Proceeds' 2000-11-13 pA17 (0EB4F96B55873944): 'about 10,000 ballots left to be counted' - conservative floor \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F96B55873944"
    }
   ]
  },
@@ -2771,7 +2771,7 @@
     "total": 194229,
     "pct": 92.4,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 'Academy of Sciences Bond Measure Too Close to Call' 2000-03-09 (0EB4F91262A37D59): 'about 16,000 more absentee and provisional ballots to first verify and count' - conservative floor, certified 210,229 - 16,000"
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Academy of Sciences Bond Measure Too Close to Call' 2000-03-09 (0EB4F91262A37D59): 'about 16,000 more absentee and provisional ballots to first verify and count' - conservative floor, certified 210,229 - 16,000 \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F91262A37D59"
    }
   ]
  },
@@ -2795,7 +2795,7 @@
     "total": 224047,
     "pct": 98.2,
     "label": "SF Chronicle archive",
-    "citation": "SF Chronicle 1999-12-22 'Hallinan lead grows as count nears end' (sfchronicle.com/politics/article/3053708): 'Tuesday, about 4,000 provisional and 200 absentee ballots left' - conservative floor"
+    "citation": "SF Chronicle 1999-12-22 'Hallinan lead grows as count nears end' (https://sfchronicle.com/politics/article/3053708): 'Tuesday, about 4,000 provisional and 200 absentee ballots left' - conservative floor"
    }
   ]
  },
@@ -2851,7 +2851,7 @@
     "total": 174448,
     "pct": 97.5,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1997-06-04 (0EB4F7B76F4FACD0): absentees counted into predawn; 'won't start counting about 4,500 provisional ballots until 9 a.m. today' - conservative night floor; stadium-election all-nighter"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1997-06-04 (0EB4F7B76F4FACD0): absentees counted into predawn; 'won't start counting about 4,500 provisional ballots until 9 a.m. today' - conservative night floor; stadium-election all-nighter \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F7B76F4FACD0"
    }
   ]
  },
@@ -2867,7 +2867,7 @@
     "total": 158513,
     "pct": 89.0,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1996-03-28 (0EB4F73F7318D872): 'With all but a few provisional or disputed ballots counted yesterday, Proposition B had 105,336... 53,177 against' - conservative floor (top-contest sum)"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1996-03-28 (0EB4F73F7318D872): 'With all but a few provisional or disputed ballots counted yesterday, Proposition B had 105,336... 53,177 against' - conservative floor (top-contest sum) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F73F7318D872"
    }
   ]
  },
@@ -2883,7 +2883,7 @@
     "total": 135231,
     "pct": 68.2,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1995-12-13 (0EB4F70FC8AEDEDE): MID-NIGHT partial, 339 of 551 precincts: Brown 73,403 / Jordan 61,828 - conservative floor; true night-end higher (power-era punch-card delays)"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1995-12-13 (0EB4F70FC8AEDEDE): MID-NIGHT partial, 339 of 551 precincts: Brown 73,403 / Jordan 61,828 - conservative floor; true night-end higher (power-era punch-card delays) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F70FC8AEDEDE"
    }
   ]
  },
@@ -2899,7 +2899,7 @@
     "total": 195267,
     "pct": 90.1,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1995-11-10 (0EB4F6FF665242DA): results table 'totals as of yesterday, with some absentee ballots still to be counted', 543/543 precincts, mayor sum 195,267 - conservative floor"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1995-11-10 (0EB4F6FF665242DA): results table 'totals as of yesterday, with some absentee ballots still to be counted', 543/543 precincts, mayor sum 195,267 - conservative floor \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F6FF665242DA"
    },
    {
     "date": "1995-11-10",
@@ -2907,7 +2907,7 @@
     "total": 206735,
     "pct": 95.4,
     "label": "SF Chronicle archive",
-    "citation": "SF Chronicle 1995-11-10 'registrar operating under a cloud' (sfchronicle.com/news/article/3121516): 'roughly 10,000 absentee ballots left to count' - conservative floor, certified minus stated remaining"
+    "citation": "SF Chronicle 1995-11-10 'registrar operating under a cloud' (https://sfchronicle.com/news/article/3121516): 'roughly 10,000 absentee ballots left to count' - conservative floor, certified minus stated remaining"
    }
   ]
  },
@@ -2923,7 +2923,7 @@
     "total": 239669,
     "pct": 96.0,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 'S.F. Voters Pass Bond Measure For Art Museum' 1994-11-10 pB5: 'registrar officials said about 10,000 absentee ballots were still uncounted'; companion piece itemizes 6,000 absentee + 4,000 provisional - conservative floor"
+    "citation": "SF Chronicle via NewsBank (SFPL), 'S.F. Voters Pass Bond Measure For Art Museum' 1994-11-10 pB5 (0EB4F63B2FFC6F2B): 'registrar officials said about 10,000 absentee ballots were still uncounted'; companion piece itemizes 6,000 absentee + 4,000 provisional - conservative floor \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F63B2FFC6F2B"
    }
   ]
  },
@@ -2939,7 +2939,7 @@
     "total": 110974,
     "pct": 81.9,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1994-06-09 (0EB4F5EC914918D5): night table 551/551 precincts, Prop A 76,181 yes / 34,793 no - conservative night floor (top-contest sum)"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1994-06-09 (0EB4F5EC914918D5): night table 551/551 precincts, Prop A 76,181 yes / 34,793 no - conservative night floor (top-contest sum) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F5EC914918D5"
    }
   ]
  },
@@ -2955,7 +2955,7 @@
     "total": 79338,
     "pct": 93.6,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1993-06-16 (0EB4F5238AE9867C): night count Prop A 58,495 yes / 20,843 no - conservative night floor (top-contest sum)"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1993-06-16 (0EB4F5238AE9867C): night count Prop A 58,495 yes / 20,843 no - conservative night floor (top-contest sum) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F5238AE9867C"
    }
   ]
  },
@@ -2971,7 +2971,7 @@
     "total": 189366,
     "pct": 87.8,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1991-12-11 (13E41D5657CC3578): night table 627/627 precincts, Jordan 98,491 / Agnos 90,875 - conservative night floor (mayor-contest sum)"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1991-12-11 (13E41D5657CC3578): night table 627/627 precincts, Jordan 98,491 / Agnos 90,875 - conservative night floor (mayor-contest sum) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/13E41D5657CC3578"
    },
    {
     "date": "1991-12-17",
@@ -2979,7 +2979,7 @@
     "total": 215751,
     "pct": 100.0,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1991-12-18 (13E41D5271A05880): 'The official tally released yesterday... include[s] contested ballots not counted on election day' - count complete day 7"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1991-12-18 (13E41D5271A05880): 'The official tally released yesterday... include[s] contested ballots not counted on election day' - count complete day 7 \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/13E41D5271A05880"
    }
   ]
  },
@@ -2995,7 +2995,7 @@
     "total": 187990,
     "pct": 93.6,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1991-11-06 (13E41D6D56423A18): night table 628/628 precincts, mayor contest sum 187,990 (Jordan 59,928, Agnos 51,714, Alioto 34,910, Hsieh 18,241, Hongisto 17,663 + minor) - conservative night floor"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1991-11-06 (13E41D6D56423A18): night table 628/628 precincts, mayor contest sum 187,990 (Jordan 59,928, Agnos 51,714, Alioto 34,910, Hsieh 18,241, Hongisto 17,663 + minor) - conservative night floor \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/13E41D6D56423A18"
    }
   ]
  },
@@ -3011,7 +3011,7 @@
     "total": 234413,
     "pct": 99.2,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1990-11-09 (0EB4F2D1A68C546B): headline '2,000 ballots remain to be examined in San Francisco' - conservative floor"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1990-11-09 (0EB4F2D1A68C546B): headline '2,000 ballots remain to be examined in San Francisco' - conservative floor \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F2D1A68C546B"
    }
   ]
  },
@@ -3027,7 +3027,7 @@
     "total": 160989,
     "pct": 99.4,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1990-06-09 (0EB4F2776A49A703): citywide judge race 'about 1,000 left to count' by late June 8 - conservative floor"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1990-06-09 (0EB4F2776A49A703): citywide judge race 'about 1,000 left to count' by late June 8 - conservative floor \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F2776A49A703"
    }
   ]
  },
@@ -3043,7 +3043,7 @@
     "total": 171210,
     "pct": 94.1,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1989-11-08 (0EB4F1E1F451DBA3): night results table 621/621 precincts, Prop P China Basin Ballpark 84,618 yes / 86,592 no (the measure that lost by 1,974) - top-contest sum is a conservative night floor"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1989-11-08 (0EB4F1E1F451DBA3): night results table 621/621 precincts, Prop P China Basin Ballpark 84,618 yes / 86,592 no (the measure that lost by 1,974) - top-contest sum is a conservative night floor \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F1E1F451DBA3"
    }
   ]
  },
@@ -3059,7 +3059,7 @@
     "total": 252097,
     "pct": 86.3,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1988-11-10 (0EB4F0EB158C3BF3): election-night state 'with most votes counted, except about 40,000 absentee ballots' - conservative night floor"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1988-11-10 (0EB4F0EB158C3BF3): election-night state 'with most votes counted, except about 40,000 absentee ballots' - conservative night floor \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F0EB158C3BF3"
    },
    {
     "date": "1988-11-09",
@@ -3067,7 +3067,7 @@
     "total": 289597,
     "pct": 99.1,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1988-11-10 (0EB4F0EB2983145D): figures 'announced late yesterday afternoon... did not include about 2,500 absentee ballots still to be counted' - conservative floor; 40,000 absentees counted in one day"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1988-11-10 (0EB4F0EB2983145D): figures 'announced late yesterday afternoon... did not include about 2,500 absentee ballots still to be counted' - conservative floor; 40,000 absentees counted in one day \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F0EB2983145D"
    }
   ]
  },
@@ -3083,7 +3083,7 @@
     "total": 188850,
     "pct": 97.5,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1987-11-05 (0EB4EFBFBAB11E9B): 'Yesterday he [Registrar Patterson] reported that 188,850 votes were cast Tuesday' - registrar day-1 count"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1987-11-05 (0EB4EFBFBAB11E9B): 'Yesterday he [Registrar Patterson] reported that 188,850 votes were cast Tuesday' - registrar day-1 count \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EFBFBAB11E9B"
    }
   ]
  },
@@ -3099,7 +3099,7 @@
     "total": 108563,
     "pct": 97.3,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 1987-04-09 (docref 0EB4EF2D8E65D869): 'An analysis of the 108,563 votes cast Tuesday' - single-contest special, contest count ~= ballots"
+    "citation": "SF Chronicle via NewsBank (SFPL), 1987-04-09 (docref 0EB4EF2D8E65D869): 'An analysis of the 108,563 votes cast Tuesday' - single-contest special, contest count ~= ballots \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EF2D8E65D869"
    }
   ]
  },
@@ -3115,7 +3115,7 @@
     "total": 142480,
     "pct": 97.3,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 'Feinstein's Name Failed To Carry Her Big Issues' 1986-06-05 p1: 'Registrar of Voters Jay Patterson said about 4000 absentee ballots have yet to be counted' - conservative floor"
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Feinstein's Name Failed To Carry Her Big Issues' 1986-06-05 p1 (0EB4EE0DD33808C9): 'Registrar of Voters Jay Patterson said about 4000 absentee ballots have yet to be counted' - conservative floor \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EE0DD33808C9"
    }
   ]
  },
@@ -3147,7 +3147,7 @@
     "total": 142709,
     "pct": 83.6,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle 1983-11-09 p24 'S.F. VOTE' table, 100% precincts reporting: Prop A (Recall Election) 106,762 yes / 35,947 no = 142,709 - conservative night floor (top-contest sum; PCT column 75/25 validates); NewsBank image scan mirror/newsbank/scans/19831108_issue19831109_p23.png via SFPL, read 2026-06-11"
+    "citation": "SF Chronicle 1983-11-09 p24 'S.F. VOTE' table, 100% precincts reporting: Prop A (Recall Election) 106,762 yes / 35,947 no = 142,709 - conservative night floor (top-contest sum; PCT column 75/25 validates); NewsBank image scan mirror/newsbank/scans/19831108_issue19831109_p23.png via SFPL, read 2026-06-11 \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-15262768CCC17B73%402445648-151F8E0CB49B2AC2%4065-151F8E0CB49B2AC2%40"
    }
   ]
  },
@@ -3163,7 +3163,7 @@
     "total": 156312,
     "pct": 93.5,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1983-04-27 front page 'FINAL VOTE ON RECALL' box: ABSENTEES 5,690 yes / 45,343 no; PRECINCTS 23,579 yes / 81,700 no; TOTALS 29,269 (18.8%) / 127,043 (81.2%) = 156,312 - night count incl. 51,033 absentees counted election night; internally consistent (rows sum, pcts validate); 'another 5000 absentee ballots, which arrived late at City Hall, will be counted today'; scans pan_19830426_issue19830428_p1_s1/s2.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1983-04-27 front page 'FINAL VOTE ON RECALL' box: ABSENTEES 5,690 yes / 45,343 no; PRECINCTS 23,579 yes / 81,700 no; TOTALS 29,269 (18.8%) / 127,043 (81.2%) = 156,312 - night count incl. 51,033 absentees counted election night; internally consistent (rows sum, pcts validate); 'another 5000 absentee ballots, which arrived late at City Hall, will be counted today'; scans pan_19830426_issue19830428_p1_s1/s2.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-15305965CF4123EB%402445452-151FC6BAF53B44A8%403-151FC6BAF53B44A8%40"
    }
   ]
  },
@@ -3179,7 +3179,7 @@
     "total": 230991,
     "pct": 96.7,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1982-11-03 p4 'Nelder Leads the Pack in S.F. Supervisors Race': 'With all the votes cast yesterday counted...' / 'The race probably will not be decided until 8,000 absentee ballots, turned in at polling places yesterday, are counted later this week' - conservative floor, certified minus stated remaining; scan ...19821102_issue19821103_p4.png, verified 2026-06-11"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1982-11-03 p4 'Nelder Leads the Pack in S.F. Supervisors Race': 'With all the votes cast yesterday counted...' / 'The race probably will not be decided until 8,000 absentee ballots, turned in at polling places yesterday, are counted later this week' - conservative floor, certified minus stated remaining; scan ...19821102_issue19821103_p4.png, verified 2026-06-11 \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151FE87234C23702%402445277-151F815D4C48149F%4055-151F815D4C48149F%40"
    }
   ]
  },
@@ -3195,7 +3195,7 @@
     "total": 93431,
     "pct": 53.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1982-06-10 'S.F. VOTE' box, '100% of vote': Democratic governor primary sum 93,431 (Bradley 58,923, Garamendi 25,936 + minor; PCT validates) - party-subset conservative floor; scan tbl_19820608_issue19820610_p7.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1982-06-10 'S.F. VOTE' box, '100% of vote': Democratic governor primary sum 93,431 (Bradley 58,923, Garamendi 25,936 + minor; PCT validates) - party-subset conservative floor; scan tbl_19820608_issue19820610_p7.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151F9BE9EBE5DCD8%402445131-151D4E0418EA1308%4059-151D4E0418EA1308%40"
    }
   ]
  },
@@ -3211,7 +3211,7 @@
     "total": 91078,
     "pct": 91.4,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after SF VOTE table, 100% precincts reporting: Prop B (cable car fare) sum 91,078 (YES 56,505 + NO 34,573; printed 62/38 pcts validate) - conservative night floor (top-contest sum); exceeds certified precinct ballots 88,783 so night count included absentees; scan tbl_19811103_issue19811104_p19.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after SF VOTE table, 100% precincts reporting: Prop B (cable car fare) sum 91,078 (YES 56,505 + NO 34,573; printed 62/38 pcts validate) - conservative night floor (top-contest sum); exceeds certified precinct ballots 88,783 so night count included absentees; scan tbl_19811103_issue19811104_p19.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1514C0410844E497%402444913-1514602904B4FAC9%40123-1514602904B4FAC9%40"
    }
   ]
  },
@@ -3227,7 +3227,7 @@
     "total": 249291,
     "pct": 93.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1980-11-05 'S.F. VOTE' box, 100% precincts: presidential sum 249,291 (Carter 131,103, Reagan 78,962, Anderson 28,880, Commoner 5,098, Clark 4,019 + minor; PCT validates) - conservative night floor; scan tbl_19801104_issue19801105_p4.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1980-11-05 'S.F. VOTE' box, 100% precincts: presidential sum 249,291 (Carter 131,103, Reagan 78,962, Anderson 28,880, Commoner 5,098, Clark 4,019 + minor; PCT validates) - conservative night floor; scan tbl_19801104_issue19801105_p4.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1516EB5317B50A65%402444549-151658734F7F1837%4068-151658734F7F1837%40"
    }
   ]
  },
@@ -3243,7 +3243,7 @@
     "total": 192462,
     "pct": 93.9,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1979-11-07/08 'COMPLETE S.F. VOTE' box, 100% precincts: mayor sum 192,462 (Feinstein 81,115, Kopp 77,784, Scott 18,506, Biafra 6,591 + minor; PCT column validates) - conservative night floor; scan tbl_19791106_issue19791108_p3.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1979-11-07/08 'COMPLETE S.F. VOTE' box, 100% precincts: mayor sum 192,462 (Feinstein 81,115, Kopp 77,784, Scott 18,506, Biafra 6,591 + minor; PCT column validates) - conservative night floor; scan tbl_19791106_issue19791108_p3.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-153887E6D4AC36C3%402444186-153683F2AEDB7393%4023-153683F2AEDB7393%40"
    }
   ]
  },
@@ -3259,7 +3259,7 @@
     "total": 95129,
     "pct": 46.6,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1978-06-07 'S.F. VOTE', PARTIAL 81.3% of 912 precincts: Democratic governor primary sum 95,129 (Brown 80,761 + others) - party-subset mid-night partial floor; scan tbl_19780606_issue19780607_p5.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1978-06-07 'S.F. VOTE', PARTIAL 81.3% of 912 precincts: Democratic governor primary sum 95,129 (Brown 80,761 + others) - party-subset mid-night partial floor; scan tbl_19780606_issue19780607_p5.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1536B59E39E22867%402443667-1533FADA34CF8813%4088-1533FADA34CF8813%40"
    }
   ]
  },
@@ -3275,7 +3275,7 @@
     "total": 173555,
     "pct": 98.8,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after 'Low Turnout' article (Jerry Burns): 'The final, unofficial results showed that just 51.2 percent of the city's 339,306 registered voters went to the polls' - conservative floor 0.5115 x 339,306 = 173,555 (rounding-safe); consistent with 912/912-precinct contest tables on same page (Prop E sum 162,150); scan flip_19771108_issue19771110_p4.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after 'Low Turnout' article (Jerry Burns): 'The final, unofficial results showed that just 51.2 percent of the city's 339,306 registered voters went to the polls' - conservative floor 0.5115 x 339,306 = 173,555 (rounding-safe); consistent with 912/912-precinct contest tables on same page (Prop E sum 162,150); scan flip_19771108_issue19771110_p4.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1533F0109C5DDAA6%402443457-15328F77567C73C1%403-15328F77567C73C1%40"
    }
   ]
  },
@@ -3291,7 +3291,7 @@
     "total": 149461,
     "pct": 59.1,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1976-11-03 p3 'S.F. Results' box, MID-NIGHT PARTIAL 545 of 935 precincts: Carter 77,452 + Ford 63,186 + others 8,823 = 149,461 - partial night observation, true night-end higher; scan ...19761102_issue19761103_p3.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1976-11-03 p3 'S.F. Results' box, MID-NIGHT PARTIAL 545 of 935 precincts: Carter 77,452 + Ford 63,186 + others 8,823 = 149,461 - partial night observation, true night-end higher; scan ...19761102_issue19761103_p3.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1567B33B51880894%402443086-15675E4CB1B37F81%4049-15675E4CB1B37F81%40"
    }
   ]
  },
@@ -3307,7 +3307,7 @@
     "total": 198741,
     "pct": 99.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), Friday 1975-12-12 front page (masthead-verified), 'Moscone Elected in Runoff - Close Margin of Victory', all 942 precincts: Moscone 101,528 + Barbagelata 97,213 = 198,741 - conservative night floor (mayor-contest sum); margin 4,315 = 2.2% matches 'less than three per cent'; victory claimed 11:16 p.m.; exceeds certified precinct ballots 190,741 so night count included absentees; election held Thursday Dec 11 1975 per election-day paper 'S.F. Picks A Mayor Today'; scans pan_19751211_issue19751212_p1_s*.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), Friday 1975-12-12 front page (masthead-verified), 'Moscone Elected in Runoff - Close Margin of Victory', all 942 precincts: Moscone 101,528 + Barbagelata 97,213 = 198,741 - conservative night floor (mayor-contest sum); margin 4,315 = 2.2% matches 'less than three per cent'; victory claimed 11:16 p.m.; exceeds certified precinct ballots 190,741 so night count included absentees; election held Thursday Dec 11 1975 per election-day paper 'S.F. Picks A Mayor Today'; scans pan_19751211_issue19751212_p1_s*.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1514B112D5BAEFED%402442759-1514047D9EDE0AA7%4019-1514047D9EDE0AA7%40"
    }
   ]
  },
@@ -3323,7 +3323,7 @@
     "total": 209980,
     "pct": 97.4,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after front-page scoreboard, 'Percent Precincts Reported: 99.19%' of 942: mayor contest sum 209,980 (Moscone 66,195 + Barbagelata 40,540 + Feinstein 39,344 + Ertola 30,360 + Marks 27,910 + 6 minor) - conservative night floor; exceeds certified precinct ballots 206,167 so night count included absentees; digits verified against narrative (Barbagelata-Feinstein gap 1,196 = 'about 1200 votes'); scan flip_19751104_issue19751106_p1.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after front-page scoreboard, 'Percent Precincts Reported: 99.19%' of 942: mayor contest sum 209,980 (Moscone 66,195 + Barbagelata 40,540 + Feinstein 39,344 + Ertola 30,360 + Marks 27,910 + 6 minor) - conservative night floor; exceeds certified precinct ballots 206,167 so night count included absentees; digits verified against narrative (Barbagelata-Feinstein gap 1,196 = 'about 1200 votes'); scan flip_19751104_issue19751106_p1.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1514C0BA3874F03C%402442722-1514042FD3C32AF8%403-1514042FD3C32AF8%40"
    }
   ]
  },
@@ -3339,7 +3339,7 @@
     "total": 89229,
     "pct": 44.9,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1974-06-05 'SF Vote Tally', PARTIAL 815 of 1,356 precincts: Prop A (Elective BART Board) 55,698 yes / 33,531 no = 89,229 - mid-night partial floor; scan tbl_19740604_issue19740605_p1.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1974-06-05 'SF Vote Tally', PARTIAL 815 of 1,356 precincts: Prop A (Elective BART Board) 55,698 yes / 33,531 no = 89,229 - mid-night partial floor; scan tbl_19740604_issue19740605_p1.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151A9B7C1498A16D%402442204-15149EC22807E700%4057-15149EC22807E700%40"
    }
   ]
  },
@@ -3355,7 +3355,7 @@
     "total": 117066,
     "pct": 57.9,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1973-11-07 'SF Vote Tally', COMPLETE 1,000/1,000 precincts: supervisors race, Feinstein 117,066 - single-candidate floor (each ballot votes a candidate at most once); scan tbl_19731106_issue19731107_p3.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1973-11-07 'SF Vote Tally', COMPLETE 1,000/1,000 precincts: supervisors race, Feinstein 117,066 - single-candidate floor (each ballot votes a candidate at most once); scan tbl_19731106_issue19731107_p3.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1515E9D3067D0E53%402441994-1513B686AC54076B%4015-1513B686AC54076B%40"
    }
   ]
  },
@@ -3371,7 +3371,7 @@
     "total": 292341,
     "pct": 92.3,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after Vote Tally, 1300 of 1351 precincts: president sum 292,341 (McGovern 163,333 + Nixon 122,937 + Schmitz 3,579 + Spock 2,492) - conservative night floor; exceeds certified precinct ballots 289,010, so night count included some absentees; digits independently re-verified (corrected from first-pass OCR); scan flip_19721107_issue19721109_p8.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after Vote Tally, 1300 of 1351 precincts: president sum 292,341 (McGovern 163,333 + Nixon 122,937 + Schmitz 3,579 + Spock 2,492) - conservative night floor; exceeds certified precinct ballots 289,010, so night count included some absentees; digits independently re-verified (corrected from first-pass OCR); scan flip_19721107_issue19721109_p8.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-15163D2608DF5635%402441630-1513FF7215C3E2C6%405-1513FF7215C3E2C6%40"
    }
   ]
  },
@@ -3387,7 +3387,7 @@
     "total": 255938,
     "pct": 83.4,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 'The Vote Tally' day-after paper, 1140 of 1282 precincts (press-deadline snapshot): president sum 255,938 (Humphrey 151,730 + Nixon 85,786 + Wallace 16,112 + Cleaver 2,310) - conservative night floor, partial precincts; digits independently re-verified; scan flip_19681105_issue19681107_p2.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 'The Vote Tally' day-after paper, 1140 of 1282 precincts (press-deadline snapshot): president sum 255,938 (Humphrey 151,730 + Nixon 85,786 + Wallace 16,112 + Cleaver 2,310) - conservative night floor, partial precincts; digits independently re-verified; scan flip_19681105_issue19681107_p2.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151498F89D326DB1%402440167-15120ED6255D4856%403-15120ED6255D4856%40"
    }
   ]
  },
@@ -3403,7 +3403,7 @@
     "total": 310193,
     "pct": 93.5,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 'The Vote Tally' day-after paper, 1341 of 1341 precincts: president sum 310,193 (Johnson 221,343 + Goldwater 88,850) - conservative night floor (top-contest sum); digits independently re-verified; senate line (Salinger 197,863 + Murphy 125,716 = 323,579) printed as-is but exceeds certified precinct ballots 313,134 - anomaly logged, not used; scan flip_19641103_issue19641105_p2.png"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 'The Vote Tally' day-after paper, 1341 of 1341 precincts: president sum 310,193 (Johnson 221,343 + Goldwater 88,850) - conservative night floor (top-contest sum); digits independently re-verified; senate line (Salinger 197,863 + Murphy 125,716 = 323,579) printed as-is but exceeds certified precinct ballots 313,134 - anomaly logged, not used; scan flip_19641103_issue19641105_p2.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1511FD9380E7C8D5%402438704-1511F57F7A6D8CF5%406-1511F57F7A6D8CF5%40"
    }
   ]
  },
@@ -3419,7 +3419,7 @@
     "total": 318462,
     "pct": 91.4,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1960-11-09 p3 'Here Are Election Results--County-by-County' AP table, San Francisco row: 1,282 of 1,286 precincts reporting, Nixon 132,833 + Kennedy 185,629 = 318,462 - conservative night floor (presidential sum); scan mirror/newsbank/scans/19601108_issue19601109_p3.png, read+verified 2026-06-11"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1960-11-09 p3 'Here Are Election Results--County-by-County' AP table, San Francisco row: 1,282 of 1,286 precincts reporting, Nixon 132,833 + Kennedy 185,629 = 318,462 - conservative night floor (presidential sum); scan mirror/newsbank/scans/19601108_issue19601109_p3.png, read+verified 2026-06-11 \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-15092629F0A2DF2B%402437248-150922833A4663B6%404-150922833A4663B6%40"
    }
   ]
  }
