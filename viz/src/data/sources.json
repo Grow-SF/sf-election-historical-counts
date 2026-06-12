@@ -3000,6 +3000,14 @@
    {
     "date": "1996-03-27",
     "days": 1,
+    "total": 106231,
+    "pct": 59.7,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1996-03-27 'HOW SAN FRANCISCO VOTED' box, 400 of 650 precincts reporting: Prop B (Giants ballpark) YES 70,013 (65.9%) + NO 36,218 = 106,231 - conservative night floor, press-deadline partial; scans cols/sweep_19960326_issue19960327_p7_*.png"
+   },
+   {
+    "date": "1996-03-27",
+    "days": 1,
     "total": 158513,
     "pct": 89.0,
     "label": "SF Chronicle via NewsBank (SFPL)",

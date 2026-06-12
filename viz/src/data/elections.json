@@ -2220,11 +2220,17 @@
   "registered": 440254,
   "source": "archival",
   "provisional": false,
-  "nReports": 2,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 3,
+  "nightPct": 59.6,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.25,
+    59.6,
+    null,
+    null
+   ],
    [
     0.88,
     89.0,
@@ -2249,31 +2255,31 @@
    },
    "60": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "65": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "70": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "75": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 1,
-    "bound": true
+    "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
   "id": "1996-11-05",
