@@ -74,10 +74,11 @@ function Footer() {
               2015–present: every per-release summary report published by the
               SF Department of Elections (241 releases across 18 elections),
               parsed from the Department’s own XML and TSV files and validated
-              against certified totals. 1986–2014: 108 mid-canvass observations
+              against certified totals. 1986–2014: 131 mid-canvass observations
               recovered from Wayback Machine captures of four generations of
               city results pages, frozen Lotus Domino canvass views, Elections
-              Commission minutes, and Chronicle count reporting (via the
+              Commission minutes, and the Chronicle’s standing “How San
+              Francisco Voted” results tables and count reporting (via the
               paper’s NewsBank archive), with certified finals from the
               Department’s own turnout history and the California Secretary
               of State.
@@ -125,9 +126,10 @@ export default function Story() {
         title="Election night tells you less every cycle"
         intro={
           <p>
-            In 1964, election night put 93.5% of the vote on the table — and
-            in the late seventies it topped 98. In 2004 it was three quarters.
-            Since 2020 it has been barely half. The
+            In 1964, election night put 93.5% of the vote on the table; in
+            the late seventies it topped 98, and through the nineties it still
+            ran 80 to 93. In 2004 it was three quarters. Since 2020 it has
+            been barely half. The
             ringed points are races the <em>election-night leader lost</em> —
             the 2018 mayor’s race and a 2020 supervisor seat, decided by
             ballots counted days later.
