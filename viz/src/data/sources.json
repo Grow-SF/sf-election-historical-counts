@@ -2566,6 +2566,14 @@
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
    {
+    "date": "2002-11-07",
+    "days": 2,
+    "total": 176085,
+    "pct": 78.2,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0F72B4DF0FAE83C7): largest contest YES 99745 + NO 76340 = 176,085 at 632 of 632 precincts - conservative day-2 floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F72B4DF0FAE83C7"
+   },
+   {
     "date": "2002-11-08",
     "days": 3,
     "total": 200102,
@@ -2620,6 +2628,14 @@
     "pct": 84.0,
     "label": "SF Chronicle via NewsBank (SFPL)",
     "citation": "SF Chronicle via NewsBank (SFPL), 'Leno, Britt wait for final S.F. tally' 2002-03-07 (0F21D7620CF4E17E): 'Approximately 20,000 absentee ballots remain to be counted citywide' (Haygood) - statement omits provisionals (~4,000 per 2002-03-08 article), so conservative floor 150,249 - 20,000 - 4,000 \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F21D7620CF4E17E"
+   },
+   {
+    "date": "2002-03-07",
+    "days": 2,
+    "total": 112547,
+    "pct": 74.9,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0F21D761817714CF): largest contest YES 88865 + NO 23682 = 112,547 at 659 of 659 precincts - conservative day-2 floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F21D761817714CF"
    },
    {
     "date": "2002-03-08",
@@ -2685,6 +2701,14 @@
   "final": 134024,
   "finalSource": "DOE turnout history 1960-2002 (certified)",
   "observations": [
+   {
+    "date": "2001-11-07",
+    "days": 1,
+    "total": 107927,
+    "pct": 80.5,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EFA4E27C2E6192C): largest contest YES 54898 + NO 53029 = 107,927 at complete table - conservative night floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EFA4E27C2E6192C"
+   },
    {
     "date": "2001-11-08",
     "days": 2,
@@ -2758,6 +2782,14 @@
     "citation": "SF Chronicle via NewsBank (SFPL), 'Absentee, Provisional Ballots Left to Count in S.F.' 2000-11-09 pA26 (docref news/0EB4F969E1C867F6): 'Late yesterday, the Department of Elections said it still had 46,456 ballots left to count' - conservative floor, certified minus stated remaining; article's 486,636 registered matches DOE table exactly \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F969E1C867F6"
    },
    {
+    "date": "2000-11-09",
+    "days": 2,
+    "total": 251925,
+    "pct": 77.7,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F969CE014F14): largest contest YES 116596 + NO 135329 = 251,925 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F969CE014F14"
+   },
+   {
     "date": "2000-11-12",
     "days": 5,
     "total": 314031,
@@ -2773,6 +2805,14 @@
   "final": 210229,
   "finalSource": "DOE turnout history 1960-2002 / SOV sf000307.xls (certified)",
   "observations": [
+   {
+    "date": "2000-03-08",
+    "days": 1,
+    "total": 175673,
+    "pct": 83.6,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F911DFCBFDCC): largest contest YES 55086 + NO 120587 = 175,673 at complete table - conservative night floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F911DFCBFDCC"
+   },
    {
     "date": "2000-03-08",
     "days": 1,
@@ -2838,6 +2878,14 @@
   "finalSource": "DOE turnout history 1960-2002 (certified)",
   "observations": [
    {
+    "date": "1998-11-05",
+    "days": 2,
+    "total": 185653,
+    "pct": 74.0,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F85C8D6BD9B7): largest contest YES 125999 + NO 59654 = 185,653 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F85C8D6BD9B7"
+   },
+   {
     "date": "1998-11-06",
     "days": 3,
     "total": 242719,
@@ -2852,6 +2900,38 @@
     "pct": 100.0,
     "label": "Wayback Machine capture",
     "citation": "https://web.archive.org/web/19991004190405/http://civiccenter.ci.sf.ca.us:80/election/eresults.nsf/72c62c5428f1b027882566b1007bec42"
+   }
+  ]
+ },
+ {
+  "id": "1998-06-02",
+  "name": "Consolidated Primary Election",
+  "final": 199157,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1998-06-04",
+    "days": 2,
+    "total": 168168,
+    "pct": 84.4,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F82D49A436B6): largest contest YES 64596 + NO 103572 = 168,168 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F82D49A436B6"
+   }
+  ]
+ },
+ {
+  "id": "1997-11-04",
+  "name": "Consolidated Municipal Election",
+  "final": 125697,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1997-11-05",
+    "days": 1,
+    "total": 109772,
+    "pct": 87.3,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F7DEF0A4AE98): largest contest YES 58257 + NO 51515 = 109,772 at 599 of 599 precincts - conservative night floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F7DEF0A4AE98"
    }
   ]
  },
@@ -2872,6 +2952,22 @@
   ]
  },
  {
+  "id": "1996-11-05",
+  "name": "Consolidated General Election",
+  "final": 298648,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1996-11-06",
+    "days": 1,
+    "total": 278872,
+    "pct": 93.4,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F778AD67824B): largest contest YES 160787 + NO 118085 = 278,872 at complete table - conservative night floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F778AD67824B"
+   }
+  ]
+ },
+ {
   "id": "1996-03-26",
   "name": "Consolidated Primary Election",
   "final": 178165,
@@ -2884,6 +2980,14 @@
     "pct": 89.0,
     "label": "SF Chronicle via NewsBank (SFPL)",
     "citation": "SF Chronicle via NewsBank (SFPL), 1996-03-28 (0EB4F73F7318D872): 'With all but a few provisional or disputed ballots counted yesterday, Proposition B had 105,336... 53,177 against' - conservative floor (top-contest sum) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F73F7318D872"
+   },
+   {
+    "date": "1996-03-28",
+    "days": 2,
+    "total": 158513,
+    "pct": 89.0,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F73F68913D5D): largest contest YES 105336 + NO 53177 = 158,513 at 650 of 650 precincts - conservative day-2 floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F73F68913D5D"
    }
   ]
  },
@@ -2976,6 +3080,22 @@
   ]
  },
  {
+  "id": "1992-06-02",
+  "name": "Consolidated Primary Election",
+  "final": 182577,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1992-06-03",
+    "days": 1,
+    "total": 154916,
+    "pct": 84.8,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F40E4FE1D147): largest contest YES 112987 + NO 41929 = 154,916 at 606 of 606 precincts - conservative night floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F40E4FE1D147"
+   }
+  ]
+ },
+ {
   "id": "1991-12-10",
   "name": "Municipal Run-Off Election",
   "final": 215751,
@@ -3022,6 +3142,22 @@
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
    {
+    "date": "1990-11-07",
+    "days": 1,
+    "total": 195318,
+    "pct": 82.6,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F2D05F2947B9): largest contest YES 122078 + NO 73240 = 195,318 at 621 of 621 precincts - conservative night floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F2D05F2947B9"
+   },
+   {
+    "date": "1990-11-08",
+    "days": 2,
+    "total": 204968,
+    "pct": 86.7,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F2D10ADB9546): largest contest YES 110735 + NO 94233 = 204,968 at 621 of 621 precincts - conservative day-2 floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F2D10ADB9546"
+   },
+   {
     "date": "1990-11-08",
     "days": 2,
     "total": 234413,
@@ -3037,6 +3173,14 @@
   "final": 161989,
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
+   {
+    "date": "1990-06-06",
+    "days": 1,
+    "total": 128838,
+    "pct": 79.5,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F275B3B60120): largest contest YES 84182 + NO 44656 = 128,838 at 621 of 621 precincts - conservative night floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F275B3B60120"
+   },
    {
     "date": "1990-06-08",
     "days": 3,
@@ -3096,6 +3240,14 @@
    {
     "date": "1987-11-04",
     "days": 1,
+    "total": 176861,
+    "pct": 91.3,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4EFBF57FB21D3): largest contest YES 82832 + NO 94029 = 176,861 at complete table - conservative night floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EFBF57FB21D3"
+   },
+   {
+    "date": "1987-11-04",
+    "days": 1,
     "total": 188850,
     "pct": 97.5,
     "label": "SF Chronicle via NewsBank (SFPL)",
@@ -3132,6 +3284,14 @@
     "pct": 97.3,
     "label": "SF Chronicle via NewsBank (SFPL)",
     "citation": "SF Chronicle via NewsBank (SFPL), 'Feinstein's Name Failed To Carry Her Big Issues' 1986-06-05 p1 (0EB4EE0DD33808C9): 'Registrar of Voters Jay Patterson said about 4000 absentee ballots have yet to be counted' - conservative floor \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EE0DD33808C9"
+   },
+   {
+    "date": "1986-06-05",
+    "days": 2,
+    "total": 125928,
+    "pct": 86.0,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4EE0E8C2947DE): largest contest YES 65926 + NO 60002 = 125,928 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EE0E8C2947DE"
    }
   ]
  },

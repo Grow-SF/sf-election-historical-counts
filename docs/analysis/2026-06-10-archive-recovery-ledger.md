@@ -454,3 +454,25 @@ existing 74.9% d0 release). PRINT VEIN NOW EXHAUSTED for: 2000-11,
 2002-12, 2005-11, 2006-11, 2010-11 (ranges swept: 20-40, 12-25, 12-26,
 18-33, 15-30 respectively; no SF results box found). Those five night
 slots are the remaining ask for the DOE records request.
+
+### Session 2026-06-12, part 6 — the text archive had the tables all along
+
+The Chronicle ran 'HOW SAN FRANCISCO VOTED' as a standing results table
+from at least 1986 through 2002, and the NewsBank TEXT archive carries
+it as parseable text - no image scanning needed. One harvest (33 thin
+elections x E+1/E+2, 52 docs) + a local regex parse (YES/NO pairs,
+certified-cap filter to reject statewide/other-county tables, monotone
+gates) yielded 16 floors in one pass:
+
+NIGHT (E+1 papers): 1987-11 91.3%, 1990-06 79.5%, 1990-11 82.6%,
+1992-06 84.8%, 1996-11 93.4%, 1997-11 87.3%, 2000-03 83.6%,
+2001-11 80.5% (629/648).
+Day-2 (E+2 papers, conservative): 1986-06 86.0%, 1990-11 86.7%,
+1996-03 89.0%, 1998-06 84.4%, 1998-11 74.0%, 2000-11 77.7%,
+2002-03 74.9%, 2002-11 78.2%.
+
+Remaining 1985-2005 night gaps (candidate-format tables in harvested
+docs, need structured parse or image): 1985-11, 1986-11 (Part I/II
+docs), 1987-04, 1987-06, 1987-12 (Agnos landslide, 711/711 doc in
+corpus), 1988-06, 1992-11, 1993-11, 1994-11, 1995-11, 1996-03 night,
+1998-11 night, 1999-11, 1999-12 runoff, 2002-12, 2003-10, 2005-11.
