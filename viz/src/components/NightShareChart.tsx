@@ -51,6 +51,8 @@ const PARTIAL_NOTES: Record<string, string> = {
     "the night release held only absentee/early votes — the state had decertified the city's voting machines, so every polling-place ballot was counted in the days after",
   "2008-02-05":
     "press-deadline snapshot (450 of 580 precincts) — the true end-of-night share was higher",
+  "2008-06-03":
+    "press-deadline snapshot (515 of 580 precincts) — the true end-of-night share was higher",
 };
 
 export default function NightShareChart({

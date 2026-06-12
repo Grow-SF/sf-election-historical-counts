@@ -74,7 +74,7 @@ function Footer() {
               2015–present: every per-release summary report published by the
               SF Department of Elections (241 releases across 18 elections),
               parsed from the Department’s own XML and TSV files and validated
-              against certified totals. 1986–2014: 94 mid-canvass observations
+              against certified totals. 1986–2014: 108 mid-canvass observations
               recovered from Wayback Machine captures of four generations of
               city results pages, frozen Lotus Domino canvass views, Elections
               Commission minutes, and Chronicle count reporting (via the
