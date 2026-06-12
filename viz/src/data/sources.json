@@ -2850,6 +2850,14 @@
     "days": 2,
     "total": 215247,
     "pct": 94.3,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Vote Count Hits Snag' 1999-12-16 pA1 (0EB4F8EE7A7B4CAE): 'About 13,000 provisional and absentee ballots remain to be counted in the San Francisco runoff election' (itemized: ~9,000 provisional + ~4,000 absentee) - conservative floor 228,247 - 13,000 \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F8EE7A7B4CAE"
+   },
+   {
+    "date": "1999-12-16",
+    "days": 2,
+    "total": 215247,
+    "pct": 94.3,
     "label": "Wayback Machine capture",
     "citation": "SF Chronicle 1999-12-16 'D.A. Vote Count Hits Snag' (wayback sfgate MN95634): 'Nearly 13,000 ballots remain to be counted' at 4 p.m. count - conservative floor, certified minus stated remaining; https://web.archive.org/web/20030922004742/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/12/16/MN95634.DTL"
    },
@@ -3236,6 +3244,22 @@
     "pct": 99.1,
     "label": "SF Chronicle via NewsBank (SFPL)",
     "citation": "SF Chronicle via NewsBank (SFPL), 1988-11-10 (0EB4F0EB2983145D): figures 'announced late yesterday afternoon... did not include about 2,500 absentee ballots still to be counted' - conservative floor; 40,000 absentees counted in one day \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F0EB2983145D"
+   }
+  ]
+ },
+ {
+  "id": "1988-06-07",
+  "name": "Consolidated Primary Election",
+  "final": 185420,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1988-06-08",
+    "days": 1,
+    "total": 154564,
+    "pct": 83.4,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'SAN FRANCISCO' results table 1988-06-08 (0EB4F08B19EDFCA0), 619 of 619 precincts reporting: Prop A S.F. School Bonds YES 124,321 + NO 30,243 = 154,564 - conservative night floor (largest-contest sum) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F08B19EDFCA0"
    }
   ]
  },

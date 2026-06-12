@@ -476,3 +476,13 @@ docs, need structured parse or image): 1985-11, 1986-11 (Part I/II
 docs), 1987-04, 1987-06, 1987-12 (Agnos landslide, 711/711 doc in
 corpus), 1988-06, 1992-11, 1993-11, 1994-11, 1995-11, 1996-03 night,
 1998-11 night, 1999-11, 1999-12 runoff, 2002-12, 2003-10, 2005-11.
+
+### Session 2026-06-12, part 7 — round-2 text harvest
+
+1988-06 NIGHT 83.4% ('SAN FRANCISCO' table, 619/619); 1987-12 Agnos
+runoff NIGHT 94.4%; 1986-11 d2 93.9%; 2005-11 d2 70.2%; 1999-12
+Brown-Ammiano runoff d2 94.3% (DOE-itemized 13,000 remaining).
+STILL OPEN (no SF table doc in text archive; image sweep or records
+request): 1985-11, 1987-04, 1987-06, 1992-11, 1993-11, 1995-11
+(Brown-Jordan), 1996-03 night, 1999-11, 1999-12 night, 2002-12,
+2003-10, plus the five 2000s print-exhausted slots.
