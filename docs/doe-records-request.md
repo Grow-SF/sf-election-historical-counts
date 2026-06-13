@@ -30,11 +30,18 @@ reported, and turnout as of a stated date and time. I am specifically
 interested in those interim, time-stamped snapshots, not only the final
 certified totals.
 
-**Primary request — elections 1994 through 2014** (these are the records
+**Primary request — elections 1982 through 2014** (these are the records
 most likely retained in the Department's results archive; for 2008 and
 2009 these "Summary Report" PDFs were briefly posted to the Department's
-website and I have recovered a few, so I know the format well):
+website and I have recovered a few, so I know the format well. For the
+1982–1986 elections I already hold mid-canvass totals, so I know dated
+interim releases were issued and am hopeful they survive):
 
+- June 8, 1982 — Consolidated Primary Election
+- November 2, 1982 — Consolidated General Election
+- June 5, 1984 — Consolidated Primary Election
+- June 3, 1986 — Consolidated Primary Election
+- November 4, 1986 — Consolidated General Election
 - November 8, 1994 — Consolidated General Election
 - June 2, 1998 — Consolidated Primary Election
 - November 3, 1998 — Consolidated General Election
@@ -57,20 +64,42 @@ website and I have recovered a few, so I know the format well):
 - November 5, 2013 — Consolidated Municipal Election (ranked-choice round reports)
 - June 3, 2014 — Consolidated Statewide Direct Primary Election
 
-For each, the single most valuable item is **the first results release issued
-the night of the election** (the one showing total ballots counted and
-turnout as of election night), followed by the **daily canvass releases**
-through certification.
+For each, the single most valuable item is **the last results release issued
+the night of the election** — the final snapshot posted before the Department
+stopped counting for the night, reflecting every ballot (vote-by-mail and
+in-person) tallied that night rather than an early partial bulletin — followed
+by the **daily canvass releases** through certification. If several time-stamped
+releases went out over the course of election night, the latest one is the one
+I most want; earlier partials from the same night are welcome but secondary.
 
-**Secondary request — elections 1972 through 1986** (good-faith; I
+**Secondary request — elections 1972 through 1980** (good-faith; I
 understand dated interim releases from this era may not have been retained
 beyond the permanent certified Statement of the Vote): any retained
 election-night or interim canvass results bulletins for the June 1972,
 November 1974, June 1976, August 1977, November 1978, December 1979, June
-1980, August 1980, June 1982, November 1982, June 1984, June 1986, and
-November 1986 San Francisco elections. If only the certified Statements of
-the Vote survive for these, please let me know and I will not ask you to
-search further.
+1980, and August 1980 San Francisco elections. If only the certified
+Statements of the Vote survive for these, please let me know and I will not
+ask you to search further.
+
+**Upgrade request — elections where I hold only a partial night count.** For
+the elections below I already have a *partial* election-night figure (a
+press-deadline snapshot, or a release that reflected only absentee/early
+ballots), but not the complete end-of-night tally. The single time-stamped
+release showing the *final* total counted on election night would let me
+replace each partial with the true figure:
+
+- November 5, 1968 — Consolidated General Election
+- November 6, 1973 — Consolidated Municipal Election
+- November 2, 1976 — Consolidated General Election
+- June 6, 1978 — Consolidated Primary Election
+- November 3, 1992 — Consolidated General Election
+- December 12, 1995 — Municipal Runoff Election
+- March 26, 1996 — Consolidated Primary Election
+- November 6, 2007 — Municipal Election
+- February 5, 2008 — Consolidated Presidential Primary Election
+- June 3, 2008 — Consolidated Primary Election
+- June 8, 2010 — Consolidated Statewide Direct Primary Election
+- June 5, 2012 — Consolidated Presidential Primary Election
 
 **Format and fees:** Electronic copies (PDF, or the original data files in
 any format — XML, TSV, CSV, or scans) sent by email or shared drive are
