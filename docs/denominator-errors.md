@@ -1,0 +1,38 @@
+# DOE turnout-table denominator errors (for manual verification)
+
+These are elections where a **single contest's vote total exceeds the
+"ballots cast" figure in the DOE historical turnout table** — which is
+impossible (no contest can draw more votes than ballots). In each case the
+newspaper figure was re-read and verified on the scan; the conclusion is
+that the *DOE turnout figure is an undercount*, not that the newspaper was
+misread. Listed here so each can be double-checked by hand and, ideally,
+arbitrated against the authoritative California / SF Statement of Vote.
+
+**How to verify each:** open the cited scan in
+`mirror/newsbank/scans/`, confirm the contest numbers and the
+precincts-reporting line, then compare the contest sum to the DOE figure.
+The true certified total must be **≥ the contest sum**.
+
+| Election | DOE "ballots cast" | Contradicting contest (verified on scan) | Contest sum | Exceeds DOE by | Implied true total | Scan file |
+|---|---|---|---|---|---|---|
+| 1974-06-04 (primary) | 198,508 | Prop B (Conflicts of Interest) Yes 162,975 / No 40,406, **1356 of 1356 precincts** | 203,381 | +4,873 | ≥ 203,381 | `tbl_19740604_issue19740606_p5.png` |
+| 1978-11-07 (general) | 217,965 | Governor: Brown 155,156 / Younger 50,748 / Clark 11,470 / Seals 4,339 / Dietrich 1,434 | 223,147 | +5,182 | ≥ 223,147 | `tbl_19781107_issue19781108_p6.png` |
+
+**Notes**
+- Both are 1970s elections, suggesting a systematic undercount in the DOE
+  turnout table for that decade rather than isolated typos. (Compare the
+  date-mapping typos already found: 2001-12 "12/10" and the 1975 runoff.)
+- 1978 cross-checks: the newspaper's percentages are internally consistent
+  (Brown 155,156 = 69.5% of 223,147 ✓); Brown winning ~70% in
+  heavily-Democratic SF is historically correct; the California Statement
+  of Vote on archive.org (`statementofvote197879cali`) shows SF Brown as
+  99,171, but that is a djvu-OCR/column error (it would make Brown a
+  minority winner). The authoritative paper SoV should settle the exact
+  total.
+- In the dataset these points are ingested as floors (`≥`), marked as
+  night-partials, with `certified_final` set to the contest sum and the
+  `final_source` column flagging the contradiction. They are **excluded
+  from the trend fit** because their exact denominator is unresolved.
+
+_Additional cases from the in-progress pre-1985 re-read will be appended
+here as they are verified._
