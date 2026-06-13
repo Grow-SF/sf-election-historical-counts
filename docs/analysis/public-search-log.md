@@ -79,6 +79,31 @@ eight candidate figures, including two printed tables that contradict
 their elections' certified totals (June 1974, November 1978) — both
 listed on the missing-records page awaiting a second source.
 
+## Why ~30 elections still lack a true election-night count
+
+The remaining diamond-only elections fall into three groups, each
+exhausted for the digital archives:
+
+1. **Pre-1985 local primaries and special elections** (11 elections,
+   e.g. the 1972/1976/1980/1982 primaries). National and regional wire
+   services only carried San Francisco's marquee mayoral and statewide
+   races, so out-of-town papers have nothing; the Chronicle's own
+   page-image archive has been swept. These are microfilm-or-nothing.
+
+2. **1986-2010 elections with a day-2 floor but no archived night
+   table** (17 elections). The Chronicle's "How San Francisco Voted"
+   box for these ran in the day-2 (E+2) paper at complete precincts;
+   the election-night (E+1) edition either printed only percentages or
+   wasn't separately digitized. We hold conservative day-1/day-2 floors
+   for all of them.
+
+3. **Modern ranked-choice and special elections** (5 elections:
+   2008-04, 2009-05, 2011-11, 2013-11, 2014-06). Coverage reports
+   night-of *percentages* ("Lee led the first round with 31 percent")
+   but not the absolute ballot counts a floor requires, and RCV has no
+   single yes/no contest to sum. The Department's own first-round
+   reports would resolve these.
+
 ## What would help most
 
 The San Francisco Examiner (the afternoon paper — earlier deadlines meant
