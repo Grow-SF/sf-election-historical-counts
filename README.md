@@ -1,85 +1,116 @@
-# SF Vote-Count Timeline
+# The Long Count
 
-How long San Francisco takes to count ballots, measured from the Department of
-Elections' own per-release results reports, Nov 2015 - present, plus one
-archival recovery (Nov 2012).
+**How long San Francisco takes to know who won — sixty-plus years of it.**
 
-Reimplementation of `sf-long-count-archive/` (kept as read-only reference):
-ingests the structured files SF Elections publishes per release —
-`summary.xml` (2019+, Dominion) and `summary.txt` TSV (2008-2018) — instead of
-parsing PDFs. Report timestamps come from HTTP `Last-Modified` headers
-captured in `data/manifest.csv` (with a folder-date fallback where the server
-re-uploaded old files). Counts were reconciled row-for-row against the
-PDF-derived archive dataset (`tests/test_reconciliation.py`).
+San Francisco counts ballots no slower than it used to. What changed is *when*
+the ballots arrive: election night went from telling us almost everything to
+telling us barely half, as vote-by-mail grew from a sliver of the vote in the
+1960s to nine in ten today. This project measures that shift from primary
+sources — the Department of Elections' own results releases plus a deep
+recovery of historical counts from newspaper and web archives — and tells the
+story in an interactive site.
 
-Two corrections over the archive dataset, found by that reconciliation:
+Live data spans **1960–2026**: 75 elections with an election-night count, ~169
+recovered mid-canvass observations, and 241 modern per-release reports, every
+number traceable to a cited source.
 
-- **Presidential primaries 2020-03 and 2024-03** now carry citywide totals.
-  The archive's PDF parser had read the first party block (Democratic), so it
-  under-reported both. Verified against the DOE results pages:
-  2020-03-03 = 305,184 of 503,899 (60.56%); 2024-03-05 = 233,465 (46.61%).
-- **Nov 2019 ED/VBM split recovered.** No 2019 summary format publishes it;
-  it is summed from the per-precinct statement of the vote
-  (`{snap}_psov.xml`, parser tag `era_c_xml+psov`), accepted only when the
-  precinct sums reconcile exactly with the summary total. Three snapshots
-  (`20191105_2`, `_3`, `20191125`) have no published psov and stay blank.
+---
 
-## Usage
+## Repository map
 
-    uv run sfcount all            # full pipeline
-    uv run sfcount fetch          # resumable; ~25 min cold
+| Path | What it is |
+|---|---|
+| `sfcount/` | Python pipeline: ingests DOE per-release reports (2015–present) |
+| `data/` | All committed datasets (CSV) — the source of truth |
+| `viz/` | Next.js story site, "The Long Count" (builds from `data/`) |
+| `scripts/` | `build_viz_data.py` (data → viz JSON) + `archive-recovery/` tooling |
+| `docs/` | Methodology, runbook, search log, the records-request draft |
+| `mirror/` | **gitignored** — licensed NewsBank/Chronicle source content (cited, never republished) |
+| `sf-long-count-archive/` | read-only predecessor (PDF-parsing); kept for reconciliation |
 
-Stages: `inventory` (election list; seeds recently-held elections the sf.gov
-index lists only after certification) → `fetch` (probe + download snapshots)
-→ `parse` (→ `data/sf_count_timeline.csv`) → `validate` (invariants incl.
-certified-final cross-checks; nonzero exit on failure) → `derive`
-(→ `data/sf_days_to_90.csv`) → `artifact` (regenerates the data array in
-`artifact/sf-long-count.jsx`).
+## Key datasets (`data/`)
+
+- `sf_count_timeline.csv` — modern per-release counts (the `sfcount` output).
+- `sf_archival_canvass_points.csv` — recovered historical observations
+  (1960–2014); schema and method in the runbook.
+- `sf_turnout_history_doe_1899_2019.csv` — DOE certified turnout (the
+  denominators). Known data-quality issues tracked in
+  `docs/denominator-errors.md`.
+- `sf_vbm_share_sos.csv`, `sf_turnout_history_1960_2002.csv` — mail-share and
+  precinct/absentee splits from the CA Secretary of State and DOE.
+
+## The modern pipeline (`sfcount`)
+
+Ingests the structured files SF Elections publishes per release —
+`summary.xml` (2019+) and `summary.txt` TSV (2008–2018) — rather than parsing
+PDFs. Timestamps come from HTTP `Last-Modified` headers (`data/manifest.csv`).
+
+    uv run sfcount all        # inventory → fetch → parse → validate → derive → artifact
+    uv run sfcount fetch      # resumable; ~25 min cold
+    uv run pytest             # offline suite (real downloaded fixtures)
 
 After a new election: add it to `SUPPLEMENTAL_ELECTIONS` in
-`sfcount/inventory.py` if the sf.gov index doesn't list it yet, then run
-`uv run sfcount all` any time during the canvass; rerun after certification,
-add the certified total to `CERTIFIED_FINALS` in `sfcount/validate.py`, and
-commit `data/` and the artifact.
+`sfcount/inventory.py` if sf.gov doesn't list it yet; run `uv run sfcount all`
+during the canvass; after certification add the certified total to
+`CERTIFIED_FINALS` in `sfcount/validate.py` and commit `data/`.
 
-## Visualization
+## The visualization (`viz/`)
 
-`viz/` is a Next.js story site ("The Long Count") built from the committed
-datasets: night-share trend, an any-threshold days-to-X explorer with live
-trend lines and r², the 1964-2026 mail-ballot share, and a per-canvass
-trajectory explorer. Filters are encoded in the URL for sharing.
+A Next.js story site built entirely from the committed datasets: the
+election-night-share trend (with a 2002 structural break, the permanent
+vote-by-mail list), an any-margin "days until the winner is beyond doubt"
+explorer, the 1964–2026 mail-ballot share, and a per-canvass trajectory
+explorer. Filters are URL-encoded for sharing. Routes: `/` (story),
+`/sources` (every number, linked to its archive), `/missing` (open research
+list + how to contribute), `/methods` (the public search log).
 
-    python3 scripts/build_viz_data.py   # rebake viz data after pipeline runs
+    python3 scripts/build_viz_data.py   # rebake viz JSON after the pipeline runs
     cd viz && npm install && npm run dev
 
-## Tests
+## Archive recovery (the historical data)
 
-    uv run pytest                 # offline suite (fixtures are real downloaded files)
-    uv run pytest -m network      # live smoke tests against sfelections.org
-    uv run pytest -m migration    # reconciliation vs sf-long-count-archive/
+Most of the 1960–2014 record was recovered by hand-and-agent from newspaper
+and web archives. If you want to extend it, **start with
+[`docs/archive-recovery-runbook.md`](docs/archive-recovery-runbook.md)** — the
+full method: which archive holds which era, the browser-automation and
+agent workflow, the verification gates, and the lessons (including why an
+apparent "contradiction" is usually a bad denominator, not a misread).
 
-## Pre-2015 archival recovery
+Supporting docs:
+- `docs/analysis/newsbank-agent-playbook.md` — capture + reader-agent rules.
+- `docs/analysis/public-search-log.md` — what's already been searched (so you
+  don't redo it); also served at the site's `/methods`.
+- `docs/denominator-errors.md` — DOE turnout figures contradicted by the
+  count, for manual verification.
+- `docs/doe-records-request.md` — drafted public-records request for the
+  remaining gaps.
 
-`data/sf_vbm_share_sos.csv` carries certified polling/absentee splits for
-sixteen elections 2002–2014, extracted from CA Secretary of State county
-participation statistics and the DOE's own SOV spreadsheets (each row links
-its source; polling + absentee = total validated on extraction).
+Reusable tooling lives in `scripts/archive-recovery/` (browser capture, text
+harvest, OCR triage, column location). These drive a logged-in Chrome over an
+SFPL library session; prerequisites are in the runbook.
 
+## Contributing data
 
-`data/sf_archival_canvass_points.csv` holds 27 mid-canvass observations for
-nine elections (Feb 2008 - Nov 2014) recovered from Wayback Machine captures
-of the DOE's live results pages. `data/mirror_manifest.csv` maps every
-mirrored capture to its source memento URL and SHA-256 (raw mirror in
-`mirror/`, gitignored - CDN hosting planned). Analysis:
-`docs/analysis/2026-06-09-counting-speed-trend.md`.
+The `/missing` page lists the elections still lacking an election-night count
+and what would resolve each. Newspaper photos, microfilm scans, or DOE release
+reports are welcome at **steven@growsf.org** — every submission is verified
+against certified totals and cited on the sources page.
 
-## Data boundaries
+## Provenance & licensing
 
-- Per-release snapshots exist on sfelections.org only from Nov 2015.
-- Do not backfill VBM/election-day splits from the eData "returned VBM
-  ballots" tool: returned-and-accepted is not the same measure as counted.
-- Nov 2012 is recovered from a single Wayback capture (`parser=archival`),
-  excluded from days-to-90 derivation.
-- The Nov 2015 and Jun 2016 files were re-uploaded by the DOE in Dec 2023,
-  so their `Last-Modified` headers are migration artifacts; those rows use
-  folder dates (midnight), matching the archive's behavior.
+Every published number traces to a primary source on the `/sources` page.
+Newspaper archive content (NewsBank, Chronicle) is **cited, not republished**:
+it lives only in the gitignored `mirror/` tree and never ships to the site or a
+CDN. Public-record sources (DOE releases, Wayback captures, Secretary of State
+statements) are mirrored and linked freely.
+
+## Data boundaries (don't trip on these)
+
+- Per-release snapshots exist on sfelections.org only from Nov 2015; earlier
+  counts are archival recoveries (floors, marked as such).
+- Don't backfill VBM/election-day splits from the eData "returned VBM ballots"
+  tool — returned-and-accepted ≠ counted.
+- The DOE turnout table undercounts at least two 1970s elections (a single
+  contest exceeds its "ballots cast"); see `docs/denominator-errors.md`.
+- NewsBank issue labels are not a fixed offset from the masthead — always
+  masthead-verify a scanned page's date before dating an observation.
