@@ -6,6 +6,8 @@ import FilterBar from "@/components/FilterBar";
 import NightShareChart from "@/components/NightShareChart";
 import TrajectoryExplorer from "@/components/TrajectoryExplorer";
 import VbmChart from "@/components/VbmChart";
+import TurnoutChart from "@/components/TurnoutChart";
+import RegistrationChart from "@/components/RegistrationChart";
 import { Section } from "@/components/ui";
 
 function Hero() {
@@ -177,8 +179,44 @@ export default function Story() {
       </Section>
 
       <Section
-        id="explore"
+        id="franchise"
         kicker="part three"
+        title="It changed when we count — not who votes"
+        intro={
+          <>
+            <p>
+              Mailing every voter a ballot is the most sweeping change to how
+              San Franciscans vote in sixty years. So it’s worth asking the
+              obvious question: did it bring more people to the polls? Among
+              voters already on the rolls, the answer is mostly no. Turnout
+              swings with what’s on the ballot — presidential generals draw
+              80%, off-year municipals barely 40% — and the all-mail era to
+              the right of the gold lines lands inside that same band. The 2020
+              record was the nationwide presidential peak, not a vote-by-mail
+              effect; the 2024 general fell back below 2016, and the 2024
+              presidential primary was the lowest in the modern record.
+            </p>
+            <p>
+              That’s the narrow question, though. <em>Turnout of the
+              registered</em> measures convenience for people who were already
+              going to vote — and mail voting is, above all, convenient. The
+              franchise question proper is whether mail voting pulled more
+              eligible San Franciscans onto the rolls at all — and the
+              Secretary of State’s registration-vs-eligible figures say no: the
+              share of eligible San Franciscans who are registered has held
+              around three-quarters for two decades, before and after the
+              all-mail switch.
+            </p>
+          </>
+        }
+      >
+        <TurnoutChart />
+        <RegistrationChart />
+      </Section>
+
+      <Section
+        id="explore"
+        kicker="part four"
         title="The back end never changed"
         intro={
           <p>

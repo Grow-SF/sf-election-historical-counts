@@ -1,0 +1,1082 @@
+[
+ {
+  "date": "1899-12-02",
+  "turnoutPct": 31.6,
+  "registered": 70726,
+  "ballots": 22331,
+  "source": "doe-turnout-table",
+  "kind": "Special"
+ },
+ {
+  "date": "1902-12-02",
+  "turnoutPct": 37.6,
+  "registered": 70764,
+  "ballots": 26612,
+  "source": "doe-turnout-table",
+  "kind": "Special"
+ },
+ {
+  "date": "1903-09-29",
+  "turnoutPct": 37.1,
+  "registered": 73540,
+  "ballots": 27308,
+  "source": "doe-turnout-table",
+  "kind": "Special"
+ },
+ {
+  "date": "1903-10-08",
+  "turnoutPct": 34.3,
+  "registered": 73702,
+  "ballots": 25275,
+  "source": "doe-turnout-table",
+  "kind": "Special"
+ },
+ {
+  "date": "1908-11-03",
+  "turnoutPct": 54.5,
+  "registered": 75467,
+  "ballots": 41137,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1912-11-05",
+  "turnoutPct": 78.4,
+  "registered": 134688,
+  "ballots": 105646,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1914-11-03",
+  "turnoutPct": 83.1,
+  "registered": 161846,
+  "ballots": 134492,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1916-11-07",
+  "turnoutPct": 84.3,
+  "registered": 184819,
+  "ballots": 155747,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1918-11-05",
+  "turnoutPct": 58.8,
+  "registered": 175109,
+  "ballots": 103011,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1920-11-02",
+  "turnoutPct": 73.6,
+  "registered": 210024,
+  "ballots": 154592,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1922-11-07",
+  "turnoutPct": 66.7,
+  "registered": 201563,
+  "ballots": 134503,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1924-11-04",
+  "turnoutPct": 72.8,
+  "registered": 219434,
+  "ballots": 159649,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1926-11-02",
+  "turnoutPct": 58.7,
+  "registered": 222799,
+  "ballots": 130835,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1928-11-06",
+  "turnoutPct": 78.9,
+  "registered": 253053,
+  "ballots": 199665,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1930-11-04",
+  "turnoutPct": 69.4,
+  "registered": 228582,
+  "ballots": 158629,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1932-11-08",
+  "turnoutPct": 83.1,
+  "registered": 273487,
+  "ballots": 227283,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1934-11-06",
+  "turnoutPct": 57.2,
+  "registered": 290683,
+  "ballots": 166133,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1936-11-03",
+  "turnoutPct": 85.5,
+  "registered": 314990,
+  "ballots": 269387,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1938-11-08",
+  "turnoutPct": 75.6,
+  "registered": 340739,
+  "ballots": 257597,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1940-11-05",
+  "turnoutPct": 82.2,
+  "registered": 383845,
+  "ballots": 315518,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1942-11-03",
+  "turnoutPct": 62.6,
+  "registered": 367352,
+  "ballots": 230129,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1944-11-07",
+  "turnoutPct": 86.8,
+  "registered": 405921,
+  "ballots": 352409,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1946-11-05",
+  "turnoutPct": 62.9,
+  "registered": 430114,
+  "ballots": 270457,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1948-11-02",
+  "turnoutPct": 78.1,
+  "registered": 459769,
+  "ballots": 359134,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1950-11-07",
+  "turnoutPct": 72.6,
+  "registered": 429864,
+  "ballots": 312137,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1952-11-04",
+  "turnoutPct": 84.7,
+  "registered": 431959,
+  "ballots": 365972,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1954-11-02",
+  "turnoutPct": 69.1,
+  "registered": 401900,
+  "ballots": 277602,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1956-11-06",
+  "turnoutPct": 86.2,
+  "registered": 397385,
+  "ballots": 342652,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1960-11-08",
+  "turnoutPct": 86.1,
+  "registered": 404613,
+  "ballots": 348290,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1964-11-03",
+  "turnoutPct": 85.0,
+  "registered": 389990,
+  "ballots": 331612,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1968-11-05",
+  "turnoutPct": 82.0,
+  "registered": 374335,
+  "ballots": 307012,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1972-06-06",
+  "turnoutPct": 63.8,
+  "registered": 368357,
+  "ballots": 234840,
+  "source": "doe-turnout-table",
+  "kind": "Primary"
+ },
+ {
+  "date": "1972-11-07",
+  "turnoutPct": 74.3,
+  "registered": 426338,
+  "ballots": 316803,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1973-11-06",
+  "turnoutPct": 60.0,
+  "registered": 337065,
+  "ballots": 202237,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1974-06-04",
+  "turnoutPct": 56.7,
+  "registered": 350380,
+  "ballots": 198508,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "1974-11-05",
+  "turnoutPct": 61.9,
+  "registered": 369005,
+  "ballots": 228586,
+  "source": "doe-turnout-table",
+  "kind": "General"
+ },
+ {
+  "date": "1975-11-04",
+  "turnoutPct": 72.7,
+  "registered": 296505,
+  "ballots": 215559,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1975-12-11",
+  "turnoutPct": 66.4,
+  "registered": 302344,
+  "ballots": 200804,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1976-06-08",
+  "turnoutPct": 67.1,
+  "registered": 311254,
+  "ballots": 208884,
+  "source": "doe-turnout-table",
+  "kind": "Primary"
+ },
+ {
+  "date": "1976-11-02",
+  "turnoutPct": 73.1,
+  "registered": 345954,
+  "ballots": 252932,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1977-08-02",
+  "turnoutPct": 53.1,
+  "registered": 336046,
+  "ballots": 178367,
+  "source": "doe-turnout-table",
+  "kind": "Special"
+ },
+ {
+  "date": "1977-11-08",
+  "turnoutPct": 51.7,
+  "registered": 339306,
+  "ballots": 175582,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1978-06-06",
+  "turnoutPct": 58.1,
+  "registered": 350856,
+  "ballots": 203931,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "1978-11-07",
+  "turnoutPct": 58.6,
+  "registered": 380749,
+  "ballots": 223147,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1979-11-06",
+  "turnoutPct": 55.1,
+  "registered": 372061,
+  "ballots": 204869,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1979-12-11",
+  "turnoutPct": 51.9,
+  "registered": 378232,
+  "ballots": 196341,
+  "source": "doe-turnout-table",
+  "kind": "Special"
+ },
+ {
+  "date": "1980-06-03",
+  "turnoutPct": 51.2,
+  "registered": 403382,
+  "ballots": 206366,
+  "source": "doe-turnout-table",
+  "kind": "Primary"
+ },
+ {
+  "date": "1980-08-19",
+  "turnoutPct": 34.8,
+  "registered": 404035,
+  "ballots": 140551,
+  "source": "doe-turnout-table",
+  "kind": "Special"
+ },
+ {
+  "date": "1980-11-04",
+  "turnoutPct": 65.7,
+  "registered": 407982,
+  "ballots": 268070,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1981-11-03",
+  "turnoutPct": 25.2,
+  "registered": 395213,
+  "ballots": 99658,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1982-06-08",
+  "turnoutPct": 51.2,
+  "registered": 344483,
+  "ballots": 176381,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "1982-11-02",
+  "turnoutPct": 63.4,
+  "registered": 377069,
+  "ballots": 238991,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1983-04-26",
+  "turnoutPct": 47.2,
+  "registered": 354104,
+  "ballots": 167267,
+  "source": "archival",
+  "kind": "Recall"
+ },
+ {
+  "date": "1983-11-08",
+  "turnoutPct": 46.0,
+  "registered": 371005,
+  "ballots": 170628,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1984-06-05",
+  "turnoutPct": 48.1,
+  "registered": 375799,
+  "ballots": 180741,
+  "source": "doe-turnout-table",
+  "kind": "Primary"
+ },
+ {
+  "date": "1984-11-06",
+  "turnoutPct": 70.4,
+  "registered": 424091,
+  "ballots": 298517,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1985-11-05",
+  "turnoutPct": 27.0,
+  "registered": 399422,
+  "ballots": 107920,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1986-06-03",
+  "turnoutPct": 39.6,
+  "registered": 369468,
+  "ballots": 146480,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "1986-11-04",
+  "turnoutPct": 61.4,
+  "registered": 385847,
+  "ballots": 236863,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1987-04-07",
+  "turnoutPct": 39.7,
+  "registered": 280811,
+  "ballots": 111523,
+  "source": "archival",
+  "kind": "Special"
+ },
+ {
+  "date": "1987-06-02",
+  "turnoutPct": 25.6,
+  "registered": 363356,
+  "ballots": 93010,
+  "source": "archival",
+  "kind": "Special"
+ },
+ {
+  "date": "1987-11-03",
+  "turnoutPct": 51.2,
+  "registered": 378546,
+  "ballots": 193742,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1987-12-08",
+  "turnoutPct": 40.4,
+  "registered": 380852,
+  "ballots": 153720,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1988-06-07",
+  "turnoutPct": 48.3,
+  "registered": 383675,
+  "ballots": 185420,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "1988-11-08",
+  "turnoutPct": 67.1,
+  "registered": 435536,
+  "ballots": 292097,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1989-11-07",
+  "turnoutPct": 44.8,
+  "registered": 405536,
+  "ballots": 181862,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1990-06-05",
+  "turnoutPct": 41.6,
+  "registered": 389552,
+  "ballots": 161989,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "1990-11-06",
+  "turnoutPct": 57.8,
+  "registered": 409163,
+  "ballots": 236413,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1991-11-05",
+  "turnoutPct": 47.6,
+  "registered": 421919,
+  "ballots": 200875,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1991-12-10",
+  "turnoutPct": 50.7,
+  "registered": 425316,
+  "ballots": 215751,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1992-06-02",
+  "turnoutPct": 42.2,
+  "registered": 432838,
+  "ballots": 182577,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "1992-11-03",
+  "turnoutPct": 69.0,
+  "registered": 477726,
+  "ballots": 329695,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1993-06-15",
+  "turnoutPct": 20.1,
+  "registered": 421635,
+  "ballots": 84786,
+  "source": "archival",
+  "kind": "Special"
+ },
+ {
+  "date": "1993-11-02",
+  "turnoutPct": 37.2,
+  "registered": 425034,
+  "ballots": 158146,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1994-06-07",
+  "turnoutPct": 32.0,
+  "registered": 422776,
+  "ballots": 135495,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "1994-11-08",
+  "turnoutPct": 55.4,
+  "registered": 450649,
+  "ballots": 249669,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1995-11-07",
+  "turnoutPct": 51.9,
+  "registered": 417883,
+  "ballots": 216735,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1995-12-12",
+  "turnoutPct": 46.6,
+  "registered": 425969,
+  "ballots": 198326,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1996-03-26",
+  "turnoutPct": 40.5,
+  "registered": 440254,
+  "ballots": 178165,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "1996-11-05",
+  "turnoutPct": 62.0,
+  "registered": 481902,
+  "ballots": 298648,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1997-06-03",
+  "turnoutPct": 43.5,
+  "registered": 411230,
+  "ballots": 178948,
+  "source": "archival",
+  "kind": "Special"
+ },
+ {
+  "date": "1997-11-04",
+  "turnoutPct": 30.4,
+  "registered": 413355,
+  "ballots": 125697,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1998-06-02",
+  "turnoutPct": 46.2,
+  "registered": 430794,
+  "ballots": 199157,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "1998-11-03",
+  "turnoutPct": 55.9,
+  "registered": 448888,
+  "ballots": 250719,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1999-11-02",
+  "turnoutPct": 44.9,
+  "registered": 453151,
+  "ballots": 203674,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1999-12-14",
+  "turnoutPct": 48.8,
+  "registered": 467295,
+  "ballots": 228247,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "2000-03-07",
+  "turnoutPct": 44.9,
+  "registered": 468198,
+  "ballots": 210229,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "2000-11-07",
+  "turnoutPct": 66.6,
+  "registered": 486636,
+  "ballots": 324031,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "2000-12-12",
+  "turnoutPct": 32.6,
+  "registered": 398234,
+  "ballots": 129629,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "2001-11-06",
+  "turnoutPct": 29.6,
+  "registered": 452543,
+  "ballots": 134024,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "2001-12-11",
+  "turnoutPct": 16.6,
+  "registered": 453961,
+  "ballots": 75267,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "2002-03-05",
+  "turnoutPct": 34.1,
+  "registered": 440016,
+  "ballots": 150249,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "2002-11-05",
+  "turnoutPct": 50.1,
+  "registered": 449508,
+  "ballots": 225102,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "2002-12-10",
+  "turnoutPct": 38.4,
+  "registered": 93537,
+  "ballots": 35897,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "2003-10-07",
+  "turnoutPct": 59.2,
+  "registered": 454929,
+  "ballots": 269143,
+  "source": "archival",
+  "kind": "Recall"
+ },
+ {
+  "date": "2003-11-04",
+  "turnoutPct": 45.7,
+  "registered": 459213,
+  "ballots": 209723,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "2003-12-09",
+  "turnoutPct": 54.5,
+  "registered": 466127,
+  "ballots": 253872,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "2004-03-02",
+  "turnoutPct": 42.5,
+  "registered": 448948,
+  "ballots": 190828,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "2004-11-02",
+  "turnoutPct": 74.3,
+  "registered": 486937,
+  "ballots": 361822,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "2005-11-08",
+  "turnoutPct": 53.6,
+  "registered": 428481,
+  "ballots": 229714,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "2006-06-06",
+  "turnoutPct": 37.1,
+  "registered": 421094,
+  "ballots": 156272,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "2006-11-07",
+  "turnoutPct": 60.7,
+  "registered": 418285,
+  "ballots": 253719,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "2007-11-06",
+  "turnoutPct": 35.6,
+  "registered": 419598,
+  "ballots": 149465,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "2008-02-05",
+  "turnoutPct": 64.8,
+  "registered": 415761,
+  "ballots": 269212,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "2008-04-08",
+  "turnoutPct": 24.9,
+  "registered": 79340,
+  "ballots": 19742,
+  "source": "doe-turnout-table",
+  "kind": "Special"
+ },
+ {
+  "date": "2008-06-03",
+  "turnoutPct": 40.2,
+  "registered": 430259,
+  "ballots": 173035,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "2008-11-04",
+  "turnoutPct": 81.3,
+  "registered": 477651,
+  "ballots": 388112,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "2009-05-19",
+  "turnoutPct": 28.1,
+  "registered": 465428,
+  "ballots": 130644,
+  "source": "archival",
+  "kind": "Special"
+ },
+ {
+  "date": "2009-11-03",
+  "turnoutPct": 22.6,
+  "registered": 451988,
+  "ballots": 102061,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "2010-06-08",
+  "turnoutPct": 34.7,
+  "registered": 447985,
+  "ballots": 155533,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "2010-11-02",
+  "turnoutPct": 61.6,
+  "registered": 461771,
+  "ballots": 284625,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "2011-11-08",
+  "turnoutPct": 42.5,
+  "registered": 464380,
+  "ballots": 197242,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "2012-06-05",
+  "turnoutPct": 30.8,
+  "registered": 470668,
+  "ballots": 145105,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "2012-11-06",
+  "turnoutPct": 72.6,
+  "registered": 502841,
+  "ballots": 364875,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "2013-11-05",
+  "turnoutPct": 29.3,
+  "registered": 440028,
+  "ballots": 128937,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "2014-06-03",
+  "turnoutPct": 29.7,
+  "registered": 435757,
+  "ballots": 129399,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "2014-11-04",
+  "turnoutPct": 53.0,
+  "registered": 436019,
+  "ballots": 231214,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "2015-11-03",
+  "turnoutPct": 45.4,
+  "registered": 446828,
+  "ballots": 203069,
+  "source": "exact",
+  "kind": "Municipal"
+ },
+ {
+  "date": "2016-06-07",
+  "turnoutPct": 56.6,
+  "registered": 468238,
+  "ballots": 264993,
+  "source": "exact",
+  "kind": "Primary"
+ },
+ {
+  "date": "2016-11-08",
+  "turnoutPct": 80.7,
+  "registered": 513573,
+  "ballots": 414528,
+  "source": "exact",
+  "kind": "General"
+ },
+ {
+  "date": "2018-06-05",
+  "turnoutPct": 53.0,
+  "registered": 478113,
+  "ballots": 253583,
+  "source": "exact",
+  "kind": "Primary"
+ },
+ {
+  "date": "2018-11-06",
+  "turnoutPct": 74.5,
+  "registered": 500516,
+  "ballots": 372848,
+  "source": "exact",
+  "kind": "General"
+ },
+ {
+  "date": "2019-11-05",
+  "turnoutPct": 41.6,
+  "registered": 495050,
+  "ballots": 206122,
+  "source": "exact",
+  "kind": "Municipal"
+ },
+ {
+  "date": "2020-03-03",
+  "turnoutPct": 60.6,
+  "registered": 503899,
+  "ballots": 305184,
+  "source": "exact",
+  "kind": "Primary"
+ },
+ {
+  "date": "2020-11-03",
+  "turnoutPct": 86.3,
+  "registered": 521099,
+  "ballots": 449866,
+  "source": "exact",
+  "kind": "General"
+ },
+ {
+  "date": "2021-09-14",
+  "turnoutPct": 68.0,
+  "registered": 501919,
+  "ballots": 341055,
+  "source": "exact",
+  "kind": "Recall"
+ },
+ {
+  "date": "2022-02-15",
+  "turnoutPct": 36.0,
+  "registered": 499771,
+  "ballots": 179981,
+  "source": "exact",
+  "kind": "Special"
+ },
+ {
+  "date": "2022-04-19",
+  "turnoutPct": 29.3,
+  "registered": 268722,
+  "ballots": 78764,
+  "source": "exact",
+  "kind": "Special"
+ },
+ {
+  "date": "2022-06-07",
+  "turnoutPct": 46.3,
+  "registered": 495498,
+  "ballots": 229229,
+  "source": "exact",
+  "kind": "Primary"
+ },
+ {
+  "date": "2022-11-08",
+  "turnoutPct": 62.3,
+  "registered": 497561,
+  "ballots": 310071,
+  "source": "exact",
+  "kind": "General"
+ },
+ {
+  "date": "2024-03-05",
+  "turnoutPct": 46.6,
+  "registered": 500856,
+  "ballots": 233465,
+  "source": "exact",
+  "kind": "Primary"
+ },
+ {
+  "date": "2024-11-05",
+  "turnoutPct": 78.9,
+  "registered": 522265,
+  "ballots": 412231,
+  "source": "exact",
+  "kind": "General"
+ },
+ {
+  "date": "2025-09-16",
+  "turnoutPct": 42.9,
+  "registered": 50273,
+  "ballots": 21542,
+  "source": "exact",
+  "kind": "Recall"
+ },
+ {
+  "date": "2025-11-04",
+  "turnoutPct": 55.6,
+  "registered": 531310,
+  "ballots": 295232,
+  "source": "exact",
+  "kind": "Special"
+ },
+ {
+  "date": "2026-06-02",
+  "turnoutPct": 48.6,
+  "registered": 533546,
+  "ballots": 259288,
+  "source": "exact",
+  "kind": "Primary"
+ }
+]

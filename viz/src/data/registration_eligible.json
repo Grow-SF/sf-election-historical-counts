@@ -1,0 +1,441 @@
+[
+ {
+  "date": "1974-11-05",
+  "eligible": 526930,
+  "registered": 369005,
+  "pct": 70.0,
+  "context": "Nov 1974 general",
+  "source": "sov-print",
+  "recovered": true,
+  "confidence": "high"
+ },
+ {
+  "date": "1978-11-07",
+  "eligible": 470773,
+  "registered": 380749,
+  "pct": 80.9,
+  "context": "Nov 1978 general",
+  "source": "sov-print",
+  "recovered": true,
+  "confidence": "high"
+ },
+ {
+  "date": "1982-06-08",
+  "eligible": 485951,
+  "registered": 344483,
+  "pct": 70.9,
+  "context": "Jun 1982 primary",
+  "source": "sov-print",
+  "recovered": true,
+  "confidence": "high"
+ },
+ {
+  "date": "1986-11-04",
+  "eligible": 496427,
+  "registered": 385847,
+  "pct": 77.7,
+  "context": "Nov 1986 general",
+  "source": "sov-print",
+  "recovered": true,
+  "confidence": "high"
+ },
+ {
+  "date": "1990-11-06",
+  "eligible": 484956,
+  "registered": 409334,
+  "pct": 84.4,
+  "context": "Nov 1990 general",
+  "source": "sov-print",
+  "recovered": true,
+  "confidence": "high"
+ },
+ {
+  "date": "1994-11-08",
+  "eligible": 467029,
+  "registered": 450649,
+  "pct": 96.5,
+  "context": "Nov 1994 general",
+  "source": "sov-print",
+  "recovered": true,
+  "confidence": "low"
+ },
+ {
+  "date": "1996-10-25",
+  "eligible": 479127,
+  "registered": 482541,
+  "pct": 100.7,
+  "context": "Oct 1996 (SoS Bill Jones via Contra Costa Times)",
+  "source": "sov-print",
+  "recovered": true,
+  "confidence": "low"
+ },
+ {
+  "date": "2001-02-10",
+  "eligible": 535723,
+  "registered": 463994,
+  "pct": 86.6,
+  "context": "2001 odd-year",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2002-02-19",
+  "eligible": 576971,
+  "registered": 440016,
+  "pct": 76.3,
+  "context": "2002-03-05 primary",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2002-10-21",
+  "eligible": 574619,
+  "registered": 449396,
+  "pct": 78.2,
+  "context": "2002-11-05 general",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2003-02-10",
+  "eligible": 576427,
+  "registered": 434603,
+  "pct": 75.4,
+  "context": "2003 odd-year",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2003-09-22",
+  "eligible": 580024,
+  "registered": 454931,
+  "pct": 78.4,
+  "context": "2003-10-07 recall",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2004-02-17",
+  "eligible": 570808,
+  "registered": 448948,
+  "pct": 78.7,
+  "context": "2004-03-02 presidential primary",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2004-10-18",
+  "eligible": 571538,
+  "registered": 486822,
+  "pct": 85.2,
+  "context": "2004-11-02 general",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2005-02-10",
+  "eligible": 574413,
+  "registered": 477745,
+  "pct": 83.2,
+  "context": "2005 odd-year",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2005-10-24",
+  "eligible": 578065,
+  "registered": 427539,
+  "pct": 74.0,
+  "context": "2005-11-08 special",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2006-05-22",
+  "eligible": 575791,
+  "registered": 421094,
+  "pct": 73.1,
+  "context": "2006-06-06 primary",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2006-10-23",
+  "eligible": 577544,
+  "registered": 418285,
+  "pct": 72.4,
+  "context": "2006-11-07 general",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2007-02-10",
+  "eligible": 579885,
+  "registered": 418567,
+  "pct": 72.2,
+  "context": "2007 odd-year",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2008-01-22",
+  "eligible": 592185,
+  "registered": 415761,
+  "pct": 70.2,
+  "context": "2008-02-05 presidential primary",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2008-05-19",
+  "eligible": 594741,
+  "registered": 430259,
+  "pct": 72.3,
+  "context": "2008-06-03 primary",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2008-10-20",
+  "eligible": 599667,
+  "registered": 477356,
+  "pct": 79.6,
+  "context": "2008-11-04 general",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2009-02-10",
+  "eligible": 602368,
+  "registered": 469580,
+  "pct": 78.0,
+  "context": "2009 odd-year",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2010-05-24",
+  "eligible": 617885,
+  "registered": 447985,
+  "pct": 72.5,
+  "context": "2010-06-08 primary",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2010-10-18",
+  "eligible": 620651,
+  "registered": 461768,
+  "pct": 74.4,
+  "context": "2010-11-02 general",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2011-02-10",
+  "eligible": 621362,
+  "registered": 465587,
+  "pct": 74.9,
+  "context": "2011 odd-year",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2013-02-10",
+  "eligible": 604155,
+  "registered": 497663,
+  "pct": 82.4,
+  "context": "2013 odd-year",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2014-05-19",
+  "eligible": 622063,
+  "registered": 434922,
+  "pct": 69.9,
+  "context": "2014-06-03 primary",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2014-10-20",
+  "eligible": 625446,
+  "registered": 433844,
+  "pct": 69.4,
+  "context": "2014-11-04 general",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2015-02-10",
+  "eligible": 628002,
+  "registered": 432799,
+  "pct": 68.9,
+  "context": "2015 odd-year",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2016-05-23",
+  "eligible": 644082,
+  "registered": 462927,
+  "pct": 71.9,
+  "context": "2016-06-07 primary",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2016-10-24",
+  "eligible": 646945,
+  "registered": 512723,
+  "pct": 79.3,
+  "context": "2016-11-08 general",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2017-02-10",
+  "eligible": 648951,
+  "registered": 513401,
+  "pct": 79.1,
+  "context": "2017 odd-year",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2018-05-21",
+  "eligible": 657193,
+  "registered": 481977,
+  "pct": 73.3,
+  "context": "2018-06-05 primary",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2018-10-22",
+  "eligible": 660296,
+  "registered": 500051,
+  "pct": 75.7,
+  "context": "2018-11-06 general",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2019-02-10",
+  "eligible": 662489,
+  "registered": 493455,
+  "pct": 74.5,
+  "context": "2019 odd-year",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2020-02-18",
+  "eligible": 656600,
+  "registered": 505246,
+  "pct": 76.9,
+  "context": "2020-03-03 presidential primary",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2020-10-19",
+  "eligible": 668567,
+  "registered": 521771,
+  "pct": 78.0,
+  "context": "2020-11-03 general",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2021-02-10",
+  "eligible": 671063,
+  "registered": 513247,
+  "pct": 76.5,
+  "context": "2021 odd-year",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2021-08-30",
+  "eligible": 641338,
+  "registered": 503841,
+  "pct": 78.6,
+  "context": "2021-09-14 recall",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2022-05-23",
+  "eligible": 662363,
+  "registered": 496649,
+  "pct": 75.0,
+  "context": "2022-06-07 primary",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2022-10-24",
+  "eligible": 660132,
+  "registered": 498197,
+  "pct": 75.5,
+  "context": "2022-11-08 general",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2023-02-10",
+  "eligible": 653715,
+  "registered": 501970,
+  "pct": 76.8,
+  "context": "2023 odd-year",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2024-02-20",
+  "eligible": 649207,
+  "registered": 501463,
+  "pct": 77.2,
+  "context": "2024-03-05 presidential primary",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2024-10-21",
+  "eligible": 663453,
+  "registered": 520203,
+  "pct": 78.4,
+  "context": "2024-11-05 general",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2025-02-10",
+  "eligible": 663658,
+  "registered": 529104,
+  "pct": 79.7,
+  "context": "2025 odd-year",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2025-10-20",
+  "eligible": 660000,
+  "registered": 532195,
+  "pct": 80.6,
+  "context": "2025-11-04 special",
+  "source": "sos-ror",
+  "recovered": false
+ },
+ {
+  "date": "2026-05-18",
+  "eligible": 658495,
+  "registered": 533629,
+  "pct": 81.0,
+  "context": "2026-06-02 primary",
+  "source": "sos-ror",
+  "recovered": false
+ }
+]

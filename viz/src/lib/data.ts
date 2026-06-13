@@ -1,6 +1,8 @@
 import elections from "@/data/elections.json";
 import vbmHistory from "@/data/vbm_history.json";
 import nightFloor from "@/data/night_floor.json";
+import turnoutHistory from "@/data/turnout_history.json";
+import registrationEligible from "@/data/registration_eligible.json";
 
 export type Threshold = { days: number; bound: boolean };
 
@@ -27,9 +29,31 @@ export type VbmPoint = { date: string; share: number; source: string };
 
 export type FloorPoint = { date: string; floorPct: number; source: string; kind: string };
 
+export type TurnoutPoint = {
+  date: string;
+  turnoutPct: number;
+  registered: number;
+  ballots: number;
+  kind: string;
+  source: string;
+};
+
 export const ELECTIONS = elections as unknown as Election[];
 export const VBM_HISTORY = vbmHistory as VbmPoint[];
 export const NIGHT_FLOOR = nightFloor as FloorPoint[];
+export const TURNOUT_HISTORY = turnoutHistory as TurnoutPoint[];
+
+export type RegEligPoint = {
+  date: string;
+  eligible: number;
+  registered: number;
+  pct: number;
+  context: string;
+  source: "sos-ror" | "sov-print";
+  recovered: boolean;
+  confidence?: string;
+};
+export const REGISTRATION_ELIGIBLE = registrationEligible as RegEligPoint[];
 
 export const KINDS = ["General", "Primary", "Municipal", "Special", "Recall"] as const;
 export const THRESHOLDS = [50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 98, 99];
