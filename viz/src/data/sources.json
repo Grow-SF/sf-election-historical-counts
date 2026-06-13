@@ -4088,6 +4088,54 @@
   ]
  },
  {
+  "id": "1924-11-04",
+  "name": "Presidential General Election",
+  "final": 159649,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1924-11-05",
+    "days": 1,
+    "total": 56871,
+    "pct": 35.6,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1924-11-05 President SF sum=56871, 343/unknown precincts, partial; scan sweep_19241104_issue19241105_p1_s1; conf=high; S.F.RETURNS-box-image:Coolidge27800+Davis3858+LaFollette25213=56871;343-of-~850-precincts-partial;certified_cast=159649;narrative-says-~64000-votes-earlier-estimate;image-wins"
+   }
+  ]
+ },
+ {
+  "id": "1922-11-07",
+  "name": "General Election",
+  "final": 134503,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1922-11-08",
+    "days": 1,
+    "total": 35601,
+    "pct": 26.5,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1922-11-08 Governor SF sum=35601, 289/~750 precincts, partial; scan sweep_19221107_issue19221108_p1_s1+p1_s2; conf=medium; Richardson(R)15422+Woolwine(D)20179; box \"complete returns from 289 precincts\" = 289 of SFs ~750 precincts (partial morning); announced 3AM"
+   }
+  ]
+ },
+ {
+  "id": "1920-11-02",
+  "name": "Presidential General Election",
+  "final": 154592,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1920-11-03",
+    "days": 1,
+    "total": 102330,
+    "pct": 66.2,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1920-11-03 President SF sum=102330, 700/771 precincts, 0.908; scan 1920_SFbox_zoom.png,1920_p1s1_SFbox.png; conf=high; 700/771 precincts: Cox 28850 Harding 73480 total=102330; separate 4AM early bulletin shows 197 precincts Cox 4599 Harding 15578; image wins; no minor candidates listed"
+   }
+  ]
+ },
+ {
   "id": "1916-11-07",
   "name": "Presidential General Election",
   "final": 155747,
@@ -4104,6 +4152,22 @@
   ]
  },
  {
+  "id": "1914-11-03",
+  "name": "General Election",
+  "final": 134492,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1914-11-04",
+    "days": 1,
+    "total": 5612,
+    "pct": 4.2,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1914-11-04 Governor SF sum=5612, 320/525 precincts, 0.610; scan sweep_19141103_issue19141104_p2_s0+p2_s1; conf=low; OCR table \"320 precincts\" in SF (of 525): Johnson 3169, Fredericks 1861, Curtin 582 (sum 5612); these are early partial tallies at ~3am not full precinct totals; 136006 total SF votes cast per paper (>134492 certified=total turnout not contest sum); Lawlor Supreme Court listed as highest SF individual tally 3912; count described as proceeding with unprecedented slowness; OCR heavily garbled\u2014numbers likely digit-truncated but image-read values used"
+   }
+  ]
+ },
+ {
   "id": "1912-11-05",
   "name": "Presidential General Election",
   "final": 105646,
@@ -4116,6 +4180,22 @@
     "pct": 85.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1912-11-06 PRES SF sum=89789, 600/638 precincts, partial; scan sweep_19121105_issue19121106_p2_s0; conf=high; Wilson=43158+Roosevelt=34101+Debs=11459+Chapin=1071=89789;600-of-638-precincts;paper-labels-Roosevelt-as-Rep-but-was-Prog-Bull-Moose;Taft-absent-from-CA-ballot"
+   }
+  ]
+ },
+ {
+  "id": "1910-11-08",
+  "name": "General Election",
+  "final": 59724,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1910-11-09",
+    "days": 1,
+    "total": 10640,
+    "pct": 17.8,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1910-11-09 Governor SF sum=10640, 176/352 precincts, 0.5; scan p3_s0,p5_s0; conf=medium; 176/352 pcts: Johnson(R)=4529,Bell(D)=4354,Wilson(S)=1757; county table SF row dots for pcts-heard but article text explicit 176of352 [DOE turnout table lists this election as 1910-11-01; actual general was Nov 8]"
    }
   ]
  },

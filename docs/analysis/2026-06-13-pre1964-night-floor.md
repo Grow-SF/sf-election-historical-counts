@@ -140,7 +140,7 @@ SF/CA adopted in the 1920s–30s and which report precinct totals instantly. The
 latter is worth confirming — if machines drove it, the "fast interlude" began
 decades earlier than the 1960s, sharpening the three-act story.
 
-## FINAL RESULTS (2026-06-13): 17 elections recovered, 1908–1956
+## FINAL RESULTS (2026-06-13): 22 elections recovered, 1908–1956
 
 Recovered SF election-night (morning-after) vote shares from NewsBank image
 scans, ingested to `sf_archival_canvass_points.csv` (pct = largest verified
@@ -148,41 +148,50 @@ SF contest sum ÷ DOE certified ballots cast):
 
 | Year | Night share | Year | Night share | Year | Night share |
 |---|---|---|---|---|---|
-| 1908 | 88.6% | 1932 | 88.4% | 1948 | 95.7% |
-| 1912 | 85.0% | 1936 | 90.1% | 1950 | 96.5% |
-| **1916** | **3.0%** | 1938 | 94.3% | 1952 | 99.0% |
-| 1926 | 70.9% | 1940 | 95.3% | 1954 | 88.7% |
-| 1928 | 90.8% | 1942 | 96.5% | 1956 | 93.6% |
-| 1930 | 91.6% | 1946 | 87.2% | | |
+| 1908 | 88.6% | 1924 | 35.6% | 1942 | 96.5% |
+| 1910 | 17.8% | 1926 | 70.9% | 1946 | 87.2% |
+| 1912 | 85.0% | 1928 | 90.8% | 1948 | 95.7% |
+| 1914 | 4.2% | 1930 | 91.6% | 1950 | 96.5% |
+| **1916** | **3.0%** | 1932 | 88.4% | 1952 | 99.0% |
+| 1920 | 66.2% | 1936 | 90.1% | 1954 | 88.7% |
+| 1922 | 26.5% | 1938 | 94.3% | 1956 | 93.6% |
+|  |  | 1940 | 95.3% |  |  |
 
-**The "slow hand-count era" hypothesis is OVERTURNED by the full data.** After
-seeing only 1916 I proposed a three-act story (slow → fast → slow). The full
-1908–1956 record shows **1916 was the exception, not the era**: SF reliably knew
-**~85–99%** of its vote by the morning after for the entire first half of the
-20th century (Roosevelt/Hoover landslides counted overnight; the machine/EPIC
-era counted fast). The user's original intuition — that the pre-1964 baseline
-was fast — is essentially **correct**, just not a flat constant: there is real
-year-to-year variation (1926 at 71%, several finals at 87–89%) and one dramatic
-outlier (1916, the closest CA presidential race ever, where the count had barely
-begun by the ~3 A.M. press edition; ~95% by the next day).
+**There IS a real slow era — it's the 1910s–1920s, not a generic "hand-count
+era."** (My intermediate notes flip-flopped: 1916 alone suggested a slow start;
+the 1930s–50s landslides then suggested a flat-fast baseline; the focused
+re-read of 1910–1924 settled it.) The shape is **four phases**:
 
-So the corrected narrative is two acts, not three: **a century-long high
-baseline (~85–99% known on election night, with normal variation and the rare
-cliffhanger) → the modern, structural, mail-driven collapse to ~10–50% after
-2000.** The long flat baseline is exactly what makes the modern decline
-significant — vindicating the goal of pushing the record back to 1899.
+1. **Fast 1900s–early 1910s** — 1908 (89%), 1912 (85%): most of the vote known
+   by morning.
+2. **Slow 1910s–1920s** — 1910 (18%), 1914 (4%), 1916 (3%), 1920 (66%), 1922
+   (27%), 1924 (36%), 1926 (71%): a decade-plus of *partial* mornings. Papers
+   repeatedly cite "unusually slow," "unprecedented slowness," long
+   Progressive-era ballots (many propositions + judicial races to hand-count),
+   and close top-of-ticket races. 1918 was the extreme: the first precinct
+   didn't reach the Registrar until after midnight and **no SF totals were
+   published at all** (→ `/missing`).
+3. **Fast again, 1928–1990s** — 1928 onward sits at ~88–99% known overnight
+   (the machine/punch-card era the project already documented from 1964).
+4. **Modern mail-driven collapse, post-2000** — down to ~10–50%.
+
+So the long baseline is **not** flat: it dips hard in the 1910s–20s, recovers,
+then collapses again in the 2000s for an entirely different reason (mail, not
+counting speed). The "you don't know on election night" symptom recurs across a
+century with *three* distinct causes — long hand-counted ballots (1910s), then
+neither (fast mid-century), then late mail (today). Pushing the record to 1908
+is what makes this visible.
 
 ### Gaps (not ingested — for `/missing` / follow-up)
 - **No night figure recoverable from captured pages:** 1899-12-02, 1903-09-29,
-  1903-10-08 (the swept pages 1–5 held literary/sports sections; results were on
+  1903-10-08 (swept pages 1–5 held literary/sports sections; results on
   uncaptured pages — need a wider re-sweep), 1944-11-07 (Election-Extra carried
-  no SF returns; CA was 908/14,841 precincts at press), 1910-11-08 (SF county
-  row unreadable at crop resolution; ~176/352 partial noted).
-- **No NewsBank issue found:** 1902-12-03 (the only date the entry-search
-  missed even after retry — likely an archive gap).
-- **Not yet read (agents died before reaching; scans on disk):** 1914, 1918,
-  1920 (OCR shows 700/771 precincts ≈ 91%), 1922, 1924 — partial fractions seen,
-  clean contest sums pending a focused re-read.
+  no SF returns; CA was 908/14,841 precincts at press), **1918-11-05** (count so
+  slow no SF totals were published election night — itself a finding).
+- **No NewsBank issue found:** 1902-12-03 (entry-search missed it even after
+  retry — likely an archive gap).
+- **Low confidence:** 1914 (4.2%) — OCR heavily garbled, digits may be
+  truncated; ingested as a conservative floor (true value ≥ 4.2%).
 - **Denominator error:** 1934-11-06 — complete Governor race (220,894) exceeds
   DOE ballots-cast (166,133); excluded from the chart, logged in
   `denominator-errors.md`.

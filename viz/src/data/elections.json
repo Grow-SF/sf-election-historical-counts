@@ -58,6 +58,31 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1910-11-08",
+  "name": "General Election",
+  "kind": "General",
+  "year": 1910,
+  "final": 59724,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 17.8,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    17.8,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1912-11-05",
   "name": "Presidential General Election",
   "kind": "General",
@@ -112,6 +137,31 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1914-11-03",
+  "name": "General Election",
+  "kind": "General",
+  "year": 1914,
+  "final": 134492,
+  "registered": 161846,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 4.2,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    4.2,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1916-11-07",
   "name": "Presidential General Election",
   "kind": "General",
@@ -128,6 +178,98 @@
    [
     0.29,
     3.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1920-11-02",
+  "name": "Presidential General Election",
+  "kind": "General",
+  "year": 1920,
+  "final": 154592,
+  "registered": 210024,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 66.2,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    66.2,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1922-11-07",
+  "name": "General Election",
+  "kind": "General",
+  "year": 1922,
+  "final": 134503,
+  "registered": 201563,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 26.5,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    26.5,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1924-11-04",
+  "name": "Presidential General Election",
+  "kind": "General",
+  "year": 1924,
+  "final": 159649,
+  "registered": 219434,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 35.6,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    35.6,
     null,
     null
    ]
