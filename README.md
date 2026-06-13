@@ -2,13 +2,17 @@
 
 **How long San Francisco takes to know who won — sixty-plus years of it.**
 
-San Francisco counts ballots no slower than it used to. What changed is *when*
-the ballots arrive: election night went from telling us almost everything to
-telling us barely half, as vote-by-mail grew from a sliver of the vote in the
-1960s to nine in ten today. This project measures that shift from primary
-sources — the Department of Elections' own results releases plus a deep
-recovery of historical counts from newspaper and web archives — and tells the
-story in an interactive site.
+It takes far longer to learn the outcome of a San Francisco election than it
+used to. Not because the count itself got slower — the back-end pace of
+processing a ballot is about what it always was — but because of what changed
+around it: vote-by-mail grew from a sliver of the vote in the 1960s to nine in
+ten today, and those ballots arrive late and need signature checks before they
+can be counted. So election night went from telling us almost everything to
+telling us barely half, and the result that once was clear by midnight now can
+take days or weeks. This project measures that shift from primary sources —
+the Department of Elections' own results releases plus a deep recovery of
+historical counts from newspaper and web archives — and tells the story in an
+interactive site.
 
 Live data spans **1960–2026**: 75 elections with an election-night count, ~169
 recovered mid-canvass observations, and 241 modern per-release reports, every

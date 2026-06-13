@@ -20,8 +20,11 @@ is `public-search-log.md`).
 
 ## What we're recovering, and what counts as valid
 
-Goal: for each historical election, the **share of the final certified vote
-that was counted by election night** (and the days after). Every value is a
+The project's finding: we learn election outcomes much later than we used to —
+not because counting got slower, but because the vote shifted to late-arriving
+mail. To show that, we need, for each historical election, the **share of the
+final certified vote that was counted by election night** (and the days
+after). Every value is a
 **conservative floor** — a number the true count cannot be below — derived one
 of these ways, in rough order of strength:
 
