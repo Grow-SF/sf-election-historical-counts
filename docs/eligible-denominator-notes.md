@@ -61,15 +61,28 @@ overstates eligible by that ~20-pt gap; don't use it as the franchise denominato
   the Statement of Vote / Reports of Registration: `sf_registration_eligible_sov_1974_1998.csv`
   (1978–1998) and `sf_registration_eligible.csv` (2000–2026; e.g. SF 2020 = 668,567,
   2026 = 658,495 eligible).
-- **Pre-1978 — rough estimate only.** `data/sf_eligible_vap_estimate.csv`:
-  eligible = decennial total (sourced) × an assumed citizen-of-total share
-  (~0.55 in 1900 rising to ~0.68 by 1976, anchored to the 1980/1990 SoS-vs-census
-  ratios; voting age 21+ pre-1971). Assumption-based; flagged per row.
+- **1900–2020 — real census voting-age population (IPUMS NHGIS).**
+  `data/sf_eligible_vap_estimate.csv` now carries actual NHGIS county counts, not
+  estimates (`scripts/nhgis_extract.json` reproduces the pull). Eligible-age basis:
+  21+ before 1971, 18+ after; and **women could not vote before 1920** (CA 1911),
+  so the 1900/1910 electorate is **male 21+**. Selected: 1900 VAP 128,985 (men);
+  1920 366,227; 1960 531,381; 1990 607,076 (matches the Bay Area Census 607,210 ✓);
+  2020 **760,738** all-adult — vs the SoS *eligible* 668,567, i.e. ~92k non-citizen
+  adults, confirming all-adult VAP is the wrong franchise denominator.
+  - **Citizen-eligible:** real where the census tabulated citizenship — **1900 =
+    100,697 citizen men 21+** (native + naturalized; CA barred alien/declarant
+    voting), 1910 ≈ 133,000 (approx). For **1920–1970** the citizen×voting-age cross
+    isn't published by county, so citizen-eligible = VAP × an assumed citizen share
+    (~0.78→0.90, anchored to 1910 ~0.76 and 1990 ~0.80) — flagged `estimate`.
 
-**Why not the Census API:** as of 2026 it requires a key (data requests 302 to a
-"Missing Key" page) and carries no pre-1990 data — so it can't reach 1899. Exact
-pre-1978 citizen figures need Census *citizenship* tables (NHGIS / decennial
-volumes), not just age tables.
+**Citation (required).** IPUMS NHGIS data: *Jonathan Schroeder, David Van Riper,
+Steven Manson, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles.
+IPUMS National Historical Geographic Information System: Version 20.0 [dataset].
+Minneapolis, MN: IPUMS. 2025. http://doi.org/10.18128/D050.V20.0* — and this work
+should be added to the IPUMS bibliography (https://bibliography.ipums.org/).
+
+**Why not the Census API:** as of 2026 it requires a key and carries no pre-1990
+data — NHGIS (above) is the route for the historical county figures.
 
 ## What's left
 - Hand-verify the 1978–1998 SOV recoveries against the cited scans.
