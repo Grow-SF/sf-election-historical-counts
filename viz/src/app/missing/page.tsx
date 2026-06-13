@@ -30,7 +30,7 @@ const NIGHT_GAPS: Gap[] = [
     id: "2000-11-07",
     name: "Presidential general",
     want: "Election-night count (we hold day-1 85.7%). The night's coverage was consumed by Bush v. Gore.",
-    tried: "Chronicle text + image archives including deep page sweeps (20–40).",
+    tried: "Chronicle text + image archives including deep page sweeps (20–40); Wayback (the city's Nov-2000 results database was wiped when reused for the December runoff).",
   },
   {
     id: "2002-12-10",

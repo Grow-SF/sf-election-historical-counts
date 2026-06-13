@@ -3644,6 +3644,80 @@
   "srcShort": "Wayback Machine capture"
  },
  {
+  "id": "2003-10-07",
+  "name": "Statewide Special Election (Recall)",
+  "kind": "Recall",
+  "year": 2003,
+  "final": 269143,
+  "registered": 454929,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    14.81,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 15,
+    "bound": true
+   },
+   "55": {
+    "days": 15,
+    "bound": true
+   },
+   "60": {
+    "days": 15,
+    "bound": true
+   },
+   "65": {
+    "days": 15,
+    "bound": true
+   },
+   "70": {
+    "days": 15,
+    "bound": true
+   },
+   "75": {
+    "days": 15,
+    "bound": true
+   },
+   "80": {
+    "days": 15,
+    "bound": true
+   },
+   "85": {
+    "days": 15,
+    "bound": true
+   },
+   "90": {
+    "days": 15,
+    "bound": true
+   },
+   "95": {
+    "days": 15,
+    "bound": true
+   },
+   "98": {
+    "days": 15,
+    "bound": true
+   },
+   "99": {
+    "days": 15,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "Wayback Machine capture"
+ },
+ {
   "id": "2003-11-04",
   "name": "Consolidated Municipal Election",
   "kind": "Municipal",
@@ -4134,7 +4208,7 @@
   "registered": 418285,
   "source": "archival",
   "provisional": false,
-  "nReports": 2,
+  "nReports": 3,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
@@ -4148,6 +4222,12 @@
    [
     1.5,
     72.7,
+    null,
+    null
+   ],
+   [
+    21.82,
+    99.9,
     null,
     null
    ]
@@ -4172,6 +4252,34 @@
    "70": {
     "days": 2,
     "bound": false
+   },
+   "75": {
+    "days": 22,
+    "bound": true
+   },
+   "80": {
+    "days": 22,
+    "bound": true
+   },
+   "85": {
+    "days": 22,
+    "bound": true
+   },
+   "90": {
+    "days": 22,
+    "bound": true
+   },
+   "95": {
+    "days": 22,
+    "bound": true
+   },
+   "98": {
+    "days": 22,
+    "bound": true
+   },
+   "99": {
+    "days": 22,
+    "bound": true
    }
   },
   "nightSrc": null,
@@ -4750,13 +4858,13 @@
   "vbmShare": null,
   "pts": [
    [
-    2.7,
+    1.84,
     67.0,
     null,
     null
    ],
    [
-    4.96,
+    3.83,
     80.6,
     null,
     null
@@ -4764,31 +4872,31 @@
   ],
   "thresholds": {
    "50": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "55": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "60": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "65": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "70": {
-    "days": 5,
+    "days": 4,
     "bound": false
    },
    "75": {
-    "days": 5,
+    "days": 4,
     "bound": false
    },
    "80": {
-    "days": 5,
+    "days": 4,
     "bound": false
    }
   },

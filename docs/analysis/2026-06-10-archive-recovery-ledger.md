@@ -537,3 +537,13 @@ portal missed. New: 1999-11 d3 86.2% (complete mayor table, ratio),
 2010-11 night doc confirms 98% precincts counted by late night but
 prints no citywide totals. Night slots still open: 1985-11, 1999-11,
 2000-11, 2002-12, 2003-10 (SF rows), 2006-11, 2010-11.
+
+### Session 2026-06-13c — final wayback pass
+2010-11 rows re-stamped to page stamps (capture-time was +1 day, the
+report-8 pattern: now d2 67.0% / d4 80.6%). New: 2003-10 d15 100%
+(count complete by Oct 22), 2006-11 d22 99.9%. DEFINITIVE DRY: the 1999
+Domino results db (eresults.nsf) served stale 1998 data even on
+election night, and the Nov-2000 db was wiped when reused for the
+runoff - 1999-11/12 and 2000-11 night states are unrecoverable from the
+web. The seven open night slots stand; all are microfilm/records-
+request targets now.

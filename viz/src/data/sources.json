@@ -2118,16 +2118,16 @@
   "finalSource": "https://www.sfelections.org/results/20101102/",
   "observations": [
    {
-    "date": "2010-11-05",
-    "days": 3,
+    "date": "2010-11-04",
+    "days": 2,
     "total": 190739,
     "pct": 67.0,
     "label": "Wayback Machine capture",
     "citation": "https://web.archive.org/web/20101105124135/http://www.sfelections.org:80/results/20101102/"
    },
    {
-    "date": "2010-11-07",
-    "days": 5,
+    "date": "2010-11-06",
+    "days": 4,
     "total": 229397,
     "pct": 80.6,
     "label": "Wayback Machine capture",
@@ -2380,6 +2380,14 @@
     "pct": 72.7,
     "label": "SF Chronicle via NewsBank (SFPL)",
     "citation": "SF Chronicle via NewsBank (SFPL), 'ELECTION 2006 - S.F. CITY HALL' 2006-11-09: 'a final tally is expected by Friday when election officials say some 69,300 outstanding absentee and provisional ballots are counted' - conservative floor 253,719 - 69,300 (tighter than the prior day-2 floor)"
+   },
+   {
+    "date": "2006-11-29",
+    "days": 22,
+    "total": 253498,
+    "pct": 99.9,
+    "label": "Wayback Machine capture",
+    "citation": "DOE Election Summary (wayback 20061130155621, election_index.asp?id=47578), 'RUN DATE:11/29/06 03:36 PM', 580 of 580 precincts: 253,498 ballots (60.60%)"
    }
   ]
  },
@@ -2564,6 +2572,22 @@
     "pct": 84.7,
     "label": "SF Chronicle via NewsBank (SFPL)",
     "citation": "SF Chronicle via NewsBank (SFPL), 'ELECTION RESULTS - San Francisco' 2003-11-05 pA24 (0FEA384414F836E1): night table 562/562 precincts, mayor contest sum 177,650 (Newsom 73,635, Gonzalez 35,753, Alioto 28,493, Ammiano 18,717, Leal 14,718, Ribera 4,266 + minor) - conservative night floor; supersedes the looser '65,000 uncounted' narrative figure \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0FEA384414F836E1"
+   }
+  ]
+ },
+ {
+  "id": "2003-10-07",
+  "name": "Statewide Special Election (Recall)",
+  "final": 269143,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "2003-10-22",
+    "days": 15,
+    "total": 269143,
+    "pct": 100.0,
+    "label": "Wayback Machine capture",
+    "citation": "DOE Neighborhood Statistics page (wayback 20031028, election_index.asp?id=19598), 'RUN DATE:10/22/03 03:26 PM', 563 of 563 precincts: 269,143 ballots (59.16% of 454,929) - matches certified final; count complete by day 15"
    }
   ]
  },
