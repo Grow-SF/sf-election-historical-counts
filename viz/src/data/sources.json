@@ -3862,5 +3862,277 @@
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1960-11-09 p3 'Here Are Election Results--County-by-County' AP table, San Francisco row: 1,282 of 1,286 precincts reporting, Nixon 132,833 + Kennedy 185,629 = 318,462 - conservative night floor (presidential sum); scan mirror/newsbank/scans/19601108_issue19601109_p3.png, read+verified 2026-06-11 \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-15092629F0A2DF2B%402437248-150922833A4663B6%404-150922833A4663B6%40"
    }
   ]
+ },
+ {
+  "id": "1956-11-06",
+  "name": "Presidential General Election",
+  "final": 342652,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1956-11-07",
+    "days": 1,
+    "total": 320755,
+    "pct": 93.6,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1956-11-07 President SF sum=320755, 1300/1306 precincts, partial; scan sweep_19561106_issue19561107_p2_s0+p1_s0; conf=high; FINAL ELECTION EXTRA; Eisenhower 164544 Stevenson 155055 Holtwick(Prohib) 1156; 1300/1306 precincts (6 missing at press time)"
+   }
+  ]
+ },
+ {
+  "id": "1954-11-02",
+  "name": "General Election",
+  "final": 277602,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1954-11-03",
+    "days": 1,
+    "total": 246129,
+    "pct": 88.7,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1954-11-03 U.S. Senator SF sum=246129, 1302/1302 precincts, complete; scan sweep_19541102_issue19541103_p4_s3+p1_s0; conf=high; FINAL ELECTION EXTRA; Kuchel(R) 121782 Yorty(D) 119484 Cerney(IPP) 4863; 1302/1302 complete; Governor SF totals not in SF box"
+   }
+  ]
+ },
+ {
+  "id": "1952-11-04",
+  "name": "Presidential General Election",
+  "final": 365972,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1952-11-05",
+    "days": 1,
+    "total": 362269,
+    "pct": 99.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1952-11-05 President SF sum=362269, 1306/1306 precincts, complete; scan sweep_19521104_issue19521105_p1_s3+p1_s0; conf=high; FINAL ELECTION EXTRA; Eisenhower-Nixon 177476 Stevenson-Sparkman 180881 Hallinan-Bass 3149 Hamblen-Holtwick 763; 1306/1306 precincts complete"
+   }
+  ]
+ },
+ {
+  "id": "1950-11-07",
+  "name": "General Election",
+  "final": 312137,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1950-11-08",
+    "days": 1,
+    "total": 301098,
+    "pct": 96.5,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1950-11-08 Governor SF sum=301098, 1210/1210 precincts, complete; scan sweep_19501107_issue19501108_p1_s3+p1_s0; conf=high; FINAL ELECTION EXTRA; Warren(Rep) 195686 Roosevelt(Dem) 105412; 1210/1210 precincts complete; Senator also shown Nixon 161958 Douglas 120579"
+   }
+  ]
+ },
+ {
+  "id": "1948-11-02",
+  "name": "Presidential General Election",
+  "final": 359134,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1948-11-03",
+    "days": 1,
+    "total": 343732,
+    "pct": 95.7,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1948-11-03 President SF sum=343732, 1204/1204 precincts, complete; scan sweep_19481102_issue19481103_p5_s2+p1_s2+p1_s0; conf=high; FINAL edition; Dewey-Warren 155757 Truman-Barkley 165581 Wallace-Taylor 21383 Watson-Learn 1011; 1204/1204 precincts complete"
+   }
+  ]
+ },
+ {
+  "id": "1946-11-05",
+  "name": "General Election",
+  "final": 270457,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1946-11-06",
+    "days": 1,
+    "total": 235931,
+    "pct": 87.2,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1946-11-06 U.S. Senator SF sum=235931, 1185/1197 precincts, partial; scan sweep_19461105_issue19461106_p1_s3; conf=high; 1185-of-1197-precincts-98pct;Knowland-121890-Rogers-114041;Senate-larger-than-gov-warren-ran-cross-filed-unopposed"
+   }
+  ]
+ },
+ {
+  "id": "1942-11-03",
+  "name": "General Election",
+  "final": 230129,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1942-11-04",
+    "days": 1,
+    "total": 222079,
+    "pct": 96.5,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1942-11-04 Governor SF sum=222079, 1187/1187 precincts, complete; scan sweep_19421103_issue19421104_p1_s2; conf=high; all-1187-precincts-complete;Warren-119157-Olson-102922;gov-larger-senate-not-separately-tabulated-in-SF"
+   }
+  ]
+ },
+ {
+  "id": "1940-11-05",
+  "name": "Presidential General Election",
+  "final": 315518,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1940-11-06",
+    "days": 1,
+    "total": 300729,
+    "pct": 95.3,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1940-11-06 President SF sum=300729, 1103/1103 precincts, complete; scan sweep_19401105_issue19401106_p4_s0; conf=medium; all-1103-precincts-complete;minor-cands-Babson-Browder-Thomas-not-tabulated-in-paper;Roosevelt-181620-Willkie-119109"
+   }
+  ]
+ },
+ {
+  "id": "1938-11-08",
+  "name": "General Election",
+  "final": 257597,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1938-11-09",
+    "days": 1,
+    "total": 242948,
+    "pct": 94.3,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1938-11-09 Governor SF sum=242948, 1055/1055 precincts, complete; scan sweep_19381108_issue19381109_p1_s1; conf=high; all-1055-precincts-complete;gov-larger-than-sen-226415"
+   }
+  ]
+ },
+ {
+  "id": "1936-11-03",
+  "name": "Presidential General Election",
+  "final": 269387,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1936-11-04",
+    "days": 1,
+    "total": 242619,
+    "pct": 90.1,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1936-11-04 PRESIDENT SF sum=242619, 1055/1055 precincts, COMPLETE; scan sweep_19361103_issue19361104_p1_s1; conf=high; ROOSEVELT-182159-LANDON-60460-from-image; regular-morning-edition; complete-semiofficial-returns"
+   }
+  ]
+ },
+ {
+  "id": "1932-11-08",
+  "name": "Presidential General Election",
+  "final": 227283,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1932-11-09",
+    "days": 1,
+    "total": 200912,
+    "pct": 88.4,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1932-11-09 President SF sum=200912, 1050/1050 precincts, COMPLETE (\"complete San Francisco vote\"); scan sweep_19321108_issue19321109_p1_s2/p4_s0; conf=high; Roosevelt 134801 + Hoover 66111; paper says complete; 88.4 is president floor (undervote), true night share ~100%."
+   }
+  ]
+ },
+ {
+  "id": "1930-11-04",
+  "name": "General Election",
+  "final": 158629,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1930-11-05",
+    "days": 1,
+    "total": 145301,
+    "pct": 91.6,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1930-11-05 GOVERNOR SF sum=145301, 1155/1155 precincts, COMPLETE; scan sweep_19301104_issue19301105_p1_s0,p1_s1; conf=low-partial; ROLPH-130215est-last-digit-truncated-at-column-edge-YOUNG-15086; regular-morning-edition; no-Senate-race-CA-1930"
+   }
+  ]
+ },
+ {
+  "id": "1928-11-06",
+  "name": "Presidential General Election",
+  "final": 199665,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1928-11-07",
+    "days": 1,
+    "total": 181264,
+    "pct": 90.8,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1928-11-07 PRESIDENT SF sum=181264, 970/1006 precincts, PARTIAL; scan sweep_19281106_issue19281107_p1_s1; conf=high; HOOVER-89487-SMITH-91777-from-image; regular-morning-edition; SEN-JOHNSON-66107-MOORE-15790-smaller"
+   }
+  ]
+ },
+ {
+  "id": "1926-11-02",
+  "name": "General Election",
+  "final": 130835,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1926-11-03",
+    "days": 1,
+    "total": 92732,
+    "pct": 70.9,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1926-11-03 GOVERNOR SF sum=92732, 703/892 precincts, PARTIAL; scan sweep_19261102_issue19261103_p1_s1; conf=high; YOUNG-56207-WARDELL-36525-from-image; 8th-ELECTION-EXTRA; SEN-SHORTRIDGE-54898-ELLIOTT-33021-smaller"
+   }
+  ]
+ },
+ {
+  "id": "1916-11-07",
+  "name": "Presidential General Election",
+  "final": 155747,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1916-11-08",
+    "days": 1,
+    "total": 4674,
+    "pct": 3.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1916-11-08 Charter amendments (president virtually none) SF sum=4674, 300/684 precincts, PARTIAL (president \"virtually none at hand\"); scan sweep_19161107_issue19161108_p2_s0/s1; conf=low-partial; night-of barely counted: largest verified contest=amendment YES+NO ~4674; ~300/684 precincts; day-2 Nov9 reached 676/684 (~95pct). Hand-count slow night."
+   }
+  ]
+ },
+ {
+  "id": "1912-11-05",
+  "name": "Presidential General Election",
+  "final": 105646,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1912-11-06",
+    "days": 1,
+    "total": 89789,
+    "pct": 85.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1912-11-06 PRES SF sum=89789, 600/638 precincts, partial; scan sweep_19121105_issue19121106_p2_s0; conf=high; Wilson=43158+Roosevelt=34101+Debs=11459+Chapin=1071=89789;600-of-638-precincts;paper-labels-Roosevelt-as-Rep-but-was-Prog-Bull-Moose;Taft-absent-from-CA-ballot"
+   }
+  ]
+ },
+ {
+  "id": "1908-11-03",
+  "name": "Presidential General Election",
+  "final": 41137,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1908-11-04",
+    "days": 1,
+    "total": 36450,
+    "pct": 88.6,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1908-11-04 PRES SF sum=36450, 300/300 precincts, complete; scan sweep_19081103_issue19081104_p5_s1; conf=low; image-read:Taft~20816+Bryan~15634=36450;minor-parties-not-readable-from-crop;300-precincts=all-SF;39816-is-1904-comparison-col"
+   }
+  ]
  }
 ]

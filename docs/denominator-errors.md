@@ -15,13 +15,22 @@ The true certified total must be **≥ the contest sum**.
 
 | Election | DOE "ballots cast" | Contradicting contest (verified on scan) | Contest sum | Exceeds DOE by | Implied true total | Scan file |
 |---|---|---|---|---|---|---|
+| 1934-11-06 (general) | 166,133 | Governor: Merriam 112,778 / Sinclair 86,764 / Haight 21,352, **all 1054 precincts complete** | 220,894 | +54,748 | ≥ 220,894 | `sweep_19341106_issue19341107_p1_s2.png` |
 | 1974-06-04 (primary) | 198,508 | Prop B (Conflicts of Interest) Yes 162,975 / No 40,406, **1356 of 1356 precincts** | 203,381 | +4,873 | ≥ 203,381 | `tbl_19740604_issue19740606_p5.png` |
 | 1978-11-07 (general) | 217,965 | Governor: Brown 155,156 / Younger 50,748 / Clark 11,470 / Seals 4,339 / Dietrich 1,434 | 223,147 | +5,182 | ≥ 223,147 | `tbl_19781107_issue19781108_p6.png` |
 
 **Notes**
-- Both are 1970s elections, suggesting a systematic undercount in the DOE
-  turnout table for that decade rather than isolated typos. (Compare the
-  date-mapping typos already found: 2001-12 "12/10" and the 1975 runoff.)
+- **1934 is the largest and earliest case** (+54,748). DOE lists 166,133 ballots
+  cast, but the complete Governor race (the Merriam–Sinclair EPIC contest, a
+  record-turnout election) drew 220,894 votes across all 1054 SF precincts. The
+  DOE figure is also implausible against neighbors (1932: 227,283; 1936:
+  269,387). Found during the 1899–1956 night-of recovery (2026-06-13); its
+  night-share point is **excluded from the chart** pending a corrected
+  denominator from the CA/SF Statement of Vote.
+- The 1974 and 1978 cases are 1970s elections, suggesting a systematic
+  undercount in the DOE turnout table for that decade rather than isolated
+  typos. (Compare the date-mapping typos already found: 2001-12 "12/10" and the
+  1975 runoff.)
 - 1978 cross-checks: the newspaper's percentages are internally consistent
   (Brown 155,156 = 69.5% of 223,147 ✓); Brown winning ~70% in
   heavily-Democratic SF is historically correct; the California Statement
