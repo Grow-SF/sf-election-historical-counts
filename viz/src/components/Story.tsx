@@ -101,6 +101,10 @@ function Footer() {
         </div>
         <p className="smallcaps mt-8 text-paper/55">
           built from the sf-election-count pipeline ·{" "}
+          <a href="/eras" className="border-b border-gold/60 text-gold hover:bg-gold/10">
+            a century of election nights — the essay
+          </a>{" "}
+          ·{" "}
           <a href="/sources" className="border-b border-gold/60 text-gold hover:bg-gold/10">
             every number, sourced — the full citation list
           </a>{" "}
@@ -153,7 +157,13 @@ export default function Story() {
               Recalls (purple) and special elections (gold) sit above the trend:
               their electorates vote early by mail, so the night count catches
               more of them. Filter to primaries and generals and both slides —
-              the 1910s and today’s — show their sharpest.
+              the 1910s and today’s — show their sharpest.{" "}
+              <a
+                href="/eras"
+                className="border-b border-rust font-medium text-rust hover:bg-rust/10"
+              >
+                Read the full story — a century of election nights →
+              </a>
             </p>
           </>
         }
