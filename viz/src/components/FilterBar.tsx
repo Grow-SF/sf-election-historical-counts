@@ -2,11 +2,7 @@
 import { useState } from "react";
 import { KIND_COLOR, KINDS, YEAR_MAX, YEAR_MIN } from "@/lib/data";
 import { UrlState } from "@/lib/useUrlState";
-
-const YEARS = Array.from(
-  { length: YEAR_MAX - YEAR_MIN + 1 },
-  (_, i) => YEAR_MIN + i,
-);
+import { DualRange } from "@/components/ui";
 
 export default function FilterBar({
   state,
@@ -62,51 +58,42 @@ export default function FilterBar({
           })}
         </div>
 
-        <label className="smallcaps flex items-center gap-1.5 text-faint">
-          <select
-            value={state.from}
-            onChange={(e) => update({ from: Number(e.target.value) })}
-            className="stat-figure border border-rule bg-transparent px-1 py-0.5 text-xs text-ink"
-          >
-            {YEARS.map((y) => (
-              <option key={y} value={y}>
-                {y}
-              </option>
-            ))}
-          </select>
-          –
-          <select
-            value={state.to}
-            onChange={(e) => update({ to: Number(e.target.value) })}
-            className="stat-figure border border-rule bg-transparent px-1 py-0.5 text-xs text-ink"
-          >
-            {YEARS.map((y) => (
-              <option key={y} value={y}>
-                {y}
-              </option>
-            ))}
-          </select>
+        <label className="smallcaps flex items-center gap-2 text-faint">
+          <span className="text-faint">years</span>
+          <span className="stat-figure text-xs text-ink">{state.from}</span>
+          <DualRange
+            min={YEAR_MIN}
+            max={YEAR_MAX}
+            lo={state.from}
+            hi={state.to}
+            onChange={(from, to) => update({ from, to })}
+            ariaLabel="year range"
+            className="w-28 sm:w-40"
+          />
+          <span className="stat-figure text-xs text-ink">{state.to}</span>
         </label>
 
 
-        <a
-          href="/sources"
-          className="smallcaps ml-auto border border-rust px-2.5 py-1 text-rust transition-colors hover:bg-rust hover:text-paper"
-        >
-          sources
-        </a>
-        <a
-          href="/missing"
-          className="smallcaps border border-gold bg-gold/10 px-2.5 py-1 text-ink transition-colors hover:bg-gold hover:text-night"
-        >
-          help wanted
-        </a>
-        <button
-          onClick={share}
-          className="smallcaps border border-ink px-2.5 py-1 text-ink transition-colors hover:bg-ink hover:text-paper"
-        >
-          {copied ? "link copied ✓" : "share this view"}
-        </button>
+        <div className="ml-auto flex flex-wrap items-center gap-2">
+          <a
+            href="/sources"
+            className="smallcaps border border-rust px-2.5 py-1 text-rust transition-colors hover:bg-rust hover:text-paper"
+          >
+            sources
+          </a>
+          <a
+            href="/missing"
+            className="smallcaps border border-gold bg-gold/10 px-2.5 py-1 text-ink transition-colors hover:bg-gold hover:text-night"
+          >
+            help wanted
+          </a>
+          <button
+            onClick={share}
+            className="smallcaps border border-ink px-2.5 py-1 text-ink transition-colors hover:bg-ink hover:text-paper"
+          >
+            {copied ? "link copied ✓" : "share this view"}
+          </button>
+        </div>
       </div>
     </div>
   );
