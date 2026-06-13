@@ -182,6 +182,18 @@ century with *three* distinct causes — long hand-counted ballots (1910s), then
 neither (fast mid-century), then late mail (today). Pushing the record to 1908
 is what makes this visible.
 
+### Wider re-sweep outcome (2026-06-13)
+
+Re-swept pages 6–16 of the morning-after issues for the five gap elections
+(1899-12-02, 1903-09-29, 1903-10-08, 1918-11-05, 1944-11-07). Those pages held
+financial/market tables, sports, and general news — **no SF election returns**.
+With pages 1–16 now covered, the conclusion is that these issues' captured
+editions don't carry the city tally: 1918 and 1944 demonstrably published no
+night-of SF totals (count too slow; Election-Extra deadline), and the
+1899/1903 low-turnout municipal/charter returns are not in the available
+edition. These five remain genuine gaps (microfilm of other editions / the
+Examiner, or a records request, are the remaining paths).
+
 ### Gaps (not ingested — for `/missing` / follow-up)
 - **No night figure recoverable from captured pages:** 1899-12-02, 1903-09-29,
   1903-10-08 (swept pages 1–5 held literary/sports sections; results on
