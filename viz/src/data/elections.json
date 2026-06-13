@@ -3848,11 +3848,17 @@
   "registered": 466127,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
+  "nReports": 2,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    1.5,
+    88.9,
+    null,
+    null
+   ],
    [
     2.83,
     97.6,
@@ -3862,48 +3868,48 @@
   ],
   "thresholds": {
    "50": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "55": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "60": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "65": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "70": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "75": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "80": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "85": {
-    "days": 3,
+    "days": 2,
     "bound": true
    },
    "90": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 3,
-    "bound": true
+    "bound": false
    }
   },
   "nightSrc": null,
-  "srcShort": "contemporary news report (live web)"
+  "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {
   "id": "2004-03-02",
