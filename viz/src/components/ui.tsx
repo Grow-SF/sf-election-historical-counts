@@ -143,12 +143,24 @@ export function PointTooltip({
 export function ChartFrame({
   children,
   note,
+  title,
+  subtitle,
 }: {
   children: React.ReactNode;
   note?: React.ReactNode;
+  title?: React.ReactNode;
+  subtitle?: React.ReactNode;
 }) {
   return (
     <figure className="mt-4 border border-rule bg-paper-deep/40 p-3 sm:p-5">
+      {title && (
+        <figcaption className="mb-3">
+          <h3 className="text-lg font-semibold leading-tight text-ink">{title}</h3>
+          {subtitle && (
+            <p className="smallcaps mt-0.5 text-faint">{subtitle}</p>
+          )}
+        </figcaption>
+      )}
       {children}
       {note && (
         <figcaption className="mt-3 border-t border-rule pt-2 text-sm italic text-faint">

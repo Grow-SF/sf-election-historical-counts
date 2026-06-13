@@ -68,6 +68,8 @@ const MILESTONES = [2002.0, 2020.84, 2022.0];
 export default function TurnoutChart() {
   return (
     <ChartFrame
+      title="Turnout of registered voters"
+      subtitle="Ballots cast ÷ registered, by election type, 1899–2026"
       note={
         <>
           <span className="smallcaps not-italic" style={{ color: "var(--color-gold)" }}>

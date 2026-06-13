@@ -222,6 +222,8 @@ export default function TrajectoryExplorer({
         <div>
           <DayRangeSlider lo={lo} hi={hi} max={dataMax} onChange={setDayRange} />
           <ChartFrame
+            title="The count, release by release"
+            subtitle="Each election's share of its certified final, over days since election night"
             note={
               <>
                 Each line is one election’s count: % of the certified final, by

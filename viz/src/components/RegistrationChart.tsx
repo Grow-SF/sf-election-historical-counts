@@ -53,6 +53,8 @@ const MILESTONES = [2002.0, 2020.84, 2022.0];
 export default function RegistrationChart() {
   return (
     <ChartFrame
+      title="Registration among eligible citizens"
+      subtitle="Registered ÷ citizen voting-age population, 1978–2026"
       note={
         <>
           <span className="smallcaps not-italic" style={{ color: "var(--color-gold)" }}>

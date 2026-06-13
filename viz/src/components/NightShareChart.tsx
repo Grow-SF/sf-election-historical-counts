@@ -142,6 +142,8 @@ export default function NightShareChart({
         </p>
       )}
       <ChartFrame
+        title="How much of the vote was counted on election night"
+        subtitle="Election-night count ÷ certified final, by election, 1960–2026"
         note={
           <>
             A solid dot never sits below its diamond — in-person ballots are

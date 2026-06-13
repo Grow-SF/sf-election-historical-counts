@@ -56,6 +56,8 @@ const MILESTONES = [2002.0, 2020.84, 2022.0];
 export default function VbmChart() {
   return (
     <ChartFrame
+      title="Vote-by-mail share of ballots cast"
+      subtitle="San Francisco, 1964–2026"
       note={
         <>
           <span className="smallcaps not-italic" style={{ color: "var(--color-gold)" }}>

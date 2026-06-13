@@ -73,6 +73,8 @@ function FunnelTooltip({
 export default function FranchiseFunnelChart() {
   return (
     <ChartFrame
+      title="Who could vote — and who did"
+      subtitle="San Francisco by presidential election, 1908–2024"
       note={
         <>
           <span className="smallcaps not-italic" style={{ color: "var(--color-gold)" }}>
