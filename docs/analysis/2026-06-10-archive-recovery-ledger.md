@@ -529,3 +529,11 @@ missed title); plus 1999-11 d2 70.9% (AP ratio). Examiner = blog
 network post-2006, print never digitized. Gov-release wires dry.
 Missing-nights list: 13 -> 7 (1985-11, 1999-11 night, 2000-11 night,
 2002-12, 2003-10 SF rows, 2006-11 night, 2010-11 night).
+
+### Session 2026-06-13b — Chronicle series sweep via AWN interface
+The AWN search index returns Chronicle docs the sfchronicle.newsbank
+portal missed. New: 1999-11 d3 86.2% (complete mayor table, ratio),
+2000-11 d3 91.6% (DOE-itemized remaining), 2006-11 d2 72.7%. The
+2010-11 night doc confirms 98% precincts counted by late night but
+prints no citywide totals. Night slots still open: 1985-11, 1999-11,
+2000-11, 2002-12, 2003-10 (SF rows), 2006-11, 2010-11.

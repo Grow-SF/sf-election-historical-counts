@@ -2372,6 +2372,14 @@
     "pct": 61.7,
     "label": "SF Chronicle via NewsBank (SFPL)",
     "citation": "SF Chronicle via NewsBank (SFPL), 'LOCAL ELECTION RESULTS - San Francisco' 2006-11-09 pB7 (1154BE08AF2058A8): table 580/580 precincts, largest yes/no sum 156441 - conservative day-2 floor; first count observation for this election \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1154BE08AF2058A8"
+   },
+   {
+    "date": "2006-11-09",
+    "days": 2,
+    "total": 184419,
+    "pct": 72.7,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'ELECTION 2006 - S.F. CITY HALL' 2006-11-09: 'a final tally is expected by Friday when election officials say some 69,300 outstanding absentee and provisional ballots are counted' - conservative floor 253,719 - 69,300 (tighter than the prior day-2 floor)"
    }
   ]
  },
@@ -2806,6 +2814,14 @@
     "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F969CE014F14): largest contest YES 116596 + NO 135329 = 251,925 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F969CE014F14"
    },
    {
+    "date": "2000-11-10",
+    "days": 3,
+    "total": 296684,
+    "pct": 91.6,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'S.F.'s Slow-Growth Prop. L Falls Behind in Late Count' 2000-11-10: 'about 18,000 absentee ballots left to be counted, along with 9,347 provisional ballots' (Hayashi, DOE) - conservative floor 324,031 - 27,347; same article: Prop L daily count 130,066 to 130,059"
+   },
+   {
     "date": "2000-11-12",
     "days": 5,
     "total": 314031,
@@ -2916,6 +2932,14 @@
     "pct": 90.7,
     "label": "Wayback Machine capture",
     "citation": "SF Chronicle 1999-11-05 'Ammiano vs. Brown' (wayback sfgate MN82008): 'still has 19,000 absentee and provisional ballots to count today' - conservative floor, certified minus stated remaining; https://web.archive.org/web/20001210003900/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/11/05/MN82008.DTL"
+   },
+   {
+    "date": "1999-11-05",
+    "days": 3,
+    "total": 175483,
+    "pct": 86.2,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Ammiano vs. Brown - Write-in votes catapult supervisor into S.F. runoff' 1999-11-05: 'All 646 precincts reporting: Willie Brown 67,912 votes 38.7%' - same-contest ratio floor 67,912/0.387 = 175,483; '19,000 absentee and provisional ballots to count today'"
    }
   ]
  },
