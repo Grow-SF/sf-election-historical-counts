@@ -49,7 +49,7 @@ Ingests the structured files SF Elections publishes per release —
 `summary.xml` (2019+) and `summary.txt` TSV (2008–2018) — rather than parsing
 PDFs. Timestamps come from HTTP `Last-Modified` headers (`data/manifest.csv`).
 
-    uv run sfcount all        # inventory → fetch → parse → validate → derive → artifact
+    uv run sfcount all        # inventory → fetch → parse → validate → derive
     uv run sfcount fetch      # resumable; ~25 min cold
     uv run pytest             # offline suite (real downloaded fixtures)
 

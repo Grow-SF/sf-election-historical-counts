@@ -1,25 +1,23 @@
 """sfcount: SF vote-count timeline pipeline.
 
-Subcommands: inventory | fetch | parse | validate | derive | artifact | all
+Subcommands: inventory | fetch | parse | validate | derive | all
 """
 import argparse
 from pathlib import Path
 
-from sfcount.artifact import stage_artifact
 from sfcount.derive import stage_derive
 from sfcount.fetch import stage_fetch
 from sfcount.inventory import stage_inventory
 from sfcount.timeline import stage_parse
 from sfcount.validate import stage_validate
 
-STAGES = ["inventory", "fetch", "parse", "validate", "derive", "artifact"]
+STAGES = ["inventory", "fetch", "parse", "validate", "derive"]
 
 
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(prog="sfcount", description=__doc__)
     p.add_argument("--data-dir", type=Path, default=Path("data"))
     p.add_argument("--raw-dir", type=Path, default=Path("raw"))
-    p.add_argument("--jsx", type=Path, default=Path("artifact/sf-long-count.jsx"))
     p.add_argument("--eras", default="B,C", help="comma-separated eras (default B,C)")
     sub = p.add_subparsers(dest="cmd", required=True)
     for name in STAGES + ["all"]:
@@ -38,6 +36,4 @@ def main(argv=None) -> int:
         rc = stage_validate(args.data_dir) or rc
     if args.cmd in ("derive", "all"):
         stage_derive(args.data_dir)
-    if args.cmd in ("artifact", "all"):
-        stage_artifact(args.data_dir, args.jsx)
     return rc
