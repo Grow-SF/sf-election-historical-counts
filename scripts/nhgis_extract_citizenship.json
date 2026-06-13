@@ -1,0 +1,12 @@
+{
+  "datasets": {
+    "1920_cPHAM": {"dataTables": ["NT13"], "geogLevels": ["county"]},
+    "1930_cPAE":  {"dataTables": ["NT10"], "geogLevels": ["county"]},
+    "1940_cPHAE": {"dataTables": ["NT10"], "geogLevels": ["county"]},
+    "1950_cPHA":  {"dataTables": ["NT9A","NT9B"], "geogLevels": ["county"]},
+    "1960_cPop":  {"dataTables": ["NT2"], "geogLevels": ["county"]},
+    "1970_Cnt4Pb":{"dataTables": ["NT25"], "geogLevels": ["county"]}
+  },
+  "dataFormat": "csv_header",
+  "description": "SF County citizenship/nativity of voting-age 1920-1970 (sf-election-count)"
+}

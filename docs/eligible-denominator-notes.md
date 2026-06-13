@@ -69,11 +69,18 @@ overstates eligible by that ~20-pt gap; don't use it as the franchise denominato
   1920 366,227; 1960 531,381; 1990 607,076 (matches the Bay Area Census 607,210 ✓);
   2020 **760,738** all-adult — vs the SoS *eligible* 668,567, i.e. ~92k non-citizen
   adults, confirming all-adult VAP is the wrong franchise denominator.
-  - **Citizen-eligible:** real where the census tabulated citizenship — **1900 =
-    100,697 citizen men 21+** (native + naturalized; CA barred alien/declarant
-    voting), 1910 ≈ 133,000 (approx). For **1920–1970** the citizen×voting-age cross
-    isn't published by county, so citizen-eligible = VAP × an assumed citizen share
-    (~0.78→0.90, anchored to 1910 ~0.76 and 1990 ~0.80) — flagged `estimate`.
+  - **Citizen-eligible (now real, not assumed).** From census citizenship tables
+    (`scripts/nhgis_extract_citizenship.json`): **1900 = 100,697 citizen men 21+**;
+    1910 ≈ 133,000; **1940 = 443,386, 1950 = 554,171, 1970 = 461,919** are direct
+    (VAP minus the census alien count by age — 1970 from a Citizenship-by-Age table);
+    1920 (304,136) and 1930 (401,112) use the real foreign-born-21+ count × an alien
+    share interpolated from 1910/1940/1970 (Asians counted non-citizen — barred from
+    naturalization until 1943/1952); 1960 (490,965) is interpolated because the 1960
+    census asked no citizenship question.
+  - **The immigrant arc shows in the data:** alien-share-of-foreign-born ran 36.5%
+    (1940) → 23.9% (1950, WWII-era naturalization) → 44.0% (1970, post-1965 Latin
+    American/Asian wave). Citizen voting-age peaked ~554k (1950), then *fell* to
+    ~462k (1970) as the city lost population and non-citizens rose.
 
 **Citation (required).** IPUMS NHGIS data: *Jonathan Schroeder, David Van Riper,
 Steven Manson, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles.

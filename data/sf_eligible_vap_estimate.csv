@@ -1,29 +1,36 @@
 # SF voting-age population (VAP) and eligible (citizen) voting-age population, 1900-2020.
-# VAP is now REAL census data via IPUMS NHGIS (not estimated). Eligibility basis:
-# voting age was 21+ until 1971 (26th Amendment), 18+ after; women could not vote
-# before 1920 (California enfranchised women in 1911), so the 1900/1910 electorate
-# is MALE 21+. For 1978-2026 the eligible (citizen) figure is PUBLISHED by the CA
-# Secretary of State - see sf_registration_eligible*.csv; don't estimate those.
+# All from REAL census data via IPUMS NHGIS. Eligibility basis: voting age 21+ until
+# 1971 (26th Amendment), 18+ after; women could not vote before 1920 (CA enfranchised
+# women 1911), so the 1900/1910 electorate is MALE 21+. For 1978-2026 the eligible
+# (citizen) figure is PUBLISHED by the CA Secretary of State - see
+# sf_registration_eligible*.csv; not repeated here (citizen_kind = see-sos).
 #
 # voting_age_pop: NHGIS census count (eligible-age, sex-appropriate per era).
-# citizen_eligible: native+naturalized (citizens) where census citizenship exists
-#   (1900 real; 1910 approx); 1920-1970 = VAP x assumed citizen share (~0.78->0.90,
-#   anchored to 1910 ~0.76 and 1990 ~0.80 with a low-immigration mid-century peak) -
-#   FLAGGED estimate; 1978+ from the SoS (not repeated here).
+# citizen_eligible (citizen voting-age): citizen_kind shows provenance -
+#   nhgis-census  = direct census citizenship (1900 men; 1940/1950/1970 = VAP minus
+#                   census alien count by age);
+#   nhgis-approx  = 1910 (white-citizenship + est. non-white foreign-born);
+#   nhgis-partial = 1920/1930 (real foreign-born-21+ count x alien share interpolated
+#                   from 1910/1940/1970; Asians counted non-citizen, barred from
+#                   naturalization until 1943/1952);
+#   interp        = 1960 (the 1960 census asked NO citizenship question).
+# The real arc: alien-share-of-foreign-born 36.5% (1940) -> 23.9% (1950 WWII-era
+# naturalization) -> 44.0% (1970 post-1965 Latin American/Asian wave); citizen
+# voting-age peaks ~554k (1950) then falls to ~462k (1970).
 #
-# Source (VAP + 1900/1910 citizenship): Jonathan Schroeder, David Van Riper, Steven
-# Manson, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles. IPUMS
-# National Historical Geographic Information System: Version 20.0 [dataset].
-# Minneapolis, MN: IPUMS. 2025. http://doi.org/10.18128/D050.V20.0  (county G0600750)
+# Source: Jonathan Schroeder, David Van Riper, Steven Manson, Katherine Knowles,
+# Tracy Kugler, Finn Roberts, and Steven Ruggles. IPUMS National Historical
+# Geographic Information System: Version 20.0 [dataset]. Minneapolis, MN: IPUMS.
+# 2025. http://doi.org/10.18128/D050.V20.0  (San Francisco County, GISJOIN G0600750)
 year,voting_age_pop,vap_age_basis,vap_sex_basis,vap_kind,citizen_eligible,citizen_kind
 1900,128985,21+,male-only,nhgis-census,100697,nhgis-census
 1910,175951,21+,male-only,nhgis-census,133000,nhgis-approx
-1920,366227,21+,both,nhgis-census,285700,estimate
-1930,475338,21+,both,nhgis-census,389800,estimate
-1940,492970,21+,both,nhgis-census,424000,estimate
-1950,584906,21+,both,nhgis-census,526400,estimate
-1960,531381,21+,both,nhgis-census,478200,estimate
-1970,519583,21+,both,nhgis-census,441600,estimate
+1920,366227,21+,both,nhgis-census,304136,nhgis-partial
+1930,475338,21+,both,nhgis-census,401112,nhgis-partial
+1940,492970,21+,both,nhgis-census,443386,nhgis-census
+1950,585452,21+,both,nhgis-census,554171,nhgis-census
+1960,531381,21+,both,nhgis-census,490965,interp
+1970,519583,21+,both,nhgis-census,461919,nhgis-census
 1980,562363,18+,both,nhgis-census,,see-sos
 1990,607076,18+,both,nhgis-census,,see-sos
 2000,663931,18+,both,nhgis-census,,see-sos
