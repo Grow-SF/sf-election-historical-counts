@@ -3664,6 +3664,22 @@
   ]
  },
  {
+  "id": "1978-11-07",
+  "name": "Consolidated General Election",
+  "final": 223147,
+  "finalSource": "1978 governor contest floor (DOE turnout figure 217",
+  "observations": [
+   {
+    "date": "1978-11-08",
+    "days": 1,
+    "total": 223147,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 'S.F. VOTE' day-after paper 1978-11-08 (tbl_19781107_issue19781108_p6): governor sum 223,147 (Brown 155,156 69.5% + Younger 50,748 22.7% + Clark 11,470 + Seals 4,339 + Dietrich 1,434; pcts validate) - near-complete day-after count. NOTE: the DOE turnout table lists only 217,965 ballots for this election, which is contradicted by this single contest (votes cannot exceed ballots); the true certified total is >= 223,147 pending the SF Statement of Vote, so this floor is shown against the contest sum. Brown's ~70% SF share is historically consistent; the CA SOV djvu-OCR figure of 99,171 for Brown SF is an OCR/column error."
+   }
+  ]
+ },
+ {
   "id": "1978-06-06",
   "name": "Consolidated Primary Election",
   "final": 203931,

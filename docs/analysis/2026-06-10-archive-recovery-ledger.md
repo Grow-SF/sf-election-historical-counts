@@ -547,3 +547,19 @@ election night, and the Nov-2000 db was wiped when reused for the
 runoff - 1999-11/12 and 2000-11 night states are unrecoverable from the
 web. The seven open night slots stand; all are microfilm/records-
 request targets now.
+
+### Session 2026-06-13d — 1978-11 re-read: the reading was right, the denominator was wrong
+User pushed to re-try a "missing" date. 1978-11-07 had been EXCLUDED as a
+"contradiction" (governor sum 223,147 > certified 217,965). Re-read the
+actual scan (tbl_19781107_issue19781108_p6, masthead-verified Wed Nov 8
+1978, "S.F. VOTE"): Brown 155,156 (69.5%) / Younger 50,748 (22.7%) /
+Clark 11,470 / Seals 4,339 / Dietrich 1,434 = 223,147, pcts validate.
+The transcription was CORRECT. The contradiction is a DOE-turnout-table
+error: 217,965 ballots is impossible when one contest drew 223,147.
+Brown's ~70% SF share is historically right; the CA SOV (archive.org
+statementofvote197879cali) djvu-OCR reads SF Brown as 99,171, an OCR/
+column error (would make Brown a minority winner in 70%-Dem SF).
+Ingested as a near-complete day-after floor (>=223,147), marked partial
+(denominator uncertain), certified flagged. LESSON: an internal
+"contradiction" can be a bad denominator, not a misread - re-read the
+source AND question the certified figure before excluding.
