@@ -1,5 +1,14 @@
 # Archive recovery ledger — 2026-06-10 session
 
+> **Status: raw internal working diary.** This is the chronological dev log of
+> the archive recovery — every find, rejection, dead end, and operational note,
+> appended session by session. It is intentionally messy and contains no
+> secrets (no credentials). The *curated, publication-ready* version of what's
+> been searched is [`../public-search-log.md`](../public-search-log.md), which
+> is what the site's `/methods` page serves. The reusable method is in
+> [`../archive-recovery-runbook.md`](../archive-recovery-runbook.md). Read those
+> two first; consult this only for the blow-by-blow history.
+
 Working state + validated recipes, so any fresh session can resume without
 transcript access. Everything listed as "committed" is on main.
 
