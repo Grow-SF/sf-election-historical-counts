@@ -176,8 +176,8 @@ export default function MissingPage() {
       <h1 className="mt-2 text-4xl font-bold">Help complete the record</h1>
       <p className="mt-5 max-w-3xl leading-relaxed">
         This project has recovered election-night and mid-canvass counts for
-        nearly every San Francisco election since 1960 — from the city&rsquo;s
-        own releases, the Wayback Machine, and sixty years of newspaper
+        nearly every San Francisco election since 1908 — from the city&rsquo;s
+        own releases, the Wayback Machine, and a century of newspaper
         coverage. {totalMissing} elections still lack a true election-night
         count (they appear as hollow diamonds with no dot on the night chart);
         most have a day-one-or-later observation, but the night itself is

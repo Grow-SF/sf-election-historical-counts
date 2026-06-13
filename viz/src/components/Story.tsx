@@ -16,8 +16,8 @@ function Hero() {
     <header className="grain relative overflow-hidden bg-night text-paper">
       <div className="mx-auto max-w-5xl px-5 pb-20 pt-24 sm:pb-28 sm:pt-32">
         <p className="smallcaps fade-up max-w-full text-gold">
-          san francisco · sixty years of ballot counting
-          <span className="hidden sm:inline"> · 1960–2026</span>
+          san francisco · a century of ballot counting
+          <span className="hidden sm:inline"> · 1908–2026</span>
         </p>
         <h1
           className="fade-up mt-4 max-w-4xl text-[2.6rem] font-bold leading-[1.05] sm:text-7xl"
@@ -93,16 +93,21 @@ function Footer() {
               elections within ~32 days are provisional. “News-derived”
               points are conservative floors: the certified total minus the
               ballots a registrar told a reporter were still uncounted.
-              1960–1985: 19 election-night counts read from page scans of the
+              1908–1985: 41 election-night counts read from page scans of the
               Chronicle’s vote-tally boxes and count reporting, every digit
-              independently re-verified and checked against certified totals.
-              A records request with the Department is in progress for the
-              remaining web-era gaps.
+              independently re-verified and checked against certified totals —
+              the pre-1964 figures (22 elections, recovered 2026) extend the
+              record back to the hand-count era. A records request with the
+              Department is in progress for the remaining web-era gaps.
             </p>
           </div>
         </div>
         <p className="smallcaps mt-8 text-paper/55">
           built from the sf-election-count pipeline ·{" "}
+          <a href="/eras" className="border-b border-gold/60 text-gold hover:bg-gold/10">
+            a century of election nights — the essay
+          </a>{" "}
+          ·{" "}
           <a href="/sources" className="border-b border-gold/60 text-gold hover:bg-gold/10">
             every number, sourced — the full citation list
           </a>{" "}
@@ -133,25 +138,37 @@ export default function Story() {
         intro={
           <>
             <p>
-              Three eras emerge from the recovered record. <em>Before 2002</em>,
-              mail voting grew slowly — and mail voters returned their ballots
-              early enough to be counted with the night’s tally, so election
-              night stayed nearly complete: 93.5% in 1964, over 98% in the
-              late seventies, 80 to 93 through the nineties. <em>From 2002</em>,
-              when any Californian could join the permanent vote-by-mail
-              list, election-day turnout shrank every cycle and the night
-              count began a steady slide. <em>Since 2020</em>, with nearly
-              everyone voting by mail and most returning ballots late,
-              election night reports barely half.
+              Election night has failed San Francisco before — for the opposite
+              reason. <em>1908–1912</em>: the morning paper already had it (≈85–89%
+              counted by breakfast). <em>1914–1926</em>: the floor falls out. Hand-
+              tallied paper and ballooning Progressive-era ballots made counting
+              itself the bottleneck; 1916, the closest presidential race in state
+              history, left “virtually none of San Francisco’s vote” in hand by
+              press time, and in 1918 the first precinct didn’t reach the
+              Registrar until after midnight. <em>1928–1990s</em>: the night comes
+              back — 99% complete in 1952, then 80–95% for sixty years (still
+              hand-counted paper; San Francisco had no voting machines until 1960s
+              punch cards, and precincts grew only with the electorate, so the
+              fix wasn’t mechanization). <em>Since ~2002</em>: the permanent vote-by-mail
+              list, then a pandemic, move the vote off election day, and the night
+              slides back toward half.
             </p>
             <p>
-              The ringed points are races the{" "}
-              <em>election-night leader lost</em> — the 2018 mayor’s race and
-              a 2020 supervisor seat, decided by ballots counted days later.
-              Recalls (purple) and special elections (gold) sit above the
-              trend: their electorates vote early by mail, so the night count
-              catches more of them. Filter to primaries and generals and the
-              slide is at its sharpest.
+              Same symptom, three different machines: in 1916 the clerks were
+              still counting; in 1956 they were already done; today the ballots
+              are still in the mail. The ringed points are races the{" "}
+              <em>election-night leader lost</em> — the 2018 mayor’s race and a
+              2020 supervisor seat, decided by ballots counted days later.
+              Recalls (purple) and special elections (gold) sit above the trend:
+              their electorates vote early by mail, so the night count catches
+              more of them. Filter to primaries and generals and both slides —
+              the 1910s and today’s — show their sharpest.{" "}
+              <a
+                href="/eras"
+                className="border-b border-rust font-medium text-rust hover:bg-rust/10"
+              >
+                Read the full story — a century of election nights →
+              </a>
             </p>
           </>
         }
@@ -266,7 +283,7 @@ export default function Story() {
             Seven election nights are still missing. You might own one.
           </h2>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-paper/85">
-            Sixty years of counts have been recovered from city archives, the
+            A century of counts has been recovered from city archives, the
             Wayback Machine, and the Chronicle&rsquo;s morgue — but the
             night-of numbers for elections like the 1995 Brown–Jordan
             mayor&rsquo;s race and the 1999 Ammiano write-in exist only in
