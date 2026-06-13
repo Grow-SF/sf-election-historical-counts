@@ -3772,6 +3772,14 @@
     "pct": 44.9,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1974-06-05 'SF Vote Tally', PARTIAL 815 of 1,356 precincts: Prop A (Elective BART Board) 55,698 yes / 33,531 no = 89,229 - mid-night partial floor; scan tbl_19740604_issue19740605_p1.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151A9B7C1498A16D%402442204-15149EC22807E700%4057-15149EC22807E700%40"
+   },
+   {
+    "date": "1974-06-06",
+    "days": 2,
+    "total": 203381,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 'SF Vote Tally' day-2 paper 1974-06-06 (tbl_19740604_issue19740606_p5), 1356 of 1356 precincts (complete): Prop B (Conflicts of Interest) Yes 162,975 + No 40,406 = 203,381 - a ballot measure all voters could vote on. NOTE: the DOE turnout table lists only 198,508 ballots for this election, contradicted by this measure (votes cannot exceed ballots); true certified >= 203,381 pending the SF Statement of Vote. Same denominator error as 1978-11."
    }
   ]
  },

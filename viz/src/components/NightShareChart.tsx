@@ -63,6 +63,8 @@ const PARTIAL_NOTES: Record<string, string> = {
     "press-deadline snapshot (513 of 609 precincts) — the true end-of-night share was higher",
   "1978-11-07":
     "near-complete day-after count (governor race, 223,147 ballots); the exact final is uncertain because the DOE turnout table for 1978 is internally contradicted",
+  "1974-06-04":
+    "complete-precinct day-2 count (Prop B, 203,381 ballots); exact final uncertain — the DOE turnout table for 1974 is internally contradicted by this measure",
 };
 
 export default function NightShareChart({

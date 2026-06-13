@@ -563,3 +563,13 @@ Ingested as a near-complete day-after floor (>=223,147), marked partial
 (denominator uncertain), certified flagged. LESSON: an internal
 "contradiction" can be a bad denominator, not a misread - re-read the
 source AND question the certified figure before excluding.
+
+### Session 2026-06-13e — re-reading the excluded contradictions
+1974-06 (other excluded contradiction): re-read tbl_19740604_issue19740606_p5
+- Prop B Yes 162,975 / No 40,406 = 203,381 at 1356/1356 (verified on scan).
+Same as 1978: a ballot measure exceeds the DOE total (198,508), so the
+DOE figure is an undercount, not a misread. Ingested as day-2 complete
+floor (>=203,381). Night dot stays at the Prop A partial (44.9%, 815/1356)
+- 1974 genuinely had a slow election night. PATTERN: the DOE 1970s
+turnout table undercounts several elections; complete-precinct newspaper
+tables exceed it. Re-reading remaining pre-85 scans for measure floors.
