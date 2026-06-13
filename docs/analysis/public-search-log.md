@@ -43,6 +43,15 @@ boxes were found and read for most; the specific issues where no San
 Francisco results box exists in the searched ranges are listed on the
 missing-records page.
 
+**San Francisco Examiner (NewsBank).** Searched and effectively empty:
+what Access World News holds under this title is the post-2006
+Examiner.com regional blog network, not the print afternoon paper.
+Election-window searches for 2005-2010 returned only out-of-county blog
+posts; nothing exists there for 1985-2003 at all. The print
+Examiner's election-night pages — the most promising untapped source
+for the missing records, given its evening deadlines — survive only on
+microfilm (SFPL and the California State Library hold runs).
+
 **Other sources used.** SFGate's live archive (1995–2001 rich, 2002–2009
 sparse), the California Secretary of State's Statements of Vote (online
 from 1990), contemporary coverage in other outlets (e.g. Berkeley Daily

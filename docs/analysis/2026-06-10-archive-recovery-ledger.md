@@ -509,3 +509,11 @@ already complete-precinct. Label offsets vary PER ISSUE (1995 label =
 masthead; 1983 = masthead+1) - masthead-verify always. Still open for
 records request: 1985-11, 1987-04/06, 1993-11, 1995-11, 1999-11/12
 night, 2000-11, 2002-12, 2003-10, 2005-11/2006-11/2010-11 night.
+
+### Session 2026-06-13 — Examiner vein probed and closed
+
+NewsBank's "San Francisco Examiner" is the post-2006 Examiner.com blog
+network (8 harvested docs, all out-of-county blog content); the print
+afternoon Examiner is not in Access World News for any year. Print
+Examiner = microfilm-only (SFPL / CA State Library) - now listed as the
+top researcher ask on the public search log.
