@@ -1,6 +1,29 @@
 "use client";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Fit } from "@/lib/data";
+import { ReferenceLine } from "recharts";
+import { EVENTS, Fit } from "@/lib/data";
+
+/**
+ * Gold dashed vertical lines for the shared franchise/voting EVENTS that fall
+ * within [min, max] — rendered identically in every chart. Use as a chart
+ * child: {eventLines(1962, 2028)}
+ */
+export function eventLines(min: number, max: number) {
+  return EVENTS.filter((e) => e.year >= min && e.year <= max).map((e) => (
+    <ReferenceLine
+      key={e.year}
+      x={e.year}
+      stroke="var(--color-gold)"
+      strokeDasharray="4 4"
+      label={{
+        value: e.label,
+        position: "top",
+        fontSize: 9,
+        fill: "var(--color-faint)",
+      }}
+    />
+  ));
+}
 
 /**
  * Hover state with a grace period: the tooltip stays mounted while the

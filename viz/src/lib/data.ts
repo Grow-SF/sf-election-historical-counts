@@ -142,3 +142,23 @@ export const KIND_COLOR: Record<string, string> = {
   Special: "#B98F33",
   Recall: "#7A4E7E",
 };
+
+/**
+ * Globally interesting franchise/voting milestones, annotated identically across
+ * every chart (each renders only the events within its own x-domain).
+ */
+export const EVENTS: { year: number; label: string }[] = [
+  { year: 1920, label: "women vote" },
+  { year: 1971, label: "age 18" },
+  { year: 2002, label: "permanent VBM" },
+  { year: 2020, label: "all-mail" },
+];
+
+/** ~6 evenly spaced round-year ticks spanning [from, to], for a year x-axis. */
+export function yearTicks(from: number, to: number): number[] {
+  const span = Math.max(1, to - from);
+  const step = [5, 10, 20, 25, 50].find((s) => span / s <= 7) ?? 50;
+  const ticks: number[] = [];
+  for (let t = Math.ceil(from / step) * step; t <= to; t += step) ticks.push(t);
+  return ticks;
+}

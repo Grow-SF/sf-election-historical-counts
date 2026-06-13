@@ -3,14 +3,13 @@ import {
   CartesianGrid,
   ComposedChart,
   Line,
-  ReferenceLine,
   ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,
 } from "recharts";
-import { VBM_HISTORY } from "@/lib/data";
-import { ChartFrame } from "@/components/ui";
+import { VBM_HISTORY, yearTicks } from "@/lib/data";
+import { ChartFrame, eventLines } from "@/components/ui";
 
 const RAW = VBM_HISTORY.map((p) => {
   const d = new Date(p.date + "T00:00:00");
@@ -51,42 +50,28 @@ function VbmTooltip({
   );
 }
 
-const MILESTONES = [2002.0, 2020.84, 2022.0];
-
-export default function VbmChart() {
+export default function VbmChart({ from, to }: { from: number; to: number }) {
+  const data = DATA.filter((p) => p.x >= from && p.x <= to + 1);
+  const xs = data.map((p) => p.x);
+  const lo = xs.length ? Math.floor(Math.min(...xs)) : from;
+  const hi = xs.length ? Math.ceil(Math.max(...xs)) : to;
   return (
     <ChartFrame
       title="Vote-by-mail share of ballots cast"
       subtitle="San Francisco, 1964–2026"
-      note={
-        <>
-          <span className="smallcaps not-italic" style={{ color: "var(--color-gold)" }}>
-            gold lines, left to right:
-          </span>{" "}
-          2002 — permanent vote-by-mail list opens · Nov 2020 — AB 860 mails
-          every voter a ballot · 2022 — AB 37 makes it permanent.
-          <br />
-          Mail (absentee) ballots as a share of all ballots cast, 1964–2026.
-          Sources: the Department of Elections’ turnout history (1964–2000,
-          recovered from a 2002 web capture), certified Statements of Vote
-          (2002–2014: CA Secretary of State county statistics and the DOE’s
-          own SOV spreadsheets), the DOE’s official historical turnout table
-          (municipal elections 2001–2013 and Nov 2019, from a 2023 web
-          capture), and per-release results data (2015–present).
-        </>
-      }
+      note="Mail ballots as a share of all ballots cast. Sources: DOE turnout history, certified Statements of Vote, per-release results."
     >
       <ResponsiveContainer width="100%" height={380}>
         <ComposedChart
-          data={DATA}
+          data={data}
           margin={{ top: 24, right: 20, bottom: 8, left: 0 }}
         >
           <CartesianGrid stroke="var(--color-rule)" strokeDasharray="2 4" />
           <XAxis
             type="number"
             dataKey="x"
-            domain={[1962, 2028]}
-            ticks={[1970, 1980, 1990, 2000, 2010, 2020]}
+            domain={[lo, hi]}
+            ticks={yearTicks(lo, hi)}
             tickFormatter={(v: number) => String(v)}
             tick={{ fontFamily: "var(--font-mono)", fontSize: 11, fill: "var(--color-faint)" }}
             stroke="var(--color-faint)"
@@ -103,14 +88,7 @@ export default function VbmChart() {
             width={48}
           />
           <Tooltip content={<VbmTooltip />} isAnimationActive={false} />
-          {MILESTONES.map((x) => (
-            <ReferenceLine
-              key={x}
-              x={x}
-              stroke="var(--color-gold)"
-              strokeDasharray="4 4"
-            />
-          ))}
+          {eventLines(lo, hi)}
           <Line
             dataKey="y"
             stroke="var(--color-rust)"

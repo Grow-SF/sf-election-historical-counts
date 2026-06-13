@@ -3,14 +3,13 @@ import {
   Area,
   AreaChart,
   CartesianGrid,
-  ReferenceLine,
   ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,
 } from "recharts";
-import { FRANCHISE_FUNNEL, fmt } from "@/lib/data";
-import { ChartFrame } from "@/components/ui";
+import { FRANCHISE_FUNNEL, fmt, yearTicks } from "@/lib/data";
+import { ChartFrame, eventLines } from "@/components/ui";
 
 // Mutually-exclusive bands that sum to total population, bottom (voted) to top
 // (children). The thickness of each band over time is the story.
@@ -70,42 +69,25 @@ function FunnelTooltip({
   );
 }
 
-export default function FranchiseFunnelChart() {
+export default function FranchiseFunnelChart({ from, to }: { from: number; to: number }) {
+  const data = DATA.filter((r) => r.year >= from && r.year <= to);
+  const ys = data.map((r) => r.year);
+  const lo = ys.length ? Math.min(...ys) : from;
+  const hi = ys.length ? Math.max(...ys) : to;
   return (
     <ChartFrame
       title="Who could vote — and who did"
       subtitle="San Francisco by presidential election, 1908–2024"
-      note={
-        <>
-          <span className="smallcaps not-italic" style={{ color: "var(--color-gold)" }}>
-            gold line:
-          </span>{" "}
-          1920 — the 19th Amendment (California had enfranchised women in 1911).
-          <br />
-          San Francisco’s electorate, presidential elections 1908–2024, as bands
-          of the whole population: who voted, who was registered but stayed home,
-          who was eligible but unregistered, the{" "}
-          <em>non-citizen adults who couldn’t vote at all</em>, and children. Two
-          things jump out. Women’s suffrage (1920) nearly doubles the eligible
-          band. And the blue non-citizen band — wide in the Gold-Rush-era
-          immigrant city, squeezed thin by the mid-century immigration pause,
-          then swelling again after 1965 as Latin American and Asian migration
-          resumed — is the franchise quietly shrinking against a growing city.
-          Sources: total population, voting-age population, and citizenship from
-          IPUMS NHGIS (decennial census, interpolated to election years);
-          registration and ballots cast from the franchise series (SoS + the
-          Department of Elections).
-        </>
-      }
+      note="Bands are shares of total population and sum to it; the blue band is non-citizen adults. Sources: IPUMS NHGIS census (population, voting-age, citizenship); SoS and Dept. of Elections."
     >
       <ResponsiveContainer width="100%" height={440}>
-        <AreaChart data={DATA} margin={{ top: 24, right: 20, bottom: 8, left: 8 }}>
+        <AreaChart data={data} margin={{ top: 24, right: 20, bottom: 8, left: 8 }}>
           <CartesianGrid stroke="var(--color-rule)" strokeDasharray="2 4" />
           <XAxis
             dataKey="year"
             type="number"
-            domain={[1905, 2027]}
-            ticks={[1920, 1940, 1960, 1980, 2000, 2020]}
+            domain={[lo - 2, hi + 2]}
+            ticks={yearTicks(lo, hi)}
             tickFormatter={(v: number) => String(v)}
             tick={{ fontFamily: "var(--font-mono)", fontSize: 11, fill: "var(--color-faint)" }}
             stroke="var(--color-faint)"
@@ -119,7 +101,7 @@ export default function FranchiseFunnelChart() {
             width={44}
           />
           <Tooltip content={<FunnelTooltip />} isAnimationActive={false} />
-          <ReferenceLine x={1920} stroke="var(--color-gold)" strokeDasharray="4 4" />
+          {eventLines(lo, hi)}
           {BANDS.map((b) => (
             <Area
               key={b.key}

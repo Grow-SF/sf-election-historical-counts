@@ -11,7 +11,7 @@ import {
   YAxis,
 } from "recharts";
 import { Election, Fit, KIND_COLOR, linearFit, NIGHT_FLOOR, yearFrac } from "@/lib/data";
-import { ChartFrame, PointTooltip, useGraceHover } from "@/components/ui";
+import { ChartFrame, PointTooltip, eventLines, useGraceHover } from "@/components/ui";
 
 type Pt = {
   x: number;
@@ -266,27 +266,8 @@ export default function NightShareChart({
                   }}
                 />
               )}
-              {from <= 2002 && to >= 2002 && (
-                // permanent vote-by-mail list opens to all voters (2002) -
-                // the structural break in the night-share trend
-                <ReferenceLine
-                  x={2002}
-                  stroke="var(--color-ink)"
-                  strokeWidth={1}
-                  strokeDasharray="5 4"
-                  opacity={0.45}
-                />
-              )}
-              {from <= 2020 && to >= 2020 && (
-                // AB 860: every California voter mailed a ballot (Nov 2020)
-                <ReferenceLine
-                  x={2020.6}
-                  stroke="var(--color-gold)"
-                  strokeWidth={1.2}
-                  strokeDasharray="5 4"
-                  opacity={0.8}
-                />
-              )}
+              {/* shared franchise/voting events, identical across all charts */}
+              {eventLines(from, to)}
               <XAxis
                 type="number"
                 dataKey="x"

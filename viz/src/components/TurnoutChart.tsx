@@ -3,14 +3,13 @@ import {
   CartesianGrid,
   ComposedChart,
   Line,
-  ReferenceLine,
   ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,
 } from "recharts";
-import { TURNOUT_HISTORY, KIND_COLOR, KINDS, fmt } from "@/lib/data";
-import { ChartFrame } from "@/components/ui";
+import { TURNOUT_HISTORY, KIND_COLOR, KINDS, fmt, yearTicks } from "@/lib/data";
+import { ChartFrame, eventLines } from "@/components/ui";
 
 // one row per election; each kind gets its own y-key so it draws as a
 // separate connected line (turnout swings by what's on the ballot, so a
@@ -63,47 +62,28 @@ function TurnoutTooltip({
 
 // gold milestones, matching the mail chart: permanent VBM list (2002),
 // every-voter mailing (Nov 2020, AB 860), made permanent (2022, AB 37).
-const MILESTONES = [2002.0, 2020.84, 2022.0];
-
-export default function TurnoutChart() {
+export default function TurnoutChart({ from, to }: { from: number; to: number }) {
+  const data = DATA.filter((r) => r.x >= from && r.x <= to + 1);
+  const xs = data.map((r) => r.x);
+  const lo = xs.length ? Math.floor(Math.min(...xs)) : from;
+  const hi = xs.length ? Math.ceil(Math.max(...xs)) : to;
   return (
     <ChartFrame
       title="Turnout of registered voters"
       subtitle="Ballots cast ÷ registered, by election type, 1899–2026"
-      note={
-        <>
-          <span className="smallcaps not-italic" style={{ color: "var(--color-gold)" }}>
-            gold lines:
-          </span>{" "}
-          2002 permanent vote-by-mail list · Nov 2020 every voter mailed a
-          ballot (AB 860) · 2022 made permanent (AB 37).
-          <br />
-          Turnout — ballots cast as a share of <em>registered</em> voters —
-          by election type, 1899–2026. Each color is one type of election
-          ({KINDS.join(", ").toLowerCase()}); presidential generals sit at the
-          top, primaries and off-year municipals below. The vertical swings
-          are the ballot, not the mail: turnout follows what’s being decided,
-          and the all-mail era (right of the gold lines) did not lift it out
-          of its historical band. This is turnout of the <em>registered</em>
-          electorate; whether mail voting enlarged the registered or eligible
-          pool needs a Census denominator the project doesn’t yet carry.
-          Sources: the Department of Elections’ official 1899–2019 turnout
-          table (from a 2023 web capture) and certified per-release finals
-          (2012–present).
-        </>
-      }
+      note="Color = election type; presidential generals top the range, off-year municipals the bottom. Sources: DOE turnout table; certified per-release finals."
     >
       <ResponsiveContainer width="100%" height={400}>
         <ComposedChart
-          data={DATA}
+          data={data}
           margin={{ top: 24, right: 20, bottom: 8, left: 0 }}
         >
           <CartesianGrid stroke="var(--color-rule)" strokeDasharray="2 4" />
           <XAxis
             type="number"
             dataKey="x"
-            domain={[1960, 2028]}
-            ticks={[1960, 1970, 1980, 1990, 2000, 2010, 2020]}
+            domain={[lo, hi]}
+            ticks={yearTicks(lo, hi)}
             tickFormatter={(v: number) => String(v)}
             tick={{ fontFamily: "var(--font-mono)", fontSize: 11, fill: "var(--color-faint)" }}
             stroke="var(--color-faint)"
@@ -121,14 +101,7 @@ export default function TurnoutChart() {
             width={48}
           />
           <Tooltip content={<TurnoutTooltip />} isAnimationActive={false} />
-          {MILESTONES.map((x) => (
-            <ReferenceLine
-              key={x}
-              x={x}
-              stroke="var(--color-gold)"
-              strokeDasharray="4 4"
-            />
-          ))}
+          {eventLines(lo, hi)}
           {KINDS.map((k) => (
             <Line
               key={k}

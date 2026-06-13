@@ -193,7 +193,7 @@ export default function Story() {
           </p>
         }
       >
-        <VbmChart />
+        <VbmChart from={state.from} to={state.to} />
       </Section>
 
       <Section
@@ -238,9 +238,9 @@ export default function Story() {
           </>
         }
       >
-        <FranchiseFunnelChart />
-        <TurnoutChart />
-        <RegistrationChart />
+        <FranchiseFunnelChart from={state.from} to={state.to} />
+        <TurnoutChart from={state.from} to={state.to} />
+        <RegistrationChart from={state.from} to={state.to} />
       </Section>
 
       <Section
