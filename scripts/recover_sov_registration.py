@@ -41,8 +41,9 @@ def process(ident, label):
         # county participation table: SF present, an eligible/voting-population
         # column header, registered, and many county names
         ncounty = sum(text.count(c) for c in ("alameda", "fresno", "sacramento", "sonoma"))
-        if "francisco" in text and ("eligible" in text or "voting  population" in text
-                or "voting population" in text) and "registered" in text and ncounty >= 3:
+        if "francisco" in text and ("eligible" in text or "voting population" in text
+                or "voting  population" in text or "voting age" in text
+                or "potential" in text) and "registered" in text and ncounty >= 3:
             wm = re.search(r'<OBJECT[^>]*width="(\d+)"[^>]*height="(\d+)"', chunk)
             w = int(wm.group(1)) if wm else 2316
             fc = next((c for c, t in words if "rancisco" in t), None)
@@ -61,8 +62,8 @@ def process(ident, label):
         xs = [int(v) for v in coords.split(",")]
         y = min(xs[1], xs[3])
         # full-width band around the SF row + a header crop for column labels
-        row = OUT / f"{label}_SFrow.png"
-        hdr = OUT / f"{label}_header.png"
+        row = OUT / f"{label}_L{leaf}_SFrow.png"
+        hdr = OUT / f"{label}_L{leaf}_header.png"
         subprocess.run(["convert", str(img), "-crop", f"{w}x150+0+{y-55}", "+repage",
                         "-resize", "250%", str(row)], check=True)
         subprocess.run(["convert", str(img), "-crop", f"{w}x320+0+0", "+repage",

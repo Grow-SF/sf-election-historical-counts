@@ -1,20 +1,20 @@
 [
  {
-  "date": "1974-11-05",
-  "eligible": 526930,
-  "registered": 369005,
-  "pct": 70.0,
-  "context": "Nov 1974 general",
-  "source": "sov-print",
-  "recovered": true,
-  "confidence": "high"
- },
- {
   "date": "1978-11-07",
   "eligible": 470773,
   "registered": 380749,
   "pct": 80.9,
   "context": "Nov 1978 general",
+  "source": "sov-print",
+  "recovered": true,
+  "confidence": "high"
+ },
+ {
+  "date": "1980-11-04",
+  "eligible": 492546,
+  "registered": 407982,
+  "pct": 82.8,
+  "context": "Nov 1980 general",
   "source": "sov-print",
   "recovered": true,
   "confidence": "high"
@@ -30,6 +30,16 @@
   "confidence": "high"
  },
  {
+  "date": "1984-11-06",
+  "eligible": 484645,
+  "registered": 424091,
+  "pct": 87.5,
+  "context": "Nov 1984 general",
+  "source": "sov-print",
+  "recovered": true,
+  "confidence": "high"
+ },
+ {
   "date": "1986-11-04",
   "eligible": 496427,
   "registered": 385847,
@@ -40,6 +50,16 @@
   "confidence": "high"
  },
  {
+  "date": "1988-11-08",
+  "eligible": 554796,
+  "registered": 435545,
+  "pct": 78.5,
+  "context": "Nov 1988 general",
+  "source": "sov-print",
+  "recovered": true,
+  "confidence": "medium"
+ },
+ {
   "date": "1990-11-06",
   "eligible": 484956,
   "registered": 409334,
@@ -48,6 +68,16 @@
   "source": "sov-print",
   "recovered": true,
   "confidence": "high"
+ },
+ {
+  "date": "1992-06-02",
+  "eligible": 478079,
+  "registered": 432867,
+  "pct": 90.5,
+  "context": "Jun 1992 primary",
+  "source": "sov-print",
+  "recovered": true,
+  "confidence": "medium"
  },
  {
   "date": "1994-11-08",

@@ -1,0 +1,8 @@
+year,vap_estimate,basis,source
+1960,530000,census-estimate,"SF pop 740,316 (1960 census); voting-age (21+ until 1971) est ~530k"
+1964,535000,interpolated-estimate,"interpolated 1960-1970 census; 21+ basis"
+1968,540000,interpolated-estimate,"interpolated 1960-1970 census; near 21+->18+ (26th Amdt 1971)"
+1970,545000,census-1970,"Bay Area Census 1970: 20+ =533,535; 18+ est ~545k"
+1974,526930,sov-print,"Statement of Vote 1974 voter-participation denominator (VAP basis); statementofvote197374cali"
+1976,535094,sov-print,"Statement of Vote 1976, column labeled 'Voting Age Population'; statementofvote1976cali leaf 13"
+1980,560000,census-1980,"Bay Area Census 1980: 20-64 + 65+ =545,173; 18+ est ~560k"

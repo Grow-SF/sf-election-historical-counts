@@ -61,9 +61,13 @@ export default function RegistrationChart() {
           2002 permanent vote-by-mail list · Nov 2020 every voter mailed a
           ballot (AB 860) · 2022 made permanent (AB 37).
           <br />
-          Registered voters as a share of the eligible population in San
-          Francisco, 1974–2026. The share holds in a ~70–86% band across fifty
-          years — including straight through the all-mail transition. San
+          Registered voters as a share of the eligible (citizen voting-age)
+          population in San Francisco, 1978–2026. (Pre-1978 the Statement of
+          Vote used a total voting-age-population denominator, not citizen-
+          eligible, so those years aren’t comparable and sit in the separate
+          voting-age-population estimate instead.) The share holds in a ~70–86%
+          band across nearly fifty years — including straight through the
+          all-mail transition. San
           Francisco was already near the ceiling, and mailing every voter a
           ballot did not lift it. Three caveats keep this from being a clean
           line: the rolls <em>sawtooth</em> (registration peaks at each general,
