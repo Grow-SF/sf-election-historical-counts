@@ -5,6 +5,7 @@ Sequential fetches with 2-3s sleep between requests.
 """
 
 import os
+from pathlib import Path
 import re
 import sys
 import time
@@ -12,7 +13,10 @@ import random
 import urllib.request
 import urllib.error
 
-MIRROR_DIR = "/Users/sbuss/workspace/sf-election-count/mirror/chronicle-sfgate"
+MIRROR_DIR = os.environ.get(
+    "SF_MIRROR_DIR",
+    str(Path(__file__).resolve().parent.parent / "mirror" / "chronicle-sfgate"),
+)
 
 # Target elections: sweep E+0 night, E+1, E+2, E+3
 TARGET_ELECTIONS = [

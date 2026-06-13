@@ -6,6 +6,7 @@ Focus: articles about ballot counting, absentee tallies, precinct reporting.
 """
 
 import os
+from pathlib import Path
 import re
 import sys
 import time
@@ -14,7 +15,10 @@ import datetime
 import urllib.request
 import urllib.error
 
-MIRROR_DIR = "/Users/sbuss/workspace/sf-election-count/mirror/chronicle-sfgate"
+MIRROR_DIR = os.environ.get(
+    "SF_MIRROR_DIR",
+    str(Path(__file__).resolve().parent.parent / "mirror" / "chronicle-sfgate"),
+)
 
 TARGET_ELECTIONS = [
     "2000-03-07",

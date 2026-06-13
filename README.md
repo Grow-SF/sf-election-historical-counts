@@ -93,6 +93,13 @@ Reusable tooling lives in `scripts/archive-recovery/` (browser capture, text
 harvest, OCR triage, column location). These drive a logged-in Chrome over an
 SFPL library session; prerequisites are in the runbook.
 
+The Chronicle fetch/scan scripts (`scripts/fetch_*.py`, `scripts/scan_*.py`,
+`scripts/sweep_*.py`, `scripts/extract_sf_ballot.py`) write to and read from the
+gitignored `mirror/chronicle-sfgate/` by default, resolved relative to the repo.
+Set `SF_MIRROR_DIR` to point them at a mirror kept elsewhere:
+
+    SF_MIRROR_DIR=/path/to/mirror python3 scripts/fetch_chronicle.py
+
 ## Contributing data
 
 The `/missing` page lists the elections still lacking an election-night count

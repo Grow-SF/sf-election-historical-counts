@@ -5,6 +5,7 @@ Enumerates via CDX API and saves to mirror/chronicle-sfgate/.
 """
 
 import os
+from pathlib import Path
 import re
 import sys
 import time
@@ -13,7 +14,10 @@ import urllib.parse
 import urllib.error
 from datetime import date, timedelta
 
-MIRROR_DIR = "/Users/sbuss/workspace/sf-election-count/mirror/chronicle-sfgate"
+MIRROR_DIR = os.environ.get(
+    "SF_MIRROR_DIR",
+    str(Path(__file__).resolve().parent.parent / "mirror" / "chronicle-sfgate"),
+)
 
 # Target election dates
 ELECTIONS = [

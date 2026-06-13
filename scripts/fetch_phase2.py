@@ -9,6 +9,7 @@ Avoid: BU (business), FD (food), HO (home), SP (sports), DD (features), ED (ente
 """
 
 import os
+from pathlib import Path
 import re
 import json
 import time
@@ -17,7 +18,10 @@ import datetime
 import urllib.request
 import urllib.error
 
-MIRROR_DIR = "/Users/sbuss/workspace/sf-election-count/mirror/chronicle-sfgate"
+MIRROR_DIR = os.environ.get(
+    "SF_MIRROR_DIR",
+    str(Path(__file__).resolve().parent.parent / "mirror" / "chronicle-sfgate"),
+)
 CDX_CACHE = "/tmp/cdx_cache.json"
 
 TARGET_ELECTIONS = [

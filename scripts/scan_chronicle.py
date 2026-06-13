@@ -5,12 +5,16 @@ Outputs CSV to stdout.
 """
 
 import os
+from pathlib import Path
 import re
 import sys
 from datetime import date, timedelta
 from html.parser import HTMLParser
 
-MIRROR_DIR = "/Users/sbuss/workspace/sf-election-count/mirror/chronicle-sfgate"
+MIRROR_DIR = os.environ.get(
+    "SF_MIRROR_DIR",
+    str(Path(__file__).resolve().parent.parent / "mirror" / "chronicle-sfgate"),
+)
 
 ELECTIONS = [
     date(1995, 11, 7),
