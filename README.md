@@ -1,6 +1,6 @@
 # The Long Count
 
-**How long San Francisco takes to know who won — sixty-plus years of it.**
+**How long San Francisco takes to know who won — a century-plus of it.**
 
 It takes far longer to learn the outcome of a San Francisco election than it
 used to. Not because the count itself got slower — the back-end pace of
@@ -14,9 +14,14 @@ the Department of Elections' own results releases plus a deep recovery of
 historical counts from newspaper and web archives — and tells the story in an
 interactive site.
 
-Live data spans **1960–2026**: 75 elections with an election-night count, ~169
-recovered mid-canvass observations, and 241 modern per-release reports, every
-number traceable to a cited source.
+Live data spans **1908–2026**: 97 elections with an election-night count
+(including 22 pre-1964 counts recovered from the hand-count era, back to 1908),
+~169 recovered mid-canvass observations, and 241 modern per-release reports,
+every number traceable to a cited source. The long view reveals four eras, not
+one — fast (1908–12), slow (1914–26, when hand-counting long Progressive-era
+ballots was the bottleneck), fast again (1928–1990s), and the modern
+mail-driven slide — see
+[`docs/analysis/2026-06-13-a-century-of-election-nights.md`](docs/analysis/2026-06-13-a-century-of-election-nights.md).
 
 ---
 
