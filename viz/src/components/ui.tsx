@@ -158,3 +158,58 @@ export function ChartFrame({
     </figure>
   );
 }
+
+/**
+ * Dual-thumb range slider over [min, max]. The two handles stay ≥ minGap apart
+ * (0 lets them meet for a single-value selection). Visuals live in the
+ * `.rangepair` class in globals.css; only the thumbs catch pointer events so
+ * either handle is grabbable even when they overlap.
+ */
+export function DualRange({
+  min,
+  max,
+  lo,
+  hi,
+  onChange,
+  step = 1,
+  minGap = 0,
+  ariaLabel = "range",
+  className,
+}: {
+  min: number;
+  max: number;
+  lo: number;
+  hi: number;
+  onChange: (lo: number, hi: number) => void;
+  step?: number;
+  minGap?: number;
+  ariaLabel?: string;
+  className?: string;
+}) {
+  const span = max - min || 1;
+  const at = (v: number) => `${((v - min) / span) * 100}%`;
+  return (
+    <div className={`rangepair ${className ?? ""}`}>
+      <div className="track" />
+      <div className="fill" style={{ left: at(lo), right: `${100 - ((hi - min) / span) * 100}%` }} />
+      <input
+        type="range"
+        min={min}
+        max={max}
+        step={step}
+        value={lo}
+        onChange={(e) => onChange(Math.min(Number(e.target.value), hi - minGap), hi)}
+        aria-label={`${ariaLabel} start`}
+      />
+      <input
+        type="range"
+        min={min}
+        max={max}
+        step={step}
+        value={hi}
+        onChange={(e) => onChange(lo, Math.max(Number(e.target.value), lo + minGap))}
+        aria-label={`${ariaLabel} end`}
+      />
+    </div>
+  );
+}

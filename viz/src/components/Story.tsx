@@ -4,7 +4,6 @@ import { filterElections } from "@/lib/data";
 import { useUrlState } from "@/lib/useUrlState";
 import FilterBar from "@/components/FilterBar";
 import NightShareChart from "@/components/NightShareChart";
-import ThresholdExplorer from "@/components/ThresholdExplorer";
 import TrajectoryExplorer from "@/components/TrajectoryExplorer";
 import VbmChart from "@/components/VbmChart";
 import { Section } from "@/components/ui";
@@ -158,37 +157,8 @@ export default function Story() {
       </Section>
 
       <Section
-        id="thresholds"
-        kicker="part two"
-        title="How long until the winner is beyond doubt?"
-        intro={
-          <p>
-            A race is mathematically settled once the uncounted ballots are
-            too few to flip it — the closer the race, the more of the count
-            you need. Set the slider to a margin and see how many days that
-            took, election by election. It didn&rsquo;t used to take long, even
-            when it was close: in December 1975 a mayor&rsquo;s race decided by{" "}
-            <em>2.2 points</em> was over the same night — 99% of the vote was
-            counted by midnight and the loser conceded at 11:30 p.m. Now even
-            a 25-point blowout waits a day or two, and a 10-point race most
-            of a week. The wait moved down-ballot from the nail-biters to
-            nearly everything.
-          </p>
-        }
-      >
-        <ThresholdExplorer
-          elections={elections}
-          threshold={state.threshold}
-          setThreshold={(t) => update({ threshold: t })}
-          from={state.from}
-          to={state.to}
-          kinds={state.kinds}
-        />
-      </Section>
-
-      <Section
         id="mail"
-        kicker="part three"
+        kicker="part two"
         title="What changed is the mail"
         intro={
           <p>
@@ -208,7 +178,7 @@ export default function Story() {
 
       <Section
         id="explore"
-        kicker="part four"
+        kicker="part three"
         title="The back end never changed"
         intro={
           <p>
@@ -226,7 +196,16 @@ export default function Story() {
         <TrajectoryExplorer
           elections={elections}
           selected={state.selected}
-          setSelected={(id) => update({ selected: id })}
+          toggleSelected={(id) => {
+            const next = new Set(state.selected);
+            if (next.has(id)) next.delete(id);
+            else next.add(id);
+            update({ selected: next });
+          }}
+          clearSelected={() => update({ selected: new Set() })}
+          dayFrom={state.dayFrom}
+          dayTo={state.dayTo}
+          setDayRange={(lo, hi) => update({ dayFrom: lo, dayTo: hi })}
         />
       </Section>
 
