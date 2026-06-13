@@ -573,3 +573,16 @@ floor (>=203,381). Night dot stays at the Prop A partial (44.9%, 815/1356)
 - 1974 genuinely had a slow election night. PATTERN: the DOE 1970s
 turnout table undercounts several elections; complete-precinct newspaper
 tables exceed it. Re-reading remaining pre-85 scans for measure floors.
+
+### Session 2026-06-13f — pre-85 re-read: diamonds already are the night floors
+Re-read 7 pre-1985 diamond-only elections hunting top ballot measures.
+Found complete-precinct measure sums for 1972-06 (197,480), 1980-06
+(170,060), 1982-06 (147,858), 1984-06 (135,927); 1976-06/1977-08/1980-08
+had no readable SF table. CRITICAL: every measure sum is BELOW its
+election's in-person-floor diamond (84.1<92.9, 82.4<92.6, 83.8<88.8,
+75.2<83.6) - because measures have undervote while the diamond counts
+all in-person ballots. So no new dots, and no new denominator errors
+(none exceed certified). REFRAME: pre-2002 "diamond-only" elections are
+NOT missing night data - the diamond (83-93%) already states the night
+floor. Denominator-error list stays at 2 (1974-06, 1978-11), both being
+cases where a measure EXCEEDED certified.
