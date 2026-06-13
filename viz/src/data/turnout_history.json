@@ -36,7 +36,7 @@
   "turnoutPct": 54.5,
   "registered": 75467,
   "ballots": 41137,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -44,7 +44,7 @@
   "turnoutPct": 78.4,
   "registered": 134688,
   "ballots": 105646,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -52,7 +52,7 @@
   "turnoutPct": 83.1,
   "registered": 161846,
   "ballots": 134492,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -60,7 +60,7 @@
   "turnoutPct": 84.3,
   "registered": 184819,
   "ballots": 155747,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -76,7 +76,7 @@
   "turnoutPct": 73.6,
   "registered": 210024,
   "ballots": 154592,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -84,7 +84,7 @@
   "turnoutPct": 66.7,
   "registered": 201563,
   "ballots": 134503,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -92,7 +92,7 @@
   "turnoutPct": 72.8,
   "registered": 219434,
   "ballots": 159649,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -100,7 +100,7 @@
   "turnoutPct": 58.7,
   "registered": 222799,
   "ballots": 130835,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -108,7 +108,7 @@
   "turnoutPct": 78.9,
   "registered": 253053,
   "ballots": 199665,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -116,7 +116,7 @@
   "turnoutPct": 69.4,
   "registered": 228582,
   "ballots": 158629,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -124,7 +124,7 @@
   "turnoutPct": 83.1,
   "registered": 273487,
   "ballots": 227283,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -140,7 +140,7 @@
   "turnoutPct": 85.5,
   "registered": 314990,
   "ballots": 269387,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -148,7 +148,7 @@
   "turnoutPct": 75.6,
   "registered": 340739,
   "ballots": 257597,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -156,7 +156,7 @@
   "turnoutPct": 82.2,
   "registered": 383845,
   "ballots": 315518,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -164,7 +164,7 @@
   "turnoutPct": 62.6,
   "registered": 367352,
   "ballots": 230129,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -180,7 +180,7 @@
   "turnoutPct": 62.9,
   "registered": 430114,
   "ballots": 270457,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -188,7 +188,7 @@
   "turnoutPct": 78.1,
   "registered": 459769,
   "ballots": 359134,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -196,7 +196,7 @@
   "turnoutPct": 72.6,
   "registered": 429864,
   "ballots": 312137,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -204,7 +204,7 @@
   "turnoutPct": 84.7,
   "registered": 431959,
   "ballots": 365972,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -212,7 +212,7 @@
   "turnoutPct": 69.1,
   "registered": 401900,
   "ballots": 277602,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -220,7 +220,7 @@
   "turnoutPct": 86.2,
   "registered": 397385,
   "ballots": 342652,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
