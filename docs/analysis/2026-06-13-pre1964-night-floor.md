@@ -133,12 +133,51 @@ and compared edition press-times:
   No. 2 ≈ 148,576 (≈95% of certified 155,747) — the count genuinely spanned >24h.
 
 **Verdict:** 1916's incompleteness is structural, not an early-edition artifact.
-Pre-1964 night-of completeness genuinely varied. Likely drivers of the
-1916-vs-1932 gap: 1916 was the closest CA presidential race ever (decided the
-presidency; contested/careful count) and/or **mechanical voting machines**, which
-SF/CA adopted in the 1920s–30s and which report precinct totals instantly. The
-latter is worth confirming — if machines drove it, the "fast interlude" began
-decades earlier than the 1960s, sharpening the three-act story.
+Pre-1964 night-of completeness genuinely varied — slow/erratic through the
+1910s–mid-1920s, reliably fast from ~1928. What we can say about the cause:
+
+- **It was NOT voting machines** (firmly sourced). SF hand-counted paper ballots
+  until punch cards arrived in the 1960s (CA's Votomatic patented 1966); its
+  1960s–90s nights ran 70–95%, not the instant ~100% lever machines give.
+- **It was NOT smaller precincts.** Precincts grew, but only in step with the
+  electorate — ballots per precinct were flat-to-rising across the transition
+  (1916: 228 · 1920: 201 · 1932: 216 · 1948: 298). The fast era carried as heavy
+  a per-precinct load as the slow era, so precinct proliferation explains
+  nothing. (Thanks to a reviewer for catching this.)
+- **Contemporary papers blamed "the long ballot"** for the slow counts (the 1918
+  Chronicle by name), and the slow era coincides with California's peak
+  Progressive-era initiative flood (~50 statewide measures in 1914). But this is
+  not airtight: 1916 (~7 state amendments + ~33 SF charter amendments) and 1932
+  (~19 state + ~19 city) had comparably long ballots, yet 1916 was slow and 1932
+  fast — so ballot length alone doesn't separate the eras either.
+
+**Honest conclusion:** the speedup is real and it was *not* mechanization and
+*not* precinct size. Beyond that the precise driver of the ~1928 stabilization is
+**unresolved** from available sources — plausibly the receding initiative peak,
+counting-procedure normalization, and fewer close/wartime elections (1916 was the
+closest CA presidential race ever; 1918 was wartime), but no single source pins
+it. The chart annotation is therefore descriptive ("counts stabilize ~1927"),
+and the prose states what is ruled out rather than asserting a cause.
+
+### Voting-machine investigation (2026-06-13)
+- General history: lever machines spread to "almost every major U.S. city by
+  1930" (Smithsonian; Douglas Jones, *Illustrated Voting Machine History*) — but
+  **no source places lever machines in San Francisco.** SF/CA went paper →
+  punch-card; the Harris/Rouverol Votomatic was developed at UC Berkeley and
+  patented 1966 (VerifiedVoting; procon votomatic timeline).
+- Consistency check from our own data: SF's 1960s–90s nights ran 70–95%, not the
+  instant ~100% that lever machines produce — consistent with hand/punch-card
+  counting, not levers.
+- Ballot flood: CA initiative/referendum began 1911; ~50 measures on the 1914
+  ballot; "ballots became lengthy, crowded with initiatives" (Cherny et al.,
+  *Competing Visions*, via LibreTexts). Primary source: the recovered 1918
+  Chronicle attributes the slow count to "the long ballot."
+- Per-precinct check (added after reviewer feedback): ballots/precinct were flat
+  (1916: 228, 1932: 216, 1948: 298), so precinct growth merely tracked the
+  electorate — precinct proliferation is **rejected** as a cause.
+- Conclusion: the ~1927 transition is on hand-counted paper and is explicitly
+  **not** mechanization; the exact driver is unresolved (long-ballot era easing +
+  fewer close/wartime elections are candidates, none decisive).
 
 ## FINAL RESULTS (2026-06-13): 22 elections recovered, 1908–1956
 

@@ -101,6 +101,10 @@ function Footer() {
         </div>
         <p className="smallcaps mt-8 text-paper/55">
           built from the sf-election-count pipeline ·{" "}
+          <a href="/eras" className="border-b border-gold/60 text-gold hover:bg-gold/10">
+            a century of election nights — the essay
+          </a>{" "}
+          ·{" "}
           <a href="/sources" className="border-b border-gold/60 text-gold hover:bg-gold/10">
             every number, sourced — the full citation list
           </a>{" "}
@@ -138,9 +142,11 @@ export default function Story() {
               itself the bottleneck; 1916, the closest presidential race in state
               history, left “virtually none of San Francisco’s vote” in hand by
               press time, and in 1918 the first precinct didn’t reach the
-              Registrar until after midnight. <em>1928–1990s</em>: voting machines
-              and shorter ballots win the night back — 99% complete in 1952, then
-              80–95% for sixty years. <em>Since ~2002</em>: the permanent vote-by-mail
+              Registrar until after midnight. <em>1928–1990s</em>: the night comes
+              back — 99% complete in 1952, then 80–95% for sixty years (still
+              hand-counted paper; San Francisco had no voting machines until 1960s
+              punch cards, and precincts grew only with the electorate, so the
+              fix wasn’t mechanization). <em>Since ~2002</em>: the permanent vote-by-mail
               list, then a pandemic, move the vote off election day, and the night
               slides back toward half.
             </p>
@@ -153,7 +159,13 @@ export default function Story() {
               Recalls (purple) and special elections (gold) sit above the trend:
               their electorates vote early by mail, so the night count catches
               more of them. Filter to primaries and generals and both slides —
-              the 1910s and today’s — show their sharpest.
+              the 1910s and today’s — show their sharpest.{" "}
+              <a
+                href="/eras"
+                className="border-b border-rust font-medium text-rust hover:bg-rust/10"
+              >
+                Read the full story — a century of election nights →
+              </a>
             </p>
           </>
         }

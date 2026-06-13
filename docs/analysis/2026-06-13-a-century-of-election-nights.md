@@ -47,9 +47,20 @@ dozen propositions and a long row of judges, each of which a clerk had to count
 by hand, by lamplight, precinct by precinct. A close race made it worse, because
 nobody could call it early and go home. The bottleneck was the count.
 
-The middle era fixed exactly that — mechanical voting and leaner ballots let a
-precinct report its totals the moment the polls closed — which is why 1928
-through the 1990s feels boringly complete.
+The middle era fixed exactly that — but **not with machines**. San Francisco
+hand-counted paper ballots until punch cards arrived in the 1960s (California's
+Votomatic system, developed at UC Berkeley, was patented in 1966). Nor was it
+smaller precincts: the precinct count rose, but only in step with the electorate,
+so the number of ballots each board had to tally stayed flat — about 215 per
+precinct in both 1916 and 1932 (counts read off the same recovered front pages),
+and higher still in the fast 1940s–50s. So what exactly steadied the count by the
+late 1920s isn't settled. The most-cited culprit is the ballot: California's
+Progressive-era initiative flood crested at nearly 50 statewide measures in 1914,
+and the *Chronicle* blamed "the long ballot" by name for the slow counts of 1914
+and 1918. But that explanation isn't airtight — 1916 and 1932 carried comparably
+long ballots and counted very differently — so the truth is probably some mix of
+the receding initiative peak, routine procedure, and a run of less-contested
+elections. What the evidence does rule out is mechanization.
 
 And the modern era is slow for a third, unrelated reason: the ballots aren't
 late to be *counted*, they're late to *arrive*. A mail ballot postmarked by
@@ -80,9 +91,9 @@ denominator errors to be arbitrated against the state's Statement of Vote.
 The modern slide is real and worth measuring. But a twenty-year decline reads
 very differently against twenty years of context than against a hundred. The
 long view shows that a complete election night is not the natural state of
-things to which we should expect to return — it was itself an achievement of
-the 1920s, won by machines and shorter ballots, and now undone by a change in
-how we vote rather than how we count. The city has lived through a slow election
+things to which we should expect to return — it was itself a development of the
+late 1920s, achieved on hand-counted paper (not by machines), and now undone by a
+change in how we vote rather than how we count. The city has lived through a slow election
 night before. It got out of it once. That is either reassuring or not, depending
 on how you read it.
 
