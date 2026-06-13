@@ -357,6 +357,14 @@ def main():
     ledger = (ROOT / "docs" / "analysis" / "public-search-log.md").read_text()
     (OUT.parent / "ledger.json").write_text(json.dumps({"text": ledger}))
 
+    # a news-derived night floor can be looser than the in-person floor;
+    # the night count is >= the BEST floor, so solid dots display max(both)
+    for e in out:
+        f = floor.get(e["id"])
+        if (f and e.get("nightPct") is not None and not e.get("nightPartial")
+                and e["nightPct"] < f["floorPct"]):
+            e["nightPct"] = f["floorPct"]
+            e["nightSrc"] = (e.get("nightSrc") or "") + " (shown at the certified in-person floor, the tighter lower bound)"
     fl = sorted(floor.values(), key=lambda x: x["date"])
     F = OUT.parent / "night_floor.json"
     F.write_text(json.dumps(fl, indent=1))

@@ -142,9 +142,10 @@ export default function NightShareChart({
       <ChartFrame
         note={
           <>
-            A dot can never sit below its diamond — in-person ballots are
+            A solid dot never sits below its diamond — in-person ballots are
             counted on election night, and the dotted stem between them is
-            early-arriving mail, counted that night too. Gold line: November
+            early-arriving mail, counted that night too. (Dim dashed dots are
+            press-deadline snapshots and can sit below the floor.) Gold line: November
             2020, every voter mailed a ballot. Gold rings: the night’s leader
             went on to lose (hover them). Dim dashed dots are mid-count
             partials, excluded from the trend. The trend is fit in two
