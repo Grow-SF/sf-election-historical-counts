@@ -47,6 +47,10 @@ export default function SourcesPage() {
       <p className="mt-4">
         <Link href="/" className="border-b border-rust font-semibold text-rust hover:bg-rust/10">
           ← back to the charts
+        </Link>{" "}
+        ·{" "}
+        <Link href="/missing" className="border-b border-rust/40 text-rust hover:bg-rust/10">
+          help complete the record →
         </Link>
       </p>
       <div className="mt-10 space-y-10">

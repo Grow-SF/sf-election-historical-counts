@@ -104,6 +104,10 @@ function Footer() {
           <a href="/sources" className="border-b border-gold/60 text-gold hover:bg-gold/10">
             every number, sourced — the full citation list
           </a>{" "}
+          ·{" "}
+          <a href="/missing" className="border-b border-gold/60 text-gold hover:bg-gold/10">
+            help complete the record
+          </a>{" "}
           · {new Date().getFullYear()}
         </p>
       </div>
