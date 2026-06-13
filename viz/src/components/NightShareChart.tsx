@@ -164,15 +164,16 @@ export default function NightShareChart({
             went on to lose (hover them). Dim dashed dots are mid-count
             partials, excluded from the trend. The trend is fit in three
             segments because this was never one process. Before the green line
-            (~1927) the count is erratic: California’s Progressive-era ballot
-            had ballooned past 40 statewide measures by 1914, and the
-            Chronicle blamed the long ballot outright (in 1918 the first
-            precinct didn’t reach the Registrar until after midnight). It
-            steadied as ballots shortened and the city split into more, smaller
-            precincts (684 in 1916 → 1,050+ by the 1930s) — still hand-counted
-            paper; San Francisco had no voting machines until punch cards
-            arrived in the 1960s. The 2002 break is the opposite story: the
-            permanent vote-by-mail list moving the vote off election day.
+            (~1927) the count is erratic: California’s Progressive-era ballot had
+            ballooned past 40 statewide measures by 1914, and the Chronicle
+            blamed the long ballot outright (in 1918 the first precinct didn’t
+            reach the Registrar until after midnight). It steadied by the late
+            1920s — but, notably, <em>not</em> by mechanizing: San Francisco
+            hand-counted paper until punch cards arrived in the 1960s, and the
+            number of ballots per precinct didn’t fall (precincts grew only with
+            the electorate). What exactly fixed it isn’t settled; what we can
+            rule out is voting machines. The 2002 break is the opposite story:
+            the permanent vote-by-mail list moving the vote off election day.
             Elections with only day-after records appear in the charts below.
           </>
         }

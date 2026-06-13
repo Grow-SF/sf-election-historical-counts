@@ -127,13 +127,16 @@ export default function ErasPage() {
           The middle era fixed exactly that — but{" "}
           <strong>not with machines</strong>. San Francisco hand-counted paper
           ballots until punch cards arrived in the 1960s (California's Votomatic
-          system was patented in 1966). What changed was the ballot and the
-          precinct: the Progressive-era initiative flood that had pushed
-          California past 40 statewide measures in 1914 receded, and the city
-          kept subdividing into more, smaller precincts (684 in 1916 to over
-          1,050 by the 1930s), so each precinct's clerks finished their shorter
-          stack sooner. Smaller stacks, counted in parallel — which is why 1928
-          through the 1990s feels boringly complete.
+          system was patented in 1966), and the number of ballots each precinct
+          board had to tally didn't fall — precincts grew only in step with the
+          electorate (about 215 ballots per precinct in both 1916 and 1932). So
+          the fix wasn't mechanization and it wasn't smaller workloads. The
+          honest answer is that what exactly steadied the count by the late 1920s
+          isn't settled: contemporaries blamed the long Progressive-era ballot
+          for the slow years, and that flood did recede, but 1916 and 1932 had
+          comparably long ballots and counted very differently — so it's likely
+          some mix of that, routine procedure, and a run of less-contested
+          elections. What we can rule out is voting machines.
         </p>
         <p>
           And the modern era is slow for a third, unrelated reason: the ballots
@@ -177,9 +180,9 @@ export default function ErasPage() {
           reads very differently against twenty years of context than against a
           hundred. The long view shows that a complete election night is not the
           natural state of things to which we should expect to return — it was
-          itself an achievement of the late 1920s, won by shorter ballots and a
-          finer-grained precinct map (not by machines), and now undone by a
-          change in how we vote rather than how we count. The city has lived through a slow election night before. It got
+          itself a development of the late 1920s, on hand-counted paper and not by
+          machines, and now undone by a change in how we vote rather than how we
+          count. The city has lived through a slow election night before. It got
           out of it once. That is either reassuring or not, depending on how you
           read it.
         </p>
