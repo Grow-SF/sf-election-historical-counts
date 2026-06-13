@@ -1024,6 +1024,68 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1985-11-05",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 1985,
+  "final": 107920,
+  "registered": 399422,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 92.5,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.25,
+    92.5,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle via NewsBank (SFPL)",
+  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+ },
+ {
   "id": "1986-06-03",
   "name": "Consolidated Primary Election",
   "kind": "Primary",

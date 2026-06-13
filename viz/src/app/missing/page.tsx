@@ -103,8 +103,12 @@ export default function MissingPage() {
       <p className="mt-5 max-w-3xl leading-relaxed">
         This project has recovered election-night and mid-canvass counts for
         nearly every San Francisco election since 1960 — from the city&rsquo;s
-        own releases, the Wayback Machine, and sixty years of Chronicle
-        coverage. What remains is listed here, and we&rsquo;d love help. If
+        own releases, the Wayback Machine, and sixty years of newspaper
+        coverage. Roughly thirty elections still lack a true election-night
+        count (they appear as hollow diamonds with no dot on the night
+        chart); most have day-one-or-later observations, but the night
+        itself is undocumented. The entries below are the highest-value
+        targets — and we&rsquo;d love help with any of them. If
         you have access to the San Francisco Examiner morgue, KQED/KRON/KPIX
         broadcast archives, Department of Elections records, a basement stack
         of old newspapers, or a relative who worked the count — these numbers

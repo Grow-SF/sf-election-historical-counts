@@ -3512,6 +3512,22 @@
   ]
  },
  {
+  "id": "1985-11-05",
+  "name": "Consolidated Municipal Election",
+  "final": 107920,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1985-11-06",
+    "days": 1,
+    "total": 99799,
+    "pct": 92.5,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "Mercury News via NewsBank (SFPL), 'HIGH-RISE INITIATIVE KNOCKED DOWN BY S.F. VOTERS' 1985-11-06 (0EB7270FCB474F36): 'With 706 of 709 precincts reporting, 78,115 voters or 78.3 percent opposed the marijuana measure, and 21,684 were in favor' = 99,799 - conservative night floor (largest-contest sum; high-rise measure 99,475 consistent); exceeds certified precinct ballots 84,547 so night count included absentees \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB7270FCB474F36"
+   }
+  ]
+ },
+ {
   "id": "1984-11-06",
   "name": "Consolidated General Election",
   "final": 298517,
