@@ -71,7 +71,7 @@
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 93.5,
+  "nightPct": 94.4,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
@@ -120,7 +120,7 @@
     "bound": true
    }
   },
-  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL) (shown at the certified in-person floor, the tighter lower bound)",
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
@@ -1423,7 +1423,7 @@
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 83.4,
+  "nightPct": 84.4,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
@@ -1464,7 +1464,7 @@
     "bound": true
    }
   },
-  "nightSrc": "SF Chronicle via NewsBank (SFPL)",
+  "nightSrc": "SF Chronicle via NewsBank (SFPL) (shown at the certified in-person floor, the tighter lower bound)",
   "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {

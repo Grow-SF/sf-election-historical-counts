@@ -365,6 +365,8 @@ def main():
                 and e["nightPct"] < f["floorPct"]):
             e["nightPct"] = f["floorPct"]
             e["nightSrc"] = (e.get("nightSrc") or "") + " (shown at the certified in-person floor, the tighter lower bound)"
+    # re-emit elections.json - the floor comparison above can adjust nightPct
+    OUT.write_text(json.dumps(out, indent=1))
     fl = sorted(floor.values(), key=lambda x: x["date"])
     F = OUT.parent / "night_floor.json"
     F.write_text(json.dumps(fl, indent=1))
