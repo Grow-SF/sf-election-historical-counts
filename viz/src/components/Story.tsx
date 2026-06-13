@@ -8,6 +8,7 @@ import TrajectoryExplorer from "@/components/TrajectoryExplorer";
 import VbmChart from "@/components/VbmChart";
 import TurnoutChart from "@/components/TurnoutChart";
 import RegistrationChart from "@/components/RegistrationChart";
+import FranchiseFunnelChart from "@/components/FranchiseFunnelChart";
 import { Section } from "@/components/ui";
 
 function Hero() {
@@ -185,6 +186,16 @@ export default function Story() {
         intro={
           <>
             <p>
+              Start with the whole city. Every San Franciscan falls into one
+              band below: too young to vote, a non-citizen who legally can’t,
+              an eligible citizen who never registered, registered but a
+              no-show — or an actual voter. Watch the blue band of non-citizens
+              breathe with the city’s immigration history, and the eligible
+              electorate jump when women won the vote in 1920. The franchise
+              has never been the whole population, and the gap is mostly about
+              who counts as eligible, not who bothers to vote.
+            </p>
+            <p>
               Mailing every voter a ballot is the most sweeping change to how
               San Franciscans vote in sixty years. So it’s worth asking the
               obvious question: did it bring more people to the polls? Among
@@ -210,6 +221,7 @@ export default function Story() {
           </>
         }
       >
+        <FranchiseFunnelChart />
         <TurnoutChart />
         <RegistrationChart />
       </Section>

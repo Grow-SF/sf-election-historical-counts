@@ -446,6 +446,56 @@ def main():
         R.write_text(json.dumps(regelig, indent=1))
         print(f"{len(regelig)} registration-vs-eligible points -> {R}")
 
+    # ---- the franchise funnel: population -> voting-age -> eligible citizen ->
+    # registered -> voted, at each presidential general 1900-2024. Census layers
+    # (decennial, from sf_eligible_vap_estimate.csv = IPUMS NHGIS) are linearly
+    # interpolated to election years; eligible uses census citizen-VAP through 1970
+    # then the SoS-published eligible; registered/voted are the real per-election
+    # figures. The bands between layers are the story: children, NON-CITIZENS,
+    # the unregistered, and non-voters.
+    census = {}  # year -> (pop, vap, citizen_elig|None)
+    vap_path = ROOT / "data" / "sf_eligible_vap_estimate.csv"
+    if vap_path.exists():
+        with open(vap_path) as f:
+            for r in csv.DictReader(line for line in f if not line.startswith("#")):
+                census[int(r["year"])] = (
+                    int(r["total_population"]), int(r["voting_age_pop"]),
+                    int(r["citizen_eligible"]) if r["citizen_eligible"] else None)
+
+        def interp(anchors, y):
+            xs = sorted(anchors)
+            if y <= xs[0]:
+                return anchors[xs[0]]
+            if y >= xs[-1]:
+                return anchors[xs[-1]]
+            hi = next(x for x in xs if x >= y)
+            lo = max(x for x in xs if x <= y)
+            if hi == lo:
+                return anchors[lo]
+            return anchors[lo] + (anchors[hi] - anchors[lo]) * (y - lo) / (hi - lo)
+
+        pop_a = {y: c[0] for y, c in census.items()}
+        vap_a = {y: c[1] for y, c in census.items()}
+        elig_a = {y: c[2] for y, c in census.items() if c[2]}  # census, 1900-1970
+        for p in regelig:  # SoS-published eligible, 1978-2026
+            elig_a[int(p["date"][:4])] = p["eligible"]
+        funnel = []
+        for t in tn:  # tn = turnout points; presidential generals only
+            y = int(t["date"][:4])
+            if t["date"][5:7] == "11" and y % 4 == 0 and t.get("kind") == "General":
+                funnel.append({
+                    "year": y,
+                    "population": round(interp(pop_a, y)),
+                    "vap": round(interp(vap_a, y)),
+                    "eligible": round(interp(elig_a, y)),
+                    "registered": t["registered"],
+                    "voted": t["ballots"],
+                })
+        funnel.sort(key=lambda x: x["year"])
+        F2 = OUT.parent / "franchise_funnel.json"
+        F2.write_text(json.dumps(funnel, indent=1))
+        print(f"{len(funnel)} franchise-funnel points -> {F2}")
+
 
 if __name__ == "__main__":
     main()

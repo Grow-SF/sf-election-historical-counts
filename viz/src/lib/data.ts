@@ -3,6 +3,7 @@ import vbmHistory from "@/data/vbm_history.json";
 import nightFloor from "@/data/night_floor.json";
 import turnoutHistory from "@/data/turnout_history.json";
 import registrationEligible from "@/data/registration_eligible.json";
+import franchiseFunnel from "@/data/franchise_funnel.json";
 
 export type Threshold = { days: number; bound: boolean };
 
@@ -54,6 +55,16 @@ export type RegEligPoint = {
   confidence?: string;
 };
 export const REGISTRATION_ELIGIBLE = registrationEligible as RegEligPoint[];
+
+export type FunnelPoint = {
+  year: number;
+  population: number;
+  vap: number;
+  eligible: number;
+  registered: number;
+  voted: number;
+};
+export const FRANCHISE_FUNNEL = franchiseFunnel as FunnelPoint[];
 
 export const KINDS = ["General", "Primary", "Municipal", "Special", "Recall"] as const;
 export const THRESHOLDS = [50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 98, 99];
