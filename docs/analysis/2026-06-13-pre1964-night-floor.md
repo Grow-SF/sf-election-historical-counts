@@ -133,12 +133,34 @@ and compared edition press-times:
   No. 2 ≈ 148,576 (≈95% of certified 155,747) — the count genuinely spanned >24h.
 
 **Verdict:** 1916's incompleteness is structural, not an early-edition artifact.
-Pre-1964 night-of completeness genuinely varied. Likely drivers of the
-1916-vs-1932 gap: 1916 was the closest CA presidential race ever (decided the
-presidency; contested/careful count) and/or **mechanical voting machines**, which
-SF/CA adopted in the 1920s–30s and which report precinct totals instantly. The
-latter is worth confirming — if machines drove it, the "fast interlude" began
-decades earlier than the 1960s, sharpening the three-act story.
+Pre-1964 night-of completeness genuinely varied. Cause of the 1916-vs-1932 gap
+(researched 2026-06-13 — see below): **not voting machines.** SF hand-counted
+paper ballots until punch cards arrived in the 1960s (CA's Votomatic was
+patented 1966), so the 1928 speedup was not mechanization. The evidence points
+to (a) **ballot length** — California's Progressive-era initiative flood pushed
+the 1914 ballot to ~50 statewide measures, and the Chronicle blamed "the long
+ballot" by name for the slow counts of 1914 and 1918; it receded through the
+1920s — and (b) **precinct proliferation** — SF's precinct count rose from 684
+(1916) to 1,050+ (1932) to 1,306 (1952), so each precinct board hand-counted a
+smaller, shorter stack and the city reported sooner. (1916 being the closest CA
+presidential race ever is a secondary aggravator, not the main cause — 1914 and
+1918 were slow without being cliffhangers.)
+
+### Voting-machine investigation (2026-06-13)
+- General history: lever machines spread to "almost every major U.S. city by
+  1930" (Smithsonian; Douglas Jones, *Illustrated Voting Machine History*) — but
+  **no source places lever machines in San Francisco.** SF/CA went paper →
+  punch-card; the Harris/Rouverol Votomatic was developed at UC Berkeley and
+  patented 1966 (VerifiedVoting; procon votomatic timeline).
+- Consistency check from our own data: SF's 1960s–90s nights ran 70–95%, not the
+  instant ~100% that lever machines produce — consistent with hand/punch-card
+  counting, not levers.
+- Ballot flood: CA initiative/referendum began 1911; ~50 measures on the 1914
+  ballot; "ballots became lengthy, crowded with initiatives" (Cherny et al.,
+  *Competing Visions*, via LibreTexts). Primary source: the recovered 1918
+  Chronicle attributes the slow count to "the long ballot."
+- Conclusion: label the ~1927 transition as shorter ballots + finer precinct map
+  on hand-counted paper — explicitly **not** mechanization.
 
 ## FINAL RESULTS (2026-06-13): 22 elections recovered, 1908–1956
 

@@ -142,9 +142,10 @@ export default function Story() {
               itself the bottleneck; 1916, the closest presidential race in state
               history, left “virtually none of San Francisco’s vote” in hand by
               press time, and in 1918 the first precinct didn’t reach the
-              Registrar until after midnight. <em>1928–1990s</em>: voting machines
-              and shorter ballots win the night back — 99% complete in 1952, then
-              80–95% for sixty years. <em>Since ~2002</em>: the permanent vote-by-mail
+              Registrar until after midnight. <em>1928–1990s</em>: shorter ballots
+              and more, smaller precincts win the night back (still hand-counted
+              paper — no voting machines until 1960s punch cards) — 99% complete
+              in 1952, then 80–95% for sixty years. <em>Since ~2002</em>: the permanent vote-by-mail
               list, then a pandemic, move the vote off election day, and the night
               slides back toward half.
             </p>

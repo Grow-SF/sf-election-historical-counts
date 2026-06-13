@@ -47,9 +47,17 @@ dozen propositions and a long row of judges, each of which a clerk had to count
 by hand, by lamplight, precinct by precinct. A close race made it worse, because
 nobody could call it early and go home. The bottleneck was the count.
 
-The middle era fixed exactly that — mechanical voting and leaner ballots let a
-precinct report its totals the moment the polls closed — which is why 1928
-through the 1990s feels boringly complete.
+The middle era fixed exactly that — but **not with machines**. San Francisco
+hand-counted paper ballots until punch cards arrived in the 1960s (California's
+Votomatic system, developed at UC Berkeley, was patented in 1966). What changed
+was the ballot and the precinct map. California's Progressive-era initiative
+flood — nearly 50 statewide measures on the 1914 ballot, and the *Chronicle*
+blamed "the long ballot" by name for the slow counts of 1914 and 1918 — receded
+through the 1920s. At the same time the city kept subdividing into more, smaller
+precincts: 684 in 1916, over 1,050 by the 1930s, 1,306 by 1952 (counts read off
+the same recovered front pages). Shorter stacks, counted in parallel by more
+precinct boards, finished sooner — which is why 1928 through the 1990s feels
+boringly complete.
 
 And the modern era is slow for a third, unrelated reason: the ballots aren't
 late to be *counted*, they're late to *arrive*. A mail ballot postmarked by
@@ -81,8 +89,8 @@ The modern slide is real and worth measuring. But a twenty-year decline reads
 very differently against twenty years of context than against a hundred. The
 long view shows that a complete election night is not the natural state of
 things to which we should expect to return — it was itself an achievement of
-the 1920s, won by machines and shorter ballots, and now undone by a change in
-how we vote rather than how we count. The city has lived through a slow election
+the late 1920s, won by shorter ballots and a finer-grained precinct map (not by
+machines), and now undone by a change in how we vote rather than how we count. The city has lived through a slow election
 night before. It got out of it once. That is either reassuring or not, depending
 on how you read it.
 

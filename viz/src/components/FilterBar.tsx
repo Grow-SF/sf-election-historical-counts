@@ -76,6 +76,12 @@ export default function FilterBar({
 
         <div className="ml-auto flex flex-wrap items-center gap-2">
           <a
+            href="/eras"
+            className="smallcaps border border-rust bg-rust/10 px-2.5 py-1 text-rust transition-colors hover:bg-rust hover:text-paper"
+          >
+            Eras
+          </a>
+          <a
             href="/sources"
             className="smallcaps border border-rust px-2.5 py-1 text-rust transition-colors hover:bg-rust hover:text-paper"
           >

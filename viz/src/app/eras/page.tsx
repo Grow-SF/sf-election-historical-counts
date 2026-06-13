@@ -124,9 +124,16 @@ export default function ErasPage() {
           nobody could call it early and go home. The bottleneck was the count.
         </p>
         <p>
-          The middle era fixed exactly that — mechanical voting and leaner
-          ballots let a precinct report its totals the moment the polls closed —
-          which is why 1928 through the 1990s feels boringly complete.
+          The middle era fixed exactly that — but{" "}
+          <strong>not with machines</strong>. San Francisco hand-counted paper
+          ballots until punch cards arrived in the 1960s (California's Votomatic
+          system was patented in 1966). What changed was the ballot and the
+          precinct: the Progressive-era initiative flood that had pushed
+          California past 40 statewide measures in 1914 receded, and the city
+          kept subdividing into more, smaller precincts (684 in 1916 to over
+          1,050 by the 1930s), so each precinct's clerks finished their shorter
+          stack sooner. Smaller stacks, counted in parallel — which is why 1928
+          through the 1990s feels boringly complete.
         </p>
         <p>
           And the modern era is slow for a third, unrelated reason: the ballots
@@ -170,9 +177,9 @@ export default function ErasPage() {
           reads very differently against twenty years of context than against a
           hundred. The long view shows that a complete election night is not the
           natural state of things to which we should expect to return — it was
-          itself an achievement of the 1920s, won by machines and shorter
-          ballots, and now undone by a change in how we vote rather than how we
-          count. The city has lived through a slow election night before. It got
+          itself an achievement of the late 1920s, won by shorter ballots and a
+          finer-grained precinct map (not by machines), and now undone by a
+          change in how we vote rather than how we count. The city has lived through a slow election night before. It got
           out of it once. That is either reassuring or not, depending on how you
           read it.
         </p>
