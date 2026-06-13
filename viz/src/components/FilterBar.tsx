@@ -95,6 +95,12 @@ export default function FilterBar({
         >
           sources
         </a>
+        <a
+          href="/missing"
+          className="smallcaps border border-gold bg-gold/10 px-2.5 py-1 text-ink transition-colors hover:bg-gold hover:text-night"
+        >
+          help wanted
+        </a>
         <button
           onClick={share}
           className="smallcaps border border-ink px-2.5 py-1 text-ink transition-colors hover:bg-ink hover:text-paper"

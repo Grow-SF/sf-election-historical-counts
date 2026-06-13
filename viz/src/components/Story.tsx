@@ -230,6 +230,32 @@ export default function Story() {
         />
       </Section>
 
+      <section className="grain relative mt-16 bg-night text-paper">
+        <div className="mx-auto max-w-5xl px-5 py-12">
+          <p className="smallcaps text-gold">open research — help wanted</p>
+          <h2 className="mt-2 max-w-3xl text-3xl font-bold leading-tight">
+            Thirteen election nights are still missing. You might own one.
+          </h2>
+          <p className="mt-4 max-w-3xl text-lg leading-relaxed text-paper/85">
+            Sixty years of counts have been recovered from city archives, the
+            Wayback Machine, and the Chronicle&rsquo;s morgue — but the
+            night-of numbers for elections like the 1995 Brown–Jordan
+            mayor&rsquo;s race and the 1999 Ammiano write-in exist only in
+            sources we can&rsquo;t reach: the Examiner&rsquo;s pages,
+            broadcast archives, a box of old papers. One photograph settles
+            each one.
+          </p>
+          <p className="mt-6">
+            <a
+              href="/missing"
+              className="smallcaps inline-block border border-gold bg-gold/10 px-4 py-2 text-gold transition-colors hover:bg-gold hover:text-night"
+            >
+              see the list — submit a source →
+            </a>
+          </p>
+        </div>
+      </section>
+
       <Footer />
     </main>
   );
