@@ -49,32 +49,33 @@ Also: rolls **sawtooth** (peak at each general, purged after), and the DOF eligi
 estimate is itself revised between reports (it even dips 2011–2013, and the 1988
 SOV prints an anomalously high 554,796). Read the band, not single-report wiggles.
 
-## Voting-age population over time (rough estimate, 1900–2020)
+## Eligible (citizen voting-age) population over time
 
-`data/sf_eligible_vap_estimate.csv` — VAP (all adults), one row per decennial
-census plus the 1974/76 SOV, every row flagged `kind`:
-- **`census-actual`** — 18+ read from the census: 1970 (~545k), 1980 (~558k),
-  1990 (607,210). Totals 1900–2020 are sourced (decennial census).
-- **`sov-actual`** — the 1974/1976 Statement of Vote VAP figures (526,930; 535,094).
-- **`estimate`** — VAP = total population × an assumed adult share, used where the
-  actual 18+/21+ count wasn't available keyless: 1900–1960 (×~0.67→0.71, voting age
-  21+ pre-1971) and 2000–2020 (×~0.845→0.865, extrapolated from the 1990 actual).
-  These are **rough**; the assumed fraction is in each row's source note.
+The wanted denominator is **eligible adult citizens**, not all-adult voting-age
+population — SF has a large non-citizen adult share, so the two differ a lot. A
+firm anchor: in 1990 the SoS citizen-eligible (484,956) was only **~80% of the
+census's 607,210 adults** (and ~72% of total population in 1980). All-adult VAP
+overstates eligible by that ~20-pt gap; don't use it as the franchise denominator.
 
-Shape: SF VAP rose ~230k (1900) → ~558k (1950, near the population peak) → dipped
-with the 1960s–80s population decline (~526–558k) → climbed to ~753k (2020).
+- **1978–2026 — published, do not estimate.** The eligible (citizen) figure is in
+  the Statement of Vote / Reports of Registration: `sf_registration_eligible_sov_1974_1998.csv`
+  (1978–1998) and `sf_registration_eligible.csv` (2000–2026; e.g. SF 2020 = 668,567,
+  2026 = 658,495 eligible).
+- **Pre-1978 — rough estimate only.** `data/sf_eligible_vap_estimate.csv`:
+  eligible = decennial total (sourced) × an assumed citizen-of-total share
+  (~0.55 in 1900 rising to ~0.68 by 1976, anchored to the 1980/1990 SoS-vs-census
+  ratios; voting age 21+ pre-1971). Assumption-based; flagged per row.
 
-**Why not the Census API:** as of 2026 the API requires a key (data requests 302
-to a "Missing Key" page), and it carries no pre-1990 data regardless — so it
-cannot reach 1899. Exact figures need either a Census API key (post-1990) or the
-NHGIS county age tables / archive.org decennial volumes (1900–1980).
+**Why not the Census API:** as of 2026 it requires a key (data requests 302 to a
+"Missing Key" page) and carries no pre-1990 data — so it can't reach 1899. Exact
+pre-1978 citizen figures need Census *citizenship* tables (NHGIS / decennial
+volumes), not just age tables.
 
 ## What's left
 - Hand-verify the 1978–1998 SOV recoveries against the cited scans.
 - 1992 *general* eligible: the Nov-1992 SOV participation table lacks an eligible
   column (only the June primary has one) — captured the primary instead.
-- Replace the `estimate` VAP rows (1900–60, 2000–20) with exact 18+/21+ counts
-  from a Census API key (post-1990) or NHGIS / archive.org decennial age tables
-  (1900–1980).
+- Replace the pre-1978 `eligible_citizen_est` rows with exact citizen-voting-age
+  counts from NHGIS / archive.org decennial *citizenship* tables (1900–1970).
 - 1964–1972 citizen-eligible is only reachable as a Census-derived estimate, not
   SoS primary data.

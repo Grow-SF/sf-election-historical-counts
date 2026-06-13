@@ -1,16 +1,23 @@
-year,total_population,vap_estimate,age_basis,kind,source
-1900,342782,230000,21+,estimate,"total: census 1900; VAP = total x ~0.67 adult share (assumed; voting age 21+ pre-1971)"
-1910,416912,288000,21+,estimate,"total: census 1910; VAP = total x ~0.69 (assumed)"
-1920,506676,355000,21+,estimate,"total: census 1920; VAP = total x ~0.70 (assumed)"
-1930,634394,457000,21+,estimate,"total: census 1930; VAP = total x ~0.72 (assumed)"
-1940,634536,463000,21+,estimate,"total: census 1940; VAP = total x ~0.73 (assumed)"
-1950,775357,558000,21+,estimate,"total: census 1950; VAP = total x ~0.72 (assumed)"
-1960,740316,526000,21+,estimate,"total: census 1960; VAP = total x ~0.71 (assumed)"
-1970,715674,545000,18+,census-actual,"Bay Area Census 1970: 20+ = 533,535 (18+ est ~545k); voting age dropped to 18 in 1971"
-1974,715674,526930,18+,sov-actual,"Statement of Vote 1974 voter-participation denominator (VAP basis); statementofvote197374cali"
-1976,697324,535094,18+,sov-actual,"Statement of Vote 1976, column 'Voting Age Population'; statementofvote1976cali leaf 13"
-1980,678974,558000,18+,census-actual,"Bay Area Census 1980: 20-64 + 65+ = 545,173 (18+ est ~558k)"
-1990,723959,607210,18+,census-actual,"Bay Area Census 1990: 18-64 (501,947) + 65+ (105,263) = 607,210"
-2000,777360,657000,18+,estimate,"total: census 2000; VAP = total x ~0.845 (extrapolated from 1990 actual)"
-2010,805235,688000,18+,estimate,"total: census 2010; VAP = total x ~0.855 (extrapolated)"
-2020,870014,753000,18+,estimate,"total: census 2020; VAP = total x ~0.865 (extrapolated)"
+# PRE-1978 ONLY. For 1978-2026 the eligible (citizen voting-age) figure is
+# PUBLISHED by the CA Secretary of State - use data/sf_registration_eligible.csv
+# (ROR, 2000-2026) and data/sf_registration_eligible_sov_1974_1998.csv (SOV,
+# 1978-1998). Do NOT estimate those years.
+#
+# These rows are ROUGH citizen-eligible estimates for the years the SoS published
+# no county eligible figure (pre-1973). eligible_citizen_est = total_population x
+# an assumed citizen-of-total share. The share is anchored to the SoS-vs-census
+# ratio where both exist: citizen-eligible was ~80% of all adults in 1990 and
+# ~72% of total population in 1980 -> SF has a large non-citizen adult share, so
+# eligible is well BELOW all-adult voting-age population. Pre-1971 voting age was
+# 21+. These are assumption-based; exact figures need Census citizenship tables
+# (NHGIS / decennial volumes). Totals are sourced (decennial census).
+year,total_population,eligible_citizen_est,share_of_total,source
+1900,342782,189000,0.55,"census 1900 total; eligible est = total x 0.55 (assumed; 21+, high immigrant/non-citizen share)"
+1910,416912,233000,0.56,"census 1910 total; x 0.56 (assumed)"
+1920,506676,294000,0.58,"census 1920 total; x 0.58 (assumed)"
+1930,634394,381000,0.60,"census 1930 total; x 0.60 (assumed)"
+1940,634536,393000,0.62,"census 1940 total; x 0.62 (assumed)"
+1950,775357,481000,0.62,"census 1950 total; x 0.62 (assumed; low-immigration era)"
+1960,740316,466000,0.63,"census 1960 total; x 0.63 (assumed; 21+)"
+1970,715674,465000,0.65,"census 1970 total; x 0.65 (assumed; 21+, voting age -> 18 in 1971)"
+1976,697324,471000,0.68,"SOV 1976 printed VAP 535,094 (all adults) x ~0.88 citizen share = ~471k eligible"
