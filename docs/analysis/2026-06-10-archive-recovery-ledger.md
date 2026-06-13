@@ -517,3 +517,15 @@ network (8 harvested docs, all out-of-county blog content); the print
 afternoon Examiner is not in Access World News for any year. Print
 Examiner = microfilm-only (SFPL / CA State Library) - now listed as the
 top researcher ask on the public search log.
+
+### Session 2026-06-13 — the multi-paper vein (user-instigated)
+
+Asked "other competing papers?": Access World News' other ~90 papers
+carried the missing counts. SIX new night points: 1987-04 91.2% (Daily
+Breeze ratio), 1987-06 79.4% (Bee), 1993-11 81.5% (Daily News LA),
+1995-11 81.6% (Mercury News - Brown/Jordan at last), 1999-12 88.9%
+(AP, 644/645), 2005-11 66.9% (Chronicle's own county series under a
+missed title); plus 1999-11 d2 70.9% (AP ratio). Examiner = blog
+network post-2006, print never digitized. Gov-release wires dry.
+Missing-nights list: 13 -> 7 (1985-11, 1999-11 night, 2000-11 night,
+2002-12, 2003-10 SF rows, 2006-11 night, 2010-11 night).

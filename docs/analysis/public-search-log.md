@@ -52,6 +52,15 @@ Examiner's election-night pages — the most promising untapped source
 for the missing records, given its evening deadlines — survive only on
 microfilm (SFPL and the California State Library hold runs).
 
+**Other Bay Area and national papers (NewsBank, multi-paper sweep).**
+Access World News holds ~90 newspapers with same-window SF election
+coverage: the San Jose Mercury News, Sacramento Bee, Daily News of Los
+Angeles, Daily Breeze, AP wire and others carried precincts-reporting
+count snapshots that filled the 1987, 1993, 1995, 1999-12, and 2005
+night gaps. Searched per gap election, election day through +3, with
+count-language queries; remaining gaps were not covered with usable SF
+figures in any of these papers.
+
 **Other sources used.** SFGate's live archive (1995–2001 rich, 2002–2009
 sparse), the California Secretary of State's Statements of Vote (online
 from 1990), contemporary coverage in other outlets (e.g. Berkeley Daily

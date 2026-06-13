@@ -234,7 +234,7 @@ export default function Story() {
         <div className="mx-auto max-w-5xl px-5 py-12">
           <p className="smallcaps text-gold">open research — help wanted</p>
           <h2 className="mt-2 max-w-3xl text-3xl font-bold leading-tight">
-            Thirteen election nights are still missing. You might own one.
+            Seven election nights are still missing. You might own one.
           </h2>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-paper/85">
             Sixty years of counts have been recovered from city archives, the

@@ -2406,6 +2406,14 @@
   "finalSource": "PR_FinalNov8thElectionResults2.pdf (certified, Dec 7 2005)",
   "observations": [
    {
+    "date": "2005-11-09",
+    "days": 1,
+    "total": 153606,
+    "pct": 66.9,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "SF Chronicle via NewsBank (SFPL), 'ELECTION 2005 RESULTS - COUNTY-BY-COUNTY - SAN FRANCISCO' 2005-11-09 paper (10DC745900D5DE00), 578 of 578 precincts reporting: Measure A YES 98,556 (64.1) + NO 55,050 = 153,606 - conservative night floor (largest-contest sum); exceeds certified precinct ballots 136,897 so night count included absentees \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/10DC745900D5DE00"
+   },
+   {
     "date": "2005-11-10",
     "days": 2,
     "total": 161169,
@@ -2846,6 +2854,14 @@
   "finalSource": "DOE turnout history 1960-2002 (certified)",
   "observations": [
    {
+    "date": "1999-12-15",
+    "days": 1,
+    "total": 202982,
+    "pct": 88.9,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "AP News Service via NewsBank (SFPL), 'Brown Re-Elected in San Francisco' 1999-12-15 (1416CAE24B18C648): 'With all but one of the 645 precincts reporting today, Brown had 120,731 votes or 59.4 percent to 82,251 or 40.5 percent' = 202,982 - conservative night floor (mayor contest sum); exceeds certified precinct ballots 154,357 so night count included absentees \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1416CAE24B18C648"
+   },
+   {
     "date": "1999-12-16",
     "days": 2,
     "total": 215247,
@@ -2884,6 +2900,14 @@
     "pct": 50.9,
     "label": "SF Chronicle via NewsBank (SFPL)",
     "citation": "SF Chronicle via NewsBank (SFPL), 'SLOW GOING AT CITY HALL' 1999-11-04 (and 'Ammiano Edges Ahead Of Jordan', same day): 'yesterday, the exhausted crew was sent home with roughly 100,000 ballots uncounted' - conservative day-1 floor 203,674 - 100,000; the write-in mayoral campaign forced hand counting (itemized: 64 of 646 precincts + ~33,000 absentee/write-in + ~9,000 provisional)"
+   },
+   {
+    "date": "1999-11-04",
+    "days": 2,
+    "total": 144333,
+    "pct": 70.9,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "AP via San Antonio Express-News / Seattle Times, NewsBank (SFPL) 1999-11-04 (0EAFE8EC67372F33): 'With 90 percent of the precincts reporting, Brown had 60,620 votes, 42 percent' - same-contest ratio floor 60,620/0.42 = 144,333 (write-in hand count made the night state unusually slow) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EAFE8EC67372F33"
    },
    {
     "date": "1999-11-05",
@@ -3046,6 +3070,14 @@
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
    {
+    "date": "1995-11-08",
+    "days": 1,
+    "total": 176816,
+    "pct": 81.6,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "Mercury News via NewsBank (SFPL), 'BROWN, JORDAN SLASH INTO RUNOFF' 1995-11-08 (0EB71F0BA8326C82): 'With all precincts reporting, Brown topped the field with 61,709, or 34.9 percent of the vote' - same-contest ratio floor 61,709/0.349 = 176,816; exceeds certified precinct ballots 152,017 so night count included absentees; Pittsburgh Post-Gazette same day: 'Between 3,000 and 4,000 absentee ballots remained to be counted' (would imply ~98%, not used - provisionals unstated) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB71F0BA8326C82"
+   },
+   {
     "date": "1995-11-09",
     "days": 2,
     "total": 195267,
@@ -3092,6 +3124,22 @@
     "pct": 81.9,
     "label": "SF Chronicle via NewsBank (SFPL)",
     "citation": "SF Chronicle via NewsBank (SFPL), 1994-06-09 (0EB4F5EC914918D5): night table 551/551 precincts, Prop A 76,181 yes / 34,793 no - conservative night floor (top-contest sum) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F5EC914918D5"
+   }
+  ]
+ },
+ {
+  "id": "1993-11-02",
+  "name": "Consolidated Municipal Election",
+  "final": 158146,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1993-11-03",
+    "days": 1,
+    "total": 128880,
+    "pct": 81.5,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "Daily News of Los Angeles via NewsBank (SFPL) 1993-11-03 (0EF619F3197DEDB0): Prop BB 'all 542 precincts reporting, 65,768 voters, or 51 percent, approved... while 63,112, or 48.9 percent, opposed' = 128,880 - conservative night floor (largest-contest sum); exceeds certified precinct ballots 113,377 so night count included absentees \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EF619F3197DEDB0"
    }
   ]
  },
@@ -3336,11 +3384,35 @@
   ]
  },
  {
+  "id": "1987-06-02",
+  "name": "Special Runoff Election",
+  "final": 93010,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1987-06-03",
+    "days": 1,
+    "total": 73822,
+    "pct": 79.4,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "Sacramento Bee via NewsBank (SFPL), 'PELOSI CAPTURES SF HOUSE SEAT' 1987-06-03 (0EB4EF507671A536): 'With all 543 precincts reporting, Pelosi received 45,770 votes, or 62 percent of the total' - same-contest ratio floor 45,770/0.62 = 73,822; exceeds certified precinct ballots 57,889 so night count included absentees \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EF507671A536"
+   }
+  ]
+ },
+ {
   "id": "1987-04-07",
   "name": "Special Congressional Election",
   "final": 111523,
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
+   {
+    "date": "1987-04-08",
+    "days": 1,
+    "total": 101728,
+    "pct": 91.2,
+    "label": "SF Chronicle via NewsBank (SFPL)",
+    "citation": "Daily Breeze (Torrance) via NewsBank (SFPL) 1987-04-08 (112EE1ADC510F388): 'unofficial results from 521 of 545 precincts, including absentee ballots, showed Pelosi with 36 percent of the ballots, or 36,622 votes' - same-contest ratio floor 36,622/0.36 = 101,728 counted by night \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/112EE1ADC510F388"
+   },
    {
     "date": "1987-04-08",
     "days": 1,

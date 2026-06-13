@@ -21,40 +21,10 @@ const NIGHT_GAPS: Gap[] = [
     tried: "Chronicle text + image archives (day-after and day-2 papers, pages 2–12): the results ran in suburban county editions but no SF table survives there.",
   },
   {
-    id: "1987-04-07",
-    name: "Special congressional election (Sala Burton succession)",
-    want: "Election-night count. We hold a day-1 registrar figure (97.3%) but no night-of number.",
-    tried: "Chronicle archives, both day-after labels.",
-  },
-  {
-    id: "1987-06-02",
-    name: "Special runoff election",
-    want: "Any count observation at all before certification.",
-    tried: "Chronicle text + image archives.",
-  },
-  {
-    id: "1993-11-02",
-    name: "Municipal election",
-    want: "Any pre-certification count. The Chronicle's county-by-county series that week covered every Bay Area county except San Francisco in the text archive.",
-    tried: "Chronicle text + image sweeps of the day-after paper.",
-  },
-  {
-    id: "1995-11-07",
-    name: "Mayoral general (Brown / Jordan / Achtenberg)",
-    want: "The election-night count for one of the city's biggest races. The print results table ran as a graphic NewsBank never digitized as text.",
-    tried: "Chronicle text archive (sibling-county tables survive, SF's doesn't), image sweeps of pages 2–12 of both candidate day-after papers.",
-  },
-  {
     id: "1999-11-02",
     name: "Mayoral general (the Ammiano write-in)",
-    want: "The night-of count state. We hold 'roughly 100,000 ballots uncounted' a full day later — the night itself is undocumented.",
+    want: "The night-of count state. Wire coverage gives a day-1 floor (70.9%) but the night itself — slowed by the write-in hand count — is undocumented.",
     tried: "Chronicle text + image archives.",
-  },
-  {
-    id: "1999-12-14",
-    name: "Mayoral runoff (Brown / Ammiano)",
-    want: "Election-night count. We hold a day-2 floor (94.3%).",
-    tried: "Chronicle archives; day-after paper has prose but no table in the swept pages.",
   },
   {
     id: "2000-11-07",
@@ -73,12 +43,6 @@ const NIGHT_GAPS: Gap[] = [
     name: "Statewide recall (Davis)",
     want: "San Francisco's election-night count. The Chronicle printed only statewide totals; the city's per-county night state is missing.",
     tried: "Chronicle text + image archives, Wayback Machine.",
-  },
-  {
-    id: "2005-11-08",
-    name: "Statewide special election",
-    want: "Election-night count (we hold day-2 70.2%).",
-    tried: "Chronicle archives (day-after coverage ran percentages only).",
   },
   {
     id: "2006-11-07",

@@ -1166,11 +1166,17 @@
   "registered": 280811,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
+  "nReports": 2,
+  "nightPct": 91.2,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.25,
+    91.2,
+    null,
+    null
+   ],
    [
     0.88,
     97.3,
@@ -1217,10 +1223,60 @@
    },
    "95": {
     "days": 1,
+    "bound": false
+   }
+  },
+  "nightSrc": "SF Chronicle via NewsBank (SFPL)",
+  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+ },
+ {
+  "id": "1987-06-02",
+  "name": "Special Runoff Election",
+  "kind": "Special",
+  "year": 1987,
+  "final": 93010,
+  "registered": 363356,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 79.4,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.25,
+    79.4,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
     "bound": true
    }
   },
-  "nightSrc": null,
+  "nightSrc": "SF Chronicle via NewsBank (SFPL)",
   "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {
@@ -2032,6 +2088,60 @@
   "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {
+  "id": "1993-11-02",
+  "name": "Consolidated Municipal Election",
+  "kind": "Municipal",
+  "year": 1993,
+  "final": 158146,
+  "registered": 425034,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 81.5,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.25,
+    81.5,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle via NewsBank (SFPL)",
+  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+ },
+ {
   "id": "1994-06-07",
   "name": "Consolidated Primary Election",
   "kind": "Primary",
@@ -2160,11 +2270,17 @@
   "registered": 417883,
   "source": "archival",
   "provisional": false,
-  "nReports": 2,
-  "nightPct": null,
+  "nReports": 3,
+  "nightPct": 81.6,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.25,
+    81.6,
+    null,
+    null
+   ],
    [
     1.88,
     90.1,
@@ -2180,47 +2296,47 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "85": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 3,
     "bound": false
    }
   },
-  "nightSrc": null,
+  "nightSrc": "SF Chronicle via NewsBank (SFPL)",
   "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {
@@ -2670,7 +2786,7 @@
   "registered": 453151,
   "source": "archival",
   "provisional": false,
-  "nReports": 2,
+  "nReports": 3,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
@@ -2678,6 +2794,12 @@
    [
     0.88,
     50.9,
+    null,
+    null
+   ],
+   [
+    1.67,
+    70.9,
     null,
     null
    ],
@@ -2694,19 +2816,19 @@
     "bound": true
    },
    "55": {
-    "days": 3,
+    "days": 2,
     "bound": false
    },
    "60": {
-    "days": 3,
+    "days": 2,
     "bound": false
    },
    "65": {
-    "days": 3,
+    "days": 2,
     "bound": false
    },
    "70": {
-    "days": 3,
+    "days": 2,
     "bound": false
    },
    "75": {
@@ -2738,11 +2860,17 @@
   "registered": 467295,
   "source": "archival",
   "provisional": false,
-  "nReports": 3,
-  "nightPct": null,
+  "nReports": 4,
+  "nightPct": 88.9,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.25,
+    88.9,
+    null,
+    null
+   ],
    [
     1.5,
     94.3,
@@ -2764,40 +2892,40 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "85": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "90": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 7,
@@ -2808,7 +2936,7 @@
     "bound": true
    }
   },
-  "nightSrc": null,
+  "nightSrc": "SF Chronicle via NewsBank (SFPL)",
   "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {
@@ -3804,11 +3932,17 @@
   "registered": 428481,
   "source": "archival",
   "provisional": false,
-  "nReports": 6,
-  "nightPct": null,
+  "nReports": 7,
+  "nightPct": 66.9,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.25,
+    66.9,
+    null,
+    null
+   ],
    [
     1.5,
     70.2,
@@ -3848,24 +3982,24 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "70": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "75": {
     "days": 3,
@@ -3896,7 +4030,7 @@
     "bound": true
    }
   },
-  "nightSrc": null,
+  "nightSrc": "SF Chronicle via NewsBank (SFPL)",
   "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {
