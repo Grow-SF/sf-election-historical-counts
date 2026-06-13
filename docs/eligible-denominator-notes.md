@@ -49,19 +49,32 @@ Also: rolls **sawtooth** (peak at each general, purged after), and the DOF eligi
 estimate is itself revised between reports (it even dips 2011–2013, and the 1988
 SOV prints an anomalously high 554,796). Read the band, not single-report wiggles.
 
-## Voting-age population over time (rough estimate)
+## Voting-age population over time (rough estimate, 1900–2020)
 
-`data/sf_eligible_vap_estimate.csv` — VAP (all adults), every row flagged by basis:
-firm anchors from the 1970/1980 census and the 1974/76 SOV; 1960–1968 interpolated
-from the decennial census (voting age was 21+ until the 26th Amendment, 1971).
-SF VAP sat ~530–560k through the 1960s–80s. **Gap:** clean 1990–2020 decennial VAP
-anchors still need the Census API/NHGIS (the API was unreachable in the build
-session); the citizen-eligible series (SoS) covers 2000–2026 in the meantime.
+`data/sf_eligible_vap_estimate.csv` — VAP (all adults), one row per decennial
+census plus the 1974/76 SOV, every row flagged `kind`:
+- **`census-actual`** — 18+ read from the census: 1970 (~545k), 1980 (~558k),
+  1990 (607,210). Totals 1900–2020 are sourced (decennial census).
+- **`sov-actual`** — the 1974/1976 Statement of Vote VAP figures (526,930; 535,094).
+- **`estimate`** — VAP = total population × an assumed adult share, used where the
+  actual 18+/21+ count wasn't available keyless: 1900–1960 (×~0.67→0.71, voting age
+  21+ pre-1971) and 2000–2020 (×~0.845→0.865, extrapolated from the 1990 actual).
+  These are **rough**; the assumed fraction is in each row's source note.
+
+Shape: SF VAP rose ~230k (1900) → ~558k (1950, near the population peak) → dipped
+with the 1960s–80s population decline (~526–558k) → climbed to ~753k (2020).
+
+**Why not the Census API:** as of 2026 the API requires a key (data requests 302
+to a "Missing Key" page), and it carries no pre-1990 data regardless — so it
+cannot reach 1899. Exact figures need either a Census API key (post-1990) or the
+NHGIS county age tables / archive.org decennial volumes (1900–1980).
 
 ## What's left
 - Hand-verify the 1978–1998 SOV recoveries against the cited scans.
 - 1992 *general* eligible: the Nov-1992 SOV participation table lacks an eligible
   column (only the June primary has one) — captured the primary instead.
-- 1990–2020 decennial VAP anchors (Census API / NHGIS) to complete the VAP line.
+- Replace the `estimate` VAP rows (1900–60, 2000–20) with exact 18+/21+ counts
+  from a Census API key (post-1990) or NHGIS / archive.org decennial age tables
+  (1900–1980).
 - 1964–1972 citizen-eligible is only reachable as a Census-derived estimate, not
   SoS primary data.
