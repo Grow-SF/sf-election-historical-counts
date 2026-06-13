@@ -352,6 +352,11 @@ def main():
         return "Special"
     for fp in floor.values():
         fp["kind"] = kind_by_id.get(fp["date"]) or kind_for_date(fp["date"])
+    # ship the archive-recovery ledger so the site can document
+    # exactly what has already been searched (linked from /missing)
+    ledger = (ROOT / "docs" / "analysis" / "2026-06-10-archive-recovery-ledger.md").read_text()
+    (OUT.parent / "ledger.json").write_text(json.dumps({"text": ledger}))
+
     fl = sorted(floor.values(), key=lambda x: x["date"])
     F = OUT.parent / "night_floor.json"
     F.write_text(json.dumps(fl, indent=1))

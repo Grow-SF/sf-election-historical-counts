@@ -155,7 +155,11 @@ export default function MissingPage() {
           {CONTACT}
         </a>{" "}
         with the source (a photo, scan, or link), where it came from, and its
-        date. Every accepted submission is verified against certified totals,
+        date. Before you dig: the{" "}
+        <Link href="/methods" className="border-b border-rust/40 text-rust hover:bg-rust/10">
+          full search log
+        </Link>{" "}
+        documents every archive, query, and page range already covered. Every accepted submission is verified against certified totals,
         cited on the{" "}
         <Link href="/sources" className="border-b border-rust/40 text-rust hover:bg-rust/10">
           sources page
