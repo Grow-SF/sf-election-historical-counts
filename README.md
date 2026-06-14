@@ -26,6 +26,35 @@ mail-driven slide — see
 
 ---
 
+## The story, in three charts
+
+**Election night tells you less every cycle.** The share of the vote counted by
+the morning after has collapsed since ~2002 — though the long view shows it
+failed before, too, in the 1910s, for the opposite reason (hand-counting long
+Progressive-era ballots).
+
+![Election-night count as a share of the certified final, San Francisco 1908–2026](docs/img/night-share.png)
+
+**What changed is the mail.** Vote-by-mail grew from a sliver in the 1960s to
+nine in ten today. Those ballots arrive late and need signature checks, so the
+count physically moved off election day.
+
+![Vote-by-mail as a share of all ballots cast, 1964–2026](docs/img/vote-by-mail.png)
+
+**Did that expand the franchise? No — and the real story is a century of
+immigration.** Every San Franciscan as a band of the whole population: women's
+suffrage (1920) doubled the eligible electorate, and the non-citizen band
+(blue) breathes with the city's immigration history — wide in the Gold-Rush era,
+thin at mid-century, widening again after 1965.
+
+![Who could vote, and who did — San Francisco's electorate as bands of the whole population, 1908–2024](docs/img/franchise-funnel.png)
+
+*Static snapshots — explore all of it interactively, filtered and zoomable, in
+the site under [`viz/`](viz/). (Regenerate these images with
+`node scripts/shoot_charts.js` against a running dev server.)*
+
+---
+
 ## Repository map
 
 | Path | What it is |
