@@ -3,6 +3,7 @@ import {
   CartesianGrid,
   ComposedChart,
   Line,
+  ReferenceArea,
   ResponsiveContainer,
   Tooltip,
   XAxis,
@@ -64,6 +65,22 @@ export default function RegistrationChart({ from, to }: { from: number; to: numb
           margin={{ top: 24, right: 20, bottom: 8, left: 0 }}
         >
           <CartesianGrid stroke="var(--color-rule)" strokeDasharray="2 4" />
+          {/* the pre-NVRA "deadwood" era: rolls bloated out of sync with
+              eligible, registration brushing/exceeding 100% until the 1995
+              motor-voter cleanups */}
+          <ReferenceArea
+            x1={1990}
+            x2={2000}
+            fill="var(--color-rust)"
+            fillOpacity={0.09}
+            ifOverflow="hidden"
+            label={{
+              value: "rolls out of sync (deadwood)",
+              position: "insideBottom",
+              fontSize: 9,
+              fill: "var(--color-faint)",
+            }}
+          />
           <XAxis
             type="number"
             dataKey="x"
@@ -77,7 +94,7 @@ export default function RegistrationChart({ from, to }: { from: number; to: numb
           />
           <YAxis
             type="number"
-            domain={[0, 100]}
+            domain={[0, 110]}
             ticks={[0, 25, 50, 75, 100]}
             tickFormatter={(v: number) => `${v}%`}
             tick={{ fontFamily: "var(--font-mono)", fontSize: 11, fill: "var(--color-faint)" }}
