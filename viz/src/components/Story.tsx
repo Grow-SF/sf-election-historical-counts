@@ -252,10 +252,18 @@ export default function Story() {
             <p>
               One wrinkle, shaded on the registration chart: in the 1990s the
               line climbs <em>past</em> 100% — more names on the rolls than
-              eligible adults in the city. That’s the “deadwood” era, when
-              registrations of people who had died, moved, or re-registered
-              elsewhere piled up uncleaned. In 1996 the Secretary of State
-              named San Francisco the state’s worst case, with up to a fifth of
+              eligible adults in the city. That’s the{" "}
+              <a
+                href="https://www.electproject.org/election-data/faq/reg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-b border-rust/50 text-rust hover:bg-rust/10"
+              >
+                “deadwood”
+              </a>{" "}
+              era, when registrations of people who had died, moved, or
+              re-registered elsewhere piled up uncleaned. In 1996 the Secretary
+              of State named San Francisco the state’s worst case, with up to a fifth of
               its rolls dead weight; the 1995 federal “motor-voter” law forced
               the list maintenance that brought it back to earth. A reminder
               that even the registration count — the firmest number here — has

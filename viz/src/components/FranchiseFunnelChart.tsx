@@ -3,6 +3,7 @@ import {
   Area,
   AreaChart,
   CartesianGrid,
+  ReferenceArea,
   ResponsiveContainer,
   Tooltip,
   XAxis,
@@ -13,12 +14,14 @@ import { ChartFrame, eventLines } from "@/components/ui";
 
 // Mutually-exclusive bands that sum to total population, bottom (voted) to top
 // (children). The thickness of each band over time is the story.
+// GrowSF-aligned palette; the non-citizen band stays blue because the prose
+// names it "the blue band of non-citizens".
 const BANDS = [
-  { key: "voted", label: "voted", color: "#5E2B24" },
-  { key: "regNotVoted", label: "registered, didn't vote", color: "#A4492C" },
-  { key: "notRegistered", label: "eligible, not registered", color: "#B98F33" },
-  { key: "nonCitizen", label: "non-citizen adults (immigrants)", color: "#3E5C76" },
-  { key: "children", label: "under voting age", color: "#CABB9B" },
+  { key: "voted", label: "voted", color: "#01384F" },
+  { key: "regNotVoted", label: "registered, didn't vote", color: "#007784" },
+  { key: "notRegistered", label: "eligible, not registered", color: "#64D09C" },
+  { key: "nonCitizen", label: "non-citizen adults (immigrants)", color: "#0A82B2" },
+  { key: "children", label: "under voting age", color: "#BCE3B6" },
 ] as const;
 
 type Row = {
@@ -78,7 +81,7 @@ export default function FranchiseFunnelChart({ from, to }: { from: number; to: n
     <ChartFrame
       title="Who could vote — and who did"
       subtitle="San Francisco by presidential election, 1908–2024"
-      note="Bands are shares of total population and sum to it; the blue band is non-citizen adults. Sources: IPUMS NHGIS census (population, voting-age, citizenship); SoS and Dept. of Elections."
+      note="Bands are shares of total population and sum to it; the blue band is non-citizen adults. The shaded 1990s “deadwood” box marks the years when bloated registration rolls pushed registration up to (or past) the eligible estimate — so the “eligible, not registered” band nearly disappears — until the 1995 motor-voter law forced the cleanup. Sources: IPUMS NHGIS census (population, voting-age, citizenship); SoS and Dept. of Elections."
     >
       <ResponsiveContainer width="100%" height={440}>
         <AreaChart data={data} margin={{ top: 24, right: 20, bottom: 8, left: 8 }}>
@@ -114,6 +117,27 @@ export default function FranchiseFunnelChart({ from, to }: { from: number; to: n
               isAnimationActive={false}
             />
           ))}
+          {from <= 2000 && to >= 1990 && (
+            // the 1990s "deadwood" era: bloated rolls push registration up to /
+            // past the eligible estimate, collapsing the "eligible, not
+            // registered" band until the 1995 motor-voter cleanup.
+            <ReferenceArea
+              x1={1990}
+              x2={2000}
+              ifOverflow="hidden"
+              fill="var(--color-ink)"
+              fillOpacity={0.07}
+              stroke="var(--color-ink)"
+              strokeOpacity={0.35}
+              strokeDasharray="3 3"
+              label={{
+                value: "deadwood rolls",
+                position: "insideTop",
+                fontSize: 9,
+                fill: "var(--color-ink)",
+              }}
+            />
+          )}
         </AreaChart>
       </ResponsiveContainer>
       <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1">

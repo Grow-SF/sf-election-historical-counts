@@ -11,41 +11,64 @@ import {
 import { TURNOUT_HISTORY, KIND_COLOR, KINDS, fmt, yearTicks } from "@/lib/data";
 import { ChartFrame, eventLines } from "@/components/ui";
 
-// one row per election; each kind gets its own y-key so it draws as a
-// separate connected line (turnout swings by what's on the ballot, so a
-// single line across all types would be noise, not signal).
-type Row = {
+type TPoint = {
   x: number;
   date: string;
   kind: string;
-  turnoutPct: number;
+  turnoutPct: number | null;
   ballots: number;
   registered: number;
-  [k: string]: number | string;
 };
 
-const DATA: Row[] = TURNOUT_HISTORY.map((p) => {
-  const d = new Date(p.date + "T00:00:00");
-  return {
-    x: d.getFullYear() + d.getMonth() / 12,
-    date: p.date,
-    kind: p.kind,
-    turnoutPct: p.turnoutPct,
-    ballots: p.ballots,
-    registered: p.registered,
-    [p.kind]: p.turnoutPct,
-  };
-});
+// Consecutive elections of the same type more than this many years apart get a
+// null breakpoint between them, so the line doesn't bridge decades-long gaps
+// (e.g. the one special in 1903 to the next in 1977). The regular cadence of
+// generals/primaries/municipals is ≤4 years, so it stays connected.
+const MAX_GAP_YEARS = 8;
+
+// One gap-aware series per election type, each with its own x-values.
+const SERIES: Record<string, TPoint[]> = {};
+for (const k of KINDS) {
+  const pts: TPoint[] = TURNOUT_HISTORY.filter((p) => p.kind === k)
+    .map((p) => {
+      const d = new Date(p.date + "T00:00:00");
+      return {
+        x: d.getFullYear() + d.getMonth() / 12,
+        date: p.date,
+        kind: p.kind,
+        turnoutPct: p.turnoutPct as number | null,
+        ballots: p.ballots,
+        registered: p.registered,
+      };
+    })
+    .sort((a, b) => a.x - b.x);
+  const out: TPoint[] = [];
+  pts.forEach((p, i) => {
+    if (i > 0 && p.x - pts[i - 1].x > MAX_GAP_YEARS) {
+      out.push({
+        x: (p.x + pts[i - 1].x) / 2,
+        date: "",
+        kind: k,
+        turnoutPct: null,
+        ballots: 0,
+        registered: 0,
+      });
+    }
+    out.push(p);
+  });
+  SERIES[k] = out;
+}
 
 function TurnoutTooltip({
   active,
   payload,
 }: {
   active?: boolean;
-  payload?: { payload: Row }[];
+  payload?: { payload: TPoint }[];
 }) {
   if (!active || !payload?.length) return null;
   const p = payload[0].payload;
+  if (p.turnoutPct == null || !p.date) return null;
   return (
     <div className="border border-ink bg-paper px-3 py-2 text-sm shadow">
       <div className="font-semibold">{p.date}</div>
@@ -63,21 +86,22 @@ function TurnoutTooltip({
 // gold milestones, matching the mail chart: permanent VBM list (2002),
 // every-voter mailing (Nov 2020, AB 860), made permanent (2022, AB 37).
 export default function TurnoutChart({ from, to }: { from: number; to: number }) {
-  const data = DATA.filter((r) => r.x >= from && r.x <= to + 1);
-  const xs = data.map((r) => r.x);
+  const inRange = (p: TPoint) => p.x >= from && p.x <= to + 1;
+  const visible: Record<string, TPoint[]> = {};
+  for (const k of KINDS) visible[k] = SERIES[k].filter(inRange);
+  const xs = KINDS.flatMap((k) =>
+    visible[k].filter((p) => p.turnoutPct != null).map((p) => p.x),
+  );
   const lo = xs.length ? Math.floor(Math.min(...xs)) : from;
   const hi = xs.length ? Math.ceil(Math.max(...xs)) : to;
   return (
     <ChartFrame
       title="Turnout of registered voters"
       subtitle="Ballots cast ÷ registered, by election type, 1899–2026"
-      note="Color = election type; presidential generals top the range, off-year municipals the bottom. Sources: DOE turnout table; certified per-release finals."
+      note="Color = election type; presidential generals top the range, off-year municipals the bottom. Lines break across multi-decade gaps between elections of a type. Sources: DOE turnout table; certified per-release finals."
     >
       <ResponsiveContainer width="100%" height={400}>
-        <ComposedChart
-          data={data}
-          margin={{ top: 24, right: 20, bottom: 8, left: 0 }}
-        >
+        <ComposedChart margin={{ top: 24, right: 20, bottom: 8, left: 0 }}>
           <CartesianGrid stroke="var(--color-rule)" strokeDasharray="2 4" />
           <XAxis
             type="number"
@@ -105,10 +129,11 @@ export default function TurnoutChart({ from, to }: { from: number; to: number })
           {KINDS.map((k) => (
             <Line
               key={k}
-              dataKey={k}
+              data={visible[k]}
+              dataKey="turnoutPct"
               stroke={KIND_COLOR[k]}
               strokeWidth={1.75}
-              connectNulls
+              connectNulls={false}
               dot={{ r: 2, fill: KIND_COLOR[k], strokeWidth: 0 }}
               isAnimationActive={false}
             />
