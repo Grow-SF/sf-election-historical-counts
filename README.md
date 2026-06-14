@@ -14,7 +14,8 @@ the Department of Elections' own results releases plus a deep recovery of
 historical counts from newspaper and web archives — and tells the story in an
 interactive site.
 
-Live data spans **1908–2026**: 97 elections with an election-night count
+Live data spans **1899–2026** (turnout and registration back to 1899;
+election-night counts back to 1908): 97 elections with an election-night count
 (including 22 pre-1964 counts recovered from the hand-count era, back to 1908),
 191 recovered historical canvass observations, and 241 modern per-release reports,
 every number traceable to a cited source. The long view reveals four eras, not
