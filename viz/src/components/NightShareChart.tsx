@@ -25,18 +25,37 @@ function TrendOverlay({ segs }: { segs: { seg: Seg; color: string }[] }) {
   if (!xScale || !yScale) return null;
   return (
     <g pointerEvents="none">
-      {segs.map(({ seg, color }, i) => (
-        <line
-          key={i}
-          x1={xScale(seg[0].x)}
-          y1={yScale(seg[0].y)}
-          x2={xScale(seg[1].x)}
-          y2={yScale(seg[1].y)}
-          stroke={color}
-          strokeWidth={1.5}
-          strokeDasharray="6 4"
-        />
-      ))}
+      {segs.map(({ seg, color }, i) => {
+        const x1 = xScale(seg[0].x) as number;
+        const y1 = yScale(seg[0].y) as number;
+        const x2 = xScale(seg[1].x) as number;
+        const y2 = yScale(seg[1].y) as number;
+        return (
+          <g key={i}>
+            {/* light casing so the dashes read over dense/dark dot clusters */}
+            <line
+              x1={x1}
+              y1={y1}
+              x2={x2}
+              y2={y2}
+              stroke="var(--color-paper)"
+              strokeWidth={5}
+              strokeOpacity={0.9}
+              strokeLinecap="round"
+            />
+            <line
+              x1={x1}
+              y1={y1}
+              x2={x2}
+              y2={y2}
+              stroke={color}
+              strokeWidth={2}
+              strokeDasharray="6 4"
+              strokeLinecap="round"
+            />
+          </g>
+        );
+      })}
     </g>
   );
 }
