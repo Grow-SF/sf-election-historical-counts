@@ -158,25 +158,11 @@ export default function NightShareChart({
         subtitle="Election-night count ÷ certified final, by election, 1908–2026"
         note={
           <>
-            A solid dot never sits below its diamond — in-person ballots are
-            counted on election night, and the dotted stem between them is
-            early-arriving mail, counted that night too. (Dim dashed dots are
-            press-deadline snapshots and can sit below the floor.) The 2020 line
-            marks every voter being mailed a ballot. Ringed points are races the
-            night’s leader went on to lose (hover them). Dim dashed dots are
-            mid-count partials, excluded from the trend. The trend is fit in three
-            segments because this was never one process. Before ~1927 (the marked
-            line) the count is erratic: California’s Progressive-era ballot had
-            ballooned past 40 statewide measures by 1914, and the Chronicle
-            blamed the long ballot outright (in 1918 the first precinct didn’t
-            reach the Registrar until after midnight). It steadied by the late
-            1920s — but, notably, <em>not</em> by mechanizing: San Francisco
-            hand-counted paper until punch cards arrived in the 1960s, and the
-            number of ballots per precinct didn’t fall (precincts grew only with
-            the electorate). What exactly fixed it isn’t settled; what we can
-            rule out is voting machines. The 2002 break is the opposite story:
-            the permanent vote-by-mail list moving the vote off election day.
-            Elections with only day-after records appear in the charts below.
+            Each dot is an election’s night count as a share of its certified
+            final. The open diamond is the in-person floor; the dotted stem up
+            to the dot is early mail counted that night. Dim dashed dots are
+            mid-count press snapshots — lower bounds, excluded from the trend —
+            and rings mark races the election-night leader lost.
           </>
         }
       >
