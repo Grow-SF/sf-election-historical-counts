@@ -16,7 +16,7 @@ interactive site.
 
 Live data spans **1908–2026**: 97 elections with an election-night count
 (including 22 pre-1964 counts recovered from the hand-count era, back to 1908),
-~169 recovered mid-canvass observations, and 241 modern per-release reports,
+191 recovered historical canvass observations, and 241 modern per-release reports,
 every number traceable to a cited source. The long view reveals four eras, not
 one — fast (1908–12), slow (1914–26, when hand-counting long Progressive-era
 ballots was the bottleneck), fast again (1928–1990s), and the modern
@@ -84,7 +84,7 @@ list + how to contribute), `/methods` (the public search log).
 
 ## Archive recovery (the historical data)
 
-Most of the 1960–2014 record was recovered by hand-and-agent from newspaper
+Most of the 1908–2014 record was recovered by hand-and-agent from newspaper
 and web archives. If you want to extend it, **start with
 [`docs/archive-recovery-runbook.md`](docs/archive-recovery-runbook.md)** — the
 full method: which archive holds which era, the browser-automation and

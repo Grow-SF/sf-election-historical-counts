@@ -70,7 +70,7 @@ export default function TurnoutChart({ from, to }: { from: number; to: number })
   return (
     <ChartFrame
       title="Turnout of registered voters"
-      subtitle="Ballots cast ÷ registered, by election type, 1899–2026"
+      subtitle="Ballots cast ÷ registered, by election type, 1908–2026"
       note="Color = election type; presidential generals top the range, off-year municipals the bottom. Sources: DOE turnout table; certified per-release finals."
     >
       <ResponsiveContainer width="100%" height={400}>
