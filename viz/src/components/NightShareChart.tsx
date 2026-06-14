@@ -3,15 +3,43 @@ import { useEffect, useMemo } from "react";
 import {
   CartesianGrid,
   ComposedChart,
-  Line,
   ReferenceLine,
   ResponsiveContainer,
   Scatter,
+  useXAxisScale,
+  useYAxisScale,
   XAxis,
   YAxis,
 } from "recharts";
 import { Election, Fit, KIND_COLOR, linearFit, NIGHT_FLOOR, yearFrac } from "@/lib/data";
 import { ChartFrame, PointTooltip, eventLines, useGraceHover } from "@/components/ui";
+
+type Seg = { x: number; y: number }[];
+
+// recharts renders the Scatter (dots) layer above <Line>s regardless of JSX
+// order, so the trend lines get buried. Drawing them as raw SVG in a child that
+// reads the axis scales puts them back on top (same pattern as AxisBreak).
+function TrendOverlay({ segs }: { segs: { seg: Seg; color: string }[] }) {
+  const xScale = useXAxisScale();
+  const yScale = useYAxisScale();
+  if (!xScale || !yScale) return null;
+  return (
+    <g pointerEvents="none">
+      {segs.map(({ seg, color }, i) => (
+        <line
+          key={i}
+          x1={xScale(seg[0].x)}
+          y1={yScale(seg[0].y)}
+          x2={xScale(seg[1].x)}
+          y2={yScale(seg[1].y)}
+          stroke={color}
+          strokeWidth={1.5}
+          strokeDasharray="6 4"
+        />
+      ))}
+    </g>
+  );
+}
 
 type Pt = {
   x: number;
@@ -313,40 +341,7 @@ export default function NightShareChart({
                 );
               }}
             />
-            {trendE && (
-                <Line
-                  data={trendE}
-                  dataKey="y"
-                  stroke="var(--color-faint)"
-                  strokeWidth={1.5}
-                  strokeDasharray="6 4"
-                  dot={false}
-                  isAnimationActive={false}
-                />
-              )}
-              {trendM && (
-                <Line
-                  data={trendM}
-                  dataKey="y"
-                  stroke="var(--color-ink)"
-                  strokeWidth={1.5}
-                  strokeDasharray="6 4"
-                  dot={false}
-                  isAnimationActive={false}
-                />
-              )}
-              {trendR && (
-                <Line
-                  data={trendR}
-                  dataKey="y"
-                  stroke="var(--color-ink)"
-                  strokeWidth={1.5}
-                  strokeDasharray="6 4"
-                  dot={false}
-                  isAnimationActive={false}
-                />
-              )}
-              <Scatter
+            <Scatter
                 data={pts}
                 isAnimationActive={false}
                 shape={(props: unknown) => {
@@ -376,6 +371,14 @@ export default function NightShareChart({
                     </g>
                   );
                 }}
+              />
+              {/* trend lines drawn last, as raw SVG, so they sit above the dots */}
+              <TrendOverlay
+                segs={[
+                  ...(trendE ? [{ seg: trendE, color: "var(--color-faint)" }] : []),
+                  ...(trendM ? [{ seg: trendM, color: "var(--color-ink)" }] : []),
+                  ...(trendR ? [{ seg: trendR, color: "var(--color-ink)" }] : []),
+                ]}
               />
             </ComposedChart>
           </ResponsiveContainer>
