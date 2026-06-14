@@ -161,12 +161,12 @@ export default function NightShareChart({
             A solid dot never sits below its diamond — in-person ballots are
             counted on election night, and the dotted stem between them is
             early-arriving mail, counted that night too. (Dim dashed dots are
-            press-deadline snapshots and can sit below the floor.) Gold line: November
-            2020, every voter mailed a ballot. Gold rings: the night’s leader
-            went on to lose (hover them). Dim dashed dots are mid-count
-            partials, excluded from the trend. The trend is fit in three
-            segments because this was never one process. Before the green line
-            (~1927) the count is erratic: California’s Progressive-era ballot had
+            press-deadline snapshots and can sit below the floor.) The 2020 line
+            marks every voter being mailed a ballot. Ringed points are races the
+            night’s leader went on to lose (hover them). Dim dashed dots are
+            mid-count partials, excluded from the trend. The trend is fit in three
+            segments because this was never one process. Before ~1927 (the marked
+            line) the count is erratic: California’s Progressive-era ballot had
             ballooned past 40 statewide measures by 1914, and the Chronicle
             blamed the long ballot outright (in 1918 the first precinct didn’t
             reach the Registrar until after midnight). It steadied by the late

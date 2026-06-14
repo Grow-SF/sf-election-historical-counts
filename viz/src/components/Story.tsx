@@ -159,7 +159,7 @@ export default function Story() {
               are still in the mail. The ringed points are races the{" "}
               <em>election-night leader lost</em> — the 2018 mayor’s race and a
               2020 supervisor seat, decided by ballots counted days later.
-              Recalls (purple) and special elections (gold) sit above the trend:
+              Recalls and special elections sit above the trend:
               their electorates vote early by mail, so the night count catches
               more of them. Filter to primaries and generals and both slides —
               the 1910s and today’s — show their sharpest.{" "}
@@ -233,7 +233,7 @@ export default function Story() {
               voters already on the rolls, the answer is mostly no. Turnout
               swings with what’s on the ballot — presidential generals draw
               80%, off-year municipals barely 40% — and the all-mail era to
-              the right of the gold lines lands inside that same band. The 2020
+              the right of the milestone lines lands inside that same band. The 2020
               record was the nationwide presidential peak, not a vote-by-mail
               effect; the 2024 general fell back below 2016, and the 2024
               presidential primary was the lowest in the modern record.
