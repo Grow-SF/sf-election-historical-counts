@@ -224,7 +224,7 @@ commit `data/` + `viz/src/data/`.
 
 ## Status & what's left
 
-The night-of record now spans 1960–2026. Remaining gaps are documented on the
+The night-of record now spans 1908–2026. Remaining gaps are documented on the
 site's `/missing` page and fall into three exhausted-for-digital groups:
 pre-1985 local races (no wire coverage; image archive swept), 1986–2010
 day-2-floor-only elections (no separately archived night table), and modern

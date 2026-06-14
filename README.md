@@ -128,7 +128,7 @@ statements) are mirrored and linked freely.
 
 ## How to cite
 
-> Steven Bacio, Director, GrowSF. *The Long Count: Sixty-plus years of San
+> Steven Bacio, Director, GrowSF. *The Long Count: A century-plus of San
 > Francisco election counting.* 2026.
 > <https://github.com/Grow-SF/sf-election-historical-counts>
 
