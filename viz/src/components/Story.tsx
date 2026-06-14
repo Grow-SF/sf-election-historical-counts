@@ -6,6 +6,9 @@ import FilterBar from "@/components/FilterBar";
 import NightShareChart from "@/components/NightShareChart";
 import TrajectoryExplorer from "@/components/TrajectoryExplorer";
 import VbmChart from "@/components/VbmChart";
+import TurnoutChart from "@/components/TurnoutChart";
+import RegistrationChart from "@/components/RegistrationChart";
+import FranchiseFunnelChart from "@/components/FranchiseFunnelChart";
 import { Section } from "@/components/ui";
 
 function Hero() {
@@ -190,12 +193,85 @@ export default function Story() {
           </p>
         }
       >
-        <VbmChart />
+        <VbmChart from={state.from} to={state.to} />
+      </Section>
+
+      <Section
+        id="franchise"
+        kicker="part three"
+        title="It changed when we count — not who votes"
+        intro={
+          <>
+            <p>
+              Start with the whole city. Every San Franciscan falls into one
+              band below: too young to vote, a non-citizen who legally can’t,
+              an eligible citizen who never registered, registered but a
+              no-show — or an actual voter. Watch the blue band of non-citizens
+              breathe with the city’s immigration history, and the eligible
+              electorate jump when women won the vote in 1920. The franchise
+              has never been the whole population, and the gap is mostly about
+              who counts as eligible, not who bothers to vote.
+            </p>
+            <p>
+              That blue band is a century of immigration. San Francisco began
+              as a Gold-Rush boomtown where a third of adults were foreign-born
+              and few could vote — in 1900 only about 100,000 people, all of
+              them men, were eligible citizens. Women’s suffrage doubled the
+              eligible electorate in 1920; the immigration lull from the 1920s
+              through the 1950s shrank the non-citizen share to roughly one
+              adult in twenty; then the waves from Latin America and Asia after
+              1965 widened it again, to about one in eight today. (These counts
+              come from the decennial census, via IPUMS NHGIS, back to 1900 —
+              and they capture who was legally barred, including the men-only
+              electorate before 1920 and the Asian immigrants denied
+              naturalization until the 1940s.)
+            </p>
+            <p>
+              Mailing every voter a ballot is the most sweeping change to how
+              San Franciscans vote in sixty years. So it’s worth asking the
+              obvious question: did it bring more people to the polls? Among
+              voters already on the rolls, the answer is mostly no. Turnout
+              swings with what’s on the ballot — presidential generals draw
+              80%, off-year municipals barely 40% — and the all-mail era to
+              the right of the gold lines lands inside that same band. The 2020
+              record was the nationwide presidential peak, not a vote-by-mail
+              effect; the 2024 general fell back below 2016, and the 2024
+              presidential primary was the lowest in the modern record.
+            </p>
+            <p>
+              That’s the narrow question, though. <em>Turnout of the
+              registered</em> measures convenience for people who were already
+              going to vote — and mail voting is, above all, convenient. The
+              franchise question proper is whether mail voting pulled more
+              eligible San Franciscans onto the rolls at all — and the
+              Secretary of State’s registration-vs-eligible figures say no: the
+              share of eligible San Franciscans who are registered has held
+              around three-quarters for two decades, before and after the
+              all-mail switch.
+            </p>
+            <p>
+              One wrinkle, shaded on the registration chart: in the 1990s the
+              line climbs <em>past</em> 100% — more names on the rolls than
+              eligible adults in the city. That’s the “deadwood” era, when
+              registrations of people who had died, moved, or re-registered
+              elsewhere piled up uncleaned. In 1996 the Secretary of State
+              named San Francisco the state’s worst case, with up to a fifth of
+              its rolls dead weight; the 1995 federal “motor-voter” law forced
+              the list maintenance that brought it back to earth. A reminder
+              that even the registration count — the firmest number here — has
+              had its own quiet drift.
+            </p>
+          </>
+        }
+      >
+        <FranchiseFunnelChart from={state.from} to={state.to} />
+        <TurnoutChart from={state.from} to={state.to} />
+        <RegistrationChart from={state.from} to={state.to} />
       </Section>
 
       <Section
         id="explore"
-        kicker="part three"
+        kicker="part four"
         title="The back end never changed"
         intro={
           <p>

@@ -3,36 +3,30 @@ import {
   CartesianGrid,
   ComposedChart,
   Line,
+  ReferenceArea,
   ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,
 } from "recharts";
-import { VBM_HISTORY, yearTicks } from "@/lib/data";
+import { REGISTRATION_ELIGIBLE, fmt, yearTicks } from "@/lib/data";
 import { ChartFrame, eventLines } from "@/components/ui";
 
-const RAW = VBM_HISTORY.map((p) => {
+const DATA = REGISTRATION_ELIGIBLE.map((p) => {
   const d = new Date(p.date + "T00:00:00");
   return {
     x: d.getFullYear() + d.getMonth() / 12,
-    y: p.share as number | null,
+    y: p.pct,
     date: p.date,
-    source: p.source,
+    eligible: p.eligible,
+    registered: p.registered,
+    context: p.context,
   };
-});
-
-// break the line where sources leave a multi-year gap (2002-2008)
-const DATA: typeof RAW = [];
-RAW.forEach((p, i) => {
-  if (i > 0 && p.x - RAW[i - 1].x > 4) {
-    DATA.push({ x: (p.x + RAW[i - 1].x) / 2, y: null, date: "", source: "gap" });
-  }
-  DATA.push(p);
 });
 
 type Pt = (typeof DATA)[number];
 
-function VbmTooltip({
+function RegTooltip({
   active,
   payload,
 }: {
@@ -41,32 +35,52 @@ function VbmTooltip({
 }) {
   if (!active || !payload?.length) return null;
   const p = payload[0].payload;
-  if (!p.date) return null;
   return (
     <div className="border border-ink bg-paper px-3 py-2 text-sm shadow">
       <div className="font-semibold">{p.date}</div>
-      <div className="stat-figure">{p.y}% of ballots cast by mail</div>
+      <div className="smallcaps text-faint">{p.context}</div>
+      <div className="stat-figure mt-1">{p.y}% of eligible registered</div>
+      <div className="stat-figure text-faint">
+        {fmt(p.registered)} of {fmt(p.eligible)} eligible
+      </div>
     </div>
   );
 }
 
-export default function VbmChart({ from, to }: { from: number; to: number }) {
+// gold milestones, matching the mail and turnout charts.
+export default function RegistrationChart({ from, to }: { from: number; to: number }) {
   const data = DATA.filter((p) => p.x >= from && p.x <= to + 1);
   const xs = data.map((p) => p.x);
   const lo = xs.length ? Math.floor(Math.min(...xs)) : from;
   const hi = xs.length ? Math.ceil(Math.max(...xs)) : to;
   return (
     <ChartFrame
-      title="Vote-by-mail share of ballots cast"
-      subtitle="San Francisco, 1964–2026"
-      note="Mail ballots as a share of all ballots cast. Sources: DOE turnout history, certified Statements of Vote, per-release results."
+      title="Registration among eligible citizens"
+      subtitle="Registered ÷ citizen voting-age population, 1978–2026"
+      note="Registered voters as a share of eligible citizens. The 1990s spike past 100% is pre-“motor-voter” deadwood, since cleaned up. Sources: CA SoS Reports of Registration and Statement of Vote (1974–98 pending hand-verification)."
     >
-      <ResponsiveContainer width="100%" height={380}>
+      <ResponsiveContainer width="100%" height={360}>
         <ComposedChart
           data={data}
           margin={{ top: 24, right: 20, bottom: 8, left: 0 }}
         >
           <CartesianGrid stroke="var(--color-rule)" strokeDasharray="2 4" />
+          {/* the pre-NVRA "deadwood" era: rolls bloated out of sync with
+              eligible, registration brushing/exceeding 100% until the 1995
+              motor-voter cleanups */}
+          <ReferenceArea
+            x1={1990}
+            x2={2000}
+            fill="var(--color-rust)"
+            fillOpacity={0.09}
+            ifOverflow="hidden"
+            label={{
+              value: "rolls out of sync (deadwood)",
+              position: "insideBottom",
+              fontSize: 9,
+              fill: "var(--color-faint)",
+            }}
+          />
           <XAxis
             type="number"
             dataKey="x"
@@ -76,10 +90,11 @@ export default function VbmChart({ from, to }: { from: number; to: number }) {
             tick={{ fontFamily: "var(--font-mono)", fontSize: 11, fill: "var(--color-faint)" }}
             stroke="var(--color-faint)"
             tickLine={false}
+            allowDataOverflow
           />
           <YAxis
             type="number"
-            domain={[0, 100]}
+            domain={[0, 110]}
             ticks={[0, 25, 50, 75, 100]}
             tickFormatter={(v: number) => `${v}%`}
             tick={{ fontFamily: "var(--font-mono)", fontSize: 11, fill: "var(--color-faint)" }}
@@ -87,14 +102,14 @@ export default function VbmChart({ from, to }: { from: number; to: number }) {
             tickLine={false}
             width={48}
           />
-          <Tooltip content={<VbmTooltip />} isAnimationActive={false} />
+          <Tooltip content={<RegTooltip />} isAnimationActive={false} />
           {eventLines(lo, hi)}
           <Line
             dataKey="y"
-            stroke="var(--color-rust)"
+            stroke="#3E5C76"
             strokeWidth={2}
-            connectNulls={false}
-            dot={{ r: 2.5, fill: "var(--color-rust)", strokeWidth: 0 }}
+            connectNulls
+            dot={{ r: 2.5, fill: "#3E5C76", strokeWidth: 0 }}
             isAnimationActive={false}
           />
         </ComposedChart>

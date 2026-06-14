@@ -1,0 +1,11 @@
+report_date,election_context,eligible,registered,pct_registered_of_eligible,votes_cast,confidence,source_archive_id,source_leaf,source_url
+1978-11-07,Nov 1978 general,470773,380749,80.9,238667,high,statementofvote197879cali,246,https://archive.org/details/statementofvote197879cali
+1982-06-08,Jun 1982 primary,485951,344483,70.9,176464,high,statementofvote81982cali,10,https://archive.org/details/statementofvote81982cali
+1986-11-04,Nov 1986 general,496427,385847,77.7,236863,high,statementofvote41986cali,11,https://archive.org/details/statementofvote41986cali
+1990-11-06,Nov 1990 general,484956,409334,84.4,236413,high,statementofvote61990cali,12,https://archive.org/details/statementofvote61990cali
+1994-11-08,Nov 1994 general,467029,450649,96.5,249669,low,statementofvote81994cali,15,https://archive.org/details/statementofvote81994cali
+1980-11-04,Nov 1980 general,492546,407982,82.8,268070,high,statementofvote41980cali,12,https://archive.org/details/statementofvote41980cali
+1984-11-06,Nov 1984 general,484645,424091,87.5,298517,high,statementofvote61984cali,13,https://archive.org/details/statementofvote61984cali
+1988-11-08,Nov 1988 general,554796,435545,78.5,292145,medium,statementofvote81988cali,14,https://archive.org/details/statementofvote81988cali
+1992-06-02,Jun 1992 primary,478079,432867,90.5,182577,medium,statementofvote21992cali,12,https://archive.org/details/statementofvote21992cali
+1996-10-25,Oct 1996 (SoS Bill Jones via Contra Costa Times),479127,482541,100.7,,low,newsbank-1063FBAA6480CFD4,,https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1063FBAA6480CFD4

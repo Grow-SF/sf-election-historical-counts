@@ -1,0 +1,82 @@
+{
+  "datasets": {
+    "1900_cPHAM": {
+      "dataTables": [
+        "NT9",
+        "NT11"
+      ],
+      "geogLevels": [
+        "county"
+      ]
+    },
+    "1910_cPHA": {
+      "dataTables": [
+        "NT12",
+        "NT17"
+      ],
+      "geogLevels": [
+        "county"
+      ]
+    },
+    "1920_cPHAM": {
+      "dataTables": [
+        "NT12"
+      ],
+      "geogLevels": [
+        "county"
+      ]
+    },
+    "1930_cAge30": {
+      "dataTables": [
+        "NT4"
+      ],
+      "geogLevels": [
+        "county"
+      ]
+    },
+    "1940_cAge": {
+      "dataTables": [
+        "NT4"
+      ],
+      "geogLevels": [
+        "county"
+      ]
+    },
+    "1950_cAge": {
+      "dataTables": [
+        "NT2",
+        "NT3"
+      ],
+      "geogLevels": [
+        "county"
+      ]
+    },
+    "1960_cAge1": {
+      "dataTables": [
+        "NT2"
+      ],
+      "geogLevels": [
+        "county"
+      ]
+    },
+    "1970_Cnt1": {
+      "dataTables": [
+        "NT48",
+        "NT49"
+      ],
+      "geogLevels": [
+        "county"
+      ]
+    }
+  },
+  "timeSeriesTables": {
+    "B57": {
+      "geogLevels": [
+        "county"
+      ]
+    }
+  },
+  "dataFormat": "csv_header",
+  "description": "SF County voting-age + citizenship 1900-2020 (sf-election-count franchise denominator)",
+  "timeSeriesTableLayout": "time_by_column_layout"
+}

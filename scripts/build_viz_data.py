@@ -372,6 +372,130 @@ def main():
     F.write_text(json.dumps(fl, indent=1))
     print(f"{len(fl)} night-floor points -> {F}")
 
+    # ---- turnout-of-registered series, 1899-2026 ("did the franchise expand?")
+    # Ballots cast as a share of registered voters, one point per election.
+    # Backbone is the DOE 1899-2019 historical turnout table; modern elections
+    # (and any overlap) are overwritten with the certified per-release finals
+    # and their registration, the more authoritative figure. This is turnout
+    # of the *registered* electorate - not of the eligible population, which
+    # needs a Census denominator the repo does not yet carry.
+    turnout = {}
+    with open(ROOT / "data" / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
+        for r in csv.DictReader(f):
+            reg = r["registration"]
+            if not reg or reg in ("n/a", ""):
+                continue  # 1910-11-01 has no registration figure
+            date = DOE_TABLE_DATE_FIXES.get(r["election_date"], r["election_date"])
+            reg_i, bal = int(reg), int(r["ballots_cast"])
+            turnout[date] = {"date": date, "turnoutPct": round(100 * bal / reg_i, 1),
+                             "registered": reg_i, "ballots": bal,
+                             "source": "doe-turnout-table"}
+    # certified finals (exact 2012+, archival 2002-2014) override the table
+    for e in out:
+        if e["registered"]:
+            turnout[e["id"]] = {"date": e["id"],
+                                "turnoutPct": round(100 * e["final"] / e["registered"], 1),
+                                "registered": e["registered"], "ballots": e["final"],
+                                "source": e["source"]}
+    for tp in turnout.values():
+        tp["kind"] = kind_by_id.get(tp["date"]) or kind_for_date(tp["date"])
+    tn = sorted(turnout.values(), key=lambda x: x["date"])
+    T = OUT.parent / "turnout_history.json"
+    T.write_text(json.dumps(tn, indent=1))
+    print(f"{len(tn)} turnout points -> {T}")
+
+    # ---- registration vs eligible, 2001-2026 (the other half of "franchise")
+    # SF county rows from the CA SoS Reports of Registration: registered voters
+    # against the SoS's eligible-population estimate. See fetch_sos_registration.py.
+    # CAVEAT: the eligible denominator is a DOF/Census estimate the state revises
+    # between reports (it even dips 2011->2013, which a real population can't do),
+    # so the *percent* has a soft discontinuity around 2011-2013 - read the trend,
+    # not single-report jumps. Registered counts also sawtooth: rolls peak at each
+    # general, then post-general list maintenance purges inactive voters.
+    regelig = []
+    reg_path = ROOT / "data" / "sf_registration_eligible.csv"
+    if reg_path.exists():
+        with open(reg_path, newline="") as f:
+            for r in csv.DictReader(f):
+                if not r["report_date"]:
+                    continue
+                regelig.append({"date": r["report_date"],
+                                "eligible": int(r["eligible"]),
+                                "registered": int(r["registered"]),
+                                "pct": float(r["pct_registered_of_eligible"]),
+                                "context": r["election_context"],
+                                "source": "sos-ror", "recovered": False})
+    # pre-2000 points recovered from printed Statement of Vote participation
+    # tables (archive.org), read off page-image crops and pending hand-verification.
+    # `confidence: low` marks figures that look anomalous in the source itself
+    # (e.g. 1994's ~96% rate: pre-NVRA bloated rolls vs a low DOF eligible estimate).
+    sov_path = ROOT / "data" / "sf_registration_eligible_sov_1974_1998.csv"
+    if sov_path.exists():
+        with open(sov_path, newline="") as f:
+            for r in csv.DictReader(f):
+                regelig.append({"date": r["report_date"],
+                                "eligible": int(r["eligible"]),
+                                "registered": int(r["registered"]),
+                                "pct": float(r["pct_registered_of_eligible"]),
+                                "context": r["election_context"],
+                                "source": "sov-print", "recovered": True,
+                                "confidence": r["confidence"]})
+    if regelig:
+        regelig.sort(key=lambda x: x["date"])
+        R = OUT.parent / "registration_eligible.json"
+        R.write_text(json.dumps(regelig, indent=1))
+        print(f"{len(regelig)} registration-vs-eligible points -> {R}")
+
+    # ---- the franchise funnel: population -> voting-age -> eligible citizen ->
+    # registered -> voted, at each presidential general 1900-2024. Census layers
+    # (decennial, from sf_eligible_vap_estimate.csv = IPUMS NHGIS) are linearly
+    # interpolated to election years; eligible uses census citizen-VAP through 1970
+    # then the SoS-published eligible; registered/voted are the real per-election
+    # figures. The bands between layers are the story: children, NON-CITIZENS,
+    # the unregistered, and non-voters.
+    census = {}  # year -> (pop, vap, citizen_elig|None)
+    vap_path = ROOT / "data" / "sf_eligible_vap_estimate.csv"
+    if vap_path.exists():
+        with open(vap_path) as f:
+            for r in csv.DictReader(line for line in f if not line.startswith("#")):
+                census[int(r["year"])] = (
+                    int(r["total_population"]), int(r["voting_age_pop"]),
+                    int(r["citizen_eligible"]) if r["citizen_eligible"] else None)
+
+        def interp(anchors, y):
+            xs = sorted(anchors)
+            if y <= xs[0]:
+                return anchors[xs[0]]
+            if y >= xs[-1]:
+                return anchors[xs[-1]]
+            hi = next(x for x in xs if x >= y)
+            lo = max(x for x in xs if x <= y)
+            if hi == lo:
+                return anchors[lo]
+            return anchors[lo] + (anchors[hi] - anchors[lo]) * (y - lo) / (hi - lo)
+
+        pop_a = {y: c[0] for y, c in census.items()}
+        vap_a = {y: c[1] for y, c in census.items()}
+        elig_a = {y: c[2] for y, c in census.items() if c[2]}  # census, 1900-1970
+        for p in regelig:  # SoS-published eligible, 1978-2026
+            elig_a[int(p["date"][:4])] = p["eligible"]
+        funnel = []
+        for t in tn:  # tn = turnout points; presidential generals only
+            y = int(t["date"][:4])
+            if t["date"][5:7] == "11" and y % 4 == 0 and t.get("kind") == "General":
+                funnel.append({
+                    "year": y,
+                    "population": round(interp(pop_a, y)),
+                    "vap": round(interp(vap_a, y)),
+                    "eligible": round(interp(elig_a, y)),
+                    "registered": t["registered"],
+                    "voted": t["ballots"],
+                })
+        funnel.sort(key=lambda x: x["year"])
+        F2 = OUT.parent / "franchise_funnel.json"
+        F2.write_text(json.dumps(funnel, indent=1))
+        print(f"{len(funnel)} franchise-funnel points -> {F2}")
+
 
 if __name__ == "__main__":
     main()

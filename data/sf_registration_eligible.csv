@@ -1,0 +1,42 @@
+report_date,election_context,eligible,registered,pct_registered_of_eligible,source_url
+2001-02-10,2001 odd-year,535723,463994,86.6,https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-01/county.pdf
+2002-02-19,2002-03-05 primary,576971,440016,76.3,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-prim-02/county.pdf
+2002-10-21,2002-11-05 general,574619,449396,78.2,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-02/county.pdf
+2003-02-10,2003 odd-year,576427,434603,75.4,https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-03/county.pdf
+2003-09-22,2003-10-07 recall,580024,454931,78.4,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-stwdsp-03/county.pdf
+2004-02-17,2004-03-02 presidential primary,570808,448948,78.7,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presprim-04/county.pdf
+2004-10-18,2004-11-02 general,571538,486822,85.2,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presgen-04/county.pdf
+2005-02-10,2005 odd-year,574413,477745,83.2,https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-05/county.pdf
+2005-10-24,2005-11-08 special,578065,427539,74.0,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-spstwd-05/county.pdf
+2006-05-22,2006-06-06 primary,575791,421094,73.1,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-prim-06/county.pdf
+2006-10-23,2006-11-07 general,577544,418285,72.4,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-06/county.pdf
+2007-02-10,2007 odd-year,579885,418567,72.2,https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-07/county.pdf
+2008-01-22,2008-02-05 presidential primary,592185,415761,70.2,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presprim-08/county.pdf
+2008-05-19,2008-06-03 primary,594741,430259,72.3,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-stwddirprim-08/county.pdf
+2008-10-20,2008-11-04 general,599667,477356,79.6,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presgen-08/county.pdf
+2009-02-10,2009 odd-year,602368,469580,78.0,https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-09/county.pdf
+2010-05-24,2010-06-08 primary,617885,447985,72.5,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-prim-10/county.pdf
+2010-10-18,2010-11-02 general,620651,461768,74.4,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-10/county.pdf
+2011-02-10,2011 odd-year,621362,465587,74.9,https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-11/county.pdf
+2013-02-10,2013 odd-year,604155,497663,82.4,https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-2013/county.pdf
+2014-05-19,2014-06-03 primary,622063,434922,69.9,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-primary-2014/county.pdf
+2014-10-20,2014-11-04 general,625446,433844,69.4,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-general-2014/county.pdf
+2015-02-10,2015 odd-year,628002,432799,68.9,https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-2015/county.pdf
+2016-05-23,2016-06-07 primary,644082,462927,71.9,https://elections.cdn.sos.ca.gov/ror/15day-presprim-2016/county.pdf
+2016-10-24,2016-11-08 general,646945,512723,79.3,https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-16/county.pdf
+2017-02-10,2017 odd-year,648951,513401,79.1,https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-2017/county.pdf
+2018-05-21,2018-06-05 primary,657193,481977,73.3,https://elections.cdn.sos.ca.gov/ror/15day-stwddirprim-2018/county.pdf
+2018-10-22,2018-11-06 general,660296,500051,75.7,https://elections.cdn.sos.ca.gov/ror/15day-gen-2018/county.pdf
+2019-02-10,2019 odd-year,662489,493455,74.5,https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2019/county.pdf
+2020-02-18,2020-03-03 presidential primary,656600,505246,76.9,https://elections.cdn.sos.ca.gov/ror/15day-presprim-2020/county.pdf
+2020-10-19,2020-11-03 general,668567,521771,78.0,https://elections.cdn.sos.ca.gov/ror/15day-gen-2020/county.pdf
+2021-02-10,2021 odd-year,671063,513247,76.5,https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2021/county.pdf
+2021-08-30,2021-09-14 recall,641338,503841,78.6,https://elections.cdn.sos.ca.gov/ror/15day-recall-2021/county.pdf
+2022-05-23,2022-06-07 primary,662363,496649,75.0,https://elections.cdn.sos.ca.gov/ror/15day-primary-2022/county.pdf
+2022-10-24,2022-11-08 general,660132,498197,75.5,https://elections.cdn.sos.ca.gov/ror/15day-general-2022/county.pdf
+2023-02-10,2023 odd-year,653715,501970,76.8,https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2023/county.pdf
+2024-02-20,2024-03-05 presidential primary,649207,501463,77.2,https://elections.cdn.sos.ca.gov/ror/15day-presprim-2024/county.pdf
+2024-10-21,2024-11-05 general,663453,520203,78.4,https://elections.cdn.sos.ca.gov/ror/15day-gen-2024/county.pdf
+2025-02-10,2025 odd-year,663658,529104,79.7,https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2025/county.pdf
+2025-10-20,2025-11-04 special,660000,532195,80.6,https://elections.cdn.sos.ca.gov/ror/15day-special-2025/county.pdf
+2026-05-18,2026-06-02 primary,658495,533629,81.0,https://elections.cdn.sos.ca.gov/ror/15day-primary-2026/county.pdf
