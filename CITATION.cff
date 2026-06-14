@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+title: >-
+  The Long Count: Sixty-plus years of San Francisco election counting
+message: >-
+  If you use this repository — its data, analysis, or figures — please cite it
+  as below. Data derived from IPUMS NHGIS and from licensed newspaper archives
+  carry additional citation requirements noted in data/README.md.
+type: dataset
+authors:
+  - given-names: Steven
+    family-names: Bacio
+    affiliation: "GrowSF (Director)"
+    email: steven@growsf.org
+abstract: >-
+  A primary-source record of how long San Francisco takes to count its
+  elections, and of who has been able to vote, 1899–2026: election-night and
+  mid-canvass vote counts recovered from newspaper and web archives, certified
+  turnout from the Department of Elections, vote-by-mail share, and the
+  registered and eligible-citizen electorate (the latter reconstructed back to
+  1900 from the decennial census via IPUMS NHGIS). Every figure is traceable to
+  a cited source.
+keywords:
+  - San Francisco
+  - elections
+  - election administration
+  - voter turnout
+  - vote-by-mail
+  - voter registration
+  - eligible voters
+  - voting-age population
+  - franchise
+  - civic data
+date-released: "2026-06-14"
+version: "2026.06.14"
+url: "https://github.com/Grow-SF/sf-election-historical-counts"
+repository-code: "https://github.com/Grow-SF/sf-election-historical-counts"
+references:
+  - type: dataset
+    title: >-
+      IPUMS National Historical Geographic Information System: Version 20.0
+    authors:
+      - family-names: Schroeder
+        given-names: Jonathan
+      - family-names: Van Riper
+        given-names: David
+      - family-names: Manson
+        given-names: Steven
+      - family-names: Knowles
+        given-names: Katherine
+      - family-names: Kugler
+        given-names: Tracy
+      - family-names: Roberts
+        given-names: Finn
+      - family-names: Ruggles
+        given-names: Steven
+    year: 2025
+    publisher:
+      name: "IPUMS, University of Minnesota"
+    doi: "10.18128/D050.V20.0"

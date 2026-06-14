@@ -47,6 +47,12 @@ mail-driven slide — see
   `docs/denominator-errors.md`.
 - `sf_vbm_share_sos.csv`, `sf_turnout_history_1960_2002.csv` — mail-share and
   precinct/absentee splits from the CA Secretary of State and DOE.
+- `sf_registration_eligible*.csv`, `sf_eligible_vap_estimate.csv` — registered,
+  eligible-citizen, and voting-age population (CA Secretary of State + U.S.
+  Census via IPUMS NHGIS), 1900–2026.
+
+**→ Full data dictionary — every file and every column — in
+[`data/README.md`](data/README.md).**
 
 ## The modern pipeline (`sfcount`)
 
@@ -119,6 +125,23 @@ Newspaper archive content (NewsBank, Chronicle) is **cited, not republished**:
 it lives only in the gitignored `mirror/` tree and never ships to the site or a
 CDN. Public-record sources (DOE releases, Wayback captures, Secretary of State
 statements) are mirrored and linked freely.
+
+## How to cite
+
+> Steven Bacio, Director, GrowSF. *The Long Count: Sixty-plus years of San
+> Francisco election counting.* 2026.
+> <https://github.com/Grow-SF/sf-election-historical-counts>
+
+A machine-readable citation is in [`CITATION.cff`](CITATION.cff) (GitHub's
+"Cite this repository" button generates APA/BibTeX from it). Two upstream
+sources carry their own citation requirements:
+
+- **Census voting-age & citizenship data** — IPUMS NHGIS: *Schroeder, Van Riper,
+  Manson, Knowles, Kugler, Roberts, and Ruggles. IPUMS National Historical
+  Geographic Information System: Version 20.0. Minneapolis: IPUMS, 2025.*
+  <https://doi.org/10.18128/D050.V20.0> (and add work to the IPUMS bibliography).
+- **Newspaper archive content** (NewsBank / SF Chronicle) is cited, never
+  republished — cite the original article, not this repository.
 
 ## Data boundaries (don't trip on these)
 
