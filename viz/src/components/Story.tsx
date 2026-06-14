@@ -213,6 +213,20 @@ export default function Story() {
               who counts as eligible, not who bothers to vote.
             </p>
             <p>
+              That blue band is a century of immigration. San Francisco began
+              as a Gold-Rush boomtown where a third of adults were foreign-born
+              and few could vote — in 1900 only about 100,000 people, all of
+              them men, were eligible citizens. Women’s suffrage doubled the
+              eligible electorate in 1920; the immigration lull from the 1920s
+              through the 1950s shrank the non-citizen share to roughly one
+              adult in twenty; then the waves from Latin America and Asia after
+              1965 widened it again, to about one in eight today. (These counts
+              come from the decennial census, via IPUMS NHGIS, back to 1900 —
+              and they capture who was legally barred, including the men-only
+              electorate before 1920 and the Asian immigrants denied
+              naturalization until the 1940s.)
+            </p>
+            <p>
               Mailing every voter a ballot is the most sweeping change to how
               San Franciscans vote in sixty years. So it’s worth asking the
               obvious question: did it bring more people to the polls? Among
@@ -234,6 +248,18 @@ export default function Story() {
               share of eligible San Franciscans who are registered has held
               around three-quarters for two decades, before and after the
               all-mail switch.
+            </p>
+            <p>
+              One wrinkle, shaded on the registration chart: in the 1990s the
+              line climbs <em>past</em> 100% — more names on the rolls than
+              eligible adults in the city. That’s the “deadwood” era, when
+              registrations of people who had died, moved, or re-registered
+              elsewhere piled up uncleaned. In 1996 the Secretary of State
+              named San Francisco the state’s worst case, with up to a fifth of
+              its rolls dead weight; the 1995 federal “motor-voter” law forced
+              the list maintenance that brought it back to earth. A reminder
+              that even the registration count — the firmest number here — has
+              had its own quiet drift.
             </p>
           </>
         }
