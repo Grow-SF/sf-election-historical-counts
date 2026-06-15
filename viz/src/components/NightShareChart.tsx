@@ -3,11 +3,10 @@ import { useEffect, useMemo } from "react";
 import {
   CartesianGrid,
   ComposedChart,
+  Line,
   ReferenceLine,
   ResponsiveContainer,
   Scatter,
-  useXAxisScale,
-  useYAxisScale,
   XAxis,
   YAxis,
 } from "recharts";
@@ -16,48 +15,38 @@ import { ChartFrame, PointTooltip, eventLines, useGraceHover } from "@/component
 
 type Seg = { x: number; y: number }[];
 
-// recharts renders the Scatter (dots) layer above <Line>s regardless of JSX
-// order, so the trend lines get buried. Drawing them as raw SVG in a child that
-// reads the axis scales puts them back on top (same pattern as AxisBreak).
-function TrendOverlay({ segs }: { segs: { seg: Seg; color: string }[] }) {
-  const xScale = useXAxisScale();
-  const yScale = useYAxisScale();
-  if (!xScale || !yScale) return null;
-  return (
-    <g pointerEvents="none">
-      {segs.map(({ seg, color }, i) => {
-        const x1 = xScale(seg[0].x) as number;
-        const y1 = yScale(seg[0].y) as number;
-        const x2 = xScale(seg[1].x) as number;
-        const y2 = yScale(seg[1].y) as number;
-        return (
-          <g key={i}>
-            {/* light casing so the dashes read over dense/dark dot clusters */}
-            <line
-              x1={x1}
-              y1={y1}
-              x2={x2}
-              y2={y2}
-              stroke="var(--color-paper)"
-              strokeWidth={5}
-              strokeOpacity={0.9}
-              strokeLinecap="round"
-            />
-            <line
-              x1={x1}
-              y1={y1}
-              x2={x2}
-              y2={y2}
-              stroke={color}
-              strokeWidth={2}
-              strokeDasharray="6 4"
-              strokeLinecap="round"
-            />
-          </g>
-        );
-      })}
-    </g>
-  );
+// recharts (v3) layers components by a numeric `zIndex`, NOT by JSX order:
+// CartesianGrid -100, Area 100, Line 400, Axis 500, Scatter 600. So a default
+// trend <Line> renders *under* the dots. Render each trend segment as two Lines
+// above the Scatter (600): a paper casing so the dash stays legible over dark
+// dot clusters, then the dashed line itself.
+function trendLines(seg: Seg | null | false, color: string, key: string) {
+  if (!seg) return null;
+  return [
+    <Line
+      key={`${key}-casing`}
+      data={seg}
+      dataKey="y"
+      stroke="var(--color-paper)"
+      strokeWidth={5}
+      dot={false}
+      legendType="none"
+      isAnimationActive={false}
+      zIndex={700}
+    />,
+    <Line
+      key={`${key}-dash`}
+      data={seg}
+      dataKey="y"
+      stroke={color}
+      strokeWidth={2}
+      strokeDasharray="6 4"
+      dot={false}
+      legendType="none"
+      isAnimationActive={false}
+      zIndex={710}
+    />,
+  ];
 }
 
 type Pt = {
@@ -391,14 +380,10 @@ export default function NightShareChart({
                   );
                 }}
               />
-              {/* trend lines drawn last, as raw SVG, so they sit above the dots */}
-              <TrendOverlay
-                segs={[
-                  ...(trendE ? [{ seg: trendE, color: "var(--color-faint)" }] : []),
-                  ...(trendM ? [{ seg: trendM, color: "var(--color-ink)" }] : []),
-                  ...(trendR ? [{ seg: trendR, color: "var(--color-ink)" }] : []),
-                ]}
-              />
+              {/* trend lines at zIndex 700/710, above the Scatter (600) */}
+              {trendLines(trendE, "var(--color-faint)", "e")}
+              {trendLines(trendM, "var(--color-ink)", "m")}
+              {trendLines(trendR, "var(--color-ink)", "r")}
             </ComposedChart>
           </ResponsiveContainer>
         </div>
