@@ -1,20 +1,25 @@
 @import "tailwindcss";
 
+/* GrowSF-brand-aligned palette: GrowSF's scheme is teal/blue/green, so the
+   primary accent is brand teal, emphasis is blue, highlights are green, on a
+   cream canvas with deep-teal dark bands (GrowSF's own research surfaces).
+   Mirrored in the GrowSF website embed (web/tailwind.config.js + the .longcount
+   block in web/app/globals.css). */
 @theme inline {
-  --color-paper: #f6f1e7;
-  --color-paper-deep: #efe7d8;
-  --color-ink: #221e18;
-  --color-night: #14110c;
-  --color-night-soft: #241f17;
-  --color-rust: #a4492c;
-  --color-rust-bright: #c75b38;
-  --color-faint: #6b5e4c;
-  --color-rule: #d8cfbe;
-  --color-rule-dark: #3a342a;
-  --color-gold: #b98f33;
-  --color-slate: #3e5c76;
-  --color-moss: #6b7f3a;
-  --color-plum: #7a4e7e;
+  --color-paper: #FFFFEB;
+  --color-paper-deep: #EAF3EC;
+  --color-ink: #16302E;
+  --color-night: #044147;
+  --color-night-soft: #0B5158;
+  --color-rust: #007784;
+  --color-rust-bright: #3FB6C9;
+  --color-faint: #5E7167;
+  --color-rule: #CFE3DA;
+  --color-rule-dark: #14565E;
+  --color-gold: #64D09C;
+  --color-slate: #0A82B2;
+  --color-moss: #1E7B6A;
+  --color-plum: #01384F;
   --font-serif: var(--font-serif);
   --font-mono: var(--font-mono);
 }

@@ -4,7 +4,7 @@ import { ReferenceLine } from "recharts";
 import { EVENTS, Fit } from "@/lib/data";
 
 /**
- * Gold dashed vertical lines for the shared franchise/voting EVENTS that fall
+ * Dashed vertical lines for the shared franchise/voting EVENTS that fall
  * within [min, max] — rendered identically in every chart. Use as a chart
  * child: {eventLines(1962, 2028)}
  */

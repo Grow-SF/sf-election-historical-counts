@@ -13,6 +13,42 @@ import {
 import { Election, Fit, KIND_COLOR, linearFit, NIGHT_FLOOR, yearFrac } from "@/lib/data";
 import { ChartFrame, PointTooltip, eventLines, useGraceHover } from "@/components/ui";
 
+type Seg = { x: number; y: number }[];
+
+// recharts (v3) layers components by a numeric `zIndex`, NOT by JSX order:
+// CartesianGrid -100, Area 100, Line 400, Axis 500, Scatter 600. So a default
+// trend <Line> renders *under* the dots. Render each trend segment as two Lines
+// above the Scatter (600): a paper casing so the dash stays legible over dark
+// dot clusters, then the dashed line itself.
+function trendLines(seg: Seg | null | false, color: string, key: string) {
+  if (!seg) return null;
+  return [
+    <Line
+      key={`${key}-casing`}
+      data={seg}
+      dataKey="y"
+      stroke="var(--color-paper)"
+      strokeWidth={4}
+      dot={false}
+      legendType="none"
+      isAnimationActive={false}
+      zIndex={700}
+    />,
+    <Line
+      key={`${key}-dash`}
+      data={seg}
+      dataKey="y"
+      stroke={color}
+      strokeWidth={2}
+      strokeDasharray="6 4"
+      dot={false}
+      legendType="none"
+      isAnimationActive={false}
+      zIndex={710}
+    />,
+  ];
+}
+
 type Pt = {
   x: number;
   y: number;
@@ -158,25 +194,11 @@ export default function NightShareChart({
         subtitle="Election-night count ÷ certified final, by election, 1908–2026"
         note={
           <>
-            A solid dot never sits below its diamond — in-person ballots are
-            counted on election night, and the dotted stem between them is
-            early-arriving mail, counted that night too. (Dim dashed dots are
-            press-deadline snapshots and can sit below the floor.) Gold line: November
-            2020, every voter mailed a ballot. Gold rings: the night’s leader
-            went on to lose (hover them). Dim dashed dots are mid-count
-            partials, excluded from the trend. The trend is fit in three
-            segments because this was never one process. Before the green line
-            (~1927) the count is erratic: California’s Progressive-era ballot had
-            ballooned past 40 statewide measures by 1914, and the Chronicle
-            blamed the long ballot outright (in 1918 the first precinct didn’t
-            reach the Registrar until after midnight). It steadied by the late
-            1920s — but, notably, <em>not</em> by mechanizing: San Francisco
-            hand-counted paper until punch cards arrived in the 1960s, and the
-            number of ballots per precinct didn’t fall (precincts grew only with
-            the electorate). What exactly fixed it isn’t settled; what we can
-            rule out is voting machines. The 2002 break is the opposite story:
-            the permanent vote-by-mail list moving the vote off election day.
-            Elections with only day-after records appear in the charts below.
+            Each dot is an election’s night count as a share of its certified
+            final. The open diamond is the in-person floor; the dotted stem up
+            to the dot is early mail counted that night. Dim dashed dots are
+            mid-count press snapshots — lower bounds, excluded from the trend —
+            and rings mark races the election-night leader lost.
           </>
         }
       >
@@ -327,40 +349,7 @@ export default function NightShareChart({
                 );
               }}
             />
-            {trendE && (
-                <Line
-                  data={trendE}
-                  dataKey="y"
-                  stroke="var(--color-faint)"
-                  strokeWidth={1.5}
-                  strokeDasharray="6 4"
-                  dot={false}
-                  isAnimationActive={false}
-                />
-              )}
-              {trendM && (
-                <Line
-                  data={trendM}
-                  dataKey="y"
-                  stroke="var(--color-ink)"
-                  strokeWidth={1.5}
-                  strokeDasharray="6 4"
-                  dot={false}
-                  isAnimationActive={false}
-                />
-              )}
-              {trendR && (
-                <Line
-                  data={trendR}
-                  dataKey="y"
-                  stroke="var(--color-ink)"
-                  strokeWidth={1.5}
-                  strokeDasharray="6 4"
-                  dot={false}
-                  isAnimationActive={false}
-                />
-              )}
-              <Scatter
+            <Scatter
                 data={pts}
                 isAnimationActive={false}
                 shape={(props: unknown) => {
@@ -391,6 +380,10 @@ export default function NightShareChart({
                   );
                 }}
               />
+              {/* trend lines at zIndex 700/710, above the Scatter (600) */}
+              {trendLines(trendE, "var(--color-faint)", "e")}
+              {trendLines(trendM, "var(--color-ink)", "m")}
+              {trendLines(trendR, "var(--color-ink)", "r")}
             </ComposedChart>
           </ResponsiveContainer>
         </div>

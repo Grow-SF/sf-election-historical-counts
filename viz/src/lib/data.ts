@@ -138,12 +138,14 @@ export function linearFit(pts: [number, number][]): Fit | null {
 
 export const fmt = (n: number) => n.toLocaleString("en-US");
 
+// Categorical palette: a GrowSF blue family for the regular election types
+// (bright → muted → navy), sea green for specials, and a light red for recalls.
 export const KIND_COLOR: Record<string, string> = {
-  General: "#A4492C",
-  Primary: "#3E5C76",
-  Municipal: "#6B7F3A",
-  Special: "#B98F33",
-  Recall: "#7A4E7E",
+  General: "#0A82B2", // bright primary blue
+  Primary: "#EBAB5A", // yellow
+  Municipal: "#01384F", // deep navy blue
+  Special: "#1E7B6A", // sea green
+  Recall: "#E36246", // light red
 };
 
 /**

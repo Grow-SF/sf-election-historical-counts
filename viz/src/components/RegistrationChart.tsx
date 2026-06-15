@@ -9,10 +9,10 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { REGISTRATION_ELIGIBLE, fmt, yearTicks } from "@/lib/data";
+import { REGISTRATION_ELIGIBLE, FRANCHISE_FUNNEL, fmt, yearTicks } from "@/lib/data";
 import { ChartFrame, eventLines } from "@/components/ui";
 
-const DATA = REGISTRATION_ELIGIBLE.map((p) => {
+const MODERN = REGISTRATION_ELIGIBLE.map((p) => {
   const d = new Date(p.date + "T00:00:00");
   return {
     x: d.getFullYear() + d.getMonth() / 12,
@@ -23,6 +23,26 @@ const DATA = REGISTRATION_ELIGIBLE.map((p) => {
     context: p.context,
   };
 });
+
+// The SoS Reports of Registration only reach back to the late 1970s. Before
+// that, the franchise funnel still carries real per-election registration over
+// the census citizen voting-age population, back to 1908 — so derive the early
+// registration rate from it to extend the series.
+const REG_MIN_YEAR = Math.min(
+  ...REGISTRATION_ELIGIBLE.map((p) => Number(p.date.slice(0, 4))),
+);
+const EARLY = FRANCHISE_FUNNEL.filter(
+  (f) => f.year < REG_MIN_YEAR && f.registered && f.eligible,
+).map((f) => ({
+  x: f.year + 10 / 12, // presidential general ≈ November
+  y: Math.round((1000 * f.registered) / f.eligible) / 10,
+  date: String(f.year),
+  eligible: f.eligible,
+  registered: f.registered,
+  context: "presidential general · census-derived eligible",
+}));
+
+const DATA = [...EARLY, ...MODERN];
 
 type Pt = (typeof DATA)[number];
 
@@ -56,8 +76,8 @@ export default function RegistrationChart({ from, to }: { from: number; to: numb
   return (
     <ChartFrame
       title="Registration among eligible citizens"
-      subtitle="Registered ÷ citizen voting-age population, 1978–2026"
-      note="Registered voters as a share of eligible citizens. The 1990s spike past 100% is pre-“motor-voter” deadwood, since cleaned up. Sources: CA SoS Reports of Registration and Statement of Vote (1974–98 pending hand-verification)."
+      subtitle="Registered ÷ citizen voting-age population, 1908–2026"
+      note="Registered voters as a share of eligible citizens. The 1990s spike past 100% is pre-“motor-voter” deadwood, since cleaned up. Sources: CA SoS Reports of Registration and Statement of Vote from 1978 (1974–98 pending hand-verification); pre-1978 points are per-election registration over census citizen voting-age population (IPUMS NHGIS), shown at presidential generals."
     >
       <ResponsiveContainer width="100%" height={360}>
         <ComposedChart
@@ -106,10 +126,10 @@ export default function RegistrationChart({ from, to }: { from: number; to: numb
           {eventLines(lo, hi)}
           <Line
             dataKey="y"
-            stroke="#3E5C76"
+            stroke="#056A92"
             strokeWidth={2}
             connectNulls
-            dot={{ r: 2.5, fill: "#3E5C76", strokeWidth: 0 }}
+            dot={{ r: 2.5, fill: "#056A92", strokeWidth: 0 }}
             isAnimationActive={false}
           />
         </ComposedChart>

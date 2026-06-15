@@ -122,6 +122,45 @@ function Footer() {
   );
 }
 
+function CountingMethodsNote() {
+  const rows: [string, React.ReactNode][] = [
+    [
+      "until the 1960s",
+      "Hand-counted paper ballots, tallied by clerks precinct by precinct.",
+    ],
+    [
+      "1960s–1990s",
+      "Punch-card ballots, machine-tabulated — the system behind 1995’s “chad-jam” count.",
+    ],
+    [
+      "2000s",
+      "Punch cards were decertified after the 2000 Florida recount; the city moved to optical-scan paper ballots, and to ranked-choice tabulation in 2004.",
+    ],
+    [
+      "today",
+      "Optical-scan paper everywhere: precinct scanners on election day, and high-speed central scanners for the mail ballots — each read only after its signature is verified.",
+    ],
+  ];
+  return (
+    <aside className="mt-6 border border-rule bg-paper-deep/40 p-4 text-sm leading-relaxed text-ink/85 sm:p-5">
+      <p className="smallcaps text-rust">how San Francisco counted the votes</p>
+      <dl className="mt-3 space-y-2">
+        {rows.map(([when, what]) => (
+          <div key={when} className="sm:flex sm:gap-4">
+            <dt className="stat-figure shrink-0 text-ink sm:w-28">{when}</dt>
+            <dd>{what}</dd>
+          </div>
+        ))}
+      </dl>
+      <p className="mt-3 border-t border-rule pt-2 text-xs italic text-faint">
+        Tabulation changed three times; the finish line never moved. What
+        stretched the count isn’t machine speed — it’s the shift to mail, and
+        the signature and eligibility checks every mailed ballot needs.
+      </p>
+    </aside>
+  );
+}
+
 export default function Story() {
   const [state, update] = useUrlState();
   const elections = useMemo(() => filterElections(state), [state]);
@@ -159,7 +198,7 @@ export default function Story() {
               are still in the mail. The ringed points are races the{" "}
               <em>election-night leader lost</em> — the 2018 mayor’s race and a
               2020 supervisor seat, decided by ballots counted days later.
-              Recalls (purple) and special elections (gold) sit above the trend:
+              Recalls and special elections sit above the trend:
               their electorates vote early by mail, so the night count catches
               more of them. Filter to primaries and generals and both slides —
               the 1910s and today’s — show their sharpest.{" "}
@@ -174,6 +213,7 @@ export default function Story() {
         }
       >
         <NightShareChart elections={elections} from={state.from} to={state.to} kinds={state.kinds} />
+        <CountingMethodsNote />
       </Section>
 
       <Section
@@ -233,7 +273,7 @@ export default function Story() {
               voters already on the rolls, the answer is mostly no. Turnout
               swings with what’s on the ballot — presidential generals draw
               80%, off-year municipals barely 40% — and the all-mail era to
-              the right of the gold lines lands inside that same band. The 2020
+              the right of the milestone lines lands inside that same band. The 2020
               record was the nationwide presidential peak, not a vote-by-mail
               effect; the 2024 general fell back below 2016, and the 2024
               presidential primary was the lowest in the modern record.
@@ -252,10 +292,18 @@ export default function Story() {
             <p>
               One wrinkle, shaded on the registration chart: in the 1990s the
               line climbs <em>past</em> 100% — more names on the rolls than
-              eligible adults in the city. That’s the “deadwood” era, when
-              registrations of people who had died, moved, or re-registered
-              elsewhere piled up uncleaned. In 1996 the Secretary of State
-              named San Francisco the state’s worst case, with up to a fifth of
+              eligible adults in the city. That’s the{" "}
+              <a
+                href="https://www.electproject.org/election-data/faq/reg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-b border-rust/50 text-rust hover:bg-rust/10"
+              >
+                “deadwood”
+              </a>{" "}
+              era, when registrations of people who had died, moved, or
+              re-registered elsewhere piled up uncleaned. In 1996 the Secretary
+              of State named San Francisco the state’s worst case, with up to a fifth of
               its rolls dead weight; the 1995 federal “motor-voter” law forced
               the list maintenance that brought it back to earth. A reminder
               that even the registration count — the firmest number here — has

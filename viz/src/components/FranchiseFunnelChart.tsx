@@ -3,6 +3,7 @@ import {
   Area,
   AreaChart,
   CartesianGrid,
+  ReferenceArea,
   ResponsiveContainer,
   Tooltip,
   XAxis,
@@ -12,13 +13,17 @@ import { FRANCHISE_FUNNEL, fmt, yearTicks } from "@/lib/data";
 import { ChartFrame, eventLines } from "@/components/ui";
 
 // Mutually-exclusive bands that sum to total population, bottom (voted) to top
-// (children). The thickness of each band over time is the story.
+// (children). The thickness of each band over time is the story. Muted GrowSF
+// brand tokens (green / soft earth / pale green / blue / grey), ordered so every
+// adjacent band differs in hue and/or lightness — keeps the bands distinct for
+// colorblind viewers without the saturated look. Non-citizen stays blue (the
+// prose names it "the blue band"); "under voting age" is neutral grey.
 const BANDS = [
-  { key: "voted", label: "voted", color: "#5E2B24" },
-  { key: "regNotVoted", label: "registered, didn't vote", color: "#A4492C" },
-  { key: "notRegistered", label: "eligible, not registered", color: "#B98F33" },
-  { key: "nonCitizen", label: "non-citizen adults (immigrants)", color: "#3E5C76" },
-  { key: "children", label: "under voting age", color: "#CABB9B" },
+  { key: "voted", label: "voted", color: "#1E7B6A" }, // brand-green-4
+  { key: "regNotVoted", label: "registered, didn't vote", color: "#DF7E45" }, // earth-40
+  { key: "notRegistered", label: "eligible, not registered", color: "#BCE3B6" }, // green-30
+  { key: "nonCitizen", label: "non-citizen adults (immigrants)", color: "#4BADE4" }, // brand-blue-3 (softer than blue-6)
+  { key: "children", label: "under voting age", color: "#D2DBDC" }, // gray-2
 ] as const;
 
 type Row = {
@@ -78,7 +83,7 @@ export default function FranchiseFunnelChart({ from, to }: { from: number; to: n
     <ChartFrame
       title="Who could vote — and who did"
       subtitle="San Francisco by presidential election, 1908–2024"
-      note="Bands are shares of total population and sum to it; the blue band is non-citizen adults. Sources: IPUMS NHGIS census (population, voting-age, citizenship); SoS and Dept. of Elections."
+      note="Bands are shares of total population and sum to it; the blue band is non-citizen adults. The shaded 1990s “deadwood” box marks the years when bloated registration rolls pushed registration up to (or past) the eligible estimate — so the “eligible, not registered” band nearly disappears — until the 1995 motor-voter law forced the cleanup. Sources: IPUMS NHGIS census (population, voting-age, citizenship); SoS and Dept. of Elections."
     >
       <ResponsiveContainer width="100%" height={440}>
         <AreaChart data={data} margin={{ top: 24, right: 20, bottom: 8, left: 8 }}>
@@ -114,6 +119,27 @@ export default function FranchiseFunnelChart({ from, to }: { from: number; to: n
               isAnimationActive={false}
             />
           ))}
+          {from <= 2000 && to >= 1990 && (
+            // the 1990s "deadwood" era: bloated rolls push registration up to /
+            // past the eligible estimate, collapsing the "eligible, not
+            // registered" band until the 1995 motor-voter cleanup.
+            <ReferenceArea
+              x1={1990}
+              x2={2000}
+              ifOverflow="hidden"
+              fill="var(--color-ink)"
+              fillOpacity={0.07}
+              stroke="var(--color-ink)"
+              strokeOpacity={0.35}
+              strokeDasharray="3 3"
+              label={{
+                value: "deadwood rolls",
+                position: "insideTop",
+                fontSize: 9,
+                fill: "var(--color-ink)",
+              }}
+            />
+          )}
         </AreaChart>
       </ResponsiveContainer>
       <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
