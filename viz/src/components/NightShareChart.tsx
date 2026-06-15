@@ -28,7 +28,7 @@ function trendLines(seg: Seg | null | false, color: string, key: string) {
       data={seg}
       dataKey="y"
       stroke="var(--color-paper)"
-      strokeWidth={5}
+      strokeWidth={4}
       dot={false}
       legendType="none"
       isAnimationActive={false}
