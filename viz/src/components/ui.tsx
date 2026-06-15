@@ -177,11 +177,20 @@ export function ChartFrame({
   return (
     <figure className="mt-4 border border-rule bg-paper-deep/40 p-3 sm:p-5">
       {title && (
-        <figcaption className="mb-3">
-          <h3 className="text-lg font-semibold leading-tight text-ink">{title}</h3>
-          {subtitle && (
-            <p className="smallcaps mt-0.5 text-faint">{subtitle}</p>
-          )}
+        <figcaption className="mb-3 flex items-start justify-between gap-3">
+          <div>
+            <h3 className="text-lg font-semibold leading-tight text-ink">{title}</h3>
+            {subtitle && (
+              <p className="smallcaps mt-0.5 text-faint">{subtitle}</p>
+            )}
+          </div>
+          {/* GrowSF logo, top-right — matches the polling/pulse charts */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/_static/logo-clean.svg"
+            alt="GrowSF"
+            className="mt-0.5 h-4 w-auto shrink-0 opacity-70"
+          />
         </figcaption>
       )}
       {children}
