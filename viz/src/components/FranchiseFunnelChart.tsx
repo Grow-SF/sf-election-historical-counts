@@ -13,17 +13,17 @@ import { FRANCHISE_FUNNEL, fmt, yearTicks } from "@/lib/data";
 import { ChartFrame, eventLines } from "@/components/ui";
 
 // Mutually-exclusive bands that sum to total population, bottom (voted) to top
-// (children). The thickness of each band over time is the story. Colors are the
-// Okabe-Ito colorblind-safe palette, assigned so every adjacent band in the
-// stack differs in both hue and lightness: green → vermillion → yellow → blue →
-// grey. The non-citizen band stays blue (the prose names it "the blue band");
-// "under voting age" is neutral grey since it's outside the electorate.
+// (children). The thickness of each band over time is the story. Muted GrowSF
+// brand tokens (green / soft earth / pale green / blue / grey), ordered so every
+// adjacent band differs in hue and/or lightness — keeps the bands distinct for
+// colorblind viewers without the saturated look. Non-citizen stays blue (the
+// prose names it "the blue band"); "under voting age" is neutral grey.
 const BANDS = [
-  { key: "voted", label: "voted", color: "#009E73" },
-  { key: "regNotVoted", label: "registered, didn't vote", color: "#D55E00" },
-  { key: "notRegistered", label: "eligible, not registered", color: "#F0E442" },
-  { key: "nonCitizen", label: "non-citizen adults (immigrants)", color: "#0072B2" },
-  { key: "children", label: "under voting age", color: "#BBBBBB" },
+  { key: "voted", label: "voted", color: "#1E7B6A" }, // brand-green-4
+  { key: "regNotVoted", label: "registered, didn't vote", color: "#DF7E45" }, // earth-40
+  { key: "notRegistered", label: "eligible, not registered", color: "#BCE3B6" }, // green-30
+  { key: "nonCitizen", label: "non-citizen adults (immigrants)", color: "#056A92" }, // blue-6
+  { key: "children", label: "under voting age", color: "#D2DBDC" }, // gray-2
 ] as const;
 
 type Row = {
