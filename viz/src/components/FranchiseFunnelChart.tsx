@@ -22,7 +22,7 @@ const BANDS = [
   { key: "voted", label: "voted", color: "#1E7B6A" }, // brand-green-4
   { key: "regNotVoted", label: "registered, didn't vote", color: "#DF7E45" }, // earth-40
   { key: "notRegistered", label: "eligible, not registered", color: "#BCE3B6" }, // green-30
-  { key: "nonCitizen", label: "non-citizen adults (immigrants)", color: "#056A92" }, // blue-6
+  { key: "nonCitizen", label: "non-citizen adults (immigrants)", color: "#4BADE4" }, // brand-blue-3 (softer than blue-6)
   { key: "children", label: "under voting age", color: "#D2DBDC" }, // gray-2
 ] as const;
 
