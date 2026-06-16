@@ -7,7 +7,8 @@
   "context": "Nov 1978 general",
   "source": "sov-print",
   "recovered": true,
-  "confidence": "high"
+  "confidence": "high",
+  "url": "https://archive.org/details/statementofvote197879cali"
  },
  {
   "date": "1980-11-04",
@@ -17,7 +18,8 @@
   "context": "Nov 1980 general",
   "source": "sov-print",
   "recovered": true,
-  "confidence": "high"
+  "confidence": "high",
+  "url": "https://archive.org/details/statementofvote41980cali"
  },
  {
   "date": "1982-06-08",
@@ -27,7 +29,8 @@
   "context": "Jun 1982 primary",
   "source": "sov-print",
   "recovered": true,
-  "confidence": "high"
+  "confidence": "high",
+  "url": "https://archive.org/details/statementofvote81982cali"
  },
  {
   "date": "1984-11-06",
@@ -37,7 +40,8 @@
   "context": "Nov 1984 general",
   "source": "sov-print",
   "recovered": true,
-  "confidence": "high"
+  "confidence": "high",
+  "url": "https://archive.org/details/statementofvote61984cali"
  },
  {
   "date": "1986-11-04",
@@ -47,7 +51,8 @@
   "context": "Nov 1986 general",
   "source": "sov-print",
   "recovered": true,
-  "confidence": "high"
+  "confidence": "high",
+  "url": "https://archive.org/details/statementofvote41986cali"
  },
  {
   "date": "1988-11-08",
@@ -57,7 +62,8 @@
   "context": "Nov 1988 general",
   "source": "sov-print",
   "recovered": true,
-  "confidence": "medium"
+  "confidence": "medium",
+  "url": "https://archive.org/details/statementofvote81988cali"
  },
  {
   "date": "1990-11-06",
@@ -67,7 +73,8 @@
   "context": "Nov 1990 general",
   "source": "sov-print",
   "recovered": true,
-  "confidence": "high"
+  "confidence": "high",
+  "url": "https://archive.org/details/statementofvote61990cali"
  },
  {
   "date": "1992-06-02",
@@ -77,7 +84,8 @@
   "context": "Jun 1992 primary",
   "source": "sov-print",
   "recovered": true,
-  "confidence": "medium"
+  "confidence": "medium",
+  "url": "https://archive.org/details/statementofvote21992cali"
  },
  {
   "date": "1994-11-08",
@@ -87,7 +95,8 @@
   "context": "Nov 1994 general",
   "source": "sov-print",
   "recovered": true,
-  "confidence": "low"
+  "confidence": "low",
+  "url": "https://archive.org/details/statementofvote81994cali"
  },
  {
   "date": "1996-10-25",
@@ -97,7 +106,8 @@
   "context": "Oct 1996 (SoS Bill Jones via Contra Costa Times)",
   "source": "sov-print",
   "recovered": true,
-  "confidence": "low"
+  "confidence": "low",
+  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1063FBAA6480CFD4"
  },
  {
   "date": "2001-02-10",
@@ -106,7 +116,8 @@
   "pct": 86.6,
   "context": "2001 odd-year",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-01/county.pdf"
  },
  {
   "date": "2002-02-19",
@@ -115,7 +126,8 @@
   "pct": 76.3,
   "context": "2002-03-05 primary",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-prim-02/county.pdf"
  },
  {
   "date": "2002-10-21",
@@ -124,7 +136,8 @@
   "pct": 78.2,
   "context": "2002-11-05 general",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-02/county.pdf"
  },
  {
   "date": "2003-02-10",
@@ -133,7 +146,8 @@
   "pct": 75.4,
   "context": "2003 odd-year",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-03/county.pdf"
  },
  {
   "date": "2003-09-22",
@@ -142,7 +156,8 @@
   "pct": 78.4,
   "context": "2003-10-07 recall",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-stwdsp-03/county.pdf"
  },
  {
   "date": "2004-02-17",
@@ -151,7 +166,8 @@
   "pct": 78.7,
   "context": "2004-03-02 presidential primary",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presprim-04/county.pdf"
  },
  {
   "date": "2004-10-18",
@@ -160,7 +176,8 @@
   "pct": 85.2,
   "context": "2004-11-02 general",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presgen-04/county.pdf"
  },
  {
   "date": "2005-02-10",
@@ -169,7 +186,8 @@
   "pct": 83.2,
   "context": "2005 odd-year",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-05/county.pdf"
  },
  {
   "date": "2005-10-24",
@@ -178,7 +196,8 @@
   "pct": 74.0,
   "context": "2005-11-08 special",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-spstwd-05/county.pdf"
  },
  {
   "date": "2006-05-22",
@@ -187,7 +206,8 @@
   "pct": 73.1,
   "context": "2006-06-06 primary",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-prim-06/county.pdf"
  },
  {
   "date": "2006-10-23",
@@ -196,7 +216,8 @@
   "pct": 72.4,
   "context": "2006-11-07 general",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-06/county.pdf"
  },
  {
   "date": "2007-02-10",
@@ -205,7 +226,8 @@
   "pct": 72.2,
   "context": "2007 odd-year",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-07/county.pdf"
  },
  {
   "date": "2008-01-22",
@@ -214,7 +236,8 @@
   "pct": 70.2,
   "context": "2008-02-05 presidential primary",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presprim-08/county.pdf"
  },
  {
   "date": "2008-05-19",
@@ -223,7 +246,8 @@
   "pct": 72.3,
   "context": "2008-06-03 primary",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-stwddirprim-08/county.pdf"
  },
  {
   "date": "2008-10-20",
@@ -232,7 +256,8 @@
   "pct": 79.6,
   "context": "2008-11-04 general",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presgen-08/county.pdf"
  },
  {
   "date": "2009-02-10",
@@ -241,7 +266,8 @@
   "pct": 78.0,
   "context": "2009 odd-year",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-09/county.pdf"
  },
  {
   "date": "2010-05-24",
@@ -250,7 +276,8 @@
   "pct": 72.5,
   "context": "2010-06-08 primary",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-prim-10/county.pdf"
  },
  {
   "date": "2010-10-18",
@@ -259,7 +286,8 @@
   "pct": 74.4,
   "context": "2010-11-02 general",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-10/county.pdf"
  },
  {
   "date": "2011-02-10",
@@ -268,7 +296,8 @@
   "pct": 74.9,
   "context": "2011 odd-year",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-11/county.pdf"
  },
  {
   "date": "2013-02-10",
@@ -277,7 +306,8 @@
   "pct": 82.4,
   "context": "2013 odd-year",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-2013/county.pdf"
  },
  {
   "date": "2014-05-19",
@@ -286,7 +316,8 @@
   "pct": 69.9,
   "context": "2014-06-03 primary",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-primary-2014/county.pdf"
  },
  {
   "date": "2014-10-20",
@@ -295,7 +326,8 @@
   "pct": 69.4,
   "context": "2014-11-04 general",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-general-2014/county.pdf"
  },
  {
   "date": "2015-02-10",
@@ -304,7 +336,8 @@
   "pct": 68.9,
   "context": "2015 odd-year",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-2015/county.pdf"
  },
  {
   "date": "2016-05-23",
@@ -313,7 +346,8 @@
   "pct": 71.9,
   "context": "2016-06-07 primary",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/15day-presprim-2016/county.pdf"
  },
  {
   "date": "2016-10-24",
@@ -322,7 +356,8 @@
   "pct": 79.3,
   "context": "2016-11-08 general",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-16/county.pdf"
  },
  {
   "date": "2017-02-10",
@@ -331,7 +366,8 @@
   "pct": 79.1,
   "context": "2017 odd-year",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-2017/county.pdf"
  },
  {
   "date": "2018-05-21",
@@ -340,7 +376,8 @@
   "pct": 73.3,
   "context": "2018-06-05 primary",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/15day-stwddirprim-2018/county.pdf"
  },
  {
   "date": "2018-10-22",
@@ -349,7 +386,8 @@
   "pct": 75.7,
   "context": "2018-11-06 general",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/15day-gen-2018/county.pdf"
  },
  {
   "date": "2019-02-10",
@@ -358,7 +396,8 @@
   "pct": 74.5,
   "context": "2019 odd-year",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2019/county.pdf"
  },
  {
   "date": "2020-02-18",
@@ -367,7 +406,8 @@
   "pct": 76.9,
   "context": "2020-03-03 presidential primary",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/15day-presprim-2020/county.pdf"
  },
  {
   "date": "2020-10-19",
@@ -376,7 +416,8 @@
   "pct": 78.0,
   "context": "2020-11-03 general",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/15day-gen-2020/county.pdf"
  },
  {
   "date": "2021-02-10",
@@ -385,7 +426,8 @@
   "pct": 76.5,
   "context": "2021 odd-year",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2021/county.pdf"
  },
  {
   "date": "2021-08-30",
@@ -394,7 +436,8 @@
   "pct": 78.6,
   "context": "2021-09-14 recall",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/15day-recall-2021/county.pdf"
  },
  {
   "date": "2022-05-23",
@@ -403,7 +446,8 @@
   "pct": 75.0,
   "context": "2022-06-07 primary",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/15day-primary-2022/county.pdf"
  },
  {
   "date": "2022-10-24",
@@ -412,7 +456,8 @@
   "pct": 75.5,
   "context": "2022-11-08 general",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/15day-general-2022/county.pdf"
  },
  {
   "date": "2023-02-10",
@@ -421,7 +466,8 @@
   "pct": 76.8,
   "context": "2023 odd-year",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2023/county.pdf"
  },
  {
   "date": "2024-02-20",
@@ -430,7 +476,8 @@
   "pct": 77.2,
   "context": "2024-03-05 presidential primary",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/15day-presprim-2024/county.pdf"
  },
  {
   "date": "2024-10-21",
@@ -439,7 +486,8 @@
   "pct": 78.4,
   "context": "2024-11-05 general",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/15day-gen-2024/county.pdf"
  },
  {
   "date": "2025-02-10",
@@ -448,7 +496,8 @@
   "pct": 79.7,
   "context": "2025 odd-year",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2025/county.pdf"
  },
  {
   "date": "2025-10-20",
@@ -457,7 +506,8 @@
   "pct": 80.6,
   "context": "2025-11-04 special",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/15day-special-2025/county.pdf"
  },
  {
   "date": "2026-05-18",
@@ -466,6 +516,7 @@
   "pct": 81.0,
   "context": "2026-06-02 primary",
   "source": "sos-ror",
-  "recovered": false
+  "recovered": false,
+  "url": "https://elections.cdn.sos.ca.gov/ror/15day-primary-2026/county.pdf"
  }
 ]
