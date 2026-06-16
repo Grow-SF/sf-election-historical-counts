@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export const metadata = { title: "Sources — The Long Count" };
 
-type Obs = { date: string; days: number; night?: boolean; total: number; pct: number; label: string; citation: string };
-type Src = { id: string; name: string; final: number; finalSource: string; observations: Obs[] };
+type Obs = { date: string; days?: number; night?: boolean; total: number; pct: number; label: string; citation: string };
+type Src = { id: string; name: string; final?: number; summary?: string; finalSource: string; observations: Obs[] };
 
 function Linkify({ text }: { text: string }) {
   const parts = text.split(/(https?:\/\/[^\s)]+)/g);
@@ -60,13 +60,16 @@ export default function SourcesPage() {
               {s.id} <span className="font-normal text-faint">— {s.name}</span>
             </h2>
             <p className="smallcaps mt-1 text-faint">
-              certified final {s.final.toLocaleString()} · {s.finalSource}
+              {s.final != null
+                ? `certified final ${s.final.toLocaleString()}`
+                : s.summary}{" "}
+              · {s.finalSource}
             </p>
             <ul className="mt-3 space-y-2 text-sm leading-relaxed">
               {s.observations.map((o, i) => (
                 <li key={i} className="grid gap-x-4 sm:grid-cols-[7.5rem_1fr]">
                   <span className="stat-figure whitespace-nowrap text-faint">
-                    {o.night ? "night" : `day ${o.days}`} · {o.pct}%
+                    {o.night ? "night" : o.days != null ? `day ${o.days}` : "registered"} · {o.pct}%
                   </span>
                   <span>
                     <strong>{o.label}.</strong> <Linkify text={o.citation} />

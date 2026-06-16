@@ -379,39 +379,9 @@ def main():
     F.write_text(json.dumps(fl, indent=1))
     print(f"{len(fl)} night-floor points -> {F}")
 
-    # Dates whose only record is the certified turnout split still have a
-    # primary source. Add a source entry for each that isn't already a
-    # recovered-count election, so sources.json documents every plotted point.
-    # No election name is invented: we only have the date, the certified ballots
-    # cast, and the in-person (precinct) floor, all from the Department's
-    # turnout figures.
-    SRC_LABELS = {
-        "doe-turnout-history": "SF Dept. of Elections turnout history (1960–2002)",
-        "certified-sov": "Certified Statement of Vote (CA Secretary of State / SF Dept. of Elections)",
-        "doe-turnout-table": "SF Dept. of Elections historical turnout table (1899–2019)",
-    }
-    have_src = {s["id"] for s in sources}
-    for date, fp in floor.items():
-        if date in have_src or date not in floor_meta:
-            continue
-        meta = floor_meta[date]
-        label = SRC_LABELS.get(fp["source"], fp["source"])
-        sources.append({
-            "id": date,
-            "name": "Certified turnout record — night count not yet recovered",
-            "final": meta["final"],
-            "finalSource": label,
-            "observations": [{
-                "date": date, "days": 0, "night": True,
-                "total": meta["prec"], "pct": fp["floorPct"],
-                "label": ("election-night floor — in-person (precinct) share of the "
-                          "certified total"),
-                "citation": label,
-            }],
-        })
-    sources.sort(key=lambda s: s["id"], reverse=True)
-    (OUT.parent / "sources.json").write_text(json.dumps(sources, indent=1))
-    print(f"{len(sources)} election source records -> sources.json")
+    # sources.json is assembled and written at the very end of main() — once the
+    # turnout, registration, and franchise-funnel series exist — so EVERY plotted
+    # datapoint gets a provenance record, not just the recovered-count elections.
 
     # ---- turnout-of-registered series, 1899-2026 ("did the franchise expand?")
     # Ballots cast as a share of registered voters, one point per election.
@@ -465,7 +435,8 @@ def main():
                                 "registered": int(r["registered"]),
                                 "pct": float(r["pct_registered_of_eligible"]),
                                 "context": r["election_context"],
-                                "source": "sos-ror", "recovered": False})
+                                "source": "sos-ror", "recovered": False,
+                                "url": r.get("source_url", "")})
     # pre-2000 points recovered from printed Statement of Vote participation
     # tables (archive.org), read off page-image crops and pending hand-verification.
     # `confidence: low` marks figures that look anomalous in the source itself
@@ -480,7 +451,8 @@ def main():
                                 "pct": float(r["pct_registered_of_eligible"]),
                                 "context": r["election_context"],
                                 "source": "sov-print", "recovered": True,
-                                "confidence": r["confidence"]})
+                                "confidence": r["confidence"],
+                                "url": r.get("source_url", "")})
     if regelig:
         regelig.sort(key=lambda x: x["date"])
         R = OUT.parent / "registration_eligible.json"
@@ -494,6 +466,7 @@ def main():
     # then the SoS-published eligible; registered/voted are the real per-election
     # figures. The bands between layers are the story: children, NON-CITIZENS,
     # the unregistered, and non-voters.
+    funnel = []  # franchise-funnel points (filled below when census data exists)
     census = {}  # year -> (pop, vap, citizen_elig|None)
     vap_path = ROOT / "data" / "sf_eligible_vap_estimate.csv"
     if vap_path.exists():
@@ -536,6 +509,74 @@ def main():
         F2 = OUT.parent / "franchise_funnel.json"
         F2.write_text(json.dumps(funnel, indent=1))
         print(f"{len(funnel)} franchise-funnel points -> {F2}")
+
+    # ---- sources.json: ONE provenance record for every plotted datapoint.
+    # Recovered-count elections were built above; here we add every remaining
+    # series so nothing on a chart is unsourced. No election names are invented
+    # where the source carries none.
+    SRC_LABELS = {
+        "doe-turnout-history": "SF Dept. of Elections turnout history (1960–2002)",
+        "certified-sov": "Certified Statement of Vote (CA Secretary of State / SF Dept. of Elections)",
+        "doe-turnout-table": "SF Dept. of Elections historical turnout table (1899–2019)",
+    }
+    have = {s["id"] for s in sources}
+    # (a) certified turnout dates without a recovered night count: the in-person
+    #     floor (where the precinct/mail split exists) or the turnout figure
+    for date, fp in sorted(floor.items()):
+        if date in have or date not in floor_meta:
+            continue
+        meta = floor_meta[date]
+        label = SRC_LABELS.get(fp["source"], fp["source"])
+        sources.append({
+            "id": date,
+            "name": "Certified turnout record — night count not yet recovered",
+            "final": meta["final"], "finalSource": label,
+            "observations": [{"date": date, "days": 0, "night": True,
+                "total": meta["prec"], "pct": fp["floorPct"],
+                "label": "election-night floor — in-person (precinct) share of the certified total",
+                "citation": label}]})
+        have.add(date)
+    for tp in sorted(turnout.values(), key=lambda x: x["date"]):
+        if tp["date"] in have:
+            continue
+        label = SRC_LABELS.get(tp["source"], tp["source"])
+        sources.append({
+            "id": tp["date"],
+            "name": "Certified turnout record — night count not yet recovered",
+            "summary": f"{tp['ballots']:,} ballots cast, {tp['turnoutPct']}% of {tp['registered']:,} registered",
+            "finalSource": label, "observations": []})
+        have.add(tp["date"])
+    # (b) registration vs eligible: each cited to its own Report of Registration
+    #     (SoS) or printed Statement of Vote, by URL
+    REG_DOC = {"sos-ror": "California Secretary of State — Report of Registration",
+               "sov-print": "Statement of Vote — participation table"}
+    for p in regelig:
+        if p["date"] in have:
+            continue
+        doc = REG_DOC.get(p["source"], p["source"])
+        sources.append({
+            "id": p["date"], "name": doc,
+            "summary": f"{p['registered']:,} registered of {p['eligible']:,} eligible citizens ({p['pct']}%) — {p['context']}",
+            "finalSource": doc,
+            "observations": [{"date": p["date"], "night": False,
+                "total": p["registered"], "pct": p["pct"],
+                "label": "registered ÷ eligible citizens",
+                "citation": p.get("url") or doc}]})
+        have.add(p["date"])
+    # (c) franchise funnel: decennial-census bands (IPUMS NHGIS), registered /
+    #     voted from the per-election records above
+    for fr in funnel:
+        sources.append({
+            "id": f"funnel-{fr['year']}",
+            "name": f"{fr['year']} franchise composition (decennial census)",
+            "summary": (f"population {fr['population']:,}; voting-age {fr['vap']:,}; "
+                        f"eligible citizens {fr['eligible']:,}; registered {fr['registered']:,}; "
+                        f"voted {fr['voted']:,}"),
+            "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+            "observations": []})
+    sources.sort(key=lambda s: s["id"], reverse=True)
+    (OUT.parent / "sources.json").write_text(json.dumps(sources, indent=1))
+    print(f"{len(sources)} source records -> sources.json")
 
 
 if __name__ == "__main__":

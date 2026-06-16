@@ -1,5 +1,215 @@
 [
  {
+  "id": "funnel-2024",
+  "name": "2024 franchise composition (decennial census)",
+  "summary": "population 870,014; voting-age 760,738; eligible citizens 663,453; registered 522,265; voted 412,231",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-2020",
+  "name": "2020 franchise composition (decennial census)",
+  "summary": "population 870,014; voting-age 760,738; eligible citizens 668,567; registered 521,099; voted 449,866",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-2016",
+  "name": "2016 franchise composition (decennial census)",
+  "summary": "population 844,102; voting-age 735,527; eligible citizens 646,945; registered 513,573; voted 414,528",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-2012",
+  "name": "2012 franchise composition (decennial census)",
+  "summary": "population 818,191; voting-age 710,316; eligible citizens 612,758; registered 502,841; voted 364,875",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-2008",
+  "name": "2008 franchise composition (decennial census)",
+  "summary": "population 799,660; voting-age 690,955; eligible citizens 599,667; registered 477,651; voted 388,112",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-2004",
+  "name": "2004 franchise composition (decennial census)",
+  "summary": "population 788,510; voting-age 677,443; eligible citizens 571,538; registered 486,937; voted 361,822",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-2000",
+  "name": "2000 franchise composition (decennial census)",
+  "summary": "population 777,360; voting-age 663,931; eligible citizens 524,404; registered 486,636; voted 324,031",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1996",
+  "name": "1996 franchise composition (decennial census)",
+  "summary": "population 756,000; voting-age 641,189; eligible citizens 479,127; registered 481,902; voted 298,648",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1992",
+  "name": "1992 franchise composition (decennial census)",
+  "summary": "population 734,639; voting-age 618,447; eligible citizens 478,079; registered 477,726; voted 329,695",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1988",
+  "name": "1988 franchise composition (decennial census)",
+  "summary": "population 714,962; voting-age 598,133; eligible citizens 554,796; registered 435,536; voted 292,097",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1984",
+  "name": "1984 franchise composition (decennial census)",
+  "summary": "population 696,968; voting-age 580,248; eligible citizens 484,645; registered 424,091; voted 298,517",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1980",
+  "name": "1980 franchise composition (decennial census)",
+  "summary": "population 678,974; voting-age 562,363; eligible citizens 492,546; registered 407,982; voted 268,070",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1976",
+  "name": "1976 franchise composition (decennial census)",
+  "summary": "population 693,654; voting-age 545,251; eligible citizens 468,560; registered 345,954; voted 252,932",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1972",
+  "name": "1972 franchise composition (decennial census)",
+  "summary": "population 708,334; voting-age 528,139; eligible citizens 464,132; registered 426,338; voted 316,803",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1968",
+  "name": "1968 franchise composition (decennial census)",
+  "summary": "population 720,602; voting-age 521,943; eligible citizens 467,728; registered 374,335; voted 307,012",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1964",
+  "name": "1964 franchise composition (decennial census)",
+  "summary": "population 730,459; voting-age 526,662; eligible citizens 479,347; registered 389,990; voted 331,612",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1960",
+  "name": "1960 franchise composition (decennial census)",
+  "summary": "population 740,316; voting-age 531,381; eligible citizens 490,965; registered 404,613; voted 348,290",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1956",
+  "name": "1956 franchise composition (decennial census)",
+  "summary": "population 754,332; voting-age 553,009; eligible citizens 516,247; registered 397,385; voted 342,652",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1952",
+  "name": "1952 franchise composition (decennial census)",
+  "summary": "population 768,349; voting-age 574,638; eligible citizens 541,530; registered 431,959; voted 365,972",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1948",
+  "name": "1948 franchise composition (decennial census)",
+  "summary": "population 747,193; voting-age 566,956; eligible citizens 532,014; registered 459,769; voted 359,134",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1944",
+  "name": "1944 franchise composition (decennial census)",
+  "summary": "population 690,864; voting-age 529,963; eligible citizens 487,700; registered 405,921; voted 352,409",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1940",
+  "name": "1940 franchise composition (decennial census)",
+  "summary": "population 634,536; voting-age 492,970; eligible citizens 443,386; registered 383,845; voted 315,518",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1936",
+  "name": "1936 franchise composition (decennial census)",
+  "summary": "population 634,479; voting-age 485,917; eligible citizens 426,476; registered 314,990; voted 269,387",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1932",
+  "name": "1932 franchise composition (decennial census)",
+  "summary": "population 634,422; voting-age 478,864; eligible citizens 409,567; registered 273,487; voted 227,283",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1928",
+  "name": "1928 franchise composition (decennial census)",
+  "summary": "population 608,850; voting-age 453,516; eligible citizens 381,717; registered 253,053; voted 199,665",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1924",
+  "name": "1924 franchise composition (decennial census)",
+  "summary": "population 557,763; voting-age 409,871; eligible citizens 342,926; registered 219,434; voted 159,649",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1920",
+  "name": "1920 franchise composition (decennial census)",
+  "summary": "population 506,676; voting-age 366,227; eligible citizens 304,136; registered 210,024; voted 154,592",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1916",
+  "name": "1916 franchise composition (decennial census)",
+  "summary": "population 470,770; voting-age 290,117; eligible citizens 235,682; registered 184,819; voted 155,747",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1912",
+  "name": "1912 franchise composition (decennial census)",
+  "summary": "population 434,865; voting-age 214,006; eligible citizens 167,227; registered 134,688; voted 105,646",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1908",
+  "name": "1908 franchise composition (decennial census)",
+  "summary": "population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75,467; voted 41,137",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
   "id": "2026-06-02",
   "name": "Consolidated Statewide Direct Primary Election",
   "final": 259288,
@@ -49,6 +259,22 @@
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
     "citation": "per-release summary report, reported 2026-06-09T15:58:14 - https://www.sfelections.org/results/20260602/data/20260609/summary.xml (validated against certified totals)"
+   }
+  ]
+ },
+ {
+  "id": "2026-05-18",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "533,629 registered of 658,495 eligible citizens (81.0%) \u2014 2026-06-02 primary",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2026-05-18",
+    "night": false,
+    "total": 533629,
+    "pct": 81.0,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/15day-primary-2026/county.pdf"
    }
   ]
  },
@@ -115,6 +341,22 @@
   ]
  },
  {
+  "id": "2025-10-20",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "532,195 registered of 660,000 eligible citizens (80.6%) \u2014 2025-11-04 special",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2025-10-20",
+    "night": false,
+    "total": 532195,
+    "pct": 80.6,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/15day-special-2025/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2025-09-16",
   "name": "Special Recall Election",
   "final": 21542,
@@ -146,6 +388,22 @@
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
     "citation": "per-release summary report, reported 2025-09-25T15:20:15 - https://www.sfelections.org/results/20250916/data/20250925/summary.xml (validated against certified totals)"
+   }
+  ]
+ },
+ {
+  "id": "2025-02-10",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "529,104 registered of 663,658 eligible citizens (79.7%) \u2014 2025 odd-year",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2025-02-10",
+    "night": false,
+    "total": 529104,
+    "pct": 79.7,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2025/county.pdf"
    }
   ]
  },
@@ -293,6 +551,22 @@
   ]
  },
  {
+  "id": "2024-10-21",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "520,203 registered of 663,453 eligible citizens (78.4%) \u2014 2024-11-05 general",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2024-10-21",
+    "night": false,
+    "total": 520203,
+    "pct": 78.4,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/15day-gen-2024/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2024-03-05",
   "name": "Presidential Primary Election",
   "final": 233465,
@@ -405,6 +679,38 @@
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
     "citation": "per-release summary report, reported 2024-03-22T15:39:52 - https://www.sfelections.org/results/20240305/data/20240322/summary.xml (validated against certified totals)"
+   }
+  ]
+ },
+ {
+  "id": "2024-02-20",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "501,463 registered of 649,207 eligible citizens (77.2%) \u2014 2024-03-05 presidential primary",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2024-02-20",
+    "night": false,
+    "total": 501463,
+    "pct": 77.2,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/15day-presprim-2024/county.pdf"
+   }
+  ]
+ },
+ {
+  "id": "2023-02-10",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "501,970 registered of 653,715 eligible citizens (76.8%) \u2014 2023 odd-year",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2023-02-10",
+    "night": false,
+    "total": 501970,
+    "pct": 76.8,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2023/county.pdf"
    }
   ]
  },
@@ -534,6 +840,22 @@
   ]
  },
  {
+  "id": "2022-10-24",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "498,197 registered of 660,132 eligible citizens (75.5%) \u2014 2022-11-08 general",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2022-10-24",
+    "night": false,
+    "total": 498197,
+    "pct": 75.5,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/15day-general-2022/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2022-06-07",
   "name": "Consolidated Statewide Direct Primary Election",
   "final": 229229,
@@ -610,6 +932,22 @@
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
     "citation": "per-release summary report, reported 2022-06-22T15:37:28 - https://www.sfelections.org/results/20220607/data/20220621/summary.xml (validated against certified totals)"
+   }
+  ]
+ },
+ {
+  "id": "2022-05-23",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "496,649 registered of 662,363 eligible citizens (75.0%) \u2014 2022-06-07 primary",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2022-05-23",
+    "night": false,
+    "total": 496649,
+    "pct": 75.0,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/15day-primary-2022/county.pdf"
    }
   ]
  },
@@ -827,6 +1165,38 @@
   ]
  },
  {
+  "id": "2021-08-30",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "503,841 registered of 641,338 eligible citizens (78.6%) \u2014 2021-09-14 recall",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2021-08-30",
+    "night": false,
+    "total": 503841,
+    "pct": 78.6,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/15day-recall-2021/county.pdf"
+   }
+  ]
+ },
+ {
+  "id": "2021-02-10",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "513,247 registered of 671,063 eligible citizens (76.5%) \u2014 2021 odd-year",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2021-02-10",
+    "night": false,
+    "total": 513247,
+    "pct": 76.5,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2021/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2020-11-03",
   "name": "Consolidated General Election",
   "final": 449866,
@@ -961,6 +1331,22 @@
   ]
  },
  {
+  "id": "2020-10-19",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "521,771 registered of 668,567 eligible citizens (78.0%) \u2014 2020-11-03 general",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2020-10-19",
+    "night": false,
+    "total": 521771,
+    "pct": 78.0,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/15day-gen-2020/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2020-03-03",
   "name": "Presidential Primary Election",
   "final": 305184,
@@ -1068,6 +1454,22 @@
   ]
  },
  {
+  "id": "2020-02-18",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "505,246 registered of 656,600 eligible citizens (76.9%) \u2014 2020-03-03 presidential primary",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2020-02-18",
+    "night": false,
+    "total": 505246,
+    "pct": 76.9,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/15day-presprim-2020/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2019-11-05",
   "name": "Consolidated Municipal Election",
   "final": 206122,
@@ -1162,6 +1564,22 @@
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
     "citation": "per-release summary report, reported 2019-11-26T15:39:22 - https://www.sfelections.org/results/20191105/data/20191125/summary.xml (validated against certified totals)"
+   }
+  ]
+ },
+ {
+  "id": "2019-02-10",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "493,455 registered of 662,489 eligible citizens (74.5%) \u2014 2019 odd-year",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2019-02-10",
+    "night": false,
+    "total": 493455,
+    "pct": 74.5,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2019/county.pdf"
    }
   ]
  },
@@ -1318,6 +1736,22 @@
   ]
  },
  {
+  "id": "2018-10-22",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "500,051 registered of 660,296 eligible citizens (75.7%) \u2014 2018-11-06 general",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2018-10-22",
+    "night": false,
+    "total": 500051,
+    "pct": 75.7,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/15day-gen-2018/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2018-06-05",
   "name": "Consolidated Statewide Primary Election",
   "final": 253583,
@@ -1448,6 +1882,38 @@
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
     "citation": "per-release summary report, reported 2018-06-27T15:54:03 - https://www.sfelections.org/results/20180605/data/20180627/summary.txt (validated against certified totals)"
+   }
+  ]
+ },
+ {
+  "id": "2018-05-21",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "481,977 registered of 657,193 eligible citizens (73.3%) \u2014 2018-06-05 primary",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2018-05-21",
+    "night": false,
+    "total": 481977,
+    "pct": 73.3,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/15day-stwddirprim-2018/county.pdf"
+   }
+  ]
+ },
+ {
+  "id": "2017-02-10",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "513,401 registered of 648,951 eligible citizens (79.1%) \u2014 2017 odd-year",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2017-02-10",
+    "night": false,
+    "total": 513401,
+    "pct": 79.1,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-2017/county.pdf"
    }
   ]
  },
@@ -1631,6 +2097,22 @@
   ]
  },
  {
+  "id": "2016-10-24",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "512,723 registered of 646,945 eligible citizens (79.3%) \u2014 2016-11-08 general",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2016-10-24",
+    "night": false,
+    "total": 512723,
+    "pct": 79.3,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-16/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2016-06-07",
   "name": "Presidential Primary Election",
   "final": 264993,
@@ -1756,6 +2238,22 @@
   ]
  },
  {
+  "id": "2016-05-23",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "462,927 registered of 644,082 eligible citizens (71.9%) \u2014 2016-06-07 primary",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2016-05-23",
+    "night": false,
+    "total": 462927,
+    "pct": 71.9,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/15day-presprim-2016/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2015-11-03",
   "name": "Consolidated Municipal Election",
   "final": 203069,
@@ -1872,6 +2370,22 @@
   ]
  },
  {
+  "id": "2015-02-10",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "432,799 registered of 628,002 eligible citizens (68.9%) \u2014 2015 odd-year",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2015-02-10",
+    "night": false,
+    "total": 432799,
+    "pct": 68.9,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-2015/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2014-11-04",
   "name": "Consolidated General Election",
   "final": 231214,
@@ -1920,6 +2434,22 @@
   ]
  },
  {
+  "id": "2014-10-20",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "433,844 registered of 625,446 eligible citizens (69.4%) \u2014 2014-11-04 general",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2014-10-20",
+    "night": false,
+    "total": 433844,
+    "pct": 69.4,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-general-2014/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2014-06-03",
   "name": "Consolidated Statewide Direct Primary",
   "final": 129399,
@@ -1944,6 +2474,22 @@
   ]
  },
  {
+  "id": "2014-05-19",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "434,922 registered of 622,063 eligible citizens (69.9%) \u2014 2014-06-03 primary",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2014-05-19",
+    "night": false,
+    "total": 434922,
+    "pct": 69.9,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-primary-2014/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2013-11-05",
   "name": "Consolidated Municipal Election",
   "final": 128937,
@@ -1964,6 +2510,22 @@
     "pct": 100.0,
     "label": "Wayback Machine capture",
     "citation": "https://web.archive.org/web/20131203165834/http://www.sfelections.org/results/20131105/"
+   }
+  ]
+ },
+ {
+  "id": "2013-02-10",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "497,663 registered of 604,155 eligible citizens (82.4%) \u2014 2013 odd-year",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2013-02-10",
+    "night": false,
+    "total": 497663,
+    "pct": 82.4,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-2013/county.pdf"
    }
   ]
  },
@@ -2112,6 +2674,22 @@
   ]
  },
  {
+  "id": "2011-02-10",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "465,587 registered of 621,362 eligible citizens (74.9%) \u2014 2011 odd-year",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2011-02-10",
+    "night": false,
+    "total": 465587,
+    "pct": 74.9,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-11/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2010-11-02",
   "name": "Consolidated General Election",
   "final": 284625,
@@ -2136,6 +2714,22 @@
   ]
  },
  {
+  "id": "2010-10-18",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "461,768 registered of 620,651 eligible citizens (74.4%) \u2014 2010-11-02 general",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2010-10-18",
+    "night": false,
+    "total": 461768,
+    "pct": 74.4,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-10/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2010-06-08",
   "name": "Consolidated Statewide Direct Primary",
   "final": 155533,
@@ -2156,6 +2750,22 @@
     "pct": 71.5,
     "label": "Wayback Machine capture",
     "citation": "https://web.archive.org/web/20100610232550/http://sfelections.org:80/results/20100608/summary.php"
+   }
+  ]
+ },
+ {
+  "id": "2010-05-24",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "447,985 registered of 617,885 eligible citizens (72.5%) \u2014 2010-06-08 primary",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2010-05-24",
+    "night": false,
+    "total": 447985,
+    "pct": 72.5,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-prim-10/county.pdf"
    }
   ]
  },
@@ -2208,6 +2818,22 @@
   ]
  },
  {
+  "id": "2009-02-10",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "469,580 registered of 602,368 eligible citizens (78.0%) \u2014 2009 odd-year",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2009-02-10",
+    "night": false,
+    "total": 469580,
+    "pct": 78.0,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-09/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2008-11-04",
   "name": "Consolidated General Election",
   "final": 388112,
@@ -2228,6 +2854,22 @@
     "pct": 100.0,
     "label": "Elections Commission minutes",
     "citation": "Elections Commission minutes 2008-12-17 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=95751.html): officially certified December 2 2008; Board declared December 9"
+   }
+  ]
+ },
+ {
+  "id": "2008-10-20",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "477,356 registered of 599,667 eligible citizens (79.6%) \u2014 2008-11-04 general",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2008-10-20",
+    "night": false,
+    "total": 477356,
+    "pct": 79.6,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presgen-08/county.pdf"
    }
   ]
  },
@@ -2268,6 +2910,22 @@
     "pct": 96.9,
     "label": "Wayback Machine capture",
     "citation": "DOE Election Summary page (live), 'Last Updated: June 13 2008 12:08 PM': ED 78,406 + VBM 89,312 = 167,718 - https://web.archive.org/web/20080616155545/http://www.sfgov.org/site/elections_index.asp?id=70719"
+   }
+  ]
+ },
+ {
+  "id": "2008-05-19",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "430,259 registered of 594,741 eligible citizens (72.3%) \u2014 2008-06-03 primary",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2008-05-19",
+    "night": false,
+    "total": 430259,
+    "pct": 72.3,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-stwddirprim-08/county.pdf"
    }
   ]
  },
@@ -2345,6 +3003,22 @@
   ]
  },
  {
+  "id": "2008-01-22",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "415,761 registered of 592,185 eligible citizens (70.2%) \u2014 2008-02-05 presidential primary",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2008-01-22",
+    "night": false,
+    "total": 415761,
+    "pct": 70.2,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presprim-08/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2007-11-06",
   "name": "Consolidated Municipal Election",
   "final": 149465,
@@ -2373,6 +3047,22 @@
     "pct": 100.0,
     "label": "Elections Commission minutes",
     "citation": "Elections Commission minutes 2008-01-16 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=51883.html): election certified December 11"
+   }
+  ]
+ },
+ {
+  "id": "2007-02-10",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "418,567 registered of 579,885 eligible citizens (72.2%) \u2014 2007 odd-year",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2007-02-10",
+    "night": false,
+    "total": 418567,
+    "pct": 72.2,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-07/county.pdf"
    }
   ]
  },
@@ -2409,6 +3099,22 @@
   ]
  },
  {
+  "id": "2006-10-23",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "418,285 registered of 577,544 eligible citizens (72.4%) \u2014 2006-11-07 general",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2006-10-23",
+    "night": false,
+    "total": 418285,
+    "pct": 72.4,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-06/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2006-06-06",
   "name": "Consolidated Primary Election",
   "final": 156272,
@@ -2429,6 +3135,22 @@
     "pct": 100.0,
     "label": "Elections Commission minutes",
     "citation": "Elections Commission minutes 2006-07-19 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=42915.html): canvass completed, election certified Monday July 3"
+   }
+  ]
+ },
+ {
+  "id": "2006-05-22",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "421,094 registered of 575,791 eligible citizens (73.1%) \u2014 2006-06-06 primary",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2006-05-22",
+    "night": false,
+    "total": 421094,
+    "pct": 73.1,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-prim-06/county.pdf"
    }
   ]
  },
@@ -2497,6 +3219,38 @@
   ]
  },
  {
+  "id": "2005-10-24",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "427,539 registered of 578,065 eligible citizens (74.0%) \u2014 2005-11-08 special",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2005-10-24",
+    "night": false,
+    "total": 427539,
+    "pct": 74.0,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-spstwd-05/county.pdf"
+   }
+  ]
+ },
+ {
+  "id": "2005-02-10",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "477,745 registered of 574,413 eligible citizens (83.2%) \u2014 2005 odd-year",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2005-02-10",
+    "night": false,
+    "total": 477745,
+    "pct": 83.2,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-05/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2004-11-02",
   "name": "Consolidated General Election",
   "final": 361822,
@@ -2529,6 +3283,22 @@
   ]
  },
  {
+  "id": "2004-10-18",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "486,822 registered of 571,538 eligible citizens (85.2%) \u2014 2004-11-02 general",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2004-10-18",
+    "night": false,
+    "total": 486822,
+    "pct": 85.2,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presgen-04/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2004-03-02",
   "name": "Consolidated Primary Election",
   "final": 190828,
@@ -2549,6 +3319,22 @@
     "pct": 100.0,
     "label": "Elections Commission minutes",
     "citation": "Elections Commission minutes 2004-05-19 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=24595.html): election certified March 25, 2004"
+   }
+  ]
+ },
+ {
+  "id": "2004-02-17",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "448,948 registered of 570,808 eligible citizens (78.7%) \u2014 2004-03-02 presidential primary",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2004-02-17",
+    "night": false,
+    "total": 448948,
+    "pct": 78.7,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presprim-04/county.pdf"
    }
   ]
  },
@@ -2613,6 +3399,38 @@
     "pct": 100.0,
     "label": "Wayback Machine capture",
     "citation": "DOE Neighborhood Statistics page (wayback 20031028, election_index.asp?id=19598), 'RUN DATE:10/22/03 03:26 PM', 563 of 563 precincts: 269,143 ballots (59.16% of 454,929) - matches certified final; count complete by day 15"
+   }
+  ]
+ },
+ {
+  "id": "2003-09-22",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "454,931 registered of 580,024 eligible citizens (78.4%) \u2014 2003-10-07 recall",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2003-09-22",
+    "night": false,
+    "total": 454931,
+    "pct": 78.4,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-stwdsp-03/county.pdf"
+   }
+  ]
+ },
+ {
+  "id": "2003-02-10",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "434,603 registered of 576,427 eligible citizens (75.4%) \u2014 2003 odd-year",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2003-02-10",
+    "night": false,
+    "total": 434603,
+    "pct": 75.4,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-03/county.pdf"
    }
   ]
  },
@@ -2689,6 +3507,22 @@
   ]
  },
  {
+  "id": "2002-10-21",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "449,396 registered of 574,619 eligible citizens (78.2%) \u2014 2002-11-05 general",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2002-10-21",
+    "night": false,
+    "total": 449396,
+    "pct": 78.2,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-02/county.pdf"
+   }
+  ]
+ },
+ {
   "id": "2002-03-05",
   "name": "Consolidated Primary Election",
   "final": 150249,
@@ -2733,6 +3567,22 @@
     "pct": 100.0,
     "label": "Wayback Machine capture",
     "citation": "https://web.archive.org/web/20020416181609/http://www.sfgov.org:80/election/results0302/statistics.htm"
+   }
+  ]
+ },
+ {
+  "id": "2002-02-19",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "440,016 registered of 576,971 eligible citizens (76.3%) \u2014 2002-03-05 primary",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2002-02-19",
+    "night": false,
+    "total": 440016,
+    "pct": 76.3,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-prim-02/county.pdf"
    }
   ]
  },
@@ -2821,6 +3671,22 @@
     "pct": 100.0,
     "label": "Wayback Machine capture",
     "citation": "https://web.archive.org/web/20011204183320/http://www.ci.sf.ca.us:80/election/results01/results.htm"
+   }
+  ]
+ },
+ {
+  "id": "2001-02-10",
+  "name": "California Secretary of State \u2014 Report of Registration",
+  "summary": "463,994 registered of 535,723 eligible citizens (86.6%) \u2014 2001 odd-year",
+  "finalSource": "California Secretary of State \u2014 Report of Registration",
+  "observations": [
+   {
+    "date": "2001-02-10",
+    "night": false,
+    "total": 463994,
+    "pct": 86.6,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-01/county.pdf"
    }
   ]
  },
@@ -3085,6 +3951,22 @@
     "pct": 93.4,
     "label": "SF Chronicle via NewsBank (SFPL)",
     "citation": "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F778AD67824B): largest contest YES 160787 + NO 118085 = 278,872 at complete table - conservative night floor (largest-contest sum, undervote uncounted) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F778AD67824B"
+   }
+  ]
+ },
+ {
+  "id": "1996-10-25",
+  "name": "Statement of Vote \u2014 participation table",
+  "summary": "482,541 registered of 479,127 eligible citizens (100.7%) \u2014 Oct 1996 (SoS Bill Jones via Contra Costa Times)",
+  "finalSource": "Statement of Vote \u2014 participation table",
+  "observations": [
+   {
+    "date": "1996-10-25",
+    "night": false,
+    "total": 482541,
+    "pct": 100.7,
+    "label": "registered \u00f7 eligible citizens",
+    "citation": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1063FBAA6480CFD4"
    }
   ]
  },
@@ -4113,6 +4995,13 @@
   ]
  },
  {
+  "id": "1944-11-07",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "352,409 ballots cast, 86.8% of 405,921 registered",
+  "finalSource": "SF Dept. of Elections historical turnout table (1899\u20132019)",
+  "observations": []
+ },
+ {
   "id": "1942-11-03",
   "name": "General Election",
   "final": 230129,
@@ -4175,6 +5064,13 @@
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1936-11-04 PRESIDENT SF sum=242619, 1055/1055 precincts, COMPLETE; scan sweep_19361103_issue19361104_p1_s1; conf=high; ROOSEVELT-182159-LANDON-60460-from-image; regular-morning-edition; complete-semiofficial-returns"
    }
   ]
+ },
+ {
+  "id": "1934-11-06",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "166,133 ballots cast, 57.2% of 290,683 registered",
+  "finalSource": "SF Dept. of Elections historical turnout table (1899\u20132019)",
+  "observations": []
  },
  {
   "id": "1932-11-08",
@@ -4289,6 +5185,13 @@
   ]
  },
  {
+  "id": "1918-11-05",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "103,011 ballots cast, 58.8% of 175,109 registered",
+  "finalSource": "SF Dept. of Elections historical turnout table (1899\u20132019)",
+  "observations": []
+ },
+ {
   "id": "1916-11-07",
   "name": "Presidential General Election",
   "final": 155747,
@@ -4367,5 +5270,33 @@
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1908-11-04 PRES SF sum=36450, 300/300 precincts, complete; scan sweep_19081103_issue19081104_p5_s1; conf=low; image-read:Taft~20816+Bryan~15634=36450;minor-parties-not-readable-from-crop;300-precincts=all-SF;39816-is-1904-comparison-col"
    }
   ]
+ },
+ {
+  "id": "1903-10-08",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "25,275 ballots cast, 34.3% of 73,702 registered",
+  "finalSource": "SF Dept. of Elections historical turnout table (1899\u20132019)",
+  "observations": []
+ },
+ {
+  "id": "1903-09-29",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "27,308 ballots cast, 37.1% of 73,540 registered",
+  "finalSource": "SF Dept. of Elections historical turnout table (1899\u20132019)",
+  "observations": []
+ },
+ {
+  "id": "1902-12-02",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "26,612 ballots cast, 37.6% of 70,764 registered",
+  "finalSource": "SF Dept. of Elections historical turnout table (1899\u20132019)",
+  "observations": []
+ },
+ {
+  "id": "1899-12-02",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "22,331 ballots cast, 31.6% of 70,726 registered",
+  "finalSource": "SF Dept. of Elections historical turnout table (1899\u20132019)",
+  "observations": []
  }
 ]
