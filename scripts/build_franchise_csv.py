@@ -39,6 +39,18 @@ def with_url(label, url):
     return f"{label} ({url})" if url else label
 
 
+def reg_label(source, url):
+    """Classify a registration point by its actual source. `sov-print` lumps two
+    very different things — archived Statements of Vote AND a figure read from a
+    newspaper (NewsBank) — so distinguish them by URL."""
+    u = (url or "").lower()
+    if "newsbank" in u or "/news/" in u:
+        return "Newspaper (via NewsBank)"
+    if source == "sos-ror":
+        return "CA Secretary of State — Report of Registration"
+    return "Statement of Vote — participation table"
+
+
 # ---- close-of-registration registered + election kind (turnout_history.json) ----
 turnout = {t["date"]: t for t in json.load(open(VIZ / "turnout_history.json"))}
 COR_SRC = {
@@ -93,8 +105,7 @@ ror = []
 for x in json.load(open(VIZ / "registration_eligible.json")):
     ror.append({
         "sample": x["date"], "eligible": x["eligible"], "registered": x["registered"],
-        "src": ("CA Secretary of State — Report of Registration"
-                if x["source"] == "sos-ror" else "Statement of Vote — participation table"),
+        "src": reg_label(x["source"], x.get("url", "")),
         "url": x.get("url", ""), "confidence": x.get("confidence", ""),
     })
 ror.sort(key=lambda r: r["sample"])
@@ -114,9 +125,9 @@ def nearest_ror(election_date):
 
 
 COLS = ["election_date", "kind", "sample_date", "eligible", "registered_cor",
-        "registered_ror", "e_day", "vbm", "total", "eligible_source",
-        "registered_cor_source", "registered_ror_source", "e_day_source",
-        "vbm_source", "confidence"]
+        "registered_ror", "total", "e_day", "vbm", "eligible_source",
+        "registered_cor_source", "registered_ror_source", "total_source",
+        "e_day_source", "vbm_source", "confidence"]
 
 rows = []
 for date, t in turnout.items():
@@ -124,6 +135,10 @@ for date, t in turnout.items():
     r = nearest_ror(date)
     e_day = sp["e_day"] if sp else None
     vbm = sp["vbm"] if sp else None
+    cor_src = COR_SRC.get(t.get("source", ""), t.get("source", ""))
+    # total = certified ballots cast (the turnout numerator), known back to 1899;
+    # e_day/vbm are its breakdown, only recorded from ~1960. Where both exist they
+    # sum to total.
     rows.append({
         "election_date": date,
         "kind": t.get("kind", ""),
@@ -131,12 +146,13 @@ for date, t in turnout.items():
         "eligible": r["eligible"] if r else "",
         "registered_cor": t.get("registered", ""),
         "registered_ror": r["registered"] if r else "",
+        "total": t.get("ballots", ""),
         "e_day": e_day if e_day is not None else "",
         "vbm": vbm if vbm is not None else "",
-        "total": (e_day + vbm) if (e_day is not None and vbm is not None) else "",
         "eligible_source": with_url(r["src"], r["url"]) if r else "",
-        "registered_cor_source": COR_SRC.get(t.get("source", ""), t.get("source", "")),
+        "registered_cor_source": cor_src,
         "registered_ror_source": with_url(r["src"], r["url"]) if r else "",
+        "total_source": cor_src,
         "e_day_source": with_url(sp["src"], sp["url"]) if sp else "",
         "vbm_source": with_url(sp["src"], sp["url"]) if sp else "",
         "confidence": r["confidence"] if r else "",

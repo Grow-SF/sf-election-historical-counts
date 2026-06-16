@@ -548,12 +548,19 @@ def main():
         have.add(tp["date"])
     # (b) registration vs eligible: each cited to its own Report of Registration
     #     (SoS) or printed Statement of Vote, by URL
-    REG_DOC = {"sos-ror": "California Secretary of State — Report of Registration",
-               "sov-print": "Statement of Vote — participation table"}
+    # `sov-print` lumps archived Statements of Vote with a newspaper-read figure;
+    # distinguish the newspaper one (NewsBank) by URL so it isn't mislabeled.
+    def reg_doc(source, url):
+        u = (url or "").lower()
+        if "newsbank" in u or "/news/" in u:
+            return "Newspaper (via NewsBank)"
+        if source == "sos-ror":
+            return "California Secretary of State — Report of Registration"
+        return "Statement of Vote — participation table"
     for p in regelig:
         if p["date"] in have:
             continue
-        doc = REG_DOC.get(p["source"], p["source"])
+        doc = reg_doc(p["source"], p.get("url", ""))
         sources.append({
             "id": p["date"], "name": doc,
             "summary": f"{p['registered']:,} registered of {p['eligible']:,} eligible citizens ({p['pct']}%) — {p['context']}",
