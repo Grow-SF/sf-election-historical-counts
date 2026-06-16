@@ -2272,6 +2272,23 @@
   ]
  },
  {
+  "id": "2008-04-08",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "final": 19742,
+  "finalSource": "SF Dept. of Elections historical turnout table (1899\u20132019)",
+  "observations": [
+   {
+    "date": "2008-04-08",
+    "days": 0,
+    "night": true,
+    "total": 5332,
+    "pct": 27.0,
+    "label": "election-night floor \u2014 in-person (precinct) share of the certified total",
+    "citation": "SF Dept. of Elections historical turnout table (1899\u20132019)"
+   }
+  ]
+ },
+ {
   "id": "2008-02-05",
   "name": "Consolidated Presidential Primary",
   "final": 269212,
@@ -3552,6 +3569,23 @@
   ]
  },
  {
+  "id": "1984-06-05",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "final": 180741,
+  "finalSource": "SF Dept. of Elections turnout history (1960\u20132002)",
+  "observations": [
+   {
+    "date": "1984-06-05",
+    "days": 0,
+    "night": true,
+    "total": 151013,
+    "pct": 83.6,
+    "label": "election-night floor \u2014 in-person (precinct) share of the certified total",
+    "citation": "SF Dept. of Elections turnout history (1960\u20132002)"
+   }
+  ]
+ },
+ {
   "id": "1983-11-08",
   "name": "Consolidated Municipal Election",
   "final": 170628,
@@ -3648,6 +3682,57 @@
   ]
  },
  {
+  "id": "1980-08-19",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "final": 140551,
+  "finalSource": "SF Dept. of Elections turnout history (1960\u20132002)",
+  "observations": [
+   {
+    "date": "1980-08-19",
+    "days": 0,
+    "night": true,
+    "total": 119566,
+    "pct": 85.1,
+    "label": "election-night floor \u2014 in-person (precinct) share of the certified total",
+    "citation": "SF Dept. of Elections turnout history (1960\u20132002)"
+   }
+  ]
+ },
+ {
+  "id": "1980-06-03",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "final": 206366,
+  "finalSource": "SF Dept. of Elections turnout history (1960\u20132002)",
+  "observations": [
+   {
+    "date": "1980-06-03",
+    "days": 0,
+    "night": true,
+    "total": 191196,
+    "pct": 92.6,
+    "label": "election-night floor \u2014 in-person (precinct) share of the certified total",
+    "citation": "SF Dept. of Elections turnout history (1960\u20132002)"
+   }
+  ]
+ },
+ {
+  "id": "1979-12-11",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "final": 196341,
+  "finalSource": "SF Dept. of Elections turnout history (1960\u20132002)",
+  "observations": [
+   {
+    "date": "1979-12-11",
+    "days": 0,
+    "night": true,
+    "total": 178347,
+    "pct": 90.8,
+    "label": "election-night floor \u2014 in-person (precinct) share of the certified total",
+    "citation": "SF Dept. of Elections turnout history (1960\u20132002)"
+   }
+  ]
+ },
+ {
   "id": "1979-11-06",
   "name": "Consolidated Municipal Election",
   "final": 204869,
@@ -3712,6 +3797,23 @@
   ]
  },
  {
+  "id": "1977-08-02",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "final": 178367,
+  "finalSource": "SF Dept. of Elections turnout history (1960\u20132002)",
+  "observations": [
+   {
+    "date": "1977-08-02",
+    "days": 0,
+    "night": true,
+    "total": 161622,
+    "pct": 90.6,
+    "label": "election-night floor \u2014 in-person (precinct) share of the certified total",
+    "citation": "SF Dept. of Elections turnout history (1960\u20132002)"
+   }
+  ]
+ },
+ {
   "id": "1976-11-02",
   "name": "Consolidated General Election",
   "final": 252932,
@@ -3724,6 +3826,23 @@
     "pct": 59.1,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1976-11-03 p3 'S.F. Results' box, MID-NIGHT PARTIAL 545 of 935 precincts: Carter 77,452 + Ford 63,186 + others 8,823 = 149,461 - partial night observation, true night-end higher; scan ...19761102_issue19761103_p3.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1567B33B51880894%402443086-15675E4CB1B37F81%4049-15675E4CB1B37F81%40"
+   }
+  ]
+ },
+ {
+  "id": "1976-06-08",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "final": 208884,
+  "finalSource": "SF Dept. of Elections turnout history (1960\u20132002)",
+  "observations": [
+   {
+    "date": "1976-06-08",
+    "days": 0,
+    "night": true,
+    "total": 191684,
+    "pct": 91.8,
+    "label": "election-night floor \u2014 in-person (precinct) share of the certified total",
+    "citation": "SF Dept. of Elections turnout history (1960\u20132002)"
    }
   ]
  },
@@ -3756,6 +3875,23 @@
     "pct": 97.4,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after front-page scoreboard, 'Percent Precincts Reported: 99.19%' of 942: mayor contest sum 209,980 (Moscone 66,195 + Barbagelata 40,540 + Feinstein 39,344 + Ertola 30,360 + Marks 27,910 + 6 minor) - conservative night floor; exceeds certified precinct ballots 206,167 so night count included absentees; digits verified against narrative (Barbagelata-Feinstein gap 1,196 = 'about 1200 votes'); scan flip_19751104_issue19751106_p1.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1514C0BA3874F03C%402442722-1514042FD3C32AF8%403-1514042FD3C32AF8%40"
+   }
+  ]
+ },
+ {
+  "id": "1974-11-05",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "final": 228586,
+  "finalSource": "SF Dept. of Elections turnout history (1960\u20132002)",
+  "observations": [
+   {
+    "date": "1974-11-05",
+    "days": 0,
+    "night": true,
+    "total": 213114,
+    "pct": 93.2,
+    "label": "election-night floor \u2014 in-person (precinct) share of the certified total",
+    "citation": "SF Dept. of Elections turnout history (1960\u20132002)"
    }
   ]
  },
@@ -3812,6 +3948,23 @@
     "pct": 92.3,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), day-after Vote Tally, 1300 of 1351 precincts: president sum 292,341 (McGovern 163,333 + Nixon 122,937 + Schmitz 3,579 + Spock 2,492) - conservative night floor; exceeds certified precinct ballots 289,010, so night count included some absentees; digits independently re-verified (corrected from first-pass OCR); scan flip_19721107_issue19721109_p8.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-15163D2608DF5635%402441630-1513FF7215C3E2C6%405-1513FF7215C3E2C6%40"
+   }
+  ]
+ },
+ {
+  "id": "1972-06-06",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "final": 234840,
+  "finalSource": "SF Dept. of Elections turnout history (1960\u20132002)",
+  "observations": [
+   {
+    "date": "1972-06-06",
+    "days": 0,
+    "night": true,
+    "total": 218176,
+    "pct": 92.9,
+    "label": "election-night floor \u2014 in-person (precinct) share of the certified total",
+    "citation": "SF Dept. of Elections turnout history (1960\u20132002)"
    }
   ]
  },

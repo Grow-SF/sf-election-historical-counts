@@ -241,9 +241,8 @@ def main():
                 sources.append({"id": e["id"], "name": e["name"], "final": e["final"],
                     "finalSource": "SF Dept. of Elections certified results",
                     "observations": ms["obs"]})
-    sources.sort(key=lambda s: s["id"], reverse=True)
-    (OUT.parent / "sources.json").write_text(json.dumps(sources, indent=1))
-    print(f"{len(sources)} election source records -> sources.json")
+    # sources.json is written later (after the night-floor section), once the
+    # certified-turnout-only dates without a recovered night count are appended.
 
     out = sorted(elections.values(), key=lambda e: e["id"])
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -314,6 +313,9 @@ def main():
     # this bounds the night share from below - tightest exactly where no
     # canvass data survives (validated <= actual in all 20 known cases).
     floor = {}
+    # date -> (certified total, in-person/precinct count) for the dates whose
+    # only record is the certified turnout split, so they can be cited too
+    floor_meta = {}
     with open(ROOT / "data" / "sf_turnout_history_1960_2002.csv", newline="") as f:
         for r in csv.DictReader(f):
             if r["absentee"] in ("n/a", ""):
@@ -325,12 +327,15 @@ def main():
             prec = int(r["precinct"].replace(",", ""))
             floor[date] = {"date": date, "floorPct": round(100 * prec / total, 1),
                            "source": "doe-turnout-history"}
+            floor_meta[date] = {"final": total, "prec": prec}
     with open(ROOT / "data" / "sf_vbm_share_sos.csv", newline="") as f:
         for r in csv.DictReader(f):
             floor[r["election_date"]] = {
                 "date": r["election_date"],
                 "floorPct": round(100 * int(r["ballots_polling"]) / int(r["ballots_total"]), 1),
                 "source": "certified-sov"}
+            floor_meta[r["election_date"]] = {"final": int(r["ballots_total"]),
+                                              "prec": int(r["ballots_polling"])}
     for e in out:
         if e["vbmShare"] is not None and e["id"] not in floor:
             floor[e["id"]] = {"date": e["id"], "floorPct": round(100 - e["vbmShare"], 1),
@@ -341,6 +346,8 @@ def main():
                 "date": r["election_date"],
                 "floorPct": round(100 * int(r["precinct"]) / int(r["ballots_cast"]), 1),
                 "source": "doe-turnout-table"}
+            floor_meta[r["election_date"]] = {"final": int(r["ballots_cast"]),
+                                              "prec": int(r["precinct"])}
     # attach election kind so the charts can filter diamonds like dots
     kind_by_id = {e["id"]: e["kind"] for e in out}
     def kind_for_date(d):
@@ -371,6 +378,40 @@ def main():
     F = OUT.parent / "night_floor.json"
     F.write_text(json.dumps(fl, indent=1))
     print(f"{len(fl)} night-floor points -> {F}")
+
+    # Dates whose only record is the certified turnout split still have a
+    # primary source. Add a source entry for each that isn't already a
+    # recovered-count election, so sources.json documents every plotted point.
+    # No election name is invented: we only have the date, the certified ballots
+    # cast, and the in-person (precinct) floor, all from the Department's
+    # turnout figures.
+    SRC_LABELS = {
+        "doe-turnout-history": "SF Dept. of Elections turnout history (1960–2002)",
+        "certified-sov": "Certified Statement of Vote (CA Secretary of State / SF Dept. of Elections)",
+        "doe-turnout-table": "SF Dept. of Elections historical turnout table (1899–2019)",
+    }
+    have_src = {s["id"] for s in sources}
+    for date, fp in floor.items():
+        if date in have_src or date not in floor_meta:
+            continue
+        meta = floor_meta[date]
+        label = SRC_LABELS.get(fp["source"], fp["source"])
+        sources.append({
+            "id": date,
+            "name": "Certified turnout record — night count not yet recovered",
+            "final": meta["final"],
+            "finalSource": label,
+            "observations": [{
+                "date": date, "days": 0, "night": True,
+                "total": meta["prec"], "pct": fp["floorPct"],
+                "label": ("election-night floor — in-person (precinct) share of the "
+                          "certified total"),
+                "citation": label,
+            }],
+        })
+    sources.sort(key=lambda s: s["id"], reverse=True)
+    (OUT.parent / "sources.json").write_text(json.dumps(sources, indent=1))
+    print(f"{len(sources)} election source records -> sources.json")
 
     # ---- turnout-of-registered series, 1899-2026 ("did the franchise expand?")
     # Ballots cast as a share of registered voters, one point per election.
