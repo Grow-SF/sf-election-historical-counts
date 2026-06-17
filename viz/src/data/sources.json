@@ -4947,6 +4947,22 @@
   ]
  },
  {
+  "id": "1962-06-05",
+  "name": "Direct Primary Election",
+  "final": 171294,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1962-06-06 p2 \u2014 U.S. Senator two-party sum 171,294 (all 1331 precincts) as citywide turnout floor; scan sweep_19620605_issue19620606_p2_s0",
+  "observations": [
+   {
+    "date": "1962-06-06",
+    "days": 1,
+    "total": 171294,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1962-06-06 p2 'The Vote In S.F.' FINAL ELECTION EXTRA \u2014 COMPLETE, all 1331/1331 precincts; U.S. Senator primary both parties Dem 72,758 (Richards 50,984+Coleman 12,600+Green 9,174) + Rep 98,536 (Kuchel 89,634+Wright 5,074+Jarvis 2,438+Reinholz 1,390) = 171,294 (largest SF citywide two-party office; Governor printed only as statewide county tables); lever-machine era; scan sweep_19620605_issue19620606_p2_s0; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1961-11-07",
   "name": "General Municipal Election",
   "final": 198500,
@@ -5315,6 +5331,22 @@
   ]
  },
  {
+  "id": "1946-07-16",
+  "name": "Special Recall Election",
+  "final": 179415,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1946-07-17 p1 \u2014 printed total vote 179,415 on the Lapham recall (all 1198 precincts; +~4,800 absentees pending); scan sweep_19460716_issue19460717_p1_s1",
+  "observations": [
+   {
+    "date": "1946-07-17",
+    "days": 1,
+    "total": 179415,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1946-07-17 p1 'Lapham Defeats the Recall' \u2014 COMPLETE semi-official, all 1198/1198 precincts; recall of Mayor Roger D. Lapham (single citywide question) printed 'TOTAL VOTE\u2014179,415' (No/against-recall 105,742 + Yes/for-recall 73,673; recall FAILED, ~32,000 margin); +~4,800 absentees pending; lever-machine era; scan sweep_19460716_issue19460717_p1_s1; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1944-11-07",
   "name": "Certified turnout record \u2014 night count not yet recovered",
   "summary": "352,409 ballots cast, 86.8% of 405,921 registered",
@@ -5334,6 +5366,22 @@
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1943-11-03 p1 FINAL ELECTION EXTRA 'Final Returns' box \u2014 COMPLETE semi-official, all 1180/1180 precincts election night; Mayor (largest contest) Lapham 90,646+Reilly 57,741+Rossi 47,626+MacPhee 20,346+Ferguson 632+Mohr 443+Romo 349=217,783; no separate citywide total printed on p1 (article continues p9); lever-machine era; scan sweep_19431102_issue19431103_p1_s1; conf=high"
+   }
+  ]
+ },
+ {
+  "id": "1943-04-20",
+  "name": "Special Municipal Election",
+  "final": 140840,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1943-04-21 p1 \u2014 Market St Railway bond total vote 140,840 (all 1187 precincts); scan sweep_19430420_issue19430421_p1_s1",
+  "observations": [
+   {
+    "date": "1943-04-21",
+    "days": 1,
+    "total": 140840,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1943-04-21 p1 'Street Car Bonds Defeated' FINAL Morning Edition \u2014 COMPLETE semi-official, all 1187/1187 precincts; Market Street Railway purchase bond Yes 87,399+No 53,441=140,840 (printed total vote; marquee/only measure with citywide tally); lever-machine era; scan sweep_19430420_issue19430421_p1_s1; conf=high"
    }
   ]
  },
@@ -5418,6 +5466,22 @@
   ]
  },
  {
+  "id": "1938-09-27",
+  "name": "Special Municipal Election",
+  "final": 149266,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1938-09-28 p11 \u2014 printed complete total vote 149,266 (all 1655 precincts); scan sweep_19380927_issue19380928_p11_s1",
+  "observations": [
+   {
+    "date": "1938-09-28",
+    "days": 1,
+    "total": 149266,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1938-09-28 p11 'Complete Election Returns' \u2014 COMPLETE semi-official, all 1655/1655 precincts; printed 'Total vote, 149,266' (9 bond/charter measures, only Schools passed; largest measure Market St Railway 138,358); lever-machine era; scan sweep_19380927_issue19380928_p11_s1; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1937-11-02",
   "name": "General Municipal Election",
   "final": 171570,
@@ -5430,6 +5494,22 @@
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1937-11-03 p1 'Final Returns' \u2014 COMPLETE semi-official, all 1055/1055 precincts election night (absentees pending; dead-heat Mun. Court No.3 forced a recount, official canvass delayed to Nov 12); largest contest Prop 1 Subway Bonds YES 68,457+NO 103,113=171,570 (no Mayor race; largest office Mun. Court No.3 145,281); lever-machine era; scan sweep_19371102_issue19371103_p1_s1; conf=high (complete-precinct night); certified canvass total never printed in press"
+   }
+  ]
+ },
+ {
+  "id": "1937-03-09",
+  "name": "Special Election",
+  "final": 150584,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1937-03-10 p1 \u2014 printed complete total vote 150,584 (all 1055 precincts); scan sweep_19370309_issue19370310_p1_s1",
+  "observations": [
+   {
+    "date": "1937-03-10",
+    "days": 1,
+    "total": 150584,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1937-03-10 p1 'Election Returns' \u2014 COMPLETE, all 1055/1055 precincts; printed citywide total vote 150,584 (incl 600 absentees; 20 charter amendments/ordinances; largest measure #19 Anti-Picketing 145,670); NOTE paper subhead misprints 150,984 vs body 150,584 (used body); lever-machine era; scan sweep_19370309_issue19370310_p1_s1; conf=high"
    }
   ]
  },
@@ -5514,6 +5594,22 @@
   ]
  },
  {
+  "id": "1932-08-30",
+  "name": "Primary and Special Municipal Election",
+  "final": 154352,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1932-08-31 p1 \u2014 Relief Bonds 154,352 (largest contest, all 1050 precincts) as citywide turnout floor; scan sweep_19320830_issue19320831_p1_s1",
+  "observations": [
+   {
+    "date": "1932-08-31",
+    "days": 1,
+    "total": 154352,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1932-08-31 p1 'S.F. ELECTION RETURNS' \u2014 COMPLETE semi-official, all 1050/1050 precincts; largest contest SF Relief Bonds YES 135,556+NO 18,796=154,352 (all-voter measure; US Senator both-party 145,024); lever-machine era; scan sweep_19320830_issue19320831_p1_s1; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1931-11-03",
   "name": "General Municipal Election",
   "final": 151351,
@@ -5542,6 +5638,22 @@
     "pct": 91.6,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1930-11-05 GOVERNOR SF sum=145301, 1155/1155 precincts, COMPLETE; scan sweep_19301104_issue19301105_p1_s0,p1_s1; conf=low-partial; ROLPH-130215est-last-digit-truncated-at-column-edge-YOUNG-15086; regular-morning-edition; no-Senate-race-CA-1930"
+   }
+  ]
+ },
+ {
+  "id": "1930-08-26",
+  "name": "Direct Primary Election",
+  "final": 139235,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1930-08-27 p1 \u2014 printed complete SF total vote 139,235 (largest primary turnout to date); scan sweep_19300826_issue19300827_p1_s1",
+  "observations": [
+   {
+    "date": "1930-08-27",
+    "days": 1,
+    "total": 139235,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1930-08-27 p1 \u2014 COMPLETE SF count; printed citywide 'San Francisco recorded a total of 139,235 votes, the largest ever recorded here at a primary election'; Governor complete Rolph 73,666+Young 39,178+Fitts 6,718=119,562; lever-machine era; scan sweep_19300826_issue19300827_p1_s1; conf=high"
    }
   ]
  },
