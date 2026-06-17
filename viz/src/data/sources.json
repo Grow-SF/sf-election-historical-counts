@@ -4886,7 +4886,7 @@
   "id": "1964-11-03",
   "name": "Consolidated General Election",
   "final": 331612,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 331,612 consistent (>= SOV SF President 323,908: Johnson 230,758+Goldwater 92,994). CA SoS Statement of Vote 1964, https://archive.org/details/castatem196264cali ; cross-ref Wikipedia 1964 US pres CA. DOE \u2713",
   "observations": [
    {
     "date": "1964-11-04",
@@ -4997,16 +4997,16 @@
  {
   "id": "1960-06-07",
   "name": "Direct Primary Election",
-  "final": 188646,
-  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1960-06-08 p1 \u2014 SF Prop A 188,646 (all 1290 precincts) as citywide turnout floor; scan sweep_19600607_issue19600608_p1_s1",
+  "final": 244368,
+  "finalSource": "CA SoS Statement of Vote (Primary 1960-06-07), SF County certified TOTAL BALLOTS CAST 244,368 (complete all 1290 precincts election night). https://archive.org/details/stateofcaliforn195262cali/page/n294 . Supersedes the earlier cross-party contest-floor proxy.",
   "observations": [
    {
     "date": "1960-06-08",
     "days": 1,
-    "total": 188646,
+    "total": 244368,
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1960-06-08 p1 FINAL ELECTION EXTRA 'Crucial Votes' \u2014 COMPLETE, all 1290/1290 precincts; largest SF contest Prop A Yes 133,578+No 55,068=188,646 (all-voter measure; box's presidential-delegate figures were statewide, excluded); lever-machine era; scan sweep_19600607_issue19600608_p1_s1; conf=high"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1960-06-08 p1 FINAL ELECTION EXTRA 'Crucial Votes' \u2014 COMPLETE, all 1290/1290 precincts; largest SF contest Prop A Yes 133,578+No 55,068=188,646 (all-voter measure; box's presidential-delegate figures were statewide, excluded); lever-machine era; scan sweep_19600607_issue19600608_p1_s1; conf=high | SOV: certified SF turnout 244,368 (https://archive.org/details/stateofcaliforn195262cali/page/n294)"
    }
   ]
  },
@@ -5045,16 +5045,16 @@
  {
   "id": "1958-06-03",
   "name": "Direct Primary Election",
-  "final": 176198,
-  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1958-06-04 p18 \u2014 Governor two-party sum 176,198 (1274/1299 precincts) as citywide turnout floor; scan sweep_19580603_issue19580604_p3_s0",
+  "final": 263476,
+  "finalSource": "CA SoS Statement of Vote (Primary 1958-06-03), SF County certified TOTAL BALLOTS CAST 263,476 (near-complete 1274/1299 precincts election night). https://archive.org/details/stateofcaliforn195262cali/page/n225 . Supersedes the earlier cross-party contest-floor proxy.",
   "observations": [
    {
     "date": "1958-06-04",
     "days": 1,
-    "total": 176198,
-    "pct": 100.0,
+    "total": 263476,
+    "pct": 98.1,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1958-06-04 p18 'Vote For Governor' county tables \u2014 NEAR-COMPLETE 1274/1299 precincts (98.1%); Governor primary both parties Rep 81,431 (Brown 24,084+Knowland 57,347) + Dem 94,767 (Brown 92,225+Knowland 2,542) = 176,198; lever-machine era; scan sweep_19580603_issue19580604_p3_s0; conf=high"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1958-06-04 p18 'Vote For Governor' county tables \u2014 NEAR-COMPLETE 1274/1299 precincts (98.1%); Governor primary both parties Rep 81,431 (Brown 24,084+Knowland 57,347) + Dem 94,767 (Brown 92,225+Knowland 2,542) = 176,198; lever-machine era; scan sweep_19580603_issue19580604_p3_s0; conf=high | SOV: certified SF turnout 263,476 (https://archive.org/details/stateofcaliforn195262cali/page/n225)"
    }
   ]
  },
@@ -5093,16 +5093,16 @@
  {
   "id": "1956-06-05",
   "name": "Consolidated Primary Election",
-  "final": 207075,
-  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1956-06-06 p1 \u2014 president two-party sum 207,075 (all 1301 precincts) as citywide turnout floor; scan sweep_19560605_issue19560606_p1_s1",
+  "final": 241195,
+  "finalSource": "CA SoS Statement of Vote (Primary 1956-06-05), SF County certified TOTAL BALLOTS CAST 241,195 (complete all 1301 precincts election night). https://archive.org/details/stateofcaliforn195262cali/page/n161 . Supersedes the earlier cross-party contest-floor proxy.",
   "observations": [
    {
     "date": "1956-06-06",
     "days": 1,
-    "total": 207075,
+    "total": 241195,
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1956-06-06 p1 FINAL ELECTION EXTRA 'How the Voting Went in S.F.' \u2014 COMPLETE, all 1301/1301 precincts; President primary both parties Dem 129,274 (Stevenson 95,804+Kefauver 33,470) + Rep Eisenhower 77,801 = 207,075 (two-party sum); lever-machine era; scan sweep_19560605_issue19560606_p1_s1; conf=high"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1956-06-06 p1 FINAL ELECTION EXTRA 'How the Voting Went in S.F.' \u2014 COMPLETE, all 1301/1301 precincts; President primary both parties Dem 129,274 (Stevenson 95,804+Kefauver 33,470) + Rep Eisenhower 77,801 = 207,075 (two-party sum); lever-machine era; scan sweep_19560605_issue19560606_p1_s1; conf=high | SOV: certified SF turnout 241,195 (https://archive.org/details/stateofcaliforn195262cali/page/n161)"
    }
   ]
  },
@@ -5141,16 +5141,16 @@
  {
   "id": "1954-06-08",
   "name": "Direct Primary Election",
-  "final": 194406,
-  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1954-06-09 \u2014 Governor two-party sum 194,406 (all 1304 precincts) as citywide turnout floor; scan sweep_19540608_issue19540609_p3_s0",
+  "final": 223434,
+  "finalSource": "CA SoS Statement of Vote (Primary 1954-06-08), SF County certified TOTAL BALLOTS CAST 223,434 (complete all 1304 precincts election night). https://archive.org/details/stateofcaliforn195262cali/page/n86 . Supersedes the earlier cross-party contest-floor proxy.",
   "observations": [
    {
     "date": "1954-06-09",
     "days": 1,
-    "total": 194406,
+    "total": 223434,
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1954-06-09 p(B) FINAL Election Extra 'Here's How S.F. Voted' \u2014 COMPLETE, all 1304/1304 precincts; Governor primary both parties Dem 127,640 (Knight 58,939+Graves 58,498+Wilson 10,203) + Rep 66,766 (Knight 60,580+Graves 4,828+Gabrish 1,358) = 194,406 (top-of-ticket two-party sum); lever-machine era; scan sweep_19540608_issue19540609_p3_s0; conf=high"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1954-06-09 p(B) FINAL Election Extra 'Here's How S.F. Voted' \u2014 COMPLETE, all 1304/1304 precincts; Governor primary both parties Dem 127,640 (Knight 58,939+Graves 58,498+Wilson 10,203) + Rep 66,766 (Knight 60,580+Graves 4,828+Gabrish 1,358) = 194,406 (top-of-ticket two-party sum); lever-machine era; scan sweep_19540608_issue19540609_p3_s0; conf=high | SOV: certified SF turnout 223,434 (https://archive.org/details/stateofcaliforn195262cali/page/n86)"
    }
   ]
  },
@@ -5189,16 +5189,16 @@
  {
   "id": "1952-06-03",
   "name": "Consolidated Primary Election",
-  "final": 231352,
-  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1952-06-04 p1 \u2014 presidential-delegate two-party sum 231,352 (all 1304 precincts) as citywide turnout floor; scan sweep_19520603_issue19520604_p1_s1",
+  "final": 271829,
+  "finalSource": "CA SoS Statement of Vote (Primary 1952-06-03), SF County certified TOTAL BALLOTS CAST 271,829 (complete all 1304 precincts election night). https://archive.org/details/stateofcaliforn195262cali/page/n7 . Supersedes the earlier cross-party contest-floor proxy.",
   "observations": [
    {
     "date": "1952-06-04",
     "days": 1,
-    "total": 231352,
+    "total": 271829,
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1952-06-04 p1 FINAL ELECTION EXTRA \u2014 COMPLETE, all 1304/1304 precincts; Presidential delegates both parties Dem 128,400 (Kefauver 81,346+Brown 47,054) + Rep 102,952 (Warren 64,377+Werdel 38,575) = 231,352 (two-party sum, total-ballots floor); lever-machine era; scans sweep_19520603_issue19520604_p1_s1,p4_s0; conf=high"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1952-06-04 p1 FINAL ELECTION EXTRA \u2014 COMPLETE, all 1304/1304 precincts; Presidential delegates both parties Dem 128,400 (Kefauver 81,346+Brown 47,054) + Rep 102,952 (Warren 64,377+Werdel 38,575) = 231,352 (two-party sum, total-ballots floor); lever-machine era; scans sweep_19520603_issue19520604_p1_s1,p4_s0; conf=high | SOV: certified SF turnout 271,829 (https://archive.org/details/stateofcaliforn195262cali/page/n7)"
    }
   ]
  },
@@ -5237,16 +5237,16 @@
  {
   "id": "1950-06-06",
   "name": "Direct Primary Election",
-  "final": 247303,
-  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1950-06-07 p1 \u2014 Governor two-party sum 247,303 (all 1210 precincts) as citywide turnout floor; scan sweep_19500606_issue19500607_p1_s1",
+  "final": 268866,
+  "finalSource": "CA SoS Statement of Vote (Primary 1950-06-06), SF County certified TOTAL BALLOTS CAST 268,866 (complete all 1210 precincts election night). https://archive.org/details/stateofcaliforn194050cali/page/n452 . Supersedes the earlier cross-party contest-floor proxy.",
   "observations": [
    {
     "date": "1950-06-07",
     "days": 1,
-    "total": 247303,
+    "total": 268866,
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1950-06-07 p1 FINAL ELECTION EXTRA \u2014 COMPLETE, all 1210/1210 precincts; Governor primary both parties (cross-filing) Dem 161,527 (Warren 80,912+Roosevelt 77,817+Mayock 2,798) + Rep 85,776 (Warren 78,784+Roosevelt 6,992) = 247,303 (top-of-ticket two-party sum, total-ballots floor); lever-machine era; scan sweep_19500606_issue19500607_p1_s1; conf=high"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1950-06-07 p1 FINAL ELECTION EXTRA \u2014 COMPLETE, all 1210/1210 precincts; Governor primary both parties (cross-filing) Dem 161,527 (Warren 80,912+Roosevelt 77,817+Mayock 2,798) + Rep 85,776 (Warren 78,784+Roosevelt 6,992) = 247,303 (top-of-ticket two-party sum, total-ballots floor); lever-machine era; scan sweep_19500606_issue19500607_p1_s1; conf=high | SOV: certified SF turnout 268,866 (https://archive.org/details/stateofcaliforn194050cali/page/n452)"
    }
   ]
  },
@@ -5285,16 +5285,16 @@
  {
   "id": "1948-06-01",
   "name": "Consolidated Primary Election",
-  "final": 225792,
-  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1948-06-02 \u2014 largest city proposition 225,792 (all 1201 precincts) as citywide turnout floor; no separate grand total printed; scan sweep_19480601_issue19480602_p1_s1",
+  "final": 273248,
+  "finalSource": "CA SoS Statement of Vote (Primary 1948-06-01), SF County certified TOTAL BALLOTS CAST 273,248 (complete all 1201 precincts election night). https://archive.org/details/stateofcaliforn194050cali/page/n376 . Supersedes the earlier cross-party contest-floor proxy.",
   "observations": [
    {
     "date": "1948-06-02",
     "days": 1,
-    "total": 225792,
+    "total": 273248,
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1948-06-02 p1 FINAL ELECTION EXTRA \u2014 COMPLETE semi-official, all 1201/1201 precincts election night; largest contest = city proposition Yes 136,558+No 89,234=225,792 (all-voter measure, best total-ballots floor; presidential-preference both-party only 179,258 as box listed one cand/party); lever-machine era; scans sweep_19480601_issue19480602_p1_s1,p2_s0; conf=high"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1948-06-02 p1 FINAL ELECTION EXTRA \u2014 COMPLETE semi-official, all 1201/1201 precincts election night; largest contest = city proposition Yes 136,558+No 89,234=225,792 (all-voter measure, best total-ballots floor; presidential-preference both-party only 179,258 as box listed one cand/party); lever-machine era; scans sweep_19480601_issue19480602_p1_s1,p2_s0; conf=high | SOV: certified SF turnout 273,248 (https://archive.org/details/stateofcaliforn194050cali/page/n376)"
    }
   ]
  },
