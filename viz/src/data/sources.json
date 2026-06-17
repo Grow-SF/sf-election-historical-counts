@@ -4933,16 +4933,16 @@
  {
   "id": "1962-11-06",
   "name": "General Election",
-  "final": 265856,
-  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1962-11-07 p14 \u2014 Prop A 265,856 (cleanly-read large contest, all 1332 precincts) used as citywide floor; SF Governor ~269,000 [hand-verify] slightly larger; scan sweep_19621106_issue19621107_p4_s0",
+  "final": 287463,
+  "finalSource": "Certified SF county Governor vote 287,463 (Brown 180,298 + Nixon 107,165), per 1962 CA gubernatorial election / CA Secretary of State Statement of Vote; election-night completeness from SF Chronicle 1962-11-07 p14 (1332/1332 precincts); scan sweep_19621106_issue19621107_p4_s0",
   "observations": [
    {
     "date": "1962-11-07",
     "days": 1,
-    "total": 265856,
+    "total": 287463,
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1962-11-07 p14 'How S.F. Voted' box \u2014 COMPLETE semi-official, all 1332/1332 SF precincts election night; largest CLEAN-read contest Prop A YES 172,355+NO 93,501=265,856 (SF Governor Brown ~188,3X6+Nixon ~80,545 = ~269,000 is larger but trailing digits need hand-verify; clean single-seat floors: Lt Gov 254,232, AG 252,046, Senator 248,581, Controller 240,389); lever-machine era; scans sweep_19621106_issue19621107_p4_s0,p2_s1; conf=med \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-150964141F577855%402437976-15095C1AD6A54947%408-15095C1AD6A54947%40"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1962-11-07 p14 'How S.F. Voted' \u2014 COMPLETE semi-official, all 1332/1332 SF precincts election night; largest contest Governor SF Brown 180,298 + Nixon 107,165 = 287,463 (CERTIFIED SF county figures, cross-verified vs Wikipedia 1962 CA gubernatorial election / CA SoS Statement of Vote 2026; the front-page agate read was unreliable); lever-machine era; scan sweep_19621106_issue19621107_p4_s0; conf=high \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-150964141F577855%402437976-15095C1AD6A54947%408-15095C1AD6A54947%40"
    }
   ]
  },
@@ -4965,16 +4965,16 @@
  {
   "id": "1961-11-07",
   "name": "General Municipal Election",
-  "final": 198500,
-  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1961-11-08 p1 'Final S.F. Vote' \u2014 City Attorney complete ~198,500 [approx, hand-verify] used as citywide floor; no separate grand total printed; scan sweep_19611107_issue19611108_p1_s1",
+  "final": 190484,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1961-11-08 p1 'Final S.F. Vote' \u2014 City Attorney complete 190,484 (O'Connor 125,869 + Sullivan 64,615, human-verified) used as citywide floor; scan sweep_19611107_issue19611108_p1_s1",
   "observations": [
    {
     "date": "1961-11-08",
     "days": 1,
-    "total": 198500,
+    "total": 190484,
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1961-11-08 p1 FINAL ELECTION EXTRA 'Final S.F. Vote' box \u2014 COMPLETE election night; largest single-seat City Attorney O'Connor ~153,6XX + Sullivan ~44,8XX = ~198,500 [APPROX \u2014 front-page agate type, trailing digits need hand-verify against scan]; no Mayor race 1961; lever-machine era; scan sweep_19611107_issue19611108_p1_s1; conf=med (digits approx; complete-night status high) \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1508C67BA7FEB8CB%402437612-1508BF820FFF57F3%4012-1508BF820FFF57F3%40"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1961-11-08 p1 FINAL ELECTION EXTRA 'Final S.F. Vote' \u2014 COMPLETE election night; no Mayor race; largest contest City Attorney O'Connor 125,869 + Sullivan 64,615 = 190,484 (HUMAN-VERIFIED from scan 2026; front-page agate type, hard read); lever-machine era; scan sweep_19611107_issue19611108_p1_s1; conf=medium \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1508C67BA7FEB8CB%402437612-1508BF820FFF57F3%4012-1508BF820FFF57F3%40"
    }
   ]
  },
@@ -5253,16 +5253,16 @@
  {
   "id": "1949-11-08",
   "name": "General Municipal Election",
-  "final": 231903,
-  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1949-11-09 p1 \u2014 City Attorney complete 231,903 across all 1211 precincts used as citywide floor (no separate grand total printed); scan sweep_19491108_issue19491109_p1_s1",
+  "final": 237929,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1949-11-09 p1 \u2014 City Attorney complete 237,929 (Holm 130,946 + O'Gara 106,983, human-verified) across all 1211 precincts used as citywide floor; scan sweep_19491108_issue19491109_p1_s1",
   "observations": [
    {
     "date": "1949-11-09",
     "days": 1,
-    "total": 231903,
+    "total": 237929,
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1949-11-09 p1 FINAL ELECTION EXTRA \u2014 COMPLETE semi-official, all 1211/1211 precincts election night; no Mayor race; largest contest City Attorney Holm 130,940 + O'Gara 100,963[?last digits hand-verify] = 231,903; lever-machine era; scan sweep_19491108_issue19491109_p1_s1; conf=med (O'Gara trailing digits at scan resolution; complete-night status high) \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1503D718CA4F379E%402433230-1503876F17B6EF8A%406-1503876F17B6EF8A%40"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1949-11-09 p1 FINAL ELECTION EXTRA \u2014 COMPLETE semi-official, all 1211/1211 precincts election night; no Mayor race; largest contest City Attorney Holm 130,946 + O'Gara 106,983 = 237,929 (HUMAN-VERIFIED from scan, 2026); lever-machine era; scan sweep_19491108_issue19491109_p1_s1; IMAGE SCAN QUALITY VERY LOW for Holm/O'Gara figures \u2014 values hand-read by operator 2026, difficult read; conf=medium \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1503D718CA4F379E%402433230-1503876F17B6EF8A%406-1503876F17B6EF8A%40"
    }
   ]
  },
@@ -5596,16 +5596,16 @@
  {
   "id": "1934-11-06",
   "name": "General Election",
-  "final": 220795,
-  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1934-11-07 p1 \u2014 SF Governor complete 1054/1054 = 220,795 (citywide floor; no grand total printed). NOTE: the DOE turnout table's 166,133 for 1934-11-06 is ERRONEOUS \u2014 exceeded by SF Governor 220,795, Lt Gov 210,962, Treasurer 187,670; true SF turnout ~221k+ (~76% of 290,683 registered). scan sweep_19341106_issue19341107_p1_s1",
+  "final": 225977,
+  "finalSource": "CA Secretary of State, 'Statement of Vote, General Election November 6, 1934' \u2014 SF County GOVERNOR certified: Merriam 115,047 + Sinclair 87,850 + Haight 21,499 = 225,977 (https://archive.org/details/statementofvote192639cali page n591; cross-verified via Wikipedia '1934 California gubernatorial election'). NOTE: the DOE turnout table's 166,133 for 1934-11-06 is ERRONEOUS \u2014 below the certified Governor vote alone (225,977).",
   "observations": [
    {
     "date": "1934-11-07",
     "days": 1,
     "total": 220795,
-    "pct": 100.0,
+    "pct": 97.7,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1934-11-07 p1 EXTRA 'MERRIAM WINS EASILY' \u2014 SF Governor complete, all 1054/1054 precincts election night: Merriam 112,778+Sinclair 86,764+Haight 21,253=220,795; SF reported per-contest (no grand total printed) so this is a complete-count floor (true total slightly higher by undervote); lever-machine era; scan sweep_19341106_issue19341107_p1_s1; conf=high \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1501F5B7D661BBF6%402427749-1501DAFD0ECED6F5%402-1501DAFD0ECED6F5%40"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1934-11-07 p1 EXTRA 'MERRIAM WINS EASILY' \u2014 election-night COMPLETE semi-official SF Governor Merriam 112,778+Sinclair 86,764+Haight 21,253=220,795 (all 1054/1054 precincts, pre-absentee/pre-recheck); scan sweep_19341106_issue19341107_p1_s1; conf=high \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1501F5B7D661BBF6%402427749-1501DAFD0ECED6F5%402-1501DAFD0ECED6F5%40"
    }
   ]
  },
