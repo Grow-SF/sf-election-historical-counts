@@ -29,18 +29,18 @@
   "name": "Presidential General Election",
   "kind": "General",
   "year": 1908,
-  "final": 41137,
+  "final": 60124,
   "registered": 75467,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 88.6,
+  "nightPct": 60.6,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    88.6,
+    60.6,
     null,
     null
    ]
@@ -55,26 +55,6 @@
     "bound": true
    },
    "60": {
-    "days": 1,
-    "bound": true
-   },
-   "65": {
-    "days": 1,
-    "bound": true
-   },
-   "70": {
-    "days": 1,
-    "bound": true
-   },
-   "75": {
-    "days": 1,
-    "bound": true
-   },
-   "80": {
-    "days": 1,
-    "bound": true
-   },
-   "85": {
     "days": 1,
     "bound": true
    }
@@ -4381,18 +4361,18 @@
   "name": "General Election",
   "kind": "General",
   "year": 1958,
-  "final": 318839,
+  "final": 319179,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 100.0,
+  "nightPct": 99.9,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    100.0,
+    99.9,
     null,
     null
    ]
@@ -5338,7 +5318,7 @@
    ],
    [
     1.5,
-    102.5,
+    100.0,
     null,
     null
    ]
@@ -5666,18 +5646,18 @@
   "name": "Consolidated General Election",
   "kind": "General",
   "year": 1978,
-  "final": 223147,
+  "final": 238667,
   "registered": 380749,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 100.0,
+  "nightPct": 93.5,
   "nightPartial": true,
   "vbmShare": null,
   "pts": [
    [
     0.25,
-    100.0,
+    93.5,
     null,
     null
    ]
@@ -5716,18 +5696,6 @@
     "bound": true
    },
    "90": {
-    "days": 1,
-    "bound": true
-   },
-   "95": {
-    "days": 1,
-    "bound": true
-   },
-   "98": {
-    "days": 1,
-    "bound": true
-   },
-   "99": {
     "days": 1,
     "bound": true
    }

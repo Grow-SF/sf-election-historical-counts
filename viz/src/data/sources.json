@@ -205,7 +205,7 @@
  {
   "id": "funnel-1908",
   "name": "1908 franchise composition (decennial census)",
-  "summary": "population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75,467; voted 41,137",
+  "summary": "population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75,467; voted 60,124",
   "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
   "observations": []
  },
@@ -4633,14 +4633,14 @@
  {
   "id": "1978-11-07",
   "name": "Consolidated General Election",
-  "final": 223147,
-  "finalSource": "1978 governor contest floor (DOE turnout figure 217,965 contradicted; certified >= 223,147)",
+  "final": 238667,
+  "finalSource": "CA SoS Statement of Vote (Gen. Election Nov 7 1978), SF County certified TOTAL BALLOTS CAST 238,667 (precinct 217,965 + absentee 20,702; Governor sum 225,465). DOE's 217,965 is PRECINCT-ONLY (dropped 20,702 absentees) - erroneous as total turnout. https://archive.org/details/statementofvote197879cali/page/n245 ; cross-ref Wikipedia 1978 CA gubernatorial.",
   "observations": [
    {
     "date": "1978-11-08",
     "days": 1,
     "total": 223147,
-    "pct": 100.0,
+    "pct": 93.5,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 'S.F. VOTE' day-after paper 1978-11-08 (tbl_19781107_issue19781108_p6): governor sum 223,147 (Brown 155,156 69.5% + Younger 50,748 22.7% + Clark 11,470 + Seals 4,339 + Dietrich 1,434; pcts validate) - near-complete day-after count. NOTE: the DOE turnout table lists only 217,965 ballots for this election, which is contradicted by this single contest (votes cannot exceed ballots); the true certified total is >= 223,147 pending the SF Statement of Vote, so this floor is shown against the contest sum. Brown's ~70% SF share is historically consistent; the CA SOV djvu-OCR figure of 99,171 for Brown SF is an OCR/column error."
    }
@@ -4794,10 +4794,10 @@
    {
     "date": "1974-06-06",
     "days": 2,
-    "total": 203381,
+    "total": 198508,
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 'SF Vote Tally' day-2 paper 1974-06-06 (tbl_19740604_issue19740606_p5), 1356 of 1356 precincts (complete): Prop B (Conflicts of Interest) Yes 162,975 + No 40,406 = 203,381 - a ballot measure all voters could vote on. NOTE: the DOE turnout table lists only 198,508 ballots for this election, contradicted by this measure (votes cannot exceed ballots); true certified >= 203,381 pending the SF Statement of Vote. Same denominator error as 1978-11."
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 'SF Vote Tally' day-2 paper 1974-06-06 (tbl_19740604_issue19740606_p5), 1356 of 1356 precincts (complete): Prop B (Conflicts of Interest) Yes 162,975 + No 40,406 = 203,381 - a ballot measure all voters could vote on. NOTE: the DOE turnout table lists only 198,508 ballots for this election, contradicted by this measure (votes cannot exceed ballots); true certified >= 203,381 pending the SF Statement of Vote. Same denominator error as 1978-11. | CORRECTED: prior Prop B 203,381 exceeded SOV-certified turnout 198,508; that reading was anomalous and is superseded by the certified turnout."
    }
   ]
  },
@@ -5029,14 +5029,14 @@
  {
   "id": "1958-11-04",
   "name": "General Election",
-  "final": 318839,
-  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1958-11-05 p1A \u2014 printed complete SF total vote 318,839 (all 1300 precincts; +10,200 absentees pending, official canvass higher); scan sweep_19581104_issue19581105_p2_s0",
+  "final": 319179,
+  "finalSource": "CA SoS Statement of Vote (Gen. Election Nov 4 1958), SF County certified TOTAL BALLOTS CAST 319,179 (Governor Brown 219,413+Knowland 90,430+write-ins=309,969); https://archive.org/details/stateofcaliforn195262cali/page/n257 ; cross-ref Wikipedia 1958 CA gubernatorial. Supersedes Chronicle election-night 318,839.",
   "observations": [
    {
     "date": "1958-11-05",
     "days": 1,
     "total": 318839,
-    "pct": 100.0,
+    "pct": 99.9,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1958-11-05 p1A FINAL \u2014 COMPLETE semi-official, all 1300/1300 SF precincts election night; printed citywide 'total vote was 318,839, or nearly 80 per cent of the city's registered voters \u2014 the highest off-year percentage in SF history' (SF Governor Brown 210,780+Knowland 85,494=296,274; +10,200 absentees still pending); lever-machine era; scan sweep_19581104_issue19581105_p2_s0; conf=high"
    }
@@ -5949,7 +5949,7 @@
   "id": "1920-11-02",
   "name": "Presidential General Election",
   "final": 154592,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 154,592 consistent (>= SOV SF President 147,450: Harding 96,105+Cox 32,637+Debs 17,049+Watkins 1,630). CA SoS Statement of Vote 1920, https://archive.org/details/statementofvo19081922cali/page/n313 ; cross-ref Wikipedia 1920 US pres in CA.",
   "observations": [
    {
     "date": "1920-11-03",
@@ -6013,7 +6013,7 @@
   "id": "1916-11-07",
   "name": "Presidential General Election",
   "final": 155747,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 155,747 consistent (>= SOV SF President 149,152: Wilson 78,225+Hughes 63,093+Benson 6,423+Hanly 1,404). CA SoS Statement of Vote 1916, https://archive.org/details/statementofvo19081922cali ; cross-ref Wikipedia 1916 US pres in CA.",
   "observations": [
    {
     "date": "1916-11-08",
@@ -6093,7 +6093,7 @@
   "id": "1912-11-05",
   "name": "Presidential General Election",
   "final": 105646,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 105,646 consistent (>= SOV SF President 101,148: Wilson 48,953+Roosevelt 38,610+Debs 12,354+Chafin 1,158). CA SoS Statement of Vote 1912, https://archive.org/details/statementofvo19081922cali/page/n35 ; cross-ref Wikipedia 1912 US pres in CA.",
   "observations": [
    {
     "date": "1912-11-06",
@@ -6109,7 +6109,7 @@
   "id": "1910-11-08",
   "name": "General Election",
   "final": 59724,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 59,724 (consistent, ~ SOV SF Governor 59,182: Johnson 25,528+Bell 24,065+Wilson 9,476+Meads 113). CA SoS Statement of Vote 1910, https://archive.org/details/statementofvo19081922cali ; cross-ref Wikipedia 1910 CA gubernatorial. (A 105,646 OCR figure seen in the 1908-22 compilation is spurious - it is 1912's total.)",
   "observations": [
    {
     "date": "1910-11-09",
@@ -6124,16 +6124,16 @@
  {
   "id": "1908-11-03",
   "name": "Presidential General Election",
-  "final": 41137,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "final": 60124,
+  "finalSource": "CA SoS Statement of Vote (Gen. Election Nov 3 1908), SF County President 60,124 (Taft 33,184+Bryan 21,260+Debs 4,523+Hisgen 751+Chafin 406). DOE's 41,137 is ERRONEOUS - below the President total alone, so impossible as ballots cast. https://archive.org/details/statementofvo19081922cali/page/n5 ; cross-ref Wikipedia 1908 US pres in CA.",
   "observations": [
    {
     "date": "1908-11-04",
     "days": 1,
     "total": 36450,
-    "pct": 88.6,
+    "pct": 60.6,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1908-11-04 PRES SF sum=36450, 300/300 precincts, complete; scan sweep_19081103_issue19081104_p5_s1; conf=low; image-read:Taft~20816+Bryan~15634=36450;minor-parties-not-readable-from-crop;300-precincts=all-SF;39816-is-1904-comparison-col"
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1908-11-04 PRES SF sum=36450, 300/300 precincts, complete; scan sweep_19081103_issue19081104_p5_s1; conf=low; image-read:Taft~20816+Bryan~15634=36450;minor-parties-not-readable-from-crop;300-precincts=all-SF;39816-is-1904-comparison-col | DENOMINATOR CORRECTED: was DOE 41,137 (wrong); the night box's '300/300 complete' is inconsistent with certified President 60,124, so the night count was PARTIAL not complete; night share recomputed vs SOV (was mislabeled 88.6%)."
    }
   ]
  },
