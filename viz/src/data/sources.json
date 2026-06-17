@@ -5549,7 +5549,7 @@
   "id": "1936-11-03",
   "name": "Presidential General Election",
   "final": 269387,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 269,387 consistent (>= SOV SF President 265,001: Roosevelt 196,197+Landon 65,436+Browder 1,366). CA SoS Statement of Vote 1936, https://archive.org/details/statementofvote192639cali/page/n739 ; cross-ref Wikipedia 1936 US pres CA. DOE \u2713",
   "observations": [
    {
     "date": "1936-11-04",
@@ -5677,7 +5677,7 @@
   "id": "1932-11-08",
   "name": "Presidential General Election",
   "final": 227283,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 227,283 consistent (>= SOV SF President 223,197: Roosevelt 144,236+Hoover 70,152+Thomas 5,802). CA SoS Statement of Vote 1932, https://archive.org/details/statementofvote192639cali/page/n523 ; cross-ref Wikipedia 1932 US pres CA. DOE \u2713",
   "observations": [
    {
     "date": "1932-11-09",
@@ -5789,7 +5789,7 @@
   "id": "1928-11-06",
   "name": "Presidential General Election",
   "final": 199665,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 199,665 consistent (>= SOV SF President 195,468: Smith 96,632+Hoover 95,987+Thomas 2,799). CA SoS Statement of Vote 1928, https://archive.org/details/statementofvote192639cali/page/n235 ; cross-ref Wikipedia 1928 US pres CA. DOE \u2713",
   "observations": [
    {
     "date": "1928-11-07",
@@ -5853,7 +5853,7 @@
   "id": "1926-11-02",
   "name": "General Election",
   "final": 130835,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 130,835 consistent (>= SOV SF Governor 125,301: Young 73,012+Wardell 47,757+Sinclair 4,532). CA SoS Statement of Vote 1926, https://archive.org/details/statementofvote192430cali/page/n205 ; cross-ref Wikipedia 1926 CA gubernatorial. DOE \u2713",
   "observations": [
    {
     "date": "1926-11-03",
@@ -5885,7 +5885,7 @@
   "id": "1924-11-04",
   "name": "Presidential General Election",
   "final": 159649,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 159,649 consistent (>= SOV SF President 153,950: Coolidge 73,494+La Follette 68,864+Davis 9,811+Faris 1,781). CA SoS Statement of Vote 1924, https://archive.org/details/statementofvote192430cali/page/n99 ; cross-ref Wikipedia 1924 US pres CA. DOE \u2713",
   "observations": [
    {
     "date": "1924-11-05",
@@ -5933,7 +5933,7 @@
   "id": "1922-11-07",
   "name": "General Election",
   "final": 134503,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 134,503 consistent (>= SOV SF Governor 132,225: Woolwine 70,464+Richardson 56,302+Horr 5,336). CA SoS Statement of Vote 1922, https://archive.org/details/statementofvo19081922cali/page/12 ; cross-ref Wikipedia 1922 CA gubernatorial. DOE \u2713",
   "observations": [
    {
     "date": "1922-11-08",
@@ -5965,7 +5965,7 @@
   "id": "1918-11-05",
   "name": "General Election",
   "final": 103011,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 103,011 = CA SoS Statement of Vote SF total ballots cast (Governor 100,382: Bell 56,726+Stephens 36,099+Roser 5,249+Rolph w-i 2,302). https://archive.org/details/statementofvo19081922cali ; cross-ref Wikipedia 1918 CA gubernatorial. DOE verified \u2713",
   "observations": [
    {
     "date": "1918-11-06",
@@ -6045,7 +6045,7 @@
   "id": "1914-11-03",
   "name": "General Election",
   "final": 134492,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 134,492 = CA SoS Statement of Vote SF total ballots cast (Governor contest 132,103: Johnson 72,257+Fredericks 36,606+Curtin 16,167+Richardson 6,346+Moore 723). https://archive.org/details/statementofvo19081922cali/page/n71 ; cross-ref Wikipedia 1914 CA gubernatorial. DOE verified \u2713",
   "observations": [
    {
     "date": "1914-11-04",
