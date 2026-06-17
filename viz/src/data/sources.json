@@ -4867,6 +4867,22 @@
   ]
  },
  {
+  "id": "1965-11-02",
+  "name": "General Municipal Election",
+  "final": 193035,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1965-11-03 p9 \u2014 Prop A 193,035 (largest contest, all 1342 precincts) used as citywide floor; lead story cites ~61.5% turnout; scan sweep_19651102_issue19651103_p9_s0",
+  "observations": [
+   {
+    "date": "1965-11-03",
+    "days": 1,
+    "total": 193035,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1965-11-03 p9 'The Propositions' box \u2014 COMPLETE, all 1342/1342 precincts reporting; largest contest Prop A (Medical Center/SF Hospital Bonds) YES 148,530+NO 44,505=193,035 (no Mayor race; Treasurer Goodwin+Vanderbilt 155,743); lever-machine era; scan sweep_19651102_issue19651103_p9_s0; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1964-11-03",
   "name": "Consolidated General Election",
   "final": 331612,
@@ -4879,6 +4895,54 @@
     "pct": 93.5,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 'The Vote Tally' day-after paper, 1341 of 1341 precincts: president sum 310,193 (Johnson 221,343 + Goldwater 88,850) - conservative night floor (top-contest sum); digits independently re-verified; senate line (Salinger 197,863 + Murphy 125,716 = 323,579) printed as-is but exceeds certified precinct ballots 313,134 - anomaly logged, not used; scan flip_19641103_issue19641105_p2.png \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1511FD9380E7C8D5%402438704-1511F57F7A6D8CF5%406-1511F57F7A6D8CF5%40"
+   }
+  ]
+ },
+ {
+  "id": "1963-11-05",
+  "name": "General Municipal Election",
+  "final": 240768,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1963-11-06 p1 \u2014 complete Mayor count 240,768 across all 1339 precincts (citywide floor; ~5,000 late absentees pending, official canvass marginally higher); scan sweep_19631105_issue19631106_p1_s1",
+  "observations": [
+   {
+    "date": "1963-11-06",
+    "days": 1,
+    "total": 240768,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1963-11-06 p1 ELECTION EXTRA FINAL 'The City Vote' box \u2014 COMPLETE semi-official, all 1339/1339 precincts election night; Mayor (largest contest) Shelley 120,560+Dobbs 92,627+Mancuso 27,581=240,768 (incl 3,248 absentees; ~5,000 absentees still pending \u2014 minor tail); lever-machine era; scan sweep_19631105_issue19631106_p1_s1; conf=high"
+   }
+  ]
+ },
+ {
+  "id": "1962-11-06",
+  "name": "General Election",
+  "final": 265856,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1962-11-07 p14 \u2014 Prop A 265,856 (cleanly-read large contest, all 1332 precincts) used as citywide floor; SF Governor ~269,000 [hand-verify] slightly larger; scan sweep_19621106_issue19621107_p4_s0",
+  "observations": [
+   {
+    "date": "1962-11-07",
+    "days": 1,
+    "total": 265856,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1962-11-07 p14 'How S.F. Voted' box \u2014 COMPLETE semi-official, all 1332/1332 SF precincts election night; largest CLEAN-read contest Prop A YES 172,355+NO 93,501=265,856 (SF Governor Brown ~188,3X6+Nixon ~80,545 = ~269,000 is larger but trailing digits need hand-verify; clean single-seat floors: Lt Gov 254,232, AG 252,046, Senator 248,581, Controller 240,389); lever-machine era; scans sweep_19621106_issue19621107_p4_s0,p2_s1; conf=med"
+   }
+  ]
+ },
+ {
+  "id": "1961-11-07",
+  "name": "General Municipal Election",
+  "final": 198500,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1961-11-08 p1 'Final S.F. Vote' \u2014 City Attorney complete ~198,500 [approx, hand-verify] used as citywide floor; no separate grand total printed; scan sweep_19611107_issue19611108_p1_s1",
+  "observations": [
+   {
+    "date": "1961-11-08",
+    "days": 1,
+    "total": 198500,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1961-11-08 p1 FINAL ELECTION EXTRA 'Final S.F. Vote' box \u2014 COMPLETE election night; largest single-seat City Attorney O'Connor ~153,6XX + Sullivan ~44,8XX = ~198,500 [APPROX \u2014 front-page agate type, trailing digits need hand-verify against scan]; no Mayor race 1961; lever-machine era; scan sweep_19611107_issue19611108_p1_s1; conf=med (digits approx; complete-night status high)"
    }
   ]
  },
@@ -4899,6 +4963,54 @@
   ]
  },
  {
+  "id": "1959-11-03",
+  "name": "General Municipal and Special Election",
+  "final": 239963,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1959-11-04 p1 \u2014 complete Mayor count 239,963 across all 1298 precincts (citywide floor; no separate grand total printed); scan sweep_19591103_issue19591104_p1_s2",
+  "observations": [
+   {
+    "date": "1959-11-04",
+    "days": 1,
+    "total": 239963,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1959-11-04 p1 FINAL ELECTION EXTRA 'Complete Vote' box \u2014 COMPLETE semi-official, all 1298/1298 precincts election night; Mayor (largest contest) Christopher 141,464+Wolden 90,268+Brown 2,151+Ferrara 2,129+Jordan 1,371+Yuna 895+Steiner 861+Le Pieux 824=239,963; lever-machine era; scan sweep_19591103_issue19591104_p1_s2; conf=high"
+   }
+  ]
+ },
+ {
+  "id": "1958-11-04",
+  "name": "General Election",
+  "final": 318839,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1958-11-05 p1A \u2014 printed complete SF total vote 318,839 (all 1300 precincts; +10,200 absentees pending, official canvass higher); scan sweep_19581104_issue19581105_p2_s0",
+  "observations": [
+   {
+    "date": "1958-11-05",
+    "days": 1,
+    "total": 318839,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1958-11-05 p1A FINAL \u2014 COMPLETE semi-official, all 1300/1300 SF precincts election night; printed citywide 'total vote was 318,839, or nearly 80 per cent of the city's registered voters \u2014 the highest off-year percentage in SF history' (SF Governor Brown 210,780+Knowland 85,494=296,274; +10,200 absentees still pending); lever-machine era; scan sweep_19581104_issue19581105_p2_s0; conf=high"
+   }
+  ]
+ },
+ {
+  "id": "1957-11-05",
+  "name": "General Municipal Election",
+  "final": 199431,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1957-11-06 p1 \u2014 Prop A 199,431 (largest contest, all 1296 precincts) used as citywide turnout floor; no separate grand total printed; scan sweep_19571105_issue19571106_p1_s2",
+  "observations": [
+   {
+    "date": "1957-11-06",
+    "days": 1,
+    "total": 199431,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1957-11-06 p1 FINAL 'Final Tally in City Election' box \u2014 COMPLETE semi-official, all 1296/1296 precincts election night; largest contest Prop A Courthouse Bonds YES 130,019+NO 69,412=199,431 (no Mayor race; City Attorney Holm unopposed 144,968); lever-machine era; scan sweep_19571105_issue19571106_p1_s2; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1956-11-06",
   "name": "Presidential General Election",
   "final": 342652,
@@ -4911,6 +5023,22 @@
     "pct": 93.6,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1956-11-07 President SF sum=320755, 1300/1306 precincts, partial; scan sweep_19561106_issue19561107_p2_s0+p1_s0; conf=high; FINAL ELECTION EXTRA; Eisenhower 164544 Stevenson 155055 Holtwick(Prohib) 1156; 1300/1306 precincts (6 missing at press time)"
+   }
+  ]
+ },
+ {
+  "id": "1955-11-08",
+  "name": "General Municipal Election",
+  "final": 239241,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1955-11-09 p1 \u2014 complete Mayor count 239,241 across all 1300 precincts (citywide floor; no separate grand total printed; minor late-absentee tail); scan sweep_19551108_issue19551109_p1_s1",
+  "observations": [
+   {
+    "date": "1955-11-09",
+    "days": 1,
+    "total": 239241,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1955-11-09 p1 FINAL ELECTION EXTRA 'Vote for Officials' box \u2014 COMPLETE semi-official, all 1300/1300 precincts election night; Mayor (largest contest) Christopher 158,244+Reilly 75,824+Le Pluex 1,300+Bruce 1,116+Barbaria 1,036+Brown 1,021+O'Donnell 700=239,241; lever-machine era; scan sweep_19551108_issue19551109_p1_s1; conf=high"
    }
   ]
  },
@@ -5126,6 +5254,22 @@
     "pct": 94.3,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1938-11-09 Governor SF sum=242948, 1055/1055 precincts, complete; scan sweep_19381108_issue19381109_p1_s1; conf=high; all-1055-precincts-complete;gov-larger-than-sen-226415"
+   }
+  ]
+ },
+ {
+  "id": "1937-11-02",
+  "name": "General Municipal Election",
+  "final": 171570,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1937-11-03 p1 \u2014 Prop 1 171,570 (largest contest, all 1055 precincts) used as citywide floor; official canvass began Nov 12 1937, total not printed in press; scan sweep_19371102_issue19371103_p1_s1",
+  "observations": [
+   {
+    "date": "1937-11-03",
+    "days": 1,
+    "total": 171570,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1937-11-03 p1 'Final Returns' \u2014 COMPLETE semi-official, all 1055/1055 precincts election night (absentees pending; dead-heat Mun. Court No.3 forced a recount, official canvass delayed to Nov 12); largest contest Prop 1 Subway Bonds YES 68,457+NO 103,113=171,570 (no Mayor race; largest office Mun. Court No.3 145,281); lever-machine era; scan sweep_19371102_issue19371103_p1_s1; conf=high (complete-precinct night); certified canvass total never printed in press"
    }
   ]
  },
