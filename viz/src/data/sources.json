@@ -5808,8 +5808,8 @@
   "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1928-05-02 p1 \u2014 printed complete total vote 116,237 (all 806 precincts, election night); scan sweep_19280501_issue19280502_p1_s1",
   "observations": [
    {
-    "date": "1928-05-02",
-    "days": 1,
+    "date": "1928-05-01",
+    "days": 0,
     "total": 116237,
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",

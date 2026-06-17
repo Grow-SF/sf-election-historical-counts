@@ -5,7 +5,7 @@ import EraChart from "./EraChart";
 export const metadata = {
   title: "A Century of Election Nights — The Long Count",
   description:
-    "What the morning-after newspaper knew, 1908–2026 — and why 'we don't know yet' has meant three completely different things.",
+    "What the morning-after newspaper knew, 1907–2026 — and why 'we don't know yet' has meant three completely different things.",
 };
 
 const ERAS = [
@@ -43,7 +43,7 @@ export default function ErasPage() {
         A century of election nights
       </h1>
       <p className="mt-4 max-w-2xl text-lg italic leading-relaxed text-ink/70">
-        What the morning-after newspaper knew, 1908–2026 — and why “we don't
+        What the morning-after newspaper knew, 1907–2026 — and why “we don't
         know yet” has meant three completely different things.
       </p>
 
@@ -68,7 +68,7 @@ export default function ErasPage() {
           note={
             <>
               Share of each election's certified vote counted by election night,
-              1908–2026. The pre-1964 points were recovered in 2026 from
+              1907–2026. The pre-1965 points were recovered in 2026 from
               NewsBank scans of the <em>Chronicle</em>; hover any point for its
               source. This is the same chart as on the{" "}
               <Link
