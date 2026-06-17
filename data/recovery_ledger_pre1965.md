@@ -8,8 +8,8 @@ city" (all precincts) = certified denominator. DOE certified used where availabl
 Status: TODO / CAPTURED / READ / APPENDED / SKIP
 
 ## Tier 1 — General Municipal (odd-year mayoral/supervisor elections)
-- 1907-11-05  DEFER-cleanup (night Mayor 12,472 ~1/5 @10pm; need final total)
-- 1917-11-06  DEFER-cleanup (clarify running total 90,527 vs 36-pct sample; cert 94,774)
+- 1907-11-05  APPENDED (hand-count: 12,472 ~1/5 @10pm / 55,994 @269/273 = 22.3%)
+- 1917-11-06  APPENDED (hand-count: 4,316 @36/542 sample / final 94,774 = 4.6%; 90,527 was turnout not counted)
 - 1923-11-06  APPENDED (night Sheriff 94,816 @505/604 / final 127,983 = 74.1%)
 - 1925-11-03  APPENDED (done; nightPct 92.1, final 124,819)
 - 1927-11-08  APPENDED (total vote 163,187 complete = 100%)
@@ -21,9 +21,9 @@ Status: TODO / CAPTURED / READ / APPENDED / SKIP
 - 1939-11-07  APPENDED (total vote 285,745 complete 1084/1084 = 100%)
 - 1941-11-04  APPENDED (total vote 210,351 complete 1111/1111 = 100%)
 - 1943-11-02  APPENDED (Mayor 217,783 complete 1180/1180 = 100%)
-- 1945-11-06  DEFER-cleanup (captured edition had only 12/1194 — re-capture later/FINAL edition)
-- 1947-11-04  DEFER-cleanup (Mayor box illegible + total; deck 282,414 suspect)
-- 1949-11-08  DEFER-cleanup (CityAtty digits + total)
+- 1945-11-06  SKIP (only NewsBank edition shows 12/1194; complete count never printed — needs county Statement of Vote)
+- 1947-11-04  APPENDED (printed total 282,414 complete = 100%)
+- 1949-11-08  APPENDED (CityAtty 231,903 complete 1211/1211 = 100%; O'Gara last digits hand-verify)
 - 1951-11-06  APPENDED (Mayor 255,502 complete 1209/1209 = 100%)
 - 1953-11-03  APPENDED (printed total 218,961 complete 1306/1306 = 100%)
 - 1955-11-08  APPENDED (Mayor 239,241 complete 1300/1300 = 100%)
@@ -36,7 +36,7 @@ Status: TODO / CAPTURED / READ / APPENDED / SKIP
 ## Tier 1b — generals DOE skipped (certified may need recovery too)
 - 1918-11-05  APPENDED (night 0 — no SF count by AM, long ballot / final 103,011 DOE = 0%)
 - 1934-11-06  APPENDED (night Gov 220,795 complete 1054/1054 = 100%; DOE 166,133 is WRONG — flagged)
-- 1944-11-07  DEFER-cleanup (need Nov 8 election-night SF box; cert DOE 352,409)
+- 1944-11-07  SKIP (Nov 8 paper had NO SF count — wartime, absentees counted Nov 21; first SF figure Nov 9 @days=2)
 - 1958-11-04  APPENDED (printed total 318,839 complete 1300/1300 = 100%; +10,200 absentees pending)
 - 1962-11-06  APPENDED (Prop A 265,856 clean floor complete 1332/1332 = 100%; Gov ~269k hand-verify)
 

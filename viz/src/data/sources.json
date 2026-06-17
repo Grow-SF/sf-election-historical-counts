@@ -5123,6 +5123,22 @@
   ]
  },
  {
+  "id": "1949-11-08",
+  "name": "General Municipal Election",
+  "final": 231903,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1949-11-09 p1 \u2014 City Attorney complete 231,903 across all 1211 precincts used as citywide floor (no separate grand total printed); scan sweep_19491108_issue19491109_p1_s1",
+  "observations": [
+   {
+    "date": "1949-11-09",
+    "days": 1,
+    "total": 231903,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1949-11-09 p1 FINAL ELECTION EXTRA \u2014 COMPLETE semi-official, all 1211/1211 precincts election night; no Mayor race; largest contest City Attorney Holm 130,940 + O'Gara 100,963[?last digits hand-verify] = 231,903; lever-machine era; scan sweep_19491108_issue19491109_p1_s1; conf=med (O'Gara trailing digits at scan resolution; complete-night status high)"
+   }
+  ]
+ },
+ {
   "id": "1948-11-02",
   "name": "Presidential General Election",
   "final": 359134,
@@ -5135,6 +5151,22 @@
     "pct": 95.7,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1948-11-03 President SF sum=343732, 1204/1204 precincts, complete; scan sweep_19481102_issue19481103_p5_s2+p1_s2+p1_s0; conf=high; FINAL edition; Dewey-Warren 155757 Truman-Barkley 165581 Wallace-Taylor 21383 Watson-Learn 1011; 1204/1204 precincts complete"
+   }
+  ]
+ },
+ {
+  "id": "1947-11-04",
+  "name": "General Municipal Election",
+  "final": 282414,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1947-11-05 p1 \u2014 printed complete total vote 282,414 (semi-official, all precincts; +~2,100 absentees pending, no change to standings); scan sweep_19471104_issue19471105_p1_s1",
+  "observations": [
+   {
+    "date": "1947-11-05",
+    "days": 1,
+    "total": 282414,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1947-11-05 p1 FINAL Election Extra \u2014 COMPLETE semi-official, all precincts election night; printed citywide total '282,414 Ballots Are Cast' (75.62% of ~373,465 registration); Mayor Robinson 116,937+Havenner 101,408+MacPhee 60,508+Barbaria 1,654=280,507; lever-machine era; scans sweep_19471104_issue19471105_p1_s1, issue19471106_p1_s1; conf=high (cross-confirmed Nov5+Nov6)"
    }
   ]
  },
@@ -5530,6 +5562,22 @@
   ]
  },
  {
+  "id": "1917-11-06",
+  "name": "General Municipal Election",
+  "final": 94774,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1917-11-08 p1 'Complete Unofficial Returns' \u2014 total vote cast 94,774 (City Attorney complete Lull 52,652+Hennessy 37,178=89,830); scan sweep_19171106_issue19171108_p1_s1",
+  "observations": [
+   {
+    "date": "1917-11-07",
+    "days": 1,
+    "total": 4316,
+    "pct": 4.6,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1917-11-07 p2 'Count in Three Precincts of Each Assembly District' (2:30 AM) \u2014 HAND-COUNT era, NEW centralized City Hall count (slow): only a 36-of-542-precinct sample tabulated by press time; largest single-seat City Attorney Lull 2,427+Hennessy 1,889=4,316. NOTE the paper's '90,527' is total TURNOUT (ballots cast), not ballots counted (Registrar Zemansky used it to project majorities). First precinct fully counted ~10:20pm; count crawled overnight. scan sweep_19171106_issue19171107_p2_s0; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1916-11-07",
   "name": "Presidential General Election",
   "final": 155747,
@@ -5606,6 +5654,22 @@
     "pct": 88.6,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1908-11-04 PRES SF sum=36450, 300/300 precincts, complete; scan sweep_19081103_issue19081104_p5_s1; conf=low; image-read:Taft~20816+Bryan~15634=36450;minor-parties-not-readable-from-crop;300-precincts=all-SF;39816-is-1904-comparison-col"
+   }
+  ]
+ },
+ {
+  "id": "1907-11-05",
+  "name": "Municipal Election",
+  "final": 55994,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1907-11-07 p2 'BRODERICK IS ELECTED' \u2014 most-complete Mayor total 55,994 across 269/273 precincts ('all but four precincts'; true all-273 ~57,000); no official all-precincts canvass printed; scan sweep_19071105_issue19071107_p2_s0",
+  "observations": [
+   {
+    "date": "1907-11-06",
+    "days": 1,
+    "total": 12472,
+    "pct": 22.3,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1907-11-06 p1 returns box (10pm) \u2014 DEEP HAND-COUNT era; only ~one-fifth of the vote counted by 10pm; Mayor Taylor 6,235+M'Carthy 3,945+Ryan 2,002+Reguin 290=12,472 (matches paper's stated '12,472 ballots ... over one-fifth of the total vote'); 232/273 precincts had begun reporting; scan sweep_19071105_issue19071106_p1_s0; conf=high"
    }
   ]
  },
