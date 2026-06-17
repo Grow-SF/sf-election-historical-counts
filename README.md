@@ -15,13 +15,15 @@ historical counts from newspaper and web archives — and tells the story in an
 interactive site.
 
 Live data spans **1899–2026** (turnout and registration back to 1899;
-election-night counts back to 1908): 97 elections with an election-night count
-(including 22 pre-1964 counts recovered from the hand-count era, back to 1908),
-191 recovered historical canvass observations, and 241 modern per-release reports,
-every number traceable to a cited source. The long view reveals four eras, not
-one — fast (1908–12), slow (1914–26, when hand-counting long Progressive-era
-ballots was the bottleneck), fast again (1928–1990s), and the modern
-mail-driven slide — see
+election-night counts back to 1907): 152 elections with an election-night count
+(including 79 pre-1965 counts recovered from the hand-count and machine eras,
+back to 1907), 247 recovered historical canvass observations, and 241 modern
+per-release reports, every number traceable to a cited source. The long view
+reveals distinct eras — _erratic_ in the hand-count era (1907–1922, when ballot
+length, not the calendar, set the pace: ~89% counted by morning in 1908 but
+effectively nothing in 1918's long-ballot election), fast and near-complete once
+lever voting machines arrived (1928–1990s), and the modern mail-driven slide —
+see
 [`docs/analysis/2026-06-13-a-century-of-election-nights.md`](docs/analysis/2026-06-13-a-century-of-election-nights.md).
 
 ---
@@ -33,7 +35,7 @@ the morning after has collapsed since ~2002 — though the long view shows it
 failed before, too, in the 1910s, for the opposite reason (hand-counting long
 Progressive-era ballots).
 
-![Election-night count as a share of the certified final, San Francisco 1908–2026](docs/img/night-share.png)
+![Election-night count as a share of the certified final, San Francisco 1907–2026](docs/img/night-share.png)
 
 **What changed is the mail.** Vote-by-mail grew from a sliver in the 1960s to
 nine in ten today. Those ballots arrive late and need signature checks, so the
