@@ -1249,11 +1249,159 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1931-03-26",
+  "name": "Special Election (New City Charter)",
+  "kind": "Special",
+  "year": 1931,
+  "final": 104727,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 100.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1931-11-03",
   "name": "General Municipal Election",
   "kind": "Municipal",
   "year": 1931,
   "final": 151351,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 100.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1932-05-03",
+  "name": "Special Election (State Referendum & Hetch Hetchy)",
+  "kind": "Special",
+  "year": 1932,
+  "final": 136024,
   "registered": null,
   "source": "archival",
   "provisional": false,
@@ -1455,6 +1603,154 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1933-04-11",
+  "name": "Special Election (Charter Amendments)",
+  "kind": "Special",
+  "year": 1933,
+  "final": 99381,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 100.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1933-06-27",
+  "name": "State and Municipal Special Election",
+  "kind": "Special",
+  "year": 1933,
+  "final": 150068,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 100.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1933-11-07",
   "name": "General Municipal Election",
   "kind": "Municipal",
@@ -1529,11 +1825,159 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1933-12-19",
+  "name": "Special Election (State Referendum \u2014 Water & Power)",
+  "kind": "Special",
+  "year": 1933,
+  "final": 98955,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 100.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1934-11-06",
   "name": "General Election",
   "kind": "General",
   "year": 1934,
   "final": 220795,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 100.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1935-05-02",
+  "name": "Special Election (Charter Amendments)",
+  "kind": "Special",
+  "year": 1935,
+  "final": 130526,
   "registered": null,
   "source": "archival",
   "provisional": false,
@@ -2023,6 +2467,80 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1939-05-19",
+  "name": "Special Municipal Election",
+  "kind": "Special",
+  "year": 1939,
+  "final": 173881,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 100.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1939-11-07",
   "name": "General Municipal Election",
   "kind": "Municipal",
@@ -2168,6 +2686,80 @@
   "kind": "Municipal",
   "year": 1941,
   "final": 210351,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 100.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1942-06-09",
+  "name": "Special Municipal Election (Air Raid Bonds)",
+  "kind": "Special",
+  "year": 1942,
+  "final": 139184,
   "registered": null,
   "source": "archival",
   "provisional": false,

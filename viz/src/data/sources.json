@@ -5402,6 +5402,22 @@
   ]
  },
  {
+  "id": "1942-06-09",
+  "name": "Special Municipal Election (Air Raid Bonds)",
+  "final": 139184,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1942-06-10 p1 \u2014 printed official total vote cast 139,184 (complete, all 1187 precincts); scan sweep_19420609_issue19420610_p1_s1",
+  "observations": [
+   {
+    "date": "1942-06-10",
+    "days": 1,
+    "total": 139184,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1942-06-10 p1 'Raid Bonds Win' FINAL Morning Edition \u2014 COMPLETE OFFICIAL count, all 1187/1187 precincts (Registrar Cameron King); printed 'Total vote cast was 139,184' (wartime Air Raid Protection bonds, both passed 6:1); lever-machine era; scan sweep_19420609_issue19420610_p1_s1; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1941-11-04",
   "name": "General Municipal Election",
   "final": 210351,
@@ -5446,6 +5462,22 @@
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1939-11-08 p1 ELECTION EXTRA 'Here's How San Francisco Balloted' \u2014 complete semi-official, all 1084/1084 precincts election night; total vote of city 285,745 (largest in city history to date; Mayor Rossi 137,335+Havenner 116,256+Uhl 15,839+McSheehy 6,979+Schmidt 4,470=280,879); lever-machine era; scan sweep_19391107_issue19391108_p1_s1; conf=high"
+   }
+  ]
+ },
+ {
+  "id": "1939-05-19",
+  "name": "Special Municipal Election",
+  "final": 173881,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1939-05-20 p1 \u2014 printed total vote 173,881 (complete, all 1055 precincts); scan sweep_19390519_issue19390520_p1_s0",
+  "observations": [
+   {
+    "date": "1939-05-20",
+    "days": 1,
+    "total": 173881,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1939-05-20 p1 \u2014 COMPLETE, all 1055/1055 precincts; printed 'total vote was 173,881' (Props 1-2 both defeated; largest Prop 1 salary standardization 42,314+129,706=172,020); Registrar Collins: largest special-election turnout in city history to date; lever-machine era; scan sweep_19390519_issue19390520_p1_s0; conf=high"
    }
   ]
  },
@@ -5546,6 +5578,22 @@
   ]
  },
  {
+  "id": "1935-05-02",
+  "name": "Special Election (Charter Amendments)",
+  "final": 130526,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1935-05-03 p1 \u2014 largest charter amendment 130,526 (complete, all 828 precincts) as citywide floor; scan sweep_19350502_issue19350503_p1_s0",
+  "observations": [
+   {
+    "date": "1935-05-03",
+    "days": 1,
+    "total": 130526,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1935-05-03 p1 'ELECTION RETURNS (Complete)' \u2014 COMPLETE, all 828/828 precincts ('all of the city's 828 precincts counted'); largest charter amendment No.3 Symphony Orchestra Yes 83,455+No 47,071=130,526; lever-machine era; scan sweep_19350502_issue19350503_p1_s0; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1934-11-06",
   "name": "General Election",
   "final": 220795,
@@ -5562,6 +5610,22 @@
   ]
  },
  {
+  "id": "1933-12-19",
+  "name": "Special Election (State Referendum \u2014 Water & Power)",
+  "final": 98955,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1933-12-20 p4 \u2014 SF measure total 98,955 (complete, 912/912 precincts); scan sweep_19331219_issue19331220_p4_s1",
+  "observations": [
+   {
+    "date": "1933-12-20",
+    "days": 1,
+    "total": 98955,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1933-12-20 p4 'State Election Table' \u2014 COMPLETE, SF County 912/912 precincts; State Water Power Act (Central Valley Project Act) referendum SF Yes 60,329+No 38,626=98,955; single measure; lever-machine era; scan sweep_19331219_issue19331220_p4_s1; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1933-11-07",
   "name": "General Municipal Election",
   "final": 161599,
@@ -5574,6 +5638,38 @@
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1933-11-08 p1 'Final Returns' box: City Attorney O'Toole 90,110+Van Ness 50,757=140,867 (largest single-seat; Mayor not on 1933 ballot); 912/912 precincts complete, semi-official; ELECTION EXTRA; scan sweep_19331107_issue19331108_p1_s1; conf=high; night floor=City Attorney contest (12.8% undervote vs total uncounted) | City Attorney contest=140,867 (judicial-year undervote); ballots_counted set to complete total vote 161,599 (912/912 precincts counted election night)"
+   }
+  ]
+ },
+ {
+  "id": "1933-06-27",
+  "name": "State and Municipal Special Election",
+  "final": 150068,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1933-06-28 p1 \u2014 printed SF total vote 150,068 (complete semi-official; +3,008 absentees pending); scan sweep_19330627_issue19330628_p1_s1",
+  "observations": [
+   {
+    "date": "1933-06-28",
+    "days": 1,
+    "total": 150068,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1933-06-28 p1 ELECTION EXTRA \u2014 COMPLETE semi-official (excl 3,008 absentees pending); printed 'total San Francisco vote accounted for last night was 150,068' (18th-Amendment repeal convention + state racing bill + SF School Bonds); lever-machine era; scan sweep_19330627_issue19330628_p1_s1; conf=high"
+   }
+  ]
+ },
+ {
+  "id": "1933-04-11",
+  "name": "Special Election (Charter Amendments)",
+  "final": 99381,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1933-04-12 p1 \u2014 printed total ballots cast 99,381 (all 798 precincts); scan sweep_19330411_issue19330412_p1_s1",
+  "observations": [
+   {
+    "date": "1933-04-12",
+    "days": 1,
+    "total": 99381,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1933-04-12 p1 'S.F. Votes Pay Cut' \u2014 COMPLETE, all 798/798 precincts; printed citywide '99,381 Ballots Cast in Special Charter Election' (4 charter amendments; only Salary Cuts carried); lever-machine era; scan sweep_19330411_issue19330412_p1_s1; conf=high"
    }
   ]
  },
@@ -5610,6 +5706,22 @@
   ]
  },
  {
+  "id": "1932-05-03",
+  "name": "Special Election (State Referendum & Hetch Hetchy)",
+  "final": 136024,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1932-05-04 p1 \u2014 Hetch Hetchy Bonds 136,024 (complete, all 1050 precincts) as citywide floor; scan sweep_19320503_issue19320504_p1_s1",
+  "observations": [
+   {
+    "date": "1932-05-04",
+    "days": 1,
+    "total": 136024,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1932-05-04 p1 'S.F. RETURNS' \u2014 COMPLETE semi-official, all 1050/1050 precincts; largest measure Hetch Hetchy Bonds Yes 126,634+No 9,390=136,024 (also presidential primary on ballot); lever-machine era; scan sweep_19320503_issue19320504_p1_s1; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1931-11-03",
   "name": "General Municipal Election",
   "final": 151351,
@@ -5622,6 +5734,22 @@
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1931-11-04 p1 'Complete Returns' box: Mayor Rossi 76,550+Uhl 69,743+Darcy 1,408+Hines 620+Horr 514+Valentine 236=149,071 (largest single-seat); 1155/1155 precincts complete, semi-official; LEVER-MACHINE era; scan sweep_19311103_issue19311104_p1_s0; conf=high | Mayor contest=149,071; ballots_counted set to complete total vote 151,351 (1155/1155 precincts counted election night)"
+   }
+  ]
+ },
+ {
+  "id": "1931-03-26",
+  "name": "Special Election (New City Charter)",
+  "final": 104727,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1931-03-27 p1 \u2014 New Charter measure 104,727 (complete, all 788 precincts) as citywide floor; scan sweep_19310326_issue19310327_p1_s1",
+  "observations": [
+   {
+    "date": "1931-03-27",
+    "days": 1,
+    "total": 104727,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1931-03-27 p1 'DAWN OF NEW ERA FOR S.F.' \u2014 COMPLETE semi-official, all 788/788 precincts; new Freeholders' Charter (city/county consolidation) For 59,146+Against 45,581=104,727 (S.F.-San Mateo enabling act 101,404 smaller); lever-machine era; scan sweep_19310326_issue19310327_p1_s1; conf=high"
    }
   ]
  },
