@@ -279,6 +279,68 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1925-11-03",
+  "name": "Municipal Election",
+  "kind": "Municipal",
+  "year": 1925,
+  "final": 124819,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 92.1,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.25,
+    92.1,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1926-11-02",
   "name": "General Election",
   "kind": "General",

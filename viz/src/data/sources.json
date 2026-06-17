@@ -5137,6 +5137,22 @@
   ]
  },
  {
+  "id": "1925-11-03",
+  "name": "Municipal Election",
+  "final": 124819,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1925-11-05 p3 'Complete Returns' \u2014 Total vote of city 124,819 (complete 819/819 precincts, semi-official, tabulated by Registrar Zemansky); official canvass began Nov 9; scan canvass_19251105_p3_s0; image doc v2:142051F45F422A02@EANX-NB-14F1A1F50AF2A035@2424460-14F165FFF98F88D3@2-14F165FFF98F88D3@",
+  "observations": [
+   {
+    "date": "1925-11-04",
+    "days": 1,
+    "total": 114975,
+    "pct": 92.1,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1925-11-04 p1 'Latest Returns' box: City Attorney O'Toole 73282 + Lull 41693 = 114975 (largest clean head-to-head); complete semi-official from 795 of 819 precincts compiled 2 AM; scan canvass_19251104_p1_s1; image doc v2:142051F45F422A02@EANX-NB-14F1A1F1221EF9ED@2424459-14F165CECC425257@0-14F165CECC425257@; conf=high; FINAL ELECTION EXTRA; night floor=City Attorney sum (undervote uncounted); machine era\u2014500 of 819 precincts on lever machines, done at poll close; ~319 paper precincts slower \u00b7 view the page scan at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40EANX-NB-14F1A1F1221EF9ED%402424459-14F165CECC425257%400-14F165CECC425257%40%3B"
+   }
+  ]
+ },
+ {
   "id": "1924-11-04",
   "name": "Presidential General Election",
   "final": 159649,
