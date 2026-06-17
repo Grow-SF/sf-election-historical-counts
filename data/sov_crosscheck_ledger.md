@@ -44,3 +44,26 @@ Generals: 1914, 1918, 1922, 1924, 1926, 1928, 1930, 1932, 1936, 1938, 1940,
 1942, 1946, 1948, 1952, 1956, 1960, 1964. Primaries: 1928, 1930, 1932, 1948,
 1950, 1952, 1954, 1956, 1958, 1960, 1962, 1964. (Municipals/specials: N/A.)
 Also: modern DOE figures 1968–2014 (lower priority; our exact data matches).
+
+## Batch 2 & 3 results (generals 1914-1960) — ALL DOE-consistent
+| Election | SOV SF contest | SOV total-cast | DOE | verdict |
+|---|---|---|---|---|
+| 1914-11-03 G | Gov 132,103 | 134,492 | 134,492 | ✓ DOE=SOV turnout |
+| 1918-11-05 G | Gov 100,382 | 103,011 | 103,011 | ✓ DOE=SOV turnout |
+| 1922-11-07 G | Gov 132,225 | (none) | 134,503 | ✓ |
+| 1924-11-04 P | Pres 153,950 | (none) | 159,649 | ✓ |
+| 1926-11-02 G | Gov 125,301 | (none) | 130,835 | ✓ |
+| 1928-11-06 P | Pres 195,468 | (none) | 199,665 | ✓ |
+| 1932-11-08 P | Pres 223,197 | (none) | 227,283 | ✓ |
+| 1936-11-03 P | Pres 265,001 | (none) | 269,387 | ✓ |
+| 1938-11-08 G | Gov 248,035 | (none) | 257,597 | ✓ |
+| 1940-11-05 P | Pres 311,878 | (none) | 315,518 | ✓ |
+| 1942-11-03 G | Gov 226,560 | (none) | 230,129 | ✓ |
+| 1946-11-05 G | Gov 239,116 | (none) | 270,457 | ✓ (Warren cross-filed) |
+| 1948-11-02 P | Pres 350,709 | (none) | 359,134 | ✓ |
+| 1952-11-04 P | Pres 374,700 | 365,972 | 365,972 | ⚠ SOV internal anomaly; DOE=SOV turnout |
+| 1956-11-06 P | Pres 336,967 | 342,652 | 342,652 | ✓ DOE=SOV turnout |
+| 1960-11-08 P | Pres 342,219 | 348,290 | 348,290 | ✓ DOE=SOV turnout |
+
+Generals cross-check COMPLETE 1908-1960 (1944 skipped). DOE errors: 1908, 1934, 1978.
+Remaining: 1964 general; 1948-1964 primaries.

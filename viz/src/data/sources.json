@@ -4982,7 +4982,7 @@
   "id": "1960-11-08",
   "name": "Consolidated General Election",
   "final": 348290,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 348,290 = SOV SF 'total vote cast' line exactly (President contest 342,219: Kennedy 197,734+Nixon 143,001+Decker 1,360+Hass 124). CA SoS Statement of Vote 1960, https://archive.org/details/stateofcaliforn195262cali/page/n327 ; cross-ref Wikipedia 1960 US pres CA. DOE \u2713",
   "observations": [
    {
     "date": "1960-11-09",
@@ -5078,7 +5078,7 @@
   "id": "1956-11-06",
   "name": "Presidential General Election",
   "final": 342652,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 342,652 = SOV SF 'total vote cast' line exactly (President contest 336,967: Eisenhower 173,648+Stevenson 161,766). CA SoS Statement of Vote 1956, https://archive.org/details/stateofcaliforn195262cali/page/n189 ; cross-ref Wikipedia 1956 US pres CA. DOE \u2713",
   "observations": [
    {
     "date": "1956-11-07",
@@ -5174,7 +5174,7 @@
   "id": "1952-11-04",
   "name": "Presidential General Election",
   "final": 365972,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 365,972 = SOV SF 'total vote cast' line exactly. (NOTE: the 1952 SOV's presidential detail sums to 374,700 > its own 365,972 turnout line - an internal SOV inconsistency, see docs/doe-data-discrepancies.md; DOE matches the SOV turnout line.) Eisenhower 198,158+Stevenson 172,312. CA SoS Statement of Vote 1952, https://archive.org/details/stateofcaliforn195262cali/page/n46 ; cross-ref Wikipedia 1952 US pres CA. DOE \u2713",
   "observations": [
    {
     "date": "1952-11-05",
@@ -5270,7 +5270,7 @@
   "id": "1948-11-02",
   "name": "Presidential General Election",
   "final": 359134,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 359,134 consistent (>= SOV SF President 350,709: Truman 167,726+Dewey 160,135+Wallace 21,492+other 1,356). CA SoS Statement of Vote 1948, https://archive.org/details/stateofcaliforn194050cali ; cross-ref Wikipedia 1948 US pres CA. DOE \u2713",
   "observations": [
    {
     "date": "1948-11-03",
@@ -5318,7 +5318,7 @@
   "id": "1946-11-05",
   "name": "General Election",
   "final": 270457,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 270,457 consistent (>= SOV SF Governor 239,116: Warren cross-filed 220,344+Schmidt 16,716+Brown 2,056; large undervote, Warren unopposed-ish). CA SoS Statement of Vote 1946, https://archive.org/details/stateofcaliforn194050cali/page/n338 ; cross-ref Wikipedia 1946 CA gubernatorial. DOE \u2713",
   "observations": [
    {
     "date": "1946-11-06",
@@ -5389,7 +5389,7 @@
   "id": "1942-11-03",
   "name": "General Election",
   "final": 230129,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 230,129 consistent (>= SOV SF Governor 226,560: Warren 120,979+Olson 103,888+Porter 1,178+Dyster 514). CA SoS Statement of Vote 1942, https://archive.org/details/stateofcaliforn194050cali/page/n193 ; cross-ref Wikipedia 1942 CA gubernatorial. DOE \u2713",
   "observations": [
    {
     "date": "1942-11-04",
@@ -5437,7 +5437,7 @@
   "id": "1940-11-05",
   "name": "Presidential General Election",
   "final": 315518,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 315,518 consistent (>= SOV SF President 311,878: Roosevelt 185,607+Willkie 122,449+Browder 1,935+Thomas 1,513). CA SoS Statement of Vote 1940, https://archive.org/details/stateofcaliforn194050cali/page/n109 ; cross-ref Wikipedia 1940 US pres CA. DOE \u2713",
   "observations": [
    {
     "date": "1940-11-06",
@@ -5485,7 +5485,7 @@
   "id": "1938-11-08",
   "name": "General Election",
   "final": 257597,
-  "finalSource": "DOE historical voter turnout table (certified)",
+  "finalSource": "DOE turnout 257,597 consistent (>= SOV SF Governor 248,035: Olson 132,346+Merriam 111,046+Haight 3,843). CA SoS Statement of Vote 1938, https://archive.org/details/statementofvote192639cali/page/n849 ; cross-ref Wikipedia 1938 CA gubernatorial. DOE \u2713",
   "observations": [
    {
     "date": "1938-11-09",
