@@ -20,12 +20,12 @@ Status: TODO / CAPTURED / READ / APPENDED / SKIP
 - 1937-11-02  DEFER (night Prop1 171,570 / largest office 145,281 @1055/1055 but absentees pending; complete total not printed — need official canvass)
 - 1939-11-07  APPENDED (total vote 285,745 complete 1084/1084 = 100%)
 - 1941-11-04  APPENDED (total vote 210,351 complete 1111/1111 = 100%)
-- 1943-11-02  TODO
+- 1943-11-02  APPENDED (Mayor 217,783 complete 1180/1180 = 100%)
 - 1945-11-06  TODO
 - 1947-11-04  TODO
 - 1949-11-08  TODO
-- 1951-11-06  TODO
-- 1953-11-03  TODO
+- 1951-11-06  APPENDED (Mayor 255,502 complete 1209/1209 = 100%)
+- 1953-11-03  APPENDED (printed total 218,961 complete 1306/1306 = 100%)
 - 1955-11-08  TODO
 - 1957-11-05  TODO
 - 1959-11-03  TODO
@@ -36,7 +36,7 @@ Status: TODO / CAPTURED / READ / APPENDED / SKIP
 ## Tier 1b — generals DOE skipped (certified may need recovery too)
 - 1918-11-05  APPENDED (night 0 — no SF count by AM, long ballot / final 103,011 DOE = 0%)
 - 1934-11-06  APPENDED (night Gov 220,795 complete 1054/1054 = 100%; DOE 166,133 is WRONG — flagged)
-- 1944-11-07  TODO (DOE has certified)
+- 1944-11-07  DEFER (SF Pres 317,061 complete but only in Nov 9 paper @ days=2; need Nov 8 election-night inside-page SF box; cert DOE 352,409)
 - 1958-11-04  TODO
 - 1962-11-06  TODO
 
