@@ -20,13 +20,20 @@ function f(d){const x=new Date(d+'T12:00:00');return `${String(x.getMonth()+1).p
   const ps = await page.target().createCDPSession();
   const {windowId} = await ps.send('Browser.getWindowForTarget');
   await ps.send('Browser.setWindowBounds',{windowId,bounds:{left:3300 + (WIN%5)*340, top:2300 + Math.floor(WIN/5)*300, width:2400, height:2600}});
-  // entry docref via free search
-  const u=`https://sfchronicle.newsbank.com/search?text=election&date_from=${encodeURIComponent(f(LABEL))}&date_to=${encodeURIComponent(f(LABEL))}&pub%5B0%5D=142051F45F422A02`;
-  await page.goto(u,{waitUntil:'networkidle2',timeout:60000}).catch(()=>{});
+  // entry docref via ezproxy image-edition date search. The YMD_date nav filter
+  // actually constrains to the issue date for ALL eras; the old
+  // sfchronicle.newsbank.com date_from/date_to search silently ignores the date
+  // for pre-1906 (it's the 1985+ text edition) and returned a wrong (1940) issue.
+  const dr=`${f(LABEL)} - ${f(LABEL)}`;
+  const u='https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/results?p=WORLDNEWS&b=results'
+    +'&fld-base-0=alltext&val-base-0='+encodeURIComponent('election')
+    +'&bln-base-1=AND&fld-nav-0=YMD_date&val-nav-0='+encodeURIComponent(dr)
+    +'&sort=YMD_date%3AA';
+  await page.goto(u,{waitUntil:'networkidle2',timeout:90000}).catch(()=>{});
   await new Promise(r=>setTimeout(r,3600));
   const id = await page.evaluate(()=>{
-    const a=document.querySelector('a[href*="/doc/image/"]');
-    const m=a&&a.href.match(/doc\/image\/(v2[^?]+)/);
+    const a=document.querySelector('a[href*="docref=image"]');
+    const m=a&&a.href.match(/docref=image(?:%2F|\/)([^&"]+)/);
     return m?decodeURIComponent(m[1]):null;
   });
   if(!id){console.error('NO ENTRY for', LABEL);process.exit(3);}

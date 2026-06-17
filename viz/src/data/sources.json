@@ -6175,10 +6175,58 @@
   "observations": []
  },
  {
+  "id": "1902-11-04",
+  "name": "General Election",
+  "final": 60067,
+  "finalSource": "California Blue Book / State Roster 1903 p.332 \u2014 SF County Governor certified 60,067 (Pardee 24,106+Lane 33,743+Brower 1,993+Kanouse 164+scat 61). https://archive.org/details/california-blue-book-1903-sfg ; cross-ref Wikipedia 1902 CA gubernatorial. (Pre-1908: no SOV; Blue Book is the certified source.)",
+  "observations": [
+   {
+    "date": "1902-11-05",
+    "days": 1,
+    "total": 0,
+    "pct": 0.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1902-11-05 p1 'Only a Small Percentage of the Votes Counted Up to Midnight' \u2014 SF Governor row BLANK (no SF count by the morning paper); DEEP HAND-COUNT era. 2-day-after Nov 6 reached 59,040 @320/320 complete (Pardee+Lane). scan sweep_19021104_issue19021105_p1, issue19021106_p1_s2; conf=high"
+   }
+  ]
+ },
+ {
+  "id": "1900-11-06",
+  "name": "Presidential General Election",
+  "final": 63202,
+  "finalSource": "California Blue Book / State Roster 1903 pp.311-314 \u2014 SF County President certified 63,202 (McKinley 35,208+Bryan 25,212+Debs 2,030+Woolley 275+scat 477). https://archive.org/details/california-blue-book-1903-sfg ; cross-ref Wikipedia 1900 US pres CA. (Pre-1908: no SOV; Blue Book is the certified source.)",
+  "observations": [
+   {
+    "date": "1900-11-07",
+    "days": 1,
+    "total": 36646,
+    "pct": 58.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1900-11-07 p9 (SF returns section, 'Pages 9 to 16') \u2014 HUMAN-VERIFIED: by late election night the Registrar had recorded 64,158 ballots cast (5 precincts missing) but the PRESIDENT count stood at McKinley 21,426 + Bryan 15,220 = 36,646 (paper: 'majority 6,206'); deep hand-count era partial tally. scan sweep_19001106_issue19001107_p9; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1899-12-02",
   "name": "Certified turnout record \u2014 night count not yet recovered",
   "summary": "22,331 ballots cast, 31.6% of 70,726 registered",
   "finalSource": "SF Dept. of Elections historical turnout table (1899\u20132019)",
   "observations": []
+ },
+ {
+  "id": "1896-11-03",
+  "name": "Presidential General Election",
+  "final": 63086,
+  "finalSource": "CA SoS Statement of Vote 1896 (statementofvoteo1886cali p.3) \u2014 SF County President certified 63,086 (McKinley 31,041+Bryan 30,649+Matchett 784+Palmer 320+Bentley 183+Levering 109). https://archive.org/details/statementofvoteo1886cali ; cross-ref Wikipedia 1896 US pres CA.",
+  "observations": [
+   {
+    "date": "1896-11-04",
+    "days": 1,
+    "total": 51939,
+    "pct": 82.3,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1896-11-04 p9 (SF returns section) \u2014 HUMAN-VERIFIED: election-night SF President count McKinley 26,530 + Bryan 25,409 = 51,939 (51,939 ballots cast for president by press time); hand-count era. scan sf1896_p9; conf=high"
+   }
+  ]
  }
 ]
