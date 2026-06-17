@@ -67,3 +67,23 @@ Also: modern DOE figures 1968–2014 (lower priority; our exact data matches).
 
 Generals cross-check COMPLETE 1908-1960 (1944 skipped). DOE errors: 1908, 1934, 1978.
 Remaining: 1964 general; 1948-1964 primaries.
+
+## Pre-1908: NO digitized SOV — use California Blue Book / State Roster
+The digitized SOV series with SF-county breakdowns effectively starts 1908. For
+pre-1908 statewide elections the certified source of truth is the **California
+Blue Book / State Roster** (CA Secretary of State), on HathiTrust & archive.org
+(e.g. `california-blue-book-1903-sfg`). Wikipedia "19xx ... in California" by-county
+tables cite these.
+
+### Pre-1906 certified figures gathered (Blue Book) — night counts pending ezproxy re-login
+| Election | SF certified (contest) | Source | Night count |
+|---|---|---|---|
+| 1904-11-08 Pres | 65,427 (Roosevelt 39,816+Parker 18,027+Debs 7,250+Swallow 334) | Blue Book 1907 pp.419-422 (HathiTrust uiuo.ark:/13960/t8kd5fq60) | BLOCKED (session expired) |
+| 1902-11-04 Gov | 60,067 (Pardee 24,106+Lane 33,743+Brower 1,993+Kanouse 164) | Blue Book 1903 p.332 (archive.org california-blue-book-1903-sfg) | 59,040 @320/320 from Nov 6 (2-day); Nov 5 election-night paper had SF BLANK ("only a small % by midnight") → election-night share ~0 (slow hand count) |
+| 1900-11-06 Pres | 63,202 (McKinley 35,208+Bryan 25,212+Debs 2,030+Woolley 275+scat 477) | Blue Book 1903 pp.311-314 | BLOCKED |
+| 1898-11-08 Gov | 54,372 (Gage 28,218+Maguire 24,632+Harriman 1,388+McComas 134) | Blue Book 1899 p.227 (HathiTrust mdp.39015041451256) | BLOCKED |
+| 1896-11-03 Pres | (incomplete — agent stalled on dead session) | — | BLOCKED |
+
+TODO pre-1906 (needs ezproxy re-login for night counts): capture day-after (and 2-day)
+Chronicle for 1896,1898,1900,1904 (1902 partly done); then 1886-1894 generals;
+municipals 1899/1901/1903/1905. Certified for those via Blue Book.
