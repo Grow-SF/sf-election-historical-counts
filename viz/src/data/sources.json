@@ -5018,6 +5018,22 @@
   ]
  },
  {
+  "id": "1941-11-04",
+  "name": "General Municipal Election",
+  "final": 210351,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1941-11-05 p1 'S.F. Election Results' box \u2014 'Total vote\u2014210,351' (complete semi-official, 1111/1111 precincts); scan sweep_19411104_issue19411105_p1_s1",
+  "observations": [
+   {
+    "date": "1941-11-05",
+    "days": 1,
+    "total": 210351,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1941-11-05 p1 FINAL ELECTION EXTRA 'S.F. Election Results' box \u2014 complete semi-official, 1111/1111 precincts election night; 'Total vote\u2014210,351' (no mayoral race in 1941; largest office Mun. Court No.4 Ames 93,499+Cosgrove 69,567+Mooslin 14,719=177,785); lever-machine era; scan sweep_19411104_issue19411105_p1_s1; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1940-11-05",
   "name": "Presidential General Election",
   "final": 315518,
@@ -5030,6 +5046,22 @@
     "pct": 95.3,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1940-11-06 President SF sum=300729, 1103/1103 precincts, complete; scan sweep_19401105_issue19401106_p4_s0; conf=medium; all-1103-precincts-complete;minor-cands-Babson-Browder-Thomas-not-tabulated-in-paper;Roosevelt-181620-Willkie-119109"
+   }
+  ]
+ },
+ {
+  "id": "1939-11-07",
+  "name": "General Municipal Election",
+  "final": 285745,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1939-11-08 p1 'In the City' \u2014 'The total vote of 285,745 was the largest in the city's history'; all 1084 precincts; scan sweep_19391107_issue19391108_p1_s1",
+  "observations": [
+   {
+    "date": "1939-11-08",
+    "days": 1,
+    "total": 285745,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1939-11-08 p1 ELECTION EXTRA 'Here's How San Francisco Balloted' \u2014 complete semi-official, all 1084/1084 precincts election night; total vote of city 285,745 (largest in city history to date; Mayor Rossi 137,335+Havenner 116,256+Uhl 15,839+McSheehy 6,979+Schmidt 4,470=280,879); lever-machine era; scan sweep_19391107_issue19391108_p1_s1; conf=high"
    }
   ]
  },
@@ -5066,11 +5098,52 @@
   ]
  },
  {
+  "id": "1935-11-05",
+  "name": "General Municipal Election",
+  "final": 185568,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1935-11-06 p1 'Election Returns' \u2014 Mayor complete 'Total vote 185,568', all 1065 precincts (semi-official); scan sweep_19351105_issue19351106_p1_s1",
+  "observations": [
+   {
+    "date": "1935-11-06",
+    "days": 1,
+    "total": 185568,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1935-11-06 p1 'Election Returns' box \u2014 complete semi-official, all 1065/1065 precincts election night; Mayor (largest contest) printed 'Total vote 185,568' (Rossi 96,655+Uhl 59,129+Mason 14,267+Todd 7,829+Rainey 5,957+scattering); lever-machine era; scan sweep_19351105_issue19351106_p1_s1; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1934-11-06",
-  "name": "Certified turnout record \u2014 night count not yet recovered",
-  "summary": "166,133 ballots cast, 57.2% of 290,683 registered",
-  "finalSource": "SF Dept. of Elections historical turnout table (1899\u20132019)",
-  "observations": []
+  "name": "General Election",
+  "final": 220795,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1934-11-07 p1 \u2014 SF Governor complete 1054/1054 = 220,795 (citywide floor; no grand total printed). NOTE: the DOE turnout table's 166,133 for 1934-11-06 is ERRONEOUS \u2014 exceeded by SF Governor 220,795, Lt Gov 210,962, Treasurer 187,670; true SF turnout ~221k+ (~76% of 290,683 registered). scan sweep_19341106_issue19341107_p1_s1",
+  "observations": [
+   {
+    "date": "1934-11-07",
+    "days": 1,
+    "total": 220795,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1934-11-07 p1 EXTRA 'MERRIAM WINS EASILY' \u2014 SF Governor complete, all 1054/1054 precincts election night: Merriam 112,778+Sinclair 86,764+Haight 21,253=220,795; SF reported per-contest (no grand total printed) so this is a complete-count floor (true total slightly higher by undervote); lever-machine era; scan sweep_19341106_issue19341107_p1_s1; conf=high"
+   }
+  ]
+ },
+ {
+  "id": "1933-11-07",
+  "name": "General Municipal Election",
+  "final": 161599,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1933-11-08 p1 \u2014 total vote cast 161,599 (Registrar semi-official, all 912 precincts); scan sweep_19331107_issue19331108_p1_s1",
+  "observations": [
+   {
+    "date": "1933-11-08",
+    "days": 1,
+    "total": 161599,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1933-11-08 p1 'Final Returns' box: City Attorney O'Toole 90,110+Van Ness 50,757=140,867 (largest single-seat; Mayor not on 1933 ballot); 912/912 precincts complete, semi-official; ELECTION EXTRA; scan sweep_19331107_issue19331108_p1_s1; conf=high; night floor=City Attorney contest (12.8% undervote vs total uncounted) | City Attorney contest=140,867 (judicial-year undervote); ballots_counted set to complete total vote 161,599 (912/912 precincts counted election night)"
+   }
+  ]
  },
  {
   "id": "1932-11-08",
@@ -5085,6 +5158,22 @@
     "pct": 88.4,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1932-11-09 President SF sum=200912, 1050/1050 precincts, COMPLETE (\"complete San Francisco vote\"); scan sweep_19321108_issue19321109_p1_s2/p4_s0; conf=high; Roosevelt 134801 + Hoover 66111; paper says complete; 88.4 is president floor (undervote), true night share ~100%."
+   }
+  ]
+ },
+ {
+  "id": "1931-11-03",
+  "name": "General Municipal Election",
+  "final": 151351,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1931-11-04 p1 'Complete Returns' \u2014 'Total vote, 151,351' (1155/1155 precincts); scan sweep_19311103_issue19311104_p1_s0",
+  "observations": [
+   {
+    "date": "1931-11-04",
+    "days": 1,
+    "total": 151351,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1931-11-04 p1 'Complete Returns' box: Mayor Rossi 76,550+Uhl 69,743+Darcy 1,408+Hines 620+Horr 514+Valentine 236=149,071 (largest single-seat); 1155/1155 precincts complete, semi-official; LEVER-MACHINE era; scan sweep_19311103_issue19311104_p1_s0; conf=high | Mayor contest=149,071; ballots_counted set to complete total vote 151,351 (1155/1155 precincts counted election night)"
    }
   ]
  },
@@ -5117,6 +5206,22 @@
     "pct": 90.8,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1928-11-07 PRESIDENT SF sum=181264, 970/1006 precincts, PARTIAL; scan sweep_19281106_issue19281107_p1_s1; conf=high; HOOVER-89487-SMITH-91777-from-image; regular-morning-edition; SEN-JOHNSON-66107-MOORE-15790-smaller"
+   }
+  ]
+ },
+ {
+  "id": "1927-11-08",
+  "name": "General Municipal Election",
+  "final": 163187,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1927-11-09 p1 'COMPLETE ELECTION RETURNS' box \u2014 'The total vote was 163,187'; scan sweep_19271108_issue19271109_p1_s1",
+  "observations": [
+   {
+    "date": "1927-11-08",
+    "days": 0,
+    "total": 163187,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1927-11-09 p1 'COMPLETE ELECTION RETURNS' box (reported to Registrar 11:30pm election night): Mayor Rolph 90,344+Power 59,442+Uhl 11,396=161,182 (largest single-seat; Rolph margin 30,902 matches headline); complete semi-official, all SF precincts; LEVER-MACHINE era; scan sweep_19271108_issue19271109_p1_s1; conf=high | Mayor contest=161,182; ballots_counted set to complete total vote 163,187 (all precincts counted election night)"
    }
   ]
  },
@@ -5169,6 +5274,22 @@
   ]
  },
  {
+  "id": "1923-11-06",
+  "name": "General Municipal Election",
+  "final": 127983,
+  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1923-11-08 p1 'Complete Vote Registered at Polls Tuesday' \u2014 total vote of city 127,983, all 604 precincts (complete unofficial; a record for municipal elections); scan sweep_19231106_issue19231108_p1_s1",
+  "observations": [
+   {
+    "date": "1923-11-07",
+    "days": 1,
+    "total": 94816,
+    "pct": 74.1,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1923-11-07 'Latest Figures' box: Sheriff Finn 59,829+Robb 30,962+Rock 4,025=94,816 (largest single-seat contest), 505/604 precincts complete, semi-official; CENTRAL-BUREAU HAND COUNT at Civic Auditorium (no machines yet, ~1600 counters); scan sweep_19231106_issue19231107_p1_s1; conf=high; night floor=Sheriff contest sum (undervote uncounted)"
+   }
+  ]
+ },
+ {
   "id": "1922-11-07",
   "name": "General Election",
   "final": 134503,
@@ -5202,10 +5323,19 @@
  },
  {
   "id": "1918-11-05",
-  "name": "Certified turnout record \u2014 night count not yet recovered",
-  "summary": "103,011 ballots cast, 58.8% of 175,109 registered",
-  "finalSource": "SF Dept. of Elections historical turnout table (1899\u20132019)",
-  "observations": []
+  "name": "General Election",
+  "final": 103011,
+  "finalSource": "DOE historical voter turnout table (certified)",
+  "observations": [
+   {
+    "date": "1918-11-06",
+    "days": 1,
+    "total": 0,
+    "pct": 0.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1918-11-06: NO SF count published by the morning paper \u2014 HAND-COUNT era, long ballot. p5 'San Francisco Count Delayed By Long Ballot': 'the first completed precinct did not reach the office of Registrar Zemansky until well after midnight.' Day-after paper printed only statewide partials; no SF Governor subtotal or charter-amendment SF total. Night floor=0 (no SF contest tabulated election night); scans sweep_19181105_issue19181106_p1_s1,p5_s1; conf=high"
+   }
+  ]
  },
  {
   "id": "1916-11-07",
