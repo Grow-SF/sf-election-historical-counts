@@ -150,6 +150,59 @@ and what would resolve each. Newspaper photos, microfilm scans, or DOE release
 reports are welcome at **steven@growsf.org** — every submission is verified
 against certified totals and cited on the sources page.
 
+## Open work & roadmap
+
+Outstanding tasks, newest first. Detailed per-item tracking lives in the linked
+ledgers; this is the index.
+
+**Pre-1892 night counts** (extends the night-share chart below 1868 — the current
+floor; see [`data/pre1892_certified.md`](data/pre1892_certified.md))
+- [ ] **1871, 1872** — re-pull from a specific SF English-language daily; the
+      date search landed on the *Oakland* Daily Transcript and a German-language
+      SF paper, neither carrying the SF returns.
+- [ ] **1888** — pull the SF *Chronicle* front page; the *Evening Bulletin* entry
+      docref is a single article that won't paginate in the viewer.
+- [ ] **1880, 1884** — pull the morning *Chronicle*'s overnight tally; only prose
+      *Evening Bulletin* editions ("Blaine ~2,000 plurality") were found.
+- [ ] **1886 (~29%), 1890 (~12%)** — finalize the soft digits against the sent
+      crops (hand-verification), then ingest.
+- [ ] **1867** — not recoverable as a night count (the morning-after count wasn't
+      done); only pursue if a "days-to-complete-canvass" series is wanted.
+
+**Verification (hand-read against the cited scans — [the loop](data/README.md))**
+- [ ] **1974–1998 SOV registration** recoveries — pending hand-verification
+      (`docs/eligible-denominator-notes.md`; `scripts/recover_sov_registration.py`).
+- [ ] **Pre-1964 night-floor** load-bearing digits — re-read on the image before
+      relying on them (`docs/analysis/2026-06-13-pre1964-night-floor.md`).
+
+**DOE data discrepancies** ([`docs/doe-data-discrepancies.md`](docs/doe-data-discrepancies.md))
+- [ ] Report the **1908** (41,137 vs President 60,124) and **1978**
+      (precinct-only, dropped absentees) errors to the Dept. of Elections.
+- [ ] Send the drafted **1934** correction email (turnout 166,133 vs Governor
+      225,977) to the DOE.
+- [ ] Track whether DOE corrects its published 1899–2019 turnout table.
+
+**SOV cross-check remaining** ([`data/sov_crosscheck_ledger.md`](data/sov_crosscheck_ledger.md))
+- [ ] Primaries **1928/1930/1932/1962**; modern DOE figures **1968–2014**
+      (lower priority — exact per-release data already matches).
+
+**Remaining historical recovery** ([`data/recovery_ledger_pre1965.md`](data/recovery_ledger_pre1965.md))
+- [ ] Direct primaries **1954–1964** (1954-06-08 … 1964-06-02).
+- [ ] Specials/recalls **1943-04-20, 1944-05-16, 1946-07-16** (Lapham recall).
+
+**Prose corrections**
+- [ ] The era-1 "≈89% in 1908" claim is now **~61%** (DOE's 1908 denominator was
+      wrong) — fix in `viz/src/components/Story.tsx` and the web essay/`index.mdx`.
+
+**Next dataset**
+- [ ] **Day-by-day counts to certification** ("how long until certified") — needs
+      the DOE's certified per-election datasets; records request pending.
+
+**Publish**
+- [ ] Sync the viz datasets + prose/subtitles into the Grow-SF web embed
+      (`content/research/2026-06-14-the-long-count/longcount/`), re-render the OG
+      image, and open/refresh PRs on both repos.
+
 ## Provenance & licensing
 
 Every published number traces to a primary source on the `/sources` page.
