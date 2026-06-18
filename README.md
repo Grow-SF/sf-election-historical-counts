@@ -14,13 +14,13 @@ the Department of Elections' own results releases plus a deep recovery of
 historical counts from newspaper and web archives — and tells the story in an
 interactive site.
 
-Live data spans **1899–2026** (turnout and registration back to 1899;
-election-night counts back to 1907): 152 elections with an election-night count
-(including 79 pre-1965 counts recovered from the hand-count and machine eras,
-back to 1907), 247 recovered historical canvass observations, and 241 modern
+Live data spans **1868–2026** (turnout back to 1879, registration back to 1908,
+election-night counts back to 1868): 164 elections with an election-night count
+(including 90 pre-1965 counts recovered from the hand-count and machine eras,
+back to 1868), 258 recovered historical canvass observations, and 241 modern
 per-release reports, every number traceable to a cited source. The long view
-reveals distinct eras — _erratic_ in the hand-count era (1907–1922, when ballot
-length, not the calendar, set the pace: ~89% counted by morning in 1908 but
+reveals distinct eras — _erratic_ in the hand-count era (1868–1922, when ballot
+length, not the calendar, set the pace: ~61% counted by morning in 1908 but
 effectively nothing in 1918's long-ballot election), fast and near-complete once
 lever voting machines arrived (1928–1990s), and the modern mail-driven slide —
 see
@@ -152,12 +152,40 @@ Set `SF_MIRROR_DIR` to point them at a mirror kept elsewhere:
 
     SF_MIRROR_DIR=/path/to/mirror python3 scripts/fetch_chronicle.py
 
-## Contributing data
+## Help us recover the missing elections
 
-The `/missing` page lists the elections still lacking an election-night count
-and what would resolve each. Newspaper photos, microfilm scans, or DOE release
-reports are welcome at **steven@growsf.org** — every submission is verified
-against certified totals and cited on the sources page.
+**83 San Francisco elections still lack an election-night count** — see
+[`data/elections_master.csv`](data/elections_master.csv) (the `recovered=no` rows)
+and the site's `/missing` page. Most are pre-1907, above all the 1856–1905 mayoral
+elections. None are lost causes: the returns were printed at the time and survive
+in the newspaper archive. You can help find them — no special skills needed.
+
+**How to look:**
+
+1. Get a free **San Francisco Public Library card** — SF residents can sign up
+   online at [sfpl.org](https://sfpl.org). (Anyone in California can get one.)
+2. Your card unlocks the **San Francisco Chronicle archive on NewsBank** (it goes
+   back to 1865), through SFPL's online databases — use the *Access World News /
+   image edition*.
+3. Pick a missing election and note its **date** from `elections_master.csv`.
+4. Open the **day-after issue** and find the San Francisco returns. For elections
+   before ~1985 use the **image edition** and page through the front pages: look for
+   a box headed **"ELECTION RETURNS," "VOTE OF THE CITY,"** or **"THE CITY"** with a
+   per-candidate San Francisco table. Helpful search terms: the office + candidate
+   surnames, `"vote of the city"`, `"election returns"`.
+5. **Check the masthead date** matches the election's day-after — NewsBank's issue
+   labels are sometimes off by a day.
+6. Take a clear **photo or screenshot** of the returns box.
+
+**How to contribute what you find:**
+
+- **Open a pull request** adding your source (a citation plus the figures) to the
+  relevant file in `data/`, **or**
+- **Email [contact@growsf.org](mailto:contact@growsf.org)** with the photo/scan, the
+  election date, which contest, and where you found it.
+
+Every submission is verified against certified totals and credited on the `/sources`
+page. Before you dig, the `/missing` page notes what's already been tried for each.
 
 ## Open work & roadmap
 

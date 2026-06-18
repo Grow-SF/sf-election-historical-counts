@@ -115,4 +115,4 @@ let me know the expected timeline. Thank you for your work and your help.
 
 Sincerely,
 Steven [last name]
-GrowSF · steven@growsf.org
+GrowSF · contact@growsf.org
