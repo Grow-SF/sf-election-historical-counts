@@ -13,6 +13,7 @@ const CHROME =
 // output file -> a substring of the chart's <h3> title to locate its <figure>
 const TARGETS = {
   "docs/img/night-share.png": "How much of the vote was counted",
+  "docs/img/turnout.png": "Turnout of registered voters",
   "docs/img/vote-by-mail.png": "Vote-by-mail share of ballots cast",
   "docs/img/franchise-funnel.png": "Who could vote",
 };

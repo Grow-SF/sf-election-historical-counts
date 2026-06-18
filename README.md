@@ -28,20 +28,29 @@ see
 
 ---
 
-## The story, in three charts
+## The story, in four charts
 
 **Election night tells you less every cycle.** The share of the vote counted by
 the morning after has collapsed since ~2002 — though the long view shows it
 failed before, too, in the 1910s, for the opposite reason (hand-counting long
-Progressive-era ballots).
+Progressive-era ballots). The record now reaches back to 1868, when San
+Francisco's small electorate was counted in full overnight (~100%).
 
-![Election-night count as a share of the certified final, San Francisco 1907–2026](docs/img/night-share.png)
+![Election-night count as a share of the certified final, San Francisco 1868–2026](docs/img/night-share.png)
 
 **What changed is the mail.** Vote-by-mail grew from a sliver in the 1960s to
 nine in ten today. Those ballots arrive late and need signature checks, so the
 count physically moved off election day.
 
 ![Vote-by-mail as a share of all ballots cast, 1964–2026](docs/img/vote-by-mail.png)
+
+**More mail didn't mean more voting.** Turnout *of registered voters* has barely
+budged — presidential generals still top the range, off-year municipals still sit
+at the bottom, just as they did in the 1880s (when ~92–95% of registered San
+Franciscans voted in the big races). The mail moved *when* ballots are counted,
+not *whether* people cast them.
+
+![Turnout of registered voters by election type, San Francisco 1879–2026](docs/img/turnout.png)
 
 **Did that expand the franchise? No — and the real story is a century of
 immigration.** Every San Franciscan as a band of the whole population: women's
