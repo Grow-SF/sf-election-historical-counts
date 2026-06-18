@@ -170,7 +170,6 @@ export default function NightShareChart({
       { x: f.x0, y: f.intercept + f.slope * f.x0 },
       { x: f.x1, y: f.intercept + f.slope * f.x1 },
     ];
-  const trendE = seg(fitE);
   const trendM = seg(fitM);
   const trendR = seg(fitR);
 
@@ -381,7 +380,6 @@ export default function NightShareChart({
                 }}
               />
               {/* trend lines at zIndex 700/710, above the Scatter (600) */}
-              {trendLines(trendE, "var(--color-faint)", "e")}
               {trendLines(trendM, "var(--color-ink)", "m")}
               {trendLines(trendR, "var(--color-ink)", "r")}
             </ComposedChart>
