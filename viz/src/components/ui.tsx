@@ -4,12 +4,16 @@ import { ReferenceLine } from "recharts";
 import { EVENTS, Fit } from "@/lib/data";
 
 /**
- * Dashed vertical lines for the shared franchise/voting EVENTS that fall
- * within [min, max] — rendered identically in every chart. Use as a chart
- * child: {eventLines(1962, 2028)}
+ * Dashed vertical lines for milestone events within [min, max]. Defaults to the
+ * vote-counting EVENTS (night-share, turnout, VBM); pass FRANCHISE_EVENTS for the
+ * "who could vote" charts. Use as a chart child: {eventLines(1962, 2028)}
  */
-export function eventLines(min: number, max: number) {
-  return EVENTS.filter((e) => e.year >= min && e.year <= max).map((e) => (
+export function eventLines(
+  min: number,
+  max: number,
+  events: { year: number; label: string }[] = EVENTS,
+) {
+  return events.filter((e) => e.year >= min && e.year <= max).map((e) => (
     <ReferenceLine
       key={e.year}
       x={e.year}

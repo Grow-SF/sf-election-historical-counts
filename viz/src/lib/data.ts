@@ -159,6 +159,16 @@ export const EVENTS: { year: number; label: string }[] = [
   { year: 2020, label: "COVID" },
 ];
 
+/**
+ * Franchise-expansion milestones — used only on the "who could vote" charts
+ * (franchise funnel, registration), where they belong; the counting charts use
+ * EVENTS above.
+ */
+export const FRANCHISE_EVENTS: { year: number; label: string }[] = [
+  { year: 1920, label: "women vote" },
+  { year: 1971, label: "age 18" },
+];
+
 /** ~6 evenly spaced round-year ticks spanning [from, to], for a year x-axis. */
 export function yearTicks(from: number, to: number): number[] {
   const span = Math.max(1, to - from);
