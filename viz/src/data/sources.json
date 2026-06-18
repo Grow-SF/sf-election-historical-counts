@@ -4634,7 +4634,7 @@
   "id": "1978-11-07",
   "name": "Consolidated General Election",
   "final": 238667,
-  "finalSource": "CA SoS Statement of Vote (Gen. Election Nov 7 1978), SF County certified TOTAL BALLOTS CAST 238,667 (precinct 217,965 + absentee 20,702; Governor sum 225,465). DOE's 217,965 is PRECINCT-ONLY (dropped 20,702 absentees) - erroneous as total turnout. https://archive.org/details/statementofvote197879cali/page/n245 ; cross-ref Wikipedia 1978 CA gubernatorial.",
+  "finalSource": "CA SoS Statement of Vote (Gen. Election Nov 7 1978), SF County certified TOTAL BALLOTS CAST 238,667 (precinct 217,965 + absentee 20,702; Governor sum 225,465). DOE's 217,965 matches the SOV precinct-vote column (it appears to omit the 20,702 absentees), so for our dataset we use the total-cast figure here, pending confirmation. https://archive.org/details/statementofvote197879cali/page/n245 ; cross-ref Wikipedia 1978 CA gubernatorial.",
   "observations": [
    {
     "date": "1978-11-08",
@@ -4797,7 +4797,7 @@
     "total": 198508,
     "pct": 100.0,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 'SF Vote Tally' day-2 paper 1974-06-06 (tbl_19740604_issue19740606_p5), 1356 of 1356 precincts (complete): Prop B (Conflicts of Interest) Yes 162,975 + No 40,406 = 203,381 - a ballot measure all voters could vote on. NOTE: the DOE turnout table lists only 198,508 ballots for this election, contradicted by this measure (votes cannot exceed ballots); true certified >= 203,381 pending the SF Statement of Vote. Same denominator error as 1978-11. | CORRECTED: prior Prop B 203,381 exceeded SOV-certified turnout 198,508; that reading was anomalous and is superseded by the certified turnout."
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 'SF Vote Tally' day-2 paper 1974-06-06 (tbl_19740604_issue19740606_p5), 1356 of 1356 precincts (complete): Prop B (Conflicts of Interest) Yes 162,975 + No 40,406 = 203,381 - a ballot measure all voters could vote on. NOTE: the DOE turnout table lists only 198,508 ballots for this election, contradicted by this measure (votes cannot exceed ballots); true certified >= 203,381 pending the SF Statement of Vote. | CORRECTED: prior Prop B 203,381 exceeded SOV-certified turnout 198,508; that reading was anomalous and is superseded by the certified turnout."
    }
   ]
  },
@@ -5597,7 +5597,7 @@
   "id": "1934-11-06",
   "name": "General Election",
   "final": 225977,
-  "finalSource": "CA Secretary of State, 'Statement of Vote, General Election November 6, 1934' \u2014 SF County GOVERNOR certified: Merriam 115,047 + Sinclair 87,850 + Haight 21,499 = 225,977 (https://archive.org/details/statementofvote192639cali page n591; cross-verified via Wikipedia '1934 California gubernatorial election'). NOTE: the DOE turnout table's 166,133 for 1934-11-06 is ERRONEOUS \u2014 below the certified Governor vote alone (225,977).",
+  "finalSource": "CA Secretary of State, 'Statement of Vote, General Election November 6, 1934' \u2014 SF County GOVERNOR certified: Merriam 115,047 + Sinclair 87,850 + Haight 21,499 = 225,977 (https://archive.org/details/statementofvote192639cali page n591; cross-verified via Wikipedia '1934 California gubernatorial election'). NOTE: the DOE turnout table's 166,133 for 1934-11-06 appears low \u2014 below the certified Governor vote alone (225,977); for our dataset we use the SOV figure, pending confirmation.",
   "observations": [
    {
     "date": "1934-11-07",
@@ -6125,7 +6125,7 @@
   "id": "1908-11-03",
   "name": "Presidential General Election",
   "final": 60124,
-  "finalSource": "CA SoS Statement of Vote (Gen. Election Nov 3 1908), SF County President 60,124 (Taft 33,184+Bryan 21,260+Debs 4,523+Hisgen 751+Chafin 406). DOE's 41,137 is ERRONEOUS - below the President total alone, so impossible as ballots cast. https://archive.org/details/statementofvo19081922cali/page/n5 ; cross-ref Wikipedia 1908 US pres in CA.",
+  "finalSource": "CA SoS Statement of Vote (Gen. Election Nov 3 1908), SF County President 60,124 (Taft 33,184+Bryan 21,260+Debs 4,523+Hisgen 751+Chafin 406). DOE's 41,137 appears low \u2014 it is below the President contest alone (60,124), so for our dataset we use the SOV figure here, pending confirmation. https://archive.org/details/statementofvo19081922cali/page/n5 ; cross-ref Wikipedia 1908 US pres in CA.",
   "observations": [
    {
     "date": "1908-11-04",
@@ -6133,7 +6133,7 @@
     "total": 36450,
     "pct": 60.6,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1908-11-04 PRES SF sum=36450, 300/300 precincts, complete; scan sweep_19081103_issue19081104_p5_s1; conf=low; image-read:Taft~20816+Bryan~15634=36450;minor-parties-not-readable-from-crop;300-precincts=all-SF;39816-is-1904-comparison-col | DENOMINATOR CORRECTED: was DOE 41,137 (wrong); the night box's '300/300 complete' is inconsistent with certified President 60,124, so the night count was PARTIAL not complete; night share recomputed vs SOV (was mislabeled 88.6%)."
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1908-11-04 PRES SF sum=36450, 300/300 precincts, complete; scan sweep_19081103_issue19081104_p5_s1; conf=low; image-read:Taft~20816+Bryan~15634=36450;minor-parties-not-readable-from-crop;300-precincts=all-SF;39816-is-1904-comparison-col | DENOMINATOR CORRECTED: was DOE 41,137 (appears low); the night box's '300/300 complete' is inconsistent with certified President 60,124, so the night count was PARTIAL not complete; night share recomputed vs SOV (was mislabeled 88.6%)."
    }
   ]
  },
