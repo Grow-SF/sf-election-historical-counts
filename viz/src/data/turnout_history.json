@@ -33,9 +33,9 @@
  },
  {
   "date": "1908-11-03",
-  "turnoutPct": 54.5,
+  "turnoutPct": 79.7,
   "registered": 75467,
-  "ballots": 41137,
+  "ballots": 60124,
   "source": "archival",
   "kind": "General"
  },
@@ -345,9 +345,9 @@
  },
  {
   "date": "1978-11-07",
-  "turnoutPct": 58.6,
+  "turnoutPct": 62.7,
   "registered": 380749,
-  "ballots": 223147,
+  "ballots": 238667,
   "source": "archival",
   "kind": "General"
  },

@@ -6276,5 +6276,21 @@
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1894-11-07 p9 'Vote of the City' (12:30am) \u2014 SF Governor Budd 18,099+Estee 11,535+Webster 3,463+French 802=33,899, 290 of 293 precincts (only 27 complete, rest partial); hand-count era. scan sweep_18941106_issue18941107_p9_s3; conf=high (Budd/Estee corroborated by stated 6,500 lead)"
    }
   ]
+ },
+ {
+  "id": "1892-11-08",
+  "name": "Presidential General Election",
+  "final": 58435,
+  "finalSource": "CA SoS Statement of Vote 1892 (statementofvoteo1886cali p.3) \u2014 SF County President certified 58,435 (Cleveland 31,022+Harrison 24,416+Weaver 2,508+Bidwell 489). https://archive.org/details/statementofvoteo1886cali ; cross-ref Wikipedia 1892 US pres CA.",
+  "observations": [
+   {
+    "date": "1892-11-09",
+    "days": 1,
+    "total": 39000,
+    "pct": 66.7,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1892-11-09 p3 'Vote of the City' \u2014 PROSE only (no per-candidate table printed in the issue; checked p1-3,9-12): by the morning paper ~39,000 president votes counted ('out of something over 39,000 Cleveland leads Harrison 5,000'; total city vote 60,749 by Assembly district); hand-count era partial. ballots_counted~39,000 APPROX; scan sweep_18921108_issue18921109_p3; conf=medium"
+   }
+  ]
  }
 ]
