@@ -168,9 +168,12 @@ ledgers; this is the index.
 
 None of these are *impossible* — the returns exist in some edition, microfilm,
 the County Clerk/Registrar's canvass, or the state Statement of Vote; we just
-haven't recovered them yet. A fully exhaustive list needs the **SFPL past-elections
-index** pulled into the repo as a master election table (not yet captured) — until
-then the municipals/specials below are categories, not complete enumerations.
+haven't recovered them yet. The full election-by-election list is now
+[`data/elections_master.csv`](data/elections_master.csv) (built by
+[`scripts/build_elections_master.py`](scripts/build_elections_master.py)) — **270
+San Francisco elections, 1849–2026**, each flagged by whether we hold a night
+count: **164 recovered · 23 turnout-only · 83 still missing**. The categories below
+summarize those 83.
 
 **Pre-1892 statewide generals** (certified SF denominators already in hand — see
 [`data/pre1892_certified.md`](data/pre1892_certified.md); only the night count is missing)
@@ -204,14 +207,13 @@ are unrecovered (the ledger's primary tier starts 1928).
 the county Statement of Vote: **1915-03, 1928-08, 1929-11, 1944-05, 1944-11, 1945-11**
 (see [`data/recovery_ledger_pre1965.md`](data/recovery_ledger_pre1965.md)).
 
-- [ ] **Build a `data/` master election table** so every gap above becomes an
-      exact, checkable list. Two sources, because no single index spans the record:
-      the [SFPL voter-pamphlet / ballot-propositions index](https://sfpl.org/locations/main-library/government-information-center/san-francisco-government/san-francisco-1/san)
-      is browsable by date but **only covers Nov 1907–present** (some gaps, no
-      download) — scrape it for 1907+. **Pre-1907 has no ready index**: reconstruct
-      from the CA Statement of Vote / Blue Book (every statewide election 1849+)
-      and the SF Municipal Reports (annual; the Registrar's section lists each city
-      election), cross-checked against Wikipedia's mayoral-election years.
+- [x] **Built the `data/` master election table** (`elections_master.csv`) — the
+      SFPL/DataSF index gave 1907+ (the [SFPL pamphlet index](https://sfpl.org/locations/main-library/government-information-center/san-francisco-government/san-francisco-1/san)
+      only covers Nov 1907–present), and pre-1907 was reconstructed from the CA
+      Statement of Vote / Blue Book (statewide, 1849+) + SF Municipal Reports +
+      Wikipedia mayoral pages. **Still to verify:** the date-unknown pre-1907 charter
+      votes (1880/1883/1887) and the 1858 municipal date against the Municipal
+      Reports; reconcile a couple of adjacent-date concurrent generals.
 
 **Verification (hand-read against the cited scans — [the loop](data/README.md))**
 - [ ] **1974–1998 SOV registration** recoveries — pending hand-verification
