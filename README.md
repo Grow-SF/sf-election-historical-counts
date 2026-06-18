@@ -164,19 +164,48 @@ against certified totals and cited on the sources page.
 Outstanding tasks, newest first. Detailed per-item tracking lives in the linked
 ledgers; this is the index.
 
-**Pre-1892 night counts** (extends the night-share chart below 1868 — the current
-floor; see [`data/pre1892_certified.md`](data/pre1892_certified.md))
-- [ ] **1871, 1872** — re-pull from a specific SF English-language daily; the
-      date search landed on the *Oakland* Daily Transcript and a German-language
-      SF paper, neither carrying the SF returns.
-- [ ] **1888** — pull the SF *Chronicle* front page; the *Evening Bulletin* entry
-      docref is a single article that won't paginate in the viewer.
-- [ ] **1880, 1884** — pull the morning *Chronicle*'s overnight tally; only prose
-      *Evening Bulletin* editions ("Blaine ~2,000 plurality") were found.
-- [ ] **1886 (~29%), 1890 (~12%)** — finalize the soft digits against the sent
-      crops (hand-verification), then ingest.
-- [ ] **1867** — not recoverable as a night count (the morning-after count wasn't
-      done); only pursue if a "days-to-complete-canvass" series is wanted.
+### Missing from the night-count record (elections we lack data for)
+
+None of these are *impossible* — the returns exist in some edition, microfilm,
+the County Clerk/Registrar's canvass, or the state Statement of Vote; we just
+haven't recovered them yet. A fully exhaustive list needs the **SFPL past-elections
+index** pulled into the repo as a master election table (not yet captured) — until
+then the municipals/specials below are categories, not complete enumerations.
+
+**Pre-1892 statewide generals** (certified SF denominators already in hand — see
+[`data/pre1892_certified.md`](data/pre1892_certified.md); only the night count is missing)
+- [ ] **1871 Gov** — capture hit the *Oakland* Daily Transcript (no SF returns); pull a San Francisco paper (Alta / Morning Call) for Sept 7 1871.
+- [ ] **1872 Pres** — capture hit a *German-language* SF daily; pull the English SF paper for Nov 6 1872.
+- [ ] **1879 Gov** — not yet attempted (turnout point exists; no night-count capture).
+- [ ] **1880 Pres** — only a prose *Evening Bulletin* ("two-thirds count") found; pull the morning Chronicle/Alta overnight tally for Nov 3 1880.
+- [ ] **1884 Pres** — only a prose *Evening Bulletin* 4th ed.; pull the morning paper for Nov 5 1884.
+- [ ] **1888 Pres** — *Evening Bulletin* entry docref won't paginate; pull the Chronicle front page for Nov 7 1888.
+- [ ] **1867 Gov** — the day-after morning paper printed only an editorial + a margin (count unfinished at press time); the full canvass is in a later issue or the County Clerk's returns — pull a 2–3-day-later SF paper.
+- [ ] **1886 Gov (~29%), 1890 Gov (~12%)** — recovered but digits soft; hand-verify the sent crops, then finalize.
+
+**Pre-1867 statewide generals** — the entire run is unrecovered (no night counts
+*and* no certified SF figures gathered yet): President **1852, 1856, 1860, 1864**;
+Governor **1849, 1851, 1853, 1855, 1857, 1859, 1861, 1863**. Likely source: the
+*Daily Alta California* (on NewsBank from 1849); certified via the California Blue
+Book / Bancroft.
+
+**Pre-1907 SF municipals** — *missing entirely* (the recovery ledger begins at the
+1907 general municipal). The odd-year mayoral / charter / supervisor elections of
+the 1850s–1905 are absent from the dataset. Needs the SFPL index for exact dates.
+
+**Pre-1928 primaries** — California's direct primary began 1909; primaries **~1910–1926**
+are unrecovered (the ledger's primary tier starts 1928).
+
+**Modern night-count gaps** (tracked on the `/missing` page): **1995-12** runoff,
+**1999-11** (Ammiano write-in), **2000-11**, **2003-10** (Davis recall), **2006-11**,
+**2010-11** — the city's results databases for these were stale or never captured.
+
+**Recovered-as-SKIP** — the captured edition never printed a complete count; need
+the county Statement of Vote: **1915-03, 1928-08, 1929-11, 1944-05, 1944-11, 1945-11**
+(see [`data/recovery_ledger_pre1965.md`](data/recovery_ledger_pre1965.md)).
+
+- [ ] **Capture the SFPL past-elections index** into a `data/` master election
+      table, so every gap above becomes an exact, checkable list.
 
 **Verification (hand-read against the cited scans — [the loop](data/README.md))**
 - [ ] **1974–1998 SOV registration** recoveries — pending hand-verification
