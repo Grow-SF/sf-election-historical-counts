@@ -1,14 +1,18 @@
 ---
 name: newsbank-election-recovery
-description: Use when ingesting a historical San Francisco election that is missing from the DOE turnout table (odd-year municipals, primaries, specials) and its election-night vote count must be recovered from the SF Chronicle NewsBank image archive via SFPL ezproxy. One election per run; safe to run many in parallel, one per election.
+description: Use when ingesting a historical San Francisco election that is missing from the DOE turnout table (odd-year municipals, primaries, specials) and its election-night vote count must be recovered from the SF Chronicle NewsBank image archive via SFPL ezproxy. One election per run; parallel runs are fine (distinct WIN index each) — just leave the browser idle during a run, since simultaneous human browsing clobbers NewsBank's shared session.
 ---
 
 # NewsBank SF-election recovery (one election → structured record)
 
 Recover a single San Francisco election's **election-night count floor** and
 **certified/complete total** from the *San Francisco Chronicle* NewsBank image
-edition. One run = one election. Many runs are safe in parallel (each opens its
-own Chrome window via CDP).
+edition. One run = one election. Parallel runs are fine — each opens its own
+Chrome window via CDP; give each a distinct WIN index. The one hard rule: leave
+the browser idle during a run. NewsBank keeps server-side "current search" state
+on the shared ezproxy session, so a human browsing/logging-in/paging in the same
+Chrome while captures run clobbers it and sends a capture to the wrong issue
+(verified: two concurrent captures on an idle session both land correctly).
 
 ## Prerequisites (already set up by the operator — do NOT touch credentials)
 - Chrome is running with `--remote-debugging-port=9222`.
@@ -86,6 +90,19 @@ confidence:      high / medium / low  + any [?] digits
 
 Do not write to the CSV yourself; just return the record. Keep the scans in
 `mirror/newsbank/scans/` (gitignored) for the operator to spot-check.
+
+- **Leave the NewsBank session idle during a run — don't browse/log-in/page in
+  the same Chrome while captures run.** That clobbers the shared server-side
+  "current search" state and sends the capture to the WRONG issue (a default
+  recent issue, the ascending-sort oldest e.g. an 1847 paper, or a stray 4-page
+  doc), and can throw "Session closed" if a window is moved/closed. Parallel
+  capture *processes* (distinct WIN each) are fine — verified: two concurrent
+  captures on an idle session both landed on their own correct issues.
+- **Pre-1906 / old multi-section issues:** the front page is national news; the
+  San Francisco city/county returns live in a later **"Pages 9 to 16" SF section
+  (often page 9)**. Capture that page, not p1. Page number varies by issue.
+- **These page scans store the image in the PNG alpha channel** (RGB is solid
+  black); flatten onto white before cropping or every crop reads blank.
 
 ## Common mistakes
 - **Summing a multi-seat race** (Supervisors, Police Judges) as a ballot count —

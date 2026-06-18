@@ -6154,6 +6154,22 @@
   ]
  },
  {
+  "id": "1904-11-08",
+  "name": "Presidential General Election",
+  "final": 65427,
+  "finalSource": "California Blue Book / State Roster 1907 pp.419-422 \u2014 SF County President certified 65,427 (Roosevelt 39,816+Parker 18,027+Debs 7,250+Swallow 334). https://archive.org/details/statementofvote192009cali ; cross-ref Wikipedia 1904 US pres CA. (Pre-1908: no SOV with county breakdown; Blue Book is the certified source.)",
+  "observations": [
+   {
+    "date": "1904-11-09",
+    "days": 1,
+    "total": 48957,
+    "pct": 74.8,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1904-11-09 p9 (SF returns section) \u2014 HUMAN-VERIFIED: by early morning the Press Election Bureau had counted ~50,000 votes: Republican electors (Roosevelt) 29,705 + Democrat (Parker) 13,837 + Socialist (Debs) 5,108 + Prohibition (Swallow) 307 = 48,957; hand-count era partial. docref EANX-NB-1532150DC600E112 p9; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1903-10-08",
   "name": "Certified turnout record \u2014 night count not yet recovered",
   "summary": "25,275 ballots cast, 34.3% of 73,702 registered",
@@ -6214,6 +6230,22 @@
   "observations": []
  },
  {
+  "id": "1898-11-08",
+  "name": "General Election",
+  "final": 54372,
+  "finalSource": "California Blue Book / State Roster 1899 p.227 \u2014 SF County Governor certified 54,372 (Gage 28,218+Maguire 24,632+Harriman 1,388+McComas 134). cross-ref Wikipedia 1898 CA gubernatorial. (Pre-1908: no SOV with county breakdown; Blue Book is certified source.)",
+  "observations": [
+   {
+    "date": "1898-11-09",
+    "days": 1,
+    "total": 40585,
+    "pct": 74.6,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1898-11-09 p1 \u2014 HUMAN-VERIFIED: by morning the SF Governor count was Gage 21,636 + Maguire 18,949 = 40,585, from 139 complete + 151 incomplete of SF's 303 precincts ('40,585 represent ... San Francisco precincts'); hand-count era partial. docref EANX-NB-1531E9F243460E8B p1; conf=high"
+   }
+  ]
+ },
+ {
   "id": "1896-11-03",
   "name": "Presidential General Election",
   "final": 63086,
@@ -6226,6 +6258,22 @@
     "pct": 82.3,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1896-11-04 p9 (SF returns section) \u2014 HUMAN-VERIFIED: election-night SF President count McKinley 26,530 + Bryan 25,409 = 51,939 (51,939 ballots cast for president by press time); hand-count era. scan sf1896_p9; conf=high"
+   }
+  ]
+ },
+ {
+  "id": "1894-11-06",
+  "name": "General Election",
+  "final": 59643,
+  "finalSource": "California Blue Book / State Roster 1895 p.254 \u2014 SF County Governor certified 59,643 (Budd 32,069+Estee 20,615+Webster 6,459+French 500). cross-ref Wikipedia 1894 CA gubernatorial. (Pre-1908: no SOV w/ county breakdown; Blue Book is certified source.)",
+  "observations": [
+   {
+    "date": "1894-11-07",
+    "days": 1,
+    "total": 33899,
+    "pct": 56.8,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1894-11-07 p9 'Vote of the City' (12:30am) \u2014 SF Governor Budd 18,099+Estee 11,535+Webster 3,463+French 802=33,899, 290 of 293 precincts (only 27 complete, rest partial); hand-count era. scan sweep_18941106_issue18941107_p9_s3; conf=high (Budd/Estee corroborated by stated 6,500 lead)"
    }
   ]
  }

@@ -1,5 +1,39 @@
 [
  {
+  "id": "1894-11-06",
+  "name": "General Election",
+  "kind": "General",
+  "year": 1894,
+  "final": 59643,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 56.8,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    56.8,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1896-11-03",
   "name": "Presidential General Election",
   "kind": "General",
@@ -46,6 +80,52 @@
     "bound": true
    },
    "80": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1898-11-08",
+  "name": "General Election",
+  "kind": "General",
+  "year": 1898,
+  "final": 54372,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 74.6,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    74.6,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
     "days": 1,
     "bound": true
    }
@@ -109,6 +189,52 @@
    ]
   ],
   "thresholds": {},
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1904-11-08",
+  "name": "Presidential General Election",
+  "kind": "General",
+  "year": 1904,
+  "final": 65427,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 74.8,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    74.8,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   }
+  },
   "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
