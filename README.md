@@ -249,12 +249,12 @@ the county Statement of Vote: **1915-03, 1928-08, 1929-11, 1944-05, 1944-11, 194
 - [ ] **Pre-1964 night-floor** load-bearing digits — re-read on the image before
       relying on them (`docs/analysis/2026-06-13-pre1964-night-floor.md`).
 
-**DOE data discrepancies** ([`docs/doe-data-discrepancies.md`](docs/doe-data-discrepancies.md))
-- [ ] Report the **1908** (41,137 vs President 60,124) and **1978**
-      (precinct-only, dropped absentees) errors to the Dept. of Elections.
-- [ ] Send the drafted **1934** correction email (turnout 166,133 vs Governor
-      225,977) to the DOE.
-- [ ] Track whether DOE corrects its published 1899–2019 turnout table.
+**Turnout-table discrepancies — under review** ([`docs/doe-data-discrepancies.md`](docs/doe-data-discrepancies.md))
+- [ ] Raise the **1908** (41,137 vs President 60,124) and **1978** (looks
+      precinct-only — appears to drop absentees) discrepancies with the Dept. of
+      Elections for confirmation.
+- [ ] Send the drafted **1934** note (turnout 166,133 vs Governor 225,977) to the DOE.
+- [ ] Check back whether the published 1899–2019 turnout table changes.
 
 **SOV cross-check remaining** ([`data/sov_crosscheck_ledger.md`](data/sov_crosscheck_ledger.md))
 - [ ] Primaries **1928/1930/1932/1962**; modern DOE figures **1968–2014**

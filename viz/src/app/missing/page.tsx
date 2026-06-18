@@ -47,7 +47,7 @@ const ANOMALIES: { id: string; name: string; want: string; tried: string }[] = [
   {
     id: "1964-11-03",
     name: "The senate-line anomaly",
-    want: "San Francisco's certified 1964 results — the county pages of the California Secretary of State's 1964 Statement of Vote (paper or scan). The Chronicle's night table prints a senate sum (323,579) that exceeds the certified precinct-ballot total while the president line fits; one of the two official records is wrong.",
+    want: "San Francisco's certified 1964 results — the county pages of the California Secretary of State's 1964 Statement of Vote (paper or scan). The Chronicle's night table prints a senate sum (323,579) that exceeds the certified precinct-ballot total while the president line fits; the two official records don't reconcile, and we'd like to see why.",
     tried: "The SoS web archive starts at 1990; no county-level 1964 source is online.",
   },
   {
