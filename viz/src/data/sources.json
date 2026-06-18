@@ -6292,5 +6292,54 @@
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1892-11-09 p3 'Vote of the City' \u2014 PROSE only (no per-candidate table printed in the issue; checked p1-3,9-12): by the morning paper ~39,000 president votes counted ('out of something over 39,000 Cleveland leads Harrison 5,000'; total city vote 60,749 by Assembly district); hand-count era partial. ballots_counted~39,000 APPROX; scan sweep_18921108_issue18921109_p3; conf=medium"
    }
   ]
+ },
+ {
+  "id": "1890-11-04",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "55,317 ballots cast, 92.6% of 59,712 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "observations": []
+ },
+ {
+  "id": "1888-11-06",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "55,313 ballots cast, 94.5% of 58,549 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "observations": []
+ },
+ {
+  "id": "1886-11-02",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "45,716 ballots cast, 93.7% of 48,792 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "observations": []
+ },
+ {
+  "id": "1884-11-04",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "47,535 ballots cast, 94.1% of 50,542 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "observations": []
+ },
+ {
+  "id": "1882-11-07",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "39,102 ballots cast, 92.8% of 42,135 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "observations": []
+ },
+ {
+  "id": "1880-11-02",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "41,292 ballots cast, 94.3% of 43,775 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "observations": []
+ },
+ {
+  "id": "1879-09-03",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "41,575 ballots cast, 92.9% of 44,765 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "observations": []
  }
 ]

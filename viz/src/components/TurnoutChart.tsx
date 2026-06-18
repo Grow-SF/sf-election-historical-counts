@@ -97,8 +97,8 @@ export default function TurnoutChart({ from, to }: { from: number; to: number })
   return (
     <ChartFrame
       title="Turnout of registered voters"
-      subtitle="Ballots cast ÷ registered, by election type, 1899–2026"
-      note="Color = election type; presidential generals top the range, off-year municipals the bottom. Lines break across multi-decade gaps between elections of a type. Sources: DOE turnout table; certified per-release finals."
+      subtitle="Ballots cast ÷ registered, by election type, 1879–2026"
+      note="Color = election type; presidential generals top the range, off-year municipals the bottom. Lines break across multi-decade gaps between elections of a type. Sources: SF Municipal Reports Registrar table (1879–1890); DOE turnout table; certified per-release finals."
     >
       <ResponsiveContainer width="100%" height={400}>
         <ComposedChart margin={{ top: 24, right: 20, bottom: 8, left: 0 }}>

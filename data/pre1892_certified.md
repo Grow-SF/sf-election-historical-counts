@@ -39,6 +39,30 @@ CA State Archives "Abstract of the Vote"). Two agents, cross-checked.
 - Night counts to be captured from the day-after (and 2-day) issue, SF "Vote of
   the City" / returns table. Hand-count era → expect partial night shares.
 
+## SF registration + certified total-vote (turnout) — gathered 2026-06-17
+Source of truth = **SF Municipal Reports, Registrar of Voters master table**
+(FY1888-89 vol, `sanfranciscomuni39sanfrich` p.856) — prints registration AND
+total vote for every general 1879–1888. Pre-1879 from County Clerk/Assessor
+sections (basis discontinuity: cumulative Great Register vs net — unreliable;
+1867 "reg" 16,550 is below the gov contest 17,294, so DO NOT use pre-1879 reg
+for turnout %). 1890 reg from the 1890 Great Register (CA Genealogical Society).
+
+| Election | SF registered | Certified total vote | Turnout % | Conf |
+|---|---|---|---|---|
+| 1879-09-03 | 44,765 | 41,575 | 92.9 | high |
+| 1880-11-02 | 43,775 | 41,292 | 94.3 | high |
+| 1882-11-07 | 42,135 | 39,102 | 92.8 | high |
+| 1884-11-04 | 50,542 | 47,535 | 94.1 | high |
+| 1886-11-02 | 48,792 | 45,716 | 94.1 | high |
+| 1888-11-06 | 58,549 | 55,313 | 94.5 | high |
+| 1890-11-04 | 59,712 | (use Gov 55,317 floor) | ~92.6 | med (reg from Great Register) |
+| pre-1879 (1867–76) | unreliable basis | — | — | skip turnout% |
+
+NB the registrar "total vote" slightly differs from the SOV/Blue Book CONTEST sums
+(turnout ≥ top contest, except 1884/1888 where my pres contest sum runs ~200-400
+above the registrar total vote — likely scattering over-estimate; prefer registrar
+total vote as the turnout denominator). OCR text files saved at /tmp/muni39.txt etc.
+
 ## Night-count recovery progress (2026-06-17)
 Capture/transcription of the day-after issues. KEY TOOLING NOTE: the NewsBank
 viewer is **OpenSeadragon**; `canvas.toDataURL()` and synthetic `.click()`/wheel do
