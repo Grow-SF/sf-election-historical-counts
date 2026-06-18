@@ -11,9 +11,14 @@ export type UrlState = Filters & {
 export const DEFAULT_DAY_FROM = 0;
 export const DEFAULT_DAY_TO = 10;
 
+// The year slider can reach the data's earliest year (YEAR_MIN, currently 1868),
+// but it opens at 1902 — the pre-1902 record is sparse, so the default view starts
+// at the turn of the century and users can drag earlier to see the 19th century.
+export const DEFAULT_FROM = Math.min(Math.max(1902, YEAR_MIN), YEAR_MAX);
+
 export const DEFAULT_STATE: UrlState = {
   kinds: new Set(KINDS),
-  from: YEAR_MIN,
+  from: DEFAULT_FROM,
   to: YEAR_MAX,
   selected: new Set(),
   dayFrom: DEFAULT_DAY_FROM,
@@ -50,7 +55,7 @@ function parse(params: URLSearchParams): UrlState {
 function serializeQuery(s: UrlState): string {
   const p = new URLSearchParams();
   if (s.kinds.size !== KINDS.length) p.set("kinds", [...s.kinds].join(","));
-  if (s.from !== YEAR_MIN) p.set("from", String(s.from));
+  if (s.from !== DEFAULT_FROM) p.set("from", String(s.from));
   if (s.to !== YEAR_MAX) p.set("to", String(s.to));
   if (s.selected.size) p.set("sel", [...s.selected].join(","));
   if (s.dayFrom !== DEFAULT_DAY_FROM) p.set("d0", String(s.dayFrom));
