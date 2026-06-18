@@ -204,8 +204,14 @@ are unrecovered (the ledger's primary tier starts 1928).
 the county Statement of Vote: **1915-03, 1928-08, 1929-11, 1944-05, 1944-11, 1945-11**
 (see [`data/recovery_ledger_pre1965.md`](data/recovery_ledger_pre1965.md)).
 
-- [ ] **Capture the SFPL past-elections index** into a `data/` master election
-      table, so every gap above becomes an exact, checkable list.
+- [ ] **Build a `data/` master election table** so every gap above becomes an
+      exact, checkable list. Two sources, because no single index spans the record:
+      the [SFPL voter-pamphlet / ballot-propositions index](https://sfpl.org/locations/main-library/government-information-center/san-francisco-government/san-francisco-1/san)
+      is browsable by date but **only covers Nov 1907–present** (some gaps, no
+      download) — scrape it for 1907+. **Pre-1907 has no ready index**: reconstruct
+      from the CA Statement of Vote / Blue Book (every statewide election 1849+)
+      and the SF Municipal Reports (annual; the Registrar's section lists each city
+      election), cross-checked against Wikipedia's mayoral-election years.
 
 **Verification (hand-read against the cited scans — [the loop](data/README.md))**
 - [ ] **1974–1998 SOV registration** recoveries — pending hand-verification
