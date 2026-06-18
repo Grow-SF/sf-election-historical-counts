@@ -1,4 +1,4 @@
-# `data/` — San Francisco election data, 1899–2026
+# `data/` — San Francisco election data, 1868–2026
 
 Primary-source data on elections in **San Francisco** (a consolidated City &
 County, so "city" and "county" are the same geography throughout). The datasets
@@ -16,8 +16,10 @@ details are at the [bottom](#reproducing--provenance); they aren't needed to
 | Dataset | What it measures | Years | Grain |
 |---|---|---|---|
 | `sf_count_timeline.csv` | ballots counted in each results release (the count climbing) | 2008–2026 | per release |
-| `sf_archival_canvass_points.csv` | recovered election-night / mid-canvass counts | 1960–2014 | per observation |
+| `sf_archival_canvass_points.csv` | recovered election-night / mid-canvass counts | 1868–2014 | per observation |
 | `sf_night_floor_1964_2026.csv` | share counted by election night (lower bound) | 1964–2026 | per election |
+| `elections_master.csv` | master list of every SF election + whether a night count is recovered | 1849–2026 | per election |
+| `sf_turnout_pre1899.csv` | pre-1899 certified turnout (registrar table) | 1879–1890 | per election |
 | `sf_days_to_90.csv` | how long until 90% of the vote was counted | 2015–2026 | per election |
 | `sf_canvass_minutes_statements.csv` | registrar "ballots remaining" statements | 2002+ | per statement |
 | `sf_turnout_history_doe_1899_2019.csv` | registration, ballots cast, turnout % | 1899–2019 | per election |
@@ -74,8 +76,9 @@ election — the data behind "election night reports less than it used to."
 ### `sf_archival_canvass_points.csv`
 **What:** the historical equivalent of the timeline — election-night and
 mid-canvass counts recovered from newspaper and web archives.
-**Coverage:** 1960–2014, one row per recovered observation. Counts are
-**conservative floors** (true value ≥ the figure).
+**Coverage:** 1868–2014, one row per recovered observation (the 19th-century rows
+were recovered in 2026 — see `pre1892_certified.md`). Counts are **conservative
+floors** (true value ≥ the figure).
 
 | column | meaning |
 |---|---|
@@ -230,7 +233,18 @@ comment block in the file restates the basis and the required NHGIS citation.
 
 ## Indexes & provenance helpers
 
-- **`elections.csv`** — election index: `election_date`, `election_name`, `era`.
+- **`elections_master.csv`** — the comprehensive election index: **270 San Francisco
+  elections, 1849–2026**, each flagged by whether an election-night count has been
+  recovered (164 recovered · 23 turnout-only · 83 missing). Columns: `election_date`,
+  `year`, `level` (statewide/municipal/both/city), `kind` (General/Primary/Municipal/
+  Special/…), `description`, `recovered` (night/turnout-only/no), `night_pct`,
+  `date_confidence`, `sources`. Built by `scripts/build_elections_master.py` from the
+  SFPL/DataSF index (1907+) and reconstructed pre-1907 from the CA Statement of Vote /
+  Blue Book + SF Municipal Reports; the `recovered` flag is computed against the live
+  dataset so it never drifts. The source of truth for what we have and what's missing.
+- **`pre1892_certified.md`** — pre-1892 certified SF figures (denominators),
+  registration/turnout, and the 19th-century night-count recovery notes + tooling.
+- **`elections.csv`** — modern election index: `election_date`, `election_name`, `era`.
 - **`manifest.csv`** — one row per fetched DOE release (`election`, `snapshot`,
   `filename`, `status`, `last_modified`); `last_modified` is the timestamp that
   dates each modern release.

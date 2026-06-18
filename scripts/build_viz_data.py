@@ -391,6 +391,19 @@ def main():
     # of the *registered* electorate - not of the eligible population, which
     # needs a Census denominator the repo does not yet carry.
     turnout = {}
+    # pre-1899 certified turnout (SF Municipal Reports Registrar master table +
+    # Great Register) — extends the turnout-of-registered series back to 1879.
+    # Registration is only basis-reliable from 1879 on (earlier Great Register
+    # counts are cumulative/gross, so turnout% is omitted before 1879).
+    pre1899 = ROOT / "data" / "sf_turnout_pre1899.csv"
+    if pre1899.exists():
+        with open(pre1899, newline="") as f:
+            for r in csv.DictReader(f):
+                reg_i, bal = int(r["registration"]), int(r["ballots_cast"])
+                turnout[r["election_date"]] = {"date": r["election_date"],
+                    "turnoutPct": round(100 * bal / reg_i, 1),
+                    "registered": reg_i, "ballots": bal,
+                    "source": "muni-registrar"}
     with open(ROOT / "data" / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
         for r in csv.DictReader(f):
             reg = r["registration"]
@@ -494,8 +507,14 @@ def main():
         for p in regelig:  # SoS-published eligible, 1978-2026
             elig_a[int(p["date"][:4])] = p["eligible"]
         funnel = []
+        census_min = min(census) if census else 1900
         for t in tn:  # tn = turnout points; presidential generals only
             y = int(t["date"][:4])
+            # gate to years with real census bands — interp() clamps below the
+            # earliest census year, so pre-census generals (e.g. 1880/84/88) would
+            # otherwise get bogus extrapolated population/vap/eligible.
+            if y < census_min:
+                continue
             if t["date"][5:7] == "11" and y % 4 == 0 and t.get("kind") == "General":
                 funnel.append({
                     "year": y,
@@ -518,6 +537,7 @@ def main():
         "doe-turnout-history": "SF Dept. of Elections turnout history (1960–2002)",
         "certified-sov": "Certified Statement of Vote (CA Secretary of State / SF Dept. of Elections)",
         "doe-turnout-table": "SF Dept. of Elections historical turnout table (1899–2019)",
+        "muni-registrar": "SF Municipal Reports — Registrar of Voters (1879–1890)",
     }
     have = {s["id"] for s in sources}
     # (a) certified turnout dates without a recovered night count: the in-person

@@ -3,7 +3,7 @@ import { ELECTIONS, NIGHT_FLOOR } from "@/lib/data";
 
 export const metadata = { title: "Help Complete the Record — The Long Count" };
 
-const CONTACT = "steven@growsf.org";
+const CONTACT = "contact@growsf.org";
 
 // Curated search history for the highest-value recoverable targets. The prose
 // here is qualitative only — every number on this page is read live from the
@@ -176,10 +176,11 @@ export default function MissingPage() {
       <h1 className="mt-2 text-4xl font-bold">Help complete the record</h1>
       <p className="mt-5 max-w-3xl leading-relaxed">
         This project has recovered election-night and mid-canvass counts for
-        nearly every San Francisco election since 1908 — from the city&rsquo;s
-        own releases, the Wayback Machine, and a century of newspaper
-        coverage. {totalMissing} elections still lack a true election-night
-        count (they appear as hollow diamonds with no dot on the night chart);
+        most San Francisco elections since 1907 — and a scattering back to
+        1868 — from the city&rsquo;s own releases, the Wayback Machine, and a
+        century and a half of newspaper coverage. {totalMissing} elections
+        still lack a true election-night count (they appear as hollow diamonds
+        with no dot on the night chart);
         most have a day-one-or-later observation, but the night itself is
         undocumented. The list below is generated directly from the dataset, so
         it always reflects what is still open. If you have access to the San
@@ -208,7 +209,53 @@ export default function MissingPage() {
         </Link>
         , and credited if you&rsquo;d like.
       </p>
-      <p className="mt-4">
+
+      <div className="mt-8 max-w-3xl rounded border border-rule bg-paper-deep/40 p-5">
+        <p className="smallcaps text-rust">how to look — no special skills needed</p>
+        <ol className="mt-3 list-decimal space-y-2 pl-5 leading-relaxed">
+          <li>
+            Get a free{" "}
+            <a href="https://sfpl.org" className="border-b border-rust/40 text-rust hover:bg-rust/10">
+              San Francisco Public Library card
+            </a>{" "}
+            — SF residents can sign up online (anyone in California qualifies).
+          </li>
+          <li>
+            Your card unlocks the <strong>San Francisco Chronicle archive on
+            NewsBank</strong> (back to 1865), through SFPL&rsquo;s online databases —
+            use the <em>Access World News / image edition</em>.
+          </li>
+          <li>
+            Pick a missing election from the list below and note its{" "}
+            <strong>date</strong>.
+          </li>
+          <li>
+            Open the <strong>day-after issue</strong> and find the San Francisco
+            returns. For elections before ~1985, use the image edition and page
+            through the front pages: look for a box headed{" "}
+            <strong>&ldquo;Election Returns,&rdquo; &ldquo;Vote of the City,&rdquo;</strong>{" "}
+            or <strong>&ldquo;The City&rdquo;</strong> with a per-candidate table.
+            Search terms that help: the office + candidate surnames,{" "}
+            <code>&ldquo;vote of the city&rdquo;</code>, <code>&ldquo;election returns&rdquo;</code>.
+          </li>
+          <li>
+            <strong>Check the masthead date</strong> — NewsBank&rsquo;s issue labels
+            are sometimes off by a day.
+          </li>
+          <li>
+            Snap a clear photo or screenshot of the returns box and send it to{" "}
+            <a
+              href={`mailto:${CONTACT}?subject=The Long Count — found data`}
+              className="border-b border-rust/40 text-rust hover:bg-rust/10"
+            >
+              {CONTACT}
+            </a>{" "}
+            (or open a pull request) with the date and which contest.
+          </li>
+        </ol>
+      </div>
+
+      <p className="mt-6">
         <Link href="/" className="border-b border-rust font-semibold text-rust hover:bg-rust/10">
           ← back to the charts
         </Link>

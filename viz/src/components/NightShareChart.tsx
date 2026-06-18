@@ -170,7 +170,6 @@ export default function NightShareChart({
       { x: f.x0, y: f.intercept + f.slope * f.x0 },
       { x: f.x1, y: f.intercept + f.slope * f.x1 },
     ];
-  const trendE = seg(fitE);
   const trendM = seg(fitM);
   const trendR = seg(fitR);
 
@@ -191,7 +190,7 @@ export default function NightShareChart({
       )}
       <ChartFrame
         title="How much of the vote was counted on election night"
-        subtitle="Election-night count ÷ certified final, by election, 1908–2026"
+        subtitle="Election-night count ÷ certified final, by election, 1868–2026"
         note={
           <>
             Each dot is an election’s night count as a share of its certified
@@ -268,27 +267,8 @@ export default function NightShareChart({
           <ResponsiveContainer width="100%" height={360}>
             <ComposedChart margin={{ top: 12, right: 20, bottom: 8, left: 0 }}>
               <CartesianGrid stroke="var(--color-rule)" strokeDasharray="2 4" />
-              {from <= 1927 && to >= 1927 && (
-                // ~1927: the Progressive-era long-ballot bottleneck eases and
-                // election night becomes reliably near-complete again - still
-                // hand-counted paper (SF had no voting machines until 1960s
-                // punch cards), so the gain is shorter ballots + more, smaller
-                // precincts, not mechanization.
-                <ReferenceLine
-                  x={1927}
-                  stroke="var(--color-moss)"
-                  strokeWidth={1}
-                  strokeDasharray="5 4"
-                  opacity={0.7}
-                  label={{
-                    value: "counts stabilize ~1927",
-                    position: "insideTopRight",
-                    fill: "var(--color-moss)",
-                    fontSize: 10,
-                  }}
-                />
-              )}
-              {/* shared franchise/voting events, identical across all charts */}
+              {/* shared vote-counting milestones, identical across all charts
+                  (incl. the 1926 voting-machine break that stabilized the count) */}
               {eventLines(from, to)}
               <XAxis
                 type="number"
@@ -381,7 +361,6 @@ export default function NightShareChart({
                 }}
               />
               {/* trend lines at zIndex 700/710, above the Scatter (600) */}
-              {trendLines(trendE, "var(--color-faint)", "e")}
               {trendLines(trendM, "var(--color-ink)", "m")}
               {trendLines(trendR, "var(--color-ink)", "r")}
             </ComposedChart>
@@ -389,10 +368,9 @@ export default function NightShareChart({
         </div>
         <p className="smallcaps mt-2 text-faint">
           dashed verticals:{" "}
-          <span className="text-ink">2002 — permanent vote-by-mail opens to everyone</span>
-          {" · "}
-          <span style={{ color: "var(--color-gold)" }}>
-            2020 — COVID: every voter mailed a ballot
+          <span className="text-ink">
+            1926 voting machines · 1978 expanded absentee · 2002 permanent
+            vote-by-mail · 2020 COVID
           </span>
         </p>
       </ChartFrame>

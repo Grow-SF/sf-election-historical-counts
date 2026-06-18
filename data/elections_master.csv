@@ -1,0 +1,271 @@
+election_date,year,level,kind,description,recovered,night_pct,date_confidence,sources
+1849-11-13,1849,statewide,General,Governor + Legislature + ratify 1849 Constitution,no,,exact,Blue Book/SOV/Wikipedia
+1850-10-07,1850,statewide,General,State officers + Legislature,no,,exact,Blue Book/SOV/Wikipedia
+1851-09-03,1851,statewide,Gubernatorial,Governor,no,,exact,Blue Book/SOV/Wikipedia
+1852-11-02,1852,statewide,Presidential,President,no,,exact,Blue Book/SOV/Wikipedia
+1853-09-07,1853,statewide,Gubernatorial,Governor,no,,exact,Blue Book/SOV/Wikipedia
+1854-09-06,1854,statewide,General,Congress-at-large + Legislature,no,,exact,Blue Book/SOV/Wikipedia
+1855-09-05,1855,statewide,Gubernatorial,Governor,no,,exact,Blue Book/SOV/Wikipedia
+1856-11-04,1856,both,Presidential + Municipal,President; Mayor (Burr) + city offices — 1st under Consolidation Act,no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1857-09-02,1857,statewide,Gubernatorial,Governor,no,,exact,Blue Book/SOV/Wikipedia
+1857-09-04,1857,municipal,Municipal,City/county offices,no,,approx,Municipal Reports/CDNC/Wikipedia
+1858-07-01,1858,municipal,Municipal,Annual city offices — exact date unknown,no,,date-unknown,Municipal Reports/CDNC/Wikipedia
+1858-09-01,1858,statewide,General,Legislature + Controller,no,,exact,Blue Book/SOV/Wikipedia
+1859-09-07,1859,both,Gubernatorial + Municipal,Governor; Mayor (Teschemacher) + city offices,no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1860-11-06,1860,statewide,Presidential,President,no,,exact,Blue Book/SOV/Wikipedia
+1861-05-21,1861,municipal,Municipal,Mayor (Teschemacher re-elected),no,,exact,Municipal Reports/CDNC/Wikipedia
+1861-09-04,1861,statewide,Gubernatorial,Governor,no,,exact,Blue Book/SOV/Wikipedia
+1862-09-03,1862,statewide,General,Supt. Public Instruction + Legislature,no,,exact,Blue Book/SOV/Wikipedia
+1863-05-19,1863,municipal,Municipal,Mayor (Coon),no,,exact,Municipal Reports/CDNC/Wikipedia
+1863-09-02,1863,statewide,Gubernatorial,Governor,no,,exact,Blue Book/SOV/Wikipedia
+1864-11-08,1864,statewide,Presidential,President + Congress,no,,exact,Blue Book/SOV/Wikipedia
+1865-05-16,1865,municipal,Municipal,Mayor (Coon re-elected),no,,exact,Municipal Reports/CDNC/Wikipedia
+1865-09-05,1865,statewide,General,Legislature,no,,exact,Blue Book/SOV/Wikipedia
+1867-09-04,1867,both,Gubernatorial + Municipal,Governor; Mayor (McCoppin),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1867-10-16,1867,statewide,General,Supt. Public Instruction,no,,exact,Blue Book/SOV/Wikipedia
+1868-11-03,1868,statewide,Presidential,President + Congress,night,99.6,exact,Blue Book/SOV/Wikipedia
+1869-09-01,1869,municipal,Municipal,Mayor (Selby),no,,exact,Municipal Reports/CDNC/Wikipedia
+1871-09-06,1871,both,Gubernatorial + Municipal,Governor; Mayor (Alvord),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1871-10-18,1871,statewide,General,Supt. Public Instruction,no,,exact,Blue Book/SOV/Wikipedia
+1872-11-05,1872,statewide,Presidential,President + Congress,no,,exact,Blue Book/SOV/Wikipedia
+1873-09-03,1873,both,General + Municipal,Legislature; Mayor (Otis),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1875-09-01,1875,both,Gubernatorial + Municipal,Governor; Mayor (Bryant),night,100.0,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1875-10-20,1875,statewide,General,Supt. Public Instruction,no,,exact,Blue Book/SOV/Wikipedia
+1876-11-07,1876,statewide,Presidential,President + Congress,night,100.0,exact,Blue Book/SOV/Wikipedia
+1877-09-05,1877,both,General + Municipal,Legislature; Mayor (Bryant re-elected),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1879-09-03,1879,both,Gubernatorial + Municipal,Governor (1879 Constitution); Mayor (Kalloch) — 1st under 1879 Constitution,no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1880-07-01,1880,municipal,Charter,Proposed new charter — REJECTED; exact date unknown,no,,date-unknown,Municipal Reports/CDNC/Wikipedia
+1880-11-02,1880,statewide,Presidential,President + Congress + Legislature,no,,exact,Blue Book/SOV/Wikipedia
+1881-09-07,1881,municipal,Municipal,Mayor (Blake) — last September municipal,no,,exact,Municipal Reports/CDNC/Wikipedia
+1882-11-07,1882,both,Gubernatorial + Municipal,Governor + state officers; Mayor (Bartlett) — 1st November municipal,night,10.9,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1883-07-01,1883,municipal,Charter,Proposed new charter — REJECTED; exact date unknown,no,,date-unknown,Municipal Reports/CDNC/Wikipedia
+1884-11-04,1884,both,Presidential + Municipal,President + Congress + Legislature; Mayor (Bartlett re-elected),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1886-11-02,1886,both,Gubernatorial + Municipal,Governor + state officers; Mayor (Pond),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1887-07-01,1887,municipal,Charter,Proposed new charter — REJECTED; exact date unknown,no,,date-unknown,Municipal Reports/CDNC/Wikipedia
+1888-11-06,1888,both,Presidential + Municipal,President + Congress + Legislature; Mayor (Pond re-elected),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1890-11-04,1890,both,Gubernatorial + Municipal,Governor + state officers; Mayor (Sanderson),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1892-11-08,1892,both,Presidential + Municipal,President + Congress + Legislature; Mayor (Ellert),night,66.7,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1894-11-06,1894,both,Gubernatorial + Municipal,Governor + state officers; Mayor (Sutro),night,56.8,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1896-11-03,1896,both,Presidential + Municipal,President + Congress + Legislature; Mayor (Phelan),night,82.3,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1897-12-27,1897,municipal,Charter,Board of Freeholders (draft new charter),no,,exact,Municipal Reports/CDNC/Wikipedia
+1898-05-26,1898,municipal,Charter,New (1898/1900) Charter RATIFIED,no,,exact,Municipal Reports/CDNC/Wikipedia
+1898-11-01,1898,municipal,Municipal,Mayor (Phelan re-elected),no,,exact,Municipal Reports/CDNC/Wikipedia
+1898-11-08,1898,statewide,Gubernatorial,Governor + state officers,night,74.6,exact,Blue Book/SOV/Wikipedia
+1899-11-07,1899,municipal,Municipal,Mayor (Phelan) — 1st under 1898 charter,no,,exact,Municipal Reports/CDNC/Wikipedia
+1900-11-06,1900,statewide,Presidential,President + Congress + Legislature,night,58.0,exact,Blue Book/SOV/Wikipedia
+1901-11-05,1901,municipal,Municipal,Mayor (Schmitz),no,,exact,Municipal Reports/CDNC/Wikipedia
+1902-11-04,1902,statewide,Gubernatorial,Governor + state officers,night,0.0,exact,Blue Book/SOV/Wikipedia
+1903-11-03,1903,municipal,Municipal,Mayor (Schmitz re-elected),no,,exact,Municipal Reports/CDNC/Wikipedia
+1904-11-08,1904,statewide,Presidential,President + Congress + Legislature,night,74.8,exact,Blue Book/SOV/Wikipedia
+1905-11-07,1905,municipal,Municipal,"Mayor (Schmitz, 3rd) + Supervisors",no,,exact,Municipal Reports/CDNC/Wikipedia
+1906-11-06,1906,statewide,Gubernatorial,Governor + state officers,no,,exact,Blue Book/SOV/Wikipedia
+1907-11-05,1907,municipal,Municipal,Mayor (Taylor) — post-graft-trial,night,22.3,exact,Municipal Reports/CDNC/Wikipedia; SFPL/DataSF/DOE
+1908-05-11,1908,city,Special,,no,,exact,SFPL/DataSF/DOE
+1908-11-03,1908,city,General,,night,60.6,exact,SFPL/DataSF/DOE
+1908-11-12,1908,city,Special,,no,,exact,SFPL/DataSF/DOE
+1909-06-22,1909,city,Primary,,no,,exact,SFPL/DataSF/DOE
+1909-11-02,1909,city,General,,no,,exact,SFPL/DataSF/DOE
+1909-12-30,1909,city,Special,,no,,exact,SFPL/DataSF/DOE
+1910-11-08,1910,city,General,,night,17.8,exact,SFPL/DataSF/DOE
+1911-11-07,1911,city,Municipal,,no,,exact,SFPL/DataSF/DOE
+1912-03-28,1912,city,Special,,no,,exact,SFPL/DataSF/DOE
+1912-11-05,1912,city,General,,night,85.0,exact,SFPL/DataSF/DOE
+1912-12-10,1912,city,Special,,night,27.8,exact,SFPL/DataSF/DOE
+1913-04-22,1913,city,Special,,no,,exact,SFPL/DataSF/DOE
+1913-08-26,1913,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1914-11-03,1914,city,General,,night,4.2,exact,SFPL/DataSF/DOE
+1915-03-16,1915,city,Special,,no,,exact,SFPL/DataSF/DOE
+1915-04-20,1915,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1916-11-07,1916,city,General,,night,3.0,exact,SFPL/DataSF/DOE
+1917-10-30,1917,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1917-11-06,1917,city,Municipal,,night,4.6,exact,SFPL/DataSF/DOE
+1918-11-05,1918,city,General,,night,0.0,exact,SFPL/DataSF/DOE
+1920-11-02,1920,city,General,,night,66.2,exact,SFPL/DataSF/DOE
+1921-03-08,1921,city,Special,,no,,exact,SFPL/DataSF/DOE
+1922-11-07,1922,city,General,,night,26.5,exact,SFPL/DataSF/DOE
+1922-11-21,1922,city,Special,,no,,exact,SFPL/DataSF/DOE
+1923-11-06,1923,city,Municipal,,night,74.1,exact,SFPL/DataSF/DOE
+1924-10-07,1924,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1924-11-04,1924,city,General,,night,35.6,exact,SFPL/DataSF/DOE
+1925-11-03,1925,city,Municipal,,night,92.1,exact,SFPL/DataSF/DOE
+1926-11-02,1926,city,General,,night,70.9,exact,SFPL/DataSF/DOE
+1927-06-14,1927,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1927-11-08,1927,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1928-05-01,1928,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1928-08-28,1928,city,Primary,,no,,exact,SFPL/DataSF/DOE
+1928-11-06,1928,city,General,,night,90.8,exact,SFPL/DataSF/DOE
+1929-11-05,1929,city,Municipal,,no,,exact,SFPL/DataSF/DOE
+1930-08-26,1930,city,Primary,,night,100.0,exact,SFPL/DataSF/DOE
+1930-11-04,1930,city,General,,night,91.6,exact,SFPL/DataSF/DOE
+1931-02-06,1931,city,Special,,no,,exact,SFPL/DataSF/DOE
+1931-03-26,1931,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1931-11-03,1931,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1932-05-03,1932,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1932-08-30,1932,city,Primary,,night,100.0,exact,SFPL/DataSF/DOE
+1932-11-08,1932,city,General,,night,88.4,exact,SFPL/DataSF/DOE
+1933-04-11,1933,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1933-06-27,1933,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1933-11-07,1933,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1933-12-19,1933,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1934-11-06,1934,city,General,,night,97.7,exact,SFPL/DataSF/DOE
+1935-05-02,1935,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1935-11-05,1935,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1936-11-03,1936,city,General,,night,90.1,exact,SFPL/DataSF/DOE
+1937-03-09,1937,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1937-11-02,1937,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1938-09-27,1938,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1938-11-08,1938,city,General,,night,94.3,exact,SFPL/DataSF/DOE
+1939-05-19,1939,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1939-11-07,1939,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1940-05-07,1940,city,Special,,no,,exact,SFPL/DataSF/DOE
+1940-11-05,1940,city,General,,night,95.3,exact,SFPL/DataSF/DOE
+1941-11-04,1941,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1942-06-09,1942,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1942-11-03,1942,city,General,,night,96.5,exact,SFPL/DataSF/DOE
+1943-04-20,1943,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1943-11-02,1943,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1944-05-16,1944,city,Primary,,no,,exact,SFPL/DataSF/DOE
+1944-11-07,1944,city,General,,no,,exact,SFPL/DataSF/DOE
+1945-11-06,1945,city,Municipal,,no,,exact,SFPL/DataSF/DOE
+1946-07-16,1946,city,Recall,,night,100.0,exact,SFPL/DataSF/DOE
+1946-11-05,1946,city,General,,night,87.2,exact,SFPL/DataSF/DOE
+1947-11-04,1947,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1948-06-01,1948,city,Primary,,night,100.0,exact,SFPL/DataSF/DOE
+1948-11-02,1948,city,General,,night,95.7,exact,SFPL/DataSF/DOE
+1949-11-08,1949,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1950-06-06,1950,city,Primary,,night,100.0,exact,SFPL/DataSF/DOE
+1950-11-07,1950,city,General,,night,96.5,exact,SFPL/DataSF/DOE
+1951-11-06,1951,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1952-06-03,1952,city,Primary,,night,100.0,exact,SFPL/DataSF/DOE
+1952-11-04,1952,city,General,,night,99.0,exact,SFPL/DataSF/DOE
+1953-11-03,1953,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1954-06-08,1954,city,Primary,,night,100.0,exact,SFPL/DataSF/DOE
+1954-11-02,1954,city,General,,night,88.7,exact,SFPL/DataSF/DOE
+1955-11-08,1955,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1956-06-05,1956,city,Primary,,night,100.0,exact,SFPL/DataSF/DOE
+1956-11-06,1956,city,General,,night,93.6,exact,SFPL/DataSF/DOE
+1957-11-05,1957,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1958-06-03,1958,city,Primary,,night,100.0,exact,SFPL/DataSF/DOE
+1958-11-04,1958,city,General,,night,99.9,exact,SFPL/DataSF/DOE
+1959-11-03,1959,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1960-06-07,1960,city,Primary,,night,100.0,exact,SFPL/DataSF/DOE
+1960-11-08,1960,city,General,,night,91.4,exact,SFPL/DataSF/DOE
+1961-11-07,1961,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1962-06-05,1962,city,Primary,,night,100.0,exact,SFPL/DataSF/DOE
+1962-11-06,1962,city,General,,night,100.0,exact,SFPL/DataSF/DOE
+1963-11-05,1963,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1964-06-02,1964,city,Primary,,night,100.0,exact,SFPL/DataSF/DOE
+1964-11-03,1964,city,General,,night,94.4,exact,SFPL/DataSF/DOE
+1965-11-02,1965,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
+1966-06-07,1966,city,Primary,,no,,exact,SFPL/DataSF/DOE
+1966-11-08,1966,city,General,,no,,exact,SFPL/DataSF/DOE
+1967-11-07,1967,city,Municipal,,no,,exact,SFPL/DataSF/DOE
+1968-06-04,1968,city,Primary,,no,,exact,SFPL/DataSF/DOE
+1968-11-05,1968,city,General,,night,83.4,exact,SFPL/DataSF/DOE
+1969-11-04,1969,city,Municipal,,no,,exact,SFPL/DataSF/DOE
+1970-06-02,1970,city,Primary,,no,,exact,SFPL/DataSF/DOE
+1970-11-03,1970,city,General,,no,,exact,SFPL/DataSF/DOE
+1971-11-02,1971,city,Municipal,,no,,exact,SFPL/DataSF/DOE
+1972-06-06,1972,city,Primary,,no,,exact,SFPL/DataSF/DOE
+1972-11-07,1972,city,General,,night,92.3,exact,SFPL/DataSF/DOE
+1973-11-06,1973,city,Municipal,,night,57.9,exact,SFPL/DataSF/DOE
+1974-06-04,1974,city,Primary,,night,44.9,exact,SFPL/DataSF/DOE
+1974-11-05,1974,city,General,,no,,exact,SFPL/DataSF/DOE
+1975-11-04,1975,city,Municipal,,night,97.4,exact,SFPL/DataSF/DOE
+1975-12-11,1975,city,Runoff,,night,99.0,exact,SFPL/DataSF/DOE
+1976-06-08,1976,city,Primary,,no,,exact,SFPL/DataSF/DOE
+1976-11-02,1976,city,General,,night,59.1,exact,SFPL/DataSF/DOE
+1977-08-02,1977,city,Special,,no,,exact,SFPL/DataSF/DOE
+1977-11-08,1977,city,Municipal,,night,98.8,exact,SFPL/DataSF/DOE
+1978-06-06,1978,city,Primary,,night,46.6,exact,SFPL/DataSF/DOE
+1978-11-07,1978,city,General,,night,93.5,exact,SFPL/DataSF/DOE
+1979-11-06,1979,city,Municipal,,night,93.9,exact,SFPL/DataSF/DOE
+1980-06-03,1980,city,Primary,,no,,exact,SFPL/DataSF/DOE
+1980-08-19,1980,city,Special,,no,,exact,SFPL/DataSF/DOE
+1980-11-04,1980,city,General,,night,93.0,exact,SFPL/DataSF/DOE
+1981-11-03,1981,city,Municipal,,night,91.4,exact,SFPL/DataSF/DOE
+1982-06-08,1982,city,Primary,,turnout-only,,exact,SFPL/DataSF/DOE
+1982-11-02,1982,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+1983-04-26,1983,city,Recall,,night,93.5,exact,SFPL/DataSF/DOE
+1983-11-08,1983,city,Municipal,,night,83.6,exact,SFPL/DataSF/DOE
+1984-06-05,1984,city,Primary,,no,,exact,SFPL/DataSF/DOE
+1984-11-06,1984,city,General,,night,94.6,exact,SFPL/DataSF/DOE
+1985-11-05,1985,city,Municipal,,night,92.5,exact,SFPL/DataSF/DOE
+1986-06-03,1986,city,Primary,,turnout-only,,exact,SFPL/DataSF/DOE
+1986-11-04,1986,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+1987-04-07,1987,city,Special,,night,91.2,exact,SFPL/DataSF/DOE
+1987-06-02,1987,city,Special,,night,79.4,exact,SFPL/DataSF/DOE
+1987-11-03,1987,city,Municipal,,night,91.3,exact,SFPL/DataSF/DOE
+1987-12-08,1987,city,Runoff,,night,94.4,exact,SFPL/DataSF/DOE
+1988-06-07,1988,city,Primary,,night,84.4,exact,SFPL/DataSF/DOE
+1988-11-08,1988,city,General,,night,86.3,exact,SFPL/DataSF/DOE
+1989-11-07,1989,city,Municipal,,night,94.1,exact,SFPL/DataSF/DOE
+1990-06-05,1990,city,Primary,,night,79.5,exact,SFPL/DataSF/DOE
+1990-11-06,1990,city,General,,night,82.6,exact,SFPL/DataSF/DOE
+1991-11-05,1991,city,Municipal,,night,93.6,exact,SFPL/DataSF/DOE
+1991-12-10,1991,city,Runoff,,night,87.8,exact,SFPL/DataSF/DOE
+1992-06-02,1992,city,Primary,,night,84.8,exact,SFPL/DataSF/DOE
+1992-11-03,1992,city,General,,night,80.9,exact,SFPL/DataSF/DOE
+1993-06-15,1993,city,Special,,night,93.6,exact,SFPL/DataSF/DOE
+1993-11-02,1993,city,General,,night,81.5,exact,SFPL/DataSF/DOE
+1994-06-07,1994,city,Primary,,night,81.9,exact,SFPL/DataSF/DOE
+1994-11-08,1994,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+1995-11-07,1995,city,Municipal,,night,81.6,exact,SFPL/DataSF/DOE
+1995-12-12,1995,city,Runoff,,night,68.2,exact,SFPL/DataSF/DOE
+1996-03-26,1996,city,Primary,,night,59.6,exact,SFPL/DataSF/DOE
+1996-11-05,1996,city,General,,night,93.4,exact,SFPL/DataSF/DOE
+1997-06-03,1997,city,Special,,night,97.5,exact,SFPL/DataSF/DOE
+1997-11-04,1997,city,Municipal,,night,87.3,exact,SFPL/DataSF/DOE
+1998-06-02,1998,city,Primary,,turnout-only,,exact,SFPL/DataSF/DOE
+1998-11-03,1998,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+1999-11-02,1999,city,Municipal,,turnout-only,,exact,SFPL/DataSF/DOE
+1999-12-14,1999,city,Runoff,,night,88.9,exact,SFPL/DataSF/DOE
+2000-03-07,2000,city,Primary,,night,83.6,exact,SFPL/DataSF/DOE
+2000-11-07,2000,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+2000-12-12,2000,city,Runoff,,turnout-only,,exact,SFPL/DataSF/DOE
+2001-11-06,2001,city,Municipal,,night,80.5,exact,SFPL/DataSF/DOE
+2001-12-11,2001,city,Runoff,,turnout-only,,exact,SFPL/DataSF/DOE
+2002-03-05,2002,city,Primary,,turnout-only,,exact,SFPL/DataSF/DOE
+2002-11-05,2002,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+2002-12-10,2002,city,Runoff,,turnout-only,,exact,SFPL/DataSF/DOE
+2003-10-07,2003,city,Special,,turnout-only,,exact,SFPL/DataSF/DOE
+2003-11-04,2003,city,Municipal,,night,84.7,exact,SFPL/DataSF/DOE
+2003-12-09,2003,city,Runoff,,turnout-only,,exact,SFPL/DataSF/DOE
+2004-03-02,2004,city,Primary,,night,75.1,exact,SFPL/DataSF/DOE
+2004-11-02,2004,city,General,,night,74.9,exact,SFPL/DataSF/DOE
+2005-11-08,2005,city,Special,,night,66.9,exact,SFPL/DataSF/DOE
+2006-06-06,2006,city,Primary,,night,66.3,exact,SFPL/DataSF/DOE
+2006-11-07,2006,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+2007-11-06,2007,city,Municipal,,night,32.2,exact,SFPL/DataSF/DOE
+2008-02-05,2008,city,Primary,,night,63.1,exact,SFPL/DataSF/DOE
+2008-04-08,2008,city,Primary,,no,,exact,SFPL/DataSF/DOE
+2008-06-03,2008,city,Primary,,night,62.8,exact,SFPL/DataSF/DOE
+2008-11-04,2008,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+2009-05-19,2009,city,Special,,turnout-only,,exact,SFPL/DataSF/DOE
+2009-11-03,2009,city,Municipal,,night,68.3,exact,SFPL/DataSF/DOE
+2010-06-08,2010,city,Primary,,night,64.7,exact,SFPL/DataSF/DOE
+2010-11-02,2010,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+2011-11-08,2011,city,Municipal,,turnout-only,,exact,SFPL/DataSF/DOE
+2012-06-05,2012,city,Primary,,night,73.2,exact,SFPL/DataSF/DOE
+2012-11-06,2012,city,General,,night,71.4,exact,SFPL/DataSF/DOE
+2013-11-05,2013,city,Municipal,,turnout-only,,exact,SFPL/DataSF/DOE
+2014-06-03,2014,city,Primary,,turnout-only,,exact,SFPL/DataSF/DOE
+2014-11-04,2014,city,General,,night,70.3,exact,SFPL/DataSF/DOE
+2015-11-03,2015,city,Municipal,,night,65.1,exact,SFPL/DataSF/DOE
+2016-06-07,2016,city,Primary,,night,70.1,exact,SFPL/DataSF/DOE
+2016-11-08,2016,city,General,,night,66.1,exact,SFPL/DataSF/DOE
+2018-06-05,2018,city,Primary,,night,60.8,exact,SFPL/DataSF/DOE
+2018-11-06,2018,city,General,,night,59.3,exact,SFPL/DataSF/DOE
+2019-11-05,2019,city,Municipal,,night,55.9,exact,SFPL/DataSF/DOE
+2020-03-03,2020,city,Primary,,night,47.4,exact,SFPL/DataSF/DOE
+2020-11-03,2020,city,General,,night,78.4,exact,SFPL/DataSF/DOE
+2021-09-14,2021,city,Recall,,night,78.7,exact,SFPL/DataSF/DOE
+2022-02-15,2022,city,Special,,night,72.4,exact,SFPL/DataSF/DOE
+2022-04-19,2022,city,Special,,night,78.7,exact,SFPL/DataSF/DOE
+2022-06-07,2022,city,Primary,,night,55.8,exact,SFPL/DataSF/DOE
+2022-11-08,2022,city,General,,night,51.0,exact,SFPL/DataSF/DOE
+2024-03-05,2024,city,Primary,,night,44.9,exact,SFPL/DataSF/DOE
+2024-11-05,2024,city,General,,night,56.9,exact,SFPL/DataSF/DOE
+2025-09-16,2025,city,Recall,,night,76.5,exact,SFPL/DataSF/DOE
+2025-11-04,2025,city,Special,,night,66.4,exact,SFPL/DataSF/DOE
+2026-06-02,2026,city,Primary,,night,48.2,exact,SFPL/DataSF/DOE

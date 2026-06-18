@@ -17,7 +17,7 @@ function Hero() {
       <div className="mx-auto max-w-5xl px-5 pb-20 pt-24 sm:pb-28 sm:pt-32">
         <p className="smallcaps fade-up max-w-full text-gold">
           san francisco · a century of ballot counting
-          <span className="hidden sm:inline"> · 1908–2026</span>
+          <span className="hidden sm:inline"> · 1868–2026</span>
         </p>
         <h1
           className="fade-up mt-4 max-w-4xl text-[2.6rem] font-bold leading-[1.05] sm:text-7xl"
@@ -93,10 +93,10 @@ function Footer() {
               elections within ~32 days are provisional. “News-derived”
               points are conservative floors: the certified total minus the
               ballots a registrar told a reporter were still uncounted.
-              1908–1985: 41 election-night counts read from page scans of the
+              1868–1985: 108 election-night counts read from page scans of the
               Chronicle’s vote-tally boxes and count reporting, every digit
               independently re-verified and checked against certified totals —
-              the pre-1964 figures (22 elections, recovered 2026) extend the
+              the pre-1965 figures (90 elections, recovered 2026) extend the
               record back to the hand-count era. A records request with the
               Department is in progress for the remaining web-era gaps.
             </p>
@@ -178,8 +178,10 @@ export default function Story() {
           <>
             <p>
               Election night has failed San Francisco before — for the opposite
-              reason. <em>1908–1912</em>: the morning paper already had it (≈85–89%
-              counted by breakfast). <em>1914–1926</em>: the floor falls out. Hand-
+              reason. <em>1912</em>: the morning paper already had it — ~85%
+              counted by breakfast, the box headed “COMPLETE.” But the hand-count
+              era was erratic, not uniformly fast (1908 sat nearer 61%).
+              <em>1914–1926</em>: the floor falls out. Hand-
               tallied paper and ballooning Progressive-era ballots made counting
               itself the bottleneck; 1916, the closest presidential race in state
               history, left “virtually none of San Francisco’s vote” in hand by

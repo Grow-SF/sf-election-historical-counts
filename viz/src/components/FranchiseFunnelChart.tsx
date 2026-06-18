@@ -9,7 +9,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { FRANCHISE_FUNNEL, fmt, yearTicks } from "@/lib/data";
+import { FRANCHISE_FUNNEL, FRANCHISE_EVENTS, fmt, yearTicks } from "@/lib/data";
 import { ChartFrame, eventLines } from "@/components/ui";
 
 // Mutually-exclusive bands that sum to total population, bottom (voted) to top
@@ -106,7 +106,7 @@ export default function FranchiseFunnelChart({ from, to }: { from: number; to: n
             width={44}
           />
           <Tooltip content={<FunnelTooltip />} isAnimationActive={false} />
-          {eventLines(lo, hi)}
+          {eventLines(lo, hi, FRANCHISE_EVENTS)}
           {BANDS.map((b) => (
             <Area
               key={b.key}

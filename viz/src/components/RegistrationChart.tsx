@@ -9,7 +9,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { REGISTRATION_ELIGIBLE, FRANCHISE_FUNNEL, fmt, yearTicks } from "@/lib/data";
+import { REGISTRATION_ELIGIBLE, FRANCHISE_FUNNEL, FRANCHISE_EVENTS, fmt, yearTicks } from "@/lib/data";
 import { ChartFrame, eventLines } from "@/components/ui";
 
 const MODERN = REGISTRATION_ELIGIBLE.map((p) => {
@@ -123,7 +123,7 @@ export default function RegistrationChart({ from, to }: { from: number; to: numb
             width={48}
           />
           <Tooltip content={<RegTooltip />} isAnimationActive={false} />
-          {eventLines(lo, hi)}
+          {eventLines(lo, hi, FRANCHISE_EVENTS)}
           <Line
             dataKey="y"
             stroke="#056A92"

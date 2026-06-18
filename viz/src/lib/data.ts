@@ -72,7 +72,7 @@ export const THRESHOLDS = [50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 98, 99];
 export const YEAR_MIN = Math.min(
   ...ELECTIONS.map((e) => e.year),
   ...NIGHT_FLOOR.map((p) => Number(p.date.slice(0, 4))),
-  // turnout data reaches 1899 (the night-count record starts 1908) — let the
+  // turnout data reaches 1899 (the night-count record starts 1868) — let the
   // year slider reach the earliest data so the turnout chart can show it
   ...TURNOUT_HISTORY.map((p) => Number(p.date.slice(0, 4))),
 );
@@ -149,14 +149,24 @@ export const KIND_COLOR: Record<string, string> = {
 };
 
 /**
- * Globally interesting franchise/voting milestones, annotated identically across
- * every chart (each renders only the events within its own x-domain).
+ * Vote-counting milestones, annotated identically across every chart (each
+ * renders only the events within its own x-domain).
  */
 export const EVENTS: { year: number; label: string }[] = [
+  { year: 1926, label: "voting machines" },
+  { year: 1978, label: "expanded absentee" },
+  { year: 2002, label: "permanent VBM" },
+  { year: 2020, label: "COVID" },
+];
+
+/**
+ * Franchise-expansion milestones — used only on the "who could vote" charts
+ * (franchise funnel, registration), where they belong; the counting charts use
+ * EVENTS above.
+ */
+export const FRANCHISE_EVENTS: { year: number; label: string }[] = [
   { year: 1920, label: "women vote" },
   { year: 1971, label: "age 18" },
-  { year: 2002, label: "permanent VBM" },
-  { year: 2020, label: "all-mail" },
 ];
 
 /** ~6 evenly spaced round-year ticks spanning [from, to], for a year x-axis. */
