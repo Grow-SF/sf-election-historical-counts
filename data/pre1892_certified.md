@@ -38,3 +38,25 @@ CA State Archives "Abstract of the Vote"). Two agents, cross-checked.
   Chronicle: Page 3"; 1867 "Result of the Election".
 - Night counts to be captured from the day-after (and 2-day) issue, SF "Vote of
   the City" / returns table. Hand-count era → expect partial night shares.
+
+## Night-count recovery progress (2026-06-17)
+Capture/transcription of the day-after issues. KEY TOOLING NOTE: the NewsBank
+viewer is **OpenSeadragon**; `canvas.toDataURL()` and synthetic `.click()`/wheel do
+NOT reflect zoom. The working recipe (`scripts/archive-recovery/zoom_grid.js`):
+deviceScaleFactor 3 + click the zoom-in button **by its screen coordinates** +
+drag-pan a grid + capture with **page.screenshot** (not toDataURL). This makes the
+dense ward/by-county tables legible.
+
+Data-quality reality for this era: the day-after papers are often the AFTERNOON
+*Evening Bulletin* showing very partial hand counts (the SF count took days); some
+print only prose, not candidate figures. All reads need human verification.
+
+| Election | Night read (SF, partial) | Source / status | Conf |
+|---|---|---|---|
+| 1890-11-04 Gov | 6,610 (Pond 3,353+Markham 3,204+Bidwell 53), 40 precincts @noon = 12.0% | Evening Bulletin Nov 5, 2nd ed., "Registrar's Figures" | medium (soft middle digits) |
+| 1886-11-02 Gov | ~12,676 (Bartlett 5,544+Swift 4,540+O'Donnell 2,592), ≈28% | Evening Bulletin Nov 3, p3 by-county "GUBERNATORIAL VOTE" SF row | low — verify digits |
+| 1884-11-04 Pres | prose only ("Blaine ~2,000–2,500 plurality"); ~13,000 of ~47,000 counted by noon — no candidate figures | Evening Bulletin Nov 5, 4th ed. | n/a |
+| 1880-11-02 Pres | no candidate table; turnout 41,298 cast; "two-thirds count" prose | Evening Bulletin Nov 3 | n/a |
+| 1882-11-07 Gov | Governor table is on PAGE 1 (not yet captured); pp.2-6 are down-ballot/commercial | SF Chronicle Nov 8 | pending p1 |
+| 1888-11-06 Pres | not yet transcribed | scans on disk | pending |
+
