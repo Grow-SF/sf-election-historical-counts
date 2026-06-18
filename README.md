@@ -208,9 +208,10 @@ floor; see [`data/pre1892_certified.md`](data/pre1892_certified.md))
       the DOE's certified per-election datasets; records request pending.
 
 **Publish**
-- [ ] Sync the viz datasets + prose/subtitles into the Grow-SF web embed
+- [x] Sync the viz datasets + prose/subtitles into the Grow-SF web embed
       (`content/research/2026-06-14-the-long-count/longcount/`), re-render the OG
-      image, and open/refresh PRs on both repos.
+      image, push both branches. *(Done 2026-06-17 — through the 1868/1879
+      extension; re-sync after each future ingestion.)*
 
 ## Provenance & licensing
 
