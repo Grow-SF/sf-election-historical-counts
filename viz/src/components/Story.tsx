@@ -93,10 +93,10 @@ function Footer() {
               elections within ~32 days are provisional. “News-derived”
               points are conservative floors: the certified total minus the
               ballots a registrar told a reporter were still uncounted.
-              1868–1985: 107 election-night counts read from page scans of the
+              1868–1985: 108 election-night counts read from page scans of the
               Chronicle’s vote-tally boxes and count reporting, every digit
               independently re-verified and checked against certified totals —
-              the pre-1965 figures (89 elections, recovered 2026) extend the
+              the pre-1965 figures (90 elections, recovered 2026) extend the
               record back to the hand-count era. A records request with the
               Department is in progress for the remaining web-era gaps.
             </p>

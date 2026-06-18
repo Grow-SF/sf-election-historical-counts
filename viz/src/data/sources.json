@@ -6368,6 +6368,22 @@
   ]
  },
  {
+  "id": "1875-09-01",
+  "name": "Gubernatorial General Election",
+  "final": 25534,
+  "finalSource": "CA State Archives Abstract Sept 1 1875 \u2014 SF County Governor certified 25,534 (Irwin 14,199+Bidwell 6,080+Phelps 5,179+Lovett 71+scat 5). Newspaper complete count ~25,5xx matches. cross-ref Wikipedia 1875 CA gubernatorial.",
+  "observations": [
+   {
+    "date": "1875-09-02",
+    "days": 1,
+    "total": 25534,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Daily Evening Post (NewsBank image scan via SFPL), 1875-09-02 p2 'THE ELECTION' (Second Edition 6:30 PM) \u2014 COMPLETE precinct-by-precinct SF Governor returns, all 12 wards; 'Total Vote of the City' ~25,5xx (Irwin/Dem sweep). Complete day-after count (~100%). NOTE evening edition (timing = day-after, not midnight). scan sweep_18750901_issue18750902_p2; conf=med (complete basis high; exact total last digits soft)"
+   }
+  ]
+ },
+ {
   "id": "1868-11-03",
   "name": "Presidential General Election",
   "final": 25765,
