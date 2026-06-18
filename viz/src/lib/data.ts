@@ -149,14 +149,14 @@ export const KIND_COLOR: Record<string, string> = {
 };
 
 /**
- * Globally interesting franchise/voting milestones, annotated identically across
- * every chart (each renders only the events within its own x-domain).
+ * Vote-counting milestones, annotated identically across every chart (each
+ * renders only the events within its own x-domain).
  */
 export const EVENTS: { year: number; label: string }[] = [
-  { year: 1920, label: "women vote" },
-  { year: 1971, label: "age 18" },
+  { year: 1926, label: "voting machines" },
+  { year: 1978, label: "expanded absentee" },
   { year: 2002, label: "permanent VBM" },
-  { year: 2020, label: "all-mail" },
+  { year: 2020, label: "COVID" },
 ];
 
 /** ~6 evenly spaced round-year ticks spanning [from, to], for a year x-axis. */
