@@ -200,8 +200,10 @@ floor; see [`data/pre1892_certified.md`](data/pre1892_certified.md))
 - [ ] Specials/recalls **1943-04-20, 1944-05-16, 1946-07-16** (Lapham recall).
 
 **Prose corrections**
-- [ ] The era-1 "≈89% in 1908" claim is now **~61%** (DOE's 1908 denominator was
-      wrong) — fix in `viz/src/components/Story.tsx` and the web essay/`index.mdx`.
+- [x] The era-1 "≈89% in 1908" claim corrected to **~61%** (DOE's 1908 denominator
+      was wrong) in the viz (`Story.tsx`, `eras/page.tsx`) and in the web essay
+      `index.mdx`. *(index.mdx fix is in the working tree — commit it with your
+      other in-progress edits to that file.)*
 
 **Next dataset**
 - [ ] **Day-by-day counts to certification** ("how long until certified") — needs
