@@ -178,8 +178,10 @@ export default function Story() {
           <>
             <p>
               Election night has failed San Francisco before — for the opposite
-              reason. <em>1908–1912</em>: the morning paper already had it (≈85–89%
-              counted by breakfast). <em>1914–1926</em>: the floor falls out. Hand-
+              reason. <em>1912</em>: the morning paper already had it — ~85%
+              counted by breakfast, the box headed “COMPLETE.” But the hand-count
+              era was erratic, not uniformly fast (1908 sat nearer 61%).
+              <em>1914–1926</em>: the floor falls out. Hand-
               tallied paper and ballooning Progressive-era ballots made counting
               itself the bottleneck; 1916, the closest presidential race in state
               history, left “virtually none of San Francisco’s vote” in hand by

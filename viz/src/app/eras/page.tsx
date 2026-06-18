@@ -10,10 +10,10 @@ export const metadata = {
 
 const ERAS = [
   {
-    years: "1908–1912",
-    label: "fast",
+    years: "1868–1912",
+    label: "fast, when the ballot was short",
     tone: "moss",
-    body: "The morning paper already had it. Taft's San Francisco was essentially counted by breakfast in 1908 (~89% of the certified vote); Wilson's in 1912 stood at 85% with 600 of 638 precincts in and the box headed “COMPLETE.”",
+    body: "When the ballot was short, the morning paper had it. San Francisco's small 19th-century electorate was counted in full overnight — 1868, 1875, and 1876 each essentially complete in the next day's paper — and Wilson's 1912 vote stood at 85% by breakfast, 600 of 638 precincts in and the box headed “COMPLETE.” It was erratic, though, never guaranteed: Taft's 1908 sat nearer 61%.",
   },
   {
     years: "1914–1926",
