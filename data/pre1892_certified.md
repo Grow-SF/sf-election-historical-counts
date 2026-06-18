@@ -81,6 +81,18 @@ print only prose, not candidate figures. All reads need human verification.
 | 1886-11-02 Gov | ~12,676 (Bartlett 5,544+Swift 4,540+O'Donnell 2,592), ≈28% | Evening Bulletin Nov 3, p3 by-county "GUBERNATORIAL VOTE" SF row | low — verify digits |
 | 1884-11-04 Pres | prose only ("Blaine ~2,000–2,500 plurality"); ~13,000 of ~47,000 counted by noon — no candidate figures | Evening Bulletin Nov 5, 4th ed. | n/a |
 | 1880-11-02 Pres | no candidate table; turnout 41,298 cast; "two-thirds count" prose | Evening Bulletin Nov 3 | n/a |
-| 1882-11-07 Gov | Governor table is on PAGE 1 (not yet captured); pp.2-6 are down-ballot/commercial | SF Chronicle Nov 8 | pending p1 |
-| 1888-11-06 Pres | not yet transcribed | scans on disk | pending |
+| 1882-11-07 Gov | **4,261** (Stoneman 2,600+Estee 1,587+McDonald 74) @ 2 AM = **10.9%** | SF Chronicle Nov 8 p3 "THE VOTE IN THIS CITY — count at 2 this morning"; reg 42,072 printed | HIGH (digits clean) |
+| 1888-11-06 Pres | pending — not on p2/p3/p4 (Evening Bulletin); trying p1 | SF Evening Bulletin Nov 7 | pending p1 |
+| 1880-11-02 Pres | prose only (Evening Bulletin); morning Chronicle 2 AM count not yet pulled | — | n/a here |
+| 1884-11-04 Pres | prose only (Evening Bulletin 4th ed.) | — | n/a here |
+| 1868-11-03 Pres | COMPLETE next-day canvass: Grant ~12,18x + Seymour ~13,61x ≈ 25,79x (≈certified 25,765 → ~100%) | Daily Alta California Nov 4 p3 "City and County Election Returns" (ward×precinct full table) | med-high (last digits soft; needs hi-zoom) |
+| 1876-11-07 Pres | COMPLETE: "Total Vote of the City 41,820"; Hayes +446 majority; all 12 wards | SF Daily Evening Post Nov 8 p3 "THE CITY" (evening ed — for night metric want the MORNING paper) | med (per-candidate ward digits need hi-zoom) |
+| 1872-11-05 Pres | wrong title captured (German-language SF daily classifieds); need the right paper's news page | — | recapture |
+
+### Era insight
+Small early electorates (1868: 25.8k; 1876: 41.8k) were countable OVERNIGHT — the
+day-after paper shows the COMPLETE canvass (~100% night share). As the electorate
+grew the share fell (1882: only ~11% by 2 AM; 1907: ~22%) until voting machines.
+CAVEAT: surviving editions differ (morning 2 AM bulletin vs afternoon next-day
+complete) — measure each at the first morning-after paper for consistency.
 

@@ -6323,10 +6323,19 @@
  },
  {
   "id": "1882-11-07",
-  "name": "Certified turnout record \u2014 night count not yet recovered",
-  "summary": "39,102 ballots cast, 92.8% of 42,135 registered",
-  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
-  "observations": []
+  "name": "Gubernatorial General Election",
+  "final": 39102,
+  "finalSource": "SF Municipal Reports Registrar master table (FY1888-89 p.856) SF total vote 39,102 (reg 42,135); cross-ref CA SoS Statement of Vote 1882 (archive.org statementofvoteo1886cali, read directly) SF Governor 38,913 (Stoneman 24,257+Estee 13,735+McDonald 829+McQuiddy 77+scat 15). https://archive.org/details/statementofvoteo1886cali",
+  "observations": [
+   {
+    "date": "1882-11-08",
+    "days": 1,
+    "total": 4261,
+    "pct": 10.9,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle (NewsBank image scan via SFPL), 1882-11-08 p3 'THE VOTE IN THIS CITY \u2014 What the Count Showed at 2 This Morning' (subhead 'The State of the Count at 2 O'Clock A.M.'): Governor partial Stoneman 2,600+Estee 1,587+McDonald 74 = 4,261; deep hand-count era, count 'slowly progressing'; reg 42,072 printed. scan zg_18821107_issue18821108_p3_r2_c1; conf=high"
+   }
+  ]
  },
  {
   "id": "1880-11-02",
@@ -6341,5 +6350,37 @@
   "summary": "41,575 ballots cast, 92.9% of 44,765 registered",
   "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
   "observations": []
+ },
+ {
+  "id": "1876-11-07",
+  "name": "Presidential General Election",
+  "final": 41571,
+  "finalSource": "CA SoS Statement Nov 7 1876 \u2014 SF County President certified 41,571 (Hayes 21,172+Tilden 20,399+scat 1). Newspaper complete count 41,820 (Hayes 21,133/Tilden 20,687) within 0.6%. ballots capped to certified for the 100% share. cross-ref Wikipedia 1876 US pres CA.",
+  "observations": [
+   {
+    "date": "1876-11-08",
+    "days": 1,
+    "total": 41571,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Daily Evening Post (NewsBank image scan via SFPL), 1876-11-08 p3 'THE CITY' First Edition \u2014 COMPLETE returns all 12 wards: Hayes 21,133 + Tilden 20,687 = 41,820 ('Total Vote of the City 41,820'; '446 majority for Hayes' = 21,133-20,687). Complete next-day count (~100%). scan zg_18761107_issue18761108_p3 + sweep_..._p3_s3; conf=high"
+   }
+  ]
+ },
+ {
+  "id": "1868-11-03",
+  "name": "Presidential General Election",
+  "final": 25765,
+  "finalSource": "CA SoS Abstract Nov 3 1868 \u2014 SF County President certified 25,765 (Seymour 13,582+Grant 12,183). Newspaper complete count 25,655 within 0.4%. cross-ref Wikipedia 1868 US pres CA. (Pre-1908: no SOV w/ county breakdown.)",
+  "observations": [
+   {
+    "date": "1868-11-04",
+    "days": 1,
+    "total": 25655,
+    "pct": 99.6,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Daily Alta California (NewsBank image scan via SFPL), 1868-11-04 p3 'City and County Election Returns' \u2014 COMPLETE ward\u00d7precinct canvass; President Grant(Union) 12,171 + Seymour(Dem) 13,484 = 25,655 (paper majority col 1,313 = 13,484-12,171). Counted overnight. scan zg_18681103_issue18681104_p3; conf=high"
+   }
+  ]
  }
 ]
