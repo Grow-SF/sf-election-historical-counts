@@ -3,10 +3,9 @@ import { useEffect, useMemo } from "react";
 import {
   CartesianGrid,
   ComposedChart,
-  Line,
-  ReferenceLine,
   ResponsiveContainer,
-  Scatter,
+  useXAxisScale,
+  useYAxisScale,
   XAxis,
   YAxis,
 } from "recharts";
@@ -15,39 +14,8 @@ import { ChartFrame, PointTooltip, eventLines, useGraceHover } from "@/component
 
 type Seg = { x: number; y: number }[];
 
-// recharts (v3) layers components by a numeric `zIndex`, NOT by JSX order:
-// CartesianGrid -100, Area 100, Line 400, Axis 500, Scatter 600. So a default
-// trend <Line> renders *under* the dots. Render each trend segment as two Lines
-// above the Scatter (600): a paper casing so the dash stays legible over dark
-// dot clusters, then the dashed line itself.
-function trendLines(seg: Seg | null | false, color: string, key: string) {
-  if (!seg) return null;
-  return [
-    <Line
-      key={`${key}-casing`}
-      data={seg}
-      dataKey="y"
-      stroke="var(--color-paper)"
-      strokeWidth={4}
-      dot={false}
-      legendType="none"
-      isAnimationActive={false}
-      zIndex={700}
-    />,
-    <Line
-      key={`${key}-dash`}
-      data={seg}
-      dataKey="y"
-      stroke={color}
-      strokeWidth={2}
-      strokeDasharray="6 4"
-      dot={false}
-      legendType="none"
-      isAnimationActive={false}
-      zIndex={710}
-    />,
-  ];
-}
+// All data marks (stems, floor diamonds, dots, trend dashes) are drawn by hand
+// in one SVG layer — see NightMarks below for why and the draw order.
 
 type Pt = {
   x: number;
@@ -101,6 +69,156 @@ const PARTIAL_NOTES: Record<string, string> = {
     "near-complete day-after count (governor race, 223,147 ballots); the exact final is uncertain because the DOE turnout table for 1978 is internally contradicted",
 };
 
+type Hover =
+  | { kind: "pt"; cx: number; cy: number; p: Pt }
+  | { kind: "floor"; cx: number; cy: number; date: string; y: number };
+
+type FloorPt = { x: number; y: number; date: string };
+type Stem = { x: number; y0: number; y1: number };
+
+/** A trend segment as two stacked SVG lines: a paper casing so the dash stays
+ *  legible over dark dot clusters, then the dashed ink line on top. */
+function TrendDash({
+  seg,
+  X,
+  Y,
+}: {
+  seg: Seg;
+  X: (v: number) => number;
+  Y: (v: number) => number;
+}) {
+  const [a, b] = seg;
+  const p = { x1: X(a.x), y1: Y(a.y), x2: X(b.x), y2: Y(b.y) };
+  return (
+    <>
+      <line {...p} stroke="var(--color-paper)" strokeWidth={4} />
+      <line
+        {...p}
+        stroke="var(--color-ink)"
+        strokeWidth={2}
+        strokeDasharray="6 4"
+      />
+    </>
+  );
+}
+
+/**
+ * Every data mark in one hand-drawn SVG layer, positioned with the chart's own
+ * scales (useXAxisScale/useYAxisScale). This deliberately avoids recharts
+ * <Scatter>: its symbols are wrapped in an animation layer keyed by an id that
+ * changes on every render, so each render unmounts and remounts all ~520 symbols
+ * — which made the year-slider drag cost ~200ms/tick. Drawn by hand the marks
+ * update in place (no remount), cutting the drag cost ~5x. Draw order is
+ * back-to-front: stems, floor diamonds, dots, then trend dashes on top.
+ */
+function NightMarks({
+  pts,
+  floorPts,
+  stems,
+  trendM,
+  trendR,
+  show,
+  hide,
+}: {
+  pts: Pt[];
+  floorPts: FloorPt[];
+  stems: Stem[];
+  trendM: Seg | null | false;
+  trendR: Seg | null | false;
+  show: (h: Hover) => void;
+  hide: () => void;
+}) {
+  const xScale = useXAxisScale();
+  const yScale = useYAxisScale();
+  if (!xScale || !yScale) return null;
+  const X = (v: number) => xScale(v) as number;
+  const Y = (v: number) => yScale(v) as number;
+  return (
+    <g className="lc-nightmarks">
+      {/* stems: the gap between an election's night share and its in-person floor */}
+      {stems.map((st) => (
+        <line
+          key={`stem-${st.x}`}
+          x1={X(st.x)}
+          x2={X(st.x)}
+          y1={Y(st.y0)}
+          y2={Y(st.y1)}
+          stroke="var(--color-faint)"
+          strokeWidth={1}
+          strokeDasharray="1 3"
+          opacity={0.6}
+        />
+      ))}
+      {/* floor diamonds: in-person turnout (a lower bound on the night count) */}
+      {floorPts.map((p) => {
+        const cx = X(p.x);
+        const cy = Y(p.y);
+        return (
+          <path
+            key={`floor-${p.date}`}
+            d={`M ${cx} ${cy - 4.5} L ${cx + 4.5} ${cy} L ${cx} ${cy + 4.5} L ${cx - 4.5} ${cy} Z`}
+            fill="var(--color-paper)"
+            fillOpacity={0.01}
+            stroke="var(--color-faint)"
+            strokeWidth={1.2}
+            opacity={0.75}
+            style={{ cursor: "pointer" }}
+            onMouseEnter={() =>
+              show({ kind: "floor", cx, cy, date: p.date, y: p.y })
+            }
+            onMouseLeave={hide}
+          />
+        );
+      })}
+      {/* dots: % counted on election night, colored by election kind */}
+      {pts.map((p) => {
+        const cx = X(p.x);
+        const cy = Y(p.y);
+        const c = KIND_COLOR[p.kind];
+        const common = {
+          onMouseEnter: () => show({ kind: "pt" as const, cx, cy, p }),
+          onMouseLeave: hide,
+          style: { cursor: "pointer" },
+        };
+        const dot = p.partial ? (
+          // mid-count partial: dim, dashed - a lower bound, not the night
+          <circle
+            cx={cx}
+            cy={cy}
+            r={6.5}
+            fill="var(--color-paper)"
+            stroke={c}
+            strokeWidth={1.5}
+            strokeDasharray="3 3"
+            opacity={0.35}
+            {...common}
+          />
+        ) : (
+          <circle cx={cx} cy={cy} r={6.5} fill={c} {...common} />
+        );
+        if (!FLIPS[p.id]) return <g key={p.id}>{dot}</g>;
+        // ring marks a race the election-night leader went on to lose
+        return (
+          <g key={p.id}>
+            <circle
+              cx={cx}
+              cy={cy}
+              r={11}
+              fill="none"
+              stroke="var(--color-gold)"
+              strokeWidth={2}
+            />
+            {dot}
+          </g>
+        );
+      })}
+      {/* trend dashes on top */}
+      {trendM && <TrendDash seg={trendM} X={X} Y={Y} />}
+      {trendR && <TrendDash seg={trendR} X={X} Y={Y} />}
+    </g>
+  );
+}
+
 export default function NightShareChart({
   elections,
   from,
@@ -112,10 +230,7 @@ export default function NightShareChart({
   to: number;
   kinds: Set<string>;
 }) {
-  const { hover, show, hide, hold, clear } = useGraceHover<
-    | { kind: "pt"; cx: number; cy: number; p: Pt }
-    | { kind: "floor"; cx: number; cy: number; date: string; y: number }
-  >();
+  const { hover, show, hide, hold, clear } = useGraceHover<Hover>();
   // a hovered shape that unmounts on filter change never fires onMouseLeave
   useEffect(() => clear(), [elections, from, to, clear]);
 
@@ -265,7 +380,10 @@ export default function NightShareChart({
             </PointTooltip>
           )}
           <ResponsiveContainer width="100%" height={360}>
-            <ComposedChart margin={{ top: 12, right: 20, bottom: 8, left: 0 }}>
+            <ComposedChart
+              data={pts}
+              margin={{ top: 12, right: 20, bottom: 8, left: 0 }}
+            >
               <CartesianGrid stroke="var(--color-rule)" strokeDasharray="2 4" />
               {/* shared vote-counting milestones, identical across all charts
                   (incl. the 1926 voting-machine break that stabilized the count) */}
@@ -290,79 +408,15 @@ export default function NightShareChart({
                 tickLine={false}
                 width={48}
               />
-              {stems.map((st) => (
-              <ReferenceLine
-                key={st.x}
-                segment={[
-                  { x: st.x, y: st.y0 },
-                  { x: st.x, y: st.y1 },
-                ]}
-                stroke="var(--color-faint)"
-                strokeWidth={1}
-                strokeDasharray="1 3"
-                opacity={0.6}
+              <NightMarks
+                pts={pts}
+                floorPts={floorPts}
+                stems={stems}
+                trendM={trendM}
+                trendR={trendR}
+                show={show}
+                hide={hide}
               />
-            ))}
-            <Scatter
-              data={floorPts}
-              isAnimationActive={false}
-              shape={(props: unknown) => {
-                const { cx, cy, payload } = props as {
-                  cx: number;
-                  cy: number;
-                  payload: { date: string; y: number };
-                };
-                return (
-                  <path
-                    d={`M ${cx} ${cy - 4.5} L ${cx + 4.5} ${cy} L ${cx} ${cy + 4.5} L ${cx - 4.5} ${cy} Z`}
-                    fill="var(--color-paper)"
-                    fillOpacity={0.01}
-                    stroke="var(--color-faint)"
-                    strokeWidth={1.2}
-                    opacity={0.75}
-                    style={{ cursor: "pointer" }}
-                    onMouseEnter={() =>
-                      show({ kind: "floor", cx, cy, date: payload.date, y: payload.y })
-                    }
-                    onMouseLeave={hide}
-                  />
-                );
-              }}
-            />
-            <Scatter
-                data={pts}
-                isAnimationActive={false}
-                shape={(props: unknown) => {
-                  const { cx, cy, payload } = props as {
-                    cx: number;
-                    cy: number;
-                    payload: Pt;
-                  };
-                  const c = KIND_COLOR[payload.kind];
-                  const common = {
-                    onMouseEnter: () => show({ kind: "pt" as const, cx, cy, p: payload }),
-                    onMouseLeave: hide,
-                    style: { cursor: "pointer" },
-                  };
-                  const dot = payload.partial ? (
-                    // mid-count partial: dim, dashed - a lower bound, not the night
-                    <circle cx={cx} cy={cy} r={6.5} fill="var(--color-paper)" stroke={c} strokeWidth={1.5} strokeDasharray="3 3" opacity={0.35} {...common} />
-                  ) : (
-                    <circle cx={cx} cy={cy} r={6.5} fill={c} {...common} />
-                  );
-                  if (!FLIPS[payload.id]) return dot;
-                  // ring marks a race the election-night leader went on to lose
-                  return (
-                    <g>
-                      <circle cx={cx} cy={cy} r={11} fill="none" stroke="var(--color-gold)" strokeWidth={2} />
-                      {dot}
-                    </g>
-                  );
-                }}
-              />
-              {/* trend lines at zIndex 700/710, above the Scatter (600) */}
-              {trendLines(trendM, "var(--color-ink)", "m")}
-              {trendLines(trendR, "var(--color-ink)", "r")}
             </ComposedChart>
           </ResponsiveContainer>
         </div>
