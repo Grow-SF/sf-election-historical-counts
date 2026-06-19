@@ -393,36 +393,16 @@ export default function TrajectoryExplorer({
 
   return (
     <div>
-      <div className="mb-4 flex flex-wrap items-center gap-1.5">
-        {elections.map((e) => {
-          const on = selected.has(e.id);
-          return (
-            <button
-              key={e.id}
-              onClick={() => toggleSelected(e.id)}
-              aria-pressed={on}
-              className="stat-figure border px-1.5 py-0.5 text-[11px] transition-colors"
-              style={{
-                borderColor: on ? KIND_COLOR[e.kind] : "var(--color-rule)",
-                background: on ? KIND_COLOR[e.kind] : "transparent",
-                color: on ? "var(--color-paper)" : "var(--color-ink)",
-              }}
-              title={`${e.name}${e.source === "archival" ? " (archival)" : ""}`}
-            >
-              {e.id.slice(0, 7)}
-              {e.source === "archival" ? "*" : ""}
-            </button>
-          );
-        })}
-        {selected.size > 0 && (
+      {selected.size > 0 && (
+        <div className="mb-4 flex flex-wrap items-center gap-1.5">
           <button
             onClick={clearSelected}
-            className="smallcaps ml-1 border border-rule px-1.5 py-0.5 text-[11px] text-faint transition-colors hover:border-rust hover:text-rust"
+            className="smallcaps border border-rule px-1.5 py-0.5 text-[11px] text-faint transition-colors hover:border-rust hover:text-rust"
           >
             clear {selected.size} ✕
           </button>
-        )}
-      </div>
+        </div>
+      )}
 
       <div className="grid gap-5 lg:grid-cols-[1fr_290px]">
         <div>
@@ -444,9 +424,8 @@ export default function TrajectoryExplorer({
                     {hi}.
                   </>
                 )}{" "}
-                Click date chips to highlight one or more elections for comparison;
-                dashed lines with markers are archival recoveries, and asterisks
-                mark archival elections.
+                Click a line to highlight one or more elections for comparison;
+                dashed lines with markers are archival recoveries.
               </>
             }
           >
