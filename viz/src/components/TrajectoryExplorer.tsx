@@ -1,13 +1,13 @@
 "use client";
-import { useMemo } from "react";
+import { useCallback, useMemo, useState } from "react";
 import {
   CartesianGrid,
   ComposedChart,
-  Line,
   ReferenceLine,
   ResponsiveContainer,
-  Tooltip,
   usePlotArea,
+  useXAxisScale,
+  useYAxisScale,
   XAxis,
   YAxis,
 } from "recharts";
@@ -15,6 +15,9 @@ import { Election, fmt, KIND_COLOR } from "@/lib/data";
 import { ChartFrame, DualRange } from "@/components/ui";
 
 const maxDay = (e: Election) => e.pts.reduce((m, [d]) => Math.max(m, d), 0);
+
+type DP = { d: number; p: number };
+type Hover = { name: string; d: number; p: number; cx: number; cy: number };
 
 /** ~6–8 evenly spaced, round day ticks spanning [lo, hi]. */
 function dayTicks(lo: number, hi: number): number[] {
@@ -145,6 +148,197 @@ function DetailPanel({ e }: { e: Election }) {
   );
 }
 
+/**
+ * Every trajectory drawn by hand in one SVG layer, positioned with the chart's
+ * scales. This deliberately avoids one recharts <Line> per election: recharts
+ * wraps each series in an animation layer keyed by an id that changes on every
+ * render, so every render unmounts and remounts all ~190 series (plus their
+ * dots) — which made the day-window slider and filters cost ~500ms. Drawn by
+ * hand the paths update in place (no remount). Clipped to the plot so paths past
+ * the day window don't overflow; selected lines are drawn last (on top).
+ */
+function TrajLines({
+  elections,
+  lineData,
+  selected,
+  // lo/hi aren't read directly (the scales handle positioning) but are passed
+  // so this re-renders when the day window changes the scale.
+  lo,
+  hi,
+}: {
+  elections: Election[];
+  lineData: Map<string, DP[]>;
+  selected: Set<string>;
+  lo: number;
+  hi: number;
+}) {
+  const xScale = useXAxisScale();
+  const yScale = useYAxisScale();
+  const plot = usePlotArea();
+  if (!xScale || !yScale || !plot) return null;
+  void lo;
+  void hi;
+  const X = (v: number) => xScale(v) as number;
+  const Y = (v: number) => yScale(v) as number;
+  const anySel = selected.size > 0;
+  // draw selected last so they sit on top of the faint background
+  const ordered = [...elections].sort(
+    (a, b) => Number(selected.has(a.id)) - Number(selected.has(b.id)),
+  );
+  const clipId = "traj-clip";
+  return (
+    <g className="lc-trajlines">
+      <defs>
+        <clipPath id={clipId}>
+          <rect x={plot.x} y={plot.y} width={plot.width} height={plot.height} />
+        </clipPath>
+      </defs>
+      <g clipPath={`url(#${clipId})`}>
+        {ordered.map((e) => {
+          const data = lineData.get(e.id);
+          if (!data || !data.length) return null;
+          const isSel = selected.has(e.id);
+          const muted = anySel && !isSel;
+          const color = isSel ? KIND_COLOR[e.kind] : "var(--color-ink)";
+          const d = data
+            .map((pt, i) => `${i ? "L" : "M"} ${X(pt.d).toFixed(1)} ${Y(pt.p).toFixed(1)}`)
+            .join(" ");
+          return (
+            <path
+              key={e.id}
+              d={d}
+              fill="none"
+              stroke={color}
+              strokeOpacity={isSel ? 1 : muted ? 0.1 : 0.32}
+              strokeWidth={isSel ? 2.5 : 1.2}
+              strokeDasharray={e.source === "archival" ? "5 4" : undefined}
+              strokeLinejoin="round"
+              strokeLinecap="round"
+            />
+          );
+        })}
+        {/* dots: archival recoveries (always) and selected elections */}
+        {ordered.map((e) => {
+          const isSel = selected.has(e.id);
+          if (!isSel && e.source !== "archival") return null;
+          const data = lineData.get(e.id);
+          if (!data) return null;
+          const color = isSel ? KIND_COLOR[e.kind] : "var(--color-ink)";
+          return data.map((pt, i) => (
+            <circle
+              key={`${e.id}-${i}`}
+              cx={X(pt.d)}
+              cy={Y(pt.p)}
+              r={isSel ? 3 : 2.5}
+              fill={color}
+              fillOpacity={isSel ? 1 : 0.45}
+            />
+          ));
+        })}
+      </g>
+    </g>
+  );
+}
+
+/**
+ * A transparent overlay over the plot that does nearest-point hit-testing on
+ * mousemove (recharts' <Tooltip> needs <Line> series, which we no longer have).
+ * Reports the nearest point to the parent for the tooltip + highlight, and
+ * selects the nearest election on click.
+ */
+function TrajHover({
+  elections,
+  lineData,
+  lo,
+  hi,
+  hover,
+  onHover,
+  onLeave,
+  onPick,
+}: {
+  elections: Election[];
+  lineData: Map<string, DP[]>;
+  lo: number;
+  hi: number;
+  hover: Hover | null;
+  onHover: (h: Hover & { id: string }) => void;
+  onLeave: () => void;
+  onPick: (id: string) => void;
+}) {
+  const xScale = useXAxisScale();
+  const yScale = useYAxisScale();
+  const plot = usePlotArea();
+  if (!xScale || !yScale || !plot) return null;
+  const X = (v: number) => xScale(v) as number;
+  const Y = (v: number) => yScale(v) as number;
+  const HIT = 30; // px proximity to count as "on" a line
+
+  const nearest = (
+    evt: React.MouseEvent<SVGRectElement>,
+  ): (Hover & { id: string }) | null => {
+    const svg = evt.currentTarget.ownerSVGElement;
+    const ctm = svg && svg.getScreenCTM();
+    if (!svg || !ctm) return null;
+    const pt = svg.createSVGPoint();
+    pt.x = evt.clientX;
+    pt.y = evt.clientY;
+    const loc = pt.matrixTransform(ctm.inverse());
+    let best: (Hover & { id: string }) | null = null;
+    let bestD2 = HIT * HIT;
+    for (const e of elections) {
+      const pts = lineData.get(e.id);
+      if (!pts) continue;
+      for (const p of pts) {
+        if (p.d < lo || p.d > hi) continue;
+        const cx = X(p.d);
+        const cy = Y(p.p);
+        const dx = cx - loc.x;
+        const dy = cy - loc.y;
+        const d2 = dx * dx + dy * dy;
+        if (d2 < bestD2) {
+          bestD2 = d2;
+          best = { id: e.id, name: e.id, d: p.d, p: p.p, cx, cy };
+        }
+      }
+    }
+    return best;
+  };
+
+  return (
+    <g>
+      <rect
+        x={plot.x}
+        y={plot.y}
+        width={plot.width}
+        height={plot.height}
+        fill="transparent"
+        style={{ cursor: "crosshair" }}
+        onMouseMove={(e) => {
+          const n = nearest(e);
+          if (n) onHover(n);
+          else onLeave();
+        }}
+        onMouseLeave={onLeave}
+        onClick={(e) => {
+          const n = nearest(e);
+          if (n) onPick(n.id);
+        }}
+      />
+      {hover && (
+        <circle
+          cx={hover.cx}
+          cy={hover.cy}
+          r={4}
+          fill="var(--color-rust)"
+          stroke="var(--color-paper)"
+          strokeWidth={1.5}
+          pointerEvents="none"
+        />
+      )}
+    </g>
+  );
+}
+
 export default function TrajectoryExplorer({
   elections,
   selected,
@@ -162,9 +356,12 @@ export default function TrajectoryExplorer({
   dayTo: number;
   setDayRange: (lo: number, hi: number) => void;
 }) {
+  const [hover, setHover] = useState<Hover | null>(null);
+  const clearHover = useCallback(() => setHover(null), []);
+
   const lineData = useMemo(
     () =>
-      new Map(
+      new Map<string, DP[]>(
         elections.map((e) => [e.id, e.pts.map(([d, p]) => ({ d, p }))]),
       ),
     [elections],
@@ -184,39 +381,28 @@ export default function TrajectoryExplorer({
     () => elections.filter((e) => selected.has(e.id)),
     [elections, selected],
   );
+  // recharts needs *some* data to lay out the axes now that there are no series;
+  // a 2-point anchor at the domain corners is enough (explicit domains win).
+  const anchor = useMemo(
+    () => [
+      { d: lo, p: 0 },
+      { d: hi, p: 102 },
+    ],
+    [lo, hi],
+  );
 
   return (
     <div>
-      <div className="mb-4 flex flex-wrap items-center gap-1.5">
-        {elections.map((e) => {
-          const on = selected.has(e.id);
-          return (
-            <button
-              key={e.id}
-              onClick={() => toggleSelected(e.id)}
-              aria-pressed={on}
-              className="stat-figure border px-1.5 py-0.5 text-[11px] transition-colors"
-              style={{
-                borderColor: on ? KIND_COLOR[e.kind] : "var(--color-rule)",
-                background: on ? KIND_COLOR[e.kind] : "transparent",
-                color: on ? "var(--color-paper)" : "var(--color-ink)",
-              }}
-              title={`${e.name}${e.source === "archival" ? " (archival)" : ""}`}
-            >
-              {e.id.slice(0, 7)}
-              {e.source === "archival" ? "*" : ""}
-            </button>
-          );
-        })}
-        {selected.size > 0 && (
+      {selected.size > 0 && (
+        <div className="mb-4 flex flex-wrap items-center gap-1.5">
           <button
             onClick={clearSelected}
-            className="smallcaps ml-1 border border-rule px-1.5 py-0.5 text-[11px] text-faint transition-colors hover:border-rust hover:text-rust"
+            className="smallcaps border border-rule px-1.5 py-0.5 text-[11px] text-faint transition-colors hover:border-rust hover:text-rust"
           >
             clear {selected.size} ✕
           </button>
-        )}
-      </div>
+        </div>
+      )}
 
       <div className="grid gap-5 lg:grid-cols-[1fr_290px]">
         <div>
@@ -238,96 +424,84 @@ export default function TrajectoryExplorer({
                     {hi}.
                   </>
                 )}{" "}
-                Click date chips to highlight one or more elections for comparison;
-                dashed lines with markers are archival recoveries, and asterisks
-                mark archival elections.
+                Click a line to highlight one or more elections for comparison;
+                dashed lines with markers are archival recoveries.
               </>
             }
           >
-            <ResponsiveContainer width="100%" height={420}>
-              <ComposedChart margin={{ top: 12, right: 24, bottom: 8, left: 0 }}>
-                <CartesianGrid stroke="var(--color-rule)" strokeDasharray="2 4" />
-                <XAxis
-                  type="number"
-                  dataKey="d"
-                  domain={[lo, hi]}
-                  allowDataOverflow
-                  ticks={dayTicks(lo, hi)}
-                  tick={{ fontFamily: "var(--font-mono)", fontSize: 11, fill: "var(--color-faint)" }}
-                  stroke="var(--color-faint)"
-                  tickLine={false}
-                  label={{
-                    value: "DAYS SINCE POLLS CLOSED",
-                    position: "insideBottom",
-                    offset: -4,
-                    style: { fontFamily: "var(--font-mono)", fontSize: 10, fill: "var(--color-faint)", letterSpacing: "0.1em" },
+            <div className="relative">
+              {hover && (
+                <div
+                  className="pointer-events-none absolute z-10 border border-ink bg-paper px-3 py-2 text-sm shadow"
+                  style={{
+                    left: hover.cx,
+                    top: hover.cy - 14,
+                    transform: "translate(-50%, -100%)",
+                    maxWidth: 220,
                   }}
-                />
-                <YAxis
-                  type="number"
-                  dataKey="p"
-                  domain={[0, 102]}
-                  ticks={[0, 25, 50, 75, 90, 100]}
-                  tickFormatter={(v: number) => `${v}%`}
-                  tick={{ fontFamily: "var(--font-mono)", fontSize: 11, fill: "var(--color-faint)" }}
-                  stroke="var(--color-faint)"
-                  tickLine={false}
-                  width={44}
-                />
-                <ReferenceLine
-                  y={90}
-                  stroke="var(--color-rust)"
-                  strokeWidth={1}
-                  label={{
-                    value: "90%",
-                    position: "right",
-                    style: { fontFamily: "var(--font-mono)", fontSize: 10, fill: "var(--color-rust)" },
-                  }}
-                />
-                <Tooltip
-                  isAnimationActive={false}
-                  content={({ active, payload }) => {
-                    if (!active || !payload?.length) return null;
-                    const p = payload[0];
-                    const d = p.payload as { d: number; p: number };
-                    return (
-                      <div className="border border-ink bg-paper px-3 py-2 text-sm shadow">
-                        <div className="font-semibold">{p.name}</div>
-                        <div className="stat-figure">
-                          day {d.d}: {d.p}% counted
-                        </div>
-                      </div>
-                    );
-                  }}
-                />
-                {elections.map((e) => {
-                  const isSel = selected.has(e.id);
-                  const muted = selected.size > 0 && !isSel;
-                  const color = isSel ? KIND_COLOR[e.kind] : "var(--color-ink)";
-                  return (
-                    <Line
-                      key={e.id}
-                      data={lineData.get(e.id)}
-                      dataKey="p"
-                      name={e.id}
-                      stroke={color}
-                      strokeOpacity={isSel ? 1 : muted ? 0.1 : 0.32}
-                      strokeWidth={isSel ? 2.5 : 1.2}
-                      strokeDasharray={e.source === "archival" ? "5 4" : undefined}
-                      dot={
-                        e.source === "archival" || isSel
-                          ? { r: isSel ? 3 : 2.5, fill: color, fillOpacity: isSel ? 1 : 0.45, strokeWidth: 0 }
-                          : false
-                      }
-                      isAnimationActive={false}
-                      onClick={() => toggleSelected(e.id)}
-                    />
-                  );
-                })}
-                <AxisBreak side="left" show={lo > 0} />
-                <AxisBreak side="right" show={beyond > 0} label={`${beyond} past ${hi}d →`} />
-              </ComposedChart>
-            </ResponsiveContainer>
+                >
+                  <div className="font-semibold">{hover.name}</div>
+                  <div className="stat-figure">
+                    day {hover.d}: {hover.p}% counted
+                  </div>
+                </div>
+              )}
+              <ResponsiveContainer width="100%" height={420}>
+                <ComposedChart data={anchor} margin={{ top: 12, right: 24, bottom: 8, left: 0 }}>
+                  <CartesianGrid stroke="var(--color-rule)" strokeDasharray="2 4" />
+                  <XAxis
+                    type="number"
+                    dataKey="d"
+                    domain={[lo, hi]}
+                    allowDataOverflow
+                    ticks={dayTicks(lo, hi)}
+                    tick={{ fontFamily: "var(--font-mono)", fontSize: 11, fill: "var(--color-faint)" }}
+                    stroke="var(--color-faint)"
+                    tickLine={false}
+                    label={{
+                      value: "DAYS SINCE POLLS CLOSED",
+                      position: "insideBottom",
+                      offset: -4,
+                      style: { fontFamily: "var(--font-mono)", fontSize: 10, fill: "var(--color-faint)", letterSpacing: "0.1em" },
+                    }}
+                  />
+                  <YAxis
+                    type="number"
+                    dataKey="p"
+                    domain={[0, 102]}
+                    ticks={[0, 25, 50, 75, 90, 100]}
+                    tickFormatter={(v: number) => `${v}%`}
+                    tick={{ fontFamily: "var(--font-mono)", fontSize: 11, fill: "var(--color-faint)" }}
+                    stroke="var(--color-faint)"
+                    tickLine={false}
+                    width={44}
+                  />
+                  <ReferenceLine
+                    y={90}
+                    stroke="var(--color-rust)"
+                    strokeWidth={1}
+                    label={{
+                      value: "90%",
+                      position: "right",
+                      style: { fontFamily: "var(--font-mono)", fontSize: 10, fill: "var(--color-rust)" },
+                    }}
+                  />
+                  <TrajLines elections={elections} lineData={lineData} selected={selected} lo={lo} hi={hi} />
+                  <TrajHover
+                    elections={elections}
+                    lineData={lineData}
+                    lo={lo}
+                    hi={hi}
+                    hover={hover}
+                    onHover={setHover}
+                    onLeave={clearHover}
+                    onPick={toggleSelected}
+                  />
+                  <AxisBreak side="left" show={lo > 0} />
+                  <AxisBreak side="right" show={beyond > 0} label={`${beyond} past ${hi}d →`} />
+                </ComposedChart>
+              </ResponsiveContainer>
+            </div>
           </ChartFrame>
         </div>
 
