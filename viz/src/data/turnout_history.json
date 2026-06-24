@@ -1129,9 +1129,9 @@
  },
  {
   "date": "2026-06-02",
-  "turnoutPct": 48.6,
+  "turnoutPct": 50.9,
   "registered": 533546,
-  "ballots": 259288,
+  "ballots": 271439,
   "source": "exact",
   "kind": "Primary"
  }
