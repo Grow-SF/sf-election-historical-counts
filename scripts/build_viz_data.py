@@ -18,6 +18,9 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent
 OUT = ROOT / "viz" / "src" / "data" / "elections.json"
 THRESHOLDS = [50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 98, 99]
+# Elections whose count is effectively complete (100% of precincts/tabulators
+# reported) and shown as final ahead of the 32-day provisional default.
+FORCE_FINAL = {"2026-06-02"}  # CA primary — 100% reporting as of the DOE's June 17 release
 
 KIND_RULES = [("Primary", "Primary"), ("Recall", "Recall"), ("Special", "Special"),
               ("Municipal", "Municipal"), ("General", "General")]
@@ -119,7 +122,7 @@ def main():
             "final": final,
             "registered": int(rs[0]["registered_voters"]),
             "source": "exact",
-            "provisional": (today - edate).days <= 32,
+            "provisional": (today - edate).days <= 32 and e not in FORCE_FINAL,
             "nReports": len(rows),
             "nightPct": pct(night, final) if night is not None else None,
             "vbmShare": pct(fin["vbm"], fin["total"]) if fin["vbm"] else None,

@@ -242,3 +242,4 @@ election_date,election_name,report_seq,snapshot,report_datetime,ballots_counted_
 2026-06-02,Consolidated Statewide Direct Primary Election,6,20260605,2026-06-05T15:57:15,176467,152198,24269,533546,era_c_xml,header,https://www.sfelections.org/results/20260602/data/20260605/summary.xml
 2026-06-02,Consolidated Statewide Direct Primary Election,7,20260608,2026-06-08T15:58:58,222980,198711,24269,533546,era_c_xml,header,https://www.sfelections.org/results/20260602/data/20260608/summary.xml
 2026-06-02,Consolidated Statewide Direct Primary Election,8,20260609,2026-06-09T15:58:14,259288,235019,24269,533546,era_c_xml,header,https://www.sfelections.org/results/20260602/data/20260609/summary.xml
+2026-06-02,Consolidated Statewide Direct Primary Election,9,20260617,2026-06-17T16:00:00,271439,240511,30928,533546,era_c_xml,header,https://www.sfelections.org/results/20260602/data/20260617/summary.xml
