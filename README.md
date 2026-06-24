@@ -113,8 +113,9 @@ during the canvass; after certification add the certified total to
 ## The visualization (`viz/`)
 
 A Next.js story site built entirely from the committed datasets: the
-election-night-share trend (with a 2002 structural break, the permanent
-vote-by-mail list), an any-margin "days until the winner is beyond doubt"
+election-night-share trend (a fitted line per voting era — fast-count,
+absentee, permanent vote-by-mail, slow-count), an any-margin "days until
+the winner is beyond doubt"
 explorer, the 1964–2026 mail-ballot share, and a per-canvass trajectory
 explorer. Filters are URL-encoded for sharing. Routes: `/` (story),
 `/sources` (every number, linked to its archive), `/missing` (open research
