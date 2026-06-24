@@ -261,6 +261,33 @@
     "citation": "per-release summary report, reported 2026-06-09T15:58:14 - https://www.sfelections.org/results/20260602/data/20260609/summary.xml (validated against certified totals)"
    },
    {
+    "date": "2026-06-10",
+    "days": 8,
+    "night": false,
+    "total": 264151,
+    "pct": 97.3,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, reported 2026-06-10T15:58:00 - https://www.sfelections.org/results/20260602/data/20260610/summary.xml (validated against certified totals)"
+   },
+   {
+    "date": "2026-06-11",
+    "days": 9,
+    "night": false,
+    "total": 269836,
+    "pct": 99.4,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, reported 2026-06-11T15:58:00 - https://www.sfelections.org/results/20260602/data/20260611/summary.xml (validated against certified totals)"
+   },
+   {
+    "date": "2026-06-12",
+    "days": 10,
+    "night": false,
+    "total": 271165,
+    "pct": 99.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, reported 2026-06-12T15:58:00 - https://www.sfelections.org/results/20260602/data/20260612/summary.xml (validated against certified totals)"
+   },
+   {
     "date": "2026-06-17",
     "days": 15,
     "night": false,
