@@ -16,8 +16,15 @@ export const DEFAULT_DAY_TO = 10;
 // at the turn of the century and users can drag earlier to see the 19th century.
 export const DEFAULT_FROM = Math.min(Math.max(1902, YEAR_MIN), YEAR_MAX);
 
+// Specials and recalls are hidden by default — off-cycle, lower-turnout
+// elections that scatter the long-run trend; users can switch them on in the
+// filter bar.
+export const DEFAULT_KINDS = KINDS.filter(
+  (k) => k !== "Special" && k !== "Recall",
+);
+
 export const DEFAULT_STATE: UrlState = {
-  kinds: new Set(KINDS),
+  kinds: new Set(DEFAULT_KINDS),
   from: DEFAULT_FROM,
   to: YEAR_MAX,
   selected: new Set(),
@@ -54,7 +61,10 @@ function parse(params: URLSearchParams): UrlState {
 /** The query portion only ("" or "a=b&c=d"), so it can be diffed against the URL. */
 function serializeQuery(s: UrlState): string {
   const p = new URLSearchParams();
-  if (s.kinds.size !== KINDS.length) p.set("kinds", [...s.kinds].join(","));
+  const kindsIsDefault =
+    s.kinds.size === DEFAULT_KINDS.length &&
+    DEFAULT_KINDS.every((k) => s.kinds.has(k));
+  if (!kindsIsDefault) p.set("kinds", [...s.kinds].join(","));
   if (s.from !== DEFAULT_FROM) p.set("from", String(s.from));
   if (s.to !== YEAR_MAX) p.set("to", String(s.to));
   if (s.selected.size) p.set("sel", [...s.selected].join(","));
