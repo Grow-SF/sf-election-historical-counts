@@ -14,6 +14,16 @@ import { ChartFrame, PointTooltip, eventLines, useGraceHover } from "@/component
 
 type Seg = { x: number; y: number }[];
 
+// One trend line per voting era. The hand-count era (before 1926) is too
+// erratic for a meaningful trend, so it's omitted; the four trended eras begin
+// at the structural breaks the chart marks with dashed verticals.
+const ERA_TRENDS: { lo: number; hi: number; label: string }[] = [
+  { lo: 1926, hi: 1978, label: "fast-count" },
+  { lo: 1978, hi: 2002, label: "absentee" },
+  { lo: 2002, hi: 2020, label: "permanent VBM" },
+  { lo: 2020, hi: Infinity, label: "slow-count" },
+];
+
 // All data marks (stems, floor diamonds, dots, trend dashes) are drawn by hand
 // in one SVG layer — see NightMarks below for why and the draw order.
 
@@ -115,16 +125,14 @@ function NightMarks({
   pts,
   floorPts,
   stems,
-  trendM,
-  trendR,
+  trends,
   show,
   hide,
 }: {
   pts: Pt[];
   floorPts: FloorPt[];
   stems: Stem[];
-  trendM: Seg | null | false;
-  trendR: Seg | null | false;
+  trends: Seg[];
   show: (h: Hover) => void;
   hide: () => void;
 }) {
@@ -212,9 +220,10 @@ function NightMarks({
           </g>
         );
       })}
-      {/* trend dashes on top */}
-      {trendM && <TrendDash seg={trendM} X={X} Y={Y} />}
-      {trendR && <TrendDash seg={trendR} X={X} Y={Y} />}
+      {/* one trend dash per voting era, on top */}
+      {trends.map((t, i) => (
+        <TrendDash key={i} seg={t} X={X} Y={Y} />
+      ))}
     </g>
   );
 }
@@ -234,7 +243,7 @@ export default function NightShareChart({
   // a hovered shape that unmounts on filter change never fires onMouseLeave
   useEffect(() => clear(), [elections, from, to, clear]);
 
-  const { pts, fitE, fitM, fitR } = useMemo(() => {
+  const { pts, eraFits } = useMemo(() => {
     const pts: Pt[] = elections
       .filter((e) => e.nightPct !== null && !e.provisional)
       .map((e) => ({
@@ -247,19 +256,17 @@ export default function NightShareChart({
         partial: Boolean(e.nightPartial),
         src: e.nightSrc || null,
       }));
-    // mid-count partials understate the night - keep them out of the fit.
-    // Three regimes, two structural breaks:
-    //  - ~1927: the Progressive-era long-ballot bottleneck eases and election
-    //    night becomes reliably near-complete again (still hand-counted paper -
-    //    SF had no voting machines until punch cards in the 1960s).
-    //  - 2002: California opens the permanent vote-by-mail list to every voter,
-    //    starting the modern slide (a Chow test favors a 2002 break over any
-    //    other in the modern record).
+    // mid-count partials understate the night - keep them out of every fit.
     const solid = pts.filter((p) => !p.partial);
-    const fitE: Fit | null = linearFit(solid.filter((p) => p.x < 1927).map((p) => [p.x, p.y]));
-    const fitM: Fit | null = linearFit(solid.filter((p) => p.x >= 1927 && p.x < 2002).map((p) => [p.x, p.y]));
-    const fitR: Fit | null = linearFit(solid.filter((p) => p.x >= 2002).map((p) => [p.x, p.y]));
-    return { pts, fitE, fitM, fitR };
+    // one linear fit per voting era; the pre-1926 hand-count era is excluded
+    // (erratic, not a trend). Breaks: 1926 lever machines, 1978 expanded
+    // absentee, 2002 permanent vote-by-mail, 2020 COVID.
+    const eraFits: (Fit | null)[] = ERA_TRENDS.map(({ lo, hi }) =>
+      linearFit(
+        solid.filter((p) => p.x >= lo && p.x < hi).map((p) => [p.x, p.y]),
+      ),
+    );
+    return { pts, eraFits };
   }, [elections]);
 
   const floorPts = useMemo(
@@ -285,22 +292,27 @@ export default function NightShareChart({
       { x: f.x0, y: f.intercept + f.slope * f.x0 },
       { x: f.x1, y: f.intercept + f.slope * f.x1 },
     ];
-  const trendM = seg(fitM);
-  const trendR = seg(fitR);
+  const trends = eraFits.map(seg).filter(Boolean) as Seg[];
 
   return (
     <div>
-      {fitM && fitR && (
+      {eraFits.some(Boolean) && (
         <p className="smallcaps mb-2 text-faint">
-          {fitE && (
-            <>
-              <span className="text-moss">erratic before ~1927</span> (the
-              long-ballot era) ·{" "}
-            </>
-          )}
-          {fitM.slope.toFixed(2)} pts/yr 1927–2001 ·{" "}
-          <span className="text-rust">{fitR.slope.toFixed(2)} pts/yr since 2002</span>{" "}
-          — counts stabilize ~1927, then the vote-by-mail break in 2002
+          election-night share, pts/yr by era ·{" "}
+          {ERA_TRENDS.map(({ label }, i) => {
+            const f = eraFits[i];
+            if (!f) return null;
+            return (
+              <span key={label}>
+                {label}{" "}
+                <span className={f.slope < 0 ? "text-rust" : "text-ink"}>
+                  {f.slope >= 0 ? "+" : ""}
+                  {f.slope.toFixed(2)}
+                </span>
+                {i < ERA_TRENDS.length - 1 ? " · " : ""}
+              </span>
+            );
+          })}
         </p>
       )}
       <ChartFrame
@@ -412,8 +424,7 @@ export default function NightShareChart({
                 pts={pts}
                 floorPts={floorPts}
                 stems={stems}
-                trendM={trendM}
-                trendR={trendR}
+                trends={trends}
                 show={show}
                 hide={hide}
               />
