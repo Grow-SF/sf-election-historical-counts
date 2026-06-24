@@ -12,6 +12,9 @@ export function eventLines(
   min: number,
   max: number,
   events: { year: number; label: string }[] = EVENTS,
+  // distance of the label above the plot; pass a larger value for a second set
+  // of lines so the two label rows don't collide (default matches recharts).
+  labelOffset = 5,
 ) {
   return events.filter((e) => e.year >= min && e.year <= max).map((e) => (
     <ReferenceLine
@@ -22,6 +25,7 @@ export function eventLines(
       label={{
         value: e.label,
         position: "top",
+        offset: labelOffset,
         fontSize: 9,
         fill: "var(--color-faint)",
       }}

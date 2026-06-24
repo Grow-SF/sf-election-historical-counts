@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 import {
   Area,
   AreaChart,
@@ -9,7 +10,13 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { FRANCHISE_FUNNEL, FRANCHISE_EVENTS, fmt, yearTicks } from "@/lib/data";
+import {
+  FRANCHISE_FUNNEL,
+  FRANCHISE_EVENTS,
+  EVENTS,
+  fmt,
+  yearTicks,
+} from "@/lib/data";
 import { ChartFrame, eventLines } from "@/components/ui";
 
 // Mutually-exclusive bands that sum to total population, bottom (voted) to top
@@ -22,7 +29,11 @@ const BANDS = [
   { key: "voted", label: "voted", color: "#1E7B6A" }, // brand-green-4
   { key: "regNotVoted", label: "registered, didn't vote", color: "#DF7E45" }, // earth-40
   { key: "notRegistered", label: "eligible, not registered", color: "#BCE3B6" }, // green-30
-  { key: "nonCitizen", label: "non-citizen adults (immigrants)", color: "#4BADE4" }, // brand-blue-3 (softer than blue-6)
+  {
+    key: "nonCitizen",
+    label: "non-citizen adults (immigrants)",
+    color: "#4BADE4", // brand-blue-3 (softer than blue-6, still clearly the "blue band")
+  },
   { key: "children", label: "under voting age", color: "#D2DBDC" }, // gray-2
 ] as const;
 
@@ -63,10 +74,18 @@ function FunnelTooltip({
   return (
     <div className="border border-ink bg-paper px-3 py-2 text-sm shadow">
       <div className="font-semibold">{p.year}</div>
-      <div className="stat-figure text-faint">population {fmt(p.population)}</div>
-      <div className="stat-figure mt-1">eligible citizens {fmt(p.eligible)}</div>
-      <div className="stat-figure">registered {fmt(p.registered)} · {pct(p.registered)} of eligible</div>
-      <div className="stat-figure">voted {fmt(p.voted)} · {pct(p.voted)} of eligible</div>
+      <div className="stat-figure text-faint">
+        population {fmt(p.population)}
+      </div>
+      <div className="stat-figure mt-1">
+        eligible citizens {fmt(p.eligible)}
+      </div>
+      <div className="stat-figure">
+        registered {fmt(p.registered)} · {pct(p.registered)} of eligible
+      </div>
+      <div className="stat-figure">
+        voted {fmt(p.voted)} · {pct(p.voted)} of eligible
+      </div>
       <div className="stat-figure text-faint mt-1">
         non-citizen adults {fmt(p.nonCitizen)}
       </div>
@@ -74,19 +93,75 @@ function FunnelTooltip({
   );
 }
 
-export default function FranchiseFunnelChart({ from, to }: { from: number; to: number }) {
+export default function FranchiseFunnelChart({
+  from,
+  to,
+}: {
+  from: number;
+  to: number;
+}) {
+  // "counts" stacks the absolute bands (height grows with population); "share"
+  // normalizes the stack to 100% so each band reads as a fraction of the total.
+  const [mode, setMode] = useState<"counts" | "share">("counts");
+  // in % mode, optionally restrict to the eligible-citizen bands (dropping
+  // children and non-citizen adults) so they renormalize to 100% of the
+  // eligible population
+  const [eligibleOnly, setEligibleOnly] = useState(false);
   const data = DATA.filter((r) => r.year >= from && r.year <= to);
   const ys = data.map((r) => r.year);
   const lo = ys.length ? Math.min(...ys) : from;
   const hi = ys.length ? Math.max(...ys) : to;
+  const shownBands =
+    mode === "share" && eligibleOnly
+      ? BANDS.filter((b) => b.key !== "children" && b.key !== "nonCitizen")
+      : BANDS;
   return (
     <ChartFrame
       title="Who could vote — and who did"
       subtitle="San Francisco by presidential election, 1908–2024"
-      note="Bands are shares of total population and sum to it; the blue band is non-citizen adults. The shaded 1990s “deadwood” box marks the years when bloated registration rolls pushed registration up to (or past) the eligible estimate — so the “eligible, not registered” band nearly disappears — until the 1995 motor-voter law forced the cleanup. Sources: IPUMS NHGIS census (population, voting-age, citizenship); SoS and Dept. of Elections."
+      note="Bands are the five groups that make up the total population; the blue band is non-citizen adults. Switch to “% of population” to read each band as a share of the whole — the chart fills to 100% so the proportions stay comparable as the city grows. The shaded 1990s “deadwood” box marks the years when bloated registration rolls pushed registration up to (or past) the eligible estimate — so the “eligible, not registered” band nearly disappears — until the 1995 motor-voter law forced the cleanup. Sources: IPUMS NHGIS census (population, voting-age, citizenship); SoS and Dept. of Elections."
     >
+      <div className="smallcaps mb-2 flex items-center gap-1.5 text-faint">
+        <span className="mr-1">show</span>
+        {(
+          [
+            ["counts", "counts"],
+            ["share", "% of population"],
+          ] as const
+        ).map(([m, label]) => (
+          <button
+            key={m}
+            onClick={() => setMode(m)}
+            aria-pressed={mode === m}
+            className="smallcaps border px-2 py-0.5"
+            style={{
+              borderColor:
+                mode === m ? "var(--color-ink)" : "var(--color-rule)",
+              background: mode === m ? "var(--color-ink)" : "transparent",
+              color: mode === m ? "var(--color-paper)" : "var(--color-faint)",
+            }}
+          >
+            {label}
+          </button>
+        ))}
+        {mode === "share" && (
+          <label className="ml-3 flex cursor-pointer items-center gap-1.5">
+            <input
+              type="checkbox"
+              checked={eligibleOnly}
+              onChange={(e) => setEligibleOnly(e.target.checked)}
+              style={{ accentColor: "var(--color-ink)" }}
+            />
+            eligible citizens only
+          </label>
+        )}
+      </div>
       <ResponsiveContainer width="100%" height={440}>
-        <AreaChart data={data} margin={{ top: 24, right: 20, bottom: 8, left: 8 }}>
+        <AreaChart
+          data={data}
+          stackOffset={mode === "share" ? "expand" : "none"}
+          margin={{ top: 40, right: 20, bottom: 8, left: 8 }}
+        >
           <CartesianGrid stroke="var(--color-rule)" strokeDasharray="2 4" />
           <XAxis
             dataKey="year"
@@ -94,20 +169,39 @@ export default function FranchiseFunnelChart({ from, to }: { from: number; to: n
             domain={[lo - 2, hi + 2]}
             ticks={yearTicks(lo, hi)}
             tickFormatter={(v: number) => String(v)}
-            tick={{ fontFamily: "var(--font-mono)", fontSize: 11, fill: "var(--color-faint)" }}
+            tick={{
+              fontFamily: "var(--font-mono)",
+              fontSize: 11,
+              fill: "var(--color-faint)",
+            }}
             stroke="var(--color-faint)"
             tickLine={false}
           />
           <YAxis
-            tickFormatter={(v: number) => `${Math.round(v / 1000)}k`}
-            tick={{ fontFamily: "var(--font-mono)", fontSize: 11, fill: "var(--color-faint)" }}
+            ticks={mode === "share" ? [0, 0.25, 0.5, 0.75, 1] : undefined}
+            tickFormatter={
+              mode === "share"
+                ? (v: number) => `${Math.round(v * 100)}%`
+                : (v: number) =>
+                    v >= 1_000_000
+                      ? `${+(v / 1_000_000).toFixed(1)}M`
+                      : `${Math.round(v / 1000)}k`
+            }
+            tick={{
+              fontFamily: "var(--font-mono)",
+              fontSize: 11,
+              fill: "var(--color-faint)",
+            }}
             stroke="var(--color-faint)"
             tickLine={false}
             width={44}
           />
           <Tooltip content={<FunnelTooltip />} isAnimationActive={false} />
-          {eventLines(lo, hi, FRANCHISE_EVENTS)}
-          {BANDS.map((b) => (
+          {/* voting-era boundaries on the lower label row, franchise milestones
+              on a higher row so the two label sets don't collide */}
+          {eventLines(lo, hi, EVENTS)}
+          {eventLines(lo, hi, FRANCHISE_EVENTS, 20)}
+          {shownBands.map((b) => (
             <Area
               key={b.key}
               dataKey={b.key}
@@ -143,9 +237,15 @@ export default function FranchiseFunnelChart({ from, to }: { from: number; to: n
         </AreaChart>
       </ResponsiveContainer>
       <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
-        {[...BANDS].reverse().map((b) => (
-          <span key={b.key} className="smallcaps inline-flex items-center gap-1.5 text-faint">
-            <span className="inline-block h-2 w-3" style={{ backgroundColor: b.color }} />
+        {[...shownBands].reverse().map((b) => (
+          <span
+            key={b.key}
+            className="smallcaps inline-flex items-center gap-1.5 text-faint"
+          >
+            <span
+              className="inline-block h-2 w-3"
+              style={{ backgroundColor: b.color }}
+            />
             {b.label}
           </span>
         ))}
