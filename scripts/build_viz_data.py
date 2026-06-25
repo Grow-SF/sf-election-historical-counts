@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Bake the visualization dataset for viz/ from the three committed CSVs.
+"""Bake the visualization dataset for packages/data/ from the three committed CSVs.
 
 Output: packages/data/elections.json — one record per election with:
 - per-release trajectory points (days since 8 PM election night, % of final)

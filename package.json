@@ -8,17 +8,22 @@
     "./charts": "./packages/charts/src/index.ts",
     "./charts.css": "./packages/charts/src/charts.css"
   },
-  "peerDependencies": { "react": ">=18", "react-dom": ">=18", "recharts": ">=3" },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "recharts": ">=3"
+  },
   "devDependencies": {
-    "typescript": "^5.5.0",
-    "vitest": "^2.0.0",
-    "jsdom": "^24.0.0",
-    "@testing-library/react": "^16.0.0",
     "@testing-library/jest-dom": "^6.4.0",
+    "@testing-library/react": "^16.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "jsdom": "^24.0.0",
+    "puppeteer-core": "^25.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "recharts": "^3.7.0",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0"
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
   }
 }

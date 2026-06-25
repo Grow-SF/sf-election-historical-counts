@@ -61,9 +61,10 @@ thin at mid-century, widening again after 1965.
 ![Who could vote, and who did — San Francisco's electorate as bands of the whole population, 1908–2024](docs/img/franchise-funnel.png)
 
 *Static snapshots — explore all of it interactively, filtered and zoomable, in
-the site under [`viz/`](viz/). (Regenerate these images with
-`node scripts/shoot_charts.cjs` against the running charts preview harness —
-`pnpm --filter @long-count/preview exec vite`.)*
+the published story on [GrowSF](https://growsf.org), or run the charts locally
+with the preview harness (`pnpm install && pnpm --filter @long-count/preview
+exec vite`). (Regenerate these images with `node scripts/shoot_charts.cjs`
+against the running preview harness.)*
 
 ---
 
@@ -73,8 +74,8 @@ the site under [`viz/`](viz/). (Regenerate these images with
 |---|---|
 | `sfcount/` | Python pipeline: ingests DOE per-release reports (2015–present) |
 | `data/` | All committed datasets (CSV) — the source of truth |
-| `viz/` | Next.js story site, "The Long Count" (builds from `data/`) |
-| `scripts/` | `build_viz_data.py` (data → viz JSON) + `archive-recovery/` tooling |
+| `packages/` | `data/` (committed JSON, baked from `data/`) + `charts/` (the reusable React charts the GrowSF site embeds) |
+| `scripts/` | `build_viz_data.py` (data → `packages/data` JSON) + `archive-recovery/` tooling |
 | `docs/` | Methodology, runbook, search log, the records-request draft |
 | `mirror/` | **gitignored** — licensed NewsBank/Chronicle source content (cited, never republished) |
 | `sf-long-count-archive/` | read-only predecessor (PDF-parsing); kept for reconciliation |
@@ -111,20 +112,25 @@ After a new election: add it to `SUPPLEMENTAL_ELECTIONS` in
 during the canvass; after certification add the certified total to
 `CERTIFIED_FINALS` in `sfcount/validate.py` and commit `data/`.
 
-## The visualization (`viz/`)
+## The charts (`packages/charts`)
 
-A Next.js story site built entirely from the committed datasets: the
+A reusable React charts package built entirely from the committed datasets —
+the same charts the [GrowSF](https://growsf.org) story embeds: the
 election-night-share trend (a fitted line per voting era — fast-count,
 absentee, permanent vote-by-mail, slow-count), an any-margin "days until
-the winner is beyond doubt"
-explorer, the 1964–2026 mail-ballot share, and a per-canvass trajectory
-explorer. Filters are URL-encoded for sharing. Routes: `/` (story),
-[`docs/sources.md`](docs/sources.md) (every number, linked to its archive),
-[`docs/missing.md`](docs/missing.md) (open research list + how to contribute),
-`/methods` (the public search log).
+the winner is beyond doubt" explorer, the 1964–2026 mail-ballot share, and a
+per-canvass trajectory explorer. The website consumes it as a pinned git
+dependency; the charts read from `packages/data` (committed JSON, baked from
+`data/` by `scripts/build_viz_data.py`).
 
-    python3 scripts/build_viz_data.py   # rebake viz JSON after the pipeline runs
-    cd viz && npm install && npm run dev
+For local development and preview, run the harness; the underlying records are
+documented in the repo: the search log in
+[`docs/analysis/public-search-log.md`](docs/analysis/public-search-log.md),
+every number linked to its archive in [`docs/sources.md`](docs/sources.md), and
+the open research list in [`docs/missing.md`](docs/missing.md).
+
+    python3 scripts/build_viz_data.py            # rebake packages/data JSON after the pipeline runs
+    pnpm install && pnpm --filter @long-count/preview exec vite   # local charts preview (:4317)
 
 ## Archive recovery (the historical data)
 
@@ -138,7 +144,7 @@ apparent "contradiction" is usually a bad denominator, not a misread).
 Supporting docs:
 - `docs/analysis/newsbank-agent-playbook.md` — capture + reader-agent rules.
 - `docs/analysis/public-search-log.md` — what's already been searched (so you
-  don't redo it); also served at the site's `/methods`.
+  don't redo it).
 - `docs/denominator-errors.md` — DOE turnout figures contradicted by the
   count, for manual verification.
 - `docs/doe-records-request.md` — drafted public-records request for the

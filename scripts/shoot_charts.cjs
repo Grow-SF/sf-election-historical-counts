@@ -1,7 +1,7 @@
 // Render static PNGs of the site's charts for the README, via headless Chrome.
 // Prereqs: the charts preview harness running (`pnpm --filter @long-count/preview exec vite`, :4317) and
-// puppeteer-core (in viz/node_modules — run with NODE_PATH=viz/node_modules).
-// Usage:  NODE_PATH=viz/node_modules node scripts/shoot_charts.cjs
+// puppeteer-core (a root devDependency — `pnpm install` makes it resolvable from the repo root).
+// Usage:  node scripts/shoot_charts.cjs
 // Chrome path: set PUPPETEER_EXECUTABLE_PATH, else the macOS default below.
 const puppeteer = require("puppeteer-core");
 
