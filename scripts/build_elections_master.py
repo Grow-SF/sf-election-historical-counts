@@ -11,7 +11,7 @@ record"):
   P2B 1856–1907  — SF municipal/charter/special: Daily Alta (CDNC) + SF Municipal
                    Reports Registrar tables + Wikipedia mayoral pages + FoundSF.
 
-The `recovered` column is computed against viz/src/data/elections.json so it never
+The `recovered` column is computed against packages/data/elections.json so it never
 drifts from the dataset.
 """
 import csv
@@ -188,7 +188,7 @@ for d, k, what, conf in P2B:
     add(d, k, what, "municipal", conf, "Municipal Reports/CDNC/Wikipedia")
 
 # --- recovered? cross-reference the live dataset --------------------------------
-el = json.loads((ROOT / "viz" / "src" / "data" / "elections.json").read_text())
+el = json.loads((ROOT / "packages" / "data" / "elections.json").read_text())
 night = {e["id"]: e.get("nightPct") for e in el}
 def recovered(date):
     if date not in night:

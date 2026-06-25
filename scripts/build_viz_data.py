@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Bake the visualization dataset for viz/ from the three committed CSVs.
 
-Output: viz/src/data/elections.json — one record per election with:
+Output: packages/data/elections.json — one record per election with:
 - per-release trajectory points (days since 8 PM election night, % of final)
 - days-to-threshold for thresholds 50..99 (exact for modern data; for
   archival elections a value is only emitted when a capture brackets it,
@@ -16,7 +16,7 @@ import urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
-OUT = ROOT / "viz" / "src" / "data" / "elections.json"
+OUT = ROOT / "packages" / "data" / "elections.json"
 THRESHOLDS = [50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 98, 99]
 # Elections whose count is effectively complete (100% of precincts/tabulators
 # reported) and shown as final ahead of the 32-day provisional default.
