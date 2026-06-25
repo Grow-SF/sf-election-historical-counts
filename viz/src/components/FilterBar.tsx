@@ -1,6 +1,5 @@
 "use client";
-import { useState } from "react";
-import { KIND_COLOR, KINDS, YEAR_MAX, YEAR_MIN } from "@/lib/data";
+import { KIND_COLOR, KIND_DESC, KINDS, YEAR_MAX, YEAR_MIN } from "@/lib/data";
 import { UrlState } from "@/lib/useUrlState";
 import { DualRange } from "@/components/ui";
 
@@ -11,8 +10,6 @@ export default function FilterBar({
   state: UrlState;
   update: (patch: Partial<UrlState>) => void;
 }) {
-  const [copied, setCopied] = useState(false);
-
   const toggleKind = (k: string) => {
     const next = new Set(state.kinds);
     if (next.has(k)) {
@@ -23,16 +20,6 @@ export default function FilterBar({
     update({ kinds: next });
   };
 
-  const share = async () => {
-    try {
-      await navigator.clipboard.writeText(window.location.href);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 1600);
-    } catch {
-      /* clipboard unavailable; the URL bar already has the state */
-    }
-  };
-
   return (
     <div className="sticky top-0 z-20 border-b border-rule bg-paper/95 backdrop-blur-sm">
       <div className="mx-auto flex max-w-5xl flex-wrap items-center gap-x-5 gap-y-2 px-5 py-2.5">
@@ -41,19 +28,29 @@ export default function FilterBar({
           {KINDS.map((k) => {
             const on = state.kinds.has(k);
             return (
-              <button
-                key={k}
-                onClick={() => toggleKind(k)}
-                aria-pressed={on}
-                className="smallcaps border px-2 py-1 transition-colors"
-                style={{
-                  borderColor: on ? KIND_COLOR[k] : "var(--color-rule)",
-                  background: on ? KIND_COLOR[k] : "transparent",
-                  color: on ? "var(--color-paper)" : "var(--color-faint)",
-                }}
-              >
-                {k}
-              </button>
+              <div key={k} className="group relative">
+                <button
+                  onClick={() => toggleKind(k)}
+                  aria-pressed={on}
+                  aria-describedby={`kind-tip-${k}`}
+                  className="smallcaps border px-2 py-1 transition-colors"
+                  style={{
+                    borderColor: on ? KIND_COLOR[k] : "var(--color-rule)",
+                    background: on ? KIND_COLOR[k] : "transparent",
+                    color: on ? "var(--color-paper)" : "var(--color-faint)",
+                  }}
+                >
+                  {k}
+                </button>
+                {/* styled tooltip describing the election type, on hover or keyboard focus */}
+                <span
+                  id={`kind-tip-${k}`}
+                  role="tooltip"
+                  className="pointer-events-none absolute left-1/2 top-full z-30 mt-1.5 hidden w-56 -translate-x-1/2 whitespace-normal border border-ink bg-paper px-2.5 py-1.5 text-xs normal-case leading-snug text-ink shadow group-hover:block group-focus-within:block"
+                >
+                  {KIND_DESC[k]}
+                </span>
+              </div>
             );
           })}
         </div>
@@ -72,7 +69,6 @@ export default function FilterBar({
           />
           <span className="stat-figure text-xs text-ink">{state.to}</span>
         </label>
-
 
         <div className="ml-auto flex flex-wrap items-center gap-2">
           <a
@@ -93,12 +89,6 @@ export default function FilterBar({
           >
             help wanted
           </a>
-          <button
-            onClick={share}
-            className="smallcaps border border-ink px-2.5 py-1 text-ink transition-colors hover:bg-ink hover:text-paper"
-          >
-            {copied ? "link copied ✓" : "share this view"}
-          </button>
         </div>
       </div>
     </div>

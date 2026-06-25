@@ -9,7 +9,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { Election, Fit, KIND_COLOR, linearFit, NIGHT_FLOOR, yearFrac } from "@/lib/data";
+import { Election, Fit, KIND_COLOR, displayKind, linearFit, NIGHT_FLOOR, yearFrac } from "@/lib/data";
 import { ChartFrame, PointTooltip, eventLines, useGraceHover } from "@/components/ui";
 
 type Seg = { x: number; y: number }[];
@@ -251,7 +251,7 @@ export default function NightShareChart({
         y: e.nightPct as number,
         id: e.id,
         name: e.name,
-        kind: e.kind,
+        kind: displayKind(e.kind, e.year),
         source: e.source,
         partial: Boolean(e.nightPartial),
         src: e.nightSrc || null,
@@ -273,7 +273,7 @@ export default function NightShareChart({
     () =>
       NIGHT_FLOOR.filter((p) => {
         const y = Number(p.date.slice(0, 4));
-        return y >= from && y <= to && kinds.has(p.kind);
+        return y >= from && y <= to && kinds.has(displayKind(p.kind, y));
       }).map((p) => ({ x: yearFrac(p.date), y: p.floorPct, date: p.date })),
     [from, to, kinds],
   );

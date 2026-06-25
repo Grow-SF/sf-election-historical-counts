@@ -125,8 +125,12 @@ function Footer() {
 function CountingMethodsNote() {
   const rows: [string, React.ReactNode][] = [
     [
-      "until the 1960s",
-      "Hand-counted paper ballots, tallied by clerks precinct by precinct.",
+      "until 1926",
+      "Hand-counted paper ballots, tallied by clerks precinct by precinct, late into the night.",
+    ],
+    [
+      "1926–1960s",
+      "Mechanical lever voting machines — adopted in 1923 (upheld in Ashe v. Zemansky), citywide by 1926. Each machine tallied votes at the precinct, so totals were read off the counters at the close of polls.",
     ],
     [
       "1960s–1990s",
@@ -134,11 +138,11 @@ function CountingMethodsNote() {
     ],
     [
       "2000s",
-      "Punch cards were decertified after the 2000 Florida recount; the city moved to optical-scan paper ballots, and to ranked-choice tabulation in 2004.",
+      "Punch cards were decertified after the 2000 Florida recount; the city moved to optical-scan paper ballots, and to ranked-choice tabulation in 2004. Mail ballots counted via optical-scan at the central office after manual signature verification.",
     ],
     [
       "today",
-      "Optical-scan paper everywhere: precinct scanners on election day, and high-speed central scanners for the mail ballots — each read only after its signature is verified.",
+      "Optical-scan paper everywhere: precinct scanners on election day, and high-speed central scanners for the mail ballots — each read only after its signature is verified. Mail ballots still counted via optical-scan at the central office after manual signature verification.",
     ],
   ];
   return (
@@ -153,7 +157,7 @@ function CountingMethodsNote() {
         ))}
       </dl>
       <p className="mt-3 border-t border-rule pt-2 text-xs italic text-faint">
-        Tabulation changed three times; the finish line never moved. What
+        Tabulation changed again and again; the finish line never moved. What
         stretched the count isn’t machine speed — it’s the shift to mail, and
         the signature and eligibility checks every mailed ballot needs.
       </p>
@@ -186,11 +190,11 @@ export default function Story() {
               itself the bottleneck; 1916, the closest presidential race in state
               history, left “virtually none of San Francisco’s vote” in hand by
               press time, and in 1918 the first precinct didn’t reach the
-              Registrar until after midnight. <em>1928–1990s</em>: the night comes
-              back — 99% complete in 1952, then 80–95% for sixty years (still
-              hand-counted paper; San Francisco had no voting machines until 1960s
-              punch cards, and precincts grew only with the electorate, so the
-              fix wasn’t mechanization). <em>Since ~2002</em>: the permanent vote-by-mail
+              Registrar until after midnight. <em>1926–1990s</em>: the night comes
+              back — mechanical lever voting machines, citywide by 1926, tallied
+              each precinct’s votes as they were cast, so the count ran 99%
+              complete in 1952 and 80–95% for sixty years. Mechanization was the
+              fix. <em>Since ~2002</em>: the permanent vote-by-mail
               list, then a pandemic, move the vote off election day, and the night
               slides back toward half.
             </p>
@@ -274,7 +278,7 @@ export default function Story() {
               obvious question: did it bring more people to the polls? Among
               voters already on the rolls, the answer is mostly no. Turnout
               swings with what’s on the ballot — presidential generals draw
-              80%, off-year municipals barely 40% — and the all-mail era to
+              80%, off-year locals barely 40% — and the all-mail era to
               the right of the milestone lines lands inside that same band. The 2020
               record was the nationwide presidential peak, not a vote-by-mail
               effect; the 2024 general fell back below 2016, and the 2024
@@ -315,7 +319,7 @@ export default function Story() {
         }
       >
         <FranchiseFunnelChart from={state.from} to={state.to} />
-        <TurnoutChart from={state.from} to={state.to} />
+        <TurnoutChart from={state.from} to={state.to} kinds={state.kinds} />
         <RegistrationChart from={state.from} to={state.to} />
       </Section>
 
