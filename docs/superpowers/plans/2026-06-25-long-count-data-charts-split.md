@@ -122,12 +122,14 @@ packages:
     "jsdom": "^24.0.0",
     "@testing-library/react": "^16.0.0",
     "@testing-library/jest-dom": "^6.4.0",
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0",
-    "recharts": "^3.8.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^3.7.0"
   }
 }
 ```
+
+> **Dev/test versions match the consumer.** The components are extracted from the web repo and the sole consumer (web) runs React 19.2 / recharts 3.7 / Next 16, so the data-repo's dev/test deps are pinned to React 19 + recharts 3.7 to test against the same majors we ship to. The `peerDependencies` above stay permissive (`react >=18`, `recharts >=3`) so the package remains portable to other consumers.
 
 - [ ] **Step 3: `tsconfig.base.json`**
 
@@ -507,19 +509,51 @@ git add packages/charts/src/lib && git commit -m "feat(charts): format, fit, eve
 - [ ] **Step 1: Extract the chart chrome styles.** Open the website's CSS (`web/.../app` globals + the `.longcount` scope) and copy the rules that style the charts: the `--color-*` variables, the `smallcaps`, `stat-figure`, `rangepair`, and `ChartFrame` framing. Re-author them under an `.lc-root` scope and behind `--lc-*` variables with the **current GrowSF values as the fallbacks**, e.g.:
 
 ```css
+/* Exact GrowSF values — transcribed from web/app/globals.css `.longcount` scope
+   (pre-filled during pre-flight; these ARE the live-site values, not placeholders). */
 .lc-root {
-  --lc-ink: #1a1a1a; --lc-paper: #faf7f0; --lc-faint: #8a8378;
-  --lc-rule: #e5ded0; --lc-gold: #c8a24a;
-  --lc-font-mono: ui-monospace, "SFMono-Regular", monospace;
-  --lc-font-display: Georgia, "Times New Roman", serif;
+  --lc-ink: #16302e; --lc-paper: #ffffeb; --lc-faint: #5e7167;
+  --lc-rule: #cfe3da; --lc-gold: #64d09c;
+  --lc-font-mono: ui-monospace, "SF Mono", "IBM Plex Mono", Menlo, monospace;
+  --lc-font-display: Georgia, "Times New Roman", "Source Serif 4", serif;
+  /* extended palette the chrome reads (slider, selection, rules, dark bands) —
+     same names rescoped to --lc-* from the web `.longcount` --color-* tokens */
+  --lc-paper-deep: #eaf3ec; --lc-night: #044147; --lc-night-soft: #0b5158;
+  --lc-rust: #007784; --lc-rust-bright: #3fb6c9; --lc-rule-dark: #14565e;
+  --lc-slate: #0a82b2; --lc-moss: #1e7b6a; --lc-plum: #01384f;
   color: var(--lc-ink); font-family: var(--lc-font-display);
+  -webkit-font-smoothing: antialiased;
 }
-.lc-root .smallcaps { text-transform: uppercase; letter-spacing: .08em; font-size: .75rem; }
+.lc-root .smallcaps { font-family: var(--lc-font-mono); font-size: 0.6875rem; letter-spacing: 0.14em; text-transform: uppercase; }
 .lc-root .stat-figure { font-family: var(--lc-font-mono); font-variant-numeric: tabular-nums; }
-/* …frame, tooltip, legend rules copied from the web styling, all reading --lc-* … */
+/* Transcribe the remaining `.longcount` chrome VERBATIM, rescoped under `.lc-root`
+   and reading the --lc-* tokens above: `.rule-double`; `.rangepair` (dual-thumb
+   slider — track = --lc-rule, fill/thumb = --lc-rust, thumb border = --lc-paper,
+   box-shadow ring = --lc-rust); `::selection` (bg --lc-rust, color --lc-paper);
+   `.fade-up` + `@keyframes lcFadeUp`; `.grain`; and the ChartFrame / tooltip /
+   legend framing from ui.tsx. The full web token table is reproduced in the note
+   below so nothing is invented. */
 ```
 
-> Replace the placeholder hex/font values above with the **exact** values read out of the website's `:root`/`.longcount` CSS so the default IS the site. Scoping under `.lc-root` (the class the `<LongCount>` provider renders) prevents collision with the consumer's global `smallcaps`/`stat-figure`.
+> The hex/font values above were **pre-filled verbatim from the website's `.longcount`
+> CSS** during pre-flight — the default IS the site. Scoping under `.lc-root` (the class
+> the `<LongCount>` provider renders) prevents collision with the consumer's global
+> `smallcaps`/`stat-figure`. Complete source palette to transcribe the chrome from
+> (`web/app/globals.css` `.longcount`):
+>
+> ```
+> --color-paper: #ffffeb       --color-paper-deep: #eaf3ec   --color-ink: #16302e
+> --color-night: #044147       --color-night-soft: #0b5158   --color-rust: #007784
+> --color-rust-bright: #3fb6c9 --color-faint: #5e7167        --color-rule: #cfe3da
+> --color-rule-dark: #14565e   --color-gold: #64d09c         --color-slate: #0a82b2
+> --color-moss: #1e7b6a        --color-plum: #01384f
+> --font-serif: Georgia, "Times New Roman", "Source Serif 4", serif
+> --font-mono: ui-monospace, "SF Mono", "IBM Plex Mono", Menlo, monospace
+> ```
+>
+> Note for Task 11: any component reading `var(--color-rust|night|slate|moss|plum|…)`
+> inline (beyond the five semantic tokens in the Task 11 rules table) must be repointed
+> to the matching `--lc-*` token above, or those vars won't resolve under `.lc-root`.
 
 - [ ] **Step 2: Commit** (`git add packages/charts/src/charts.css && git commit -m "feat(charts): charts.css — web-matching chrome defaults under .lc-root"`).
 
@@ -804,13 +838,22 @@ import { LongCount, NightShare, Vbm, Turnout, Registration, FranchiseFunnel, Tra
 - [ ] **Step 2: Pass the GrowSF theme + map the vars.** Either pass `<LongCount theme={growsfPalette}>` (build `growsfPalette` from the site's tokens) **or** add one CSS block mapping `--lc-*` to the existing GrowSF tokens under `.lc-root`:
 
 ```css
-.lc-root { --lc-ink: var(--color-ink); --lc-paper: var(--color-paper);
-  --lc-faint: var(--color-faint); --lc-rule: var(--color-rule);
-  --lc-gold: var(--color-gold); --lc-font-mono: var(--font-mono);
-  --lc-font-display: var(--font-display); }
+/* The web tokens live on `.longcount` (web/app/globals.css), and the display font
+   token is `--font-serif`, NOT `--font-display`. Literal fallbacks keep these correct
+   even if `.lc-root` mounts outside the `.longcount` scope. */
+.lc-root {
+  --lc-ink: var(--color-ink, #16302e); --lc-paper: var(--color-paper, #ffffeb);
+  --lc-faint: var(--color-faint, #5e7167); --lc-rule: var(--color-rule, #cfe3da);
+  --lc-gold: var(--color-gold, #64d09c); --lc-rust: var(--color-rust, #007784);
+  --lc-font-mono: var(--font-mono, ui-monospace, "SF Mono", "IBM Plex Mono", Menlo, monospace);
+  --lc-font-display: var(--font-serif, Georgia, "Times New Roman", "Source Serif 4", serif);
+}
 ```
 
-(The defaults already match, so this is belt-and-suspenders / future-proofing.)
+(The package defaults already match these exact values, so this block is
+belt-and-suspenders / future-proofing — if GrowSF later retunes `--color-*`, the
+charts follow. The earlier `--font-display` mapping was a bug: the web token is
+`--font-serif`.)
 
 - [ ] **Step 3: Build the web page and confirm it renders.**
 
