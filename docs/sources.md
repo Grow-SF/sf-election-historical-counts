@@ -312,19 +312,23 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2026-06-02`
 
+**Certified final:** 271,439
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2026-06-03', 'days': 1, 'night': True, 'total': 125086, 'pct': 46.1, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2026-06-03T00:18:40 - https://www.sfelections.org/results/20260602/data/20260602_4/summary.xml (validated against certified totals)'}
-- {'date': '2026-06-04', 'days': 2, 'night': False, 'total': 140315, 'pct': 51.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2026-06-04T15:58:23 - https://www.sfelections.org/results/20260602/data/20260604/summary.xml (validated against certified totals)'}
-- {'date': '2026-06-05', 'days': 3, 'night': False, 'total': 176467, 'pct': 65.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2026-06-05T15:57:15 - https://www.sfelections.org/results/20260602/data/20260605/summary.xml (validated against certified totals)'}
-- {'date': '2026-06-08', 'days': 6, 'night': False, 'total': 222980, 'pct': 82.1, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2026-06-08T15:58:58 - https://www.sfelections.org/results/20260602/data/20260608/summary.xml (validated against certified totals)'}
-- {'date': '2026-06-09', 'days': 7, 'night': False, 'total': 259288, 'pct': 95.5, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2026-06-09T15:58:14 - https://www.sfelections.org/results/20260602/data/20260609/summary.xml (validated against certified totals)'}
-- {'date': '2026-06-10', 'days': 8, 'night': False, 'total': 264151, 'pct': 97.3, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2026-06-10T15:58:00 - https://www.sfelections.org/results/20260602/data/20260610/summary.xml (validated against certified totals)'}
-- {'date': '2026-06-11', 'days': 9, 'night': False, 'total': 269836, 'pct': 99.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2026-06-11T15:58:00 - https://www.sfelections.org/results/20260602/data/20260611/summary.xml (validated against certified totals)'}
-- {'date': '2026-06-12', 'days': 10, 'night': False, 'total': 271165, 'pct': 99.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2026-06-12T15:58:00 - https://www.sfelections.org/results/20260602/data/20260612/summary.xml (validated against certified totals)'}
-- {'date': '2026-06-17', 'days': 15, 'night': False, 'total': 271439, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2026-06-17T16:00:00 - https://www.sfelections.org/results/20260602/data/20260617/summary.xml (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2026-06-03 | 1 | ✓ | 125,086 | 46.1% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-03T00:18:40 - https://www.sfelections.org/results/20260602/data/20260602_4/summary.xml (validated against certified totals) |
+| 2026-06-04 | 2 |  | 140,315 | 51.7% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-04T15:58:23 - https://www.sfelections.org/results/20260602/data/20260604/summary.xml (validated against certified totals) |
+| 2026-06-05 | 3 |  | 176,467 | 65.0% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-05T15:57:15 - https://www.sfelections.org/results/20260602/data/20260605/summary.xml (validated against certified totals) |
+| 2026-06-08 | 6 |  | 222,980 | 82.1% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-08T15:58:58 - https://www.sfelections.org/results/20260602/data/20260608/summary.xml (validated against certified totals) |
+| 2026-06-09 | 7 |  | 259,288 | 95.5% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-09T15:58:14 - https://www.sfelections.org/results/20260602/data/20260609/summary.xml (validated against certified totals) |
+| 2026-06-10 | 8 |  | 264,151 | 97.3% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-10T15:58:00 - https://www.sfelections.org/results/20260602/data/20260610/summary.xml (validated against certified totals) |
+| 2026-06-11 | 9 |  | 269,836 | 99.4% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-11T15:58:00 - https://www.sfelections.org/results/20260602/data/20260611/summary.xml (validated against certified totals) |
+| 2026-06-12 | 10 |  | 271,165 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-12T15:58:00 - https://www.sfelections.org/results/20260602/data/20260612/summary.xml (validated against certified totals) |
+| 2026-06-17 | 15 |  | 271,439 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-17T16:00:00 - https://www.sfelections.org/results/20260602/data/20260617/summary.xml (validated against certified totals) |
 
 ---
 
@@ -336,9 +340,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2026-05-18', 'night': False, 'total': 533629, 'pct': 81.0, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/15day-primary-2026/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2026-05-18 |  |  | 533,629 | 81.0% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/15day-primary-2026/county.pdf |
 
 ---
 
@@ -346,16 +352,20 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2025-11-04`
 
+**Certified final:** 295,232
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2025-11-04', 'days': 0, 'night': True, 'total': 196007, 'pct': 66.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2025-11-04T23:25:03 - https://www.sfelections.org/results/20251104/data/20251104_2/summary.xml (validated against certified totals)'}
-- {'date': '2025-11-06', 'days': 2, 'night': False, 'total': 209091, 'pct': 70.8, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2025-11-06T15:39:48 - https://www.sfelections.org/results/20251104/data/20251106/summary.xml (validated against certified totals)'}
-- {'date': '2025-11-10', 'days': 6, 'night': False, 'total': 265344, 'pct': 89.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2025-11-10T15:33:27 - https://www.sfelections.org/results/20251104/data/20251110/summary.xml (validated against certified totals)'}
-- {'date': '2025-11-17', 'days': 13, 'night': False, 'total': 291968, 'pct': 98.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2025-11-17T15:27:28 - https://www.sfelections.org/results/20251104/data/20251117/summary.xml (validated against certified totals)'}
-- {'date': '2025-11-24', 'days': 20, 'night': False, 'total': 294941, 'pct': 99.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2025-11-24T15:25:57 - https://www.sfelections.org/results/20251104/data/20251124/summary.xml (validated against certified totals)'}
-- {'date': '2025-12-03', 'days': 29, 'night': False, 'total': 295232, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2025-12-03T14:57:43 - https://www.sfelections.org/results/20251104/data/20251203/summary.xml (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2025-11-04 | 0 | ✓ | 196,007 | 66.4% | SF Dept. of Elections results release — per-release summary report, reported 2025-11-04T23:25:03 - https://www.sfelections.org/results/20251104/data/20251104_2/summary.xml (validated against certified totals) |
+| 2025-11-06 | 2 |  | 209,091 | 70.8% | SF Dept. of Elections results release — per-release summary report, reported 2025-11-06T15:39:48 - https://www.sfelections.org/results/20251104/data/20251106/summary.xml (validated against certified totals) |
+| 2025-11-10 | 6 |  | 265,344 | 89.9% | SF Dept. of Elections results release — per-release summary report, reported 2025-11-10T15:33:27 - https://www.sfelections.org/results/20251104/data/20251110/summary.xml (validated against certified totals) |
+| 2025-11-17 | 13 |  | 291,968 | 98.9% | SF Dept. of Elections results release — per-release summary report, reported 2025-11-17T15:27:28 - https://www.sfelections.org/results/20251104/data/20251117/summary.xml (validated against certified totals) |
+| 2025-11-24 | 20 |  | 294,941 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2025-11-24T15:25:57 - https://www.sfelections.org/results/20251104/data/20251124/summary.xml (validated against certified totals) |
+| 2025-12-03 | 29 |  | 295,232 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2025-12-03T14:57:43 - https://www.sfelections.org/results/20251104/data/20251203/summary.xml (validated against certified totals) |
 
 ---
 
@@ -367,9 +377,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2025-10-20', 'night': False, 'total': 532195, 'pct': 80.6, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/15day-special-2025/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2025-10-20 |  |  | 532,195 | 80.6% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/15day-special-2025/county.pdf |
 
 ---
 
@@ -377,13 +389,17 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2025-09-16`
 
+**Certified final:** 21,542
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2025-09-16', 'days': 0, 'night': True, 'total': 16485, 'pct': 76.5, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2025-09-16T22:43:53 - https://www.sfelections.org/results/20250916/data/20250916_2/summary.xml (validated against certified totals)'}
-- {'date': '2025-09-18', 'days': 2, 'night': False, 'total': 21269, 'pct': 98.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2025-09-18T15:42:02 - https://www.sfelections.org/results/20250916/data/20250918/summary.xml (validated against certified totals)'}
-- {'date': '2025-09-25', 'days': 9, 'night': False, 'total': 21542, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2025-09-25T15:20:15 - https://www.sfelections.org/results/20250916/data/20250925/summary.xml (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2025-09-16 | 0 | ✓ | 16,485 | 76.5% | SF Dept. of Elections results release — per-release summary report, reported 2025-09-16T22:43:53 - https://www.sfelections.org/results/20250916/data/20250916_2/summary.xml (validated against certified totals) |
+| 2025-09-18 | 2 |  | 21,269 | 98.7% | SF Dept. of Elections results release — per-release summary report, reported 2025-09-18T15:42:02 - https://www.sfelections.org/results/20250916/data/20250918/summary.xml (validated against certified totals) |
+| 2025-09-25 | 9 |  | 21,542 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2025-09-25T15:20:15 - https://www.sfelections.org/results/20250916/data/20250925/summary.xml (validated against certified totals) |
 
 ---
 
@@ -395,9 +411,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2025-02-10', 'night': False, 'total': 529104, 'pct': 79.7, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2025/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2025-02-10 |  |  | 529,104 | 79.7% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2025/county.pdf |
 
 ---
 
@@ -405,25 +423,29 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2024-11-05`
 
+**Certified final:** 412,231
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2024-11-06', 'days': 1, 'night': True, 'total': 234453, 'pct': 56.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-11-06T00:30:46 - https://www.sfelections.org/results/20241105/data/20241105_4/summary.xml (validated against certified totals)'}
-- {'date': '2024-11-07', 'days': 2, 'night': False, 'total': 259218, 'pct': 62.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-11-07T15:56:48 - https://www.sfelections.org/results/20241105/data/20241107/summary.xml (validated against certified totals)'}
-- {'date': '2024-11-08', 'days': 3, 'night': False, 'total': 289135, 'pct': 70.1, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-11-08T15:45:18 - https://www.sfelections.org/results/20241105/data/20241108/summary.xml (validated against certified totals)'}
-- {'date': '2024-11-09', 'days': 4, 'night': False, 'total': 325114, 'pct': 78.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-11-09T15:35:57 - https://www.sfelections.org/results/20241105/data/20241109/summary.xml (validated against certified totals)'}
-- {'date': '2024-11-10', 'days': 5, 'night': False, 'total': 364959, 'pct': 88.5, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-11-10T15:58:38 - https://www.sfelections.org/results/20241105/data/20241110/summary.xml (validated against certified totals)'}
-- {'date': '2024-11-11', 'days': 6, 'night': False, 'total': 382292, 'pct': 92.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-11-11T15:42:09 - https://www.sfelections.org/results/20241105/data/20241111/summary.xml (validated against certified totals)'}
-- {'date': '2024-11-12', 'days': 7, 'night': False, 'total': 388758, 'pct': 94.3, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-11-12T15:41:11 - https://www.sfelections.org/results/20241105/data/20241112/summary.xml (validated against certified totals)'}
-- {'date': '2024-11-13', 'days': 8, 'night': False, 'total': 390437, 'pct': 94.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-11-13T15:40:07 - https://www.sfelections.org/results/20241105/data/20241113/summary.xml (validated against certified totals)'}
-- {'date': '2024-11-14', 'days': 9, 'night': False, 'total': 396543, 'pct': 96.2, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-11-14T15:45:15 - https://www.sfelections.org/results/20241105/data/20241114/summary.xml (validated against certified totals)'}
-- {'date': '2024-11-15', 'days': 10, 'night': False, 'total': 403466, 'pct': 97.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-11-15T15:45:11 - https://www.sfelections.org/results/20241105/data/20241115/summary.xml (validated against certified totals)'}
-- {'date': '2024-11-16', 'days': 11, 'night': False, 'total': 409747, 'pct': 99.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-11-16T15:58:23 - https://www.sfelections.org/results/20241105/data/20241116/summary.xml (validated against certified totals)'}
-- {'date': '2024-11-18', 'days': 13, 'night': False, 'total': 411708, 'pct': 99.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-11-18T15:40:15 - https://www.sfelections.org/results/20241105/data/20241118/summary.xml (validated against certified totals)'}
-- {'date': '2024-11-19', 'days': 14, 'night': False, 'total': 412041, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-11-19T16:13:16 - https://www.sfelections.org/results/20241105/data/20241119/summary.xml (validated against certified totals)'}
-- {'date': '2024-11-21', 'days': 16, 'night': False, 'total': 412090, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-11-21T15:41:20 - https://www.sfelections.org/results/20241105/data/20241121/summary.xml (validated against certified totals)'}
-- {'date': '2024-12-03', 'days': 28, 'night': False, 'total': 412231, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-12-03T15:00:57 - https://www.sfelections.org/results/20241105/data/20241203/summary.xml (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2024-11-06 | 1 | ✓ | 234,453 | 56.9% | SF Dept. of Elections results release — per-release summary report, reported 2024-11-06T00:30:46 - https://www.sfelections.org/results/20241105/data/20241105_4/summary.xml (validated against certified totals) |
+| 2024-11-07 | 2 |  | 259,218 | 62.9% | SF Dept. of Elections results release — per-release summary report, reported 2024-11-07T15:56:48 - https://www.sfelections.org/results/20241105/data/20241107/summary.xml (validated against certified totals) |
+| 2024-11-08 | 3 |  | 289,135 | 70.1% | SF Dept. of Elections results release — per-release summary report, reported 2024-11-08T15:45:18 - https://www.sfelections.org/results/20241105/data/20241108/summary.xml (validated against certified totals) |
+| 2024-11-09 | 4 |  | 325,114 | 78.9% | SF Dept. of Elections results release — per-release summary report, reported 2024-11-09T15:35:57 - https://www.sfelections.org/results/20241105/data/20241109/summary.xml (validated against certified totals) |
+| 2024-11-10 | 5 |  | 364,959 | 88.5% | SF Dept. of Elections results release — per-release summary report, reported 2024-11-10T15:58:38 - https://www.sfelections.org/results/20241105/data/20241110/summary.xml (validated against certified totals) |
+| 2024-11-11 | 6 |  | 382,292 | 92.7% | SF Dept. of Elections results release — per-release summary report, reported 2024-11-11T15:42:09 - https://www.sfelections.org/results/20241105/data/20241111/summary.xml (validated against certified totals) |
+| 2024-11-12 | 7 |  | 388,758 | 94.3% | SF Dept. of Elections results release — per-release summary report, reported 2024-11-12T15:41:11 - https://www.sfelections.org/results/20241105/data/20241112/summary.xml (validated against certified totals) |
+| 2024-11-13 | 8 |  | 390,437 | 94.7% | SF Dept. of Elections results release — per-release summary report, reported 2024-11-13T15:40:07 - https://www.sfelections.org/results/20241105/data/20241113/summary.xml (validated against certified totals) |
+| 2024-11-14 | 9 |  | 396,543 | 96.2% | SF Dept. of Elections results release — per-release summary report, reported 2024-11-14T15:45:15 - https://www.sfelections.org/results/20241105/data/20241114/summary.xml (validated against certified totals) |
+| 2024-11-15 | 10 |  | 403,466 | 97.9% | SF Dept. of Elections results release — per-release summary report, reported 2024-11-15T15:45:11 - https://www.sfelections.org/results/20241105/data/20241115/summary.xml (validated against certified totals) |
+| 2024-11-16 | 11 |  | 409,747 | 99.4% | SF Dept. of Elections results release — per-release summary report, reported 2024-11-16T15:58:23 - https://www.sfelections.org/results/20241105/data/20241116/summary.xml (validated against certified totals) |
+| 2024-11-18 | 13 |  | 411,708 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2024-11-18T15:40:15 - https://www.sfelections.org/results/20241105/data/20241118/summary.xml (validated against certified totals) |
+| 2024-11-19 | 14 |  | 412,041 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2024-11-19T16:13:16 - https://www.sfelections.org/results/20241105/data/20241119/summary.xml (validated against certified totals) |
+| 2024-11-21 | 16 |  | 412,090 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2024-11-21T15:41:20 - https://www.sfelections.org/results/20241105/data/20241121/summary.xml (validated against certified totals) |
+| 2024-12-03 | 28 |  | 412,231 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2024-12-03T15:00:57 - https://www.sfelections.org/results/20241105/data/20241203/summary.xml (validated against certified totals) |
 
 ---
 
@@ -435,9 +457,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2024-10-21', 'night': False, 'total': 520203, 'pct': 78.4, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/15day-gen-2024/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2024-10-21 |  |  | 520,203 | 78.4% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/15day-gen-2024/county.pdf |
 
 ---
 
@@ -445,22 +469,26 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2024-03-05`
 
+**Certified final:** 233,465
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2024-03-05', 'days': 0, 'night': True, 'total': 104760, 'pct': 44.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-03-05T23:43:56 - https://www.sfelections.org/results/20240305/data/20240305_4/summary.xml (validated against certified totals)'}
-- {'date': '2024-03-07', 'days': 2, 'night': False, 'total': 132091, 'pct': 56.6, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-03-07T15:55:04 - https://www.sfelections.org/results/20240305/data/20240307/summary.xml (validated against certified totals)'}
-- {'date': '2024-03-08', 'days': 3, 'night': False, 'total': 193382, 'pct': 82.8, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-03-08T15:56:54 - https://www.sfelections.org/results/20240305/data/20240308/summary.xml (validated against certified totals)'}
-- {'date': '2024-03-09', 'days': 4, 'night': False, 'total': 216280, 'pct': 92.6, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-03-09T15:55:22 - https://www.sfelections.org/results/20240305/data/20240309/summary.xml (validated against certified totals)'}
-- {'date': '2024-03-11', 'days': 6, 'night': False, 'total': 222612, 'pct': 95.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-03-11T15:58:33 - https://www.sfelections.org/results/20240305/data/20240311/summary.xml (validated against certified totals)'}
-- {'date': '2024-03-12', 'days': 7, 'night': False, 'total': 225406, 'pct': 96.5, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-03-12T15:58:19 - https://www.sfelections.org/results/20240305/data/20240312/summary.xml (validated against certified totals)'}
-- {'date': '2024-03-13', 'days': 8, 'night': False, 'total': 226648, 'pct': 97.1, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-03-13T15:57:26 - https://www.sfelections.org/results/20240305/data/20240313/summary.xml (validated against certified totals)'}
-- {'date': '2024-03-14', 'days': 9, 'night': False, 'total': 229227, 'pct': 98.2, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-03-14T16:08:49 - https://www.sfelections.org/results/20240305/data/20240314/summary.xml (validated against certified totals)'}
-- {'date': '2024-03-15', 'days': 10, 'night': False, 'total': 233279, 'pct': 99.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-03-15T16:03:34 - https://www.sfelections.org/results/20240305/data/20240315/summary.xml (validated against certified totals)'}
-- {'date': '2024-03-20', 'days': 15, 'night': False, 'total': 233424, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-03-20T15:56:27 - https://www.sfelections.org/results/20240305/data/20240320/summary.xml (validated against certified totals)'}
-- {'date': '2024-03-21', 'days': 16, 'night': False, 'total': 233465, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-03-21T15:58:24 - https://www.sfelections.org/results/20240305/data/20240321/summary.xml (validated against certified totals)'}
-- {'date': '2024-03-22', 'days': 17, 'night': False, 'total': 233465, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2024-03-22T15:39:52 - https://www.sfelections.org/results/20240305/data/20240322/summary.xml (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2024-03-05 | 0 | ✓ | 104,760 | 44.9% | SF Dept. of Elections results release — per-release summary report, reported 2024-03-05T23:43:56 - https://www.sfelections.org/results/20240305/data/20240305_4/summary.xml (validated against certified totals) |
+| 2024-03-07 | 2 |  | 132,091 | 56.6% | SF Dept. of Elections results release — per-release summary report, reported 2024-03-07T15:55:04 - https://www.sfelections.org/results/20240305/data/20240307/summary.xml (validated against certified totals) |
+| 2024-03-08 | 3 |  | 193,382 | 82.8% | SF Dept. of Elections results release — per-release summary report, reported 2024-03-08T15:56:54 - https://www.sfelections.org/results/20240305/data/20240308/summary.xml (validated against certified totals) |
+| 2024-03-09 | 4 |  | 216,280 | 92.6% | SF Dept. of Elections results release — per-release summary report, reported 2024-03-09T15:55:22 - https://www.sfelections.org/results/20240305/data/20240309/summary.xml (validated against certified totals) |
+| 2024-03-11 | 6 |  | 222,612 | 95.4% | SF Dept. of Elections results release — per-release summary report, reported 2024-03-11T15:58:33 - https://www.sfelections.org/results/20240305/data/20240311/summary.xml (validated against certified totals) |
+| 2024-03-12 | 7 |  | 225,406 | 96.5% | SF Dept. of Elections results release — per-release summary report, reported 2024-03-12T15:58:19 - https://www.sfelections.org/results/20240305/data/20240312/summary.xml (validated against certified totals) |
+| 2024-03-13 | 8 |  | 226,648 | 97.1% | SF Dept. of Elections results release — per-release summary report, reported 2024-03-13T15:57:26 - https://www.sfelections.org/results/20240305/data/20240313/summary.xml (validated against certified totals) |
+| 2024-03-14 | 9 |  | 229,227 | 98.2% | SF Dept. of Elections results release — per-release summary report, reported 2024-03-14T16:08:49 - https://www.sfelections.org/results/20240305/data/20240314/summary.xml (validated against certified totals) |
+| 2024-03-15 | 10 |  | 233,279 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2024-03-15T16:03:34 - https://www.sfelections.org/results/20240305/data/20240315/summary.xml (validated against certified totals) |
+| 2024-03-20 | 15 |  | 233,424 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2024-03-20T15:56:27 - https://www.sfelections.org/results/20240305/data/20240320/summary.xml (validated against certified totals) |
+| 2024-03-21 | 16 |  | 233,465 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2024-03-21T15:58:24 - https://www.sfelections.org/results/20240305/data/20240321/summary.xml (validated against certified totals) |
+| 2024-03-22 | 17 |  | 233,465 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2024-03-22T15:39:52 - https://www.sfelections.org/results/20240305/data/20240322/summary.xml (validated against certified totals) |
 
 ---
 
@@ -472,9 +500,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2024-02-20', 'night': False, 'total': 501463, 'pct': 77.2, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/15day-presprim-2024/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2024-02-20 |  |  | 501,463 | 77.2% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/15day-presprim-2024/county.pdf |
 
 ---
 
@@ -486,9 +516,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2023-02-10', 'night': False, 'total': 501970, 'pct': 76.8, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2023/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2023-02-10 |  |  | 501,970 | 76.8% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2023/county.pdf |
 
 ---
 
@@ -496,23 +528,27 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2022-11-08`
 
+**Certified final:** 310,071
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2022-11-09', 'days': 1, 'night': True, 'total': 158200, 'pct': 51.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-11-09T00:01:28 - https://www.sfelections.org/results/20221108/data/20221108_4/summary.xml (validated against certified totals)'}
-- {'date': '2022-11-10', 'days': 2, 'night': False, 'total': 167798, 'pct': 54.1, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-11-10T15:56:41 - https://www.sfelections.org/results/20221108/data/20221110/summary.xml (validated against certified totals)'}
-- {'date': '2022-11-11', 'days': 3, 'night': False, 'total': 195327, 'pct': 63.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-11-11T15:55:17 - https://www.sfelections.org/results/20221108/data/20221111/summary.xml (validated against certified totals)'}
-- {'date': '2022-11-12', 'days': 4, 'night': False, 'total': 224871, 'pct': 72.5, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-11-12T15:56:05 - https://www.sfelections.org/results/20221108/data/20221112/summary.xml (validated against certified totals)'}
-- {'date': '2022-11-13', 'days': 5, 'night': False, 'total': 246515, 'pct': 79.5, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-11-13T15:54:55 - https://www.sfelections.org/results/20221108/data/20221113/summary.xml (validated against certified totals)'}
-- {'date': '2022-11-14', 'days': 6, 'night': False, 'total': 269050, 'pct': 86.8, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-11-14T15:56:48 - https://www.sfelections.org/results/20221108/data/20221114/summary.xml (validated against certified totals)'}
-- {'date': '2022-11-15', 'days': 7, 'night': False, 'total': 291726, 'pct': 94.1, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-11-15T15:57:35 - https://www.sfelections.org/results/20221108/data/20221115/summary.xml (validated against certified totals)'}
-- {'date': '2022-11-16', 'days': 8, 'night': False, 'total': 302256, 'pct': 97.5, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-11-16T15:55:51 - https://www.sfelections.org/results/20221108/data/20221116/summary.xml (validated against certified totals)'}
-- {'date': '2022-11-17', 'days': 9, 'night': False, 'total': 307121, 'pct': 99.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-11-17T15:55:56 - https://www.sfelections.org/results/20221108/data/20221117/summary.xml (validated against certified totals)'}
-- {'date': '2022-11-18', 'days': 10, 'night': False, 'total': 309294, 'pct': 99.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-11-18T15:56:32 - https://www.sfelections.org/results/20221108/data/20221118/summary.xml (validated against certified totals)'}
-- {'date': '2022-11-22', 'days': 14, 'night': False, 'total': 309994, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-11-22T15:57:07 - https://www.sfelections.org/results/20221108/data/20221122/summary.xml (validated against certified totals)'}
-- {'date': '2022-11-29', 'days': 21, 'night': False, 'total': 310071, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-11-29T16:00:22 - https://www.sfelections.org/results/20221108/data/20221129/summary.xml (validated against certified totals)'}
-- {'date': '2022-12-01', 'days': 23, 'night': False, 'total': 310071, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-12-01T15:41:43 - https://www.sfelections.org/results/20221108/data/20221201/summary.xml (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2022-11-09 | 1 | ✓ | 158,200 | 51.0% | SF Dept. of Elections results release — per-release summary report, reported 2022-11-09T00:01:28 - https://www.sfelections.org/results/20221108/data/20221108_4/summary.xml (validated against certified totals) |
+| 2022-11-10 | 2 |  | 167,798 | 54.1% | SF Dept. of Elections results release — per-release summary report, reported 2022-11-10T15:56:41 - https://www.sfelections.org/results/20221108/data/20221110/summary.xml (validated against certified totals) |
+| 2022-11-11 | 3 |  | 195,327 | 63.0% | SF Dept. of Elections results release — per-release summary report, reported 2022-11-11T15:55:17 - https://www.sfelections.org/results/20221108/data/20221111/summary.xml (validated against certified totals) |
+| 2022-11-12 | 4 |  | 224,871 | 72.5% | SF Dept. of Elections results release — per-release summary report, reported 2022-11-12T15:56:05 - https://www.sfelections.org/results/20221108/data/20221112/summary.xml (validated against certified totals) |
+| 2022-11-13 | 5 |  | 246,515 | 79.5% | SF Dept. of Elections results release — per-release summary report, reported 2022-11-13T15:54:55 - https://www.sfelections.org/results/20221108/data/20221113/summary.xml (validated against certified totals) |
+| 2022-11-14 | 6 |  | 269,050 | 86.8% | SF Dept. of Elections results release — per-release summary report, reported 2022-11-14T15:56:48 - https://www.sfelections.org/results/20221108/data/20221114/summary.xml (validated against certified totals) |
+| 2022-11-15 | 7 |  | 291,726 | 94.1% | SF Dept. of Elections results release — per-release summary report, reported 2022-11-15T15:57:35 - https://www.sfelections.org/results/20221108/data/20221115/summary.xml (validated against certified totals) |
+| 2022-11-16 | 8 |  | 302,256 | 97.5% | SF Dept. of Elections results release — per-release summary report, reported 2022-11-16T15:55:51 - https://www.sfelections.org/results/20221108/data/20221116/summary.xml (validated against certified totals) |
+| 2022-11-17 | 9 |  | 307,121 | 99.0% | SF Dept. of Elections results release — per-release summary report, reported 2022-11-17T15:55:56 - https://www.sfelections.org/results/20221108/data/20221117/summary.xml (validated against certified totals) |
+| 2022-11-18 | 10 |  | 309,294 | 99.7% | SF Dept. of Elections results release — per-release summary report, reported 2022-11-18T15:56:32 - https://www.sfelections.org/results/20221108/data/20221118/summary.xml (validated against certified totals) |
+| 2022-11-22 | 14 |  | 309,994 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2022-11-22T15:57:07 - https://www.sfelections.org/results/20221108/data/20221122/summary.xml (validated against certified totals) |
+| 2022-11-29 | 21 |  | 310,071 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2022-11-29T16:00:22 - https://www.sfelections.org/results/20221108/data/20221129/summary.xml (validated against certified totals) |
+| 2022-12-01 | 23 |  | 310,071 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2022-12-01T15:41:43 - https://www.sfelections.org/results/20221108/data/20221201/summary.xml (validated against certified totals) |
 
 ---
 
@@ -524,9 +560,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2022-10-24', 'night': False, 'total': 498197, 'pct': 75.5, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/15day-general-2022/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2022-10-24 |  |  | 498,197 | 75.5% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/15day-general-2022/county.pdf |
 
 ---
 
@@ -534,18 +572,22 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2022-06-07`
 
+**Certified final:** 229,229
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2022-06-07', 'days': 0, 'night': True, 'total': 127926, 'pct': 55.8, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-06-07T23:38:31 - https://www.sfelections.org/results/20220607/data/20220607_4/summary.xml (validated against certified totals)'}
-- {'date': '2022-06-09', 'days': 2, 'night': False, 'total': 141788, 'pct': 61.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-06-09T16:00:11 - https://www.sfelections.org/results/20220607/data/20220609/summary.xml (validated against certified totals)'}
-- {'date': '2022-06-10', 'days': 3, 'night': False, 'total': 184582, 'pct': 80.5, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-06-10T15:57:49 - https://www.sfelections.org/results/20220607/data/20220610/summary.xml (validated against certified totals)'}
-- {'date': '2022-06-11', 'days': 4, 'night': False, 'total': 222215, 'pct': 96.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-06-11T16:01:49 - https://www.sfelections.org/results/20220607/data/20220611/summary.xml (validated against certified totals)'}
-- {'date': '2022-06-12', 'days': 5, 'night': False, 'total': 227955, 'pct': 99.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-06-12T14:59:47 - https://www.sfelections.org/results/20220607/data/20220612/summary.xml (validated against certified totals)'}
-- {'date': '2022-06-14', 'days': 7, 'night': False, 'total': 228915, 'pct': 99.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-06-14T15:55:50 - https://www.sfelections.org/results/20220607/data/20220614/summary.xml (validated against certified totals)'}
-- {'date': '2022-06-16', 'days': 9, 'night': False, 'total': 229122, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-06-16T15:55:28 - https://www.sfelections.org/results/20220607/data/20220616/summary.xml (validated against certified totals)'}
-- {'date': '2022-06-22', 'days': 15, 'night': False, 'total': 229229, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-06-22T15:37:28 - https://www.sfelections.org/results/20220607/data/20220621/summary.xml (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2022-06-07 | 0 | ✓ | 127,926 | 55.8% | SF Dept. of Elections results release — per-release summary report, reported 2022-06-07T23:38:31 - https://www.sfelections.org/results/20220607/data/20220607_4/summary.xml (validated against certified totals) |
+| 2022-06-09 | 2 |  | 141,788 | 61.9% | SF Dept. of Elections results release — per-release summary report, reported 2022-06-09T16:00:11 - https://www.sfelections.org/results/20220607/data/20220609/summary.xml (validated against certified totals) |
+| 2022-06-10 | 3 |  | 184,582 | 80.5% | SF Dept. of Elections results release — per-release summary report, reported 2022-06-10T15:57:49 - https://www.sfelections.org/results/20220607/data/20220610/summary.xml (validated against certified totals) |
+| 2022-06-11 | 4 |  | 222,215 | 96.9% | SF Dept. of Elections results release — per-release summary report, reported 2022-06-11T16:01:49 - https://www.sfelections.org/results/20220607/data/20220611/summary.xml (validated against certified totals) |
+| 2022-06-12 | 5 |  | 227,955 | 99.4% | SF Dept. of Elections results release — per-release summary report, reported 2022-06-12T14:59:47 - https://www.sfelections.org/results/20220607/data/20220612/summary.xml (validated against certified totals) |
+| 2022-06-14 | 7 |  | 228,915 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2022-06-14T15:55:50 - https://www.sfelections.org/results/20220607/data/20220614/summary.xml (validated against certified totals) |
+| 2022-06-16 | 9 |  | 229,122 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2022-06-16T15:55:28 - https://www.sfelections.org/results/20220607/data/20220616/summary.xml (validated against certified totals) |
+| 2022-06-22 | 15 |  | 229,229 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2022-06-22T15:37:28 - https://www.sfelections.org/results/20220607/data/20220621/summary.xml (validated against certified totals) |
 
 ---
 
@@ -557,9 +599,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2022-05-23', 'night': False, 'total': 496649, 'pct': 75.0, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/15day-primary-2022/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2022-05-23 |  |  | 496,649 | 75.0% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/15day-primary-2022/county.pdf |
 
 ---
 
@@ -567,15 +611,19 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2022-04-19`
 
+**Certified final:** 78,764
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2022-04-19', 'days': 0, 'night': True, 'total': 61965, 'pct': 78.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-04-19T22:02:44 - https://www.sfelections.org/results/20220419/data/20220419_3/summary.xml (validated against certified totals)'}
-- {'date': '2022-04-21', 'days': 2, 'night': False, 'total': 77994, 'pct': 99.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-04-21T15:55:26 - https://www.sfelections.org/results/20220419/data/20220421/summary.xml (validated against certified totals)'}
-- {'date': '2022-04-22', 'days': 3, 'night': False, 'total': 78690, 'pct': 99.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-04-22T15:55:09 - https://www.sfelections.org/results/20220419/data/20220422/summary.xml (validated against certified totals)'}
-- {'date': '2022-04-27', 'days': 8, 'night': False, 'total': 78764, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-04-27T16:02:43 - https://www.sfelections.org/results/20220419/data/20220427/summary.xml (validated against certified totals)'}
-- {'date': '2022-04-28', 'days': 9, 'night': False, 'total': 78764, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-04-28T15:55:59 - https://www.sfelections.org/results/20220419/data/20220428/summary.xml (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2022-04-19 | 0 | ✓ | 61,965 | 78.7% | SF Dept. of Elections results release — per-release summary report, reported 2022-04-19T22:02:44 - https://www.sfelections.org/results/20220419/data/20220419_3/summary.xml (validated against certified totals) |
+| 2022-04-21 | 2 |  | 77,994 | 99.0% | SF Dept. of Elections results release — per-release summary report, reported 2022-04-21T15:55:26 - https://www.sfelections.org/results/20220419/data/20220421/summary.xml (validated against certified totals) |
+| 2022-04-22 | 3 |  | 78,690 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2022-04-22T15:55:09 - https://www.sfelections.org/results/20220419/data/20220422/summary.xml (validated against certified totals) |
+| 2022-04-27 | 8 |  | 78,764 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2022-04-27T16:02:43 - https://www.sfelections.org/results/20220419/data/20220427/summary.xml (validated against certified totals) |
+| 2022-04-28 | 9 |  | 78,764 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2022-04-28T15:55:59 - https://www.sfelections.org/results/20220419/data/20220428/summary.xml (validated against certified totals) |
 
 ---
 
@@ -583,16 +631,20 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2022-02-15`
 
+**Certified final:** 179,981
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2022-02-15', 'days': 0, 'night': True, 'total': 130302, 'pct': 72.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-02-15T22:37:11 - https://www.sfelections.org/results/20220215/data/20220215_3/summary.xml (validated against certified totals)'}
-- {'date': '2022-02-17', 'days': 2, 'night': False, 'total': 149377, 'pct': 83.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-02-17T16:01:11 - https://www.sfelections.org/results/20220215/data/20220217/summary.xml (validated against certified totals)'}
-- {'date': '2022-02-18', 'days': 3, 'night': False, 'total': 174528, 'pct': 97.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-02-18T15:48:46 - https://www.sfelections.org/results/20220215/data/20220218/summary.xml (validated against certified totals)'}
-- {'date': '2022-02-19', 'days': 4, 'night': False, 'total': 179429, 'pct': 99.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-02-19T15:08:44 - https://www.sfelections.org/results/20220215/data/20220219/summary.xml (validated against certified totals)'}
-- {'date': '2022-02-22', 'days': 7, 'night': False, 'total': 179752, 'pct': 99.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-02-22T15:46:53 - https://www.sfelections.org/results/20220215/data/20220222/summary.xml (validated against certified totals)'}
-- {'date': '2022-02-23', 'days': 8, 'night': False, 'total': 179981, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2022-02-23T15:58:17 - https://www.sfelections.org/results/20220215/data/20220223/summary.xml (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2022-02-15 | 0 | ✓ | 130,302 | 72.4% | SF Dept. of Elections results release — per-release summary report, reported 2022-02-15T22:37:11 - https://www.sfelections.org/results/20220215/data/20220215_3/summary.xml (validated against certified totals) |
+| 2022-02-17 | 2 |  | 149,377 | 83.0% | SF Dept. of Elections results release — per-release summary report, reported 2022-02-17T16:01:11 - https://www.sfelections.org/results/20220215/data/20220217/summary.xml (validated against certified totals) |
+| 2022-02-18 | 3 |  | 174,528 | 97.0% | SF Dept. of Elections results release — per-release summary report, reported 2022-02-18T15:48:46 - https://www.sfelections.org/results/20220215/data/20220218/summary.xml (validated against certified totals) |
+| 2022-02-19 | 4 |  | 179,429 | 99.7% | SF Dept. of Elections results release — per-release summary report, reported 2022-02-19T15:08:44 - https://www.sfelections.org/results/20220215/data/20220219/summary.xml (validated against certified totals) |
+| 2022-02-22 | 7 |  | 179,752 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2022-02-22T15:46:53 - https://www.sfelections.org/results/20220215/data/20220222/summary.xml (validated against certified totals) |
+| 2022-02-23 | 8 |  | 179,981 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2022-02-23T15:58:17 - https://www.sfelections.org/results/20220215/data/20220223/summary.xml (validated against certified totals) |
 
 ---
 
@@ -600,20 +652,24 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2021-09-14`
 
+**Certified final:** 341,055
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2021-09-14', 'days': 0, 'night': True, 'total': 268285, 'pct': 78.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2021-09-14T23:27:42 - https://www.sfelections.org/results/20210914/data/20210914_4/summary.xml (validated against certified totals)'}
-- {'date': '2021-09-15', 'days': 1, 'night': False, 'total': 269473, 'pct': 79.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2021-09-15T15:53:13 - https://www.sfelections.org/results/20210914/data/20210915/summary.xml (validated against certified totals)'}
-- {'date': '2021-09-16', 'days': 2, 'night': False, 'total': 295719, 'pct': 86.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2021-09-16T15:52:40 - https://www.sfelections.org/results/20210914/data/20210916/summary.xml (validated against certified totals)'}
-- {'date': '2021-09-17', 'days': 3, 'night': False, 'total': 319577, 'pct': 93.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2021-09-17T16:02:39 - https://www.sfelections.org/results/20210914/data/20210917/summary.xml (validated against certified totals)'}
-- {'date': '2021-09-18', 'days': 4, 'night': False, 'total': 330645, 'pct': 96.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2021-09-18T15:27:48 - https://www.sfelections.org/results/20210914/data/20210918/summary.xml (validated against certified totals)'}
-- {'date': '2021-09-20', 'days': 6, 'night': False, 'total': 336626, 'pct': 98.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2021-09-20T15:55:43 - https://www.sfelections.org/results/20210914/data/20210920/summary.xml (validated against certified totals)'}
-- {'date': '2021-09-21', 'days': 7, 'night': False, 'total': 340349, 'pct': 99.8, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2021-09-21T16:13:14 - https://www.sfelections.org/results/20210914/data/20210921/summary.xml (validated against certified totals)'}
-- {'date': '2021-09-22', 'days': 8, 'night': False, 'total': 340702, 'pct': 99.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2021-09-22T16:02:19 - https://www.sfelections.org/results/20210914/data/20210922/summary.xml (validated against certified totals)'}
-- {'date': '2021-10-01', 'days': 17, 'night': False, 'total': 341040, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2021-10-01T16:00:39 - https://www.sfelections.org/results/20210914/data/20211001/summary.xml (validated against certified totals)'}
-- {'date': '2021-10-05', 'days': 21, 'night': False, 'total': 341055, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2021-10-05T15:38:45 - https://www.sfelections.org/results/20210914/data/20211005/summary.xml (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2021-09-14 | 0 | ✓ | 268,285 | 78.7% | SF Dept. of Elections results release — per-release summary report, reported 2021-09-14T23:27:42 - https://www.sfelections.org/results/20210914/data/20210914_4/summary.xml (validated against certified totals) |
+| 2021-09-15 | 1 |  | 269,473 | 79.0% | SF Dept. of Elections results release — per-release summary report, reported 2021-09-15T15:53:13 - https://www.sfelections.org/results/20210914/data/20210915/summary.xml (validated against certified totals) |
+| 2021-09-16 | 2 |  | 295,719 | 86.7% | SF Dept. of Elections results release — per-release summary report, reported 2021-09-16T15:52:40 - https://www.sfelections.org/results/20210914/data/20210916/summary.xml (validated against certified totals) |
+| 2021-09-17 | 3 |  | 319,577 | 93.7% | SF Dept. of Elections results release — per-release summary report, reported 2021-09-17T16:02:39 - https://www.sfelections.org/results/20210914/data/20210917/summary.xml (validated against certified totals) |
+| 2021-09-18 | 4 |  | 330,645 | 96.9% | SF Dept. of Elections results release — per-release summary report, reported 2021-09-18T15:27:48 - https://www.sfelections.org/results/20210914/data/20210918/summary.xml (validated against certified totals) |
+| 2021-09-20 | 6 |  | 336,626 | 98.7% | SF Dept. of Elections results release — per-release summary report, reported 2021-09-20T15:55:43 - https://www.sfelections.org/results/20210914/data/20210920/summary.xml (validated against certified totals) |
+| 2021-09-21 | 7 |  | 340,349 | 99.8% | SF Dept. of Elections results release — per-release summary report, reported 2021-09-21T16:13:14 - https://www.sfelections.org/results/20210914/data/20210921/summary.xml (validated against certified totals) |
+| 2021-09-22 | 8 |  | 340,702 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2021-09-22T16:02:19 - https://www.sfelections.org/results/20210914/data/20210922/summary.xml (validated against certified totals) |
+| 2021-10-01 | 17 |  | 341,040 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2021-10-01T16:00:39 - https://www.sfelections.org/results/20210914/data/20211001/summary.xml (validated against certified totals) |
+| 2021-10-05 | 21 |  | 341,055 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2021-10-05T15:38:45 - https://www.sfelections.org/results/20210914/data/20211005/summary.xml (validated against certified totals) |
 
 ---
 
@@ -625,9 +681,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2021-08-30', 'night': False, 'total': 503841, 'pct': 78.6, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/15day-recall-2021/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2021-08-30 |  |  | 503,841 | 78.6% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/15day-recall-2021/county.pdf |
 
 ---
 
@@ -639,9 +697,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2021-02-10', 'night': False, 'total': 513247, 'pct': 76.5, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2021/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2021-02-10 |  |  | 513,247 | 76.5% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2021/county.pdf |
 
 ---
 
@@ -649,24 +709,28 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2020-11-03`
 
+**Certified final:** 449,866
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2020-11-04', 'days': 1, 'night': True, 'total': 352537, 'pct': 78.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-11-04T00:44:46 - https://www.sfelections.org/results/20201103/data/20201103_4/summary.xml (validated against certified totals)'}
-- {'date': '2020-11-04', 'days': 1, 'night': False, 'total': 353572, 'pct': 78.6, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-11-04T16:10:43 - https://www.sfelections.org/results/20201103/data/20201104/summary.xml (validated against certified totals)'}
-- {'date': '2020-11-05', 'days': 2, 'night': False, 'total': 383191, 'pct': 85.2, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-11-05T15:59:19 - https://www.sfelections.org/results/20201103/data/20201105/summary.xml (validated against certified totals)'}
-- {'date': '2020-11-06', 'days': 3, 'night': False, 'total': 419050, 'pct': 93.1, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-11-06T16:15:56 - https://www.sfelections.org/results/20201103/data/20201106/summary.xml (validated against certified totals)'}
-- {'date': '2020-11-07', 'days': 4, 'night': False, 'total': 437259, 'pct': 97.2, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-11-07T16:21:21 - https://www.sfelections.org/results/20201103/data/20201107/summary.xml (validated against certified totals)'}
-- {'date': '2020-11-08', 'days': 5, 'night': False, 'total': 443435, 'pct': 98.6, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-11-08T15:58:54 - https://www.sfelections.org/results/20201103/data/20201108/summary.xml (validated against certified totals)'}
-- {'date': '2020-11-09', 'days': 6, 'night': False, 'total': 446751, 'pct': 99.3, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-11-09T16:04:13 - https://www.sfelections.org/results/20201103/data/20201109/summary.xml (validated against certified totals)'}
-- {'date': '2020-11-10', 'days': 7, 'night': False, 'total': 448485, 'pct': 99.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-11-10T16:10:20 - https://www.sfelections.org/results/20201103/data/20201110/summary.xml (validated against certified totals)'}
-- {'date': '2020-11-12', 'days': 9, 'night': False, 'total': 448938, 'pct': 99.8, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-11-12T15:49:42 - https://www.sfelections.org/results/20201103/data/20201112/summary.xml (validated against certified totals)'}
-- {'date': '2020-11-13', 'days': 10, 'night': False, 'total': 449318, 'pct': 99.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-11-13T16:01:51 - https://www.sfelections.org/results/20201103/data/20201113/summary.xml (validated against certified totals)'}
-- {'date': '2020-11-17', 'days': 14, 'night': False, 'total': 449365, 'pct': 99.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-11-17T16:12:04 - https://www.sfelections.org/results/20201103/data/20201117/summary.xml (validated against certified totals)'}
-- {'date': '2020-11-19', 'days': 16, 'night': False, 'total': 449558, 'pct': 99.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-11-19T15:51:14 - https://www.sfelections.org/results/20201103/data/20201119/summary.xml (validated against certified totals)'}
-- {'date': '2020-11-24', 'days': 21, 'night': False, 'total': 449825, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-11-24T16:01:54 - https://www.sfelections.org/results/20201103/data/20201124/summary.xml (validated against certified totals)'}
-- {'date': '2020-12-01', 'days': 28, 'night': False, 'total': 449866, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-12-01T16:45:18 - https://www.sfelections.org/results/20201103/data/20201201/summary.xml (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2020-11-04 | 1 | ✓ | 352,537 | 78.4% | SF Dept. of Elections results release — per-release summary report, reported 2020-11-04T00:44:46 - https://www.sfelections.org/results/20201103/data/20201103_4/summary.xml (validated against certified totals) |
+| 2020-11-04 | 1 |  | 353,572 | 78.6% | SF Dept. of Elections results release — per-release summary report, reported 2020-11-04T16:10:43 - https://www.sfelections.org/results/20201103/data/20201104/summary.xml (validated against certified totals) |
+| 2020-11-05 | 2 |  | 383,191 | 85.2% | SF Dept. of Elections results release — per-release summary report, reported 2020-11-05T15:59:19 - https://www.sfelections.org/results/20201103/data/20201105/summary.xml (validated against certified totals) |
+| 2020-11-06 | 3 |  | 419,050 | 93.1% | SF Dept. of Elections results release — per-release summary report, reported 2020-11-06T16:15:56 - https://www.sfelections.org/results/20201103/data/20201106/summary.xml (validated against certified totals) |
+| 2020-11-07 | 4 |  | 437,259 | 97.2% | SF Dept. of Elections results release — per-release summary report, reported 2020-11-07T16:21:21 - https://www.sfelections.org/results/20201103/data/20201107/summary.xml (validated against certified totals) |
+| 2020-11-08 | 5 |  | 443,435 | 98.6% | SF Dept. of Elections results release — per-release summary report, reported 2020-11-08T15:58:54 - https://www.sfelections.org/results/20201103/data/20201108/summary.xml (validated against certified totals) |
+| 2020-11-09 | 6 |  | 446,751 | 99.3% | SF Dept. of Elections results release — per-release summary report, reported 2020-11-09T16:04:13 - https://www.sfelections.org/results/20201103/data/20201109/summary.xml (validated against certified totals) |
+| 2020-11-10 | 7 |  | 448,485 | 99.7% | SF Dept. of Elections results release — per-release summary report, reported 2020-11-10T16:10:20 - https://www.sfelections.org/results/20201103/data/20201110/summary.xml (validated against certified totals) |
+| 2020-11-12 | 9 |  | 448,938 | 99.8% | SF Dept. of Elections results release — per-release summary report, reported 2020-11-12T15:49:42 - https://www.sfelections.org/results/20201103/data/20201112/summary.xml (validated against certified totals) |
+| 2020-11-13 | 10 |  | 449,318 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2020-11-13T16:01:51 - https://www.sfelections.org/results/20201103/data/20201113/summary.xml (validated against certified totals) |
+| 2020-11-17 | 14 |  | 449,365 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2020-11-17T16:12:04 - https://www.sfelections.org/results/20201103/data/20201117/summary.xml (validated against certified totals) |
+| 2020-11-19 | 16 |  | 449,558 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2020-11-19T15:51:14 - https://www.sfelections.org/results/20201103/data/20201119/summary.xml (validated against certified totals) |
+| 2020-11-24 | 21 |  | 449,825 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2020-11-24T16:01:54 - https://www.sfelections.org/results/20201103/data/20201124/summary.xml (validated against certified totals) |
+| 2020-12-01 | 28 |  | 449,866 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2020-12-01T16:45:18 - https://www.sfelections.org/results/20201103/data/20201201/summary.xml (validated against certified totals) |
 
 ---
 
@@ -678,9 +742,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2020-10-19', 'night': False, 'total': 521771, 'pct': 78.0, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/15day-gen-2020/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2020-10-19 |  |  | 521,771 | 78.0% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/15day-gen-2020/county.pdf |
 
 ---
 
@@ -688,21 +754,25 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2020-03-03`
 
+**Certified final:** 305,184
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2020-03-04', 'days': 1, 'night': True, 'total': 144667, 'pct': 47.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-03-04T00:53:02 - https://www.sfelections.org/results/20200303/data/20200303_4/summary.xml (validated against certified totals)'}
-- {'date': '2020-03-04', 'days': 1, 'night': False, 'total': 180205, 'pct': 59.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-03-04T16:11:41 - https://www.sfelections.org/results/20200303/data/20200304/summary.xml (validated against certified totals)'}
-- {'date': '2020-03-05', 'days': 2, 'night': False, 'total': 240682, 'pct': 78.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-03-05T17:29:39 - https://www.sfelections.org/results/20200303/data/20200305/summary.xml (validated against certified totals)'}
-- {'date': '2020-03-06', 'days': 3, 'night': False, 'total': 265722, 'pct': 87.1, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-03-06T16:04:41 - https://www.sfelections.org/results/20200303/data/20200306/summary.xml (validated against certified totals)'}
-- {'date': '2020-03-07', 'days': 4, 'night': False, 'total': 275200, 'pct': 90.2, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-03-07T15:58:08 - https://www.sfelections.org/results/20200303/data/20200307/summary.xml (validated against certified totals)'}
-- {'date': '2020-03-09', 'days': 6, 'night': False, 'total': 281975, 'pct': 92.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-03-09T16:07:31 - https://www.sfelections.org/results/20200303/data/20200309/summary.xml (validated against certified totals)'}
-- {'date': '2020-03-10', 'days': 7, 'night': False, 'total': 292944, 'pct': 96.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-03-10T16:09:02 - https://www.sfelections.org/results/20200303/data/20200310/summary.xml (validated against certified totals)'}
-- {'date': '2020-03-11', 'days': 8, 'night': False, 'total': 301449, 'pct': 98.8, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-03-11T15:50:56 - https://www.sfelections.org/results/20200303/data/20200311/summary.xml (validated against certified totals)'}
-- {'date': '2020-03-12', 'days': 9, 'night': False, 'total': 304730, 'pct': 99.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-03-12T16:20:50 - https://www.sfelections.org/results/20200303/data/20200312/summary.xml (validated against certified totals)'}
-- {'date': '2020-03-13', 'days': 10, 'night': False, 'total': 305148, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-03-13T16:20:49 - https://www.sfelections.org/results/20200303/data/20200313/summary.xml (validated against certified totals)'}
-- {'date': '2020-03-26', 'days': 23, 'night': False, 'total': 305184, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2020-03-26T00:00:00 - https://www.sfelections.org/results/20200303/data/20200326/summary.xml (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2020-03-04 | 1 | ✓ | 144,667 | 47.4% | SF Dept. of Elections results release — per-release summary report, reported 2020-03-04T00:53:02 - https://www.sfelections.org/results/20200303/data/20200303_4/summary.xml (validated against certified totals) |
+| 2020-03-04 | 1 |  | 180,205 | 59.0% | SF Dept. of Elections results release — per-release summary report, reported 2020-03-04T16:11:41 - https://www.sfelections.org/results/20200303/data/20200304/summary.xml (validated against certified totals) |
+| 2020-03-05 | 2 |  | 240,682 | 78.9% | SF Dept. of Elections results release — per-release summary report, reported 2020-03-05T17:29:39 - https://www.sfelections.org/results/20200303/data/20200305/summary.xml (validated against certified totals) |
+| 2020-03-06 | 3 |  | 265,722 | 87.1% | SF Dept. of Elections results release — per-release summary report, reported 2020-03-06T16:04:41 - https://www.sfelections.org/results/20200303/data/20200306/summary.xml (validated against certified totals) |
+| 2020-03-07 | 4 |  | 275,200 | 90.2% | SF Dept. of Elections results release — per-release summary report, reported 2020-03-07T15:58:08 - https://www.sfelections.org/results/20200303/data/20200307/summary.xml (validated against certified totals) |
+| 2020-03-09 | 6 |  | 281,975 | 92.4% | SF Dept. of Elections results release — per-release summary report, reported 2020-03-09T16:07:31 - https://www.sfelections.org/results/20200303/data/20200309/summary.xml (validated against certified totals) |
+| 2020-03-10 | 7 |  | 292,944 | 96.0% | SF Dept. of Elections results release — per-release summary report, reported 2020-03-10T16:09:02 - https://www.sfelections.org/results/20200303/data/20200310/summary.xml (validated against certified totals) |
+| 2020-03-11 | 8 |  | 301,449 | 98.8% | SF Dept. of Elections results release — per-release summary report, reported 2020-03-11T15:50:56 - https://www.sfelections.org/results/20200303/data/20200311/summary.xml (validated against certified totals) |
+| 2020-03-12 | 9 |  | 304,730 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2020-03-12T16:20:50 - https://www.sfelections.org/results/20200303/data/20200312/summary.xml (validated against certified totals) |
+| 2020-03-13 | 10 |  | 305,148 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2020-03-13T16:20:49 - https://www.sfelections.org/results/20200303/data/20200313/summary.xml (validated against certified totals) |
+| 2020-03-26 | 23 |  | 305,184 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2020-03-26T00:00:00 - https://www.sfelections.org/results/20200303/data/20200326/summary.xml (validated against certified totals) |
 
 ---
 
@@ -714,9 +784,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2020-02-18', 'night': False, 'total': 505246, 'pct': 76.9, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/15day-presprim-2020/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2020-02-18 |  |  | 505,246 | 76.9% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/15day-presprim-2020/county.pdf |
 
 ---
 
@@ -724,20 +796,24 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2019-11-05`
 
+**Certified final:** 206,122
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2019-11-06', 'days': 1, 'night': True, 'total': 115183, 'pct': 55.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2019-11-06T00:32:09 - https://www.sfelections.org/results/20191105/data/20191105_4/summary.xml (validated against certified totals)'}
-- {'date': '2019-11-06', 'days': 1, 'night': False, 'total': 133638, 'pct': 64.8, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2019-11-06T16:04:30 - https://www.sfelections.org/results/20191105/data/20191106/summary.xml (validated against certified totals)'}
-- {'date': '2019-11-07', 'days': 2, 'night': False, 'total': 163743, 'pct': 79.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2019-11-07T16:03:52 - https://www.sfelections.org/results/20191105/data/20191107/summary.xml (validated against certified totals)'}
-- {'date': '2019-11-08', 'days': 3, 'night': False, 'total': 190504, 'pct': 92.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2019-11-08T16:34:10 - https://www.sfelections.org/results/20191105/data/20191108/summary.xml (validated against certified totals)'}
-- {'date': '2019-11-09', 'days': 4, 'night': False, 'total': 204791, 'pct': 99.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2019-11-09T15:55:43 - https://www.sfelections.org/results/20191105/data/20191109/summary.xml (validated against certified totals)'}
-- {'date': '2019-11-10', 'days': 5, 'night': False, 'total': 206025, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2019-11-10T15:57:24 - https://www.sfelections.org/results/20191105/data/20191110/summary.xml (validated against certified totals)'}
-- {'date': '2019-11-12', 'days': 7, 'night': False, 'total': 206039, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2019-11-12T16:00:44 - https://www.sfelections.org/results/20191105/data/20191112/summary.xml (validated against certified totals)'}
-- {'date': '2019-11-13', 'days': 8, 'night': False, 'total': 206050, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2019-11-13T16:06:40 - https://www.sfelections.org/results/20191105/data/20191113/summary.xml (validated against certified totals)'}
-- {'date': '2019-11-14', 'days': 9, 'night': False, 'total': 206090, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2019-11-14T16:08:14 - https://www.sfelections.org/results/20191105/data/20191114/summary.xml (validated against certified totals)'}
-- {'date': '2019-11-26', 'days': 21, 'night': False, 'total': 206122, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2019-11-26T15:39:22 - https://www.sfelections.org/results/20191105/data/20191125/summary.xml (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2019-11-06 | 1 | ✓ | 115,183 | 55.9% | SF Dept. of Elections results release — per-release summary report, reported 2019-11-06T00:32:09 - https://www.sfelections.org/results/20191105/data/20191105_4/summary.xml (validated against certified totals) |
+| 2019-11-06 | 1 |  | 133,638 | 64.8% | SF Dept. of Elections results release — per-release summary report, reported 2019-11-06T16:04:30 - https://www.sfelections.org/results/20191105/data/20191106/summary.xml (validated against certified totals) |
+| 2019-11-07 | 2 |  | 163,743 | 79.4% | SF Dept. of Elections results release — per-release summary report, reported 2019-11-07T16:03:52 - https://www.sfelections.org/results/20191105/data/20191107/summary.xml (validated against certified totals) |
+| 2019-11-08 | 3 |  | 190,504 | 92.4% | SF Dept. of Elections results release — per-release summary report, reported 2019-11-08T16:34:10 - https://www.sfelections.org/results/20191105/data/20191108/summary.xml (validated against certified totals) |
+| 2019-11-09 | 4 |  | 204,791 | 99.4% | SF Dept. of Elections results release — per-release summary report, reported 2019-11-09T15:55:43 - https://www.sfelections.org/results/20191105/data/20191109/summary.xml (validated against certified totals) |
+| 2019-11-10 | 5 |  | 206,025 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2019-11-10T15:57:24 - https://www.sfelections.org/results/20191105/data/20191110/summary.xml (validated against certified totals) |
+| 2019-11-12 | 7 |  | 206,039 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2019-11-12T16:00:44 - https://www.sfelections.org/results/20191105/data/20191112/summary.xml (validated against certified totals) |
+| 2019-11-13 | 8 |  | 206,050 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2019-11-13T16:06:40 - https://www.sfelections.org/results/20191105/data/20191113/summary.xml (validated against certified totals) |
+| 2019-11-14 | 9 |  | 206,090 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2019-11-14T16:08:14 - https://www.sfelections.org/results/20191105/data/20191114/summary.xml (validated against certified totals) |
+| 2019-11-26 | 21 |  | 206,122 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2019-11-26T15:39:22 - https://www.sfelections.org/results/20191105/data/20191125/summary.xml (validated against certified totals) |
 
 ---
 
@@ -749,9 +825,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2019-02-10', 'night': False, 'total': 493455, 'pct': 74.5, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2019/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2019-02-10 |  |  | 493,455 | 74.5% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-odd-year-2019/county.pdf |
 
 ---
 
@@ -759,26 +837,30 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2018-11-06`
 
+**Certified final:** 372,848
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2018-11-07', 'days': 1, 'night': True, 'total': 221151, 'pct': 59.3, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-07T01:00:13 - https://www.sfelections.org/results/20181106/data/20181106_4/summary.txt (validated against certified totals)'}
-- {'date': '2018-11-07', 'days': 1, 'night': False, 'total': 235393, 'pct': 63.1, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-07T15:56:53 - https://www.sfelections.org/results/20181106/data/20181107/summary.txt (validated against certified totals)'}
-- {'date': '2018-11-08', 'days': 2, 'night': False, 'total': 242704, 'pct': 65.1, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-08T15:59:15 - https://www.sfelections.org/results/20181106/data/20181108/summary.txt (validated against certified totals)'}
-- {'date': '2018-11-09', 'days': 3, 'night': False, 'total': 252945, 'pct': 67.8, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-09T15:55:11 - https://www.sfelections.org/results/20181106/data/20181109/summary.txt (validated against certified totals)'}
-- {'date': '2018-11-10', 'days': 4, 'night': False, 'total': 273520, 'pct': 73.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-10T15:44:19 - https://www.sfelections.org/results/20181106/data/20181110/summary.txt (validated against certified totals)'}
-- {'date': '2018-11-11', 'days': 5, 'night': False, 'total': 300277, 'pct': 80.5, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-11T15:49:50 - https://www.sfelections.org/results/20181106/data/20181111/summary.txt (validated against certified totals)'}
-- {'date': '2018-11-12', 'days': 6, 'night': False, 'total': 323320, 'pct': 86.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-12T16:07:49 - https://www.sfelections.org/results/20181106/data/20181112/summary.txt (validated against certified totals)'}
-- {'date': '2018-11-13', 'days': 7, 'night': False, 'total': 338348, 'pct': 90.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-13T15:49:34 - https://www.sfelections.org/results/20181106/data/20181113/summary.txt (validated against certified totals)'}
-- {'date': '2018-11-14', 'days': 8, 'night': False, 'total': 345806, 'pct': 92.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-14T15:38:03 - https://www.sfelections.org/results/20181106/data/20181114/summary.txt (validated against certified totals)'}
-- {'date': '2018-11-15', 'days': 9, 'night': False, 'total': 357443, 'pct': 95.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-15T15:51:31 - https://www.sfelections.org/results/20181106/data/20181115/summary.txt (validated against certified totals)'}
-- {'date': '2018-11-16', 'days': 10, 'night': False, 'total': 365404, 'pct': 98.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-16T16:27:52 - https://www.sfelections.org/results/20181106/data/20181116/summary.txt (validated against certified totals)'}
-- {'date': '2018-11-17', 'days': 11, 'night': False, 'total': 370703, 'pct': 99.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-17T16:00:11 - https://www.sfelections.org/results/20181106/data/20181117/summary.txt (validated against certified totals)'}
-- {'date': '2018-11-19', 'days': 13, 'night': False, 'total': 371919, 'pct': 99.8, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-19T16:06:48 - https://www.sfelections.org/results/20181106/data/20181119/summary.txt (validated against certified totals)'}
-- {'date': '2018-11-20', 'days': 14, 'night': False, 'total': 372461, 'pct': 99.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-20T16:01:32 - https://www.sfelections.org/results/20181106/data/20181120/summary.txt (validated against certified totals)'}
-- {'date': '2018-11-26', 'days': 20, 'night': False, 'total': 372848, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-26T15:54:53 - https://www.sfelections.org/results/20181106/data/20181126/summary.txt (validated against certified totals)'}
-- {'date': '2018-11-27', 'days': 21, 'night': False, 'total': 372848, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-11-27T15:46:48 - https://www.sfelections.org/results/20181106/data/20181127/summary.txt (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2018-11-07 | 1 | ✓ | 221,151 | 59.3% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-07T01:00:13 - https://www.sfelections.org/results/20181106/data/20181106_4/summary.txt (validated against certified totals) |
+| 2018-11-07 | 1 |  | 235,393 | 63.1% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-07T15:56:53 - https://www.sfelections.org/results/20181106/data/20181107/summary.txt (validated against certified totals) |
+| 2018-11-08 | 2 |  | 242,704 | 65.1% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-08T15:59:15 - https://www.sfelections.org/results/20181106/data/20181108/summary.txt (validated against certified totals) |
+| 2018-11-09 | 3 |  | 252,945 | 67.8% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-09T15:55:11 - https://www.sfelections.org/results/20181106/data/20181109/summary.txt (validated against certified totals) |
+| 2018-11-10 | 4 |  | 273,520 | 73.4% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-10T15:44:19 - https://www.sfelections.org/results/20181106/data/20181110/summary.txt (validated against certified totals) |
+| 2018-11-11 | 5 |  | 300,277 | 80.5% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-11T15:49:50 - https://www.sfelections.org/results/20181106/data/20181111/summary.txt (validated against certified totals) |
+| 2018-11-12 | 6 |  | 323,320 | 86.7% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-12T16:07:49 - https://www.sfelections.org/results/20181106/data/20181112/summary.txt (validated against certified totals) |
+| 2018-11-13 | 7 |  | 338,348 | 90.7% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-13T15:49:34 - https://www.sfelections.org/results/20181106/data/20181113/summary.txt (validated against certified totals) |
+| 2018-11-14 | 8 |  | 345,806 | 92.7% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-14T15:38:03 - https://www.sfelections.org/results/20181106/data/20181114/summary.txt (validated against certified totals) |
+| 2018-11-15 | 9 |  | 357,443 | 95.9% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-15T15:51:31 - https://www.sfelections.org/results/20181106/data/20181115/summary.txt (validated against certified totals) |
+| 2018-11-16 | 10 |  | 365,404 | 98.0% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-16T16:27:52 - https://www.sfelections.org/results/20181106/data/20181116/summary.txt (validated against certified totals) |
+| 2018-11-17 | 11 |  | 370,703 | 99.4% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-17T16:00:11 - https://www.sfelections.org/results/20181106/data/20181117/summary.txt (validated against certified totals) |
+| 2018-11-19 | 13 |  | 371,919 | 99.8% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-19T16:06:48 - https://www.sfelections.org/results/20181106/data/20181119/summary.txt (validated against certified totals) |
+| 2018-11-20 | 14 |  | 372,461 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-20T16:01:32 - https://www.sfelections.org/results/20181106/data/20181120/summary.txt (validated against certified totals) |
+| 2018-11-26 | 20 |  | 372,848 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-26T15:54:53 - https://www.sfelections.org/results/20181106/data/20181126/summary.txt (validated against certified totals) |
+| 2018-11-27 | 21 |  | 372,848 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2018-11-27T15:46:48 - https://www.sfelections.org/results/20181106/data/20181127/summary.txt (validated against certified totals) |
 
 ---
 
@@ -790,9 +872,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2018-10-22', 'night': False, 'total': 500051, 'pct': 75.7, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/15day-gen-2018/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2018-10-22 |  |  | 500,051 | 75.7% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/15day-gen-2018/county.pdf |
 
 ---
 
@@ -800,24 +884,28 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2018-06-05`
 
+**Certified final:** 253,583
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2018-06-06', 'days': 1, 'night': True, 'total': 154290, 'pct': 60.8, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-06-06T00:10:36 - https://www.sfelections.org/results/20180605/data/20180605_4/summary.txt (validated against certified totals)'}
-- {'date': '2018-06-06', 'days': 1, 'night': False, 'total': 158944, 'pct': 62.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-06-06T15:58:04 - https://www.sfelections.org/results/20180605/data/20180606/summary.txt (validated against certified totals)'}
-- {'date': '2018-06-07', 'days': 2, 'night': False, 'total': 167009, 'pct': 65.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-06-07T16:03:59 - https://www.sfelections.org/results/20180605/data/20180607/summary.txt (validated against certified totals)'}
-- {'date': '2018-06-08', 'days': 3, 'night': False, 'total': 186484, 'pct': 73.5, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-06-08T16:05:02 - https://www.sfelections.org/results/20180605/data/20180608/summary.txt (validated against certified totals)'}
-- {'date': '2018-06-09', 'days': 4, 'night': False, 'total': 209697, 'pct': 82.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-06-09T16:01:22 - https://www.sfelections.org/results/20180605/data/20180609/summary.txt (validated against certified totals)'}
-- {'date': '2018-06-10', 'days': 5, 'night': False, 'total': 226124, 'pct': 89.2, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-06-10T15:57:20 - https://www.sfelections.org/results/20180605/data/20180610/summary.txt (validated against certified totals)'}
-- {'date': '2018-06-11', 'days': 6, 'night': False, 'total': 235190, 'pct': 92.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-06-11T15:49:19 - https://www.sfelections.org/results/20180605/data/20180611/summary.txt (validated against certified totals)'}
-- {'date': '2018-06-12', 'days': 7, 'night': False, 'total': 244398, 'pct': 96.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-06-12T15:43:23 - https://www.sfelections.org/results/20180605/data/20180612/summary.txt (validated against certified totals)'}
-- {'date': '2018-06-13', 'days': 8, 'night': False, 'total': 247160, 'pct': 97.5, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-06-13T15:48:11 - https://www.sfelections.org/results/20180605/data/20180613/summary.txt (validated against certified totals)'}
-- {'date': '2018-06-14', 'days': 9, 'night': False, 'total': 249573, 'pct': 98.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-06-14T15:56:00 - https://www.sfelections.org/results/20180605/data/20180614/summary.txt (validated against certified totals)'}
-- {'date': '2018-06-15', 'days': 10, 'night': False, 'total': 252919, 'pct': 99.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-06-15T16:06:39 - https://www.sfelections.org/results/20180605/data/20180615/summary.txt (validated against certified totals)'}
-- {'date': '2018-06-18', 'days': 13, 'night': False, 'total': 253582, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-06-18T16:30:27 - https://www.sfelections.org/results/20180605/data/20180618/summary.txt (validated against certified totals)'}
-- {'date': '2018-06-21', 'days': 16, 'night': False, 'total': 253583, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-06-21T16:08:39 - https://www.sfelections.org/results/20180605/data/20180621/summary.txt (validated against certified totals)'}
-- {'date': '2018-06-27', 'days': 22, 'night': False, 'total': 253583, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2018-06-27T15:54:03 - https://www.sfelections.org/results/20180605/data/20180627/summary.txt (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2018-06-06 | 1 | ✓ | 154,290 | 60.8% | SF Dept. of Elections results release — per-release summary report, reported 2018-06-06T00:10:36 - https://www.sfelections.org/results/20180605/data/20180605_4/summary.txt (validated against certified totals) |
+| 2018-06-06 | 1 |  | 158,944 | 62.7% | SF Dept. of Elections results release — per-release summary report, reported 2018-06-06T15:58:04 - https://www.sfelections.org/results/20180605/data/20180606/summary.txt (validated against certified totals) |
+| 2018-06-07 | 2 |  | 167,009 | 65.9% | SF Dept. of Elections results release — per-release summary report, reported 2018-06-07T16:03:59 - https://www.sfelections.org/results/20180605/data/20180607/summary.txt (validated against certified totals) |
+| 2018-06-08 | 3 |  | 186,484 | 73.5% | SF Dept. of Elections results release — per-release summary report, reported 2018-06-08T16:05:02 - https://www.sfelections.org/results/20180605/data/20180608/summary.txt (validated against certified totals) |
+| 2018-06-09 | 4 |  | 209,697 | 82.7% | SF Dept. of Elections results release — per-release summary report, reported 2018-06-09T16:01:22 - https://www.sfelections.org/results/20180605/data/20180609/summary.txt (validated against certified totals) |
+| 2018-06-10 | 5 |  | 226,124 | 89.2% | SF Dept. of Elections results release — per-release summary report, reported 2018-06-10T15:57:20 - https://www.sfelections.org/results/20180605/data/20180610/summary.txt (validated against certified totals) |
+| 2018-06-11 | 6 |  | 235,190 | 92.7% | SF Dept. of Elections results release — per-release summary report, reported 2018-06-11T15:49:19 - https://www.sfelections.org/results/20180605/data/20180611/summary.txt (validated against certified totals) |
+| 2018-06-12 | 7 |  | 244,398 | 96.4% | SF Dept. of Elections results release — per-release summary report, reported 2018-06-12T15:43:23 - https://www.sfelections.org/results/20180605/data/20180612/summary.txt (validated against certified totals) |
+| 2018-06-13 | 8 |  | 247,160 | 97.5% | SF Dept. of Elections results release — per-release summary report, reported 2018-06-13T15:48:11 - https://www.sfelections.org/results/20180605/data/20180613/summary.txt (validated against certified totals) |
+| 2018-06-14 | 9 |  | 249,573 | 98.4% | SF Dept. of Elections results release — per-release summary report, reported 2018-06-14T15:56:00 - https://www.sfelections.org/results/20180605/data/20180614/summary.txt (validated against certified totals) |
+| 2018-06-15 | 10 |  | 252,919 | 99.7% | SF Dept. of Elections results release — per-release summary report, reported 2018-06-15T16:06:39 - https://www.sfelections.org/results/20180605/data/20180615/summary.txt (validated against certified totals) |
+| 2018-06-18 | 13 |  | 253,582 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2018-06-18T16:30:27 - https://www.sfelections.org/results/20180605/data/20180618/summary.txt (validated against certified totals) |
+| 2018-06-21 | 16 |  | 253,583 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2018-06-21T16:08:39 - https://www.sfelections.org/results/20180605/data/20180621/summary.txt (validated against certified totals) |
+| 2018-06-27 | 22 |  | 253,583 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2018-06-27T15:54:03 - https://www.sfelections.org/results/20180605/data/20180627/summary.txt (validated against certified totals) |
 
 ---
 
@@ -829,9 +917,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2018-05-21', 'night': False, 'total': 481977, 'pct': 73.3, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/15day-stwddirprim-2018/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2018-05-21 |  |  | 481,977 | 73.3% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/15day-stwddirprim-2018/county.pdf |
 
 ---
 
@@ -843,9 +933,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2017-02-10', 'night': False, 'total': 513401, 'pct': 79.1, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-2017/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2017-02-10 |  |  | 513,401 | 79.1% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-2017/county.pdf |
 
 ---
 
@@ -853,29 +945,33 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2016-11-08`
 
+**Certified final:** 414,528
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2016-11-09', 'days': 1, 'night': True, 'total': 274207, 'pct': 66.1, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-09T00:01:46 - https://www.sfelections.org/results/20161108/data/20161108_4/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-09', 'days': 1, 'night': False, 'total': 277331, 'pct': 66.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-09T15:59:55 - https://www.sfelections.org/results/20161108/data/20161109/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-10', 'days': 2, 'night': False, 'total': 283049, 'pct': 68.3, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-10T16:01:57 - https://www.sfelections.org/results/20161108/data/20161110/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-11', 'days': 3, 'night': False, 'total': 286975, 'pct': 69.2, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-11T15:40:19 - https://www.sfelections.org/results/20161108/data/20161111/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-12', 'days': 4, 'night': False, 'total': 296564, 'pct': 71.5, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-12T16:12:41 - https://www.sfelections.org/results/20161108/data/20161112/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-13', 'days': 5, 'night': False, 'total': 312183, 'pct': 75.3, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-13T16:09:41 - https://www.sfelections.org/results/20161108/data/20161113/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-14', 'days': 6, 'night': False, 'total': 324258, 'pct': 78.2, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-14T15:58:30 - https://www.sfelections.org/results/20161108/data/20161114/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-15', 'days': 7, 'night': False, 'total': 340701, 'pct': 82.2, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-15T16:06:42 - https://www.sfelections.org/results/20161108/data/20161115/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-16', 'days': 8, 'night': False, 'total': 357025, 'pct': 86.1, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-16T15:57:09 - https://www.sfelections.org/results/20161108/data/20161116/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-17', 'days': 9, 'night': False, 'total': 374822, 'pct': 90.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-17T16:29:02 - https://www.sfelections.org/results/20161108/data/20161117/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-18', 'days': 10, 'night': False, 'total': 385049, 'pct': 92.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-18T16:14:28 - https://www.sfelections.org/results/20161108/data/20161118/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-19', 'days': 11, 'night': False, 'total': 393318, 'pct': 94.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-19T15:57:07 - https://www.sfelections.org/results/20161108/data/20161119/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-20', 'days': 12, 'night': False, 'total': 396891, 'pct': 95.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-20T15:54:24 - https://www.sfelections.org/results/20161108/data/20161120/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-21', 'days': 13, 'night': False, 'total': 406193, 'pct': 98.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-21T16:00:43 - https://www.sfelections.org/results/20161108/data/20161121/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-22', 'days': 14, 'night': False, 'total': 414189, 'pct': 99.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-22T17:37:38 - https://www.sfelections.org/results/20161108/data/20161122/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-23', 'days': 15, 'night': False, 'total': 414516, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-23T15:55:07 - https://www.sfelections.org/results/20161108/data/20161123/summary.txt (validated against certified totals)'}
-- {'date': '2016-11-28', 'days': 20, 'night': False, 'total': 414516, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-11-28T16:56:09 - https://www.sfelections.org/results/20161108/data/20161128/summary.txt (validated against certified totals)'}
-- {'date': '2016-12-01', 'days': 23, 'night': False, 'total': 414528, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-12-01T16:00:47 - https://www.sfelections.org/results/20161108/data/20161201/summary.txt (validated against certified totals)'}
-- {'date': '2016-12-06', 'days': 28, 'night': False, 'total': 414528, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-12-06T14:23:57 - https://www.sfelections.org/results/20161108/data/20161206/summary.txt (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2016-11-09 | 1 | ✓ | 274,207 | 66.1% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-09T00:01:46 - https://www.sfelections.org/results/20161108/data/20161108_4/summary.txt (validated against certified totals) |
+| 2016-11-09 | 1 |  | 277,331 | 66.9% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-09T15:59:55 - https://www.sfelections.org/results/20161108/data/20161109/summary.txt (validated against certified totals) |
+| 2016-11-10 | 2 |  | 283,049 | 68.3% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-10T16:01:57 - https://www.sfelections.org/results/20161108/data/20161110/summary.txt (validated against certified totals) |
+| 2016-11-11 | 3 |  | 286,975 | 69.2% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-11T15:40:19 - https://www.sfelections.org/results/20161108/data/20161111/summary.txt (validated against certified totals) |
+| 2016-11-12 | 4 |  | 296,564 | 71.5% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-12T16:12:41 - https://www.sfelections.org/results/20161108/data/20161112/summary.txt (validated against certified totals) |
+| 2016-11-13 | 5 |  | 312,183 | 75.3% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-13T16:09:41 - https://www.sfelections.org/results/20161108/data/20161113/summary.txt (validated against certified totals) |
+| 2016-11-14 | 6 |  | 324,258 | 78.2% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-14T15:58:30 - https://www.sfelections.org/results/20161108/data/20161114/summary.txt (validated against certified totals) |
+| 2016-11-15 | 7 |  | 340,701 | 82.2% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-15T16:06:42 - https://www.sfelections.org/results/20161108/data/20161115/summary.txt (validated against certified totals) |
+| 2016-11-16 | 8 |  | 357,025 | 86.1% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-16T15:57:09 - https://www.sfelections.org/results/20161108/data/20161116/summary.txt (validated against certified totals) |
+| 2016-11-17 | 9 |  | 374,822 | 90.4% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-17T16:29:02 - https://www.sfelections.org/results/20161108/data/20161117/summary.txt (validated against certified totals) |
+| 2016-11-18 | 10 |  | 385,049 | 92.9% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-18T16:14:28 - https://www.sfelections.org/results/20161108/data/20161118/summary.txt (validated against certified totals) |
+| 2016-11-19 | 11 |  | 393,318 | 94.9% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-19T15:57:07 - https://www.sfelections.org/results/20161108/data/20161119/summary.txt (validated against certified totals) |
+| 2016-11-20 | 12 |  | 396,891 | 95.7% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-20T15:54:24 - https://www.sfelections.org/results/20161108/data/20161120/summary.txt (validated against certified totals) |
+| 2016-11-21 | 13 |  | 406,193 | 98.0% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-21T16:00:43 - https://www.sfelections.org/results/20161108/data/20161121/summary.txt (validated against certified totals) |
+| 2016-11-22 | 14 |  | 414,189 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-22T17:37:38 - https://www.sfelections.org/results/20161108/data/20161122/summary.txt (validated against certified totals) |
+| 2016-11-23 | 15 |  | 414,516 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-23T15:55:07 - https://www.sfelections.org/results/20161108/data/20161123/summary.txt (validated against certified totals) |
+| 2016-11-28 | 20 |  | 414,516 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2016-11-28T16:56:09 - https://www.sfelections.org/results/20161108/data/20161128/summary.txt (validated against certified totals) |
+| 2016-12-01 | 23 |  | 414,528 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2016-12-01T16:00:47 - https://www.sfelections.org/results/20161108/data/20161201/summary.txt (validated against certified totals) |
+| 2016-12-06 | 28 |  | 414,528 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2016-12-06T14:23:57 - https://www.sfelections.org/results/20161108/data/20161206/summary.txt (validated against certified totals) |
 
 ---
 
@@ -887,9 +983,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2016-10-24', 'night': False, 'total': 512723, 'pct': 79.3, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-16/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2016-10-24 |  |  | 512,723 | 79.3% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-16/county.pdf |
 
 ---
 
@@ -897,23 +995,27 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2016-06-07`
 
+**Certified final:** 264,993
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2016-06-08', 'days': 1, 'night': True, 'total': 193038, 'pct': 72.8, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-06-08T00:00:00 - https://www.sfelections.org/results/20160607/data/20160608/summary.txt (validated against certified totals)'}
-- {'date': '2016-06-09', 'days': 2, 'night': False, 'total': 210509, 'pct': 79.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-06-09T00:00:00 - https://www.sfelections.org/results/20160607/data/20160609/summary.txt (validated against certified totals)'}
-- {'date': '2016-06-10', 'days': 3, 'night': False, 'total': 225014, 'pct': 84.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-06-10T00:00:00 - https://www.sfelections.org/results/20160607/data/20160610/summary.txt (validated against certified totals)'}
-- {'date': '2016-06-11', 'days': 4, 'night': False, 'total': 238960, 'pct': 90.2, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-06-11T00:00:00 - https://www.sfelections.org/results/20160607/data/20160611/summary.txt (validated against certified totals)'}
-- {'date': '2016-06-12', 'days': 5, 'night': False, 'total': 241026, 'pct': 91.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-06-12T00:00:00 - https://www.sfelections.org/results/20160607/data/20160612/summary.txt (validated against certified totals)'}
-- {'date': '2016-06-13', 'days': 6, 'night': False, 'total': 244141, 'pct': 92.1, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-06-13T00:00:00 - https://www.sfelections.org/results/20160607/data/20160613/summary.txt (validated against certified totals)'}
-- {'date': '2016-06-14', 'days': 7, 'night': False, 'total': 246506, 'pct': 93.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-06-14T00:00:00 - https://www.sfelections.org/results/20160607/data/20160614/summary.txt (validated against certified totals)'}
-- {'date': '2016-06-15', 'days': 8, 'night': False, 'total': 254160, 'pct': 95.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-06-15T00:00:00 - https://www.sfelections.org/results/20160607/data/20160615/summary.txt (validated against certified totals)'}
-- {'date': '2016-06-16', 'days': 9, 'night': False, 'total': 256967, 'pct': 97.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-06-16T00:00:00 - https://www.sfelections.org/results/20160607/data/20160616/summary.txt (validated against certified totals)'}
-- {'date': '2016-06-17', 'days': 10, 'night': False, 'total': 260107, 'pct': 98.2, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-06-17T00:00:00 - https://www.sfelections.org/results/20160607/data/20160617/summary.txt (validated against certified totals)'}
-- {'date': '2016-06-20', 'days': 13, 'night': False, 'total': 264175, 'pct': 99.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-06-20T00:00:00 - https://www.sfelections.org/results/20160607/data/20160620/summary.txt (validated against certified totals)'}
-- {'date': '2016-06-21', 'days': 14, 'night': False, 'total': 264993, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-06-21T00:00:00 - https://www.sfelections.org/results/20160607/data/20160621/summary.txt (validated against certified totals)'}
-- {'date': '2016-06-24', 'days': 17, 'night': False, 'total': 264993, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2016-06-24T00:00:00 - https://www.sfelections.org/results/20160607/data/20160624/summary.txt (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2016-06-08 | 1 | ✓ | 193,038 | 72.8% | SF Dept. of Elections results release — per-release summary report, reported 2016-06-08T00:00:00 - https://www.sfelections.org/results/20160607/data/20160608/summary.txt (validated against certified totals) |
+| 2016-06-09 | 2 |  | 210,509 | 79.4% | SF Dept. of Elections results release — per-release summary report, reported 2016-06-09T00:00:00 - https://www.sfelections.org/results/20160607/data/20160609/summary.txt (validated against certified totals) |
+| 2016-06-10 | 3 |  | 225,014 | 84.9% | SF Dept. of Elections results release — per-release summary report, reported 2016-06-10T00:00:00 - https://www.sfelections.org/results/20160607/data/20160610/summary.txt (validated against certified totals) |
+| 2016-06-11 | 4 |  | 238,960 | 90.2% | SF Dept. of Elections results release — per-release summary report, reported 2016-06-11T00:00:00 - https://www.sfelections.org/results/20160607/data/20160611/summary.txt (validated against certified totals) |
+| 2016-06-12 | 5 |  | 241,026 | 91.0% | SF Dept. of Elections results release — per-release summary report, reported 2016-06-12T00:00:00 - https://www.sfelections.org/results/20160607/data/20160612/summary.txt (validated against certified totals) |
+| 2016-06-13 | 6 |  | 244,141 | 92.1% | SF Dept. of Elections results release — per-release summary report, reported 2016-06-13T00:00:00 - https://www.sfelections.org/results/20160607/data/20160613/summary.txt (validated against certified totals) |
+| 2016-06-14 | 7 |  | 246,506 | 93.0% | SF Dept. of Elections results release — per-release summary report, reported 2016-06-14T00:00:00 - https://www.sfelections.org/results/20160607/data/20160614/summary.txt (validated against certified totals) |
+| 2016-06-15 | 8 |  | 254,160 | 95.9% | SF Dept. of Elections results release — per-release summary report, reported 2016-06-15T00:00:00 - https://www.sfelections.org/results/20160607/data/20160615/summary.txt (validated against certified totals) |
+| 2016-06-16 | 9 |  | 256,967 | 97.0% | SF Dept. of Elections results release — per-release summary report, reported 2016-06-16T00:00:00 - https://www.sfelections.org/results/20160607/data/20160616/summary.txt (validated against certified totals) |
+| 2016-06-17 | 10 |  | 260,107 | 98.2% | SF Dept. of Elections results release — per-release summary report, reported 2016-06-17T00:00:00 - https://www.sfelections.org/results/20160607/data/20160617/summary.txt (validated against certified totals) |
+| 2016-06-20 | 13 |  | 264,175 | 99.7% | SF Dept. of Elections results release — per-release summary report, reported 2016-06-20T00:00:00 - https://www.sfelections.org/results/20160607/data/20160620/summary.txt (validated against certified totals) |
+| 2016-06-21 | 14 |  | 264,993 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2016-06-21T00:00:00 - https://www.sfelections.org/results/20160607/data/20160621/summary.txt (validated against certified totals) |
+| 2016-06-24 | 17 |  | 264,993 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2016-06-24T00:00:00 - https://www.sfelections.org/results/20160607/data/20160624/summary.txt (validated against certified totals) |
 
 ---
 
@@ -925,9 +1027,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2016-05-23', 'night': False, 'total': 462927, 'pct': 71.9, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/15day-presprim-2016/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2016-05-23 |  |  | 462,927 | 71.9% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/15day-presprim-2016/county.pdf |
 
 ---
 
@@ -935,22 +1039,26 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2015-11-03`
 
+**Certified final:** 203,069
+
 **Source:** SF Dept. of Elections certified results
 
-**Observations:**
+**Observations**
 
-- {'date': '2015-11-04', 'days': 1, 'night': True, 'total': 140946, 'pct': 69.4, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2015-11-04T00:00:00 - https://www.sfelections.org/results/20151103/data/20151104/summary.txt (validated against certified totals)'}
-- {'date': '2015-11-05', 'days': 2, 'night': False, 'total': 155675, 'pct': 76.7, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2015-11-05T00:00:00 - https://www.sfelections.org/results/20151103/data/20151105/summary.txt (validated against certified totals)'}
-- {'date': '2015-11-06', 'days': 3, 'night': False, 'total': 172153, 'pct': 84.8, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2015-11-06T00:00:00 - https://www.sfelections.org/results/20151103/data/20151106/summary.txt (validated against certified totals)'}
-- {'date': '2015-11-07', 'days': 4, 'night': False, 'total': 179713, 'pct': 88.5, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2015-11-07T00:00:00 - https://www.sfelections.org/results/20151103/data/20151107/summary.txt (validated against certified totals)'}
-- {'date': '2015-11-08', 'days': 5, 'night': False, 'total': 181240, 'pct': 89.3, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2015-11-08T00:00:00 - https://www.sfelections.org/results/20151103/data/20151108/summary.txt (validated against certified totals)'}
-- {'date': '2015-11-09', 'days': 6, 'night': False, 'total': 186863, 'pct': 92.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2015-11-09T00:00:00 - https://www.sfelections.org/results/20151103/data/20151109/summary.txt (validated against certified totals)'}
-- {'date': '2015-11-10', 'days': 7, 'night': False, 'total': 195117, 'pct': 96.1, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2015-11-10T00:00:00 - https://www.sfelections.org/results/20151103/data/20151110/summary.txt (validated against certified totals)'}
-- {'date': '2015-11-11', 'days': 8, 'night': False, 'total': 197264, 'pct': 97.1, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2015-11-11T00:00:00 - https://www.sfelections.org/results/20151103/data/20151111/summary.txt (validated against certified totals)'}
-- {'date': '2015-11-12', 'days': 9, 'night': False, 'total': 202914, 'pct': 99.9, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2015-11-12T00:00:00 - https://www.sfelections.org/results/20151103/data/20151112/summary.txt (validated against certified totals)'}
-- {'date': '2015-11-13', 'days': 10, 'night': False, 'total': 203069, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2015-11-13T00:00:00 - https://www.sfelections.org/results/20151103/data/20151113/summary.txt (validated against certified totals)'}
-- {'date': '2015-11-16', 'days': 13, 'night': False, 'total': 203069, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2015-11-16T00:00:00 - https://www.sfelections.org/results/20151103/data/20151116/summary.txt (validated against certified totals)'}
-- {'date': '2015-11-19', 'days': 16, 'night': False, 'total': 203069, 'pct': 100.0, 'label': 'SF Dept. of Elections results release', 'citation': 'per-release summary report, reported 2015-11-19T00:00:00 - https://www.sfelections.org/results/20151103/data/20151119/summary.txt (validated against certified totals)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2015-11-04 | 1 | ✓ | 140,946 | 69.4% | SF Dept. of Elections results release — per-release summary report, reported 2015-11-04T00:00:00 - https://www.sfelections.org/results/20151103/data/20151104/summary.txt (validated against certified totals) |
+| 2015-11-05 | 2 |  | 155,675 | 76.7% | SF Dept. of Elections results release — per-release summary report, reported 2015-11-05T00:00:00 - https://www.sfelections.org/results/20151103/data/20151105/summary.txt (validated against certified totals) |
+| 2015-11-06 | 3 |  | 172,153 | 84.8% | SF Dept. of Elections results release — per-release summary report, reported 2015-11-06T00:00:00 - https://www.sfelections.org/results/20151103/data/20151106/summary.txt (validated against certified totals) |
+| 2015-11-07 | 4 |  | 179,713 | 88.5% | SF Dept. of Elections results release — per-release summary report, reported 2015-11-07T00:00:00 - https://www.sfelections.org/results/20151103/data/20151107/summary.txt (validated against certified totals) |
+| 2015-11-08 | 5 |  | 181,240 | 89.3% | SF Dept. of Elections results release — per-release summary report, reported 2015-11-08T00:00:00 - https://www.sfelections.org/results/20151103/data/20151108/summary.txt (validated against certified totals) |
+| 2015-11-09 | 6 |  | 186,863 | 92.0% | SF Dept. of Elections results release — per-release summary report, reported 2015-11-09T00:00:00 - https://www.sfelections.org/results/20151103/data/20151109/summary.txt (validated against certified totals) |
+| 2015-11-10 | 7 |  | 195,117 | 96.1% | SF Dept. of Elections results release — per-release summary report, reported 2015-11-10T00:00:00 - https://www.sfelections.org/results/20151103/data/20151110/summary.txt (validated against certified totals) |
+| 2015-11-11 | 8 |  | 197,264 | 97.1% | SF Dept. of Elections results release — per-release summary report, reported 2015-11-11T00:00:00 - https://www.sfelections.org/results/20151103/data/20151111/summary.txt (validated against certified totals) |
+| 2015-11-12 | 9 |  | 202,914 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2015-11-12T00:00:00 - https://www.sfelections.org/results/20151103/data/20151112/summary.txt (validated against certified totals) |
+| 2015-11-13 | 10 |  | 203,069 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2015-11-13T00:00:00 - https://www.sfelections.org/results/20151103/data/20151113/summary.txt (validated against certified totals) |
+| 2015-11-16 | 13 |  | 203,069 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2015-11-16T00:00:00 - https://www.sfelections.org/results/20151103/data/20151116/summary.txt (validated against certified totals) |
+| 2015-11-19 | 16 |  | 203,069 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2015-11-19T00:00:00 - https://www.sfelections.org/results/20151103/data/20151119/summary.txt (validated against certified totals) |
 
 ---
 
@@ -962,9 +1070,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2015-02-10', 'night': False, 'total': 432799, 'pct': 68.9, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-2015/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2015-02-10 |  |  | 432,799 | 68.9% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-2015/county.pdf |
 
 ---
 
@@ -972,15 +1082,19 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2014-11-04`
 
+**Certified final:** 231,214
+
 **Source:** https://www.sfelections.org/results/20141104/
 
-**Observations:**
+**Observations**
 
-- {'date': '2014-11-04', 'days': 0, 'total': 162539, 'pct': 70.3, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20141105160259/http://www.sfelections.org/results/20141104/index.php'}
-- {'date': '2014-11-05', 'days': 1, 'total': 172140, 'pct': 74.5, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20141106173520/http://www.sfelections.org:80/results/20141104/'}
-- {'date': '2014-11-06', 'days': 2, 'total': 182215, 'pct': 78.8, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20141107033643/http://www.sfelections.org/results/20141104/index.php'}
-- {'date': '2014-11-17', 'days': 13, 'total': 231214, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20141119020018/http://www.sfelections.org:80/results/20141104/'}
-- {'date': '2014-11-21', 'days': 17, 'total': 231214, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20141130070727/http://www.sfelections.org/results/20141104/'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2014-11-04 | 0 |  | 162,539 | 70.3% | Wayback Machine capture — https://web.archive.org/web/20141105160259/http://www.sfelections.org/results/20141104/index.php |
+| 2014-11-05 | 1 |  | 172,140 | 74.5% | Wayback Machine capture — https://web.archive.org/web/20141106173520/http://www.sfelections.org:80/results/20141104/ |
+| 2014-11-06 | 2 |  | 182,215 | 78.8% | Wayback Machine capture — https://web.archive.org/web/20141107033643/http://www.sfelections.org/results/20141104/index.php |
+| 2014-11-17 | 13 |  | 231,214 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20141119020018/http://www.sfelections.org:80/results/20141104/ |
+| 2014-11-21 | 17 |  | 231,214 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20141130070727/http://www.sfelections.org/results/20141104/ |
 
 ---
 
@@ -992,9 +1106,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2014-10-20', 'night': False, 'total': 433844, 'pct': 69.4, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-general-2014/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2014-10-20 |  |  | 433,844 | 69.4% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-general-2014/county.pdf |
 
 ---
 
@@ -1002,12 +1118,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2014-06-03`
 
+**Certified final:** 129,399
+
 **Source:** https://www.sfelections.org/results/20140603/
 
-**Observations:**
+**Observations**
 
-- {'date': '2014-06-06', 'days': 3, 'total': 123978, 'pct': 95.8, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20140608000135/http://www.sfelections.org:80/results/20140603/'}
-- {'date': '2014-06-12', 'days': 9, 'total': 129399, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20140629063326/http://sfelections.org/results/20140603/'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2014-06-06 | 3 |  | 123,978 | 95.8% | Wayback Machine capture — https://web.archive.org/web/20140608000135/http://www.sfelections.org:80/results/20140603/ |
+| 2014-06-12 | 9 |  | 129,399 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20140629063326/http://sfelections.org/results/20140603/ |
 
 ---
 
@@ -1019,9 +1139,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2014-05-19', 'night': False, 'total': 434922, 'pct': 69.9, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-primary-2014/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2014-05-19 |  |  | 434,922 | 69.9% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-primary-2014/county.pdf |
 
 ---
 
@@ -1029,12 +1151,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2013-11-05`
 
+**Certified final:** 128,937
+
 **Source:** https://www.sfelections.org/results/20131105/
 
-**Observations:**
+**Observations**
 
-- {'date': '2013-11-08', 'days': 3, 'total': 122813, 'pct': 95.3, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20131109013913/http://sfelections.org:80/results/20131105/'}
-- {'date': '2013-11-15', 'days': 10, 'total': 128937, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20131203165834/http://www.sfelections.org/results/20131105/'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2013-11-08 | 3 |  | 122,813 | 95.3% | Wayback Machine capture — https://web.archive.org/web/20131109013913/http://sfelections.org:80/results/20131105/ |
+| 2013-11-15 | 10 |  | 128,937 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20131203165834/http://www.sfelections.org/results/20131105/ |
 
 ---
 
@@ -1046,9 +1172,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2013-02-10', 'night': False, 'total': 497663, 'pct': 82.4, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-2013/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2013-02-10 |  |  | 497,663 | 82.4% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-2013/county.pdf |
 
 ---
 
@@ -1056,17 +1184,21 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2012-11-06`
 
+**Certified final:** 364,875
+
 **Source:** https://www.sfelections.org/results/20121106/
 
-**Observations:**
+**Observations**
 
-- {'date': '2012-11-06', 'days': 0, 'total': 260535, 'pct': 71.4, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20121107165615/http://sfelections.org/results/20121106/index.php'}
-- {'date': '2012-11-08', 'days': 2, 'total': 283714, 'pct': 77.8, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20121109165128/http://sfelections.org:80/results/20121106/index.php'}
-- {'date': '2012-11-09', 'days': 3, 'total': 305539, 'pct': 83.7, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20121110054934/http://sfelections.org:80/results/20121106/index.php'}
-- {'date': '2012-11-11', 'days': 5, 'total': 325298, 'pct': 89.2, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20121112020016/http://sfelections.org/results/20121106/'}
-- {'date': '2012-11-14', 'days': 8, 'total': 342242, 'pct': 93.8, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20121115094436/http://www.sfelections.org:80/results/20121106/'}
-- {'date': '2012-11-19', 'days': 13, 'total': 354851, 'pct': 97.3, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20121120185014/http://sfelections.org/results/20121106/index.php'}
-- {'date': '2012-11-27', 'days': 21, 'total': 364875, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20121128022737/http://sfelections.org/results/20121106/index.php'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2012-11-06 | 0 |  | 260,535 | 71.4% | Wayback Machine capture — https://web.archive.org/web/20121107165615/http://sfelections.org/results/20121106/index.php |
+| 2012-11-08 | 2 |  | 283,714 | 77.8% | Wayback Machine capture — https://web.archive.org/web/20121109165128/http://sfelections.org:80/results/20121106/index.php |
+| 2012-11-09 | 3 |  | 305,539 | 83.7% | Wayback Machine capture — https://web.archive.org/web/20121110054934/http://sfelections.org:80/results/20121106/index.php |
+| 2012-11-11 | 5 |  | 325,298 | 89.2% | Wayback Machine capture — https://web.archive.org/web/20121112020016/http://sfelections.org/results/20121106/ |
+| 2012-11-14 | 8 |  | 342,242 | 93.8% | Wayback Machine capture — https://web.archive.org/web/20121115094436/http://www.sfelections.org:80/results/20121106/ |
+| 2012-11-19 | 13 |  | 354,851 | 97.3% | Wayback Machine capture — https://web.archive.org/web/20121120185014/http://sfelections.org/results/20121106/index.php |
+| 2012-11-27 | 21 |  | 364,875 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20121128022737/http://sfelections.org/results/20121106/index.php |
 
 ---
 
@@ -1074,14 +1206,18 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2012-06-05`
 
+**Certified final:** 145,105
+
 **Source:** https://www.sfelections.org/results/20120605/
 
-**Observations:**
+**Observations**
 
-- {'date': '2012-06-06', 'days': 1, 'total': 106273, 'pct': 73.2, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 2012-06-06 statewide proposition county tables, San Francisco row, Prop 29 (cigarette tax): YES 77,676 (73%) + NO 28,597 (27%) = 106,273, printed pcts validate - conservative night floor, press-deadline partial (49% precincts statewide at press); exceeds certified precinct ballots 49,779 so night count included VBM; scan cols/sweep_20120605_issue20120606_p11_s3_col1.png'}
-- {'date': '2012-06-07', 'days': 2, 'total': 136285, 'pct': 93.9, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20120608225921/http://www.sfelections.org:80/results/20120605/'}
-- {'date': '2012-06-08', 'days': 3, 'total': 137374, 'pct': 94.7, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20120609234942/http://www.sfelections.org:80/results/20120605/'}
-- {'date': '2012-06-15', 'days': 10, 'total': 145105, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20120617010717/http://www.sfelections.org/results/20120605/'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2012-06-06 | 1 |  | 106,273 | 73.2% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 2012-06-06 statewide proposition county tables, San Francisco row, Prop 29 (cigarette tax): YES 77,676 (73%) + NO 28,597 (27%) = 106,273, printed pcts validate - conservative night floor, press-deadline partial (49% precincts statewide at press); exceeds certified precinct ballots 49,779 so night count included VBM; scan cols/sweep_20120605_issue20120606_p11_s3_col1.png |
+| 2012-06-07 | 2 |  | 136,285 | 93.9% | Wayback Machine capture — https://web.archive.org/web/20120608225921/http://www.sfelections.org:80/results/20120605/ |
+| 2012-06-08 | 3 |  | 137,374 | 94.7% | Wayback Machine capture — https://web.archive.org/web/20120609234942/http://www.sfelections.org:80/results/20120605/ |
+| 2012-06-15 | 10 |  | 145,105 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20120617010717/http://www.sfelections.org/results/20120605/ |
 
 ---
 
@@ -1089,14 +1225,18 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2011-11-08`
 
+**Certified final:** 197,242
+
 **Source:** https://www.sfelections.org/results/20111108/
 
-**Observations:**
+**Observations**
 
-- {'date': '2011-11-09', 'days': 1, 'total': 157026, 'pct': 79.6, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20111110070445/http://sfelections.org:80/results/20111108/'}
-- {'date': '2011-11-10', 'days': 2, 'total': 182317, 'pct': 92.4, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20111111002226/http://www.sfelections.org:80/results/20111108/'}
-- {'date': '2011-11-17', 'days': 9, 'total': 197181, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20111118222301/http://sfelections.org:80/results/20111108/'}
-- {'date': '2011-11-22', 'days': 14, 'total': 197242, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20111127003453/http://www.sfelections.org:80/results/20111108/'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2011-11-09 | 1 |  | 157,026 | 79.6% | Wayback Machine capture — https://web.archive.org/web/20111110070445/http://sfelections.org:80/results/20111108/ |
+| 2011-11-10 | 2 |  | 182,317 | 92.4% | Wayback Machine capture — https://web.archive.org/web/20111111002226/http://www.sfelections.org:80/results/20111108/ |
+| 2011-11-17 | 9 |  | 197,181 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20111118222301/http://sfelections.org:80/results/20111108/ |
+| 2011-11-22 | 14 |  | 197,242 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20111127003453/http://www.sfelections.org:80/results/20111108/ |
 
 ---
 
@@ -1108,9 +1248,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2011-02-10', 'night': False, 'total': 465587, 'pct': 74.9, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-11/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2011-02-10 |  |  | 465,587 | 74.9% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-11/county.pdf |
 
 ---
 
@@ -1118,12 +1260,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2010-11-02`
 
+**Certified final:** 284,625
+
 **Source:** https://www.sfelections.org/results/20101102/
 
-**Observations:**
+**Observations**
 
-- {'date': '2010-11-04', 'days': 2, 'total': 190739, 'pct': 67.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20101105124135/http://www.sfelections.org:80/results/20101102/'}
-- {'date': '2010-11-06', 'days': 4, 'total': 229397, 'pct': 80.6, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20101107190303/http://www.sfelections.org:80/results/20101102/'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2010-11-04 | 2 |  | 190,739 | 67.0% | Wayback Machine capture — https://web.archive.org/web/20101105124135/http://www.sfelections.org:80/results/20101102/ |
+| 2010-11-06 | 4 |  | 229,397 | 80.6% | Wayback Machine capture — https://web.archive.org/web/20101107190303/http://www.sfelections.org:80/results/20101102/ |
 
 ---
 
@@ -1135,9 +1281,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2010-10-18', 'night': False, 'total': 461768, 'pct': 74.4, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-10/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2010-10-18 |  |  | 461,768 | 74.4% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-10/county.pdf |
 
 ---
 
@@ -1145,12 +1293,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2010-06-08`
 
+**Certified final:** 155,533
+
 **Source:** https://sfelections.org/results/20100608/summary.php
 
-**Observations:**
+**Observations**
 
-- {'date': '2010-06-09', 'days': 1, 'total': 100698, 'pct': 64.7, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 2010-06-09 statewide proposition county tables, San Francisco row, Prop 16: YES 32,542 (32%) + NO 68,156 (68%) = 100,698, printed pcts validate - conservative night floor, press-deadline partial (36% precincts statewide at press); exceeds certified precinct ballots 63,607 so night count included VBM; scan cols/sweep_20100608_issue20100609_p13_s2_col0.png'}
-- {'date': '2010-06-10', 'days': 2, 'total': 111222, 'pct': 71.5, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20100610232550/http://sfelections.org:80/results/20100608/summary.php'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2010-06-09 | 1 |  | 100,698 | 64.7% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 2010-06-09 statewide proposition county tables, San Francisco row, Prop 16: YES 32,542 (32%) + NO 68,156 (68%) = 100,698, printed pcts validate - conservative night floor, press-deadline partial (36% precincts statewide at press); exceeds certified precinct ballots 63,607 so night count included VBM; scan cols/sweep_20100608_issue20100609_p13_s2_col0.png |
+| 2010-06-10 | 2 |  | 111,222 | 71.5% | Wayback Machine capture — https://web.archive.org/web/20100610232550/http://sfelections.org:80/results/20100608/summary.php |
 
 ---
 
@@ -1162,9 +1314,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2010-05-24', 'night': False, 'total': 447985, 'pct': 72.5, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-prim-10/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2010-05-24 |  |  | 447,985 | 72.5% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-prim-10/county.pdf |
 
 ---
 
@@ -1172,13 +1326,17 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2009-11-03`
 
+**Certified final:** 102,061
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2009-11-03', 'days': 0, 'total': 69733, 'pct': 68.3, 'label': 'Wayback Machine capture', 'citation': "DOE Election Summary page (live), 'Last Updated: 11/3/2009 10:14 PM', 428 of 428 precincts: Total Ballots Cast 69,733 (15.43% of registered) - complete election-night release - https://web.archive.org/web/20091104154107/http://www.sfgov.org/site/elections_index.asp?id=92589 (stamp and figure verified against capture)"}
-- {'date': '2009-11-06', 'days': 3, 'total': 91970, 'pct': 90.1, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20091108235937/http://www.sfgov.org:80/site/elections_page.asp?id=92589'}
-- {'date': '2009-11-17', 'days': 14, 'total': 102061, 'pct': 100.0, 'label': 'Elections Commission minutes', 'citation': 'Elections Commission minutes 2009-11-18 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=113990.html): canvassing completed Nov 17 2009, certified with SoS Nov 19 2009'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2009-11-03 | 0 |  | 69,733 | 68.3% | Wayback Machine capture — DOE Election Summary page (live), 'Last Updated: 11/3/2009 10:14 PM', 428 of 428 precincts: Total Ballots Cast 69,733 (15.43% of registered) - complete election-night release - https://web.archive.org/web/20091104154107/http://www.sfgov.org/site/elections_index.asp?id=92589 (stamp and figure verified against capture) |
+| 2009-11-06 | 3 |  | 91,970 | 90.1% | Wayback Machine capture — https://web.archive.org/web/20091108235937/http://www.sfgov.org:80/site/elections_page.asp?id=92589 |
+| 2009-11-17 | 14 |  | 102,061 | 100.0% | Elections Commission minutes — Elections Commission minutes 2009-11-18 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=113990.html): canvassing completed Nov 17 2009, certified with SoS Nov 19 2009 |
 
 ---
 
@@ -1186,11 +1344,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2009-05-19`
 
+**Certified final:** 130,644
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2009-05-27', 'days': 8, 'total': 127083, 'pct': 97.3, 'label': 'Wayback Machine capture', 'citation': "DOE Election Summary page (live), 'Last Updated: 5/27/2009 3:57 PM', 428/428 precincts: Total Ballots Cast 127,083 (27.30% of registered) - https://web.archive.org/web/20090528095634/http://www.sfgov.org/site/elections_index.asp?id=100512 (stamp and figure verified against capture)"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2009-05-27 | 8 |  | 127,083 | 97.3% | Wayback Machine capture — DOE Election Summary page (live), 'Last Updated: 5/27/2009 3:57 PM', 428/428 precincts: Total Ballots Cast 127,083 (27.30% of registered) - https://web.archive.org/web/20090528095634/http://www.sfgov.org/site/elections_index.asp?id=100512 (stamp and figure verified against capture) |
 
 ---
 
@@ -1202,9 +1364,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2009-02-10', 'night': False, 'total': 469580, 'pct': 78.0, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-09/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2009-02-10 |  |  | 469,580 | 78.0% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-09/county.pdf |
 
 ---
 
@@ -1212,12 +1376,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2008-11-04`
 
+**Certified final:** 388,112
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2008-11-05', 'days': 1, 'total': 252112, 'pct': 65.0, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 2008-11-07 (1244FE3BB0477B58): 'As of Wednesday morning, San Francisco's Department of Elections reported having 136,000 ballots left to count' (provisional + mail-in + early; all in hand - 2008 VBM had to arrive by election day) - conservative night floor 388,112 - 136,000 · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1244FE3BB0477B58"}
-- {'date': '2008-12-02', 'days': 28, 'total': 388112, 'pct': 100.0, 'label': 'Elections Commission minutes', 'citation': 'Elections Commission minutes 2008-12-17 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=95751.html): officially certified December 2 2008; Board declared December 9'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2008-11-05 | 1 |  | 252,112 | 65.0% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 2008-11-07 (1244FE3BB0477B58): 'As of Wednesday morning, San Francisco's Department of Elections reported having 136,000 ballots left to count' (provisional + mail-in + early; all in hand - 2008 VBM had to arrive by election day) - conservative night floor 388,112 - 136,000 · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1244FE3BB0477B58 |
+| 2008-12-02 | 28 |  | 388,112 | 100.0% | Elections Commission minutes — Elections Commission minutes 2008-12-17 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=95751.html): officially certified December 2 2008; Board declared December 9 |
 
 ---
 
@@ -1229,9 +1397,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2008-10-20', 'night': False, 'total': 477356, 'pct': 79.6, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presgen-08/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2008-10-20 |  |  | 477,356 | 79.6% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presgen-08/county.pdf |
 
 ---
 
@@ -1239,14 +1409,18 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2008-06-03`
 
+**Certified final:** 173,035
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2008-06-04', 'days': 1, 'total': 108611, 'pct': 62.8, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 2008-06-04 results box, SAN FRANCISCO column, 515 of 580 precincts reporting: Prop A (SFUSD parcel tax) YES 75,599 (69.61) + NO 33,012 = 108,611, printed pct validates - conservative night floor, press-deadline partial; exceeds certified precinct ballots 83,441 so night count included VBM; scan sweep_20080603_issue20080604_p22_s2/s3.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-165E947404FEFE6D%402454622-165DE1B22EC9549E%401-165DE1B22EC9549E%40'}
-- {'date': '2008-06-04', 'days': 1, 'total': 127984, 'pct': 74.0, 'label': 'Wayback Machine capture', 'citation': "DOE Election Summary page (live), 'Last Updated: June 4 2008 3:30 PM': ED 78,406 + VBM 49,578 = 127,984 (29.75% of registered) - https://web.archive.org/web/20080605195018/http://www.sfgov.org/site/elections_index.asp?id=70719 (stamp and figures verified against capture)"}
-- {'date': '2008-06-06', 'days': 3, 'total': 146905, 'pct': 84.9, 'label': 'Wayback Machine capture', 'citation': "DOE Election Summary page (live), 'Last Updated: June 6 2008 2:30 PM': ED 78,406 + VBM 68,499 = 146,905 - https://web.archive.org/web/20080607021534/http://www.sfgov.org/site/elections_index.asp?id=70719"}
-- {'date': '2008-06-13', 'days': 10, 'total': 167718, 'pct': 96.9, 'label': 'Wayback Machine capture', 'citation': "DOE Election Summary page (live), 'Last Updated: June 13 2008 12:08 PM': ED 78,406 + VBM 89,312 = 167,718 - https://web.archive.org/web/20080616155545/http://www.sfgov.org/site/elections_index.asp?id=70719"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2008-06-04 | 1 |  | 108,611 | 62.8% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 2008-06-04 results box, SAN FRANCISCO column, 515 of 580 precincts reporting: Prop A (SFUSD parcel tax) YES 75,599 (69.61) + NO 33,012 = 108,611, printed pct validates - conservative night floor, press-deadline partial; exceeds certified precinct ballots 83,441 so night count included VBM; scan sweep_20080603_issue20080604_p22_s2/s3.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-165E947404FEFE6D%402454622-165DE1B22EC9549E%401-165DE1B22EC9549E%40 |
+| 2008-06-04 | 1 |  | 127,984 | 74.0% | Wayback Machine capture — DOE Election Summary page (live), 'Last Updated: June 4 2008 3:30 PM': ED 78,406 + VBM 49,578 = 127,984 (29.75% of registered) - https://web.archive.org/web/20080605195018/http://www.sfgov.org/site/elections_index.asp?id=70719 (stamp and figures verified against capture) |
+| 2008-06-06 | 3 |  | 146,905 | 84.9% | Wayback Machine capture — DOE Election Summary page (live), 'Last Updated: June 6 2008 2:30 PM': ED 78,406 + VBM 68,499 = 146,905 - https://web.archive.org/web/20080607021534/http://www.sfgov.org/site/elections_index.asp?id=70719 |
+| 2008-06-13 | 10 |  | 167,718 | 96.9% | Wayback Machine capture — DOE Election Summary page (live), 'Last Updated: June 13 2008 12:08 PM': ED 78,406 + VBM 89,312 = 167,718 - https://web.archive.org/web/20080616155545/http://www.sfgov.org/site/elections_index.asp?id=70719 |
 
 ---
 
@@ -1258,9 +1432,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2008-05-19', 'night': False, 'total': 430259, 'pct': 72.3, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-stwddirprim-08/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2008-05-19 |  |  | 430,259 | 72.3% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-stwddirprim-08/county.pdf |
 
 ---
 
@@ -1268,11 +1444,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2008-04-08`
 
+**Certified final:** 19,742
+
 **Source:** SF Dept. of Elections historical turnout table (1899–2019)
 
-**Observations:**
+**Observations**
 
-- {'date': '2008-04-08', 'days': 0, 'night': True, 'total': 5332, 'pct': 27.0, 'label': 'election-night floor — in-person (precinct) share of the certified total', 'citation': 'SF Dept. of Elections historical turnout table (1899–2019)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2008-04-08 | 0 | ✓ | 5,332 | 27.0% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections historical turnout table (1899–2019) |
 
 ---
 
@@ -1280,16 +1460,20 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2008-02-05`
 
+**Certified final:** 269,212
+
 **Source:** https://elections.cdn.sos.ca.gov/sov/2008-primary/04_voter_stats_by_county_feb08.pdf
 
-**Observations:**
+**Observations**
 
-- {'date': '2008-02-06', 'days': 1, 'total': 169840, 'pct': 63.1, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 2008-02-06 pB3 'BAY AREA ELECTION RESULTS' box, San Francisco column, 450 of 580 precincts reporting: Prop A sum 169,840 (YES 121,068 71.28% + NO 48,772; printed pct validates exactly) - conservative night floor, press-deadline partial; exceeds certified precinct ballots 158,995 so night count included absentees; scan pan7_20080205_issue20080206_pB3_s6.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-165E89B3A4AFDA8F%402454503-165DA33A617CD925%4016-165DA33A617CD925%40"}
-- {'date': '2008-02-06', 'days': 1, 'total': 219206, 'pct': 81.4, 'label': 'wayback-pdf-ocr', 'citation': 'https://web.archive.org/web/20080212055315/http://www.sfgov.org/site/uploadedfiles/elections/Announcements/PR2008/February5_%202008UnofficialSummaryReport8_%20for_%20theCityandCountyofSanFrancisco.pdf (Unofficial Summary Report #8; page footer internally dated February 06 2008 3:31 PM - previously misdated to the wayback capture time)'}
-- {'date': '2008-02-08', 'days': 3, 'total': 241426, 'pct': 89.7, 'label': 'Wayback Machine capture', 'citation': "DOE Election Summary page (live), 'Last Updated: February 8 2008 3:36 PM': ED 144,176 + VBM 97,250 = 241,426 (58.07% of registered) - https://web.archive.org/web/20080209085622/http://www.sfgov.org/site/elections_index.asp?id=70716 (stamp and figures verified against capture)"}
-- {'date': '2008-02-11', 'days': 6, 'total': 251150, 'pct': 93.3, 'label': 'Wayback Machine capture', 'citation': "DOE Election Summary page (live), 'Last Updated: February 11 2008 3:06 PM': ED 144,176 + VBM 106,974 = 251,150 - https://web.archive.org/web/20080212033936/http://www.sfgov.org/site/elections_index.asp?id=70716"}
-- {'date': '2008-02-15', 'days': 10, 'total': 258249, 'pct': 95.9, 'label': 'Wayback Machine capture', 'citation': "DOE Election Summary page (live), 'Last Updated: February 15 2008 1:52 PM': ED 149,786 + VBM 108,463 = 258,249 - https://web.archive.org/web/20080219032332/http://www.sfgov.org/site/elections_index.asp?id=70716"}
-- {'date': '2008-02-25', 'days': 20, 'total': 268704, 'pct': 99.8, 'label': 'Wayback Machine capture', 'citation': "DOE Election Summary page (live), 'Last Updated: February 25 2008 2:38 PM': ED 158,681 + VBM 110,023 = 268,704 (certified final 269,212) - https://web.archive.org/web/20080226040322/http://www.sfgov.org/site/elections_index.asp?id=70716"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2008-02-06 | 1 |  | 169,840 | 63.1% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 2008-02-06 pB3 'BAY AREA ELECTION RESULTS' box, San Francisco column, 450 of 580 precincts reporting: Prop A sum 169,840 (YES 121,068 71.28% + NO 48,772; printed pct validates exactly) - conservative night floor, press-deadline partial; exceeds certified precinct ballots 158,995 so night count included absentees; scan pan7_20080205_issue20080206_pB3_s6.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-165E89B3A4AFDA8F%402454503-165DA33A617CD925%4016-165DA33A617CD925%40 |
+| 2008-02-06 | 1 |  | 219,206 | 81.4% | wayback-pdf-ocr — https://web.archive.org/web/20080212055315/http://www.sfgov.org/site/uploadedfiles/elections/Announcements/PR2008/February5_%202008UnofficialSummaryReport8_%20for_%20theCityandCountyofSanFrancisco.pdf (Unofficial Summary Report #8; page footer internally dated February 06 2008 3:31 PM - previously misdated to the wayback capture time) |
+| 2008-02-08 | 3 |  | 241,426 | 89.7% | Wayback Machine capture — DOE Election Summary page (live), 'Last Updated: February 8 2008 3:36 PM': ED 144,176 + VBM 97,250 = 241,426 (58.07% of registered) - https://web.archive.org/web/20080209085622/http://www.sfgov.org/site/elections_index.asp?id=70716 (stamp and figures verified against capture) |
+| 2008-02-11 | 6 |  | 251,150 | 93.3% | Wayback Machine capture — DOE Election Summary page (live), 'Last Updated: February 11 2008 3:06 PM': ED 144,176 + VBM 106,974 = 251,150 - https://web.archive.org/web/20080212033936/http://www.sfgov.org/site/elections_index.asp?id=70716 |
+| 2008-02-15 | 10 |  | 258,249 | 95.9% | Wayback Machine capture — DOE Election Summary page (live), 'Last Updated: February 15 2008 1:52 PM': ED 149,786 + VBM 108,463 = 258,249 - https://web.archive.org/web/20080219032332/http://www.sfgov.org/site/elections_index.asp?id=70716 |
+| 2008-02-25 | 20 |  | 268,704 | 99.8% | Wayback Machine capture — DOE Election Summary page (live), 'Last Updated: February 25 2008 2:38 PM': ED 158,681 + VBM 110,023 = 268,704 (certified final 269,212) - https://web.archive.org/web/20080226040322/http://www.sfgov.org/site/elections_index.asp?id=70716 |
 
 ---
 
@@ -1301,9 +1485,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2008-01-22', 'night': False, 'total': 415761, 'pct': 70.2, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presprim-08/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2008-01-22 |  |  | 415,761 | 70.2% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presprim-08/county.pdf |
 
 ---
 
@@ -1311,13 +1497,17 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2007-11-06`
 
+**Certified final:** 149,465
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2007-11-07', 'days': 1, 'total': 48104, 'pct': 32.2, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'NEWSOM'S 2ND ACT' 2007-11-07 pA1 (11CC61605959E228): 'not a single ballot cast anywhere in the city Tuesday showed up in the vote totals released Tuesday night, which included only 48,104 absentee and early votes' - exact night release (ES&S decertification forced hand-check of all polling-place ballots before machine count) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/11CC61605959E228"}
-- {'date': '2007-11-09', 'days': 3, 'total': 115901, 'pct': 77.5, 'label': 'SF Chronicle archive', 'citation': "SF Chronicle 2007-11-09 'Prop A pulls ahead' (https://sfchronicle.com/bayarea/article/3236738): '5 percent of polling place ballots still to be tallied [~3,564 of 71,276], about 25,000 uncounted absentee and 5,000 provisional remaining' - conservative floor"}
-- {'date': '2007-12-11', 'days': 35, 'total': 149465, 'pct': 100.0, 'label': 'Elections Commission minutes', 'citation': 'Elections Commission minutes 2008-01-16 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=51883.html): election certified December 11'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2007-11-07 | 1 |  | 48,104 | 32.2% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'NEWSOM'S 2ND ACT' 2007-11-07 pA1 (11CC61605959E228): 'not a single ballot cast anywhere in the city Tuesday showed up in the vote totals released Tuesday night, which included only 48,104 absentee and early votes' - exact night release (ES&S decertification forced hand-check of all polling-place ballots before machine count) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/11CC61605959E228 |
+| 2007-11-09 | 3 |  | 115,901 | 77.5% | SF Chronicle archive — SF Chronicle 2007-11-09 'Prop A pulls ahead' (https://sfchronicle.com/bayarea/article/3236738): '5 percent of polling place ballots still to be tallied [~3,564 of 71,276], about 25,000 uncounted absentee and 5,000 provisional remaining' - conservative floor |
+| 2007-12-11 | 35 |  | 149,465 | 100.0% | Elections Commission minutes — Elections Commission minutes 2008-01-16 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=51883.html): election certified December 11 |
 
 ---
 
@@ -1329,9 +1519,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2007-02-10', 'night': False, 'total': 418567, 'pct': 72.2, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-07/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2007-02-10 |  |  | 418,567 | 72.2% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-07/county.pdf |
 
 ---
 
@@ -1339,13 +1531,17 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2006-11-07`
 
+**Certified final:** 253,719
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2006-11-08', 'days': 2, 'total': 156441, 'pct': 61.7, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'LOCAL ELECTION RESULTS - San Francisco' 2006-11-09 pB7 (1154BE08AF2058A8): table 580/580 precincts, largest yes/no sum 156441 - conservative day-2 floor; first count observation for this election · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1154BE08AF2058A8"}
-- {'date': '2006-11-09', 'days': 2, 'total': 184419, 'pct': 72.7, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'ELECTION 2006 - S.F. CITY HALL' 2006-11-09: 'a final tally is expected by Friday when election officials say some 69,300 outstanding absentee and provisional ballots are counted' - conservative floor 253,719 - 69,300 (tighter than the prior day-2 floor)"}
-- {'date': '2006-11-29', 'days': 22, 'total': 253498, 'pct': 99.9, 'label': 'Wayback Machine capture', 'citation': "DOE Election Summary (wayback 20061130155621, election_index.asp?id=47578), 'RUN DATE:11/29/06 03:36 PM', 580 of 580 precincts: 253,498 ballots (60.60%)"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2006-11-08 | 2 |  | 156,441 | 61.7% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'LOCAL ELECTION RESULTS - San Francisco' 2006-11-09 pB7 (1154BE08AF2058A8): table 580/580 precincts, largest yes/no sum 156441 - conservative day-2 floor; first count observation for this election · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1154BE08AF2058A8 |
+| 2006-11-09 | 2 |  | 184,419 | 72.7% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'ELECTION 2006 - S.F. CITY HALL' 2006-11-09: 'a final tally is expected by Friday when election officials say some 69,300 outstanding absentee and provisional ballots are counted' - conservative floor 253,719 - 69,300 (tighter than the prior day-2 floor) |
+| 2006-11-29 | 22 |  | 253,498 | 99.9% | Wayback Machine capture — DOE Election Summary (wayback 20061130155621, election_index.asp?id=47578), 'RUN DATE:11/29/06 03:36 PM', 580 of 580 precincts: 253,498 ballots (60.60%) |
 
 ---
 
@@ -1357,9 +1553,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2006-10-23', 'night': False, 'total': 418285, 'pct': 72.4, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-06/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2006-10-23 |  |  | 418,285 | 72.4% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-06/county.pdf |
 
 ---
 
@@ -1367,12 +1565,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2006-06-06`
 
+**Certified final:** 156,272
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2006-06-07', 'days': 1, 'total': 103555, 'pct': 66.3, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 2006-06-07 results box, SAN FRANCISCO column, 578 of 578 precincts reporting (complete night release): Measure B (eviction disclosure) YES 54,492 + NO 49,063 = 103,555 - conservative night floor (largest-contest sum; A/C/D sums 98,902-102,860 consistent); exceeds certified precinct ballots 81,132 so night count included VBM; scans cols/sweep_20060606_issue20060607_p22_*.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-165D82130AF4DEC4%402453894-165BE38518948B45%4073-165BE38518948B45%40'}
-- {'date': '2006-07-03', 'days': 27, 'total': 156272, 'pct': 100.0, 'label': 'Elections Commission minutes', 'citation': 'Elections Commission minutes 2006-07-19 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=42915.html): canvass completed, election certified Monday July 3'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2006-06-07 | 1 |  | 103,555 | 66.3% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 2006-06-07 results box, SAN FRANCISCO column, 578 of 578 precincts reporting (complete night release): Measure B (eviction disclosure) YES 54,492 + NO 49,063 = 103,555 - conservative night floor (largest-contest sum; A/C/D sums 98,902-102,860 consistent); exceeds certified precinct ballots 81,132 so night count included VBM; scans cols/sweep_20060606_issue20060607_p22_*.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-165D82130AF4DEC4%402453894-165BE38518948B45%4073-165BE38518948B45%40 |
+| 2006-07-03 | 27 |  | 156,272 | 100.0% | Elections Commission minutes — Elections Commission minutes 2006-07-19 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=42915.html): canvass completed, election certified Monday July 3 |
 
 ---
 
@@ -1384,9 +1586,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2006-05-22', 'night': False, 'total': 421094, 'pct': 73.1, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-prim-06/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2006-05-22 |  |  | 421,094 | 73.1% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-prim-06/county.pdf |
 
 ---
 
@@ -1394,17 +1598,21 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2005-11-08`
 
+**Certified final:** 229,714
+
 **Source:** PR_FinalNov8thElectionResults2.pdf (certified, Dec 7 2005)
 
-**Observations:**
+**Observations**
 
-- {'date': '2005-11-09', 'days': 1, 'total': 153606, 'pct': 66.9, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'ELECTION 2005 RESULTS - COUNTY-BY-COUNTY - SAN FRANCISCO' 2005-11-09 paper (10DC745900D5DE00), 578 of 578 precincts reporting: Measure A YES 98,556 (64.1) + NO 55,050 = 153,606 - conservative night floor (largest-contest sum); exceeds certified precinct ballots 136,897 so night count included absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/10DC745900D5DE00"}
-- {'date': '2005-11-10', 'days': 2, 'total': 161169, 'pct': 70.2, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': 'SF Chronicle via NewsBank (SFPL), special-election results table day-2 paper (10DCE1BAF7FC2F10), 100% of precincts: Prop 76 SF county row YES 24,749 + NO 136,420 = 161,169 - conservative day-2 floor (largest-contest sum) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/10DCE1BAF7FC2F10'}
-- {'date': '2005-11-11', 'days': 3, 'total': 183942, 'pct': 80.1, 'label': 'doe-press-release', 'citation': 'https://web.archive.org/web/*/http://www.sfgov.org/site/uploadedfiles/election/Elections_Pages/PR_UpdatedNov8thElectionResults.pdf'}
-- {'date': '2005-11-15', 'days': 7, 'total': 212260, 'pct': 92.4, 'label': 'doe-press-release', 'citation': 'https://web.archive.org/web/*/http://www.sfgov.org/site/uploadedfiles/election/Elections_Pages/PR_UpdatedNov8thElectionResults111505.pdf'}
-- {'date': '2005-11-22', 'days': 14, 'total': 227392, 'pct': 99.0, 'label': 'doe-press-release', 'citation': 'https://web.archive.org/web/*/http://www.sfgov.org/site/uploadedfiles/election/Elections_Pages/PR_UpdatedNov8thElectionResults112305.pdf'}
-- {'date': '2005-11-30', 'days': 22, 'total': 229714, 'pct': 100.0, 'label': 'doe-press-release', 'citation': 'https://web.archive.org/web/*/http://www.sfgov.org/site/uploadedfiles/election/Elections_Pages/PR_UpdatedNov8thElectionResults113005.pdf'}
-- {'date': '2005-12-05', 'days': 27, 'total': 229714, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20060704153423/http://sfgov.org/site/uploadedfiles/election/2005results.htm'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2005-11-09 | 1 |  | 153,606 | 66.9% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'ELECTION 2005 RESULTS - COUNTY-BY-COUNTY - SAN FRANCISCO' 2005-11-09 paper (10DC745900D5DE00), 578 of 578 precincts reporting: Measure A YES 98,556 (64.1) + NO 55,050 = 153,606 - conservative night floor (largest-contest sum); exceeds certified precinct ballots 136,897 so night count included absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/10DC745900D5DE00 |
+| 2005-11-10 | 2 |  | 161,169 | 70.2% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), special-election results table day-2 paper (10DCE1BAF7FC2F10), 100% of precincts: Prop 76 SF county row YES 24,749 + NO 136,420 = 161,169 - conservative day-2 floor (largest-contest sum) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/10DCE1BAF7FC2F10 |
+| 2005-11-11 | 3 |  | 183,942 | 80.1% | doe-press-release — https://web.archive.org/web/*/http://www.sfgov.org/site/uploadedfiles/election/Elections_Pages/PR_UpdatedNov8thElectionResults.pdf |
+| 2005-11-15 | 7 |  | 212,260 | 92.4% | doe-press-release — https://web.archive.org/web/*/http://www.sfgov.org/site/uploadedfiles/election/Elections_Pages/PR_UpdatedNov8thElectionResults111505.pdf |
+| 2005-11-22 | 14 |  | 227,392 | 99.0% | doe-press-release — https://web.archive.org/web/*/http://www.sfgov.org/site/uploadedfiles/election/Elections_Pages/PR_UpdatedNov8thElectionResults112305.pdf |
+| 2005-11-30 | 22 |  | 229,714 | 100.0% | doe-press-release — https://web.archive.org/web/*/http://www.sfgov.org/site/uploadedfiles/election/Elections_Pages/PR_UpdatedNov8thElectionResults113005.pdf |
+| 2005-12-05 | 27 |  | 229,714 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20060704153423/http://sfgov.org/site/uploadedfiles/election/2005results.htm |
 
 ---
 
@@ -1416,9 +1624,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2005-10-24', 'night': False, 'total': 427539, 'pct': 74.0, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-spstwd-05/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2005-10-24 |  |  | 427,539 | 74.0% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-spstwd-05/county.pdf |
 
 ---
 
@@ -1430,9 +1640,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2005-02-10', 'night': False, 'total': 477745, 'pct': 83.2, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-05/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2005-02-10 |  |  | 477,745 | 83.2% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-05/county.pdf |
 
 ---
 
@@ -1440,13 +1652,17 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2004-11-02`
 
+**Certified final:** 361,822
+
 **Source:** CA SoS SOV voter participation stats (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2004-11-02', 'days': 0, 'total': 271058, 'pct': 74.9, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20041104022244/http://www.sfgov.org:80/site/uploadedfiles/election/nstats.htm'}
-- {'date': '2004-11-15', 'days': 13, 'total': 356175, 'pct': 98.4, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20041116033707/http://www.sfgov.org:80/site/uploadedfiles/election/nstats.htm'}
-- {'date': '2004-11-30', 'days': 28, 'total': 361822, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20060702111135/http://www.sfgov.org:80/site/uploadedfiles/election/2004results.htm'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2004-11-02 | 0 |  | 271,058 | 74.9% | Wayback Machine capture — https://web.archive.org/web/20041104022244/http://www.sfgov.org:80/site/uploadedfiles/election/nstats.htm |
+| 2004-11-15 | 13 |  | 356,175 | 98.4% | Wayback Machine capture — https://web.archive.org/web/20041116033707/http://www.sfgov.org:80/site/uploadedfiles/election/nstats.htm |
+| 2004-11-30 | 28 |  | 361,822 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20060702111135/http://www.sfgov.org:80/site/uploadedfiles/election/2004results.htm |
 
 ---
 
@@ -1458,9 +1674,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2004-10-18', 'night': False, 'total': 486822, 'pct': 85.2, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presgen-04/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2004-10-18 |  |  | 486,822 | 85.2% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presgen-04/county.pdf |
 
 ---
 
@@ -1468,12 +1686,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2004-03-02`
 
+**Certified final:** 190,828
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2004-03-03', 'days': 1, 'total': 143244, 'pct': 75.1, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 2004-03-03 results box, SAN FRANCISCO column, 577 of 577 precincts reporting (complete night release): Measure H (public education fund) YES 101,657 + NO 41,587 = 143,244 - conservative night floor (largest-contest sum; Regional Measure 2 SF rows sum 138,893, consistent); exceeds certified precinct ballots 120,104 so night count included VBM; scans cols/sweep_20040302_issue20040303_p23_*.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1659A7179286CE61%402453068-165949AD444E25A7%4016-165949AD444E25A7%40'}
-- {'date': '2004-03-25', 'days': 23, 'total': 190828, 'pct': 100.0, 'label': 'Elections Commission minutes', 'citation': 'Elections Commission minutes 2004-05-19 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=24595.html): election certified March 25, 2004'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2004-03-03 | 1 |  | 143,244 | 75.1% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 2004-03-03 results box, SAN FRANCISCO column, 577 of 577 precincts reporting (complete night release): Measure H (public education fund) YES 101,657 + NO 41,587 = 143,244 - conservative night floor (largest-contest sum; Regional Measure 2 SF rows sum 138,893, consistent); exceeds certified precinct ballots 120,104 so night count included VBM; scans cols/sweep_20040302_issue20040303_p23_*.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1659A7179286CE61%402453068-165949AD444E25A7%4016-165949AD444E25A7%40 |
+| 2004-03-25 | 23 |  | 190,828 | 100.0% | Elections Commission minutes — Elections Commission minutes 2004-05-19 (wayback: sfgov.org/electionscommission/ftp/meetingarchive/ file=24595.html): election certified March 25, 2004 |
 
 ---
 
@@ -1485,9 +1707,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2004-02-17', 'night': False, 'total': 448948, 'pct': 78.7, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presprim-04/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2004-02-17 |  |  | 448,948 | 78.7% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-presprim-04/county.pdf |
 
 ---
 
@@ -1495,12 +1719,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2003-12-09`
 
+**Certified final:** 253,872
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2003-12-11', 'days': 2, 'total': 225681, 'pct': 88.9, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "AP News Service via NewsBank (SFPL), 'Democrat Newsom Wins S.F. Mayoral Vote' 2003-12-10: 'With all precincts reporting, Newsom... received 118,651 votes, or 53 percent, to 107,030 votes, or 47 percent' = 225,681 - conservative night floor (mayor contest sum); exceeds certified precinct ballots 162,673 so night count included absentees"}
-- {'date': '2003-12-12', 'days': 3, 'total': 247890, 'pct': 97.6, 'label': 'contemporary news report (live web)', 'citation': "Berkeley Daily Planet 2003-12-19 'Absentees Proved Crucial in Newsom's Victory': 'In the unofficial statement of vote released last Friday afternoon [2003-12-12], Newsom had 131,280 votes to 116,610 votes for Gonzalez' - conservative floor (mayor contest sum 247,890); 37% absentee share matches certified 35.9%; https://berkeleydailyplanet.com/issue/2003-12-19/article/17957"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2003-12-11 | 2 |  | 225,681 | 88.9% | SF Chronicle via NewsBank (SFPL) — AP News Service via NewsBank (SFPL), 'Democrat Newsom Wins S.F. Mayoral Vote' 2003-12-10: 'With all precincts reporting, Newsom... received 118,651 votes, or 53 percent, to 107,030 votes, or 47 percent' = 225,681 - conservative night floor (mayor contest sum); exceeds certified precinct ballots 162,673 so night count included absentees |
+| 2003-12-12 | 3 |  | 247,890 | 97.6% | contemporary news report (live web) — Berkeley Daily Planet 2003-12-19 'Absentees Proved Crucial in Newsom's Victory': 'In the unofficial statement of vote released last Friday afternoon [2003-12-12], Newsom had 131,280 votes to 116,610 votes for Gonzalez' - conservative floor (mayor contest sum 247,890); 37% absentee share matches certified 35.9%; https://berkeleydailyplanet.com/issue/2003-12-19/article/17957 |
 
 ---
 
@@ -1508,12 +1736,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2003-11-04`
 
+**Certified final:** 209,723
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2003-11-05', 'days': 1, 'total': 144723, 'pct': 69.0, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'Welcome change: Glitches few in S.F.' 2003-11-05 pA20 (0FEA3843DA7A9BC0): election night ended 'leaving 65,000 absentee ballots uncounted' - conservative night floor; consistent with 140,010 precinct + ~4,700 early absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0FEA3843DA7A9BC0"}
-- {'date': '2003-11-05', 'days': 1, 'total': 177650, 'pct': 84.7, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'ELECTION RESULTS - San Francisco' 2003-11-05 pA24 (0FEA384414F836E1): night table 562/562 precincts, mayor contest sum 177,650 (Newsom 73,635, Gonzalez 35,753, Alioto 28,493, Ammiano 18,717, Leal 14,718, Ribera 4,266 + minor) - conservative night floor; supersedes the looser '65,000 uncounted' narrative figure · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0FEA384414F836E1"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2003-11-05 | 1 |  | 144,723 | 69.0% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'Welcome change: Glitches few in S.F.' 2003-11-05 pA20 (0FEA3843DA7A9BC0): election night ended 'leaving 65,000 absentee ballots uncounted' - conservative night floor; consistent with 140,010 precinct + ~4,700 early absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0FEA3843DA7A9BC0 |
+| 2003-11-05 | 1 |  | 177,650 | 84.7% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'ELECTION RESULTS - San Francisco' 2003-11-05 pA24 (0FEA384414F836E1): night table 562/562 precincts, mayor contest sum 177,650 (Newsom 73,635, Gonzalez 35,753, Alioto 28,493, Ammiano 18,717, Leal 14,718, Ribera 4,266 + minor) - conservative night floor; supersedes the looser '65,000 uncounted' narrative figure · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0FEA384414F836E1 |
 
 ---
 
@@ -1521,11 +1753,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2003-10-07`
 
+**Certified final:** 269,143
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2003-10-22', 'days': 15, 'total': 269143, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': "DOE Neighborhood Statistics page (wayback 20031028, election_index.asp?id=19598), 'RUN DATE:10/22/03 03:26 PM', 563 of 563 precincts: 269,143 ballots (59.16% of 454,929) - matches certified final; count complete by day 15"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2003-10-22 | 15 |  | 269,143 | 100.0% | Wayback Machine capture — DOE Neighborhood Statistics page (wayback 20031028, election_index.asp?id=19598), 'RUN DATE:10/22/03 03:26 PM', 563 of 563 precincts: 269,143 ballots (59.16% of 454,929) - matches certified final; count complete by day 15 |
 
 ---
 
@@ -1537,9 +1773,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2003-09-22', 'night': False, 'total': 454931, 'pct': 78.4, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-stwdsp-03/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2003-09-22 |  |  | 454,931 | 78.4% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-stwdsp-03/county.pdf |
 
 ---
 
@@ -1551,9 +1789,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2003-02-10', 'night': False, 'total': 434603, 'pct': 75.4, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-03/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2003-02-10 |  |  | 434,603 | 75.4% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-03/county.pdf |
 
 ---
 
@@ -1561,11 +1801,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2002-12-10`
 
+**Certified final:** 35,897
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2002-12-16', 'days': 6, 'total': 35897, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'wayback sfgov.org/election/results1202 RUN DATE:12/16/02 02:28 PM (OFFICIAL RESULTS MUNICIPAL RUN-OFF ELECTION, 128/128 precincts; district 4+8 runoff)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2002-12-16 | 6 |  | 35,897 | 100.0% | Wayback Machine capture — wayback sfgov.org/election/results1202 RUN DATE:12/16/02 02:28 PM (OFFICIAL RESULTS MUNICIPAL RUN-OFF ELECTION, 128/128 precincts; district 4+8 runoff) |
 
 ---
 
@@ -1573,16 +1817,20 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2002-11-05`
 
+**Certified final:** 225,102
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2002-11-07', 'days': 2, 'total': 176085, 'pct': 78.2, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0F72B4DF0FAE83C7): largest contest YES 99745 + NO 76340 = 176,085 at 632 of 632 precincts - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F72B4DF0FAE83C7"}
-- {'date': '2002-11-08', 'days': 3, 'total': 200102, 'pct': 88.9, 'label': 'SF Chronicle archive', 'citation': "SF Chronicle 2002-11-08 'Close, but no cigar yet for Daly' (https://sfchronicle.com/politics/article/2756026): 'about 25,000 absentee and provisional ballots to count citywide' - conservative floor"}
-- {'date': '2002-11-12', 'days': 7, 'total': 223097, 'pct': 99.1, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20021113121822/http://www.sfgov.org:80/election/results1102/statistics.htm RUN DATE:11/12/02 03:25 PM (Unofficial Results, 632/632 precincts)'}
-- {'date': '2002-11-14', 'days': 9, 'total': 224635, 'pct': 99.8, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20021117121823/http://www.sfgov.org:80/election/results1102/statistics.htm'}
-- {'date': '2002-11-20', 'days': 15, 'total': 224990, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20021203034538/http://www.sfgov.org:80/election/results1102/statistics.htm'}
-- {'date': '2002-12-03', 'days': 28, 'total': 225102, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20021208000000*/sfgov.org/election/results1102/statistics.htm RUN DATE:12/03/02 03:27 PM (Official Results)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2002-11-07 | 2 |  | 176,085 | 78.2% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0F72B4DF0FAE83C7): largest contest YES 99745 + NO 76340 = 176,085 at 632 of 632 precincts - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F72B4DF0FAE83C7 |
+| 2002-11-08 | 3 |  | 200,102 | 88.9% | SF Chronicle archive — SF Chronicle 2002-11-08 'Close, but no cigar yet for Daly' (https://sfchronicle.com/politics/article/2756026): 'about 25,000 absentee and provisional ballots to count citywide' - conservative floor |
+| 2002-11-12 | 7 |  | 223,097 | 99.1% | Wayback Machine capture — https://web.archive.org/web/20021113121822/http://www.sfgov.org:80/election/results1102/statistics.htm RUN DATE:11/12/02 03:25 PM (Unofficial Results, 632/632 precincts) |
+| 2002-11-14 | 9 |  | 224,635 | 99.8% | Wayback Machine capture — https://web.archive.org/web/20021117121823/http://www.sfgov.org:80/election/results1102/statistics.htm |
+| 2002-11-20 | 15 |  | 224,990 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20021203034538/http://www.sfgov.org:80/election/results1102/statistics.htm |
+| 2002-12-03 | 28 |  | 225,102 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20021208000000*/sfgov.org/election/results1102/statistics.htm RUN DATE:12/03/02 03:27 PM (Official Results) |
 
 ---
 
@@ -1594,9 +1842,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2002-10-21', 'night': False, 'total': 449396, 'pct': 78.2, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-02/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2002-10-21 |  |  | 449,396 | 78.2% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-gen-02/county.pdf |
 
 ---
 
@@ -1604,15 +1854,19 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2002-03-05`
 
+**Certified final:** 150,249
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2002-03-07', 'days': 2, 'total': 126249, 'pct': 84.0, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'Leno, Britt wait for final S.F. tally' 2002-03-07 (0F21D7620CF4E17E): 'Approximately 20,000 absentee ballots remain to be counted citywide' (Haygood) - statement omits provisionals (~4,000 per 2002-03-08 article), so conservative floor 150,249 - 20,000 - 4,000 · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F21D7620CF4E17E"}
-- {'date': '2002-03-07', 'days': 2, 'total': 112547, 'pct': 74.9, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0F21D761817714CF): largest contest YES 88865 + NO 23682 = 112,547 at 659 of 659 precincts - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F21D761817714CF"}
-- {'date': '2002-03-08', 'days': 3, 'total': 129749, 'pct': 86.4, 'label': 'SF Chronicle archive', 'citation': "SF Chronicle 2002-03-08 'Leno widens lead over Britt' (https://sfchronicle.com/politics/article/2867971): '16,500 absentee ballots remained to be tallied citywide, plus 4,000 provisional' - conservative floor"}
-- {'date': '2002-03-12', 'days': 7, 'total': 146249, 'pct': 97.3, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'Intricate ballot process challenged' 2002-03-12 (0F237E1FB4528843): 'About 4,000 ballots remain uncounted in San Francisco' - conservative floor 150,249 - 4,000 · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F237E1FB4528843"}
-- {'date': '2002-04-02', 'days': 28, 'total': 150249, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20020416181609/http://www.sfgov.org:80/election/results0302/statistics.htm'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2002-03-07 | 2 |  | 126,249 | 84.0% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'Leno, Britt wait for final S.F. tally' 2002-03-07 (0F21D7620CF4E17E): 'Approximately 20,000 absentee ballots remain to be counted citywide' (Haygood) - statement omits provisionals (~4,000 per 2002-03-08 article), so conservative floor 150,249 - 20,000 - 4,000 · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F21D7620CF4E17E |
+| 2002-03-07 | 2 |  | 112,547 | 74.9% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0F21D761817714CF): largest contest YES 88865 + NO 23682 = 112,547 at 659 of 659 precincts - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F21D761817714CF |
+| 2002-03-08 | 3 |  | 129,749 | 86.4% | SF Chronicle archive — SF Chronicle 2002-03-08 'Leno widens lead over Britt' (https://sfchronicle.com/politics/article/2867971): '16,500 absentee ballots remained to be tallied citywide, plus 4,000 provisional' - conservative floor |
+| 2002-03-12 | 7 |  | 146,249 | 97.3% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'Intricate ballot process challenged' 2002-03-12 (0F237E1FB4528843): 'About 4,000 ballots remain uncounted in San Francisco' - conservative floor 150,249 - 4,000 · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F237E1FB4528843 |
+| 2002-04-02 | 28 |  | 150,249 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20020416181609/http://www.sfgov.org:80/election/results0302/statistics.htm |
 
 ---
 
@@ -1624,9 +1878,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2002-02-19', 'night': False, 'total': 440016, 'pct': 76.3, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-prim-02/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2002-02-19 |  |  | 440,016 | 76.3% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/15day-prim-02/county.pdf |
 
 ---
 
@@ -1634,13 +1890,17 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2001-12-11`
 
+**Certified final:** 75,267
+
 **Source:** post-certification results page capture 2002-02-14 (75,267)
 
-**Observations:**
+**Observations**
 
-- {'date': '2001-12-13', 'days': 2, 'total': 70244, 'pct': 93.3, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'Record-low vote came at high price' 2001-12-13 pA20 (0F0626B2ED1F15FC): chart 'Ballots counted 70,244 / Voter turnout 15.47 percent' with '5,100 absentee and provisional ballots left to count' (70,244+5,100=75,344 ~ certified 75,267; Herrera/Lazarus pcts internally consistent) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F0626B2ED1F15FC"}
-- {'date': '2001-12-17', 'days': 6, 'total': 75248, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20011217074852/http://www.ci.sf.ca.us:80/election/results01/results.htm'}
-- {'date': '2002-02-14', 'days': 65, 'total': 75267, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20020214220816/http://www.ci.sf.ca.us:80/election/results01/results.htm'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2001-12-13 | 2 |  | 70,244 | 93.3% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'Record-low vote came at high price' 2001-12-13 pA20 (0F0626B2ED1F15FC): chart 'Ballots counted 70,244 / Voter turnout 15.47 percent' with '5,100 absentee and provisional ballots left to count' (70,244+5,100=75,344 ~ certified 75,267; Herrera/Lazarus pcts internally consistent) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0F0626B2ED1F15FC |
+| 2001-12-17 | 6 |  | 75,248 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20011217074852/http://www.ci.sf.ca.us:80/election/results01/results.htm |
+| 2002-02-14 | 65 |  | 75,267 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20020214220816/http://www.ci.sf.ca.us:80/election/results01/results.htm |
 
 ---
 
@@ -1648,16 +1908,20 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2001-11-06`
 
+**Certified final:** 134,024
+
 **Source:** DOE turnout history 1960-2002 (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2001-11-07', 'days': 1, 'total': 107927, 'pct': 80.5, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EFA4E27C2E6192C): largest contest YES 54898 + NO 53029 = 107,927 at complete table - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EFA4E27C2E6192C"}
-- {'date': '2001-11-08', 'days': 2, 'total': 115477, 'pct': 86.2, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20011108070639/http://www.ci.sf.ca.us:80/election/results01/results.htm'}
-- {'date': '2001-11-09', 'days': 3, 'total': 121024, 'pct': 90.3, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'State looking at S.F. ballot oddities' 2001-11-09 (0EFAF2C92BE459E9): 'All precincts have reported, but approximately 13,000 absentee and provisional ballots must still be counted' - conservative floor 134,024 - 13,000 · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EFAF2C92BE459E9"}
-- {'date': '2001-11-11', 'days': 5, 'total': 129093, 'pct': 96.3, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20011111020653/http://www.ci.sf.ca.us:80/election/results01/results.htm'}
-- {'date': '2001-11-13', 'days': 7, 'total': 133755, 'pct': 99.8, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20011113222410/http://www.ci.sf.ca.us:80/election/results01/results.htm'}
-- {'date': '2001-12-04', 'days': 28, 'total': 134019, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/20011204183320/http://www.ci.sf.ca.us:80/election/results01/results.htm'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2001-11-07 | 1 |  | 107,927 | 80.5% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EFA4E27C2E6192C): largest contest YES 54898 + NO 53029 = 107,927 at complete table - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EFA4E27C2E6192C |
+| 2001-11-08 | 2 |  | 115,477 | 86.2% | Wayback Machine capture — https://web.archive.org/web/20011108070639/http://www.ci.sf.ca.us:80/election/results01/results.htm |
+| 2001-11-09 | 3 |  | 121,024 | 90.3% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'State looking at S.F. ballot oddities' 2001-11-09 (0EFAF2C92BE459E9): 'All precincts have reported, but approximately 13,000 absentee and provisional ballots must still be counted' - conservative floor 134,024 - 13,000 · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EFAF2C92BE459E9 |
+| 2001-11-11 | 5 |  | 129,093 | 96.3% | Wayback Machine capture — https://web.archive.org/web/20011111020653/http://www.ci.sf.ca.us:80/election/results01/results.htm |
+| 2001-11-13 | 7 |  | 133,755 | 99.8% | Wayback Machine capture — https://web.archive.org/web/20011113222410/http://www.ci.sf.ca.us:80/election/results01/results.htm |
+| 2001-12-04 | 28 |  | 134,019 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20011204183320/http://www.ci.sf.ca.us:80/election/results01/results.htm |
 
 ---
 
@@ -1669,9 +1933,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** California Secretary of State — Report of Registration
 
-**Observations:**
+**Observations**
 
-- {'date': '2001-02-10', 'night': False, 'total': 463994, 'pct': 86.6, 'label': 'registered ÷ eligible citizens', 'citation': 'https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-01/county.pdf'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2001-02-10 |  |  | 463,994 | 86.6% | registered ÷ eligible citizens — https://elections.cdn.sos.ca.gov/ror/ror-pages/ror-odd-year-01/county.pdf |
 
 ---
 
@@ -1679,11 +1945,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2000-12-12`
 
+**Certified final:** 129,629
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2000-12-15', 'days': 3, 'total': 129620, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': "https://web.archive.org/web/20010124075700/http://sunset.ci.sf.ca.us:80/election2.nsf/NEIGHBOR (ballots/splits; contest views e.g. /web/20010124075500/.../SUPERVISOR01 carry the stamp '100% (529 of 529) precincts reporting as of 12/15/2000 at 04:18:38 PM')"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2000-12-15 | 3 |  | 129,620 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20010124075700/http://sunset.ci.sf.ca.us:80/election2.nsf/NEIGHBOR (ballots/splits; contest views e.g. /web/20010124075500/.../SUPERVISOR01 carry the stamp '100% (529 of 529) precincts reporting as of 12/15/2000 at 04:18:38 PM') |
 
 ---
 
@@ -1691,14 +1961,18 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2000-11-07`
 
+**Certified final:** 324,031
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2000-11-08', 'days': 1, 'total': 277575, 'pct': 85.7, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'Absentee, Provisional Ballots Left to Count in S.F.' 2000-11-09 pA26 (docref news/0EB4F969E1C867F6): 'Late yesterday, the Department of Elections said it still had 46,456 ballots left to count' - conservative floor, certified minus stated remaining; article's 486,636 registered matches DOE table exactly · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F969E1C867F6"}
-- {'date': '2000-11-09', 'days': 2, 'total': 251925, 'pct': 77.7, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F969CE014F14): largest contest YES 116596 + NO 135329 = 251,925 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F969CE014F14"}
-- {'date': '2000-11-10', 'days': 3, 'total': 296684, 'pct': 91.6, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'S.F.'s Slow-Growth Prop. L Falls Behind in Late Count' 2000-11-10: 'about 18,000 absentee ballots left to be counted, along with 9,347 provisional ballots' (Hayashi, DOE) - conservative floor 324,031 - 27,347; same article: Prop L daily count 130,066 to 130,059"}
-- {'date': '2000-11-12', 'days': 5, 'total': 314031, 'pct': 96.9, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'Prop. L Continues To Lose Ground As Tally Proceeds' 2000-11-13 pA17 (0EB4F96B55873944): 'about 10,000 ballots left to be counted' - conservative floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F96B55873944"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2000-11-08 | 1 |  | 277,575 | 85.7% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'Absentee, Provisional Ballots Left to Count in S.F.' 2000-11-09 pA26 (docref news/0EB4F969E1C867F6): 'Late yesterday, the Department of Elections said it still had 46,456 ballots left to count' - conservative floor, certified minus stated remaining; article's 486,636 registered matches DOE table exactly · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F969E1C867F6 |
+| 2000-11-09 | 2 |  | 251,925 | 77.7% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F969CE014F14): largest contest YES 116596 + NO 135329 = 251,925 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F969CE014F14 |
+| 2000-11-10 | 3 |  | 296,684 | 91.6% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'S.F.'s Slow-Growth Prop. L Falls Behind in Late Count' 2000-11-10: 'about 18,000 absentee ballots left to be counted, along with 9,347 provisional ballots' (Hayashi, DOE) - conservative floor 324,031 - 27,347; same article: Prop L daily count 130,066 to 130,059 |
+| 2000-11-12 | 5 |  | 314,031 | 96.9% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'Prop. L Continues To Lose Ground As Tally Proceeds' 2000-11-13 pA17 (0EB4F96B55873944): 'about 10,000 ballots left to be counted' - conservative floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F96B55873944 |
 
 ---
 
@@ -1706,13 +1980,17 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2000-03-07`
 
+**Certified final:** 210,229
+
 **Source:** DOE turnout history 1960-2002 / SOV sf000307.xls (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '2000-03-08', 'days': 1, 'total': 175673, 'pct': 83.6, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F911DFCBFDCC): largest contest YES 55086 + NO 120587 = 175,673 at complete table - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F911DFCBFDCC"}
-- {'date': '2000-03-08', 'days': 1, 'total': 189634, 'pct': 90.2, 'label': 'Wayback Machine capture', 'citation': 'SF Chronicle 2000-03-08 results table (wayback sfgate MN87716): Prop A 130,673 yes / 34,656 no published day 1 = 90.2% of certified Prop A votes (144,474+38,885=183,359, DOE SOV sf000307.xls); total = 0.902 * certified ballots - same-contest ratio estimate; https://web.archive.org/web/20001119153200/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/2000/03/08/MN87716.DTL'}
-- {'date': '2000-03-09', 'days': 2, 'total': 194229, 'pct': 92.4, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'Academy of Sciences Bond Measure Too Close to Call' 2000-03-09 (0EB4F91262A37D59): 'about 16,000 more absentee and provisional ballots to first verify and count' - conservative floor, certified 210,229 - 16,000 · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F91262A37D59"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2000-03-08 | 1 |  | 175,673 | 83.6% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F911DFCBFDCC): largest contest YES 55086 + NO 120587 = 175,673 at complete table - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F911DFCBFDCC |
+| 2000-03-08 | 1 |  | 189,634 | 90.2% | Wayback Machine capture — SF Chronicle 2000-03-08 results table (wayback sfgate MN87716): Prop A 130,673 yes / 34,656 no published day 1 = 90.2% of certified Prop A votes (144,474+38,885=183,359, DOE SOV sf000307.xls); total = 0.902 * certified ballots - same-contest ratio estimate; https://web.archive.org/web/20001119153200/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/2000/03/08/MN87716.DTL |
+| 2000-03-09 | 2 |  | 194,229 | 92.4% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'Academy of Sciences Bond Measure Too Close to Call' 2000-03-09 (0EB4F91262A37D59): 'about 16,000 more absentee and provisional ballots to first verify and count' - conservative floor, certified 210,229 - 16,000 · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F91262A37D59 |
 
 ---
 
@@ -1720,14 +1998,18 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1999-12-14`
 
+**Certified final:** 228,247
+
 **Source:** DOE turnout history 1960-2002 (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1999-12-15', 'days': 1, 'total': 202982, 'pct': 88.9, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "AP News Service via NewsBank (SFPL), 'Brown Re-Elected in San Francisco' 1999-12-15 (1416CAE24B18C648): 'With all but one of the 645 precincts reporting today, Brown had 120,731 votes or 59.4 percent to 82,251 or 40.5 percent' = 202,982 - conservative night floor (mayor contest sum); exceeds certified precinct ballots 154,357 so night count included absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1416CAE24B18C648"}
-- {'date': '1999-12-16', 'days': 2, 'total': 215247, 'pct': 94.3, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'Vote Count Hits Snag' 1999-12-16 pA1 (0EB4F8EE7A7B4CAE): 'About 13,000 provisional and absentee ballots remain to be counted in the San Francisco runoff election' (itemized: ~9,000 provisional + ~4,000 absentee) - conservative floor 228,247 - 13,000 · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F8EE7A7B4CAE"}
-- {'date': '1999-12-16', 'days': 2, 'total': 215247, 'pct': 94.3, 'label': 'Wayback Machine capture', 'citation': "SF Chronicle 1999-12-16 'D.A. Vote Count Hits Snag' (wayback sfgate MN95634): 'Nearly 13,000 ballots remain to be counted' at 4 p.m. count - conservative floor, certified minus stated remaining; https://web.archive.org/web/20030922004742/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/12/16/MN95634.DTL"}
-- {'date': '1999-12-21', 'days': 7, 'total': 224047, 'pct': 98.2, 'label': 'SF Chronicle archive', 'citation': "SF Chronicle 1999-12-22 'Hallinan lead grows as count nears end' (https://sfchronicle.com/politics/article/3053708): 'Tuesday, about 4,000 provisional and 200 absentee ballots left' - conservative floor"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1999-12-15 | 1 |  | 202,982 | 88.9% | SF Chronicle via NewsBank (SFPL) — AP News Service via NewsBank (SFPL), 'Brown Re-Elected in San Francisco' 1999-12-15 (1416CAE24B18C648): 'With all but one of the 645 precincts reporting today, Brown had 120,731 votes or 59.4 percent to 82,251 or 40.5 percent' = 202,982 - conservative night floor (mayor contest sum); exceeds certified precinct ballots 154,357 so night count included absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1416CAE24B18C648 |
+| 1999-12-16 | 2 |  | 215,247 | 94.3% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'Vote Count Hits Snag' 1999-12-16 pA1 (0EB4F8EE7A7B4CAE): 'About 13,000 provisional and absentee ballots remain to be counted in the San Francisco runoff election' (itemized: ~9,000 provisional + ~4,000 absentee) - conservative floor 228,247 - 13,000 · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F8EE7A7B4CAE |
+| 1999-12-16 | 2 |  | 215,247 | 94.3% | Wayback Machine capture — SF Chronicle 1999-12-16 'D.A. Vote Count Hits Snag' (wayback sfgate MN95634): 'Nearly 13,000 ballots remain to be counted' at 4 p.m. count - conservative floor, certified minus stated remaining; https://web.archive.org/web/20030922004742/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/12/16/MN95634.DTL |
+| 1999-12-21 | 7 |  | 224,047 | 98.2% | SF Chronicle archive — SF Chronicle 1999-12-22 'Hallinan lead grows as count nears end' (https://sfchronicle.com/politics/article/3053708): 'Tuesday, about 4,000 provisional and 200 absentee ballots left' - conservative floor |
 
 ---
 
@@ -1735,14 +2017,18 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1999-11-02`
 
+**Certified final:** 203,674
+
 **Source:** DOE turnout history 1960-2002 (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1999-11-03', 'days': 1, 'total': 103674, 'pct': 50.9, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'SLOW GOING AT CITY HALL' 1999-11-04 (and 'Ammiano Edges Ahead Of Jordan', same day): 'yesterday, the exhausted crew was sent home with roughly 100,000 ballots uncounted' - conservative day-1 floor 203,674 - 100,000; the write-in mayoral campaign forced hand counting (itemized: 64 of 646 precincts + ~33,000 absentee/write-in + ~9,000 provisional)"}
-- {'date': '1999-11-04', 'days': 2, 'total': 144333, 'pct': 70.9, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "AP via San Antonio Express-News / Seattle Times, NewsBank (SFPL) 1999-11-04 (0EAFE8EC67372F33): 'With 90 percent of the precincts reporting, Brown had 60,620 votes, 42 percent' - same-contest ratio floor 60,620/0.42 = 144,333 (write-in hand count made the night state unusually slow) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EAFE8EC67372F33"}
-- {'date': '1999-11-05', 'days': 3, 'total': 184674, 'pct': 90.7, 'label': 'Wayback Machine capture', 'citation': "SF Chronicle 1999-11-05 'Ammiano vs. Brown' (wayback sfgate MN82008): 'still has 19,000 absentee and provisional ballots to count today' - conservative floor, certified minus stated remaining; https://web.archive.org/web/20001210003900/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/11/05/MN82008.DTL"}
-- {'date': '1999-11-05', 'days': 3, 'total': 175483, 'pct': 86.2, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'Ammiano vs. Brown - Write-in votes catapult supervisor into S.F. runoff' 1999-11-05: 'All 646 precincts reporting: Willie Brown 67,912 votes 38.7%' - same-contest ratio floor 67,912/0.387 = 175,483; '19,000 absentee and provisional ballots to count today'"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1999-11-03 | 1 |  | 103,674 | 50.9% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'SLOW GOING AT CITY HALL' 1999-11-04 (and 'Ammiano Edges Ahead Of Jordan', same day): 'yesterday, the exhausted crew was sent home with roughly 100,000 ballots uncounted' - conservative day-1 floor 203,674 - 100,000; the write-in mayoral campaign forced hand counting (itemized: 64 of 646 precincts + ~33,000 absentee/write-in + ~9,000 provisional) |
+| 1999-11-04 | 2 |  | 144,333 | 70.9% | SF Chronicle via NewsBank (SFPL) — AP via San Antonio Express-News / Seattle Times, NewsBank (SFPL) 1999-11-04 (0EAFE8EC67372F33): 'With 90 percent of the precincts reporting, Brown had 60,620 votes, 42 percent' - same-contest ratio floor 60,620/0.42 = 144,333 (write-in hand count made the night state unusually slow) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EAFE8EC67372F33 |
+| 1999-11-05 | 3 |  | 184,674 | 90.7% | Wayback Machine capture — SF Chronicle 1999-11-05 'Ammiano vs. Brown' (wayback sfgate MN82008): 'still has 19,000 absentee and provisional ballots to count today' - conservative floor, certified minus stated remaining; https://web.archive.org/web/20001210003900/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1999/11/05/MN82008.DTL |
+| 1999-11-05 | 3 |  | 175,483 | 86.2% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'Ammiano vs. Brown - Write-in votes catapult supervisor into S.F. runoff' 1999-11-05: 'All 646 precincts reporting: Willie Brown 67,912 votes 38.7%' - same-contest ratio floor 67,912/0.387 = 175,483; '19,000 absentee and provisional ballots to count today' |
 
 ---
 
@@ -1750,13 +2036,17 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1998-11-03`
 
+**Certified final:** 250,719
+
 **Source:** DOE turnout history 1960-2002 (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1998-11-05', 'days': 2, 'total': 185653, 'pct': 74.0, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F85C8D6BD9B7): largest contest YES 125999 + NO 59654 = 185,653 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F85C8D6BD9B7"}
-- {'date': '1998-11-06', 'days': 3, 'total': 242719, 'pct': 96.8, 'label': 'Wayback Machine capture', 'citation': "SF Chronicle 1998-11-06 'Ballot Jam Broken' (wayback sfgate MN103975): 'About 8,000 provisional and absentee ballots remain uncounted' - conservative floor, certified minus stated remaining; https://web.archive.org/web/19990911230303/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1998/11/06/MN103975.DTL"}
-- {'date': '1998-11-20', 'days': 17, 'total': 250719, 'pct': 100.0, 'label': 'Wayback Machine capture', 'citation': 'https://web.archive.org/web/19991004190405/http://civiccenter.ci.sf.ca.us:80/election/eresults.nsf/72c62c5428f1b027882566b1007bec42'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1998-11-05 | 2 |  | 185,653 | 74.0% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F85C8D6BD9B7): largest contest YES 125999 + NO 59654 = 185,653 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F85C8D6BD9B7 |
+| 1998-11-06 | 3 |  | 242,719 | 96.8% | Wayback Machine capture — SF Chronicle 1998-11-06 'Ballot Jam Broken' (wayback sfgate MN103975): 'About 8,000 provisional and absentee ballots remain uncounted' - conservative floor, certified minus stated remaining; https://web.archive.org/web/19990911230303/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1998/11/06/MN103975.DTL |
+| 1998-11-20 | 17 |  | 250,719 | 100.0% | Wayback Machine capture — https://web.archive.org/web/19991004190405/http://civiccenter.ci.sf.ca.us:80/election/eresults.nsf/72c62c5428f1b027882566b1007bec42 |
 
 ---
 
@@ -1764,11 +2054,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1998-06-02`
 
+**Certified final:** 199,157
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1998-06-04', 'days': 2, 'total': 168168, 'pct': 84.4, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F82D49A436B6): largest contest YES 64596 + NO 103572 = 168,168 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F82D49A436B6"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1998-06-04 | 2 |  | 168,168 | 84.4% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F82D49A436B6): largest contest YES 64596 + NO 103572 = 168,168 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F82D49A436B6 |
 
 ---
 
@@ -1776,11 +2070,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1997-11-04`
 
+**Certified final:** 125,697
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1997-11-05', 'days': 1, 'total': 109772, 'pct': 87.3, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F7DEF0A4AE98): largest contest YES 58257 + NO 51515 = 109,772 at 599 of 599 precincts - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F7DEF0A4AE98"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1997-11-05 | 1 |  | 109,772 | 87.3% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F7DEF0A4AE98): largest contest YES 58257 + NO 51515 = 109,772 at 599 of 599 precincts - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F7DEF0A4AE98 |
 
 ---
 
@@ -1788,11 +2086,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1997-06-03`
 
+**Certified final:** 178,948
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1997-06-04', 'days': 1, 'total': 174448, 'pct': 97.5, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 1997-06-04 (0EB4F7B76F4FACD0): absentees counted into predawn; 'won't start counting about 4,500 provisional ballots until 9 a.m. today' - conservative night floor; stadium-election all-nighter · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F7B76F4FACD0"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1997-06-04 | 1 |  | 174,448 | 97.5% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1997-06-04 (0EB4F7B76F4FACD0): absentees counted into predawn; 'won't start counting about 4,500 provisional ballots until 9 a.m. today' - conservative night floor; stadium-election all-nighter · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F7B76F4FACD0 |
 
 ---
 
@@ -1800,11 +2102,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1996-11-05`
 
+**Certified final:** 298,648
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1996-11-06', 'days': 1, 'total': 278872, 'pct': 93.4, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F778AD67824B): largest contest YES 160787 + NO 118085 = 278,872 at complete table - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F778AD67824B"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1996-11-06 | 1 |  | 278,872 | 93.4% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F778AD67824B): largest contest YES 160787 + NO 118085 = 278,872 at complete table - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F778AD67824B |
 
 ---
 
@@ -1816,9 +2122,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **Source:** Newspaper (via NewsBank)
 
-**Observations:**
+**Observations**
 
-- {'date': '1996-10-25', 'night': False, 'total': 482541, 'pct': 100.7, 'label': 'registered ÷ eligible citizens', 'citation': 'https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1063FBAA6480CFD4'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1996-10-25 |  |  | 482,541 | 100.7% | registered ÷ eligible citizens — https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1063FBAA6480CFD4 |
 
 ---
 
@@ -1826,13 +2134,17 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1996-03-26`
 
+**Certified final:** 178,165
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1996-03-27', 'days': 1, 'total': 106231, 'pct': 59.7, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1996-03-27 'HOW SAN FRANCISCO VOTED' box, 400 of 650 precincts reporting: Prop B (Giants ballpark) YES 70,013 (65.9%) + NO 36,218 = 106,231 - conservative night floor, press-deadline partial; scans cols/sweep_19960326_issue19960327_p7_*.png"}
-- {'date': '1996-03-27', 'days': 1, 'total': 158513, 'pct': 89.0, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 1996-03-28 (0EB4F73F7318D872): 'With all but a few provisional or disputed ballots counted yesterday, Proposition B had 105,336... 53,177 against' - conservative floor (top-contest sum) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F73F7318D872"}
-- {'date': '1996-03-28', 'days': 2, 'total': 158513, 'pct': 89.0, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F73F68913D5D): largest contest YES 105336 + NO 53177 = 158,513 at 650 of 650 precincts - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F73F68913D5D"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1996-03-27 | 1 |  | 106,231 | 59.7% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1996-03-27 'HOW SAN FRANCISCO VOTED' box, 400 of 650 precincts reporting: Prop B (Giants ballpark) YES 70,013 (65.9%) + NO 36,218 = 106,231 - conservative night floor, press-deadline partial; scans cols/sweep_19960326_issue19960327_p7_*.png |
+| 1996-03-27 | 1 |  | 158,513 | 89.0% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1996-03-28 (0EB4F73F7318D872): 'With all but a few provisional or disputed ballots counted yesterday, Proposition B had 105,336... 53,177 against' - conservative floor (top-contest sum) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F73F7318D872 |
+| 1996-03-28 | 2 |  | 158,513 | 89.0% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F73F68913D5D): largest contest YES 105336 + NO 53177 = 158,513 at 650 of 650 precincts - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F73F68913D5D |
 
 ---
 
@@ -1840,11 +2152,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1995-12-12`
 
+**Certified final:** 198,326
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1995-12-12', 'days': 1, 'total': 135231, 'pct': 68.2, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': 'SF Chronicle via NewsBank (SFPL), 1995-12-13 (0EB4F70FC8AEDEDE): MID-NIGHT partial, 339 of 551 precincts: Brown 73,403 / Jordan 61,828 - conservative floor; true night-end higher (power-era punch-card delays) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F70FC8AEDEDE'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1995-12-12 | 1 |  | 135,231 | 68.2% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1995-12-13 (0EB4F70FC8AEDEDE): MID-NIGHT partial, 339 of 551 precincts: Brown 73,403 / Jordan 61,828 - conservative floor; true night-end higher (power-era punch-card delays) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F70FC8AEDEDE |
 
 ---
 
@@ -1852,13 +2168,17 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1995-11-07`
 
+**Certified final:** 216,735
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1995-11-08', 'days': 1, 'total': 176816, 'pct': 81.6, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "Mercury News via NewsBank (SFPL), 'BROWN, JORDAN SLASH INTO RUNOFF' 1995-11-08 (0EB71F0BA8326C82): 'With all precincts reporting, Brown topped the field with 61,709, or 34.9 percent of the vote' - same-contest ratio floor 61,709/0.349 = 176,816; exceeds certified precinct ballots 152,017 so night count included absentees; Pittsburgh Post-Gazette same day: 'Between 3,000 and 4,000 absentee ballots remained to be counted' (would imply ~98%, not used - provisionals unstated) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB71F0BA8326C82"}
-- {'date': '1995-11-09', 'days': 2, 'total': 195267, 'pct': 90.1, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 1995-11-10 (0EB4F6FF665242DA): results table 'totals as of yesterday, with some absentee ballots still to be counted', 543/543 precincts, mayor sum 195,267 - conservative floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F6FF665242DA"}
-- {'date': '1995-11-10', 'days': 3, 'total': 206735, 'pct': 95.4, 'label': 'SF Chronicle archive', 'citation': "SF Chronicle 1995-11-10 'registrar operating under a cloud' (https://sfchronicle.com/news/article/3121516): 'roughly 10,000 absentee ballots left to count' - conservative floor, certified minus stated remaining"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1995-11-08 | 1 |  | 176,816 | 81.6% | SF Chronicle via NewsBank (SFPL) — Mercury News via NewsBank (SFPL), 'BROWN, JORDAN SLASH INTO RUNOFF' 1995-11-08 (0EB71F0BA8326C82): 'With all precincts reporting, Brown topped the field with 61,709, or 34.9 percent of the vote' - same-contest ratio floor 61,709/0.349 = 176,816; exceeds certified precinct ballots 152,017 so night count included absentees; Pittsburgh Post-Gazette same day: 'Between 3,000 and 4,000 absentee ballots remained to be counted' (would imply ~98%, not used - provisionals unstated) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB71F0BA8326C82 |
+| 1995-11-09 | 2 |  | 195,267 | 90.1% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1995-11-10 (0EB4F6FF665242DA): results table 'totals as of yesterday, with some absentee ballots still to be counted', 543/543 precincts, mayor sum 195,267 - conservative floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F6FF665242DA |
+| 1995-11-10 | 3 |  | 206,735 | 95.4% | SF Chronicle archive — SF Chronicle 1995-11-10 'registrar operating under a cloud' (https://sfchronicle.com/news/article/3121516): 'roughly 10,000 absentee ballots left to count' - conservative floor, certified minus stated remaining |
 
 ---
 
@@ -1866,11 +2186,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1994-11-08`
 
+**Certified final:** 249,669
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1994-11-09', 'days': 1, 'total': 239669, 'pct': 96.0, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'S.F. Voters Pass Bond Measure For Art Museum' 1994-11-10 pB5 (0EB4F63B2FFC6F2B): 'registrar officials said about 10,000 absentee ballots were still uncounted'; companion piece itemizes 6,000 absentee + 4,000 provisional - conservative floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F63B2FFC6F2B"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1994-11-09 | 1 |  | 239,669 | 96.0% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'S.F. Voters Pass Bond Measure For Art Museum' 1994-11-10 pB5 (0EB4F63B2FFC6F2B): 'registrar officials said about 10,000 absentee ballots were still uncounted'; companion piece itemizes 6,000 absentee + 4,000 provisional - conservative floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F63B2FFC6F2B |
 
 ---
 
@@ -1878,11 +2202,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1994-06-07`
 
+**Certified final:** 135,495
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1994-06-08', 'days': 1, 'total': 110974, 'pct': 81.9, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': 'SF Chronicle via NewsBank (SFPL), 1994-06-09 (0EB4F5EC914918D5): night table 551/551 precincts, Prop A 76,181 yes / 34,793 no - conservative night floor (top-contest sum) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F5EC914918D5'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1994-06-08 | 1 |  | 110,974 | 81.9% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1994-06-09 (0EB4F5EC914918D5): night table 551/551 precincts, Prop A 76,181 yes / 34,793 no - conservative night floor (top-contest sum) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F5EC914918D5 |
 
 ---
 
@@ -1890,11 +2218,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1993-11-02`
 
+**Certified final:** 158,146
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1993-11-03', 'days': 1, 'total': 128880, 'pct': 81.5, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "Daily News of Los Angeles via NewsBank (SFPL) 1993-11-03 (0EF619F3197DEDB0): Prop BB 'all 542 precincts reporting, 65,768 voters, or 51 percent, approved... while 63,112, or 48.9 percent, opposed' = 128,880 - conservative night floor (largest-contest sum); exceeds certified precinct ballots 113,377 so night count included absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EF619F3197DEDB0"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1993-11-03 | 1 |  | 128,880 | 81.5% | SF Chronicle via NewsBank (SFPL) — Daily News of Los Angeles via NewsBank (SFPL) 1993-11-03 (0EF619F3197DEDB0): Prop BB 'all 542 precincts reporting, 65,768 voters, or 51 percent, approved... while 63,112, or 48.9 percent, opposed' = 128,880 - conservative night floor (largest-contest sum); exceeds certified precinct ballots 113,377 so night count included absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EF619F3197DEDB0 |
 
 ---
 
@@ -1902,11 +2234,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1993-06-15`
 
+**Certified final:** 84,786
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1993-06-16', 'days': 1, 'total': 79338, 'pct': 93.6, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': 'SF Chronicle via NewsBank (SFPL), 1993-06-16 (0EB4F5238AE9867C): night count Prop A 58,495 yes / 20,843 no - conservative night floor (top-contest sum) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F5238AE9867C'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1993-06-16 | 1 |  | 79,338 | 93.6% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1993-06-16 (0EB4F5238AE9867C): night count Prop A 58,495 yes / 20,843 no - conservative night floor (top-contest sum) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F5238AE9867C |
 
 ---
 
@@ -1914,11 +2250,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1992-11-03`
 
+**Certified final:** 329,695
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1992-11-04', 'days': 1, 'total': 266868, 'pct': 80.9, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1992-11-04 'HOW SAN FRANCISCO VOTED' box (masthead-verified Wednesday Nov 4), 513 of 609 precincts reporting: president sum 266,868 - conservative night floor, press-deadline partial; exceeds certified precinct ballots 255,071 so night count included absentees; scans cols/sweep_19921103_issue19921104_p13_*.png"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1992-11-04 | 1 |  | 266,868 | 80.9% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1992-11-04 'HOW SAN FRANCISCO VOTED' box (masthead-verified Wednesday Nov 4), 513 of 609 precincts reporting: president sum 266,868 - conservative night floor, press-deadline partial; exceeds certified precinct ballots 255,071 so night count included absentees; scans cols/sweep_19921103_issue19921104_p13_*.png |
 
 ---
 
@@ -1926,11 +2266,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1992-06-02`
 
+**Certified final:** 182,577
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1992-06-03', 'days': 1, 'total': 154916, 'pct': 84.8, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F40E4FE1D147): largest contest YES 112987 + NO 41929 = 154,916 at 606 of 606 precincts - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F40E4FE1D147"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1992-06-03 | 1 |  | 154,916 | 84.8% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F40E4FE1D147): largest contest YES 112987 + NO 41929 = 154,916 at 606 of 606 precincts - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F40E4FE1D147 |
 
 ---
 
@@ -1938,12 +2282,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1991-12-10`
 
+**Certified final:** 215,751
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1991-12-11', 'days': 1, 'total': 189366, 'pct': 87.8, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': 'SF Chronicle via NewsBank (SFPL), 1991-12-11 (13E41D5657CC3578): night table 627/627 precincts, Jordan 98,491 / Agnos 90,875 - conservative night floor (mayor-contest sum) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/13E41D5657CC3578'}
-- {'date': '1991-12-17', 'days': 7, 'total': 215751, 'pct': 100.0, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 1991-12-18 (13E41D5271A05880): 'The official tally released yesterday... include[s] contested ballots not counted on election day' - count complete day 7 · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/13E41D5271A05880"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1991-12-11 | 1 |  | 189,366 | 87.8% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1991-12-11 (13E41D5657CC3578): night table 627/627 precincts, Jordan 98,491 / Agnos 90,875 - conservative night floor (mayor-contest sum) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/13E41D5657CC3578 |
+| 1991-12-17 | 7 |  | 215,751 | 100.0% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1991-12-18 (13E41D5271A05880): 'The official tally released yesterday... include[s] contested ballots not counted on election day' - count complete day 7 · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/13E41D5271A05880 |
 
 ---
 
@@ -1951,11 +2299,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1991-11-05`
 
+**Certified final:** 200,875
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1991-11-06', 'days': 1, 'total': 187990, 'pct': 93.6, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': 'SF Chronicle via NewsBank (SFPL), 1991-11-06 (13E41D6D56423A18): night table 628/628 precincts, mayor contest sum 187,990 (Jordan 59,928, Agnos 51,714, Alioto 34,910, Hsieh 18,241, Hongisto 17,663 + minor) - conservative night floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/13E41D6D56423A18'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1991-11-06 | 1 |  | 187,990 | 93.6% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1991-11-06 (13E41D6D56423A18): night table 628/628 precincts, mayor contest sum 187,990 (Jordan 59,928, Agnos 51,714, Alioto 34,910, Hsieh 18,241, Hongisto 17,663 + minor) - conservative night floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/13E41D6D56423A18 |
 
 ---
 
@@ -1963,13 +2315,17 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1990-11-06`
 
+**Certified final:** 236,413
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1990-11-07', 'days': 1, 'total': 195318, 'pct': 82.6, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F2D05F2947B9): largest contest YES 122078 + NO 73240 = 195,318 at 621 of 621 precincts - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F2D05F2947B9"}
-- {'date': '1990-11-08', 'days': 2, 'total': 204968, 'pct': 86.7, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F2D10ADB9546): largest contest YES 110735 + NO 94233 = 204,968 at 621 of 621 precincts - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F2D10ADB9546"}
-- {'date': '1990-11-08', 'days': 2, 'total': 234413, 'pct': 99.2, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 1990-11-09 (0EB4F2D1A68C546B): headline '2,000 ballots remain to be examined in San Francisco' - conservative floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F2D1A68C546B"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1990-11-07 | 1 |  | 195,318 | 82.6% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F2D05F2947B9): largest contest YES 122078 + NO 73240 = 195,318 at 621 of 621 precincts - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F2D05F2947B9 |
+| 1990-11-08 | 2 |  | 204,968 | 86.7% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F2D10ADB9546): largest contest YES 110735 + NO 94233 = 204,968 at 621 of 621 precincts - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F2D10ADB9546 |
+| 1990-11-08 | 2 |  | 234,413 | 99.2% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1990-11-09 (0EB4F2D1A68C546B): headline '2,000 ballots remain to be examined in San Francisco' - conservative floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F2D1A68C546B |
 
 ---
 
@@ -1977,12 +2333,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1990-06-05`
 
+**Certified final:** 161,989
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1990-06-06', 'days': 1, 'total': 128838, 'pct': 79.5, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F275B3B60120): largest contest YES 84182 + NO 44656 = 128,838 at 621 of 621 precincts - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F275B3B60120"}
-- {'date': '1990-06-08', 'days': 3, 'total': 160989, 'pct': 99.4, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 1990-06-09 (0EB4F2776A49A703): citywide judge race 'about 1,000 left to count' by late June 8 - conservative floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F2776A49A703"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1990-06-06 | 1 |  | 128,838 | 79.5% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4F275B3B60120): largest contest YES 84182 + NO 44656 = 128,838 at 621 of 621 precincts - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F275B3B60120 |
+| 1990-06-08 | 3 |  | 160,989 | 99.4% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1990-06-09 (0EB4F2776A49A703): citywide judge race 'about 1,000 left to count' by late June 8 - conservative floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F2776A49A703 |
 
 ---
 
@@ -1990,11 +2350,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1989-11-07`
 
+**Certified final:** 181,862
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1989-11-08', 'days': 1, 'total': 171210, 'pct': 94.1, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': 'SF Chronicle via NewsBank (SFPL), 1989-11-08 (0EB4F1E1F451DBA3): night results table 621/621 precincts, Prop P China Basin Ballpark 84,618 yes / 86,592 no (the measure that lost by 1,974) - top-contest sum is a conservative night floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F1E1F451DBA3'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1989-11-08 | 1 |  | 171,210 | 94.1% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1989-11-08 (0EB4F1E1F451DBA3): night results table 621/621 precincts, Prop P China Basin Ballpark 84,618 yes / 86,592 no (the measure that lost by 1,974) - top-contest sum is a conservative night floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F1E1F451DBA3 |
 
 ---
 
@@ -2002,12 +2366,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1988-11-08`
 
+**Certified final:** 292,097
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1988-11-09', 'days': 1, 'total': 252097, 'pct': 86.3, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 1988-11-10 (0EB4F0EB158C3BF3): election-night state 'with most votes counted, except about 40,000 absentee ballots' - conservative night floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F0EB158C3BF3"}
-- {'date': '1988-11-09', 'days': 1, 'total': 289597, 'pct': 99.1, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 1988-11-10 (0EB4F0EB2983145D): figures 'announced late yesterday afternoon... did not include about 2,500 absentee ballots still to be counted' - conservative floor; 40,000 absentees counted in one day · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F0EB2983145D"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1988-11-09 | 1 |  | 252,097 | 86.3% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1988-11-10 (0EB4F0EB158C3BF3): election-night state 'with most votes counted, except about 40,000 absentee ballots' - conservative night floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F0EB158C3BF3 |
+| 1988-11-09 | 1 |  | 289,597 | 99.1% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1988-11-10 (0EB4F0EB2983145D): figures 'announced late yesterday afternoon... did not include about 2,500 absentee ballots still to be counted' - conservative floor; 40,000 absentees counted in one day · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F0EB2983145D |
 
 ---
 
@@ -2015,11 +2383,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1988-06-07`
 
+**Certified final:** 185,420
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1988-06-08', 'days': 1, 'total': 154564, 'pct': 83.4, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'SAN FRANCISCO' results table 1988-06-08 (0EB4F08B19EDFCA0), 619 of 619 precincts reporting: Prop A S.F. School Bonds YES 124,321 + NO 30,243 = 154,564 - conservative night floor (largest-contest sum) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F08B19EDFCA0"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1988-06-08 | 1 |  | 154,564 | 83.4% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'SAN FRANCISCO' results table 1988-06-08 (0EB4F08B19EDFCA0), 619 of 619 precincts reporting: Prop A S.F. School Bonds YES 124,321 + NO 30,243 = 154,564 - conservative night floor (largest-contest sum) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F08B19EDFCA0 |
 
 ---
 
@@ -2027,11 +2399,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1987-12-08`
 
+**Certified final:** 153,720
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1987-12-09', 'days': 1, 'total': 145085, 'pct': 94.4, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'Agnos Is Mayor By a Landslide' day-after paper (0EB4EFD4DF2DACBC), 711 of 711 precincts: mayor sum 145,085 (Agnos 101,519 + Molinari 43,566) - conservative night floor; exceeds certified precinct ballots 113,400 so the night count included absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EFD4DF2DACBC"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1987-12-09 | 1 |  | 145,085 | 94.4% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'Agnos Is Mayor By a Landslide' day-after paper (0EB4EFD4DF2DACBC), 711 of 711 precincts: mayor sum 145,085 (Agnos 101,519 + Molinari 43,566) - conservative night floor; exceeds certified precinct ballots 113,400 so the night count included absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EFD4DF2DACBC |
 
 ---
 
@@ -2039,12 +2415,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1987-11-03`
 
+**Certified final:** 193,742
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1987-11-04', 'days': 1, 'total': 176861, 'pct': 91.3, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4EFBF57FB21D3): largest contest YES 82832 + NO 94029 = 176,861 at complete table - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EFBF57FB21D3"}
-- {'date': '1987-11-04', 'days': 1, 'total': 188850, 'pct': 97.5, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 1987-11-05 (0EB4EFBFBAB11E9B): 'Yesterday he [Registrar Patterson] reported that 188,850 votes were cast Tuesday' - registrar day-1 count · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EFBFBAB11E9B"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1987-11-04 | 1 |  | 176,861 | 91.3% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-after paper (0EB4EFBF57FB21D3): largest contest YES 82832 + NO 94029 = 176,861 at complete table - conservative night floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EFBF57FB21D3 |
+| 1987-11-04 | 1 |  | 188,850 | 97.5% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1987-11-05 (0EB4EFBFBAB11E9B): 'Yesterday he [Registrar Patterson] reported that 188,850 votes were cast Tuesday' - registrar day-1 count · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EFBFBAB11E9B |
 
 ---
 
@@ -2052,11 +2432,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1987-06-02`
 
+**Certified final:** 93,010
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1987-06-03', 'days': 1, 'total': 73822, 'pct': 79.4, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "Sacramento Bee via NewsBank (SFPL), 'PELOSI CAPTURES SF HOUSE SEAT' 1987-06-03 (0EB4EF507671A536): 'With all 543 precincts reporting, Pelosi received 45,770 votes, or 62 percent of the total' - same-contest ratio floor 45,770/0.62 = 73,822; exceeds certified precinct ballots 57,889 so night count included absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EF507671A536"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1987-06-03 | 1 |  | 73,822 | 79.4% | SF Chronicle via NewsBank (SFPL) — Sacramento Bee via NewsBank (SFPL), 'PELOSI CAPTURES SF HOUSE SEAT' 1987-06-03 (0EB4EF507671A536): 'With all 543 precincts reporting, Pelosi received 45,770 votes, or 62 percent of the total' - same-contest ratio floor 45,770/0.62 = 73,822; exceeds certified precinct ballots 57,889 so night count included absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EF507671A536 |
 
 ---
 
@@ -2064,12 +2448,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1987-04-07`
 
+**Certified final:** 111,523
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1987-04-08', 'days': 1, 'total': 101728, 'pct': 91.2, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "Daily Breeze (Torrance) via NewsBank (SFPL) 1987-04-08 (112EE1ADC510F388): 'unofficial results from 521 of 545 precincts, including absentee ballots, showed Pelosi with 36 percent of the ballots, or 36,622 votes' - same-contest ratio floor 36,622/0.36 = 101,728 counted by night · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/112EE1ADC510F388"}
-- {'date': '1987-04-08', 'days': 1, 'total': 108563, 'pct': 97.3, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 1987-04-09 (docref 0EB4EF2D8E65D869): 'An analysis of the 108,563 votes cast Tuesday' - single-contest special, contest count ~= ballots · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EF2D8E65D869"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1987-04-08 | 1 |  | 101,728 | 91.2% | SF Chronicle via NewsBank (SFPL) — Daily Breeze (Torrance) via NewsBank (SFPL) 1987-04-08 (112EE1ADC510F388): 'unofficial results from 521 of 545 precincts, including absentee ballots, showed Pelosi with 36 percent of the ballots, or 36,622 votes' - same-contest ratio floor 36,622/0.36 = 101,728 counted by night · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/112EE1ADC510F388 |
+| 1987-04-08 | 1 |  | 108,563 | 97.3% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1987-04-09 (docref 0EB4EF2D8E65D869): 'An analysis of the 108,563 votes cast Tuesday' - single-contest special, contest count ~= ballots · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EF2D8E65D869 |
 
 ---
 
@@ -2077,11 +2465,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1986-11-04`
 
+**Certified final:** 236,863
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1986-11-06', 'days': 2, 'total': 222403, 'pct': 93.9, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED, Part I' (0EB4EE7D9D257B28), 710 of 710 precincts: governor sum 222,403 (Bradley 133,765 + Deukmejian 83,360 + minor) - conservative day-2 floor (largest-contest sum); exceeds certified precinct ballots 202,055 so the count included absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EE7D9D257B28"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1986-11-06 | 2 |  | 222,403 | 93.9% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED, Part I' (0EB4EE7D9D257B28), 710 of 710 precincts: governor sum 222,403 (Bradley 133,765 + Deukmejian 83,360 + minor) - conservative day-2 floor (largest-contest sum); exceeds certified precinct ballots 202,055 so the count included absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EE7D9D257B28 |
 
 ---
 
@@ -2089,12 +2481,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1986-06-03`
 
+**Certified final:** 146,480
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1986-06-04', 'days': 1, 'total': 142480, 'pct': 97.3, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'Feinstein's Name Failed To Carry Her Big Issues' 1986-06-05 p1 (0EB4EE0DD33808C9): 'Registrar of Voters Jay Patterson said about 4000 absentee ballots have yet to be counted' - conservative floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EE0DD33808C9"}
-- {'date': '1986-06-05', 'days': 2, 'total': 125928, 'pct': 86.0, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4EE0E8C2947DE): largest contest YES 65926 + NO 60002 = 125,928 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EE0E8C2947DE"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1986-06-04 | 1 |  | 142,480 | 97.3% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'Feinstein's Name Failed To Carry Her Big Issues' 1986-06-05 p1 (0EB4EE0DD33808C9): 'Registrar of Voters Jay Patterson said about 4000 absentee ballots have yet to be counted' - conservative floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EE0DD33808C9 |
+| 1986-06-05 | 2 |  | 125,928 | 86.0% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4EE0E8C2947DE): largest contest YES 65926 + NO 60002 = 125,928 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EE0E8C2947DE |
 
 ---
 
@@ -2102,11 +2498,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1985-11-05`
 
+**Certified final:** 107,920
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1985-11-06', 'days': 1, 'total': 99799, 'pct': 92.5, 'label': 'SF Chronicle via NewsBank (SFPL)', 'citation': "Mercury News via NewsBank (SFPL), 'HIGH-RISE INITIATIVE KNOCKED DOWN BY S.F. VOTERS' 1985-11-06 (0EB7270FCB474F36): 'With 706 of 709 precincts reporting, 78,115 voters or 78.3 percent opposed the marijuana measure, and 21,684 were in favor' = 99,799 - conservative night floor (largest-contest sum; high-rise measure 99,475 consistent); exceeds certified precinct ballots 84,547 so night count included absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB7270FCB474F36"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1985-11-06 | 1 |  | 99,799 | 92.5% | SF Chronicle via NewsBank (SFPL) — Mercury News via NewsBank (SFPL), 'HIGH-RISE INITIATIVE KNOCKED DOWN BY S.F. VOTERS' 1985-11-06 (0EB7270FCB474F36): 'With 706 of 709 precincts reporting, 78,115 voters or 78.3 percent opposed the marijuana measure, and 21,684 were in favor' = 99,799 - conservative night floor (largest-contest sum; high-rise measure 99,475 consistent); exceeds certified precinct ballots 84,547 so night count included absentees · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB7270FCB474F36 |
 
 ---
 
@@ -2114,11 +2514,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1984-11-06`
 
+**Certified final:** 298,517
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1984-11-07', 'days': 1, 'total': 282479, 'pct': 94.6, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle 1984-11-07 p6 'ELECTION RESULTS - BAY AREA', SAN FRANCISCO VOTE table, 708/708 precincts reporting: presidential sum 282,479 (Mondale 190,396 + Reagan 88,683 + Bergland 1,615 + Johnson 942 + Richards 843) - conservative night floor (top-contest sum); NewsBank image doc v2:142051F45F422A02@NGPA-CASFC-1524C6011B7EE156@2446012-15226ADB90415F74@5 via SFPL ezproxy, read 2026-06-11"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1984-11-07 | 1 |  | 282,479 | 94.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle 1984-11-07 p6 'ELECTION RESULTS - BAY AREA', SAN FRANCISCO VOTE table, 708/708 precincts reporting: presidential sum 282,479 (Mondale 190,396 + Reagan 88,683 + Bergland 1,615 + Johnson 942 + Richards 843) - conservative night floor (top-contest sum); NewsBank image doc v2:142051F45F422A02@NGPA-CASFC-1524C6011B7EE156@2446012-15226ADB90415F74@5 via SFPL ezproxy, read 2026-06-11 |
 
 ---
 
@@ -2126,11 +2530,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1984-06-05`
 
+**Certified final:** 180,741
+
 **Source:** SF Dept. of Elections turnout history (1960–2002)
 
-**Observations:**
+**Observations**
 
-- {'date': '1984-06-05', 'days': 0, 'night': True, 'total': 151013, 'pct': 83.6, 'label': 'election-night floor — in-person (precinct) share of the certified total', 'citation': 'SF Dept. of Elections turnout history (1960–2002)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1984-06-05 | 0 | ✓ | 151,013 | 83.6% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections turnout history (1960–2002) |
 
 ---
 
@@ -2138,11 +2546,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1983-11-08`
 
+**Certified final:** 170,628
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1983-11-09', 'days': 1, 'total': 142709, 'pct': 83.6, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle 1983-11-09 p24 'S.F. VOTE' table, 100% precincts reporting: Prop A (Recall Election) 106,762 yes / 35,947 no = 142,709 - conservative night floor (top-contest sum; PCT column 75/25 validates); NewsBank image scan mirror/newsbank/scans/19831108_issue19831109_p23.png via SFPL, read 2026-06-11 · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-15262768CCC17B73%402445648-151F8E0CB49B2AC2%4065-151F8E0CB49B2AC2%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1983-11-09 | 1 |  | 142,709 | 83.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle 1983-11-09 p24 'S.F. VOTE' table, 100% precincts reporting: Prop A (Recall Election) 106,762 yes / 35,947 no = 142,709 - conservative night floor (top-contest sum; PCT column 75/25 validates); NewsBank image scan mirror/newsbank/scans/19831108_issue19831109_p23.png via SFPL, read 2026-06-11 · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-15262768CCC17B73%402445648-151F8E0CB49B2AC2%4065-151F8E0CB49B2AC2%40 |
 
 ---
 
@@ -2150,11 +2562,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1983-04-26`
 
+**Certified final:** 167,267
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1983-04-27', 'days': 1, 'total': 156312, 'pct': 93.5, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1983-04-27 front page 'FINAL VOTE ON RECALL' box: ABSENTEES 5,690 yes / 45,343 no; PRECINCTS 23,579 yes / 81,700 no; TOTALS 29,269 (18.8%) / 127,043 (81.2%) = 156,312 - night count incl. 51,033 absentees counted election night; internally consistent (rows sum, pcts validate); 'another 5000 absentee ballots, which arrived late at City Hall, will be counted today'; scans pan_19830426_issue19830428_p1_s1/s2.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-15305965CF4123EB%402445452-151FC6BAF53B44A8%403-151FC6BAF53B44A8%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1983-04-27 | 1 |  | 156,312 | 93.5% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1983-04-27 front page 'FINAL VOTE ON RECALL' box: ABSENTEES 5,690 yes / 45,343 no; PRECINCTS 23,579 yes / 81,700 no; TOTALS 29,269 (18.8%) / 127,043 (81.2%) = 156,312 - night count incl. 51,033 absentees counted election night; internally consistent (rows sum, pcts validate); 'another 5000 absentee ballots, which arrived late at City Hall, will be counted today'; scans pan_19830426_issue19830428_p1_s1/s2.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-15305965CF4123EB%402445452-151FC6BAF53B44A8%403-151FC6BAF53B44A8%40 |
 
 ---
 
@@ -2162,11 +2578,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1982-11-02`
 
+**Certified final:** 238,991
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1982-11-03', 'days': 1, 'total': 230991, 'pct': 96.7, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1982-11-03 p4 'Nelder Leads the Pack in S.F. Supervisors Race': 'With all the votes cast yesterday counted...' / 'The race probably will not be decided until 8,000 absentee ballots, turned in at polling places yesterday, are counted later this week' - conservative floor, certified minus stated remaining; scan ...19821102_issue19821103_p4.png, verified 2026-06-11 · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151FE87234C23702%402445277-151F815D4C48149F%4055-151F815D4C48149F%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1982-11-03 | 1 |  | 230,991 | 96.7% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1982-11-03 p4 'Nelder Leads the Pack in S.F. Supervisors Race': 'With all the votes cast yesterday counted...' / 'The race probably will not be decided until 8,000 absentee ballots, turned in at polling places yesterday, are counted later this week' - conservative floor, certified minus stated remaining; scan ...19821102_issue19821103_p4.png, verified 2026-06-11 · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151FE87234C23702%402445277-151F815D4C48149F%4055-151F815D4C48149F%40 |
 
 ---
 
@@ -2174,11 +2594,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1982-06-08`
 
+**Certified final:** 176,381
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1982-06-09', 'days': 2, 'total': 93431, 'pct': 53.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1982-06-10 'S.F. VOTE' box, '100% of vote': Democratic governor primary sum 93,431 (Bradley 58,923, Garamendi 25,936 + minor; PCT validates) - party-subset conservative floor; scan tbl_19820608_issue19820610_p7.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151F9BE9EBE5DCD8%402445131-151D4E0418EA1308%4059-151D4E0418EA1308%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1982-06-09 | 2 |  | 93,431 | 53.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1982-06-10 'S.F. VOTE' box, '100% of vote': Democratic governor primary sum 93,431 (Bradley 58,923, Garamendi 25,936 + minor; PCT validates) - party-subset conservative floor; scan tbl_19820608_issue19820610_p7.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151F9BE9EBE5DCD8%402445131-151D4E0418EA1308%4059-151D4E0418EA1308%40 |
 
 ---
 
@@ -2186,11 +2610,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1981-11-03`
 
+**Certified final:** 99,658
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1981-11-04', 'days': 1, 'total': 91078, 'pct': 91.4, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), day-after SF VOTE table, 100% precincts reporting: Prop B (cable car fare) sum 91,078 (YES 56,505 + NO 34,573; printed 62/38 pcts validate) - conservative night floor (top-contest sum); exceeds certified precinct ballots 88,783 so night count included absentees; scan tbl_19811103_issue19811104_p19.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1514C0410844E497%402444913-1514602904B4FAC9%40123-1514602904B4FAC9%40'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1981-11-04 | 1 |  | 91,078 | 91.4% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), day-after SF VOTE table, 100% precincts reporting: Prop B (cable car fare) sum 91,078 (YES 56,505 + NO 34,573; printed 62/38 pcts validate) - conservative night floor (top-contest sum); exceeds certified precinct ballots 88,783 so night count included absentees; scan tbl_19811103_issue19811104_p19.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1514C0410844E497%402444913-1514602904B4FAC9%40123-1514602904B4FAC9%40 |
 
 ---
 
@@ -2198,11 +2626,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1980-11-04`
 
+**Certified final:** 268,070
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1980-11-05', 'days': 1, 'total': 249291, 'pct': 93.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1980-11-05 'S.F. VOTE' box, 100% precincts: presidential sum 249,291 (Carter 131,103, Reagan 78,962, Anderson 28,880, Commoner 5,098, Clark 4,019 + minor; PCT validates) - conservative night floor; scan tbl_19801104_issue19801105_p4.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1516EB5317B50A65%402444549-151658734F7F1837%4068-151658734F7F1837%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1980-11-05 | 1 |  | 249,291 | 93.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1980-11-05 'S.F. VOTE' box, 100% precincts: presidential sum 249,291 (Carter 131,103, Reagan 78,962, Anderson 28,880, Commoner 5,098, Clark 4,019 + minor; PCT validates) - conservative night floor; scan tbl_19801104_issue19801105_p4.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1516EB5317B50A65%402444549-151658734F7F1837%4068-151658734F7F1837%40 |
 
 ---
 
@@ -2210,11 +2642,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1980-08-19`
 
+**Certified final:** 140,551
+
 **Source:** SF Dept. of Elections turnout history (1960–2002)
 
-**Observations:**
+**Observations**
 
-- {'date': '1980-08-19', 'days': 0, 'night': True, 'total': 119566, 'pct': 85.1, 'label': 'election-night floor — in-person (precinct) share of the certified total', 'citation': 'SF Dept. of Elections turnout history (1960–2002)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1980-08-19 | 0 | ✓ | 119,566 | 85.1% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections turnout history (1960–2002) |
 
 ---
 
@@ -2222,11 +2658,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1980-06-03`
 
+**Certified final:** 206,366
+
 **Source:** SF Dept. of Elections turnout history (1960–2002)
 
-**Observations:**
+**Observations**
 
-- {'date': '1980-06-03', 'days': 0, 'night': True, 'total': 191196, 'pct': 92.6, 'label': 'election-night floor — in-person (precinct) share of the certified total', 'citation': 'SF Dept. of Elections turnout history (1960–2002)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1980-06-03 | 0 | ✓ | 191,196 | 92.6% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections turnout history (1960–2002) |
 
 ---
 
@@ -2234,11 +2674,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1979-12-11`
 
+**Certified final:** 196,341
+
 **Source:** SF Dept. of Elections turnout history (1960–2002)
 
-**Observations:**
+**Observations**
 
-- {'date': '1979-12-11', 'days': 0, 'night': True, 'total': 178347, 'pct': 90.8, 'label': 'election-night floor — in-person (precinct) share of the certified total', 'citation': 'SF Dept. of Elections turnout history (1960–2002)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1979-12-11 | 0 | ✓ | 178,347 | 90.8% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections turnout history (1960–2002) |
 
 ---
 
@@ -2246,11 +2690,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1979-11-06`
 
+**Certified final:** 204,869
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1979-11-07', 'days': 1, 'total': 192462, 'pct': 93.9, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1979-11-07/08 'COMPLETE S.F. VOTE' box, 100% precincts: mayor sum 192,462 (Feinstein 81,115, Kopp 77,784, Scott 18,506, Biafra 6,591 + minor; PCT column validates) - conservative night floor; scan tbl_19791106_issue19791108_p3.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-153887E6D4AC36C3%402444186-153683F2AEDB7393%4023-153683F2AEDB7393%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1979-11-07 | 1 |  | 192,462 | 93.9% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1979-11-07/08 'COMPLETE S.F. VOTE' box, 100% precincts: mayor sum 192,462 (Feinstein 81,115, Kopp 77,784, Scott 18,506, Biafra 6,591 + minor; PCT column validates) - conservative night floor; scan tbl_19791106_issue19791108_p3.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-153887E6D4AC36C3%402444186-153683F2AEDB7393%4023-153683F2AEDB7393%40 |
 
 ---
 
@@ -2258,11 +2706,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1978-11-07`
 
+**Certified final:** 238,667
+
 **Source:** CA SoS Statement of Vote (Gen. Election Nov 7 1978), SF County certified TOTAL BALLOTS CAST 238,667 (precinct 217,965 + absentee 20,702; Governor sum 225,465). DOE's 217,965 matches the SOV precinct-vote column (it appears to omit the 20,702 absentees), so for our dataset we use the total-cast figure here, pending confirmation. https://archive.org/details/statementofvote197879cali/page/n245 ; cross-ref Wikipedia 1978 CA gubernatorial.
 
-**Observations:**
+**Observations**
 
-- {'date': '1978-11-08', 'days': 1, 'total': 223147, 'pct': 93.5, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 'S.F. VOTE' day-after paper 1978-11-08 (tbl_19781107_issue19781108_p6): governor sum 223,147 (Brown 155,156 69.5% + Younger 50,748 22.7% + Clark 11,470 + Seals 4,339 + Dietrich 1,434; pcts validate) - near-complete day-after count. NOTE: the DOE turnout table lists only 217,965 ballots for this election, which is contradicted by this single contest (votes cannot exceed ballots); the true certified total is >= 223,147 pending the SF Statement of Vote, so this floor is shown against the contest sum. Brown's ~70% SF share is historically consistent; the CA SOV djvu-OCR figure of 99,171 for Brown SF is an OCR/column error."}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1978-11-08 | 1 |  | 223,147 | 93.5% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 'S.F. VOTE' day-after paper 1978-11-08 (tbl_19781107_issue19781108_p6): governor sum 223,147 (Brown 155,156 69.5% + Younger 50,748 22.7% + Clark 11,470 + Seals 4,339 + Dietrich 1,434; pcts validate) - near-complete day-after count. NOTE: the DOE turnout table lists only 217,965 ballots for this election, which is contradicted by this single contest (votes cannot exceed ballots); the true certified total is >= 223,147 pending the SF Statement of Vote, so this floor is shown against the contest sum. Brown's ~70% SF share is historically consistent; the CA SOV djvu-OCR figure of 99,171 for Brown SF is an OCR/column error. |
 
 ---
 
@@ -2270,11 +2722,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1978-06-06`
 
+**Certified final:** 203,931
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1978-06-07', 'days': 1, 'total': 95129, 'pct': 46.6, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1978-06-07 'S.F. VOTE', PARTIAL 81.3% of 912 precincts: Democratic governor primary sum 95,129 (Brown 80,761 + others) - party-subset mid-night partial floor; scan tbl_19780606_issue19780607_p5.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1536B59E39E22867%402443667-1533FADA34CF8813%4088-1533FADA34CF8813%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1978-06-07 | 1 |  | 95,129 | 46.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1978-06-07 'S.F. VOTE', PARTIAL 81.3% of 912 precincts: Democratic governor primary sum 95,129 (Brown 80,761 + others) - party-subset mid-night partial floor; scan tbl_19780606_issue19780607_p5.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1536B59E39E22867%402443667-1533FADA34CF8813%4088-1533FADA34CF8813%40 |
 
 ---
 
@@ -2282,11 +2738,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1977-11-08`
 
+**Certified final:** 175,582
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1977-11-09', 'days': 1, 'total': 173555, 'pct': 98.8, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), day-after 'Low Turnout' article (Jerry Burns): 'The final, unofficial results showed that just 51.2 percent of the city's 339,306 registered voters went to the polls' - conservative floor 0.5115 x 339,306 = 173,555 (rounding-safe); consistent with 912/912-precinct contest tables on same page (Prop E sum 162,150); scan flip_19771108_issue19771110_p4.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1533F0109C5DDAA6%402443457-15328F77567C73C1%403-15328F77567C73C1%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1977-11-09 | 1 |  | 173,555 | 98.8% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), day-after 'Low Turnout' article (Jerry Burns): 'The final, unofficial results showed that just 51.2 percent of the city's 339,306 registered voters went to the polls' - conservative floor 0.5115 x 339,306 = 173,555 (rounding-safe); consistent with 912/912-precinct contest tables on same page (Prop E sum 162,150); scan flip_19771108_issue19771110_p4.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1533F0109C5DDAA6%402443457-15328F77567C73C1%403-15328F77567C73C1%40 |
 
 ---
 
@@ -2294,11 +2754,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1977-08-02`
 
+**Certified final:** 178,367
+
 **Source:** SF Dept. of Elections turnout history (1960–2002)
 
-**Observations:**
+**Observations**
 
-- {'date': '1977-08-02', 'days': 0, 'night': True, 'total': 161622, 'pct': 90.6, 'label': 'election-night floor — in-person (precinct) share of the certified total', 'citation': 'SF Dept. of Elections turnout history (1960–2002)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1977-08-02 | 0 | ✓ | 161,622 | 90.6% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections turnout history (1960–2002) |
 
 ---
 
@@ -2306,11 +2770,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1976-11-02`
 
+**Certified final:** 252,932
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1976-11-02', 'days': 1, 'total': 149461, 'pct': 59.1, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1976-11-03 p3 'S.F. Results' box, MID-NIGHT PARTIAL 545 of 935 precincts: Carter 77,452 + Ford 63,186 + others 8,823 = 149,461 - partial night observation, true night-end higher; scan ...19761102_issue19761103_p3.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1567B33B51880894%402443086-15675E4CB1B37F81%4049-15675E4CB1B37F81%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1976-11-02 | 1 |  | 149,461 | 59.1% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1976-11-03 p3 'S.F. Results' box, MID-NIGHT PARTIAL 545 of 935 precincts: Carter 77,452 + Ford 63,186 + others 8,823 = 149,461 - partial night observation, true night-end higher; scan ...19761102_issue19761103_p3.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1567B33B51880894%402443086-15675E4CB1B37F81%4049-15675E4CB1B37F81%40 |
 
 ---
 
@@ -2318,11 +2786,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1976-06-08`
 
+**Certified final:** 208,884
+
 **Source:** SF Dept. of Elections turnout history (1960–2002)
 
-**Observations:**
+**Observations**
 
-- {'date': '1976-06-08', 'days': 0, 'night': True, 'total': 191684, 'pct': 91.8, 'label': 'election-night floor — in-person (precinct) share of the certified total', 'citation': 'SF Dept. of Elections turnout history (1960–2002)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1976-06-08 | 0 | ✓ | 191,684 | 91.8% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections turnout history (1960–2002) |
 
 ---
 
@@ -2330,11 +2802,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1975-12-11`
 
+**Certified final:** 200,804
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1975-12-12', 'days': 1, 'total': 198741, 'pct': 99.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), Friday 1975-12-12 front page (masthead-verified), 'Moscone Elected in Runoff - Close Margin of Victory', all 942 precincts: Moscone 101,528 + Barbagelata 97,213 = 198,741 - conservative night floor (mayor-contest sum); margin 4,315 = 2.2% matches 'less than three per cent'; victory claimed 11:16 p.m.; exceeds certified precinct ballots 190,741 so night count included absentees; election held Thursday Dec 11 1975 per election-day paper 'S.F. Picks A Mayor Today'; scans pan_19751211_issue19751212_p1_s*.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1514B112D5BAEFED%402442759-1514047D9EDE0AA7%4019-1514047D9EDE0AA7%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1975-12-12 | 1 |  | 198,741 | 99.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), Friday 1975-12-12 front page (masthead-verified), 'Moscone Elected in Runoff - Close Margin of Victory', all 942 precincts: Moscone 101,528 + Barbagelata 97,213 = 198,741 - conservative night floor (mayor-contest sum); margin 4,315 = 2.2% matches 'less than three per cent'; victory claimed 11:16 p.m.; exceeds certified precinct ballots 190,741 so night count included absentees; election held Thursday Dec 11 1975 per election-day paper 'S.F. Picks A Mayor Today'; scans pan_19751211_issue19751212_p1_s*.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1514B112D5BAEFED%402442759-1514047D9EDE0AA7%4019-1514047D9EDE0AA7%40 |
 
 ---
 
@@ -2342,11 +2818,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1975-11-04`
 
+**Certified final:** 215,559
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1975-11-05', 'days': 1, 'total': 209980, 'pct': 97.4, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), day-after front-page scoreboard, 'Percent Precincts Reported: 99.19%' of 942: mayor contest sum 209,980 (Moscone 66,195 + Barbagelata 40,540 + Feinstein 39,344 + Ertola 30,360 + Marks 27,910 + 6 minor) - conservative night floor; exceeds certified precinct ballots 206,167 so night count included absentees; digits verified against narrative (Barbagelata-Feinstein gap 1,196 = 'about 1200 votes'); scan flip_19751104_issue19751106_p1.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1514C0BA3874F03C%402442722-1514042FD3C32AF8%403-1514042FD3C32AF8%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1975-11-05 | 1 |  | 209,980 | 97.4% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), day-after front-page scoreboard, 'Percent Precincts Reported: 99.19%' of 942: mayor contest sum 209,980 (Moscone 66,195 + Barbagelata 40,540 + Feinstein 39,344 + Ertola 30,360 + Marks 27,910 + 6 minor) - conservative night floor; exceeds certified precinct ballots 206,167 so night count included absentees; digits verified against narrative (Barbagelata-Feinstein gap 1,196 = 'about 1200 votes'); scan flip_19751104_issue19751106_p1.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1514C0BA3874F03C%402442722-1514042FD3C32AF8%403-1514042FD3C32AF8%40 |
 
 ---
 
@@ -2354,11 +2834,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1974-11-05`
 
+**Certified final:** 228,586
+
 **Source:** SF Dept. of Elections turnout history (1960–2002)
 
-**Observations:**
+**Observations**
 
-- {'date': '1974-11-05', 'days': 0, 'night': True, 'total': 213114, 'pct': 93.2, 'label': 'election-night floor — in-person (precinct) share of the certified total', 'citation': 'SF Dept. of Elections turnout history (1960–2002)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1974-11-05 | 0 | ✓ | 213,114 | 93.2% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections turnout history (1960–2002) |
 
 ---
 
@@ -2366,12 +2850,16 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1974-06-04`
 
+**Certified final:** 198,508
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1974-06-05', 'days': 1, 'total': 89229, 'pct': 44.9, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1974-06-05 'SF Vote Tally', PARTIAL 815 of 1,356 precincts: Prop A (Elective BART Board) 55,698 yes / 33,531 no = 89,229 - mid-night partial floor; scan tbl_19740604_issue19740605_p1.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151A9B7C1498A16D%402442204-15149EC22807E700%4057-15149EC22807E700%40"}
-- {'date': '1974-06-06', 'days': 2, 'total': 198508, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 'SF Vote Tally' day-2 paper 1974-06-06 (tbl_19740604_issue19740606_p5), 1356 of 1356 precincts (complete): Prop B (Conflicts of Interest) Yes 162,975 + No 40,406 = 203,381 - a ballot measure all voters could vote on. NOTE: the DOE turnout table lists only 198,508 ballots for this election, contradicted by this measure (votes cannot exceed ballots); true certified >= 203,381 pending the SF Statement of Vote. | CORRECTED: prior Prop B 203,381 exceeded SOV-certified turnout 198,508; that reading was anomalous and is superseded by the certified turnout."}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1974-06-05 | 1 |  | 89,229 | 44.9% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1974-06-05 'SF Vote Tally', PARTIAL 815 of 1,356 precincts: Prop A (Elective BART Board) 55,698 yes / 33,531 no = 89,229 - mid-night partial floor; scan tbl_19740604_issue19740605_p1.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151A9B7C1498A16D%402442204-15149EC22807E700%4057-15149EC22807E700%40 |
+| 1974-06-06 | 2 |  | 198,508 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 'SF Vote Tally' day-2 paper 1974-06-06 (tbl_19740604_issue19740606_p5), 1356 of 1356 precincts (complete): Prop B (Conflicts of Interest) Yes 162,975 + No 40,406 = 203,381 - a ballot measure all voters could vote on. NOTE: the DOE turnout table lists only 198,508 ballots for this election, contradicted by this measure (votes cannot exceed ballots); true certified >= 203,381 pending the SF Statement of Vote. &#124; CORRECTED: prior Prop B 203,381 exceeded SOV-certified turnout 198,508; that reading was anomalous and is superseded by the certified turnout. |
 
 ---
 
@@ -2379,11 +2867,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1973-11-06`
 
+**Certified final:** 202,237
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1973-11-07', 'days': 1, 'total': 117066, 'pct': 57.9, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1973-11-07 'SF Vote Tally', COMPLETE 1,000/1,000 precincts: supervisors race, Feinstein 117,066 - single-candidate floor (each ballot votes a candidate at most once); scan tbl_19731106_issue19731107_p3.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1515E9D3067D0E53%402441994-1513B686AC54076B%4015-1513B686AC54076B%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1973-11-07 | 1 |  | 117,066 | 57.9% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1973-11-07 'SF Vote Tally', COMPLETE 1,000/1,000 precincts: supervisors race, Feinstein 117,066 - single-candidate floor (each ballot votes a candidate at most once); scan tbl_19731106_issue19731107_p3.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1515E9D3067D0E53%402441994-1513B686AC54076B%4015-1513B686AC54076B%40 |
 
 ---
 
@@ -2391,11 +2883,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1972-11-07`
 
+**Certified final:** 316,803
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1972-11-08', 'days': 1, 'total': 292341, 'pct': 92.3, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), day-after Vote Tally, 1300 of 1351 precincts: president sum 292,341 (McGovern 163,333 + Nixon 122,937 + Schmitz 3,579 + Spock 2,492) - conservative night floor; exceeds certified precinct ballots 289,010, so night count included some absentees; digits independently re-verified (corrected from first-pass OCR); scan flip_19721107_issue19721109_p8.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-15163D2608DF5635%402441630-1513FF7215C3E2C6%405-1513FF7215C3E2C6%40'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1972-11-08 | 1 |  | 292,341 | 92.3% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), day-after Vote Tally, 1300 of 1351 precincts: president sum 292,341 (McGovern 163,333 + Nixon 122,937 + Schmitz 3,579 + Spock 2,492) - conservative night floor; exceeds certified precinct ballots 289,010, so night count included some absentees; digits independently re-verified (corrected from first-pass OCR); scan flip_19721107_issue19721109_p8.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-15163D2608DF5635%402441630-1513FF7215C3E2C6%405-1513FF7215C3E2C6%40 |
 
 ---
 
@@ -2403,11 +2899,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1972-06-06`
 
+**Certified final:** 234,840
+
 **Source:** SF Dept. of Elections turnout history (1960–2002)
 
-**Observations:**
+**Observations**
 
-- {'date': '1972-06-06', 'days': 0, 'night': True, 'total': 218176, 'pct': 92.9, 'label': 'election-night floor — in-person (precinct) share of the certified total', 'citation': 'SF Dept. of Elections turnout history (1960–2002)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1972-06-06 | 0 | ✓ | 218,176 | 92.9% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections turnout history (1960–2002) |
 
 ---
 
@@ -2415,11 +2915,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1968-11-05`
 
+**Certified final:** 307,012
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1968-11-06', 'days': 1, 'total': 255938, 'pct': 83.4, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 'The Vote Tally' day-after paper, 1140 of 1282 precincts (press-deadline snapshot): president sum 255,938 (Humphrey 151,730 + Nixon 85,786 + Wallace 16,112 + Cleaver 2,310) - conservative night floor, partial precincts; digits independently re-verified; scan flip_19681105_issue19681107_p2.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151498F89D326DB1%402440167-15120ED6255D4856%403-15120ED6255D4856%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1968-11-06 | 1 |  | 255,938 | 83.4% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 'The Vote Tally' day-after paper, 1140 of 1282 precincts (press-deadline snapshot): president sum 255,938 (Humphrey 151,730 + Nixon 85,786 + Wallace 16,112 + Cleaver 2,310) - conservative night floor, partial precincts; digits independently re-verified; scan flip_19681105_issue19681107_p2.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151498F89D326DB1%402440167-15120ED6255D4856%403-15120ED6255D4856%40 |
 
 ---
 
@@ -2427,11 +2931,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1965-11-02`
 
+**Certified final:** 193,035
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1965-11-03 p9 — Prop A 193,035 (largest contest, all 1342 precincts) used as citywide floor; lead story cites ~61.5% turnout; scan sweep_19651102_issue19651103_p9_s0
 
-**Observations:**
+**Observations**
 
-- {'date': '1965-11-03', 'days': 1, 'total': 193035, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1965-11-03 p9 'The Propositions' box — COMPLETE, all 1342/1342 precincts reporting; largest contest Prop A (Medical Center/SF Hospital Bonds) YES 148,530+NO 44,505=193,035 (no Mayor race; Treasurer Goodwin+Vanderbilt 155,743); lever-machine era; scan sweep_19651102_issue19651103_p9_s0; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1965-11-03 | 1 |  | 193,035 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1965-11-03 p9 'The Propositions' box — COMPLETE, all 1342/1342 precincts reporting; largest contest Prop A (Medical Center/SF Hospital Bonds) YES 148,530+NO 44,505=193,035 (no Mayor race; Treasurer Goodwin+Vanderbilt 155,743); lever-machine era; scan sweep_19651102_issue19651103_p9_s0; conf=high |
 
 ---
 
@@ -2439,11 +2947,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1964-11-03`
 
+**Certified final:** 331,612
+
 **Source:** DOE turnout 331,612 consistent (>= SOV SF President 323,908: Johnson 230,758+Goldwater 92,994). CA SoS Statement of Vote 1964, https://archive.org/details/castatem196264cali ; cross-ref Wikipedia 1964 US pres CA. DOE ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1964-11-04', 'days': 1, 'total': 310193, 'pct': 93.5, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 'The Vote Tally' day-after paper, 1341 of 1341 precincts: president sum 310,193 (Johnson 221,343 + Goldwater 88,850) - conservative night floor (top-contest sum); digits independently re-verified; senate line (Salinger 197,863 + Murphy 125,716 = 323,579) printed as-is but exceeds certified precinct ballots 313,134 - anomaly logged, not used; scan flip_19641103_issue19641105_p2.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1511FD9380E7C8D5%402438704-1511F57F7A6D8CF5%406-1511F57F7A6D8CF5%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1964-11-04 | 1 |  | 310,193 | 93.5% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 'The Vote Tally' day-after paper, 1341 of 1341 precincts: president sum 310,193 (Johnson 221,343 + Goldwater 88,850) - conservative night floor (top-contest sum); digits independently re-verified; senate line (Salinger 197,863 + Murphy 125,716 = 323,579) printed as-is but exceeds certified precinct ballots 313,134 - anomaly logged, not used; scan flip_19641103_issue19641105_p2.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1511FD9380E7C8D5%402438704-1511F57F7A6D8CF5%406-1511F57F7A6D8CF5%40 |
 
 ---
 
@@ -2451,11 +2963,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1964-06-02`
 
+**Certified final:** 216,810
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1964-06-03 p2 — U.S. Senator two-party sum 216,810 (all 1340 precincts) as citywide turnout floor; scan sweep_19640602_issue19640603_p2_s0
 
-**Observations:**
+**Observations**
 
-- {'date': '1964-06-03', 'days': 1, 'total': 216810, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1964-06-03 p2 'The Vote In S.F.' ELECTION EXTRA FINAL — COMPLETE, all 1340/1340 precincts; U.S. Senator primary both parties Dem 144,624 (Salinger 66,583+Cranston 66,123+Engle 5,105+McLain 6,813) + Rep 72,186 (Hall 6,568+Kaiser 31,373+Murphy 34,245) = 216,810 (largest two-party office sum); lever-machine era; scan sweep_19640602_issue19640603_p2_s0; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1964-06-03 | 1 |  | 216,810 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1964-06-03 p2 'The Vote In S.F.' ELECTION EXTRA FINAL — COMPLETE, all 1340/1340 precincts; U.S. Senator primary both parties Dem 144,624 (Salinger 66,583+Cranston 66,123+Engle 5,105+McLain 6,813) + Rep 72,186 (Hall 6,568+Kaiser 31,373+Murphy 34,245) = 216,810 (largest two-party office sum); lever-machine era; scan sweep_19640602_issue19640603_p2_s0; conf=high |
 
 ---
 
@@ -2463,11 +2979,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1963-11-05`
 
+**Certified final:** 240,768
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1963-11-06 p1 — complete Mayor count 240,768 across all 1339 precincts (citywide floor; ~5,000 late absentees pending, official canvass marginally higher); scan sweep_19631105_issue19631106_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1963-11-06', 'days': 1, 'total': 240768, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1963-11-06 p1 ELECTION EXTRA FINAL 'The City Vote' box — COMPLETE semi-official, all 1339/1339 precincts election night; Mayor (largest contest) Shelley 120,560+Dobbs 92,627+Mancuso 27,581=240,768 (incl 3,248 absentees; ~5,000 absentees still pending — minor tail); lever-machine era; scan sweep_19631105_issue19631106_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1963-11-06 | 1 |  | 240,768 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1963-11-06 p1 ELECTION EXTRA FINAL 'The City Vote' box — COMPLETE semi-official, all 1339/1339 precincts election night; Mayor (largest contest) Shelley 120,560+Dobbs 92,627+Mancuso 27,581=240,768 (incl 3,248 absentees; ~5,000 absentees still pending — minor tail); lever-machine era; scan sweep_19631105_issue19631106_p1_s1; conf=high |
 
 ---
 
@@ -2475,11 +2995,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1962-11-06`
 
+**Certified final:** 287,463
+
 **Source:** Certified SF county Governor vote 287,463 (Brown 180,298 + Nixon 107,165), per 1962 CA gubernatorial election / CA Secretary of State Statement of Vote; election-night completeness from SF Chronicle 1962-11-07 p14 (1332/1332 precincts); scan sweep_19621106_issue19621107_p4_s0
 
-**Observations:**
+**Observations**
 
-- {'date': '1962-11-07', 'days': 1, 'total': 287463, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1962-11-07 p14 'How S.F. Voted' — COMPLETE semi-official, all 1332/1332 SF precincts election night; largest contest Governor SF Brown 180,298 + Nixon 107,165 = 287,463 (CERTIFIED SF county figures, cross-verified vs Wikipedia 1962 CA gubernatorial election / CA SoS Statement of Vote 2026; the front-page agate read was unreliable); lever-machine era; scan sweep_19621106_issue19621107_p4_s0; conf=high · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-150964141F577855%402437976-15095C1AD6A54947%408-15095C1AD6A54947%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1962-11-07 | 1 |  | 287,463 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1962-11-07 p14 'How S.F. Voted' — COMPLETE semi-official, all 1332/1332 SF precincts election night; largest contest Governor SF Brown 180,298 + Nixon 107,165 = 287,463 (CERTIFIED SF county figures, cross-verified vs Wikipedia 1962 CA gubernatorial election / CA SoS Statement of Vote 2026; the front-page agate read was unreliable); lever-machine era; scan sweep_19621106_issue19621107_p4_s0; conf=high · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-150964141F577855%402437976-15095C1AD6A54947%408-15095C1AD6A54947%40 |
 
 ---
 
@@ -2487,11 +3011,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1962-06-05`
 
+**Certified final:** 171,294
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1962-06-06 p2 — U.S. Senator two-party sum 171,294 (all 1331 precincts) as citywide turnout floor; scan sweep_19620605_issue19620606_p2_s0
 
-**Observations:**
+**Observations**
 
-- {'date': '1962-06-06', 'days': 1, 'total': 171294, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1962-06-06 p2 'The Vote In S.F.' FINAL ELECTION EXTRA — COMPLETE, all 1331/1331 precincts; U.S. Senator primary both parties Dem 72,758 (Richards 50,984+Coleman 12,600+Green 9,174) + Rep 98,536 (Kuchel 89,634+Wright 5,074+Jarvis 2,438+Reinholz 1,390) = 171,294 (largest SF citywide two-party office; Governor printed only as statewide county tables); lever-machine era; scan sweep_19620605_issue19620606_p2_s0; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1962-06-06 | 1 |  | 171,294 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1962-06-06 p2 'The Vote In S.F.' FINAL ELECTION EXTRA — COMPLETE, all 1331/1331 precincts; U.S. Senator primary both parties Dem 72,758 (Richards 50,984+Coleman 12,600+Green 9,174) + Rep 98,536 (Kuchel 89,634+Wright 5,074+Jarvis 2,438+Reinholz 1,390) = 171,294 (largest SF citywide two-party office; Governor printed only as statewide county tables); lever-machine era; scan sweep_19620605_issue19620606_p2_s0; conf=high |
 
 ---
 
@@ -2499,11 +3027,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1961-11-07`
 
+**Certified final:** 190,484
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1961-11-08 p1 'Final S.F. Vote' — City Attorney complete 190,484 (O'Connor 125,869 + Sullivan 64,615, human-verified) used as citywide floor; scan sweep_19611107_issue19611108_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1961-11-08', 'days': 1, 'total': 190484, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1961-11-08 p1 FINAL ELECTION EXTRA 'Final S.F. Vote' — COMPLETE election night; no Mayor race; largest contest City Attorney O'Connor 125,869 + Sullivan 64,615 = 190,484 (HUMAN-VERIFIED from scan 2026; front-page agate type, hard read); lever-machine era; scan sweep_19611107_issue19611108_p1_s1; conf=medium · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1508C67BA7FEB8CB%402437612-1508BF820FFF57F3%4012-1508BF820FFF57F3%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1961-11-08 | 1 |  | 190,484 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1961-11-08 p1 FINAL ELECTION EXTRA 'Final S.F. Vote' — COMPLETE election night; no Mayor race; largest contest City Attorney O'Connor 125,869 + Sullivan 64,615 = 190,484 (HUMAN-VERIFIED from scan 2026; front-page agate type, hard read); lever-machine era; scan sweep_19611107_issue19611108_p1_s1; conf=medium · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1508C67BA7FEB8CB%402437612-1508BF820FFF57F3%4012-1508BF820FFF57F3%40 |
 
 ---
 
@@ -2511,11 +3043,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1960-11-08`
 
+**Certified final:** 348,290
+
 **Source:** DOE turnout 348,290 = SOV SF 'total vote cast' line exactly (President contest 342,219: Kennedy 197,734+Nixon 143,001+Decker 1,360+Hass 124). CA SoS Statement of Vote 1960, https://archive.org/details/stateofcaliforn195262cali/page/n327 ; cross-ref Wikipedia 1960 US pres CA. DOE ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1960-11-09', 'days': 1, 'total': 318462, 'pct': 91.4, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1960-11-09 p3 'Here Are Election Results--County-by-County' AP table, San Francisco row: 1,282 of 1,286 precincts reporting, Nixon 132,833 + Kennedy 185,629 = 318,462 - conservative night floor (presidential sum); scan mirror/newsbank/scans/19601108_issue19601109_p3.png, read+verified 2026-06-11 · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-15092629F0A2DF2B%402437248-150922833A4663B6%404-150922833A4663B6%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1960-11-09 | 1 |  | 318,462 | 91.4% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1960-11-09 p3 'Here Are Election Results--County-by-County' AP table, San Francisco row: 1,282 of 1,286 precincts reporting, Nixon 132,833 + Kennedy 185,629 = 318,462 - conservative night floor (presidential sum); scan mirror/newsbank/scans/19601108_issue19601109_p3.png, read+verified 2026-06-11 · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-15092629F0A2DF2B%402437248-150922833A4663B6%404-150922833A4663B6%40 |
 
 ---
 
@@ -2523,11 +3059,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1960-06-07`
 
+**Certified final:** 244,368
+
 **Source:** CA SoS Statement of Vote (Primary 1960-06-07), SF County certified TOTAL BALLOTS CAST 244,368 (complete all 1290 precincts election night). https://archive.org/details/stateofcaliforn195262cali/page/n294 . Supersedes the earlier cross-party contest-floor proxy.
 
-**Observations:**
+**Observations**
 
-- {'date': '1960-06-08', 'days': 1, 'total': 244368, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1960-06-08 p1 FINAL ELECTION EXTRA 'Crucial Votes' — COMPLETE, all 1290/1290 precincts; largest SF contest Prop A Yes 133,578+No 55,068=188,646 (all-voter measure; box's presidential-delegate figures were statewide, excluded); lever-machine era; scan sweep_19600607_issue19600608_p1_s1; conf=high | SOV: certified SF turnout 244,368 (https://archive.org/details/stateofcaliforn195262cali/page/n294)"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1960-06-08 | 1 |  | 244,368 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1960-06-08 p1 FINAL ELECTION EXTRA 'Crucial Votes' — COMPLETE, all 1290/1290 precincts; largest SF contest Prop A Yes 133,578+No 55,068=188,646 (all-voter measure; box's presidential-delegate figures were statewide, excluded); lever-machine era; scan sweep_19600607_issue19600608_p1_s1; conf=high &#124; SOV: certified SF turnout 244,368 (https://archive.org/details/stateofcaliforn195262cali/page/n294) |
 
 ---
 
@@ -2535,11 +3075,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1959-11-03`
 
+**Certified final:** 239,963
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1959-11-04 p1 — complete Mayor count 239,963 across all 1298 precincts (citywide floor; no separate grand total printed); scan sweep_19591103_issue19591104_p1_s2
 
-**Observations:**
+**Observations**
 
-- {'date': '1959-11-04', 'days': 1, 'total': 239963, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1959-11-04 p1 FINAL ELECTION EXTRA 'Complete Vote' box — COMPLETE semi-official, all 1298/1298 precincts election night; Mayor (largest contest) Christopher 141,464+Wolden 90,268+Brown 2,151+Ferrara 2,129+Jordan 1,371+Yuna 895+Steiner 861+Le Pieux 824=239,963; lever-machine era; scan sweep_19591103_issue19591104_p1_s2; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1959-11-04 | 1 |  | 239,963 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1959-11-04 p1 FINAL ELECTION EXTRA 'Complete Vote' box — COMPLETE semi-official, all 1298/1298 precincts election night; Mayor (largest contest) Christopher 141,464+Wolden 90,268+Brown 2,151+Ferrara 2,129+Jordan 1,371+Yuna 895+Steiner 861+Le Pieux 824=239,963; lever-machine era; scan sweep_19591103_issue19591104_p1_s2; conf=high |
 
 ---
 
@@ -2547,11 +3091,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1958-11-04`
 
+**Certified final:** 319,179
+
 **Source:** CA SoS Statement of Vote (Gen. Election Nov 4 1958), SF County certified TOTAL BALLOTS CAST 319,179 (Governor Brown 219,413+Knowland 90,430+write-ins=309,969); https://archive.org/details/stateofcaliforn195262cali/page/n257 ; cross-ref Wikipedia 1958 CA gubernatorial. Supersedes Chronicle election-night 318,839.
 
-**Observations:**
+**Observations**
 
-- {'date': '1958-11-05', 'days': 1, 'total': 318839, 'pct': 99.9, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1958-11-05 p1A FINAL — COMPLETE semi-official, all 1300/1300 SF precincts election night; printed citywide 'total vote was 318,839, or nearly 80 per cent of the city's registered voters — the highest off-year percentage in SF history' (SF Governor Brown 210,780+Knowland 85,494=296,274; +10,200 absentees still pending); lever-machine era; scan sweep_19581104_issue19581105_p2_s0; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1958-11-05 | 1 |  | 318,839 | 99.9% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1958-11-05 p1A FINAL — COMPLETE semi-official, all 1300/1300 SF precincts election night; printed citywide 'total vote was 318,839, or nearly 80 per cent of the city's registered voters — the highest off-year percentage in SF history' (SF Governor Brown 210,780+Knowland 85,494=296,274; +10,200 absentees still pending); lever-machine era; scan sweep_19581104_issue19581105_p2_s0; conf=high |
 
 ---
 
@@ -2559,11 +3107,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1958-06-03`
 
+**Certified final:** 263,476
+
 **Source:** CA SoS Statement of Vote (Primary 1958-06-03), SF County certified TOTAL BALLOTS CAST 263,476 (near-complete 1274/1299 precincts election night). https://archive.org/details/stateofcaliforn195262cali/page/n225 . Supersedes the earlier cross-party contest-floor proxy.
 
-**Observations:**
+**Observations**
 
-- {'date': '1958-06-04', 'days': 1, 'total': 263476, 'pct': 98.1, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1958-06-04 p18 'Vote For Governor' county tables — NEAR-COMPLETE 1274/1299 precincts (98.1%); Governor primary both parties Rep 81,431 (Brown 24,084+Knowland 57,347) + Dem 94,767 (Brown 92,225+Knowland 2,542) = 176,198; lever-machine era; scan sweep_19580603_issue19580604_p3_s0; conf=high | SOV: certified SF turnout 263,476 (https://archive.org/details/stateofcaliforn195262cali/page/n225)"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1958-06-04 | 1 |  | 263,476 | 98.1% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1958-06-04 p18 'Vote For Governor' county tables — NEAR-COMPLETE 1274/1299 precincts (98.1%); Governor primary both parties Rep 81,431 (Brown 24,084+Knowland 57,347) + Dem 94,767 (Brown 92,225+Knowland 2,542) = 176,198; lever-machine era; scan sweep_19580603_issue19580604_p3_s0; conf=high &#124; SOV: certified SF turnout 263,476 (https://archive.org/details/stateofcaliforn195262cali/page/n225) |
 
 ---
 
@@ -2571,11 +3123,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1957-11-05`
 
+**Certified final:** 199,431
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1957-11-06 p1 — Prop A 199,431 (largest contest, all 1296 precincts) used as citywide turnout floor; no separate grand total printed; scan sweep_19571105_issue19571106_p1_s2
 
-**Observations:**
+**Observations**
 
-- {'date': '1957-11-06', 'days': 1, 'total': 199431, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1957-11-06 p1 FINAL 'Final Tally in City Election' box — COMPLETE semi-official, all 1296/1296 precincts election night; largest contest Prop A Courthouse Bonds YES 130,019+NO 69,412=199,431 (no Mayor race; City Attorney Holm unopposed 144,968); lever-machine era; scan sweep_19571105_issue19571106_p1_s2; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1957-11-06 | 1 |  | 199,431 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1957-11-06 p1 FINAL 'Final Tally in City Election' box — COMPLETE semi-official, all 1296/1296 precincts election night; largest contest Prop A Courthouse Bonds YES 130,019+NO 69,412=199,431 (no Mayor race; City Attorney Holm unopposed 144,968); lever-machine era; scan sweep_19571105_issue19571106_p1_s2; conf=high |
 
 ---
 
@@ -2583,11 +3139,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1956-11-06`
 
+**Certified final:** 342,652
+
 **Source:** DOE turnout 342,652 = SOV SF 'total vote cast' line exactly (President contest 336,967: Eisenhower 173,648+Stevenson 161,766). CA SoS Statement of Vote 1956, https://archive.org/details/stateofcaliforn195262cali/page/n189 ; cross-ref Wikipedia 1956 US pres CA. DOE ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1956-11-07', 'days': 1, 'total': 320755, 'pct': 93.6, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1956-11-07 President SF sum=320755, 1300/1306 precincts, partial; scan sweep_19561106_issue19561107_p2_s0+p1_s0; conf=high; FINAL ELECTION EXTRA; Eisenhower 164544 Stevenson 155055 Holtwick(Prohib) 1156; 1300/1306 precincts (6 missing at press time)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1956-11-07 | 1 |  | 320,755 | 93.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1956-11-07 President SF sum=320755, 1300/1306 precincts, partial; scan sweep_19561106_issue19561107_p2_s0+p1_s0; conf=high; FINAL ELECTION EXTRA; Eisenhower 164544 Stevenson 155055 Holtwick(Prohib) 1156; 1300/1306 precincts (6 missing at press time) |
 
 ---
 
@@ -2595,11 +3155,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1956-06-05`
 
+**Certified final:** 241,195
+
 **Source:** CA SoS Statement of Vote (Primary 1956-06-05), SF County certified TOTAL BALLOTS CAST 241,195 (complete all 1301 precincts election night). https://archive.org/details/stateofcaliforn195262cali/page/n161 . Supersedes the earlier cross-party contest-floor proxy.
 
-**Observations:**
+**Observations**
 
-- {'date': '1956-06-06', 'days': 1, 'total': 241195, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1956-06-06 p1 FINAL ELECTION EXTRA 'How the Voting Went in S.F.' — COMPLETE, all 1301/1301 precincts; President primary both parties Dem 129,274 (Stevenson 95,804+Kefauver 33,470) + Rep Eisenhower 77,801 = 207,075 (two-party sum); lever-machine era; scan sweep_19560605_issue19560606_p1_s1; conf=high | SOV: certified SF turnout 241,195 (https://archive.org/details/stateofcaliforn195262cali/page/n161)"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1956-06-06 | 1 |  | 241,195 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1956-06-06 p1 FINAL ELECTION EXTRA 'How the Voting Went in S.F.' — COMPLETE, all 1301/1301 precincts; President primary both parties Dem 129,274 (Stevenson 95,804+Kefauver 33,470) + Rep Eisenhower 77,801 = 207,075 (two-party sum); lever-machine era; scan sweep_19560605_issue19560606_p1_s1; conf=high &#124; SOV: certified SF turnout 241,195 (https://archive.org/details/stateofcaliforn195262cali/page/n161) |
 
 ---
 
@@ -2607,11 +3171,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1955-11-08`
 
+**Certified final:** 239,241
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1955-11-09 p1 — complete Mayor count 239,241 across all 1300 precincts (citywide floor; no separate grand total printed; minor late-absentee tail); scan sweep_19551108_issue19551109_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1955-11-09', 'days': 1, 'total': 239241, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1955-11-09 p1 FINAL ELECTION EXTRA 'Vote for Officials' box — COMPLETE semi-official, all 1300/1300 precincts election night; Mayor (largest contest) Christopher 158,244+Reilly 75,824+Le Pluex 1,300+Bruce 1,116+Barbaria 1,036+Brown 1,021+O'Donnell 700=239,241; lever-machine era; scan sweep_19551108_issue19551109_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1955-11-09 | 1 |  | 239,241 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1955-11-09 p1 FINAL ELECTION EXTRA 'Vote for Officials' box — COMPLETE semi-official, all 1300/1300 precincts election night; Mayor (largest contest) Christopher 158,244+Reilly 75,824+Le Pluex 1,300+Bruce 1,116+Barbaria 1,036+Brown 1,021+O'Donnell 700=239,241; lever-machine era; scan sweep_19551108_issue19551109_p1_s1; conf=high |
 
 ---
 
@@ -2619,11 +3187,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1954-11-02`
 
+**Certified final:** 277,602
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1954-11-03', 'days': 1, 'total': 246129, 'pct': 88.7, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1954-11-03 U.S. Senator SF sum=246129, 1302/1302 precincts, complete; scan sweep_19541102_issue19541103_p4_s3+p1_s0; conf=high; FINAL ELECTION EXTRA; Kuchel(R) 121782 Yorty(D) 119484 Cerney(IPP) 4863; 1302/1302 complete; Governor SF totals not in SF box'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1954-11-03 | 1 |  | 246,129 | 88.7% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1954-11-03 U.S. Senator SF sum=246129, 1302/1302 precincts, complete; scan sweep_19541102_issue19541103_p4_s3+p1_s0; conf=high; FINAL ELECTION EXTRA; Kuchel(R) 121782 Yorty(D) 119484 Cerney(IPP) 4863; 1302/1302 complete; Governor SF totals not in SF box |
 
 ---
 
@@ -2631,11 +3203,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1954-06-08`
 
+**Certified final:** 223,434
+
 **Source:** CA SoS Statement of Vote (Primary 1954-06-08), SF County certified TOTAL BALLOTS CAST 223,434 (complete all 1304 precincts election night). https://archive.org/details/stateofcaliforn195262cali/page/n86 . Supersedes the earlier cross-party contest-floor proxy.
 
-**Observations:**
+**Observations**
 
-- {'date': '1954-06-09', 'days': 1, 'total': 223434, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1954-06-09 p(B) FINAL Election Extra 'Here's How S.F. Voted' — COMPLETE, all 1304/1304 precincts; Governor primary both parties Dem 127,640 (Knight 58,939+Graves 58,498+Wilson 10,203) + Rep 66,766 (Knight 60,580+Graves 4,828+Gabrish 1,358) = 194,406 (top-of-ticket two-party sum); lever-machine era; scan sweep_19540608_issue19540609_p3_s0; conf=high | SOV: certified SF turnout 223,434 (https://archive.org/details/stateofcaliforn195262cali/page/n86)"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1954-06-09 | 1 |  | 223,434 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1954-06-09 p(B) FINAL Election Extra 'Here's How S.F. Voted' — COMPLETE, all 1304/1304 precincts; Governor primary both parties Dem 127,640 (Knight 58,939+Graves 58,498+Wilson 10,203) + Rep 66,766 (Knight 60,580+Graves 4,828+Gabrish 1,358) = 194,406 (top-of-ticket two-party sum); lever-machine era; scan sweep_19540608_issue19540609_p3_s0; conf=high &#124; SOV: certified SF turnout 223,434 (https://archive.org/details/stateofcaliforn195262cali/page/n86) |
 
 ---
 
@@ -2643,11 +3219,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1953-11-03`
 
+**Certified final:** 218,961
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1953-11-04 p1 'Election Returns' — printed complete total vote of city 218,961 (incl. 2,572 absentees, all 1306 precincts); scan sweep_19531103_issue19531104_p1_s2
 
-**Observations:**
+**Observations**
 
-- {'date': '1953-11-04', 'days': 1, 'total': 218961, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1953-11-04 p1 FINAL 'Election Returns' box — COMPLETE semi-official, all 1306/1306 precincts election night; printed citywide '218,961 TOTAL' ('total vote yesterday was 218,961, including the 2572 absentee ballots ... 56.8% of registration of 386,000'); no Mayor race in 1953 (Supervisors + propositions); lever-machine era; scan sweep_19531103_issue19531104_p1_s2; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1953-11-04 | 1 |  | 218,961 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1953-11-04 p1 FINAL 'Election Returns' box — COMPLETE semi-official, all 1306/1306 precincts election night; printed citywide '218,961 TOTAL' ('total vote yesterday was 218,961, including the 2572 absentee ballots ... 56.8% of registration of 386,000'); no Mayor race in 1953 (Supervisors + propositions); lever-machine era; scan sweep_19531103_issue19531104_p1_s2; conf=high |
 
 ---
 
@@ -2655,11 +3235,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1952-11-04`
 
+**Certified final:** 365,972
+
 **Source:** DOE turnout 365,972 = SOV SF 'total vote cast' line exactly. (NOTE: the 1952 SOV's presidential detail sums to 374,700 > its own 365,972 turnout line - an internal SOV inconsistency, see docs/doe-data-discrepancies.md; DOE matches the SOV turnout line.) Eisenhower 198,158+Stevenson 172,312. CA SoS Statement of Vote 1952, https://archive.org/details/stateofcaliforn195262cali/page/n46 ; cross-ref Wikipedia 1952 US pres CA. DOE ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1952-11-05', 'days': 1, 'total': 362269, 'pct': 99.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1952-11-05 President SF sum=362269, 1306/1306 precincts, complete; scan sweep_19521104_issue19521105_p1_s3+p1_s0; conf=high; FINAL ELECTION EXTRA; Eisenhower-Nixon 177476 Stevenson-Sparkman 180881 Hallinan-Bass 3149 Hamblen-Holtwick 763; 1306/1306 precincts complete'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1952-11-05 | 1 |  | 362,269 | 99.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1952-11-05 President SF sum=362269, 1306/1306 precincts, complete; scan sweep_19521104_issue19521105_p1_s3+p1_s0; conf=high; FINAL ELECTION EXTRA; Eisenhower-Nixon 177476 Stevenson-Sparkman 180881 Hallinan-Bass 3149 Hamblen-Holtwick 763; 1306/1306 precincts complete |
 
 ---
 
@@ -2667,11 +3251,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1952-06-03`
 
+**Certified final:** 271,829
+
 **Source:** CA SoS Statement of Vote (Primary 1952-06-03), SF County certified TOTAL BALLOTS CAST 271,829 (complete all 1304 precincts election night). https://archive.org/details/stateofcaliforn195262cali/page/n7 . Supersedes the earlier cross-party contest-floor proxy.
 
-**Observations:**
+**Observations**
 
-- {'date': '1952-06-04', 'days': 1, 'total': 271829, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1952-06-04 p1 FINAL ELECTION EXTRA — COMPLETE, all 1304/1304 precincts; Presidential delegates both parties Dem 128,400 (Kefauver 81,346+Brown 47,054) + Rep 102,952 (Warren 64,377+Werdel 38,575) = 231,352 (two-party sum, total-ballots floor); lever-machine era; scans sweep_19520603_issue19520604_p1_s1,p4_s0; conf=high | SOV: certified SF turnout 271,829 (https://archive.org/details/stateofcaliforn195262cali/page/n7)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1952-06-04 | 1 |  | 271,829 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1952-06-04 p1 FINAL ELECTION EXTRA — COMPLETE, all 1304/1304 precincts; Presidential delegates both parties Dem 128,400 (Kefauver 81,346+Brown 47,054) + Rep 102,952 (Warren 64,377+Werdel 38,575) = 231,352 (two-party sum, total-ballots floor); lever-machine era; scans sweep_19520603_issue19520604_p1_s1,p4_s0; conf=high &#124; SOV: certified SF turnout 271,829 (https://archive.org/details/stateofcaliforn195262cali/page/n7) |
 
 ---
 
@@ -2679,11 +3267,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1951-11-06`
 
+**Certified final:** 255,502
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1951-11-07 p1 — complete Mayor count 255,502 across all 1209 precincts used as citywide floor (no separate grand total printed day-after; canvass began Nov 13); scan sweep_19511106_issue19511107_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1951-11-07', 'days': 1, 'total': 255502, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1951-11-07 p1 FINAL ELECTION EXTRA 'Tally for Top City Offices' — COMPLETE semi-official, all 1209/1209 precincts election night; Mayor (largest contest) Robinson 98,611+Christopher 96,685+Sullivan 52,013+Oliva 5,172+Brennan 1,714+Barbaria 1,307=255,502; official canvass began Nov 13; lever-machine era; scan sweep_19511106_issue19511107_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1951-11-07 | 1 |  | 255,502 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1951-11-07 p1 FINAL ELECTION EXTRA 'Tally for Top City Offices' — COMPLETE semi-official, all 1209/1209 precincts election night; Mayor (largest contest) Robinson 98,611+Christopher 96,685+Sullivan 52,013+Oliva 5,172+Brennan 1,714+Barbaria 1,307=255,502; official canvass began Nov 13; lever-machine era; scan sweep_19511106_issue19511107_p1_s1; conf=high |
 
 ---
 
@@ -2691,11 +3283,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1950-11-07`
 
+**Certified final:** 312,137
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1950-11-08', 'days': 1, 'total': 301098, 'pct': 96.5, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1950-11-08 Governor SF sum=301098, 1210/1210 precincts, complete; scan sweep_19501107_issue19501108_p1_s3+p1_s0; conf=high; FINAL ELECTION EXTRA; Warren(Rep) 195686 Roosevelt(Dem) 105412; 1210/1210 precincts complete; Senator also shown Nixon 161958 Douglas 120579'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1950-11-08 | 1 |  | 301,098 | 96.5% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1950-11-08 Governor SF sum=301098, 1210/1210 precincts, complete; scan sweep_19501107_issue19501108_p1_s3+p1_s0; conf=high; FINAL ELECTION EXTRA; Warren(Rep) 195686 Roosevelt(Dem) 105412; 1210/1210 precincts complete; Senator also shown Nixon 161958 Douglas 120579 |
 
 ---
 
@@ -2703,11 +3299,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1950-06-06`
 
+**Certified final:** 268,866
+
 **Source:** CA SoS Statement of Vote (Primary 1950-06-06), SF County certified TOTAL BALLOTS CAST 268,866 (complete all 1210 precincts election night). https://archive.org/details/stateofcaliforn194050cali/page/n452 . Supersedes the earlier cross-party contest-floor proxy.
 
-**Observations:**
+**Observations**
 
-- {'date': '1950-06-07', 'days': 1, 'total': 268866, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1950-06-07 p1 FINAL ELECTION EXTRA — COMPLETE, all 1210/1210 precincts; Governor primary both parties (cross-filing) Dem 161,527 (Warren 80,912+Roosevelt 77,817+Mayock 2,798) + Rep 85,776 (Warren 78,784+Roosevelt 6,992) = 247,303 (top-of-ticket two-party sum, total-ballots floor); lever-machine era; scan sweep_19500606_issue19500607_p1_s1; conf=high | SOV: certified SF turnout 268,866 (https://archive.org/details/stateofcaliforn194050cali/page/n452)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1950-06-07 | 1 |  | 268,866 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1950-06-07 p1 FINAL ELECTION EXTRA — COMPLETE, all 1210/1210 precincts; Governor primary both parties (cross-filing) Dem 161,527 (Warren 80,912+Roosevelt 77,817+Mayock 2,798) + Rep 85,776 (Warren 78,784+Roosevelt 6,992) = 247,303 (top-of-ticket two-party sum, total-ballots floor); lever-machine era; scan sweep_19500606_issue19500607_p1_s1; conf=high &#124; SOV: certified SF turnout 268,866 (https://archive.org/details/stateofcaliforn194050cali/page/n452) |
 
 ---
 
@@ -2715,11 +3315,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1949-11-08`
 
+**Certified final:** 237,929
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1949-11-09 p1 — City Attorney complete 237,929 (Holm 130,946 + O'Gara 106,983, human-verified) across all 1211 precincts used as citywide floor; scan sweep_19491108_issue19491109_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1949-11-09', 'days': 1, 'total': 237929, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1949-11-09 p1 FINAL ELECTION EXTRA — COMPLETE semi-official, all 1211/1211 precincts election night; no Mayor race; largest contest City Attorney Holm 130,946 + O'Gara 106,983 = 237,929 (HUMAN-VERIFIED from scan, 2026); lever-machine era; scan sweep_19491108_issue19491109_p1_s1; IMAGE SCAN QUALITY VERY LOW for Holm/O'Gara figures — values hand-read by operator 2026, difficult read; conf=medium · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1503D718CA4F379E%402433230-1503876F17B6EF8A%406-1503876F17B6EF8A%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1949-11-09 | 1 |  | 237,929 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1949-11-09 p1 FINAL ELECTION EXTRA — COMPLETE semi-official, all 1211/1211 precincts election night; no Mayor race; largest contest City Attorney Holm 130,946 + O'Gara 106,983 = 237,929 (HUMAN-VERIFIED from scan, 2026); lever-machine era; scan sweep_19491108_issue19491109_p1_s1; IMAGE SCAN QUALITY VERY LOW for Holm/O'Gara figures — values hand-read by operator 2026, difficult read; conf=medium · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1503D718CA4F379E%402433230-1503876F17B6EF8A%406-1503876F17B6EF8A%40 |
 
 ---
 
@@ -2727,11 +3331,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1948-11-02`
 
+**Certified final:** 359,134
+
 **Source:** DOE turnout 359,134 consistent (>= SOV SF President 350,709: Truman 167,726+Dewey 160,135+Wallace 21,492+other 1,356). CA SoS Statement of Vote 1948, https://archive.org/details/stateofcaliforn194050cali ; cross-ref Wikipedia 1948 US pres CA. DOE ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1948-11-03', 'days': 1, 'total': 343732, 'pct': 95.7, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1948-11-03 President SF sum=343732, 1204/1204 precincts, complete; scan sweep_19481102_issue19481103_p5_s2+p1_s2+p1_s0; conf=high; FINAL edition; Dewey-Warren 155757 Truman-Barkley 165581 Wallace-Taylor 21383 Watson-Learn 1011; 1204/1204 precincts complete'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1948-11-03 | 1 |  | 343,732 | 95.7% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1948-11-03 President SF sum=343732, 1204/1204 precincts, complete; scan sweep_19481102_issue19481103_p5_s2+p1_s2+p1_s0; conf=high; FINAL edition; Dewey-Warren 155757 Truman-Barkley 165581 Wallace-Taylor 21383 Watson-Learn 1011; 1204/1204 precincts complete |
 
 ---
 
@@ -2739,11 +3347,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1948-06-01`
 
+**Certified final:** 273,248
+
 **Source:** CA SoS Statement of Vote (Primary 1948-06-01), SF County certified TOTAL BALLOTS CAST 273,248 (complete all 1201 precincts election night). https://archive.org/details/stateofcaliforn194050cali/page/n376 . Supersedes the earlier cross-party contest-floor proxy.
 
-**Observations:**
+**Observations**
 
-- {'date': '1948-06-02', 'days': 1, 'total': 273248, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1948-06-02 p1 FINAL ELECTION EXTRA — COMPLETE semi-official, all 1201/1201 precincts election night; largest contest = city proposition Yes 136,558+No 89,234=225,792 (all-voter measure, best total-ballots floor; presidential-preference both-party only 179,258 as box listed one cand/party); lever-machine era; scans sweep_19480601_issue19480602_p1_s1,p2_s0; conf=high | SOV: certified SF turnout 273,248 (https://archive.org/details/stateofcaliforn194050cali/page/n376)'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1948-06-02 | 1 |  | 273,248 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1948-06-02 p1 FINAL ELECTION EXTRA — COMPLETE semi-official, all 1201/1201 precincts election night; largest contest = city proposition Yes 136,558+No 89,234=225,792 (all-voter measure, best total-ballots floor; presidential-preference both-party only 179,258 as box listed one cand/party); lever-machine era; scans sweep_19480601_issue19480602_p1_s1,p2_s0; conf=high &#124; SOV: certified SF turnout 273,248 (https://archive.org/details/stateofcaliforn194050cali/page/n376) |
 
 ---
 
@@ -2751,11 +3363,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1947-11-04`
 
+**Certified final:** 282,414
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1947-11-05 p1 — printed complete total vote 282,414 (semi-official, all precincts; +~2,100 absentees pending, no change to standings); scan sweep_19471104_issue19471105_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1947-11-05', 'days': 1, 'total': 282414, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1947-11-05 p1 FINAL Election Extra — COMPLETE semi-official, all precincts election night; printed citywide total '282,414 Ballots Are Cast' (75.62% of ~373,465 registration); Mayor Robinson 116,937+Havenner 101,408+MacPhee 60,508+Barbaria 1,654=280,507; lever-machine era; scans sweep_19471104_issue19471105_p1_s1, issue19471106_p1_s1; conf=high (cross-confirmed Nov5+Nov6)"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1947-11-05 | 1 |  | 282,414 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1947-11-05 p1 FINAL Election Extra — COMPLETE semi-official, all precincts election night; printed citywide total '282,414 Ballots Are Cast' (75.62% of ~373,465 registration); Mayor Robinson 116,937+Havenner 101,408+MacPhee 60,508+Barbaria 1,654=280,507; lever-machine era; scans sweep_19471104_issue19471105_p1_s1, issue19471106_p1_s1; conf=high (cross-confirmed Nov5+Nov6) |
 
 ---
 
@@ -2763,11 +3379,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1946-11-05`
 
+**Certified final:** 270,457
+
 **Source:** DOE turnout 270,457 consistent (>= SOV SF Governor 239,116: Warren cross-filed 220,344+Schmidt 16,716+Brown 2,056; large undervote, Warren unopposed-ish). CA SoS Statement of Vote 1946, https://archive.org/details/stateofcaliforn194050cali/page/n338 ; cross-ref Wikipedia 1946 CA gubernatorial. DOE ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1946-11-06', 'days': 1, 'total': 235931, 'pct': 87.2, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1946-11-06 U.S. Senator SF sum=235931, 1185/1197 precincts, partial; scan sweep_19461105_issue19461106_p1_s3; conf=high; 1185-of-1197-precincts-98pct;Knowland-121890-Rogers-114041;Senate-larger-than-gov-warren-ran-cross-filed-unopposed'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1946-11-06 | 1 |  | 235,931 | 87.2% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1946-11-06 U.S. Senator SF sum=235931, 1185/1197 precincts, partial; scan sweep_19461105_issue19461106_p1_s3; conf=high; 1185-of-1197-precincts-98pct;Knowland-121890-Rogers-114041;Senate-larger-than-gov-warren-ran-cross-filed-unopposed |
 
 ---
 
@@ -2775,11 +3395,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1946-07-16`
 
+**Certified final:** 179,415
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1946-07-17 p1 — printed total vote 179,415 on the Lapham recall (all 1198 precincts; +~4,800 absentees pending); scan sweep_19460716_issue19460717_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1946-07-17', 'days': 1, 'total': 179415, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1946-07-17 p1 'Lapham Defeats the Recall' — COMPLETE semi-official, all 1198/1198 precincts; recall of Mayor Roger D. Lapham (single citywide question) printed 'TOTAL VOTE—179,415' (No/against-recall 105,742 + Yes/for-recall 73,673; recall FAILED, ~32,000 margin); +~4,800 absentees pending; lever-machine era; scan sweep_19460716_issue19460717_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1946-07-17 | 1 |  | 179,415 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1946-07-17 p1 'Lapham Defeats the Recall' — COMPLETE semi-official, all 1198/1198 precincts; recall of Mayor Roger D. Lapham (single citywide question) printed 'TOTAL VOTE—179,415' (No/against-recall 105,742 + Yes/for-recall 73,673; recall FAILED, ~32,000 margin); +~4,800 absentees pending; lever-machine era; scan sweep_19460716_issue19460717_p1_s1; conf=high |
 
 ---
 
@@ -2797,11 +3421,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1943-11-02`
 
+**Certified final:** 217,783
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1943-11-03 p1 — complete Mayor count 217,783 across all 1180 precincts used as citywide floor (no separate grand total printed; true total marginally higher by undervote); scan sweep_19431102_issue19431103_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1943-11-03', 'days': 1, 'total': 217783, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1943-11-03 p1 FINAL ELECTION EXTRA 'Final Returns' box — COMPLETE semi-official, all 1180/1180 precincts election night; Mayor (largest contest) Lapham 90,646+Reilly 57,741+Rossi 47,626+MacPhee 20,346+Ferguson 632+Mohr 443+Romo 349=217,783; no separate citywide total printed on p1 (article continues p9); lever-machine era; scan sweep_19431102_issue19431103_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1943-11-03 | 1 |  | 217,783 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1943-11-03 p1 FINAL ELECTION EXTRA 'Final Returns' box — COMPLETE semi-official, all 1180/1180 precincts election night; Mayor (largest contest) Lapham 90,646+Reilly 57,741+Rossi 47,626+MacPhee 20,346+Ferguson 632+Mohr 443+Romo 349=217,783; no separate citywide total printed on p1 (article continues p9); lever-machine era; scan sweep_19431102_issue19431103_p1_s1; conf=high |
 
 ---
 
@@ -2809,11 +3437,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1943-04-20`
 
+**Certified final:** 140,840
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1943-04-21 p1 — Market St Railway bond total vote 140,840 (all 1187 precincts); scan sweep_19430420_issue19430421_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1943-04-21', 'days': 1, 'total': 140840, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1943-04-21 p1 'Street Car Bonds Defeated' FINAL Morning Edition — COMPLETE semi-official, all 1187/1187 precincts; Market Street Railway purchase bond Yes 87,399+No 53,441=140,840 (printed total vote; marquee/only measure with citywide tally); lever-machine era; scan sweep_19430420_issue19430421_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1943-04-21 | 1 |  | 140,840 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1943-04-21 p1 'Street Car Bonds Defeated' FINAL Morning Edition — COMPLETE semi-official, all 1187/1187 precincts; Market Street Railway purchase bond Yes 87,399+No 53,441=140,840 (printed total vote; marquee/only measure with citywide tally); lever-machine era; scan sweep_19430420_issue19430421_p1_s1; conf=high |
 
 ---
 
@@ -2821,11 +3453,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1942-11-03`
 
+**Certified final:** 230,129
+
 **Source:** DOE turnout 230,129 consistent (>= SOV SF Governor 226,560: Warren 120,979+Olson 103,888+Porter 1,178+Dyster 514). CA SoS Statement of Vote 1942, https://archive.org/details/stateofcaliforn194050cali/page/n193 ; cross-ref Wikipedia 1942 CA gubernatorial. DOE ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1942-11-04', 'days': 1, 'total': 222079, 'pct': 96.5, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1942-11-04 Governor SF sum=222079, 1187/1187 precincts, complete; scan sweep_19421103_issue19421104_p1_s2; conf=high; all-1187-precincts-complete;Warren-119157-Olson-102922;gov-larger-senate-not-separately-tabulated-in-SF'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1942-11-04 | 1 |  | 222,079 | 96.5% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1942-11-04 Governor SF sum=222079, 1187/1187 precincts, complete; scan sweep_19421103_issue19421104_p1_s2; conf=high; all-1187-precincts-complete;Warren-119157-Olson-102922;gov-larger-senate-not-separately-tabulated-in-SF |
 
 ---
 
@@ -2833,11 +3469,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1942-06-09`
 
+**Certified final:** 139,184
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1942-06-10 p1 — printed official total vote cast 139,184 (complete, all 1187 precincts); scan sweep_19420609_issue19420610_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1942-06-10', 'days': 1, 'total': 139184, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1942-06-10 p1 'Raid Bonds Win' FINAL Morning Edition — COMPLETE OFFICIAL count, all 1187/1187 precincts (Registrar Cameron King); printed 'Total vote cast was 139,184' (wartime Air Raid Protection bonds, both passed 6:1); lever-machine era; scan sweep_19420609_issue19420610_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1942-06-10 | 1 |  | 139,184 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1942-06-10 p1 'Raid Bonds Win' FINAL Morning Edition — COMPLETE OFFICIAL count, all 1187/1187 precincts (Registrar Cameron King); printed 'Total vote cast was 139,184' (wartime Air Raid Protection bonds, both passed 6:1); lever-machine era; scan sweep_19420609_issue19420610_p1_s1; conf=high |
 
 ---
 
@@ -2845,11 +3485,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1941-11-04`
 
+**Certified final:** 210,351
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1941-11-05 p1 'S.F. Election Results' box — 'Total vote—210,351' (complete semi-official, 1111/1111 precincts); scan sweep_19411104_issue19411105_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1941-11-05', 'days': 1, 'total': 210351, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1941-11-05 p1 FINAL ELECTION EXTRA 'S.F. Election Results' box — complete semi-official, 1111/1111 precincts election night; 'Total vote—210,351' (no mayoral race in 1941; largest office Mun. Court No.4 Ames 93,499+Cosgrove 69,567+Mooslin 14,719=177,785); lever-machine era; scan sweep_19411104_issue19411105_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1941-11-05 | 1 |  | 210,351 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1941-11-05 p1 FINAL ELECTION EXTRA 'S.F. Election Results' box — complete semi-official, 1111/1111 precincts election night; 'Total vote—210,351' (no mayoral race in 1941; largest office Mun. Court No.4 Ames 93,499+Cosgrove 69,567+Mooslin 14,719=177,785); lever-machine era; scan sweep_19411104_issue19411105_p1_s1; conf=high |
 
 ---
 
@@ -2857,11 +3501,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1940-11-05`
 
+**Certified final:** 315,518
+
 **Source:** DOE turnout 315,518 consistent (>= SOV SF President 311,878: Roosevelt 185,607+Willkie 122,449+Browder 1,935+Thomas 1,513). CA SoS Statement of Vote 1940, https://archive.org/details/stateofcaliforn194050cali/page/n109 ; cross-ref Wikipedia 1940 US pres CA. DOE ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1940-11-06', 'days': 1, 'total': 300729, 'pct': 95.3, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1940-11-06 President SF sum=300729, 1103/1103 precincts, complete; scan sweep_19401105_issue19401106_p4_s0; conf=medium; all-1103-precincts-complete;minor-cands-Babson-Browder-Thomas-not-tabulated-in-paper;Roosevelt-181620-Willkie-119109'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1940-11-06 | 1 |  | 300,729 | 95.3% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1940-11-06 President SF sum=300729, 1103/1103 precincts, complete; scan sweep_19401105_issue19401106_p4_s0; conf=medium; all-1103-precincts-complete;minor-cands-Babson-Browder-Thomas-not-tabulated-in-paper;Roosevelt-181620-Willkie-119109 |
 
 ---
 
@@ -2869,11 +3517,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1939-11-07`
 
+**Certified final:** 285,745
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1939-11-08 p1 'In the City' — 'The total vote of 285,745 was the largest in the city's history'; all 1084 precincts; scan sweep_19391107_issue19391108_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1939-11-08', 'days': 1, 'total': 285745, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1939-11-08 p1 ELECTION EXTRA 'Here's How San Francisco Balloted' — complete semi-official, all 1084/1084 precincts election night; total vote of city 285,745 (largest in city history to date; Mayor Rossi 137,335+Havenner 116,256+Uhl 15,839+McSheehy 6,979+Schmidt 4,470=280,879); lever-machine era; scan sweep_19391107_issue19391108_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1939-11-08 | 1 |  | 285,745 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1939-11-08 p1 ELECTION EXTRA 'Here's How San Francisco Balloted' — complete semi-official, all 1084/1084 precincts election night; total vote of city 285,745 (largest in city history to date; Mayor Rossi 137,335+Havenner 116,256+Uhl 15,839+McSheehy 6,979+Schmidt 4,470=280,879); lever-machine era; scan sweep_19391107_issue19391108_p1_s1; conf=high |
 
 ---
 
@@ -2881,11 +3533,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1939-05-19`
 
+**Certified final:** 173,881
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1939-05-20 p1 — printed total vote 173,881 (complete, all 1055 precincts); scan sweep_19390519_issue19390520_p1_s0
 
-**Observations:**
+**Observations**
 
-- {'date': '1939-05-20', 'days': 1, 'total': 173881, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1939-05-20 p1 — COMPLETE, all 1055/1055 precincts; printed 'total vote was 173,881' (Props 1-2 both defeated; largest Prop 1 salary standardization 42,314+129,706=172,020); Registrar Collins: largest special-election turnout in city history to date; lever-machine era; scan sweep_19390519_issue19390520_p1_s0; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1939-05-20 | 1 |  | 173,881 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1939-05-20 p1 — COMPLETE, all 1055/1055 precincts; printed 'total vote was 173,881' (Props 1-2 both defeated; largest Prop 1 salary standardization 42,314+129,706=172,020); Registrar Collins: largest special-election turnout in city history to date; lever-machine era; scan sweep_19390519_issue19390520_p1_s0; conf=high |
 
 ---
 
@@ -2893,11 +3549,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1938-11-08`
 
+**Certified final:** 257,597
+
 **Source:** DOE turnout 257,597 consistent (>= SOV SF Governor 248,035: Olson 132,346+Merriam 111,046+Haight 3,843). CA SoS Statement of Vote 1938, https://archive.org/details/statementofvote192639cali/page/n849 ; cross-ref Wikipedia 1938 CA gubernatorial. DOE ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1938-11-09', 'days': 1, 'total': 242948, 'pct': 94.3, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1938-11-09 Governor SF sum=242948, 1055/1055 precincts, complete; scan sweep_19381108_issue19381109_p1_s1; conf=high; all-1055-precincts-complete;gov-larger-than-sen-226415'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1938-11-09 | 1 |  | 242,948 | 94.3% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1938-11-09 Governor SF sum=242948, 1055/1055 precincts, complete; scan sweep_19381108_issue19381109_p1_s1; conf=high; all-1055-precincts-complete;gov-larger-than-sen-226415 |
 
 ---
 
@@ -2905,11 +3565,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1938-09-27`
 
+**Certified final:** 149,266
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1938-09-28 p11 — printed complete total vote 149,266 (all 1655 precincts); scan sweep_19380927_issue19380928_p11_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1938-09-28', 'days': 1, 'total': 149266, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1938-09-28 p11 'Complete Election Returns' — COMPLETE semi-official, all 1655/1655 precincts; printed 'Total vote, 149,266' (9 bond/charter measures, only Schools passed; largest measure Market St Railway 138,358); lever-machine era; scan sweep_19380927_issue19380928_p11_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1938-09-28 | 1 |  | 149,266 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1938-09-28 p11 'Complete Election Returns' — COMPLETE semi-official, all 1655/1655 precincts; printed 'Total vote, 149,266' (9 bond/charter measures, only Schools passed; largest measure Market St Railway 138,358); lever-machine era; scan sweep_19380927_issue19380928_p11_s1; conf=high |
 
 ---
 
@@ -2917,11 +3581,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1937-11-02`
 
+**Certified final:** 171,570
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1937-11-03 p1 — Prop 1 171,570 (largest contest, all 1055 precincts) used as citywide floor; official canvass began Nov 12 1937, total not printed in press; scan sweep_19371102_issue19371103_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1937-11-03', 'days': 1, 'total': 171570, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1937-11-03 p1 'Final Returns' — COMPLETE semi-official, all 1055/1055 precincts election night (absentees pending; dead-heat Mun. Court No.3 forced a recount, official canvass delayed to Nov 12); largest contest Prop 1 Subway Bonds YES 68,457+NO 103,113=171,570 (no Mayor race; largest office Mun. Court No.3 145,281); lever-machine era; scan sweep_19371102_issue19371103_p1_s1; conf=high (complete-precinct night); certified canvass total never printed in press"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1937-11-03 | 1 |  | 171,570 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1937-11-03 p1 'Final Returns' — COMPLETE semi-official, all 1055/1055 precincts election night (absentees pending; dead-heat Mun. Court No.3 forced a recount, official canvass delayed to Nov 12); largest contest Prop 1 Subway Bonds YES 68,457+NO 103,113=171,570 (no Mayor race; largest office Mun. Court No.3 145,281); lever-machine era; scan sweep_19371102_issue19371103_p1_s1; conf=high (complete-precinct night); certified canvass total never printed in press |
 
 ---
 
@@ -2929,11 +3597,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1937-03-09`
 
+**Certified final:** 150,584
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1937-03-10 p1 — printed complete total vote 150,584 (all 1055 precincts); scan sweep_19370309_issue19370310_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1937-03-10', 'days': 1, 'total': 150584, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1937-03-10 p1 'Election Returns' — COMPLETE, all 1055/1055 precincts; printed citywide total vote 150,584 (incl 600 absentees; 20 charter amendments/ordinances; largest measure #19 Anti-Picketing 145,670); NOTE paper subhead misprints 150,984 vs body 150,584 (used body); lever-machine era; scan sweep_19370309_issue19370310_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1937-03-10 | 1 |  | 150,584 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1937-03-10 p1 'Election Returns' — COMPLETE, all 1055/1055 precincts; printed citywide total vote 150,584 (incl 600 absentees; 20 charter amendments/ordinances; largest measure #19 Anti-Picketing 145,670); NOTE paper subhead misprints 150,984 vs body 150,584 (used body); lever-machine era; scan sweep_19370309_issue19370310_p1_s1; conf=high |
 
 ---
 
@@ -2941,11 +3613,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1936-11-03`
 
+**Certified final:** 269,387
+
 **Source:** DOE turnout 269,387 consistent (>= SOV SF President 265,001: Roosevelt 196,197+Landon 65,436+Browder 1,366). CA SoS Statement of Vote 1936, https://archive.org/details/statementofvote192639cali/page/n739 ; cross-ref Wikipedia 1936 US pres CA. DOE ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1936-11-04', 'days': 1, 'total': 242619, 'pct': 90.1, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1936-11-04 PRESIDENT SF sum=242619, 1055/1055 precincts, COMPLETE; scan sweep_19361103_issue19361104_p1_s1; conf=high; ROOSEVELT-182159-LANDON-60460-from-image; regular-morning-edition; complete-semiofficial-returns'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1936-11-04 | 1 |  | 242,619 | 90.1% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1936-11-04 PRESIDENT SF sum=242619, 1055/1055 precincts, COMPLETE; scan sweep_19361103_issue19361104_p1_s1; conf=high; ROOSEVELT-182159-LANDON-60460-from-image; regular-morning-edition; complete-semiofficial-returns |
 
 ---
 
@@ -2953,11 +3629,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1935-11-05`
 
+**Certified final:** 185,568
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1935-11-06 p1 'Election Returns' — Mayor complete 'Total vote 185,568', all 1065 precincts (semi-official); scan sweep_19351105_issue19351106_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1935-11-06', 'days': 1, 'total': 185568, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1935-11-06 p1 'Election Returns' box — complete semi-official, all 1065/1065 precincts election night; Mayor (largest contest) printed 'Total vote 185,568' (Rossi 96,655+Uhl 59,129+Mason 14,267+Todd 7,829+Rainey 5,957+scattering); lever-machine era; scan sweep_19351105_issue19351106_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1935-11-06 | 1 |  | 185,568 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1935-11-06 p1 'Election Returns' box — complete semi-official, all 1065/1065 precincts election night; Mayor (largest contest) printed 'Total vote 185,568' (Rossi 96,655+Uhl 59,129+Mason 14,267+Todd 7,829+Rainey 5,957+scattering); lever-machine era; scan sweep_19351105_issue19351106_p1_s1; conf=high |
 
 ---
 
@@ -2965,11 +3645,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1935-05-02`
 
+**Certified final:** 130,526
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1935-05-03 p1 — largest charter amendment 130,526 (complete, all 828 precincts) as citywide floor; scan sweep_19350502_issue19350503_p1_s0
 
-**Observations:**
+**Observations**
 
-- {'date': '1935-05-03', 'days': 1, 'total': 130526, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1935-05-03 p1 'ELECTION RETURNS (Complete)' — COMPLETE, all 828/828 precincts ('all of the city's 828 precincts counted'); largest charter amendment No.3 Symphony Orchestra Yes 83,455+No 47,071=130,526; lever-machine era; scan sweep_19350502_issue19350503_p1_s0; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1935-05-03 | 1 |  | 130,526 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1935-05-03 p1 'ELECTION RETURNS (Complete)' — COMPLETE, all 828/828 precincts ('all of the city's 828 precincts counted'); largest charter amendment No.3 Symphony Orchestra Yes 83,455+No 47,071=130,526; lever-machine era; scan sweep_19350502_issue19350503_p1_s0; conf=high |
 
 ---
 
@@ -2977,11 +3661,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1934-11-06`
 
+**Certified final:** 225,977
+
 **Source:** CA Secretary of State, 'Statement of Vote, General Election November 6, 1934' — SF County GOVERNOR certified: Merriam 115,047 + Sinclair 87,850 + Haight 21,499 = 225,977 (https://archive.org/details/statementofvote192639cali page n591; cross-verified via Wikipedia '1934 California gubernatorial election'). NOTE: the DOE turnout table's 166,133 for 1934-11-06 appears low — below the certified Governor vote alone (225,977); for our dataset we use the SOV figure, pending confirmation.
 
-**Observations:**
+**Observations**
 
-- {'date': '1934-11-07', 'days': 1, 'total': 220795, 'pct': 97.7, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1934-11-07 p1 EXTRA 'MERRIAM WINS EASILY' — election-night COMPLETE semi-official SF Governor Merriam 112,778+Sinclair 86,764+Haight 21,253=220,795 (all 1054/1054 precincts, pre-absentee/pre-recheck); scan sweep_19341106_issue19341107_p1_s1; conf=high · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1501F5B7D661BBF6%402427749-1501DAFD0ECED6F5%402-1501DAFD0ECED6F5%40"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1934-11-07 | 1 |  | 220,795 | 97.7% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1934-11-07 p1 EXTRA 'MERRIAM WINS EASILY' — election-night COMPLETE semi-official SF Governor Merriam 112,778+Sinclair 86,764+Haight 21,253=220,795 (all 1054/1054 precincts, pre-absentee/pre-recheck); scan sweep_19341106_issue19341107_p1_s1; conf=high · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-1501F5B7D661BBF6%402427749-1501DAFD0ECED6F5%402-1501DAFD0ECED6F5%40 |
 
 ---
 
@@ -2989,11 +3677,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1933-12-19`
 
+**Certified final:** 98,955
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1933-12-20 p4 — SF measure total 98,955 (complete, 912/912 precincts); scan sweep_19331219_issue19331220_p4_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1933-12-20', 'days': 1, 'total': 98955, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1933-12-20 p4 'State Election Table' — COMPLETE, SF County 912/912 precincts; State Water Power Act (Central Valley Project Act) referendum SF Yes 60,329+No 38,626=98,955; single measure; lever-machine era; scan sweep_19331219_issue19331220_p4_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1933-12-20 | 1 |  | 98,955 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1933-12-20 p4 'State Election Table' — COMPLETE, SF County 912/912 precincts; State Water Power Act (Central Valley Project Act) referendum SF Yes 60,329+No 38,626=98,955; single measure; lever-machine era; scan sweep_19331219_issue19331220_p4_s1; conf=high |
 
 ---
 
@@ -3001,11 +3693,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1933-11-07`
 
+**Certified final:** 161,599
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1933-11-08 p1 — total vote cast 161,599 (Registrar semi-official, all 912 precincts); scan sweep_19331107_issue19331108_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1933-11-08', 'days': 1, 'total': 161599, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1933-11-08 p1 'Final Returns' box: City Attorney O'Toole 90,110+Van Ness 50,757=140,867 (largest single-seat; Mayor not on 1933 ballot); 912/912 precincts complete, semi-official; ELECTION EXTRA; scan sweep_19331107_issue19331108_p1_s1; conf=high; night floor=City Attorney contest (12.8% undervote vs total uncounted) | City Attorney contest=140,867 (judicial-year undervote); ballots_counted set to complete total vote 161,599 (912/912 precincts counted election night)"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1933-11-08 | 1 |  | 161,599 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1933-11-08 p1 'Final Returns' box: City Attorney O'Toole 90,110+Van Ness 50,757=140,867 (largest single-seat; Mayor not on 1933 ballot); 912/912 precincts complete, semi-official; ELECTION EXTRA; scan sweep_19331107_issue19331108_p1_s1; conf=high; night floor=City Attorney contest (12.8% undervote vs total uncounted) &#124; City Attorney contest=140,867 (judicial-year undervote); ballots_counted set to complete total vote 161,599 (912/912 precincts counted election night) |
 
 ---
 
@@ -3013,11 +3709,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1933-06-27`
 
+**Certified final:** 150,068
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1933-06-28 p1 — printed SF total vote 150,068 (complete semi-official; +3,008 absentees pending); scan sweep_19330627_issue19330628_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1933-06-28', 'days': 1, 'total': 150068, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1933-06-28 p1 ELECTION EXTRA — COMPLETE semi-official (excl 3,008 absentees pending); printed 'total San Francisco vote accounted for last night was 150,068' (18th-Amendment repeal convention + state racing bill + SF School Bonds); lever-machine era; scan sweep_19330627_issue19330628_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1933-06-28 | 1 |  | 150,068 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1933-06-28 p1 ELECTION EXTRA — COMPLETE semi-official (excl 3,008 absentees pending); printed 'total San Francisco vote accounted for last night was 150,068' (18th-Amendment repeal convention + state racing bill + SF School Bonds); lever-machine era; scan sweep_19330627_issue19330628_p1_s1; conf=high |
 
 ---
 
@@ -3025,11 +3725,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1933-04-11`
 
+**Certified final:** 99,381
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1933-04-12 p1 — printed total ballots cast 99,381 (all 798 precincts); scan sweep_19330411_issue19330412_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1933-04-12', 'days': 1, 'total': 99381, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1933-04-12 p1 'S.F. Votes Pay Cut' — COMPLETE, all 798/798 precincts; printed citywide '99,381 Ballots Cast in Special Charter Election' (4 charter amendments; only Salary Cuts carried); lever-machine era; scan sweep_19330411_issue19330412_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1933-04-12 | 1 |  | 99,381 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1933-04-12 p1 'S.F. Votes Pay Cut' — COMPLETE, all 798/798 precincts; printed citywide '99,381 Ballots Cast in Special Charter Election' (4 charter amendments; only Salary Cuts carried); lever-machine era; scan sweep_19330411_issue19330412_p1_s1; conf=high |
 
 ---
 
@@ -3037,11 +3741,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1932-11-08`
 
+**Certified final:** 227,283
+
 **Source:** DOE turnout 227,283 consistent (>= SOV SF President 223,197: Roosevelt 144,236+Hoover 70,152+Thomas 5,802). CA SoS Statement of Vote 1932, https://archive.org/details/statementofvote192639cali/page/n523 ; cross-ref Wikipedia 1932 US pres CA. DOE ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1932-11-09', 'days': 1, 'total': 200912, 'pct': 88.4, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1932-11-09 President SF sum=200912, 1050/1050 precincts, COMPLETE ("complete San Francisco vote"); scan sweep_19321108_issue19321109_p1_s2/p4_s0; conf=high; Roosevelt 134801 + Hoover 66111; paper says complete; 88.4 is president floor (undervote), true night share ~100%.'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1932-11-09 | 1 |  | 200,912 | 88.4% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1932-11-09 President SF sum=200912, 1050/1050 precincts, COMPLETE ("complete San Francisco vote"); scan sweep_19321108_issue19321109_p1_s2/p4_s0; conf=high; Roosevelt 134801 + Hoover 66111; paper says complete; 88.4 is president floor (undervote), true night share ~100%. |
 
 ---
 
@@ -3049,11 +3757,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1932-08-30`
 
+**Certified final:** 154,352
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1932-08-31 p1 — Relief Bonds 154,352 (largest contest, all 1050 precincts) as citywide turnout floor; scan sweep_19320830_issue19320831_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1932-08-31', 'days': 1, 'total': 154352, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1932-08-31 p1 'S.F. ELECTION RETURNS' — COMPLETE semi-official, all 1050/1050 precincts; largest contest SF Relief Bonds YES 135,556+NO 18,796=154,352 (all-voter measure; US Senator both-party 145,024); lever-machine era; scan sweep_19320830_issue19320831_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1932-08-31 | 1 |  | 154,352 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1932-08-31 p1 'S.F. ELECTION RETURNS' — COMPLETE semi-official, all 1050/1050 precincts; largest contest SF Relief Bonds YES 135,556+NO 18,796=154,352 (all-voter measure; US Senator both-party 145,024); lever-machine era; scan sweep_19320830_issue19320831_p1_s1; conf=high |
 
 ---
 
@@ -3061,11 +3773,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1932-05-03`
 
+**Certified final:** 136,024
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1932-05-04 p1 — Hetch Hetchy Bonds 136,024 (complete, all 1050 precincts) as citywide floor; scan sweep_19320503_issue19320504_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1932-05-04', 'days': 1, 'total': 136024, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1932-05-04 p1 'S.F. RETURNS' — COMPLETE semi-official, all 1050/1050 precincts; largest measure Hetch Hetchy Bonds Yes 126,634+No 9,390=136,024 (also presidential primary on ballot); lever-machine era; scan sweep_19320503_issue19320504_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1932-05-04 | 1 |  | 136,024 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1932-05-04 p1 'S.F. RETURNS' — COMPLETE semi-official, all 1050/1050 precincts; largest measure Hetch Hetchy Bonds Yes 126,634+No 9,390=136,024 (also presidential primary on ballot); lever-machine era; scan sweep_19320503_issue19320504_p1_s1; conf=high |
 
 ---
 
@@ -3073,11 +3789,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1931-11-03`
 
+**Certified final:** 151,351
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1931-11-04 p1 'Complete Returns' — 'Total vote, 151,351' (1155/1155 precincts); scan sweep_19311103_issue19311104_p1_s0
 
-**Observations:**
+**Observations**
 
-- {'date': '1931-11-04', 'days': 1, 'total': 151351, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1931-11-04 p1 'Complete Returns' box: Mayor Rossi 76,550+Uhl 69,743+Darcy 1,408+Hines 620+Horr 514+Valentine 236=149,071 (largest single-seat); 1155/1155 precincts complete, semi-official; LEVER-MACHINE era; scan sweep_19311103_issue19311104_p1_s0; conf=high | Mayor contest=149,071; ballots_counted set to complete total vote 151,351 (1155/1155 precincts counted election night)"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1931-11-04 | 1 |  | 151,351 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1931-11-04 p1 'Complete Returns' box: Mayor Rossi 76,550+Uhl 69,743+Darcy 1,408+Hines 620+Horr 514+Valentine 236=149,071 (largest single-seat); 1155/1155 precincts complete, semi-official; LEVER-MACHINE era; scan sweep_19311103_issue19311104_p1_s0; conf=high &#124; Mayor contest=149,071; ballots_counted set to complete total vote 151,351 (1155/1155 precincts counted election night) |
 
 ---
 
@@ -3085,11 +3805,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1931-03-26`
 
+**Certified final:** 104,727
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1931-03-27 p1 — New Charter measure 104,727 (complete, all 788 precincts) as citywide floor; scan sweep_19310326_issue19310327_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1931-03-27', 'days': 1, 'total': 104727, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1931-03-27 p1 'DAWN OF NEW ERA FOR S.F.' — COMPLETE semi-official, all 788/788 precincts; new Freeholders' Charter (city/county consolidation) For 59,146+Against 45,581=104,727 (S.F.-San Mateo enabling act 101,404 smaller); lever-machine era; scan sweep_19310326_issue19310327_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1931-03-27 | 1 |  | 104,727 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1931-03-27 p1 'DAWN OF NEW ERA FOR S.F.' — COMPLETE semi-official, all 788/788 precincts; new Freeholders' Charter (city/county consolidation) For 59,146+Against 45,581=104,727 (S.F.-San Mateo enabling act 101,404 smaller); lever-machine era; scan sweep_19310326_issue19310327_p1_s1; conf=high |
 
 ---
 
@@ -3097,11 +3821,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1930-11-04`
 
+**Certified final:** 158,629
+
 **Source:** DOE historical voter turnout table (certified)
 
-**Observations:**
+**Observations**
 
-- {'date': '1930-11-05', 'days': 1, 'total': 145301, 'pct': 91.6, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1930-11-05 GOVERNOR SF sum=145301, 1155/1155 precincts, COMPLETE; scan sweep_19301104_issue19301105_p1_s0,p1_s1; conf=low-partial; ROLPH-130215est-last-digit-truncated-at-column-edge-YOUNG-15086; regular-morning-edition; no-Senate-race-CA-1930'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1930-11-05 | 1 |  | 145,301 | 91.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1930-11-05 GOVERNOR SF sum=145301, 1155/1155 precincts, COMPLETE; scan sweep_19301104_issue19301105_p1_s0,p1_s1; conf=low-partial; ROLPH-130215est-last-digit-truncated-at-column-edge-YOUNG-15086; regular-morning-edition; no-Senate-race-CA-1930 |
 
 ---
 
@@ -3109,11 +3837,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1930-08-26`
 
+**Certified final:** 139,235
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1930-08-27 p1 — printed complete SF total vote 139,235 (largest primary turnout to date); scan sweep_19300826_issue19300827_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1930-08-27', 'days': 1, 'total': 139235, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1930-08-27 p1 — COMPLETE SF count; printed citywide 'San Francisco recorded a total of 139,235 votes, the largest ever recorded here at a primary election'; Governor complete Rolph 73,666+Young 39,178+Fitts 6,718=119,562; lever-machine era; scan sweep_19300826_issue19300827_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1930-08-27 | 1 |  | 139,235 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1930-08-27 p1 — COMPLETE SF count; printed citywide 'San Francisco recorded a total of 139,235 votes, the largest ever recorded here at a primary election'; Governor complete Rolph 73,666+Young 39,178+Fitts 6,718=119,562; lever-machine era; scan sweep_19300826_issue19300827_p1_s1; conf=high |
 
 ---
 
@@ -3121,11 +3853,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1928-11-06`
 
+**Certified final:** 199,665
+
 **Source:** DOE turnout 199,665 consistent (>= SOV SF President 195,468: Smith 96,632+Hoover 95,987+Thomas 2,799). CA SoS Statement of Vote 1928, https://archive.org/details/statementofvote192639cali/page/n235 ; cross-ref Wikipedia 1928 US pres CA. DOE ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1928-11-07', 'days': 1, 'total': 181264, 'pct': 90.8, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1928-11-07 PRESIDENT SF sum=181264, 970/1006 precincts, PARTIAL; scan sweep_19281106_issue19281107_p1_s1; conf=high; HOOVER-89487-SMITH-91777-from-image; regular-morning-edition; SEN-JOHNSON-66107-MOORE-15790-smaller'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1928-11-07 | 1 |  | 181,264 | 90.8% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1928-11-07 PRESIDENT SF sum=181264, 970/1006 precincts, PARTIAL; scan sweep_19281106_issue19281107_p1_s1; conf=high; HOOVER-89487-SMITH-91777-from-image; regular-morning-edition; SEN-JOHNSON-66107-MOORE-15790-smaller |
 
 ---
 
@@ -3133,11 +3869,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1928-05-01`
 
+**Certified final:** 116,237
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1928-05-02 p1 — printed complete total vote 116,237 (all 806 precincts, election night); scan sweep_19280501_issue19280502_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1928-05-01', 'days': 0, 'total': 116237, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1928-05-02 p1 'COMPLETE S.F. VOTE' — lever-machine era, COMPLETE all 806/806 precincts, tabulated 11:15pm election night; printed citywide total vote 116,237 (Hetch Hetchy + Spring Valley water bonds carried; Prop 1 Yes 93,396+No 11,497=104,893); scan sweep_19280501_issue19280502_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1928-05-01 | 0 |  | 116,237 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1928-05-02 p1 'COMPLETE S.F. VOTE' — lever-machine era, COMPLETE all 806/806 precincts, tabulated 11:15pm election night; printed citywide total vote 116,237 (Hetch Hetchy + Spring Valley water bonds carried; Prop 1 Yes 93,396+No 11,497=104,893); scan sweep_19280501_issue19280502_p1_s1; conf=high |
 
 ---
 
@@ -3145,11 +3885,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1927-11-08`
 
+**Certified final:** 163,187
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1927-11-09 p1 'COMPLETE ELECTION RETURNS' box — 'The total vote was 163,187'; scan sweep_19271108_issue19271109_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1927-11-08', 'days': 0, 'total': 163187, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1927-11-09 p1 'COMPLETE ELECTION RETURNS' box (reported to Registrar 11:30pm election night): Mayor Rolph 90,344+Power 59,442+Uhl 11,396=161,182 (largest single-seat; Rolph margin 30,902 matches headline); complete semi-official, all SF precincts; LEVER-MACHINE era; scan sweep_19271108_issue19271109_p1_s1; conf=high | Mayor contest=161,182; ballots_counted set to complete total vote 163,187 (all precincts counted election night)"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1927-11-08 | 0 |  | 163,187 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1927-11-09 p1 'COMPLETE ELECTION RETURNS' box (reported to Registrar 11:30pm election night): Mayor Rolph 90,344+Power 59,442+Uhl 11,396=161,182 (largest single-seat; Rolph margin 30,902 matches headline); complete semi-official, all SF precincts; LEVER-MACHINE era; scan sweep_19271108_issue19271109_p1_s1; conf=high &#124; Mayor contest=161,182; ballots_counted set to complete total vote 163,187 (all precincts counted election night) |
 
 ---
 
@@ -3157,11 +3901,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1927-06-14`
 
+**Certified final:** 70,615
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1927-06-15 p1 — largest prop 70,615 (complete, all precincts); scan sweep_19270614_issue19270615_p1_s0
 
-**Observations:**
+**Observations**
 
-- {'date': '1927-06-15', 'days': 1, 'total': 70615, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1927-06-15 p1 'Final Returns Of Election' — lever-machine era, COMPLETE; 5 bond props (water/rail beaten); largest Prop 1 Bernal Cut Yes 52,224+No 18,391=70,615 (props cluster 69,664-70,615); scan sweep_19270614_issue19270615_p1_s0; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1927-06-15 | 1 |  | 70,615 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1927-06-15 p1 'Final Returns Of Election' — lever-machine era, COMPLETE; 5 bond props (water/rail beaten); largest Prop 1 Bernal Cut Yes 52,224+No 18,391=70,615 (props cluster 69,664-70,615); scan sweep_19270614_issue19270615_p1_s0; conf=high |
 
 ---
 
@@ -3169,11 +3917,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1926-11-02`
 
+**Certified final:** 130,835
+
 **Source:** DOE turnout 130,835 consistent (>= SOV SF Governor 125,301: Young 73,012+Wardell 47,757+Sinclair 4,532). CA SoS Statement of Vote 1926, https://archive.org/details/statementofvote192430cali/page/n205 ; cross-ref Wikipedia 1926 CA gubernatorial. DOE ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1926-11-03', 'days': 1, 'total': 92732, 'pct': 70.9, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1926-11-03 GOVERNOR SF sum=92732, 703/892 precincts, PARTIAL; scan sweep_19261102_issue19261103_p1_s1; conf=high; YOUNG-56207-WARDELL-36525-from-image; 8th-ELECTION-EXTRA; SEN-SHORTRIDGE-54898-ELLIOTT-33021-smaller'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1926-11-03 | 1 |  | 92,732 | 70.9% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1926-11-03 GOVERNOR SF sum=92732, 703/892 precincts, PARTIAL; scan sweep_19261102_issue19261103_p1_s1; conf=high; YOUNG-56207-WARDELL-36525-from-image; 8th-ELECTION-EXTRA; SEN-SHORTRIDGE-54898-ELLIOTT-33021-smaller |
 
 ---
 
@@ -3181,11 +3933,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1925-11-03`
 
+**Certified final:** 124,819
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1925-11-05 p3 'Complete Returns' — Total vote of city 124,819 (complete 819/819 precincts, semi-official, tabulated by Registrar Zemansky); official canvass began Nov 9; scan canvass_19251105_p3_s0; image doc v2:142051F45F422A02@EANX-NB-14F1A1F50AF2A035@2424460-14F165FFF98F88D3@2-14F165FFF98F88D3@
 
-**Observations:**
+**Observations**
 
-- {'date': '1925-11-04', 'days': 1, 'total': 114975, 'pct': 92.1, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1925-11-04 p1 'Latest Returns' box: City Attorney O'Toole 73282 + Lull 41693 = 114975 (largest clean head-to-head); complete semi-official from 795 of 819 precincts compiled 2 AM; scan canvass_19251104_p1_s1; image doc v2:142051F45F422A02@EANX-NB-14F1A1F1221EF9ED@2424459-14F165CECC425257@0-14F165CECC425257@; conf=high; FINAL ELECTION EXTRA; night floor=City Attorney sum (undervote uncounted); machine era—500 of 819 precincts on lever machines, done at poll close; ~319 paper precincts slower · view the page scan at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40EANX-NB-14F1A1F1221EF9ED%402424459-14F165CECC425257%400-14F165CECC425257%40%3B"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1925-11-04 | 1 |  | 114,975 | 92.1% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1925-11-04 p1 'Latest Returns' box: City Attorney O'Toole 73282 + Lull 41693 = 114975 (largest clean head-to-head); complete semi-official from 795 of 819 precincts compiled 2 AM; scan canvass_19251104_p1_s1; image doc v2:142051F45F422A02@EANX-NB-14F1A1F1221EF9ED@2424459-14F165CECC425257@0-14F165CECC425257@; conf=high; FINAL ELECTION EXTRA; night floor=City Attorney sum (undervote uncounted); machine era—500 of 819 precincts on lever machines, done at poll close; ~319 paper precincts slower · view the page scan at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40EANX-NB-14F1A1F1221EF9ED%402424459-14F165CECC425257%400-14F165CECC425257%40%3B |
 
 ---
 
@@ -3193,11 +3949,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1924-11-04`
 
+**Certified final:** 159,649
+
 **Source:** DOE turnout 159,649 consistent (>= SOV SF President 153,950: Coolidge 73,494+La Follette 68,864+Davis 9,811+Faris 1,781). CA SoS Statement of Vote 1924, https://archive.org/details/statementofvote192430cali/page/n99 ; cross-ref Wikipedia 1924 US pres CA. DOE ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1924-11-05', 'days': 1, 'total': 56871, 'pct': 35.6, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1924-11-05 President SF sum=56871, 343/unknown precincts, partial; scan sweep_19241104_issue19241105_p1_s1; conf=high; S.F.RETURNS-box-image:Coolidge27800+Davis3858+LaFollette25213=56871;343-of-~850-precincts-partial;certified_cast=159649;narrative-says-~64000-votes-earlier-estimate;image-wins'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1924-11-05 | 1 |  | 56,871 | 35.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1924-11-05 President SF sum=56871, 343/unknown precincts, partial; scan sweep_19241104_issue19241105_p1_s1; conf=high; S.F.RETURNS-box-image:Coolidge27800+Davis3858+LaFollette25213=56871;343-of-~850-precincts-partial;certified_cast=159649;narrative-says-~64000-votes-earlier-estimate;image-wins |
 
 ---
 
@@ -3205,11 +3965,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1924-10-07`
 
+**Certified final:** 71,867
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1924-10-08 p1 — complete semi-official total 71,867 (single-question bond); scan sweep_19241007_issue19241008_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1924-10-08', 'days': 1, 'total': 71867, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1924-10-08 p1 'HETCH HETCHY BONDS CARRY' — machine-transition era, SINGLE-QUESTION → COMPLETE semi-official; $10M Hetch Hetchy bond Yes 68,513+No 3,354=71,867 (carried 20:1); scan sweep_19241007_issue19241008_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1924-10-08 | 1 |  | 71,867 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1924-10-08 p1 'HETCH HETCHY BONDS CARRY' — machine-transition era, SINGLE-QUESTION → COMPLETE semi-official; $10M Hetch Hetchy bond Yes 68,513+No 3,354=71,867 (carried 20:1); scan sweep_19241007_issue19241008_p1_s1; conf=high |
 
 ---
 
@@ -3217,11 +3981,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1923-11-06`
 
+**Certified final:** 127,983
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1923-11-08 p1 'Complete Vote Registered at Polls Tuesday' — total vote of city 127,983, all 604 precincts (complete unofficial; a record for municipal elections); scan sweep_19231106_issue19231108_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1923-11-07', 'days': 1, 'total': 94816, 'pct': 74.1, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1923-11-07 'Latest Figures' box: Sheriff Finn 59,829+Robb 30,962+Rock 4,025=94,816 (largest single-seat contest), 505/604 precincts complete, semi-official; CENTRAL-BUREAU HAND COUNT at Civic Auditorium (no machines yet, ~1600 counters); scan sweep_19231106_issue19231107_p1_s1; conf=high; night floor=Sheriff contest sum (undervote uncounted)"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1923-11-07 | 1 |  | 94,816 | 74.1% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1923-11-07 'Latest Figures' box: Sheriff Finn 59,829+Robb 30,962+Rock 4,025=94,816 (largest single-seat contest), 505/604 precincts complete, semi-official; CENTRAL-BUREAU HAND COUNT at Civic Auditorium (no machines yet, ~1600 counters); scan sweep_19231106_issue19231107_p1_s1; conf=high; night floor=Sheriff contest sum (undervote uncounted) |
 
 ---
 
@@ -3229,11 +3997,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1922-11-07`
 
+**Certified final:** 134,503
+
 **Source:** DOE turnout 134,503 consistent (>= SOV SF Governor 132,225: Woolwine 70,464+Richardson 56,302+Horr 5,336). CA SoS Statement of Vote 1922, https://archive.org/details/statementofvo19081922cali/page/12 ; cross-ref Wikipedia 1922 CA gubernatorial. DOE ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1922-11-08', 'days': 1, 'total': 35601, 'pct': 26.5, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1922-11-08 Governor SF sum=35601, 289/~750 precincts, partial; scan sweep_19221107_issue19221108_p1_s1+p1_s2; conf=medium; Richardson(R)15422+Woolwine(D)20179; box "complete returns from 289 precincts" = 289 of SFs ~750 precincts (partial morning); announced 3AM'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1922-11-08 | 1 |  | 35,601 | 26.5% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1922-11-08 Governor SF sum=35601, 289/~750 precincts, partial; scan sweep_19221107_issue19221108_p1_s1+p1_s2; conf=medium; Richardson(R)15422+Woolwine(D)20179; box "complete returns from 289 precincts" = 289 of SFs ~750 precincts (partial morning); announced 3AM |
 
 ---
 
@@ -3241,11 +4013,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1920-11-02`
 
+**Certified final:** 154,592
+
 **Source:** DOE turnout 154,592 consistent (>= SOV SF President 147,450: Harding 96,105+Cox 32,637+Debs 17,049+Watkins 1,630). CA SoS Statement of Vote 1920, https://archive.org/details/statementofvo19081922cali/page/n313 ; cross-ref Wikipedia 1920 US pres in CA.
 
-**Observations:**
+**Observations**
 
-- {'date': '1920-11-03', 'days': 1, 'total': 102330, 'pct': 66.2, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1920-11-03 President SF sum=102330, 700/771 precincts, 0.908; scan 1920_SFbox_zoom.png,1920_p1s1_SFbox.png; conf=high; 700/771 precincts: Cox 28850 Harding 73480 total=102330; separate 4AM early bulletin shows 197 precincts Cox 4599 Harding 15578; image wins; no minor candidates listed'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1920-11-03 | 1 |  | 102,330 | 66.2% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1920-11-03 President SF sum=102330, 700/771 precincts, 0.908; scan 1920_SFbox_zoom.png,1920_p1s1_SFbox.png; conf=high; 700/771 precincts: Cox 28850 Harding 73480 total=102330; separate 4AM early bulletin shows 197 precincts Cox 4599 Harding 15578; image wins; no minor candidates listed |
 
 ---
 
@@ -3253,11 +4029,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1918-11-05`
 
+**Certified final:** 103,011
+
 **Source:** DOE turnout 103,011 = CA SoS Statement of Vote SF total ballots cast (Governor 100,382: Bell 56,726+Stephens 36,099+Roser 5,249+Rolph w-i 2,302). https://archive.org/details/statementofvo19081922cali ; cross-ref Wikipedia 1918 CA gubernatorial. DOE verified ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1918-11-06', 'days': 1, 'total': 0, 'pct': 0.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1918-11-06: NO SF count published by the morning paper — HAND-COUNT era, long ballot. p5 'San Francisco Count Delayed By Long Ballot': 'the first completed precinct did not reach the office of Registrar Zemansky until well after midnight.' Day-after paper printed only statewide partials; no SF Governor subtotal or charter-amendment SF total. Night floor=0 (no SF contest tabulated election night); scans sweep_19181105_issue19181106_p1_s1,p5_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1918-11-06 | 1 |  | 0 | 0.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1918-11-06: NO SF count published by the morning paper — HAND-COUNT era, long ballot. p5 'San Francisco Count Delayed By Long Ballot': 'the first completed precinct did not reach the office of Registrar Zemansky until well after midnight.' Day-after paper printed only statewide partials; no SF Governor subtotal or charter-amendment SF total. Night floor=0 (no SF contest tabulated election night); scans sweep_19181105_issue19181106_p1_s1,p5_s1; conf=high |
 
 ---
 
@@ -3265,11 +4045,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1917-11-06`
 
+**Certified final:** 94,774
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1917-11-08 p1 'Complete Unofficial Returns' — total vote cast 94,774 (City Attorney complete Lull 52,652+Hennessy 37,178=89,830); scan sweep_19171106_issue19171108_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1917-11-07', 'days': 1, 'total': 4316, 'pct': 4.6, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1917-11-07 p2 'Count in Three Precincts of Each Assembly District' (2:30 AM) — HAND-COUNT era, NEW centralized City Hall count (slow): only a 36-of-542-precinct sample tabulated by press time; largest single-seat City Attorney Lull 2,427+Hennessy 1,889=4,316. NOTE the paper's '90,527' is total TURNOUT (ballots cast), not ballots counted (Registrar Zemansky used it to project majorities). First precinct fully counted ~10:20pm; count crawled overnight. scan sweep_19171106_issue19171107_p2_s0; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1917-11-07 | 1 |  | 4,316 | 4.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1917-11-07 p2 'Count in Three Precincts of Each Assembly District' (2:30 AM) — HAND-COUNT era, NEW centralized City Hall count (slow): only a 36-of-542-precinct sample tabulated by press time; largest single-seat City Attorney Lull 2,427+Hennessy 1,889=4,316. NOTE the paper's '90,527' is total TURNOUT (ballots cast), not ballots counted (Registrar Zemansky used it to project majorities). First precinct fully counted ~10:20pm; count crawled overnight. scan sweep_19171106_issue19171107_p2_s0; conf=high |
 
 ---
 
@@ -3277,11 +4061,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1917-10-30`
 
+**Certified final:** 45,183
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1917-10-31 p1 — complete total ballots cast 45,183 (single-question bond); scan sweep_19171030_issue19171031_p1_s1
 
-**Observations:**
+**Observations**
 
-- {'date': '1917-10-31', 'days': 1, 'total': 45183, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1917-10-31 p1 'SCHOOL BONDS AUTHORIZED' — HAND era, SINGLE-QUESTION → COMPLETE ~2 hrs after polls closed; $3.5M school bond For 37,583+Against 7,513=45,096; total ballots 45,183 ('45,183 BALLOTS ARE CAST'); all 13 assembly districts; scan sweep_19171030_issue19171031_p1_s1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1917-10-31 | 1 |  | 45,183 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1917-10-31 p1 'SCHOOL BONDS AUTHORIZED' — HAND era, SINGLE-QUESTION → COMPLETE ~2 hrs after polls closed; $3.5M school bond For 37,583+Against 7,513=45,096; total ballots 45,183 ('45,183 BALLOTS ARE CAST'); all 13 assembly districts; scan sweep_19171030_issue19171031_p1_s1; conf=high |
 
 ---
 
@@ -3289,11 +4077,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1916-11-07`
 
+**Certified final:** 155,747
+
 **Source:** DOE turnout 155,747 consistent (>= SOV SF President 149,152: Wilson 78,225+Hughes 63,093+Benson 6,423+Hanly 1,404). CA SoS Statement of Vote 1916, https://archive.org/details/statementofvo19081922cali ; cross-ref Wikipedia 1916 US pres in CA.
 
-**Observations:**
+**Observations**
 
-- {'date': '1916-11-08', 'days': 1, 'total': 4674, 'pct': 3.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1916-11-08 Charter amendments (president virtually none) SF sum=4674, 300/684 precincts, PARTIAL (president "virtually none at hand"); scan sweep_19161107_issue19161108_p2_s0/s1; conf=low-partial; night-of barely counted: largest verified contest=amendment YES+NO ~4674; ~300/684 precincts; day-2 Nov9 reached 676/684 (~95pct). Hand-count slow night.'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1916-11-08 | 1 |  | 4,674 | 3.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1916-11-08 Charter amendments (president virtually none) SF sum=4674, 300/684 precincts, PARTIAL (president "virtually none at hand"); scan sweep_19161107_issue19161108_p2_s0/s1; conf=low-partial; night-of barely counted: largest verified contest=amendment YES+NO ~4674; ~300/684 precincts; day-2 Nov9 reached 676/684 (~95pct). Hand-count slow night. |
 
 ---
 
@@ -3301,11 +4093,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1915-04-20`
 
+**Certified final:** 73,656
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1915-04-21 p1 — complete total vote polled 73,656 (single-question bond); scan sweep_19150420_issue19150421_p1_s0
 
-**Observations:**
+**Observations**
 
-- {'date': '1915-04-21', 'days': 1, 'total': 73656, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1915-04-21 p1 'TOTAL VOTE ON PURCHASE' — HAND era, SINGLE-QUESTION → COMPLETE; Spring Valley $34.5M water purchase For 39,955+Against 33,467 (+234 spoiled)=73,656 total polled (defeated, failed 2/3); full assembly-district breakdown; scan sweep_19150420_issue19150421_p1_s0; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1915-04-21 | 1 |  | 73,656 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1915-04-21 p1 'TOTAL VOTE ON PURCHASE' — HAND era, SINGLE-QUESTION → COMPLETE; Spring Valley $34.5M water purchase For 39,955+Against 33,467 (+234 spoiled)=73,656 total polled (defeated, failed 2/3); full assembly-district breakdown; scan sweep_19150420_issue19150421_p1_s0; conf=high |
 
 ---
 
@@ -3313,11 +4109,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1914-11-03`
 
+**Certified final:** 134,492
+
 **Source:** DOE turnout 134,492 = CA SoS Statement of Vote SF total ballots cast (Governor contest 132,103: Johnson 72,257+Fredericks 36,606+Curtin 16,167+Richardson 6,346+Moore 723). https://archive.org/details/statementofvo19081922cali/page/n71 ; cross-ref Wikipedia 1914 CA gubernatorial. DOE verified ✓
 
-**Observations:**
+**Observations**
 
-- {'date': '1914-11-04', 'days': 1, 'total': 5612, 'pct': 4.2, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1914-11-04 Governor SF sum=5612, 320/525 precincts, 0.610; scan sweep_19141103_issue19141104_p2_s0+p2_s1; conf=low; OCR table "320 precincts" in SF (of 525): Johnson 3169, Fredericks 1861, Curtin 582 (sum 5612); these are early partial tallies at ~3am not full precinct totals; 136006 total SF votes cast per paper (>134492 certified=total turnout not contest sum); Lawlor Supreme Court listed as highest SF individual tally 3912; count described as proceeding with unprecedented slowness; OCR heavily garbled—numbers likely digit-truncated but image-read values used'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1914-11-04 | 1 |  | 5,612 | 4.2% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1914-11-04 Governor SF sum=5612, 320/525 precincts, 0.610; scan sweep_19141103_issue19141104_p2_s0+p2_s1; conf=low; OCR table "320 precincts" in SF (of 525): Johnson 3169, Fredericks 1861, Curtin 582 (sum 5612); these are early partial tallies at ~3am not full precinct totals; 136006 total SF votes cast per paper (>134492 certified=total turnout not contest sum); Lawlor Supreme Court listed as highest SF individual tally 3912; count described as proceeding with unprecedented slowness; OCR heavily garbled—numbers likely digit-truncated but image-read values used |
 
 ---
 
@@ -3325,11 +4125,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1913-08-26`
 
+**Certified final:** 65,478
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1913-08-27 p1 — complete total vote cast 65,478 (single-question bond, all districts); scan sweep_19130826_issue19130827_p1_s0
 
-**Observations:**
+**Observations**
 
-- {'date': '1913-08-27', 'days': 1, 'total': 65478, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1913-08-27 p1 — HAND-COUNT era but SINGLE-QUESTION bond → COMPLETE overnight; total vote cast 65,478 (Municipal Railway $3.5M bond For 51,649+Against 13,720=65,369; carried 2/3); all 13 assembly districts in; scan sweep_19130826_issue19130827_p1_s0; conf=high'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1913-08-27 | 1 |  | 65,478 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1913-08-27 p1 — HAND-COUNT era but SINGLE-QUESTION bond → COMPLETE overnight; total vote cast 65,478 (Municipal Railway $3.5M bond For 51,649+Against 13,720=65,369; carried 2/3); all 13 assembly districts in; scan sweep_19130826_issue19130827_p1_s0; conf=high |
 
 ---
 
@@ -3337,11 +4141,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1912-12-10`
 
+**Certified final:** 81,104
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1912-12-12 p2 'COMPLETE FIGURES ON AMENDMENTS' — citywide total vote cast ~81,104[?] (~60% of registration; largest complete measure, local-option No.27, 15,087+62,770=77,857); scan sweep_19121210_issue19121212_p2_s0
 
-**Observations:**
+**Observations**
 
-- {'date': '1912-12-11', 'days': 1, 'total': 22534, 'pct': 27.8, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1912-12-11 p2 'Tabulation of the Registrar' — HAND-COUNT era, PARTIAL 169/479 precincts by morning (~35%); 37 charter amendments; largest measure at the partial stage (Hetch-Hetchy utilities amendment) Yes 9,168+No 13,366=22,534; scan sweep_19121210_issue19121211_p2_s0; conf=high; multi-measure ballot = slow hand count"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1912-12-11 | 1 |  | 22,534 | 27.8% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1912-12-11 p2 'Tabulation of the Registrar' — HAND-COUNT era, PARTIAL 169/479 precincts by morning (~35%); 37 charter amendments; largest measure at the partial stage (Hetch-Hetchy utilities amendment) Yes 9,168+No 13,366=22,534; scan sweep_19121210_issue19121211_p2_s0; conf=high; multi-measure ballot = slow hand count |
 
 ---
 
@@ -3349,11 +4157,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1912-11-05`
 
+**Certified final:** 105,646
+
 **Source:** DOE turnout 105,646 consistent (>= SOV SF President 101,148: Wilson 48,953+Roosevelt 38,610+Debs 12,354+Chafin 1,158). CA SoS Statement of Vote 1912, https://archive.org/details/statementofvo19081922cali/page/n35 ; cross-ref Wikipedia 1912 US pres in CA.
 
-**Observations:**
+**Observations**
 
-- {'date': '1912-11-06', 'days': 1, 'total': 89789, 'pct': 85.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1912-11-06 PRES SF sum=89789, 600/638 precincts, partial; scan sweep_19121105_issue19121106_p2_s0; conf=high; Wilson=43158+Roosevelt=34101+Debs=11459+Chapin=1071=89789;600-of-638-precincts;paper-labels-Roosevelt-as-Rep-but-was-Prog-Bull-Moose;Taft-absent-from-CA-ballot'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1912-11-06 | 1 |  | 89,789 | 85.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1912-11-06 PRES SF sum=89789, 600/638 precincts, partial; scan sweep_19121105_issue19121106_p2_s0; conf=high; Wilson=43158+Roosevelt=34101+Debs=11459+Chapin=1071=89789;600-of-638-precincts;paper-labels-Roosevelt-as-Rep-but-was-Prog-Bull-Moose;Taft-absent-from-CA-ballot |
 
 ---
 
@@ -3361,11 +4173,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1910-11-08`
 
+**Certified final:** 59,724
+
 **Source:** DOE turnout 59,724 (consistent, ~ SOV SF Governor 59,182: Johnson 25,528+Bell 24,065+Wilson 9,476+Meads 113). CA SoS Statement of Vote 1910, https://archive.org/details/statementofvo19081922cali ; cross-ref Wikipedia 1910 CA gubernatorial. (A 105,646 OCR figure seen in the 1908-22 compilation is spurious - it is 1912's total.)
 
-**Observations:**
+**Observations**
 
-- {'date': '1910-11-09', 'days': 1, 'total': 10640, 'pct': 17.8, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1910-11-09 Governor SF sum=10640, 176/352 precincts, 0.5; scan p3_s0,p5_s0; conf=medium; 176/352 pcts: Johnson(R)=4529,Bell(D)=4354,Wilson(S)=1757; county table SF row dots for pcts-heard but article text explicit 176of352 [DOE turnout table lists this election as 1910-11-01; actual general was Nov 8]'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1910-11-09 | 1 |  | 10,640 | 17.8% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1910-11-09 Governor SF sum=10640, 176/352 precincts, 0.5; scan p3_s0,p5_s0; conf=medium; 176/352 pcts: Johnson(R)=4529,Bell(D)=4354,Wilson(S)=1757; county table SF row dots for pcts-heard but article text explicit 176of352 [DOE turnout table lists this election as 1910-11-01; actual general was Nov 8] |
 
 ---
 
@@ -3373,11 +4189,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1908-11-03`
 
+**Certified final:** 60,124
+
 **Source:** CA SoS Statement of Vote (Gen. Election Nov 3 1908), SF County President 60,124 (Taft 33,184+Bryan 21,260+Debs 4,523+Hisgen 751+Chafin 406). DOE's 41,137 appears low — it is below the President contest alone (60,124), so for our dataset we use the SOV figure here, pending confirmation. https://archive.org/details/statementofvo19081922cali/page/n5 ; cross-ref Wikipedia 1908 US pres in CA.
 
-**Observations:**
+**Observations**
 
-- {'date': '1908-11-04', 'days': 1, 'total': 36450, 'pct': 60.6, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1908-11-04 PRES SF sum=36450, 300/300 precincts, complete; scan sweep_19081103_issue19081104_p5_s1; conf=low; image-read:Taft~20816+Bryan~15634=36450;minor-parties-not-readable-from-crop;300-precincts=all-SF;39816-is-1904-comparison-col | DENOMINATOR CORRECTED: was DOE 41,137 (appears low); the night box's '300/300 complete' is inconsistent with certified President 60,124, so the night count was PARTIAL not complete; night share recomputed vs SOV (was mislabeled 88.6%)."}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1908-11-04 | 1 |  | 36,450 | 60.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1908-11-04 PRES SF sum=36450, 300/300 precincts, complete; scan sweep_19081103_issue19081104_p5_s1; conf=low; image-read:Taft~20816+Bryan~15634=36450;minor-parties-not-readable-from-crop;300-precincts=all-SF;39816-is-1904-comparison-col &#124; DENOMINATOR CORRECTED: was DOE 41,137 (appears low); the night box's '300/300 complete' is inconsistent with certified President 60,124, so the night count was PARTIAL not complete; night share recomputed vs SOV (was mislabeled 88.6%). |
 
 ---
 
@@ -3385,11 +4205,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1907-11-05`
 
+**Certified final:** 55,994
+
 **Source:** SF Chronicle (NewsBank image scan via SFPL), 1907-11-07 p2 'BRODERICK IS ELECTED' — most-complete Mayor total 55,994 across 269/273 precincts ('all but four precincts'; true all-273 ~57,000); no official all-precincts canvass printed; scan sweep_19071105_issue19071107_p2_s0
 
-**Observations:**
+**Observations**
 
-- {'date': '1907-11-06', 'days': 1, 'total': 12472, 'pct': 22.3, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1907-11-06 p1 returns box (10pm) — DEEP HAND-COUNT era; only ~one-fifth of the vote counted by 10pm; Mayor Taylor 6,235+M'Carthy 3,945+Ryan 2,002+Reguin 290=12,472 (matches paper's stated '12,472 ballots ... over one-fifth of the total vote'); 232/273 precincts had begun reporting; scan sweep_19071105_issue19071106_p1_s0; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1907-11-06 | 1 |  | 12,472 | 22.3% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1907-11-06 p1 returns box (10pm) — DEEP HAND-COUNT era; only ~one-fifth of the vote counted by 10pm; Mayor Taylor 6,235+M'Carthy 3,945+Ryan 2,002+Reguin 290=12,472 (matches paper's stated '12,472 ballots ... over one-fifth of the total vote'); 232/273 precincts had begun reporting; scan sweep_19071105_issue19071106_p1_s0; conf=high |
 
 ---
 
@@ -3397,11 +4221,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1904-11-08`
 
+**Certified final:** 65,427
+
 **Source:** California Blue Book / State Roster 1907 pp.419-422 — SF County President certified 65,427 (Roosevelt 39,816+Parker 18,027+Debs 7,250+Swallow 334). https://archive.org/details/statementofvote192009cali ; cross-ref Wikipedia 1904 US pres CA. (Pre-1908: no SOV with county breakdown; Blue Book is the certified source.)
 
-**Observations:**
+**Observations**
 
-- {'date': '1904-11-09', 'days': 1, 'total': 48957, 'pct': 74.8, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1904-11-09 p9 (SF returns section) — HUMAN-VERIFIED: by early morning the Press Election Bureau had counted ~50,000 votes: Republican electors (Roosevelt) 29,705 + Democrat (Parker) 13,837 + Socialist (Debs) 5,108 + Prohibition (Swallow) 307 = 48,957; hand-count era partial. docref EANX-NB-1532150DC600E112 p9; conf=high'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1904-11-09 | 1 |  | 48,957 | 74.8% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1904-11-09 p9 (SF returns section) — HUMAN-VERIFIED: by early morning the Press Election Bureau had counted ~50,000 votes: Republican electors (Roosevelt) 29,705 + Democrat (Parker) 13,837 + Socialist (Debs) 5,108 + Prohibition (Swallow) 307 = 48,957; hand-count era partial. docref EANX-NB-1532150DC600E112 p9; conf=high |
 
 ---
 
@@ -3439,11 +4267,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1902-11-04`
 
+**Certified final:** 60,067
+
 **Source:** California Blue Book / State Roster 1903 p.332 — SF County Governor certified 60,067 (Pardee 24,106+Lane 33,743+Brower 1,993+Kanouse 164+scat 61). https://archive.org/details/california-blue-book-1903-sfg ; cross-ref Wikipedia 1902 CA gubernatorial. (Pre-1908: no SOV; Blue Book is the certified source.)
 
-**Observations:**
+**Observations**
 
-- {'date': '1902-11-05', 'days': 1, 'total': 0, 'pct': 0.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1902-11-05 p1 'Only a Small Percentage of the Votes Counted Up to Midnight' — SF Governor row BLANK (no SF count by the morning paper); DEEP HAND-COUNT era. 2-day-after Nov 6 reached 59,040 @320/320 complete (Pardee+Lane). scan sweep_19021104_issue19021105_p1, issue19021106_p1_s2; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1902-11-05 | 1 |  | 0 | 0.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1902-11-05 p1 'Only a Small Percentage of the Votes Counted Up to Midnight' — SF Governor row BLANK (no SF count by the morning paper); DEEP HAND-COUNT era. 2-day-after Nov 6 reached 59,040 @320/320 complete (Pardee+Lane). scan sweep_19021104_issue19021105_p1, issue19021106_p1_s2; conf=high |
 
 ---
 
@@ -3451,11 +4283,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1900-11-06`
 
+**Certified final:** 63,202
+
 **Source:** California Blue Book / State Roster 1903 pp.311-314 — SF County President certified 63,202 (McKinley 35,208+Bryan 25,212+Debs 2,030+Woolley 275+scat 477). https://archive.org/details/california-blue-book-1903-sfg ; cross-ref Wikipedia 1900 US pres CA. (Pre-1908: no SOV; Blue Book is the certified source.)
 
-**Observations:**
+**Observations**
 
-- {'date': '1900-11-07', 'days': 1, 'total': 36646, 'pct': 58.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1900-11-07 p9 (SF returns section, 'Pages 9 to 16') — HUMAN-VERIFIED: by late election night the Registrar had recorded 64,158 ballots cast (5 precincts missing) but the PRESIDENT count stood at McKinley 21,426 + Bryan 15,220 = 36,646 (paper: 'majority 6,206'); deep hand-count era partial tally. scan sweep_19001106_issue19001107_p9; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1900-11-07 | 1 |  | 36,646 | 58.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1900-11-07 p9 (SF returns section, 'Pages 9 to 16') — HUMAN-VERIFIED: by late election night the Registrar had recorded 64,158 ballots cast (5 precincts missing) but the PRESIDENT count stood at McKinley 21,426 + Bryan 15,220 = 36,646 (paper: 'majority 6,206'); deep hand-count era partial tally. scan sweep_19001106_issue19001107_p9; conf=high |
 
 ---
 
@@ -3473,11 +4309,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1898-11-08`
 
+**Certified final:** 54,372
+
 **Source:** California Blue Book / State Roster 1899 p.227 — SF County Governor certified 54,372 (Gage 28,218+Maguire 24,632+Harriman 1,388+McComas 134). cross-ref Wikipedia 1898 CA gubernatorial. (Pre-1908: no SOV with county breakdown; Blue Book is certified source.)
 
-**Observations:**
+**Observations**
 
-- {'date': '1898-11-09', 'days': 1, 'total': 40585, 'pct': 74.6, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1898-11-09 p1 — HUMAN-VERIFIED: by morning the SF Governor count was Gage 21,636 + Maguire 18,949 = 40,585, from 139 complete + 151 incomplete of SF's 303 precincts ('40,585 represent ... San Francisco precincts'); hand-count era partial. docref EANX-NB-1531E9F243460E8B p1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1898-11-09 | 1 |  | 40,585 | 74.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1898-11-09 p1 — HUMAN-VERIFIED: by morning the SF Governor count was Gage 21,636 + Maguire 18,949 = 40,585, from 139 complete + 151 incomplete of SF's 303 precincts ('40,585 represent ... San Francisco precincts'); hand-count era partial. docref EANX-NB-1531E9F243460E8B p1; conf=high |
 
 ---
 
@@ -3485,11 +4325,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1896-11-03`
 
+**Certified final:** 63,086
+
 **Source:** CA SoS Statement of Vote 1896 (statementofvoteo1886cali p.3) — SF County President certified 63,086 (McKinley 31,041+Bryan 30,649+Matchett 784+Palmer 320+Bentley 183+Levering 109). https://archive.org/details/statementofvoteo1886cali ; cross-ref Wikipedia 1896 US pres CA.
 
-**Observations:**
+**Observations**
 
-- {'date': '1896-11-04', 'days': 1, 'total': 51939, 'pct': 82.3, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': 'SF Chronicle (NewsBank image scan via SFPL), 1896-11-04 p9 (SF returns section) — HUMAN-VERIFIED: election-night SF President count McKinley 26,530 + Bryan 25,409 = 51,939 (51,939 ballots cast for president by press time); hand-count era. scan sf1896_p9; conf=high'}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1896-11-04 | 1 |  | 51,939 | 82.3% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1896-11-04 p9 (SF returns section) — HUMAN-VERIFIED: election-night SF President count McKinley 26,530 + Bryan 25,409 = 51,939 (51,939 ballots cast for president by press time); hand-count era. scan sf1896_p9; conf=high |
 
 ---
 
@@ -3497,11 +4341,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1894-11-06`
 
+**Certified final:** 59,643
+
 **Source:** California Blue Book / State Roster 1895 p.254 — SF County Governor certified 59,643 (Budd 32,069+Estee 20,615+Webster 6,459+French 500). cross-ref Wikipedia 1894 CA gubernatorial. (Pre-1908: no SOV w/ county breakdown; Blue Book is certified source.)
 
-**Observations:**
+**Observations**
 
-- {'date': '1894-11-07', 'days': 1, 'total': 33899, 'pct': 56.8, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1894-11-07 p9 'Vote of the City' (12:30am) — SF Governor Budd 18,099+Estee 11,535+Webster 3,463+French 802=33,899, 290 of 293 precincts (only 27 complete, rest partial); hand-count era. scan sweep_18941106_issue18941107_p9_s3; conf=high (Budd/Estee corroborated by stated 6,500 lead)"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1894-11-07 | 1 |  | 33,899 | 56.8% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1894-11-07 p9 'Vote of the City' (12:30am) — SF Governor Budd 18,099+Estee 11,535+Webster 3,463+French 802=33,899, 290 of 293 precincts (only 27 complete, rest partial); hand-count era. scan sweep_18941106_issue18941107_p9_s3; conf=high (Budd/Estee corroborated by stated 6,500 lead) |
 
 ---
 
@@ -3509,11 +4357,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1892-11-08`
 
+**Certified final:** 58,435
+
 **Source:** CA SoS Statement of Vote 1892 (statementofvoteo1886cali p.3) — SF County President certified 58,435 (Cleveland 31,022+Harrison 24,416+Weaver 2,508+Bidwell 489). https://archive.org/details/statementofvoteo1886cali ; cross-ref Wikipedia 1892 US pres CA.
 
-**Observations:**
+**Observations**
 
-- {'date': '1892-11-09', 'days': 1, 'total': 39000, 'pct': 66.7, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1892-11-09 p3 'Vote of the City' — PROSE only (no per-candidate table printed in the issue; checked p1-3,9-12): by the morning paper ~39,000 president votes counted ('out of something over 39,000 Cleveland leads Harrison 5,000'; total city vote 60,749 by Assembly district); hand-count era partial. ballots_counted~39,000 APPROX; scan sweep_18921108_issue18921109_p3; conf=medium"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1892-11-09 | 1 |  | 39,000 | 66.7% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1892-11-09 p3 'Vote of the City' — PROSE only (no per-candidate table printed in the issue; checked p1-3,9-12): by the morning paper ~39,000 president votes counted ('out of something over 39,000 Cleveland leads Harrison 5,000'; total city vote 60,749 by Assembly district); hand-count era partial. ballots_counted~39,000 APPROX; scan sweep_18921108_issue18921109_p3; conf=medium |
 
 ---
 
@@ -3561,11 +4413,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1882-11-07`
 
+**Certified final:** 39,102
+
 **Source:** SF Municipal Reports Registrar master table (FY1888-89 p.856) SF total vote 39,102 (reg 42,135); cross-ref CA SoS Statement of Vote 1882 (archive.org statementofvoteo1886cali, read directly) SF Governor 38,913 (Stoneman 24,257+Estee 13,735+McDonald 829+McQuiddy 77+scat 15). https://archive.org/details/statementofvoteo1886cali
 
-**Observations:**
+**Observations**
 
-- {'date': '1882-11-08', 'days': 1, 'total': 4261, 'pct': 10.9, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Chronicle (NewsBank image scan via SFPL), 1882-11-08 p3 'THE VOTE IN THIS CITY — What the Count Showed at 2 This Morning' (subhead 'The State of the Count at 2 O'Clock A.M.'): Governor partial Stoneman 2,600+Estee 1,587+McDonald 74 = 4,261; deep hand-count era, count 'slowly progressing'; reg 42,072 printed. scan zg_18821107_issue18821108_p3_r2_c1; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1882-11-08 | 1 |  | 4,261 | 10.9% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1882-11-08 p3 'THE VOTE IN THIS CITY — What the Count Showed at 2 This Morning' (subhead 'The State of the Count at 2 O'Clock A.M.'): Governor partial Stoneman 2,600+Estee 1,587+McDonald 74 = 4,261; deep hand-count era, count 'slowly progressing'; reg 42,072 printed. scan zg_18821107_issue18821108_p3_r2_c1; conf=high |
 
 ---
 
@@ -3593,11 +4449,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1876-11-07`
 
+**Certified final:** 41,571
+
 **Source:** CA SoS Statement Nov 7 1876 — SF County President certified 41,571 (Hayes 21,172+Tilden 20,399+scat 1). Newspaper complete count 41,820 (Hayes 21,133/Tilden 20,687) within 0.6%. ballots capped to certified for the 100% share. cross-ref Wikipedia 1876 US pres CA.
 
-**Observations:**
+**Observations**
 
-- {'date': '1876-11-08', 'days': 1, 'total': 41571, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Daily Evening Post (NewsBank image scan via SFPL), 1876-11-08 p3 'THE CITY' First Edition — COMPLETE returns all 12 wards: Hayes 21,133 + Tilden 20,687 = 41,820 ('Total Vote of the City 41,820'; '446 majority for Hayes' = 21,133-20,687). Complete next-day count (~100%). scan zg_18761107_issue18761108_p3 + sweep_..._p3_s3; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1876-11-08 | 1 |  | 41,571 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Daily Evening Post (NewsBank image scan via SFPL), 1876-11-08 p3 'THE CITY' First Edition — COMPLETE returns all 12 wards: Hayes 21,133 + Tilden 20,687 = 41,820 ('Total Vote of the City 41,820'; '446 majority for Hayes' = 21,133-20,687). Complete next-day count (~100%). scan zg_18761107_issue18761108_p3 + sweep_..._p3_s3; conf=high |
 
 ---
 
@@ -3605,11 +4465,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1875-09-01`
 
+**Certified final:** 25,534
+
 **Source:** CA State Archives Abstract Sept 1 1875 — SF County Governor certified 25,534 (Irwin 14,199+Bidwell 6,080+Phelps 5,179+Lovett 71+scat 5). Newspaper complete count ~25,5xx matches. cross-ref Wikipedia 1875 CA gubernatorial.
 
-**Observations:**
+**Observations**
 
-- {'date': '1875-09-02', 'days': 1, 'total': 25534, 'pct': 100.0, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Daily Evening Post (NewsBank image scan via SFPL), 1875-09-02 p2 'THE ELECTION' (Second Edition 6:30 PM) — COMPLETE precinct-by-precinct SF Governor returns, all 12 wards; 'Total Vote of the City' ~25,5xx (Irwin/Dem sweep). Complete day-after count (~100%). NOTE evening edition (timing = day-after, not midnight). scan sweep_18750901_issue18750902_p2; conf=med (complete basis high; exact total last digits soft)"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1875-09-02 | 1 |  | 25,534 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Daily Evening Post (NewsBank image scan via SFPL), 1875-09-02 p2 'THE ELECTION' (Second Edition 6:30 PM) — COMPLETE precinct-by-precinct SF Governor returns, all 12 wards; 'Total Vote of the City' ~25,5xx (Irwin/Dem sweep). Complete day-after count (~100%). NOTE evening edition (timing = day-after, not midnight). scan sweep_18750901_issue18750902_p2; conf=med (complete basis high; exact total last digits soft) |
 
 ---
 
@@ -3617,11 +4481,15 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `1868-11-03`
 
+**Certified final:** 25,765
+
 **Source:** CA SoS Abstract Nov 3 1868 — SF County President certified 25,765 (Seymour 13,582+Grant 12,183). Newspaper complete count 25,655 within 0.4%. cross-ref Wikipedia 1868 US pres CA. (Pre-1908: no SOV w/ county breakdown.)
 
-**Observations:**
+**Observations**
 
-- {'date': '1868-11-04', 'days': 1, 'total': 25655, 'pct': 99.6, 'label': 'SF Chronicle page scan (NewsBank/SFPL)', 'citation': "SF Daily Alta California (NewsBank image scan via SFPL), 1868-11-04 p3 'City and County Election Returns' — COMPLETE ward×precinct canvass; President Grant(Union) 12,171 + Seymour(Dem) 13,484 = 25,655 (paper majority col 1,313 = 13,484-12,171). Counted overnight. scan zg_18681103_issue18681104_p3; conf=high"}
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1868-11-04 | 1 |  | 25,655 | 99.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Daily Alta California (NewsBank image scan via SFPL), 1868-11-04 p3 'City and County Election Returns' — COMPLETE ward×precinct canvass; President Grant(Union) 12,171 + Seymour(Dem) 13,484 = 25,655 (paper majority col 1,313 = 13,484-12,171). Counted overnight. scan zg_18681103_issue18681104_p3; conf=high |
 
 ---
 

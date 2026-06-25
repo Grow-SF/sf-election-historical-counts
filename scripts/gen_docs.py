@@ -44,6 +44,7 @@ def gen_sources_md() -> str:
         record_id = record.get("id", "")
         name = record.get("name", record_id or "(unnamed)")
         summary = record.get("summary", "").strip()
+        final = record.get("final")
         final_source = record.get("finalSource", "").strip()
         observations = record.get("observations", [])
 
@@ -52,14 +53,34 @@ def gen_sources_md() -> str:
             lines.append(f"**ID:** `{record_id}`\n\n")
         if summary:
             lines.append(f"{summary}\n\n")
+        if final is not None:
+            lines.append(f"**Certified final:** {final:,}\n\n")
         if final_source:
             lines.append(f"**Source:** {final_source}\n\n")
         if observations:
-            lines.append("**Observations:**\n\n")
+            lines.append("**Observations**\n\n")
+            lines.append(
+                "| Date | Days after | Election night | Count | % of final | Source |\n"
+            )
+            lines.append(
+                "|------|-----------:|:--------------:|------:|-----------:|--------|\n"
+            )
             for obs in observations:
-                obs_text = str(obs).strip()
-                if obs_text:
-                    lines.append(f"- {obs_text}\n")
+                date = str(obs.get("date", "")).strip()
+                days = obs.get("days")
+                days = "" if days is None else str(days)
+                night = "✓" if obs.get("night") else ""
+                total = obs.get("total")
+                total = "" if total is None else f"{total:,}"
+                pct = obs.get("pct")
+                pct = "" if pct is None else f"{pct}%"
+                label = str(obs.get("label", "")).strip()
+                citation = str(obs.get("citation", "")).strip()
+                source = " — ".join(s for s in (label, citation) if s)
+                source = source.replace("|", "&#124;")
+                lines.append(
+                    f"| {date} | {days} | {night} | {total} | {pct} | {source} |\n"
+                )
             lines.append("\n")
         lines.append("---\n\n")
 
