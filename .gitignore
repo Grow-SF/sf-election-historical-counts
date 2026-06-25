@@ -6,3 +6,5 @@ __pycache__/
 *.egg-info/
 mirror/
 mirror/
+node_modules/
+packages/charts/preview/dist/

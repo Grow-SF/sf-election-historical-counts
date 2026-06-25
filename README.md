@@ -61,8 +61,10 @@ thin at mid-century, widening again after 1965.
 ![Who could vote, and who did — San Francisco's electorate as bands of the whole population, 1908–2024](docs/img/franchise-funnel.png)
 
 *Static snapshots — explore all of it interactively, filtered and zoomable, in
-the site under [`viz/`](viz/). (Regenerate these images with
-`node scripts/shoot_charts.js` against a running dev server.)*
+the published story on [GrowSF](https://growsf.org), or run the charts locally
+with the preview harness (`pnpm install && pnpm --filter @long-count/preview
+exec vite`). (Regenerate these images with `node scripts/shoot_charts.cjs`
+against the running preview harness.)*
 
 ---
 
@@ -72,8 +74,8 @@ the site under [`viz/`](viz/). (Regenerate these images with
 |---|---|
 | `sfcount/` | Python pipeline: ingests DOE per-release reports (2015–present) |
 | `data/` | All committed datasets (CSV) — the source of truth |
-| `viz/` | Next.js story site, "The Long Count" (builds from `data/`) |
-| `scripts/` | `build_viz_data.py` (data → viz JSON) + `archive-recovery/` tooling |
+| `packages/` | `data/` (committed JSON, baked from `data/`) + `charts/` (the reusable React charts the GrowSF site embeds) |
+| `scripts/` | `build_viz_data.py` (data → `packages/data` JSON) + `archive-recovery/` tooling |
 | `docs/` | Methodology, runbook, search log, the records-request draft |
 | `mirror/` | **gitignored** — licensed NewsBank/Chronicle source content (cited, never republished) |
 | `sf-long-count-archive/` | read-only predecessor (PDF-parsing); kept for reconciliation |
@@ -110,19 +112,25 @@ After a new election: add it to `SUPPLEMENTAL_ELECTIONS` in
 during the canvass; after certification add the certified total to
 `CERTIFIED_FINALS` in `sfcount/validate.py` and commit `data/`.
 
-## The visualization (`viz/`)
+## The charts (`packages/charts`)
 
-A Next.js story site built entirely from the committed datasets: the
+A reusable React charts package built entirely from the committed datasets —
+the same charts the [GrowSF](https://growsf.org) story embeds: the
 election-night-share trend (a fitted line per voting era — fast-count,
 absentee, permanent vote-by-mail, slow-count), an any-margin "days until
-the winner is beyond doubt"
-explorer, the 1964–2026 mail-ballot share, and a per-canvass trajectory
-explorer. Filters are URL-encoded for sharing. Routes: `/` (story),
-`/sources` (every number, linked to its archive), `/missing` (open research
-list + how to contribute), `/methods` (the public search log).
+the winner is beyond doubt" explorer, the 1964–2026 mail-ballot share, and a
+per-canvass trajectory explorer. The website consumes it as a pinned git
+dependency; the charts read from `packages/data` (committed JSON, baked from
+`data/` by `scripts/build_viz_data.py`).
 
-    python3 scripts/build_viz_data.py   # rebake viz JSON after the pipeline runs
-    cd viz && npm install && npm run dev
+For local development and preview, run the harness; the underlying records are
+documented in the repo: the search log in
+[`docs/analysis/public-search-log.md`](docs/analysis/public-search-log.md),
+every number linked to its archive in [`docs/sources.md`](docs/sources.md), and
+the open research list in [`docs/missing.md`](docs/missing.md).
+
+    python3 scripts/build_viz_data.py            # rebake packages/data JSON after the pipeline runs
+    pnpm install && pnpm --filter @long-count/preview exec vite   # local charts preview (:4317)
 
 ## Archive recovery (the historical data)
 
@@ -136,7 +144,7 @@ apparent "contradiction" is usually a bad denominator, not a misread).
 Supporting docs:
 - `docs/analysis/newsbank-agent-playbook.md` — capture + reader-agent rules.
 - `docs/analysis/public-search-log.md` — what's already been searched (so you
-  don't redo it); also served at the site's `/methods`.
+  don't redo it).
 - `docs/denominator-errors.md` — DOE turnout figures contradicted by the
   count, for manual verification.
 - `docs/doe-records-request.md` — drafted public-records request for the
@@ -157,7 +165,7 @@ Set `SF_MIRROR_DIR` to point them at a mirror kept elsewhere:
 
 **83 San Francisco elections still lack an election-night count** — see
 [`data/elections_master.csv`](data/elections_master.csv) (the `recovered=no` rows)
-and the site's `/missing` page. Most are pre-1907, above all the 1856–1905 mayoral
+and [`docs/missing.md`](docs/missing.md). Most are pre-1907, above all the 1856–1905 mayoral
 elections. None are lost causes: the returns were printed at the time and survive
 in the newspaper archive. You can help find them — no special skills needed.
 
@@ -185,8 +193,9 @@ in the newspaper archive. You can help find them — no special skills needed.
 - **Email [contact@growsf.org](mailto:contact@growsf.org)** with the photo/scan, the
   election date, which contest, and where you found it.
 
-Every submission is verified against certified totals and credited on the `/sources`
-page. Before you dig, the `/missing` page notes what's already been tried for each.
+Every submission is verified against certified totals and credited in
+[`docs/sources.md`](docs/sources.md). Before you dig,
+[`docs/missing.md`](docs/missing.md) notes what's already been tried for each.
 
 ## Open work & roadmap
 
@@ -228,7 +237,7 @@ the 1850s–1905 are absent from the dataset. Needs the SFPL index for exact dat
 **Pre-1928 primaries** — California's direct primary began 1909; primaries **~1910–1926**
 are unrecovered (the ledger's primary tier starts 1928).
 
-**Modern night-count gaps** (tracked on the `/missing` page): **1995-12** runoff,
+**Modern night-count gaps** (tracked in [`docs/missing.md`](docs/missing.md)): **1995-12** runoff,
 **1999-11** (Ammiano write-in), **2000-11**, **2003-10** (Davis recall), **2006-11**,
 **2010-11** — the city's results databases for these were stale or never captured.
 
@@ -301,7 +310,7 @@ the **1909-11 general** and **1911-11 municipal**.
 
 ## Provenance & licensing
 
-Every published number traces to a primary source on the `/sources` page.
+Every published number traces to a primary source in [`docs/sources.md`](docs/sources.md).
 Newspaper archive content (NewsBank, Chronicle) is **cited, not republished**:
 it lives only in the gitignored `mirror/` tree and never ships to the site or a
 CDN. Public-record sources (DOE releases, Wayback captures, Secretary of State

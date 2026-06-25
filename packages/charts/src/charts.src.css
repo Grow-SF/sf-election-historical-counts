@@ -1,0 +1,189 @@
+/* ============================================================================
+   charts.src.css — hand-authored input for `charts.css` (Task 9).
+
+   `charts.css` is GENERATED from this file by `pnpm build:css`
+   (tailwindcss -i ./src/charts.src.css -o ./src/charts.css --config ./tailwind.config.cjs).
+   Edit THIS file, then rebuild — do not edit `charts.css` directly.
+
+   Three layers, in order:
+     (a) the `.lc-root` design tokens (GrowSF palette + fonts),
+     (b) a scoped reset (preflight is off, so `border`/box-sizing utilities need this),
+     (c) the chrome transcribed verbatim from web/app/globals.css `.longcount`
+         (every `.longcount` → `.lc-root`, every `var(--color-X)` → `var(--lc-X)`),
+     (d) the Tailwind utilities directive — the precompiled GrowSF utilities,
+         scoped under `.lc-root` via `important: ".lc-root"` in tailwind.config.cjs.
+   ============================================================================ */
+
+/* (a) Tokens — GrowSF-brand-aligned palette, mirrored from web `.longcount`. */
+.lc-root {
+  --lc-ink: #16302e;
+  --lc-paper: #ffffeb;
+  --lc-faint: #5e7167;
+  --lc-rule: #cfe3da;
+  --lc-gold: #64d09c;
+  --lc-font-mono: ui-monospace, "SF Mono", "IBM Plex Mono", Menlo, monospace;
+  --lc-font-display: Georgia, "Times New Roman", "Source Serif 4", serif;
+  --lc-paper-deep: #eaf3ec;
+  --lc-night: #044147;
+  --lc-night-soft: #0b5158;
+  --lc-rust: #007784;
+  --lc-rust-bright: #3fb6c9;
+  --lc-rule-dark: #14565e;
+  --lc-slate: #0a82b2;
+  --lc-moss: #1e7b6a;
+  --lc-plum: #01384f;
+
+  color: var(--lc-ink);
+  font-family: var(--lc-font-display);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* (b) Scoped reset — replaces the preflight bits the utilities depend on.
+   Without this, `border` utilities draw nothing (preflight is off). */
+.lc-root *,
+.lc-root *::before,
+.lc-root *::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: currentColor;
+}
+
+/* (c) Chrome — transcribed verbatim from web/app/globals.css `.longcount`
+   (≈ lines 1080–1233), rescoped `.longcount` → `.lc-root`,
+   `var(--color-X)` → `var(--lc-X)`. */
+
+/* break the island out of the narrow prose column to full viewport width.
+   already `lc-`prefixed upstream — kept unscoped, as-is. */
+.lc-fullbleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+/* faint paper grain on the dark editorial bands */
+.lc-root .grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.lc-root .smallcaps {
+  font-family: var(--lc-font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.lc-root .stat-figure {
+  font-family: var(--lc-font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* hairline double rule, ledger style */
+.lc-root .rule-double {
+  border-top: 1px solid var(--lc-rule);
+  position: relative;
+}
+.lc-root .rule-double::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  right: 0;
+  border-top: 1px solid var(--lc-rule);
+}
+
+.lc-root .fade-up {
+  animation: lcFadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@keyframes lcFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.lc-root ::selection {
+  background: var(--lc-rust);
+  color: var(--lc-paper);
+}
+
+/* dual-thumb range slider: two stacked native ranges, only the thumbs catch
+   pointer events so either handle stays grabbable even when they overlap */
+.lc-root .rangepair {
+  position: relative;
+  height: 24px;
+}
+.lc-root .rangepair .track,
+.lc-root .rangepair .fill {
+  position: absolute;
+  top: 11px;
+  height: 2px;
+  border-radius: 1px;
+}
+.lc-root .rangepair .track {
+  left: 0;
+  right: 0;
+  background: var(--lc-rule);
+}
+.lc-root .rangepair .fill {
+  background: var(--lc-rust);
+}
+.lc-root .rangepair input[type="range"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 24px;
+  margin: 0;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.lc-root .rangepair input[type="range"]::-webkit-slider-runnable-track {
+  height: 24px;
+  background: transparent;
+}
+.lc-root .rangepair input[type="range"]::-moz-range-track {
+  height: 24px;
+  background: transparent;
+}
+.lc-root .rangepair input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  pointer-events: auto;
+  margin-top: 5px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--lc-rust);
+  border: 2px solid var(--lc-paper);
+  box-shadow: 0 0 0 1px var(--lc-rust);
+  cursor: pointer;
+}
+.lc-root .rangepair input[type="range"]::-moz-range-thumb {
+  pointer-events: auto;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--lc-rust);
+  border: 2px solid var(--lc-paper);
+  box-shadow: 0 0 0 1px var(--lc-rust);
+  cursor: pointer;
+}
+.lc-root .rangepair input[type="range"]:focus-visible::-webkit-slider-thumb {
+  outline: 2px solid var(--lc-ink);
+  outline-offset: 1px;
+}
+
+/* (d) Precompiled GrowSF utilities — scoped under `.lc-root` (important: ".lc-root"). */
+@tailwind utilities;

@@ -24,7 +24,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 DATA = ROOT / "data"
-VIZ = ROOT / "viz" / "src" / "data"
+VIZ = ROOT / "packages" / "data"
 OUT = DATA / "sf_franchise_by_election.csv"
 # the DOE table dates the Dec 2001 runoff a day early (a Monday); the runoff was
 # Tue Dec 11 — same fix build_viz_data.py applies
