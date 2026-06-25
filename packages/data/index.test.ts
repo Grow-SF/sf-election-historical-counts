@@ -1,5 +1,5 @@
 import { test, expect } from "vitest";
-import { ELECTIONS, TURNOUT_HISTORY } from "./index.js";
+import { ELECTIONS, TURNOUT_HISTORY } from "./index";
 
 test("data package loads the election record", () => {
   expect(ELECTIONS.length).toBeGreaterThan(150);

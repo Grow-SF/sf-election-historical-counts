@@ -8,9 +8,9 @@ import sources from "./sources.json";
 import ledger from "./ledger.json";
 import type {
   Election, TurnoutPoint, FloorPoint, VbmPoint, RegEligPoint, FunnelPoint,
-} from "./types.js";
+} from "./types";
 
-export * from "./types.js";
+export * from "./types";
 export const ELECTIONS = elections as unknown as Election[];
 export const TURNOUT_HISTORY = turnoutHistory as TurnoutPoint[];
 export const NIGHT_FLOOR = nightFloor as FloorPoint[];
