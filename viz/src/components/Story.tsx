@@ -278,7 +278,7 @@ export default function Story() {
               obvious question: did it bring more people to the polls? Among
               voters already on the rolls, the answer is mostly no. Turnout
               swings with what’s on the ballot — presidential generals draw
-              80%, off-year municipals barely 40% — and the all-mail era to
+              80%, off-year locals barely 40% — and the all-mail era to
               the right of the milestone lines lands inside that same band. The 2020
               record was the nationwide presidential peak, not a vote-by-mail
               effect; the 2024 general fell back below 2016, and the 2024

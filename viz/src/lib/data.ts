@@ -66,7 +66,7 @@ export type FunnelPoint = {
 };
 export const FRANCHISE_FUNNEL = franchiseFunnel as FunnelPoint[];
 
-export const KINDS = ["General", "Midterm", "Primary", "Municipal", "Special", "Recall"] as const;
+export const KINDS = ["General", "Midterm", "Primary", "Local", "Special", "Recall"] as const;
 export const THRESHOLDS = [50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 98, 99];
 
 export const YEAR_MIN = Math.min(
@@ -92,11 +92,12 @@ export type Filters = {
 
 /**
  * The chart/filter category for an election. "General" splits into presidential
- * (year divisible by 4) and "Midterm" (the even off-years); every other kind
- * passes through unchanged. One source of truth for the General/Midterm split,
- * shared by the filter, the turnout chart, and the night-share chart.
+ * (year divisible by 4) and "Midterm" (the even off-years), "Municipal" is shown
+ * as "Local", and every other kind passes through unchanged. One source of truth
+ * for the category mapping, shared by the filter and the charts.
  */
 export function displayKind(kind: string, year: number): string {
+  if (kind === "Municipal") return "Local";
   return kind === "General" && year % 4 !== 0 ? "Midterm" : kind;
 }
 
@@ -155,9 +156,25 @@ export const KIND_COLOR: Record<string, string> = {
   General: "#0A82B2", // bright primary blue (presidential-year generals)
   Midterm: "#7E5AA8", // muted violet — the even off-year generals, split out
   Primary: "#EBAB5A", // yellow
-  Municipal: "#01384F", // deep navy blue
+  Local: "#01384F", // deep navy blue (city / odd-year elections)
   Special: "#1E7B6A", // sea green
   Recall: "#E36246", // light red
+};
+
+/** One-line description of each filter category, shown as a hover tooltip on the chips. */
+export const KIND_DESC: Record<string, string> = {
+  General:
+    "Presidential general election — the November ballot held every fourth year.",
+  Midterm:
+    "Midterm general election — the November ballot in the even years between presidential elections.",
+  Primary:
+    "Primary election — usually June, narrowing the field before the November general.",
+  Local:
+    "Local election — mayor, supervisors, and city measures, usually in odd years.",
+  Special:
+    "Special election — called off the regular calendar for a single measure, recall, or vacancy.",
+  Recall:
+    "Recall election — a vote on whether to remove an elected official before their term ends.",
 };
 
 /**

@@ -1,6 +1,5 @@
 "use client";
-import { useState } from "react";
-import { KIND_COLOR, KINDS, YEAR_MAX, YEAR_MIN } from "@/lib/data";
+import { KIND_COLOR, KIND_DESC, KINDS, YEAR_MAX, YEAR_MIN } from "@/lib/data";
 import { UrlState } from "@/lib/useUrlState";
 import { DualRange } from "@/components/ui";
 
@@ -11,8 +10,6 @@ export default function FilterBar({
   state: UrlState;
   update: (patch: Partial<UrlState>) => void;
 }) {
-  const [copied, setCopied] = useState(false);
-
   const toggleKind = (k: string) => {
     const next = new Set(state.kinds);
     if (next.has(k)) {
@@ -21,16 +18,6 @@ export default function FilterBar({
       next.add(k);
     }
     update({ kinds: next });
-  };
-
-  const share = async () => {
-    try {
-      await navigator.clipboard.writeText(window.location.href);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 1600);
-    } catch {
-      /* clipboard unavailable; the URL bar already has the state */
-    }
   };
 
   return (
@@ -45,6 +32,7 @@ export default function FilterBar({
                 key={k}
                 onClick={() => toggleKind(k)}
                 aria-pressed={on}
+                title={KIND_DESC[k]}
                 className="smallcaps border px-2 py-1 transition-colors"
                 style={{
                   borderColor: on ? KIND_COLOR[k] : "var(--color-rule)",
@@ -73,7 +61,6 @@ export default function FilterBar({
           <span className="stat-figure text-xs text-ink">{state.to}</span>
         </label>
 
-
         <div className="ml-auto flex flex-wrap items-center gap-2">
           <a
             href="/eras"
@@ -93,12 +80,6 @@ export default function FilterBar({
           >
             help wanted
           </a>
-          <button
-            onClick={share}
-            className="smallcaps border border-ink px-2.5 py-1 text-ink transition-colors hover:bg-ink hover:text-paper"
-          >
-            {copied ? "link copied ✓" : "share this view"}
-          </button>
         </div>
       </div>
     </div>
