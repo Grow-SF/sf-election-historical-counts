@@ -13,7 +13,6 @@ export {
   Registration,
   FranchiseFunnel,
   Trajectory,
-  CountingMethods,
   HelpWanted,
   MethodNote,
 } from "./components/LongCount";
