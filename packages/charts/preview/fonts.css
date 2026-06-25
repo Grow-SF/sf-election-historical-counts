@@ -1,0 +1,14 @@
+/*
+ * fonts.css — preview harness font loading
+ *
+ * The design tokens in .lc-root lead with system fonts:
+ *   --lc-font-display: Georgia, "Times New Roman", "Source Serif 4", serif
+ *   --lc-font-mono:    ui-monospace, "SF Mono", "IBM Plex Mono", Menlo, monospace
+ *
+ * On macOS, Georgia and ui-monospace (SF Mono) are system fonts, so charts
+ * render correctly with zero network load. This file exists as the hook for
+ * any belt-and-suspenders @font-face declarations needed on other platforms.
+ *
+ * No external font load is required for the preview to match the live site
+ * on macOS — the system stack is intentionally ordered to match.
+ */

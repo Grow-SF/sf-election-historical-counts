@@ -7,3 +7,4 @@ __pycache__/
 mirror/
 mirror/
 node_modules/
+packages/charts/preview/dist/
