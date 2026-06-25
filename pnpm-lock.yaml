@@ -41,9 +41,6 @@ importers:
 
   packages/charts:
     dependencies:
-      '@long-count/data':
-        specifier: workspace:*
-        version: link:../data
       react:
         specifier: '>=18'
         version: 19.2.7

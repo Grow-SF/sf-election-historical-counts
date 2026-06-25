@@ -11,7 +11,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { Election } from "@long-count/data";
+import { Election } from "../../../data/index";
 import { fmt } from "../lib/format";
 import { useChartTheme } from "../theme";
 import { ChartFrame, DualRange } from "./ui";

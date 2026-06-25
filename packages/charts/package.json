@@ -6,7 +6,6 @@
   "scripts": {
     "build:css": "tailwindcss -i ./src/charts.src.css -o ./src/charts.css --config ./tailwind.config.cjs"
   },
-  "dependencies": { "@long-count/data": "workspace:*" },
   "peerDependencies": { "react": ">=18", "recharts": ">=3" },
   "devDependencies": {
     "tailwindcss": "^3.2.4",

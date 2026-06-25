@@ -1,6 +1,6 @@
 "use client";
 import { createContext, useContext } from "react";
-import { Election } from "@long-count/data";
+import { Election } from "../../../data/index";
 import { UrlState } from "./useUrlState";
 import type { ChartsTheme } from "../theme";
 

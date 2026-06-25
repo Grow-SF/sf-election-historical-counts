@@ -10,7 +10,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { FRANCHISE_FUNNEL } from "@long-count/data";
+import { FRANCHISE_FUNNEL } from "../../../data/index";
 import { FRANCHISE_EVENTS, EVENTS, yearTicks } from "../lib/events";
 import { fmt } from "../lib/format";
 import { useChartTheme } from "../theme";

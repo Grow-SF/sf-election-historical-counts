@@ -1,7 +1,7 @@
 "use client";
 import { useMemo } from "react";
 import { filterElections } from "../lib/filter";
-import { ELECTIONS } from "@long-count/data";
+import { ELECTIONS } from "../../../data/index";
 import { useUrlState } from "../lib/useUrlState";
 import { LongCountProvider, useLongCount } from "../lib/context";
 import FilterBar from "./FilterBar";

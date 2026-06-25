@@ -8,7 +8,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { VBM_HISTORY } from "@long-count/data";
+import { VBM_HISTORY } from "../../../data/index";
 import { yearTicks } from "../lib/events";
 import { useChartTheme } from "../theme";
 import { ChartFrame, eventLines } from "./ui";

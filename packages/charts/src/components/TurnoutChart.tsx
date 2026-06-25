@@ -8,7 +8,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { TURNOUT_HISTORY } from "@long-count/data";
+import { TURNOUT_HISTORY } from "../../../data/index";
 import { KINDS, displayKind } from "../lib/categories";
 import { fmt } from "../lib/format";
 import { yearTicks } from "../lib/events";

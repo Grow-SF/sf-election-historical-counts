@@ -1,4 +1,4 @@
-import { ELECTIONS, NIGHT_FLOOR, TURNOUT_HISTORY } from "@long-count/data";
+import { ELECTIONS, NIGHT_FLOOR, TURNOUT_HISTORY } from "../../../data/index";
 
 export const YEAR_MIN = Math.min(
   ...ELECTIONS.map((e) => e.year),

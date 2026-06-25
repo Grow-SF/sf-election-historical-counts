@@ -9,7 +9,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { Election, NIGHT_FLOOR } from "@long-count/data";
+import { Election, NIGHT_FLOOR } from "../../../data/index";
 import { displayKind } from "../lib/categories";
 import { linearFit, Fit } from "../lib/fit";
 import { yearFrac } from "../lib/events";
