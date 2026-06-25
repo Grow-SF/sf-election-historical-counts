@@ -502,60 +502,63 @@ pnpm vitest run packages/charts/src/lib
 git add packages/charts/src/lib && git commit -m "feat(charts): format, fit, events helpers (tested)"
 ```
 
-### Task 9: `charts.css` — chrome styling whose defaults match the website
+### Task 9: `charts.css` — tokens + chrome + **precompiled GrowSF Tailwind utilities**, all scoped under `.lc-root`
 
-**Files:** Create `packages/charts/src/charts.css`.
+**Styling-approach decision (resolved with the human — supersedes the spec's "semantic .lc-* class" sketch):**
+The web components are styled with **Tailwind utility classes** for all their HTML chrome (frames, tooltips, legends, labels, spacing, colors — e.g. `border border-ink bg-paper px-3 py-2 text-sm shadow`, `text-lg font-semibold text-ink`, `mt-3 flex flex-wrap gap-x-4 gap-y-1`, `text-faint`, `bg-gold/10`, `hover:bg-gold`, `sm:w-40`). The package ships **no Tailwind** (the spec rejected a shared preset). Chosen approach (Option A): **keep the component classNames unchanged** and **precompile exactly the utilities they use into `charts.css`, scoped under `.lc-root`**, so the Vite harness, the README screenshots, and any non-Tailwind consumer render identically to the live site. This keeps Task 11 mechanical (only the recharts color *values* change). `charts.css` therefore has **three layers**, and is a **generated file** with a committed source + build step.
 
-- [ ] **Step 1: Extract the chart chrome styles.** Open the website's CSS (`web/.../app` globals + the `.longcount` scope) and copy the rules that style the charts: the `--color-*` variables, the `smallcaps`, `stat-figure`, `rangepair`, and `ChartFrame` framing. Re-author them under an `.lc-root` scope and behind `--lc-*` variables with the **current GrowSF values as the fallbacks**, e.g.:
+**Files:** Create `packages/charts/src/charts.src.css` (hand-authored input), `packages/charts/tailwind.config.cjs`, a `build:css` script in `packages/charts/package.json`, and the generated `packages/charts/src/charts.css` (committed). Add `tailwindcss`/`postcss`/`autoprefixer` devDeps.
 
-```css
-/* Exact GrowSF values — transcribed from web/app/globals.css `.longcount` scope
-   (pre-filled during pre-flight; these ARE the live-site values, not placeholders). */
-.lc-root {
-  --lc-ink: #16302e; --lc-paper: #ffffeb; --lc-faint: #5e7167;
-  --lc-rule: #cfe3da; --lc-gold: #64d09c;
-  --lc-font-mono: ui-monospace, "SF Mono", "IBM Plex Mono", Menlo, monospace;
-  --lc-font-display: Georgia, "Times New Roman", "Source Serif 4", serif;
-  /* extended palette the chrome reads (slider, selection, rules, dark bands) —
-     same names rescoped to --lc-* from the web `.longcount` --color-* tokens */
-  --lc-paper-deep: #eaf3ec; --lc-night: #044147; --lc-night-soft: #0b5158;
-  --lc-rust: #007784; --lc-rust-bright: #3fb6c9; --lc-rule-dark: #14565e;
-  --lc-slate: #0a82b2; --lc-moss: #1e7b6a; --lc-plum: #01384f;
-  color: var(--lc-ink); font-family: var(--lc-font-display);
-  -webkit-font-smoothing: antialiased;
-}
-.lc-root .smallcaps { font-family: var(--lc-font-mono); font-size: 0.6875rem; letter-spacing: 0.14em; text-transform: uppercase; }
-.lc-root .stat-figure { font-family: var(--lc-font-mono); font-variant-numeric: tabular-nums; }
-/* Transcribe the remaining `.longcount` chrome VERBATIM, rescoped under `.lc-root`
-   and reading the --lc-* tokens above: `.rule-double`; `.rangepair` (dual-thumb
-   slider — track = --lc-rule, fill/thumb = --lc-rust, thumb border = --lc-paper,
-   box-shadow ring = --lc-rust); `::selection` (bg --lc-rust, color --lc-paper);
-   `.fade-up` + `@keyframes lcFadeUp`; `.grain`; and the ChartFrame / tooltip /
-   legend framing from ui.tsx. The full web token table is reproduced in the note
-   below so nothing is invented. */
-```
+- [ ] **Step 1: Toolchain.** Add to `packages/charts` devDeps, pinned to MATCH the website so output is identical: `tailwindcss@^3.2.4`, `postcss@^8.4`, `autoprefixer@^10.4` (web uses `tailwindcss ^3.2.4`). `pnpm install`.
 
-> The hex/font values above were **pre-filled verbatim from the website's `.longcount`
-> CSS** during pre-flight — the default IS the site. Scoping under `.lc-root` (the class
-> the `<LongCount>` provider renders) prevents collision with the consumer's global
-> `smallcaps`/`stat-figure`. Complete source palette to transcribe the chrome from
-> (`web/app/globals.css` `.longcount`):
->
-> ```
-> --color-paper: #ffffeb       --color-paper-deep: #eaf3ec   --color-ink: #16302e
-> --color-night: #044147       --color-night-soft: #0b5158   --color-rust: #007784
-> --color-rust-bright: #3fb6c9 --color-faint: #5e7167        --color-rule: #cfe3da
-> --color-rule-dark: #14565e   --color-gold: #64d09c         --color-slate: #0a82b2
-> --color-moss: #1e7b6a        --color-plum: #01384f
-> --font-serif: Georgia, "Times New Roman", "Source Serif 4", serif
-> --font-mono: ui-monospace, "SF Mono", "IBM Plex Mono", Menlo, monospace
-> ```
->
-> Note for Task 11: any component reading `var(--color-rust|night|slate|moss|plum|…)`
-> inline (beyond the five semantic tokens in the Task 11 rules table) must be repointed
-> to the matching `--lc-*` token above, or those vars won't resolve under `.lc-root`.
+- [ ] **Step 2: `packages/charts/tailwind.config.cjs`** — the generator config:
+  - `content: ["./src/**/*.{ts,tsx}"]` (self-contained — scans the package's own components, which arrive in Task 11; see the bootstrap note in Step 4).
+  - `important: ".lc-root"` — Tailwind's selector-important strategy emits every utility as `.lc-root .text-sm { … }`, scoping them under the provider's root and raising specificity so they win.
+  - `corePlugins: { preflight: false }` — do NOT emit Tailwind's global reset; it must never touch the consumer's page.
+  - `theme.extend.colors` — the GrowSF palette copied VERBATIM as hardcoded hex from `web/tailwind.config.js` (lines 103–116), so opacity modifiers (`bg-gold/10`, `text-paper/55`) compute off the hex and the output matches the site exactly:
+    ```
+    paper #FFFFEB · paper-deep #EAF3EC · ink #16302E · night #044147 · night-soft #0B5158
+    rust #007784 · rust-bright #3FB6C9 · faint #5E7167 · rule #CFE3DA · rule-dark #14565E
+    gold #64D09C · slate #0A82B2 · moss #1E7B6A · plum #01384F
+    ```
+  - Default Tailwind theme otherwise (the layout/typography utilities the components use — `text-sm/xs/lg`, `font-semibold`, `px-*`/`py-*`/`mt-*`/`gap-*`, `flex`, `border`, `shadow`, `text-[11px]`, `sm:*`, `hover:*` — are all stock).
 
-- [ ] **Step 2: Commit** (`git add packages/charts/src/charts.css && git commit -m "feat(charts): charts.css — web-matching chrome defaults under .lc-root"`).
+- [ ] **Step 3: `packages/charts/src/charts.src.css`** — the hand-authored input (everything that is NOT a generated utility), in this order:
+
+  **(a) Tokens.** Exact GrowSF values, pre-filled verbatim from `web/app/globals.css` `.longcount` (these ARE the live-site values):
+  ```css
+  .lc-root {
+    --lc-ink: #16302e; --lc-paper: #ffffeb; --lc-faint: #5e7167;
+    --lc-rule: #cfe3da; --lc-gold: #64d09c;
+    --lc-font-mono: ui-monospace, "SF Mono", "IBM Plex Mono", Menlo, monospace;
+    --lc-font-display: Georgia, "Times New Roman", "Source Serif 4", serif;
+    --lc-paper-deep: #eaf3ec; --lc-night: #044147; --lc-night-soft: #0b5158;
+    --lc-rust: #007784; --lc-rust-bright: #3fb6c9; --lc-rule-dark: #14565e;
+    --lc-slate: #0a82b2; --lc-moss: #1e7b6a; --lc-plum: #01384f;
+    color: var(--lc-ink); font-family: var(--lc-font-display);
+    -webkit-font-smoothing: antialiased;
+  }
+  ```
+  **(b) Scoped reset** (replaces the preflight bits the utilities depend on — without this, `border` utilities draw nothing because preflight is off):
+  ```css
+  .lc-root *, .lc-root *::before, .lc-root *::after {
+    box-sizing: border-box; border-width: 0; border-style: solid; border-color: currentColor;
+  }
+  ```
+  **(c) Chrome**, transcribed VERBATIM from `web/app/globals.css` `.longcount` (lines ~1080–1233), every selector rescoped `.longcount` → `.lc-root` and every `var(--color-X)` → `var(--lc-X)`: `.smallcaps` (`font-mono`, `.6875rem`, `.14em`, uppercase), `.stat-figure` (`font-mono`, tabular-nums), `.rule-double` (+`::after`), `.rangepair` and ALL its sub-rules (track=`--lc-rule`, fill/thumb=`--lc-rust`, thumb border=`--lc-paper`, ring=`--lc-rust`, focus outline=`--lc-ink`; both `-webkit-` and `-moz-` thumb rules), `.grain::before`, `.fade-up` + `@keyframes lcFadeUp`, `.lc-root ::selection` (bg `--lc-rust`, color `--lc-paper`), and `.lc-fullbleed` (the full-bleed breakout; it is already `lc-`prefixed — keep as-is, unscoped).
+  **(d)** `@tailwind utilities;` as the LAST line (only utilities — no `base`/`components`, since preflight is off and chrome is hand-written).
+
+  > Source palette table (web `.longcount`) for the transcription: `paper #ffffeb · paper-deep #eaf3ec · ink #16302e · night #044147 · night-soft #0b5158 · rust #007784 · rust-bright #3fb6c9 · faint #5e7167 · rule #cfe3da · rule-dark #14565e · gold #64d09c · slate #0a82b2 · moss #1e7b6a · plum #01384f`; `--font-serif → --lc-font-display`, `--font-mono → --lc-font-mono`.
+
+- [ ] **Step 4: Build script + generate.** Add to `packages/charts/package.json`: `"scripts": { "build:css": "tailwindcss -i ./src/charts.src.css -o ./src/charts.css --config ./tailwind.config.cjs" }` (no `--minify`, keep it diffable). Generate `src/charts.css`.
+  **Bootstrap note:** the components don't land in `./src` until Task 11, so a build at Task 9 against `./src` yields no utilities. For THIS task only, run a one-time bootstrap whose content also scans the verbatim source the components are copied from — `/Users/sbuss/workspace/web/content/research/2026-06-14-the-long-count/longcount/**/*.tsx` (e.g. a throwaway `tailwind.bootstrap.cjs` that spreads the committed config and adds that path; do NOT commit the bootstrap config). The committed `tailwind.config.cjs` keeps `content: ["./src/**/*.{ts,tsx}"]` so Task 11 regenerates self-contained. The class set is identical (components copied verbatim), so Task 11's regen must produce byte-identical `charts.css`.
+
+- [ ] **Step 5: Sanity-check `src/charts.css`** — no unprocessed `@tailwind` directives; no global `*{}` preflight outside `.lc-root`; contains the token block, the scoped reset, the chrome classes, and utilities scoped under `.lc-root` for the classes the components use. Spot-check presence of: `.lc-root .text-sm`, `.lc-root .font-semibold`, `.lc-root .text-faint`, `.lc-root .bg-gold\/10`, `.lc-root .border-ink`, `.lc-root .hover\:bg-gold:hover`, `.lc-root .sm\:w-40` (inside an `@media`).
+
+- [ ] **Step 6: Commit** `git add packages/charts/src/charts.src.css packages/charts/src/charts.css packages/charts/tailwind.config.cjs packages/charts/package.json pnpm-lock.yaml && git commit -m "feat(charts): charts.css — tokens + chrome + precompiled GrowSF utilities under .lc-root"`.
+
+> **Task 11 note:** components keep their Tailwind classNames unchanged. After moving them, re-run `pnpm --filter @long-count/charts build:css` and confirm `src/charts.css` is unchanged (identical class set); commit any delta. Components reading `var(--color-X)` inline (the recharts SVG props + a few chrome spots) get repointed to `theme.*` / `var(--lc-X)` per the Task 11 rules.
+> **Task 13 note:** the harness loads `charts.css` (utilities included) + the web fonts (Source Serif 4 / a mono face) so screenshots match.
 
 ---
 
@@ -579,6 +582,8 @@ cp /Users/sbuss/workspace/web/content/research/2026-06-14-the-long-count/longcou
 - [ ] **Step 3: Commit** (`git add packages/charts/src/lib && git commit -m "feat(charts): move url-state + context into the package"`).
 
 ### Task 11: The component theme-refactor — rules + worked example
+
+> **Styling note (Option A, from Task 9):** the components keep their **Tailwind utility classNames UNCHANGED** — `charts.css` precompiles those utilities under `.lc-root`, so the HTML chrome renders without Tailwind in the consumer. Do NOT rewrite `className` strings into semantic classes. The only style edits are the recharts color **values** (the rules table below): colors passed to SVG `stroke`/`fill` move from `var(--color-*)`/`KIND_COLOR` to `theme.*`, and any inline `var(--color-X)` becomes `var(--lc-X)`. After moving all components, re-run `pnpm --filter @long-count/charts build:css` and confirm `src/charts.css` is byte-unchanged (the class set is identical to the bootstrap); commit any delta with the components.
 
 Every chart component currently pulls colors/classes from the web's `data.ts`/CSS. Move each into `packages/charts/src/components/` and apply these **transformation rules** uniformly:
 
@@ -684,6 +689,8 @@ git add packages/charts && git commit -m "feat(charts): LongCount provider + pub
 ### Task 13: Vite preview harness
 
 **Files:** Create `packages/charts/preview/{index.html,main.tsx,Gallery.tsx,fonts.css}`, `packages/charts/vite.config.ts`.
+
+> **Notes:** (1) `src/index.ts` already does `import "./charts.css"`, so the harness picks up the precompiled-utility `charts.css` (Option A) automatically through the component imports — the chrome renders without Tailwind. `fonts.css` still must load the non-system faces the tokens name (**Source Serif 4** for `--lc-font-display`; a mono face such as **IBM Plex Mono** for `--lc-font-mono`) so screenshots match. (2) `pnpm-workspace.yaml` lists `packages/charts/preview` as a workspace member, so it needs its own `preview/package.json` (private; vite + @vitejs/plugin-react + react/react-dom devDeps) for `pnpm --filter` to target it; put `vite.config.ts` where the chosen run command expects it (alongside `preview/` or at the package root) and keep them consistent. Run `pnpm install` after adding the member.
 
 - [ ] **Step 1: `vite.config.ts`** (React plugin; resolves `@long-count/*` via the workspace).
 
