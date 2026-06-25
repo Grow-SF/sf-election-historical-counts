@@ -28,20 +28,29 @@ export default function FilterBar({
           {KINDS.map((k) => {
             const on = state.kinds.has(k);
             return (
-              <button
-                key={k}
-                onClick={() => toggleKind(k)}
-                aria-pressed={on}
-                title={KIND_DESC[k]}
-                className="smallcaps border px-2 py-1 transition-colors"
-                style={{
-                  borderColor: on ? KIND_COLOR[k] : "var(--color-rule)",
-                  background: on ? KIND_COLOR[k] : "transparent",
-                  color: on ? "var(--color-paper)" : "var(--color-faint)",
-                }}
-              >
-                {k}
-              </button>
+              <div key={k} className="group relative">
+                <button
+                  onClick={() => toggleKind(k)}
+                  aria-pressed={on}
+                  aria-describedby={`kind-tip-${k}`}
+                  className="smallcaps border px-2 py-1 transition-colors"
+                  style={{
+                    borderColor: on ? KIND_COLOR[k] : "var(--color-rule)",
+                    background: on ? KIND_COLOR[k] : "transparent",
+                    color: on ? "var(--color-paper)" : "var(--color-faint)",
+                  }}
+                >
+                  {k}
+                </button>
+                {/* styled tooltip describing the election type, on hover or keyboard focus */}
+                <span
+                  id={`kind-tip-${k}`}
+                  role="tooltip"
+                  className="pointer-events-none absolute left-1/2 top-full z-30 mt-1.5 hidden w-56 -translate-x-1/2 whitespace-normal border border-ink bg-paper px-2.5 py-1.5 text-xs normal-case leading-snug text-ink shadow group-hover:block group-focus-within:block"
+                >
+                  {KIND_DESC[k]}
+                </span>
+              </div>
             );
           })}
         </div>
