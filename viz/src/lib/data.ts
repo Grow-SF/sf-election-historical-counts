@@ -66,7 +66,7 @@ export type FunnelPoint = {
 };
 export const FRANCHISE_FUNNEL = franchiseFunnel as FunnelPoint[];
 
-export const KINDS = ["General", "Primary", "Municipal", "Special", "Recall"] as const;
+export const KINDS = ["General", "Midterm", "Primary", "Municipal", "Special", "Recall"] as const;
 export const THRESHOLDS = [50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 98, 99];
 
 export const YEAR_MIN = Math.min(
@@ -90,10 +90,20 @@ export type Filters = {
   to: number;
 };
 
+/**
+ * The chart/filter category for an election. "General" splits into presidential
+ * (year divisible by 4) and "Midterm" (the even off-years); every other kind
+ * passes through unchanged. One source of truth for the General/Midterm split,
+ * shared by the filter, the turnout chart, and the night-share chart.
+ */
+export function displayKind(kind: string, year: number): string {
+  return kind === "General" && year % 4 !== 0 ? "Midterm" : kind;
+}
+
 export function filterElections(f: Filters): Election[] {
   return ELECTIONS.filter(
     (e) =>
-      f.kinds.has(e.kind) &&
+      f.kinds.has(displayKind(e.kind, e.year)) &&
       e.year >= f.from &&
       e.year <= f.to,
   );
@@ -139,9 +149,11 @@ export function linearFit(pts: [number, number][]): Fit | null {
 export const fmt = (n: number) => n.toLocaleString("en-US");
 
 // Categorical palette: a GrowSF blue family for the regular election types
-// (bright → muted → navy), sea green for specials, and a light red for recalls.
+// (bright → muted → navy), a muted violet for the midterm generals split out of
+// General, sea green for specials, and a light red for recalls.
 export const KIND_COLOR: Record<string, string> = {
-  General: "#0A82B2", // bright primary blue
+  General: "#0A82B2", // bright primary blue (presidential-year generals)
+  Midterm: "#7E5AA8", // muted violet — the even off-year generals, split out
   Primary: "#EBAB5A", // yellow
   Municipal: "#01384F", // deep navy blue
   Special: "#1E7B6A", // sea green

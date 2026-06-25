@@ -16,16 +16,16 @@ const ERAS = [
     body: "When the ballot was short, the morning paper had it. San Francisco's small 19th-century electorate was counted in full overnight — 1868, 1875, and 1876 each essentially complete in the next day's paper — and Wilson's 1912 vote stood at 85% by breakfast, 600 of 638 precincts in and the box headed “COMPLETE.” It was erratic, though, never guaranteed: Taft's 1908 sat nearer 61%.",
   },
   {
-    years: "1914–1926",
+    years: "1914–1924",
     label: "slow",
     tone: "rust",
-    body: "The floor falls out. In 1914 the count proceeded, in the paper's own words, “with unprecedented slowness.” In 1916 — the closest presidential race in California history — the morning edition confessed that “virtually none of San Francisco's vote” was in hand. In 1918 the first completed precinct didn't reach the Registrar until after midnight, and the paper printed no city totals at all. Even the calmer years limped: 1920 at 66%, 1922 at 27%, 1924 at 36%, 1926 at 71%.",
+    body: "The floor falls out. In 1914 the count proceeded, in the paper's own words, “with unprecedented slowness.” In 1916 — the closest presidential race in California history — the morning edition confessed that “virtually none of San Francisco's vote” was in hand. In 1918 the first completed precinct didn't reach the Registrar until after midnight, and the paper printed no city totals at all. Even the calmer years limped: 1920 at 66%, 1922 at 27%, 1924 at 36%.",
   },
   {
-    years: "1928–1990s",
+    years: "1926–1990s",
     label: "fast again",
     tone: "moss",
-    body: "The city had its mornings back, and kept them for sixty years: Roosevelt's landslides counted overnight, the 1952 presidential vote a remarkable 99% complete by the next morning, and on through the punch-card decades the night routinely delivered 80–95%.",
+    body: "The city had its mornings back, and kept them for sixty years. The new lever voting machines — citywide by 1926 — tallied each precinct as the votes were cast, so Roosevelt's landslides counted overnight, the 1952 presidential vote was a remarkable 99% complete by the next morning, and on through the punch-card decades the night routinely delivered 80–95%.",
   },
   {
     years: "since ~2002",
@@ -124,19 +124,17 @@ export default function ErasPage() {
           nobody could call it early and go home. The bottleneck was the count.
         </p>
         <p>
-          The middle era fixed exactly that — but{" "}
-          <strong>not with machines</strong>. San Francisco hand-counted paper
-          ballots until punch cards arrived in the 1960s (California's Votomatic
-          system was patented in 1966), and the number of ballots each precinct
-          board had to tally didn't fall — precincts grew only in step with the
-          electorate (about 215 ballots per precinct in both 1916 and 1932). So
-          the fix wasn't mechanization and it wasn't smaller workloads. The
-          honest answer is that what exactly steadied the count by the late 1920s
-          isn't settled: contemporaries blamed the long Progressive-era ballot
-          for the slow years, and that flood did recede, but 1916 and 1932 had
-          comparably long ballots and counted very differently — so it's likely
-          some mix of that, routine procedure, and a run of less-contested
-          elections. What we can rule out is voting machines.
+          The middle era fixed exactly that — and it fixed it{" "}
+          <strong>with machines</strong>. Led by Registrar Harry Zemansky, San
+          Francisco bought mechanical lever voting machines: 52 ordered in 1923,
+          500 deployed by late 1925, and every one of the 600-plus precincts
+          converted by 1926. Because a lever machine tallies each vote as it is
+          cast, the count now happened in the polling place instead of at a
+          central tally board. Precincts on machines “were done with their tasks
+          immediately after the close of the polls,” the <em>Chronicle</em>{" "}
+          reported in 1925, while the paper-ballot precincts “required
+          considerable time” — and as soon as the machines replaced paper across
+          the city, San Franciscans got the result on election night.
         </p>
         <p>
           And the modern era is slow for a third, unrelated reason: the ballots
@@ -180,9 +178,9 @@ export default function ErasPage() {
           reads very differently against twenty years of context than against a
           hundred. The long view shows that a complete election night is not the
           natural state of things to which we should expect to return — it was
-          itself a development of the late 1920s, on hand-counted paper and not by
-          machines, and now undone by a change in how we vote rather than how we
-          count. The city has lived through a slow election night before. It got
+          itself a development of the late 1920s, when lever voting machines let
+          each precinct finish at the close of polls, and now undone by a change
+          in how we vote rather than how we count. The city has lived through a slow election night before. It got
           out of it once. That is either reassuring or not, depending on how you
           read it.
         </p>

@@ -8,7 +8,14 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { TURNOUT_HISTORY, KIND_COLOR, KINDS, fmt, yearTicks } from "@/lib/data";
+import {
+  TURNOUT_HISTORY,
+  KIND_COLOR,
+  KINDS,
+  displayKind,
+  fmt,
+  yearTicks,
+} from "@/lib/data";
 import { ChartFrame, eventLines } from "@/components/ui";
 
 type TPoint = {
@@ -20,22 +27,29 @@ type TPoint = {
   registered: number;
 };
 
-// Consecutive elections of the same type more than this many years apart get a
+// Consecutive elections of the same series more than this many years apart get a
 // null breakpoint between them, so the line doesn't bridge decades-long gaps
 // (e.g. the one special in 1903 to the next in 1977). The regular cadence of
-// generals/primaries/municipals is ≤4 years, so it stays connected.
+// generals/primaries/municipals is ≤4 years, so it stays connected — except the
+// Midterm line, which breaks across the missing 1958–1970 midterm turnout.
 const MAX_GAP_YEARS = 8;
 
-// One gap-aware series per election type, each with its own x-values.
+// One gap-aware series per display category. "General" splits into presidential
+// (year % 4 == 0, ~80–90% turnout) and "Midterm" (the even off-years, ~60–70%)
+// via displayKind: lumped together they make one line zigzag between the two
+// cadences, which hides that the smooth 1956–1972 stretch is presidential years
+// alone — the midterm turnout for 1958/62/66/70 is missing from the source.
 const SERIES: Record<string, TPoint[]> = {};
 for (const k of KINDS) {
-  const pts: TPoint[] = TURNOUT_HISTORY.filter((p) => p.kind === k)
+  const pts: TPoint[] = TURNOUT_HISTORY.filter(
+    (p) => displayKind(p.kind, Number(p.date.slice(0, 4))) === k,
+  )
     .map((p) => {
       const d = new Date(p.date + "T00:00:00");
       return {
         x: d.getFullYear() + d.getMonth() / 12,
         date: p.date,
-        kind: p.kind,
+        kind: k,
         turnoutPct: p.turnoutPct as number | null,
         ballots: p.ballots,
         registered: p.registered,
@@ -85,11 +99,21 @@ function TurnoutTooltip({
 
 // gold milestones, matching the mail chart: permanent VBM list (2002),
 // every-voter mailing (Nov 2020, AB 860), made permanent (2022, AB 37).
-export default function TurnoutChart({ from, to }: { from: number; to: number }) {
+export default function TurnoutChart({
+  from,
+  to,
+  kinds,
+}: {
+  from: number;
+  to: number;
+  kinds: Set<string>;
+}) {
+  // respect the filter bar: only plot the categories that are switched on
+  const shown = KINDS.filter((k) => kinds.has(k));
   const inRange = (p: TPoint) => p.x >= from && p.x <= to + 1;
   const visible: Record<string, TPoint[]> = {};
-  for (const k of KINDS) visible[k] = SERIES[k].filter(inRange);
-  const xs = KINDS.flatMap((k) =>
+  for (const k of shown) visible[k] = SERIES[k].filter(inRange);
+  const xs = shown.flatMap((k) =>
     visible[k].filter((p) => p.turnoutPct != null).map((p) => p.x),
   );
   const lo = xs.length ? Math.floor(Math.min(...xs)) : from;
@@ -98,7 +122,7 @@ export default function TurnoutChart({ from, to }: { from: number; to: number })
     <ChartFrame
       title="Turnout of registered voters"
       subtitle="Ballots cast ÷ registered, by election type, 1879–2026"
-      note="Color = election type; presidential generals top the range, off-year municipals the bottom. Lines break across multi-decade gaps between elections of a type. Sources: SF Municipal Reports Registrar table (1879–1890); DOE turnout table; certified per-release finals."
+      note="Color = election type; generals split into presidential years (General, ~80–90%) and the even off-years (Midterm, ~60–70%) — lumped together they zigzag between the two cadences. Lines break across multi-decade gaps; the Midterm line breaks over the missing 1958–1970 turnout. Use the filter to add or remove types. Sources: SF Municipal Reports Registrar table (1879–1890); DOE turnout table; certified per-release finals."
     >
       <ResponsiveContainer width="100%" height={400}>
         <ComposedChart margin={{ top: 24, right: 20, bottom: 8, left: 0 }}>
@@ -126,7 +150,7 @@ export default function TurnoutChart({ from, to }: { from: number; to: number })
           />
           <Tooltip content={<TurnoutTooltip />} isAnimationActive={false} />
           {eventLines(lo, hi)}
-          {KINDS.map((k) => (
+          {shown.map((k) => (
             <Line
               key={k}
               data={visible[k]}
@@ -141,7 +165,7 @@ export default function TurnoutChart({ from, to }: { from: number; to: number })
         </ComposedChart>
       </ResponsiveContainer>
       <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
-        {KINDS.map((k) => (
+        {shown.map((k) => (
           <span key={k} className="smallcaps inline-flex items-center gap-1.5 text-faint">
             <span
               className="inline-block h-2 w-3"

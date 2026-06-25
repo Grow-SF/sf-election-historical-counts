@@ -236,6 +236,19 @@ are unrecovered (the ledger's primary tier starts 1928).
 the county Statement of Vote: **1915-03, 1928-08, 1929-11, 1944-05, 1944-11, 1945-11**
 (see [`data/recovery_ledger_pre1965.md`](data/recovery_ledger_pre1965.md)).
 
+**Mid-century city gaps (1966–1984)** — in the index but no night count pulled yet;
+mostly primaries and odd-year municipals, plus three generals.
+- [ ] **Generals 1966-11, 1970-11, 1974-11** — pull the SF Chronicle election-night
+      "Final" box (the complete all-precinct citywide total) for each, as was done
+      for the recovered 1958 and 1962 generals.
+- [ ] **Primaries 1966, 1968, 1970, 1972, 1976, 1980, 1984** and **municipals 1967,
+      1969, 1971** — same election-night Chronicle sweep; plus specials **1977-08,
+      1980-08** and the **2008-04** primary.
+
+**Early-1900s city specials (1908–1922)** — index dates known, night counts
+uncaptured: **1908-05, 1908-11, 1909-12, 1912-03, 1913-04, 1921-03, 1922-11**, plus
+the **1909-11 general** and **1911-11 municipal**.
+
 - [x] **Built the `data/` master election table** (`elections_master.csv`) — the
       SFPL/DataSF index gave 1907+ (the [SFPL pamphlet index](https://sfpl.org/locations/main-library/government-information-center/san-francisco-government/san-francisco-1/san)
       only covers Nov 1907–present), and pre-1907 was reconstructed from the CA
@@ -255,6 +268,11 @@ the county Statement of Vote: **1915-03, 1928-08, 1929-11, 1944-05, 1944-11, 194
       precinct-only — appears to drop absentees) discrepancies with the Dept. of
       Elections for confirmation.
 - [ ] Send the drafted **1934** note (turnout 166,133 vs Governor 225,977) to the DOE.
+- [ ] **Midterm-general turnout 1958 · 1962 · 1966 · 1970** — the DOE 1899–2019
+      table skips these four off-presidential generals, so the turnout chart's
+      1956→1972 stretch rides the presidential years alone. 1958 and 1962 already
+      have night counts (recover just the turnout denominator from the SOV/Registrar);
+      1966 and 1970 need both (see *Mid-century city gaps* above).
 - [ ] Check back whether the published 1899–2019 turnout table changes.
 
 **SOV cross-check remaining** ([`data/sov_crosscheck_ledger.md`](data/sov_crosscheck_ledger.md))
