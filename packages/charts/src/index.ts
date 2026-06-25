@@ -1,6 +1,10 @@
+"use client";
 import "./charts.css";
 
 // The Long Count provider + the embeddable content wrappers it backs.
+// The whole public surface is client-only (hooks, context, recharts), so the
+// barrel carries the directive — otherwise a Server Component importing it pulls
+// theme.tsx's top-level createContext into the RSC graph, where it throws.
 export {
   default as LongCount,
   NightShare,
