@@ -18,4 +18,4 @@ export const VBM_HISTORY = vbmHistory as VbmPoint[];
 export const REGISTRATION_ELIGIBLE = registrationEligible as RegEligPoint[];
 export const FRANCHISE_FUNNEL = franchiseFunnel as FunnelPoint[];
 export const SOURCES = sources as Record<string, unknown>[];
-export const LEDGER = ledger as Record<string, unknown>[];
+export const LEDGER = ledger as unknown as Record<string, unknown>[];
