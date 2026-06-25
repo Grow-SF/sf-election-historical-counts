@@ -29,7 +29,7 @@ function Island({
   wide?: boolean;
 }) {
   return (
-    <div className="lc-fullbleed not-prose">
+    <div className="lc-root lc-fullbleed not-prose">
       {wide ? (
         children
       ) : (
@@ -50,15 +50,18 @@ export default function LongCount({
 }) {
   const [state, update] = useUrlState();
   const elections = useMemo(() => filterElections(ELECTIONS, state), [state]);
+  // NOTE: the `.lc-root` scope (which sets the chart font/color + the scoped CSS
+  // reset) lives on each chart Island and on the FilterBar — NOT on a wrapper
+  // around `children`. Wrapping the children would cascade the serif font, ink
+  // color, and border reset onto the consumer's surrounding prose (e.g. the
+  // article headings). The provider itself is context-only, no DOM scope.
   return (
-    <div className="lc-root">
-      <ChartsThemeProvider value={theme}>
-        <LongCountProvider value={{ state, update, elections, theme }}>
-          <FilterBar />
-          {children}
-        </LongCountProvider>
-      </ChartsThemeProvider>
-    </div>
+    <ChartsThemeProvider value={theme}>
+      <LongCountProvider value={{ state, update, elections, theme }}>
+        <FilterBar />
+        {children}
+      </LongCountProvider>
+    </ChartsThemeProvider>
   );
 }
 

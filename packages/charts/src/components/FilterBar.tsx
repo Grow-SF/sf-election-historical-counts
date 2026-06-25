@@ -18,7 +18,7 @@ export default function FilterBar() {
   };
 
   return (
-    <div className="longcount lc-fullbleed not-prose sticky top-0 z-20 border-b border-rule bg-white/90 backdrop-blur-sm">
+    <div className="lc-root lc-fullbleed not-prose sticky top-0 z-20 border-b border-rule bg-white/90 backdrop-blur-sm">
       <div className="mx-auto flex max-w-5xl flex-wrap items-center gap-x-5 gap-y-2 px-5 py-2.5">
         <span className="smallcaps text-faint">filter</span>
         <div className="flex flex-wrap gap-1.5">
