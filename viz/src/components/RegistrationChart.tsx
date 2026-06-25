@@ -9,7 +9,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { REGISTRATION_ELIGIBLE, FRANCHISE_FUNNEL, FRANCHISE_EVENTS, fmt, yearTicks } from "@/lib/data";
+import { REGISTRATION_ELIGIBLE, FRANCHISE_FUNNEL, FRANCHISE_EVENTS, EVENTS, fmt, yearTicks } from "@/lib/data";
 import { ChartFrame, eventLines } from "@/components/ui";
 
 const MODERN = REGISTRATION_ELIGIBLE.map((p) => {
@@ -82,7 +82,7 @@ export default function RegistrationChart({ from, to }: { from: number; to: numb
       <ResponsiveContainer width="100%" height={360}>
         <ComposedChart
           data={data}
-          margin={{ top: 24, right: 20, bottom: 8, left: 0 }}
+          margin={{ top: 40, right: 20, bottom: 8, left: 0 }}
         >
           <CartesianGrid stroke="var(--color-rule)" strokeDasharray="2 4" />
           {/* the pre-NVRA "deadwood" era: rolls bloated out of sync with
@@ -123,7 +123,8 @@ export default function RegistrationChart({ from, to }: { from: number; to: numb
             width={48}
           />
           <Tooltip content={<RegTooltip />} isAnimationActive={false} />
-          {eventLines(lo, hi, FRANCHISE_EVENTS)}
+          {eventLines(lo, hi, EVENTS)}
+          {eventLines(lo, hi, FRANCHISE_EVENTS, 20)}
           <Line
             dataKey="y"
             stroke="#056A92"
