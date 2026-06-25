@@ -6,7 +6,7 @@
 
 **Architecture:** Three layers. `packages/data` = the JSON the Python pipeline emits (committed) + TS types. `packages/charts` = the React components (extracted from the canonical web copy), styled through a `theme` object + a `charts.css` whose defaults are lifted from the website, plus a Vite dev/preview harness that doubles as the README-screenshot target. The repo root is the npm package `long-count` whose `exports` surface `long-count/data` and `long-count/charts`; the website git-deps it and compiles the chart source via Next `transpilePackages`.
 
-**Tech Stack:** pnpm workspaces, TypeScript, React 18 + recharts (peer deps), Vite (dev/preview harness), Vitest + @testing-library/react (tests), existing Python pipeline (`scripts/build_viz_data.py`), puppeteer-core (`scripts/shoot_charts.js`).
+**Tech Stack:** pnpm workspaces, TypeScript, React 18 + recharts (peer deps), Vite (dev/preview harness), Vitest + @testing-library/react (tests), existing Python pipeline (`scripts/build_viz_data.py`), puppeteer-core (`scripts/shoot_charts.cjs`).
 
 **Source of truth for the components:** the **web** copy at `/Users/sbuss/workspace/web/content/research/2026-06-14-the-long-count/longcount/` (it carries the latest fixes). The `viz/src/components/*` copies are stale duplicates and are discarded, not moved.
 
@@ -51,7 +51,7 @@ packages/
       index.html  main.tsx  Gallery.tsx  fonts.css   # CREATE — Vite dev/preview harness
     vite.config.ts                # CREATE
 scripts/build_viz_data.py         # MODIFY — OUT path → packages/data/elections.json (+ siblings)
-scripts/shoot_charts.js           # MODIFY — SITE_URL default → the harness; titles unchanged
+scripts/shoot_charts.cjs           # MODIFY — SITE_URL default → the harness; titles unchanged
 docs/sources.md                   # CREATE — generated from packages/data/sources.json
 docs/missing.md                   # CREATE — generated from the ledger + elections_master
 viz/                              # DELETE (last)
@@ -734,9 +734,9 @@ git commit -m "feat(charts): vite dev/preview harness rendering the default-them
 
 ### Task 14: Retarget the screenshot script + regenerate README images
 
-**Files:** Modify `scripts/shoot_charts.js`.
+**Files:** Modify `scripts/shoot_charts.cjs`.
 
-- [ ] **Step 1: Point the shoot script at the harness** — in `scripts/shoot_charts.js`, change the default URL (line ~8):
+- [ ] **Step 1: Point the shoot script at the harness** — in `scripts/shoot_charts.cjs`, change the default URL (line ~8):
 
 ```js
 const URL = process.env.SITE_URL || "http://localhost:4317/";
@@ -750,7 +750,7 @@ The `TARGETS` map keys on `<h3>` titles and is unchanged. (Confirm the harness r
 cd /Users/sbuss/workspace/sf-election-count
 pnpm --filter ./packages/charts/preview exec vite &   # serve the harness
 export PATH="/Users/sbuss/.nvm/versions/node/v22.21.1/bin:$PATH"
-NODE_PATH=viz/node_modules SITE_URL=http://localhost:4317/ node scripts/shoot_charts.js
+NODE_PATH=viz/node_modules SITE_URL=http://localhost:4317/ node scripts/shoot_charts.cjs
 ```
 
 > `puppeteer-core` currently resolves from `viz/node_modules`. Before deleting `viz/` (Task 20), move puppeteer-core into the root devDeps and drop `NODE_PATH`.
@@ -758,7 +758,7 @@ NODE_PATH=viz/node_modules SITE_URL=http://localhost:4317/ node scripts/shoot_ch
 - [ ] **Step 3: Visually verify** the regenerated `docs/img/{turnout,night-share,vote-by-mail,franchise-funnel}.png` match the prior committed versions (same look as the live site). Commit if they are faithful.
 
 ```bash
-git add docs/img scripts/shoot_charts.js
+git add docs/img scripts/shoot_charts.cjs
 git commit -m "build: shoot README charts from the package preview harness"
 ```
 
