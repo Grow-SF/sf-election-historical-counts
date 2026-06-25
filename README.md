@@ -62,7 +62,8 @@ thin at mid-century, widening again after 1965.
 
 *Static snapshots — explore all of it interactively, filtered and zoomable, in
 the site under [`viz/`](viz/). (Regenerate these images with
-`node scripts/shoot_charts.js` against a running dev server.)*
+`node scripts/shoot_charts.cjs` against the running charts preview harness —
+`pnpm --filter @long-count/preview exec vite`.)*
 
 ---
 
