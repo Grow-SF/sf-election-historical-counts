@@ -85,7 +85,7 @@ export function Vbm() {
   const { state } = useLongCount();
   return (
     <Island>
-      <FilterBar />
+      <FilterBar showKinds={false} />
       <VbmChart from={state.from} to={state.to} />
     </Island>
   );
@@ -105,7 +105,7 @@ export function Registration() {
   const { state } = useLongCount();
   return (
     <Island>
-      <FilterBar />
+      <FilterBar showKinds={false} />
       <RegistrationChart from={state.from} to={state.to} />
     </Island>
   );
@@ -115,7 +115,7 @@ export function FranchiseFunnel() {
   const { state } = useLongCount();
   return (
     <Island>
-      <FilterBar />
+      <FilterBar showKinds={false} />
       <FranchiseFunnelChart from={state.from} to={state.to} />
     </Island>
   );

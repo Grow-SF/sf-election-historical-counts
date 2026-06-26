@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import { test, expect } from "vitest";
-import LongCount, { Turnout, Vbm } from "./LongCount";
+import LongCount, { Turnout, Vbm, NightShare } from "./LongCount";
 
 test("LongCount provider supplies scope, theme, and context end to end", () => {
   const { container } = render(
@@ -24,15 +24,15 @@ test("LongCount provider supplies scope, theme, and context end to end", () => {
   expect(screen.getByText("Turnout of registered voters")).toBeInTheDocument();
 });
 
-test("each chart carries its own FilterBar, all sharing one state", () => {
+test("kind charts each carry the full filter and share one state", () => {
   render(
     <LongCount>
+      <NightShare />
       <Turnout />
-      <Vbm />
     </LongCount>,
   );
 
-  // one FilterBar per chart → one "Special" chip per chart
+  // one FilterBar per kind chart → one "Special" chip per chart
   const special = screen.getAllByRole("button", { name: "Special" });
   expect(special).toHaveLength(2);
   // "Special" is off by default on both
@@ -45,4 +45,18 @@ test("each chart carries its own FilterBar, all sharing one state", () => {
   screen
     .getAllByRole("button", { name: "Special" })
     .forEach((b) => expect(b).toHaveAttribute("aria-pressed", "true"));
+});
+
+test("year-only charts show just the year slider — no kind chips", () => {
+  render(
+    <LongCount>
+      <Vbm />
+    </LongCount>,
+  );
+
+  // a single-series, year-only chart hides the kind chips…
+  expect(screen.queryByRole("button", { name: "General" })).toBeNull();
+  expect(screen.queryByRole("button", { name: "Special" })).toBeNull();
+  // …but still shows the year-range control (shared with the other charts)
+  expect(screen.getByText("years")).toBeInTheDocument();
 });
