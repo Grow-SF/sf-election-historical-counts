@@ -14,7 +14,7 @@ import { FRANCHISE_FUNNEL } from "../../../data/index";
 import { FRANCHISE_EVENTS, EVENTS, yearTicks } from "../lib/events";
 import { fmt } from "../lib/format";
 import { useChartTheme } from "../theme";
-import { ChartFrame, eventLines } from "./ui";
+import { ChartFrame, eventLines, noDataGuides } from "./ui";
 
 // Mutually-exclusive bands that sum to total population, bottom (voted) to top
 // (children). The thickness of each band over time is the story. Muted GrowSF
@@ -57,6 +57,10 @@ const DATA: Row[] = FRANCHISE_FUNNEL.map((p) => ({
   eligible: p.eligible,
   registered: p.registered,
 }));
+
+// the data's extent — the franchise funnel runs ~1908–2024
+const COVER_MIN = Math.min(...DATA.map((r) => r.year));
+const COVER_MAX = Math.max(...DATA.map((r) => r.year));
 
 function FunnelTooltip({
   active,
@@ -106,9 +110,6 @@ export default function FranchiseFunnelChart({
   // eligible population
   const [eligibleOnly, setEligibleOnly] = useState(false);
   const data = DATA.filter((r) => r.year >= from && r.year <= to);
-  const ys = data.map((r) => r.year);
-  const lo = ys.length ? Math.min(...ys) : from;
-  const hi = ys.length ? Math.max(...ys) : to;
   const shownBands =
     mode === "share" && eligibleOnly
       ? BANDS.filter((b) => b.key !== "children" && b.key !== "nonCitizen")
@@ -160,11 +161,12 @@ export default function FranchiseFunnelChart({
           margin={{ top: 40, right: 20, bottom: 8, left: 8 }}
         >
           <CartesianGrid stroke={theme.rule} strokeDasharray="2 4" />
+          {noDataGuides(from, to, COVER_MIN, COVER_MAX, theme.faint)}
           <XAxis
             dataKey="year"
             type="number"
-            domain={[lo - 2, hi + 2]}
-            ticks={yearTicks(lo, hi)}
+            domain={[from, to]}
+            ticks={yearTicks(from, to)}
             tickFormatter={(v: number) => String(v)}
             tick={{
               fontFamily: theme.fontMono,
@@ -196,8 +198,8 @@ export default function FranchiseFunnelChart({
           <Tooltip content={<FunnelTooltip />} isAnimationActive={false} />
           {/* voting-era boundaries on the lower label row, franchise milestones
               on a higher row so the two label sets don't collide */}
-          {eventLines(lo, hi, theme.gold, theme.faint, EVENTS)}
-          {eventLines(lo, hi, theme.gold, theme.faint, FRANCHISE_EVENTS, 20)}
+          {eventLines(from, to, theme.gold, theme.faint, EVENTS)}
+          {eventLines(from, to, theme.gold, theme.faint, FRANCHISE_EVENTS, 20)}
           {shownBands.map((b) => (
             <Area
               key={b.key}

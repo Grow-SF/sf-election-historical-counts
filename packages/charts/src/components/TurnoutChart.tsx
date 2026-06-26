@@ -13,7 +13,7 @@ import { KINDS, displayKind } from "../lib/categories";
 import { fmt } from "../lib/format";
 import { yearTicks } from "../lib/events";
 import { useChartTheme } from "../theme";
-import { ChartFrame, eventLines } from "./ui";
+import { ChartFrame, eventLines, noDataGuides } from "./ui";
 
 type TPoint = {
   x: number;
@@ -30,6 +30,14 @@ type TPoint = {
 // generals/primaries/municipals is ≤4 years, so it stays connected — except the
 // Midterm line, which breaks across the missing 1958–1970 midterm turnout.
 const MAX_GAP_YEARS = 8;
+
+// the data's extent — turnout history reaches back to 1879
+const COVER_MIN = Math.floor(
+  Math.min(...TURNOUT_HISTORY.map((p) => Number(p.date.slice(0, 4)))),
+);
+const COVER_MAX = Math.ceil(
+  Math.max(...TURNOUT_HISTORY.map((p) => Number(p.date.slice(0, 4)))),
+);
 
 // One gap-aware series per display category. "General" splits into presidential
 // (year % 4 == 0, ~80–90% turnout) and "Midterm" (the even off-years, ~60–70%)
@@ -114,11 +122,6 @@ export default function TurnoutChart({
   const inRange = (p: TPoint) => p.x >= from && p.x <= to + 1;
   const visible: Record<string, TPoint[]> = {};
   for (const k of shown) visible[k] = SERIES[k].filter(inRange);
-  const xs = shown.flatMap((k) =>
-    visible[k].filter((p) => p.turnoutPct != null).map((p) => p.x),
-  );
-  const lo = xs.length ? Math.floor(Math.min(...xs)) : from;
-  const hi = xs.length ? Math.ceil(Math.max(...xs)) : to;
   return (
     <ChartFrame
       title="Turnout of registered voters"
@@ -128,11 +131,12 @@ export default function TurnoutChart({
       <ResponsiveContainer width="100%" height={400}>
         <ComposedChart margin={{ top: 24, right: 20, bottom: 8, left: 0 }}>
           <CartesianGrid stroke={theme.rule} strokeDasharray="2 4" />
+          {noDataGuides(from, to, COVER_MIN, COVER_MAX, theme.faint)}
           <XAxis
             type="number"
             dataKey="x"
-            domain={[lo, hi]}
-            ticks={yearTicks(lo, hi)}
+            domain={[from, to]}
+            ticks={yearTicks(from, to)}
             tickFormatter={(v: number) => String(v)}
             tick={{
               fontFamily: theme.fontMono,
@@ -158,7 +162,7 @@ export default function TurnoutChart({
             width={48}
           />
           <Tooltip content={<TurnoutTooltip />} isAnimationActive={false} />
-          {eventLines(lo, hi, theme.gold, theme.faint)}
+          {eventLines(from, to, theme.gold, theme.faint)}
           {shown.map((k) => (
             <Line
               key={k}

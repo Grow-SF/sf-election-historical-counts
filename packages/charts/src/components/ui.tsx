@@ -1,6 +1,6 @@
 "use client";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { ReferenceLine } from "recharts";
+import { ReferenceArea, ReferenceLine } from "recharts";
 import { EVENTS } from "../lib/events";
 import { Fit } from "../lib/fit";
 
@@ -40,6 +40,41 @@ export function eventLines(
         }}
       />
     ));
+}
+
+/**
+ * Faint shading (with a "no data" label on wide bands) over the part(s) of the
+ * selected [from, to] year range that the chart's data doesn't cover. Pair it
+ * with an x-axis whose domain IS [from, to], so dragging the year slider past
+ * the data reads as "no data here" rather than a frozen/broken chart.
+ * Use as a chart child: {noDataGuides(from, to, COVER_MIN, COVER_MAX, theme.faint)}
+ */
+export function noDataGuides(
+  from: number,
+  to: number,
+  dataMin: number,
+  dataMax: number,
+  faint: string,
+) {
+  const band = (key: string, x1: number, x2: number) => (
+    <ReferenceArea
+      key={key}
+      x1={x1}
+      x2={x2}
+      fill={faint}
+      fillOpacity={0.08}
+      stroke="none"
+      label={
+        x2 - x1 >= 8
+          ? { value: "no data", position: "center", fontSize: 10, fill: faint }
+          : undefined
+      }
+    />
+  );
+  return [
+    from < dataMin ? band("pre", from, dataMin) : null,
+    to > dataMax ? band("post", dataMax, to) : null,
+  ];
 }
 
 /**

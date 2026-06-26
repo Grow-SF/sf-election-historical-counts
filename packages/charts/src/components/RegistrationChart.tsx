@@ -13,7 +13,7 @@ import { REGISTRATION_ELIGIBLE, FRANCHISE_FUNNEL } from "../../../data/index";
 import { FRANCHISE_EVENTS, EVENTS, yearTicks } from "../lib/events";
 import { fmt } from "../lib/format";
 import { useChartTheme } from "../theme";
-import { ChartFrame, eventLines } from "./ui";
+import { ChartFrame, eventLines, noDataGuides } from "./ui";
 
 const MODERN = REGISTRATION_ELIGIBLE.map((p) => {
   const d = new Date(p.date + "T00:00:00");
@@ -46,6 +46,10 @@ const EARLY = FRANCHISE_FUNNEL.filter(
 }));
 
 const DATA = [...EARLY, ...MODERN];
+
+// the data's extent — registration history reaches back to 1908 (census-derived)
+const COVER_MIN = Math.floor(Math.min(...DATA.map((p) => p.x)));
+const COVER_MAX = Math.ceil(Math.max(...DATA.map((p) => p.x)));
 
 type Pt = (typeof DATA)[number];
 
@@ -80,9 +84,6 @@ export default function RegistrationChart({
 }) {
   const theme = useChartTheme();
   const data = DATA.filter((p) => p.x >= from && p.x <= to + 1);
-  const xs = data.map((p) => p.x);
-  const lo = xs.length ? Math.floor(Math.min(...xs)) : from;
-  const hi = xs.length ? Math.ceil(Math.max(...xs)) : to;
   return (
     <ChartFrame
       title="Registration among eligible citizens"
@@ -95,6 +96,7 @@ export default function RegistrationChart({
           margin={{ top: 40, right: 20, bottom: 8, left: 0 }}
         >
           <CartesianGrid stroke={theme.rule} strokeDasharray="2 4" />
+          {noDataGuides(from, to, COVER_MIN, COVER_MAX, theme.faint)}
           {/* the pre-NVRA "deadwood" era: rolls bloated out of sync with
               eligible, registration brushing/exceeding 100% until the 1995
               motor-voter cleanups */}
@@ -114,8 +116,8 @@ export default function RegistrationChart({
           <XAxis
             type="number"
             dataKey="x"
-            domain={[lo, hi]}
-            ticks={yearTicks(lo, hi)}
+            domain={[from, to]}
+            ticks={yearTicks(from, to)}
             tickFormatter={(v: number) => String(v)}
             tick={{
               fontFamily: theme.fontMono,
@@ -143,8 +145,8 @@ export default function RegistrationChart({
           <Tooltip content={<RegTooltip />} isAnimationActive={false} />
           {/* voting-era boundaries on the lower label row, franchise milestones
               on a higher row so the two label sets don't collide */}
-          {eventLines(lo, hi, theme.gold, theme.faint, EVENTS)}
-          {eventLines(lo, hi, theme.gold, theme.faint, FRANCHISE_EVENTS, 20)}
+          {eventLines(from, to, theme.gold, theme.faint, EVENTS)}
+          {eventLines(from, to, theme.gold, theme.faint, FRANCHISE_EVENTS, 20)}
           <Line
             dataKey="y"
             stroke="#056A92"
