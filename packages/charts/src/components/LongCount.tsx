@@ -39,8 +39,10 @@ function Island({
   );
 }
 
-/** Provider: owns the URL/filter state and renders the sticky FilterBar; the
- *  MDX prose and chart islands are its children. */
+/** Provider: owns the shared URL/filter state. Each chart renders its own
+ *  FilterBar above it — all reading this single state, so they stay in sync —
+ *  rather than one bar pinned to the top. The provider itself is context-only;
+ *  the MDX prose and chart islands are its children. */
 export default function LongCount({
   children,
   theme = defaultTheme,
@@ -50,15 +52,14 @@ export default function LongCount({
 }) {
   const [state, update] = useUrlState();
   const elections = useMemo(() => filterElections(ELECTIONS, state), [state]);
-  // NOTE: the `.lc-root` scope (which sets the chart font/color + the scoped CSS
-  // reset) lives on each chart Island and on the FilterBar — NOT on a wrapper
-  // around `children`. Wrapping the children would cascade the serif font, ink
-  // color, and border reset onto the consumer's surrounding prose (e.g. the
+  // NOTE: the `.lc-root` scope (chart font/color + the scoped CSS reset) lives on
+  // each chart Island (which now also contains that chart's FilterBar) — NOT on a
+  // wrapper around `children`. Wrapping the children would cascade the serif font,
+  // ink color, and border reset onto the consumer's surrounding prose (e.g. the
   // article headings). The provider itself is context-only, no DOM scope.
   return (
     <ChartsThemeProvider value={theme}>
       <LongCountProvider value={{ state, update, elections, theme }}>
-        <FilterBar />
         {children}
       </LongCountProvider>
     </ChartsThemeProvider>
@@ -69,6 +70,7 @@ export function NightShare() {
   const { elections, state } = useLongCount();
   return (
     <Island>
+      <FilterBar />
       <NightShareChart
         elections={elections}
         from={state.from}
@@ -83,6 +85,7 @@ export function Vbm() {
   const { state } = useLongCount();
   return (
     <Island>
+      <FilterBar />
       <VbmChart from={state.from} to={state.to} />
     </Island>
   );
@@ -92,6 +95,7 @@ export function Turnout() {
   const { state } = useLongCount();
   return (
     <Island>
+      <FilterBar />
       <TurnoutChart from={state.from} to={state.to} kinds={state.kinds} />
     </Island>
   );
@@ -101,6 +105,7 @@ export function Registration() {
   const { state } = useLongCount();
   return (
     <Island>
+      <FilterBar />
       <RegistrationChart from={state.from} to={state.to} />
     </Island>
   );
@@ -110,6 +115,7 @@ export function FranchiseFunnel() {
   const { state } = useLongCount();
   return (
     <Island>
+      <FilterBar />
       <FranchiseFunnelChart from={state.from} to={state.to} />
     </Island>
   );
