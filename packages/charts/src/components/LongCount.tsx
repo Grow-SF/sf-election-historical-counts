@@ -82,11 +82,11 @@ export function NightShare() {
 }
 
 export function Vbm() {
-  const { state } = useLongCount();
+  // The vote-by-mail series is short and self-contained (1964–present), so it's
+  // shown at its full range with no year filter.
   return (
     <Island>
-      <FilterBar showKinds={false} />
-      <VbmChart from={state.from} to={state.to} />
+      <VbmChart />
     </Island>
   );
 }

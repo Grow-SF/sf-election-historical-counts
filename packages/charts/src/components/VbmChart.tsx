@@ -62,7 +62,15 @@ function VbmTooltip({
   );
 }
 
-export default function VbmChart({ from, to }: { from: number; to: number }) {
+export default function VbmChart({
+  // the vote-by-mail series has no year filter — it is shown at its own full
+  // data extent, so these default to the full coverage
+  from = COVER_MIN,
+  to = COVER_MAX,
+}: {
+  from?: number;
+  to?: number;
+} = {}) {
   const theme = useChartTheme();
   // The x-axis spans the SELECTED [from, to] range so dragging the slider always
   // responds; the line draws only where data exists, and noDataGuides shades the
