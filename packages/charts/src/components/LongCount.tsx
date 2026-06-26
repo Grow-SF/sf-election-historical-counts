@@ -8,6 +8,7 @@ import FilterBar from "./FilterBar";
 import NightShareChart from "./NightShareChart";
 import TrajectoryExplorer from "./TrajectoryExplorer";
 import VbmChart from "./VbmChart";
+import CountySpeedChart from "./CountySpeedChart";
 import TurnoutChart from "./TurnoutChart";
 import RegistrationChart from "./RegistrationChart";
 import FranchiseFunnelChart from "./FranchiseFunnelChart";
@@ -87,6 +88,16 @@ export function Vbm() {
   return (
     <Island>
       <VbmChart />
+    </Island>
+  );
+}
+
+export function CountySpeed() {
+  // A cross-county comparison — California's other big counties, not the SF
+  // time series — so it carries no year filter, like Vbm.
+  return (
+    <Island>
+      <CountySpeedChart />
     </Island>
   );
 }

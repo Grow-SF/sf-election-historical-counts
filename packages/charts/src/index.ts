@@ -9,6 +9,7 @@ export {
   default as LongCount,
   NightShare,
   Vbm,
+  CountySpeed,
   Turnout,
   Registration,
   FranchiseFunnel,
@@ -25,6 +26,7 @@ export type { ChartsTheme } from "./theme";
 export { default as NightShareChart } from "./components/NightShareChart";
 export { default as TurnoutChart } from "./components/TurnoutChart";
 export { default as VbmChart } from "./components/VbmChart";
+export { default as CountySpeedChart } from "./components/CountySpeedChart";
 export { default as RegistrationChart } from "./components/RegistrationChart";
 export { default as FranchiseFunnelChart } from "./components/FranchiseFunnelChart";
 export { default as TrajectoryExplorer } from "./components/TrajectoryExplorer";
