@@ -1,0 +1,11 @@
+{
+  "metric": "Share of ballots counted within one week of Election Day",
+  "source": "California Voter Foundation, “Ballot Processing”",
+  "sourceUrl": "https://calvoter.org/content/ballot-processing",
+  "years": [2022, 2024, 2025],
+  "counties": [
+    { "county": "Los Angeles",       "epollbook": true,  "rates": { "2022": 77.0, "2024": 96.9, "2025": 98.5 } },
+    { "county": "San Francisco",      "epollbook": false, "rates": { "2022": 94.1, "2024": 94.3, "2025": 90.0 } },
+    { "county": "California average",  "epollbook": null,  "rates": { "2022": 77.7, "2024": 86.1, "2025": 93.9 } }
+  ]
+}

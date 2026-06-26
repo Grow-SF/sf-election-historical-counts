@@ -2,6 +2,7 @@ import {
   LongCount,
   NightShare,
   Vbm,
+  CountySpeed,
   Turnout,
   Registration,
   FranchiseFunnel,
@@ -12,6 +13,7 @@ export default function Gallery() {
     <LongCount>
       <NightShare />
       <Vbm />
+      <CountySpeed />
       <Turnout />
       <Registration />
       <FranchiseFunnel />

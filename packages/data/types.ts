@@ -51,3 +51,20 @@ export type FunnelPoint = {
   registered: number;
   voted: number;
 };
+
+// California county counting-speed comparison (vote-by-mail era).
+export type CountySpeedRow = {
+  county: string;
+  // true = adopted electronic pollbooks; false = has not; null = statewide aggregate
+  epollbook: boolean | null;
+  // year (as a string key) -> % of ballots counted within one week of Election Day
+  rates: Record<string, number>;
+};
+
+export type CountySpeed = {
+  metric: string;
+  source: string;
+  sourceUrl: string;
+  years: number[];
+  counties: CountySpeedRow[];
+};
