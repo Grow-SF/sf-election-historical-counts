@@ -212,7 +212,7 @@
  {
   "id": "2026-06-02",
   "name": "Consolidated Statewide Direct Primary Election",
-  "final": 271439,
+  "final": 271520,
   "finalSource": "SF Dept. of Elections certified results",
   "observations": [
    {
@@ -267,7 +267,7 @@
     "total": 264151,
     "pct": 97.3,
     "label": "SF Dept. of Elections results release",
-    "citation": "per-release summary report, reported 2026-06-10T15:58:00 - https://www.sfelections.org/results/20260602/data/20260610/summary.xml (validated against certified totals)"
+    "citation": "per-release summary report, reported 2026-06-10T15:58:40 - https://www.sfelections.org/results/20260602/data/20260610/summary.xml (validated against certified totals)"
    },
    {
     "date": "2026-06-11",
@@ -276,7 +276,7 @@
     "total": 269836,
     "pct": 99.4,
     "label": "SF Dept. of Elections results release",
-    "citation": "per-release summary report, reported 2026-06-11T15:58:00 - https://www.sfelections.org/results/20260602/data/20260611/summary.xml (validated against certified totals)"
+    "citation": "per-release summary report, reported 2026-06-11T15:58:30 - https://www.sfelections.org/results/20260602/data/20260611/summary.xml (validated against certified totals)"
    },
    {
     "date": "2026-06-12",
@@ -285,7 +285,7 @@
     "total": 271165,
     "pct": 99.9,
     "label": "SF Dept. of Elections results release",
-    "citation": "per-release summary report, reported 2026-06-12T15:58:00 - https://www.sfelections.org/results/20260602/data/20260612/summary.xml (validated against certified totals)"
+    "citation": "per-release summary report, reported 2026-06-12T15:58:28 - https://www.sfelections.org/results/20260602/data/20260612/summary.xml (validated against certified totals)"
    },
    {
     "date": "2026-06-17",
@@ -294,7 +294,16 @@
     "total": 271439,
     "pct": 100.0,
     "label": "SF Dept. of Elections results release",
-    "citation": "per-release summary report, reported 2026-06-17T16:00:00 - https://www.sfelections.org/results/20260602/data/20260617/summary.xml (validated against certified totals)"
+    "citation": "per-release summary report, reported 2026-06-17T15:58:42 - https://www.sfelections.org/results/20260602/data/20260617/summary.xml (validated against certified totals)"
+   },
+   {
+    "date": "2026-06-25",
+    "days": 23,
+    "night": false,
+    "total": 271520,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, reported 2026-06-25T16:09:10 - https://www.sfelections.org/results/20260602/data/20260625/summary.xml (validated against certified totals)"
    }
   ]
  },
