@@ -2,7 +2,7 @@
 
 # Data sources
 
-Every number in the Long Count dataset traces to a primary source. This file documents all 279 source records — what was consulted, what it established, and where to find it.
+Every number in the Long Count dataset traces to a primary source. This file documents all 280 source records — what was consulted, what it established, and where to find it.
 
 These records were previously displayed on the `/sources` page of the viz app. They now live here as a stable, version-controlled reference in the data repository.
 
@@ -305,6 +305,16 @@ population 434,865; voting-age 214,006; eligible citizens 167,227; registered 13
 population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75,467; voted 60,124
 
 **Source:** IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above
+
+---
+
+### California county counting speed (CountySpeed chart)
+
+**ID:** `county-speed`
+
+Share of ballots counted within one week of Election Day — Los Angeles, San Francisco, California average; 2022/2024/2025.
+
+**Source:** California Voter Foundation, “Ballot Processing” — https://calvoter.org/content/ballot-processing
 
 ---
 

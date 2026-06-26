@@ -604,6 +604,17 @@ def main():
                         f"voted {fr['voted']:,}"),
             "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
             "observations": []})
+    # (d) CountySpeed chart: California county counting-speed comparison — an
+    #     external dataset (not SF count data), so cite it here too.
+    cs = json.loads((OUT.parent / "county_speed.json").read_text())
+    counties = ", ".join(c["county"] for c in cs["counties"])
+    years = "/".join(str(y) for y in cs["years"])
+    sources.append({
+        "id": "county-speed",
+        "name": "California county counting speed (CountySpeed chart)",
+        "summary": f"{cs['metric']} — {counties}; {years}.",
+        "finalSource": f"{cs['source']} — {cs['sourceUrl']}",
+        "observations": []})
     sources.sort(key=lambda s: s["id"], reverse=True)
     (OUT.parent / "sources.json").write_text(json.dumps(sources, indent=1))
     print(f"{len(sources)} source records -> sources.json")
