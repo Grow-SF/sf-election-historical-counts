@@ -7,6 +7,7 @@ from pathlib import Path
 # against the DOE results pages (the archive dataset mistakenly carried the
 # Democratic-party block for those elections).
 CERTIFIED_FINALS = {
+    "2026-06-02": 271520,  # 50.89% of 533,546 — DOE Final Summary Report, June 25, 2026
     "2024-11-05": 412231,
     "2024-03-05": 233465,  # 46.61% of 500,856
     "2020-03-03": 305184,  # 60.56% of 503,899

@@ -13733,11 +13733,11 @@
   "name": "Consolidated Statewide Direct Primary Election",
   "kind": "Primary",
   "year": 2026,
-  "final": 271439,
+  "final": 271520,
   "registered": 533546,
   "source": "exact",
   "provisional": false,
-  "nReports": 12,
+  "nReports": 13,
   "nightPct": 46.1,
   "vbmShare": 88.6,
   "pts": [
@@ -13768,7 +13768,7 @@
    [
     1.83,
     51.7,
-    42.8,
+    42.7,
     8.9
    ],
    [
@@ -13798,7 +13798,7 @@
    [
     8.83,
     99.4,
-    88.5,
+    88.4,
     10.9
    ],
    [
@@ -13809,6 +13809,12 @@
    ],
    [
     14.83,
+    100.0,
+    88.6,
+    11.4
+   ],
+   [
+    22.84,
     100.0,
     88.6,
     11.4
@@ -13828,7 +13834,7 @@
     "bound": false
    },
    "65": {
-    "days": 3,
+    "days": 6,
     "bound": false
    },
    "70": {

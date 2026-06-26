@@ -34,7 +34,9 @@ def test_certified_finals():
     bad = [row(total="412230")]
     assert len(check_certified(bad)) == 1
     # elections we have no certified number for are not checked
-    assert check_certified([row(edate="2026-06-02", total="5")]) == []
+    # (synthetic sentinel date — never a real election, so it stays out of
+    # CERTIFIED_FINALS even as more elections are certified)
+    assert check_certified([row(edate="1900-01-01", total="5")]) == []
 
 
 def test_certified_elections_must_be_present_when_required():
