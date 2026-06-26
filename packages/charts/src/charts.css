@@ -230,16 +230,8 @@
   position: relative;
 }
 
-.lc-root .sticky {
-  position: sticky;
-}
-
 .lc-root .left-1\/2 {
   left: 50%;
-}
-
-.lc-root .top-0 {
-  top: 0px;
 }
 
 .lc-root .top-full {
@@ -248,10 +240,6 @@
 
 .lc-root .z-10 {
   z-index: 10;
-}
-
-.lc-root .z-20 {
-  z-index: 20;
 }
 
 .lc-root .z-30 {
@@ -555,10 +543,6 @@
   background-color: rgb(234 243 236 / 0.6);
 }
 
-.lc-root .bg-white\/90 {
-  background-color: rgb(255 255 255 / 0.9);
-}
-
 .lc-root .p-3 {
   padding: 0.75rem;
 }
@@ -630,11 +614,6 @@
 .lc-root .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.lc-root .py-2\.5 {
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
 }
 
 .lc-root .pl-5 {
@@ -775,11 +754,6 @@
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.lc-root .backdrop-blur-sm {
-  --tw-backdrop-blur: blur(4px);
-  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
 .lc-root .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -829,24 +803,12 @@
 }
 
 @media (min-width: 640px) {
-  .lc-root .sm\:flex {
-    display: flex;
-  }
-
-  .lc-root .sm\:w-28 {
-    width: 7rem;
-  }
-
   .lc-root .sm\:w-40 {
     width: 10rem;
   }
 
   .lc-root .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .lc-root .sm\:gap-4 {
-    gap: 1rem;
   }
 
   .lc-root .sm\:p-5 {

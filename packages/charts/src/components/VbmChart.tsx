@@ -11,7 +11,7 @@ import {
 import { VBM_HISTORY } from "../../../data/index";
 import { yearTicks } from "../lib/events";
 import { useChartTheme } from "../theme";
-import { ChartFrame, eventLines } from "./ui";
+import { ChartFrame, eventLines, noDataGuides } from "./ui";
 
 const RAW = VBM_HISTORY.map((p) => {
   const d = new Date(p.date + "T00:00:00");
@@ -37,6 +37,11 @@ RAW.forEach((p, i) => {
   DATA.push(p);
 });
 
+// the data's actual extent — for shading the years the slider can reach but the
+// VBM history doesn't cover (it starts in 1964)
+const COVER_MIN = Math.floor(RAW[0].x);
+const COVER_MAX = Math.ceil(RAW[RAW.length - 1].x);
+
 type Pt = (typeof DATA)[number];
 
 function VbmTooltip({
@@ -57,12 +62,20 @@ function VbmTooltip({
   );
 }
 
-export default function VbmChart({ from, to }: { from: number; to: number }) {
+export default function VbmChart({
+  // the vote-by-mail series has no year filter — it is shown at its own full
+  // data extent, so these default to the full coverage
+  from = COVER_MIN,
+  to = COVER_MAX,
+}: {
+  from?: number;
+  to?: number;
+} = {}) {
   const theme = useChartTheme();
+  // The x-axis spans the SELECTED [from, to] range so dragging the slider always
+  // responds; the line draws only where data exists, and noDataGuides shades the
+  // years the data doesn't cover.
   const data = DATA.filter((p) => p.x >= from && p.x <= to + 1);
-  const xs = data.map((p) => p.x);
-  const lo = xs.length ? Math.floor(Math.min(...xs)) : from;
-  const hi = xs.length ? Math.ceil(Math.max(...xs)) : to;
   return (
     <ChartFrame
       title="Vote-by-mail share of ballots cast"
@@ -75,11 +88,12 @@ export default function VbmChart({ from, to }: { from: number; to: number }) {
           margin={{ top: 24, right: 20, bottom: 8, left: 0 }}
         >
           <CartesianGrid stroke={theme.rule} strokeDasharray="2 4" />
+          {noDataGuides(from, to, COVER_MIN, COVER_MAX, theme.faint)}
           <XAxis
             type="number"
             dataKey="x"
-            domain={[lo, hi]}
-            ticks={yearTicks(lo, hi)}
+            domain={[from, to]}
+            ticks={yearTicks(from, to)}
             tickFormatter={(v: number) => String(v)}
             tick={{
               fontFamily: theme.fontMono,
@@ -104,7 +118,7 @@ export default function VbmChart({ from, to }: { from: number; to: number }) {
             width={48}
           />
           <Tooltip content={<VbmTooltip />} isAnimationActive={false} />
-          {eventLines(lo, hi, theme.gold, theme.faint)}
+          {eventLines(from, to, theme.gold, theme.faint)}
           <Line
             dataKey="y"
             stroke="var(--lc-rust)"
