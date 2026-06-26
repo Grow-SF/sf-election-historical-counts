@@ -210,6 +210,13 @@
   "observations": []
  },
  {
+  "id": "county-speed",
+  "name": "California county counting speed (CountySpeed chart)",
+  "summary": "Share of ballots counted within one week of Election Day \u2014 Los Angeles, San Francisco, California average; 2022/2024/2025.",
+  "finalSource": "California Voter Foundation, \u201cBallot Processing\u201d \u2014 https://calvoter.org/content/ballot-processing",
+  "observations": []
+ },
+ {
   "id": "2026-06-02",
   "name": "Consolidated Statewide Direct Primary Election",
   "final": 271520,
