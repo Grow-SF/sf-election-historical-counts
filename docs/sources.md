@@ -312,7 +312,7 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 
 **ID:** `2026-06-02`
 
-**Certified final:** 271,439
+**Certified final:** 271,520
 
 **Source:** SF Dept. of Elections certified results
 
@@ -325,10 +325,11 @@ population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75
 | 2026-06-05 | 3 |  | 176,467 | 65.0% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-05T15:57:15 - https://www.sfelections.org/results/20260602/data/20260605/summary.xml (validated against certified totals) |
 | 2026-06-08 | 6 |  | 222,980 | 82.1% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-08T15:58:58 - https://www.sfelections.org/results/20260602/data/20260608/summary.xml (validated against certified totals) |
 | 2026-06-09 | 7 |  | 259,288 | 95.5% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-09T15:58:14 - https://www.sfelections.org/results/20260602/data/20260609/summary.xml (validated against certified totals) |
-| 2026-06-10 | 8 |  | 264,151 | 97.3% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-10T15:58:00 - https://www.sfelections.org/results/20260602/data/20260610/summary.xml (validated against certified totals) |
-| 2026-06-11 | 9 |  | 269,836 | 99.4% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-11T15:58:00 - https://www.sfelections.org/results/20260602/data/20260611/summary.xml (validated against certified totals) |
-| 2026-06-12 | 10 |  | 271,165 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-12T15:58:00 - https://www.sfelections.org/results/20260602/data/20260612/summary.xml (validated against certified totals) |
-| 2026-06-17 | 15 |  | 271,439 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-17T16:00:00 - https://www.sfelections.org/results/20260602/data/20260617/summary.xml (validated against certified totals) |
+| 2026-06-10 | 8 |  | 264,151 | 97.3% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-10T15:58:40 - https://www.sfelections.org/results/20260602/data/20260610/summary.xml (validated against certified totals) |
+| 2026-06-11 | 9 |  | 269,836 | 99.4% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-11T15:58:30 - https://www.sfelections.org/results/20260602/data/20260611/summary.xml (validated against certified totals) |
+| 2026-06-12 | 10 |  | 271,165 | 99.9% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-12T15:58:28 - https://www.sfelections.org/results/20260602/data/20260612/summary.xml (validated against certified totals) |
+| 2026-06-17 | 15 |  | 271,439 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-17T15:58:42 - https://www.sfelections.org/results/20260602/data/20260617/summary.xml (validated against certified totals) |
+| 2026-06-25 | 23 |  | 271,520 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2026-06-25T16:09:10 - https://www.sfelections.org/results/20260602/data/20260625/summary.xml (validated against certified totals) |
 
 ---
 
