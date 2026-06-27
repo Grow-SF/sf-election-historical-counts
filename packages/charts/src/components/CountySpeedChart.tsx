@@ -59,15 +59,36 @@ const BASE = Object.entries(OW)
   .sort((a, b) => (b.y2025 as number) - (a.y2025 as number));
 
 const BY_CHANGE = [...BASE].sort((a, b) => b.change - a.change);
-const SLOPE = [
-  { year: "2022", ...Object.fromEntries(BASE.map((c) => [c.jurisdiction, c.y2022])) },
-  { year: "2025", ...Object.fromEntries(BASE.map((c) => [c.jurisdiction, c.y2025])) },
-];
+const TREND = ["2022", "2024", "2025"].map((y) => ({
+  year: y,
+  ...Object.fromEntries(
+    BASE.map((c) => [c.jurisdiction, OW[c.jurisdiction]?.[Number(y)] ?? null]),
+  ),
+}));
+
+const endLabel =
+  (short: string, color: string, bold: boolean) =>
+  (props: { x?: number | string; y?: number | string; index?: number }) => {
+    if (props.index !== TREND.length - 1) return null;
+    return (
+      <text
+        x={Number(props.x ?? 0) + 6}
+        y={Number(props.y ?? 0)}
+        dy={3}
+        fontSize={bold ? 10 : 8}
+        fontFamily="var(--lc-font-mono)"
+        fill={color}
+        opacity={bold ? 1 : 0.7}
+      >
+        {short}
+      </text>
+    );
+  };
 
 const VIZ = [
   { key: "arrows", label: "arrows" },
   { key: "change", label: "change" },
-  { key: "slope", label: "slope" },
+  { key: "lines", label: "lines" },
 ] as const;
 type Viz = (typeof VIZ)[number]["key"];
 
@@ -88,7 +109,7 @@ function YTick({ x, y, payload, moss, warn }: { x?: number; y?: number; payload?
 
 export default function CountySpeedChart() {
   const theme = useChartTheme();
-  const [viz, setViz] = useState<Viz>("arrows");
+  const [viz, setViz] = useState<Viz>("change");
   const moss = theme.colorsByKind.Special;
   const warn = theme.colorsByKind.Recall;
   const height = BASE.length * 40 + 64;
@@ -166,24 +187,30 @@ export default function CountySpeedChart() {
             </Bar>
           </BarChart>
         ) : (
-          // slope: 2022 -> 2025, one line per county
-          <LineChart data={SLOPE} margin={{ top: 12, right: 96, bottom: 8, left: 8 }}>
+          // multi-line trend: one line per county, 2022 → 2024 → 2025; the two
+          // decliners (SF, Fresno) bold-red, the rising adopters a muted bundle
+          <LineChart data={TREND} margin={{ top: 12, right: 120, bottom: 8, left: 8 }}>
             <CartesianGrid stroke={theme.rule} strokeDasharray="2 4" vertical={false} />
-            <XAxis dataKey="year" tick={{ fontFamily: theme.fontMono, fontSize: 12, fill: theme.faint }} stroke={theme.faint} tickLine={false} padding={{ left: 40, right: 40 }} />
+            <XAxis dataKey="year" tick={{ fontFamily: theme.fontMono, fontSize: 12, fill: theme.faint }} stroke={theme.faint} tickLine={false} padding={{ left: 24, right: 24 }} />
             <YAxis type="number" domain={[40, 100]} ticks={[40, 60, 80, 100]} tickFormatter={(v: number) => `${v}%`} tick={{ fontFamily: theme.fontMono, fontSize: 11, fill: theme.faint }} stroke={theme.faint} tickLine={false} width={44} />
             <Tooltip isAnimationActive={false} />
-            {BASE.map((c) => (
-              <Line
-                key={c.jurisdiction}
-                dataKey={c.jurisdiction}
-                stroke={c.adopter ? moss : warn}
-                strokeWidth={c.adopter ? 1.5 : 2.5}
-                strokeOpacity={c.adopter ? 0.5 : 1}
-                dot={{ r: 2.5, fill: c.adopter ? moss : warn }}
-                isAnimationActive={false}
-                label={{ position: "right", fontFamily: theme.fontMono, fontSize: 9, fill: c.adopter ? theme.faint : warn, formatter: (v: unknown) => "" }}
-              />
-            ))}
+            {BASE.map((c) => {
+              const decliner = c.change < 0;
+              const color = decliner ? warn : moss;
+              return (
+                <Line
+                  key={c.jurisdiction}
+                  dataKey={c.jurisdiction}
+                  stroke={color}
+                  strokeWidth={decliner ? 2.75 : 1.25}
+                  strokeOpacity={decliner ? 1 : 0.4}
+                  dot={false}
+                  connectNulls
+                  isAnimationActive={false}
+                  label={decliner || (c.y2025 as number) < 96 ? endLabel(c.short, color, decliner) : undefined}
+                />
+              );
+            })}
           </LineChart>
         )}
       </ResponsiveContainer>
