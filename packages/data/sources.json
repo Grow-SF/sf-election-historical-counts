@@ -210,6 +210,132 @@
   "observations": []
  },
  {
+  "id": "county-tech-wisconsin-badger-books",
+  "name": "Wisconsin (Badger Books) \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: epollbook (2018). One-week reporting rate \u2014 n/a.",
+  "finalSource": "https://elections.wi.gov/elections/badger-books \u00b7 https://www.cityofmadison.com/clerk/elections-voting/voting/vote-absentee/make-sure-your-absentee-counts",
+  "observations": []
+ },
+ {
+  "id": "county-tech-santa-clara-county",
+  "name": "Santa Clara County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: epollbook (2020), vote-center (2020). One-week reporting rate \u2014 2022: 85.0%, 2024: 93.0%, 2025: 99.1%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://vote.santaclaracounty.gov/how-county-santa-clara-protects-our-votes \u00b7 https://vote.santaclaracounty.gov/vote-mail/how-your-vote-counted \u00b7 https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-2.pdf",
+  "observations": []
+ },
+ {
+  "id": "county-tech-san-mateo-county",
+  "name": "San Mateo County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: epollbook (2018), vote-center (2018). One-week reporting rate \u2014 2022: 83.2%, 2024: 83.4%, 2025: 94.2%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://smcacre.gov/elections/counting-vote-mail-ballots \u00b7 https://smcacre.gov/elections/san-mateo-county-california-voters-choice-act \u00b7 https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+  "observations": []
+ },
+ {
+  "id": "county-tech-san-luis-obispo-county",
+  "name": "San Luis Obispo County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: epollbook (2026). One-week reporting rate \u2014 2022: 59.2%, 2024: 64.2%, 2025: 73.9%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://www.ksby.com/san-luis-obispo/san-luis-obispo-county-introduces-new-tech-for-upcoming-elections \u00b7 https://www.slocounty.ca.gov/departments/clerk-recorder/all-services/elections-and-voting/vote-by-mail \u00b7 https://www.sos.ca.gov/voters-choice-act/vca-participating-counties",
+  "observations": []
+ },
+ {
+  "id": "county-tech-san-francisco-county",
+  "name": "San Francisco County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: none (control). One-week reporting rate \u2014 2022: 94.1%, 2024: 94.3%, 2025: 90.0%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf \u00b7 https://www.sf.gov/news/department-elections-begins-processing-returned-vote-mail-ballots-november-5-election \u00b7 https://www.sf.gov/vote-in-person \u00b7 https://www.sfelections.org/results/20221108/ \u00b7 https://www.sfelections.org/results/20241105/ \u00b7 https://www.sfelections.org/results/20251104/",
+  "observations": []
+ },
+ {
+  "id": "county-tech-san-diego-county",
+  "name": "San Diego County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: asv (2024), epollbook (2022), vote-center (2022). One-week reporting rate \u2014 2022: 92.6%, 2024: 90.6%, 2025: 99.0%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://elections.cdn.sos.ca.gov/vca/eap/san-diego-eap.pdf \u00b7 https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-2.pdf \u00b7 https://www.countynewscenter.com/county-approves-move-to-vote-center-model/ \u00b7 https://www.nbcsandiego.com/news/local/what-happens-to-your-ballot-after-voting-heres-how-ballot-counting-works-in-san-diego/3662953/",
+  "observations": []
+ },
+ {
+  "id": "county-tech-san-bernardino-county",
+  "name": "San Bernardino County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: asv (2025), epollbook (2020). One-week reporting rate \u2014 2022: 73.0%, 2024: 72.4%, 2025: 98.4%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://elections.sbcounty.gov/faqs/what-is-a-confidence-rating/ \u00b7 https://elections.sbcounty.gov/voting/polls/ \u00b7 https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+  "observations": []
+ },
+ {
+  "id": "county-tech-sacramento-county",
+  "name": "Sacramento County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: epollbook (2018), vote-center (2018). One-week reporting rate \u2014 2022: 53.3%, 2024: 74.5%, 2025: 79.4%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://elections.cdn.sos.ca.gov/vca/eap/sacramento-eap.pdf",
+  "observations": []
+ },
+ {
+  "id": "county-tech-riverside-county",
+  "name": "Riverside County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: asv (2025), epollbook (2022), vote-center (2022). One-week reporting rate \u2014 2022: 78.9%, 2024: 88.2%, 2025: 97.9%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://docs.voteinfo.net/docs/riverside-eap-final_ADA_EN.pdf \u00b7 https://kesq.com/news/2025/10/23/registrar-demonstrates-new-auto-signature-verification-tool-ahead-of-election/",
+  "observations": []
+ },
+ {
+  "id": "county-tech-placer-county",
+  "name": "Placer County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: epollbook (2024), sign-scan-go (2024), vote-center (2024). One-week reporting rate \u2014 2022: 41.6%, 2024: 84.5%, 2025: 85.7%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-2.pdf \u00b7 https://www.placercountyelections.gov/sign-scan-go/ \u00b7 https://www.placercountyelections.gov/voters-choice-act/",
+  "observations": []
+ },
+ {
+  "id": "county-tech-pennsylvania-knowink-poll-pad-counties",
+  "name": "Pennsylvania (KNOWiNK Poll Pad counties) \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: epollbook (2016). One-week reporting rate \u2014 n/a.",
+  "finalSource": "https://www.pa.gov/agencies/dos/resources/voting-and-elections-resources/voting-systems \u00b7 https://www.pacourts.us/assets/opinions/Supreme/out/j-113-2020mo%20-%20104584871117842321.pdf \u00b7 https://www.votebeat.org/pennsylvania/2025/10/22/electronic-pollbook-knowink-checkin-voters-act-88/",
+  "observations": []
+ },
+ {
+  "id": "county-tech-orange-county",
+  "name": "Orange County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: epollbook (2020), vote-center (2020). One-week reporting rate \u2014 2022: 88.7%, 2024: 91.8%, 2025: 99.2%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://ocvote.gov/fileadmin/user_upload/eap/OCROV_2021-2025%20EAP_SOS/OCROV_2021-2025_EAP.html \u00b7 https://www.sos.ca.gov/administration/news-releases-and-advisories/2019-news-releases-and-advisories/orange-county-votes-implement-voters-choice-act-2020-elections",
+  "observations": []
+ },
+ {
+  "id": "county-tech-new-york-post-2019-e-pollbooks",
+  "name": "New York (post-2019 e-pollbooks) \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: epollbook (2019). One-week reporting rate \u2014 n/a.",
+  "finalSource": "https://elections.ny.gov/e-poll-book-systems \u00b7 https://www.ncsl.org/elections-and-campaigns/table-14-how-states-verify-voted-absentee-mail-ballots \u00b7 https://www.voteearlyny.org/nys-early-voting-fast-facts/",
+  "observations": []
+ },
+ {
+  "id": "county-tech-nevada-county",
+  "name": "Nevada County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: asv (2022), epollbook (2018), vote-center (2018). One-week reporting rate \u2014 2022: 56.1%, 2024: 54.5%, 2025: 87.6%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf \u00b7 https://www.nevadacountyca.gov/2321/Voters-Choice-Act-Overview \u00b7 https://www.nevadacountyca.gov/DocumentCenter/View/47536/Mail-Ballot-Processing-Infographic",
+  "observations": []
+ },
+ {
+  "id": "county-tech-napa-county",
+  "name": "Napa County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: epollbook (2018), vote-center (2018). One-week reporting rate \u2014 2022: 61.1%, 2024: 54.7%, 2025: 66.7%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://www.napacounty.gov/3627/Challenged-Ballots \u00b7 https://www.napacounty.gov/DocumentCenter/View/29158/Napa-County-Draft-Election-Administration-Plan-updated-6-7-23-PDF \u00b7 https://www.sos.ca.gov/voters-choice-act",
+  "observations": []
+ },
+ {
+  "id": "county-tech-madera-county",
+  "name": "Madera County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: epollbook (2018), vote-center (2018). One-week reporting rate \u2014 2022: 67.6%, 2024: 81.2%, 2025: 76.1%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://elections.cdn.sos.ca.gov/vca/eap/madera-eap.pdf",
+  "observations": []
+ },
+ {
+  "id": "county-tech-los-angeles-county",
+  "name": "Los Angeles County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: asv (2020), epollbook (2020), vote-center (2020). One-week reporting rate \u2014 2022: 77.0%, 2024: 96.9%, 2025: 98.5%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://laist.com/news/politics/voter-guides/2026-election-california-primary-how-they-verify-ballot-signatures \u00b7 https://www.cbsnews.com/losangeles/news/how-the-la-county-registrar-verifies-vote-by-mail-ballots-and-why-it-takes-so-long/ \u00b7 https://www.lavote.gov/docs/rrcc/media/VSAP-Report_FINAL.pdf \u00b7 https://www.sos.ca.gov/voters-choice-act/vca-participating-counties",
+  "observations": []
+ },
+ {
+  "id": "county-tech-fresno-county",
+  "name": "Fresno County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: asv (2020), epollbook (2020), vote-center (2020). One-week reporting rate \u2014 2022: 84.7%, 2024: 81.9%, 2025: 70.4%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://elections.cdn.sos.ca.gov/vca/eap/fresno-eap.pdf \u00b7 https://gvwire.com/2020/10/12/brandi-orth-vote-by-mail-signature-verification-ensures-safety-and-integrity/ \u00b7 https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf \u00b7 https://www.sos.ca.gov/administration/news-releases-and-advisories/2019-news-releases-and-advisories/fresno-county-adopts-voters-choice-act-2020-elections",
+  "observations": []
+ },
+ {
   "id": "county-speed",
   "name": "California county counting speed (CountySpeed chart)",
   "summary": "Share of ballots counted within one week of Election Day \u2014 Los Angeles, San Francisco, California average; 2022/2024/2025.",

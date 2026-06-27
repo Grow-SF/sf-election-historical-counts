@@ -615,6 +615,33 @@ def main():
         "summary": f"{cs['metric']} — {counties}; {years}.",
         "finalSource": f"{cs['source']} — {cs['sourceUrl']}",
         "observations": []})
+    # (e) County counting-tech panel: one sourced record per jurisdiction — its
+    #     adopted tech (+ first-election year) and reporting-speed metrics, with
+    #     EVERY cited URL, so no chart number is unsourced in this doc.
+    ct = json.loads((OUT.parent / "county_tech.json").read_text())
+    by_j: dict = {}
+    for a in ct["adoptions"]:
+        d = by_j.setdefault(a["jurisdiction"], {"adopt": [], "ow": {}, "urls": []})
+        if a["status"] == "adopted":
+            d["adopt"].append(f"{a['tech']} ({a['adopted_year']})")
+        if a.get("evidence_url"):
+            d["urls"].append(a["evidence_url"])
+    for m in ct["metrics"]:
+        d = by_j.setdefault(m["jurisdiction"], {"adopt": [], "ow": {}, "urls": []})
+        if m["metric"] == "oneweek_pct" and m["value"] is not None:
+            d["ow"][m["year"]] = m["value"]
+        if m.get("source_url"):
+            d["urls"].append(m["source_url"])
+    for j, d in by_j.items():
+        slug = re.sub(r"[^a-z0-9]+", "-", j.lower()).strip("-")
+        ow = ", ".join(f"{y}: {d['ow'][y]}%" for y in sorted(d["ow"]))
+        sources.append({
+            "id": f"county-tech-{slug}",
+            "name": f"{j} — counting technology & reporting speed",
+            "summary": (f"Counting tech adopted: {', '.join(d['adopt']) or 'none (control)'}. "
+                        f"One-week reporting rate — {ow or 'n/a'}."),
+            "finalSource": " · ".join(sorted(set(d["urls"]))),
+            "observations": []})
     sources.sort(key=lambda s: s["id"], reverse=True)
     (OUT.parent / "sources.json").write_text(json.dumps(sources, indent=1))
     print(f"{len(sources)} source records -> sources.json")
