@@ -1,0 +1,103 @@
+{
+  "jurisdiction": "Santa Clara County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2020,
+      "first_election": "2020-03",
+      "vendor": "KNOWiNK PollPad (2020-2024); switched to Tenex Precinct Central V6.1.2 by 2025",
+      "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-2.pdf",
+      "confidence": "primary",
+      "note": "Santa Clara deployed e-pollbooks when it converted to the Voter's Choice Act vote-center model for the March 3, 2020 Presidential Primary (first VCA election). CA SoS 'Voting Technologies in Use by County' lists Santa Clara's e-pollbook as KNOWiNK PollPad (V2.5.2.01b in 2021, V3.0.1 in 2022 & 2024) and then Tenex Precinct Central V6.1.2 in the 2025 certified list, i.e. the county switched e-pollbook vendor from KNOWiNK to Tenex by 2025. County 'How the County of Santa Clara Protects our Votes' page confirms E-pollbooks reconcile signatures vs ballots cast at Vote Centers."
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://vote.santaclaracounty.gov/vote-mail/how-your-vote-counted",
+      "confidence": "secondary",
+      "note": "No automated signature-matching software. Vote-by-mail return-envelope signatures are verified by human staff ('Vote by Mail ballots ... have to be signature-verified'); the Registrar uses a high-speed sorter that digitizes/images envelopes so staff can compare signatures on screen, but the comparison itself is done by eye by staff, not by signature-recognition software. Per the project definition (humans comparing by eye = not-adopted), ASV is not adopted. Confidence secondary because the finding is inferred from the county's process description rather than an explicit 'we use no ASV software' statement."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://vote.santaclaracounty.gov/vote-mail/how-your-vote-counted",
+      "confidence": "secondary",
+      "note": "No in-vote-center 'Sign-Scan-and-Go' mail-ballot processing. Vote-by-mail ballots returned to Vote Centers / drop boxes are transported to the central Registrar of Voters office where signature verification and tabulation occur during the canvass; the county does not describe verifying signatures and scanning mail ballots in real time at the vote center. No AB 626-style sign-scan-go program found for Santa Clara."
+    },
+    {
+      "type": "vote-center",
+      "status": "adopted",
+      "adopted_year": 2020,
+      "first_election": "2020-03",
+      "vendor": "",
+      "evidence_url": "https://vote.santaclaracounty.gov/how-county-santa-clara-protects-our-votes",
+      "confidence": "primary",
+      "note": "County converted to the Voter's Choice Act vote-center model in 2020: 'Beginning with the 2020 elections, County of Santa Clara voters have a more modern voting experience under the Voter's Choice Act. In-person voting takes place at larger Vote Centers.' First VCA election was the March 3, 2020 Presidential Primary (~110 Vote Centers, 10-day and 3-day early voting). Confirmed by the county Election Administration Plan filed with CA SoS (santa-clara-amended-eap-11.22.19.pdf)."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": 85.0,
+      "denominator": "ballots counted to date at one-week snapshot (CVF basis: ballots counted by day 7 / ballots reported counted to date), from CA SoS county reporting-status data",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CVF 'Publicly Reported California Ballot Counting Progress on Nov 15, 2022 - Percentage of Nov 08, 2022 ballots reported as counted one week after Election Day.' Santa Clara bar labeled 85.0%."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": 93.0,
+      "denominator": "ballots counted to date at one-week snapshot (CVF basis: ballots counted by day 7 / ballots reported counted to date), from CA SoS county reporting-status data",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CVF 'Publicly Reported California Ballot Counting Progress on Nov 12, 2024 - Percentage of Nov 05, 2024 ballots reported as counted one week after Election Day.' Santa Clara bar labeled 93.0%."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": 99.1,
+      "denominator": "ballots counted to date at one-week snapshot (CVF basis: ballots counted by day 7 / ballots reported counted to date), from CA SoS county reporting-status data",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CVF 'Publicly Reported California Ballot Counting Progress on Nov 11, 2025 - Percentage of Nov. 4 ballots counted one week after Election Day.' Santa Clara bar labeled 99.1%."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Certified final for the Nov 5, 2024 Presidential General is 765,495 ballots cast (county press release 'Official Results Certified for November 5 Presidential General Election'; 72.99% of 1,048,723 registered). The first post-poll-close report (the ~8:05pm batch of early-returned Vote-by-Mail ballots) was not retrievable as a precise ballot count from archived election-night reports, so the numerator is unavailable and the metric cannot be computed."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2022,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "First post-poll-close election-night report ballot count for the Nov 8, 2022 general not retrievable from archived sources; certified-final denominator available but numerator unavailable, so metric not computed."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Santa Clara updates results daily during the 30-day canvass and publishes 'Unprocessed Ballot Estimates,' but a clean per-day cumulative counted-ballot series needed to find the day cumulative counted first reached >=90% of the certified final was not compiled, so value is null."
+    }
+  ],
+  "notes": "Santa Clara County, CA is a Voter's Choice Act (vote-center) county since 2020 (first VCA election: March 3, 2020 Presidential Primary). Voting/tabulation system is Dominion (ICC/ICP2/ICX, MBP); e-pollbook is KNOWiNK PollPad for 2020-2024 then Tenex Precinct Central V6.1.2 by 2025 per CA SoS 'Voting Technologies in Use by County' (2021/2022/2024/2025 lists). The earlier-circulating claim that Santa Clara uses 'Tenex' is true only for 2025 onward; its first VCA-era e-pollbook was KNOWiNK PollPad. ASV and Sign-Scan-Go are NOT adopted: VBM signatures are human-verified centrally (assisted by a high-speed envelope-imaging sorter), and there is no in-vote-center sign-scan-go program. oneweek_pct values are chart-read from California Voter Foundation's per-county Ballot Processing charts and flagged for a precise-read verification pass. electionnight_pct and days_to_90 are null because the first-night report ballot count and a per-day cumulative canvass series were not retrievable; certified-final denominators are available (e.g., 765,495 for Nov 2024). board-vote/contract dates for the e-pollbook vendor switch were not located."
+}

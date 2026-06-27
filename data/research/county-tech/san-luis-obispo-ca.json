@@ -1,0 +1,103 @@
+{
+  "jurisdiction": "San Luis Obispo County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2026,
+      "first_election": "2026-06",
+      "vendor": "",
+      "evidence_url": "https://www.ksby.com/san-luis-obispo/san-luis-obispo-county-introduces-new-tech-for-upcoming-elections",
+      "confidence": "primary",
+      "note": "San Luis Obispo adopted electronic pollbooks for the FIRST TIME at the June 2, 2026 Statewide Direct Primary -- the county had been a paper-roster holdout. County Clerk-Recorder Elaina Cano: 'we're one of the few counties left that don't use [e-pollbooks]' (KSBY, 'SLO County introduces new tech for upcoming elections'). Deputy Director/Registrar Penny Boyd (KSBY, 'New E-poll books coming to San Luis Obispo County polling locations'): e-pollbooks replace the paper rosters voters signed at each polling location, give poll workers real-time access to voter registration to confirm a voter is registered and at the correct assigned polling place, save ~$100,000/yr in roster printing, and cut provisional ballots. adopted_year=2026 = first election conducted with the tech (June 2, 2026). VENDOR not yet publicly disclosed in coverage; the only SoS-certified e-pollbooks in CA are KNOWiNK PollPad and Tenex Precinct Central, so SLO's product is almost certainly one of those, but neither news nor a primary procurement doc naming it was located. The CA SoS 'Voting Technologies in Use by County' (as of Oct 10, 2025) still lists SLO's e-pollbook column as 'Do not use', consistent with the e-pollbook being brand-new for 2026 and post-dating that list."
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.slocounty.ca.gov/departments/clerk-recorder/all-services/elections-and-voting/vote-by-mail",
+      "confidence": "secondary",
+      "note": "No automated signature-verification software found. SLO verifies vote-by-mail by comparing the signature on the return envelope to the signature on file (e.g. the voter's DMV/driver's-license signature); the Clerk-Recorder describes processing as 'scanning each envelope, checking their signature, determining if their ballots were eligible to be processed, counted, and adjudicated' (KSBY 2024), and mismatched/missing signatures trigger a statutory cure letter (Elections Code sec. 3019). No mention of automated signature-matching software (e.g. Parascript) or a high-speed signature-imaging sorter (Runbeck/BlueCrest) in county materials. SLO is not among the CA counties known to run ASV software (e.g. San Bernardino, Riverside). Finding by absence of evidence -> human comparison, secondary confidence."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.sos.ca.gov/voters-choice-act/vca-participating-counties",
+      "confidence": "secondary",
+      "note": "No in-vote-center mail-ballot signature-verify-and-scan ('Sign, Scan & Go', AB 626) capability. SLO is NOT a Voter's Choice Act county and runs traditional precinct polling places, not vote centers (KSBY e-pollbook coverage repeatedly references voters' 'assigned polling location'). Returned/dropped vote-by-mail ballots are transported to the central Elections Office for scanning, signature verification, and tabulation -- there is no on-site verify-and-scan-at-the-vote-center workflow. AB 626 Sign-Scan-Go is associated with Placer County, not SLO. Finding by absence of evidence in a non-VCA, central-processing county."
+    },
+    {
+      "type": "vote-center",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.sos.ca.gov/voters-choice-act/vca-participating-counties",
+      "confidence": "primary",
+      "note": "San Luis Obispo has NOT adopted the Voter's Choice Act all-mail/vote-center model. SLO does not appear on the CA Secretary of State 'VCA Participating Counties' list, and the county continues to operate traditional precinct-based polling places (where the new 2026 e-pollbooks are being deployed), with vote-by-mail processed centrally at the Elections Office. SLO has been eligible to adopt VCA since Jan 1, 2018 but has not done so."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": 59.2,
+      "denominator": "ballots counted to date (CalVoter basis: ballots reported as counted one week after Election Day / ballots counted to date)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "chart-read. CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 15, 2022' chart (https://calvoter.org/sites/default/files/2022_ca_county_ballot_counting_speeds.png), % of Nov 8, 2022 ballots reported as counted one week after Election Day; data as of 10:10 AM PT Nov 16, 2022. San Luis Obispo = 59.2%; statewide reference 77.7%."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": 64.2,
+      "denominator": "ballots counted to date (CalVoter basis: ballots reported as counted one week after Election Day / ballots counted to date)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "chart-read. CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 12, 2024' chart (https://calvoter.org/sites/default/files/2024_ca_county_ballot_counting_speeds.png), % of Nov 5, 2024 ballots reported as counted one week after Election Day; data as of 10:06 PM PT Nov 12, 2024. San Luis Obispo = 64.2%; statewide reference 86.1%."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": 73.9,
+      "denominator": "ballots counted to date (CalVoter basis: ballots reported as counted one week after Election Day / ballots counted to date)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Latest odd-year. chart-read. CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 11, 2025' chart (https://calvoter.org/sites/default/files/2025_ca_county_ballot_counting_speeds.png), % of Nov. 4, 2025 ballots counted one week after Election Day. San Luis Obispo = 73.9%; statewide reference 93.9%."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": "certified final ballots (not obtained)",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed: would require SLO's first post-poll-close (election-night) ballot report divided by the certified-final ballot total. The first-report ballot count paired with a certified-final denominator was not collected in a comparable primary form in this pass; not substituting a different denominator (e.g. % of registered voters)."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2022,
+      "value": null,
+      "denominator": "certified final ballots (not obtained)",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed: first post-poll-close ballot report vs certified-final denominator not collected in this pass."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "SLO does not publish per-day/per-release canvass totals in a readily machine-readable form; the day on which >=90% of the certified final was counted cannot be determined."
+    }
+  ],
+  "notes": "San Luis Obispo County, CA. TECH: e-pollbooks are NEWLY adopted for the June 2, 2026 Statewide Direct Primary -- the county's first election with electronic pollbooks (it had been a paper-roster holdout); adopted_year=2026 (matches the worklist hint 'e-pollbooks 2026'). E-pollbook VENDOR not yet publicly disclosed; CA SoS only certifies KNOWiNK PollPad and Tenex Precinct Central, so SLO's is presumably one of those (unconfirmed). SLO is NOT a Voter's Choice Act county -> vote-center = not-adopted (primary, via SoS VCA participating-counties list + continued precinct polling). No automated signature verification (ASV not-adopted, secondary, by absence of evidence; human envelope-vs-DMV signature comparison) and no in-vote-center Sign-Scan-Go (not-adopted; non-VCA county, central VBM processing). Voting/tabulation system per CA SoS 'Voting Technologies in Use by County' (as of Oct 10, 2025): Dominion ICC 5.10A central tabulation (Central Tabulation Only -- no precinct scanners), Dominion ICX 5.10A ballot-marking devices, Dominion MBP 5.19 mobile ballot printing, and Dominion ImageCast Remote 5.10A RAVBM (recorded as context, not one of the four tracked types). METRICS: oneweek_pct from the canonical CalVoter 'Ballot Processing' per-county charts, chart-read for 2022 (59.2%), 2024 (64.2%) and the latest odd-year 2025 (73.9%) -- all flagged 'chart-read', denominator is CalVoter's ballots-counted-to-date basis; should be re-read precisely in the verification pass. SLO consistently counts slower than the statewide average. electionnight_pct and days_to_90 left null (no certified-final-denominated election-night report and no per-day canvass totals located; no substitute denominator used). Verifier: confirm the e-pollbook vendor once 2026 procurement/EAP docs or a post-June-2026 SoS voting-tech list are available."
+}

@@ -1,0 +1,85 @@
+{
+  "jurisdiction": "Wisconsin (Badger Books)",
+  "state": "WI",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2018,
+      "first_election": "2018-04",
+      "vendor": "Wisconsin Elections Commission (in-house; 'Badger Book' application, runs on a Microsoft Surface-style tablet + printer station)",
+      "evidence_url": "https://elections.wi.gov/elections/badger-books",
+      "confidence": "primary",
+      "note": "National vignette, not a CA county. 'Badger Book' is the only electronic poll book authorized for use in Wisconsin and is designed/maintained in-house by the Wisconsin Elections Commission (WEC) — the only e-poll book with indirect WisVote (statewide voter file) integration. WEC page: 'In 2017, at the direction of the Commission, WEC staff developed an electronic poll book application for use in Wisconsin elections.' It is an electronic version of the paper poll book: used to check in voters, process Election Day Registrations (Wis. Stat. 6.79(2)(c)), and record absentee participation; it does NOT tabulate votes and is not connected to the internet. adopted_year=2018 = first ELECTION conducted with it: five Badger Books were piloted at five polling places (cities of Beloit, Brookfield, Mequon, Sun Prairie and the town of Trenton) in the April 3, 2018 Spring Election, checking in/registering 5,000+ voters (Wisconsin State Journal / madison.com, https://madison.com/wsj/news/local/ask/catching-up/catching-up-electronic-poll-book-pilot-a-success-sun-prairie/article_ec153502-9180-59ce-bb75-dad2fc9be0ab.html). Sun Prairie was the first municipality to adopt it (2018). The 2017 date is the board-direction/development year (in note, not adopted_year). Adoption has since grown to ~400 of Wisconsin's ~1,850 municipalities (Votebeat, June 2025)."
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.cityofmadison.com/clerk/elections-voting/voting/vote-absentee/make-sure-your-absentee-counts",
+      "confidence": "secondary",
+      "note": "Wisconsin does not use automated signature-verification software, and indeed does not do signature MATCHING at all. Absentee security in WI is photo-ID-on-request plus a witnessed certificate envelope: the voter signs and an adult U.S.-citizen witness signs and provides an address on the absentee certificate. Clerks check that the required voter and witness signatures/address are PRESENT (and that ID is on file) — they do not compare the envelope signature against a reference signature on record, by eye or by machine. 'Wisconsin doesn't verify your signature in the way some other states do.' No ASV vendor or signature-matching step exists statewide. The Badger Book e-pollbook captures an in-person voter's signature on screen as the poll-list signature but performs no signature comparison/verification. Confidence secondary (structural/legal absence of a signature-matching regime; no ASV product anywhere in WI)."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://elections.wi.gov/elections/badger-books",
+      "confidence": "secondary",
+      "note": "'Sign-Scan-and-Go' is a California program (AB 626): in-vote-center, on-the-spot mail-ballot signature verification + scan/tabulation. Wisconsin has no analog. WI has no Voter's Choice Act vote centers, and absentee/mail ballots are not signature-verified-and-scanned on demand at a polling place — they are returned to the municipal clerk and processed/counted by election inspectors at the polling place or at a designated central count facility on Election Day. The Badger Book records absentee participation but does not scan or tabulate ballots ('At no point do Badger Books interact with the voting equipment... Badger Books do not process votes'). Not-adopted; confidence secondary (the program is CA-specific with no Wisconsin equivalent)."
+    },
+    {
+      "type": "vote-center",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://elections.wi.gov/elections/badger-books",
+      "confidence": "secondary",
+      "note": "'Vote-center' here means the California Voter's Choice Act (SB 450) all-mail / any-eligible-voter-can-vote-at-any-center model. Wisconsin has no such statute or model: voters are assigned to a specific neighborhood polling place by ward/municipality and must check in there (the Badger Book verifies a voter against the WisVote roster at their assigned polling place). In-person absentee ('early') voting occurs at the municipal clerk's office or designated alternate sites, not at interchangeable VCA-style vote centers. Not-adopted; confidence secondary (the VCA vote-center model is CA-specific and absent in WI)."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": null,
+      "denominator": "",
+      "source_url": "",
+      "confidence": "none",
+      "note": "Not applicable / not collected. oneweek_pct is sourced from the California Voter Foundation 'Ballot Processing' charts, which cover California counties only — there is no CalVoter publication for Wisconsin. Context (not recorded as a value to avoid substituting a different denominator): Wisconsin counts essentially all ballots by election night or the early morning after Election Day. Municipalities report unofficial results the night of the election; central-count municipalities (e.g. Milwaukee) finish reporting absentee results in the early AM hours after polls close; county boards of canvass certify within ~1-2 weeks. A WI 'one-week-counted' figure would be ~100%, but no comparable CalVoter-basis number is published, so value=null."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": "",
+      "source_url": "",
+      "confidence": "none",
+      "note": "Not applicable / not collected. CalVoter 'Ballot Processing' charts are California-only; Wisconsin is not covered. Wisconsin reports essentially complete unofficial results election night / early the next morning, so a one-week-counted share would be near 100%, but there is no CalVoter-basis published value to record. Value left null rather than substituting a different denominator."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": "",
+      "source_url": "",
+      "confidence": "none",
+      "note": "Not collected. Would require Wisconsin's first-post-poll-close election-night reported ballot count divided by certified-final ballots, statewide or for a defined set of Badger-Book municipalities. Not gathered in this pass (this is a national e-pollbook vignette, not a county with a single canvass series). Qualitatively WI election-night reporting captures the large majority of the final count by the morning after Election Day, but no precise first-report and certified-final pair was collected; value null."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": "",
+      "source_url": "",
+      "confidence": "none",
+      "note": "Not collected. Would require per-day cumulative canvass totals to find when cumulative count first reached >=90% of certified final. Wisconsin does not count over many days (results are essentially complete by the morning after Election Day; canvass certification follows within ~1-2 weeks for administrative finalization), and no per-day canvass series was assembled here. Value null."
+    }
+  ],
+  "notes": "Wisconsin 'Badger Books' is a NATIONAL VIGNETTE on electronic pollbooks, not a California county, so the CA-specific tech types and the CalVoter speed metric do not map onto a single county. TECH: epollbook = ADOPTED — Badger Book, the only WEC-authorized e-pollbook, designed and maintained in-house by the Wisconsin Elections Commission; directed/developed 2017, first used in the April 3, 2018 Spring Election pilot (5 polls: Beloit, Brookfield, Mequon, Sun Prairie, town of Trenton); Sun Prairie was the first municipality to adopt; now ~400 of ~1,850 WI municipalities use it (Votebeat, 6/2025). Runs on a tablet + printer station (well over $2,000/station), is not internet-connected, checks in voters / processes Election Day Registration / records absentee participation, and does NOT tabulate votes. asv = NOT-ADOPTED — Wisconsin does not do signature matching at all (photo ID on request + witnessed absentee certificate envelope; clerks check presence of voter+witness signatures/address, not a signature comparison); no ASV vendor statewide. sign-scan-go = NOT-ADOPTED — CA AB 626 in-vote-center verify+scan has no Wisconsin analog; absentee ballots are processed/counted by inspectors at the polling place or a central-count facility, and Badger Books never touch the tabulator. vote-center = NOT-ADOPTED — the CA Voter's Choice Act vote-center model does not exist in WI; voters are assigned to a specific neighborhood polling place. METRICS: all null/confidence none. The canonical oneweek_pct comes from California Voter Foundation 'Ballot Processing' charts (California counties only) — no Wisconsin data exists there, and substituting a non-comparable denominator is disallowed. Contextually Wisconsin reports essentially complete unofficial results on election night / the early morning after Election Day, with county canvass certification within ~1-2 weeks; electionnight_pct and days_to_90 would need a certified-final denominator and per-day canvass series that were not assembled for this vignette. Primary sources: WEC Badger Books page (https://elections.wi.gov/elections/badger-books); WEC Badger Book brochure (https://elections.wi.gov/resources/brochures/badger-book-informational-brochure); 2018 pilot reporting (madison.com / Wisconsin State Journal); Votebeat 'election officials consider electronic pollbook options' (6/27/2025)."
+}

@@ -1,0 +1,103 @@
+{
+  "jurisdiction": "New York (post-2019 e-pollbooks)",
+  "state": "NY",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2019,
+      "first_election": "2019-11",
+      "vendor": "KNOWiNK Poll Pad (NYC + many counties); Tenex and Robis also state-certified",
+      "evidence_url": "https://elections.ny.gov/e-poll-book-systems",
+      "confidence": "primary",
+      "note": "Electronic poll books (digital voter rosters / iPad or Windows check-in tablets) were authorized as part of New York's 2019 election-modernization package and deployed statewide for the FIRST-EVER early voting period (Oct 26-Nov 3, 2019) and the Nov 5, 2019 general election. 51 of 62 NY counties adopted e-poll books for 2019 early voting (voteearlyny.org). The NY State Board of Elections certified three vendor systems: KNOWiNK (St. Louis, iPad), Tenex (Florida, iPad), and Robis (Illinois, Windows); the standalone authorizing bill S508 passed the Senate 2019-02-27 (Sen. Zellnor Myrie) but the operative authority/funding rode the 2019 early-voting enactment (Election Law Art. 8 / FY2020 budget), with the state providing counties ~$10M operations + ~$14M capital for e-poll books. NYC Board of Elections approved a 4-year, $19.1M contract with KNOWiNK on 2019-07-16 and bought ~10,000 iPads, first used Oct/Nov 2019 (board-vote/contract dates noted here, not the adopted_year). adopted_year=2019 = year of first election conducted with the tech. Vendor mix is county-dependent (KNOWiNK for NYC) -> vendor attribution is secondary; e-pollbook adoption itself is primary."
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.ncsl.org/elections-and-campaigns/table-14-how-states-verify-voted-absentee-mail-ballots",
+      "confidence": "secondary",
+      "note": "No automated signature-verification software/scanner. New York verifies absentee/mail-ballot signatures by EYE: per NCSL Table 14, 'absentee voters sign an oath on the inner envelope... The central board of canvassers compares the signature on the envelope to the signature in the registration poll record. If the signatures correspond, the ballot is accepted.' This is the bipartisan manual comparison required by NY Election Law sec. 9-209, reinforced by the 2021 statutory Notice-and-Cure process (elections.ny.gov/notice-and-cure-process), which still relies on human bipartisan review ('the bipartisan team shall keep in mind that everyone writes differently'). Humans comparing signatures = not-adopted. At the poll site, e-poll books capture a voter signature for the oath but do NOT machine-match it. Confidence secondary because the cited URL is NCSL (the underlying basis -- Election Law sec. 9-209 manual board-of-canvassers review -- is primary)."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.ncsl.org/elections-and-campaigns/table-14-how-states-verify-voted-absentee-mail-ballots",
+      "confidence": "secondary",
+      "note": "No in-vote-center 'Sign-Scan-and-Go' mail-ballot signature-verify-and-scan workflow (that is a California AB 626 / Voter's Choice Act vote-center concept with no New York analogue). New York mail/absentee ballots are returned to and processed CENTRALLY by the county board of elections, where the bipartisan central board of canvassers compares the oath-envelope signature and then opens and tabulates the ballot (NCSL Table 14; NY Election Law sec. 9-209). In-person early-voting and Election-Day voters cast a ballot directly into a precinct optical scanner; they do not surrender/scan a mail-ballot envelope at the site. So no sign-scan-go process exists. Confidence secondary (the absence is inferred from NY's centralized canvass procedure, which is primary)."
+    },
+    {
+      "type": "vote-center",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.voteearlyny.org/nys-early-voting-fast-facts/",
+      "confidence": "secondary",
+      "note": "Not a California Voter's Choice Act-style vote-center jurisdiction: New York is NOT an all-mail state and does NOT replace Election-Day precinct poll sites with countywide vote centers. IMPORTANT NUANCE -- post-2019 e-poll books DID enable countywide EARLY-VOTING sites: in 54 of 62 NY counties a voter may use ANY early-voting location in their county (rather than an assigned site), which VOTE EARLY NY describes as 'countywide votecenters.' But this applies only to the early-voting period (first held Oct 26-Nov 3, 2019); on Election Day proper, New Yorkers are still routed to their assigned election-district poll site. Because the schema's 'vote-center' type means the VCA all-mail model (which NY has not adopted), status=not-adopted, with the countywide-early-voting-site capability flagged here for a verifier. Confidence secondary."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": null,
+      "denominator": "",
+      "source_url": null,
+      "confidence": "none",
+      "note": "California Voter Foundation 'Ballot Processing' (calvoter.org/content/ballot-processing) -- the canonical comparable oneweek_pct source -- covers ONLY California counties; New York is not included. No New York-published equivalent (% of ballots-counted-to-date counted within 7 days) exists as a clean comparable figure for the Nov 2022 general, so value=null rather than substituting a different denominator."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": "",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Same as 2022: CalVoter Ballot Processing is California-only; New York is out of scope and publishes no comparable within-7-days percentage for the Nov 5, 2024 general. value=null/none."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": null,
+      "denominator": "",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Latest odd-year (Nov 4, 2025 local/general elections). No CalVoter coverage for New York and no NY-published comparable within-7-days metric. value=null/none."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2022,
+      "value": null,
+      "denominator": "",
+      "source_url": null,
+      "confidence": "none",
+      "note": "This is a multi-county statewide vignette ('New York post-2019 e-pollbooks'), not a single county, so there is no single clean first-post-poll-close-report total to divide by a single certified-final denominator. New York reports in-person optical-scanner results quickly on election night but counts absentee/affidavit ballots over the following weeks (certification ~early December), so a county-by-county first-report numerator would be required and is not assembled here. Not computed -- value=null rather than mixing definitions/denominators."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": "",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Same as 2022: no single clean first-report-total / certified-final pair for a statewide multi-county vignette; absentee/affidavit ballots are canvassed over weeks after Nov 5, 2024. value=null/none rather than a substitute denominator."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "New York does not publish a single comparable per-day cumulative canvass series for this statewide/multi-county vignette; absentee, affidavit, and cured ballots are added over the post-election canvass through certification, so the day-by-day curve to >=90% of certified final cannot be reconstructed cleanly. value=null/none."
+    }
+  ],
+  "notes": "NATIONAL VIGNETTE (not a California county). TECH: New York's headline counting-tech change is the post-2019 rollout of electronic poll books -- authorized in the 2019 election-modernization package and first used statewide for New York's first-ever early voting (Oct 26-Nov 3, 2019) and the Nov 5, 2019 general election. 51 of 62 counties adopted e-poll books for 2019; the State BOE certified KNOWiNK, Tenex, and Robis; NYC adopted KNOWiNK (Poll Pad) via a $19.1M contract approved 2019-07-16 (~10,000 iPads). New York has NOT adopted automated signature verification -- absentee signatures are compared by eye by the bipartisan central board of canvassers (Election Law sec. 9-209; 2021 Notice-and-Cure is also human review) -- and has NO Sign-Scan-and-Go workflow (mail ballots are processed centrally). It is NOT a VCA all-mail vote-center state; however e-poll books DID enable countywide EARLY-VOTING sites (any site in 54/62 counties), while Election Day stays precinct-assigned -- so vote-center is marked not-adopted with that nuance flagged. METRICS: all null/none. CalVoter 'Ballot Processing' (the canonical oneweek_pct source) is California-only, so NY has no comparable within-7-days figure; electionnight_pct and days_to_90 cannot be computed cleanly for a statewide multi-county vignette (no single first-report/certified pair, no comparable daily canvass series). Primary anchor for the e-pollbook finding: NY State BOE 'E-Poll Book Systems' (elections.ny.gov/e-poll-book-systems; its Cloudflare blocks automated fetch but it is the authoritative certified-systems listing) corroborated by NYSenate (S508 / Myrie press release), Gotham Gazette (NYC KNOWiNK contract), VOTE EARLY NY (51/62 counties; countywide sites), and Verified Voting (KNOWiNK Poll Pad = e-pollbook, not signature verification). A verifier should re-read the BOE e-poll-book page directly for the current certified-vendor list and confirm county-by-county vendor assignments."
+}

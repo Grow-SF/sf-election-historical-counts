@@ -1,0 +1,94 @@
+{
+  "jurisdiction": "Napa County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2018,
+      "first_election": "2018-06",
+      "vendor": "DFM Associates (EIMS / Vote Center App electronic roster on COTS laptops)",
+      "evidence_url": "https://www.napacounty.gov/DocumentCenter/View/29158/Napa-County-Draft-Election-Administration-Plan-updated-6-7-23-PDF",
+      "confidence": "primary",
+      "note": "Adopted with the Voter's Choice Act vote-center model for the June 2018 primary. Napa's Election Administration Plan states each Vote Center has a 'secure connection to the County's Election Management System (EMS), allowing Vote Center staff to verify, in real time, the voting status of each voter against the local database and against the statewide registration database known as VoteCal,' and maintains 'an electronic, continuously updated index of voters' — i.e. an electronic pollbook required by the VCA model. EAP names DFM Associates as the voter-registration/EMS vendor; Verified Voting documents DFM's EIMS / Vote Center App being used as an e-pollbook on COTS laptops by CA VCA counties (https://verifiedvoting.org/election-system/dfm-associates-eims/). Exact e-pollbook product/vendor confidence is secondary; the presence of a real-time electronic roster is primary."
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.napacounty.gov/3627/Challenged-Ballots",
+      "confidence": "secondary",
+      "note": "No automated signature-verification software/scanner found. Napa's Challenged Ballots page describes human review: a signature challenge means 'our permanent staff cannot match the ballot signature to the voter's signature on file,' indicating staff compare envelope signatures by eye (with a second human review before a ballot is challenged/cured). No ASV vendor named anywhere in county materials. Confidence secondary (based on process description + absence of any ASV evidence)."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.napacounty.gov/DocumentCenter/View/29158/Napa-County-Draft-Election-Administration-Plan-updated-6-7-23-PDF",
+      "confidence": "secondary",
+      "note": "No in-vote-center mail-ballot signature-verify-and-scan ('Sign-Scan-and-Go', AB 626) program found. Napa's EAP describes mail ballots returned at Vote Centers and drop boxes being processed centrally (machine opens envelopes after signature verification by Election Division staff); it does not describe scanning/tabulating a voter's returned mail ballot at the Vote Center after on-the-spot signature verification. AB 626 sign-scan-and-go was piloted elsewhere (e.g. Placer). Confidence secondary (absence of evidence in primary county materials)."
+    },
+    {
+      "type": "vote-center",
+      "status": "adopted",
+      "adopted_year": 2018,
+      "first_election": "2018-06",
+      "vendor": "",
+      "evidence_url": "https://www.sos.ca.gov/voters-choice-act",
+      "confidence": "primary",
+      "note": "Napa was one of the five original Voter's Choice Act (SB 450) pilot counties — Madera, Napa, Nevada, Sacramento, San Mateo — that first conducted all-mail / vote-center elections in 2018 (June 5, 2018 statewide primary). CA SoS VCA page confirms 'five counties adopted the VCA as part of the initial pilot' in 2018 and lists Napa among current VCA counties; Napa's EAP states the VCA authorized the county to conduct elections as 'All-Mailed Ballot/Vote Center' 'commencing in 2018.' (Napa had run all-mail elections since 2006 and Voting Assistance Centers since 2008, but the VCA vote-center model with real-time e-pollbooks began 2018.)"
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": 61.1,
+      "denominator": "ballots counted to date (CalVoter Close Count Transparency Project basis; numerator = ballots counted within ~1 week of Election Day)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CalVoter 'Ballot Processing' county counting-speed chart: 'Publicly Reported California Ballot Counting Progress on Nov 15, 2022 — Percentage of Nov 08, 2022 ballots reported as counted one week after Election Day.' Napa 61.1%; statewide average 77.7%; data as of 10:10 AM PT Nov 16, 2022 (Nov 2022 General)."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": 54.7,
+      "denominator": "ballots counted to date (CalVoter Close Count Transparency Project basis; numerator = ballots counted within ~1 week of Election Day)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CalVoter 'Ballot Processing' chart: 'Publicly Reported California Ballot Counting Progress on Nov 12, 2024 — Percentage of Nov 05, 2024 ballots reported as counted one week after Election Day.' Napa 54.7%; statewide average 86.1%; data as of 10:06 PM PT Nov 12, 2024 (Nov 2024 General). Note on chart: under AB 3184 (2024) certification was prohibited until 28+ days after Election Day."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": 66.7,
+      "denominator": "ballots counted to date (CalVoter Close Count Transparency Project basis; numerator = ballots counted within ~1 week of Election Day)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CalVoter 'Ballot Processing' chart: 'Publicly Reported California Ballot Counting Progress on Nov 11, 2025 — Percentage of Nov. 4 ballots counted one week after Election Day.' Napa 66.7%; statewide average 93.9% (Nov 2025 odd-year election). Latest odd-year general."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": "",
+      "source_url": "",
+      "confidence": "none",
+      "note": "Not collected: requires Napa County's first-post-poll-close election-night report ballot count divided by certified-final ballots. Neither the first-report figure nor the certified-final denominator was gathered in this pass. Value left null per schema rather than substituting a different denominator."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": "",
+      "source_url": "",
+      "confidence": "none",
+      "note": "Not collected: requires per-release daily canvass totals to find the day cumulative count first reached >=90% of certified final. Napa County does not publish per-day canvass totals in an accessible form; value null."
+    }
+  ],
+  "notes": "TECH: Napa is a Voter's Choice Act county since 2018 (one of the five original SB 450 pilot counties: Madera, Napa, Nevada, Sacramento, San Mateo), first VCA/vote-center election June 5, 2018 primary. Vote-center model => electronic pollbooks (real-time electronic voter roster connected to the county EMS/VoteCal) adopted the same year. Voter-registration/EMS vendor is DFM Associates; tabulation/BMD voting system is Dominion Voting Systems (ICX Ballot Marking Devices + Mobile Ballot Printing) per the EAP (these are the voting/tabulation system, not one of the four tracked tech types). ASV: not adopted — signature verification is done by Election Division staff comparing signatures (human review), no automated signature-verification software identified. Sign-Scan-and-Go (AB 626 in-vote-center mail-ballot verify+scan): no evidence of adoption. METRICS: CalVoter one-week-counted values are chart-read off the CalVoter 'Ballot Processing' county counting-speed charts (per-year): 2022 = 61.1%, 2024 = 54.7%, 2025 = 66.7% (statewide averages 77.7%, 86.1%, 93.9% respectively). These should be re-read precisely in a verification pass. electionnight_pct and days_to_90 left null (denominators / per-day canvass data not collected); no substitute denominators used. Verify first-election month (June vs Nov 2018) and the exact DFM e-pollbook product if higher precision is needed."
+}

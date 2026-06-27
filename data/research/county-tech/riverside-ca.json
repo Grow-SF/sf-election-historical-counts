@@ -1,0 +1,94 @@
+{
+  "jurisdiction": "Riverside County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2022,
+      "first_election": "2022-06",
+      "vendor": "Registrar's election management system on networked laptops (no dedicated tablet e-pollbook product named)",
+      "evidence_url": "https://docs.voteinfo.net/docs/riverside-eap-final_ADA_EN.pdf",
+      "confidence": "primary",
+      "note": "Electronic roster / real-time check-in adopted with the Voter's Choice Act transition; first conducted at the June 7, 2022 Gubernatorial Primary (first VCA election). EAP (Voting Technology > 'Direct Connection to Voter Database'): 'Instead of the former system which called for the creation of paper rosters of voters assigned to a particular polling place, this new voting method allows for a direct connection to the Registrar of Voters election management system. The Registrar of Voters utilizes five laptops located at the check-in station of each Vote Center... to search for the voter in the election management system... they are given an indication as to whether the voter has already voted or is eligible to cast a ballot.' This is a digital roster/e-pollbook in function (real-time voted/eligible status across all vote centers), but Riverside uses networked laptops tied to its EMS rather than a named tablet e-pollbook product (e.g. KNOWiNK Poll Pad / Tenex); vendor/product not named in the EAP. Before VCA (2022) Riverside used paper rosters at assigned polling places."
+    },
+    {
+      "type": "asv",
+      "status": "adopted",
+      "adopted_year": 2025,
+      "first_election": "2025-11",
+      "vendor": "Automated signature-verification software embedded in the Registrar's high-speed mail sorter (BlueCrest Vantage sorter w/ Parascript SignatureXpert.AI engine per industry sources; not confirmed by a Riverside primary source)",
+      "evidence_url": "https://kesq.com/news/2025/10/23/registrar-demonstrates-new-auto-signature-verification-tool-ahead-of-election/",
+      "confidence": "secondary",
+      "note": "Automated signature verification (ASV) first used as a PILOT at the November 4, 2025 special election; moved to PRODUCTION at the June 2, 2026 Statewide Direct Primary. KESQ (2025-10-23, Registrar Art Tinoco demo): software in the Registrar's sorting machines compares the envelope signature to the voter's file in seconds, sorting ballots into ASV (passed) vs MSV (manual signature verification) buckets at a ~45% confidence threshold; during the pilot ALL ASV-passed ballots were still re-verified manually, with full implementation targeted for June 2, 2026 and an estimated >50% staffing reduction. Production use confirmed for June 2026: 'Riverside County introduced new software to help verify signatures... for the June 2026 primary election. If the system cannot verify a signature, it is reviewed by a staff member' (system passing ~50-60% as good signatures). Vendor/engine attribution (BlueCrest Vantage sorter + Parascript SignatureXpert.AI) is from industry/secondary sources, not a Riverside primary doc, so vendor confidence is secondary. ASV also operational in San Diego and San Bernardino counties (KESQ). Note: prior to ASV, the 2022 EAP describes purely manual signature comparison (staff compares scanned envelope image to signature on file)."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://docs.voteinfo.net/docs/riverside-eap-final_ADA_EN.pdf",
+      "confidence": "secondary",
+      "note": "No in-vote-center mail-ballot 'Sign-Scan-and-Go' (AB 626 Placer-County-style) workflow. Returned vote-by-mail ballots are processed CENTRALLY at the Registrar: 'Each returned Vote-by-Mail ballot envelope is processed through a mail sorter which sorts the ballot by voting precinct. This process takes a picture of the envelope with the voter's signature, which is uploaded into the department's election management system. Staff then compares the scanned signature image to the signature on file...' (EAP). Ballots dropped at vote centers/drop boxes are transported to the Registrar for this central processing; there is no described in-vote-center verify-and-scan of the voter's own returned envelope. Sign-Scan-and-Go is a Placer County program, not Riverside. Finding by absence of evidence in the primary EAP."
+    },
+    {
+      "type": "vote-center",
+      "status": "adopted",
+      "adopted_year": 2022,
+      "first_election": "2022-06",
+      "vendor": "Dominion Voting Systems (Democracy Suite) ballot-marking + tabulation under the Voter's Choice Act vote-center model",
+      "evidence_url": "https://docs.voteinfo.net/docs/riverside-eap-final_ADA_EN.pdf",
+      "confidence": "primary",
+      "note": "California Voter's Choice Act (SB 450) vote-center model: every voter mailed a ballot, expanded in-person early voting, any-vote-center voting, drop boxes. Riverside County Board of Supervisors approved VCA implementation on 2021-12-14 (board-vote / adoption date). First election conducted under the model = June 7, 2022 Gubernatorial Primary. EAP: 'The first official election under this new model will be the June 7, 2022 Gubernatorial Primary Election.' (Riverside ran vote centers in Nov 2020 and Sept 2021 under COVID emergency provisions, but formal VCA adoption/first VCA election = 2022.) Voting/tabulation system: Dominion Democracy Suite (ICX ballot-marking devices used exclusively, Ballot On-Demand, high-speed tabulators); system replaced in 2019 after state decertification."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": 78.9,
+      "denominator": "CVF basis: % of Nov 8, 2022 ballots reported as counted one week after Election Day (ballots counted by day 7 / ballots counted to date); statewide avg 77.7%",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from California Voter Foundation 'Ballot Processing' county chart 'Publicly Reported California Ballot Counting Progress on Nov 15, 2022' (Percentage of Nov 08, 2022 ballots reported as counted one week after Election Day; data as of 10:10 AM PT Nov 16, 2022). Riverside bar labeled 78.9% (just above the statewide 77.7% dashed line). Source: CA SoS County Reporting Status Data via CVF Close Count Transparency Project."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": 88.2,
+      "denominator": "CVF basis: % of Nov 5, 2024 ballots reported as counted one week after Election Day (ballots counted by day 7 / ballots counted to date); statewide avg 86.1%",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CVF 'Ballot Processing' county chart 'Publicly Reported California Ballot Counting Progress on Nov 12, 2024' (Percentage of Nov 05, 2024 ballots reported as counted one week after Election Day). Riverside bar labeled 88.2% (Kern 88.7% above, Statewide 86.1% below)."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": 97.9,
+      "denominator": "CVF basis: % of Nov 4, 2025 ballots counted one week after Election Day; odd-year consolidated election; statewide avg 93.9%",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Latest odd-year. Chart-read from CVF 'Ballot Processing' county chart 'Publicly Reported California Ballot Counting Progress on Nov 11, 2025' (Percentage of Nov. 4 ballots counted one week after Election Day). Riverside bar labeled 97.9% (tied with Santa Cruz; well above the statewide 93.9% line)."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": "first post-poll-close report total not cleanly published paired with certified final",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Riverside's EAP states VBM ballots received before Election Day 'are included in the initial election night results released shortly after 8:00 pm,' but a clean first-post-poll-close report ballot TOTAL paired with the certified-final denominator for the Nov 5, 2024 general was not located in a comparable primary form. Not substituting '% of registered voters'. Value null per metric rules."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Riverside does not publish a clean per-day/per-release canvass cumulative series, so the day on which >=90% of the certified final was counted cannot be reconstructed."
+    }
+  ],
+  "notes": "Riverside County, CA. Vote-center / Voter's Choice Act county: Board of Supervisors approved VCA on 2021-12-14; first VCA election = June 7, 2022 Gubernatorial Primary (paper rosters replaced by a direct electronic connection to the Registrar's election management system via networked laptops at vote centers = the e-pollbook/digital-roster finding; no named tablet e-pollbook product). Voting/tabulation system: Dominion Democracy Suite (replaced 2019). HEADLINE FINDING (matches worklist hint 'ASV pilot 2025, production 2026'): Riverside adopted AUTOMATED SIGNATURE VERIFICATION as a pilot at the Nov 4, 2025 special election (all ASV-passed ballots still manually re-verified during the pilot) and moved to PRODUCTION at the June 2, 2026 Statewide Direct Primary, with software embedded in the Registrar's high-speed mail sorter sorting envelopes into ASV (auto-passed, ~45% confidence threshold) vs MSV (manual review) buckets; ~50-60% auto-passed in June 2026, enabling a ~50%+ signature-staffing cut. ASV vendor/engine (BlueCrest Vantage sorter + Parascript SignatureXpert.AI) is industry/secondary attribution, not a Riverside primary doc -> vendor confidence secondary; ASV adoption itself is well-documented in news (KESQ/NBC Palm Springs) but no registrar primary-doc URL was located, so the asv row's confidence is secondary. Sign-Scan-and-Go: NOT adopted (VBM processed centrally at the Registrar per the EAP). oneweek_pct captured from the canonical CVF 'Ballot Processing' charts, chart-read for 2022 (78.9%), 2024 (88.2%) and 2025 (97.9%) -- Riverside is consistently a hair above the statewide average and rose to near the top of the field by 2025 (verifier should re-read the chart-read percentages). electionnight_pct and days_to_90 left null/none (no certified-final-denominated first report; no per-day canvass series). Context figures (not metrics): June 2, 2026 primary certified 550,840 ballots, 38.35% turnout."
+}
