@@ -525,6 +525,11 @@
   background-color: rgb(100 208 156 / 0.1);
 }
 
+.lc-root .bg-ink {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 48 46 / var(--tw-bg-opacity, 1));
+}
+
 .lc-root .bg-night {
   --tw-bg-opacity: 1;
   background-color: rgb(4 65 71 / var(--tw-bg-opacity, 1));
@@ -766,6 +771,11 @@
   transition-duration: 150ms;
 }
 
+.lc-root .hover\:border-ink:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(22 48 46 / var(--tw-border-opacity, 1));
+}
+
 .lc-root .hover\:border-rust:hover {
   --tw-border-opacity: 1;
   border-color: rgb(0 119 132 / var(--tw-border-opacity, 1));
@@ -782,6 +792,11 @@
 
 .lc-root .hover\:bg-rust\/10:hover {
   background-color: rgb(0 119 132 / 0.1);
+}
+
+.lc-root .hover\:text-ink:hover {
+  --tw-text-opacity: 1;
+  color: rgb(22 48 46 / var(--tw-text-opacity, 1));
 }
 
 .lc-root .hover\:text-night:hover {
