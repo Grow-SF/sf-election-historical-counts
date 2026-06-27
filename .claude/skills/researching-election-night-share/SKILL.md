@@ -9,14 +9,20 @@ description: Use when finding a US county/jurisdiction's ELECTION-NIGHT ballot-c
 
 Produce, for ONE county, its **election-night %** for the elections that bracket
 its e-pollbook and ASV adoption years — so we can see whether the tech moved the
-metric it should (election-night, not the one-week rate). Election-night % is the
-share counted in the **first report after polls close**; e-pollbooks (ending the
-Monday pause) and ASV (faster signature checks) should raise it if they help.
+metric it should (election-night, not the one-week rate).
 
-`election-night % = first-post-poll-close-report ballots ÷ certified final ballots`
+**Use the LAST report posted on election night** — the cumulative total at the
+final election-night update, before the county stops and resumes the canvass days
+later. **NOT the first 8 p.m. tranche** (that undercounts the night by ~2× and
+is the classic mistake) and **NOT a days-later canvass update.**
+
+`election-night % = ballots in the LAST election-night report ÷ certified final ballots`
 
 A value you cannot source to that definition is `null` with a reason — never a
-substituted denominator (e.g. "% of registered voters").
+substituted denominator (e.g. "% of registered voters") and never a different
+report time. (Calibration: San Francisco's authoritative final-election-night
+share is ~59% in 2018 and ~57% in 2024 — if a county comes back near half that,
+you grabbed the first tranche, not the last report.)
 
 ## Getting the election-night numerator (the hard part)
 
@@ -28,9 +34,12 @@ JS-rendered (curl gets an empty shell), so the reliable recipe is:
 1. **Find snapshots — `curl` the Wayback CDX API** (not WebFetch):
    `curl "https://web.archive.org/cdx/search/cdx?url=<results-page>&from=<YYYYMMDD>&to=<+1day>&output=json&filter=statuscode:200&filter=mimetype:text/html&limit=8"`
    (CDX is sometimes slow on `*` prefixes — use the exact page URL and retry.)
-2. **Pick the FIRST snapshot after poll close** — 8 p.m. PT ≈ `04:00` UTC the
-   next day. The earliest capture is often *pre-close* and renders
-   `Ballots Cast 0`; take the first one with a non-zero count.
+2. **Pick the LAST election-night snapshot** — counties update through the night
+   (~8 p.m.–1 a.m. PT) then STOP until the canvass days later. On the CDX
+   timeline, take the snapshot with the highest cumulative count right before a
+   `>1`-day gap. NOT the 8 p.m. first tranche (it undercounts the night ~2×),
+   NOT a days-later capture. Render a few candidates and take the latest one whose
+   count hasn't jumped again (the night's plateau).
 3. **Render it** with the puppeteer helper:
    `WB_URL="https://web.archive.org/web/<ts>/<original>" NODE_PATH=$(pwd)/node_modules node scripts/research/render_wayback.cjs`
    → prints `Ballots Cast/Counted <N>` = the numerator (`confidence: "primary"`).
