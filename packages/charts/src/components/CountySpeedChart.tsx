@@ -8,6 +8,7 @@ import {
   ComposedChart,
   Line,
   LineChart,
+  ReferenceDot,
   ReferenceLine,
   ResponsiveContainer,
   Tooltip,
@@ -59,17 +60,22 @@ const BASE = Object.entries(OW)
   .sort((a, b) => (b.y2025 as number) - (a.y2025 as number));
 
 const BY_CHANGE = [...BASE].sort((a, b) => b.change - a.change);
-const TREND = ["2022", "2024", "2025"].map((y) => ({
-  year: y,
+// numeric-year line data, so adoption-year markers can sit on a real time axis
+const TLINE = [2022, 2024, 2025].map((x) => ({
+  x,
   ...Object.fromEntries(
-    BASE.map((c) => [c.jurisdiction, OW[c.jurisdiction]?.[Number(y)] ?? null]),
+    BASE.map((c) => [c.jurisdiction, OW[c.jurisdiction]?.[x] ?? null]),
   ),
 }));
+const adoptYear = (j: string) => {
+  const t = TECH[j] || {};
+  return (t.epollbook ?? t["sign-scan-go"] ?? t.asv) || null;
+};
 
 const endLabel =
   (short: string, color: string, bold: boolean) =>
   (props: { x?: number | string; y?: number | string; index?: number }) => {
-    if (props.index !== TREND.length - 1) return null;
+    if (props.index !== TLINE.length - 1) return null;
     return (
       <text
         x={Number(props.x ?? 0) + 6}
@@ -88,7 +94,7 @@ const endLabel =
 const VIZ = [
   { key: "arrows", label: "arrows" },
   { key: "change", label: "change" },
-  { key: "lines", label: "lines" },
+  { key: "timeline", label: "timeline" },
 ] as const;
 type Viz = (typeof VIZ)[number]["key"];
 
@@ -109,7 +115,7 @@ function YTick({ x, y, payload, moss, warn }: { x?: number; y?: number; payload?
 
 export default function CountySpeedChart() {
   const theme = useChartTheme();
-  const [viz, setViz] = useState<Viz>("change");
+  const [viz, setViz] = useState<Viz>("timeline");
   const moss = theme.colorsByKind.Special;
   const warn = theme.colorsByKind.Recall;
   const height = BASE.length * 40 + 64;
@@ -125,13 +131,14 @@ export default function CountySpeedChart() {
       subtitle="Share of ballots counted within a week of Election Day, 2022 vs 2025"
       note={
         <>
-          Almost every California county sped up between 2022 and 2025 — most
-          after adopting electronic pollbooks and/or automated signature
-          verification (badges show the year each was first used). The two that
-          slipped: San Francisco, which adopted <em>neither</em>, and Fresno,
-          which adopted both — a reminder that the tech helps but isn’t the whole
-          story. (National adopters — Pennsylvania 2016, Wisconsin 2018, New York
-          2019 — publish no comparable metric.) Sources in{" "}
+          Most counties adopted this tech years before our one-week data begins
+          in 2022 — and several were still slow then — so the 2022–25 rise is
+          largely a statewide trend (the state average climbed 78% → 94%), not a
+          direct adoption effect. San Francisco, which adopted <em>nothing</em>,
+          is the one that fell behind that rise; Fresno, which adopted both, also
+          slipped. Marks/badges show each county’s adoption year. (National
+          adopters — Pennsylvania 2016, Wisconsin 2018, New York 2019 — publish
+          no comparable metric.) Sources in{" "}
           <a
             href="https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
             target="_blank"
@@ -187,13 +194,38 @@ export default function CountySpeedChart() {
             </Bar>
           </BarChart>
         ) : (
-          // multi-line trend: one line per county, 2022 → 2024 → 2025; the two
-          // decliners (SF, Fresno) bold-red, the rising adopters a muted bundle
-          <LineChart data={TREND} margin={{ top: 12, right: 120, bottom: 8, left: 8 }}>
+          // corrected timeline: each county's adoption year (●, on a real time
+          // axis) vs its one-week trajectory (2022–2025). Most adopted years
+          // before the data begins — and were still slow at 2022 — so the rise
+          // is a statewide trend, not a clean adoption effect.
+          <LineChart data={TLINE} margin={{ top: 18, right: 122, bottom: 8, left: 8 }}>
             <CartesianGrid stroke={theme.rule} strokeDasharray="2 4" vertical={false} />
-            <XAxis dataKey="year" tick={{ fontFamily: theme.fontMono, fontSize: 12, fill: theme.faint }} stroke={theme.faint} tickLine={false} padding={{ left: 24, right: 24 }} />
+            <XAxis type="number" dataKey="x" domain={[2017.5, 2025.8]} ticks={[2018, 2020, 2022, 2024]} tickFormatter={(v: number) => `’${String(v).slice(2)}`} tick={{ fontFamily: theme.fontMono, fontSize: 11, fill: theme.faint }} stroke={theme.faint} tickLine={false} />
             <YAxis type="number" domain={[40, 100]} ticks={[40, 60, 80, 100]} tickFormatter={(v: number) => `${v}%`} tick={{ fontFamily: theme.fontMono, fontSize: 11, fill: theme.faint }} stroke={theme.faint} tickLine={false} width={44} />
             <Tooltip isAnimationActive={false} />
+            <ReferenceLine x={2022} stroke={theme.faint} strokeDasharray="2 3" label={{ value: "one-week data begins", position: "top", fontFamily: theme.fontMono, fontSize: 9, fill: theme.faint }} />
+            {BASE.map((c) => {
+              const ay = adoptYear(c.jurisdiction);
+              if (!ay) return null;
+              const decliner = c.change < 0;
+              const color = decliner ? warn : moss;
+              return (
+                <ReferenceLine
+                  key={`seg-${c.jurisdiction}`}
+                  segment={[{ x: ay, y: c.y2022 as number }, { x: 2022, y: c.y2022 as number }]}
+                  stroke={color}
+                  strokeOpacity={decliner ? 0.55 : 0.22}
+                  strokeDasharray="1 4"
+                />
+              );
+            })}
+            {BASE.map((c) => {
+              const ay = adoptYear(c.jurisdiction);
+              if (!ay) return null;
+              const decliner = c.change < 0;
+              const color = decliner ? warn : moss;
+              return <ReferenceDot key={`dot-${c.jurisdiction}`} x={ay} y={c.y2022 as number} r={3} fill={color} fillOpacity={decliner ? 1 : 0.6} stroke="none" />;
+            })}
             {BASE.map((c) => {
               const decliner = c.change < 0;
               const color = decliner ? warn : moss;

@@ -10,5 +10,5 @@ test("county speed chart renders its title and viz chips", () => {
   // the three visualization-type chips
   expect(screen.getByText("arrows")).toBeInTheDocument();
   expect(screen.getByText("change")).toBeInTheDocument();
-  expect(screen.getByText("lines")).toBeInTheDocument();
+  expect(screen.getByText("timeline")).toBeInTheDocument();
 });
