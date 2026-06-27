@@ -1,0 +1,72 @@
+{
+  "jurisdiction": "Napa County",
+  "state": "CA",
+  "adoption": { "epollbook": 2018, "asv": null },
+  "elections": [
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 63255,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 63,255 ballots is solid (SoS Voter Participation Statistics; matches county certified report, Clinton 39,199/63.87%). The county DocumentCenter for the Nov 8 2016 general archives only a Nov-30 'Final Unofficial Post-Election Night Report' and the certified results page -- no 8 PM first-night report exists in the archive. Wayback is blocked in this environment, so the election-night first-tranche count is not sourceable. Pre-adoption (e-pollbooks first used 2018)."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": 21732,
+      "certified_final": 57132,
+      "election_night_pct": 0.3804,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://www.napacounty.gov/DocumentCenter/View/10435/First-Unofficial-Election-Night-Report-11-06-18-PDF",
+      "confidence": "primary",
+      "note": "First adoption year for e-pollbooks (post). County 'First Unofficial Election Night Report' = 21,732 voters cast (27.81% of 78,135 reg). The header 'Ballots Cast: 43,527' is ballot CARDS (~2 cards/voter); the voter/ballot count is 21,732 (Governor 'Times Cast 21,732'), consistent with the SoS certified total of 57,132 voters. Report internal clock reads 6:25 PM (generation time; published election night). Count barely moved overnight -- the 'Last Unofficial Election Night Report' (10:52 PM) was 21,774 voters (+42); the remaining ~62% were tallied in the post-election canvass. Pct = 21,732/57,132."
+    },
+    {
+      "date": "2020-11-03",
+      "type": "presidential-general",
+      "election_night_ballots": 42914,
+      "certified_final": 73269,
+      "election_night_pct": 0.5857,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2020-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://www.napacounty.gov/DocumentCenter/View/19409/First-Unofficial-Election-Night-Report_11_3_20_0801PM-PDF",
+      "confidence": "primary",
+      "note": "County 'First Unofficial Election Night Report' timestamped 8:00:59 PM = 'Cards Cast: 42,914' (188 of 191 precincts, 98.24%). Equals ballots/voters here -- the President contest drew ~42,300 votes (Biden 31,270 + Trump 10,392 + others), so essentially one card per voter. High election-night share reflects 2020 universal vote-by-mail (COVID): a very large early-VBM batch was already processed by 8 PM. Pct = 42,914/73,269."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 20390,
+      "certified_final": 50788,
+      "election_night_pct": 0.4015,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://www.napacounty.gov/DocumentCenter/View/26982/First-Unofficial-Election-Night-Report-801-PM-11822-PDF",
+      "confidence": "primary",
+      "note": "County '1st Unofficial Election Night Report' timestamped 8:01 PM = 20,390 voters cast (24.43% of 83,471 reg), 100% Vote-by-Mail (Election Day 0), 198 of 200 precincts. 'Last Unofficial Election Night Report' was 10:46 PM. Pct = 20,390/50,788."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 22504,
+      "certified_final": 66634,
+      "election_night_pct": 0.3377,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://www.napacounty.gov/DocumentCenter/View/34228/First-Unofficial-Election-Night-Results_11052024_GeneralElection",
+      "confidence": "primary",
+      "note": "County 'First Unofficial Election Night Report' timestamped 8:01 PM = 22,504 voters cast (26.43% of 85,150 reg), all 204 precincts. 'Last Unofficial Election Night Report' (12:35 AM) = 26,160. Much lower election-night share than 2020 presidential (58.6%), which had the pandemic universal-mail surge; e-pollbooks (2018) did not raise the election-night share here. Pct = 22,504/66,634."
+    }
+  ]
+}

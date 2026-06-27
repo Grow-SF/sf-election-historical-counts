@@ -1,0 +1,72 @@
+{
+  "jurisdiction": "Los Angeles County",
+  "state": "CA",
+  "adoption": { "epollbook": 2020, "asv": 2020 },
+  "elections": [
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 3544115,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Pre-adoption presidential baseline. Certified final = 'Total Voters' (Ballots Cast) for LA County from the SoS Voter Participation Statistics (Precinct 2,260,467 + VBM 1,283,648 = 3,544,115). Election-night first-report total not sourceable in this environment: Wayback is blocked, LA County's lacounty.gov press-release archive does not go back to 2016, and no contemporaneous news quoting a county-wide election-night ballot total could be found. Value left null rather than substituting a wrong denominator."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": 1635739,
+      "certified_final": 3023417,
+      "election_night_pct": 54.1,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://witnessla.com/historic-dramatic-la-county-sheriffs-race-will-be-decided-by-985000-ballots-still-to-be-counted/",
+      "confidence": "secondary",
+      "note": "Pre-adoption midterm baseline. PROXY / lower bound: no county-wide election-night ballot total found; the figure is the LA County Sheriff race election-night (Nov 6 night) semi-official count, Villanueva 820,333 + McDonnell 815,406 = 1,635,739. That is a single contest, so it slightly UNDERSTATES total ballots cast on election night (some voters skip the sheriff race); true total-ballot election-night share is a few points above 54.1%. Certified final = 'Total Voters' from SoS Voter Participation Statistics (1,673,104 + 1,350,313 = 3,023,417)."
+    },
+    {
+      "date": "2020-11-03",
+      "type": "presidential-general",
+      "election_night_ballots": 2600000,
+      "certified_final": 4338191,
+      "election_night_pct": 59.9,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2020-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "secondary",
+      "note": "Post-adoption presidential. PROXY: contemporaneous local news reported 'more than 2.6 million ballots counted' in LA County on election night Nov 3 2020 (cited in DA / Measure J coverage). This is an approximate end-of-election-night running total, not an official semi-final figure, and 'more than 2.6M' makes ~59.9% a floor. No confirmable archival URL in this environment (Wayback blocked). CONFOUND: 2020 was the first election in which every CA registered voter was mailed a ballot (COVID), heavily reshaping the VBM share independent of the new tech. Certified final = 'Total Voters' (913,765 + 3,424,426 = 4,338,191)."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 1318093,
+      "certified_final": 2456701,
+      "election_night_pct": 53.65,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://lacounty.gov/2022/11/09/semi-final-results-announced-for-the-2022-general-election/",
+      "confidence": "primary",
+      "note": "Post-adoption midterm. DIRECT official figure: LA County RR/CC 'Semi-Final Results Announced for the 2022 General Election' (Nov 9, 2022) states 1,318,093 ballots were processed and counted on election night (23.42% of registered voters). This is the full end-of-election-night (semi-official) total, not the 8 p.m. first tranche. Certified final = 'Total Voters' (487,368 + 1,969,333 = 2,456,701)."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 2615541,
+      "certified_final": 3793106,
+      "election_night_pct": 68.96,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://lacounty.gov/2024/11/06/first-post-election-night-ballot-count-update-for-the-2024-general-election/",
+      "confidence": "secondary",
+      "note": "Post-adoption presidential. DERIVED from official RR/CC 'First Post-Election Night Ballot Count Update' (Nov 6, 2024): total after first update = 2,696,482 and 80,941 ballots were 'processed since Election Night', so election-night total = 2,696,482 - 80,941 = 2,615,541. The identical method exactly reproduced the officially-stated 2022 semi-final total (1,318,093), so the derivation is reliable; this is the end-of-election-night cumulative total. Certified final = 'Total Voters' (1,060,354 + 2,732,752 = 3,793,106)."
+    }
+  ]
+}

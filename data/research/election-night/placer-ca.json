@@ -1,0 +1,59 @@
+{
+  "jurisdiction": "Placer County",
+  "state": "CA",
+  "adoption": { "epollbook": 2024, "asv": null },
+  "elections": [
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 190550,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final (Total Voters) = 190,550 from CA SoS Voter Participation Statistics by County. First-report (8pm) tranche not sourceable in this environment (Wayback blocked; abc10/sierra live blogs are paywalled/JS-gated; no county press release gives a countywide first-report ballot count). Pre-VCA polling-place counting model, so not directly comparable to the 2020+ all-mail/vote-center elections anyway. Placer adopted the Voter's Choice Act (all-mail + vote centers) starting in 2020."
+    },
+    {
+      "date": "2020-11-03",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 239315,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2020-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final (Total Voters) = 239,315 from CA SoS Voter Participation Statistics by County. First-report (~8pm) VBM tranche not sourceable here: Wayback is blocked, the abc10 live blog renders only a consent shell, and no Placer press release with a countywide first-report ballot count could be found. County reported planning a single ~8pm release of pre-election-day VBM plus one later update. This is the clean pre-epollbook presidential bracket but its numerator could not be sourced. (NOTE: a YubaNet 'first results' piece showing ~63,000 early ballots is the MARCH 3, 2020 PRIMARY, not this November general.)"
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 49000,
+      "certified_final": 184507,
+      "election_night_pct": 26.6,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://www.placer.ca.gov/8408/First-election-results-are-in",
+      "confidence": "secondary",
+      "note": "First wave of results came in ~8:10pm with 'nearly 49,000 mail-in and early voting ballots counted of the approximately 100,000 received so far' (Placer County news release, page 8408). Proxy figure (~49,000), so pct (~26.6% = 49,000/184,507) is approximate. Certified final (Total Voters) = 184,507 from CA SoS Voter Participation Statistics by County. Type note: midterm, so not like-to-like with the 2024 presidential post figure."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 104382,
+      "certified_final": 239402,
+      "election_night_pct": 43.6,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://www.placer.ca.gov/10016/2024-election-results",
+      "confidence": "secondary",
+      "note": "First/initial results released after poll close included exactly 104,382 vote-by-mail ballots submitted by mail or drop box before election day (Placer County news release, page 10016); additional vote-center updates followed ~10pm and ~11:30pm. 104,382/239,402 = 43.6%. Certified final (Total Voters) = 239,402 from CA SoS Voter Participation Statistics by County. First post-epollbook presidential general. The only sourceable pre figure is the 2022 MIDTERM (~26.6%), so any pre/post jump is confounded by election type (presidential VBM share >> midterm); the like-to-like 2020 presidential pre numerator could not be sourced."
+    }
+  ]
+}

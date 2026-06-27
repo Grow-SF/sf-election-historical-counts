@@ -1,0 +1,85 @@
+{
+  "jurisdiction": "Madera County",
+  "state": "CA",
+  "adoption": { "epollbook": 2018, "asv": null },
+  "elections": [
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 27370,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 27,370 ballots cast (Total Voters) from CA SoS Statement of Vote, 'Voter Participation Statistics by County' section of the complete 2014 SOV PDF (Madera: 100 precincts, 85,976 eligible, 52,494 registered, 8,970 precinct + 18,400 VBM = 27,370; 52.14% of registered / 31.83% of eligible). Election-night first-report count not sourceable without Wayback (blocked here); pre-2016 county live-results snapshots are not preserved in accessible news."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 44186,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 44,186 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County' (Madera: 102 precincts, 87,254 eligible, 58,086 registered, 15,211 precinct + 28,975 VBM = 44,186; 76.07% of registered / 50.64% of eligible). First-report (election-night) count not sourceable here; Sierra News Online's 2016 results article only pointed readers to votemadera.com without a number, and the precise first tranche requires the blocked Wayback Machine."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 38968,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "First election under e-pollbooks (adopted 2018). Certified final 38,968 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County' (Madera: 69 precincts, 89,818 eligible, 57,418 registered, total 38,968; 67.87% of registered / 43.39% of eligible). Election-night first-report count not sourceable without the blocked Wayback Machine; no news quoting the first tranche found."
+    },
+    {
+      "date": "2020-11-03",
+      "type": "presidential-general",
+      "election_night_ballots": 40955,
+      "certified_final": 54392,
+      "election_night_pct": 75.3,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2020-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://sierranewsonline.com/madera-county-mountain-communities-local-election-results/",
+      "confidence": "secondary",
+      "note": "Numerator 40,955 is a proxy: Sierra News Online quoting the Madera County Registrar's website first posting -- 'Madera County currently has 67,743 registered voters with 40,955 ballots cast in this election resulting in a 60.46% turnout,' as of Nov 4, 2020 with the next update scheduled Friday Nov 6 at 4pm (i.e. the election-night/morning-after first report, not the 8pm first tranche). Certified final 54,392 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County' (Madera: 90,184 eligible, 67,909 registered, 6,392 precinct + 48,000 VBM = 54,392; 80.10% of registered / 60.31% of eligible). pct = 40,955 / 54,392 = 75.3%."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 37345,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 37,345 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County' (Madera: 59 precincts, 93,789 eligible, 72,865 registered, 3,333 precinct + 34,012 VBM = 37,345; 51.25% of registered / 39.82% of eligible). Election-night first-report count not sourceable here; first tranche lived only on the overwritten Clarity live-results page, which requires the blocked Wayback Machine."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 55329,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 55,329 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County' (Madera: 78 precincts, 95,290 eligible, 78,204 registered, 8,560 precinct + 46,769 VBM = 55,329; 70.75% of registered / 58.06% of eligible). Election-night first-report count not sourceable here: no Madera-specific Nov 2024 first-count article found on Sierra News Online / local TV, and the registrar's first tranche (posted on votemadera.com / Clarity ENR) is overwritten and would need the blocked Wayback Machine. For reference, the March 2024 primary first report was 16,048 ballots at 10:25pm election night per Sierra News Online -- shows the registrar does post an election-night count, just not captured here for the general."
+    }
+  ]
+}

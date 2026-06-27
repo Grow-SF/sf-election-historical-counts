@@ -1,0 +1,72 @@
+{
+  "jurisdiction": "Fresno County",
+  "state": "CA",
+  "adoption": { "epollbook": 2020, "asv": 2020 },
+  "elections": [
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 291890,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 291,890 ballots cast (CA SoS Statement of Vote, Voter Participation by County; election-day 131,787 + VBM 160,103 = 291,890; 66.73% of 437,423 registered). Pre-adoption baseline (precinct-based county). First-post-poll-close report figure not sourceable: live results pages overwrite and the Wayback Machine is blocked in this environment; no press release or news quote of the 8 p.m. first tranche was found."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 256972,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 256,972 ballots cast (CA SoS; election-day 93,581 + VBM 163,391 = 256,972; 56.24% of 456,891 registered). Pre-adoption baseline. No first-report figure sourceable. Only proxy found is ABC30 (Thu Nov 8, two days after election) saying 'over 100,000 ballots still need to be counted' (76,000 mail + 24,000 provisional) -> implies ~157,000 counted as of Thu, but that is two days out (not the 8 p.m. first tranche) and late VBM kept arriving, so it is not a valid election-night numerator. Value left null."
+    },
+    {
+      "date": "2020-11-03",
+      "type": "presidential-general",
+      "election_night_ballots": 234000,
+      "certified_final": 370068,
+      "election_night_pct": 63.23,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2020-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://abc30.com/fresno-county-votes-election-polling-brandi-orth/7652941/",
+      "confidence": "secondary",
+      "note": "Certified final 370,068 ballots cast (CA SoS; election-day/in-person 50,605 + VBM 319,463 = 370,068; 74.54% of 496,482 registered). Election-night numerator is a news proxy: ABC30 (Nov 5, 2020) quotes Registrar Brandi Orth's FIRST update as counting 'roughly 234,000 ballots submitted through the mail or in 66 drop boxes countywide.' 234,000/370,068 = 63.23%. Approximate ('roughly'), first-update VBM/drop-box tranche; secondary confidence. First election under VCA vote centers / e-pollbooks / ASV (pandemic-peak early VBM return inflated this first tranche)."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 221419,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 221,419 ballots cast (CA SoS; election-day/in-person 28,343 + VBM 193,076 = 221,419; 44.28% of 500,076 registered). No clean first-report numerator sourceable. Fresnoland (Nov 8, 2022) framed election-night results as '30% of total eligible voters' (~193k of 642,412 eligible) and 'about 41,000 ballots have yet to be counted' as of Wednesday morning -- both are the wrong-denominator framing and/or day-after running totals, not the 8 p.m. first tranche -> value left null per definition."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 150000,
+      "certified_final": 330932,
+      "election_night_pct": 45.33,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://abc30.com/post/fresno-county-voting-breaks-records-voters-stand-lines-hours/15519273/",
+      "confidence": "secondary",
+      "note": "Certified final 330,932 ballots cast (CA SoS; in-person 63,049 + VBM 267,883 = 330,932; 64.41% of 513,799 registered). Election-night numerator is a news proxy: ABC30 reports the first results wave released shortly after 8 p.m. 'included all early vote-by-mail ballots, about 150,000.' 150,000/330,932 = 45.33%. Approximate, first 8 p.m. VBM tranche (Registrar James Kus said the first batch covered ballots returned through Saturday Nov 2); secondary confidence. ~100,000 VBM dropped on/after election day were still unprocessed, which is why this first-tranche share is lower than 2020's."
+    }
+  ]
+}

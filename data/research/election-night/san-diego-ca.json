@@ -1,0 +1,59 @@
+{
+  "jurisdiction": "San Diego County",
+  "state": "CA",
+  "adoption": { "epollbook": 2022, "asv": 2024 },
+  "elections": [
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": 662718,
+      "certified_final": 1173924,
+      "election_night_pct": 56.5,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://www.sdvote.com/content/dam/rov/shared/results/UNOFFICIAL%20ELECTION%20NIGHT%20FINAL.pdf",
+      "confidence": "primary",
+      "note": "Numerator from the Registrar's official 'Unofficial Election Night Final' report (dated 11/07/18 10:47am; header states 'Outstanding Ballots to be Processed: 490,000'). Countywide 'Times Counted' = 662,718 ballots. This is the end-of-election-night cumulative total reported the morning after, not the literal 8pm first tranche. 662,718/1,173,924 = 56.5%. Traditional neighborhood polling-place model (2,136 precincts) — pre Voter's Choice Act vote centers."
+    },
+    {
+      "date": "2020-11-03",
+      "type": "presidential-general",
+      "election_night_ballots": 1251753,
+      "certified_final": 1627753,
+      "election_night_pct": 76.9,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2020-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://www.nbcsandiego.com/news/local/where-are-the-rest-of-san-diegos-election-results-new-batch-of-numbers-expected-thursday/2437524/",
+      "confidence": "estimated",
+      "note": "Derived end-of-election-night/morning-after count: certified 1,627,753 minus ~376,000 ballots reported still outstanding (NBC7, day after) = ~1,251,753 counted; cross-checked by ~64.4% election-night turnout x 1,949,073 registered = ~1,255,000. ~76.9% of certified. First Voter's Choice Act presidential general; the 8pm first report unusually also included polling-place precinct ballots plus the very large pre-election-day mail return, so the election-night share was high. Literal 8pm first-tranche count not sourceable (Wayback blocked)."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 565982,
+      "certified_final": 1043490,
+      "election_night_pct": 54.2,
+      "vs_epollbook": "post",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://www.delmartimes.net/news/story/2022-11-10/with-perhaps-a-half-million-ballots-left-to-count-final-san-diego-county-election-results-may-take-a-week",
+      "confidence": "secondary",
+      "note": "San Diego Union-Tribune / Del Mar Times: by the morning after the election the Registrar had released 565,982 ballots counted (= 29.4% of ~1.9M registered), with roughly a half-million still to count. End-of-election-night cumulative total reported morning after, not the literal 8pm tranche. 565,982/1,043,490 = 54.2%. First general using e-pollbooks; vote-center (VCA) model with fewer in-person locations and less frequent election-night updates."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 976013,
+      "certified_final": 1503018,
+      "election_night_pct": 64.9,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://patch.com/california/san-diego/real-time-election-results-2024-san-diego-county",
+      "confidence": "secondary",
+      "note": "As of ~10am Wednesday (morning after), the Registrar reported 49.2% of 1,983,767 registered had been counted = ~976,013 ballots, with ~590,000 still to process (per San Diego Patch). End-of-election-night running total, not the literal 8pm first tranche (Wayback blocked). 976,013/1,503,018 = 64.9%. First general with both e-pollbooks and automated signature verification; vote-center (VCA) model."
+    }
+  ]
+}

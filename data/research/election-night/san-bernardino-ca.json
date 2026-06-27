@@ -1,0 +1,85 @@
+{
+  "jurisdiction": "San Bernardino County",
+  "state": "CA",
+  "adoption": { "epollbook": 2020, "asv": 2025 },
+  "elections": [
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 672871,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final (Total Voters) = 672,871 from CA SoS 'Voter Participation Statistics by County' (San Bernardino: 1,789 precincts, 1,308,522 eligible, 888,019 registered, 287,315 precinct + 385,556 VBM = 672,871; 75.77% of registered). Pre-epollbook (adopted 2020), pre-ASV (adopted 2025) presidential baseline. Election-night first-report (~8pm first tranche) count not sourceable in this environment: the registrar overwrites its live-results page each update (Wayback blocked here) and no press release / news quoted a countywide first-report ballot count."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 546041,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final (Total Voters) = 546,041 from CA SoS 'Voter Participation Statistics by County' (San Bernardino: 2,209 precincts, 1,330,247 eligible, 937,316 registered, 209,168 precinct + 336,873 VBM = 546,041; 58.26% of registered). Last November general BEFORE e-pollbook adoption (2020); pre-ASV. Registrar's first results posting was ~8:05pm (per the county's 2018 results-posting schedule) covering pre-Election-Day VBM, but the exact first-tranche ballot count is not sourceable: live-results page overwritten (Wayback blocked) and no news quoted a first-report count."
+    },
+    {
+      "date": "2020-11-03",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 852636,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2020-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final (Total Voters) = 852,636 from CA SoS 'Voter Participation Statistics by County' (San Bernardino: 2,327 precincts, 1,331,471 eligible, 1,102,687 registered, 148,692 precinct + 703,944 VBM = 852,636; 77.32% of registered; the registrar's own results page reported the same 852,636 voters / 1,103,939 registered / 77.24%). FIRST November general WITH e-pollbooks (KNOWiNK PollPad, first used at the March 2020 primary per CA SoS voting-technology lists); still pre-ASV. Election-night first-report count (registrar posts first results ~8:30pm, mostly pre-Election-Day mail) not sourceable: live-results page overwritten (Wayback blocked) and no press release / local news (Daily Press, Sun, VVNG) quoted a countywide first-report ballot count. Clean pre/post-epollbook presidential bracket would be 2016 (672,871) vs this 2020, but neither numerator could be sourced."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 458946,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final (Total Voters) = 458,946 from CA SoS 'Voter Participation Statistics by County' (San Bernardino: 2,765 precincts, 1,472,696 eligible, 1,138,818 registered, 66,469 precinct + 392,477 VBM = 458,946; 40.30% of registered). Post-epollbook, pre-ASV midterm. First posting ~8:30pm (pre-Election-Day mail + Election-Day poll ballots), but the first-tranche count is not sourceable: live-results page overwritten (Wayback blocked) and no news quoted a first-report figure."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 771834,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final (Total Voters) = 771,834 from CA SoS 'Voter Participation Statistics by County' (San Bernardino: 2,872 precincts, 1,472,596 eligible, 1,197,953 registered, 154,974 precinct + 616,860 VBM = 771,834; 64.43% of registered; registrar's results page reports the same 771,834 / 64.40%). Post-epollbook, pre-ASV presidential. Registrar posted first Unofficial Election Night Results by 8:30pm (majority of pre-Election-Day mail + Election-Day poll ballots), but the first-tranche ballot count is not sourceable: the live results page (results.rov.sbcounty.gov) is overwritten to the final certified total (Wayback blocked here), the registrar's daily Mail Ballot Return Statistics report is also overwritten, and no accessible press release / news quoted a countywide first-report ballot count. Cleanest pre/post-epollbook presidential comparison would be 2016 vs this 2024, but no numerator could be sourced for either."
+    },
+    {
+      "date": "2025-11-04",
+      "type": "odd-year",
+      "election_night_ballots": null,
+      "certified_final": 543724,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2025-special/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Statewide SPECIAL election (single ballot measure, Prop 50 congressional redistricting) - not a general; turnout dynamics differ, so not directly comparable to the presidential/midterm rows. ONLY election AFTER ASV adoption (Automatic Signature Verification first used at this Nov 4, 2025 special; 45% confidence threshold per county FAQ). Certified final (Total Voters) = 543,724 from CA SoS 'Voter Participation Statistics by County' (San Bernardino: 1,489,178 eligible, 1,231,395 registered, 74,993 precinct + 468,731 VBM = 543,724; 44.16% of registered; LAist county turnout 44.2%). Election-night first-report count (registrar posted first results by 8:30pm) not sourceable: live-results page overwritten (Wayback blocked) and no news quoted a countywide first-report figure. For ASV context (one-week, NOT election-night): CA Voter Foundation 'Ballot Processing' chart shows San Bernardino had counted 98.4% of its Nov 4, 2025 ballots one week after Election Day (statewide avg 93.9%) - a large jump vs 2022/2024 consistent with ASV speeding the signature-verification step."
+    }
+  ]
+}
