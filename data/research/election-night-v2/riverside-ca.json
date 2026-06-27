@@ -1,0 +1,101 @@
+{
+  "jurisdiction": "Riverside County",
+  "state": "CA",
+  "adoption": {
+    "epollbook": 2022,
+    "asv": 2025
+  },
+  "elections": [
+    {
+      "date": "2010-11-02",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 492040,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2010-general/03-voter-particpation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final = 'Total Voters' 492,040 ballots cast (Precinct 255,279 + Vote-By-Mail 236,761), CA SoS Statement of Vote, Voter Participation Statistics by County (57.36% of 857,839 registered; URL has the SoS typo 'particpation'). Election-night numerator NOT sourceable: Riverside's live election-night results page is not archived in the Wayback Machine for Nov 2010 (the voteinfo.net /Elections/20101102/eresults/ static results were not crawled, and no registrar press release or news item states the ~8pm first-tabulation BALLOT COUNT). Per metric rules, value is null rather than a substituted denominator (% of registered). Pre-e-pollbook (adopted 2022), pre-ASV (adopted 2025)."
+    },
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 669627,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final = 'Total Voters' 669,627 ballots cast (Precinct 298,112 + Vote-By-Mail 371,515), CA SoS SoV Voter Participation Statistics by County (70.98% of 943,405 registered). Election-night numerator NOT sourceable: no Wayback capture of Riverside's live results for Nov 2012 (the voteinfo.net /Elections/20121106/eresults/ pages were not archived at/near election night), and no press release/news gives the ~8pm first-report ballot count. Null per metric rules. Pre-e-pollbook, pre-ASV."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 357764,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final = 'Total Voters' 357,764 ballots cast (Precinct 124,829 + Vote-By-Mail 232,935), CA SoS SoV Voter Participation Statistics by County (40.13% of 891,575 registered; URL has the SoS typo 'particpiation'). Election-night numerator NOT sourceable to the metric definition: the only archived Riverside results page (voteinfo.net/elections/20141104/eresults/Election Result_dtl.htm) was first crawled 2014-11-20 and is stamped 'Last Updated: November 18, 2014' showing Total 354,913 of 357,764 -- i.e. a Day+14 NEAR-FINAL cumulative, NOT the ~8pm first report. No earlier capture and no press release/news states the first-tranche ballot count. Null per metric rules (do not report a near-certified cumulative as the first report). Pre-e-pollbook, pre-ASV."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 769193,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final = 'Total Voters' 769,193 ballots cast (Precinct 264,638 + Vote-By-Mail 504,555), CA SoS SoV Voter Participation Statistics by County (75.48% of 1,019,130 registered). Election-night numerator NOT sourceable to the metric definition: the earliest archived Riverside results page (voteinfo.net/Elections/20161108/eresults/Election Result_dtl.htm, first crawled 2016-11-12) is stamped 'Last Updated: November 11, 2016 4:54 PM' and shows Total 532,023 (Precinct 202,100 + VBM 329,923) = a Day+3 cumulative, NOT the ~8pm first report. No Nov-8/9 (election-night) capture exists, and no press release/news states the first-tranche ballot count. Null per metric rules. Pre-e-pollbook, pre-ASV."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 650545,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final = 'Total Voters' 650,545 ballots cast (Precinct 194,606 + Vote-By-Mail 455,939), CA SoS SoV Voter Participation Statistics by County (62.80% of 1,035,957 registered). Election-night numerator NOT sourceable: the earliest archived Riverside results page (voteinfo.net/elections/20181106/eresults/Election Result_dtl.htm) was not crawled until 2018-12-06 (post-canvass), so no election-night or early-count capture exists; no press release/news states the ~8pm first-report ballot count. Null per metric rules. Pre-e-pollbook, pre-ASV."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 604617,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final = 'Total Voters' 604,617 ballots cast (Precinct 59,812 + Vote-By-Mail 544,805), CA SoS SoV Voter Participation Statistics by County (46.14% of 1,310,505 registered). FIRST e-pollbook November general (Riverside adopted networked e-pollbooks / vote-center model in 2022). Election-night numerator NOT sourceable: Riverside's Nov 2022 live results were not archived at election night -- the modern livevoterturnout.com/ENR/riversidecaenr ENR has no Wayback capture predating 2024 (earliest archived election is the March 2024 primary), and voteinfo.net/Elections/20221108 results were not crawled near election night. The registrar's 'Election Night Results Reporting' release describes the ~8:20pm first tabulation (pre-Election-Day VBM + unscanned vote-center ballots) but gives no ballot count. Null per metric rules. Post-e-pollbook, pre-ASV."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 959098,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final = 'Total Voters' 959,098 ballots cast (Precinct 170,437 + Vote-By-Mail 788,661), CA SoS SoV Voter Participation Statistics by County (69.88% of 1,372,548 registered). Election-night numerator NOT sourceable to the metric definition: the only Wayback capture of Riverside's live ENR (livevoterturnout.com/ENR/riversidecaenr/5/en/Index_5.html, election id 5) is from 2024-11-07 03:40 UTC, stamped 'Updated: 11/6/2024 5:35:21 PM' -- a Day+1 cumulative, NOT the ~8pm Nov-5 first report; 26 archived sub-resources of that ENR all postdate Nov 6 (none on election night). The registrar's 'November 5 Election Night Results Reporting' release describes the ~8:20pm first tabulation (pre-Election-Day VBM + unscanned vote-center ballots) but states no ballot count. Matches the prior county_tech finding that Riverside's first-post-poll-close ballot TOTAL was not locatable in primary form. Null per metric rules. Post-e-pollbook, pre-ASV (ASV first piloted Nov 2025)."
+    }
+  ]
+}

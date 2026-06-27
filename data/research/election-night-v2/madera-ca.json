@@ -1,0 +1,98 @@
+{
+  "jurisdiction": "Madera County",
+  "state": "CA",
+  "adoption": { "epollbook": 2018, "asv": null },
+  "elections": [
+    {
+      "date": "2010-11-02",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 34987,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2010-general/complete-sov.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 34,987 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County' in the complete 2010 SOV (Madera: 101 precincts, 84,767 eligible, 54,817 registered, 14,261 precinct + 20,726 VBM = 34,987; 63.83% of registered / 41.27% of eligible). Election-night first-report count not sourceable: this is pre-Clarity for Madera (its earliest Wayback-archived Clarity ENR election is June 2018), the votemadera.com static-HTML results archive in Wayback only goes back to Election28=Nov 2014, and no local-news article quoting an election-night ballot/turnout count for Nov 2010 was found."
+    },
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 40325,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/sov-complete.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 40,325 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County' in the complete 2012 SOV (Madera: 96 precincts, 86,894 eligible, 53,779 registered, 15,658 precinct + 24,667 VBM = 40,325; 74.98% of registered / 46.41% of eligible). Election-night first-report count not sourceable: pre-Clarity for Madera, no votemadera.com results snapshot archived for 2012, and no news quoting an election-night ballot count found."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 27370,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 27,370 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County' in the 2014 complete SOV (Madera: 100 precincts, 85,976 eligible, 52,494 registered, 8,970 precinct + 18,400 VBM = 27,370; 52.14% of registered). Election-night first-report not sourceable: pre-Clarity. Madera's old votemadera.com results page (Election28, result28.htm 'Consolidated General Election November 4, 2014') IS in Wayback, but the only captures are Nov 8 2014 and Nov 18 2014, both showing 'Completed Precincts: 100 of 100' (a fully-counted, near-certified state) -- not the first post-poll-close report. No election-night-timestamped capture exists."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 44186,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 44,186 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County' (Madera: 102 precincts, 87,254 eligible, 58,086 registered, 15,211 precinct + 28,975 VBM = 44,186; 76.07% of registered). Election-night first-report not sourceable: pre-Clarity. The votemadera.com results page (Election33, 'Consolidated Presidential General Election November 8, 2016') is in Wayback only at Nov 12 2016 (resultsc33.htm), showing 'Completed Precincts: 102 of 102' (fully counted) -- not a first post-poll-close report. No election-night-timestamped capture archived."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 38968,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "First general under e-pollbooks / Voter's Choice Act vote centers (adopted 2018). Certified final 38,968 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County' (Madera: 89,818 eligible, 57,418 registered; 67.87% of registered). Election-night first-report not recovered: Madera's Clarity ENR for this election (results.enr.clarityelections.com/CA/Madera/92458/Web02.216033) has exactly ONE Wayback capture, Nov 29 2018 (~3 weeks post, near-certified) -- no election-night snapshot. Closest news figure is a Madera Tribune piece (Nov 20 2018) citing 67.86% turnout / 38,933 ballots 'as of Monday's count' (Nov 19), which is the near-final, not the first post-poll-close report."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 37345,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 37,345 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County' (Madera: 59 precincts, 93,789 eligible, 72,865 registered, 3,333 precinct + 34,012 VBM = 37,345; 51.25% of registered). Election-night first-report not recovered from Wayback: the Nov 8 2022 general Clarity ENR (results.enr.clarityelections.com/CA/Madera/114136/, 59 precincts) has a single Wayback capture on Oct 2 2022 (pre-election setup, 0 of 59 precincts, no JSON archived), and the related id 116174 has only a CloudFront 403 capture (Nov 9) with no data JSON. The live Clarity site now blocks automated access (403). Sierra News Online's Nov 8 2022 (10:44pm) election-night article reported only the eight vote-center contest results, no county-wide ballot total."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 37106,
+      "certified_final": 55329,
+      "election_night_pct": 67.1,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20241108001837/https://results.enr.clarityelections.com/CA/Madera/122832/353191/json/sum.json",
+      "confidence": "primary",
+      "note": "Numerator 37,106 = total Ballots Cast (field BC) from the Madera County Clarity ENR election-night data version 353191 (results.enr.clarityelections.com/CA/Madera/122832/353191/json/sum.json), recovered via Wayback. The version's electionsettings.json gives websiteupdatedat = '11/5/2024 11:51:26 PM PST' -- i.e. this is the late/end-of-election-night report (Madera then paused until later in the week), with 63 of 78 precincts reporting; registered voters shown 78,317, turnout 47.4% of registered at that report. It is the only election-night-timestamped data state archived (next Wayback version 353996 is a Nov 9 update); it reflects the end-of-night cumulative, somewhat more than the literal 8pm first tranche. Certified final 55,329 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County' (Madera: 78 precincts, 95,290 eligible, 78,204 registered, 8,560 precinct + 46,769 VBM = 55,329). pct = 37,106 / 55,329 = 67.06% (rounded 67.1%)."
+    }
+  ]
+}

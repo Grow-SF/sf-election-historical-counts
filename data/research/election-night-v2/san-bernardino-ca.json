@@ -1,0 +1,98 @@
+{
+  "jurisdiction": "San Bernardino County",
+  "state": "CA",
+  "adoption": { "epollbook": 2020, "asv": 2025 },
+  "elections": [
+    {
+      "date": "2010-11-02",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 445300,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2010-general/03-voter-particpation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 445,300 ballots cast (CA SoS Statement of Vote, Voter Participation Stats by County: precinct 249,366 + VBM 195,934 = 445,300; 55.24% of 806,163 registered). Pre-e-pollbook (adopted 2020) and pre-ASV (2025) precinct-based baseline. First-post-poll-close numerator NOT sourceable: San Bernardino's current ENR system (results.rov.sbcounty.gov) did not exist in 2010, and the contemporaneous live results site (www.sbcountyelections.com /Elections/2010/1102) has ZERO Wayback captures within the election-night window -- the earliest capture of that page is Sept 2015 (post-final). No press release or news quoting the 8:05 p.m. first-report ballot count was found. Wayback is reachable here (curl CDX + headless Chrome both work); the needed election-night captures simply do not exist."
+    },
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 589611,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 589,611 ballots cast (CA SoS; precinct 306,324 + VBM 283,287 = 589,611; 69.24% of 851,581 registered). Pre-adoption baseline. First-report numerator not sourceable: the only Wayback capture of the ENR results page for this election (results.rov.sbcounty.gov/results/20121106/default.html) is from the 2023-03-22 bulk crawl = final canvass (equals the certified total, useless as a first-report numerator). The contemporaneous live site (www.sbcountyelections.com /Elections/2012/1106) has no election-night-window captures. No news/press-release quote of the 8:05 p.m. first tranche located. Wayback reachable; election-night captures do not exist."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 293283,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 293,283 ballots cast (CA SoS; precinct 117,179 + VBM 176,104 = 293,283; 34.44% of 851,684 registered). Pre-adoption baseline. First-report numerator not sourceable: the ENR results page capture (results.rov.sbcounty.gov/results/20141104/default.html) is the 2023-03-22 bulk crawl = final, not election night; the live www.sbcountyelections.com /Elections/2014/1104 (and the live concatenated-date form /Elections/20141104) has no captures in the Nov 4-8 2014 window. No news first-count found. Wayback reachable; needed captures absent."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 672871,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 672,871 ballots cast (CA SoS; precinct 287,315 + VBM 385,556 = 672,871; 75.77% of 888,019 registered). Pre-adoption baseline. First-report numerator not sourceable: the ENR results page capture (results.rov.sbcounty.gov/results/20161108/default.html) is the 2023-03-22 bulk crawl = final; the only election-night-window capture of the live site is a non-results 'ResultSchedule.aspx' page (Nov 11, 2016). The county's published process (confirmed via SoS/registrar) was an 8:05 p.m. first posting of pre-Election-Day mail ballots, with polling-place ballots added every 2 hours, but no archived snapshot or news article gives the first-report ballot COUNT. Wayback reachable; election-night results captures do not exist."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 546041,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 546,041 ballots cast (CA SoS; precinct 209,168 + VBM 336,873 = 546,041; 58.26% of 937,316 registered). Pre-adoption baseline. First-report numerator not sourceable: the ENR results page capture (results.rov.sbcounty.gov/results/20181106/default.html) is the 2023-03-22 bulk crawl = final; the live www.sbcountyelections.com /Elections/2018/1106 site has no captures in the Nov 6-10 2018 window. Registrar's published process was an 8:05 p.m. first posting (pre-Election-Day mail) and a 10 p.m. second posting (balance of pre-Election-Day mail + Election-Morning mail + polling-place ballots cast by noon at ~230 sites), but no archived snapshot or news quote gives the first-report ballot count. Wayback reachable; election-night captures absent."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 177481,
+      "certified_final": 458946,
+      "election_night_pct": 38.67,
+      "vs_epollbook": "post",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20221109134003/https://results.rov.sbcounty.gov/Results/20221108/",
+      "confidence": "primary",
+      "note": "Certified final 458,946 ballots cast (CA SoS; in-person 66,469 + VBM 392,477 = 458,946; 40.30% of 1,138,818 registered). Post-e-pollbook (VCA vote centers + e-pollbooks adopted 2020); pre-ASV (automated signature verification adopted 2025). Election-night numerator 177,481 = 'Voters Cast' rendered (headless Chrome) from the official ENR page results.rov.sbcounty.gov/Results/20221108/, Wayback capture 20221109134003 (5:40 a.m. PT Nov 9). This is the FIRST archived snapshot after poll close -- the 8:05 p.m. first tranche itself was not captured (Wayback's prior captures, 12:56 p.m. and 1:17 p.m. PT Nov 8, are pre-close). Snapshot shows 49.37% of precincts reported; breakdown Mail 145,190 + Designated Mail 800 + Polling Place 31,491 + Provisional 0 = 177,481. So the value is the early-morning election-night running total, somewhat ABOVE the pure 8:05 p.m. mail-only first posting (which was ~145,990). 177,481/458,946 = 38.67%. Methodology validated: the same ENR page's final capture (20230322103555) renders Voters Cast 458,946 at 100.00% precincts, exactly matching the SoS certified ballots cast -- confirming ENR 'Voters Cast' is the directly comparable ballot count. Confidence primary (exact figure off the official registrar page); timing caveat noted."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 417655,
+      "certified_final": 771834,
+      "election_night_pct": 54.11,
+      "vs_epollbook": "post",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20241106172800/https://results.rov.sbcounty.gov/Results/20241105/",
+      "confidence": "primary",
+      "note": "Certified final 771,834 ballots cast (CA SoS; in-person 154,974 + VBM 616,860 = 771,834; 64.43% of 1,197,953 registered). Post-e-pollbook (2020); pre-ASV (2025). Election-night numerator 417,655 = 'Voters Cast' rendered (headless Chrome) from the official ENR page results.rov.sbcounty.gov/Results/20241105/, Wayback capture 20241106172800 (9:28 a.m. PT Nov 6). This is the FIRST archived snapshot after poll close -- the 8 p.m. first tranche itself was not captured. Snapshot shows 58.67% of precincts reported; breakdown Mail 299,226 + Designated Mail 1,028 + Polling Place 117,401 + Provisional 0 = 417,655. So this is the complete-ish election-night running total (mail + Election-Day in-person counted on the night), captured the morning after. 417,655/771,834 = 54.11%. Methodology validated: the same ENR page's later capture (20250402135021) renders Voters Cast 771,834 at 100.00% precincts, exactly matching the SoS certified ballots cast. Confidence primary (exact figure off the official registrar page); timing caveat noted."
+    }
+  ]
+}

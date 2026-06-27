@@ -1,0 +1,98 @@
+{
+  "jurisdiction": "Los Angeles County",
+  "state": "CA",
+  "adoption": { "epollbook": 2020, "asv": 2020 },
+  "elections": [
+    {
+      "date": "2010-11-02",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 2377105,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2010-general/03-voter-particpation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Pre-adoption midterm baseline. Certified final = 'Total Voters' (Ballots Cast) for LA County from the SoS Voter Participation Statistics (Precinct 1,698,454 + Vote-by-Mail 678,651 = 2,377,105). Cross-checks LA Almanac county turnout table. Election-night first-report total not sourceable: LA's live results page was not archived on election night for this era (Wayback's earliest LA results capture is Nov 2016, and results.lavote.net only begins 2020), the RR/CC semi-final press release for Nov 2010 is not retained on any reachable lavote.gov/rrcc.lacounty.gov path, and no contemporaneous news quoting a county-wide election-night ballot total surfaced. Left null rather than substituting '% of registered voters' or a different denominator."
+    },
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 3236704,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Pre-adoption presidential baseline. Certified final = 'Total Voters' (Ballots Cast) from the SoS Voter Participation Statistics (Precinct 2,260,876 + Vote-by-Mail 975,828 = 3,236,704); cross-checks LA Almanac. Election-night first-report total not sourceable: no Wayback capture of LA's live results page on/after Nov 6 2012 (the 2012-era results app at apps1.lavote.net is now an Incapsula block page in the archive), the RR/CC semi-final press release is not retained at any reachable URL, and news searches did not yield an election-night county-wide ballot count or a morning-after outstanding-ballot estimate to derive from. Null rather than a wrong denominator."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": 1147248,
+      "certified_final": 1518835,
+      "election_night_pct": 75.53,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": "https://www.lavote.gov/Documents/News_Releases/11052014.pdf",
+      "confidence": "primary",
+      "note": "Pre-adoption midterm. DIRECT official figure: LA County RR/CC (Dean Logan) 'Semi-Final Official Results Reported for the Nov. 4, 2014 General Election' (released morning of Nov 5, 2014) states 'A total of 1,147,248 ballots were processed and counted.' The next-day RR/CC release (11/06/2014) confirms 'On Election Night, a total of 1,147,248 ballots were counted'; the first post-election update (11/07/2014) added 63,995 ballots 'processed since Election Night.' This is the end-of-election-night semi-official cumulative total (all precincts reporting), not just the 8 p.m. first VBM tranche. Certified final = 'Total Voters' from SoS (Precinct 941,812 + VBM 577,023 = 1,518,835). Election-night % = 1,147,248 / 1,518,835 = 75.53%."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 3544115,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Pre-adoption presidential baseline. Certified final = 'Total Voters' (Ballots Cast) from SoS (Precinct 2,260,467 + VBM 1,283,648 = 3,544,115); cross-checks LA Almanac. Election-night first-report total not sourceable: the LA results text page (lavote.net/ElectionResults/Text/3496) has its EARLIEST Wayback capture on Nov 12 2016 (four days and ~2 ballot-count updates after polls closed) -- no election-night (Nov 8 evening / Nov 9) snapshot exists -- and the RR/CC semi-final press release for Nov 2016 is not retained at any reachable lavote.gov/rrcc.lacounty.gov path. News searches did not surface an election-night county-wide ballot count or a morning-after outstanding-ballot estimate to derive from. Null rather than a wrong denominator."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": 2038417,
+      "certified_final": 3023417,
+      "election_night_pct": 67.42,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://witnessla.com/historic-dramatic-la-county-sheriffs-race-will-be-decided-by-985000-ballots-still-to-be-counted/",
+      "confidence": "secondary",
+      "note": "Pre-adoption midterm (last pre-2020 general). DERIVED lower bound: the morning after the Nov 6 2018 election the LA County RR/CC reported ~985,000 ballots still to be counted (late VBM ~60% + provisional ~40%). Certified final = 3,023,417, so election-night ballots = final minus the qualified portion of those 985,000 >= 3,023,417 - 985,000 = 2,038,417 (>= 67.4%); the true figure is somewhat higher because some of the 985,000 outstanding were later rejected. Independent floor: the Sheriff contest alone had 1,635,739 election-night votes (Villanueva 820,333 + McDonnell 815,406 = 54.1% of final), which under-counts total ballots (some voters skip the race). Reported value is the final-minus-outstanding lower bound. Certified final = 'Total Voters' from SoS (Precinct 1,673,104 + VBM 1,350,313 = 3,023,417). No archived RR/CC semi-final release or election-night results snapshot was retrievable to pin the exact end-of-night total."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 1318093,
+      "certified_final": 2456701,
+      "election_night_pct": 53.65,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://lacounty.gov/2022/11/09/semi-final-results-announced-for-the-2022-general-election/",
+      "confidence": "primary",
+      "note": "Post-adoption midterm (post both e-pollbook and ASV, adopted 2020). DIRECT official figure: LA County RR/CC 'Semi-Final Results Announced for the 2022 General Election' (Nov 9, 2022) states 1,318,093 ballots were processed and counted on election night (23.42% of registered voters). End-of-election-night semi-official total. Certified final = 'Total Voters' from SoS (Precinct 487,368 + VBM 1,969,333 = 2,456,701). Election-night % = 1,318,093 / 2,456,701 = 53.65%. CONFOUND: 2022 was the first midterm under the all-mail Voter's Choice Act model for LA (every voter mailed a ballot), independent of the counting tech."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 2615541,
+      "certified_final": 3793106,
+      "election_night_pct": 68.96,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://lacounty.gov/2024/11/06/first-post-election-night-ballot-count-update-for-the-2024-general-election/",
+      "confidence": "secondary",
+      "note": "Post-adoption presidential. DERIVED from the official RR/CC 'First Post-Election Night Ballot Count Update' (Nov 6, 2024): total after the first update = 2,696,482 and 80,941 ballots were 'processed since Election Night', so the election-night cumulative = 2,696,482 - 80,941 = 2,615,541. This same final-update-minus-since-night method exactly reproduces the officially-stated 2022 semi-final total (1,318,093), so the derivation is reliable; it is the end-of-election-night semi-official total. Certified final = 'Total Voters' from SoS (Precinct 1,060,354 + VBM 2,732,752 = 3,793,106). Election-night % = 2,615,541 / 3,793,106 = 68.96%. Same all-mail VCA confound as 2022."
+    }
+  ]
+}

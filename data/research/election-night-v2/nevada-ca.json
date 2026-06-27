@@ -1,0 +1,98 @@
+{
+  "jurisdiction": "Nevada County",
+  "state": "CA",
+  "adoption": { "epollbook": 2018, "asv": 2022 },
+  "elections": [
+    {
+      "date": "2010-11-02",
+      "type": "midterm-general",
+      "election_night_ballots": 18236,
+      "certified_final": 49637,
+      "election_night_pct": 36.74,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2010-general/03-voter-particpation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20101105024215/http://yubanet.com:80/regional/2010-Nov-Election-News-and-Results.php",
+      "confidence": "primary",
+      "note": "Certified final = 'Total Voters' 49,637 (Precinct 12,982 + Vote-By-Mail 36,655), CA SoS Statement of Vote, Voter Participation Statistics by County (URL has SoS typo 'particpation'). Election-night numerator = 18,236: the FIRST non-zero countywide report on the archived YubaNet live-results page, which republished Nevada County Elections' official registration/turnout feed verbatim ('Total Registered Voters 61,481 ... Absentee Ballots Cast 18,236 ... Total Ballots Cast 18,236 29.7%' at 'Completed Precincts: 0 of 87') — i.e. the initial all-VBM/absentee dump posted after polls closed. This is the definition-compliant first-report figure. For context the count climbed to 25,056 (40.8%) at 35/87 precincts (~11:07pm) and the end-of-election-night total reached 29,911 = 60.26% of certified ('Total number of ballots counted: 29,911 = 48.65% turnout' at 1:22am Nov 3). Pre-e-pollbook, pre-ASV."
+    },
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": 31275,
+      "certified_final": 52173,
+      "election_night_pct": 59.94,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20121112105530/http://yubanet.com:80/regional/Nevada-County-Election-Tally-Continues---Turnout-Is-Nearly-80-Mail-Ins-Top-16-000.php",
+      "confidence": "secondary",
+      "note": "Certified final = 'Total Voters' 52,173 (Precinct 13,798 + Vote-By-Mail 38,375), CA SoS SoV. Election-night numerator = 31,275, from the official Nevada County Elections Office release (published via YubaNet Nov 8, 2012): 'Nevada County election officials were busy today counting more than 18,000 unprocessed ballots to add to the county's election-day tally of 31,275.' REPORT-TIME CAVEAT: 31,275 is the END-OF-ELECTION-DAY tally, not the ~8pm first tranche (the granular first VBM report was not archived for 2012 — YubaNet's election-night live page was not crawled in the Nov 6-7 2012 window). So this slightly OVERSTATES a strict first-report metric and is higher than the 2016-2024 first-tranche figures. Corroboration: 31,275 + 18,495 remaining (per the Nov 7 '18,495 Ballots Remain' release: 15,750 election-day VBM drop-offs + 1,899 provisional + 846 damaged) is consistent with the ~52,173 certified total. Pre-e-pollbook, pre-ASV."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": 22366,
+      "certified_final": 39629,
+      "election_night_pct": 56.44,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20141108075409/http://yubanet.com:80/regional/Many-Nevada-County-races-too-close-to-call.php",
+      "confidence": "secondary",
+      "note": "Certified final = 'Total Voters' 39,629 (Precinct 9,383 + Vote-By-Mail 30,246), CA SoS SoV (URL has SoS typo 'particpiation'). Election-night numerator = 22,366, from YubaNet 'Many Nevada County races too close to call' (published Nov 5, 2014 12:35am, just after election night): 'The final election night tally of votes comes in at 22,366 of 61,706 - a rather low voter turnout of 36.25%' (61,706 = registered voters; our denominator is certified ballots cast 39,629). REPORT-TIME CAVEAT: 22,366 is the END-OF-ELECTION-NIGHT tally, not the ~8pm first tranche (granular first report not separately archived for 2014). YubaNet estimated 15-20,000 ballots still remained to be tallied. Pre-e-pollbook, pre-ASV. Upgrades the prior null for this year."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": 21000,
+      "certified_final": 56800,
+      "election_night_pct": 36.97,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://yubanet.com/regional/election-2016-live-updates-and-results/",
+      "confidence": "secondary",
+      "note": "Certified final = 'Total Voters' 56,800 (Precinct 12,543 + VBM 44,257), CA SoS SoV (verified). First-report proxy ~21,000: YubaNet live coverage said the first batch (~8:45pm) was the vote-by-mail ballots received the prior week, 'expecting some 21,000 votes'; the countywide Measure A first report totaled ~20,922 votes (14,068 yes + 6,854 no), corroborating ~21,000 ballots. This IS a ~8pm first-tranche figure (unlike 2012/2014 which are end-of-night). Pre-e-pollbook, pre-ASV. pct approximate."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": 21931,
+      "certified_final": 54996,
+      "election_night_pct": 39.88,
+      "vs_epollbook": "post",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://yubanet.com/regional/live-election-results/",
+      "confidence": "secondary",
+      "note": "Certified final = 'Total Voters' 54,996 (Precinct 3,059 + VBM 51,937), CA SoS SoV (verified; matches county 54,996 / 79.76% turnout). First-report proxy ~21,931: YubaNet live results, first VBM batch ~8:34pm, where the countywide Sheriff-Coroner race opened at 12,133 + 9,798 = 21,931 votes (actual ballots marginally higher due to undervotes); end-of-night ~25,004 on that race. First November general after Nevada County's 2018 Voter's Choice Act switch to vote centers + electronic pollbooks. ~8pm first-tranche figure. pct approximate, slightly understated."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 26213,
+      "certified_final": 51370,
+      "election_night_pct": 51.03,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://yubanet.com/regional/election-day-is-over-whats-the-holdup-in-results/",
+      "confidence": "secondary",
+      "note": "Certified final = 'Total Voters' 51,370 (Precinct 3,949 + VBM 47,421), CA SoS SoV (verified). First-report = 26,213 ballots released ~8:31pm, per YubaNet quoting Nevada County Elections ('The first results of the night (26,213 ballots) were vote-by-mail ballots received before the weekend and early voting at the vote centers'); the end-of-election-night total reached 28,824 (38.83% of 74,225 VBM issued). First November general using automated signature verification (adopted 2022). Cleanest, explicitly-dated ~8pm first-batch figure in the series. pct uses the first-report number."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 15486,
+      "certified_final": 63240,
+      "election_night_pct": 24.49,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://yubanet.com/regional/too-early-to-call-local-races/",
+      "confidence": "secondary",
+      "note": "Certified final = 'Total Voters' 63,240 (Precinct 8,047 + VBM 55,193), CA SoS SoV (verified). Election-night cumulative = 15,486 ballots (20.41% of 75,881 registered) per YubaNet, last update ~11:37pm. ANOMALY: a ballot printing/scanning defect forced manual rescanning, so far fewer ballots than usual were tabulated election night (the ~8pm first tranche was smaller and not separately sourced). Post-e-pollbook, post-ASV, but pct is depressed by the printing problem, not a normal count — treat as an outlier within the post-adoption set."
+    }
+  ]
+}

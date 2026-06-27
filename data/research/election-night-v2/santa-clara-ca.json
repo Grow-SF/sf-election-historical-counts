@@ -1,0 +1,98 @@
+{
+  "jurisdiction": "Santa Clara County",
+  "state": "CA",
+  "adoption": { "epollbook": 2020, "asv": null },
+  "elections": [
+    {
+      "date": "2010-11-02",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 523427,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2010-general/03-voter-particpation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 523,427 ballots cast (CA SoS Statement of Vote, Voter Participation Statistics by County: Santa Clara 164,989 poll/election-day + 358,438 vote-by-mail = 523,427; turnout 67.16% of 779,330 registered). ELECTION-NIGHT FIRST REPORT NOT SOURCEABLE: this is pre-Clarity (the county first appears on results.enr.clarityelections.com in 2012). For 2010 the only Wayback captures of the county's own site (www.sccgov.org/portal/site/rov and eservices.sccgov.org) are navigation/lookup pages (polling-place, VBM and provisional-ballot lookups, the 'November 2, 2010 Gubernatorial General Election' info page) -- the live results application with ballot counts was never archived, and no election-night press release or news quoting the first count was found. Value left null per the first-report definition; never substituted a different denominator. Pre-epollbook (adopted 2020); ASV never adopted."
+    },
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": 279357,
+      "certified_final": 653239,
+      "election_night_pct": 0.4276,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20121109175909/http://results.enr.clarityelections.com:80/CA/Santa_Clara/43231/109562/en/summary.html",
+      "confidence": "primary",
+      "note": "Election-night FIRST report: Clarity/SOE ENR summary page (event 43231, version 109562), rendered from the Wayback capture. Header turnout box = 'Registered Voters 817,837 / Ballots Cast 279,357 / Voter Turnout 34.16%', 'Updated 11/6/2012 7:35:52 PM PST', 246 of 1000 precincts Completely + 754 Partially Reported -- i.e. the pre-processed vote-by-mail batch tabulated by 7:35 PM and posted at poll close (8:00 PM), with no election-day ballots yet (polls still open at the 7:35 PM data cut). The next archived version (110598) is 'Updated 11/6/2012 11:13 PM PST' = 302,373 ballots (only +23k), confirming 279,357 was the big poll-close VBM first tranche; v110760 'Updated 11/7 2:01 AM' = 392,784. Rendered with headless Chrome (puppeteer; --proxy-server=direct:// to bypass the system proxy that blocks web.archive.org) since these ENR pages are JS-rendered. Certified final 653,239 ballots (CA SoS Voter Participation Statistics by County: 195,354 poll + 457,885 VBM = 653,239; turnout 79.87% of 817,837 reg). Pct = 279,357/653,239 = 42.76%. Pre-epollbook; ASV never."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 404166,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 404,166 ballots cast (CA SoS Voter Participation Statistics by County: 96,077 poll + 308,089 VBM = 404,166; turnout 50.18% of 805,502 reg). ELECTION-NIGHT FIRST REPORT NOT SOURCEABLE via Wayback: the Nov 4 2014 general is Clarity event 54209, but its summary pages were only archived on Nov 6-7 2014 (post-election-night) and, in the newer 'Web01' SPA layout, the results JSON (json/en/summary.json etc.) was never crawled, so the captured pages render blank -- there is no readable count for any election-night version. (For contrast the JUNE 2014 primary, event 51635, DID archive its JSON and renders fine.) No 8 PM first-report capture, press release, or news number was found. Value left null per the first-report definition. Pre-epollbook; ASV never."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 724596,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 724,596 ballots cast (CA SoS Voter Participation Statistics by County: 190,379 poll + 534,217 VBM = 724,596; turnout 82.79% of 875,176 reg). ELECTION-NIGHT FIRST REPORT NOT SOURCEABLE via Wayback: the Nov 8 2016 general is Clarity event 64404, but the only captures are a pre-election placeholder (version 178468, captured Nov 6 4:33 PM PT, Ballots Cast 0) and then a gap until Nov 12 2016 (versions 181922+, captured 4 days post-election = a near-complete canvass count, not the 8 PM first report). No version published on election night (Nov 8 8 PM - midnight) was archived; no press release/news first count found. Value left null per the first-report definition rather than substituting the Nov 12 running total. Pre-epollbook; ASV never. (Consistent with how the Napa file left its 2016 null.)"
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 625425,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 625,425 ballots cast (CA SoS Voter Participation Statistics by County: 138,468 poll + 486,957 VBM = 625,425; turnout 70.61% of 885,764 reg). ELECTION-NIGHT FIRST REPORT NOT SOURCEABLE via Wayback: the Nov 6 2018 general is Clarity event 92418 in the newer 'Web02' single-page-app layout. Its earliest archived version, Web02.214799, was captured Nov 7 2018 02:38 AM PT (~6.5 h after poll close), but NO results JSON for event 92418 was ever crawled (only versions.txt and the app's template/view HTML), so the page renders only the 'Currently Processing New Results' splash -- no readable ballot count for any version. No 8 PM press release/news first count was found. Value left null per the first-report definition. 2018 is still PRE-epollbook (county adopted e-pollbooks with the 2020 Voter's Choice Act vote-center rollout); ASV never."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 550602,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 550,602 ballots cast (CA SoS Voter Participation Statistics by County: 40,694 poll + 509,908 VBM = 550,602; turnout 54.55% of 1,009,422 reg; cross-confirmed by the county's own 'Official Results Certified for the November 8, 2022 General Election' release: 550,602 / 54.55%). ELECTION-NIGHT 8 PM FIRST REPORT NOT SOURCEABLE via Wayback: the Nov 8 2022 general is Clarity event 115971 (newer SPA, web.307039). The SPA shell was captured on election night (Nov 8 8:29 PM PT) but the results JSON it loads was NOT archived then -- only NEXT-DAY data versions were crawled: the earliest, version 311769 (captured Nov 9 9:34 AM PT, json/sum.json), shows Governor 'ballots cast (BC) 293,148' with 671 of 754 precincts reporting (= 53.2% of certified) = a Nov 9 running total, NOT the ~8 PM first tranche. Per the first-report definition this running total is not used as the numerator; value left null. (The SPA cannot be re-rendered from Wayback because its data JSON is missing at the election-night snapshot and the app stays on the loading splash.) Post-epollbook (adopted 2020); ASV never."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 765495,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 765,495 ballots cast (CA SoS Voter Participation Statistics by County: 97,924 poll + 667,571 VBM = 765,495; turnout 72.99% of 1,048,723 reg). ELECTION-NIGHT 8 PM FIRST REPORT NOT SOURCEABLE via Wayback: the Nov 5 2024 general is Clarity event 122582 (newer SPA, web.345435). The SPA shell was captured on election night (Nov 5 8:12 PM PT) but only the app manifest -- not the results JSON -- was archived then; the only results data crawled is version 353583 (captured Nov 6 2024 7:48 PM PT, json/sum.json), which shows President 'ballots cast (BC) 468,395' with 686 of 784 precincts reporting (= 61.2% of certified) = an end-of-election-night/next-day running total, NOT the ~8 PM first tranche. Per the first-report definition this is not used as the numerator; value left null. (The SPA renders only the 'Currently Processing New Results' splash from Wayback because the election-night data JSON is missing.) Post-epollbook (adopted 2020); ASV never. (2020 deliberately excluded as the COVID universal-VBM early-voting outlier.)"
+    }
+  ]
+}

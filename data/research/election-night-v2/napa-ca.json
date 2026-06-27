@@ -1,0 +1,98 @@
+{
+  "jurisdiction": "Napa County",
+  "state": "CA",
+  "adoption": { "epollbook": 2018, "asv": null },
+  "elections": [
+    {
+      "date": "2010-11-02",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 47821,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2010-general/03-voter-particpation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 47,821 ballots cast (CA SoS Statement of Vote, Voter Participation Statistics by County: Napa 'Total Voters' = 33,313 precinct + 14,508 vote-by-mail = 47,821; turnout 68.43% of 69,872 registered). Cross-confirmed by the county's own FINAL CERTIFIED RESULTS report (Nov 19 2010): 33,313 precinct + 14,508 absentee = 47,821. ELECTION-NIGHT FIRST REPORT NOT SOURCEABLE: Napa posted election-night reports at 8:01PM/10:09PM/11:16PM (countyofnapa.org/ElectionResults/20101102-0801PM.htm etc.), but the Wayback Machine archived only the 8:01PM frameset shell -- its _dtl/_hdr/_idx content frames (which carry the 'Registration & Turnout / Total' ballot count) were never crawled, and the available API returns NONE for 20101102-0801PM_dtl.htm. No press release or news quoting the first count was found. Value left null per the first-report definition rather than substituting the later same-night totals. Note 2010 was still majority Election-Day precinct voting (33,313 precinct vs 14,508 VBM), so the 8:01PM VBM-only tranche would have been a small fraction of certified. Pre-epollbook (adopted 2018); ASV never adopted."
+    },
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": 26846,
+      "certified_final": 57672,
+      "election_night_pct": 0.4655,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20121208223803/http://www.countyofnapa.org/ElectionResults/20121106/20101102-0801PM_dtl.htm",
+      "confidence": "primary",
+      "note": "Election-night FIRST report: county 'Unofficial Election Night Results' detail page, 'Last Updated: November 6, 2012 8:01 PM', Registration & Turnout block = 'Vote by Mail Turnout 26,846 (36.98%), Election Day Turnout 0, Total 26,846' with 0/167 precincts reporting -- i.e. the pre-processed vote-by-mail batch released at poll close. Rendered from Wayback capture of countyofnapa.org/ElectionResults/20121106/20101102-0801PM_dtl.htm (file is misnamed 20101102 inside the 20121106 directory; this is the Nov 6 2012 presidential general). Certified final 57,672 ballots (CA SoS Voter Participation Statistics by County: 6,251 precinct + 51,421 VBM = 57,672; turnout 79.45% of 72,592 reg). Pct = 26,846/57,672 = 46.55%. Pre-epollbook; ASV never."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": 17341,
+      "certified_final": 38766,
+      "election_night_pct": 0.4473,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20150916161300/http://www.countyofnapa.org/ElectionResults/20141104/20141104-2001_dtl.htm",
+      "confidence": "primary",
+      "note": "Election-night FIRST report: county 'Unofficial Election Night Results' detail, 'Last Updated: November 4, 2014 8:01 PM' (file 20141104-2001, where 2001 = 20:01 = 8:01 PM), Registration & Turnout = 'Vote by Mail Turnout 17,341 (24.60%), Election Day Turnout 0, Total 17,341' with 0/164 precincts reporting -- the poll-close VBM batch. Rendered from Wayback capture of countyofnapa.org/ElectionResults/20141104/20141104-2001_dtl.htm. Certified final 38,766 ballots (CA SoS Voter Participation Statistics by County: 2,397 precinct + 36,369 VBM = 38,766; turnout 54.99% of 70,493 reg). Pct = 17,341/38,766 = 44.73%. Pre-epollbook; ASV never."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 63255,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 63,255 ballots cast (CA SoS Voter Participation Statistics by County, extracted from PDF: Napa Total Voters 63,255; turnout 82.33% of 76,833 reg). ELECTION-NIGHT FIRST REPORT NOT SOURCEABLE: for the 2016 general the only Wayback-archived Napa results files (countyofnapa.org/ElectionResults/20161108/) are the 11:06 PM last-election-night PDF, a Nov 16 update, and the Dec 5 certified Final -- the 8:01 PM first-tranche report was never archived (available API returns NONE for 20161108-2001/-0801PM). For context, the archived 11:06 PM LAST-election-night report (web.archive.org/web/20161218225536/http://www.countyofnapa.org/ElectionResults/20161108/20161108-2306.pdf) shows 'Ballots Cast: 34,108' with 167/167 precincts reported (= 53.9% of certified) -- but that is the END-of-night total, NOT the 8 PM first report, so it is not used as the numerator. Value left null per the first-report definition rather than substituting the end-of-night total. Pre-epollbook; ASV never. (Consistent with the v1 election-night file, which also left 2016 null.)"
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": 21732,
+      "certified_final": 57132,
+      "election_night_pct": 0.3804,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://www.napacounty.gov/DocumentCenter/View/10435/First-Unofficial-Election-Night-Report-11-06-18-PDF",
+      "confidence": "primary",
+      "note": "First adoption year for e-pollbooks (Napa joined the Voter's Choice Act vote-center model in 2018; post). County 'First Unofficial Election Night Report' = 21,732 voters cast (27.81% of 78,135 reg). The header line 'Ballots Cast: 43,527' is ballot CARDS (~2 cards/voter); the voter/ballot count is 21,732 (Governor 'Times Cast 21,732'), consistent with the SoS certified total of 57,132 voters. Report generated 6:25 PM, published election night. Count barely moved overnight -- the 'Last Unofficial Election Night Report' (10:52 PM) was 21,774 voters (+42); the remaining ~62% were tallied in the post-election canvass. Pct = 21,732/57,132 = 38.04%. ASV never adopted."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 20390,
+      "certified_final": 50788,
+      "election_night_pct": 0.4015,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://www.napacounty.gov/DocumentCenter/View/26982/First-Unofficial-Election-Night-Report-801-PM-11822-PDF",
+      "confidence": "primary",
+      "note": "County '1st Unofficial Election Night Report' timestamped 8:01 PM = 20,390 voters cast (24.43% of 83,471 reg), 100% Vote-by-Mail (Election Day 0), 198 of 200 precincts. 'Last Unofficial Election Night Report' was 10:46 PM. Pct = 20,390/50,788 = 40.15%. Post-epollbook (2018); ASV never."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 22504,
+      "certified_final": 66634,
+      "election_night_pct": 0.3377,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://www.napacounty.gov/DocumentCenter/View/34228/First-Unofficial-Election-Night-Results_11052024_GeneralElection",
+      "confidence": "primary",
+      "note": "County 'First Unofficial Election Night Report' timestamped 8:01 PM = 22,504 voters cast (26.43% of 85,150 reg), all 204 precincts. 'Last Unofficial Election Night Report' (12:35 AM) = 26,160. Pct = 22,504/66,634 = 33.77%. Post-epollbook (2018); ASV never. (2020 excluded as a COVID universal-VBM outlier: its 8 PM first report was 42,914 = 58.6% of certified, far above every non-COVID year, which is why this baseline omits it.)"
+    }
+  ]
+}
