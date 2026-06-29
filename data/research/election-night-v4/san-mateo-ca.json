@@ -1,0 +1,85 @@
+{
+  "jurisdiction": "San Mateo County",
+  "state": "CA",
+  "adoption": { "epollbook": 2018, "asv": null },
+  "elections": [
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": 204287,
+      "certified_final": 288592,
+      "election_night_pct": 0.7079,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://smcacre.gov/system/files/migrated/acre/precinct_report_6.pdf",
+      "confidence": "primary",
+      "note": "PLATEAU = Final Election Night Report (UPGRADED from prior 'not sourceable'). Official San Mateo County 'Precinct Turnout — Total Voters — Unofficial' report (precinct_report_6.pdf, linked from smcacre.gov/elections/november-6-2012-election-results as the 'Preliminary report available after Semi Final results posted at the end of the evening on Election Night') carries embedded report-generation timestamp '11/07/2012 12:07 AM' (12 minutes after midnight following election day, after all precincts in), 'Precincts Reporting 468 of 468 = 100.00%', and header/Totals row 'Total Number of Voters : 204,287 of 361,486 = 56.51%' (361,486 registered / 204,287 voters). 204,287 = end-of-night ballots cast — NOT the 8:10 PM first tranche (pre-processed VBM only, 0 precincts), NOT a days-later canvass file (those carry a later timestamp and a higher count). Composition consistent with certified: 119,212 Election-Day precinct + 3,503 early + ~81,572 VBM processed by election night = 204,287. Pre-VCA traditional election: election-day precinct ballots counted that night make the election-night share high. Certified final 288,592 (CA SoS Voter Participation Statistics by County; eligible 479,562, registered 361,486). Pct = 204,287/288,592 = 70.79%. Pre-epollbook (adopted 2018); ASV never."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": 112592,
+      "certified_final": 164453,
+      "election_night_pct": 0.6846,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": "https://smcacre.gov/system/files/migrated/acre/precinct_turnout_report_0.pdf",
+      "confidence": "primary",
+      "note": "PLATEAU = Final Election Night Report (UPGRADED from prior 'not sourceable'). Official San Mateo County 'Precinct Turnout — Total Voters — Unofficial' report (precinct_turnout_report_0.pdf, linked from smcacre.gov/elections/november-4-2014-election-results as the election-night 'Preliminary report...posted at the end of the evening on Election Night') carries embedded timestamp '11/04/2014 11:36 PM' (election night), 'Precincts Reporting 475 of 475 = 100.00%', Totals 'Total Number of Voters : 112,592 of 355,598 = 31.66%' (355,598 registered / 112,592 voters). 112,592 = end-of-night ballots cast. Composition consistent with certified: 54,056 precinct + 978 vote-center + ~57,558 VBM processed by election night = 112,592. (A WebSearch AI summary alleging '221,877 ballots / 50.1%' was discarded as impossible — it exceeds the 164,453 certified total.) Certified final 164,453 (CA SoS Voter Participation Statistics by County; eligible 490,797, registered 355,598). Pct = 112,592/164,453 = 68.46%. Pre-epollbook (adopted 2018); ASV never."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": 205855,
+      "certified_final": 323303,
+      "election_night_pct": 0.6367,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://smcacre.gov/system/files/migrated/acre/precinctreport.pdf",
+      "confidence": "primary",
+      "note": "PLATEAU = Final Election Night Report (UPGRADED from prior 'not sourceable'). Official San Mateo County 'NOV2016_Precinct Turnout — Total Voters — Unofficial' report (precinctreport.pdf, linked from smcacre.gov/elections/november-8-2016-election-results as the election-night 'Preliminary report...posted at the end of the evening on Election Night') carries embedded timestamp '11/09/2016 03:03 AM' (3 AM the morning after, after all vote centers counted), 'Precincts Reporting 468 of 468 = 100.00%', Totals 'Total Number of Voters : 205,855 of 396,341 = 51.94%' (396,341 registered / 205,855 voters). 205,855 = end-of-night ballots cast — NOT the 8:10 PM first tranche. Composition consistent with certified: 105,014 precinct + 7,628 early voting-center + ~93,213 VBM processed by election night = 205,855. Last presidential before VCA/e-pollbooks; high election-night share because election-day precinct ballots are counted that night. Certified final 323,303 (CA SoS Voter Participation Statistics by County; registered 396,341, 81.60% turnout: 105,014 precinct + 7,628 voting-center + 210,661 VBM). Pct = 205,855/323,303 = 63.67%. Pre-epollbook (adopted 2018); ASV never."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": 111637,
+      "certified_final": 290058,
+      "election_night_pct": 0.3849,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20181107121103/https://www.smcacre.org/november-6-2018-election-results",
+      "confidence": "primary",
+      "note": "PLATEAU = last election-night report. County results page captured 2018-11-07 12:11 UTC = Nov 7 4:11 AM PST (the morning AFTER election night, during the pause before the multi-day canvass resumed) shows 'Registration and Turnout': Total Registered Voters 399,591; Precinct Ballots Cast 0; Vote Center Ballots Cast 26,210 (6.6%); Vote by Mail Ballots Cast 85,427 (21.4%); Total Ballots Cast 111,637 (27.9%). Identical figures render from the Nov 12 embed capture (smcacre.org/dd/embed/electionresults -> nov2018_results.html), confirming the count held from election night. Vote-center ballots being present (26,210 ~ 77% of the certified 34,005 in-person) marks this as the END-of-night plateau, NOT the 8 PM first tranche (which for a VCA county is pre-processed VBM only, vote centers = 0). FIRST VCA vote-center / e-pollbook election for San Mateo (post): same-day-dropped mail dominates and is processed in the canvass, so the election-night share fell to ~38% (mirrors Napa 2018 = 38.11%). NOTE the confound: the drop reflects the VCA all-mail/vote-center transition, which coincided with e-pollbook adoption in 2018. Certified final 290,058 voters = 34,005 vote-center + 256,053 VBM (CA SoS Voter Participation Statistics by County; 88.28% VBM, 72.63% of registered). Pct = 111,637/290,058 = 38.49%. ASV never. Snapshot 20181107121103 used."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 122135,
+      "certified_final": 252233,
+      "election_night_pct": 0.4842,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20221109174232/https://www.livevoterturnout.com/ENR/sanmateocaenr/11/en/VRcqD_Index_11.html",
+      "confidence": "primary",
+      "note": "PLATEAU = Final Election Night Report (UPGRADED from prior null/bounded-proxy). Rendered archived San Mateo livevoterturnout ENR (index 11, file VRcqD_Index_11.html) capture 2022-11-09 17:42 UTC — identical across the 17:42 / 20:21 / 22:23 UTC Nov-9 captures — shows the banner 'SEMI-OFFICIAL RESULTS - FINAL ELECTION NIGHT REPORT - NEXT UPDATE ON THURSDAY, NOVEMBER 10 BEFORE 4:30 P.M.', embedded 'Website Updated: 11/9/2022 3:17:37 AM' (the final election-night update, ~3:17 AM Nov 9 PST after all vote-center ballots tallied), and VOTER TURNOUT 28.2% 'Ballots Cast 122,135' = Vote by Mail Ballots 106,626 + Vote Center Ballots 15,509 (Registered Voters 432,707). The number held identical through all three Nov-9 captures to the scheduled Thu Nov 10 canvass release = the plateau. NOT the 8:10 PM first tranche. Correction to prior note: the ENR feed WAS recoverable — render_wayback.cjs (headless Chrome) loads the archived data even though a curl id_ fetch returns HTTP 000; the prior 'about 130,000 ballots left' Daily Journal figure (Thu Nov 10) is now superseded by the exact election-night number. Post-VCA / e-pollbook (adopted 2018). Certified final 252,233 voters = 17,961 vote-center + 234,272 VBM (CA SoS Voter Participation Statistics by County; 92.88% VBM, 58.29% of registered). Pct = 122,135/252,233 = 48.42% (in line with Napa 2022 = 43.21%). ASV never. Snapshot 20221109174232 used."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 213421,
+      "certified_final": 337241,
+      "election_night_pct": 0.6328,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20241107085324/https://www.livevoterturnout.com/ENR/sanmateocaenr/16/en/buXnk_Index_16.html",
+      "confidence": "primary",
+      "note": "PLATEAU = last election-night report. Rendered livevoterturnout ENR (index 16) capture 2024-11-07 08:53 UTC carries embedded data timestamp 'Website Updated: 11/6/2024 2:18:48 AM' (the final election-night update, ~2:18 AM Nov 6 PST after all vote-center ballots were tallied): VOTER TURNOUT 'Ballots Counted 213,421' = Vote by Mail 178,796 + Vote Center 34,625 (Registered Voters 443,164). The next ENR capture (Nov 15) jumps to data 'Updated 11/13/2024' (canvass), confirming 213,421 held through the multi-day pause = the plateau. NOT the 8:10 PM first tranche (pre-processed VBM only). Vote-center 34,625 ~ 88% of the certified 39,466 in-person, consistent with end-of-night. Certified final 337,241 voters = 39,466 vote-center + 297,775 VBM (CA SoS Voter Participation Statistics by County; 88.30% VBM, 76.07% of registered, 65.63% of eligible). Pct = 213,421/337,241 = 63.28% (above SF's ~57% calibration because San Mateo pre-processes a larger VBM share). Post-VCA / e-pollbook (adopted 2018). ASV never. (2020 deliberately excluded as a COVID universal-VBM outlier.) Snapshot 20241107085324 used."
+    }
+  ]
+}

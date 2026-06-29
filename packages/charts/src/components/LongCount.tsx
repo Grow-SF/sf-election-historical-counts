@@ -9,6 +9,8 @@ import NightShareChart from "./NightShareChart";
 import TrajectoryExplorer from "./TrajectoryExplorer";
 import VbmChart from "./VbmChart";
 import CountySpeedChart from "./CountySpeedChart";
+import CountyNightShareChart from "./CountyNightShareChart";
+import CountyNightTimelineChart from "./CountyNightTimelineChart";
 import TurnoutChart from "./TurnoutChart";
 import RegistrationChart from "./RegistrationChart";
 import FranchiseFunnelChart from "./FranchiseFunnelChart";
@@ -98,6 +100,26 @@ export function CountySpeed() {
   return (
     <Island>
       <CountySpeedChart />
+    </Island>
+  );
+}
+
+export function CountyNightShare() {
+  // Cross-county ELECTION-NIGHT share, pre vs post tech adoption, SF as the
+  // control — its own toggle, no year filter (like CountySpeed/Vbm).
+  return (
+    <Island>
+      <CountyNightShareChart />
+    </Island>
+  );
+}
+
+export function CountyNightTimeline() {
+  // Per-county election-night share over time (small multiples) — the full
+  // trajectory behind the pre/post summary. No year filter.
+  return (
+    <Island>
+      <CountyNightTimelineChart />
     </Island>
   );
 }

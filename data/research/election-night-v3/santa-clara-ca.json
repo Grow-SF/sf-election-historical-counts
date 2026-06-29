@@ -1,0 +1,86 @@
+{
+  "jurisdiction": "Santa Clara County",
+  "state": "CA",
+  "adoption": { "epollbook": 2020, "asv": null },
+  "elections": [
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": 438348,
+      "certified_final": 653239,
+      "election_night_pct": 67.10,
+      "vs_epollbook": "pre",
+      "vs_asv": "n-a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20121110090428/http://results.enr.clarityelections.com/CA/Santa_Clara/43231/110787/en/summary.html",
+      "confidence": "primary",
+      "note": "PLATEAU = last continuous election-night (overnight) report, NOT the 8 PM first tranche. Full Clarity/SOE ENR trajectory (event 43231, summary.html versions rendered from Wayback id_ raw replay): 109562 'Updated 11/6/2012 7:35:52 PM PST' = 279,357 ballots / 246 of 1000 precincts (pre-processed VBM first tranche, polls still open at the 7:35 PM data cut) -> 110598 11:13 PM = 302,373 -> 110675 12:09 AM = 326,340 -> 110760 2:01 AM = 392,784 (670/1000) -> 110768 2:38 AM = 404,135 (836/1000) -> 110787 'Updated 11/7/2012 4:14:04 AM PST' = 438,348 with 996 of 1000 precincts Completely Reported. 110787 is the LAST overnight report before a ~13-hour pause; the office resumed Nov 7 afternoon at 111043 'Updated 11/7/2012 5:14:09 PM PST' = 460,329 (1000/1000 precincts, the canvass-start; the +21,981 over 438,348 is the last 4 precincts plus the first canvass VBM batch, NOT precinct ballots), then the multi-day canvass jumped to 593,567 (11/10) and on to certification. By the Orange-County sibling rule (plateau = the overnight all-/near-all-precincts report just before the multi-hour gap to the next-day-afternoon canvass), 438,348 @ 996/1000 is the election-night plateau; the next-day 460,329 is the canvass-start (analogue of Orange's rejected next-day run). (v2 had wrongly used the 7:35 PM first tranche 279,357 = 42.76%.) Certified final 653,239 ballots (CA SoS Voter Participation Statistics by County: 195,354 poll + 457,885 VBM = 653,239; 79.87% of 817,837 reg). Pct = 438,348/653,239 = 67.10%. Slight floor (a possible un-archived 4:30-5 AM version could be a few k higher, but 996/1000 precincts means the count was essentially complete). Pre-epollbook (adopted 2020); ASV never. Snapshot used: Clarity ver 110787, internal Updated 11/7/2012 4:14:04 AM PST, Wayback capture 20121110090428."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": 251620,
+      "certified_final": 404166,
+      "election_night_pct": 62.26,
+      "vs_epollbook": "pre",
+      "vs_asv": "n-a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20141106082527/http://results.enr.clarityelections.com/CA/Santa_Clara/54209/148095/json/sum.json",
+      "confidence": "secondary",
+      "note": "CEILING (next-day all-precincts report; true overnight plateau modestly lower and not archived). The overnight election-night versions of Clarity event 54209 (Web01 layout; lower version folders 143630, 144518, 147xxx) WERE captured by Wayback as summary.html only -- their electionsettings.json/sum.json were never crawled, so they render blank and yield no readable count (confirmed by rendering 143630 = empty). The earliest version with archived JSON is 148095, sum.json top contest GOVERNOR 'BC' (county-wide ballots cast) = 251,620 with 1,066 of 1,066 precincts reporting, electionsettings 'Last updated 11/5/2014 5:08:58 PM PST' = the day-after-afternoon canvass-start (the analogue of 2012's 460,329 / Orange's rejected next-day run, all precincts at 100% plus the first canvass VBM batch). The true overnight plateau (Nov 4 ~midnight-Nov 5 ~2 AM, precincts just below 100%) is unarchived but ~3-5% lower by the 2012 overnight-vs-next-day ratio, est. ~239,000 (~59%). Reported value 251,620 is therefore a documented CEILING = 62.26%. (v2 left this null.) Certified final 404,166 ballots (CA SoS Voter Participation Statistics by County: 96,077 poll + 308,089 VBM = 404,166; 50.18% of 805,502 reg, the low-turnout 2014 midterm). Pre-epollbook; ASV never. Snapshot used: Clarity ver 148095, internal Last-updated 11/5/2014 5:08:58 PM PST, Wayback capture 20141106082527 (sum.json)."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 724596,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n-a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "ELECTION-NIGHT PLATEAU NOT SOURCEABLE. Clarity event 64404 (Web01 layout): the only election-night-period capture is a pre-poll-close placeholder (version 178468, Wayback 20161107003316 = Nov 6 4:33 PM PT, Ballots Cast 0). The Nov 8 election-night data versions were never crawled; the next captures (versions 181922-183106, crawled Nov 12-16) are summary.html only with no archived JSON, so they render blank. The earliest readable JSON is version 183112, sum.json PRESIDENT BC = 602,338 at 1,063/1,063 precincts, electionsettings '11/13/2016 3:24:05 PM PST' -- a DEEP CANVASS count 5 days post-election (602,338/724,596 = 83.1%), useless as an election-night proxy; version 183538 (11/16) = 669,379. No election-night county press release or news ballot count was found. Value left null per the plateau definition rather than substituting a days-later canvass total. Certified final 724,596 ballots (CA SoS Voter Participation Statistics by County: 190,379 poll + 534,217 VBM = 724,596; 82.79% of 875,176 reg, record turnout). Pre-epollbook; ASV never."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 625425,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n-a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "ELECTION-NIGHT PLATEAU NOT SOURCEABLE. Clarity event 92418 (Web02 SPA): NO election-night (Nov 6-7 2018) data version was crawled; the earliest readable JSON is version 221262, sum.json GOVERNOR BC = 443,266 at 1,098/1,098 precincts, electionsettings '11/11/2018 4:43:32 PM PST' -- a DEEP CANVASS count 5 days post-election (443,266/625,425 = 70.9%), not an election-night proxy (version 222476 = 11/20 canvass). Per the county's own post-election analysis ~80% of 2018 ballots were vote-by-mail, processed mostly during the canvass (polling-place ballots first), so the overnight plateau was well below the final -- but no archived election-night ballot count, press release, or news total was found to fix it. Value left null per the plateau definition rather than substituting a days-later canvass total. Certified final 625,425 ballots (CA SoS Voter Participation Statistics by County: 138,468 poll + 486,957 VBM = 625,425; 70.61% of 885,764 reg). Still PRE-epollbook (county adopted e-pollbooks with the 2020 Voter's Choice Act vote-center rollout); ASV never."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 293148,
+      "certified_final": 550602,
+      "election_night_pct": 53.24,
+      "vs_epollbook": "post",
+      "vs_asv": "n-a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20221109173423/https://results.enr.clarityelections.com/CA/Santa_Clara/115971/311769/json/sum.json",
+      "confidence": "primary",
+      "note": "PLATEAU = held election-night (overnight) level. Clarity event 115971 SPA: the Nov 8 election-night data JSON was not crawled, but the EARLIEST archived data version, 311769 (Wayback 20221109173423 = Nov 9 9:34 AM PT), is the held overnight plateau -- sum.json top contest GOVERNOR 'BC' (county-wide ballots cast) = 293,148 at 671 of 754 precincts (89%). With no county update between the ~1 AM Nov 9 last election-night report and this 9:34 AM crawl, 293,148 is the overnight level that held into the morning. The NEXT version, 312166 (Nov 9 7:37 PM), jumps to 309,580 at 754/754 precincts = the canvass-start (precincts pushed to 100% + more VBM), and the multi-day canvass then climbs to certification. By the Orange/2012 rule the held <100%-precinct overnight value (293,148) is the plateau, not the 100%-precinct next-evening canvass-start. (v2 had used the 8 PM first tranche / a Nov 9 running total and left this null.) Certified final 550,602 ballots (CA SoS Voter Participation Statistics by County: 40,694 poll + 509,908 VBM = 550,602; 54.55% of 1,009,422 reg; cross-confirmed by the county's 'Official Results Certified for the November 8, 2022 General Election' release). Pct = 293,148/550,602 = 53.24%. POST-epollbook (e-pollbooks + Voter's Choice Act vote centers since 2020); ASV never. Snapshot used: Clarity ver 311769, Wayback capture 20221109173423 (Nov 9 9:34 AM PT)."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 468395,
+      "certified_final": 765495,
+      "election_night_pct": 61.19,
+      "vs_epollbook": "post",
+      "vs_asv": "n-a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20241107034843/https://results.enr.clarityelections.com/CA/Santa_Clara/122582/353583/json/sum.json",
+      "confidence": "primary",
+      "note": "PLATEAU = held election-night (overnight) level. Clarity event 122582 SPA: the only archived data version is 353583 (Wayback 20241107034843 = Nov 6 7:48 PM PT), sum.json top contest PRESIDENT AND VICE PRESIDENT 'BC' (county-wide ballots cast; identical across all county-wide contests = total ballots) = 468,395 at 686 of 784 precincts (87.5%). Precincts still below 100% (the same signature as 2022's held overnight level, 671/754) means NO canvass-to-100% update had been posted by Nov 6 evening, so 468,395 is the Nov 5 overnight plateau that held flat through all of Nov 6 (San Diego-style day-after hold) before the multi-day canvass to certification. It is NOT the 8 PM first tranche (that would show ~0 precincts; 686/784 means election-day vote centers were counted = end of election night). Single archived snapshot, so the held level cannot be cross-checked against a second same-day capture, but the <100% precinct signal makes a hidden canvass batch unlikely. (v2 read 468,395 as a 'next-day running total' and left this null.) Certified final 765,495 ballots (CA SoS Voter Participation Statistics by County: 97,924 poll + 667,571 VBM = 765,495; 72.99% of 1,048,723 reg). Pct = 468,395/765,495 = 61.19%. POST-epollbook (e-pollbooks + VCA vote centers since 2020); ASV never. (2020 deliberately excluded as the COVID universal-VBM early-voting outlier.) Snapshot used: Clarity ver 353583, Wayback capture 20241107034843 (Nov 6 7:48 PM PT)."
+    }
+  ],
+  "notes": "v3 = PLATEAU metric (election-night % = the FINAL election-night ballots-counted report -- the cumulative total that plateaus late on election night / overnight and holds before the multi-day canvass resumes -- divided by CA SoS certified final ballots, Voter Participation Statistics by County 'Total Voters'). Santa Clara reports via the Clarity/SOE ENR system (results.enr.clarityelections.com/CA/Santa_Clara). The live Clarity server blocks scripted access (CloudFront 403) and only serves the current certified version, so all election-night data comes from Wayback (curl + headless Chrome bypassing the system proxy; archive.org is flaky and requires retries). DISCRIMINATOR used to identify the plateau: the held election-night/overnight level shows precincts just BELOW 100% (2012 996/1000 @4:14 AM; 2022 671/754 @Nov 9 morning; 2024 686/784 @Nov 6 evening), whereas the first canvass-start report pushes precincts to 100% AND adds the first late-VBM/provisional batch (2012 460,329 @1000/1000 Nov 7 5:14 PM; 2014 251,620 @1066/1066 Nov 5 5:08 PM). This mirrors the Orange County sibling rule (plateau = the overnight all-/near-all-precincts run before the multi-hour gap to the next-day-afternoon canvass). RESULTS: 2012 438,348/653,239 = 67.10% (primary); 2014 251,620/404,166 = 62.26% (SECONDARY -- only the next-day canvass-start was archived; a ~5% ceiling on the unarchived overnight plateau, est. ~59%); 2016 null/none (only Nov 13 deep-canvass JSON archived); 2018 null/none (only Nov 11 deep-canvass JSON archived); 2022 293,148/550,602 = 53.24% (primary); 2024 468,395/765,495 = 61.19% (primary). 2020 general deliberately excluded (COVID universal-VBM early-voting outlier). ADOPTION: e-pollbooks + Voter's Choice Act vote centers from the 2020 primary, so 2012-2018 = PRE-epollbook, 2022/2024 = POST; automated signature verification (ASV) never adopted, so vs_asv = 'n-a' for every election. This v3 file supersedes v2, which had used 8 PM first-tranche / running-total numerators (undercounting by ~2x) and left 2014/2016/2018/2022/2024 null."
+}

@@ -1,0 +1,1026 @@
+{
+  "metric": "election-night share = ballots in the last election-night report / certified-final ballots",
+  "note": "San Francisco is the no-new-tech control. 2020 (presidential) is a COVID all-mail outlier; rows flagged comparable=false (e.g. Nevada 2024, a ballot-printer-defect outlier) are excluded from pre/post comparisons. The 2018-2020 statewide Voter's Choice Act all-mail shift is a confound independent of e-pollbooks/ASV.",
+  "source": "data/research/election-night-*/ (per-county, verified) + SF DOE pipeline (packages/data/elections.json)",
+  "generated": "2026-06-29",
+  "jurisdictions": [
+    {
+      "name": "San Francisco",
+      "slug": "san-francisco-ca",
+      "control": true,
+      "complete": true,
+      "adoption": {
+        "epollbook": null,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 71.4,
+          "ballots": 260521,
+          "final": 364875,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 70.3,
+          "ballots": 162543,
+          "final": 231214,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": 66.1,
+          "ballots": 274003,
+          "final": 414528,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 59.3,
+          "ballots": 221099,
+          "final": 372848,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
+        },
+        {
+          "year": 2020,
+          "type": "presidential",
+          "pct": 78.4,
+          "ballots": 352695,
+          "final": 449866,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 51.0,
+          "ballots": 158136,
+          "final": 310071,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 56.9,
+          "ballots": 234559,
+          "final": 412231,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
+        }
+      ]
+    },
+    {
+      "name": "Fresno",
+      "slug": "fresno-ca",
+      "control": false,
+      "complete": false,
+      "adoption": {
+        "epollbook": 2020,
+        "asv": 2020
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 261652,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 163420,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": 60.7,
+          "ballots": 177183,
+          "final": 291890,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20161112171743/http://www2.co.fresno.ca.us/2850/Results/Results20161108.htm"
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 256972,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 221419,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 62.36,
+          "ballots": 206372,
+          "final": 330932,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20241107003627/https://www.fresnocountyca.gov/files/sharedassets/county/v/5/county-clerk-registrar-of-voters/1_election-results-page-sov-ssov/2024/november-5th-general-election/electionsummaryreportrpt_11_5_24_1231.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Los Angeles",
+      "slug": "los-angeles-ca",
+      "control": false,
+      "complete": true,
+      "adoption": {
+        "epollbook": 2020,
+        "asv": 2020
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 73.17,
+          "ballots": 2368283,
+          "final": 3236704,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://www.lavote.gov/Documents/News_Releases/11072012-055616.pdf"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 75.53,
+          "ballots": 1147248,
+          "final": 1518835,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://www.lavote.gov/Documents/News_Releases/11052014.pdf"
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": 65.07,
+          "ballots": 2306321,
+          "final": 3544115,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://www.lavote.gov/Documents/News_Releases/11082016-semi-official-results.pdf"
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 65.35,
+          "ballots": 1975855,
+          "final": 3023417,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://www.lavote.gov/docs/rrcc/news-releases/11062018_semi-official-results.pdf"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 53.65,
+          "ballots": 1318093,
+          "final": 2456701,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://www.lavote.gov/docs/rrcc/news-releases/11082022_semi-final-results.pdf"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 68.96,
+          "ballots": 2615541,
+          "final": 3793106,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://content.lavote.gov/docs/rrcc/documents/11-11062024_pr-11052024_semi-final-results.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Madera",
+      "slug": "madera-ca",
+      "control": false,
+      "complete": false,
+      "adoption": {
+        "epollbook": 2018,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 40325,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 27370,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": 80.0,
+          "ballots": 35364,
+          "final": 44186,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20161112115134/http://votemadera.com/results/Election33/HTML/resultsc33.htm"
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 72.26,
+          "ballots": 28159,
+          "final": 38968,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20260627203408/https://results.enr.clarityelections.com/CA/Madera/92458/220349/json/sum.json"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 58.78,
+          "ballots": 21951,
+          "final": 37345,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20260627203522/https://results.enr.clarityelections.com/CA/Madera/116174/311779/json/sum.json"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 67.1,
+          "ballots": 37106,
+          "final": 55329,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20241108001837/https://results.enr.clarityelections.com/CA/Madera/122832/353191/json/sum.json"
+        }
+      ]
+    },
+    {
+      "name": "Napa",
+      "slug": "napa-ca",
+      "control": false,
+      "complete": true,
+      "adoption": {
+        "epollbook": 2018,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 56.73,
+          "ballots": 32715,
+          "final": 57672,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20121208223758/http://www.countyofnapa.org/ElectionResults/20121106/20101102-1129PM_dtl.htm"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 47.17,
+          "ballots": 18286,
+          "final": 38766,
+          "confidence": "secondary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20150916061050/http://www.countyofnapa.org/ElectionResults/20141104/20141104-2230_dtl.htm"
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": 53.92,
+          "ballots": 34108,
+          "final": 63255,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20161218225536/http://www.countyofnapa.org/ElectionResults/20161108/20161108-2306.pdf"
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 38.11,
+          "ballots": 21774,
+          "final": 57132,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://www.napacounty.gov/DocumentCenter/View/10436/Last-Unofficial-Election-Night-Report-11-06-18-PDF"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 43.21,
+          "ballots": 21943,
+          "final": 50788,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://www.napacounty.gov/DocumentCenter/View/26985/Last-Unofficial-Election-Night-Report-1046-PM-11822-PDF"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 39.26,
+          "ballots": 26160,
+          "final": 66634,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://www.napacounty.gov/DocumentCenter/View/34231/Last-Unofficial-Election-Night-Results-1235AM-11062024-PDF"
+        }
+      ]
+    },
+    {
+      "name": "Nevada",
+      "slug": "nevada-ca",
+      "control": false,
+      "complete": true,
+      "adoption": {
+        "epollbook": 2018,
+        "asv": 2022
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 59.94,
+          "ballots": 31275,
+          "final": 52173,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20121112105530/http://yubanet.com:80/regional/Nevada-County-Election-Tally-Continues---Turnout-Is-Nearly-80-Mail-Ins-Top-16-000.php"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 56.44,
+          "ballots": 22366,
+          "final": 39629,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20141108075409/http://yubanet.com:80/regional/Many-Nevada-County-races-too-close-to-call.php"
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": 61.14,
+          "ballots": 34728,
+          "final": 56800,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://yubanet.com/regional/nevada-county-ballot-measures-fate-depends-on-remaining-absentee-ballots/"
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 49.01,
+          "ballots": 26956,
+          "final": 54996,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://yubanet.com/regional/an-estimated-22000-ballots-remain-to-be-counted-in-nevada-county/"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 56.11,
+          "ballots": 28824,
+          "final": 51370,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://yubanet.com/regional/election-day-is-over-whats-the-holdup-in-results/"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 24.49,
+          "ballots": 15486,
+          "final": 63240,
+          "confidence": "primary",
+          "comparable": false,
+          "source_url": "https://www.nevadacountyca.gov/DocumentCenter/View/55078/Third-Report-Cumulative-Results-11-5-2024-11-24-31-PM"
+        }
+      ]
+    },
+    {
+      "name": "Orange",
+      "slug": "orange-ca",
+      "control": false,
+      "complete": true,
+      "adoption": {
+        "epollbook": 2020,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 76.12,
+          "ballots": 862544,
+          "final": 1133204,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://ocvote.gov/fileadmin/live/gen2012/Run09/cumulative.pdf"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 72.51,
+          "ballots": 464313,
+          "final": 640358,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://ocvote.gov/fileadmin/live/gen2014/Run%2009/cumulative.pdf"
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": 66.59,
+          "ballots": 825317,
+          "final": 1239405,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://ocvote.gov/fileadmin/live/gen2016/Run%2011/cumulative.pdf"
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 58.79,
+          "ballots": 650671,
+          "final": 1106729,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://ocvote.gov/fileadmin/live/gen2018/Run_11/cumulative.pdf"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 61.46,
+          "ballots": 611060,
+          "final": 994277,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://ocvote.gov/fileadmin/live/Gen2022/Run_08/cumulative.pdf"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 71.06,
+          "ballots": 1007150,
+          "final": 1417397,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://ocvote.gov/fileadmin/live/GEN2024/Run_09/cumulative.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Placer",
+      "slug": "placer-ca",
+      "control": false,
+      "complete": false,
+      "adoption": {
+        "epollbook": 2024,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 172757,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 66.1,
+          "ballots": 76411,
+          "final": 115547,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20141115000402/http://www.placerelections.com/election-night-results.aspx"
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": 57.6,
+          "ballots": 109666,
+          "final": 190550,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20161113042955/http://www.placerelections.com/election-night-results.aspx"
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 63.8,
+          "ballots": 113380,
+          "final": 177725,
+          "confidence": "secondary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20181113195233/https://www.placerelections.com/election-night-results/"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 184507,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": "https://www.placer.ca.gov/8408/First-election-results-are-in"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 239402,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": "https://www.placer.ca.gov/10016/2024-election-results"
+        }
+      ]
+    },
+    {
+      "name": "Riverside",
+      "slug": "riverside-ca",
+      "control": false,
+      "complete": false,
+      "adoption": {
+        "epollbook": 2022,
+        "asv": 2025
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 669627,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 357764,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 769193,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 650545,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 34.0,
+          "ballots": 205813,
+          "final": 604617,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20221109110809/https://www.voteinfo.net/Elections/20221108/docs/ElectionSummaryReportRPT_mhtml.htm"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 63.7,
+          "ballots": 611101,
+          "final": 959098,
+          "confidence": "secondary",
+          "comparable": false,
+          "source_url": "https://web.archive.org/web/20241107034053/https://www.livevoterturnout.com/ENR/riversidecaenr/5/en/Index_5.html"
+        }
+      ]
+    },
+    {
+      "name": "Sacramento",
+      "slug": "sacramento-ca",
+      "control": false,
+      "complete": false,
+      "adoption": {
+        "epollbook": 2018,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 62.93,
+          "ballots": 328516,
+          "final": 522045,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20121109045323/http://www.eresults.saccounty.net/"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 59.04,
+          "ballots": 195317,
+          "final": 330817,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20141106101214/http://www.eresults.saccounty.net/"
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 575711,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 35.52,
+          "ballots": 185623,
+          "final": 522652,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20181107234429/https://eresults.saccounty.net/"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 29.94,
+          "ballots": 145015,
+          "final": 484315,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20221109091143/https://eresults.saccounty.net/"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 46.65,
+          "ballots": 311821,
+          "final": 668416,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20241106151727/https://eresults.saccounty.net/"
+        }
+      ]
+    },
+    {
+      "name": "San Bernardino",
+      "slug": "san-bernardino-ca",
+      "control": false,
+      "complete": false,
+      "adoption": {
+        "epollbook": 2020,
+        "asv": 2025
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 589611,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 293283,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 672871,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 546041,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 458946,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 56.24,
+          "ballots": 434108,
+          "final": 771834,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20241106224114/https://elections.sbcounty.gov/elections/2024/1105/results/"
+        }
+      ]
+    },
+    {
+      "name": "San Diego",
+      "slug": "san-diego-ca",
+      "control": false,
+      "complete": false,
+      "adoption": {
+        "epollbook": 2022,
+        "asv": 2024
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 1203265,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 692434,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 1346513,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 45.72,
+          "ballots": 536734,
+          "final": 1173924,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20181107120607/https://www.livevoterturnout.com/SanDiego/LiveResults/en/Index_5.html"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 54.24,
+          "ballots": 565982,
+          "final": 1043490,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20221109172128/https://www.livevoterturnout.com/ENR/sandiegocaenr/16/en/Index_16.html"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 64.89,
+          "ballots": 975373,
+          "final": 1503018,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20241106165220/https://www.livevoterturnout.com/ENR/sandiegocaenr/20/en/Index_20.html"
+        }
+      ]
+    },
+    {
+      "name": "San Mateo",
+      "slug": "san-mateo-ca",
+      "control": false,
+      "complete": true,
+      "adoption": {
+        "epollbook": 2018,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 70.79,
+          "ballots": 204287,
+          "final": 288592,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://smcacre.gov/system/files/migrated/acre/precinct_report_6.pdf"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 68.46,
+          "ballots": 112592,
+          "final": 164453,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://smcacre.gov/system/files/migrated/acre/precinct_turnout_report_0.pdf"
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": 63.67,
+          "ballots": 205855,
+          "final": 323303,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://smcacre.gov/system/files/migrated/acre/precinctreport.pdf"
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 38.49,
+          "ballots": 111637,
+          "final": 290058,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20181107121103/https://www.smcacre.org/november-6-2018-election-results"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 48.42,
+          "ballots": 122135,
+          "final": 252233,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20221109174232/https://www.livevoterturnout.com/ENR/sanmateocaenr/11/en/VRcqD_Index_11.html"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 63.28,
+          "ballots": 213421,
+          "final": 337241,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20241107085324/https://www.livevoterturnout.com/ENR/sanmateocaenr/16/en/buXnk_Index_16.html"
+        }
+      ]
+    },
+    {
+      "name": "Santa Clara",
+      "slug": "santa-clara-ca",
+      "control": false,
+      "complete": false,
+      "adoption": {
+        "epollbook": 2020,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 67.1,
+          "ballots": 438348,
+          "final": 653239,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20121110090428/http://results.enr.clarityelections.com/CA/Santa_Clara/43231/110787/en/summary.html"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 62.26,
+          "ballots": 251620,
+          "final": 404166,
+          "confidence": "secondary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20141106082527/http://results.enr.clarityelections.com/CA/Santa_Clara/54209/148095/json/sum.json"
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 724596,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 625425,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 53.24,
+          "ballots": 293148,
+          "final": 550602,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20221109173423/https://results.enr.clarityelections.com/CA/Santa_Clara/115971/311769/json/sum.json"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 61.19,
+          "ballots": 468395,
+          "final": 765495,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20241107034843/https://results.enr.clarityelections.com/CA/Santa_Clara/122582/353583/json/sum.json"
+        }
+      ]
+    }
+  ]
+}
