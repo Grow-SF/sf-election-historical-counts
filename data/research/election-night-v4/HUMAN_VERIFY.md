@@ -12,18 +12,6 @@ VERIFY.md (then rerun scripts/build_county_night.py).
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf
       look for: PLATEAU metric (final election-night report, not the 8 p.m. first tranche). Sacramento County VRE posts a fixed-width Hart 'SUMMARY REPORT' on eresults.saccounty.net. The archived capture embeds the SEMI-OFFICIAL report, Run Date 11/07/12, Run Time 12:49 AM (just after midnight on election night), w
 
-- [ ] **san-bernardino-ca 2024-11-05** (numerator NOT_FOUND)
-      claimed: night ballots **434,108**, certified final **771,834**, share **56.24%**
-      numerator URL: https://web.archive.org/web/20241106224114/https://elections.sbcounty.gov/elections/2024/1105/results/
-      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf
-      look for: Election-night PLATEAU = 434,108 ballots ('Voters Cast: 434,108 of 1,198,556', 36.22% of registered) at Precincts Reported 2,872 of 2,872 (100.00%), from San Bernardino's OFFICIAL Clarity-style results page whose header reads literally 'Final Unofficial Election Night Results' with 'Next Update: Nov
-
-- [ ] **san-mateo-ca 2018-11-06** (numerator NOT_FOUND)
-      claimed: night ballots **111,637**, certified final **290,058**, share **38.49%**
-      numerator URL: https://web.archive.org/web/20181107121103/https://www.smcacre.org/november-6-2018-election-results
-      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
-      look for: PLATEAU = last election-night report. County results page captured 2018-11-07 12:11 UTC = Nov 7 4:11 AM PST (the morning AFTER election night, during the pause before the multi-day canvass resumed) shows 'Registration and Turnout': Total Registered Voters 399,591; Precinct Ballots Cast 0; Vote Cente
-
 ## 2. Secondary-confidence rows (weakest sourcing, read closely)
 
 - [ ] **napa-ca 2014-11-04** (secondary confidence)
@@ -92,15 +80,15 @@ VERIFY.md (then rerun scripts/build_county_night.py).
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf
       look for: PLATEAU = 76,411 'Cards Cast', the registrar's GEMS 'SEMI-OFFICIAL ELECTION SUMMARY / Election Night Final' with all 369 of 369 precincts reporting (38.13% reg turnout). The report carries its OWN embedded data timestamp '11/05/14 00:36:57' (12:36 a.m. PT Nov 5, i.e. ~4.5 hrs after 8pm Nov 4 poll cl
 
-- [ ] **san-diego-ca 2022-11-08** (spot-check)
-      claimed: night ballots **565,982**, certified final **1,043,490**, share **54.24%**
-      numerator URL: https://web.archive.org/web/20221109172128/https://www.livevoterturnout.com/ENR/sandiegocaenr/16/en/Index_16.html
-      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf
-      look for: PLATEAU metric (final election-night report). Vote-center / e-pollbook era; the ENR page shows 'Ballots Cast' with an internal 'Website Updated' data timestamp. Sequence from Wayback captures of Index_16.html: 11/8/2022 8:01:54 PM = 487,957 (first tranche, pre-Election-Day mail + early vote-center);
+- [ ] **san-diego-ca 2018-11-06** (spot-check)
+      claimed: night ballots **536,734**, certified final **1,173,924**, share **45.72%**
+      numerator URL: https://web.archive.org/web/20181107120607/https://www.livevoterturnout.com/SanDiego/LiveResults/en/Index_5.html
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU metric (final election-night report). San Diego's live ENR page (livevoterturnout.com/SanDiego/LiveResults/en/Index_5.html) carries an internal 'Website Updated' data timestamp. The only election-night-era Wayback capture, taken 11/7/2018 04:06 PST (Wayback ts 20181107120607), renders 'Websi
 
-- [ ] **santa-clara-ca 2024-11-05** (spot-check)
-      claimed: night ballots **468,395**, certified final **765,495**, share **61.19%**
-      numerator URL: https://web.archive.org/web/20241107034843/https://results.enr.clarityelections.com/CA/Santa_Clara/122582/353583/json/sum.json
-      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf
-      look for: PLATEAU = held election-night (overnight) level. Clarity event 122582 SPA: the only archived data version is 353583 (Wayback 20241107034843 = Nov 6 7:48 PM PT), sum.json top contest PRESIDENT AND VICE PRESIDENT 'BC' (county-wide ballots cast; identical across all county-wide contests = total ballots
+- [ ] **santa-clara-ca 2014-11-04** (spot-check)
+      claimed: night ballots **251,620**, certified final **404,166**, share **62.26%**
+      numerator URL: https://web.archive.org/web/20141106082527/http://results.enr.clarityelections.com/CA/Santa_Clara/54209/148095/json/sum.json
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CEILING (next-day all-precincts report; true overnight plateau modestly lower and not archived). The overnight election-night versions of Clarity event 54209 (Web01 layout; lower version folders 143630, 144518, 147xxx) WERE captured by Wayback as summary.html only -- their electionsettings.json/sum.
 

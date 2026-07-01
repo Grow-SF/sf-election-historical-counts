@@ -305,8 +305,8 @@ This is the gold-standard series the county numbers are compared against.
 | 2014 | midterm-general | 76,411 | 115,547 | 66.1% | primary | [link](https://web.archive.org/web/20141115000402/http://www.placerelections.com/election-night-results.aspx) |
 | 2016 | presidential-general | 109,666 | 190,550 | 57.6% | primary | [link](https://web.archive.org/web/20161113042955/http://www.placerelections.com/election-night-results.aspx) |
 | 2018 | midterm-general | 113,380 | 177,725 | 63.8% | secondary | [link](https://web.archive.org/web/20181113195233/https://www.placerelections.com/election-night-results/) |
-| 2022 | midterm-general | — | 184,507 | — | none | [link](https://www.placer.ca.gov/8408/First-election-results-are-in) |
-| 2024 | presidential-general | — | 239,402 | — | none | [link](https://www.placer.ca.gov/10016/2024-election-results) |
+| 2022 | midterm-general | — | 184,507 | — | none | — (examined source in note) |
+| 2024 | presidential-general | — | 239,402 | — | none | — (examined source in note) |
 
 <details><summary>What to look for on each source page (numerator) + denominator URL</summary>
 
@@ -320,7 +320,7 @@ This is the gold-standard series the county numbers are compared against.
 - **2016 presidential-general** — night `109,666` / final `190,550` = `57.6%` (primary)
   - numerator: <https://web.archive.org/web/20161113042955/http://www.placerelections.com/election-night-results.aspx>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf>
-  - look for: PLATEAU = 109,666 'Cards Cast', the registrar's GEMS 'PLACER COUNTY SEMI-OFFICIAL ELECTION SUMMARY / November 8, 2016 / FINAL' with all 363 of 363 precincts reporting (48.43% reg turnout). The report carries its OWN embedded data timestamp '11/09/16 00:29:40' (12:29 a.m. PT Nov 9, ~4.5 hrs after 8pm Nov 8 poll close) = the election-night-final semi-official canvass (the plateau, frozen until the official canvass). NOT the 8pm first tranche. Rendered from Wayback snapshot 20161113042955 (capture Nov 13; embedded report data frozen at 11/09/16 00:29:40). Later Dec captures transition to the 'OFFICIAL ELECTION SUMMARY', confirming SEMI-OFFICIAL = the election-night figure. Denominator = certified Total Voters 190,550 (Precinct 58,385 + VBM 132,165), CA SoS Voter Participation by County. 109,666/190,550 = 57.6%. Snapshot 20161113042955 used; report data-stamp 11/09/16 00:29:40.
+  - look for: PLATEAU = 109,666 'Cards Cast', the registrar's GEMS 'PLACER COUNTY SEMI-OFFICIAL ELECTION SUMMARY / November 8, 2016 / FINAL' with all 363 of 363 precincts reporting (48.43% reg turnout). The report carries its OWN embedded data timestamp '11/09/16 00:29:40' (12:29 a.m. PT Nov 9, ~4.5 hrs after 8pm Nov 8 poll close) = the election-night-final semi-official canvass (the plateau, frozen until the official canvass). NOT the 8pm first tranche. Rendered from Wayback snapshot 20161113042955 (capture Nov 13; embedded report data frozen at 11/09/16 00:29:40). Later Dec captures transition to the 'OFFICIAL ELECTION SUMMARY', confirming SEMI-OFFICIAL = the election-night figure. Denominator = certified Total Voters 190,550 (Precinct 58,385 + VBM 132,165), CA SoS Voter Participation by County. 109,666/190,550 = 57.55%. Snapshot 20161113042955 used; report data-stamp 11/09/16 00:29:40.
 - **2018 midterm-general** — night `113,380` / final `177,725` = `63.8%` (secondary)
   - numerator: <https://web.archive.org/web/20181113195233/https://www.placerelections.com/election-night-results/>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf>
