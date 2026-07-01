@@ -50,5 +50,13 @@ def test_find_number_absent():
     assert find_number("nothing here", 12345) is None
 
 
+def test_find_number_rejects_leading_group_of_longer_number():
+    assert find_number("grand total 177,183,456 ballots", 177183) is None
+
+
+def test_find_number_accepts_number_followed_by_punctuation_comma():
+    assert find_number("Cards Cast 177,183, up from prior", 177183) is not None
+
+
 def test_strip_html():
     assert strip_html("<td>177,183</td>").strip() == "177,183"

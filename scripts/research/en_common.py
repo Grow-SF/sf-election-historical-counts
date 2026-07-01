@@ -38,7 +38,11 @@ def find_number(text, n):
         for m in re.finditer(re.escape(v), text):
             before = text[m.start() - 1 : m.start()]
             after = text[m.end() : m.end() + 1]
-            if before.isdigit() or after.isdigit() or before == ",":
+            two_before = text[m.start() - 2 : m.start() - 1]
+            after_comma = text[m.end() + 1 : m.end() + 2]
+            if (before.isdigit() or after.isdigit() or
+                (before == "," and two_before.isdigit()) or
+                (after == "," and after_comma.isdigit())):
                 continue
             return " ".join(text[max(0, m.start() - 80) : m.end() + 80].split())
     return None
