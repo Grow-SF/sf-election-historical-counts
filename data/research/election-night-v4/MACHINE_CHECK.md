@@ -109,7 +109,7 @@ verify_en_* scripts to regenerate).
 | san-bernardino-ca | 2018-11-06 | denominator | 546,041 | VERIFIED | 2,209 1,330,247 937,316 209,168 336,873 546,041 61.69% 58.26% 41.05% |
 | san-bernardino-ca | 2022-11-08 | denominator | 458,946 | VERIFIED | 2,765 1,472,696 1,138,818 66,469 392,477 458,946 85.52% 40.30% 31.16% |
 | san-bernardino-ca | 2024-11-05 | denominator | 771,834 | VERIFIED | 2,872 1,472,596 1,197,953 154,974 616,860 771,834 79.92% 64.43% 52.41% |
-| san-bernardino-ca | 2024-11-05 | numerator | 434,108 | VERIFIED | Precincts Reported: 2,872 of 2,872 (100.00%) Voters Cast: 434,108 of 1,198,556 (36.22%) Cards Cast: 1,299,924 |
+| san-bernardino-ca | 2024-11-05 | numerator | 434,108 | VERIFIED | render-verified: Precincts Reported: 2,872 of 2,872 (100.00%) Voters Cast: 434,108 of 1,198,556 (36.22%) Cards Cast: 1,2 |
 | san-diego-ca | 2012-11-06 | denominator | 1,203,265 | VERIFIED | go 2,064 2,094,093 1,563,093 528,258 675,007 1,203,265 56.10% 76.98% 57.46% |
 | san-diego-ca | 2014-11-04 | denominator | 692,434 | VERIFIED | o 2,001 2,135,863 1,546,924 242,638 449,796 692,434 64.96% 44.76% 32.42% |
 | san-diego-ca | 2016-11-08 | denominator | 1,346,513 | VERIFIED | iego 2,175 2,191,191 1,652,570 489,576 856,937 1,346,513 63.64% 81.48% 61.45% |
@@ -126,7 +126,7 @@ verify_en_* scripts to regenerate).
 | san-mateo-ca | 2016-11-08 | denominator | 323,303 | VERIFIED | eo 468 503,843 395,928 105,014 218,289 323,303 67.52% 81.66% 64.17% |
 | san-mateo-ca | 2016-11-08 | numerator | 205,855 | VERIFIED | 11/09/2016 03:03 AM Total Number of Voters : 205,855 of 396,341 = 51.94% |
 | san-mateo-ca | 2018-11-06 | denominator | 290,058 | VERIFIED | 525 507,576 399,351 34,005 256,053 290,058 88.28% 72.63% 57.15% |
-| san-mateo-ca | 2018-11-06 | numerator | 111,637 | VERIFIED | Precinct Ballots Cast 0 0.0% Vote Center Ballots Cast 26,210 6.6% Vote by Mail Ballots Cast 85,427 21.4% Total Ballots C |
+| san-mateo-ca | 2018-11-06 | numerator | 111,637 | VERIFIED | render-verified: Precinct Ballots Cast 0 0.0% Vote Center Ballots Cast 26,210 6.6% Vote by Mail Ballots Cast 85,427 21.4 |
 | san-mateo-ca | 2022-11-08 | denominator | 252,233 | VERIFIED | 332 515,759 432,734 17,961 234,272 252,233 92.88% 58.29% 48.91% |
 | san-mateo-ca | 2022-11-08 | numerator | 122,135 | VERIFIED | (dataArray, colorObject, elem); })(); Ballots Cast 122,135 Vote by Mail Ballots 106,626 Vote Center |
 | san-mateo-ca | 2024-11-05 | denominator | 337,241 | VERIFIED | 338 513,823 443,350 39,466 297,775 337,241 88.30% 76.07% 65.63% |

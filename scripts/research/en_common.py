@@ -79,10 +79,14 @@ def fetch(url, dest, tries=3, sleep=2.0):
 
 
 def load_rows():
-    """All election rows across the 13 county JSONs, flattened."""
+    """All election rows across the 13 county JSONs, flattened. Skips
+    non-county manifests in the same directory (e.g. render_verified.json,
+    a list, not a {jurisdiction, elections} county object)."""
     rows = []
     for fp in sorted(V4.glob("*.json")):
         d = json.loads(fp.read_text())
+        if not isinstance(d, dict) or "elections" not in d:
+            continue
         for e in d["elections"]:
             rows.append(
                 {

@@ -45,6 +45,8 @@ def load_counties() -> list[dict]:
     out = []
     for fp in sorted(county_dir().glob("*.json")):
         d = json.loads(fp.read_text())
+        if not isinstance(d, dict):
+            continue  # skip non-county manifests, e.g. render_verified.json
         adopt = d.get("adoption", {}) or {}
         points = []
         for e in d.get("elections", []):
