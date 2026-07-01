@@ -69,15 +69,15 @@ export default function CountyNightTimelineChart() {
   return (
     <ChartFrame
       title="Election-night share over time, by county"
-      subtitle="Each county’s full trajectory, 2012–2024 — the dashed grey line is San Francisco (no new tech) for comparison"
+      subtitle="Each county’s full trajectory, 2012–2024. The dashed grey line is San Francisco (no new tech) for comparison"
       note={
         <>
           One panel per county; the vertical dotted mark is the year it adopted
           e-pollbooks / automated signature verification. Lines zigzag because
           presidential years (’12 ’16 ’24) draw more election-day turnout than
-          midterms (’14 ’18 ’22) — so watch the <em>level</em>, not the saw-tooth.
+          midterms (’14 ’18 ’22), so watch the <em>level</em>, not the saw-tooth.
           The all-mail Voter’s Choice Act counties (Napa, San&nbsp;Mateo,
-          Nevada — all ’18) step <strong>down</strong> right at adoption and stay
+          Nevada, all ’18) step <strong>down</strong> right at adoption and stay
           there; SF, with no tech, drifts down too. 2020 (COVID all-mail) is
           omitted, as is the Nevada 2024 printer-defect outlier. Sources in{" "}
           <a

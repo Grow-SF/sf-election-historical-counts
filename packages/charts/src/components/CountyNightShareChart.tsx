@@ -206,13 +206,13 @@ export default function CountyNightShareChart() {
   return (
     <ChartFrame
       title="Did counting tech speed up election night?"
-      subtitle={`Election-night share of the certified vote, before vs after adopting e-pollbooks / automated signature verification — ${type} generals`}
+      subtitle={`Election-night share of the certified vote, before vs after adopting e-pollbooks / automated signature verification, ${type} generals`}
       note={
         <>
           Each bar runs from a county’s last <strong>pre-adoption</strong>{" "}
           election-night share to its most recent <strong>post-adoption</strong>{" "}
-          share (same election type); green rose, red fell. San Francisco —
-          which adopted <em>none</em> of this tech — is the bold control, and its
+          share (same election type); green rose, red fell. San Francisco,
+          which adopted <em>none</em> of this tech, is the bold control, and its
           share fell too. If the tech sped up the night count, adopters’ bars
           would climb green well past SF’s; instead several fall as far or
           farther. The 2018–2020 statewide move to all-mail (Voter’s Choice Act)
