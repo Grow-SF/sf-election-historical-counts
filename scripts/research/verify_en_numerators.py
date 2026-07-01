@@ -29,6 +29,24 @@ def load_render_verified():
     return {(m["slug"], m["date"], m["url"]): m for m in manifest}
 
 
+def apply_render_override(res, manifest, source_url):
+    """Return res, with a render-verified manifest override applied when
+    legitimate: the manifest entry must match on (slug, date, url) and its
+    evidence must actually contain the claimed number."""
+    if res["status"] == "VERIFIED":
+        return res
+    override = manifest.get((res["slug"], res["date"], source_url))
+    if override is None:
+        return res
+    if not find_number(override["evidence"], res["claimed"]):
+        return res
+    return {
+        **res,
+        "status": "VERIFIED",
+        "evidence": "render-verified: " + override["evidence"],
+    }
+
+
 def source_text(url, dest_base):
     """Fetch url and return (text, artifact_path). text is None on failure."""
     bare = url.lower().split("?")[0]
@@ -65,11 +83,7 @@ def main():
             hit = find_number(text, r["election_night_ballots"])
             res["status"] = "VERIFIED" if hit else "NOT_FOUND"
             res["evidence"] = hit
-        if res["status"] != "VERIFIED":
-            override = render_verified.get((r["slug"], r["date"], url))
-            if override is not None:
-                res["status"] = "VERIFIED"
-                res["evidence"] = "render-verified: " + override["evidence"]
+        res = apply_render_override(res, render_verified, url)
         results.append(res)
         print(f"{res['status']:12} {r['slug']} {r['date']}")
 

@@ -5,6 +5,7 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "scripts/research"))
 
 from en_common import find_number, norm_pct, strip_html, wayback_raw
+from verify_en_numerators import apply_render_override
 
 
 def test_norm_pct_fraction():
@@ -60,3 +61,58 @@ def test_find_number_accepts_number_followed_by_punctuation_comma():
 
 def test_strip_html():
     assert strip_html("<td>177,183</td>").strip() == "177,183"
+
+
+def _res(status="NOT_FOUND", claimed=111637, slug="san-mateo-ca", date="2018-11-06"):
+    return {
+        "slug": slug, "date": date, "kind": "numerator", "claimed": claimed,
+        "url": "https://example.org/results", "artifact": "x.html",
+        "status": status, "evidence": None,
+    }
+
+
+def test_apply_render_override_leaves_verified_result_untouched():
+    res = _res(status="VERIFIED")
+    manifest = {
+        ("san-mateo-ca", "2018-11-06", "https://example.org/results"): {
+            "evidence": "Total Ballots Cast 111,637",
+        },
+    }
+    out = apply_render_override(res, manifest, "https://example.org/results")
+    assert out is res
+
+
+def test_apply_render_override_skips_on_url_mismatch():
+    res = _res()
+    manifest = {
+        ("san-mateo-ca", "2018-11-06", "https://example.org/other-url"): {
+            "evidence": "Total Ballots Cast 111,637",
+        },
+    }
+    out = apply_render_override(res, manifest, "https://example.org/results")
+    assert out == res
+    assert out["status"] == "NOT_FOUND"
+
+
+def test_apply_render_override_skips_when_evidence_lacks_claimed_number():
+    res = _res(claimed=111637)
+    manifest = {
+        ("san-mateo-ca", "2018-11-06", "https://example.org/results"): {
+            "evidence": "Total Ballots Cast 999,999",
+        },
+    }
+    out = apply_render_override(res, manifest, "https://example.org/results")
+    assert out == res
+    assert out["status"] == "NOT_FOUND"
+
+
+def test_apply_render_override_applies_when_legitimate():
+    res = _res(claimed=111637)
+    manifest = {
+        ("san-mateo-ca", "2018-11-06", "https://example.org/results"): {
+            "evidence": "Total Ballots Cast 111,637",
+        },
+    }
+    out = apply_render_override(res, manifest, "https://example.org/results")
+    assert out["status"] == "VERIFIED"
+    assert out["evidence"] == "render-verified: Total Ballots Cast 111,637"
