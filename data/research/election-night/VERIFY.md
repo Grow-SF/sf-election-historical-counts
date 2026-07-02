@@ -4,7 +4,7 @@
 > (ballots counted in the final election-night report), its **denominator** (certified-final
 > ballots), the computed **share**, and the **exact source URL** + what to look for on that
 > page, so each figure can be opened and checked by hand. Generated from
-> `data/research/election-night-v4/*.json`.
+> `data/research/election-night/*.json`.
 
 **Metric:** election-night % = ballots in the *last* report posted on election night ÷ certified-final ballots.
 It is **not** the 8 p.m. first tranche (undercounts the night ~2×) and **not** a days-later canvass update.

@@ -81,7 +81,7 @@ export default function CountyNightTimelineChart() {
           there; SF, with no tech, drifts down too. 2020 (COVID all-mail) is
           omitted, as is the Nevada 2024 printer-defect outlier. Sources in{" "}
           <a
-            href="https://github.com/Grow-SF/sf-election-historical-counts/blob/main/data/research/election-night-v4/VERIFY.md"
+            href="https://github.com/Grow-SF/sf-election-historical-counts/blob/main/data/research/election-night/VERIFY.md"
             target="_blank"
             rel="noopener noreferrer"
             className="border-b border-rule text-rust hover:bg-rust/10"

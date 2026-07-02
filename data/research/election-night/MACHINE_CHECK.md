@@ -1,10 +1,10 @@
-# Machine check of election-night-v4 sources
+# Machine check of election-night sources
 
 Presence checks of each claimed number against its cited URL.
 Denominators are checked against the canonical per-year SoS
 'Voter Participation Statistics by County' PDF even where a row cites
 the complete-SOV PDF (same statistic). Fetched artifacts live in
-`data/research/election-night-v4/cache/` (gitignored; rerun the
+`data/research/election-night/cache/` (gitignored; rerun the
 verify_en_* scripts to regenerate).
 
 | County | Date | Check | Claimed | Status | Evidence (context around match) |

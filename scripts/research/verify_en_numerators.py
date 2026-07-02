@@ -14,7 +14,7 @@ from collections import Counter
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from en_common import (
-    CACHE, V4, fetch, find_number, load_rows, pdf_text, strip_html, wayback_raw,
+    CACHE, EN, fetch, find_number, load_rows, pdf_text, strip_html, wayback_raw,
 )
 
 
@@ -22,7 +22,7 @@ def load_render_verified():
     """Manifest of numerator rows verified by rendering the archived page
     with puppeteer (curl-only fetch here cannot execute JS). Absent file
     means no overrides."""
-    p = V4 / "render_verified.json"
+    p = EN / "render_verified.json"
     if not p.exists():
         return {}
     manifest = json.loads(p.read_text())

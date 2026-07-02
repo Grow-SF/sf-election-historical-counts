@@ -1,7 +1,7 @@
 {
   "metric": "election-night share = ballots in the last election-night report / certified-final ballots",
   "note": "San Francisco is the no-new-tech control. 2020 (presidential) is a COVID all-mail outlier; rows flagged comparable=false (e.g. Nevada 2024, a ballot-printer-defect outlier) are excluded from pre/post comparisons. The 2018-2020 statewide Voter's Choice Act all-mail shift is a confound independent of e-pollbooks/ASV.",
-  "source": "data/research/election-night-v4/ (per-county, verified) + SF DOE pipeline (packages/data/elections.json)",
+  "source": "data/research/election-night/ (per-county, verified) + SF DOE pipeline (packages/data/elections.json)",
   "generated": "2026-07-02",
   "jurisdictions": [
     {

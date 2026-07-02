@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Offline consistency check of data/research/election-night-v4/.
+"""Offline consistency check of data/research/election-night/.
 
 Row invariants, VERIFY.md table agreement, and SF-control agreement with
 packages/data/elections.json. Exits 1 and prints one line per failure.
@@ -11,7 +11,7 @@ import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from en_common import ROOT, V4, load_rows, norm_pct
+from en_common import ROOT, EN, load_rows, norm_pct
 
 FAIL = []
 
@@ -123,7 +123,7 @@ def main():
     rows = load_rows()
     if len(rows) != 78:
         fail(f"expected 78 county rows, got {len(rows)}")
-    tables = parse_verify_tables((V4 / "VERIFY.md").read_text())
+    tables = parse_verify_tables((EN / "VERIFY.md").read_text())
     check_rows(rows)
     check_verify_md(rows, tables)
     check_sf(tables)

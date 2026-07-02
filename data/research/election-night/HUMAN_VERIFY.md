@@ -1,4 +1,4 @@
-# Hand-verification packet (election-night-v4)
+# Hand-verification packet (election-night)
 
 Division of labor. The machine pass verified two things only: every
 certified final matches the CA SoS Statement of Vote PDF, and every

@@ -4,7 +4,7 @@ comparison (last election-night report ÷ certified final), with San Francisco
 (no new counting tech) as the control.
 
 Sources:
-  - data/research/election-night-v4/<slug>.json
+  - data/research/election-night/<slug>.json
     one file per CA county, each election row carrying the verified
     election_night_ballots / certified_final / election_night_pct + source +
     confidence (+ optional comparable/flag). See data/research/.../VERIFY.md.
@@ -19,7 +19,7 @@ import pathlib
 import datetime
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-V4 = ROOT / "data/research/election-night-v4"
+EN = ROOT / "data/research/election-night"
 OUT = ROOT / "packages/data/county_night.json"
 ELECTIONS = ROOT / "packages/data/elections.json"
 
@@ -38,7 +38,7 @@ def norm_type(year: int, raw: str) -> str | None:
 
 def load_counties() -> list[dict]:
     out = []
-    for fp in sorted(V4.glob("*.json")):
+    for fp in sorted(EN.glob("*.json")):
         d = json.loads(fp.read_text())
         if not isinstance(d, dict):
             continue  # skip non-county manifests, e.g. render_verified.json
@@ -118,7 +118,7 @@ def main() -> None:
             "The 2018-2020 statewide Voter's Choice Act all-mail shift is a confound "
             "independent of e-pollbooks/ASV."
         ),
-        "source": "data/research/election-night-v4/ (per-county, verified) + SF DOE pipeline (packages/data/elections.json)",
+        "source": "data/research/election-night/ (per-county, verified) + SF DOE pipeline (packages/data/elections.json)",
         "generated": datetime.date.today().isoformat(),
         "jurisdictions": jurisdictions,
     }
@@ -127,7 +127,7 @@ def main() -> None:
     npts = sum(len(j["points"]) for j in jurisdictions)
     sourced = sum(1 for j in jurisdictions for p in j["points"] if p["pct"] is not None)
     print(f"wrote {OUT.relative_to(ROOT)}: {nj} jurisdictions, {npts} general-election rows, {sourced} with a night share")
-    print(f"  (county source: {V4.relative_to(ROOT)})")
+    print(f"  (county source: {EN.relative_to(ROOT)})")
 
 
 if __name__ == "__main__":

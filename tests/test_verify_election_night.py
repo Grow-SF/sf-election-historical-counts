@@ -1,4 +1,4 @@
-"""Offline tests for the election-night-v4 verification helpers."""
+"""Offline tests for the election-night verification helpers."""
 import pathlib
 import sys
 

@@ -1,4 +1,4 @@
-"""Shared helpers for the election-night-v4 source verification scripts.
+"""Shared helpers for the election-night source verification scripts.
 
 Used by validate_election_night.py, verify_en_denominators.py,
 verify_en_numerators.py and build_en_verification_report.py.
@@ -11,8 +11,8 @@ import subprocess
 import time
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
-V4 = ROOT / "data/research/election-night-v4"
-CACHE = V4 / "cache"
+EN = ROOT / "data/research/election-night"
+CACHE = EN / "cache"
 UA = "Mozilla/5.0 (sf-election-count source verification; steven@growsf.org)"
 
 
@@ -83,7 +83,7 @@ def load_rows():
     non-county manifests in the same directory (e.g. render_verified.json,
     a list, not a {jurisdiction, elections} county object)."""
     rows = []
-    for fp in sorted(V4.glob("*.json")):
+    for fp in sorted(EN.glob("*.json")):
         d = json.loads(fp.read_text())
         if not isinstance(d, dict) or "elections" not in d:
             continue

@@ -16,7 +16,7 @@ import pathlib
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from en_common import CACHE, V4, load_rows, norm_pct
+from en_common import CACHE, EN, load_rows, norm_pct
 
 
 def load_results():
@@ -32,7 +32,7 @@ def load_results():
 def main():
     results = load_results()
     rows = {(r["slug"], r["date"]): r for r in load_rows()}
-    pv_path = V4 / "plateau_review.json"
+    pv_path = EN / "plateau_review.json"
     pv = (
         {(x["slug"], x["date"]): x for x in json.loads(pv_path.read_text())}
         if pv_path.exists()
@@ -49,13 +49,13 @@ def main():
     ]
 
     mc = [
-        "# Machine check of election-night-v4 sources",
+        "# Machine check of election-night sources",
         "",
         "Presence checks of each claimed number against its cited URL.",
         "Denominators are checked against the canonical per-year SoS",
         "'Voter Participation Statistics by County' PDF even where a row cites",
         "the complete-SOV PDF (same statistic). Fetched artifacts live in",
-        "`data/research/election-night-v4/cache/` (gitignored; rerun the",
+        "`data/research/election-night/cache/` (gitignored; rerun the",
         "verify_en_* scripts to regenerate).",
         "",
         "| County | Date | Check | Claimed | Status | Evidence (context around match) |",
@@ -67,10 +67,10 @@ def main():
             f"| {x['slug']} | {x['date']} | {x['kind']} | {x['claimed']:,} "
             f"| {x['status']} | {ev} |"
         )
-    (V4 / "MACHINE_CHECK.md").write_text("\n".join(mc) + "\n")
+    (EN / "MACHINE_CHECK.md").write_text("\n".join(mc) + "\n")
 
     hv = [
-        "# Hand-verification packet (election-night-v4)",
+        "# Hand-verification packet (election-night)",
         "",
         "Division of labor. The machine pass verified two things only: every",
         "certified final matches the CA SoS Statement of Vote PDF, and every",
@@ -148,7 +148,7 @@ def main():
     hv.append("")
     for r in remaining:
         entry(r, "plateau check")
-    (V4 / "HUMAN_VERIFY.md").write_text("\n".join(hv) + "\n")
+    (EN / "HUMAN_VERIFY.md").write_text("\n".join(hv) + "\n")
 
     print(f"MACHINE_CHECK.md: {len(results)} checks, {len(bad)} not verified")
     print(
