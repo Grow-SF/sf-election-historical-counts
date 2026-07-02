@@ -1,0 +1,86 @@
+{
+  "jurisdiction": "Placer County",
+  "state": "CA",
+  "adoption": { "epollbook": 2024, "asv": null },
+  "elections": [
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 172757,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Election-night plateau not sourceable. The registrar's GEMS election-night page (placerelections.com/election-night-results.aspx) was archived only PRE-poll-close (snapshot 20121103190051, 'Cards Cast 0', 0 of 350 precincts) and then not again until 20121201032131, by which time the page had already been overwritten with the 'OFFICIAL ELECTION SUMMARY' (data-stamped 11/30/12 11:27:20, Cards Cast 172,757, 350/350, 82.82%). No SEMI-OFFICIAL election-night snapshot was captured between poll close (8pm 11/6) and certification, and no news/press release gives a countywide election-night ballot count. Denominator = certified Total Voters 172,757 (independently CONFIRMED by the rendered 20121201 OFFICIAL summary = 172,757, matching CA SoS Voter Participation Statistics by County). Per rules, numerator left null rather than substituting the certified or first-tranche number. RE-VERIFIED 2026-06: full CDX of placerelections.com/election-night-results.aspx for 2012-11-06 -> 2012-12-01 returns exactly one 200 capture, 20121201032131 (the OFFICIAL ELECTION SUMMARY, 172,757) — confirming no semi-official election-night snapshot was ever archived. Stays none."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": 76411,
+      "certified_final": 115547,
+      "election_night_pct": 66.1,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf",
+      "source_url_night": "https://web.archive.org/web/20141115000402/http://www.placerelections.com/election-night-results.aspx",
+      "confidence": "primary",
+      "note": "PLATEAU = 76,411 'Cards Cast', the registrar's GEMS 'SEMI-OFFICIAL ELECTION SUMMARY / Election Night Final' with all 369 of 369 precincts reporting (38.13% reg turnout). The report carries its OWN embedded data timestamp '11/05/14 00:36:57' (12:36 a.m. PT Nov 5, i.e. ~4.5 hrs after 8pm Nov 4 poll close) = the election-night-final semi-official canvass. This is the plateau (frozen until the official canvass replaces it weeks later), NOT the 8pm first tranche. Rendered from Wayback snapshot 20141115000402 (capture is Nov 15, but the embedded report data is frozen at election night 11/05/14 00:36:57). Denominator = certified Total Voters 115,547 (Precinct 31,546 + VBM 84,001), CA SoS 2014 complete Statement of Vote, Voter Participation by County. 76,411/115,547 = 66.1%. Snapshot 20141115000402 used; report data-stamp 11/05/14 00:36:57."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": 109666,
+      "certified_final": 190550,
+      "election_night_pct": 57.55,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20161113042955/http://www.placerelections.com/election-night-results.aspx",
+      "confidence": "primary",
+      "note": "PLATEAU = 109,666 'Cards Cast', the registrar's GEMS 'PLACER COUNTY SEMI-OFFICIAL ELECTION SUMMARY / November 8, 2016 / FINAL' with all 363 of 363 precincts reporting (48.43% reg turnout). The report carries its OWN embedded data timestamp '11/09/16 00:29:40' (12:29 a.m. PT Nov 9, ~4.5 hrs after 8pm Nov 8 poll close) = the election-night-final semi-official canvass (the plateau, frozen until the official canvass). NOT the 8pm first tranche. Rendered from Wayback snapshot 20161113042955 (capture Nov 13; embedded report data frozen at 11/09/16 00:29:40). Later Dec captures transition to the 'OFFICIAL ELECTION SUMMARY', confirming SEMI-OFFICIAL = the election-night figure. Denominator = certified Total Voters 190,550 (Precinct 58,385 + VBM 132,165), CA SoS Voter Participation by County. 109,666/190,550 = 57.6%. Snapshot 20161113042955 used; report data-stamp 11/09/16 00:29:40. pct restated at 2dp (57.55) for dataset consistency."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "comparable": false,
+      "election_night_ballots": 113380,
+      "certified_final": 177725,
+      "election_night_pct": 63.8,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20181113195233/https://www.placerelections.com/election-night-results/",
+      "confidence": "secondary",
+      "note": "113,380 'Cards Cast', the registrar's GEMS 'SEMI-OFFICIAL ELECTION SUMMARY' with all 358 of 358 precincts reporting (48.98% reg turnout). CAVEAT ON PLATEAU: unlike 2014/2016 (whose embedded report data-stamps were ~12:30 a.m. election night), this report's OWN embedded data timestamp is '11/09/18 15:15:00' (Nov 9, 3:15 p.m. PT = ~3 days after the Nov 6 poll close). It is still the pre-official-canvass SEMI-OFFICIAL figure, but the registrar regenerated it Nov 9, so it may absorb a small first batch of early-canvass VBM beyond the strict end-of-election-night plateau (i.e. a possible slight over-count of the true plateau). No actual Nov 6/7 election-night snapshot was archived (earliest /election-night-results/ capture is Nov 13). 63.8% is consistent with the midterm pattern (2014 midterm = 66.1%), so the over-count, if any, is small. Denominator = certified Total Voters 177,725 (Precinct 46,896 + VBM 130,829), CA SoS Voter Participation by County. 113,380/177,725 = 63.8%. Snapshot 20181113195233 used; report data-stamp 11/09/18 15:15:00 (hence 'secondary', not 'primary'). CORRECTION (2026-07-02 plateau adjudication): the Nov 21 Wayback capture of the same page shows Cards Cast 162,802, proving the page re-rendered with canvass data as counting proceeded; the Nov 9 15:15 render therefore likely absorbs early canvass and 113,380 is a CEILING on the unarchived election-night plateau. Flagged comparable=false (not stage-comparable)."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 184507,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Election-night PLATEAU not sourceable. First VCA (all-mail + vote-center) general for which the registrar published results only via an in-place-updated web page (placercountyelections.gov/election-results, formerly placerelections.com/election-night-results/) that Wayback NEVER captured during the Nov 2022 canvass (no archived snapshot exists for that page in the entire Nov 2022-Jan 2023 window). The ONLY sourceable election-night county number is the 8 p.m. FIRST tranche: 'nearly 49,000 mail-in and early voting ballots counted of the approximately 100,000 received so far' (Placer County news release 8408). That ~49,000 is the 8pm pre-election VBM tranche ONLY (49,000/184,507 = 26.6%, ~half the expected share = the classic first-tranche trap); per fox40/county, vote-center in-person totals were added in updates starting ~10 p.m. with the end-of-night plateau higher, but that total was never archived or stated. Per rules, the wrong-stage first tranche is NOT recorded as the election-night share; numerator left null. Denominator = certified Total Voters 184,507 (Precinct 25,494 + VBM 159,013), CA SoS Voter Participation by County. (NOTE: not comparable to the pre-2020 polling-model semi-official plateaus regardless of count availability.) RE-VERIFIED 2026-06: the registrar HOME page placercountyelections.gov/ WAS captured the morning after (20221109133237 = ~05:32 PT Nov 9, ~9.5 hrs after poll close) but is only a landing page linking to /election-night-results/; that results page has NO capture until 20221118091823 (Nov 18 — already several Tue/Fri canvass updates past the plateau, not election night). The abc10 live article was captured 20221109180006 (~10am PT Nov 9) but states no countywide ballot total (JS results widget, not archived). The archived /Uploads/documents/11082022/ directory holds only certified-final artifacts (11082022_Final.pdf, StatementOfVotesCast..., ResultsCommaDelimited_SOV.txt) and LATE unprocessed-ballot reports (11232022, 12072022) — no election-night report PDF. Plateau remains unsourceable; stays none. Examined but rejected first-tranche source: https://www.placer.ca.gov/8408/First-election-results-are-in."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 239402,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Election-night PLATEAU not sourceable (first post-DFM-e-pollbook presidential general; VCA vote centers + AB 626 Sign-Scan-&-Go). The registrar's results page (placercountyelections.gov/election-results/) is updated IN PLACE with a pasted GEMS/Dominion summary tagged 'UNOFFICIAL RESULTS - REPORT N / <date>'; Wayback's earliest capture is 20241110202727, which shows 'REPORT 7' DATED 11/8/2024 (the first Tue/Fri canvass update) = 'Cards Cast 182,129, 62.44%, 331/331 precincts.' The page was NOT crawled between poll close and Nov 8, so no election-night report state (Reports ~1-6, Nov 5-7) was archived. The CA SoS ENR (electionresults.sos.ca.gov) is Incapsula-WAF-gated and only its challenge pages archived. Press releases give ONLY the 8 p.m. FIRST tranche: 104,382 vote-by-mail ballots (release 10016 / 11052024_FINAL_PressRelease); vote-center in-person ballots (Oct 26-Nov 5) were added in updates 'tentatively scheduled for 10 p.m. and 11:30 p.m. Nov 5' (per fox40, every ~2 hrs until 100% of vote centers reported) but those end-of-night totals were never archived or stated. BOUNDS on the true plateau: > 104,382 (8pm tranche; 104,382/239,402 = 43.6% = the first-tranche trap, ~half expected) and < 182,129 (the 11/8 Report 7). Per rules, the wrong-stage 8pm tranche is NOT recorded as the election-night share; numerator left null/none. Denominator = certified Total Voters 239,402 (Precinct/vote-center 56,964 + VBM 182,438), CA SoS Voter Participation by County (83.4% reg turnout). Snapshot 20241110202727 examined (= Report 7, 11/8/2024, 182,129 — a canvass update, NOT the election-night plateau). RE-VERIFIED 2026-06: fetched the archived registrar press release 11052024_FINAL_PressRelease-ElectionResults.pdf and CONFIRMED it is the 8 p.m. FIRST-tranche release ('This initial release includes vote totals from 104,382 vote-by-mail ballots... Additional updates are tentatively scheduled for 10 p.m. and 11:30 p.m. Nov. 5'), NOT an end-of-night total. Enumerated the entire archived /Uploads/documents/11052024/ directory: it contains only certified-final artifacts (11052024_Final_Results.pdf, StatementOfVotesCastRPT*, CertificatesA) and LATE unprocessed-ballot reports (112724, 12324) — NO dated election-night report PDF. The /election-results/ page has no capture before 20241110202727 (Report 7). True plateau bounds confirmed: > 104,382 (8pm tranche, 43.6%) and < 182,129 (11/8 Report 7, 62.44%, Registered Voters 291,674). Stays none. Examined but rejected first-tranche source: https://www.placer.ca.gov/10016/2024-election-results."
+    }
+  ]
+}

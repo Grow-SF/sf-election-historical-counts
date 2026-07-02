@@ -1,0 +1,103 @@
+{
+  "jurisdiction": "Los Angeles County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2020,
+      "first_election": "2020-03",
+      "vendor": "KNOWiNK Poll Pad",
+      "evidence_url": "https://www.lavote.gov/docs/rrcc/media/VSAP-Report_FINAL.pdf",
+      "confidence": "primary",
+      "note": "LA County RR/CC customized KnowInk ePollbooks to integrate with its county-owned VSAP system; first used countywide at Vote Centers for the March 3, 2020 Presidential Primary. ePollbook is one of the six VSAP components (BMD, BMD Manager, ISB, ePollbook, Tally). Verified Voting and LA County's own VSAP materials confirm KnowInk."
+    },
+    {
+      "type": "asv",
+      "status": "adopted",
+      "adopted_year": 2020,
+      "first_election": "2020-11",
+      "vendor": "",
+      "evidence_url": "https://laist.com/news/politics/voter-guides/2026-election-california-primary-how-they-verify-ballot-signatures",
+      "confidence": "secondary",
+      "note": "LA County uses MACHINE signature comparison: per LAist (2026) and CBS LA, mail-ballot signatures are 'scanned by a device that compares the signature to all signatures in a voter's registration file'; only ballots the machine can't read / no-match are pulled for human clerk review. This is automated signature verification (ASV) = adopted. ASV-year CAVEAT: adopted_year=2020 is an ESTIMATE, not from a primary source — it aligns with LA's transition to all-vote-by-mail (SB 29 / Nov 2020) when automated signature comparison was scaled at the Ballot Processing Center; exact first-election year not documented publicly. The machine/software vendor is not named in public sources (Parascript SignatureXpert is the common CA vendor, but unconfirmed for LA). Verifier should confirm year and vendor."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.cbsnews.com/losangeles/news/how-the-la-county-registrar-verifies-vote-by-mail-ballots-and-why-it-takes-so-long/",
+      "confidence": "secondary",
+      "note": "No evidence LA County does in-vote-center 'sign, verify signature on the spot, and scan into the tabulator' (AB 626 model). Mail/drop-off ballots are transported to LA's central Ballot Processing Center for signature verification and tabulation (described in CBS LA / LAist coverage of why the count is slow), i.e. NOT scanned-and-cast at the vote center. The AB 626 sign-scan-and-go pilot is associated with Placer County, not LA. Confidence secondary (absence-of-pilot + central-processing description)."
+    },
+    {
+      "type": "vote-center",
+      "status": "adopted",
+      "adopted_year": 2020,
+      "first_election": "2020-03",
+      "vendor": "",
+      "evidence_url": "https://www.sos.ca.gov/voters-choice-act/vca-participating-counties",
+      "confidence": "primary",
+      "note": "LA County implemented the Voter's Choice Act (vote-center model: any-vote-center voting, multi-day early voting, all-mail ballots) beginning with the March 3, 2020 Presidential Primary, one of 15 VCA counties that cycle. Confirmed by CA SoS VCA participating-counties list and SoS news release AP20:021 ('Vote Centers Open in all Voter's Choice Act Counties')."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": 77.0,
+      "denominator": "ballots counted to date (CalVoter Close Count Transparency Project; % of Nov 8 2022 ballots reported counted as of Nov 15-16 2022)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 15, 2022' (Nov 8 2022 general). Los Angeles bar = 77.0%; statewide = 77.7%. Source per chart: CA SoS county reporting status data. Denominator is CalVoter's published basis (ballots counted to date), not certified final. Mark for precise verification read."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": 96.9,
+      "denominator": "ballots counted to date (CalVoter Close Count Transparency Project; % of Nov 5 2024 ballots reported counted as of Nov 12 2024)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 12, 2024' (Nov 5 2024 general). Los Angeles bar = 96.9%; statewide = 86.1%. Big jump vs 2022 (77.0%). Denominator is CalVoter's published basis (ballots counted to date), not certified final. Mark for precise verification read."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": 98.5,
+      "denominator": "ballots counted to date (CalVoter; % of Nov 4 2025 ballots counted one week after Election Day)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 11, 2025' (Nov 4 2025 election). Los Angeles bar = 98.5%. Latest odd-year. Denominator is CalVoter's published basis. Mark for precise verification read."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": "certified final ballots",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed: requires LA County's first post-poll-close (election-night) report ballot count divided by the certified-final ballot total. The certified-final denominator (LA County certified Statement of Vote) and the precise first-report ballot figure were not assembled in this pass. Value left null rather than substituting a different denominator (e.g. % of registered voters)."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2022,
+      "value": null,
+      "denominator": "certified final ballots",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed: first post-poll-close report ballots / certified final not assembled. Null rather than wrong-denominator substitution."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "LA County does not publish per-day canvass totals in a readily comparable form sufficient to pinpoint the day >=90% of certified final was counted. CalVoter's per-week snapshot (96.9% one week out, 2024) is the closest available comparable. Null."
+    }
+  ],
+  "notes": "Tech: e-pollbook = KnowInk Poll Pad integrated with LA's county-owned VSAP system, first used March 2020 primary (primary: LA County VSAP report + Verified Voting). Vote-center = Voter's Choice Act, first used March 2020 primary (primary: CA SoS VCA participating-counties list). ASV = ADOPTED — LA uses machine signature comparison (LAist/CBS 2026: ballots run through a device that compares signatures; only unreadable/no-match pulled for clerk review), which differs from Orange County's all-human review. ASV adopted_year=2020 is ESTIMATED (not primary-sourced); exact first-election year and machine vendor unconfirmed — flagged for verifier. Sign-scan-go = not-adopted (no AB 626 in-vote-center verify-and-scan; mail ballots go to central Ballot Processing Center; AB 626 pilot is Placer). Metrics: oneweek_pct from CalVoter Ballot Processing charts, chart-read — 2022=77.0%, 2024=96.9%, 2025=98.5% (LA dramatically sped up after 2022; CalVoter denominator = ballots counted to date, recorded as published, NOT certified final). electionnight_pct and days_to_90 left null (confidence none) because their required certified-final / per-day-canvass denominators were not assembled this pass; no substitute denominator used."
+}

@@ -1,0 +1,94 @@
+{
+  "jurisdiction": "Sacramento County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "vote-center",
+      "status": "adopted",
+      "adopted_year": 2018,
+      "first_election": "2018-06",
+      "vendor": "",
+      "evidence_url": "https://elections.cdn.sos.ca.gov/vca/eap/sacramento-eap.pdf",
+      "confidence": "primary",
+      "note": "Voter's Choice Act vote-center model. County EAP (2024-2027): 'The County of Sacramento was the largest of five pilot counties to adopt the VCA for the 2018' elections. First VCA election = June 5, 2018 statewide primary (other original pilots: San Mateo, Napa, Nevada, Madera). Corroborated by CA SoS VCA participating-counties list (https://www.sos.ca.gov/voters-choice-act)."
+    },
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2018,
+      "first_election": "2018-06",
+      "vendor": "DFM Associates EIMS (run on networked COTS check-in laptops)",
+      "evidence_url": "https://elections.cdn.sos.ca.gov/vca/eap/sacramento-eap.pdf",
+      "confidence": "primary",
+      "note": "EAP: each Vote Center has 'Two check-in laptops to securely verify the status and eligibility of the voter,' connected over VPN to the EIMS voter database for real-time check-in across all centers (required by the vote-center model). Verified Voting documents Sacramento using DFM Associates EIMS as its e-pollbook (page shows a 'Sacramento County voter check in station'). NOTE: the CA SoS 'Voting Technologies in Use by County' table (Sept 19, 2024) lists Sacramento's 'Electronic Pollbook' column as 'Do not use' because the county runs the EIMS election-management system directly on laptops rather than a separately SoS-certified standalone e-pollbook product (e.g., Tenex/KNOWiNK). Adopted with the first VCA election, June 2018."
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://elections.cdn.sos.ca.gov/vca/eap/sacramento-eap.pdf",
+      "confidence": "secondary",
+      "note": "No automated/software signature-matching found. EAP 'Life of a Ballot': returned VBM envelopes pass through 'an industrial mail sorter that date and timestamps the pink return envelope, while capturing the signature image,' then 'The signature image from the pink return envelope is compared to the voter's signature on file' and the voter is contacted if it does not match. The sorter captures images but no automated/AI matching engine (e.g., Parascript/Verus) is named anywhere in the EAP; comparison is described as a human review of scanned images = not automated signature verification. Tabulation = Dominion ICC 5.10A; ballot-on-demand printer = Runbeck Sentio 9.2 (per SoS Sept 2024 voting-tech table)."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://elections.cdn.sos.ca.gov/vca/eap/sacramento-eap.pdf",
+      "confidence": "secondary",
+      "note": "No AB 626 in-vote-center 'sign, scan and go' (envelope-free on-site mail-ballot signature-verify + scan) found. EAP lists Vote Center voter options as vote in person, pick up a replacement ballot, or 'Drop off a voted VBM ballot' (drop-off only; dropped VBM ballots are processed centrally with envelope/signature verification). AB 626 effective 2024; pioneered as 'sign, scan and go' by Placer County in 2024 — no equivalent Sacramento adoption documented."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": 53.3,
+      "denominator": "ballots counted to date (CalVoter published basis)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 15, 2022' (% of Nov 8, 2022 ballots reported counted one week after Election Day). Statewide that day = 77.7%. Verification pass should re-read the bar label."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": 74.5,
+      "denominator": "ballots counted to date (CalVoter published basis)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 12, 2024' (% of Nov 5, 2024 ballots counted one week after Election Day). Statewide that day = 86.1%. Verification pass should re-read the bar label."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": 79.4,
+      "denominator": "ballots counted to date (CalVoter published basis)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 11, 2025' (% of Nov 4, 2025 ballots counted one week after Election Day). Statewide that day = 93.9%. Latest odd-year. Verification pass should re-read the bar label."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed: requires Sacramento's first post-poll-close election-night report ballot count divided by certified-final ballots. The certified-final denominator is available from the SoS Statement of Vote, but the matched first-report figure was not located in this pass; not substituting a different denominator (e.g., % of registered voters)."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "County does not publish per-release daily canvass totals against the certified-final denominator needed to pin the day cumulative count first crossed 90%."
+    }
+  ],
+  "notes": "Sacramento County = largest of California's five original 2018 Voter's Choice Act pilot counties (first VCA election June 5, 2018; full all-mail + vote centers). Tech stack per CA SoS 'Voting Technologies in Use by County' (Sept 19, 2024): central tabulation Dominion ICC 5.10A (central count only), accessibility/BMD Dominion ICX 5.10A, ballot-on-demand Runbeck Sentio 9.2, RAVBM Democracy Live Secure Select; 'Electronic Pollbook' column = 'Do not use' (county runs DFM EIMS check-in laptops directly rather than a separately-certified standalone e-pollbook). adopted_year values reflect the first election conducted with the tech (2018), not a board-vote/contract date. ASV and sign-scan-go are findings of NON-adoption sourced to the county's 2024-2027 EAP. oneweek_pct values are chart-read from CalVoter PNG charts (2022/2024/2025); CalVoter does not publish a 2020 county-speed chart on this page, so 2020 is omitted. electionnight_pct and days_to_90 left null (denominators/first-report data not available without per-day canvass)."
+}

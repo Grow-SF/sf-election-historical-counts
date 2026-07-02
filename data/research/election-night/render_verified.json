@@ -1,0 +1,16 @@
+[
+ {
+  "slug": "san-bernardino-ca",
+  "date": "2024-11-05",
+  "url": "https://web.archive.org/web/20241106224114/https://elections.sbcounty.gov/elections/2024/1105/results/",
+  "evidence": "Precincts Reported: 2,872 of 2,872 (100.00%) Voters Cast: 434,108 of 1,198,556 (36.22%) Cards Cast: 1,299,924",
+  "method": "Puppeteer render of the archived JS results page, verified 2026-07-01."
+ },
+ {
+  "slug": "san-mateo-ca",
+  "date": "2018-11-06",
+  "url": "https://web.archive.org/web/20181107121103/https://www.smcacre.org/november-6-2018-election-results",
+  "evidence": "Precinct Ballots Cast 0 0.0% Vote Center Ballots Cast 26,210 6.6% Vote by Mail Ballots Cast 85,427 21.4% Total Ballots Cast 111,637 27.9%",
+  "method": "Puppeteer render of the archived JS results page, verified 2026-07-01."
+ }
+]

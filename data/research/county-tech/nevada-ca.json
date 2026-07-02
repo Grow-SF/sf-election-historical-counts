@@ -1,0 +1,103 @@
+{
+  "jurisdiction": "Nevada County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2018,
+      "first_election": "2018-06",
+      "vendor": "Provista ViBE",
+      "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "confidence": "primary",
+      "note": "CA SoS 'Voting Technologies in Use by County' (as of Oct 10, 2025) lists Nevada County's Electronic Pollbook as 'Provista ViBE'. Electronic pollbooks date to the county's first Voter's Choice Act election, the June 5, 2018 Statewide Direct Primary: the county's 2017 Election Administration Plan states each vote center will have 'an electronic mechanism for county staff to immediately access ... all relevant voter registration data' and to 'determine instantly whether a voter's ballot has already been cast' (https://www.nevadacountyca.gov/DocumentCenter/View/21900). Provista ViBE is the current certified listing; the specific e-pollbook vendor used in the original June 2018 deployment was not independently confirmed (the county used Hart eSlate/eScan tabulation in 2018 and later upgraded to Hart Verity)."
+    },
+    {
+      "type": "asv",
+      "status": "adopted",
+      "adopted_year": 2022,
+      "first_election": "",
+      "vendor": "unknown (high-speed envelope sorter with automated signature verification)",
+      "evidence_url": "https://www.nevadacountyca.gov/DocumentCenter/View/47536/Mail-Ballot-Processing-Infographic",
+      "confidence": "secondary",
+      "note": "ADOPTED finding. Nevada County's own 'Mail Ballot Processing Infographic' (primary county document) states under BALLOT SORTING that 'ballot envelopes are then sorted by precinct and passed through a signature verification machine,' and under SIGNATURE VERIFICATION that 'Election staff review signatures that were NOT automatically accepted by the signature verification machine and compare them to the voter registration database.' I.e. a machine auto-accepts a portion of signatures; only the remainder go to human review -- this is automated signature verification, not pure eyeball comparison. Corroborated by The Union, Oct 20, 2025 ('a balance of machines checking humans and humans checking machine'; 'first level of signature verification') describing the new Grass Valley ballot processing center. adopted_year is a DOCUMENTED LOWER BOUND, not a confirmed first-election year: the infographic with this language was archived on the Wayback Machine as early as 2023-06-05 (so the machine was in use by the Nov 2022 general at the latest); the 2017 Election Administration Plan does not mention a signature-verification sorter. The machine could date back to the 2018 VCA all-mail transition or a later sorter acquisition -- exact first-election year and vendor (e.g. Runbeck/BlueCrest/Pitney Bowes class) not confirmed. Flag for verification: pin the sorter purchase year and vendor via board agendas / Legistar."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.nevadacountyca.gov/DocumentCenter/View/47536/Mail-Ballot-Processing-Infographic",
+      "confidence": "secondary",
+      "note": "No evidence of in-vote-center mail-ballot signature-verify-and-scan (AB 626 'Sign, Scan & Go', the model piloted by Placer). Nevada County processes returned mail ballots centrally: per the county Mail Ballot Processing Infographic, ballots are collected from the Postal Service, drop boxes and voting locations and 'delivered to the elections office,' then centrally sorted/signature-verified on a sorter, extracted by two-person teams, and scanned in batches. Vote-center / drop-box mail-ballot returns are transported to the central ballot processing center, not signature-verified and scanned on the spot."
+    },
+    {
+      "type": "vote-center",
+      "status": "adopted",
+      "adopted_year": 2018,
+      "first_election": "2018-06",
+      "vendor": "",
+      "evidence_url": "https://www.nevadacountyca.gov/2321/Voters-Choice-Act-Overview",
+      "confidence": "primary",
+      "note": "Nevada County was one of the original FIVE counties to adopt the California Voter's Choice Act (all-mailed-ballot + vote-center model). The county's VCA Overview page states the Voter's Choice Act 'was passed into law in 2016 and first implemented in 2018 in Madera, Napa, Nevada, Sacramento, and San Mateo counties.' First election conducted under the model = June 5, 2018 Statewide Direct Primary (the county ran 7 vote centers, down from 48 prior polling places). Board/EAP timeline: the Election Administration Plan was drafted Oct 31, 2017 and revised Nov 27 and Dec 19, 2017 (https://www.nevadacountyca.gov/2373/Election-Administration-Plan) ahead of SoS approval; the first-election date (June 5, 2018), not the 2017 plan-adoption date, is recorded as adopted_year."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": 56.1,
+      "denominator": "Nov 08, 2022 ballots reported as counted one week after Election Day / ballots counted to date (CalVoter Close Count Transparency Project)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "chart-read. CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 15, 2022' chart (Percentage of Nov 08, 2022 ballots reported as counted one week after Election Day). Nevada = 56.1%; Statewide reference 77.7%. Source per chart: CA SoS County Reporting Status Data, public reports as of ~Nov 15-16, 2022. Denominator is CalVoter's ballots-counted-to-date basis, recorded as published."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": 54.5,
+      "denominator": "Nov 05, 2024 ballots reported as counted one week after Election Day / ballots counted to date (CalVoter Close Count Transparency Project)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "chart-read. CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 12, 2024' chart (Percentage of Nov 05, 2024 ballots reported as counted one week after Election Day; data as of 10:06 PM PT Nov 12, 2024, compiled from Internet Archive Wayback captures). Nevada = 54.5%; Statewide reference 86.1%."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": 87.6,
+      "denominator": "Nov. 4, 2025 ballots counted one week after Election Day / ballots counted to date (CalVoter Close Count Transparency Project)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "chart-read. CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 11, 2025' chart (Percentage of Nov. 4 ballots counted one week after Election Day). Nevada = 87.6%; Statewide reference 93.9%. Latest odd-year (Nov 4, 2025 Statewide Special Election)."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": "certified final ballots",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed: would require Nevada County's first post-poll-close (election-night) ballot report divided by the certified-final ballot total. The first-report ballot count was not collected in this pass; not substituting a different denominator (e.g. % of registered voters)."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2022,
+      "value": null,
+      "denominator": "certified final ballots",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed: first post-poll-close ballot report vs certified-final denominator not collected in this pass; no substitute denominator used."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "County does not publish per-day canvass totals in a readily machine-readable form; cannot determine days-to-90% of certified final."
+    }
+  ],
+  "notes": "TECH: Nevada County is one of the original five 2018 Voter's Choice Act counties (Madera, Napa, Nevada, Sacramento, San Mateo). The vote-center model and electronic pollbooks both date to its first VCA election, the June 5, 2018 Statewide Direct Primary (EAP drafted/revised Oct-Dec 2017). E-pollbook is currently 'Provista ViBE' per CA SoS 'Voting Technologies in Use by County' (Oct 10, 2025); the 2018-vintage e-pollbook vendor was not separately confirmed. Tabulation/voting system: Hart Verity 3.2 (Central/Count central tabulation; Touchwriter BMD; Print BOD), with Democracy Live Secure Select remote-accessible VBM -- recorded as context, not one of the four tracked types (the county used Hart eSlate/eScan in 2018 and later upgraded to Verity). NOTABLE: ASV is ADOPTED, not absent -- the county's own Mail Ballot Processing Infographic states envelopes pass through a 'signature verification machine' and staff only review signatures 'not automatically accepted by the signature verification machine.' This automated signature verification is firmly documented (primary) but its first-election year and vendor are not pinned; adopted_year=2022 is a conservative documented lower bound (the infographic language was archived by 2023-06-05; not present in the 2017 EAP), and it may date earlier (2018/2020). Sign-Scan-Go is not adopted (centralized VBM processing at the Grass Valley ballot processing center, which opened/relocated in 2025). METRICS: oneweek_pct from CalVoter Ballot Processing charts -- 2022 = 56.1% (statewide 77.7%), 2024 = 54.5% (statewide 86.1%), 2025 = 87.6% (statewide 93.9%); all chart-read, denominator is CalVoter's ballots-counted-to-date basis; flagged for a precise re-read in verification. Nevada County counts notably slower than the statewide average in even-year generals (a small rural county) but closed most of the gap in the lower-turnout Nov 2025 special. electionnight_pct and days_to_90 left null (no first-report or per-day canvass denominator collected; no substitute denominator used)."
+}
