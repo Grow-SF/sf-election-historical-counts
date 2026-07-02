@@ -3,8 +3,13 @@
 
 MACHINE_CHECK.md  - status of every machine check (156 rows: 78 denominator
                     + up to 78 numerator, 54 in practice)
-HUMAN_VERIFY.md   - the hand-check packet: machine failures, secondary rows,
-                    operator-flagged blocked sources, and a spot-check sample.
+HUMAN_VERIFY.md   - the hand-check packet covering EVERY sourced row: machine
+                    failures, secondary rows, operator-flagged blocked sources,
+                    then all machine-confirmed rows. The machine pass only
+                    proves the claimed number appears at the cited URL; whether
+                    that report is the election-night PLATEAU is the human's
+                    judgment on every row (the original numbers came from
+                    research agents, so presence alone is circular).
 """
 import json
 import pathlib
@@ -32,7 +37,6 @@ def main():
         (x for x in results if x["status"] == "VERIFIED" and x["kind"] == "numerator"),
         key=lambda x: (x["slug"], x["date"]),
     )
-    sample = ok_num[::10]
     secondary = [r for r in rows.values() if r["confidence"] == "secondary"]
     flagged = [
         r for r in rows.values() if "FLAG for manual operator" in (r.get("note") or "")
@@ -62,9 +66,20 @@ def main():
     hv = [
         "# Hand-verification packet (election-night-v4)",
         "",
-        "Open each URL and compare against the claimed value. Your reading wins:",
-        "any discrepancy, even one ballot, gets corrected in the county JSON and",
-        "VERIFY.md (then rerun scripts/build_county_night.py).",
+        "Division of labor. The machine pass verified two things only: every",
+        "certified final matches the CA SoS Statement of Vote PDF, and every",
+        "claimed night count appears at its cited URL (citations intact, nothing",
+        "mistyped or fabricated). It CANNOT verify the metric itself: that the",
+        "cited report is the LAST report posted on election night (the plateau),",
+        "not an earlier tranche or a later canvass update. The claimed numbers",
+        "were extracted by research agents, so re-finding them at the same",
+        "citation is circular; the plateau judgment is yours on every sourced",
+        "row below.",
+        "",
+        "Your reading wins: any discrepancy, even one ballot, gets corrected in",
+        "the county JSON and VERIFY.md (then rerun scripts/build_county_night.py",
+        "and scripts/research/build_en_verification_report.py). The full working",
+        "note for any row is its detail bullet in VERIFY.md (same directory).",
         "",
     ]
 
@@ -82,6 +97,12 @@ def main():
                 f"      look for: {(r.get('note') or '')[:300]}",
             ]
         )
+        if b is not None:
+            hv.append(
+                "      your check: is this the LAST report posted on election"
+                " night (the plateau)? full note: VERIFY.md detail bullet for"
+                f" {r['slug']} {r['date']}"
+            )
         if extra:
             hv.append(f"      {extra}")
         hv.append("")
@@ -98,16 +119,26 @@ def main():
     hv.append("")
     for r in flagged:
         entry(r, "operator-flagged", f"full flag: {r['note']}")
-    hv.append("## 4. Spot-check sample of machine-verified rows (trust but verify)")
+    listed = {(x["slug"], x["date"]) for x in bad}
+    listed |= {(r["slug"], r["date"]) for r in secondary}
+    listed |= {(r["slug"], r["date"]) for r in flagged}
+    remaining = [
+        rows[(x["slug"], x["date"])]
+        for x in ok_num
+        if (x["slug"], x["date"]) not in listed
+    ]
+    hv.append(
+        "## 4. Machine-confirmed rows (number is at the URL; plateau read still owed)"
+    )
     hv.append("")
-    for x in sample:
-        entry(rows[(x["slug"], x["date"])], "spot-check")
+    for r in remaining:
+        entry(r, "plateau check")
     (V4 / "HUMAN_VERIFY.md").write_text("\n".join(hv) + "\n")
 
     print(f"MACHINE_CHECK.md: {len(results)} checks, {len(bad)} not verified")
     print(
         f"HUMAN_VERIFY.md: {len(bad)} failures + {len(secondary)} secondary "
-        f"+ {len(flagged)} flagged + {len(sample)} spot-checks"
+        f"+ {len(flagged)} flagged + {len(remaining)} awaiting the plateau read"
     )
 
 
