@@ -45,6 +45,7 @@
     {
       "date": "2018-11-06",
       "type": "midterm-general",
+      "comparable": false,
       "election_night_ballots": 113380,
       "certified_final": 177725,
       "election_night_pct": 63.8,
@@ -53,7 +54,7 @@
       "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
       "source_url_night": "https://web.archive.org/web/20181113195233/https://www.placerelections.com/election-night-results/",
       "confidence": "secondary",
-      "note": "113,380 'Cards Cast', the registrar's GEMS 'SEMI-OFFICIAL ELECTION SUMMARY' with all 358 of 358 precincts reporting (48.98% reg turnout). CAVEAT ON PLATEAU: unlike 2014/2016 (whose embedded report data-stamps were ~12:30 a.m. election night), this report's OWN embedded data timestamp is '11/09/18 15:15:00' (Nov 9, 3:15 p.m. PT = ~3 days after the Nov 6 poll close). It is still the pre-official-canvass SEMI-OFFICIAL figure, but the registrar regenerated it Nov 9, so it may absorb a small first batch of early-canvass VBM beyond the strict end-of-election-night plateau (i.e. a possible slight over-count of the true plateau). No actual Nov 6/7 election-night snapshot was archived (earliest /election-night-results/ capture is Nov 13). 63.8% is consistent with the midterm pattern (2014 midterm = 66.1%), so the over-count, if any, is small. Denominator = certified Total Voters 177,725 (Precinct 46,896 + VBM 130,829), CA SoS Voter Participation by County. 113,380/177,725 = 63.8%. Snapshot 20181113195233 used; report data-stamp 11/09/18 15:15:00 (hence 'secondary', not 'primary')."
+      "note": "113,380 'Cards Cast', the registrar's GEMS 'SEMI-OFFICIAL ELECTION SUMMARY' with all 358 of 358 precincts reporting (48.98% reg turnout). CAVEAT ON PLATEAU: unlike 2014/2016 (whose embedded report data-stamps were ~12:30 a.m. election night), this report's OWN embedded data timestamp is '11/09/18 15:15:00' (Nov 9, 3:15 p.m. PT = ~3 days after the Nov 6 poll close). It is still the pre-official-canvass SEMI-OFFICIAL figure, but the registrar regenerated it Nov 9, so it may absorb a small first batch of early-canvass VBM beyond the strict end-of-election-night plateau (i.e. a possible slight over-count of the true plateau). No actual Nov 6/7 election-night snapshot was archived (earliest /election-night-results/ capture is Nov 13). 63.8% is consistent with the midterm pattern (2014 midterm = 66.1%), so the over-count, if any, is small. Denominator = certified Total Voters 177,725 (Precinct 46,896 + VBM 130,829), CA SoS Voter Participation by County. 113,380/177,725 = 63.8%. Snapshot 20181113195233 used; report data-stamp 11/09/18 15:15:00 (hence 'secondary', not 'primary'). CORRECTION (2026-07-02 plateau adjudication): the Nov 21 Wayback capture of the same page shows Cards Cast 162,802, proving the page re-rendered with canvass data as counting proceeded; the Nov 9 15:15 render therefore likely absorbs early canvass and 113,380 is a CEILING on the unarchived election-night plateau. Flagged comparable=false (not stage-comparable)."
     },
     {
       "date": "2022-11-08",

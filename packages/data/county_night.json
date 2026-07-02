@@ -565,7 +565,7 @@
           "ballots": 113380,
           "final": 177725,
           "confidence": "secondary",
-          "comparable": true,
+          "comparable": false,
           "source_url": "https://web.archive.org/web/20181113195233/https://www.placerelections.com/election-night-results/"
         },
         {
@@ -977,7 +977,7 @@
           "ballots": 251620,
           "final": 404166,
           "confidence": "secondary",
-          "comparable": true,
+          "comparable": false,
           "source_url": "https://web.archive.org/web/20141106082527/http://results.enr.clarityelections.com/CA/Santa_Clara/54209/148095/json/sum.json"
         },
         {
@@ -1013,12 +1013,12 @@
         {
           "year": 2024,
           "type": "presidential",
-          "pct": 61.19,
-          "ballots": 468395,
+          "pct": 60.13,
+          "ballots": 460325,
           "final": 765495,
           "confidence": "primary",
           "comparable": true,
-          "source_url": "https://web.archive.org/web/20241107034843/https://results.enr.clarityelections.com/CA/Santa_Clara/122582/353583/json/sum.json"
+          "source_url": "https://web.archive.org/web/20260702055736/https://results.enr.clarityelections.com/CA/Santa_Clara/122582/353227/json/sum.json"
         }
       ]
     }

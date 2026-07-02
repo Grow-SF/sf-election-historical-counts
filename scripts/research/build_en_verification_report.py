@@ -32,6 +32,12 @@ def load_results():
 def main():
     results = load_results()
     rows = {(r["slug"], r["date"]): r for r in load_rows()}
+    pv_path = V4 / "plateau_review.json"
+    pv = (
+        {(x["slug"], x["date"]): x for x in json.loads(pv_path.read_text())}
+        if pv_path.exists()
+        else {}
+    )
     bad = [x for x in results if x["status"] != "VERIFIED"]
     ok_num = sorted(
         (x for x in results if x["status"] == "VERIFIED" and x["kind"] == "numerator"),
@@ -76,6 +82,10 @@ def main():
         "citation is circular; the plateau judgment is yours on every sourced",
         "row below.",
         "",
+        "A controller (Fable) plateau verdict now accompanies each sourced row",
+        "(full evidence: PLATEAU_REVIEW.md). Treat non-CONFIRMED rows as first",
+        "priority and spot-audit CONFIRMED ones; your reading still wins.",
+        "",
         "Your reading wins: any discrepancy, even one ballot, gets corrected in",
         "the county JSON and VERIFY.md (then rerun scripts/build_county_night.py",
         "and scripts/research/build_en_verification_report.py). The full working",
@@ -103,6 +113,11 @@ def main():
                 " night (the plateau)? full note: VERIFY.md detail bullet for"
                 f" {r['slug']} {r['date']}"
             )
+            rec = pv.get((r["slug"], r["date"]))
+            if rec:
+                hv.append(
+                    f"      controller verdict: {rec['verdict']} ({rec['basis']})"
+                )
         if extra:
             hv.append(f"      {extra}")
         hv.append("")

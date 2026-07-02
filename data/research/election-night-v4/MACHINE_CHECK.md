@@ -140,4 +140,4 @@ verify_en_* scripts to regenerate).
 | santa-clara-ca | 2022-11-08 | denominator | 550,602 | VERIFIED | 754 1,259,821 1,009,422 40,694 509,908 550,602 92.61% 54.55% 43.70% |
 | santa-clara-ca | 2022-11-08 | numerator | 293,148 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 754 , "PR" : 671 , "TV" : 1009422 , "BC" : 293148 , "RC" : 0 , "RO" : 0 , "CH" : [  |
 | santa-clara-ca | 2024-11-05 | denominator | 765,495 | VERIFIED | 784 1,269,781 1,048,723 97,924 667,571 765,495 87.21% 72.99% 60.29% |
-| santa-clara-ca | 2024-11-05 | numerator | 468,395 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 784 , "PR" : 686 , "TV" : 1048723 , "BC" : 468395 , "RC" : 0 , "RO" : 0 , "CH" : [  |
+| santa-clara-ca | 2024-11-05 | numerator | 460,325 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 784 , "PR" : 686 , "TV" : 1031980 , "BC" : 460325 , "RC" : 0 , "RO" : 0 , "CH" : [  |
