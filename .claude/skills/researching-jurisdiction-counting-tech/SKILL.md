@@ -49,7 +49,7 @@ Return the record below. Nothing else is the deliverable.
 | metric | definition | denominator (required) | where to get it |
 |---|---|---|---|
 | `oneweek_pct` | share counted within **7 days** of Election Day, *as CalVoter publishes it* | CalVoter's basis: ballots counted by day 7 ÷ ballots counted to date (looser than "certified final" — record it as published, don't recompute) | **California Voter Foundation "Ballot Processing"** — per-county, by year; the canonical comparable metric, **always attempt first.** Values are read off CalVoter's per-year charts → mark for the verification pass to read precisely. |
-| `electionnight_pct` | ballots in the **first post-poll-close report** ÷ certified final | **certified final ballots** | county election-night report + certified Statement of Vote |
+| `electionnight_pct` | ballots in the **LAST report posted on election night** (the plateau; NOT the 8 p.m. first tranche, NOT a next-day canvass update) ÷ certified final | **certified final ballots** | the `researching-election-night-share` skill + `docs/research/RUNBOOK.md` define this precisely; source it their way |
 | `days_to_90` | days after Election Day until counted **≥ 90%** of certified final | — | per-release daily canvass updates (many counties don't publish → `null`) |
 
 If the metric's required denominator isn't available (e.g. only "% of

@@ -214,3 +214,12 @@ broadcast archives, Department of Elections internal release reports for
 2000–2014, the county pages of the 1964 and 1978 Statements of Vote, and
 any photograph of an election-night tally board or results page from the
 elections listed on the missing-records page.
+
+**Update (2026-07-06).** The June 1974 "contradicting table" above has been
+arbitrated against the CA Statement of Vote and resolved as OUR misread (the
+SOV certified total equals the DOE figure, 198,508; the newspaper reading was
+corrected in `data/sf_archival_canvass_points.csv`). November 1978 remains a
+genuine open discrepancy. A third case found after this log's last entry,
+November 1934, was arbitrated the other way: the newspaper was right and the
+DOE figure wrong (SOV certified 225,977; the point is now in the chart).
+Current register: `docs/doe-data-discrepancies.md`.

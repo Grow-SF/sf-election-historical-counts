@@ -11,7 +11,9 @@ the box "must be on B1" — wrong page, wasted budget, false negative.
    varies wildly (3 slices covered a 1964 broadsheet; Feb 2008 needed 7).
    Capture script must keep panning until the canvas content stops changing
    (bottom hit), then save the slice count in the filename or a manifest.
-   Use /tmp/nb_capfull.js (pan-until-stable), not the fixed-count nb_cap1.js.
+   Use `scripts/archive-recovery/capture_page.js` (pan-until-bottom; the old
+   /tmp/nb_capfull.js and nb_cap1.js prototypes are gone, /tmp is ephemeral),
+   or `sweep_section.js` for a page range.
 2. **The OSD canvas shows only the viewport.** A "captured page" is only the
    visible band. Never treat a single fit-view capture as the whole page.
 3. **Auth hard-stop** in every script: abort on 'Articles and Databases -
@@ -58,9 +60,9 @@ OF SECTION B of the day-after paper. Recipe per thin election:
 4. Read the San Francisco column; PCT-validate; largest contest sum =
    conservative night floor; precincts < 100% ⇒ mark night_partial.
 
-Remaining day-after targets: 2002-12-11, 2004-03-03, 2008-06-04,
-2009-05-20, 2009-11-04, 2010-06-09, 2010-11-03, 2011-11-09, 2012-06-06,
-2012-11-07.
+Day-after targets: ALL TEN captured and ingested as of 2026-06 (rows in
+`data/sf_archival_canvass_points.csv` for the 2002-2012 thin elections);
+kept here for provenance. New thin elections follow the same recipe.
 
 ## Verification pipeline (unchanged, works)
 

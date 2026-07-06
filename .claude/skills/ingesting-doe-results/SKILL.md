@@ -33,7 +33,10 @@ while the rest moves — run every generator below.
 From the repo root:
 
 1. `uv run sfcount fetch` — pulls real release XMLs into `raw/` (incremental).
-   Confirm the new snapshot, e.g. `ls raw/20260602/`.
+   Confirm the new snapshot, e.g. `ls raw/20260602/`. For a BRAND-NEW election
+   sf.gov doesn't list yet, first add it to `SUPPLEMENTAL_ELECTIONS` in
+   `sfcount/inventory.py` and run `uv run sfcount inventory`; otherwise
+   `fetch`/`parse` silently no-op for it (0 snapshots, no error).
 2. `uv run sfcount parse` — rebuilds `data/sf_count_timeline.csv`. **`git diff`
    it:** expect only the new row(s); if any election *lost* rows, `raw/` was
    incomplete — re-fetch, don't commit a regressed timeline.
@@ -46,18 +49,27 @@ From the repo root:
 5. `uv run sfcount derive` — regenerate the derived `data/*.csv`.
 6. `python3 scripts/build_viz_data.py` — rebake `packages/data/*.json`.
 7. `python3 scripts/build_elections_master.py` — rebuild `data/elections_master.csv`.
-8. `python3 scripts/gen_docs.py` — rewrite `docs/sources.md` + `docs/missing.md`.
-9. `uv run pytest -q && npx vitest run` — both green. (Newly certified an
-   election? Repoint any validator test fixture that used that date as its
-   "uncertified" example to a synthetic sentinel date.)
-10. If the change is visually material, regenerate the README chart images:
+8. `python3 scripts/build_county_night.py` — the SF control row of
+   `packages/data/county_night.json` reads `elections.json` `nightPct`/`final`
+   and goes stale silently if you skip this.
+9. `python3 scripts/build_franchise_csv.py` — rebuilds
+   `data/sf_franchise_by_election.csv` from the JSONs baked in step 6.
+10. `python3 scripts/gen_docs.py` — rewrite `docs/sources.md` + `docs/missing.md`.
+    Keep it LAST: it reads `elections_master.csv` + `sources.json`/`ledger.json`
+    produced by the steps above.
+11. `uv run pytest -q && pnpm vitest run` — both green. (Newly certified an
+    election? Repoint any validator test fixture that used that date as its
+    "uncertified" example to a synthetic sentinel date.) NB: the generator
+    scripts themselves have NO test coverage; your `git diff` review of each
+    step's output is the only gate.
+12. If the change is visually material, regenerate the README chart images:
     run the preview harness (`pnpm --filter @long-count/preview exec vite`, :4317)
     then `node scripts/shoot_charts.cjs`. (A few-ballot correction is invisible —
     skip it.)
-11. Update hardcoded figures in the web article
+13. Update hardcoded figures in the web article
     `content/research/2026-06-14-the-long-count/index.mdx`; recheck any derived
     sentence (e.g. "X% counted on election night") still rounds the same.
-12. Commit `data/`, `packages/data/`, `docs/`, `sfcount/validate.py`; merge to
+14. Commit `data/`, `packages/data/`, `docs/`, `sfcount/validate.py`; merge to
     `main`; re-pin the web `long-count` dependency to the new `main` SHA +
     `pnpm install`; push to the web research PR. (A docs/master-only follow-up
     needs no web re-pin — the charts read only `packages/data`.)

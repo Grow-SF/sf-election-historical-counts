@@ -28,6 +28,8 @@ details are at the [bottom](#reproducing--provenance); they aren't needed to
 | `sf_registration_eligible.csv` | registered vs eligible citizens | 2000–2026 | per SoS report |
 | `sf_registration_eligible_sov_1974_1998.csv` | registered vs eligible (recovered) | 1974–1998 | per election |
 | `sf_eligible_vap_estimate.csv` | voting-age & eligible-citizen population | 1900–2020 | per census |
+| `sf_franchise_by_election.csv` | eligible / registered / voted, joined per election | 1908–2024 | per election |
+| `sf_june2026_vbm_returns_by_day.csv` | DoE daily VBM return tracking (hand-copied reference) | 2026 | per day |
 
 **Definitions used throughout** (they are not interchangeable):
 
@@ -99,6 +101,10 @@ floors** (true value ≥ the figure).
 **What:** the share of the vote guaranteed to be counted by election night — the
 precinct (in-person) ballots, which are tallied that night. A floor even when no
 newspaper survives. **Coverage:** 1964–2026, per election.
+**Caveat:** this CSV is a derived one-off snapshot with NO committed generator,
+and it is NOT a build input: `build_viz_data.py` computes the chart's
+`night_floor.json` independently from the turnout/VBM CSVs. Treat this file as
+a record, not a pipeline stage.
 
 | column | meaning |
 |---|---|
@@ -121,6 +127,7 @@ newspaper survives. **Coverage:** 1964–2026, per election.
 ### `sf_canvass_minutes_statements.csv`
 **What:** registrar statements of ballots-remaining (from Elections Commission
 minutes), turned into conservative counted-so-far estimates. **Coverage:** 2002+.
+Hand-transcribed; no committed generator.
 
 | column | meaning |
 |---|---|
@@ -269,9 +276,10 @@ figures cite the original article, not this repository.
 
 Not needed to use the data, but for the record:
 
-- **Source of truth.** The CSVs here are the inputs. The JSON the website reads
-  (`viz/src/data/*.json`) is *generated* — rebuild with
-  `python3 scripts/build_viz_data.py`; don't edit it by hand.
+- **Source of truth.** The CSVs here are the inputs. The JSON the charts read
+  (`packages/data/*.json`) is *generated* — rebuild with
+  `python3 scripts/build_viz_data.py`; don't edit it by hand. (The full
+  generated-vs-hand-maintained map lives in `packages/data/README.md`.)
 - **Modern counting/turnout files** (`manifest`, `elections`, `sf_count_timeline`,
   `sf_days_to_90`) are produced by the `sfcount` Python pipeline from the
   Department of Elections' published per-release files.
