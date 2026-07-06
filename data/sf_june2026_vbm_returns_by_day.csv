@@ -1,0 +1,24 @@
+# SF Department of Elections — official Vote-by-Mail returns for the June 2, 2026
+# Consolidated Statewide Direct Primary, by date received and return method.
+# Source: "SF Department of Elections official Vote by Mail returns reported on
+# June 10, 2026" (DoE VBM tracking file, pivot by sReturnMethodAbbr x date).
+# Election Day = 2026-06-02. The Department paused ballot processing the
+# afternoon of 2026-06-01 and did not process on 2026-06-02 (to print polling-
+# place rosters), so the Election-Night preliminary report covered only VBM
+# processed on/before June 1 plus polling-place ballots cast on Election Day.
+# DoE reported 100,817 VBM ballots in the Election-Night release.
+# Columns are counts of ballots RETURNED on that date by that method.
+date,counter_city_hall,drop_box,faxed,mail,poll_place,total
+2026-06-01,959,9211,82,5817,0,16069
+2026-06-02,2222,38263,133,23898,60637,125153
+2026-06-03,1,6,0,71,55,133
+2026-06-04,1,0,0,1121,0,1122
+2026-06-05,0,0,0,717,0,717
+2026-06-06,0,0,0,118,0,118
+2026-06-08,0,0,1,972,0,973
+2026-06-09,0,0,0,3,0,3
+# Reference totals from the same file (for cross-check, not re-summed here):
+#   April month total:  mail 61, poll 32  -> 93
+#   May month total:    cityhall 2372, dropbox 25539, faxed 392, mail 68730 -> 97033
+#   June month total:   cityhall 3183, dropbox 47481, faxed 215, mail 32717, poll 60692 -> 144288
+#   GRAND TOTAL:        cityhall 5555, dropbox 73020, faxed 668, mail 101479, poll 60692 -> 241414

@@ -1,0 +1,94 @@
+{
+  "jurisdiction": "Placer County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "vote-center",
+      "status": "adopted",
+      "adopted_year": 2024,
+      "first_election": "2024-03",
+      "vendor": "Voter's Choice Act (SB 450) model; Dominion Voting Systems ImageCast tabulation (Dominion rebranded 'Liberty Vote'), Runbeck Sentio ballot-on-demand",
+      "evidence_url": "https://www.placercountyelections.gov/voters-choice-act/",
+      "confidence": "primary",
+      "note": "Placer County Registrar (Clerk-Recorder Elections) page: 'After years of research and planning, Placer County has made the decision to transition to the Voter's Choice Act (VCA) election model, starting with the 2024 Presidential Primary Election in March of 2024.' Board-vote/adoption date = June 13, 2023 ('The transition was approved by the Placer County Board of Supervisors on June 13, 2023.'; board item https://www.placer.ca.gov/DocumentCenter/View/70082/11A). first_election = March 5, 2024 Presidential Primary (first election conducted under the model). 17 vote centers in 2024 (per county press materials); EAP renewed in 2025. Approved 2025 Placer County Election Administration Plan is linked from the VCA page. SoS 'Voting Technologies in Use by County' (Sept 19, 2024) lists Placer tabulation as Dominion ICC 5.10A (central) / Dominion ICE 5.10A (vote-center scanner) / Dominion ICX 5.10A (accessible BMD), Runbeck Sentio 9.2 ballot-on-demand, Dominion ImageCast Remote 5.10A RAVBM."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "adopted",
+      "adopted_year": 2024,
+      "first_election": "2024-03",
+      "vendor": "Dominion ImageCast Evolution (ICE) vote-center scanner; Placer 'Sign, Scan & Go' program under AB 626",
+      "evidence_url": "https://www.placercountyelections.gov/sign-scan-go/",
+      "confidence": "primary",
+      "note": "Placer County Registrar 'Sign, Scan & Go!' page: 'Sign, Scan & Go is Placer County's implementation of Assembly Bill 626, passed in 2023. Placer County first offered it in the 2024 primary and general elections, which together with the Voter's Choice Act, more than doubled the county's in-person voter turnout.' Process: 'Simply sign the roster at the check-in table, scan your ballot using the ballot scanner and GO!' -- the returned vote-by-mail ballot is verified at in-person check-in (signature on the roster, not deferred envelope-signature review) and scanned/counted in real time at the vote center so it is part of the Election Night tally. Enabling law AB 626 passed 2023 (law date); first election conducted with Sign, Scan & Go = March 5, 2024 Presidential Primary. Placer is the CA county most associated with AB 626 sign-scan-and-go. Confirmed secondarily by CapRadio (2024-11-01) and CBS Sacramento ('second year', 2025)."
+    },
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2024,
+      "first_election": "2024-03",
+      "vendor": "DFM (DFM Associates)",
+      "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-2.pdf",
+      "confidence": "primary",
+      "note": "CA SoS 'Voting Technologies in Use by County' lists the Electronic Pollbook for Placer as 'DFM' in both the Sept 19, 2024 (Nov 2024 General) and Oct 10, 2025 (Nov 2025 Special) editions -- i.e., DFM Associates' electronic roster used at vote centers for check-in. The Registrar's Sign, Scan & Go page describes electronic check-in: 'sign the roster at the check-in table.' Vote-center e-rosters came in with the VCA transition; first election = March 5, 2024. Pre-VCA, the SoS 'Voting Technology by County' list (As of May 9, 2022) showed Placer's e-pollbook column as 'Do not use,' confirming Placer had no electronic pollbook before adopting VCA. adopted_year is the first VCA election (2024), not a board/contract date."
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-2.pdf",
+      "confidence": "secondary",
+      "note": "No automated signature-verification (ASV) software/scanner found for Placer County. Placer's full certified stack in the CA SoS 'Voting Technologies in Use by County' lists (2024-2 and 2025-1) is Dominion ImageCast (ICC/ICE/ICX 5.10A) tabulation/BMD, Runbeck Sentio 9.2 ballot-on-demand, and Dominion ImageCast Remote 5.10A RAVBM -- there is no automated signature-matching product, and the SoS list has no ASV column. Returned vote-by-mail envelope signatures are compared by human review under CA Elections Code sec. 3019 (the Sign, Scan & Go program instead verifies the voter's signature at in-person check-in, which is not automated software matching of envelope signatures to the registration file). Finding by absence of evidence in the primary SoS technology list, hence secondary confidence."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": 41.6,
+      "denominator": "ballots counted to date (CalVoter basis: percentage of Nov 8, 2022 ballots reported as counted one week after Election Day)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CalVoter 'Ballot Processing' county speed chart, 2022 panel ('California County Ballot Counting Speeds compared to Statewide Average'): Placer 41.6%, statewide 77.7%. Data reflects public reports available as of 10:10 AM PT on Nov 16, 2022. Source: CA SoS County Reporting Status Data, collected by CVF's Close Count Transparency Project. Pre-VCA / pre-Sign-Scan-Go baseline (Placer was near the bottom statewide). Value is chart-read; verifier should re-read precisely."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": 84.5,
+      "denominator": "ballots counted to date (CalVoter basis: percentage of Nov 5, 2024 ballots reported as counted one week after Election Day)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 12, 2024' panel: Placer 84.5%, statewide 86.1%. Data reflects public reports available as of 10:06 PM PT on Nov 12, 2024 (CVF note: compiled from Internet Archive Wayback captures on 1/26/26). First even-year general conducted under VCA + Sign, Scan & Go; Placer jumped from 41.6% (2022) to ~the statewide average. Value is chart-read; verifier should re-read precisely."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": 85.7,
+      "denominator": "ballots counted to date (CalVoter basis: percentage of Nov 4, 2025 ballots counted one week after Election Day)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Latest odd-year. Chart-read from CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 11, 2025' panel: Placer 85.7%, statewide 93.9%. Nov 4, 2025 Statewide Special Election; CVF note: under SB 280, counties were prohibited from certifying results until at least 28 days after Election Day. Value is chart-read; verifier should re-read precisely."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": "certified final ballots (not obtained)",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Could not source Placer's first post-poll-close election-night ballot total paired with the certified-final denominator in a comparable primary form for the Nov 5, 2024 General. Placer's Sign, Scan & Go markets that in-vote-center-scanned ballots are included in the 8 p.m. Election Night tally, so this metric would be notably high, but per metric rules a value requires both the election-night-report numerator and the certified-final denominator; not substituting % of registered voters. Value null."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Placer County does not publish per-day/per-release canvass totals in a form that lets the day on which >=90% of the certified final was counted be determined. Value null."
+    }
+  ],
+  "notes": "Placer County, CA. Transitioned to the Voter's Choice Act (SB 450) vote-center model first at the March 5, 2024 Presidential Primary (Board of Supervisors approved June 13, 2023; EAP renewed 2025). Placer is the CA county most identified with AB 626 'Sign, Scan & Go' -- returned vote-by-mail ballots are verified at in-person vote-center check-in (sign the roster) and scanned/counted in real time so they join the Election Night tally; AB 626 passed 2023, first used in the 2024 primary and general. Voting/tabulation system: Dominion Voting Systems ImageCast (ICC/ICE/ICX 5.10A; Dominion now rebranded 'Liberty Vote'), with Runbeck Sentio ballot-on-demand and Dominion ImageCast Remote RAVBM. Electronic pollbook = DFM (DFM Associates) electronic roster at vote centers, per CA SoS 'Voting Technologies in Use by County' lists (2024 & 2025); Placer had no e-pollbook pre-VCA (SoS 2022 list = 'Do not use'). No automated signature-verification (ASV) software found -- envelope signatures reviewed by humans; Sign, Scan & Go verifies the in-person check-in signature, which is not automated matching (not-adopted, secondary/absence-of-evidence). Reporting-speed (oneweek_pct) from the canonical CalVoter 'Ballot Processing' per-county charts, chart-read: 2022 = 41.6% (statewide 77.7%, pre-VCA baseline), 2024 = 84.5% (statewide 86.1%), 2025 = 85.7% (statewide 93.9%) -- a large speedup coinciding with VCA + Sign, Scan & Go adoption in 2024. electionnight_pct and days_to_90 left null (no certified-final-denominated election-night report and no per-day canvass totals located; not substituting a different denominator). Verifier should re-read the chart-read CalVoter percentages and, if a Placer certified-final + first-report pairing is located, fill electionnight_pct."
+}

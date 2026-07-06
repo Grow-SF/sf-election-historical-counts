@@ -1,0 +1,103 @@
+{
+  "jurisdiction": "Orange County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2020,
+      "first_election": "2020-03",
+      "vendor": "Tenex Precinct Central",
+      "evidence_url": "https://ocvote.gov/fileadmin/user_upload/eap/OCROV_2021-2025%20EAP_SOS/OCROV_2021-2025_EAP.html",
+      "confidence": "primary",
+      "note": "OCROV Election Administration Plan: 'An electronic pollbook solution chosen by OCROV is a combination of tablet (iPad) hardware devices and vendor proprietary software,' first deployed at Vote Centers for the March 3, 2020 Presidential Primary (first election under the Voter's Choice Act). Provisional ballots fell from 117,188 (Nov 2018) to 3,417 (Nov 2020). Vendor 'Tenex Precinct Central' (iPad-based ePollbook) per Verified Voting / industry reporting and CA SoS certification, not named in the EAP itself -> vendor attribution is secondary; e-pollbook adoption itself is primary."
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://ocvote.gov/fileadmin/user_upload/eap/OCROV_2021-2025%20EAP_SOS/OCROV_2021-2025_EAP.html",
+      "confidence": "primary",
+      "note": "No automated signature-verification software/scanner. OCROV EAP: 'The images of the returned envelopes are used by staff to perform a signature comparison of the ballots and determine if the signature matches'; staff review ~10,000 signatures/hour (the 45,000/hr machine is a high-speed mail sorter, not a signature matcher). Corroborated by LAist (2024/2026): 'In Orange County, signature comparisons are done by humans -- not scanners,' and Registrar Bob Page's three-reviewer rule (https://laist.com/news/politics/voter-guides/2026-election-california-primary-how-they-verify-ballot-signatures)."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://ocvote.gov/fileadmin/user_upload/eap/OCROV_2021-2025%20EAP_SOS/OCROV_2021-2025_EAP.html",
+      "confidence": "secondary",
+      "note": "No in-vote-center 'Sign-Scan-and-Go' / AB 626 mail-ballot signature-verify-and-scan workflow. Returned mail ballots are processed centrally at the Registrar (high-speed sorter + staff signature comparison from envelope images), per the EAP. The only in-person ballot scanning OC offers is an optional Ballot Drop Box Scanner pilot (started 2022 Primary) that lets a voter confirm a ballot was scanned before depositing it -- it does NOT verify signatures or do in-vote-center mail processing (https://ocvote.gov/vote-center-and-ballot-drop-box-accessibility/drop-box-scan)."
+    },
+    {
+      "type": "vote-center",
+      "status": "adopted",
+      "adopted_year": 2020,
+      "first_election": "2020-03",
+      "vendor": "",
+      "evidence_url": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2019-news-releases-and-advisories/orange-county-votes-implement-voters-choice-act-2020-elections",
+      "confidence": "primary",
+      "note": "California Voter's Choice Act (SB 450) vote-center model: all-mail ballots + Vote Centers replacing precinct polling places. Orange County Board of Supervisors voted to adopt on 2019-02-26 (board-vote date); first election conducted under VCA = March 3, 2020 Presidential Primary, with ~180+ Vote Centers countywide. Confirmed by CA SoS news release and OCROV EAP."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": 88.7,
+      "denominator": "CVF basis: % of Nov 8, 2022 ballots reported as counted one week after Election Day (ballots counted by day 7 / ballots counted to date); statewide avg 77.7%",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from California Voter Foundation 'Ballot Processing' county chart 'Publicly Reported California Ballot Counting Progress on Nov 15, 2022' (data as of 10:10 AM PT Nov 16, 2022). Orange bar labeled 88.7%."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": 91.8,
+      "denominator": "CVF basis: % of Nov 5, 2024 ballots reported as counted one week after Election Day (ballots counted by day 7 / ballots counted to date); statewide avg 86.1%",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CVF 'Ballot Processing' county chart 'Publicly Reported California Ballot Counting Progress on Nov 12, 2024' (data as of 10:06 PM PT Nov 12, 2024). Orange bar labeled 91.8%."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": 99.2,
+      "denominator": "CVF basis: % of Nov 4, 2025 ballots counted one week after Election Day; odd-year consolidated election",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CVF 'Ballot Processing' county chart 'Publicly Reported California Ballot Counting Progress on Nov 11, 2025'. Orange bar labeled 99.2%."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": "certified final = 1,417,397 ballots (known); first post-poll-close report total not published",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Certified final 1,417,397 is sourced (OCROV cert release 2024-12-03, https://ocvote.gov/press-releases/orange-county-ca-registrar-of-voters-certifies-the-2024-presidential-general-election-results), but the FIRST post-poll-close report numerator is not. OC's 8:05 PM election-night report is 'vote-by-mail ballots only' and OC does not publish that report's total. The widely cited 1,052,969 ballots (~74.3% of final) is the cumulative count by 7 PM WEDNESDAY Nov 6 (Patch/registrar), i.e. a next-day figure, NOT the first post-8 PM Tuesday report -> not recorded to avoid conflating the definition."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2022,
+      "value": null,
+      "denominator": "first post-poll-close report total not published",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Same as 2024: OCROV's first 8:05 PM report is VBM-only and the per-report total is not archived as a clean figure, so the first-report numerator cannot be sourced. Not recorded."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "OCROV does not publish a clean per-day canvass total series; post-election updates come as ad-hoc press releases (e.g. 'adds 64,000 ballots') without a consistent daily cumulative, so the day-by-day curve to >=90% of certified final cannot be reconstructed."
+    }
+  ],
+  "notes": "Tech: Orange County is a Voter's Choice Act (vote-center) county since the March 3, 2020 Presidential Primary (board adopted 2019-02-26). It uses iPad-based electronic pollbooks (Tenex Precinct Central per Verified Voting/industry sources; EAP confirms an e-pollbook solution but doesn't name the vendor). It has NOT adopted automated signature verification -- the EAP explicitly states staff compare envelope-image signatures by hand (a primary-source confirmation of the 'no ASV' hint) -- and has NOT adopted a Sign-Scan-and-Go / AB 626 in-vote-center mail workflow (mail is processed centrally; the only in-person scan is an optional drop-box scanner pilot). Metrics: oneweek_pct captured for 2022/2024/2025 from CVF 'Ballot Processing' charts (chart-read; flag for precise re-read in verification). electionnight_pct could NOT be computed for any year: certified-final denominators are available but OC's first post-poll-close report total is not published (its 8:05 PM first report is VBM-only); the commonly cited 1,052,969 figure is a Wed-7pm next-day cumulative, not the first report -- intentionally left null/none rather than substituting it. days_to_90 null (no per-day canvass series published)."
+}

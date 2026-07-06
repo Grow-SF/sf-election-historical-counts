@@ -5,11 +5,13 @@ import vbmHistory from "./vbm_history.json";
 import registrationEligible from "./registration_eligible.json";
 import franchiseFunnel from "./franchise_funnel.json";
 import countySpeed from "./county_speed.json";
+import countyTech from "./county_tech.json";
+import countyNight from "./county_night.json";
 import sources from "./sources.json";
 import ledger from "./ledger.json";
 import type {
   Election, TurnoutPoint, FloorPoint, VbmPoint, RegEligPoint, FunnelPoint,
-  CountySpeed,
+  CountySpeed, CountyTech, CountyNight,
 } from "./types";
 
 export * from "./types";
@@ -20,5 +22,7 @@ export const VBM_HISTORY = vbmHistory as VbmPoint[];
 export const REGISTRATION_ELIGIBLE = registrationEligible as RegEligPoint[];
 export const FRANCHISE_FUNNEL = franchiseFunnel as FunnelPoint[];
 export const COUNTY_SPEED = countySpeed as CountySpeed;
+export const COUNTY_TECH = countyTech as CountyTech;
+export const COUNTY_NIGHT = countyNight as CountyNight;
 export const SOURCES = sources as Record<string, unknown>[];
 export const LEDGER = ledger as { text: string };

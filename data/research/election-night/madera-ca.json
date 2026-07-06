@@ -1,0 +1,85 @@
+{
+  "jurisdiction": "Madera County",
+  "state": "CA",
+  "adoption": { "epollbook": 2018, "asv": null },
+  "elections": [
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 40325,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/sov-complete.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 40,325 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County', complete 2012 SOV (Madera: 96 precincts, 86,894 eligible, 53,779 registered, 15,658 precinct + 24,667 VBM = 40,325). Election-night plateau NOT recoverable: this predates Madera's Clarity ENR (Madera's first Clarity election is the June 2018 primary, id 75694) and its WordPress/votemadera.com results system. Wayback's earliest votemadera.com capture is the homepage 02/02/2011, then nothing until Oct 2014; the /results/ folder is first archived as Election28 = Nov 2014. No 2012 election-night results page, semi-final canvass PDF, or news-quoted county ballot total found. No snapshot used."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 27370,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 27,370 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County', 2014 complete SOV (Madera: 100 precincts, 85,976 eligible, 52,494 registered, 8,970 precinct + 18,400 VBM = 27,370). Election-night plateau NOT recoverable as a clean number. The only archived data state of votemadera.com's result28.htm / resultsc28.htm (captures 20141108134805 and 20141118031430) is the report 'Election Results as of 11/07/2014 at 02:14:32 PM' = Total Ballots Cast 26,449 (precinct 8,106 + absentee 18,343), 100 of 100 precincts -- this is the FIRST CANVASS UPDATE (Friday 11/7 afternoon, ~96.6% of certified), NOT the election-night semifinal. Madera's own 'Updates to Election Night Results' page (capture 20141111035904) confirms 4,385 late VBM 'arrived too late to be processed and included in the Semifinal Results from Election Night' and were counted starting 'Friday 11/7 at 1:00pm', so the true election-night plateau (which excluded those 4,385) was overwritten in place and is unarchived. No 2014 Clarity ENR exists (Madera's first Clarity is June 2018), so the live-CDN version recovery used for 2018/2022 is not available here. Recording 26,449 would overstate the election-night share, so left null."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": 35364,
+      "certified_final": 44186,
+      "election_night_pct": 80.0,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20161112115134/http://votemadera.com/results/Election33/HTML/resultsc33.htm",
+      "confidence": "primary",
+      "note": "Numerator 35,364 = the election-night Semi-Final Official Canvass total from votemadera.com's static results page resultsc33.htm/result33.htm, header 'Election Results as of 11/08/2016 at 11:31:17 PM', 102 of 102 precincts completed: Precinct Ballots Cast 12,803 + Absentee Ballots Cast 22,561 = Total Ballots Cast 35,364 (registered 58,128). This is the late-election-night plateau (11:31 PM, all precinct results in). It HELD STEADY past election night: the same '11/08/2016 11:31:17 PM' / 35,364 state appears in both the Nov 12 capture (resultsc33.htm, snapshot 20161112115134) and the Dec 30 capture (result33.htm, 20161230001056), confirming it was the frozen election-night semifinal before the multi-day canvass. Certified final 44,186 (CA SoS 'Voter Participation Statistics by County'; Madera 102 precincts, 87,254 eligible, 58,086 registered, 15,211 precinct + 28,975 VBM). pct = 35,364 / 44,186 = 80.03% (rounded 80.0%). Snapshot 20161112115134 used."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": 28159,
+      "certified_final": 38968,
+      "election_night_pct": 72.26,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20260627203408/https://results.enr.clarityelections.com/CA/Madera/92458/220349/json/sum.json",
+      "confidence": "primary",
+      "note": "Numerator 28,159 = total Ballots Cast (Contests[0].BC) from the Madera County Clarity ENR election-night data version 220349 (results.enr.clarityelections.com/CA/Madera/92458/220349/json/sum.json), recovered from the LIVE Clarity CDN (immutable version-pinned data) and freshly archived to Wayback (snapshot 20260627203408, verified BC=28,159, 62 of 69 precincts). The version's electionsettings.json gives websiteupdatedat = '11/6/2018 11:53:23 PM PST' -- the LAST election-night report. It is the election-night plateau and it HELD STEADY: the next two published versions 220492 ('11/7/2018 9:34:48 AM PST') and 220715 ('11/8/2018 11:00:04 AM PST') still show BC=28,159; only on 11/9 (version 221196, '11/9/2018 4:17:42 PM PST') does the canvass resume at BC=32,380. Election-night progression on 11/6: v219858 (8:59 PM, 24,508) -> v220100 (9:53 PM, 24,711) -> v220277 (11:06 PM, 26,408) -> v220324 (11:32 PM, 27,262) -> v220349 (11:53 PM, 28,159). Certified final 38,968 (CA SoS 'Voter Participation Statistics by County'; Madera 89,818 eligible, 57,418 registered) -- also equals BC of the Clarity certified version 222713 ('11/21/2018 12:58:53 PM PST', BC=38,968). pct = 28,159 / 38,968 = 72.26%. First general under e-pollbooks / VCA vote centers (adopted 2018). SUPERSEDES the prior 'not recoverable' finding: the Wayback ENR captures of id 92458 lacked the data JSON (only a Nov 29 post-cert index), but the live Clarity CDN still serves every published version and its electionsettings 'versions' array enumerates them. Snapshot 20260627203408 used."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 21951,
+      "certified_final": 37345,
+      "election_night_pct": 58.78,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20260627203522/https://results.enr.clarityelections.com/CA/Madera/116174/311779/json/sum.json",
+      "confidence": "primary",
+      "note": "Numerator 21,951 = total Ballots Cast (Contests[0].BC) from the Madera County Clarity ENR election-night data version 311779 (results.enr.clarityelections.com/CA/Madera/116174/311779/json/sum.json), recovered from the LIVE Clarity CDN (immutable version-pinned data) and freshly archived to Wayback (snapshot 20260627203522, verified BC=21,951, 50 of 59 precincts). The version's electionsettings.json gives websiteupdatedat = '11/8/2022 10:44:29 PM PST' -- the LAST election-night report. It is the election-night plateau: the very next published version 312400 is dated '11/10/2022 4:11:23 PM PST' (BC jumps to 25,243), i.e. the county stopped publishing after 11/8 ~10:44 PM and resumed the canvass on 11/10, so 21,951 is the frozen end-of-election-night number. Election-night progression on 11/8: v311053 (8:09 PM, 18,832) -> v311314 (8:47 PM, 19,335) -> v311666 (10:04 PM, 20,099) -> v311726 (10:23 PM, 21,109) -> v311779 (10:44 PM, 21,951). Certified final 37,345 (CA SoS 'Voter Participation Statistics by County'; Madera 59 precincts, 93,789 eligible, 72,865 registered, 3,333 precinct + 34,012 VBM) -- also equals BC of the Clarity certified version 314277 ('11/23/2022 9:30:52 AM PST', BC=37,345). pct = 21,951 / 37,345 = 58.78%. SUPERSEDES the prior 'not recoverable' finding: the Wayback capture of the live ENR page (id 116174) returned HTTP 403 (CloudFront), but the live Clarity CDN still serves every published data version and its electionsettings 'versions' array (18 entries, 305400..314277) enumerates them. Snapshot 20260627203522 used."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 37106,
+      "certified_final": 55329,
+      "election_night_pct": 67.1,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20241108001837/https://results.enr.clarityelections.com/CA/Madera/122832/353191/json/sum.json",
+      "confidence": "primary",
+      "note": "Numerator 37,106 = total Ballots Cast (field BC) from the Madera County Clarity ENR election-night data version 353191 (results.enr.clarityelections.com/CA/Madera/122832/353191/json/sum.json), recovered via Wayback (snapshot 20241108001837). The version's electionsettings.json gives websiteupdatedat = '11/5/2024 11:51:26 PM PST' -- the late/end-of-election-night report, 63 of 78 precincts reporting, registered 78,317. It is the election-night plateau: the next archived version 353996 is a Nov 9 update where BC jumps to 44,900 (64/78), so 37,106 held from late election night through the next days before the canvass resumed. Certified final 55,329 (CA SoS 'Voter Participation Statistics by County'; Madera 78 precincts, 95,290 eligible, 78,204 registered, 8,560 precinct + 46,769 VBM). pct = 37,106 / 55,329 = 67.06% (rounded 67.1%). Snapshot 20241108001837 used. NOTE on trend: 2016 (pre-epollbook, traditional polling places) plateaued at 80.0% vs 2024 (post-epollbook, universal-VBM vote centers) at 67.1% -- the drop tracks the statewide shift to universal vote-by-mail (more late-arriving ballots), not e-pollbook check-in speed per se. Like-to-like midterms: 2018 (first VCA year) 72.26% -> 2022 58.78%, same downward direction."
+    }
+  ]
+}

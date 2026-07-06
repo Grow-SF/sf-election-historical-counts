@@ -1,0 +1,103 @@
+{
+  "jurisdiction": "San Bernardino County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2020,
+      "first_election": "2020-03",
+      "vendor": "KNOWiNK PollPad",
+      "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "confidence": "primary",
+      "note": "CA SoS 'Voting Technologies Used by Counties' (as of Oct 10, 2025) lists San Bernardino e-pollbook = KNOWiNK PollPad V 3.4.8 (tabulation Dominion ICC 5.19, BMD Dominion ICX 5.19, Runbeck Sentio 9.2 scanning, Democracy Live Secure Select RAVBM). First-use year pinned to the March 3, 2020 Presidential Primary because KNOWiNK PollPad already appears in the SoS 'Voting Technologies in use by County as of February 4, 2020' list for San Bernardino (https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-used-by-counties-2020-3.pdf), which corresponds to the county's new Dominion Democracy Suite rollout for the 2020 cycle. County polling page confirms in-use: 'you will be looked up on an Electronic Poll Pad' (https://elections.sbcounty.gov/voting/polls/). Earlier (pre-2020) e-pollbook use not affirmatively ruled out, but Feb 2020 SoS list is the first primary confirmation."
+    },
+    {
+      "type": "asv",
+      "status": "adopted",
+      "adopted_year": 2025,
+      "first_election": "2025-11",
+      "vendor": "",
+      "evidence_url": "https://elections.sbcounty.gov/faqs/what-is-a-confidence-rating/",
+      "confidence": "secondary",
+      "note": "Automatic Signature Verification (ASV) software is ADOPTED. County Registrar FAQ: mail ballot envelopes 'will be scanned on a mail sorting machine, capturing an image of your signature' which is compared by ASV software; the confidence threshold is set at 45% -- >=45% auto-counts, <45% routes to trained staff for manual review (https://elections.sbcounty.gov/faqs/what-is-asv/, https://elections.sbcounty.gov/faqs/mail-ballot-processing/). first_election = Nov 4, 2025 statewide special, by bracketing: a Sept 15, 2024 Black Voice News walkthrough of San Bernardino ballot processing described signature verification as fully MANUAL ('staff at computers examine and verify the signatures on the envelopes ... two points of verification') with NO ASV (archived: web.archive.org/web/20251228105949/https://blackvoicenews.com/2024/09/15/san-bernardino-county-registrar-voters/), while KESQ (Oct 23, 2025) reports ASV is 'already being used in San Diego and San Bernardino' as Riverside piloted it for the Nov 2025 special (https://kesq.com/news/2025/10/23/registrar-demonstrates-new-auto-signature-verification-tool-ahead-of-election/). The mail sorter hardware is a BlueCrest Vantage (county procedures list 'BlueCrest Vantage Mail Sorter'; sorter contract with DMT Solution Global dba BlueCrest approved by the Board on Dec 5, 2019), in use since ~2020 -- but the ASV signature-matching software is the new 2025 component, so adopted_year reflects the software, not the sorter. ASV software vendor not named by the county. confidence secondary because the exact first-election year is inferred (no explicit county 'first used Nov 2025' statement found), though the 'adopted' status itself is from the county's own FAQ (primary)."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://elections.sbcounty.gov/voting/polls/",
+      "confidence": "secondary",
+      "note": "No in-vote-center mail-ballot 'Sign-Scan-and-Go' / AB 626 verify-and-scan workflow. San Bernardino is NOT a vote-center (VCA) county -- it runs traditional assigned/precinct polling places ('Vote at Your Assigned Polling Place on Election Day', https://elections.sbcounty.gov/voting/polls/), so there is no vote-center mail-processing model to host Sign-Scan-and-Go. Returned mail ballots are processed CENTRALLY at the Registrar via a BlueCrest Vantage high-speed sorter + ASV/manual signature verification, then extraction and tabulation (county Ballot Processing & Counting Procedures, https://elections.sbcounty.gov/community-outreach/observation/procedures/; Black Voice News Sep 2024 walkthrough). Marked secondary: absence-of-evidence of an in-vote-center verify+scan plus the structural fact that the county has no vote centers."
+    },
+    {
+      "type": "vote-center",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://elections.sbcounty.gov/voting/polls/",
+      "confidence": "primary",
+      "note": "San Bernardino has NOT adopted the California Voter's Choice Act (SB 450) vote-center model. The county Registrar instructs voters to 'Vote at Your Assigned Polling Place on Election Day' and look up an assigned precinct location (https://elections.sbcounty.gov/voting/polls/) -- the precinct model, not 'vote at any vote center.' San Bernardino does not appear on the CA SoS list of VCA participating counties (https://www.sos.ca.gov/voters-choice-act). The county does offer early/in-person voting locations, but ballots are precinct-assigned, not the all-mail + any-vote-center VCA model."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": 73.0,
+      "denominator": "CVF basis: % of Nov 8, 2022 ballots reported as counted one week after Election Day (ballots counted by day 7 / ballots counted to date); statewide avg 77.7%",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from California Voter Foundation 'Ballot Processing' county chart 'Publicly Reported California Ballot Counting Progress on Nov 15, 2022' (data as of 10:10 AM PT Nov 16, 2022). San Bernardino bar labeled 73.0% (statewide dashed line 77.7%)."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": 72.4,
+      "denominator": "CVF basis: % of Nov 5, 2024 ballots reported as counted one week after Election Day (ballots counted by day 7 / ballots counted to date); statewide avg 86.1%",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CVF 'Ballot Processing' county chart 'Publicly Reported California Ballot Counting Progress on Nov 12, 2024' (% of Nov 05, 2024 ballots counted one week after Election Day; data as of 10:06 PM PT Nov 12, 2024). San Bernardino bar labeled 72.4% (statewide 86.1%)."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": 98.4,
+      "denominator": "CVF basis: % of Nov 4, 2025 ballots counted one week after Election Day; odd-year statewide special (Prop 50); statewide avg 93.9%",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CVF 'Ballot Processing' county chart 'Publicly Reported California Ballot Counting Progress on Nov 11, 2025' (% of Nov 4 ballots counted one week after Election Day). San Bernardino bar labeled 98.4% (statewide 93.9%) -- a large jump vs 2022/2024, consistent with ASV adoption for the Nov 2025 special."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed: requires San Bernardino's first post-poll-close (8 PM Nov 5, 2024) report ballot total divided by the certified final ballot total. A clean certified-final ballot denominator and an archived first-report numerator were not retrieved from a primary source. Per metric definition, left null rather than substituting a 'percent of registered voters' figure."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2022,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed: same as 2024 -- neither a clean first post-poll-close report total nor a sourced certified-final denominator for Nov 8, 2022 was retrieved. Left null."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed: San Bernardino County does not publish a clean machine-readable per-day canvass cumulative series, so days-after-Election-Day until >=90% of certified final cannot be derived from a primary source."
+    }
+  ],
+  "notes": "TECH: San Bernardino is a TRADITIONAL precinct-polling county (NOT Voter's Choice Act / vote-center). It uses KNOWiNK PollPad electronic pollbooks (adopted with the new Dominion Democracy Suite system for the March 2020 primary; SoS lists confirm) and Dominion ICC/ICX 5.19 tabulation/BMD with Democracy Live Secure Select RAVBM and Runbeck Sentio scanning. The hint 'ASV' is the headline finding: Automatic Signature Verification software (45% confidence threshold; >=45% auto-counts, <45% to manual review) is ADOPTED -- best evidence is that signature verification was MANUAL as of Sep 2024 (Black Voice News walkthrough) and ASV was in use by Oct 2025 (KESQ), so first election ~Nov 4, 2025 statewide special (confidence secondary on the year; status primary from county FAQ). Mail sorter hardware is a BlueCrest Vantage (sorter contract approved Dec 5, 2019); ASV software vendor not named by the county. Sign-Scan-and-Go not adopted (no vote centers to host it; mail processed centrally). METRICS: oneweek_pct chart-read from CalVoter 'Ballot Processing' county charts -- 2022 = 73.0% (statewide 77.7%), 2024 = 72.4% (statewide 86.1%), 2025 = 98.4% (statewide 93.9%); flag for a precise verification re-read. electionnight_pct (2022, 2024) and days_to_90 (2024) left null/none for lack of a clean certified-final denominator and per-day canvass data. Verifier should: (1) re-read CalVoter values precisely, (2) confirm the ASV first-election year via a San Bernardino ROV press release or Board action, (3) confirm whether e-pollbooks predate the March 2020 primary."
+}

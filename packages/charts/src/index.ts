@@ -10,6 +10,8 @@ export {
   NightShare,
   Vbm,
   CountySpeed,
+  CountyNightShare,
+  CountyNightTimeline,
   Turnout,
   Registration,
   FranchiseFunnel,
@@ -27,6 +29,8 @@ export { default as NightShareChart } from "./components/NightShareChart";
 export { default as TurnoutChart } from "./components/TurnoutChart";
 export { default as VbmChart } from "./components/VbmChart";
 export { default as CountySpeedChart } from "./components/CountySpeedChart";
+export { default as CountyNightShareChart } from "./components/CountyNightShareChart";
+export { default as CountyNightTimelineChart } from "./components/CountyNightTimelineChart";
 export { default as RegistrationChart } from "./components/RegistrationChart";
 export { default as FranchiseFunnelChart } from "./components/FranchiseFunnelChart";
 export { default as TrajectoryExplorer } from "./components/TrajectoryExplorer";

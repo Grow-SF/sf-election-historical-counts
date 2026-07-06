@@ -1,0 +1,94 @@
+{
+  "jurisdiction": "Madera County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "vote-center",
+      "status": "adopted",
+      "adopted_year": 2018,
+      "first_election": "2018-06",
+      "vendor": "Dominion Voting Systems ImageCast (ICVS) under the Voter's Choice Act model",
+      "evidence_url": "https://elections.cdn.sos.ca.gov/vca/eap/madera-eap.pdf",
+      "confidence": "primary",
+      "note": "One of the original five CA counties to adopt the Voter's Choice Act all-mail/vote-center model. Election Administration Plan: 'The Voters Choice Act authorized Madera County... to conduct any election by all mailed ballot with Vote Centers commencing in 2018. The Madera County Registrar of Voters (MCROV) adopted the VCA Model in September 2017.' Board-vote/adoption date = Sept 2017; first election conducted under the model = June 5, 2018 Statewide Primary. Confirmed by CA SoS VCA participating-counties page and CSAC 'Five Counties Weigh In on the Voters Choice Act' (https://www.counties.org/county-voice/five-counties-weigh-voters-choice-act)."
+    },
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2018,
+      "first_election": "2018-06",
+      "vendor": "DFM Associates (EIMS / Vote Center App, run on networked PCs at vote centers)",
+      "evidence_url": "https://elections.cdn.sos.ca.gov/vca/eap/madera-eap.pdf",
+      "confidence": "primary",
+      "note": "Vote centers use electronic rosters from the first VCA election (June 2018). EAP: 'at each Vote Center a network of personal computers will be linked to the MCROV Election Information Management System (EIMS) through a secure connection. EIMS is connected to the voter registration administered by the State of California (VoteCal)... enabling Vote Center staff to determine the registration and voter status of every voter in real time.' Note the nuance (Verified Voting, secondary, https://verifiedvoting.org/election-system/dfm-associates-eims/): EIMS is technically an election-management system, not a dedicated SoS-certified standalone e-pollbook product, but it is used in the same manner as an electronic pollbook (check in voters, confirm status, void/reissue ballots). No tablet-based e-pollbook (e.g. KNOWiNK Poll Pad) documented; check-in is via networked PCs running EIMS."
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://elections.cdn.sos.ca.gov/vca/eap/madera-eap.pdf",
+      "confidence": "secondary",
+      "note": "No automated signature-verification software found. Madera's full voting-technology stack in the EAP is Dominion ICVS (ICX BMDs, Mobile Ballot Printing, image-capturing tabulation scanners) plus EIMS; the image-capturing scanners are for ballot tabulation/audit-mark, not signature matching. No ASV product appears for Madera in SoS certified-technology materials, and Madera is not among the CA counties known to run ASV software (e.g. San Bernardino, Riverside). Absent special software, CA counties perform human signature comparison under Elections Code sec. 3019; finding is by absence of evidence, hence secondary confidence."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://elections.cdn.sos.ca.gov/vca/eap/madera-eap.pdf",
+      "confidence": "secondary",
+      "note": "No in-vote-center mail-ballot signature-verify-and-scan ('Sign-Scan-and-Go', AB 626) capability described in Madera's Election Administration Plan. Ballots dropped at vote centers/drop boxes are transported for central processing; there is no mention of verifying and scanning returned VBM envelopes at the vote center. AB 626 sign-scan-go is associated with Placer County, not Madera. Finding by absence of evidence in the primary EAP."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": 67.6,
+      "denominator": "ballots counted to date (CalVoter basis: ballots reported as counted one week after Election Day)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 15, 2022' (image 2022_ca_county_ballot_counting_speeds.png): Madera 67.6%, statewide 77.7%. Percentage of Nov 8, 2022 ballots reported as counted one week after Election Day; data as of 10:10 AM PT Nov 16, 2022."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": 81.2,
+      "denominator": "ballots counted to date (CalVoter basis: ballots reported as counted one week after Election Day)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read from CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 12, 2024' (image 2024_ca_county_ballot_counting_speeds.png): Madera 81.2%, statewide 86.1%. Percentage of Nov 5, 2024 ballots reported as counted one week after Election Day; data as of 10:06 PM PT Nov 12, 2024."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": 76.1,
+      "denominator": "ballots counted to date (CalVoter basis: ballots reported as counted one week after Election Day)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Latest odd-year. Chart-read from CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 11, 2025' (image 2025_ca_county_ballot_counting_speeds.png): Madera 76.1%, statewide 93.9%. Percentage of Nov 4, 2025 ballots counted one week after Election Day."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": "certified final ballots (not obtained)",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Could not locate Madera's first post-poll-close election-night ballot total paired with the certified-final denominator in a comparable, primary form. Not substituting % of registered voters. Value null per metric rules."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Madera does not publish per-day/per-release canvass totals, so the day on which >=90% of the certified final was counted cannot be determined."
+    }
+  ],
+  "notes": "Madera County, CA. Vote-center / Voter's Choice Act model adopted by the Registrar Sept 2017 (board/adoption date) and first conducted at the June 5, 2018 Statewide Primary -- one of the original five VCA counties (with Sacramento, San Mateo, Napa, Nevada). Voting/tabulation system: Dominion Voting Systems ImageCast (ICVS), with ICX ballot-marking devices and Mobile Ballot Printing; RAVBM via Dominion. Electronic roster/check-in at vote centers is DFM Associates EIMS on networked PCs (functions as an e-pollbook; not a dedicated tablet e-pollbook). No automated signature verification (ASV) and no in-vote-center sign-scan-and-go documented -- both found 'not-adopted' by absence of evidence in the primary Election Administration Plan and SoS materials (secondary confidence). Reporting-speed metric (oneweek_pct) is from the canonical CalVoter 'Ballot Processing' per-county charts, chart-read for 2022 (67.6%), 2024 (81.2%) and 2025 (76.1%); CalVoter does not publish comparable county charts for 2018/2020 on that page. electionnight_pct and days_to_90 left null (no certified-final-denominated election-night report and no per-day canvass totals located). Verifier should re-read the chart-read CalVoter percentages and, if a dedicated e-pollbook product or ASV software is later documented for Madera, update the epollbook/asv rows."
+}

@@ -1,0 +1,94 @@
+{
+  "jurisdiction": "San Diego County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2022,
+      "first_election": "2022-06",
+      "vendor": "Tenex Precinct Central V 6.0.1",
+      "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-2.pdf",
+      "confidence": "primary",
+      "note": "CA SoS 'Voting Technologies Used by Counties' (Nov 5 2024) lists San Diego e-pollbook = Tenex Precinct Central V 6.0.1. E-pollbooks replaced paper rosters with the Voter's Choice Act vote-center transition; first used at the June 7, 2022 Gubernatorial Primary (board approved the vote-center model Oct 19, 2021). Confirmed in San Diego EAP (09/05/2023): 'Electronic pollbooks (e-pollbooks) replaced paper rosters.' No evidence of e-pollbook use before the 2022 VCA transition."
+    },
+    {
+      "type": "asv",
+      "status": "adopted",
+      "adopted_year": 2024,
+      "first_election": "2024",
+      "vendor": "",
+      "evidence_url": "https://www.nbcsandiego.com/news/local/what-happens-to-your-ballot-after-voting-heres-how-ballot-counting-works-in-san-diego/3662953/",
+      "confidence": "secondary",
+      "note": "Automated signature verification: high-speed sorter cameras photograph the envelope signature and compute a confidence match; ballots are sorted into 'ASV' (auto-passed) and 'MSV' (manual) buckets, with anything below ~45% confidence routed to human review (fox5sandiego/NBC7 2024 coverage, KPBS Oct 30 2024). adopted_year is approximate: the Sept 5, 2023 EAP still described staff performing the signature comparison from captured images (no auto-matching), while 2024 election-cycle reporting describes the automated confidence-scoring system in use; KESQ (Oct 23 2025) confirms San Diego 'already' uses ASV. Could not pin first election to March 2024 primary vs Nov 2024 general from primary sources; ASV software vendor not identified (mail sorters are Runbeck-class). NOT in CA SoS certified-voting-system list because ASV sorter software is not a 'voting system.'"
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://elections.cdn.sos.ca.gov/vca/eap/san-diego-eap.pdf",
+      "confidence": "estimated",
+      "note": "No evidence San Diego implemented an in-vote-center mail-ballot signature-verify-and-scan ('Sign-Scan-and-Go' / AB 626) model. The EAP (09/05/2023) describes returned mail ballots being processed centrally at the Registrar's office via high-speed sorters and signature verification, not verified-and-scanned at the vote center on drop-off. AB 626 (chaptered Oct 2023) only permits the practice; no San Diego adoption found. Marked estimated because this is absence-of-evidence rather than an explicit county statement of non-adoption."
+    },
+    {
+      "type": "vote-center",
+      "status": "adopted",
+      "adopted_year": 2022,
+      "first_election": "2022-06",
+      "vendor": "",
+      "evidence_url": "https://www.countynewscenter.com/county-approves-move-to-vote-center-model/",
+      "confidence": "primary",
+      "note": "San Diego County Board of Supervisors approved the move to the Voter's Choice Act vote-center model on Oct 19, 2021; the first election conducted under it was the June 7, 2022 Gubernatorial Primary. Also listed on the CA SoS Voter's Choice Act counties page (2022 cohort). Every active registered voter mailed a ballot; in-person voting at any vote center using e-pollbooks."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": 92.6,
+      "denominator": "CalVoter Close Count Transparency Project: % of the election's ballots reported as counted one week after Election Day (CA SoS county reporting status data)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read. CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 15, 2022' (% of Nov 8 2022 ballots counted one week after Election Day). San Diego bar = 92.6% (statewide 77.7%)."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": 90.6,
+      "denominator": "CalVoter Close Count Transparency Project: % of the election's ballots reported as counted one week after Election Day (CA SoS county reporting status data)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read. CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 12, 2024' (% of Nov 5 2024 ballots counted one week after Election Day). San Diego bar = 90.6% (statewide 86.1%)."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": 99.0,
+      "denominator": "CalVoter Close Count Transparency Project: % of the election's ballots reported as counted one week after Election Day (CA SoS county reporting status data)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "Chart-read. CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 11, 2025' (% of Nov 4 2025 ballots counted one week after Election Day; Nov 4 2025 statewide special). San Diego bar = 99.0% (statewide 93.9%)."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed: requires the first post-poll-close report ballot total divided by the certified final ballot total. The certified-final denominator was not retrieved as a clean primary figure and an archived Nov 5 2024 ~8pm election-night snapshot was not located; per metric definition, value left null rather than substituting a 'percent of registered voters' figure."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed: San Diego County does not publish machine-readable per-day canvass totals, so days-after-Election-Day until >=90% of certified final cannot be derived from a primary source."
+    }
+  ],
+  "notes": "TECH: e-pollbook (Tenex Precinct Central) and the vote-center model both arrived with San Diego's Voter's Choice Act transition, first used at the June 7, 2022 Gubernatorial Primary (board approved Oct 19, 2021). Voting/tabulation system is Dominion (ICC/ICX 5.10A) with Dominion ImageCast Remote RAVBM per the CA SoS Nov 2024 certified-tech list. ASV (automated signature verification) is ADOPTED — sorter cameras assign a confidence match and route low-confidence (<~45%) envelopes to human review (ASV/MSV buckets); best-evidence first-use year is 2024 (Sept 2023 EAP still described staff comparison; 2024 coverage describes the automated system), confidence secondary, exact first election (Mar vs Nov 2024) and ASV software vendor unconfirmed. Sign-Scan-and-Go (AB 626 in-vote-center verify+scan) not found in use; vote-center-returned mail ballots are processed centrally. METRICS: oneweek_pct for 2022/2024/2025 read off CalVoter 'Ballot Processing' per-county charts (flag for a precise verification re-read): 92.6% / 90.6% / 99.0%. electionnight_pct and days_to_90 left null for lack of a clean certified-final denominator and per-day canvass data. Verifier should: (1) re-read CalVoter chart values precisely, (2) confirm ASV first-election year and software vendor via a San Diego ROV primary source/board action, (3) confirm whether e-pollbooks predate 2022."
+}

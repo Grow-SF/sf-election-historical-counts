@@ -8,3 +8,4 @@ mirror/
 mirror/
 node_modules/
 packages/charts/preview/dist/
+data/research/election-night/cache/

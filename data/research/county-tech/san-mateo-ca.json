@@ -1,0 +1,103 @@
+{
+  "jurisdiction": "San Mateo County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2018,
+      "first_election": "2018-06",
+      "vendor": "Tenex Precinct Central V 6.0.1",
+      "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "confidence": "primary",
+      "note": "CA SoS 'Voting Technologies in Use by County' (as of Oct 10, 2025) lists San Mateo's electronic pollbook as 'Tenex Precinct Central V 6.0.1'. E-pollbooks were first deployed for the June 5, 2018 VCA vote centers (each vote center has 3-7 e-pollbooks for check-in, per smcacre.gov vote-centers page). The Tenex version is the current certified listing; the specific e-pollbook vendor used in the very first (June 2018) deployment was not independently confirmed."
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "Pitney Bowes/BlueCrest Vantage Ballot Sorter (imaging/sorting only)",
+      "evidence_url": "https://smcacre.gov/elections/counting-vote-mail-ballots",
+      "confidence": "primary",
+      "note": "No automated signature-verification software. The county's 'Counting Vote by Mail Ballots' page states a Vantage Ballot Sorter takes a picture of the signature, then 'A team compares the signature on the envelope with the one on file.' Signature matching is done by human staff comparing scanned images by eye -- the sorter only images/sorts, it does not auto-approve matches. This is a not-adopted finding for automated signature verification."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://smcacre.gov/elections/counting-vote-mail-ballots",
+      "confidence": "secondary",
+      "note": "No evidence of in-vote-center mail-ballot signature-verify-and-scan (AB 626 'Sign, Scan & Go'). Returned mail ballots are processed centrally: imaged/sorted on the Vantage Ballot Sorter, signature-compared by a team, extracted at extraction desks, and tabulated on central Dominion scanners (7 scanning stations incl. two HiPro). Vote-center mail-ballot drop-offs are transported to the central facility, not verified+scanned on the spot."
+    },
+    {
+      "type": "vote-center",
+      "status": "adopted",
+      "adopted_year": 2018,
+      "first_election": "2018-06",
+      "vendor": "",
+      "evidence_url": "https://smcacre.gov/elections/san-mateo-county-california-voters-choice-act",
+      "confidence": "primary",
+      "note": "San Mateo was one of the original counties to adopt the California Voter's Choice Act (all-mailed-ballot + vote-center model). The Board of Supervisors authorized the Chief Elections Officer on Sept 12, 2017 to conduct the June 5, 2018 Statewide Direct Primary as the county's first election under the VCA -- the board-authorization date is Sept 12, 2017; first election conducted with the model was June 5, 2018."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": 83.2,
+      "denominator": "ballots reported as counted one week after Election Day / ballots counted to date (CalVoter Close Count Transparency Project)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "chart-read. CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 15, 2022' chart (% of Nov 8, 2022 ballots counted one week after Election Day). San Mateo = 83.2%; statewide reference 77.7%."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": 83.4,
+      "denominator": "ballots reported as counted one week after Election Day / ballots counted to date (CalVoter Close Count Transparency Project)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "chart-read. CalVoter yellow chart, data as of Nov 12, 2024 (% of Nov 2024 ballots counted one week after Election Day). San Mateo = 83.4%; statewide reference 86.1%."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": 94.2,
+      "denominator": "ballots reported as counted one week after Election Day / ballots counted to date (CalVoter Close Count Transparency Project)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "chart-read. CalVoter 'Publicly Reported California Ballot Counting Progress on Nov 11, 2025' chart (% of Nov. 4, 2025 ballots counted one week after Election Day). San Mateo = 94.2%; statewide reference 93.9%."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": "certified final ballots",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed: would require San Mateo's first post-poll-close (election-night) ballot report divided by the certified-final ballot total. The first-report ballot count was not collected in this pass; not substituting a different denominator."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2022,
+      "value": null,
+      "denominator": "certified final ballots",
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed: first post-poll-close ballot report vs certified-final denominator not collected in this pass."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "County does not publish per-day canvass totals in a readily machine-readable form; cannot determine days-to-90% of certified final."
+    }
+  ],
+  "notes": "TECH: vote-center model and e-pollbooks both date to the county's first VCA election, the June 5, 2018 Statewide Direct Primary (board authorization Sept 12, 2017). Voting/tabulation system is Dominion (ICC 5.10A central tabulation, ICX 5.10A BMDs, MBP) per CA SoS voting-tech list, with Democracy Live Secure Select remote accessible VBM -- recorded as context, not one of the four tracked types. E-pollbook vendor confirmed as Tenex Precinct Central V 6.0.1 (CA SoS list, Oct 10, 2025). ASV is not-adopted: a Vantage Ballot Sorter images/sorts envelopes but a human team compares signatures by eye. Sign-Scan-Go not adopted (centralized VBM processing). METRICS: oneweek_pct from CalVoter Ballot Processing charts for 2022 (83.2%), 2024 (83.4%) and the latest odd-year 2025 (94.2%) -- all chart-read, denominator is CalVoter's ballots-counted-to-date basis, flagged for a precise re-read in the verification pass. electionnight_pct and days_to_90 left null (no first-report or per-day canvass denominator collected; no substitute denominator used). Note: a separate 2015 all-mail pilot predates VCA but the VCA vote-center+e-pollbook adoption is June 2018."
+}

@@ -3,6 +3,8 @@ import {
   NightShare,
   Vbm,
   CountySpeed,
+  CountyNightShare,
+  CountyNightTimeline,
   Turnout,
   Registration,
   FranchiseFunnel,
@@ -14,6 +16,8 @@ export default function Gallery() {
       <NightShare />
       <Vbm />
       <CountySpeed />
+      <CountyNightShare />
+      <CountyNightTimeline />
       <Turnout />
       <Registration />
       <FranchiseFunnel />

@@ -1,0 +1,94 @@
+{
+  "jurisdiction": "Pennsylvania (KNOWiNK Poll Pad counties)",
+  "state": "PA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2016,
+      "first_election": "2016 (approx; earliest documented PA e-pollbook usage — 4 counties using e-pollbooks in 2016 per Votebeat/Spotlight PA. NOT the 2013 state-certification date.)",
+      "vendor": "KNOWiNK (Poll Pad, runs on Apple iPad COTS tablets)",
+      "evidence_url": "https://www.pa.gov/agencies/dos/resources/voting-and-elections-resources/voting-systems",
+      "confidence": "secondary",
+      "note": "National vignette: KNOWiNK Poll Pad is the most widely used electronic pollbook in Pennsylvania (Votebeat/Spotlight PA, Oct 2025; $1,750/unit). VERIFIED against the cited DOS Voting Systems page, which lists successive KNOWiNK Poll Pad CERTIFICATIONS: v1.2 certified Oct 23, 2013; v1.3.3 May 30, 2018; v2.5.1 May 12, 2020; v3.1.0 Apr 1, 2022; v3.5.1 Feb 27, 2024. ADVERSARIAL CORRECTION: the Oct 23, 2013 date is a STATE CERTIFICATION/approval date, NOT a first-election deployment date — the DOS page provides only certification dates and does not say when any county first used the Poll Pad in an election. adopted_year was changed from 2013 (certification, disallowed as an adopted_year) to 2016, the earliest documented year of actual e-pollbook USAGE in PA elections per the cited Votebeat/Spotlight PA reporting ('just four counties were using e-pollbooks' in 2016). Confidence lowered primary->secondary because no cited source pins KNOWiNK's first-election year and the 2016 figure is attributed by the source to e-pollbooks generally (KNOWiNK is the most widely used device but not specifically named for the 2016 four). PA e-pollbook USAGE grew from 4 counties (2016) -> 10 (2020) -> 33 of 67 (Nov 2025), accelerated by Act 88 (2022), which distributes $45M/yr to counties for election administration (Votebeat confirms the 2016/2020/2025 figures, the $1,750/unit price, and the $45M/yr Act 88 figure). Three e-pollbook vendors certified/in use in PA per the DOS page: KNOWiNK, ES&S (ExpressPoll), Tenex (Precinct Central). Philadelphia tried KNOWiNK in 2019 but scrapped the contract weeks before Election Day over connectivity/reporting problems, then moved to ES&S in 2023 (Votebeat-confirmed). Lancaster County does not use e-pollbooks (Votebeat: >$400k to equip its 240 precincts); Mercer County purchased e-pollbooks for its 91 precincts in Aug 2025. e-pollbooks speed VOTER CHECK-IN, not ballot-tabulation speed."
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.pacourts.us/assets/opinions/Supreme/out/j-113-2020mo%20-%20104584871117842321.pdf",
+      "confidence": "primary",
+      "note": "Pennsylvania does no signature MATCHING for mail/absentee ballots at all, so automated signature-verification software is necessarily not-adopted. In re November 3, 2020 General Election (Pa. Supreme Court, No. J-113-2020, decided Oct 23, 2020), a unanimous 7-0 decision, held that the PA Election Code contains no provision authorizing or requiring signature comparison and that 'county boards of elections are prohibited from rejecting absentee or mail-in ballots based on signature comparison conducted by county election officials or employees, or as the result of third-party challenges based on signature analysis and comparisons.' Petition brought by Sec. of the Commonwealth Kathy Boockvar. DOS guidance accordingly instructs counties to count ballots that bear a signature and matched valid voter ID at application, without comparing the envelope signature to the registration record. No Parascript/Verus/Bell & Howell-style automated signature-verification engine is used because the underlying manual practice is itself barred."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.votebeat.org/pennsylvania/2025/10/22/electronic-pollbook-knowink-checkin-voters-act-88/",
+      "confidence": "secondary",
+      "note": "'Sign, scan and go' is a California construct (AB 626 in-vote-center, envelope-free on-site mail-ballot signature-verify + scan) with no Pennsylvania analogue. PA has no vote-center model and no statutory mail-ballot signature verification at all (see asv finding), so there is no in-person mail-ballot signature-verify-and-scan workflow to adopt. PA mail ballots are returned by mail or to county drop-off/county election office and are pre-canvassed centrally beginning no earlier than 7 a.m. on Election Day under Act 77. Coverage of PA election operations (Votebeat/Spotlight PA 2025; WHYY explainer) describes precinct check-in via e-pollbooks and central mail-ballot canvassing, with no sign-scan-go process."
+    },
+    {
+      "type": "vote-center",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.votebeat.org/pennsylvania/2025/10/22/electronic-pollbook-knowink-checkin-voters-act-88/",
+      "confidence": "secondary",
+      "note": "'Vote-center' here means the California Voter's Choice Act all-mail + any-vote-center model; Pennsylvania has no equivalent. PA votes at traditional assigned PRECINCT polling places (e.g., Mercer County's 91 precincts, Lancaster County's 240 precincts cited in the Oct 2025 Votebeat/Spotlight PA e-pollbook reporting). Act 77 (2019) created no-excuse mail voting and a permanent mail-ballot list but did NOT convert PA to a vote-center / all-mail model; in-person voters must vote at their assigned precinct. No Voter's Choice Act or vote-center adoption exists in PA."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed. The canonical comparable metric (California Voter Foundation 'Ballot Processing', https://calvoter.org/content/ballot-processing) is California-only and does not cover Pennsylvania. PA does not publish a CalVoter-equivalent '% of ballots counted within 7 days' on a ballots-counted-to-date basis, and 'PA KNOWiNK counties' is not a single reporting jurisdiction with a coherent denominator. Not substituting a different denominator (e.g., % of registered voters). Qualitative context only: PA mail-ballot counting is structurally slow because Act 77 bars pre-canvassing before 7 a.m. on Election Day; e-pollbooks affect check-in speed, not tabulation speed."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed. CalVoter 'Ballot Processing' (the canonical comparable) is California-only; no PA equivalent of the 7-day-counted percentage on a ballots-counted-to-date basis was located for the Nov 2024 general. 'PA KNOWiNK counties' is not a single jurisdiction with one denominator. No denominator substitution made."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed (latest odd-year). CalVoter 'Ballot Processing' is California-only and has no PA data; no comparable PA-published 7-day-counted percentage located for the Nov 2025 municipal election. No denominator substitution made."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed. Requires a first-post-poll-close election-night ballot count divided by certified-final ballots for a defined jurisdiction; 'PA KNOWiNK counties' is an aggregate vignette, not a single jurisdiction, and the matched first-report and certified-final figures were not assembled in this pass. No denominator substitution made."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": null,
+      "source_url": null,
+      "confidence": "none",
+      "note": "Not computed. Requires per-day cumulative canvass totals against a certified-final denominator for a single jurisdiction; not available for an aggregated 'PA KNOWiNK counties' vignette."
+    }
+  ],
+  "notes": "National vignette (NOT a single county): Pennsylvania KNOWiNK Poll Pad electronic-pollbook adoption. KNOWiNK Poll Pad is the most widely used e-pollbook in PA; first STATE-CERTIFIED by the PA Dept of State on Oct 23, 2013 (v1.2), with recerts in 2018/2020/2022/2024. adopted_year is recorded as 2016 (earliest documented year of actual e-pollbook USAGE per Votebeat, on a first-election basis) NOT the 2013 certification date; confidence secondary because no cited source pins KNOWiNK's specific first-election year. E-pollbook USE grew 4 counties (2016) -> 10 (2020) -> 33 of 67 (Nov 2025), accelerated by Act 88 (2022) which distributes $45M/yr to counties for election administration; three vendors certified/in use: KNOWiNK, ES&S, Tenex. e-pollbooks speed in-person CHECK-IN, not ballot tabulation. The other three tech types are California-specific constructs that PA does not have: automated signature verification (asv) is not-adopted because PA does NO mail-ballot signature matching at all per the unanimous PA Supreme Court ruling In re November 3, 2020 General Election (J-113-2020, Oct 23, 2020); 'sign-scan-go' (CA AB 626) and 'vote-center' (CA Voter's Choice Act) have no PA analogue (PA uses assigned precinct polling places; Act 77 (2019) added no-excuse mail voting but not a vote-center model). All metric rows are null/confidence 'none': the canonical comparable (California Voter Foundation 'Ballot Processing') is California-only, PA publishes no equivalent ballots-counted-to-date 7-day metric, and 'PA KNOWiNK counties' is not a single reporting jurisdiction with a coherent denominator; no denominator substitutions were made. Qualitative: PA's slow mail count is driven by Act 77's ban on pre-canvassing before 7 a.m. Election Day, not by check-in technology."
+}

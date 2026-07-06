@@ -68,3 +68,68 @@ export type CountySpeed = {
   years: number[];
   counties: CountySpeedRow[];
 };
+
+// County counting-tech + reporting-speed comparison (tidy/long; see
+// scripts/research/merge_county_tech.py).
+export type CountyTechMetric = {
+  jurisdiction: string;
+  state: string;
+  metric: "oneweek_pct" | "electionnight_pct" | "days_to_90" | "days_to_cert";
+  year: number;
+  value: number | null;
+  denominator: string | null;
+  source_url: string | null;
+  confidence: "primary" | "secondary" | "estimated" | "none";
+  note: string;
+};
+
+export type CountyTechAdoption = {
+  jurisdiction: string;
+  state: string;
+  tech: "epollbook" | "asv" | "sign-scan-go" | "vote-center";
+  status: "adopted" | "not-adopted" | "unknown";
+  adopted_year: number | null;
+  first_election: string | null;
+  vendor: string | null;
+  evidence_url: string;
+  confidence: "primary" | "secondary" | "estimated" | "none";
+  note: string;
+};
+
+export type CountyTech = {
+  metrics: CountyTechMetric[];
+  adoptions: CountyTechAdoption[];
+};
+
+// Cross-county ELECTION-NIGHT share comparison (last election-night report ÷
+// certified final), with San Francisco as the no-new-tech control. Built by
+// scripts/build_county_night.py from data/research/election-night-*/.
+export type CountyNightPoint = {
+  year: number;
+  type: "presidential" | "midterm";
+  pct: number | null;
+  ballots: number | null;
+  final: number | null;
+  confidence: string | null;
+  comparable: boolean;
+  source_url: string | null;
+};
+
+export type CountyNightJurisdiction = {
+  name: string;
+  slug: string;
+  control: boolean;
+  // true = every Nov-general row has a sourced election-night count (fully
+  // recovered). The chart shows only complete jurisdictions (+ the control).
+  complete: boolean;
+  adoption: { epollbook: number | null; asv: number | null };
+  points: CountyNightPoint[];
+};
+
+export type CountyNight = {
+  metric: string;
+  note: string;
+  source: string;
+  generated: string;
+  jurisdictions: CountyNightJurisdiction[];
+};

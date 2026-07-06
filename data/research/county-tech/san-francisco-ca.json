@@ -1,0 +1,130 @@
+{
+  "jurisdiction": "San Francisco County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "confidence": "secondary",
+      "note": "CONTROL: San Francisco does NOT deploy electronic pollbooks at its polling places. It runs the traditional neighborhood-precinct model -- 501 polling places (Nov 5, 2024) -- where each voter is checked in against a PAPER roster at their assigned precinct (voters not on the paper roster vote provisionally). The CA SoS 'Voting Technologies in Use by County' list (Oct 10, 2025) shows San Francisco's Electronic Pollbook column = 'DFM' (DFM Associates EIMS / Vote Center App). EIMS is an election-management system, not a tablet e-pollbook; per Verified Voting it 'can be used in the same manner as an electronic poll book' and SF uses it for back-office / City Hall Voting Center in-person check-in against VoteCal -- it is NOT a precinct e-pollbook deployment. The project's own county_speed dataset records San Francisco epollbook=false. (Verified Voting on DFM EIMS, secondary: https://verifiedvoting.org/election-system/dfm-associates-eims/.) SF voting/tabulation system is Dominion (ICC 5.19 central, ICE 5.19A precinct, ICX 5.19 BMD), Democracy Live Secure Select for remote-accessible VBM -- recorded as context, not one of the four tracked types. [VERIFIED 2026-06: opened the cited CA SoS PDF (As of Oct 10, 2025). SF's row reads Central Tabulation = Dominion ICC 5.19, Polling Place Tabulator = Dominion ICE 5.19A, Accessibility = Dominion ICX 5.19, Remote Accessible VBM = Democracy Live Secure Select, and Electronic Pollbook = 'DFM' -- NOT 'Do not use' (the value other counties with no e-pollbook show). Because the cited primary SoS doc literally lists a 'DFM' e-pollbook product for SF, it does not by itself establish 'not-adopted'; that determination rests on the interpretation (Verified Voting, SECONDARY) that DFM Associates EIMS is a back-office / City Hall Voting Center system rather than a precinct tablet e-pollbook. Corroborated operationally by sf.gov/vote-in-person, which shows in-person check-in against a PAPER roster at all 501 assigned polling places. Status kept not-adopted (operationally true -- paper rosters, no precinct e-pollbook); confidence downgraded primary -> secondary because the cited primary source does not cleanly support the not-adopted claim.]"
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.sf.gov/news/department-elections-begins-processing-returned-vote-mail-ballots-november-5-election",
+      "confidence": "primary",
+      "note": "No automated signature-verification software. SF DOE processing 'begins with capturing an image of the signature on each ballot envelope for comparison with the signature in a voter's registration record'; staff then compare by eye ('If the signatures compare, the Department can open the envelope and remove the ballot cards for scanning'). The imaging equipment only captures the signature image -- it does not auto-match. Before any signature-based challenge, the envelope signature is reviewed by three different staff members and compared to all signatures in the voter's record (SF voter guide / DOE FAQ, sf.gov vote-by-mail). Humans comparing scanned images by eye = ASV not-adopted (a finding, with evidence)."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.sf.gov/vote-in-person",
+      "confidence": "secondary",
+      "note": "No in-vote-center mail-ballot sign-verify-and-scan (AB 626 'Sign, Scan & Go'). San Francisco is not a Voter's Choice Act / vote-center county -- it has no vote centers, so there is no on-the-spot mail-ballot verify+scan. Returned VBM ballots are processed centrally at the Department of Elections (signature imaged, human-verified, extracted, tabulated on central Dominion ICC scanners). Election-Day in-person voting uses precinct tabulators (Dominion ICE) at 501 traditional polling places, plus the City Hall Voting Center for early voting. No documentation of a Sign-Scan-Go workflow."
+    },
+    {
+      "type": "vote-center",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.sf.gov/vote-in-person",
+      "confidence": "primary",
+      "note": "CONTROL: San Francisco has NOT adopted the California Voter's Choice Act (all-mailed-ballot + vote-center model). It retains the traditional neighborhood polling-place model -- 501 precinct polling places assigned to voters on Election Day (Nov 5, 2024), open 7am-8pm, plus a single City Hall Voting Center for 29-day early in-person voting. Voters must go to their assigned polling place (or vote a provisional ballot elsewhere). SF is absent from the CA SoS VCA county adoption list; it is one of the few Bay Area counties (with Contra Costa and Solano) that never adopted VCA."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": 94.3,
+      "denominator": "ballots reported counted one week after Election Day / ballots counted to date (California Voter Foundation 'Ballot Processing' basis)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "chart-read. California Voter Foundation 'Ballot Processing' (Close Count Transparency Project) per-county chart for the Nov 5, 2024 General; San Francisco = 94.3% (statewide reference ~86%). Value carried in the project's county_speed dataset (source: CalVoter Ballot Processing). CalVoter's denominator is ballots-counted-to-date, recorded as published (not recomputed)."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2022,
+      "value": 94.1,
+      "denominator": "ballots reported counted one week after Election Day / ballots counted to date (California Voter Foundation 'Ballot Processing' basis)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "chart-read. CalVoter 'Ballot Processing' per-county chart for the Nov 8, 2022 General; San Francisco = 94.1%. Value carried in the project's county_speed dataset (source: CalVoter Ballot Processing)."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2025,
+      "value": 90.0,
+      "denominator": "ballots reported counted one week after Election Day / ballots counted to date (California Voter Foundation 'Ballot Processing' basis)",
+      "source_url": "https://calvoter.org/content/ballot-processing",
+      "confidence": "primary",
+      "note": "chart-read. CalVoter 'Ballot Processing' per-county chart for the Nov 4, 2025 Statewide Special Election; San Francisco = 90.0%. Latest odd-year. Value carried in the project's county_speed dataset (source: CalVoter Ballot Processing)."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": 47.8,
+      "denominator": "certified final ballots (197,108 / 412,231)",
+      "source_url": "https://www.sfelections.org/results/20241105/",
+      "confidence": "primary",
+      "note": "First post-poll-close report = the 8:41pm Election-Night VBM pre-report (197,108 ballots, all vote-by-mail; report 1 of the DOE results series, summary.xml 20241105_1) divided by the certified final 412,231 ballots = 47.8%. Derived from DOE official result snapshots via the repo pipeline. For reference, cumulative ballots counted by the end of Election Night were ~56.9% of final."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2022,
+      "value": 42.7,
+      "denominator": "certified final ballots (132,296 / 310,071)",
+      "source_url": "https://www.sfelections.org/results/20221108/",
+      "confidence": "primary",
+      "note": "First post-poll-close report = the 8:42pm Election-Night VBM pre-report (132,296 ballots, all vote-by-mail; DOE summary.xml 20221108_1) divided by certified final 310,071 = 42.7%. Derived from DOE official result snapshots. Cumulative by end of Election Night was ~51.0% of final."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2025,
+      "value": 59.2,
+      "denominator": "certified final ballots (174,760 / 295,232)",
+      "source_url": "https://www.sfelections.org/results/20251104/",
+      "confidence": "primary",
+      "note": "Nov 4, 2025 Statewide Special Election (latest odd-year). First post-poll-close report = the 8:30pm Election-Night VBM pre-report (174,760 ballots, all vote-by-mail; DOE summary.xml 20251104_1) divided by certified final 295,232 = 59.2%. Derived from DOE official result snapshots. Cumulative by end of Election Night was ~66.4% of final."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": 6,
+      "denominator": "days after Election Day until >=90% of certified final (412,231) ballots counted",
+      "source_url": "https://www.sfelections.org/results/20241105/",
+      "confidence": "primary",
+      "note": "Computed from DOE per-release result snapshots (18 reports): >=90% of certified final reached 2024-11-11, i.e. 6 days after the Nov 5, 2024 Election Day."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2022,
+      "value": 7,
+      "denominator": "days after Election Day until >=90% of certified final (310,071) ballots counted",
+      "source_url": "https://www.sfelections.org/results/20221108/",
+      "confidence": "primary",
+      "note": "Computed from DOE per-release result snapshots (16 reports): >=90% of certified final reached 2022-11-15, i.e. 7 days after the Nov 8, 2022 Election Day."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2025,
+      "value": 13,
+      "denominator": "days after Election Day until >=90% of certified final (295,232) ballots counted",
+      "source_url": "https://www.sfelections.org/results/20251104/",
+      "confidence": "primary",
+      "note": "Nov 4, 2025 Statewide Special Election (latest odd-year). Computed from DOE per-release result snapshots (7 reports): >=90% of certified final reached 2025-11-17, i.e. 13 days after Election Day (a low-turnout special with fewer/slower release snapshots)."
+    }
+  ],
+  "notes": "San Francisco is the CONTROL jurisdiction for the Long Count county comparison: it has NOT modernized along any of the four tracked dimensions. epollbook NOT-adopted -- 501 traditional neighborhood polling places use paper rosters; the CA SoS list's 'DFM' entry is DFM Associates EIMS/Vote Center App used for back-office / City Hall Voting Center check-in, not precinct e-pollbooks (project county_speed dataset records epollbook=false). asv NOT-adopted -- VBM envelope signatures are imaged then compared BY HUMAN STAFF (three-staff review before any challenge); no automated signature-matching software. sign-scan-go NOT-adopted -- no vote centers, so no in-vote-center mail-ballot verify+scan; VBM processed centrally. vote-center NOT-adopted -- SF never adopted the Voter's Choice Act; retains assigned precinct polling places + one City Hall early-voting center. Voting/tabulation system is Dominion (ICC 5.19 central, ICE 5.19A precinct, ICX 5.19 BMD), Democracy Live Secure Select remote-accessible VBM (context only). METRICS: oneweek_pct from CalVoter 'Ballot Processing' charts (2022=94.1, 2024=94.3, 2025=90.0), chart-read, carried in the repo's county_speed.json; CalVoter denominator is ballots-counted-to-date. electionnight_pct and days_to_90 computed from the repo's DOE-derived pipeline (sf_days_to_90.csv / sf_count_timeline.csv): electionnight_pct = first post-poll-close DOE report (the ~8:30-8:42pm all-VBM pre-report) / certified final (2024=47.8%, 2022=42.7%, 2025=59.2%); days_to_90 from per-release snapshots (2024=6, 2022=7, 2025=13). Years use the two recent even-year Nov generals (2024, 2022) and the latest odd-year (Nov 4, 2025 Statewide Special). VERIFY: CalVoter chart values are chart-read and should be re-read precisely in the verification pass; the CA SoS 'DFM' e-pollbook entry vs SF's paper-roster polling-place practice is the one nuance a verifier should re-check (resolved here as epollbook not-adopted at polling places)."
+}

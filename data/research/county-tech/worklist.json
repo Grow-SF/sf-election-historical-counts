@@ -1,0 +1,20 @@
+[
+  {"slug": "los-angeles-ca",    "name": "Los Angeles County",   "state": "CA", "hints": "e-pollbooks (KNOWiNK 2020, VSAP); ASV?"},
+  {"slug": "orange-ca",         "name": "Orange County",        "state": "CA", "hints": "e-pollbooks (Tenex 2020, VCA); no ASV"},
+  {"slug": "san-diego-ca",      "name": "San Diego County",     "state": "CA", "hints": "e-pollbooks; ASV?"},
+  {"slug": "santa-clara-ca",    "name": "Santa Clara County",   "state": "CA", "hints": "e-pollbooks (VCA)"},
+  {"slug": "sacramento-ca",     "name": "Sacramento County",    "state": "CA", "hints": "VCA 2018"},
+  {"slug": "san-mateo-ca",      "name": "San Mateo County",     "state": "CA", "hints": "VCA pilot 2018"},
+  {"slug": "napa-ca",           "name": "Napa County",          "state": "CA", "hints": "VCA pilot 2018"},
+  {"slug": "madera-ca",         "name": "Madera County",        "state": "CA", "hints": "VCA pilot 2018"},
+  {"slug": "nevada-ca",         "name": "Nevada County",        "state": "CA", "hints": "VCA pilot 2018"},
+  {"slug": "fresno-ca",         "name": "Fresno County",        "state": "CA", "hints": "e-pollbooks 2020"},
+  {"slug": "san-luis-obispo-ca","name": "San Luis Obispo County","state": "CA","hints": "e-pollbooks 2026"},
+  {"slug": "placer-ca",         "name": "Placer County",        "state": "CA", "hints": "Sign-Scan-Go (AB 626)"},
+  {"slug": "riverside-ca",      "name": "Riverside County",     "state": "CA", "hints": "ASV (pilot 2025, production 2026)"},
+  {"slug": "san-bernardino-ca", "name": "San Bernardino County","state": "CA", "hints": "ASV"},
+  {"slug": "san-francisco-ca",  "name": "San Francisco",        "state": "CA", "hints": "CONTROL — no e-pollbook, no ASV"},
+  {"slug": "pennsylvania-knowink","name": "Pennsylvania (KNOWiNK counties)","state": "PA","hints": "national vignette — e-pollbooks"},
+  {"slug": "wisconsin-badgerbooks","name": "Wisconsin (Badger Books)","state": "WI","hints": "national vignette — e-pollbooks"},
+  {"slug": "new-york-epb",      "name": "New York (post-2019 e-pollbooks)","state": "NY","hints": "national vignette"}
+]
