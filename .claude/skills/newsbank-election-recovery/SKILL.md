@@ -26,7 +26,8 @@ Chrome while captures run clobbers it and sends a capture to the wrong issue
 ```
 cd /Users/sbuss/workspace/sf-election-count
 export PATH="/Users/sbuss/.nvm/versions/node/v22.21.1/bin:$PATH"
-export NODE_PATH="$(pwd)/viz/node_modules"
+export NODE_PATH="$(pwd)/node_modules"
+# (viz/ was deleted 2026-06; puppeteer-core now lives in the ROOT package.json)
 ```
 
 ## Step 1 — capture the day-after pages

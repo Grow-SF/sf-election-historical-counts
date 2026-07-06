@@ -245,7 +245,9 @@ Examiner, or a records request, are the remaining paths).
   truncated; ingested as a conservative floor (true value ≥ 4.2%).
 - **Denominator error:** 1934-11-06 — complete Governor race (220,894) exceeds
   DOE ballots-cast (166,133); excluded from the chart, logged in
-  `denominator-errors.md`.
+  `denominator-errors.md`. *(Update 2026-07-06: resolved. The CA SOV
+  certified 225,977 and the point is now included at 97.7%; see
+  `docs/doe-data-discrepancies.md`.)*
 
 Notes carried into later phases:
 - **Gaps**: no 1904/1906 rows — the **1906 earthquake** destroyed records.

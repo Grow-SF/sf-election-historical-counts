@@ -49,13 +49,15 @@ of these ways, in rough order of strength:
 - the column header actually says **San Francisco** (neighboring-county columns
   are identical in layout — a San Mateo "District 5" was once misread as SF).
 
-**The denominator lesson (important).** An internal contradiction —  a contest
-sum *exceeding* the certified total — usually means the **denominator is
-wrong**, not the newspaper. The DOE turnout table undercounts at least two
-1970s elections (1974-06, 1978-11): a single contest drew more votes than its
-"ballots cast" figure, which is impossible. Re-read the scan AND question the
-certified figure before excluding anything. Tracked in
-[`denominator-errors.md`](denominator-errors.md).
+**The denominator lesson (important).** An internal contradiction (a contest
+sum *exceeding* the certified total) means SOMETHING is wrong, and it cuts
+both ways: sometimes the denominator (DOE undercounted 1934-11, resolved via
+the CA Statement of Vote's 225,977; 1978-11 still open), and sometimes the
+newspaper reading (1974-06 was OUR misread; the SOV matches DOE exactly at
+198,508). Re-read the scan AND check the Statement of Vote before concluding
+either way. Current register: [`doe-data-discrepancies.md`](doe-data-discrepancies.md)
+(the older [`denominator-errors.md`](denominator-errors.md) is the original
+investigation record, partially superseded).
 
 ---
 
@@ -140,7 +142,7 @@ hardcoded to this project + SFPL — adapt as needed):
 5. READ      a reader agent (or you) transcribes digits from the crops
 6. VERIFY    arithmetic gates; re-read load-bearing digits; masthead-date it
 7. INGEST    append a row to data/sf_archival_canvass_points.csv (schema below)
-8. REBUILD   python3 scripts/build_viz_data.py  → viz/src/data/*.json
+8. REBUILD   python3 scripts/build_viz_data.py  → packages/data/*.json
 9. RECORD    update the ledger; if a contest exceeds certified, add it to
              denominator-errors.md
 ```
@@ -232,7 +234,8 @@ certified_final,pct_of_final,source_url,extraction,final_source
   documents the certified denominator (and flags it if contradicted).
 
 After editing the CSV: `python3 scripts/build_viz_data.py`, eyeball the chart,
-commit `data/` + `viz/src/data/`.
+commit `data/` + `packages/data/`. (viz/ was deleted 2026-06; the charts now
+ship from packages/charts and consume packages/data.)
 
 ---
 
