@@ -1,9 +1,17 @@
 ---
 name: researching-election-night-share
-description: Use when finding a US county/jurisdiction's ELECTION-NIGHT ballot-count share (share of the certified final counted in the first post-poll-close report) across elections that bracket its adoption of electronic pollbooks and/or automated signature verification — to test whether that tech moved the election-night number. Symptoms: a pre/post-adoption election-night comparison, "did e-pollbooks/ASV speed up the election-night count," filling an election-night row for a county.
+description: Use when finding a US county/jurisdiction's ELECTION-NIGHT ballot-count share (share of the certified final counted in the LAST report posted on election night, the plateau, NOT the first post-poll-close tranche) across elections that bracket its adoption of electronic pollbooks and/or automated signature verification — to test whether that tech moved the election-night number. Symptoms: a pre/post-adoption election-night comparison, "did e-pollbooks/ASV speed up the election-night count," filling an election-night row for a county.
 ---
 
 # Researching a county's election-night share (pre/post tech adoption)
+
+> **READ FIRST: `docs/research/RUNBOOK.md`.** It is the operator manual for
+> this dataset: the exact row schema and editing rules, the validation
+> pipeline you MUST run after any data change, the shared tooling in
+> `scripts/research/` (do not rebuild it), what counts as plateau evidence,
+> and the full gotcha catalog (Wayback gzip/replay-aliasing, the Clarity
+> versions-array trap, the GEMS render-time trap). This skill is the
+> research procedure; the runbook is the contract.
 
 ## Overview
 
@@ -62,6 +70,10 @@ precincts, right before the next-day canvass file):
 - Napa: "Last Unofficial Election Night Report" PDF in DocumentCenter.
 - Clarity ENR: `results.enr.clarityelections.com/<ST>/<County>/<id>/<ver>/json/sum.json`
   → field `BC` = ballots cast; the election-night `ver` is the last before a >1-day gap.
+  **Prove it is last with the version-bracket recipe in RUNBOOK.md 7.2**
+  (`current_ver.txt` → the CURRENT version's `electionsettings.json` → full
+  `versions` array; a version-pinned settings file only lists versions up to
+  itself). The bracket both confirms plateaus and catches next-day bumps.
 - livevoterturnout ENR: `.../ENR/<county>caenr/<N>/en/Index_<N>.html` → "Ballots
   Counted/Cast" + the embedded "Website Updated" timestamp.
 
@@ -79,6 +91,10 @@ Chrome are NOT.** ENR pages are JS-rendered (curl gets an empty shell), so:
    Broad `matchType=domain`/regex CDX queries **time out and return empty** — use
    the exact URL, or a small capture-date window, and filter client-side. PDFs:
    fetch `https://web.archive.org/web/<ts>id_/<url>` with `curl -L` and `pdftotext`.
+   Two traps (details: RUNBOOK.md 7.1): `id_` replays serve ORIGINAL bytes,
+   often gzip (starts `1f 8b`), so gunzip before reading; and a CDX-listed
+   capture can 302-alias to a DIFFERENT timestamp under every modifier, so
+   check `curl -sI` Location before trusting fetched content's date.
 2. **Pick the LAST election-night snapshot** — highest cumulative count right
    before a `>1`-day gap. NOT the 8 p.m. first tranche (undercounts ~2×), NOT a
    days-later capture.
@@ -125,10 +141,19 @@ different report time.
 
 - Cover the November generals (and the latest odd-year) that **bracket** the
   adoption years: at least one election BEFORE the earliest adoption and the most
-  recent ones AFTER.
+  recent ones AFTER. 2020 is a COVID all-mail outlier: excluded.
 - `vs_epollbook` / `vs_asv` = `"pre"` / `"post"` relative to that tech's
   `adopted_year` (read it from `packages/data/county_tech.json`, or it's given to
   you). `"n/a"` if the tech was never adopted.
+- `election_night_pct` is a PERCENT with at most 2dp (60.13), never a 0.x
+  fraction. A post-night ceiling value additionally carries
+  `"comparable": false` (see RUNBOOK.md 5.2); a null row carries
+  `source_url_night: null` (examined-but-rejected sources go in the note as
+  text, never in that field).
+- If the row lands in `data/research/election-night/`, you are not done until
+  the full pipeline in RUNBOOK.md section 3 passes (validator, machine
+  checks, report regen, pytest, vitest) and the row has a plateau verdict in
+  `plateau_review.json` (evidence standards: RUNBOOK.md section 8).
 
 ## How to find each field
 
