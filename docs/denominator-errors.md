@@ -1,5 +1,15 @@
 # DOE turnout-table denominator errors (for manual verification)
 
+> **STATUS (2026-07-06): partially superseded.** The current, maintained
+> register is [`doe-data-discrepancies.md`](doe-data-discrepancies.md).
+> Of the three rows below: **1934-11-06 is RESOLVED** (the CA Statement of
+> Vote certified 225,977; the point is now INCLUDED in the chart at 97.7%,
+> not excluded); **1974-06-04 is RESOLVED as OUR misread** (the SOV total
+> equals the DOE figure 198,508 exactly; the newspaper reading 203,381 was
+> wrong and has been corrected in `data/sf_archival_canvass_points.csv`);
+> only **1978-11-07 remains open**. The text below is kept as the original
+> investigation record.
+
 These are elections where a **single contest's vote total exceeds the
 "ballots cast" figure in the DOE historical turnout table** — which is
 impossible (no contest can draw more votes than ballots). In each case the

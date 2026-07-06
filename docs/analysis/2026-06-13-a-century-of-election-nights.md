@@ -85,6 +85,10 @@ contest cannot draw more votes than there were ballots. The turnout figure is
 simply wrong (its neighbors are 227,000 in 1932 and 269,000 in 1936), and it
 now joins two known 1970s undercounts in the project's running list of
 denominator errors to be arbitrated against the state's Statement of Vote.
+*(Update 2026-07-06: that arbitration happened. The 1934 SOV certified
+225,977, and the point is now in the chart at 97.7%. One of the "two known
+1970s undercounts", 1974-06, turned out to be our own misread, not a DOE
+error; see `docs/doe-data-discrepancies.md`.)*
 
 ## Why go back this far
 

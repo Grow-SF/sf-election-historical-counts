@@ -49,13 +49,15 @@ of these ways, in rough order of strength:
 - the column header actually says **San Francisco** (neighboring-county columns
   are identical in layout — a San Mateo "District 5" was once misread as SF).
 
-**The denominator lesson (important).** An internal contradiction —  a contest
-sum *exceeding* the certified total — usually means the **denominator is
-wrong**, not the newspaper. The DOE turnout table undercounts at least two
-1970s elections (1974-06, 1978-11): a single contest drew more votes than its
-"ballots cast" figure, which is impossible. Re-read the scan AND question the
-certified figure before excluding anything. Tracked in
-[`denominator-errors.md`](denominator-errors.md).
+**The denominator lesson (important).** An internal contradiction (a contest
+sum *exceeding* the certified total) means SOMETHING is wrong, and it cuts
+both ways: sometimes the denominator (DOE undercounted 1934-11, resolved via
+the CA Statement of Vote's 225,977; 1978-11 still open), and sometimes the
+newspaper reading (1974-06 was OUR misread; the SOV matches DOE exactly at
+198,508). Re-read the scan AND check the Statement of Vote before concluding
+either way. Current register: [`doe-data-discrepancies.md`](doe-data-discrepancies.md)
+(the older [`denominator-errors.md`](denominator-errors.md) is the original
+investigation record, partially superseded).
 
 ---
 
@@ -140,7 +142,7 @@ hardcoded to this project + SFPL — adapt as needed):
 5. READ      a reader agent (or you) transcribes digits from the crops
 6. VERIFY    arithmetic gates; re-read load-bearing digits; masthead-date it
 7. INGEST    append a row to data/sf_archival_canvass_points.csv (schema below)
-8. REBUILD   python3 scripts/build_viz_data.py  → viz/src/data/*.json
+8. REBUILD   python3 scripts/build_viz_data.py  → packages/data/*.json
 9. RECORD    update the ledger; if a contest exceeds certified, add it to
              denominator-errors.md
 ```
@@ -158,11 +160,25 @@ context clean.
   stronger model (Sonnet) to re-read load-bearing or disputed digits. Vision
   beats `tesseract` on bold table digits; `tesseract` is for *locating* and
   free triage only.
+- **Batch size: 1-2 elections per reader agent, not 5.** Image-reading agents
+  overflow fast (each crop/Read is heavy and replays every turn); in
+  practice they died at ~70-200 tool calls, typically after 2-3 elections,
+  even under a crop-only rule. Small batches finish before overflow.
 - **Incremental persistence (non-negotiable).** Every reader agent appends to
-  a CSV on disk **after each page**, not just in its final message. Agents die
-  mid-run ("prompt too long"); a dead agent must cost nothing. Salvage a dead
-  agent from its transcript at
-  `~/.claude/projects/<proj>/<session>/subagents/agent-<id>.jsonl`.
+  a file on disk **after each item**, not just in its final message. Agents die
+  mid-run ("prompt too long"); a dead agent must cost nothing. Make it a HARD
+  rule with the exact command in the prompt, one file per item so there are
+  no append races and salvage is trivial:
+  `printf '%s\n' 'ROW' >> /tmp/<job>/<item-id>.psv` after EACH item.
+  Salvage a dead agent from its transcript at
+  `~/.claude/projects/<proj>/<session>/subagents/agent-<id>.jsonl` (extract
+  assistant text + bash `#`-comment narration + grep tool_results for key
+  numbers; never cat the whole JSONL, it overflows context).
+- **Dead agents leave their crops on disk.** Before re-dispatching, run
+  `tesseract` over the crops the dead agent already made: it recovers most
+  numbers free and locally, without re-reading images. De-hyphenate OCR text
+  (`-\n`) and the top-line contest sums are often readable directly in the
+  main context, cheaper than a new reader agent for easy cases.
 - **Reader-prompt must-haves** (full list in the playbook): report the
   masthead date first; give two distinct null verdicts — `not-in-scans`
   (capture incomplete) vs `not-on-page` (full page verified, absent) and never
@@ -218,7 +234,8 @@ certified_final,pct_of_final,source_url,extraction,final_source
   documents the certified denominator (and flags it if contradicted).
 
 After editing the CSV: `python3 scripts/build_viz_data.py`, eyeball the chart,
-commit `data/` + `viz/src/data/`.
+commit `data/` + `packages/data/`. (viz/ was deleted 2026-06; the charts now
+ship from packages/charts and consume packages/data.)
 
 ---
 

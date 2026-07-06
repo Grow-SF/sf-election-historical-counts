@@ -19,7 +19,7 @@ from **women's suffrage (1920)** and **a century of immigration**, not vote-by-m
 The clearest frame is the whole population sorted into mutually-exclusive bands —
 *under voting age · non-citizen adults · eligible but unregistered · registered
 non-voters · voters* — at each presidential election, 1908–2024
-(`data/franchise_funnel.json`). Two things dominate the picture, and neither is
+(`packages/data/franchise_funnel.json`). Two things dominate the picture, and neither is
 the mail:
 
 - **1920 — women's suffrage** roughly doubles the eligible band in one step.

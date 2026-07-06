@@ -75,10 +75,9 @@ against the running preview harness.)*
 | `sfcount/` | Python pipeline: ingests DOE per-release reports (2015–present) |
 | `data/` | All committed datasets (CSV) — the source of truth |
 | `packages/` | `data/` (committed JSON, baked from `data/`) + `charts/` (the reusable React charts the GrowSF site embeds) |
-| `scripts/` | `build_viz_data.py` (data → `packages/data` JSON) + `archive-recovery/` tooling |
+| `scripts/` | generators (`build_viz_data.py`, `build_elections_master.py`, `gen_docs.py`, `build_county_night.py`, `build_franchise_csv.py`) + `research/` (county verification) + `archive-recovery/` (NewsBank) + Chronicle/CDX recovery tooling |
 | `docs/` | Methodology, runbook, search log, the records-request draft |
 | `mirror/` | **gitignored** — licensed NewsBank/Chronicle source content (cited, never republished) |
-| `sf-long-count-archive/` | read-only predecessor (PDF-parsing); kept for reconciliation |
 
 ## Key datasets (`data/`)
 
@@ -106,6 +105,7 @@ PDFs. Timestamps come from HTTP `Last-Modified` headers (`data/manifest.csv`).
     uv run sfcount all        # inventory → fetch → parse → validate → derive
     uv run sfcount fetch      # resumable; ~25 min cold
     uv run pytest             # offline suite (real downloaded fixtures)
+    pnpm vitest run           # JS/TS chart tests (repo root; there is no "test" script alias)
 
 After a new election: add it to `SUPPLEMENTAL_ELECTIONS` in
 `sfcount/inventory.py` if sf.gov doesn't list it yet; run `uv run sfcount all`
@@ -154,12 +154,17 @@ Reusable tooling lives in `scripts/archive-recovery/` (browser capture, text
 harvest, OCR triage, column location). These drive a logged-in Chrome over an
 SFPL library session; prerequisites are in the runbook.
 
-The Chronicle fetch/scan scripts (`scripts/fetch_*.py`, `scripts/scan_*.py`,
+The Chronicle fetch/scan scripts (`scripts/fetch_chronicle.py`, `scripts/fetch_phase2.py`, `scripts/scan_*.py`,
 `scripts/sweep_*.py`, `scripts/extract_sf_ballot.py`) write to and read from the
 gitignored `mirror/chronicle-sfgate/` by default, resolved relative to the repo.
 Set `SF_MIRROR_DIR` to point them at a mirror kept elsewhere:
 
     SF_MIRROR_DIR=/path/to/mirror python3 scripts/fetch_chronicle.py
+
+(`scripts/fetch_sos_registration.py` is NOT a mirror script despite the name:
+it pulls CA SoS registration PDFs into `data/` and needs `pdftotext`;
+`scripts/recover_sov_registration.py` needs ImageMagick; the NewsBank triage
+uses `tesseract`. None of these binaries are in pyproject; install via brew.)
 
 ## Help us recover the missing elections
 
