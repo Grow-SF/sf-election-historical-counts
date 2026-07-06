@@ -158,11 +158,25 @@ context clean.
   stronger model (Sonnet) to re-read load-bearing or disputed digits. Vision
   beats `tesseract` on bold table digits; `tesseract` is for *locating* and
   free triage only.
+- **Batch size: 1–2 elections per reader agent, not 5.** Image-reading agents
+  overflow fast — each crop/Read is heavy and replays every turn — and in
+  practice they died at ~70–200 tool calls, typically after 2–3 elections,
+  even under a crop-only rule. Small batches finish before overflow.
 - **Incremental persistence (non-negotiable).** Every reader agent appends to
-  a CSV on disk **after each page**, not just in its final message. Agents die
-  mid-run ("prompt too long"); a dead agent must cost nothing. Salvage a dead
-  agent from its transcript at
-  `~/.claude/projects/<proj>/<session>/subagents/agent-<id>.jsonl`.
+  a file on disk **after each item**, not just in its final message. Agents die
+  mid-run ("prompt too long"); a dead agent must cost nothing. Make it a HARD
+  rule with the exact command in the prompt, one file per item so there are
+  no append races and salvage is trivial:
+  `printf '%s\n' 'ROW' >> /tmp/<job>/<item-id>.psv` after EACH item.
+  Salvage a dead agent from its transcript at
+  `~/.claude/projects/<proj>/<session>/subagents/agent-<id>.jsonl` (extract
+  assistant text + bash `#`-comment narration + grep tool_results for key
+  numbers; never cat the whole JSONL, it overflows context).
+- **Dead agents leave their crops on disk.** Before re-dispatching, run
+  `tesseract` over the crops the dead agent already made — it recovers most
+  numbers free and locally, without re-reading images. De-hyphenate OCR text
+  (`-\n`) and the top-line contest sums are often readable directly in the
+  main context, cheaper than a new reader agent for easy cases.
 - **Reader-prompt must-haves** (full list in the playbook): report the
   masthead date first; give two distinct null verdicts — `not-in-scans`
   (capture incomplete) vs `not-on-page` (full page verified, absent) and never

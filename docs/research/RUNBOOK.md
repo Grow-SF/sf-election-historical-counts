@@ -13,6 +13,30 @@ Companion skills: `.claude/skills/researching-election-night-share/SKILL.md`
 `.claude/skills/researching-jurisdiction-counting-tech/SKILL.md` (tech-adoption
 records). This runbook is the shared reference they point into.
 
+## 0. Documentation map (which manual for which job)
+
+This runbook covers the CROSS-COUNTY election-night dataset. The project has
+a second, older research domain: recovering SAN FRANCISCO's own historical
+counts from newspaper archives. Its manuals already exist; do not reinvent
+them:
+
+| job | manual |
+|---|---|
+| County election-night share (this dataset) | this runbook + `researching-election-night-share` skill |
+| County tech adoption records | `researching-jurisdiction-counting-tech` skill |
+| SF historical recovery from newspaper archives (NewsBank via SFPL ezproxy, scan capture, OCR triage, vision transcription) | `docs/archive-recovery-runbook.md` (master) + `docs/analysis/newsbank-agent-playbook.md` (capture + reader-agent lessons) + `newsbank-election-recovery` skill (one-election procedure) |
+| SF current results ingestion (DOE releases, certified totals) | `ingesting-doe-results` skill |
+| CA statewide certified turnout (SoS Statement of Vote) | `sov-certified-turnout` skill |
+
+Topic index across the manuals: Wayback mechanics live here (7.1) and in the
+archive-recovery runbook's web/Wayback section; puppeteer renderers live
+here (section 4) for public pages and in `scripts/archive-recovery/` for
+SFPL/NewsBank (real logged-in Chrome via `--remote-debugging-port=9222`,
+never headless there); OCR (`tesseract`) belongs ONLY to the SF scan
+workflow: it is for locating/triaging results tables in scans, while
+model vision does the digit transcription; nothing in the county dataset
+needs OCR.
+
 ---
 
 ## 1. The metric (get this right or nothing else matters)
