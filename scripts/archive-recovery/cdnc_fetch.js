@@ -83,7 +83,10 @@ function xmlHtmlToText(s) {
 async function connectRawSession() {
   const browser = await puppeteer.connect({ browserURL: 'http://127.0.0.1:9222', defaultViewport: null });
   const cdp = await browser.target().createCDPSession();
-  const { targetId } = await cdp.send('Target.createTarget', { url: 'about:blank', newWindow: true });
+  const { targetId } = await cdp.send('Target.createTarget', { url: 'about:blank',
+    // background:true + reusing the existing window keeps Chrome from
+    // stealing macOS keyboard focus on every fetch (operator complaint)
+    newWindow: false, background: true });
   const target = await browser.waitForTarget(t => t._targetId === targetId);
   // Do NOT call target.page() - see header comment. Raw session only.
   const session = await target.createCDPSession();
