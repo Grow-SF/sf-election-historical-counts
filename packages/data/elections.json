@@ -13015,7 +13015,7 @@
   "registered": 461771,
   "source": "archival",
   "provisional": false,
-  "nReports": 3,
+  "nReports": 5,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
@@ -13033,8 +13033,20 @@
     null
    ],
    [
+    2.88,
+    73.6,
+    null,
+    null
+   ],
+   [
     3.83,
     80.6,
+    null,
+    null
+   ],
+   [
+    5.96,
+    91.2,
     null,
     null
    ]
@@ -13057,7 +13069,7 @@
     "bound": true
    },
    "70": {
-    "days": 4,
+    "days": 3,
     "bound": false
    },
    "75": {
@@ -13066,6 +13078,14 @@
    },
    "80": {
     "days": 4,
+    "bound": false
+   },
+   "85": {
+    "days": 6,
+    "bound": false
+   },
+   "90": {
+    "days": 6,
     "bound": false
    }
   },

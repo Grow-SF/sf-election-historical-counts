@@ -1481,7 +1481,9 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 2010-11-03 | 1 |  | 187,625 | 65.9% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 2010-11-04 p15 'Close contests remain in doubt' (Joshua Sabatini, docview 2069605528): 'About 83,000 vote-by-mail ballots were uncounted as of Wednesday afternoon, along with 14,000 provisional' - remaining conversion 284,625 minus 97,000 = 187,625; monotone under the existing Nov 4 point 190,739; three later KWIC-only leads left unverified behind a captcha, queued; screenshot mirror/examiner/2010-11-02/, read 2026-07-07 |
 | 2010-11-04 | 2 |  | 190,739 | 67.0% | Wayback Machine capture — https://web.archive.org/web/20101105124135/http://www.sfelections.org:80/results/20101102/ |
+| 2010-11-05 | 3 |  | 209,625 | 73.7% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 2010-11-07 p9 (docview 2069594528, page image verified): 'As of Friday, 60,000 more vote-by-mail ballots are left to count citywide... There are also 15,000 provisional ballots' - conversion 284,625 minus 75,000 = 209,625; screenshots mirror/examiner/2010-11-02/, read 2026-07-07 |
 | 2010-11-06 | 4 |  | 229,397 | 80.6% | Wayback Machine capture — https://web.archive.org/web/20101107190303/http://www.sfelections.org:80/results/20101102/ |
+| 2010-11-08 | 6 |  | 259,625 | 91.2% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 2010-11-09 p9 (docview 2069581612, page image verified): 'About 10,000 vote-by-mail and 15,000 provisional ballots remained uncounted as of Monday evening' - conversion 284,625 minus 25,000 = 259,625; the 2010-11-10 p6 piece (docview 2069586254) corroborates the same state as of Tuesday; screenshots mirror/examiner/2010-11-02/, read 2026-07-07 |
 
 ---
 

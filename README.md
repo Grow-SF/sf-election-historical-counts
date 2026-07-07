@@ -17,7 +17,7 @@ interactive site.
 Live data spans **1868–2026** (turnout back to 1879, registration back to 1908,
 election-night counts back to 1868): 196 elections with an election-night count
 (including 105 pre-1965 counts recovered from the hand-count and machine eras,
-back to 1868), 321 recovered historical canvass observations, and 241 modern
+back to 1868), 323 recovered historical canvass observations, and 241 modern
 per-release reports, every number traceable to a cited source. The long view
 reveals distinct eras — _erratic_ in the hand-count era (1868–1922, when ballot
 length, not the calendar, set the pace: ~61% counted by morning in 1908 but
