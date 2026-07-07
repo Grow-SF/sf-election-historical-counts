@@ -296,6 +296,30 @@
   "kind": "General"
  },
  {
+  "date": "1966-06-07",
+  "turnoutPct": 63.8,
+  "registered": 355271,
+  "ballots": 226622,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "1966-11-08",
+  "turnoutPct": 76.9,
+  "registered": 372123,
+  "ballots": 286049,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1968-06-04",
+  "turnoutPct": 73.2,
+  "registered": 348111,
+  "ballots": 254825,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
   "date": "1968-11-05",
   "turnoutPct": 82.0,
   "registered": 374335,
@@ -304,11 +328,35 @@
   "kind": "General"
  },
  {
+  "date": "1970-06-02",
+  "turnoutPct": 63.8,
+  "registered": 337127,
+  "ballots": 214943,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "1970-11-03",
+  "turnoutPct": 70.5,
+  "registered": 372032,
+  "ballots": 262398,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1971-11-02",
+  "turnoutPct": 75.9,
+  "registered": 340404,
+  "ballots": 258227,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
   "date": "1972-06-06",
   "turnoutPct": 63.8,
   "registered": 368357,
   "ballots": 234840,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "Primary"
  },
  {
@@ -340,7 +388,7 @@
   "turnoutPct": 61.9,
   "registered": 369005,
   "ballots": 228586,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -364,7 +412,7 @@
   "turnoutPct": 67.1,
   "registered": 311254,
   "ballots": 208884,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "Primary"
  },
  {
@@ -380,7 +428,7 @@
   "turnoutPct": 53.1,
   "registered": 336046,
   "ballots": 178367,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "Special"
  },
  {
@@ -428,7 +476,7 @@
   "turnoutPct": 51.2,
   "registered": 403382,
   "ballots": 206366,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "Primary"
  },
  {
@@ -436,7 +484,7 @@
   "turnoutPct": 34.8,
   "registered": 404035,
   "ballots": 140551,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "Special"
  },
  {
@@ -492,7 +540,7 @@
   "turnoutPct": 48.1,
   "registered": 375799,
   "ballots": 180741,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "Primary"
  },
  {
@@ -892,8 +940,8 @@
   "turnoutPct": 24.9,
   "registered": 79340,
   "ballots": 19742,
-  "source": "doe-turnout-table",
-  "kind": "Special"
+  "source": "archival",
+  "kind": "Primary"
  },
  {
   "date": "2008-06-03",

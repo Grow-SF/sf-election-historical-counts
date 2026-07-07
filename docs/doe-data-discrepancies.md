@@ -25,6 +25,7 @@ whether *their* published table has since changed (we can't edit it ourselves).
 | 1908-11-03 | 41,137 | SF President **60,124** | Under review — figures don't reconcile | →60,124; 88.6→60.6% | ☐ | ☐ |
 | 1934-11-06 | 166,133 | SF Governor **225,977** | Under review — figures don't reconcile | →225,977; 100→97.7% | ✉️ draft | ☐ |
 | 1978-11-07 | 217,965 | SF total cast **238,667** | Under review — looks precinct-only | →238,667; 100→93.5% | ☐ | ☐ |
+| 1968-06-04 | (no DOE row) | SOV total cast **254,825**; Chronicle unofficial complete **262,449** | Open question (SOV internal pct anomaly + newspaper conflict) | keep 254,825 | n/a | n/a |
 | 1974-06-04 | 198,508 | SF total cast **198,508** | Resolved — our error, fixed | our 203,381→198,508 | n/a | n/a |
 | 1952-11-04 | 365,972 | turnout 365,972; contest 374,700 | Source inconsistency (internal to the SOV) | keep 365,972 | n/a | n/a |
 
@@ -50,6 +51,14 @@ whether *their* published table has since changed (we can't edit it ourselves).
 - **What we noticed:** DOE's 217,965 matches the SOV's **precinct-vote** column exactly, which suggests it may not include the 20,702 absentee ballots. (Worth checking other years for the same pattern.)
 - **How we've handled it:** use the total-cast figure — `certified_final` 217,965 → 238,667; night-share 100 → 93.5%.
 - **Raised with DOE:** not yet — worth raising.
+
+### 1968-06-04 - open question (SOV internal anomaly plus a conflicting newspaper complete count)
+- **DOE figure / source:** none; this primary has no row in the DOE historical turnout table.
+- **SOV reference:** SF County total vote cast = **254,825** (registration 348,111). Source: CA SoS *Statement of Vote*, Primary June 4 1968, [archive.org page n151](https://archive.org/details/californiastate196668cali/page/n151). The SOV's own printed percentage column for SF (66.34) does not reconcile with its printed total and registration (254,825/348,111 = 73.21%), while every neighboring county's percentage reconciles exactly; see `data/sov_crosscheck_ledger.md` (Batch 5).
+- **Newspaper reference:** SF Chronicle, June 7 1968, p30, "S.F. COUNT - SLOWEST IN 4 DECADES": completed unofficial count as of 9:45 p.m. June 6, "**262,449** ballots cast" against 349,078 registered, with 6,437 absentees hand-counted. That figure EXCEEDS the SOV certified total by 7,624.
+- **What we noticed:** three mutually inconsistent figures (the SOV pct column implies about 230,937; the SOV total prints 254,825; the paper's unofficial complete count is 262,449). Context: the June 1968 count was a documented operational failure (the Chronicle's "Voting Foul-up In S.F." reports the new computer tabulation system's debacle: 30 machines mishandled, tally sheets found in City Hall basement suitcases, one polling place firebombed), so a downward revision between the June 6 unofficial figure and the official canvass is plausible, but unverified.
+- **How we've handled it:** we keep the SOV total (254,825) as `certified_final`, pending resolution; the only night observation ingested (Prop A sum 112,468, flagged night_partial) is below every candidate denominator, so its floor status is safe either way. The city Statement of Vote volume at the SFPL History Center ("Statement of Vote 1906-1979") should settle it.
+- **Raised with DOE:** not applicable (no DOE row); worth checking the SFPL volume.
 
 ### 1974-06-04 — our error (fixed)
 - **DOE figure / source:** 198,508 ballots cast — DOE turnout table.

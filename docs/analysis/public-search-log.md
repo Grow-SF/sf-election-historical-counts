@@ -121,3 +121,117 @@ genuine open discrepancy. A third case found after this log's last entry,
 November 1934, was arbitrated the other way: the newspaper was right and the
 DOE figure wrong (SOV certified 225,977; the point is now in the chart).
 Current register: `docs/doe-data-discrepancies.md`.
+
+**Update (2026-07-06).** Phase 1 digital recovery for April 8, 2008 (Special
+Congressional Open Primary, the post-Lantos CD-12 seat) searched the live
+DOE past-results pages, a Wayback CDX sweep of sfgov.org/site/elections_
+index.asp (matchType=prefix, windows 2008-04-08 through 2008-05-01 and
+unbounded), the sfelections.org domain, and the uploadedfiles/elections
+tree (including the SOV080408.pdf/.xls Statement of Vote). No election-night
+capture turned up: the earliest archived snapshot of the Department's own
+"Election Summary" page for this election (id=75242, reached from the
+election-night index page's own "Election Results" link, id=75241) is dated
+2008-04-15 and self-reports a "Last Updated: April 14, 2008 11:15 AM" stamp,
+with all 107 of 107 precincts already at 100 percent. That day-6,
+already-at-certified-total figure (19,742 ballots, exactly the certified
+count) is now in `data/sf_archival_canvass_points.csv` as a turnout-only
+point (stamp_kind page-self-reported, days_since_election 6); it moves this
+election off the missing list but the true night count is still not in the
+digital archives. This election was previously grouped above among the "5
+elections" lacking absolute counts; that framing predates this finding.
+
+**Update (2026-07-06, later).** The April 2008 night count was then found
+after all, in the NewsBank text archive: the Chronicle's morning-after story
+(April 9, 2008, pB1, John Wildermuth, docref 11FF1C4B48B28060) prints "About
+17,000 ballots were cast in San Francisco" with all San Francisco precincts
+reporting, SF-only and separate from the San Mateo figure. The sentence had
+been sitting unextracted in a document harvested in June, when this election
+was logged as percentage-only; ten fresh queries and five new document
+fetches produced nothing better. Ingested as a rounding-safe floor of 16,500
+(the printed figure is approximate), giving an 83.6 percent night share.
+The lesson for future searches: re-read already-harvested documents for
+count language before declaring an election percentage-only.
+
+**Update (2026-07-06, wave B).** Three more "pre-1985 microfilm-or-nothing"
+entries above turned out to be recoverable after all, once the June
+captures' issue labels were re-verified against mastheads (several batches
+were one day off, a session-clobber artifact, so the pages read in June were
+not the pages believed). August 1977: the true E+2 paper (Aug 4) carries an
+absolute per-district Props A/B table on p2 (Prop B sum 174,308, final
+unofficial); the E+1 percentage-map dead end was real but described the
+wrong day's paper. June 1976: the E+1 (June 9) "San Francisco Vote Tally"
+box exists with counts; its header prints "26.1 per cent of 942 precincts"
+while every contest in the table runs 70 to 82 percent of its complete E+2
+count, so the header is a typesetting error (likely 76.1); the box is
+ingested as a flagged partial with the discrepancy noted. June 1972: no
+newspaper night count survives (the registrar said counting would run into
+June 7), but the June 8 paper prints "64 per cent of the city's 368,357
+registered voters" on the complete count, ingested as a conservative day-2
+floor (63.5 percent of registration). Standing lesson: never trust a
+NewsBank issue label; verify the masthead date on every capture before
+reading numbers from it.
+
+**Update (2026-07-06, wave C).** The 1970 statewide pair is recovered with
+Statement of Vote denominators. June 1970: the Chronicle's "San Francisco
+Vote Tally" box prints a literal "Total voters reported" line in both
+issues, 108,659 at 603 of 1208 precincts election night (flagged partial)
+and 214,637 complete on day 2, which lands 306 under the SOV certified
+214,943. November 1970: Governor sums of 245,497 at 1331 of 1350 precincts
+election night and 254,038 complete on day 2 (cross-checked against the
+same page's county-by-county table), against SOV certified 262,398.
+November 1971 (municipal) is recovered but HELD OUT of the dataset pending
+a certified denominator, which exists in no state SOV (odd-year municipal)
+and no DOE table row: the election-night Mayor sum across all 11 candidates
+is 248,105 to 248,135 at 1323 of 1350 precincts (the spread is a 30-vote
+discrepancy in Feinstein's figure between the front-page box, 53,911, and
+the page 1A tally, 53,941), the day-2 paper prints final unofficial Mayor
+figures (Alioto 97,251, Dobbs 69,786, Feinstein 55,175) plus "a 75 per cent
+voter turnout" against a printed registration of 340,404. Needed to ingest:
+the official canvass total from the Registrar (canvass-completion coverage
+ran roughly November 18-24, 1971), the Municipal Reports, or the DOE
+records request.
+
+**Update (2026-07-06, wave D).** The November 1971 hold above is RESOLVED:
+the Chronicle's official-tally story (November 23, 1971, p4, "Official
+Tally - Prop. O Passes") prints both the certified total, "258,227 voters
+went to the polls, amounting to 75.8 per cent of the registered voters,"
+and the election-night plateau in the same sentence: "a slight increase
+from the 258,164 vote total reported on election night." That gives
+November 1971 a verified 100.0 percent night share (lever machines,
+absentees counted night-of), and the same story supplies official Mayor
+totals (Alioto 97,477, Dobbs 69,740, Feinstein 55,204) that supersede the
+election-night partials widely mirrored online. The canvass-story tactic
+did NOT repeat for November 1969 (issues of Nov 21, 25, 26, 27 all dry)
+or November 1967 (the Nov 28 paper confirms the canvass happened but
+restates no totals). Both elections now hold verified night observations
+awaiting a certified denominator: 1969 has a Prop B night sum of 182,237
+at 1200 of 1204 precincts plus a complete machine count of 199,488
+(absentees excluded), and the Department's own HistoricalBallotPropositions
+open-data file gives certified Prop B 183,148, which independently
+validates the night read; 1967 has a complete pre-absentee Mayor sum of
+242,170 at 1341 of 1341 precincts plus absentee-inclusive top-3 figures
+(Alioto 109,982, Dobbs 94,089, Morrison 40,996; full-field estimate about
+249,700, consistent with the 249,795 figure circulating unsourced online).
+The denominators live in the city's own "Statement of Vote" volumes at the
+SFPL History Center (finding aid confirms 1967, 1969, and 1971 volumes
+exist; in-library use only, not digitized). June 1968 gained a night
+observation (Prop A sum 112,468, the only SF count printed on a night
+wrecked by the new computer tabulation system's failure: the Chronicle's
+"S.F. COUNT - SLOWEST IN 4 DECADES" reports tally sheets in City Hall
+basement suitcases and a firebombed polling place) and a genuine open
+discrepancy: the paper's completed unofficial count, 262,449, exceeds the
+SOV certified 254,825; see docs/doe-data-discrepancies.md.
+
+**Update (2026-07-06, wave E).** The 1966 pair closes the post-1965 sweep.
+November 1966 (Reagan-Brown): the ELECTION EXTRA's "S.F. Vote" box covers
+all 1344 precincts semiofficially on election night; the Governor sum
+267,247 against the SOV certified 286,049 gives a 93.4 percent night
+share. June 1966 (primary): the night box also reached near-complete
+precincts (1342 of 1344), but closed-primary contests span single parties,
+so the largest provable all-voter floor is the local Prop A sum 146,496
+(64.6 percent), ingested as a flagged partial since the true night share
+was plainly far higher. With that, every post-1965 election that lacked a
+night count has been attempted: eleven now carry night observations, three
+carry complete day-2 counts, and two (November 1967 and November 1969)
+hold verified night observations awaiting certified denominators from the
+city Statement of Vote volumes at the SFPL History Center.
