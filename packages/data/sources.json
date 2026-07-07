@@ -4074,6 +4074,22 @@
    {
     "date": "1999-11-03",
     "days": 1,
+    "total": 126000,
+    "pct": 61.9,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 1999-11-03 p22 (docview 2206420136, page image verified): 126,000 counted as of the Wednesday-morning statement - the write-in hand-tally (Ammiano surge) kept the count running days; screenshots mirror/examiner/1999-11/, read 2026-07-07"
+   },
+   {
+    "date": "1999-11-03",
+    "days": 1,
+    "total": 143388,
+    "pct": 70.4,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 1999-11-04 p16 (docview 2206796248, page image verified): 143,388 counted as of 4:30 pm Wednesday with at least 33,000 remaining (19,000 absentee + 9,000 provisional + 5,000 write-in) - direct count; the existing same-day 103,674 row (a certified-minus-rough-100k floor) stands as the weaker earlier-published bound; screenshots mirror/examiner/1999-11/, read 2026-07-07"
+   },
+   {
+    "date": "1999-11-03",
+    "days": 1,
     "total": 103674,
     "pct": 50.9,
     "label": "SF Chronicle via NewsBank (SFPL)",
@@ -4086,6 +4102,14 @@
     "pct": 70.9,
     "label": "SF Chronicle via NewsBank (SFPL)",
     "citation": "AP via San Antonio Express-News / Seattle Times, NewsBank (SFPL) 1999-11-04 (0EAFE8EC67372F33): 'With 90 percent of the precincts reporting, Brown had 60,620 votes, 42 percent' - same-contest ratio floor 60,620/0.42 = 144,333 (write-in hand count made the night state unusually slow) \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EAFE8EC67372F33"
+   },
+   {
+    "date": "1999-11-04",
+    "days": 2,
+    "total": 185674,
+    "pct": 91.2,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 1999-11-05 p18 (docview 2206377576, page image verified): '18,000 votes left' reported Thursday - conversion 203,674 minus 18,000 = 185,674, moderate confidence; the same page's tally box independently matches the existing 175,483 ratio floor exactly; screenshots mirror/examiner/1999-11/, read 2026-07-07"
    },
    {
     "date": "1999-11-05",

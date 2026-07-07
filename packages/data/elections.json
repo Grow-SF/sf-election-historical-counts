@@ -10839,11 +10839,23 @@
   "registered": 453151,
   "source": "archival",
   "provisional": false,
-  "nReports": 4,
+  "nReports": 7,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.52,
+    61.9,
+    null,
+    null
+   ],
+   [
+    0.85,
+    70.4,
+    null,
+    null
+   ],
    [
     0.88,
     50.9,
@@ -10853,6 +10865,12 @@
    [
     1.67,
     70.9,
+    null,
+    null
+   ],
+   [
+    1.88,
+    91.2,
     null,
     null
    ],
@@ -10875,40 +10893,40 @@
     "bound": true
    },
    "55": {
-    "days": 2,
-    "bound": false
+    "days": 1,
+    "bound": true
    },
    "60": {
-    "days": 2,
-    "bound": false
+    "days": 1,
+    "bound": true
    },
    "65": {
-    "days": 2,
+    "days": 1,
     "bound": false
    },
    "70": {
-    "days": 2,
+    "days": 1,
     "bound": false
    },
    "75": {
-    "days": 3,
+    "days": 2,
     "bound": false
    },
    "80": {
-    "days": 3,
+    "days": 2,
     "bound": false
    },
    "85": {
-    "days": 3,
+    "days": 2,
     "bound": false
    },
    "90": {
-    "days": 3,
+    "days": 2,
     "bound": false
    }
   },
   "nightSrc": null,
-  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+  "srcShort": "proquest-examiner"
  },
  {
   "id": "1999-12-14",
