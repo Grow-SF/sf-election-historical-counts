@@ -28,7 +28,7 @@ type TPoint = {
 // null breakpoint between them, so the line doesn't bridge decades-long gaps
 // (e.g. the one special in 1903 to the next in 1977). The regular cadence of
 // generals/primaries/municipals is ≤4 years, so it stays connected — except the
-// Midterm line, which breaks across the missing 1958–1970 midterm turnout.
+// Midterm line, which breaks across the still-missing 1958/1962 midterm turnout.
 const MAX_GAP_YEARS = 8;
 
 // the data's extent — turnout history reaches back to 1879
@@ -42,8 +42,9 @@ const COVER_MAX = Math.ceil(
 // One gap-aware series per display category. "General" splits into presidential
 // (year % 4 == 0, ~80–90% turnout) and "Midterm" (the even off-years, ~60–70%)
 // via displayKind: lumped together they make one line zigzag between the two
-// cadences, which hides that the smooth 1956–1972 stretch is presidential years
-// alone — the midterm turnout for 1958/62/66/70 is missing from the source.
+// cadences, which hides that the smooth 1956–1964 stretch is presidential years
+// alone — the midterm turnout for 1958/62 is still missing from the source
+// (1966/70 were recovered from newspaper night counts, July 2026).
 const SERIES: Record<string, TPoint[]> = {};
 for (const k of KINDS) {
   const pts: TPoint[] = TURNOUT_HISTORY.filter(
@@ -126,7 +127,7 @@ export default function TurnoutChart({
     <ChartFrame
       title="Turnout of registered voters"
       subtitle="Ballots cast ÷ registered, by election type, 1879–2026"
-      note="Color = election type; generals split into presidential years (General, ~80–90%) and the even off-years (Midterm, ~60–70%) — lumped together they zigzag between the two cadences. Lines break across multi-decade gaps; the Midterm line breaks over the missing 1958–1970 turnout. Use the filter to add or remove types. Sources: SF Municipal Reports Registrar table (1879–1890); DOE turnout table; certified per-release finals."
+      note="Color = election type; generals split into presidential years (General, ~80–90%) and the even off-years (Midterm, ~60–70%) — lumped together they zigzag between the two cadences. Lines break across multi-decade gaps; the Midterm line breaks over the missing 1958–1962 turnout. Use the filter to add or remove types. Sources: SF Municipal Reports Registrar table (1879–1890); DOE turnout table; certified per-release finals."
     >
       <ResponsiveContainer width="100%" height={400}>
         <ComposedChart margin={{ top: 24, right: 20, bottom: 8, left: 0 }}>
