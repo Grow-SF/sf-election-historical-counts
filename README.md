@@ -168,7 +168,7 @@ uses `tesseract`. None of these binaries are in pyproject; install via brew.)
 
 ## Help us recover the missing elections
 
-**83 San Francisco elections still lack an election-night count** — see
+**69 San Francisco elections still lack an election-night count** — see
 [`data/elections_master.csv`](data/elections_master.csv) (the `recovered=no` rows)
 and [`docs/missing.md`](docs/missing.md). Most are pre-1907, above all the 1856–1905 mayoral
 elections. None are lost causes: the returns were printed at the time and survive
@@ -215,7 +215,7 @@ haven't recovered them yet. The full election-by-election list is now
 [`data/elections_master.csv`](data/elections_master.csv) (built by
 [`scripts/build_elections_master.py`](scripts/build_elections_master.py)) — **270
 San Francisco elections, 1849–2026**, each flagged by whether we hold a night
-count: **164 recovered · 23 turnout-only · 83 still missing**. The categories below
+count: **175 recovered · 26 turnout-only · 69 still missing**. The categories below
 summarize those 83.
 
 **Pre-1892 statewide generals** (certified SF denominators already in hand — see
@@ -250,14 +250,19 @@ are unrecovered (the ledger's primary tier starts 1928).
 the county Statement of Vote: **1915-03, 1928-08, 1929-11, 1944-05, 1944-11, 1945-11**
 (see [`data/recovery_ledger_pre1965.md`](data/recovery_ledger_pre1965.md)).
 
-**Mid-century city gaps (1966–1984)** — in the index but no night count pulled yet;
-mostly primaries and odd-year municipals, plus three generals.
-- [ ] **Generals 1966-11, 1970-11, 1974-11** — pull the SF Chronicle election-night
-      "Final" box (the complete all-precinct citywide total) for each, as was done
-      for the recovered 1958 and 1962 generals.
-- [ ] **Primaries 1966, 1968, 1970, 1972, 1976, 1980, 1984** and **municipals 1967,
-      1969, 1971** — same election-night Chronicle sweep; plus specials **1977-08,
-      1980-08** and the **2008-04** primary.
+**Mid-century city gaps (1966–1984)** — RESOLVED July 2026 (Chronicle NewsBank
+image sweep; method and per-election outcomes in the search log). All 16 post-1965
+gaps were attempted: night counts recovered for the generals (1966-11, 1970-11,
+1974-11), the 1971-11 municipal (a canvass story supplied both the certified total
+and the election-night 258,164, a 100.0% night share), primaries 1966-06, 1968-06,
+1970-06, 1976-06, 1980-06, the 1980-08 special, and the 2008-04 special primary
+(NewsBank text archive); complete day-2 counts (turnout-only) for 1972-06, 1977-08,
+1984-06. Still open from this group:
+- [ ] **Municipals 1967-11 and 1969-11** — night observations recovered and held
+      pending certified denominators; the city's own "Statement of Vote" volumes at
+      the SFPL History Center (in-library, undigitized) hold them.
+- [ ] **1968-06 discrepancy** — the paper's completed unofficial count (262,449)
+      exceeds the SOV certified total (254,825); see `docs/doe-data-discrepancies.md`.
 
 **Early-1900s city specials (1908–1922)** — index dates known, night counts
 uncaptured: **1908-05, 1908-11, 1909-12, 1912-03, 1913-04, 1921-03, 1922-11**, plus
