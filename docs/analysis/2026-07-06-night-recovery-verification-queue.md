@@ -117,3 +117,4 @@ absentee / provisional / Department of Elections / election night /
 by midnight. Method file: the proquest-examiner recipe in the session
 notes; conversions per the campaign conventions ('at least X remain' is
 a ceiling, never a floor).
+| 2003-12-09 | Examiner editorial: 'processed 246,667 votes on Tuesday' (52.92 percent, arithmetic exact) | if 'on Tuesday' is literal (votes processed by end of election night), re-stamp the ingested day-3 row to election night: a 97.2 percent night share for Newsom-Gonzalez; the editorial's 'in short order' after polls closed supports it, but no hour is printed | ProQuest docview 2206312937 |

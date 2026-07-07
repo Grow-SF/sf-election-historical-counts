@@ -3618,6 +3618,14 @@
    {
     "date": "2003-12-12",
     "days": 3,
+    "total": 246667,
+    "pct": 97.2,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2003-12-12 weekend edition p11 'Examiner View: Elections Department shines in runoff' (docview 2206312937, page image verified): 'Elections workers processed 246,667 votes on Tuesday, which amounted to 52.92 percent of The City's 466,127 registered voters' - arithmetic exact; stamped conservatively at the editorial's date since 'on Tuesday' is unproven as an hour-bounded night claim (if judged literal, this is a 97.2 percent NIGHT count for the Newsom-Gonzalez runoff; queued); 7,205 below certified; mirror/examiner/2003-12/, read 2026-07-07"
+   },
+   {
+    "date": "2003-12-12",
+    "days": 3,
     "total": 247890,
     "pct": 97.6,
     "label": "contemporary news report (live web)",
