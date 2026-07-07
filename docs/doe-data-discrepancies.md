@@ -26,6 +26,7 @@ whether *their* published table has since changed (we can't edit it ourselves).
 | 1934-11-06 | 166,133 | SF Governor **225,977** | Under review — figures don't reconcile | →225,977; 100→97.7% | ✉️ draft | ☐ |
 | 1978-11-07 | 217,965 | SF total cast **238,667** | Under review — looks precinct-only | →238,667; 100→93.5% | ☐ | ☐ |
 | 1968-06-04 | (no DOE row) | SOV total cast **254,825**; Chronicle unofficial complete **262,449** | Open question (SOV internal pct anomaly + newspaper conflict) | keep 254,825 | n/a | n/a |
+| 1899-12-02 | 70,726 / 22,331 dated Dec 2 | Municipal Reports: **Dec 29, 1899** sewer-bond special, same figures | Under review — date error, figures correct | date fixed to 1899-12-29 | ☐ | ☐ |
 | 1974-06-04 | 198,508 | SF total cast **198,508** | Resolved — our error, fixed | our 203,381→198,508 | n/a | n/a |
 | 1952-11-04 | 365,972 | turnout 365,972; contest 374,700 | Source inconsistency (internal to the SOV) | keep 365,972 | n/a | n/a |
 
@@ -59,6 +60,12 @@ whether *their* published table has since changed (we can't edit it ourselves).
 - **What we noticed:** three mutually inconsistent figures (the SOV pct column implies about 230,937; the SOV total prints 254,825; the paper's unofficial complete count is 262,449). Context: the June 1968 count was a documented operational failure (the Chronicle's "Voting Foul-up In S.F." reports the new computer tabulation system's debacle: 30 machines mishandled, tally sheets found in City Hall basement suitcases, one polling place firebombed), so a downward revision between the June 6 unofficial figure and the official canvass is plausible, but unverified.
 - **How we've handled it:** we keep the SOV total (254,825) as `certified_final`, pending resolution; the only night observation ingested (Prop A sum 112,468, flagged night_partial) is below every candidate denominator, so its floor status is safe either way. The city Statement of Vote volume at the SFPL History Center ("Statement of Vote 1906-1979") should settle it.
 - **Raised with DOE:** not applicable (no DOE row); worth checking the SFPL volume.
+
+### 1899-12-02 - date error in the DOE table (figures correct)
+- **DOE figure / source:** 70,726 registered / 22,331 ballots, dated December 2, 1899 - DOE historical turnout table.
+- **Municipal Reports reference:** the Dept. of Elections cumulative registration-and-votes table (SF Municipal Reports FY1907-08, p.871, archive.org sanfranciscomuni57sanfrich; cross-verified against the vols 49/53/55 printings) records a **December 29, 1899** sewer-bond special with exactly these figures. No December 2 election exists in the city record; a companion December 27, 1899 park-bond special (70,681 / 29,972) has no DOE row at all.
+- **How we've handled it:** `build_viz_data.py` re-dates the DOE row to 1899-12-29 (DOE_TABLE_DATE_FIXES); the Dec 27 special is added from the Municipal Reports table (`data/sf_turnout_1891_1907.csv`). A second omission found the same way: the December 4, 1902 charter-amendments special (14,271 ballots), also absent from the DOE table.
+- **Raised with DOE:** not yet - worth raising along with the omissions.
 
 ### 1974-06-04 — our error (fixed)
 - **DOE figure / source:** 198,508 ballots cast — DOE turnout table.

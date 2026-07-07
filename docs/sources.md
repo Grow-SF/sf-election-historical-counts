@@ -2,7 +2,7 @@
 
 # Data sources
 
-Every number in the Long Count dataset traces to a primary source. This file documents all 304 source records — what was consulted, what it established, and where to find it.
+Every number in the Long Count dataset traces to a primary source. This file documents all 315 source records — what was consulted, what it established, and where to find it.
 
 These records were previously displayed on the `/sources` page of the viz app. They now live here as a stable, version-controlled reference in the data repository.
 
@@ -303,6 +303,26 @@ population 434,865; voting-age 214,006; eligible citizens 167,227; registered 13
 **ID:** `funnel-1908`
 
 population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75,467; voted 60,124
+
+**Source:** IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above
+
+---
+
+### 1904 franchise composition (decennial census)
+
+**ID:** `funnel-1904`
+
+population 372,434; voting-age 147,771; eligible citizens 113,618; registered 81,576; voted 67,770
+
+**Source:** IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above
+
+---
+
+### 1900 franchise composition (decennial census)
+
+**ID:** `funnel-1900`
+
+population 342,782; voting-age 128,985; eligible citizens 100,697; registered 73,633; voted 65,161
 
 **Source:** IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above
 
@@ -4511,6 +4531,26 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1906-11-06`
+
+38,564 ballots cast, 74.7% of 51,633 registered
+
+**Source:** SF Municipal Reports — Registrar of Voters (1879–1890)
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1905-11-07`
+
+72,000 ballots cast, 73.5% of 98,000 registered
+
+**Source:** SF Municipal Reports — Registrar of Voters (1879–1890)
+
+---
+
 ### Presidential General Election
 
 **ID:** `1904-11-08`
@@ -4524,6 +4564,16 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1904-11-09 | 1 |  | 48,957 | 74.8% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1904-11-09 p9 (SF returns section) — HUMAN-VERIFIED: by early morning the Press Election Bureau had counted ~50,000 votes: Republican electors (Roosevelt) 29,705 + Democrat (Parker) 13,837 + Socialist (Debs) 5,108 + Prohibition (Swallow) 307 = 48,957; hand-count era partial. docref EANX-NB-1532150DC600E112 p9; conf=high |
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1903-11-03`
+
+59,824 ballots cast, 75.1% of 79,684 registered
+
+**Source:** SF Municipal Reports — Registrar of Voters (1879–1890)
 
 ---
 
@@ -4544,6 +4594,16 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 27,308 ballots cast, 37.1% of 73,540 registered
 
 **Source:** SF Dept. of Elections historical turnout table (1899–2019)
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1902-12-04`
+
+14,271 ballots cast, 20.2% of 70,764 registered
+
+**Source:** SF Municipal Reports — Registrar of Voters (1879–1890)
 
 ---
 
@@ -4573,6 +4633,16 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1901-11-05`
+
+53,746 ballots cast, 69.0% of 77,890 registered
+
+**Source:** SF Municipal Reports — Registrar of Voters (1879–1890)
+
+---
+
 ### Presidential General Election
 
 **ID:** `1900-11-06`
@@ -4591,11 +4661,31 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ### Certified turnout record — night count not yet recovered
 
-**ID:** `1899-12-02`
+**ID:** `1899-12-29`
 
 22,331 ballots cast, 31.6% of 70,726 registered
 
 **Source:** SF Dept. of Elections historical turnout table (1899–2019)
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1899-12-27`
+
+29,972 ballots cast, 42.4% of 70,681 registered
+
+**Source:** SF Municipal Reports — Registrar of Voters (1879–1890)
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1899-11-07`
+
+51,965 ballots cast, 72.4% of 71,786 registered
+
+**Source:** SF Municipal Reports — Registrar of Voters (1879–1890)
 
 ---
 
@@ -4612,6 +4702,26 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1898-11-09 | 1 |  | 40,585 | 74.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1898-11-09 p1 — HUMAN-VERIFIED: by morning the SF Governor count was Gage 21,636 + Maguire 18,949 = 40,585, from 139 complete + 151 incomplete of SF's 303 precincts ('40,585 represent ... San Francisco precincts'); hand-count era partial. docref EANX-NB-1531E9F243460E8B p1; conf=high |
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1898-05-26`
+
+26,969 ballots cast, 36.9% of 73,140 registered
+
+**Source:** SF Municipal Reports — Registrar of Voters (1879–1890)
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1897-12-27`
+
+26,202 ballots cast, 36.0% of 72,782 registered
+
+**Source:** SF Municipal Reports — Registrar of Voters (1879–1890)
 
 ---
 

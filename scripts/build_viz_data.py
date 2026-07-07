@@ -288,7 +288,11 @@ def main():
     # rare non-Tuesday: masthead-verified, the Thu 12/11 Chronicle front page
     # reads "S.F. Picks A Mayor Today" and the Fri 12/12 paper carries the
     # results (Moscone 101,528 / Barbagelata 97,213, 942/942 precincts)
-    DOE_TABLE_DATE_FIXES = {"2001-12-10": "2001-12-11"}
+    DOE_TABLE_DATE_FIXES = {"2001-12-10": "2001-12-11",
+                            # DOE prints 1899-12-02, but the figures match the
+                            # Dec 29 1899 sewer-bond special exactly (Municipal
+                            # Reports cumulative table); see doe-data-discrepancies.md
+                            "1899-12-02": "1899-12-29"}
     doe_table = []
     with open(ROOT / "data" / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
         for r in csv.DictReader(f):
@@ -408,6 +412,18 @@ def main():
                     "turnoutPct": round(100 * bal / reg_i, 1),
                     "registered": reg_i, "ballots": bal,
                     "source": "muni-registrar"}
+    # 1891-1907: the gap between the FY1888-89 Registrar master table and the
+    # reliable start of the DOE table, recovered from Municipal Reports volumes
+    # (basis muni-registrar) and the CA SOV / Blue Book (basis sov-bluebook)
+    gap_csv = ROOT / "data" / "sf_turnout_1891_1907.csv"
+    if gap_csv.exists():
+        with open(gap_csv, newline="") as f:
+            for r in csv.DictReader(f):
+                reg_i, bal = int(r["registration"]), int(r["ballots_cast"])
+                turnout[r["election_date"]] = {"date": r["election_date"],
+                    "turnoutPct": round(100 * bal / reg_i, 1),
+                    "registered": reg_i, "ballots": bal,
+                    "source": r["basis"]}
     with open(ROOT / "data" / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
         for r in csv.DictReader(f):
             reg = r["registration"]

@@ -210,6 +210,20 @@
   "observations": []
  },
  {
+  "id": "funnel-1904",
+  "name": "1904 franchise composition (decennial census)",
+  "summary": "population 372,434; voting-age 147,771; eligible citizens 113,618; registered 81,576; voted 67,770",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
+  "id": "funnel-1900",
+  "name": "1900 franchise composition (decennial census)",
+  "summary": "population 342,782; voting-age 128,985; eligible citizens 100,697; registered 73,633; voted 65,161",
+  "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
+  "observations": []
+ },
+ {
   "id": "county-tech-wisconsin-badger-books",
   "name": "Wisconsin (Badger Books) \u2014 counting technology & reporting speed",
   "summary": "Counting tech adopted: epollbook (2018). One-week reporting rate \u2014 n/a.",
@@ -6476,6 +6490,20 @@
   ]
  },
  {
+  "id": "1906-11-06",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "38,564 ballots cast, 74.7% of 51,633 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "observations": []
+ },
+ {
+  "id": "1905-11-07",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "72,000 ballots cast, 73.5% of 98,000 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "observations": []
+ },
+ {
   "id": "1904-11-08",
   "name": "Presidential General Election",
   "final": 65427,
@@ -6492,6 +6520,13 @@
   ]
  },
  {
+  "id": "1903-11-03",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "59,824 ballots cast, 75.1% of 79,684 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "observations": []
+ },
+ {
   "id": "1903-10-08",
   "name": "Certified turnout record \u2014 night count not yet recovered",
   "summary": "25,275 ballots cast, 34.3% of 73,702 registered",
@@ -6503,6 +6538,13 @@
   "name": "Certified turnout record \u2014 night count not yet recovered",
   "summary": "27,308 ballots cast, 37.1% of 73,540 registered",
   "finalSource": "SF Dept. of Elections historical turnout table (1899\u20132019)",
+  "observations": []
+ },
+ {
+  "id": "1902-12-04",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "14,271 ballots cast, 20.2% of 70,764 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
   "observations": []
  },
  {
@@ -6529,6 +6571,13 @@
   ]
  },
  {
+  "id": "1901-11-05",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "53,746 ballots cast, 69.0% of 77,890 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "observations": []
+ },
+ {
   "id": "1900-11-06",
   "name": "Presidential General Election",
   "final": 63202,
@@ -6545,10 +6594,24 @@
   ]
  },
  {
-  "id": "1899-12-02",
+  "id": "1899-12-29",
   "name": "Certified turnout record \u2014 night count not yet recovered",
   "summary": "22,331 ballots cast, 31.6% of 70,726 registered",
   "finalSource": "SF Dept. of Elections historical turnout table (1899\u20132019)",
+  "observations": []
+ },
+ {
+  "id": "1899-12-27",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "29,972 ballots cast, 42.4% of 70,681 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "observations": []
+ },
+ {
+  "id": "1899-11-07",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "51,965 ballots cast, 72.4% of 71,786 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
   "observations": []
  },
  {
@@ -6566,6 +6629,20 @@
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1898-11-09 p1 \u2014 HUMAN-VERIFIED: by morning the SF Governor count was Gage 21,636 + Maguire 18,949 = 40,585, from 139 complete + 151 incomplete of SF's 303 precincts ('40,585 represent ... San Francisco precincts'); hand-count era partial. docref EANX-NB-1531E9F243460E8B p1; conf=high"
    }
   ]
+ },
+ {
+  "id": "1898-05-26",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "26,969 ballots cast, 36.9% of 73,140 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "observations": []
+ },
+ {
+  "id": "1897-12-27",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "26,202 ballots cast, 36.0% of 72,782 registered",
+  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "observations": []
  },
  {
   "id": "1896-11-03",

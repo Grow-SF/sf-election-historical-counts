@@ -1,5 +1,21 @@
 [
  {
+  "year": 1900,
+  "population": 342782,
+  "vap": 128985,
+  "eligible": 100697,
+  "registered": 73633,
+  "voted": 65161
+ },
+ {
+  "year": 1904,
+  "population": 372434,
+  "vap": 147771,
+  "eligible": 113618,
+  "registered": 81576,
+  "voted": 67770
+ },
+ {
   "year": 1908,
   "population": 402086,
   "vap": 166558,

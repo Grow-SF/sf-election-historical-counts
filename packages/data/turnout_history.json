@@ -56,7 +56,71 @@
   "kind": "General"
  },
  {
-  "date": "1899-12-02",
+  "date": "1892-11-08",
+  "turnoutPct": 89.6,
+  "registered": 67849,
+  "ballots": 60790,
+  "source": "muni-registrar",
+  "kind": "General"
+ },
+ {
+  "date": "1894-11-06",
+  "turnoutPct": 90.5,
+  "registered": 68039,
+  "ballots": 61548,
+  "source": "muni-registrar",
+  "kind": "General"
+ },
+ {
+  "date": "1896-11-03",
+  "turnoutPct": 84.7,
+  "registered": 72992,
+  "ballots": 61820,
+  "source": "muni-registrar",
+  "kind": "General"
+ },
+ {
+  "date": "1897-12-27",
+  "turnoutPct": 36.0,
+  "registered": 72782,
+  "ballots": 26202,
+  "source": "muni-registrar",
+  "kind": "Special"
+ },
+ {
+  "date": "1898-05-26",
+  "turnoutPct": 36.9,
+  "registered": 73140,
+  "ballots": 26969,
+  "source": "muni-registrar",
+  "kind": "Special"
+ },
+ {
+  "date": "1898-11-08",
+  "turnoutPct": 87.8,
+  "registered": 62965,
+  "ballots": 55275,
+  "source": "muni-registrar",
+  "kind": "General"
+ },
+ {
+  "date": "1899-11-07",
+  "turnoutPct": 72.4,
+  "registered": 71786,
+  "ballots": 51965,
+  "source": "muni-registrar",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1899-12-27",
+  "turnoutPct": 42.4,
+  "registered": 70681,
+  "ballots": 29972,
+  "source": "muni-registrar",
+  "kind": "Special"
+ },
+ {
+  "date": "1899-12-29",
   "turnoutPct": 31.6,
   "registered": 70726,
   "ballots": 22331,
@@ -64,11 +128,43 @@
   "kind": "Special"
  },
  {
+  "date": "1900-11-06",
+  "turnoutPct": 88.5,
+  "registered": 73633,
+  "ballots": 65161,
+  "source": "muni-registrar",
+  "kind": "General"
+ },
+ {
+  "date": "1901-11-05",
+  "turnoutPct": 69.0,
+  "registered": 77890,
+  "ballots": 53746,
+  "source": "muni-registrar",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1902-11-04",
+  "turnoutPct": 86.4,
+  "registered": 70716,
+  "ballots": 61091,
+  "source": "muni-registrar",
+  "kind": "General"
+ },
+ {
   "date": "1902-12-02",
   "turnoutPct": 37.6,
   "registered": 70764,
   "ballots": 26612,
   "source": "doe-turnout-table",
+  "kind": "Special"
+ },
+ {
+  "date": "1902-12-04",
+  "turnoutPct": 20.2,
+  "registered": 70764,
+  "ballots": 14271,
+  "source": "muni-registrar",
   "kind": "Special"
  },
  {
@@ -86,6 +182,46 @@
   "ballots": 25275,
   "source": "doe-turnout-table",
   "kind": "Special"
+ },
+ {
+  "date": "1903-11-03",
+  "turnoutPct": 75.1,
+  "registered": 79684,
+  "ballots": 59824,
+  "source": "muni-registrar",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1904-11-08",
+  "turnoutPct": 83.1,
+  "registered": 81576,
+  "ballots": 67770,
+  "source": "muni-registrar",
+  "kind": "General"
+ },
+ {
+  "date": "1905-11-07",
+  "turnoutPct": 73.5,
+  "registered": 98000,
+  "ballots": 72000,
+  "source": "muni-registrar",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1906-11-06",
+  "turnoutPct": 74.7,
+  "registered": 51633,
+  "ballots": 38564,
+  "source": "muni-registrar",
+  "kind": "General"
+ },
+ {
+  "date": "1907-11-05",
+  "turnoutPct": 74.9,
+  "registered": 77601,
+  "ballots": 58086,
+  "source": "muni-registrar",
+  "kind": "Municipal"
  },
  {
   "date": "1908-11-03",

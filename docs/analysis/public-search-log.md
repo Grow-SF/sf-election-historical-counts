@@ -235,3 +235,25 @@ night count has been attempted: eleven now carry night observations, three
 carry complete day-2 counts, and two (November 1967 and November 1969)
 hold verified night observations awaiting certified denominators from the
 city Statement of Vote volumes at the SFPL History Center.
+
+**Update (2026-07-07, turnout 1891-1907).** The turnout record's 1891-1907
+hole is filled, from a single overlooked page: the Dept. of Elections
+cumulative registration-and-votes table in the FY1907-08 Municipal Report
+(p.871, archive.org sanfranciscomuni57sanfrich, cross-verified against the
+vols 49, 53, and 55 printings) lists registration and ballots cast for
+every election from the 1880s through 1907, statewide and municipal alike.
+Sixteen elections gained turnout rows (data/sf_turnout_1891_1907.csv).
+Notable as-printed anomalies, kept not smoothed: the 1898 registration dip
+(fresh biennial register), the rounded 1905 figures (the 1906 fire
+destroyed the underlying records; the Registrar's own table prints
+estimates), and the post-fire re-registration collapse (81,576 registered
+in 1904 to 51,633 in 1906). The same table exposed three index errors:
+the master list's November 1, 1898 municipal election never happened (the
+municipal offices rode the November 8 state ballot), the DOE turnout
+table's December 2, 1899 row is actually the December 29, 1899 sewer-bond
+special (figures exact, date wrong), and two real special elections appear
+in no index at all (December 27, 1899 park bonds; December 4, 1902 charter
+amendments). The master list now carries 272 elections, and the missing
+night-count total rises from 69 to 71 because discovering elections adds
+to the denominator. These Municipal Reports ballots-cast figures double as
+certified denominators for the pre-1907 night counts still missing.

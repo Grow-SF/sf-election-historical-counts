@@ -49,12 +49,14 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1896-11-03,1896,both,Presidential + Municipal,President + Congress + Legislature; Mayor (Phelan),night,82.3,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
 1897-12-27,1897,municipal,Charter,Board of Freeholders (draft new charter),no,,exact,Municipal Reports/CDNC/Wikipedia
 1898-05-26,1898,municipal,Charter,New (1898/1900) Charter RATIFIED,no,,exact,Municipal Reports/CDNC/Wikipedia
-1898-11-01,1898,municipal,Municipal,Mayor (Phelan re-elected),no,,exact,Municipal Reports/CDNC/Wikipedia
-1898-11-08,1898,statewide,Gubernatorial,Governor + state officers,night,74.6,exact,Blue Book/SOV/Wikipedia
+1898-11-08,1898,both,Gubernatorial + Municipal,"Governor + state officers; Mayor (Phelan re-elected), consolidated onto the state ballot (no separate Nov 1 municipal election; Municipal Reports cumulative table)",night,74.6,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
 1899-11-07,1899,municipal,Municipal,Mayor (Phelan) — 1st under 1898 charter,no,,exact,Municipal Reports/CDNC/Wikipedia
+1899-12-27,1899,municipal,Special,Park-bond special (Municipal Reports cumulative table),no,,exact,Municipal Reports/CDNC/Wikipedia
+1899-12-29,1899,municipal,Special,Sewer-bond special (the DOE turnout table dates it 1899-12-02; see doe-data-discrepancies.md),no,,exact,Municipal Reports/CDNC/Wikipedia
 1900-11-06,1900,statewide,Presidential,President + Congress + Legislature,night,58.0,exact,Blue Book/SOV/Wikipedia
 1901-11-05,1901,municipal,Municipal,Mayor (Schmitz),no,,exact,Municipal Reports/CDNC/Wikipedia
 1902-11-04,1902,statewide,Gubernatorial,Governor + state officers,night,0.0,exact,Blue Book/SOV/Wikipedia
+1902-12-04,1902,municipal,Special,Charter-amendments special (Municipal Reports cumulative table),no,,exact,Municipal Reports/CDNC/Wikipedia
 1903-11-03,1903,municipal,Municipal,Mayor (Schmitz re-elected),no,,exact,Municipal Reports/CDNC/Wikipedia
 1904-11-08,1904,statewide,Presidential,President + Congress + Legislature,night,74.8,exact,Blue Book/SOV/Wikipedia
 1905-11-07,1905,municipal,Municipal,"Mayor (Schmitz, 3rd) + Supervisors",no,,exact,Municipal Reports/CDNC/Wikipedia
