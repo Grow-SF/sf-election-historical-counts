@@ -2,7 +2,7 @@
 
 # Data sources
 
-Every number in the Long Count dataset traces to a primary source. This file documents all 302 source records — what was consulted, what it established, and where to find it.
+Every number in the Long Count dataset traces to a primary source. This file documents all 304 source records — what was consulted, what it established, and where to find it.
 
 These records were previously displayed on the `/sources` page of the viz app. They now live here as a stable, version-controlled reference in the data repository.
 
@@ -3186,6 +3186,38 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1968-06-05 | 1 |  | 112,468 | 44.1% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1968-06-05 p1 'S.F. Voters Rescue Market St.': city Prop A (Market St bonds) Yes 77,906 + No 34,562 = 112,468 - the only SF count printed election night (the new computer tabulation system failed; see 1968-06-07 p30 'S.F. COUNT - SLOWEST IN 4 DECADES'); no precinct basis printed, flagged night_partial, medium confidence; the June 6 completed unofficial count 262,449 exceeds the SOV certified 254,825 and is logged in docs/doe-data-discrepancies.md, not ingested; scans sweep_19680604_issue19680605_p1_s2.png, sweep_19680604_issue19680607_p30_s0.png, read 2026-07-06 |
+
+---
+
+### Consolidated General Election
+
+**ID:** `1966-11-08`
+
+**Certified final:** 286,049
+
+**Source:** CA SoS Statement of Vote, Nov 1966 general: SF total vote 286,049 (see data/sov_crosscheck_ledger.md)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1966-11-09 | 1 |  | 267,247 | 93.4% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1966-11-09 ELECTION EXTRA p4 (PAGE C) 'S.F. Vote - Candidates' box, all 1344/1344 precincts semiofficial: Governor sum 267,247 (Brown 157,821 + Reagan 109,426) - conservative night floor (top-contest sum at complete precincts; all other citywide contests sum lower); E+2 carries no updated SF total; scan sweep_19661108_issue19661109_p4_s0.png, read 2026-07-06 |
+
+---
+
+### Direct Primary Election
+
+**ID:** `1966-06-07`
+
+**Certified final:** 226,622
+
+**Source:** CA SoS Statement of Vote, June 1966 primary: SF total vote cast 226,622 (see data/sov_crosscheck_ledger.md)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1966-06-08 | 1 |  | 146,496 | 64.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1966-06-08 p1B 'San Francisco Vote Tally (1342 of 1344 precincts)' box, FINAL edition: city Prop A (employee retirement benefits) Yes 58,194 + No 88,302 = 146,496 - largest all-voter sum; undervote-limited floor at near-complete precincts (closed-primary contests span single parties: Dem Governor 6-candidate sum 128,094; state Prop 1 sum 112,487), so the true night share was far higher; flagged night_partial; no Total-voters line printed; scans sweep_19660607_issue19660608_p3_s0.png/_s2.png, read 2026-07-06 |
 
 ---
 

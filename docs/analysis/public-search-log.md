@@ -221,3 +221,17 @@ wrecked by the new computer tabulation system's failure: the Chronicle's
 basement suitcases and a firebombed polling place) and a genuine open
 discrepancy: the paper's completed unofficial count, 262,449, exceeds the
 SOV certified 254,825; see docs/doe-data-discrepancies.md.
+
+**Update (2026-07-06, wave E).** The 1966 pair closes the post-1965 sweep.
+November 1966 (Reagan-Brown): the ELECTION EXTRA's "S.F. Vote" box covers
+all 1344 precincts semiofficially on election night; the Governor sum
+267,247 against the SOV certified 286,049 gives a 93.4 percent night
+share. June 1966 (primary): the night box also reached near-complete
+precincts (1342 of 1344), but closed-primary contests span single parties,
+so the largest provable all-voter floor is the local Prop A sum 146,496
+(64.6 percent), ingested as a flagged partial since the true night share
+was plainly far higher. With that, every post-1965 election that lacked a
+night count has been attempted: eleven now carry night observations, four
+carry complete day-2 counts, and two (November 1967 and November 1969)
+hold verified night observations awaiting certified denominators from the
+city Statement of Vote volumes at the SFPL History Center.

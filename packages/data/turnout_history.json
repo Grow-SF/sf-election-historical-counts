@@ -296,6 +296,22 @@
   "kind": "General"
  },
  {
+  "date": "1966-06-07",
+  "turnoutPct": 63.8,
+  "registered": 355271,
+  "ballots": 226622,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "1966-11-08",
+  "turnoutPct": 76.9,
+  "registered": 372123,
+  "ballots": 286049,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
   "date": "1968-06-04",
   "turnoutPct": 73.2,
   "registered": 348111,
