@@ -3077,15 +3077,15 @@
     "total": 253486,
     "pct": 65.3,
     "label": "proquest-examiner",
-    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2008-11-07 p4 'Life by numbers' box (docview 3062661037): 'BALLOTS COUNTED AS OF THURSDAY 253,486', corroborated by p5 (docview 3062661040); arithmetic consistent with the editorial's '12,000 more counted as of late Thursday afternoon'; screenshots mirror/examiner/2008-11-04/, read 2026-07-07"
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2008-11-07 p4 'Life by numbers' box (docview 3062661037): 'BALLOTS [were] COUNTED AS OF THURSDAY 253,486' (box text; bracketed word per layout), corroborated by p5 (docview 3062661040); arithmetic consistent with the editorial's '12,000 more counted as of late Thursday afternoon'; screenshots mirror/examiner/2008-11-04/, read 2026-07-07"
    },
    {
-    "date": "2008-11-13",
-    "days": 9,
+    "date": "2008-11-14",
+    "days": 10,
     "total": 372812,
     "pct": 96.1,
     "label": "proquest-examiner",
-    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2008-11-14 p7 (docview 3062667346): Arntz cites 'about 9,800 provisional ballots left to count citywide and about 5,500 ballots' as of the late Nov 13 results release - remaining conversion 388,112 minus 15,300 = 372,812; screenshots mirror/examiner/2008-11-04/, read 2026-07-07"
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2008-11-14 p7 (docview 3062667346): Arntz cites 'about 9,800 provisional ballots left to count citywide and about 5,500 ballots' (the second category truncated by the page break) in coverage of the late Nov 13 results release; the verbatim does not pin whether the remaining figures describe the Nov 13 or Nov 14 state, so the row is stamped conservatively at Nov 14 morning - remaining conversion 388,112 minus 15,300 = 372,812; screenshots mirror/examiner/2008-11-04/, read 2026-07-07"
    },
    {
     "date": "2008-12-02",
@@ -4109,7 +4109,7 @@
     "total": 185674,
     "pct": 91.2,
     "label": "proquest-examiner",
-    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 1999-11-05 p18 (docview 2206377576, page image verified): '18,000 votes left' reported Thursday - conversion 203,674 minus 18,000 = 185,674, moderate confidence; the same page's tally box independently matches the existing 175,483 ratio floor exactly; screenshots mirror/examiner/1999-11/, read 2026-07-07"
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 1999-11-05 p18 (docview 2206377576, page image verified): 'about 18,000 votes left to be counted', reported Thursday (hour unspecified; the 17:00 stamp is inferred from a same-page reference to a late-Thursday-afternoon announcement) - conversion 203,674 minus 18,000 = 185,674, moderate confidence; the same page's tally box independently matches the existing 175,483 ratio floor exactly; screenshots mirror/examiner/1999-11/, read 2026-07-07"
    },
    {
     "date": "1999-11-05",
@@ -4141,7 +4141,7 @@
     "total": 183839,
     "pct": 73.3,
     "label": "proquest-examiner",
-    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 1998-11-04 p21 (docview 2195434094): 'With all the precincts in but no absentee ballots counted' - pins the election-night count to the certified precinct total 183,839 (data/sf_turnout_history_1960_2002.csv: precinct 183,839, absentee 66,880); first true night observation for this election; KWIC-derived statement, page image verified 2026-07-07; read 2026-07-07"
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 1998-11-04 p21 (docview 2195434094): 'With all the precincts in but no absentee ballots counted' - pins the election-night STATE (precincts complete, zero absentees) whose numeric value 183,839 comes from the certified precinct column of data/sf_turnout_history_1960_2002.csv, not from the page itself; a same-coverage line that 17,000 absentees were counted early Wednesday corroborates the sequencing, and the value can only understate the true night count; the capture agents had declined to promote this number themselves, promotion is the controller's documented judgment; KWIC-derived statement, page image verified 2026-07-07; read 2026-07-07"
    },
    {
     "date": "1998-11-04",
@@ -4325,7 +4325,7 @@
     "total": 187326,
     "pct": 94.5,
     "label": "proquest-examiner",
-    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 1995-12-13 pA-1/pA-14 (docviews 2208052609, 2208045867), stated twice: 'About 11,000 absentee ballots remained to be counted Wednesday morning' - registrar-remaining conversion 198,326 - 11,000 = 187,326 per the 2000-03 precedent; a same-night midnight aide quote ('we counted 55,000 ballots, about half') is coarser than the existing 22:30 Chronicle partial and is logged only; screenshots mirror/examiner/1995-12-13/, read 2026-07-07"
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 1995-12-13 pA-1/pA-14 (docviews 2208052609, 2208045867), stated twice: 'About 11,000 absentee ballots remained to be counted Wednesday morning' - registrar-remaining conversion 198,326 - 11,000 = 187,326 per the 2000-03 precedent; a same-night midnight statement (an aide's 'we counted 55,000 ballots' with the reporter's framing that this was about half) is coarser than the existing 22:30 Chronicle partial and is logged only; screenshots mirror/examiner/1995-12-13/, read 2026-07-07"
    }
   ]
  },
@@ -5334,7 +5334,7 @@
     "total": 242170,
     "pct": 96.9,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle page scan (NewsBank/SFPL), 1967-11-08 p1/p1A 'San Francisco Vote Tally (1341 of 1341 Precincts)': Mayor 18-candidate sum 242,170 (Alioto 106,814 + Dobbs 90,482 + Morrison 40,246 + 15 minors), complete machine count pre-absentee (8,523 absentees pending per the same box); scans sweep_19671107_issue19671108_p1_s3.png, _p2_s0.png, read 2026-07-06"
+    "citation": "SF Chronicle page scan (NewsBank/SFPL), 1967-11-08 p1/p1A 'San Francisco Vote Tally (1341 of 1341 Precincts)': Mayor 18-candidate sum 242,170 (Alioto 106,814 + Dobbs 90,482 + Morrison 40,246 + 15 minors), complete machine count pre-absentee (8,523 absentees pending per the front-page headline box of the same issue); scans sweep_19671107_issue19671108_p1_s3.png, _p2_s0.png, read 2026-07-06"
    },
    {
     "date": "1967-11-09",
@@ -6757,7 +6757,7 @@
     "total": 25259,
     "pct": 99.9,
     "label": "cdnc-ocr",
-    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1903-10-09 'ELECTORS DECLARE OVERWHELMINGLY AGAINST THE GEARY-STREET BOND ISSUE' (section SFC19031009.2.129): 'out of a total of 25,259' (For 14,481, Against 10,745; the printed two-thirds shortfall 2,357 reconciles exactly) - 17 below certified; mirror/cdnc/SFC19031009/, read 2026-07-07"
+    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1903-10-09 'ELECTORS DECLARE OVERWHELMINGLY AGAINST THE GEARY-STREET BOND ISSUE' (section SFC19031009.2.129): 'out of a total of 25,259' (For 14,481, Against 10,745; the printed two-thirds shortfall 2,357 reconciles within rounding (computed 2,358.3)) - 17 below certified; mirror/cdnc/SFC19031009/, read 2026-07-07"
    }
   ]
  },
@@ -6845,7 +6845,7 @@
     "total": 53493,
     "pct": 99.5,
     "label": "cdnc-ocr",
-    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1901-11-07 'COMPLETE RETURNS OF VOTES CAST AT TUESDAY'S ELECTION' (section SFC19011107.2.3.5): printed 'TOTAL VOTE POLLED 53,493' with Schmitz 21,776 + Wells 17,718 + Tobin 12,647 + Ames 912 + O'Donnell 440; printed plurality 4,058 reconciles exactly; a competing prose figure 53,814 exceeds certified and is logged only; 253 below certified; mirror/cdnc/SFC19011107/, read 2026-07-07"
+    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1901-11-07 'COMPLETE RETURNS OF VOTES CAST AT TUESDAY'S ELECTION' (section SFC19011107.2.3.5): printed 'TOTAL VOTE POLLED 53,493' (verbatim) and printed plurality 4,058; the Schmitz 21,776 + Tobin 12,647 + Ames 912 figures are clean reads while Wells 17,718 and O'Donnell 440 are reconstructions of OCR-garbled cells (two independent methods and arithmetic closure against the printed total agree); a competing prose figure 53,814 exceeds certified and is logged only; 253 below certified; mirror/cdnc/SFC19011107/, read 2026-07-07"
    }
   ]
  },
@@ -7036,7 +7036,7 @@
     "total": 6290,
     "pct": 11.4,
     "label": "cdnc-ocr",
-    "citation": "Daily Alta California via CDNC (cdnc.ucr.edu), 1888-11-07 'THE CITY'S VOTE' (section DAC18881107.2.5): President slate sums 6,290 across the token overnight slice (prose says 6,363, 71-vote gap noted) - hand-count era election night, flagged night_partial; mirror/cdnc/DAC18881107/, read 2026-07-07"
+    "citation": "Daily Alta California via CDNC (cdnc.ucr.edu), 1888-11-07 'THE CITY'S VOTE' (section DAC18881107.2.5): President slate sums 6,290 across the token overnight slice, counted 'up to midnight' (prose says 6,363, 71-vote gap noted; the Harrison figure is illegible in the city box and comes from the same issue's parallel statewide table, section DAC18881107.2.30) - hand-count era election night, flagged night_partial; mirror/cdnc/DAC18881107/, read 2026-07-07"
    },
    {
     "date": "1888-11-08",
@@ -7115,7 +7115,7 @@
     "total": 40429,
     "pct": 97.9,
     "label": "cdnc-ocr",
-    "citation": "Daily Alta California via CDNC (cdnc.ucr.edu), 1880-11-04 'THE TOTAL VOTE / The Count Concluded' (section DAC18801104.2.10.1): Garfield 19,011 + Hancock 21,418 = 40,429, within about 70 votes of the certified split; companion Congress table's stated Rosecrans majority 1,078 matches history exactly; the E+1 paper's spelled-out turnout headline 'Forty-One Thousand Two Hundred and Ninety-Eight Votes Cast' (41,298) exceeds the certified 41,292 by 6 and is logged, not ingested (rejected-ballot reclassification class); mirror/cdnc/DAC18801103-05/, read 2026-07-07"
+    "citation": "Daily Alta California via CDNC (cdnc.ucr.edu), 1880-11-04 'THE TOTAL VOTE / The Count Concluded' (section DAC18801104.2.10.1): Garfield 19,011 + Hancock 21,418 = 40,429, within about 70 votes of the certified split; companion Congress table's stated Rosecrans majority 1,078 corroborates the known result; the E+1 paper's spelled-out turnout headline 'Forty-One Thousand Two Hundred and Ninety-Eight Votes Cast' (41,298) exceeds the certified 41,292 by 6 and is logged, not ingested (rejected-ballot reclassification class); mirror/cdnc/DAC18801103-05/, read 2026-07-07"
    }
   ]
  },
