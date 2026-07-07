@@ -2832,6 +2832,14 @@
   "finalSource": "https://www.sfelections.org/results/20111108/",
   "observations": [
    {
+    "date": "2011-11-08",
+    "days": 0,
+    "total": 86865,
+    "pct": 44.0,
+    "label": "contemporary news report (live web)",
+    "citation": "SFist election-night liveblog (still live: https://sfist.com/2011/11/08/election_night_results/), 10:22 p.m. entry at '100% of precincts': DOE-attributed mayoral first-choice counts Lee 44,451 + Avalos 26,447 + Herrera 15,967 = 86,865, a top-3-of-16-candidates sum and therefore a deep floor, flagged night_partial; the same entry's printed 27 percent for Lee implies a much larger first-choice total by the ratio convention (about 161,600-167,700) but that derivation conflicts with Lee holding only 74.5 percent of his certified first-choice votes at that hour, so the ratio floor is NOT ingested and is queued for judgment; the 10:00 p.m. entry (58 percent reporting) is logged in the report; read 2026-07-07"
+   },
+   {
     "date": "2011-11-09",
     "days": 1,
     "total": 157026,
@@ -3943,6 +3951,14 @@
   "final": 129629,
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
+   {
+    "date": "2000-12-13",
+    "days": 1,
+    "total": 121629,
+    "pct": 93.8,
+    "label": "contemporary news report (live web)",
+    "citation": "LA Times (John M. Glionna, 2000-12-14) via a contemporaneous ba.politics Usenet repost (https://groups.google.com/g/ba.politics/c/Y8S4VZY1-Ng, quoted verbatim): 'With 8,000 absentee ballots still uncounted, election officials said that two of the races were still too close to call' - registrar-remaining conversion 129,629 minus 8,000 = 121,629 as of the day-after state the story describes; provenance chain is Usenet-quoting-LAT, confirmable against the LA Times archive, queued; mirror/altweb/2000-12-12/, read 2026-07-07"
+   },
    {
     "date": "2000-12-15",
     "days": 3,

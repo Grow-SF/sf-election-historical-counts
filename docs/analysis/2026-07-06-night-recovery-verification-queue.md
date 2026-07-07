@@ -87,3 +87,11 @@ registrar spokesperson on the write-in backlog), 2206377576 (Nov 5 p18,
 Friday updated numbers), 2206795946 (Nov 4 p30). The 2003-12-09 runoff
 was not searched at all before the block: virgin territory for the next
 run. Method notes in the session's examiner-1999-2003 report.
+
+## Judgment items from the alt-web hunt (2026-07-07)
+
+| Election | Item | Question | Where |
+|---|---|---|---|
+| 2011-11-08 | SFist 10:22pm 'Lee 44,451 (27%)' at 100% precincts | the ratio convention implies a first-choice total of 161,600-167,700 (an 82 percent night share), but Lee held only 74.5 percent of his certified first-choice votes at that hour, an internal tension; the ingested row uses only the safe top-3 sum (44.0 dim) | sfist.com/2011/11/08/election_night_results/ |
+| 2013-11-05 | SFist day-after: '56,000 ballots cast by mail and about 40,000 cast in polling stations' (~96,000) | 'cast' is turnout language, not counted-so-far language; if judged to echo the DOE's counted release, it becomes a d1 floor at 74.5 percent | web.archive.org/web/20131109061856/http://sfist.com/2013/11/06/dueling_8_washington_props_go_down.php |
+| 2000-12-12 | LAT-via-Usenet 8,000-remaining conversion (ingested, 93.8) | optional: confirm the sentence against the LA Times archive directly | groups.google.com/g/ba.politics/c/Y8S4VZY1-Ng |

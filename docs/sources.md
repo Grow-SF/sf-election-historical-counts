@@ -1444,6 +1444,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 2011-11-08 | 0 |  | 86,865 | 44.0% | contemporary news report (live web) — SFist election-night liveblog (still live: https://sfist.com/2011/11/08/election_night_results/), 10:22 p.m. entry at '100% of precincts': DOE-attributed mayoral first-choice counts Lee 44,451 + Avalos 26,447 + Herrera 15,967 = 86,865, a top-3-of-16-candidates sum and therefore a deep floor, flagged night_partial; the same entry's printed 27 percent for Lee implies a much larger first-choice total by the ratio convention (about 161,600-167,700) but that derivation conflicts with Lee holding only 74.5 percent of his certified first-choice votes at that hour, so the ratio floor is NOT ingested and is queued for judgment; the 10:00 p.m. entry (58 percent reporting) is logged in the report; read 2026-07-07 |
 | 2011-11-09 | 1 |  | 157,026 | 79.6% | Wayback Machine capture — https://web.archive.org/web/20111110070445/http://sfelections.org:80/results/20111108/ |
 | 2011-11-10 | 2 |  | 182,317 | 92.4% | Wayback Machine capture — https://web.archive.org/web/20111111002226/http://www.sfelections.org:80/results/20111108/ |
 | 2011-11-17 | 9 |  | 197,181 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20111118222301/http://sfelections.org:80/results/20111108/ |
@@ -2171,6 +2172,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 2000-12-13 | 1 |  | 121,629 | 93.8% | contemporary news report (live web) — LA Times (John M. Glionna, 2000-12-14) via a contemporaneous ba.politics Usenet repost (https://groups.google.com/g/ba.politics/c/Y8S4VZY1-Ng, quoted verbatim): 'With 8,000 absentee ballots still uncounted, election officials said that two of the races were still too close to call' - registrar-remaining conversion 129,629 minus 8,000 = 121,629 as of the day-after state the story describes; provenance chain is Usenet-quoting-LAT, confirmable against the LA Times archive, queued; mirror/altweb/2000-12-12/, read 2026-07-07 |
 | 2000-12-15 | 3 |  | 129,620 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20010124075700/http://sunset.ci.sf.ca.us:80/election2.nsf/NEIGHBOR (ballots/splits; contest views e.g. /web/20010124075500/.../SUPERVISOR01 carry the stamp '100% (529 of 529) precincts reporting as of 12/15/2000 at 04:18:38 PM') |
 
 ---

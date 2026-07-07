@@ -11183,11 +11183,17 @@
   "registered": 398234,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
+  "nReports": 2,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": 37.0,
   "pts": [
+   [
+    0.88,
+    93.8,
+    null,
+    null
+   ],
    [
     2.85,
     100.0,
@@ -11197,56 +11203,56 @@
   ],
   "thresholds": {
    "50": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "85": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "90": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "95": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "98": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "99": {
     "days": 3,
-    "bound": true
+    "bound": false
    }
   },
   "nightSrc": null,
-  "srcShort": "Wayback Machine capture"
+  "srcShort": "contemporary news report (live web)"
  },
  {
   "id": "2001-11-06",
@@ -13113,11 +13119,17 @@
   "registered": 464380,
   "source": "archival",
   "provisional": false,
-  "nReports": 4,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 5,
+  "nightPct": 44.0,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.1,
+    44.0,
+    null,
+    null
+   ],
    [
     0.83,
     79.6,
@@ -13146,27 +13158,27 @@
   "thresholds": {
    "50": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "55": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "60": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "65": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "70": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "75": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 2,
@@ -13193,8 +13205,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "Wayback Machine capture"
+  "nightSrc": "contemporary news report (live web)",
+  "srcShort": "contemporary news report (live web)"
  },
  {
   "id": "2012-06-05",
