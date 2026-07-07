@@ -304,6 +304,22 @@
   "kind": "General"
  },
  {
+  "date": "1970-06-02",
+  "turnoutPct": 63.8,
+  "registered": 337127,
+  "ballots": 214943,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
+  "date": "1970-11-03",
+  "turnoutPct": 70.5,
+  "registered": 372032,
+  "ballots": 262398,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
   "date": "1972-06-06",
   "turnoutPct": 63.8,
   "registered": 368357,

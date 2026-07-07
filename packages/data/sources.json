@@ -5053,6 +5053,54 @@
   ]
  },
  {
+  "id": "1970-11-03",
+  "name": "Consolidated General Election",
+  "final": 262398,
+  "finalSource": "CA SoS Statement of Vote, Nov 1970 general: SF Total Ballots Cast 262,398 (see data/sov_crosscheck_ledger.md)",
+  "observations": [
+   {
+    "date": "1970-11-04",
+    "days": 1,
+    "total": 245497,
+    "pct": 93.6,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle page scan (NewsBank/SFPL), 1970-11-04 p1A 'San Francisco Vote Tally' box, 1331/1350 precincts semiofficial: Governor sum 245,497 (Unruh 136,028 + Reagan 102,571 + Romo 4,044 + Shearer 2,854) - conservative night floor (top-contest sum, near-complete precincts); scan sweep_19701103_issue19701104_p2_s0.png (zooms zoom_gov_box.png, zoom_gov_numbers.png), read 2026-07-06"
+   },
+   {
+    "date": "1970-11-05",
+    "days": 2,
+    "total": 254038,
+    "pct": 96.8,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle page scan (NewsBank/SFPL), 1970-11-05 p10 'The S.F. Results' box, 1350/1350 precincts Final Semi-Official Count: Governor sum 254,038 (Unruh 140,327 + Reagan 106,706 + Romo 4,078 + Shearer 2,927) - cross-checked against the same page's county-by-county Governor table SF row, digits match exactly; 8,360 below SOV certified, consistent with pending absentees; scans sweep_19701103_issue19701105_p10_s0.png/_s1.png, read 2026-07-06"
+   }
+  ]
+ },
+ {
+  "id": "1970-06-02",
+  "name": "Direct Primary Election",
+  "final": 214943,
+  "finalSource": "CA SoS Statement of Vote, June 1970 primary: SF total vote cast 214,943 (see data/sov_crosscheck_ledger.md)",
+  "observations": [
+   {
+    "date": "1970-06-03",
+    "days": 1,
+    "total": 108659,
+    "pct": 50.6,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle page scan (NewsBank/SFPL), 1970-06-03 p1B 'San Francisco Vote Tally' box, 603/1208 precincts semi-official: printed 'Total voters reported: 108,659' (registration line 337,127 matches SOV exactly) - press-deadline mid-count partial, flagged night_partial; scan sweep_19700602_issue19700603_p3_s0.png (zoom crop_19700602_p3s0_tally_flat.png), read 2026-07-06"
+   },
+   {
+    "date": "1970-06-04",
+    "days": 2,
+    "total": 214637,
+    "pct": 99.9,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle page scan (NewsBank/SFPL), 1970-06-04 p2 'San Francisco Vote Tally' box, 1208/1208 precincts complete semi-official: printed 'Total voters reported: 214,637' - 306 below the SOV certified 214,943, consistent with late/provisional additions in the official canvass; scan sweep_19700602_issue19700604_p2_s0.png (zoom crop_19700602_p2s0_tally_flat.png), read 2026-07-06"
+   }
+  ]
+ },
+ {
   "id": "1968-11-05",
   "name": "Consolidated General Election",
   "final": 307012,

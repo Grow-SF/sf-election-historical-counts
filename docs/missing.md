@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**75 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**73 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 75 elections still missing a night count
+## The 73 elections still missing a night count
 
 | Date | Year | Level | Kind | Description |
 |------|------|-------|------|-------------|
@@ -86,8 +86,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1967-11-07 | 1967 | city | Municipal |  |
 | 1968-06-04 | 1968 | city | Primary |  |
 | 1969-11-04 | 1969 | city | Municipal |  |
-| 1970-06-02 | 1970 | city | Primary |  |
-| 1970-11-03 | 1970 | city | General |  |
 | 1971-11-02 | 1971 | city | Municipal |  |
 
 ---
@@ -264,3 +262,23 @@ registered voters" on the complete count, ingested as a conservative day-2
 floor (63.5 percent of registration). Standing lesson: never trust a
 NewsBank issue label; verify the masthead date on every capture before
 reading numbers from it.
+
+**Update (2026-07-06, wave C).** The 1970 statewide pair is recovered with
+Statement of Vote denominators. June 1970: the Chronicle's "San Francisco
+Vote Tally" box prints a literal "Total voters reported" line in both
+issues, 108,659 at 603 of 1208 precincts election night (flagged partial)
+and 214,637 complete on day 2, which lands 306 under the SOV certified
+214,943. November 1970: Governor sums of 245,497 at 1331 of 1350 precincts
+election night and 254,038 complete on day 2 (cross-checked against the
+same page's county-by-county table), against SOV certified 262,398.
+November 1971 (municipal) is recovered but HELD OUT of the dataset pending
+a certified denominator, which exists in no state SOV (odd-year municipal)
+and no DOE table row: the election-night Mayor sum across all 11 candidates
+is 248,105 to 248,135 at 1323 of 1350 precincts (the spread is a 30-vote
+discrepancy in Feinstein's figure between the front-page box, 53,911, and
+the page 1A tally, 53,941), the day-2 paper prints final unofficial Mayor
+figures (Alioto 97,251, Dobbs 69,786, Feinstein 55,175) plus "a 75 per cent
+voter turnout" against a printed registration of 340,404. Needed to ingest:
+the official canvass total from the Registrar (canvass-completion coverage
+ran roughly November 18-24, 1971), the Municipal Reports, or the DOE
+records request.

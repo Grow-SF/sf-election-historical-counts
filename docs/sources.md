@@ -2,7 +2,7 @@
 
 # Data sources
 
-Every number in the Long Count dataset traces to a primary source. This file documents all 298 source records — what was consulted, what it established, and where to find it.
+Every number in the Long Count dataset traces to a primary source. This file documents all 300 source records — what was consulted, what it established, and where to find it.
 
 These records were previously displayed on the `/sources` page of the viz app. They now live here as a stable, version-controlled reference in the data repository.
 
@@ -3103,6 +3103,40 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1972-06-08 | 2 |  | 233,906 | 99.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1972-06-08 p12 'Who Voted for Whom Where' (Jerry Burns, News Analysis): '64 per cent of the city's 368,357 registered voters had the patience to brave the long lines' - printed turnout prose on the complete 1349/1349 count (same issue p15 'The S.F. Vote' table); conservative floor 233,906 = 63.5 percent of 368,357 (whole-percent rounding band; certified 234,840 is 63.75 percent, consistent); prose beats all contest sums (complete Dem president 150,073, Southern Crossing 197,480, both below the in-person floor 218,176); scan flip_19720606_issue19720609_p12.png (label off by one, masthead-verified June 8, 1972), read 2026-07-06 · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151697B18DE40352%402441477-151474AD54C707FE%4013-151474AD54C707FE%40 |
+
+---
+
+### Consolidated General Election
+
+**ID:** `1970-11-03`
+
+**Certified final:** 262,398
+
+**Source:** CA SoS Statement of Vote, Nov 1970 general: SF Total Ballots Cast 262,398 (see data/sov_crosscheck_ledger.md)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1970-11-04 | 1 |  | 245,497 | 93.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1970-11-04 p1A 'San Francisco Vote Tally' box, 1331/1350 precincts semiofficial: Governor sum 245,497 (Unruh 136,028 + Reagan 102,571 + Romo 4,044 + Shearer 2,854) - conservative night floor (top-contest sum, near-complete precincts); scan sweep_19701103_issue19701104_p2_s0.png (zooms zoom_gov_box.png, zoom_gov_numbers.png), read 2026-07-06 |
+| 1970-11-05 | 2 |  | 254,038 | 96.8% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1970-11-05 p10 'The S.F. Results' box, 1350/1350 precincts Final Semi-Official Count: Governor sum 254,038 (Unruh 140,327 + Reagan 106,706 + Romo 4,078 + Shearer 2,927) - cross-checked against the same page's county-by-county Governor table SF row, digits match exactly; 8,360 below SOV certified, consistent with pending absentees; scans sweep_19701103_issue19701105_p10_s0.png/_s1.png, read 2026-07-06 |
+
+---
+
+### Direct Primary Election
+
+**ID:** `1970-06-02`
+
+**Certified final:** 214,943
+
+**Source:** CA SoS Statement of Vote, June 1970 primary: SF total vote cast 214,943 (see data/sov_crosscheck_ledger.md)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1970-06-03 | 1 |  | 108,659 | 50.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1970-06-03 p1B 'San Francisco Vote Tally' box, 603/1208 precincts semi-official: printed 'Total voters reported: 108,659' (registration line 337,127 matches SOV exactly) - press-deadline mid-count partial, flagged night_partial; scan sweep_19700602_issue19700603_p3_s0.png (zoom crop_19700602_p3s0_tally_flat.png), read 2026-07-06 |
+| 1970-06-04 | 2 |  | 214,637 | 99.9% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1970-06-04 p2 'San Francisco Vote Tally' box, 1208/1208 precincts complete semi-official: printed 'Total voters reported: 214,637' - 306 below the SOV certified 214,943, consistent with late/provisional additions in the official canvass; scan sweep_19700602_issue19700604_p2_s0.png (zoom crop_19700602_p2s0_tally_flat.png), read 2026-07-06 |
 
 ---
 
