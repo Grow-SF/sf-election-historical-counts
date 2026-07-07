@@ -404,3 +404,34 @@ with medium confidence), the pre-1867 run (needs Blue Book denominators
 first), and the 1850s-1895 municipals (needs both dates verified and
 denominators; the Municipal Reports volumes hold the latter). The one
 proven recipe: cdnc_fetch.js, search mode first, gates always.
+
+**Update (2026-07-07, the Examiner claim is FALSE).** This log has said the
+print Examiner's pages "survive only on microfilm." That was true of
+NewsBank's Access World News holdings and is false in general: ProQuest's
+"San Francisco Examiner, Historical and Recent" product carries full-page
+digital scans essentially continuously from 1865 to the present, and SFPL
+cardholders get it free through ezproxy.sfpl.org (verified on sfpl.org's
+Digitized Historical Newspapers page; independently corroborated by the UC
+Berkeley and Stanford library guides). The confusion likely stems from a
+separate, older ProQuest index-only product covering Jan 1995-Jan 2003
+with its own internal gap. Consequence: every "microfilm-or-nothing"
+verdict in this log is reopened, and the afternoon Examiner's election
+EVENING editions (fresher counts than any morning paper) are now
+searchable for the 1995-2010 night gaps and the pre-1985 dead ends alike.
+
+**Update (2026-07-07, CDNC's modern holdings).** For completeness: CDNC
+cannot serve the 2000s gaps directly. Its full 518-title list holds no SF
+Chronicle and no SF Examiner at any date; the only San Francisco titles
+reaching 1995-2014 are niche papers (Bay Area Reporter through 2005, J.
+The Jewish News, the UCSF Synapse, Vestkusten). A Bay Area Reporter probe
+of the November 2000 and October 2003 elections yielded one
+Department-attributed count-status line for 2000-11 ("about 40,000
+absentee ballots citywide yet to be counted," Wednesday morning, Nov 9
+2000 issue, section BAR20001109.1.1): NOT ingested, because it implies a
+floor of about 284,000 that contradicts the finer same-day Chronicle
+capture already in the dataset (277,575), the same unsafe-registrar-
+estimate class as the rejected 2001-11 figure; it stands as corroboration
+within rounding. The October 2003 recall coverage is percentages-only.
+The BAR's November 6, 2003 issue carries a count-status line for the
+Nov 4 mayoral, superseded by the finer 2am Chronicle point already
+ingested (84.7).
