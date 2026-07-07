@@ -70,6 +70,45 @@ Also: modern DOE figures 1968–2014 (lower priority; our exact data matches).
 Generals cross-check complete 1908-1960 (1944 skipped). Discrepancies under review: 1908, 1934, 1978.
 Remaining: 1964 general; 1948-1964 primaries.
 
+## Batch 5 (Task 5): 1966-1970 fill (no DOE row exists for these five dates)
+`data/sf_turnout_history_doe_1899_2019.csv` has no row at all for 1966-06-07,
+1966-11-08, 1968-06-04, 1970-06-02, or 1970-11-03 (a gap in the DOE table, not
+a DOE-vs-SOV disagreement), so these are pure "fill" entries: the SOV is the
+only certified source. Method note: for all five, the figure recorded is the
+SOV's own county **total vote / total ballots cast** summary line (from the
+"Registration - Vote - Percentages" / "Vote Percentage" table), not a single
+contest's sum (confirmed by internal SOV arithmetic: registration components
+sum to the printed registration total; precinct + absentee = the printed
+total). Full page-by-page notes: `.superpowers/sdd/task-5-notes/page_readings.md`
+(not committed; scratch working notes, screenshots of each SOV page included).
+
+| Election | SF certified total (Total vote/ballots cast) | Registration | SOV volume + page |
+|---|---|---|---|
+| 1966-06-07 Primary | 226,622 | 355,271 | [californiastate196668cali, p. n11](https://archive.org/details/californiastate196668cali/page/n11) |
+| 1966-11-08 General | 286,049 | 372,123 | [californiastate196668cali, p. n47](https://archive.org/details/californiastate196668cali/page/n47) |
+| 1968-06-04 Primary | 254,825 | 348,111 | [californiastate196668cali, p. n151](https://archive.org/details/californiastate196668cali/page/n151) |
+| 1970-06-02 Primary | 214,943 | 337,127 | [statementofvote197072cali, p. n11](https://archive.org/details/statementofvote197072cali/page/n11) |
+| 1970-11-03 General | 262,398 | 372,032 | [statementofvote197072cali, p. n54](https://archive.org/details/statementofvote197072cali/page/n54) |
+
+Cross-checked each general's top contest (Governor) against Wikipedia's
+by-county table, which independently cites the same SOV pages: 1966-11-08
+Reagan 114,796 + Brown 164,435 + Scattering 341 = 279,572 (< 286,049 total, as
+expected: a contest sum is always a floor under the true ballots-cast total);
+1970-11-03 Reagan 106,606 + Unruh 140,829 + Romo 3,958 + Shearer 2,625 =
+254,018 (< 262,398 total, as expected).
+
+**Source inconsistency flagged (internal to the SOV):** the 1968-06-04
+primary's printed "Percentage" column for San Francisco reads 66.34, but
+254,825 (Total vote cast) ÷ 348,111 (Total registration) = 73.21%. Every
+neighboring county on the same printed page has a percentage that reconciles
+exactly against its own printed total/registration (San Diego 71.23%,
+Sacramento 73.14%, San Bernardino 69.72%, etc.), and only San Francisco's
+percentage cell is off, while its own total-vote and registration cells are
+each independently confirmed (registration components sum correctly; precinct
++ absentee sum correctly). This is the same class of anomaly already logged
+for 1952-11-04 above ("Source inconsistency (internal to the SOV)"); the
+254,825 total-vote-cast figure is used as certified regardless.
+
 ## Pre-1908: NO digitized SOV — use California Blue Book / State Roster
 The digitized SOV series with SF-county breakdowns effectively starts 1908. For
 pre-1908 statewide elections the certified source of truth is the **California
