@@ -216,7 +216,7 @@ haven't recovered them yet. The full election-by-election list is now
 [`scripts/build_elections_master.py`](scripts/build_elections_master.py)) — **270
 San Francisco elections, 1849–2026**, each flagged by whether we hold a night
 count: **175 recovered · 26 turnout-only · 69 still missing**. The categories below
-summarize those 83.
+summarize those 69.
 
 **Pre-1892 statewide generals** (certified SF denominators already in hand — see
 [`data/pre1892_certified.md`](data/pre1892_certified.md); only the night count is missing)

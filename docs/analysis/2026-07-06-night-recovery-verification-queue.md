@@ -22,6 +22,7 @@ always-use-real-data rule).
 | 1970-11-03 | 136,028 + 102,571 + 4,044 + 2,854 = 245,497 | Governor sum, 1331/1350 | sweep_19701103_issue19701104_p2_s0.png (zooms zoom_gov_*.png) | ≤ certified 262,398; sets 93.6% night | high |
 | 1970-06-02 | 108,659 | printed "Total voters reported", 603/1208 | sweep_19700602_issue19700603_p3_s0.png (crop_19700602_p3s0_tally_flat.png) | ≤ certified 214,943; dimmed partial | high |
 | 1970-06-02 | 214,637 | printed "Total voters reported", 1208/1208 | sweep_19700602_issue19700604_p2_s0.png | ≤ certified 214,943 (306 under) | high |
+| 1970-11-03 | 140,327 + 106,706 + 4,078 + 2,927 = 254,038 | Governor sum, 1350/1350 (day 2) | sweep_19701103_issue19701105_p10_s0.png/_s1.png | ≤ certified 262,398; cross-checked against same-page county table | high |
 | 1974-11-05 | 228,265 | printed turnout line "228,265 out of 369,005" | sweep_19741105_issue19741107_p9_s1.png | ≤ certified 228,586 (321 under) | high |
 | 1974-11-05 | 169,752 | Governor sum, 775/1359 (night partial) | sweep_19741105_issue19741106_p5_s1.png | ≤ certified; dimmed | high |
 | 1980-08-19 | 140,514 | printed "only 140,514 voters went to the polls", 100% tallied | sweep_19800819_issue19800820_p1_s2.png/_s3.png | ≤ certified 140,551 (37 under); sets 100.0% night | high |
