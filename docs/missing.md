@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**78 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**75 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 78 elections still missing a night count
+## The 75 elections still missing a night count
 
 | Date | Year | Level | Kind | Description |
 |------|------|-------|------|-------------|
@@ -89,9 +89,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1970-06-02 | 1970 | city | Primary |  |
 | 1970-11-03 | 1970 | city | General |  |
 | 1971-11-02 | 1971 | city | Municipal |  |
-| 1972-06-06 | 1972 | city | Primary |  |
-| 1976-06-08 | 1976 | city | Primary |  |
-| 1977-08-02 | 1977 | city | Special |  |
 
 ---
 
@@ -248,3 +245,22 @@ fetches produced nothing better. Ingested as a rounding-safe floor of 16,500
 (the printed figure is approximate), giving an 83.6 percent night share.
 The lesson for future searches: re-read already-harvested documents for
 count language before declaring an election percentage-only.
+
+**Update (2026-07-06, wave B).** Three more "pre-1985 microfilm-or-nothing"
+entries above turned out to be recoverable after all, once the June
+captures' issue labels were re-verified against mastheads (several batches
+were one day off, a session-clobber artifact, so the pages read in June were
+not the pages believed). August 1977: the true E+2 paper (Aug 4) carries an
+absolute per-district Props A/B table on p2 (Prop B sum 174,308, final
+unofficial); the E+1 percentage-map dead end was real but described the
+wrong day's paper. June 1976: the E+1 (June 9) "San Francisco Vote Tally"
+box exists with counts; its header prints "26.1 per cent of 942 precincts"
+while every contest in the table runs 70 to 82 percent of its complete E+2
+count, so the header is a typesetting error (likely 76.1); the box is
+ingested as a flagged partial with the discrepancy noted. June 1972: no
+newspaper night count survives (the registrar said counting would run into
+June 7), but the June 8 paper prints "64 per cent of the city's 368,357
+registered voters" on the complete count, ingested as a conservative day-2
+floor (63.5 percent of registration). Standing lesson: never trust a
+NewsBank issue label; verify the masthead date on every capture before
+reading numbers from it.

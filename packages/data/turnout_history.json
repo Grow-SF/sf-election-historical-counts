@@ -308,7 +308,7 @@
   "turnoutPct": 63.8,
   "registered": 368357,
   "ballots": 234840,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "Primary"
  },
  {
@@ -364,7 +364,7 @@
   "turnoutPct": 67.1,
   "registered": 311254,
   "ballots": 208884,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "Primary"
  },
  {
@@ -380,7 +380,7 @@
   "turnoutPct": 53.1,
   "registered": 336046,
   "ballots": 178367,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "Special"
  },
  {

@@ -2943,19 +2943,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Special Municipal Election
 
 **ID:** `1977-08-02`
 
 **Certified final:** 178,367
 
-**Source:** SF Dept. of Elections turnout history (1960–2002)
+**Source:** SF Dept. of Elections historical turnout table (1899–2019): certified 178,367
 
 **Observations**
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1977-08-02 | 0 | ✓ | 161,622 | 90.6% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections turnout history (1960–2002) |
+| 1977-08-04 | 2 |  | 174,308 | 97.7% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1977-08-04 p2 'S.F.'s Election - A Hint of the Future' (Jerry Roberts), per-district table, final unofficial results: Prop B (retain district elections) Yes 62,185 + No 112,123 = 174,308 across all 11 districts plus absentee - largest measure sum (Prop A 169,256); beats in-person floor 161,622; E+1 (Aug 3) printed a percentage map only, so no night observation exists; scans sweep_19770802_issue19770804_p2_s0.png/_s1.png, read 2026-07-06 · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-15198D4F14D8773B%402443359-1514EE2C19F230BB%407-1514EE2C19F230BB%40 |
 
 ---
 
@@ -2975,19 +2975,20 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Consolidated Primary Election
 
 **ID:** `1976-06-08`
 
 **Certified final:** 208,884
 
-**Source:** SF Dept. of Elections turnout history (1960–2002)
+**Source:** SF Dept. of Elections historical turnout table (1899–2019): certified 208,884
 
 **Observations**
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1976-06-08 | 0 | ✓ | 191,684 | 91.8% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections turnout history (1960–2002) |
+| 1976-06-09 | 1 |  | 156,214 | 74.8% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1976-06-09 p1-A 'San Francisco Vote Tally' box: state Prop 15 (nuclear power) sum 156,214 (Yes 78,324 + No 77,890) - largest same-electorate sum in the night box; press-deadline partial flagged night_partial; box header prints '26.1 per cent of 942 precincts' (crop verified) but every contest in the table runs 70-82 percent of its complete E+2 count, so the header percentage is a typesetting error, likely for 76.1; scans tbl_19760608_issue19760609_p1.png, sweep_19760608_issue19760609_p2_s0.png, crop_1976_pct_header.png, read 2026-07-06 |
+| 1976-06-10 | 2 |  | 191,023 | 91.4% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1976-06-10 p10 'San Francisco Vote Tally (100 per cent of 942 precincts)': state Prop 15 sum 191,023 (Yes 95,823 + No 95,200) - largest of all 25 measures at complete precincts; sits 661 below the in-person floor 191,684 (measure undervote), so no floor improvement claimed; scan sweep_19760608_issue19760610_p10_s1.png, read 2026-07-06 |
 
 ---
 
@@ -3089,19 +3090,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Consolidated Primary Election
 
 **ID:** `1972-06-06`
 
 **Certified final:** 234,840
 
-**Source:** SF Dept. of Elections turnout history (1960–2002)
+**Source:** SF Dept. of Elections historical turnout table (1899–2019): certified 234,840
 
 **Observations**
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1972-06-06 | 0 | ✓ | 218,176 | 92.9% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections turnout history (1960–2002) |
+| 1972-06-08 | 2 |  | 233,906 | 99.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1972-06-08 p12 'Who Voted for Whom Where' (Jerry Burns, News Analysis): '64 per cent of the city's 368,357 registered voters had the patience to brave the long lines' - printed turnout prose on the complete 1349/1349 count (same issue p15 'The S.F. Vote' table); conservative floor 233,906 = 63.5 percent of 368,357 (whole-percent rounding band; certified 234,840 is 63.75 percent, consistent); prose beats all contest sums (complete Dem president 150,073, Southern Crossing 197,480, both below the in-person floor 218,176); scan flip_19720606_issue19720609_p12.png (label off by one, masthead-verified June 8, 1972), read 2026-07-06 · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151697B18DE40352%402441477-151474AD54C707FE%4013-151474AD54C707FE%40 |
 
 ---
 

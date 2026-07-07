@@ -5729,6 +5729,80 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1972-06-06",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 1972,
+  "final": 234840,
+  "registered": 368357,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    1.29,
+    99.6,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 2,
+    "bound": true
+   },
+   "55": {
+    "days": 2,
+    "bound": true
+   },
+   "60": {
+    "days": 2,
+    "bound": true
+   },
+   "65": {
+    "days": 2,
+    "bound": true
+   },
+   "70": {
+    "days": 2,
+    "bound": true
+   },
+   "75": {
+    "days": 2,
+    "bound": true
+   },
+   "80": {
+    "days": 2,
+    "bound": true
+   },
+   "85": {
+    "days": 2,
+    "bound": true
+   },
+   "90": {
+    "days": 2,
+    "bound": true
+   },
+   "95": {
+    "days": 2,
+    "bound": true
+   },
+   "98": {
+    "days": 2,
+    "bound": true
+   },
+   "99": {
+    "days": 2,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1972-11-07",
   "name": "Consolidated General Election",
   "kind": "General",
@@ -6121,6 +6195,74 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1976-06-08",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 1976,
+  "final": 208884,
+  "registered": 311254,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": 74.8,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    74.8,
+    null,
+    null
+   ],
+   [
+    1.29,
+    91.4,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 2,
+    "bound": false
+   },
+   "80": {
+    "days": 2,
+    "bound": false
+   },
+   "85": {
+    "days": 2,
+    "bound": false
+   },
+   "90": {
+    "days": 2,
+    "bound": false
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1976-11-02",
   "name": "Consolidated General Election",
   "kind": "General",
@@ -6152,6 +6294,72 @@
    }
   },
   "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1977-08-02",
+  "name": "Special Municipal Election",
+  "kind": "Special",
+  "year": 1977,
+  "final": 178367,
+  "registered": 336046,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    1.29,
+    97.7,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 2,
+    "bound": true
+   },
+   "55": {
+    "days": 2,
+    "bound": true
+   },
+   "60": {
+    "days": 2,
+    "bound": true
+   },
+   "65": {
+    "days": 2,
+    "bound": true
+   },
+   "70": {
+    "days": 2,
+    "bound": true
+   },
+   "75": {
+    "days": 2,
+    "bound": true
+   },
+   "80": {
+    "days": 2,
+    "bound": true
+   },
+   "85": {
+    "days": 2,
+    "bound": true
+   },
+   "90": {
+    "days": 2,
+    "bound": true
+   },
+   "95": {
+    "days": 2,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
