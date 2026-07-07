@@ -6374,6 +6374,140 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1980-06-03",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 1980,
+  "final": 206366,
+  "registered": 403382,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": 63.6,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    63.6,
+    null,
+    null
+   ],
+   [
+    1.29,
+    83.2,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 2,
+    "bound": false
+   },
+   "70": {
+    "days": 2,
+    "bound": false
+   },
+   "75": {
+    "days": 2,
+    "bound": false
+   },
+   "80": {
+    "days": 2,
+    "bound": false
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1980-08-19",
+  "name": "Special Municipal Election",
+  "kind": "Special",
+  "year": 1980,
+  "final": 140551,
+  "registered": 404035,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 100.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1980-11-04",
   "name": "Consolidated General Election",
   "kind": "General",
@@ -6707,6 +6841,64 @@
    }
   },
   "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1984-06-05",
+  "name": "Consolidated Primary Election",
+  "kind": "Primary",
+  "year": 1984,
+  "final": 180741,
+  "registered": 375799,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    1.29,
+    85.9,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 2,
+    "bound": true
+   },
+   "55": {
+    "days": 2,
+    "bound": true
+   },
+   "60": {
+    "days": 2,
+    "bound": true
+   },
+   "65": {
+    "days": 2,
+    "bound": true
+   },
+   "70": {
+    "days": 2,
+    "bound": true
+   },
+   "75": {
+    "days": 2,
+    "bound": true
+   },
+   "80": {
+    "days": 2,
+    "bound": true
+   },
+   "85": {
+    "days": 2,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
@@ -10300,11 +10492,17 @@
   "registered": 79340,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
+  "nReports": 2,
+  "nightPct": 83.6,
   "nightPartial": false,
   "vbmShare": 73.0,
   "pts": [
+   [
+    0.29,
+    83.6,
+    null,
+    null
+   ],
    [
     5.64,
     100.0,
@@ -10314,31 +10512,31 @@
   ],
   "thresholds": {
    "50": {
-    "days": 6,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 6,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 6,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 6,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 6,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 6,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 6,
+    "days": 1,
     "bound": true
    },
    "85": {
@@ -10362,8 +10560,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "Wayback Machine capture"
+  "nightSrc": "SF Chronicle via NewsBank (SFPL)",
+  "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {
   "id": "2008-06-03",

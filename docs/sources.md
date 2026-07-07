@@ -1643,6 +1643,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 2008-04-09 | 1 |  | 16,500 | 83.6% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'Voters elect Speier to finish term of Rep. Lantos' 2008-04-09 pB1 (John Wildermuth): 'With all the San Francisco precincts reporting... About 17,000 ballots were cast in San Francisco, and more than 50,000 in San Mateo County' (docref 11FF1C4B48B28060) - printed approximate; rounding-safe floor 16,500 per 1977-11 precedent (mail ballots over 60 percent of votes cast were included night-of); SF-only figure, distinct from the San Mateo line · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/11FF1C4B48B28060 |
 | 2008-04-14 | 6 |  | 19,742 | 100.0% | Wayback Machine capture — DOE Election Summary page (archived), 'Last Updated: April 14, 2008 11:15 AM', 107/107 precincts (100.00%): Vote By Mail/Absentee 14,410 (18.16%), Election Day 5,332 (6.72%), Total 19,742 (24.88% of registered) - https://web.archive.org/web/20080415044319/http://www.sfgov.org/site/elections_index.asp?id=75242 (stamp and figures verified against capture; page not archived earlier, so this day-6 near-complete canvass point is the earliest digital observation found, not a night point) |
 
 ---
@@ -2717,19 +2718,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Consolidated Primary Election
 
 **ID:** `1984-06-05`
 
 **Certified final:** 180,741
 
-**Source:** SF Dept. of Elections turnout history (1960–2002)
+**Source:** SF Dept. of Elections historical turnout table (1899–2019): certified 180,741
 
 **Observations**
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1984-06-05 | 0 | ✓ | 151,013 | 83.6% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections turnout history (1960–2002) |
+| 1984-06-07 | 2 |  | 155,192 | 85.9% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1984-06-07 p20 'HOW SAN FRANCISCO VOTED' box, 708/708 precincts (100%): City Prop B (Police Night Pay) YES 81,436 + NO 73,756 = 155,192 - largest same-basis SF measure sum (printed 52.5/47.5 pcts match counts); beats in-person floor 151,013; E+1 box was percentage-only, so no night observation exists; scan final_19840605_issue19840607_p20_s1_cityprop.png, read 2026-07-06 · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-156952CA1DE699EE%402445858-156900B7B348064E%407-156900B7B348064E%40 |
 
 ---
 
@@ -2829,35 +2830,36 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Special Municipal Election
 
 **ID:** `1980-08-19`
 
 **Certified final:** 140,551
 
-**Source:** SF Dept. of Elections turnout history (1960–2002)
+**Source:** SF Dept. of Elections historical turnout table (1899–2019): certified 140,551; paper's complete night count 140,514 sits 37 below, consistent with late absentees
 
 **Observations**
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1980-08-19 | 0 | ✓ | 119,566 | 85.1% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections turnout history (1960–2002) |
+| 1980-08-20 | 1 |  | 140,514 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1980-08-20 p1 'Light S.F. Turnout At Polls' (Marshall Kilduff), 100 percent of ballots tallied: printed 'only 140,514 voters went to the polls' - prose ballots-cast beats measure sum (Prop A repeal YES 69,632 + NO 68,036 = 137,668, plus 2,846 invalid = 140,514 exactly; spread 1,596 matches printed); scans sweep_19800819_issue19800820_p1_s2.png/_s3.png, read 2026-07-06 |
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Consolidated Primary Election
 
 **ID:** `1980-06-03`
 
 **Certified final:** 206,366
 
-**Source:** SF Dept. of Elections turnout history (1960–2002)
+**Source:** SF Dept. of Elections historical turnout table (1899–2019): certified 206,366
 
 **Observations**
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1980-06-03 | 0 | ✓ | 191,196 | 92.6% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections turnout history (1960–2002) |
+| 1980-06-04 | 1 |  | 131,324 | 63.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1980-06-04 p2 'S.F. VOTE' box, 70% precincts reporting: state Prop 9 SF sum 131,324 (Yes 37,691 + No 93,633) - press-deadline mid-count partial (below the in-person floor 191,196, kept as a dated night observation, flagged night_partial); scans sweep_19800603_issue19800604_p2_s2.png/_s3.png, read 2026-07-06 |
+| 1980-06-05 | 2 |  | 171,635 | 83.2% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1980-06-05 p5 'FINAL SAN FRANCISCO VOTE' box, 100% precincts reporting: City Prop V (Corporate Tax Initiative) sum 171,635 (Yes 69,628 + No 102,007) - largest same-basis SF measure sum at complete precincts; excludes absentees still in canvass (certified 206,366); scan sweep_19800603_issue19800605_p5_s0.png, read 2026-07-06 |
 
 ---
 

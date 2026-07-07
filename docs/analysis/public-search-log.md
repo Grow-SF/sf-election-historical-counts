@@ -139,3 +139,15 @@ point (stamp_kind page-self-reported, days_since_election 6); it moves this
 election off the missing list but the true night count is still not in the
 digital archives. This election was previously grouped above among the "5
 elections" lacking absolute counts; that framing predates this finding.
+
+**Update (2026-07-06, later).** The April 2008 night count was then found
+after all, in the NewsBank text archive: the Chronicle's morning-after story
+(April 9, 2008, pB1, John Wildermuth, docref 11FF1C4B48B28060) prints "About
+17,000 ballots were cast in San Francisco" with all San Francisco precincts
+reporting, SF-only and separate from the San Mateo figure. The sentence had
+been sitting unextracted in a document harvested in June, when this election
+was logged as percentage-only; eleven fresh queries and five new document
+fetches produced nothing better. Ingested as a rounding-safe floor of 16,500
+(the printed figure is approximate), giving an 83.6 percent night share.
+The lesson for future searches: re-read already-harvested documents for
+count language before declaring an election percentage-only.
