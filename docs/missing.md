@@ -513,3 +513,15 @@ belonging to a different line; an Alameda County story misattributed to
 SF). November 1986 remains without a night statement: its coverage is
 percentages-only and no absentee-status clause was printed, so no
 conversion is available.
+
+**Correction (2026-07-07, same day).** The November 1994 night conversion
+described above was WITHDRAWN on review. Unlike 1998 (an election-night-
+dated statement that zero absentees were counted, itself a scandal-driven
+anomaly rather than era practice) and June 1986 (a printed 12:09 a.m.
+precinct-completion time), the 1994 inference rested only on a week-later
+retrospective, and the round's own evidence cuts against it: the Nov 9
+Examiner front page had just 373 of 576 precincts reporting, so precinct
+counting was demonstrably incomplete on election night and the precinct
+total is neither a pinned night value nor a guaranteed floor. The day-7
+certified point (249,669) stands; November 1994 reverts to turnout-only
+pending a genuinely dated night observation.

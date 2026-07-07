@@ -10185,17 +10185,11 @@
   "registered": 450649,
   "source": "archival",
   "provisional": false,
-  "nReports": 3,
-  "nightPct": 70.3,
+  "nReports": 2,
+  "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
-   [
-    0.29,
-    70.3,
-    null,
-    null
-   ],
    [
     0.88,
     96.0,
@@ -10232,23 +10226,23 @@
    },
    "75": {
     "days": 1,
-    "bound": false
+    "bound": true
    },
    "80": {
     "days": 1,
-    "bound": false
+    "bound": true
    },
    "85": {
     "days": 1,
-    "bound": false
+    "bound": true
    },
    "90": {
     "days": 1,
-    "bound": false
+    "bound": true
    },
    "95": {
     "days": 1,
-    "bound": false
+    "bound": true
    },
    "98": {
     "days": 7,
@@ -10259,8 +10253,8 @@
     "bound": true
    }
   },
-  "nightSrc": "proquest-examiner",
-  "srcShort": "proquest-examiner"
+  "nightSrc": null,
+  "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {
   "id": "1995-11-07",

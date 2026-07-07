@@ -4346,14 +4346,6 @@
    {
     "date": "1994-11-09",
     "days": 1,
-    "total": 175502,
-    "pct": 70.3,
-    "label": "proquest-examiner",
-    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 1994-11-16 p13 (docview 2197146892, page image verified): Deputy Registrar Ridenour's final tally 249,669 with 'the monumental task of counting the 74,167 absentee and provisional ballots' after election day - 74,167 equals the certified absentee column EXACTLY and 249,669 minus 74,167 equals the certified precinct column 175,502, pinning the night count to the precinct total (era practice of counting zero absentees night-of corroborated by the 1998-11-04 Examiner statement); screenshots mirror/examiner/1994-11-16/, read 2026-07-07"
-   },
-   {
-    "date": "1994-11-09",
-    "days": 1,
     "total": 239669,
     "pct": 96.0,
     "label": "SF Chronicle via NewsBank (SFPL)",
