@@ -37,11 +37,25 @@ The worklist is the 16 post-1965 `recovered = no` rows of
 | 15 | 1966-11-08 | General | Not yet page-walked |
 | 16 | 1966-06-07 | Primary | Not yet page-walked |
 
-All 16 have certified denominators in the DOE historical turnout table
-(`data/sf_turnout_history_doe_1899_2019.csv`), so each needs only a night
-numerator. The pre-1966 gaps (early-1900s specials, pre-1907 municipals,
-pre-1892 statewide) are out of scope for this effort; several are already
-flagged microfilm-or-nothing.
+Eight of the 16 have certified denominators in the DOE historical turnout
+table (`data/sf_turnout_history_doe_1899_2019.csv`): 2008-04-08, 1984-06-05,
+1980-08-19, 1980-06-03, 1977-08-02, 1976-06-08, 1974-11-05, 1972-06-06.
+Those need only a night numerator. The eight 1966-1971 elections are absent
+from the DOE table, so each also needs a certified denominator:
+
+- **Statewide even-year (5):** 1970-11-03, 1970-06-02, 1968-06-04,
+  1966-11-08, 1966-06-07 take their certified SF totals from the CA
+  Statement of Vote via the `sov-certified-turnout` skill (no browser
+  session needed; runs in parallel with the NewsBank waves).
+- **Odd-year municipals (3):** 1971-11-02, 1969-11-04, 1967-11-07 have no
+  statewide SOV; the denominator comes from the paper's complete "total
+  vote of city" (E+2 semi-official or official canvass), which the
+  `newsbank-election-recovery` skill already captures, or stays
+  `needs-2day-capture` and the election is recorded turnout-pending.
+
+The pre-1966 gaps (early-1900s specials, pre-1907 municipals, pre-1892
+statewide) are out of scope for this effort; several are already flagged
+microfilm-or-nothing.
 
 ## Phase 1: 2008-04 digital recovery (no browser session needed)
 
