@@ -503,7 +503,10 @@ page on the December 2003 runoff night (DaveOinSF, 'Talk about San
 Francisco Mayoral Election Here', nineteen timestamped entries 1:46 to
 2:48am, explicitly citing sfgov.org/wcm_election/nstats.htm): every
 entry is percentages or precinct fractions, never an absolute count, so
-nothing ingests, but the 2:48am '99.11 percent in' entry is timestamped
-evidence the count was night-complete and now corroborates the queued
-Examiner 'on Tuesday' judgment. 2006-11 and 2000-11 are dry there
+nothing ingests, but the 2:48am '99.11 percent in' entry is the standard
+precincts-reporting metric (the thread's own entries run 557/562 to
+562/562), so it evidences night-complete PRECINCT counting only; it is
+silent on the VBM and provisional piles and therefore supports only
+part of the queued Examiner 'on Tuesday' judgment (operator's
+correction, same day). 2006-11 and 2000-11 are dry there
 (eleven queries; the site launched in 2002).
