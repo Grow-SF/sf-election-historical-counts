@@ -15,9 +15,9 @@ historical counts from newspaper and web archives — and tells the story in an
 interactive site.
 
 Live data spans **1868–2026** (turnout back to 1879, registration back to 1908,
-election-night counts back to 1868): 191 elections with an election-night count
-(including 104 pre-1965 counts recovered from the hand-count and machine eras,
-back to 1868), 309 recovered historical canvass observations, and 241 modern
+election-night counts back to 1868): 196 elections with an election-night count
+(including 105 pre-1965 counts recovered from the hand-count and machine eras,
+back to 1868), 321 recovered historical canvass observations, and 241 modern
 per-release reports, every number traceable to a cited source. The long view
 reveals distinct eras — _erratic_ in the hand-count era (1868–1922, when ballot
 length, not the calendar, set the pace: ~61% counted by morning in 1908 but
@@ -168,7 +168,7 @@ uses `tesseract`. None of these binaries are in pyproject; install via brew.)
 
 ## Help us recover the missing elections
 
-**56 San Francisco elections still lack an election-night count** — see
+**55 San Francisco elections still lack an election-night count** — see
 [`data/elections_master.csv`](data/elections_master.csv) (the `recovered=no` rows)
 and [`docs/missing.md`](docs/missing.md). Most are pre-1907, above all the 1856–1905 mayoral
 elections. None are lost causes: the returns were printed at the time and survive
@@ -215,8 +215,8 @@ haven't recovered them yet. The full election-by-election list is now
 [`data/elections_master.csv`](data/elections_master.csv) (built by
 [`scripts/build_elections_master.py`](scripts/build_elections_master.py)) — **275
 San Francisco elections, 1849–2026**, each flagged by whether we hold a night
-count: **191 recovered · 28 turnout-only · 56 still missing**. The categories below
-summarize those 56. (The total rose in July 2026: the Municipal Reports
+count: **196 recovered · 24 turnout-only · 55 still missing**. The categories below
+summarize those 55. (The total rose in July 2026: the Municipal Reports
 cumulative Registrar table exposed a spurious index entry, Nov 1 1898, and
 three previously unindexed specials; see the search log.)
 

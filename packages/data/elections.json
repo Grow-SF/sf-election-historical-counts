@@ -9007,11 +9007,17 @@
   "registered": 369468,
   "source": "archival",
   "provisional": false,
-  "nReports": 2,
-  "nightPct": null,
+  "nReports": 3,
+  "nightPct": 85.4,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.17,
+    85.4,
+    null,
+    null
+   ],
    [
     0.88,
     97.3,
@@ -9060,15 +9066,15 @@
    },
    "90": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 1,
-    "bound": true
+    "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+  "nightSrc": "proquest-examiner",
+  "srcShort": "proquest-examiner"
  },
  {
   "id": "1986-11-04",
@@ -10179,14 +10185,26 @@
   "registered": 450649,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
+  "nReports": 3,
+  "nightPct": 70.3,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
+    0.29,
+    70.3,
+    null,
+    null
+   ],
+   [
     0.88,
     96.0,
+    null,
+    null
+   ],
+   [
+    6.88,
+    100.0,
     null,
     null
    ]
@@ -10214,27 +10232,35 @@
    },
    "75": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 1,
+    "bound": false
+   },
+   "98": {
+    "days": 7,
+    "bound": true
+   },
+   "99": {
+    "days": 7,
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+  "nightSrc": "proquest-examiner",
+  "srcShort": "proquest-examiner"
  },
  {
   "id": "1995-11-07",

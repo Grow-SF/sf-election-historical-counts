@@ -420,3 +420,22 @@ CLIPPED KWIC leads (a printed 1994 certified-total confirmation, a
 derived 1994 night candidate of 175,502, a 1986 'counted by 10 p.m.'
 retrospective): held un-ingested pending page-image verification, with
 the thirteen-image queue in the session notes.
+
+**Update (2026-07-07, the image-verification pass).** All fourteen queued
+page images were read in one serialized run (27-second pacing, no robot
+wall). Every ingested 1998 figure confirmed verbatim against its page
+image. Two conversions graduated to night points on the strength of the
+images plus the certified precinct/absentee splits: November 1994, where
+the Examiner's '74,167 absentee and provisional ballots' counted after
+election day equals the certified absentee column EXACTLY, pinning the
+night count to the certified precinct total 175,502 (70.3 percent); and
+June 1986, where the county clerk comparison prints 'San Francisco at
+12:09 a.m.' for precinct-tally completion with 'thousands of [absentee]
+votes left to count this morning', pinning that night to the precinct
+total 125,143 (85.4 percent). November 1994 also gained the registrar's
+printed final tally (249,669, matching certified exactly, day 7). Two
+predecessor KWIC artifacts were corrected by the images (a Kubby figure
+belonging to a different line; an Alameda County story misattributed to
+SF). November 1986 remains without a night statement: its coverage is
+percentages-only and no absentee-status clause was printed, so no
+conversion is available.

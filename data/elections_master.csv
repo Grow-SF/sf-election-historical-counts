@@ -196,7 +196,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1984-06-05,1984,city,Primary,,turnout-only,,exact,SFPL/DataSF/DOE
 1984-11-06,1984,city,General,,night,94.6,exact,SFPL/DataSF/DOE
 1985-11-05,1985,city,Municipal,,night,92.5,exact,SFPL/DataSF/DOE
-1986-06-03,1986,city,Primary,,turnout-only,,exact,SFPL/DataSF/DOE
+1986-06-03,1986,city,Primary,,night,85.4,exact,SFPL/DataSF/DOE
 1986-11-04,1986,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
 1987-04-07,1987,city,Special,,night,91.2,exact,SFPL/DataSF/DOE
 1987-06-02,1987,city,Special,,night,79.4,exact,SFPL/DataSF/DOE
@@ -214,7 +214,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1993-06-15,1993,city,Special,,night,93.6,exact,SFPL/DataSF/DOE
 1993-11-02,1993,city,General,,night,81.5,exact,SFPL/DataSF/DOE
 1994-06-07,1994,city,Primary,,night,81.9,exact,SFPL/DataSF/DOE
-1994-11-08,1994,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+1994-11-08,1994,city,General,,night,70.3,exact,SFPL/DataSF/DOE
 1995-11-07,1995,city,Municipal,,night,81.6,exact,SFPL/DataSF/DOE
 1995-12-12,1995,city,Runoff,,night,68.2,exact,SFPL/DataSF/DOE
 1996-03-26,1996,city,Primary,,night,59.6,exact,SFPL/DataSF/DOE
