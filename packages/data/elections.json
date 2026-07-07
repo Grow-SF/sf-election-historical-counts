@@ -11667,11 +11667,23 @@
   "registered": 93537,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 3,
+  "nightPct": 41.8,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    41.8,
+    null,
+    null
+   ],
+   [
+    0.79,
+    92.8,
+    null,
+    null
+   ],
    [
     5.77,
     100.0,
@@ -11681,40 +11693,40 @@
   ],
   "thresholds": {
    "50": {
-    "days": 6,
-    "bound": true
+    "days": 1,
+    "bound": false
    },
    "55": {
-    "days": 6,
-    "bound": true
+    "days": 1,
+    "bound": false
    },
    "60": {
-    "days": 6,
-    "bound": true
+    "days": 1,
+    "bound": false
    },
    "65": {
-    "days": 6,
-    "bound": true
+    "days": 1,
+    "bound": false
    },
    "70": {
-    "days": 6,
-    "bound": true
+    "days": 1,
+    "bound": false
    },
    "75": {
-    "days": 6,
-    "bound": true
+    "days": 1,
+    "bound": false
    },
    "80": {
-    "days": 6,
-    "bound": true
+    "days": 1,
+    "bound": false
    },
    "85": {
-    "days": 6,
-    "bound": true
+    "days": 1,
+    "bound": false
    },
    "90": {
-    "days": 6,
-    "bound": true
+    "days": 1,
+    "bound": false
    },
    "95": {
     "days": 6,
@@ -11729,8 +11741,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "Wayback Machine capture"
+  "nightSrc": "proquest-examiner",
+  "srcShort": "proquest-examiner"
  },
  {
   "id": "2003-10-07",
@@ -11887,11 +11899,17 @@
   "registered": 466127,
   "source": "archival",
   "provisional": false,
-  "nReports": 3,
+  "nReports": 4,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.79,
+    92.4,
+    null,
+    null
+   ],
    [
     1.5,
     88.9,
@@ -11913,40 +11931,40 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "85": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "90": {
-    "days": 3,
-    "bound": false
+    "days": 1,
+    "bound": true
    },
    "95": {
     "days": 3,
@@ -11954,7 +11972,7 @@
    }
   },
   "nightSrc": null,
-  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+  "srcShort": "proquest-examiner"
  },
  {
   "id": "2004-03-02",
@@ -13541,16 +13559,28 @@
   "registered": 435757,
   "source": "archival",
   "provisional": false,
-  "nReports": 2,
-  "nightPct": null,
+  "nReports": 4,
+  "nightPct": 69.8,
   "nightPartial": false,
   "vbmShare": 69.5,
   "pts": [
+   [
+    0.29,
+    69.8,
+    null,
+    null
+   ],
    [
     2.84,
     95.8,
     67.9,
     27.9
+   ],
+   [
+    5.79,
+    82.0,
+    null,
+    null
    ],
    [
     8.65,
@@ -13561,44 +13591,44 @@
   ],
   "thresholds": {
    "50": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "70": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "75": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "98": {
     "days": 9,
@@ -13609,8 +13639,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "Wayback Machine capture"
+  "nightSrc": "proquest-examiner",
+  "srcShort": "proquest-examiner"
  },
  {
   "id": "2014-11-04",

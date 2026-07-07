@@ -2648,12 +2648,28 @@
   "finalSource": "https://www.sfelections.org/results/20140603/",
   "observations": [
    {
+    "date": "2014-06-04",
+    "days": 1,
+    "total": 90262,
+    "pct": 69.8,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2014-06-04 (docview 2069648911): Prop B (waterfront height limits) 53,636 + 36,626 = 90,262 at '100 percent of precincts reporting' in the morning-after edition - the election-night state (top-measure sum, undervote-conservative); mirror/examiner/2014-06/, read 2026-07-07"
+   },
+   {
     "date": "2014-06-06",
     "days": 3,
     "total": 123978,
     "pct": 95.8,
     "label": "Wayback Machine capture",
     "citation": "https://web.archive.org/web/20140608000135/http://www.sfelections.org:80/results/20140603/"
+   },
+   {
+    "date": "2014-06-09",
+    "days": 6,
+    "total": 106171,
+    "pct": 82.0,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2014-06-09 (docview 2069642935): Prop B 62,727 + 43,444 = 106,171 - day-6 canvass point, consistent progression from the night figure; mirror/examiner/2014-06/, read 2026-07-07"
    },
    {
     "date": "2014-06-12",
@@ -3616,6 +3632,14 @@
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
    {
+    "date": "2003-12-10",
+    "days": 1,
+    "total": 234627,
+    "pct": 92.4,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2003-12-11 p8 (docview 2206818350): 'Newsom had 123,832... to... Gonzalez's 110,795' as of Wednesday afternoon = mayoral race total 234,627 - a two-candidate runoff race total, a strong floor; mirror/examiner/2003-12/, read 2026-07-07"
+   },
+   {
     "date": "2003-12-11",
     "days": 2,
     "total": 225681,
@@ -3735,6 +3759,22 @@
   "final": 35897,
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
+   {
+    "date": "2002-12-11",
+    "days": 1,
+    "total": 15022,
+    "pct": 41.8,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2002-12-11 'Dufty, Ma win runoff' (docview 2206420768): the election-night results-board photograph shows a partial 15,022 (the board's registration line 93,537 matches the certified district-4-plus-8 registration exactly) - press-deadline night partial, flagged night_partial; mirror/examiner/2002-12/, read 2026-07-07"
+   },
+   {
+    "date": "2002-12-11",
+    "days": 1,
+    "total": 33308,
+    "pct": 92.8,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2002-12-11 'Dufty, Ma win runoff' (docview 2206420768): combined district 4 and 8 totals at 'all precincts reporting': district 4 Ma 7,627 vs 6,006 and district 8 Dufty 10,345 vs 9,330, summing to 33,308 - day-1 contest total; mirror/examiner/2002-12/, read 2026-07-07"
+   },
    {
     "date": "2002-12-16",
     "days": 6,

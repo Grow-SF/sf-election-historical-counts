@@ -1337,7 +1337,9 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 2014-06-04 | 1 |  | 90,262 | 69.8% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 2014-06-04 (docview 2069648911): Prop B (waterfront height limits) 53,636 + 36,626 = 90,262 at '100 percent of precincts reporting' in the morning-after edition - the election-night state (top-measure sum, undervote-conservative); mirror/examiner/2014-06/, read 2026-07-07 |
 | 2014-06-06 | 3 |  | 123,978 | 95.8% | Wayback Machine capture — https://web.archive.org/web/20140608000135/http://www.sfelections.org:80/results/20140603/ |
+| 2014-06-09 | 6 |  | 106,171 | 82.0% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 2014-06-09 (docview 2069642935): Prop B 62,727 + 43,444 = 106,171 - day-6 canvass point, consistent progression from the night figure; mirror/examiner/2014-06/, read 2026-07-07 |
 | 2014-06-12 | 9 |  | 129,399 | 100.0% | Wayback Machine capture — https://web.archive.org/web/20140629063326/http://sfelections.org/results/20140603/ |
 
 ---
@@ -1948,6 +1950,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 2003-12-10 | 1 |  | 234,627 | 92.4% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 2003-12-11 p8 (docview 2206818350): 'Newsom had 123,832... to... Gonzalez's 110,795' as of Wednesday afternoon = mayoral race total 234,627 - a two-candidate runoff race total, a strong floor; mirror/examiner/2003-12/, read 2026-07-07 |
 | 2003-12-11 | 2 |  | 225,681 | 88.9% | SF Chronicle via NewsBank (SFPL) — AP News Service via NewsBank (SFPL), 'Democrat Newsom Wins S.F. Mayoral Vote' 2003-12-10: 'With all precincts reporting, Newsom... received 118,651 votes, or 53 percent, to 107,030 votes, or 47 percent' = 225,681 - conservative night floor (mayor contest sum); exceeds certified precinct ballots 162,673 so night count included absentees |
 | 2003-12-12 | 3 |  | 246,667 | 97.2% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 2003-12-12 weekend edition p11 'Examiner View: Elections Department shines in runoff' (docview 2206312937, page image verified): 'Elections workers processed 246,667 votes on Tuesday, which amounted to 52.92 percent of The City's 466,127 registered voters' - arithmetic exact; stamped conservatively at the editorial's date since 'on Tuesday' is unproven as an hour-bounded night claim (if judged literal, this is a 97.2 percent NIGHT count for the Newsom-Gonzalez runoff; queued); 7,205 below certified; mirror/examiner/2003-12/, read 2026-07-07 |
 | 2003-12-12 | 3 |  | 247,890 | 97.6% | contemporary news report (live web) — Berkeley Daily Planet 2003-12-19 'Absentees Proved Crucial in Newsom's Victory': 'In the unofficial statement of vote released last Friday afternoon [2003-12-12], Newsom had 131,280 votes to 116,610 votes for Gonzalez' - conservative floor (mayor contest sum 247,890); 37% absentee share matches certified 35.9%; https://berkeleydailyplanet.com/issue/2003-12-19/article/17957 |
@@ -2033,6 +2036,8 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 2002-12-11 | 1 |  | 15,022 | 41.8% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 2002-12-11 'Dufty, Ma win runoff' (docview 2206420768): the election-night results-board photograph shows a partial 15,022 (the board's registration line 93,537 matches the certified district-4-plus-8 registration exactly) - press-deadline night partial, flagged night_partial; mirror/examiner/2002-12/, read 2026-07-07 |
+| 2002-12-11 | 1 |  | 33,308 | 92.8% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 2002-12-11 'Dufty, Ma win runoff' (docview 2206420768): combined district 4 and 8 totals at 'all precincts reporting': district 4 Ma 7,627 vs 6,006 and district 8 Dufty 10,345 vs 9,330, summing to 33,308 - day-1 contest total; mirror/examiner/2002-12/, read 2026-07-07 |
 | 2002-12-16 | 6 |  | 35,897 | 100.0% | Wayback Machine capture — wayback sfgov.org/election/results1202 RUN DATE:12/16/02 02:28 PM (OFFICIAL RESULTS MUNICIPAL RUN-OFF ELECTION, 128/128 precincts; district 4+8 runoff) |
 
 ---

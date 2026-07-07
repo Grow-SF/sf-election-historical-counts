@@ -15,9 +15,9 @@ historical counts from newspaper and web archives — and tells the story in an
 interactive site.
 
 Live data spans **1868–2026** (turnout back to 1879, registration back to 1908,
-election-night counts back to 1868): 197 elections with an election-night count
+election-night counts back to 1868): 199 elections with an election-night count
 (including 105 pre-1965 counts recovered from the hand-count and machine eras,
-back to 1868), 330 recovered historical canvass observations, and 241 modern
+back to 1868), 339 recovered historical canvass observations, and 241 modern
 per-release reports, every number traceable to a cited source. The long view
 reveals distinct eras — _erratic_ in the hand-count era (1868–1922, when ballot
 length, not the calendar, set the pace: ~61% counted by morning in 1908 but
@@ -215,7 +215,7 @@ haven't recovered them yet. The full election-by-election list is now
 [`data/elections_master.csv`](data/elections_master.csv) (built by
 [`scripts/build_elections_master.py`](scripts/build_elections_master.py)) — **275
 San Francisco elections, 1849–2026**, each flagged by whether we hold a night
-count: **197 recovered · 23 turnout-only · 55 still missing**. The categories below
+count: **199 recovered · 21 turnout-only · 55 still missing**. The categories below
 summarize those 55. (The total rose in July 2026: the Municipal Reports
 cumulative Registrar table exposed a spurious index entry, Nov 1 1898, and
 three previously unindexed specials; see the search log.)
