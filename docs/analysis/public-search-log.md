@@ -359,6 +359,20 @@ The BAR's November 6, 2003 issue carries a count-status line for the
 Nov 4 mayoral, superseded by the finer 2am Chronicle point already
 ingested (84.7).
 
+**Update (2026-07-07, the records request is dead).** The Department of
+Elections has told the operator directly that it does not hold its own
+2000-2014 election-night release data. The drafted records request
+(docs/doe-records-request.md) is therefore not a path to the fourteen
+post-2000 night gaps; third-party captures are the only route. Newly
+identified unswept veins: the CA Secretary of State's own election-night
+results sites (vote2000.ss.ca.gov and successors), which published live
+county-level tallies for every statewide election night and were heavily
+captured by Wayback while the city's pages were not; contemporaneous
+blogs and liveblogs (SFist, BeyondChron, Calitics, DailyKos election
+threads), Usenet (ba.politics via Google Groups), archive.today (2012+),
+Common Crawl (2008+), the Library of Congress election web archives, and
+Archive-It partner collections (California Digital Library, Stanford).
+
 **Update (2026-07-07, the Examiner vein's first fruits).** ProQuest's
 digitized Examiner immediately closed both elections that had been held
 for lack of certified denominators. November 1967: the December 12, 1967
