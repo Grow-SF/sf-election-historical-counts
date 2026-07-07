@@ -3337,6 +3337,14 @@
   "observations": [
    {
     "date": "2006-11-08",
+    "days": 1,
+    "total": 156441,
+    "pct": 61.7,
+    "label": "Wayback Machine capture",
+    "citation": "Wayback Machine capture - SFGate election snapshot, page-stamped 'Vote totals as of 11/08 11:29 AM', 580/580 precincts, captured 2006-11-28: best same-electorate floor Measure A sum 156,441 - the closest-to-night observation known for this election (misses the 06:00 cutoff by 5.5 hours); reproduce: https://web.archive.org/web/20061128084817id_/http://www.sfgate.com/election/races/2006/11/07/snapshot/san_francisco.shtml; mirror/newsorg-night/2006-11-07/, read 2026-07-07"
+   },
+   {
+    "date": "2006-11-08",
     "days": 2,
     "total": 156441,
     "pct": 61.7,
@@ -3664,6 +3672,14 @@
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
    {
+    "date": "2003-10-15",
+    "days": 8,
+    "total": 256565,
+    "pct": 95.3,
+    "label": "Wayback Machine capture",
+    "citation": "Wayback Machine capture - SFGate recall returns page, page-stamped 10/15 3:40 PM, captured 2003-10-22: recall question SF sum 256,565 (No 205,886 + Yes 50,679) at 100 percent of precincts - beats the prior earliest observation by 21 days; reproduce: https://web.archive.org/web/20031022190203id_/http://sfgate.com/election/races/2003/10/07/CA/San_Francisco/G2003100739.shtml; mirror/newsorg-night/2003-10-07/, read 2026-07-07"
+   },
+   {
     "date": "2003-10-22",
     "days": 15,
     "total": 269143,
@@ -3838,6 +3854,14 @@
     "pct": 86.4,
     "label": "SF Chronicle archive",
     "citation": "SF Chronicle 2002-03-08 'Leno widens lead over Britt' (https://sfchronicle.com/politics/article/2867971): '16,500 absentee ballots remained to be tallied citywide, plus 4,000 provisional' - conservative floor"
+   },
+   {
+    "date": "2002-03-11",
+    "days": 6,
+    "total": 125922,
+    "pct": 83.8,
+    "label": "Wayback Machine capture",
+    "citation": "Wayback Machine capture - SFGate election2002 returns page, page-stamped 03/11/2002, captured 2003-04-23: SF Public Defender sum 125,922 (Adachi 68,690 + Burton 56,964 + write-ins 268) - the only known pre-certification observation for this election; reproduce: https://web.archive.org/web/20030423224758id_/http://www.sfgate.com/election2002/returns/sf/sf2.shtml; mirror/newsorg-night/2002-03-05/, read 2026-07-07"
    },
    {
     "date": "2002-03-12",
