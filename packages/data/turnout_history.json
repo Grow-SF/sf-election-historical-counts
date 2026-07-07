@@ -296,6 +296,14 @@
   "kind": "General"
  },
  {
+  "date": "1968-06-04",
+  "turnoutPct": 73.2,
+  "registered": 348111,
+  "ballots": 254825,
+  "source": "archival",
+  "kind": "Primary"
+ },
+ {
   "date": "1968-11-05",
   "turnoutPct": 82.0,
   "registered": 374335,
@@ -318,6 +326,14 @@
   "ballots": 262398,
   "source": "archival",
   "kind": "General"
+ },
+ {
+  "date": "1971-11-02",
+  "turnoutPct": 75.9,
+  "registered": 340404,
+  "ballots": 258227,
+  "source": "archival",
+  "kind": "Municipal"
  },
  {
   "date": "1972-06-06",

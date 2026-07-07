@@ -190,3 +190,34 @@ voter turnout" against a printed registration of 340,404. Needed to ingest:
 the official canvass total from the Registrar (canvass-completion coverage
 ran roughly November 18-24, 1971), the Municipal Reports, or the DOE
 records request.
+
+**Update (2026-07-06, wave D).** The November 1971 hold above is RESOLVED:
+the Chronicle's official-tally story (November 23, 1971, p4, "Official
+Tally - Prop. O Passes") prints both the certified total, "258,227 voters
+went to the polls, amounting to 75.8 per cent of the registered voters,"
+and the election-night plateau in the same sentence: "a slight increase
+from the 258,164 vote total reported on election night." That gives
+November 1971 a verified 100.0 percent night share (lever machines,
+absentees counted night-of), and the same story supplies official Mayor
+totals (Alioto 97,477, Dobbs 69,740, Feinstein 55,204) that supersede the
+election-night partials widely mirrored online. The canvass-story tactic
+did NOT repeat for November 1969 (issues of Nov 21, 25, 26, 27 all dry)
+or November 1967 (the Nov 28 paper confirms the canvass happened but
+restates no totals). Both elections now hold verified night observations
+awaiting a certified denominator: 1969 has a Prop B night sum of 182,237
+at 1200 of 1204 precincts plus a complete machine count of 199,488
+(absentees excluded), and the Department's own HistoricalBallotPropositions
+open-data file gives certified Prop B 183,148, which independently
+validates the night read; 1967 has a complete pre-absentee Mayor sum of
+242,170 at 1341 of 1341 precincts plus absentee-inclusive top-3 figures
+(Alioto 109,982, Dobbs 94,089, Morrison 40,996; full-field estimate about
+249,700, consistent with the 249,795 figure circulating unsourced online).
+The denominators live in the city's own "Statement of Vote" volumes at the
+SFPL History Center (finding aid confirms 1967, 1969, and 1971 volumes
+exist; in-library use only, not digitized). June 1968 gained a night
+observation (Prop A sum 112,468, the only SF count printed on a night
+wrecked by the new computer tabulation system's failure: the Chronicle's
+"S.F. COUNT - SLOWEST IN 4 DECADES" reports tally sheets in City Hall
+basement suitcases and a firebombed polling place) and a genuine open
+discrepancy: the paper's completed unofficial count, 262,449, exceeds the
+SOV certified 254,825; see docs/doe-data-discrepancies.md.

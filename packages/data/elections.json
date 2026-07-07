@@ -5675,6 +5675,31 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1968-06-04",
+  "name": "Direct Primary Election",
+  "kind": "Primary",
+  "year": 1968,
+  "final": 254825,
+  "registered": 348111,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 44.1,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    44.1,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1968-11-05",
   "name": "Consolidated General Election",
   "kind": "General",
@@ -5875,6 +5900,86 @@
    "95": {
     "days": 2,
     "bound": false
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1971-11-02",
+  "name": "General Municipal Election",
+  "kind": "Municipal",
+  "year": 1971,
+  "final": 258227,
+  "registered": 340404,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": 100.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    100.0,
+    null,
+    null
+   ],
+   [
+    20.29,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
    }
   },
   "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",

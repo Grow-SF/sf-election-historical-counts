@@ -2,7 +2,7 @@
 
 # Data sources
 
-Every number in the Long Count dataset traces to a primary source. This file documents all 300 source records — what was consulted, what it established, and where to find it.
+Every number in the Long Count dataset traces to a primary source. This file documents all 302 source records — what was consulted, what it established, and where to find it.
 
 These records were previously displayed on the `/sources` page of the viz app. They now live here as a stable, version-controlled reference in the data repository.
 
@@ -3106,6 +3106,23 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### General Municipal Election
+
+**ID:** `1971-11-02`
+
+**Certified final:** 258,227
+
+**Source:** Official canvass per SF Chronicle 1971-11-23 p4: 258,227 voters, 75.8 percent of registered (registration 340,404 printed 1971-11-03 p1B)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1971-11-03 | 1 |  | 258,164 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1971-11-23 p4 'Official Tally - Prop. O Passes': official canvass story states the certified 258,227 'was a slight increase from the 258,164 vote total reported on election night' - registrar-attributed election-night ballot total (lever-machine era, absentees counted night-of); corroborated by the E+1 (Nov 3) p1A 'S.F. Vote Tally' box at 1323/1350 precincts, Mayor 11-candidate sum 248,135 at press deadline; scans sweep_19711102_issue19711123_p4_s2.png, sweep_19711102_issue19711103_p2_s0.png, read 2026-07-06 |
+| 1971-11-23 | 21 |  | 258,227 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1971-11-23 p4 'Official Tally - Prop. O Passes': 'The official canvass showed that 258,227 voters went to the polls, amounting to 75.8 per cent of the registered voters' (registrar Emmery Mihaly); official Mayor totals Alioto 97,477 + Dobbs 69,740 + Feinstein 55,204; Prop O flipped from night 100,049-100,098 to official 100,185-100,097; scan sweep_19711102_issue19711123_p4_s2.png, read 2026-07-06 |
+
+---
+
 ### Consolidated General Election
 
 **ID:** `1970-11-03`
@@ -3153,6 +3170,22 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1968-11-06 | 1 |  | 255,938 | 83.4% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 'The Vote Tally' day-after paper, 1140 of 1282 precincts (press-deadline snapshot): president sum 255,938 (Humphrey 151,730 + Nixon 85,786 + Wallace 16,112 + Cleaver 2,310) - conservative night floor, partial precincts; digits independently re-verified; scan flip_19681105_issue19681107_p2.png · view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-151498F89D326DB1%402440167-15120ED6255D4856%403-15120ED6255D4856%40 |
+
+---
+
+### Direct Primary Election
+
+**ID:** `1968-06-04`
+
+**Certified final:** 254,825
+
+**Source:** CA SoS Statement of Vote, June 1968 primary: SF total vote cast 254,825 (see data/sov_crosscheck_ledger.md; SOV pct-column anomaly and newspaper conflict logged in docs/doe-data-discrepancies.md)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1968-06-05 | 1 |  | 112,468 | 44.1% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1968-06-05 p1 'S.F. Voters Rescue Market St.': city Prop A (Market St bonds) Yes 77,906 + No 34,562 = 112,468 - the only SF count printed election night (the new computer tabulation system failed; see 1968-06-07 p30 'S.F. COUNT - SLOWEST IN 4 DECADES'); no precinct basis printed, flagged night_partial, medium confidence; the June 6 completed unofficial count 262,449 exceeds the SOV certified 254,825 and is logged in docs/doe-data-discrepancies.md, not ingested; scans sweep_19680604_issue19680605_p1_s2.png, sweep_19680604_issue19680607_p30_s0.png, read 2026-07-06 |
 
 ---
 
