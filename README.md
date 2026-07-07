@@ -15,9 +15,9 @@ historical counts from newspaper and web archives — and tells the story in an
 interactive site.
 
 Live data spans **1868–2026** (turnout back to 1879, registration back to 1908,
-election-night counts back to 1868): 175 elections with an election-night count
-(including 90 pre-1965 counts recovered from the hand-count and machine eras,
-back to 1868), 279 recovered historical canvass observations, and 241 modern
+election-night counts back to 1868): 181 elections with an election-night count
+(including 96 pre-1965 counts recovered from the hand-count and machine eras,
+back to 1868), 289 recovered historical canvass observations, and 241 modern
 per-release reports, every number traceable to a cited source. The long view
 reveals distinct eras — _erratic_ in the hand-count era (1868–1922, when ballot
 length, not the calendar, set the pace: ~61% counted by morning in 1908 but
@@ -83,7 +83,7 @@ against the running preview harness.)*
 
 - `sf_count_timeline.csv` — modern per-release counts (the `sfcount` output).
 - `sf_archival_canvass_points.csv` — recovered historical observations
-  (1960–2014); schema and method in the runbook.
+  (1897–2014); schema and method in the runbook.
 - `sf_turnout_history_doe_1899_2019.csv` — DOE certified turnout (the
   denominators). Known data-quality issues tracked in
   `docs/denominator-errors.md`.
@@ -168,7 +168,7 @@ uses `tesseract`. None of these binaries are in pyproject; install via brew.)
 
 ## Help us recover the missing elections
 
-**71 San Francisco elections still lack an election-night count** — see
+**67 San Francisco elections still lack an election-night count** — see
 [`data/elections_master.csv`](data/elections_master.csv) (the `recovered=no` rows)
 and [`docs/missing.md`](docs/missing.md). Most are pre-1907, above all the 1856–1905 mayoral
 elections. None are lost causes: the returns were printed at the time and survive
@@ -213,10 +213,10 @@ None of these are *impossible* — the returns exist in some edition, microfilm,
 the County Clerk/Registrar's canvass, or the state Statement of Vote; we just
 haven't recovered them yet. The full election-by-election list is now
 [`data/elections_master.csv`](data/elections_master.csv) (built by
-[`scripts/build_elections_master.py`](scripts/build_elections_master.py)) — **272
+[`scripts/build_elections_master.py`](scripts/build_elections_master.py)) — **275
 San Francisco elections, 1849–2026**, each flagged by whether we hold a night
-count: **175 recovered · 26 turnout-only · 71 still missing**. The categories below
-summarize those 71. (The total rose in July 2026: the Municipal Reports
+count: **181 recovered · 27 turnout-only · 67 still missing**. The categories below
+summarize those 67. (The total rose in July 2026: the Municipal Reports
 cumulative Registrar table exposed a spurious index entry, Nov 1 1898, and
 three previously unindexed specials; see the search log.)
 
@@ -237,9 +237,14 @@ Governor **1849, 1851, 1853, 1855, 1857, 1859, 1861, 1863**. Likely source: the
 *Daily Alta California* (on NewsBank from 1849); certified via the California Blue
 Book / Bancroft.
 
-**Pre-1907 SF municipals** — *missing entirely* (the recovery ledger begins at the
-1907 general municipal). The odd-year mayoral / charter / supervisor elections of
-the 1850s–1905 are absent from the dataset. Needs the SFPL index for exact dates.
+**Pre-1907 SF municipals** — the 1897–1906 stretch is now recovered from the SF
+Call on CDNC (the free California Digital Newspaper Collection; see the search
+log for the method): night or complete counts for the 1897 Freeholders, 1898
+charter ratification, and the 1899/1901/1903/1905 mayoral elections, with
+certified denominators from the Municipal Reports cumulative table. Still open:
+the 1850s–1895 municipals (the Consolidation-era odd-year and consolidated
+even-year races), where the Daily Alta California and the Call on CDNC are the
+next vein.
 
 **Pre-1928 primaries** — California's direct primary began 1909; primaries **~1910–1926**
 are unrecovered (the ledger's primary tier starts 1928).

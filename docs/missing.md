@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**71 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**67 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 71 elections still missing a night count
+## The 67 elections still missing a night count
 
 | Date | Year | Level | Kind | Description |
 |------|------|-------|------|-------------|
@@ -55,16 +55,12 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1887-07-01 | 1887 | municipal | Charter | Proposed new charter — REJECTED; exact date unknown |
 | 1888-11-06 | 1888 | both | Presidential + Municipal | President + Congress + Legislature; Mayor (Pond re-elected) |
 | 1890-11-04 | 1890 | both | Gubernatorial + Municipal | Governor + state officers; Mayor (Sanderson) |
-| 1897-12-27 | 1897 | municipal | Charter | Board of Freeholders (draft new charter) |
-| 1898-05-26 | 1898 | municipal | Charter | New (1898/1900) Charter RATIFIED |
-| 1899-11-07 | 1899 | municipal | Municipal | Mayor (Phelan) — 1st under 1898 charter |
 | 1899-12-27 | 1899 | municipal | Special | Park-bond special (Municipal Reports cumulative table) |
 | 1899-12-29 | 1899 | municipal | Special | Sewer-bond special (the DOE turnout table dates it 1899-12-02; see doe-data-discrepancies.md) |
-| 1901-11-05 | 1901 | municipal | Municipal | Mayor (Schmitz) |
+| 1902-12-02 | 1902 | municipal | Special | Geary Street Railroad bond special (DOE turnout table; Municipal Reports confirm) |
 | 1902-12-04 | 1902 | municipal | Special | Charter-amendments special (Municipal Reports cumulative table) |
-| 1903-11-03 | 1903 | municipal | Municipal | Mayor (Schmitz re-elected) |
-| 1905-11-07 | 1905 | municipal | Municipal | Mayor (Schmitz, 3rd) + Supervisors |
-| 1906-11-06 | 1906 | statewide | Gubernatorial | Governor + state officers |
+| 1903-09-29 | 1903 | municipal | Special | Sewer and other bonds special (DOE turnout table; Municipal Reports confirm) |
+| 1903-10-08 | 1903 | municipal | Special | Street-railroad bonds special (DOE turnout table; Municipal Reports confirm) |
 | 1908-05-11 | 1908 | city | Special |  |
 | 1908-11-12 | 1908 | city | Special |  |
 | 1909-06-22 | 1909 | city | Primary |  |
@@ -326,7 +322,7 @@ carry complete day-2 counts, and two (November 1967 and November 1969)
 hold verified night observations awaiting certified denominators from the
 city Statement of Vote volumes at the SFPL History Center.
 
-**Update (2026-07-07, turnout 1891-1907).** The turnout record's 1891-1907
+**Update (2026-07-06, turnout 1891-1907).** The turnout record's 1891-1907
 hole is filled, from a single overlooked page: the Dept. of Elections
 cumulative registration-and-votes table in the FY1907-08 Municipal Report
 (p.871, archive.org sanfranciscomuni57sanfrich, cross-verified against the
@@ -347,3 +343,34 @@ amendments). The master list now carries 272 elections, and the missing
 night-count total rises from 69 to 71 because discovering elections adds
 to the denominator. These Municipal Reports ballots-cast figures double as
 certified denominators for the pre-1907 night counts still missing.
+
+**Update (2026-07-07, the CDNC vein).** A wholly new archive opened: the
+California Digital Newspaper Collection (cdnc.ucr.edu), free and full-text
+searchable, holding the SF Call (1856-1913), the Daily Alta California
+(1849-1891), and more. Nobody had tried it. Direct fetches are blocked by
+a Cloudflare challenge (and the same wall now fronts Chronicling America),
+but a real Chrome driven over a raw CDP session passes it; puppeteer's
+normal Page API does not (its Runtime.enable trips the challenge). The
+working recipe, search grammar, and OCR-endpoint parameters live in
+scripts/archive-recovery/cdnc_fetch.js. First campaign, the 1897-1906
+municipals and the post-fire general, all with Municipal Reports
+denominators: 1897-12 Freeholders (complete count 26,163 on day 2),
+1898-05 charter ratification (26,963 counted complete BY 10 PM ELECTION
+NIGHT, a 100.0 percent night share in 1898), 1899-11 (night partial
+20,248 clean-digit floor at 2:15am plus day-2 semi-official 51,660; one
+garbled Davis digit, hand-read pending, would lift the night floor to
+about 67 percent), 1901-11 (1:30am partial 38,982 plus day-2 printed
+total 53,493), 1903-11 (1am partial 39,326 plus day-2 printed 'Total
+vote Polled 59,767', plurality-checked), 1905-11 (voting machines:
+printed total 71,033 essentially complete by 6:20pm election night; the
+official denominator is the fire-era rounded 72,000, so the 98.7 percent
+share carries about a point of uncertainty), and 1906-11 (Governor sum
+37,287 at the Registrar's midnight semi-official revision, 96.7 percent).
+Recurring gate: this era's papers print election-night 'total vote of the
+city' PROJECTIONS that can exceed the certified count (1896: 65,178 vs
+certified 64,820; 1899: 52,005 vs 51,965; 1901: 53,814 vs 53,746; 1903:
+60,300 vs 59,824); every such figure was logged and excluded from floors.
+The 1896 ballots-cast conflict between Municipal Reports printings (two
+early volumes print 64,820, two later ones 61,820) was arbitrated to
+64,820 by the election's own fiscal-year volume and by the SOV elector
+sum (61,889), which rules the lower figure out arithmetically.

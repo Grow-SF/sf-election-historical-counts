@@ -26,7 +26,7 @@ whether *their* published table has since changed (we can't edit it ourselves).
 | 1934-11-06 | 166,133 | SF Governor **225,977** | Under review — figures don't reconcile | →225,977; 100→97.7% | ✉️ draft | ☐ |
 | 1978-11-07 | 217,965 | SF total cast **238,667** | Under review — looks precinct-only | →238,667; 100→93.5% | ☐ | ☐ |
 | 1968-06-04 | (no DOE row) | SOV total cast **254,825**; Chronicle unofficial complete **262,449** | Open question (SOV internal pct anomaly + newspaper conflict) | keep 254,825 | n/a | n/a |
-| 1899-12-02 | 70,726 / 22,331 dated Dec 2 | Municipal Reports: **Dec 29, 1899** sewer-bond special, same figures | Under review — date error, figures correct | date fixed to 1899-12-29 | ☐ | ☐ |
+| 1899-12-02 | 70,726 / 22,331 dated Dec 2 | Municipal Reports: **Dec 29, 1899** sewer-bond special, same figures | Under review: date error, figures correct | date fixed to 1899-12-29 | ☐ | ☐ |
 | 1974-06-04 | 198,508 | SF total cast **198,508** | Resolved — our error, fixed | our 203,381→198,508 | n/a | n/a |
 | 1952-11-04 | 365,972 | turnout 365,972; contest 374,700 | Source inconsistency (internal to the SOV) | keep 365,972 | n/a | n/a |
 

@@ -6491,17 +6491,35 @@
  },
  {
   "id": "1906-11-06",
-  "name": "Certified turnout record \u2014 night count not yet recovered",
-  "summary": "38,564 ballots cast, 74.7% of 51,633 registered",
-  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
-  "observations": []
+  "name": "Consolidated General Election",
+  "final": 38564,
+  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 38,564 ballots, 129 precincts (data/sf_turnout_1891_1907.csv)",
+  "observations": [
+   {
+    "date": "1906-11-07",
+    "days": 1,
+    "total": 37287,
+    "pct": 96.7,
+    "label": "cdnc-ocr",
+    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1906-11-07 'Figures Show How City's Citizens Cast Votes' (section SFC19061107.2.10.5), semi-official returns after revision by the Registrar's deputies at midnight, all of the post-fire city's 129 precincts effectively in (no partial caption, unlike every other county in the issue): Governor sum 37,287 (Gillett 12,906 + Bell 11,600 + Langdon 10,521 + Lewis 2,103 + Blanchard 157) - Lt Governor sum 37,334 within 0.1 percent corroborates; the printed grand total reads 38,802 or 38,302 depending on the line (OCR digit conflict, queued for hand-read, not used); mirror/cdnc/SFC19061107/section_SFC19061107.2.10.5.txt, read 2026-07-07"
+   }
+  ]
  },
  {
   "id": "1905-11-07",
-  "name": "Certified turnout record \u2014 night count not yet recovered",
-  "summary": "72,000 ballots cast, 73.5% of 98,000 registered",
-  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
-  "observations": []
+  "name": "General Municipal Election",
+  "final": 72000,
+  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified approximately 72,000 ballots, printed as a rounded fire-era estimate (data/sf_turnout_1891_1907.csv)",
+  "observations": [
+   {
+    "date": "1905-11-08",
+    "days": 1,
+    "total": 71033,
+    "pct": 98.7,
+    "label": "cdnc-ocr",
+    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1905-11-08 'SCHMITZ'S LEAD IS OVER 10,000' (section SFC19051108.2.2.3): printed 'Total vote cast: 71,033' with Schmitz 40,191 + Partridge 28,687 + Castner 1,686 (printed plurality 11,504 reconciles exactly) - voting-machine election counted essentially complete election night (175 of 198 precincts in by 6:20 PM per the same issue; no E+2 returns article exists); denominator is the Registrar's post-fire ROUNDED estimate 72,000, so the share carries about 1 percent uncertainty; the precise 71,033 may be the best surviving count for this election (promotion question logged); mirror/cdnc/SFC19051108/, read 2026-07-07"
+   }
+  ]
  },
  {
   "id": "1904-11-08",
@@ -6521,10 +6539,27 @@
  },
  {
   "id": "1903-11-03",
-  "name": "Certified turnout record \u2014 night count not yet recovered",
-  "summary": "59,824 ballots cast, 75.1% of 79,684 registered",
-  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
-  "observations": []
+  "name": "General Municipal Election",
+  "final": 59824,
+  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 59,824 ballots (data/sf_turnout_1891_1907.csv)",
+  "observations": [
+   {
+    "date": "1903-11-04",
+    "days": 1,
+    "total": 39326,
+    "pct": 65.7,
+    "label": "cdnc-ocr",
+    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1903-11-04 Registrar's Office table 'up to 1 o'clock this morning' (section SFC19031104.2.76): Mayor sum 39,326 (Schmitz 16,783 + Crocker 13,349 + Lane 8,587 + Whitney 607) - press-deadline partial, flagged night_partial; the same issue's editorial 'total vote of 60,300' exceeds certified and is a projection, logged only; mirror/cdnc/SFC19031104/, read 2026-07-07"
+   },
+   {
+    "date": "1903-11-05",
+    "days": 2,
+    "total": 59767,
+    "pct": 99.9,
+    "label": "cdnc-ocr",
+    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1903-11-05 'RETURNS OF VOTE BY ASSEMBLY DISTRICTS' (section SFC19031105.2.47): printed 'Total vote Polled 59,767' with Mayor row Schmitz 26,016 + Crocker 19,621 + Lane 12,578 - printed plurality 6,395 equals 26,016 minus 19,621 exactly, digits self-checking; corroborated by section SFC19031105.2.44.3; 57 below certified; mirror/cdnc/SFC19031105/, read 2026-07-07"
+   }
+  ]
  },
  {
   "id": "1903-10-08",
@@ -6544,7 +6579,7 @@
   "id": "1902-12-04",
   "name": "Certified turnout record \u2014 night count not yet recovered",
   "summary": "14,271 ballots cast, 20.2% of 70,764 registered",
-  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "finalSource": "Municipal Reports cumulative table; ballots 14,271 per the two earlier printings (vols 53/55); vol57 p.871 prints 14,371, a minority variant; registration is the same-week register base shared with the Dec 2 Geary Street bond special (the Dec 4 row's own registration cell is blank in every printing) - Dec 4 1902 special (charter amendments); absent from the DOE turnout table",
   "observations": []
  },
  {
@@ -6572,10 +6607,27 @@
  },
  {
   "id": "1901-11-05",
-  "name": "Certified turnout record \u2014 night count not yet recovered",
-  "summary": "53,746 ballots cast, 69.0% of 77,890 registered",
-  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
-  "observations": []
+  "name": "General Municipal Election",
+  "final": 53746,
+  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 53,746 ballots (data/sf_turnout_1891_1907.csv)",
+  "observations": [
+   {
+    "date": "1901-11-06",
+    "days": 1,
+    "total": 38982,
+    "pct": 72.5,
+    "label": "cdnc-ocr",
+    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1901-11-06 'INCOMPLETE RETURNS OF THE LOCAL ELECTION AS COMPILED TO 1:30 THIS MORNING' (section SFC19011106.2.7): Mayor 4-candidate sum 38,982 (Wells 15,253 + Schmitz 14,591 + Tobin 8,646 + Ames 492; O'Donnell illegible, excluded) - press-deadline partial, flagged night_partial; mirror/cdnc/SFC19011106/, read 2026-07-07"
+   },
+   {
+    "date": "1901-11-07",
+    "days": 2,
+    "total": 53493,
+    "pct": 99.5,
+    "label": "cdnc-ocr",
+    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1901-11-07 'COMPLETE RETURNS OF VOTES CAST AT TUESDAY'S ELECTION' (section SFC19011107.2.3.5): printed 'TOTAL VOTE POLLED 53,493' with Schmitz 21,776 + Wells 17,718 + Tobin 12,647 + Ames 912 + O'Donnell 440; printed plurality 4,058 reconciles exactly; a competing prose figure 53,814 exceeds certified and is logged only; 253 below certified; mirror/cdnc/SFC19011107/, read 2026-07-07"
+   }
+  ]
  },
  {
   "id": "1900-11-06",
@@ -6604,15 +6656,32 @@
   "id": "1899-12-27",
   "name": "Certified turnout record \u2014 night count not yet recovered",
   "summary": "29,972 ballots cast, 42.4% of 70,681 registered",
-  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
+  "finalSource": "Municipal Reports cumulative table; confirmed in all three covering printings (vols 53/55/57) - Dec 27 1899 special (park bonds); absent from the DOE turnout table; companion to the Dec 29 sewer-bond special",
   "observations": []
  },
  {
   "id": "1899-11-07",
-  "name": "Certified turnout record \u2014 night count not yet recovered",
-  "summary": "51,965 ballots cast, 72.4% of 71,786 registered",
-  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
-  "observations": []
+  "name": "General Municipal Election",
+  "final": 51965,
+  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 51,965 ballots (data/sf_turnout_1891_1907.csv); the Nov 9 Call prose prints 52,005 votes polled, 40 over the certified figure, logged",
+  "observations": [
+   {
+    "date": "1899-11-08",
+    "days": 1,
+    "total": 20248,
+    "pct": 39.0,
+    "label": "cdnc-ocr",
+    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1899-11-08 p1 'THE COUNT.' (section SFC18991108.2.2.2), timestamped 2:15am, all but fifteen precincts reporting (hand-count era, precinct returns themselves partial): clean-OCR Mayor candidates only, Phelan 19,901 + Hall 283 + Coburn 64 = 20,248 - conservative night floor; Davis's figure is OCR-garbled (prose implies about 14,676, unverified, queued for hand-read; would lift the floor to about 34,900); flagged night_partial; mirror/cdnc/SFC18991108/page_1.txt, read 2026-07-07"
+   },
+   {
+    "date": "1899-11-09",
+    "days": 2,
+    "total": 51660,
+    "pct": 99.4,
+    "label": "cdnc-ocr",
+    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1899-11-09 p12 'SEMI-OFFICIAL FIGURES OF THE CITY ELECTION' (section SFC18991109.2.111), semi-official returns from each voting precinct: Mayor sum 51,660 (Phelan 29,228 + Davis 21,303 + Hall 884 + Coburn 162 + Cleveland 83) - Davis cross-checked against the article prose; 305 below certified; mirror/cdnc/SFC18991109/page_12.txt, read 2026-07-07"
+   }
+  ]
  },
  {
   "id": "1898-11-08",
@@ -6632,17 +6701,35 @@
  },
  {
   "id": "1898-05-26",
-  "name": "Certified turnout record \u2014 night count not yet recovered",
-  "summary": "26,969 ballots cast, 36.9% of 73,140 registered",
-  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
-  "observations": []
+  "name": "Special Municipal Election",
+  "final": 26969,
+  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 26,969 ballots (data/sf_turnout_1891_1907.csv)",
+  "observations": [
+   {
+    "date": "1898-05-27",
+    "days": 1,
+    "total": 26963,
+    "pct": 100.0,
+    "label": "cdnc-ocr",
+    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1898-05-27 p12 'A SMALL MAJORITY FOR THE CHARTER' (section SFC18980527.2.96): 'The total vote cast yesterday was 26,963' (Yes 14,386 + No 12,025 + scattering 552, arithmetic exact) - counted complete BY 10 PM ON ELECTION NIGHT per the article ('at 10:15 the work of tabulating was completed'); 6 below certified; mirror/cdnc/SFC18980527/, read 2026-07-07"
+   }
+  ]
  },
  {
   "id": "1897-12-27",
-  "name": "Certified turnout record \u2014 night count not yet recovered",
-  "summary": "26,202 ballots cast, 36.0% of 72,782 registered",
-  "finalSource": "SF Municipal Reports \u2014 Registrar of Voters (1879\u20131890)",
-  "observations": []
+  "name": "Special Municipal Election",
+  "final": 26202,
+  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 26,202 ballots (data/sf_turnout_1891_1907.csv)",
+  "observations": [
+   {
+    "date": "1897-12-29",
+    "days": 2,
+    "total": 26163,
+    "pct": 99.9,
+    "label": "cdnc-ocr",
+    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1897-12-29 p7 'COMPLETE RETURNS OF THE FREEHOLDERS ELECTION' (section SFC18971229.2.60): 'a total of 26,163 votes' per the Registrar's deputies, complete pre-canvass tabulation - 39 below certified; the E+1 issue printed only a rounded partial estimate (about 24,000 at 32 precincts complete), logged; 15-seat at-large contest, so candidate sums are not ballot counts; mirror/cdnc/SFC18971229/, read 2026-07-07"
+   }
+  ]
  },
  {
   "id": "1896-11-03",

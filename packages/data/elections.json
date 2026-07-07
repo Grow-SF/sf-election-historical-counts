@@ -377,6 +377,154 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1897-12-27",
+  "name": "Special Municipal Election",
+  "kind": "Special",
+  "year": 1897,
+  "final": 26202,
+  "registered": 72782,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    1.29,
+    99.9,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 2,
+    "bound": true
+   },
+   "55": {
+    "days": 2,
+    "bound": true
+   },
+   "60": {
+    "days": 2,
+    "bound": true
+   },
+   "65": {
+    "days": 2,
+    "bound": true
+   },
+   "70": {
+    "days": 2,
+    "bound": true
+   },
+   "75": {
+    "days": 2,
+    "bound": true
+   },
+   "80": {
+    "days": 2,
+    "bound": true
+   },
+   "85": {
+    "days": 2,
+    "bound": true
+   },
+   "90": {
+    "days": 2,
+    "bound": true
+   },
+   "95": {
+    "days": 2,
+    "bound": true
+   },
+   "98": {
+    "days": 2,
+    "bound": true
+   },
+   "99": {
+    "days": 2,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1898-05-26",
+  "name": "Special Municipal Election",
+  "kind": "Special",
+  "year": 1898,
+  "final": 26969,
+  "registered": 73140,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 100.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "cdnc-ocr",
+  "srcShort": "cdnc-ocr"
+ },
+ {
   "id": "1898-11-08",
   "name": "General Election",
   "kind": "General",
@@ -423,6 +571,86 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1899-11-07",
+  "name": "General Municipal Election",
+  "kind": "Municipal",
+  "year": 1899,
+  "final": 51965,
+  "registered": 71786,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": 39.0,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    39.0,
+    null,
+    null
+   ],
+   [
+    1.29,
+    99.4,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 2,
+    "bound": false
+   },
+   "55": {
+    "days": 2,
+    "bound": false
+   },
+   "60": {
+    "days": 2,
+    "bound": false
+   },
+   "65": {
+    "days": 2,
+    "bound": false
+   },
+   "70": {
+    "days": 2,
+    "bound": false
+   },
+   "75": {
+    "days": 2,
+    "bound": false
+   },
+   "80": {
+    "days": 2,
+    "bound": false
+   },
+   "85": {
+    "days": 2,
+    "bound": false
+   },
+   "90": {
+    "days": 2,
+    "bound": false
+   },
+   "95": {
+    "days": 2,
+    "bound": false
+   },
+   "98": {
+    "days": 2,
+    "bound": false
+   },
+   "99": {
+    "days": 2,
+    "bound": false
+   }
+  },
+  "nightSrc": "cdnc-ocr",
+  "srcShort": "cdnc-ocr"
+ },
+ {
   "id": "1900-11-06",
   "name": "Presidential General Election",
   "kind": "General",
@@ -457,6 +685,86 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1901-11-05",
+  "name": "General Municipal Election",
+  "kind": "Municipal",
+  "year": 1901,
+  "final": 53746,
+  "registered": 77890,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": 72.5,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    72.5,
+    null,
+    null
+   ],
+   [
+    1.29,
+    99.5,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 2,
+    "bound": false
+   },
+   "80": {
+    "days": 2,
+    "bound": false
+   },
+   "85": {
+    "days": 2,
+    "bound": false
+   },
+   "90": {
+    "days": 2,
+    "bound": false
+   },
+   "95": {
+    "days": 2,
+    "bound": false
+   },
+   "98": {
+    "days": 2,
+    "bound": false
+   },
+   "99": {
+    "days": 2,
+    "bound": false
+   }
+  },
+  "nightSrc": "cdnc-ocr",
+  "srcShort": "cdnc-ocr"
+ },
+ {
   "id": "1902-11-04",
   "name": "General Election",
   "kind": "General",
@@ -480,6 +788,86 @@
   "thresholds": {},
   "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1903-11-03",
+  "name": "General Municipal Election",
+  "kind": "Municipal",
+  "year": 1903,
+  "final": 59824,
+  "registered": 79684,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": 65.7,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    65.7,
+    null,
+    null
+   ],
+   [
+    1.29,
+    99.9,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 2,
+    "bound": false
+   },
+   "75": {
+    "days": 2,
+    "bound": false
+   },
+   "80": {
+    "days": 2,
+    "bound": false
+   },
+   "85": {
+    "days": 2,
+    "bound": false
+   },
+   "90": {
+    "days": 2,
+    "bound": false
+   },
+   "95": {
+    "days": 2,
+    "bound": false
+   },
+   "98": {
+    "days": 2,
+    "bound": false
+   },
+   "99": {
+    "days": 2,
+    "bound": false
+   }
+  },
+  "nightSrc": "cdnc-ocr",
+  "srcShort": "cdnc-ocr"
  },
  {
   "id": "1904-11-08",
@@ -526,6 +914,142 @@
   },
   "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1905-11-07",
+  "name": "General Municipal Election",
+  "kind": "Municipal",
+  "year": 1905,
+  "final": 72000,
+  "registered": 98000,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 98.7,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    98.7,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "cdnc-ocr",
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1906-11-06",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 1906,
+  "final": 38564,
+  "registered": 51633,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 96.7,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    96.7,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "cdnc-ocr",
+  "srcShort": "cdnc-ocr"
  },
  {
   "id": "1907-11-05",

@@ -160,7 +160,7 @@ def main():
         # keeps it out of the trend fit
         # 2007-11-06: ES&S decertification kept every polling-place ballot out of
         # the night release (48,104 absentee/early only) - operational one-off
-        night_partial = e in {"1995-12-12", "1976-11-02", "1973-11-06", "1974-06-04", "1978-06-06", "2007-11-06", "1968-11-05", "2008-02-05", "2008-06-03", "2010-06-08", "2012-06-05", "1996-03-26", "1992-11-03", "1978-11-07", "1974-11-05", "1980-06-03", "1976-06-08", "1970-06-02", "1968-06-04", "1966-06-07"}
+        night_partial = e in {"1995-12-12", "1976-11-02", "1973-11-06", "1974-06-04", "1978-06-06", "2007-11-06", "1968-11-05", "2008-02-05", "2008-06-03", "2010-06-08", "2012-06-05", "1996-03-26", "1992-11-03", "1978-11-07", "1974-11-05", "1980-06-03", "1976-06-08", "1970-06-02", "1968-06-04", "1966-06-07", "1899-11-07", "1903-11-03", "1901-11-05"}
         fin = max(rows, key=lambda r: r["total"])
         elections[e] = {
             "id": e,
@@ -423,7 +423,11 @@ def main():
                 turnout[r["election_date"]] = {"date": r["election_date"],
                     "turnoutPct": round(100 * bal / reg_i, 1),
                     "registered": reg_i, "ballots": bal,
-                    "source": r["basis"]}
+                    "source": r["basis"],
+                    # per-row citation (volume, page, archive id, caveats such
+                    # as the rounded fire-era 1905 figures) - threaded through
+                    # to sources.json instead of the generic era label
+                    "cite": r["source"]}
     with open(ROOT / "data" / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
         for r in csv.DictReader(f):
             reg = r["registration"]
@@ -579,7 +583,7 @@ def main():
     for tp in sorted(turnout.values(), key=lambda x: x["date"]):
         if tp["date"] in have:
             continue
-        label = SRC_LABELS.get(tp["source"], tp["source"])
+        label = tp.get("cite") or SRC_LABELS.get(tp["source"], tp["source"])
         sources.append({
             "id": tp["date"],
             "name": "Certified turnout record — night count not yet recovered",

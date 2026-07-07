@@ -27,11 +27,18 @@ const span = (rows, year) => {
 };
 const TURNOUT_RANGE = span(dataFile("turnout_history.json"), (r) => +r.date.slice(0, 4));
 const FUNNEL_RANGE = span(dataFile("franchise_funnel.json"), (r) => r.year);
+// night-share: fit to elections that actually have a night observation, so the
+// README image shows the full 1868+ record the prose describes (the app's
+// interactive default starts at 1902)
+const NIGHT_RANGE = span(
+  dataFile("elections.json").filter((e) => e.nightPct != null),
+  (e) => e.year,
+);
 
 // output file -> { title: substring of the chart's <h3> to locate its <figure>,
 //                  range: optional [from, to] applied via the site's URL state }
 const TARGETS = {
-  "docs/img/night-share.png": { title: "How much of the vote was counted" },
+  "docs/img/night-share.png": { title: "How much of the vote was counted", range: NIGHT_RANGE },
   "docs/img/turnout.png": { title: "Turnout of registered voters", range: TURNOUT_RANGE },
   "docs/img/vote-by-mail.png": { title: "Vote-by-mail share of ballots cast" },
   "docs/img/franchise-funnel.png": { title: "Who could vote", range: FUNNEL_RANGE },
