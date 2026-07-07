@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**83 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**82 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 83 elections still missing a night count
+## The 82 elections still missing a night count
 
 | Date | Year | Level | Kind | Description |
 |------|------|-------|------|-------------|
@@ -96,7 +96,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1980-06-03 | 1980 | city | Primary |  |
 | 1980-08-19 | 1980 | city | Special |  |
 | 1984-06-05 | 1984 | city | Primary |  |
-| 2008-04-08 | 2008 | city | Primary |  |
 
 ---
 
@@ -223,3 +222,21 @@ genuine open discrepancy. A third case found after this log's last entry,
 November 1934, was arbitrated the other way: the newspaper was right and the
 DOE figure wrong (SOV certified 225,977; the point is now in the chart).
 Current register: `docs/doe-data-discrepancies.md`.
+
+**Update (2026-07-06).** Phase 1 digital recovery for April 8, 2008 (Special
+Congressional Open Primary, the post-Lantos CD-12 seat) searched the live
+DOE past-results pages, a Wayback CDX sweep of sfgov.org/site/elections_
+index.asp (matchType=prefix, windows 2008-04-08 through 2008-05-01 and
+unbounded), the sfelections.org domain, and the uploadedfiles/elections
+tree (including the SOV080408.pdf/.xls Statement of Vote). No election-night
+capture turned up: the earliest archived snapshot of the Department's own
+"Election Summary" page for this election (id=75242, reached from the
+election-night index page's own "Election Results" link, id=75241) is dated
+2008-04-15 and self-reports a "Last Updated: April 14, 2008 11:15 AM" stamp,
+with all 107 of 107 precincts already at 100 percent. That day-6,
+already-at-certified-total figure (19,742 ballots, exactly the certified
+count) is now in `data/sf_archival_canvass_points.csv` as a turnout-only
+point (stamp_kind page-self-reported, days_since_election 6); it moves this
+election off the missing list but the true night count is still not in the
+digital archives. This election was previously grouped above among the "5
+elections" lacking absolute counts; that framing predates this finding.

@@ -238,7 +238,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 2006-11-07,2006,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
 2007-11-06,2007,city,Municipal,,night,32.2,exact,SFPL/DataSF/DOE
 2008-02-05,2008,city,Primary,,night,63.1,exact,SFPL/DataSF/DOE
-2008-04-08,2008,city,Primary,,no,,exact,SFPL/DataSF/DOE
+2008-04-08,2008,city,Primary,,turnout-only,,exact,SFPL/DataSF/DOE
 2008-06-03,2008,city,Primary,,night,62.8,exact,SFPL/DataSF/DOE
 2008-11-04,2008,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
 2009-05-19,2009,city,Special,,turnout-only,,exact,SFPL/DataSF/DOE

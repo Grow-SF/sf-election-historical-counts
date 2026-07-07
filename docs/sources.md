@@ -1631,7 +1631,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Special Congressional Open Primary Election
 
 **ID:** `2008-04-08`
 
@@ -1643,7 +1643,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 2008-04-08 | 0 | ✓ | 5,332 | 27.0% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections historical turnout table (1899–2019) |
+| 2008-04-14 | 6 |  | 19,742 | 100.0% | Wayback Machine capture — DOE Election Summary page (archived), 'Last Updated: April 14, 2008 11:15 AM', 107/107 precincts (100.00%): Vote By Mail/Absentee 14,410 (18.16%), Election Day 5,332 (6.72%), Total 19,742 (24.88% of registered) - https://web.archive.org/web/20080415044319/http://www.sfgov.org/site/elections_index.asp?id=75242 (stamp and figures verified against capture; page not archived earlier, so this day-6 near-complete canvass point is the earliest digital observation found, not a night point) |
 
 ---
 

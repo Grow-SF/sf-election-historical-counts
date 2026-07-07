@@ -892,8 +892,8 @@
   "turnoutPct": 24.9,
   "registered": 79340,
   "ballots": 19742,
-  "source": "doe-turnout-table",
-  "kind": "Special"
+  "source": "archival",
+  "kind": "Primary"
  },
  {
   "date": "2008-06-03",

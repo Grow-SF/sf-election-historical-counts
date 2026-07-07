@@ -10212,6 +10212,80 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "2008-04-08",
+  "name": "Special Congressional Open Primary Election",
+  "kind": "Primary",
+  "year": 2008,
+  "final": 19742,
+  "registered": 79340,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": 73.0,
+  "pts": [
+   [
+    5.64,
+    100.0,
+    73.0,
+    27.0
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 6,
+    "bound": true
+   },
+   "55": {
+    "days": 6,
+    "bound": true
+   },
+   "60": {
+    "days": 6,
+    "bound": true
+   },
+   "65": {
+    "days": 6,
+    "bound": true
+   },
+   "70": {
+    "days": 6,
+    "bound": true
+   },
+   "75": {
+    "days": 6,
+    "bound": true
+   },
+   "80": {
+    "days": 6,
+    "bound": true
+   },
+   "85": {
+    "days": 6,
+    "bound": true
+   },
+   "90": {
+    "days": 6,
+    "bound": true
+   },
+   "95": {
+    "days": 6,
+    "bound": true
+   },
+   "98": {
+    "days": 6,
+    "bound": true
+   },
+   "99": {
+    "days": 6,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "Wayback Machine capture"
+ },
+ {
   "id": "2008-06-03",
   "name": "Consolidated Primary Election",
   "kind": "Primary",
