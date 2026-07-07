@@ -3119,7 +3119,7 @@
     "total": 16500,
     "pct": 83.6,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 'Voters elect Speier to finish term of Rep. Lantos' 2008-04-09 pB1 (John Wildermuth): 'With all the San Francisco precincts reporting... About 17,000 ballots were cast in San Francisco, and more than 50,000 in San Mateo County' (docref 11FF1C4B48B28060) - printed approximate; rounding-safe floor 16,500 per 1977-11 precedent (mail ballots over 60 percent of votes cast were included night-of); SF-only figure, distinct from the San Mateo line \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/11FF1C4B48B28060"
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Voters elect Speier to finish term of Rep. Lantos' 2008-04-09 pB1 (John Wildermuth): 'With all the San Francisco precincts reporting... About 17,000 ballots were cast in San Francisco, and more than 50,000 in San Mateo County' (docref 11FF1C4B48B28060) - printed approximate; conservative floor 16,500 for the approximate printed figure (never overstates) (mail ballots over 60 percent of votes cast were included night-of); SF-only figure, distinct from the San Mateo line \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/11FF1C4B48B28060"
    },
    {
     "date": "2008-04-14",
@@ -4647,7 +4647,7 @@
     "total": 155192,
     "pct": 85.9,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle page scan (NewsBank/SFPL), 1984-06-07 p20 'HOW SAN FRANCISCO VOTED' box, 708/708 precincts (100%): City Prop B (Police Night Pay) YES 81,436 + NO 73,756 = 155,192 - largest same-basis SF measure sum (printed 52.5/47.5 pcts match counts); beats in-person floor 151,013; E+1 box was percentage-only, so no night observation exists; scan final_19840605_issue19840607_p20_s1_cityprop.png, read 2026-07-06 \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-156952CA1DE699EE%402445858-156900B7B348064E%407-156900B7B348064E%40"
+    "citation": "SF Chronicle page scan (NewsBank/SFPL), 1984-06-07 p20 'HOW SAN FRANCISCO VOTED' box, 708/708 precincts (100%): City Prop B (Police Night Pay) YES 81,436 + NO 73,756 = 155,192 - largest same-basis SF measure sum (printed 52.5/47.5 pcts match counts); beats in-person floor 151,013; E+1 box's only counted measure (Prop 24 sum 135,327) sits below the in-person floor, so no night point ingested; scan final_19840605_issue19840607_p20_s1_cityprop.png, read 2026-07-06 \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-156952CA1DE699EE%402445858-156900B7B348064E%407-156900B7B348064E%40"
    }
   ]
  },

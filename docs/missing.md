@@ -243,7 +243,7 @@ after all, in the NewsBank text archive: the Chronicle's morning-after story
 17,000 ballots were cast in San Francisco" with all San Francisco precincts
 reporting, SF-only and separate from the San Mateo figure. The sentence had
 been sitting unextracted in a document harvested in June, when this election
-was logged as percentage-only; eleven fresh queries and five new document
+was logged as percentage-only; ten fresh queries and five new document
 fetches produced nothing better. Ingested as a rounding-safe floor of 16,500
 (the printed figure is approximate), giving an 83.6 percent night share.
 The lesson for future searches: re-read already-harvested documents for
