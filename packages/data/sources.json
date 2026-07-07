@@ -2669,7 +2669,7 @@
     "total": 106171,
     "pct": 82.0,
     "label": "proquest-examiner",
-    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2014-06-09 (docview 2069642935): Prop B 62,727 + 43,444 = 106,171 - day-6 canvass point, consistent progression from the night figure; mirror/examiner/2014-06/, read 2026-07-07"
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2014-06-09 (docview 2069642935): Prop B 62,727 + 43,444 = 106,171 - day-6 contest-sum point, consistent progression from the night figure; it sits below the day-3 full-ballots total already on file (123,978) because a contest sum carries undervote, differing bases per convention; mirror/examiner/2014-06/, read 2026-07-07"
    },
    {
     "date": "2014-06-12",
@@ -2917,7 +2917,7 @@
     "total": 174563,
     "pct": 61.3,
     "label": "Wayback Machine capture",
-    "citation": "Wayback Machine capture - CA Secretary of State County Summary Status (contest_summary.pdf p2), page-self-reported Last Report 11/02 11:54 pm PDT, captured 2010-11-03 07:11:38 UTC (00:11 PDT, inside the night window): San Francisco Ballots Cast 174,563, 590/590 precincts (100.0), registration 461,768 - the election-night plateau (countable-by-night ballots only, matching the 2008 pattern); reproduce: https://web.archive.org/web/20101103071138id_/http://www.sos.ca.gov/contest_summary.pdf; mirror/sos-night/2010-11-02/, read 2026-07-07"
+    "citation": "CA Secretary of State County Summary Status (contest_summary.pdf p2), page-self-reported Last Report 11/02 11:54 pm PDT, captured 2010-11-03 07:11:38 UTC (00:11 PDT, inside the night window): San Francisco Ballots Cast 174,563, 590/590 precincts (100.0), registration 461,768 - the election-night plateau (countable-by-night ballots only, matching the 2008 pattern); reproduce: https://web.archive.org/web/20101103071138id_/http://www.sos.ca.gov/contest_summary.pdf; mirror/sos-night/2010-11-02/, read 2026-07-07"
    },
    {
     "date": "2010-11-03",
@@ -3357,7 +3357,7 @@
     "total": 156441,
     "pct": 61.7,
     "label": "Wayback Machine capture",
-    "citation": "Wayback Machine capture - SFGate election snapshot, page-stamped 'Vote totals as of 11/08 11:29 AM', 580/580 precincts, captured 2006-11-28: best same-electorate floor Measure A sum 156,441 - the closest-to-night observation known for this election (misses the 06:00 cutoff by 5.5 hours); reproduce: https://web.archive.org/web/20061128084817id_/http://www.sfgate.com/election/races/2006/11/07/snapshot/san_francisco.shtml; mirror/newsorg-night/2006-11-07/, read 2026-07-07"
+    "citation": "SFGate election snapshot, page-stamped 'Vote totals as of 11/08 11:29 AM', 580/580 precincts, captured 2006-11-28: best same-electorate floor Measure A sum 156,441 - the closest-to-night observation known for this election (misses the 06:00 cutoff by 5.5 hours); reproduce: https://web.archive.org/web/20061128084817id_/http://www.sfgate.com/election/races/2006/11/07/snapshot/san_francisco.shtml; mirror/newsorg-night/2006-11-07/, read 2026-07-07"
    },
    {
     "date": "2006-11-08",
@@ -3637,7 +3637,7 @@
     "total": 234627,
     "pct": 92.4,
     "label": "proquest-examiner",
-    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2003-12-11 p8 (docview 2206818350): 'Newsom had 123,832... to... Gonzalez's 110,795' as of Wednesday afternoon = mayoral race total 234,627 - a two-candidate runoff race total, a strong floor; mirror/examiner/2003-12/, read 2026-07-07"
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2003-12-11 p8 (docview 2206818350): 'Newsom had 123,832... to... Gonzalez's 110,795' as of Wednesday afternoon = mayoral race total 234,627 - a two-candidate runoff race total, a strong floor; it exceeds the next morning's remaining-derived floor already on file (225,681), a differing-bases coexistence per the dataset convention; mirror/examiner/2003-12/, read 2026-07-07"
    },
    {
     "date": "2003-12-11",
@@ -3701,7 +3701,7 @@
     "total": 256565,
     "pct": 95.3,
     "label": "Wayback Machine capture",
-    "citation": "Wayback Machine capture - SFGate recall returns page, page-stamped 10/15 3:40 PM, captured 2003-10-22: recall question SF sum 256,565 (No 205,886 + Yes 50,679) at 100 percent of precincts - beats the prior earliest observation by 21 days; reproduce: https://web.archive.org/web/20031022190203id_/http://sfgate.com/election/races/2003/10/07/CA/San_Francisco/G2003100739.shtml; mirror/newsorg-night/2003-10-07/, read 2026-07-07"
+    "citation": "SFGate recall returns page, page-stamped 10/15 3:40 PM, captured 2003-10-22: recall question SF sum 256,565 (No 205,886 + Yes 50,679) at 100 percent of precincts - beats the prior earliest observation by 21 days; reproduce: https://web.archive.org/web/20031022190203id_/http://sfgate.com/election/races/2003/10/07/CA/San_Francisco/G2003100739.shtml; mirror/newsorg-night/2003-10-07/, read 2026-07-07"
    },
    {
     "date": "2003-10-22",
@@ -3717,7 +3717,7 @@
     "total": 264940,
     "pct": 98.4,
     "label": "Wayback Machine capture",
-    "citation": "Wayback Machine capture - CA Secretary of State vote2003.ss.ca.gov recall returns for San Francisco, page stamp 'as of Nov 5, 2003 1:08 pm', captured 2003-12-02: recall question Yes 52,177 + No 212,763 = 264,940 at 100 percent of 563 precincts - late-canvass point; the page's first-report metadatum records the first release at 8:33pm election night (no night figures survive); reproduce: https://web.archive.org/web/20031202203808id_/http://vote2003.ss.ca.gov/Returns/recall/38.htm; mirror/sos-night/2003-10-07/, read 2026-07-07"
+    "citation": "CA Secretary of State vote2003.ss.ca.gov recall returns for San Francisco, page stamp 'as of Nov 5, 2003 1:08 pm', captured 2003-12-02: recall question Yes 52,177 + No 212,763 = 264,940 at 100 percent of 563 precincts - late-canvass point; the page's first-report metadatum records the first release at 8:33pm election night (no night figures survive); reproduce: https://web.archive.org/web/20031202203808id_/http://vote2003.ss.ca.gov/Returns/recall/38.htm; mirror/sos-night/2003-10-07/, read 2026-07-07"
    }
   ]
  },
@@ -3813,7 +3813,7 @@
     "total": 215552,
     "pct": 95.8,
     "label": "Wayback Machine capture",
-    "citation": "Wayback Machine capture - CA Secretary of State vote2002.ss.ca.gov Returns/status.htm, page stamp 'as of Nov 10, 2002 11:28 pm', captured 2002-11-11 18:22:06: San Francisco Ballots Cast 215,552, 632/632 precincts (47.9 percent of 449,396 registered printed on page); corroborated by the Governor SF sum 207,358; reproduce: https://web.archive.org/web/20021111182206id_/http://vote2002.ss.ca.gov/Returns/status.htm; mirror/sos-night/2002-11-05/, read 2026-07-07"
+    "citation": "CA Secretary of State vote2002.ss.ca.gov Returns/status.htm, page stamp 'as of Nov 10, 2002 11:28 pm', captured 2002-11-11 18:22:06: San Francisco Ballots Cast 215,552, 632/632 precincts (47.9 percent of 449,396 registered printed on page); corroborated by the Governor SF sum 207,358; reproduce: https://web.archive.org/web/20021111182206id_/http://vote2002.ss.ca.gov/Returns/status.htm; mirror/sos-night/2002-11-05/, read 2026-07-07"
    },
    {
     "date": "2002-11-12",
@@ -3901,7 +3901,7 @@
     "total": 125922,
     "pct": 83.8,
     "label": "Wayback Machine capture",
-    "citation": "Wayback Machine capture - SFGate election2002 returns page, page-stamped 03/11/2002, captured 2003-04-23: SF Public Defender sum 125,922 (Adachi 68,690 + Burton 56,964 + write-ins 268) - the only known pre-certification observation for this election; reproduce: https://web.archive.org/web/20030423224758id_/http://www.sfgate.com/election2002/returns/sf/sf2.shtml; mirror/newsorg-night/2002-03-05/, read 2026-07-07"
+    "citation": "SFGate election2002 returns page, page-stamped 03/11/2002, captured 2003-04-23: SF Public Defender sum 125,922 (Adachi 68,690 + Burton 56,964 + write-ins 268) - the only known pre-certification observation for this election; reproduce: https://web.archive.org/web/20030423224758id_/http://www.sfgate.com/election2002/returns/sf/sf2.shtml; mirror/newsorg-night/2002-03-05/, read 2026-07-07"
    },
    {
     "date": "2002-03-12",
@@ -4053,7 +4053,7 @@
     "total": 121629,
     "pct": 93.8,
     "label": "contemporary news report (live web)",
-    "citation": "LA Times (John M. Glionna, 2000-12-14) via a contemporaneous ba.politics Usenet repost (https://groups.google.com/g/ba.politics/c/Y8S4VZY1-Ng, quoted verbatim): 'With 8,000 absentee ballots still uncounted, election officials said that two of the races were still too close to call' - registrar-remaining conversion 129,629 minus 8,000 = 121,629 as of the day-after state the story describes; provenance chain is Usenet-quoting-LAT, confirmable against the LA Times archive, queued; mirror/altweb/2000-12-12/, read 2026-07-07"
+    "citation": "LA Times (John M. Glionna, 2000-12-14) via a contemporaneous ba.politics Usenet repost (https://groups.google.com/g/ba.politics/c/Y8S4VZY1-Ng, quoted verbatim): 'With 8,000 absentee ballots still uncounted, election officials said that two of the races were still too close to call' - registrar-remaining conversion 129,629 minus 8,000 = 121,629; the story's byline is Dec 14 and prints no hour, so the day-1 stamp is an inference that officials' statement described the Dec 13 state, disclosed here; provenance chain is Usenet-quoting-LAT, confirmable against the LA Times archive, queued; mirror/altweb/2000-12-12/, read 2026-07-07"
    },
    {
     "date": "2000-12-15",
