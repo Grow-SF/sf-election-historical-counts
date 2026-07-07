@@ -249,7 +249,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 2009-05-19,2009,city,Special,,turnout-only,,exact,SFPL/DataSF/DOE
 2009-11-03,2009,city,Municipal,,night,68.3,exact,SFPL/DataSF/DOE
 2010-06-08,2010,city,Primary,,night,64.7,exact,SFPL/DataSF/DOE
-2010-11-02,2010,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+2010-11-02,2010,city,General,,night,61.3,exact,SFPL/DataSF/DOE
 2011-11-08,2011,city,Municipal,,night,44.0,exact,SFPL/DataSF/DOE
 2012-06-05,2012,city,Primary,,night,73.2,exact,SFPL/DataSF/DOE
 2012-11-06,2012,city,General,,night,71.4,exact,SFPL/DataSF/DOE

@@ -2896,6 +2896,14 @@
   "finalSource": "https://www.sfelections.org/results/20101102/",
   "observations": [
    {
+    "date": "2010-11-02",
+    "days": 0,
+    "total": 174563,
+    "pct": 61.3,
+    "label": "Wayback Machine capture",
+    "citation": "Wayback Machine capture - CA Secretary of State County Summary Status (contest_summary.pdf p2), page-self-reported Last Report 11/02 11:54 pm PDT, captured 2010-11-03 07:11:38 UTC (00:11 PDT, inside the night window): San Francisco Ballots Cast 174,563, 590/590 precincts (100.0), registration 461,768 - the election-night plateau (countable-by-night ballots only, matching the 2008 pattern); reproduce: https://web.archive.org/web/20101103071138id_/http://www.sos.ca.gov/contest_summary.pdf; mirror/sos-night/2010-11-02/, read 2026-07-07"
+   },
+   {
     "date": "2010-11-03",
     "days": 1,
     "total": 187625,
@@ -3654,6 +3662,14 @@
     "pct": 100.0,
     "label": "Wayback Machine capture",
     "citation": "DOE Neighborhood Statistics page (wayback 20031028, election_index.asp?id=19598), 'RUN DATE:10/22/03 03:26 PM', 563 of 563 precincts: 269,143 ballots (59.16% of 454,929) - matches certified final; count complete by day 15"
+   },
+   {
+    "date": "2003-11-05",
+    "days": 29,
+    "total": 264940,
+    "pct": 98.4,
+    "label": "Wayback Machine capture",
+    "citation": "Wayback Machine capture - CA Secretary of State vote2003.ss.ca.gov recall returns for San Francisco, page stamp 'as of Nov 5, 2003 1:08 pm', captured 2003-12-02: recall question Yes 52,177 + No 212,763 = 264,940 at 100 percent of 563 precincts - late-canvass point; the page's first-report metadatum records the first release at 8:33pm election night (no night figures survive); reproduce: https://web.archive.org/web/20031202203808id_/http://vote2003.ss.ca.gov/Returns/recall/38.htm; mirror/sos-night/2003-10-07/, read 2026-07-07"
    }
   ]
  },
@@ -3726,6 +3742,14 @@
     "pct": 88.9,
     "label": "SF Chronicle archive",
     "citation": "SF Chronicle 2002-11-08 'Close, but no cigar yet for Daly' (https://sfchronicle.com/politics/article/2756026): 'about 25,000 absentee and provisional ballots to count citywide' - conservative floor"
+   },
+   {
+    "date": "2002-11-10",
+    "days": 5,
+    "total": 215552,
+    "pct": 95.8,
+    "label": "Wayback Machine capture",
+    "citation": "Wayback Machine capture - CA Secretary of State vote2002.ss.ca.gov Returns/status.htm, page stamp 'as of Nov 10, 2002 11:28 pm', captured 2002-11-11 18:22:06: San Francisco Ballots Cast 215,552, 632/632 precincts (47.9 percent of 449,396 registered printed on page); corroborated by the Governor SF sum 207,358; reproduce: https://web.archive.org/web/20021111182206id_/http://vote2002.ss.ca.gov/Returns/status.htm; mirror/sos-night/2002-11-05/, read 2026-07-07"
    },
    {
     "date": "2002-11-12",

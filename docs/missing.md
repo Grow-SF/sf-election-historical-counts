@@ -447,6 +447,25 @@ threads), Usenet (ba.politics via Google Groups), archive.today (2012+),
 Common Crawl (2008+), the Library of Congress election web archives, and
 Archive-It partner collections (California Digital Library, Stanford).
 
+**Update (2026-07-07, the new veins' first sweep).** The Secretary of
+State's election-night sites paid immediately: the state's County Summary
+PDF, page-stamped 11:54 pm on election night 2010 and captured by Wayback
+at 12:11 am, gives San Francisco 174,563 ballots cast at all 590
+precincts, a true 61.3 percent night point that lands beside 2008's 61.0
+(reproduce: web.archive.org/web/20101103071138id_/http://www.sos.ca.gov/
+contest_summary.pdf). The same vein yielded a day-5 point for November
+2002 (215,552) and a late-canvass point for the 2003 recall (264,940);
+2000, March 2002, and 2006 are dry (the result paths were never crawled
+mid-count; the 2002/2003/2006 pages do preserve first-report timestamps,
+8:40pm, 8:33pm, and 8:13pm, useful metadata). The liveblog and Usenet
+families produced the 2011 SFist night floor, the 2000-12 LA
+Times-via-ba.politics conversion, and a queued 2013 candidate. Source
+verdicts: archive.today is bot-blocked; Common Crawl's monthly cadence
+never lands on election night; DailyKos and the Library of Congress and
+Archive-It collections remain unresolved, not dead; Google Groups needs
+a real browser but works. Every find and dead end carries its exact
+reproduction path in the session reports.
+
 **Update (2026-07-07, the Examiner vein's first fruits).** ProQuest's
 digitized Examiner immediately closed both elections that had been held
 for lack of certified denominators. November 1967: the December 12, 1967

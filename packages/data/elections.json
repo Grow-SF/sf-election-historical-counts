@@ -11551,7 +11551,7 @@
   "registered": 449508,
   "source": "archival",
   "provisional": false,
-  "nReports": 6,
+  "nReports": 7,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
@@ -11565,6 +11565,12 @@
    [
     2.5,
     88.9,
+    null,
+    null
+   ],
+   [
+    5.14,
+    95.8,
     null,
     null
    ],
@@ -11627,20 +11633,20 @@
     "bound": false
    },
    "90": {
-    "days": 7,
-    "bound": true
+    "days": 5,
+    "bound": false
    },
    "95": {
-    "days": 7,
-    "bound": true
+    "days": 5,
+    "bound": false
    },
    "98": {
     "days": 7,
-    "bound": true
+    "bound": false
    },
    "99": {
     "days": 7,
-    "bound": true
+    "bound": false
    }
   },
   "nightSrc": null,
@@ -11729,7 +11735,7 @@
   "registered": 454929,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
+  "nReports": 2,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
@@ -11737,6 +11743,12 @@
    [
     14.81,
     100.0,
+    null,
+    null
+   ],
+   [
+    28.71,
+    98.4,
     null,
     null
    ]
@@ -13033,11 +13045,17 @@
   "registered": 461771,
   "source": "archival",
   "provisional": false,
-  "nReports": 5,
-  "nightPct": null,
+  "nReports": 6,
+  "nightPct": 61.3,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.16,
+    61.3,
+    null,
+    null
+   ],
    [
     0.79,
     65.9,
@@ -13071,20 +13089,20 @@
   ],
   "thresholds": {
    "50": {
-    "days": 1,
+    "days": 0,
     "bound": true
    },
    "55": {
-    "days": 1,
+    "days": 0,
     "bound": true
    },
    "60": {
-    "days": 1,
+    "days": 0,
     "bound": true
    },
    "65": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "70": {
     "days": 3,
@@ -13107,8 +13125,8 @@
     "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "proquest-examiner"
+  "nightSrc": "Wayback Machine capture",
+  "srcShort": "Wayback Machine capture"
  },
  {
   "id": "2011-11-08",
