@@ -75,3 +75,15 @@ cdnc.ucr.edu (issue code in the citation) and read the page image.
 | 1902-12-02 | printed 26,615 exceeds certified 26,612 by 3 | consistent with the 161 rejected ballots reclassified at canvass; For+Against 26,454 ingested | SFC19021203 section 2.128 | low |
 | 1905-11-07 | promotion question: printed 71,033 vs official rounded 72,000 denominator | if you judge the paper's precise figure the better denominator, the night share becomes 100.0 and the turnout row should change too | report .superpowers/sdd/cdnc-1905-11-report.md | judgment call |
 | 1899-12-29 | dry: the only vote table's OCR fails the certified gate | needs a page-image read (CDNC viewer by hand or NewsBank) | SFC18991230 section 2.4.2 | medium |
+
+## Resumable ProQuest queue (1999-11-02, blocked by the returning captcha)
+
+Six KWIC-located Examiner docviews await page-image reads once the robot
+wall cools (it now retriggers after a handful of loads even at 27-second
+pacing; consider resuming tomorrow, or reading these by hand in ProQuest):
+2206373293 (Nov 5 p22, an itemized status box, highest value), 2206796248
+(Nov 4 p16, count-completion estimate), 2206420897 and 2206420136 (Nov 3,
+registrar spokesperson on the write-in backlog), 2206377576 (Nov 5 p18,
+Friday updated numbers), 2206795946 (Nov 4 p30). The 2003-12-09 runoff
+was not searched at all before the block: virgin territory for the next
+run. Method notes in the session's examiner-1999-2003 report.
