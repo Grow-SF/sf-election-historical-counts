@@ -95,3 +95,25 @@ run. Method notes in the session's examiner-1999-2003 report.
 | 2011-11-08 | SFist 10:22pm 'Lee 44,451 (27%)' at 100% precincts | the ratio convention implies a first-choice total of 161,600-167,700 (an 82 percent night share), but Lee held only 74.5 percent of his certified first-choice votes at that hour, an internal tension; the ingested row uses only the safe top-3 sum (44.0 dim) | sfist.com/2011/11/08/election_night_results/ |
 | 2013-11-05 | SFist day-after: '56,000 ballots cast by mail and about 40,000 cast in polling stations' (~96,000) | 'cast' is turnout language, not counted-so-far language; if judged to echo the DOE's counted release, it becomes a d1 floor at 74.5 percent | web.archive.org/web/20131109061856/http://sfist.com/2013/11/06/dueling_8_washington_props_go_down.php |
 | 2000-12-12 | LAT-via-Usenet 8,000-remaining conversion (ingested, 93.8) | optional: confirm the sentence against the LA Times archive directly | groups.google.com/g/ba.politics/c/Y8S4VZY1-Ng |
+
+## Resumable ProQuest queue #2 (the December runoffs, captcha-flagged session)
+
+ProQuest began walling the FIRST docview after a fresh login (session/IP
+flagged); resume after a cooldown of hours or a day. Exact remaining
+work (query grammar: inline pd(YYYYMMDD-YYYYMMDD); 27+ second pacing;
+one reused tab):
+- 2003-12-09 (certified 253,872): verify docview 2206312937 (Dec 12 p11,
+  Arntz editorial, possible count language); then 'turnout' and 'ranked'
+  x pd(20031210-20031223).
+- 2001-12-11 (75,267; existing floor 70,244): the eight standard count
+  query families plus 'Herrera AND Fazio', pd(20011211-20011225).
+- 2002-12-10 (35,897): standard families plus Dufty / Fiona Ma,
+  pd(20021210-20021224).
+- 2009-05-19 (130,644): standard families plus 'Proposition 1A',
+  pd(20090519-20090602).
+- 2014-06-03 (129,399): standard families, pd(20140603-20140617).
+Standard families: ballots counted / ballots remain / yet to be counted /
+absentee / provisional / Department of Elections / election night /
+by midnight. Method file: the proquest-examiner recipe in the session
+notes; conversions per the campaign conventions ('at least X remain' is
+a ceiling, never a floor).
