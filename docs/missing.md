@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**67 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**62 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 67 elections still missing a night count
+## The 62 elections still missing a night count
 
 | Date | Year | Level | Kind | Description |
 |------|------|-------|------|-------------|
@@ -55,12 +55,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1887-07-01 | 1887 | municipal | Charter | Proposed new charter — REJECTED; exact date unknown |
 | 1888-11-06 | 1888 | both | Presidential + Municipal | President + Congress + Legislature; Mayor (Pond re-elected) |
 | 1890-11-04 | 1890 | both | Gubernatorial + Municipal | Governor + state officers; Mayor (Sanderson) |
-| 1899-12-27 | 1899 | municipal | Special | Park-bond special (Municipal Reports cumulative table) |
 | 1899-12-29 | 1899 | municipal | Special | Sewer-bond special (the DOE turnout table dates it 1899-12-02; see doe-data-discrepancies.md) |
-| 1902-12-02 | 1902 | municipal | Special | Geary Street Railroad bond special (DOE turnout table; Municipal Reports confirm) |
-| 1902-12-04 | 1902 | municipal | Special | Charter-amendments special (Municipal Reports cumulative table) |
-| 1903-09-29 | 1903 | municipal | Special | Sewer and other bonds special (DOE turnout table; Municipal Reports confirm) |
-| 1903-10-08 | 1903 | municipal | Special | Street-railroad bonds special (DOE turnout table; Municipal Reports confirm) |
 | 1908-05-11 | 1908 | city | Special |  |
 | 1908-11-12 | 1908 | city | Special |  |
 | 1909-06-22 | 1909 | city | Primary |  |
@@ -374,3 +369,18 @@ The 1896 ballots-cast conflict between Municipal Reports printings (two
 early volumes print 64,820, two later ones 61,820) was arbitrated to
 64,820 by the election's own fiscal-year volume and by the SOV elector
 sum (61,889), which rules the lower figure out arithmetically.
+
+**Update (2026-07-07, the turn-of-the-century specials).** Five of the six
+1899-1903 special elections yielded night counts from the day-after Call
+on CDNC, every one a printed total-votes line: Dec 27 1899 park bonds
+(29,938, 'exactly at 8:20 p.m. the last precinct had reported'), Dec 2
+1902 Geary Street bonds (For+Against 26,454 used as the floor; the
+printed 26,615 including 161 rejected ballots exceeds the certified
+26,612 by 3, logged), Dec 4 1902 charter amendments (14,167), Sept 29
+1903 bonds (27,234), Oct 8 1903 Geary bonds again (25,259, the printed
+two-thirds shortfall reconciling exactly). The one dry hole: Dec 29 1899
+sewer bonds, where the only vote table is OCR-degraded and its attempted
+reconstruction FAILS the certified-ballots gate (22,662 against a 22,331
+ceiling), proving the digit reads wrong; prose gives only '22,000-odd
+voters'. That election needs a page-image read (NewsBank or the CDNC
+viewer by hand) rather than OCR.

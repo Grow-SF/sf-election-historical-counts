@@ -4596,43 +4596,67 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Special Municipal Election
 
 **ID:** `1903-10-08`
 
-25,275 ballots cast, 34.3% of 73,702 registered
+**Certified final:** 25,276
 
-**Source:** SF Dept. of Elections historical turnout table (1899–2019)
+**Source:** DOE turnout table row (cross-verified against Municipal Reports, printed 25,276): certified 25,276 ballots
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1903-10-09 | 1 |  | 25,259 | 99.9% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1903-10-09 'ELECTORS DECLARE OVERWHELMINGLY AGAINST THE GEARY-STREET BOND ISSUE' (section SFC19031009.2.129): 'out of a total of 25,259' (For 14,481, Against 10,745; the printed two-thirds shortfall 2,357 reconciles exactly) - 17 below certified; mirror/cdnc/SFC19031009/, read 2026-07-07 |
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Special Municipal Election
 
 **ID:** `1903-09-29`
 
-27,308 ballots cast, 37.1% of 73,540 registered
+**Certified final:** 27,308
 
-**Source:** SF Dept. of Elections historical turnout table (1899–2019)
+**Source:** DOE turnout table row (cross-verified against Municipal Reports): certified 27,308 ballots
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1903-09-30 | 1 |  | 27,234 | 99.7% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1903-09-30 'PEOPLE INDORSE BOND IMPROVEMENTS' (section SFC19030930.2.60): 'total number of votes polled, which was 27,234' (stated twice) - 74 below certified; Telegraph Hill parcel figures within 150 of the Election Commissioners' certified finding; mirror/cdnc/SFC19030930/, read 2026-07-07 |
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Special Municipal Election
 
 **ID:** `1902-12-04`
 
-14,271 ballots cast, 20.2% of 70,764 registered
+**Certified final:** 14,271
 
-**Source:** Municipal Reports cumulative table; ballots 14,271 per the two earlier printings (vols 53/55); vol57 p.871 prints 14,371, a minority variant; registration is the same-week register base shared with the Dec 2 Geary Street bond special (the Dec 4 row's own registration cell is blank in every printing) - Dec 4 1902 special (charter amendments); absent from the DOE turnout table
+**Source:** SF Municipal Reports cumulative table: certified 14,271 ballots per vols 53/55 (data/sf_turnout_1891_1907.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1902-12-05 | 1 |  | 14,167 | 99.3% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1902-12-05 'ONE AMENDMENT SUFFERS DEFEAT' (section SFC19021205.2.52): printed 'Only 14,167 votes were cast' - 104 below certified; full 8-amendment table also captured; mirror/cdnc/SFC19021205/, read 2026-07-07 |
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Special Municipal Election
 
 **ID:** `1902-12-02`
 
-26,612 ballots cast, 37.6% of 70,764 registered
+**Certified final:** 26,612
 
-**Source:** SF Dept. of Elections historical turnout table (1899–2019)
+**Source:** DOE turnout table row (cross-verified against Municipal Reports): certified 26,612 ballots
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1902-12-03 | 1 |  | 26,454 | 99.4% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1902-12-03 (section SFC19021203.2.128): For 15,120 + Against 11,334 = 26,454 used as the conservative floor; the printed total 26,615 (including 161 rejected ballots) exceeds the certified 26,612 by 3 and is logged, not used (two independent arithmetic self-checks confirm the printed figures; the 3-vote excess is consistent with canvass reclassification of rejected ballots); mirror/cdnc/SFC19021203/, read 2026-07-07 |
 
 ---
 
@@ -4695,13 +4719,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Special Municipal Election
 
 **ID:** `1899-12-27`
 
-29,972 ballots cast, 42.4% of 70,681 registered
+**Certified final:** 29,972
 
-**Source:** Municipal Reports cumulative table; confirmed in all three covering printings (vols 53/55/57) - Dec 27 1899 special (park bonds); absent from the DOE turnout table; companion to the Dec 29 sewer-bond special
+**Source:** SF Municipal Reports cumulative table: certified 29,972 ballots (data/sf_turnout_1891_1907.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1899-12-28 | 1 |  | 29,938 | 99.9% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1899-12-28 (section SFC18991228.2.5.2): printed total votes cast 29,938 (For 21,900 + Against 7,840 + rejected 218; component arithmetic suggests 29,958, a 3/5 OCR ambiguity queued for hand-read; lower reading used) - 'exactly at 8:20 p.m. the last precinct had reported', complete count election evening; 34 below certified; mirror/cdnc/SFC18991228/, read 2026-07-07 |
 
 ---
 

@@ -15,9 +15,9 @@ historical counts from newspaper and web archives — and tells the story in an
 interactive site.
 
 Live data spans **1868–2026** (turnout back to 1879, registration back to 1908,
-election-night counts back to 1868): 181 elections with an election-night count
-(including 96 pre-1965 counts recovered from the hand-count and machine eras,
-back to 1868), 289 recovered historical canvass observations, and 241 modern
+election-night counts back to 1868): 186 elections with an election-night count
+(including 101 pre-1965 counts recovered from the hand-count and machine eras,
+back to 1868), 294 recovered historical canvass observations, and 241 modern
 per-release reports, every number traceable to a cited source. The long view
 reveals distinct eras — _erratic_ in the hand-count era (1868–1922, when ballot
 length, not the calendar, set the pace: ~61% counted by morning in 1908 but
@@ -83,7 +83,7 @@ against the running preview harness.)*
 
 - `sf_count_timeline.csv` — modern per-release counts (the `sfcount` output).
 - `sf_archival_canvass_points.csv` — recovered historical observations
-  (1897–2014); schema and method in the runbook.
+  (1868–2014); schema and method in the runbook.
 - `sf_turnout_history_doe_1899_2019.csv` — DOE certified turnout (the
   denominators). Known data-quality issues tracked in
   `docs/denominator-errors.md`.
@@ -168,7 +168,7 @@ uses `tesseract`. None of these binaries are in pyproject; install via brew.)
 
 ## Help us recover the missing elections
 
-**67 San Francisco elections still lack an election-night count** — see
+**62 San Francisco elections still lack an election-night count** — see
 [`data/elections_master.csv`](data/elections_master.csv) (the `recovered=no` rows)
 and [`docs/missing.md`](docs/missing.md). Most are pre-1907, above all the 1856–1905 mayoral
 elections. None are lost causes: the returns were printed at the time and survive
@@ -215,8 +215,8 @@ haven't recovered them yet. The full election-by-election list is now
 [`data/elections_master.csv`](data/elections_master.csv) (built by
 [`scripts/build_elections_master.py`](scripts/build_elections_master.py)) — **275
 San Francisco elections, 1849–2026**, each flagged by whether we hold a night
-count: **181 recovered · 27 turnout-only · 67 still missing**. The categories below
-summarize those 67. (The total rose in July 2026: the Municipal Reports
+count: **186 recovered · 27 turnout-only · 62 still missing**. The categories below
+summarize those 62. (The total rose in July 2026: the Municipal Reports
 cumulative Registrar table exposed a spurious index entry, Nov 1 1898, and
 three previously unindexed specials; see the search log.)
 
