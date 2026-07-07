@@ -231,7 +231,7 @@ precincts (1342 of 1344), but closed-primary contests span single parties,
 so the largest provable all-voter floor is the local Prop A sum 146,496
 (64.6 percent), ingested as a flagged partial since the true night share
 was plainly far higher. With that, every post-1965 election that lacked a
-night count has been attempted: eleven now carry night observations, four
+night count has been attempted: eleven now carry night observations, three
 carry complete day-2 counts, and two (November 1967 and November 1969)
 hold verified night observations awaiting certified denominators from the
 city Statement of Vote volumes at the SFPL History Center.
