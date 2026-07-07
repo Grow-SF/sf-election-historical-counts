@@ -12581,14 +12581,32 @@
   "registered": 477651,
   "source": "archival",
   "provisional": false,
-  "nReports": 2,
-  "nightPct": null,
+  "nReports": 5,
+  "nightPct": 61.0,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
-    0.5,
-    65.0,
+    0.29,
+    61.0,
+    null,
+    null
+   ],
+   [
+    0.79,
+    62.1,
+    null,
+    null
+   ],
+   [
+    1.79,
+    65.3,
+    null,
+    null
+   ],
+   [
+    9.0,
+    96.1,
     null,
     null
    ],
@@ -12613,31 +12631,31 @@
     "bound": true
    },
    "65": {
-    "days": 28,
-    "bound": true
+    "days": 2,
+    "bound": false
    },
    "70": {
-    "days": 28,
+    "days": 9,
     "bound": true
    },
    "75": {
-    "days": 28,
+    "days": 9,
     "bound": true
    },
    "80": {
-    "days": 28,
+    "days": 9,
     "bound": true
    },
    "85": {
-    "days": 28,
+    "days": 9,
     "bound": true
    },
    "90": {
-    "days": 28,
+    "days": 9,
     "bound": true
    },
    "95": {
-    "days": 28,
+    "days": 9,
     "bound": true
    },
    "98": {
@@ -12649,8 +12667,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+  "nightSrc": "proquest-examiner",
+  "srcShort": "proquest-examiner"
  },
  {
   "id": "2009-05-19",
@@ -12865,11 +12883,17 @@
   "registered": 461771,
   "source": "archival",
   "provisional": false,
-  "nReports": 2,
+  "nReports": 3,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.79,
+    65.9,
+    null,
+    null
+   ],
    [
     1.84,
     67.0,
@@ -12885,19 +12909,19 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "70": {
@@ -12914,7 +12938,7 @@
    }
   },
   "nightSrc": null,
-  "srcShort": "Wayback Machine capture"
+  "srcShort": "proquest-examiner"
  },
  {
   "id": "2011-11-08",

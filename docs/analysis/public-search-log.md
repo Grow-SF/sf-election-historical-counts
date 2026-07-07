@@ -380,3 +380,24 @@ printed); its best Examiner line, 599 of 647 precincts tallied by
 11:04pm election night, is precinct-basis color that cannot convert to
 ballots. The SFPL History Center errand now has a single remaining
 purpose: arbitrating the June 1968 discrepancy.
+
+**Update (2026-07-07, Examiner round two: 2008 corrected and recovered).**
+The Examiner's post-election coverage gave November 2008 its first true
+night observation and CORRECTED a committed row. The Wednesday-afternoon
+DOE update was a direct printed 241,090 ballots counted (printed twice,
+Nov 6 p6 and Nov 7 p18); the dataset had been carrying a Chronicle-derived
+252,112 (certified minus the Department's stated '136,000 remaining'),
+which the Examiner shows overstated the count by about 11,000 because the
+Department underestimated its own remaining pile (actual: 147,022). The
+derived row is replaced by the direct count, the same unsafe-derivation
+class as the rejected 2001-11 figure. Night reconstruction: Wednesday
+added 'only 4,000 additional ballots' over Election Day per both pieces,
+so the night floor is 241,090 minus a rounding-safe 4,500 = 236,590
+(61.0 percent), with day-2 (253,486 printed) and day-9 (372,812 via
+remaining-conversion) points behind it. November 2010 gained a
+Wednesday-afternoon floor (187,625 via an 83,000+14,000 remaining
+statement); three later Examiner leads sit unverified behind a captcha
+wall and are queued. November 2006 stayed dry (best Examiner lead is
+coarser than the existing rows). Operational: ProQuest raised an hCaptcha
+after parallel agents searched in bursts; Examiner work is serialized
+from here.
