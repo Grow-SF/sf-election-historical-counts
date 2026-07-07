@@ -602,3 +602,17 @@ Archive-It, archive.today, Common Crawl) is exhausted for the November
 2000 election night; its number survives, if anywhere, in broadcast
 tape, personal archives of era analysts and reporters, or the Secretary
 of State's internal records.
+**Update (2026-07-07, the Examiner completion pass).** The final six
+elections got their Examiner sweep, and four flipped to night: March
+2002 (an 11:00 p.m. printed results table, Public Defender sum 85,801,
+57.1 percent dim), November 2002 (623 of 632 precincts at press
+deadline, Prop R sum 169,484, 75.3 dim), December 2000 (38,445 counted
+at 8:30 p.m., citywide by arithmetic necessity, 29.7 dim), and November
+2013 (the prize: elections director Arntz quoted that 'just more than
+95,000 votes had been counted by 10:30 p.m. Tuesday', a direct
+Department night count at 73.7 percent, which also settled the queued
+SFist ambiguity). November 2011 gained a day-2 remaining-conversion
+(165,242) whose full-field first-choice table refuted the queued ratio
+derivation. The October 2003 recall stayed dry in the Examiner
+(statewide-focused coverage). With this pass the Examiner trawl is
+complete for every post-1995 gap election.

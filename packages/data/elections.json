@@ -11183,11 +11183,17 @@
   "registered": 398234,
   "source": "archival",
   "provisional": false,
-  "nReports": 2,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 3,
+  "nightPct": 29.7,
+  "nightPartial": true,
   "vbmShare": 37.0,
   "pts": [
+   [
+    0.02,
+    29.7,
+    null,
+    null
+   ],
    [
     0.88,
     93.8,
@@ -11204,39 +11210,39 @@
   "thresholds": {
    "50": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "55": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "60": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "65": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "70": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "75": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 3,
@@ -11251,8 +11257,8 @@
     "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "contemporary news report (live web)"
+  "nightSrc": "proquest-examiner",
+  "srcShort": "proquest-examiner"
  },
  {
   "id": "2001-11-06",
@@ -11453,11 +11459,17 @@
   "registered": 440016,
   "source": "archival",
   "provisional": false,
-  "nReports": 6,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 7,
+  "nightPct": 57.1,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.12,
+    57.1,
+    null,
+    null
+   ],
    [
     1.5,
     84.0,
@@ -11497,32 +11509,32 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 0,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 0,
     "bound": true
    },
    "60": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "65": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "70": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "75": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 3,
@@ -11545,8 +11557,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+  "nightSrc": "proquest-examiner",
+  "srcShort": "proquest-examiner"
  },
  {
   "id": "2002-11-05",
@@ -11557,11 +11569,17 @@
   "registered": 449508,
   "source": "archival",
   "provisional": false,
-  "nReports": 7,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 8,
+  "nightPct": 75.3,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    75.3,
+    null,
+    null
+   ],
    [
     1.5,
     78.2,
@@ -11607,27 +11625,27 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "80": {
@@ -11655,8 +11673,8 @@
     "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+  "nightSrc": "proquest-examiner",
+  "srcShort": "proquest-examiner"
  },
  {
   "id": "2002-12-10",
@@ -13179,7 +13197,7 @@
   "registered": 464380,
   "source": "archival",
   "provisional": false,
-  "nReports": 5,
+  "nReports": 6,
   "nightPct": 44.0,
   "nightPartial": true,
   "vbmShare": null,
@@ -13193,6 +13211,12 @@
    [
     0.83,
     79.6,
+    null,
+    null
+   ],
+   [
+    1.79,
+    83.8,
     null,
     null
    ],
@@ -13479,11 +13503,23 @@
   "registered": 440028,
   "source": "archival",
   "provisional": false,
-  "nReports": 2,
-  "nightPct": null,
+  "nReports": 4,
+  "nightPct": 73.7,
   "nightPartial": false,
   "vbmShare": 66.2,
   "pts": [
+   [
+    0.1,
+    73.7,
+    null,
+    null
+   ],
+   [
+    1.79,
+    78.3,
+    null,
+    null
+   ],
    [
     2.84,
     95.3,
@@ -13499,44 +13535,44 @@
   ],
   "thresholds": {
    "50": {
-    "days": 3,
+    "days": 0,
     "bound": true
    },
    "55": {
-    "days": 3,
+    "days": 0,
     "bound": true
    },
    "60": {
-    "days": 3,
+    "days": 0,
     "bound": true
    },
    "65": {
-    "days": 3,
+    "days": 0,
     "bound": true
    },
    "70": {
-    "days": 3,
+    "days": 0,
     "bound": true
    },
    "75": {
-    "days": 3,
-    "bound": true
+    "days": 2,
+    "bound": false
    },
    "80": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "98": {
     "days": 10,
@@ -13547,8 +13583,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "Wayback Machine capture"
+  "nightSrc": "proquest-examiner",
+  "srcShort": "proquest-examiner"
  },
  {
   "id": "2014-06-03",

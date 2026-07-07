@@ -2704,6 +2704,22 @@
   "finalSource": "https://www.sfelections.org/results/20131105/",
   "observations": [
    {
+    "date": "2013-11-05",
+    "days": 0,
+    "total": 95000,
+    "pct": 73.7,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2013-11-06 p6 (docview 2069644090, image-verified inline): Elections Department director John Arntz quoted, 'Just more than 95,000 votes had been counted by 10:30 p.m. Tuesday' - direct hour-stamped night count, rounding-safe floor 95,000; this also settles the queued SFist ambiguity (its day-after 56,000 mail + 40,000 polling, about 96,000, was the counted state); read 2026-07-07"
+   },
+   {
+    "date": "2013-11-07",
+    "days": 2,
+    "total": 100937,
+    "pct": 78.3,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2013-11-07 (docview per the completion report): Department-attributed 28,000 remaining - conversion 128,937 minus 28,000 = 100,937; read 2026-07-07"
+   },
+   {
     "date": "2013-11-08",
     "days": 3,
     "total": 122813,
@@ -2862,6 +2878,14 @@
     "pct": 79.6,
     "label": "Wayback Machine capture",
     "citation": "https://web.archive.org/web/20111110070445/http://sfelections.org:80/results/20111108/"
+   },
+   {
+    "date": "2011-11-10",
+    "days": 2,
+    "total": 165242,
+    "pct": 83.8,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2011-11-10 p4 (docview 2069597521, image-verified inline): full 16-candidate Round-1 mayoral table summing 154,942 plus Department-attributed 'About 32,000... remain to be counted' - conversion 197,242 minus 32,000 = 165,242; the full-field 154,942 at day 2 also REFUTES the election-night ratio derivation previously queued (161,600-167,700 would exceed the day-2 first-choice total), so the dim top-3 night floor stands; read 2026-07-07"
    },
    {
     "date": "2011-11-10",
@@ -3792,6 +3816,14 @@
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
    {
+    "date": "2002-11-06",
+    "days": 1,
+    "total": 169484,
+    "pct": 75.3,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2002-11-06 p4 (docview 2206848039, image-verified inline): 'With 623 of 632 precincts counted, Prop. R had lost, 102,863 to 66,621' = 169,484 - press-deadline contest-sum partial at 623/632, flagged night_partial; read 2026-07-07"
+   },
+   {
     "date": "2002-11-07",
     "days": 2,
     "total": 176085,
@@ -3871,6 +3903,14 @@
   "final": 150249,
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
+   {
+    "date": "2002-03-05",
+    "days": 0,
+    "total": 85801,
+    "pct": 57.1,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2002-03-06 p7 'MARCH 5 RESULTS (Reported as of 11:00 p.m.)' (docview 2206559336, image-verified inline): Public Defender race Adachi 47,017 + Burton 38,784 = 85,801 counted at 11 PM election night - contest-sum night partial, flagged night_partial; read 2026-07-07"
+   },
    {
     "date": "2002-03-07",
     "days": 2,
@@ -4047,6 +4087,14 @@
   "final": 129629,
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
+   {
+    "date": "2000-12-12",
+    "days": 0,
+    "total": 38445,
+    "pct": 29.7,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2000-12-13 p6 (docview 2206415258, image-verified inline): 'With 38,445 ballots counted, Daly had won 76 percent to Dittenhafer's 23 percent' at 8:30 PM election night - the figure must be CITYWIDE, not District 6 alone, because 38,445 exceeds any plausible single-district runoff turnout (the seven district runoffs averaged about 18,500 certified ballots each); early-evening partial, flagged night_partial; read 2026-07-07"
+   },
    {
     "date": "2000-12-13",
     "days": 1,
