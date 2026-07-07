@@ -11099,7 +11099,7 @@
   "registered": 486636,
   "source": "archival",
   "provisional": false,
-  "nReports": 4,
+  "nReports": 5,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
@@ -11119,6 +11119,12 @@
    [
     2.5,
     91.6,
+    null,
+    null
+   ],
+   [
+    2.88,
+    95.7,
     null,
     null
    ],
@@ -11167,7 +11173,7 @@
     "bound": false
    },
    "95": {
-    "days": 5,
+    "days": 3,
     "bound": false
    }
   },

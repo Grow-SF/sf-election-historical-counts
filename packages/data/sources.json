@@ -4144,12 +4144,20 @@
     "citation": "SF Chronicle via NewsBank (SFPL), 'S.F.'s Slow-Growth Prop. L Falls Behind in Late Count' 2000-11-10: 'about 18,000 absentee ballots left to be counted, along with 9,347 provisional ballots' (Hayashi, DOE) - conservative floor 324,031 - 27,347; same article: Prop L daily count 130,066 to 130,059"
    },
    {
+    "date": "2000-11-10",
+    "days": 3,
+    "total": 310031,
+    "pct": 95.7,
+    "label": "proquest-examiner",
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 2000-11-11 p2 'ELECTION from A-1' continuation (docview 2206902098, image-verified): 'At least two San Francisco Board of Supervisors races also remained too close to call, with about 14,000 ballots left to count', attributed to 'The Department of Elections' update of results Friday' - registrar-remaining conversion 324,031 minus 14,000; Saturday's paper reporting Friday's DOE update; no hour printed, the 17:00 stamp is an inference that the Friday update landed by late afternoon (it exceeds the same-day 08:00 floor of 296,684), disclosed here; located via query Hayashi AND pd(20001110-20001205); screenshot mirror/examiner/2000-11-07/dv2206902098_z1.png; read 2026-07-07"
+   },
+   {
     "date": "2000-11-12",
     "days": 5,
     "total": 314031,
     "pct": 96.9,
     "label": "SF Chronicle via NewsBank (SFPL)",
-    "citation": "SF Chronicle via NewsBank (SFPL), 'Prop. L Continues To Lose Ground As Tally Proceeds' 2000-11-13 pA17 (0EB4F96B55873944): 'about 10,000 ballots left to be counted' - conservative floor \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F96B55873944"
+    "citation": "SF Chronicle via NewsBank (SFPL), 'Prop. L Continues To Lose Ground As Tally Proceeds' 2000-11-13 pA17 (0EB4F96B55873944): 'about 10,000 ballots left to be counted' - conservative floor; independently corroborated by SF Examiner 2000-11-13 p3 'Prop. L remains behind' (ProQuest docview 2206629184, image-verified): 'With about 10,000 provisional ballots still to be counted...late Sunday' with Hayashi (DOE) quoted that the machines rejected damaged cards needing remake; screenshot mirror/examiner/2000-11-07/dv2206629184_z1.png; read 2026-07-07 \u00b7 read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F96B55873944"
    }
   ]
  },

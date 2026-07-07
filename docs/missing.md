@@ -616,3 +616,24 @@ SFist ambiguity). November 2011 gained a day-2 remaining-conversion
 derivation. The October 2003 recall stayed dry in the Examiner
 (statewide-focused coverage). With this pass the Examiner trawl is
 complete for every post-1995 gap election.
+**Update (2026-07-07, the Examiner retry pass).** At the operator's
+direction, all six elections still lacking a night observation
+(November 2000, December 2001, October 2003, December 2003, November
+2006, May 2009) got a second full Examiner pass under genuinely new
+query angles (canvass and certification windows, 'official results'
+families, swearing-in retrospectives, and named-official searches).
+One angle produced: searching the Department of Elections spokeswoman
+by name (Hayashi AND pd(20001110-20001205)) surfaced two
+Department-attributed canvass floors for November 2000 that generic
+election terms had missed under the Florida-recall noise: 310,031 as
+of the Friday Nov 10 update ('about 14,000 ballots left to count',
+Examiner Nov 11 p2, docview 2206902098, a new point) and 314,031 late
+Sunday Nov 12 ('about 10,000 provisional ballots still to be
+counted', Nov 13 p3, docview 2206629184, corroborating the existing
+Chronicle-derived row exactly). Lesson recorded for future agents:
+when generic vocabulary drowns in wire copy, search the named local
+official. The other five elections stayed dry across roughly 17 new
+queries each; with two full passes done, the Examiner is judged
+tapped for those five, and any remaining recovery lies with the
+Chronicle, broadcast tape, or human channels. Exact queries and
+verbatim evidence: the examiner-retry session report.
