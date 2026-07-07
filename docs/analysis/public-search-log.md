@@ -303,3 +303,27 @@ reconstruction FAILS the certified-ballots gate (22,662 against a 22,331
 ceiling), proving the digit reads wrong; prose gives only '22,000-odd
 voters'. That election needs a page-image read (NewsBank or the CDNC
 viewer by hand) rather than OCR.
+
+**Update (2026-07-07, the nineteenth century).** The CDNC vein reached the
+Daily Alta California. November 1888 and November 1884 both yielded full
+three-day count trajectories (token overnight slices of 6,290 and about
+5,056 ballots, majorities by day 2, near-final sums of 52,916 and 40,200
+by day 3), the shape of hand-count-era counting made visible. September
+1879 (the first election under the new Constitution) is the season's
+best story: the Alta documents the Governor lead flipping across the
+count (Perkins up 240 at the day-3 midnight report, then White up 300,
+then 840, with certification finally at Perkins by 351), each swing
+corroborated by the stable Kalloch-Flint differential in the same
+tables; ingested as a 2.4 percent night partial plus day-2 and day-3
+canvass points (the paper's poll-list turnout reads, 41,113 and 41,804,
+bracket the certified 41,575 but are ballots-received figures, not
+canvass counts, and were not ingested). November 1880's morning-after
+paper spells out 'Forty-One Thousand Two Hundred and Ninety-Eight Votes
+Cast', six votes above the certified 41,292 (the rejected-ballot
+reclassification class), so 1880 carries a day-2 point only. What
+remains in this vein, for a future session: the 1872 and 1867-1871
+statewide elections (Alta coverage exists; denominators partly on file
+with medium confidence), the pre-1867 run (needs Blue Book denominators
+first), and the 1850s-1895 municipals (needs both dates verified and
+denominators; the Municipal Reports volumes hold the latter). The one
+proven recipe: cdnc_fetch.js, search mode first, gates always.

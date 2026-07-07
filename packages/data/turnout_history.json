@@ -4,15 +4,15 @@
   "turnoutPct": 92.9,
   "registered": 44765,
   "ballots": 41575,
-  "source": "muni-registrar",
-  "kind": "Special"
+  "source": "archival",
+  "kind": "General"
  },
  {
   "date": "1880-11-02",
   "turnoutPct": 94.3,
   "registered": 43775,
   "ballots": 41292,
-  "source": "muni-registrar",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -28,7 +28,7 @@
   "turnoutPct": 94.1,
   "registered": 50542,
   "ballots": 47535,
-  "source": "muni-registrar",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -44,7 +44,7 @@
   "turnoutPct": 94.5,
   "registered": 58549,
   "ballots": 55313,
-  "source": "muni-registrar",
+  "source": "archival",
   "kind": "General"
  },
  {

@@ -54,3 +54,20 @@ The SF History Center (Main Library, 6th floor) holds the city's own
 (finding aid: sfpl.org, "Statement of Vote 1906-1979"; in-library use).
 Certified totals from those volumes unlock the two held elections above
 and arbitrate the 1968-06 discrepancy.
+
+## Overnight additions (2026-07-07, the CDNC campaign)
+
+CDNC items are text-OCR reads; to hand-verify, open the cited section on
+cdnc.ucr.edu (issue code in the citation) and read the page image.
+
+| Election | Claimed value | What to check | Where | Priority |
+|---|---|---|---|---|
+| 1899-11-07 | Davis E+1 figure, OCR-garbled, prose implies about 14,676 | one digit string on the 2:15am table; a confirmed read lifts the night floor from 20,248 (39.0) to about 34,900 (67) | SFC18991108 p1 'THE COUNT.' | HIGH (biggest single improvement available) |
+| 1906-11-06 | grand total prints 38,802 (headline) vs 38,302 (body line) | which is the true printed total; neither is ingested (Governor sum 37,287 is the floor) | SFC19061107 section 2.10.5 | medium |
+| 1899-12-27 | total 29,938 vs component arithmetic 29,958 | a 3/5 digit; both pass the gate; lower ingested | SFC18991228 section 2.5.2 | low |
+| 1896-11-03 | ballots corrected 61,820 to 64,820 | spot-check mirror/muni_reports/vol47_n320.jpg (crisp) and the SOV elector pages | evidence saved | medium |
+| 1888-11-06 | Curtis (American) day-3 figure illegible, excluded | if readable on the page image, add to the 52,916 sum | DAC18881109 section 2.3 | low |
+| 1884-11-04 | third column (528) party identity: Butler vs St. John | affects labeling only, not the 40,200 sum | DAC18841107 section 2.2.3 | low |
+| 1902-12-02 | printed 26,615 exceeds certified 26,612 by 3 | consistent with the 161 rejected ballots reclassified at canvass; For+Against 26,454 ingested | SFC19021203 section 2.128 | low |
+| 1905-11-07 | promotion question: printed 71,033 vs official rounded 72,000 denominator | if you judge the paper's precise figure the better denominator, the night share becomes 100.0 and the turnout row should change too | report .superpowers/sdd/cdnc-1905-11-report.md | judgment call |
+| 1899-12-29 | dry: the only vote table's OCR fails the certified gate | needs a page-image read (CDNC viewer by hand or NewsBank) | SFC18991230 section 2.4.2 | medium |

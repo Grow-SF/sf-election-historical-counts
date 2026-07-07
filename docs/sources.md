@@ -4858,13 +4858,21 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Consolidated General Election
 
 **ID:** `1888-11-06`
 
-55,313 ballots cast, 94.5% of 58,549 registered
+**Certified final:** 55,313
 
-**Source:** SF Municipal Reports — Registrar of Voters (1879–1890)
+**Source:** SF Municipal Reports Registrar master table: certified 55,313 ballots (data/sf_turnout_pre1899.csv); the President contest sum 55,717 exceeds it by 404, a known source tension (data/pre1892_certified.md)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1888-11-07 | 1 |  | 6,290 | 11.4% | cdnc-ocr — Daily Alta California via CDNC (cdnc.ucr.edu), 1888-11-07 'THE CITY'S VOTE' (section DAC18881107.2.5): President slate sums 6,290 across the token overnight slice (prose says 6,363, 71-vote gap noted) - hand-count era election night, flagged night_partial; mirror/cdnc/DAC18881107/, read 2026-07-07 |
+| 1888-11-08 | 2 |  | 41,773 | 75.5% | cdnc-ocr — Daily Alta California via CDNC (cdnc.ucr.edu), 1888-11-08 (section DAC18881108.2.31.2): Cleveland 21,455 + Harrison 20,007 + Fisk 249 + Curtis 62 = 41,773 per the day-2 table (column order confirmed against the E+1 table) - majority counted by day 2; mirror/cdnc/DAC18881108/, read 2026-07-07 |
+| 1888-11-09 | 3 |  | 52,916 | 95.7% | cdnc-ocr — Daily Alta California via CDNC (cdnc.ucr.edu), 1888-11-09 'MUNICIPAL ELECTION' (section DAC18881109.2.3): Cleveland 27,693 + Harrison 24,950 + Fisk 273 (Curtis illegible, excluded) = 52,916, explicitly 'a few precincts... not completed' plus several sealed-without-copy - near-final day-3 count; Cleveland/Harrison ratio 1.110 vs certified 1.116 corroborates; mirror/cdnc/DAC18881109/, read 2026-07-07 |
 
 ---
 
@@ -4878,13 +4886,20 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Consolidated General Election
 
 **ID:** `1884-11-04`
 
-47,535 ballots cast, 94.1% of 50,542 registered
+**Certified final:** 47,535
 
-**Source:** SF Municipal Reports — Registrar of Voters (1879–1890)
+**Source:** SF Municipal Reports Registrar master table: certified 47,535 ballots (data/sf_turnout_pre1899.csv); the President contest sum 47,719 exceeds it by 184, a known source tension (data/pre1892_certified.md)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1884-11-05 | 1 |  | 5,056 | 10.6% | cdnc-ocr — Daily Alta California via CDNC (cdnc.ucr.edu), 1884-11-05 'VOTE OF THE CITY' (section DAC18841105.2.2.2): 'At midnight there were only six complete precincts received'; Blaine + Cleveland approximately 5,056 - token overnight slice, flagged night_partial; mirror/cdnc/DAC18841105/, read 2026-07-07 |
+| 1884-11-07 | 3 |  | 40,200 | 84.6% | cdnc-ocr — Daily Alta California via CDNC (cdnc.ucr.edu), 1884-11-07 'THE CITY'S COUNT.' (section DAC18841107.2.2.3): Blaine 21,682 + Cleveland 17,990 + Independent-column 528 (party identity uncertain, likely Butler) = 40,200, 'about 20 precincts... yet to be heard from' but 'will not change the result'; the day-2 turnout prose 47,900 exceeds the certified ceiling and is logged, not used; mirror/cdnc/DAC18841107/, read 2026-07-07 |
 
 ---
 
@@ -4904,23 +4919,37 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Consolidated General Election
 
 **ID:** `1880-11-02`
 
-41,292 ballots cast, 94.3% of 43,775 registered
+**Certified final:** 41,292
 
-**Source:** SF Municipal Reports — Registrar of Voters (1879–1890)
+**Source:** SF Municipal Reports Registrar master table: certified 41,292 ballots (data/sf_turnout_pre1899.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1880-11-04 | 2 |  | 40,429 | 97.9% | cdnc-ocr — Daily Alta California via CDNC (cdnc.ucr.edu), 1880-11-04 'THE TOTAL VOTE / The Count Concluded' (section DAC18801104.2.10.1): Garfield 19,011 + Hancock 21,418 = 40,429, within about 70 votes of the certified split; companion Congress table's stated Rosecrans majority 1,078 matches history exactly; the E+1 paper's spelled-out turnout headline 'Forty-One Thousand Two Hundred and Ninety-Eight Votes Cast' (41,298) exceeds the certified 41,292 by 6 and is logged, not ingested (rejected-ballot reclassification class); mirror/cdnc/DAC18801103-05/, read 2026-07-07 |
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Consolidated General Election
 
 **ID:** `1879-09-03`
 
-41,575 ballots cast, 92.9% of 44,765 registered
+**Certified final:** 41,575
 
-**Source:** SF Municipal Reports — Registrar of Voters (1879–1890)
+**Source:** SF Municipal Reports Registrar master table: certified 41,575 ballots (data/sf_turnout_pre1899.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1879-09-04 | 1 |  | 1,013 | 2.4% | cdnc-ocr — Daily Alta California via CDNC (cdnc.ucr.edu), 1879-09-04 (section DAC18790904.2.11): 1am bellwether slice Perkins 514 + White 417 + Glenn 82 = 1,013 - the hand-count era's true election-night canvass state, flagged night_partial; the same issue prints poll-list turnout reads of 41,113 and 41,804 bracketing the certified 41,575, but poll-list ballots-received figures are not canvass counts and are logged, not ingested; mirror/cdnc/DAC18790904/, read 2026-07-07 |
+| 1879-09-05 | 2 |  | 21,198 | 51.0% | cdnc-ocr — Daily Alta California via CDNC (cdnc.ucr.edu), 1879-09-05 (section DAC18790905.2.3): 'canvass of 21,198 votes'; the Mayor sub-table validates exactly against its own printed Kalloch-Flint majority 852; the Governor sub-table's digits do not reconcile internally and were not used; mirror/cdnc/DAC18790905/, read 2026-07-07 |
+| 1879-09-06 | 3 |  | 36,211 | 87.1% | cdnc-ocr — Daily Alta California via CDNC (cdnc.ucr.edu), 1879-09-06 (sections DAC18790906.2.18 and 2.2): Governor sum White 16,426 + Perkins 16,666 + Glenn 3,119 = 36,211 at the midnight report, with the paper documenting the lead flipping (Perkins +240, then White +300, then +840; certified final Perkins +351), corroborated throughout by the stable Kalloch-Flint differential - genuine count volatility, not OCR noise; mirror/cdnc/DAC18790906/, read 2026-07-07 |
 
 ---
 

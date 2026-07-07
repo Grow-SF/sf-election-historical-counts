@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**62 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**58 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 62 elections still missing a night count
+## The 58 elections still missing a night count
 
 | Date | Year | Level | Kind | Description |
 |------|------|-------|------|-------------|
@@ -45,15 +45,11 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1873-09-03 | 1873 | both | General + Municipal | Legislature; Mayor (Otis) |
 | 1875-10-20 | 1875 | statewide | General | Supt. Public Instruction |
 | 1877-09-05 | 1877 | both | General + Municipal | Legislature; Mayor (Bryant re-elected) |
-| 1879-09-03 | 1879 | both | Gubernatorial + Municipal | Governor (1879 Constitution); Mayor (Kalloch) — 1st under 1879 Constitution |
 | 1880-07-01 | 1880 | municipal | Charter | Proposed new charter — REJECTED; exact date unknown |
-| 1880-11-02 | 1880 | statewide | Presidential | President + Congress + Legislature |
 | 1881-09-07 | 1881 | municipal | Municipal | Mayor (Blake) — last September municipal |
 | 1883-07-01 | 1883 | municipal | Charter | Proposed new charter — REJECTED; exact date unknown |
-| 1884-11-04 | 1884 | both | Presidential + Municipal | President + Congress + Legislature; Mayor (Bartlett re-elected) |
 | 1886-11-02 | 1886 | both | Gubernatorial + Municipal | Governor + state officers; Mayor (Pond) |
 | 1887-07-01 | 1887 | municipal | Charter | Proposed new charter — REJECTED; exact date unknown |
-| 1888-11-06 | 1888 | both | Presidential + Municipal | President + Congress + Legislature; Mayor (Pond re-elected) |
 | 1890-11-04 | 1890 | both | Gubernatorial + Municipal | Governor + state officers; Mayor (Sanderson) |
 | 1899-12-29 | 1899 | municipal | Special | Sewer-bond special (the DOE turnout table dates it 1899-12-02; see doe-data-discrepancies.md) |
 | 1908-05-11 | 1908 | city | Special |  |
@@ -384,3 +380,27 @@ reconstruction FAILS the certified-ballots gate (22,662 against a 22,331
 ceiling), proving the digit reads wrong; prose gives only '22,000-odd
 voters'. That election needs a page-image read (NewsBank or the CDNC
 viewer by hand) rather than OCR.
+
+**Update (2026-07-07, the nineteenth century).** The CDNC vein reached the
+Daily Alta California. November 1888 and November 1884 both yielded full
+three-day count trajectories (token overnight slices of 6,290 and about
+5,056 ballots, majorities by day 2, near-final sums of 52,916 and 40,200
+by day 3), the shape of hand-count-era counting made visible. September
+1879 (the first election under the new Constitution) is the season's
+best story: the Alta documents the Governor lead flipping across the
+count (Perkins up 240 at the day-3 midnight report, then White up 300,
+then 840, with certification finally at Perkins by 351), each swing
+corroborated by the stable Kalloch-Flint differential in the same
+tables; ingested as a 2.4 percent night partial plus day-2 and day-3
+canvass points (the paper's poll-list turnout reads, 41,113 and 41,804,
+bracket the certified 41,575 but are ballots-received figures, not
+canvass counts, and were not ingested). November 1880's morning-after
+paper spells out 'Forty-One Thousand Two Hundred and Ninety-Eight Votes
+Cast', six votes above the certified 41,292 (the rejected-ballot
+reclassification class), so 1880 carries a day-2 point only. What
+remains in this vein, for a future session: the 1872 and 1867-1871
+statewide elections (Alta coverage exists; denominators partly on file
+with medium confidence), the pre-1867 run (needs Blue Book denominators
+first), and the 1850s-1895 municipals (needs both dates verified and
+denominators; the Municipal Reports volumes hold the latter). The one
+proven recipe: cdnc_fetch.js, search mode first, gates always.
