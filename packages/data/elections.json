@@ -5905,6 +5905,86 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1974-11-05",
+  "name": "Consolidated General Election",
+  "kind": "General",
+  "year": 1974,
+  "final": 228586,
+  "registered": 369005,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": 74.3,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    74.3,
+    null,
+    null
+   ],
+   [
+    1.29,
+    99.9,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 2,
+    "bound": false
+   },
+   "80": {
+    "days": 2,
+    "bound": false
+   },
+   "85": {
+    "days": 2,
+    "bound": false
+   },
+   "90": {
+    "days": 2,
+    "bound": false
+   },
+   "95": {
+    "days": 2,
+    "bound": false
+   },
+   "98": {
+    "days": 2,
+    "bound": false
+   },
+   "99": {
+    "days": 2,
+    "bound": false
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1975-11-04",
   "name": "Consolidated Municipal Election",
   "kind": "Municipal",

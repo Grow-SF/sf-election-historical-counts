@@ -3021,19 +3021,20 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Consolidated General Election
 
 **ID:** `1974-11-05`
 
 **Certified final:** 228,586
 
-**Source:** SF Dept. of Elections turnout history (1960–2002)
+**Source:** SF Dept. of Elections historical turnout table (1899–2019): certified 228,586
 
 **Observations**
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1974-11-05 | 0 | ✓ | 213,114 | 93.2% | election-night floor — in-person (precinct) share of the certified total — SF Dept. of Elections turnout history (1960–2002) |
+| 1974-11-06 | 1 |  | 169,752 | 74.3% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1974-11-06 p5 (main-section front '1D') 'SAN FRANCISCO -- How the City Voted' box, 775/1359 precincts semi-official: Governor sum 169,752 (Brown 104,081 + Flournoy 61,078 + Keathley 3,136 + Kaiser 1,457) - press-deadline mid-count partial (57% of precincts; below the in-person floor 213,114, kept as a dated night observation, flagged night_partial); scans sweep_19741105_issue19741106_p5_s0.png/_s1.png, read 2026-07-06 |
+| 1974-11-07 | 2 |  | 228,265 | 99.9% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1974-11-07 p9 'Vote Tally: Brown Wins All S.F. Districts': printed citywide turnout line '228,265 out of 369,005' registered went to the polls - prose ballots-cast beats contest sum (no undervote); corroborated by p8 'San Francisco Voting' box, All 1359/1359 precincts, Governor sum 221,265 (Brown 136,562 + Flournoy 78,691 + Keathley 4,101 + Kaiser 1,911); scans sweep_19741105_issue19741107_p9_s1.png, _p8_s0.png, read 2026-07-06 |
 
 ---
 

@@ -170,7 +170,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1972-11-07,1972,city,General,,night,92.3,exact,SFPL/DataSF/DOE
 1973-11-06,1973,city,Municipal,,night,57.9,exact,SFPL/DataSF/DOE
 1974-06-04,1974,city,Primary,,night,44.9,exact,SFPL/DataSF/DOE
-1974-11-05,1974,city,General,,no,,exact,SFPL/DataSF/DOE
+1974-11-05,1974,city,General,,night,74.3,exact,SFPL/DataSF/DOE
 1975-11-04,1975,city,Municipal,,night,97.4,exact,SFPL/DataSF/DOE
 1975-12-11,1975,city,Runoff,,night,99.0,exact,SFPL/DataSF/DOE
 1976-06-08,1976,city,Primary,,no,,exact,SFPL/DataSF/DOE

@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**82 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**81 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 82 elections still missing a night count
+## The 81 elections still missing a night count
 
 | Date | Year | Level | Kind | Description |
 |------|------|-------|------|-------------|
@@ -90,7 +90,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1970-11-03 | 1970 | city | General |  |
 | 1971-11-02 | 1971 | city | Municipal |  |
 | 1972-06-06 | 1972 | city | Primary |  |
-| 1974-11-05 | 1974 | city | General |  |
 | 1976-06-08 | 1976 | city | Primary |  |
 | 1977-08-02 | 1977 | city | Special |  |
 | 1980-06-03 | 1980 | city | Primary |  |
