@@ -484,3 +484,15 @@ counting was demonstrably incomplete on election night and the precinct
 total is neither a pinned night value nor a guaranteed floor. The day-7
 certified point (249,669) stands; November 1994 reverts to turnout-only
 pending a genuinely dated night observation.
+**Update (2026-07-07, the TV News Archive vein).** The Internet Archive's
+closed-caption TV index is now mapped for this project: the Bay Area
+stations (KTVU, KPIX, KGO, KRON, KQED) begin 2010-07-14, verified against
+each station collection's earliest item, so 2009-05 and everything
+earlier is DEAD in this vein, not merely unsearched. For 2013-11-05,
+five query passes across all stations including the three election-night
+11pm broadcasts found percentages only ('62 percent', '100 percent of
+precincts'), never a raw count: DRY. Reusable method notes: the real
+search endpoint is the page_production service with backend tvs; quoted
+phrases must not be wrapped in +(...); caption downloads are limited to
+a 60-second preview, so the search API's highlight snippets are the only
+browserless text source.
