@@ -2260,7 +2260,10 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1998-11-04 | 1 |  | 183,839 | 73.3% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 1998-11-04 p21 (docview 2195434094): 'With all the precincts in but no absentee ballots counted' - pins the election-night count to the certified precinct total 183,839 (data/sf_turnout_history_1960_2002.csv: precinct 183,839, absentee 66,880); first true night observation for this election; KWIC-derived statement, page image unverified behind a captcha, queued; read 2026-07-07 |
+| 1998-11-04 | 1 |  | 190,719 | 76.1% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 1998-11-04 p29 results box (docview 2195435169): '100% of precincts reporting (55,000-60,000 absentee ballots remain to be counted.)' - conservative conversion using the band's high end, 250,719 minus 60,000 = 190,719; the p32 registrar quote implying 210,719 is contradicted same-day and logged unsafe; KWIC-derived, queued; read 2026-07-07 |
 | 1998-11-05 | 2 |  | 185,653 | 74.0% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F85C8D6BD9B7): largest contest YES 125999 + NO 59654 = 185,653 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F85C8D6BD9B7 |
+| 1998-11-05 | 2 |  | 223,719 | 89.2% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 1998-11-05 p14/p21 (docviews 2195423370, 2195423259): 'as of Thursday morning, 27,000 absentee' remain - conversion 250,719 minus 27,000 = 223,719; the p19 'About 55,000' variant (195,719) logged as the conservative alternative; coexists with the same-day contest-sum floor 185,653 already on file (differing bases); KWIC-derived, queued; read 2026-07-07 |
 | 1998-11-06 | 3 |  | 242,719 | 96.8% | Wayback Machine capture — SF Chronicle 1998-11-06 'Ballot Jam Broken' (wayback sfgate MN103975): 'About 8,000 provisional and absentee ballots remain uncounted' - conservative floor, certified minus stated remaining; https://web.archive.org/web/19990911230303/http://www.sfgate.com:80/cgi-bin/article.cgi?file=/chronicle/archive/1998/11/06/MN103975.DTL |
 | 1998-11-20 | 17 |  | 250,719 | 100.0% | Wayback Machine capture — https://web.archive.org/web/19991004190405/http://civiccenter.ci.sf.ca.us:80/election/eresults.nsf/72c62c5428f1b027882566b1007bec42 |
 
@@ -2278,6 +2281,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1998-06-03 | 1 |  | 185,157 | 93.0% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 1998-06-03 p27 (docview 2195442071): 'roughly 14,000 absentee ballots that haven't [been counted]' - remaining conversion 199,157 minus 14,000 = 185,157, afternoon-paper day-1 floor beating the existing day-2 168,168; KWIC-derived, page image unverified behind a captcha, queued; read 2026-07-07 |
 | 1998-06-04 | 2 |  | 168,168 | 84.4% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F82D49A436B6): largest contest YES 64596 + NO 103572 = 168,168 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F82D49A436B6 |
 
 ---
@@ -4749,13 +4753,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Special Municipal Election
 
 **ID:** `1899-12-29`
 
-22,331 ballots cast, 31.6% of 70,726 registered
+**Certified final:** 22,331
 
-**Source:** SF Dept. of Elections historical turnout table (1899–2019)
+**Source:** DOE turnout table row (date-corrected from Dec 2; cross-verified against Municipal Reports): certified 22,331 ballots
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1899-12-30 | 1 |  | 22,322 | 100.0% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy, publication 2069514 covering 1889-1902), 1899-12-30 p1 'VICTORY FOR THE CHAMPIONS OF CITY PROGRESS' THE VOTE table (docview 2132356675): 18 assembly-district rows summing exactly to 22,322, with the p6 editorial (docview 2132354095) printing 'Of the 22,322 voters who went to the polls' verbatim - complete pre-canvass overnight count (the Election Commissioners met to canvass the following day); 9 below certified; closes the campaign's one OCR-dry hole (the Call's table was unreadable); page images mirror/examiner/1899-12-30/, read 2026-07-07 |
 
 ---
 

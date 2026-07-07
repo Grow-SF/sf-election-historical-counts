@@ -52,7 +52,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1898-11-08,1898,both,Gubernatorial + Municipal,"Governor + state officers; Mayor (Phelan re-elected), consolidated onto the state ballot (no separate Nov 1 municipal election; Municipal Reports cumulative table)",night,74.6,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
 1899-11-07,1899,municipal,Municipal,Mayor (Phelan) — 1st under 1898 charter,night,39.0,exact,Municipal Reports/CDNC/Wikipedia
 1899-12-27,1899,municipal,Special,Park-bond special (Municipal Reports cumulative table),night,99.9,exact,Municipal Reports/CDNC/Wikipedia
-1899-12-29,1899,municipal,Special,Sewer-bond special (the DOE turnout table dates it 1899-12-02; see doe-data-discrepancies.md),no,,exact,Municipal Reports/CDNC/Wikipedia
+1899-12-29,1899,municipal,Special,Sewer-bond special (the DOE turnout table dates it 1899-12-02; see doe-data-discrepancies.md),night,100.0,exact,Municipal Reports/CDNC/Wikipedia
 1900-11-06,1900,statewide,Presidential,President + Congress + Legislature,night,58.0,exact,Blue Book/SOV/Wikipedia
 1901-11-05,1901,municipal,Municipal,Mayor (Schmitz),night,72.5,exact,Municipal Reports/CDNC/Wikipedia
 1902-11-04,1902,statewide,Gubernatorial,Governor + state officers,night,0.0,exact,Blue Book/SOV/Wikipedia
@@ -222,7 +222,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1997-06-03,1997,city,Special,,night,97.5,exact,SFPL/DataSF/DOE
 1997-11-04,1997,city,Municipal,,night,87.3,exact,SFPL/DataSF/DOE
 1998-06-02,1998,city,Primary,,turnout-only,,exact,SFPL/DataSF/DOE
-1998-11-03,1998,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+1998-11-03,1998,city,General,,night,73.3,exact,SFPL/DataSF/DOE
 1999-11-02,1999,city,Municipal,,turnout-only,,exact,SFPL/DataSF/DOE
 1999-12-14,1999,city,Runoff,,night,88.9,exact,SFPL/DataSF/DOE
 2000-03-07,2000,city,Primary,,night,83.6,exact,SFPL/DataSF/DOE

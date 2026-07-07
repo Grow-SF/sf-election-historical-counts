@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**56 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**55 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 56 elections still missing a night count
+## The 55 elections still missing a night count
 
 | Date | Year | Level | Kind | Description |
 |------|------|-------|------|-------------|
@@ -51,7 +51,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1886-11-02 | 1886 | both | Gubernatorial + Municipal | Governor + state officers; Mayor (Pond) |
 | 1887-07-01 | 1887 | municipal | Charter | Proposed new charter — REJECTED; exact date unknown |
 | 1890-11-04 | 1890 | both | Gubernatorial + Municipal | Governor + state officers; Mayor (Sanderson) |
-| 1899-12-29 | 1899 | municipal | Special | Sewer-bond special (the DOE turnout table dates it 1899-12-02; see doe-data-discrepancies.md) |
 | 1908-05-11 | 1908 | city | Special |  |
 | 1908-11-12 | 1908 | city | Special |  |
 | 1909-06-22 | 1909 | city | Primary |  |
@@ -476,3 +475,22 @@ wall and are queued. November 2006 stayed dry (best Examiner lead is
 coarser than the existing rows). Operational: ProQuest raised an hCaptcha
 after parallel agents searched in bursts; Examiner work is serialized
 from here.
+
+**Update (2026-07-07, Examiner round three).** December 29, 1899, the
+campaign's one OCR-dry hole, is closed: the Examiner's own THE VOTE table
+(December 30, page 1) sums its eighteen assembly-district rows exactly to
+22,322, and the page-6 editorial prints 'Of the 22,322 voters who went to
+the polls' verbatim; nine below certified, ingested as a night-complete
+count (the 1889-1902 segment lives under ProQuest publication 2069514,
+not 2069513). June 1998 gained an afternoon day-1 floor (185,157 via a
+14,000-remaining statement). November 1998 gained its first true night
+point by conversion: 'With all the precincts in but no absentee ballots
+counted' pins election night to the certified precinct total 183,839
+(73.3 percent), plus day-1 and day-2 remaining-conversions (190,719;
+223,719). The 1998 findings are KWIC-derived with page images still
+behind the captcha wall, so they carry queue entries for image
+verification. The 1986 and 1994 elections returned promising but
+CLIPPED KWIC leads (a printed 1994 certified-total confirmation, a
+derived 1994 night candidate of 175,502, a 1986 'counted by 10 p.m.'
+retrospective): held un-ingested pending page-image verification, with
+the thirteen-image queue in the session notes.

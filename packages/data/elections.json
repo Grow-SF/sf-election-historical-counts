@@ -999,6 +999,80 @@
   "srcShort": "cdnc-ocr"
  },
  {
+  "id": "1899-12-29",
+  "name": "Special Municipal Election",
+  "kind": "Special",
+  "year": 1899,
+  "final": 22331,
+  "registered": 70726,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 100.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "proquest-examiner",
+  "srcShort": "proquest-examiner"
+ },
+ {
   "id": "1900-11-06",
   "name": "Presidential General Election",
   "kind": "General",
@@ -10573,11 +10647,17 @@
   "registered": 430794,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
+  "nReports": 2,
   "nightPct": null,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.79,
+    93.0,
+    null,
+    null
+   ],
    [
     1.5,
     84.4,
@@ -10587,36 +10667,44 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 2,
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
     "bound": true
    }
   },
   "nightSrc": null,
-  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+  "srcShort": "proquest-examiner"
  },
  {
   "id": "1998-11-03",
@@ -10627,14 +10715,32 @@
   "registered": 448888,
   "source": "archival",
   "provisional": false,
-  "nReports": 3,
-  "nightPct": null,
+  "nReports": 6,
+  "nightPct": 73.3,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
+    0.29,
+    73.3,
+    null,
+    null
+   ],
+   [
+    0.79,
+    76.1,
+    null,
+    null
+   ],
+   [
     1.5,
     74.0,
+    null,
+    null
+   ],
+   [
+    1.54,
+    89.2,
     null,
     null
    ],
@@ -10653,35 +10759,35 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 3,
+    "days": 1,
     "bound": false
    },
    "80": {
-    "days": 3,
+    "days": 2,
     "bound": false
    },
    "85": {
-    "days": 3,
+    "days": 2,
     "bound": false
    },
    "90": {
@@ -10701,8 +10807,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+  "nightSrc": "proquest-examiner",
+  "srcShort": "proquest-examiner"
  },
  {
   "id": "1999-11-02",

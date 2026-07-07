@@ -401,3 +401,22 @@ wall and are queued. November 2006 stayed dry (best Examiner lead is
 coarser than the existing rows). Operational: ProQuest raised an hCaptcha
 after parallel agents searched in bursts; Examiner work is serialized
 from here.
+
+**Update (2026-07-07, Examiner round three).** December 29, 1899, the
+campaign's one OCR-dry hole, is closed: the Examiner's own THE VOTE table
+(December 30, page 1) sums its eighteen assembly-district rows exactly to
+22,322, and the page-6 editorial prints 'Of the 22,322 voters who went to
+the polls' verbatim; nine below certified, ingested as a night-complete
+count (the 1889-1902 segment lives under ProQuest publication 2069514,
+not 2069513). June 1998 gained an afternoon day-1 floor (185,157 via a
+14,000-remaining statement). November 1998 gained its first true night
+point by conversion: 'With all the precincts in but no absentee ballots
+counted' pins election night to the certified precinct total 183,839
+(73.3 percent), plus day-1 and day-2 remaining-conversions (190,719;
+223,719). The 1998 findings are KWIC-derived with page images still
+behind the captcha wall, so they carry queue entries for image
+verification. The 1986 and 1994 elections returned promising but
+CLIPPED KWIC leads (a printed 1994 certified-total confirmation, a
+derived 1994 night candidate of 175,502, a 1986 'counted by 10 p.m.'
+retrospective): held un-ingested pending page-image verification, with
+the thirteen-image queue in the session notes.
