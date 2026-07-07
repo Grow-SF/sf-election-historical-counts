@@ -584,3 +584,21 @@ silent on the VBM and provisional piles and therefore supports only
 part of the queued Examiner 'on Tuesday' judgment (operator's
 correction, same day). 2006-11 and 2000-11 are dry there
 (eleven queries; the site launched in 2002).
+**Update (2026-07-07, LoC and Archive-It, the last web-archive doors).**
+Both are now definitively dry for the remaining night gaps, with
+structural explanations rather than mere absence: the Library of
+Congress's Election 2000 / United States Elections web archive collected
+candidate CAMPAIGN sites, not government results infrastructure (its
+crawls of the SoS root stop October 18, 2000 and resume December 2,
+skipping election night entirely; its first capture of any SF city host
+is September 2002); Archive-It's sfgov coverage begins February 2006 but
+gaps across both 2006 election windows (August 1 to November 28), and no
+CDL or Stanford collection targeted California election administration
+in the 2000s. Method notes for future agents: webarchive.loc.gov is
+Cloudflare-gated (use the Chrome recipe); Archive-It's timemap/cdx
+endpoint 403s always and wildcard URL reports hang, use the single-URL
+calendar form. With this, every known web archive (Wayback, LoC,
+Archive-It, archive.today, Common Crawl) is exhausted for the November
+2000 election night; its number survives, if anywhere, in broadcast
+tape, personal archives of era analysts and reporters, or the Secretary
+of State's internal records.
