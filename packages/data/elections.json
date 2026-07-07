@@ -6943,6 +6943,92 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1967-11-07",
+  "name": "General Municipal Election",
+  "kind": "Municipal",
+  "year": 1967,
+  "final": 249831,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 3,
+  "nightPct": 96.9,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    96.9,
+    null,
+    null
+   ],
+   [
+    1.29,
+    98.1,
+    null,
+    null
+   ],
+   [
+    34.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 2,
+    "bound": false
+   },
+   "99": {
+    "days": 35,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
   "id": "1968-06-04",
   "name": "Direct Primary Election",
   "kind": "Primary",
@@ -7015,6 +7101,86 @@
    },
    "80": {
     "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1969-11-04",
+  "name": "General Municipal Election",
+  "kind": "Municipal",
+  "year": 1969,
+  "final": 199200,
+  "registered": 324138,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": 91.5,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    91.5,
+    null,
+    null
+   ],
+   [
+    14.29,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 15,
+    "bound": true
+   },
+   "98": {
+    "days": 15,
+    "bound": true
+   },
+   "99": {
+    "days": 15,
     "bound": true
    }
   },
@@ -10083,7 +10249,7 @@
   "registered": 425969,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
+  "nReports": 2,
   "nightPct": 68.2,
   "nightPartial": true,
   "vbmShare": null,
@@ -10091,6 +10257,12 @@
    [
     0.1,
     68.2,
+    null,
+    null
+   ],
+   [
+    0.54,
+    94.5,
     null,
     null
    ]
@@ -10111,6 +10283,26 @@
    "65": {
     "days": 0,
     "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": false
+   },
+   "75": {
+    "days": 1,
+    "bound": false
+   },
+   "80": {
+    "days": 1,
+    "bound": false
+   },
+   "85": {
+    "days": 1,
+    "bound": false
+   },
+   "90": {
+    "days": 1,
+    "bound": false
    }
   },
   "nightSrc": "SF Chronicle via NewsBank (SFPL)",

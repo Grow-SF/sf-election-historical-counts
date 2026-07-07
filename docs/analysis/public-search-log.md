@@ -358,3 +358,25 @@ within rounding. The October 2003 recall coverage is percentages-only.
 The BAR's November 6, 2003 issue carries a count-status line for the
 Nov 4 mayoral, superseded by the finer 2am Chronicle point already
 ingested (84.7).
+
+**Update (2026-07-07, the Examiner vein's first fruits).** ProQuest's
+digitized Examiner immediately closed both elections that had been held
+for lack of certified denominators. November 1967: the December 12, 1967
+Examiner prints 'Final Returns... as certified by the accounting firm of
+Arthur Andersen and Company'; the full Mayor-field sum is 249,831 (within
+36 votes of the unsourced figure circulating online), and the election
+ingests at a 96.9 percent night share. November 1969: the November 19,
+1969 Examiner prints 'There were 199,200 votes cast out of a registration
+of 324,138'; notably the certified total sits 288 BELOW the Chronicle's
+semi-official machine count (199,488), and the certified table's own
+per-candidate Change column shows canvass corrections running both
+directions, so the machine count is logged, not ingested; the election
+ingests at a 91.5 percent night share. December 1995 gained a day-1
+floor: 'About 11,000 absentee ballots remained to be counted Wednesday
+morning' converts to 187,326 (94.5 percent), far above the chad-jam
+partial. November 2000 stayed dry for a numeric improvement (the
+Chronicle's same-day capture is finer than everything the Examiner
+printed); its best Examiner line, 599 of 647 precincts tallied by
+11:04pm election night, is precinct-basis color that cannot convert to
+ballots. The SFPL History Center errand now has a single remaining
+purpose: arbitrating the June 1968 discrepancy.

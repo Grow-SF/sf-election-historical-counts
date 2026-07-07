@@ -472,6 +472,14 @@
   "kind": "General"
  },
  {
+  "date": "1969-11-04",
+  "turnoutPct": 61.5,
+  "registered": 324138,
+  "ballots": 199200,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
   "date": "1970-06-02",
   "turnoutPct": 63.8,
   "registered": 337127,

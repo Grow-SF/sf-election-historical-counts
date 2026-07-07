@@ -49,11 +49,15 @@ always-use-real-data rule).
 
 ## One operator errand closes the rest
 
-The SF History Center (Main Library, 6th floor) holds the city's own
-"Statement of Vote" volumes for Nov 7 1967, Nov 4 1969, and Nov 2 1971
-(finding aid: sfpl.org, "Statement of Vote 1906-1979"; in-library use).
-Certified totals from those volumes unlock the two held elections above
-and arbitrate the 1968-06 discrepancy.
+UPDATE 2026-07-07: 1967-11 and 1969-11 are RESOLVED without the library
+trip; the ProQuest Examiner printed both certified totals (see the search
+log). The 1971-11 rows in the held table above are likewise resolved (the
+canvass story supplied everything). The SF History Center's "Statement of
+Vote 1906-1979" volumes now serve one purpose: arbitrating the June 1968
+three-way discrepancy (SOV 254,825 vs Chronicle unofficial complete
+262,449). Also verify the 1967 certified read (Examiner docview
+2164093541, full-field Mayor sum 249,831) and the 1969 one (docview
+2196968259, total 199,200) if you're in ProQuest anyway.
 
 ## Overnight additions (2026-07-07, the CDNC campaign)
 

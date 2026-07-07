@@ -2,7 +2,7 @@
 
 # Data sources
 
-Every number in the Long Count dataset traces to a primary source. This file documents all 315 source records — what was consulted, what it established, and where to find it.
+Every number in the Long Count dataset traces to a primary source. This file documents all 317 source records — what was consulted, what it established, and where to find it.
 
 These records were previously displayed on the `/sources` page of the viz app. They now live here as a stable, version-controlled reference in the data repository.
 
@@ -2373,6 +2373,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1995-12-12 | 1 |  | 135,231 | 68.2% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 1995-12-13 (0EB4F70FC8AEDEDE): MID-NIGHT partial, 339 of 551 precincts: Brown 73,403 / Jordan 61,828 - conservative floor; true night-end higher (power-era punch-card delays) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F70FC8AEDEDE |
+| 1995-12-13 | 1 |  | 187,326 | 94.5% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 1995-12-13 pA-1/pA-14 (docviews 2208052609, 2208045867), stated twice: 'About 11,000 absentee ballots remained to be counted Wednesday morning' - registrar-remaining conversion 198,326 - 11,000 = 187,326 per the 2000-03 precedent; a same-night midnight aide quote ('we counted 55,000 ballots, about half') is coarser than the existing 22:30 Chronicle partial and is logged only; screenshots mirror/examiner/1995-12-13/, read 2026-07-07 |
 
 ---
 
@@ -3177,6 +3178,23 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### General Municipal Election
+
+**ID:** `1969-11-04`
+
+**Certified final:** 199,200
+
+**Source:** Official canvass 199,200 votes cast of 324,138 registered per SF Examiner 1969-11-19 p68 'Official City Vote Count' (ProQuest docview 2196968259; certification corroborated docview 2196968387); the E+2 Chronicle's semi-official machine count 199,488 EXCEEDS the certified total by 288 and is logged, not ingested (the certified table's own Change column shows bidirectional canvass corrections)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1969-11-05 | 1 |  | 182,237 | 91.5% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1969-11-05 p1B 'San Francisco Vote Tally', 1200/1204 precincts semi-official: Prop B (Hunters Point school bonds) Yes 95,252 + No 86,985 = 182,237, the largest citywide sum (City Attorney and Treasurer unopposed); DOE open-data certified Prop B 183,148 independently corroborates; scans sweep_19691104_issue19691105_p3_s0.png-_s2.png, read 2026-07-06 |
+| 1969-11-19 | 15 |  | 199,200 | 100.0% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 1969-11-19 p68 'Official City Vote Count': 'There were 199,200 votes cast out of a registration of 324,138 - or 61.5 percent'; canvass completed the prior day per Registrar Elliott (docview 2196968387); page image mirror/examiner/1969-11-19/, read 2026-07-07 |
+
+---
+
 ### Consolidated General Election
 
 **ID:** `1968-11-05`
@@ -3206,6 +3224,24 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1968-06-05 | 1 |  | 112,468 | 44.1% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1968-06-05 p1 'S.F. Voters Rescue Market St.': city Prop A (Market St bonds) Yes 77,906 + No 34,562 = 112,468 - the only SF count printed election night (the new computer tabulation system failed; see 1968-06-07 p30 'S.F. COUNT - SLOWEST IN 4 DECADES'); no precinct basis printed, flagged night_partial, medium confidence; the June 6 completed unofficial count 262,449 exceeds the SOV certified 254,825 and is logged in docs/doe-data-discrepancies.md, not ingested; scans sweep_19680604_issue19680605_p1_s2.png, sweep_19680604_issue19680607_p30_s0.png, read 2026-07-06 |
+
+---
+
+### General Municipal Election
+
+**ID:** `1967-11-07`
+
+**Certified final:** 249,831
+
+**Source:** Certified Mayor-race total 249,831 per SF Examiner 1967-12-12 p16 'Final Returns' (certified by Arthur Andersen and Company; ProQuest docview 2164093541, page image mirror/examiner/1967-12-12/): no surviving official ballots-cast line, so the certified top-contest sum serves as the denominator per the pre-1892 convention; true ballots cast exceed it by the Mayor undervote only
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1967-11-08 | 1 |  | 242,170 | 96.9% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1967-11-08 p1/p1A 'San Francisco Vote Tally (1341 of 1341 Precincts)': Mayor 18-candidate sum 242,170 (Alioto 106,814 + Dobbs 90,482 + Morrison 40,246 + 15 minors), complete machine count pre-absentee (8,523 absentees pending per the same box); scans sweep_19671107_issue19671108_p1_s3.png, _p2_s0.png, read 2026-07-06 |
+| 1967-11-09 | 2 |  | 245,067 | 98.1% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle page scan (NewsBank/SFPL), 1967-11-09 p1 'The vote for mayor' box, absentee-inclusive top three: Alioto 109,982 + Dobbs 94,089 + Morrison 40,996 = 245,067 (minor candidates not restated); scan sweep_19671107_issue19671109_p1_s3.png, read 2026-07-06 |
+| 1967-12-12 | 35 |  | 249,831 | 100.0% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 1967-12-12 p16 'Final Returns': certified full Mayor-field sum 249,831 (Alioto 110,405 + Dobbs 94,504 + Morrison 40,436 + 16 minors and write-ins 4,486), certified by the accounting firm Arthur Andersen and Company; within 36 of the unsourced 249,795 circulating online; docview 2164093541, page image mirror/examiner/1967-12-12/, read 2026-07-07 |
 
 ---
 
