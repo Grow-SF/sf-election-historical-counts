@@ -836,3 +836,20 @@ E+1 verdict of an earlier pass is worth one more look when it rests
 on 'only a map/percentages' — the outcome paragraph often carries the
 counts in prose. Reproduction: NewsBank image-edition alltext search
 'precincts' scoped to SF Chronicle 1977-08-03, single hit page 1.
+**Dead end (2026-07-08, June 1972: the punch-card debut printed no
+E+1 numbers).** San Francisco's first Votomatic election jammed the
+polls ('This is criminal,' shouted an elderly voter, in the June 7
+p6 'Phones Rang On For S.F. Registrar' chaos story; a federal order
+was being hand-delivered to precincts at 8 p.m. per the p30 story)
+and the next morning's Chronicle printed no results table at all:
+alltext searches of the June 7 issue for 'The S.F. Vote', 'ballots
+counted', and 'SAN FRANCISCO VOTED' all return zero, and the page 1
+election story carries only 'The four incumbents took strong early
+leads this morning... With most of the precincts reporting' on the
+multi-seat school-board race (vote-for-several, unusable as a ballot
+floor). The count was complete by the June 8 paper (the dataset's
+existing day-2 record, 1349 of 1349). June 1972 stays without a
+night count; the evening Examiner of June 7 (ProQuest vein) is the
+untried source that could carry a clocked day-1 partial.
+Reproduction: NewsBank image-edition searches scoped to SF Chronicle
+1972-06-07 as quoted above; 'precincts' returns six pages, all read.
