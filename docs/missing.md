@@ -644,14 +644,16 @@ editorial's 246,667 'processed on Tuesday' was refuted as a night
 figure by official Statement of Vote arithmetic the operator supplied
 (91,119 total absentees against 253,872 total cast puts election-day
 ballots near 162,700, so a night-of 246,667 would need roughly 84,000
-absentees counted by midnight, beyond 2003-era capacity); its day-3
-stamp stands. And the true night point was already in the dataset
+absentees counted by midnight, inconsistent with the 225,681 night
+state the same paper printed the next morning); its day-3 stamp
+stands. And the true night point was already in the dataset
 wearing the wrong date: the AP's 'with all precincts reporting'
 figures (Newsom 118,651, Gonzalez 107,030, sum 225,681) turn out to be
-printed verbatim in the Examiner's December 10 MORNING front-page
-results boxes (ProQuest docview 2206456902, operator-located), proving
-that count state existed by the morning-edition press deadline, inside
-the night cutoff. The AP row re-stamped to election night: December
+printed verbatim in the Examiner's December 10 front-page results
+boxes (ProQuest docview 2206456902, operator-located), and the
+DailyKos-documented DOE liveblog (562 of 562 precincts by about 2:48am
+PT) dates that all-precincts state to about 03:00, inside the night
+cutoff regardless of the paper's press schedule. The AP row re-stamped to election night: December
 2003 becomes the 204th recovered night count (88.9 percent, dimmed as
 a contest-sum floor). Lesson: when a wire story's dateline lags, check
 the same day's morning print edition for the identical figures; the
