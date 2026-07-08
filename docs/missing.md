@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**75 San Francisco elections still lack an election-night ballot count.** For 27 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**74 San Francisco elections still lack an election-night ballot count.** For 26 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 75 elections still missing a night count
+## The 74 elections still missing a night count
 
 | Date | Year | Level | Kind | Final count known? | Description |
 |------|------|-------|------|--------------------|-------------|
@@ -87,7 +87,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 2000-11-07 | 2000 | city | General | yes |  |
 | 2001-12-11 | 2001 | city | Runoff | yes |  |
 | 2003-10-07 | 2003 | city | Special | yes |  |
-| 2006-11-07 | 2006 | city | General | yes |  |
 | 2009-05-19 | 2009 | city | Special | yes |  |
 
 ---
@@ -678,3 +677,19 @@ cutoff regardless of the paper's press schedule. The AP row re-stamped to electi
 a contest-sum floor). Lesson: when a wire story's dateline lags, check
 the same day's morning print edition for the identical figures; the
 press deadline dates the count.
+**Update (2026-07-07, the calinst.org vein).** The operator, browsing
+freely, surfaced calinst.org/2006elections/, a California Institute
+for Federal Policy Research page still live on the open web that
+snapshots the Secretary of State's vote.ss.ca.gov feed 'as of Nov 8,
+2006 at 8:33 am Eastern (5:33 am Pacific) when 97.9% (24565 of 25090)
+precincts were reporting'. That is 27 minutes inside the night cutoff,
+and the 2002-2012 eighth Congressional district lay entirely within
+San Francisco, so its printed field (Pelosi 101,002, DeNunzio 13,043,
+Keefer 9,611, Berg 1,880) sums to a citywide night floor of 125,536:
+November 2006, judged Examiner-tapped one day earlier, becomes the
+205th recovered night count (49.5 percent, dimmed as a
+quarter-city-missing contest sum). The find also proves a new vein
+class: third-party morning-after snapshots of the SoS live feed
+survive where every web archive missed the count window. The site's
+weekly bulletin archive (calinst.org/bull.html) is queued for the
+remaining holdouts.

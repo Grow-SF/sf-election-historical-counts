@@ -12367,11 +12367,17 @@
   "registered": 418285,
   "source": "archival",
   "provisional": false,
-  "nReports": 4,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 5,
+  "nightPct": 49.5,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.4,
+    49.5,
+    null,
+    null
+   ],
    [
     0.65,
     61.7,
@@ -12400,15 +12406,15 @@
   "thresholds": {
    "50": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "55": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "60": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "65": {
     "days": 2,
@@ -12447,8 +12453,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "Wayback Machine capture"
+  "nightSrc": "contemporary news report (live web)",
+  "srcShort": "contemporary news report (live web)"
  },
  {
   "id": "2007-11-06",

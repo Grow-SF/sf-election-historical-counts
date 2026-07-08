@@ -3378,6 +3378,14 @@
    {
     "date": "2006-11-08",
     "days": 1,
+    "total": 125536,
+    "pct": 49.5,
+    "label": "contemporary news report (live web)",
+    "citation": "California Institute for Federal Policy Research, calinst.org/2006elections/ (live page, operator-located 2026-07-07; mirrored mirror/altweb/2006-11-07/calinst_2006elections.html): 'These results are as of Nov 8, 2006 at 8:33 am Eastern (5:33 am Pacific) when 97.9% (24565 of 25090) precincts were reporting, according to the California Secretary of States office' - Congressional District 8 block: 'Nancy Pelosi (Dem) 101,002 80.5% / Mike DeNunzio (Rep) 13,043 10.4% / Kristine Keefer (Grn) 9,611 7.7% / Philip Z. Berg (Lib) 1,880 1.4%', sum 125,536; the 2002-2012 CA-8 lay entirely within San Francisco, so every ballot in the sum is an SF ballot: a citywide night floor (5:33am is inside the E+1 06:00 cutoff), heavily undervalued because CA-8 covered only about three-quarters of the city plus contest undervote, flagged night_partial; this is the SoS live-results feed (vote.ss.ca.gov) that no web archive captured mid-count, preserved by a third-party morning-after snapshot; reproduction: curl https://calinst.org/2006elections/; read 2026-07-07"
+   },
+   {
+    "date": "2006-11-08",
+    "days": 1,
     "total": 156441,
     "pct": 61.7,
     "label": "Wayback Machine capture",
