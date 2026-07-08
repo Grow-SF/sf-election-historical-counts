@@ -769,3 +769,11 @@ Examiner passes could not complete, was finished in a single evening
 by the operator's page-image insight: the print editions were the
 mid-count snapshots all along, and NewsBank's image collection
 (1865-2017) preserved them.
+**Correction (2026-07-07).** The earlier note calling the README
+chart's kind filter a presentation bug was wrong, and the operator
+overruled it: Special and Recall elections are excluded from the
+night-share chart on purpose (the chart is crowded, and off-calendar
+elections are unusual by definition, so they stay out of the visual
+trends). The kinds override has been reverted; the recovered night
+counts for those elections live in the dataset and the master index
+regardless of chart presentation.

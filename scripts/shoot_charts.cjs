@@ -38,11 +38,11 @@ const NIGHT_RANGE = span(
 // output file -> { title: substring of the chart's <h3> to locate its <figure>,
 //                  range: optional [from, to] applied via the site's URL state }
 const TARGETS = {
-  // kinds=all: the preview's default filter hides Special and Recall
-  // elections; the README image should show every recovered night count
-  // (the 1980-08 special at 100.0, the 2003 recall, the 2009 special)
-  "docs/img/night-share.png": { title: "How much of the vote was counted", range: NIGHT_RANGE,
-    query: "kinds=General,Midterm,Primary,Local,Special,Recall" },
+  // The default kind filter EXCLUDES Special and Recall elections by design
+  // (operator ruling, 2026-07-07): they are off-calendar and unusual by
+  // definition, so they stay out of the README trend chart even when their
+  // night counts are recovered. Do not add a kinds= override here.
+  "docs/img/night-share.png": { title: "How much of the vote was counted", range: NIGHT_RANGE },
   "docs/img/turnout.png": { title: "Turnout of registered voters", range: TURNOUT_RANGE },
   "docs/img/vote-by-mail.png": { title: "Vote-by-mail share of ballots cast" },
   "docs/img/franchise-funnel.png": { title: "Who could vote", range: FUNNEL_RANGE },
