@@ -693,3 +693,16 @@ class: third-party morning-after snapshots of the SoS live feed
 survive where every web archive missed the count window. The site's
 weekly bulletin archive (calinst.org/bull.html) is queued for the
 remaining holdouts.
+**Update (2026-07-07, the recall night-completeness anchor).** The
+operator pulled the Oct 8 2003 Chronicle's turnout story (NewsBank
+docref news/0FE0FB1FEB220A59, text mirrored to mirror/newsbank/docs/):
+'By 10 p.m., San Francisco officials were able to report results from
+99 percent of the city's precincts -- hours, even days, ahead of
+previous election reporting.' A precincts metric, so not ingestible by
+itself, but it anchors the recall's night state: whatever night-stamped
+SF ballot count surfaces will be a near-complete one. The same issue's
+text corpus was swept for the print results tables (queries 'recall
+AND yes AND no', 'precincts reporting', 'ELECTION RESULTS', 'the
+vote'; the Bay Area reaction story news/0FE0FB1FE3468E6C carries
+percentages only): the county results tables did not digitize into
+NewsBank text, a dead end for absolute SF numbers in that issue.
