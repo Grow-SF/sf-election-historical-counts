@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**59 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**75 San Francisco elections still lack an election-night ballot count.** For 27 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,69 +10,85 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 59 elections still missing a night count
+## The 75 elections still missing a night count
 
-| Date | Year | Level | Kind | Description |
-|------|------|-------|------|-------------|
-| 1849-11-13 | 1849 | statewide | General | Governor + Legislature + ratify 1849 Constitution |
-| 1850-10-07 | 1850 | statewide | General | State officers + Legislature |
-| 1851-09-03 | 1851 | statewide | Gubernatorial | Governor |
-| 1852-11-02 | 1852 | statewide | Presidential | President |
-| 1853-09-07 | 1853 | statewide | Gubernatorial | Governor |
-| 1854-09-06 | 1854 | statewide | General | Congress-at-large + Legislature |
-| 1855-09-05 | 1855 | statewide | Gubernatorial | Governor |
-| 1856-11-04 | 1856 | both | Presidential + Municipal | President; Mayor (Burr) + city offices — 1st under Consolidation Act |
-| 1857-09-02 | 1857 | statewide | Gubernatorial | Governor |
-| 1857-09-04 | 1857 | municipal | Municipal | City/county offices |
-| 1858-07-01 | 1858 | municipal | Municipal | Annual city offices — exact date unknown |
-| 1858-09-01 | 1858 | statewide | General | Legislature + Controller |
-| 1859-09-07 | 1859 | both | Gubernatorial + Municipal | Governor; Mayor (Teschemacher) + city offices |
-| 1860-11-06 | 1860 | statewide | Presidential | President |
-| 1861-05-21 | 1861 | municipal | Municipal | Mayor (Teschemacher re-elected) |
-| 1861-09-04 | 1861 | statewide | Gubernatorial | Governor |
-| 1862-09-03 | 1862 | statewide | General | Supt. Public Instruction + Legislature |
-| 1863-05-19 | 1863 | municipal | Municipal | Mayor (Coon) |
-| 1863-09-02 | 1863 | statewide | Gubernatorial | Governor |
-| 1864-11-08 | 1864 | statewide | Presidential | President + Congress |
-| 1865-05-16 | 1865 | municipal | Municipal | Mayor (Coon re-elected) |
-| 1865-09-05 | 1865 | statewide | General | Legislature |
-| 1867-09-04 | 1867 | both | Gubernatorial + Municipal | Governor; Mayor (McCoppin) |
-| 1867-10-16 | 1867 | statewide | General | Supt. Public Instruction |
-| 1869-09-01 | 1869 | municipal | Municipal | Mayor (Selby) |
-| 1871-09-06 | 1871 | both | Gubernatorial + Municipal | Governor; Mayor (Alvord) |
-| 1871-10-18 | 1871 | statewide | General | Supt. Public Instruction |
-| 1872-11-05 | 1872 | statewide | Presidential | President + Congress |
-| 1873-09-03 | 1873 | both | General + Municipal | Legislature; Mayor (Otis) |
-| 1875-10-20 | 1875 | statewide | General | Supt. Public Instruction |
-| 1877-09-05 | 1877 | both | General + Municipal | Legislature; Mayor (Bryant re-elected) |
-| 1878-06-19 | 1878 | statewide | Special | Delegates to the 1878-79 state Constitutional Convention |
-| 1879-05-07 | 1879 | statewide | Special | Ratification of the 1879 Constitution |
-| 1880-03-30 | 1880 | municipal | Charter | Board of Freeholders (draft new charter) — registrar cumulative table (vol47 p.277): 30,877 votes |
-| 1880-09-08 | 1880 | municipal | Charter | Proposed new charter — REJECTED; dated Sept 8 1880 by the registrar cumulative table (vol47 p.277): 23,398 votes |
-| 1881-09-07 | 1881 | municipal | Municipal | Mayor (Blake) — last September municipal |
-| 1883-03-03 | 1883 | municipal | Charter | Proposed new charter — REJECTED; dated March 3 1883 by the registrar cumulative table (vol47 p.277): 18,764 votes |
-| 1884-03-18 | 1884 | municipal | Special | Assemblyman (special) — registrar cumulative table (vol47 p.277): 2,655 votes |
-| 1886-11-02 | 1886 | both | Gubernatorial + Municipal | Governor + state officers; Mayor (Pond) |
-| 1887-04-12 | 1887 | municipal | Charter | Amendments and proposed charter — REJECTED; dated April 12 1887 by the registrar cumulative table (vol47 p.277): 25,959 votes |
-| 1890-11-04 | 1890 | both | Gubernatorial + Municipal | Governor + state officers; Mayor (Sanderson) |
-| 1908-05-11 | 1908 | city | Special |  |
-| 1908-11-12 | 1908 | city | Special |  |
-| 1909-06-22 | 1909 | city | Primary |  |
-| 1909-11-02 | 1909 | city | General |  |
-| 1909-12-30 | 1909 | city | Special |  |
-| 1911-11-07 | 1911 | city | Municipal |  |
-| 1912-03-28 | 1912 | city | Special |  |
-| 1913-04-22 | 1913 | city | Special |  |
-| 1915-03-16 | 1915 | city | Special |  |
-| 1921-03-08 | 1921 | city | Special |  |
-| 1922-11-21 | 1922 | city | Special |  |
-| 1928-08-28 | 1928 | city | Primary |  |
-| 1929-11-05 | 1929 | city | Municipal |  |
-| 1931-02-06 | 1931 | city | Special |  |
-| 1940-05-07 | 1940 | city | Special |  |
-| 1944-05-16 | 1944 | city | Primary |  |
-| 1944-11-07 | 1944 | city | General |  |
-| 1945-11-06 | 1945 | city | Municipal |  |
+| Date | Year | Level | Kind | Final count known? | Description |
+|------|------|-------|------|--------------------|-------------|
+| 1849-11-13 | 1849 | statewide | General | no | Governor + Legislature + ratify 1849 Constitution |
+| 1850-10-07 | 1850 | statewide | General | no | State officers + Legislature |
+| 1851-09-03 | 1851 | statewide | Gubernatorial | no | Governor |
+| 1852-11-02 | 1852 | statewide | Presidential | no | President |
+| 1853-09-07 | 1853 | statewide | Gubernatorial | no | Governor |
+| 1854-09-06 | 1854 | statewide | General | no | Congress-at-large + Legislature |
+| 1855-09-05 | 1855 | statewide | Gubernatorial | no | Governor |
+| 1856-11-04 | 1856 | both | Presidential + Municipal | no | President; Mayor (Burr) + city offices — 1st under Consolidation Act |
+| 1857-09-02 | 1857 | statewide | Gubernatorial | no | Governor |
+| 1857-09-04 | 1857 | municipal | Municipal | no | City/county offices |
+| 1858-07-01 | 1858 | municipal | Municipal | no | Annual city offices — exact date unknown |
+| 1858-09-01 | 1858 | statewide | General | no | Legislature + Controller |
+| 1859-09-07 | 1859 | both | Gubernatorial + Municipal | no | Governor; Mayor (Teschemacher) + city offices |
+| 1860-11-06 | 1860 | statewide | Presidential | no | President |
+| 1861-05-21 | 1861 | municipal | Municipal | no | Mayor (Teschemacher re-elected) |
+| 1861-09-04 | 1861 | statewide | Gubernatorial | no | Governor |
+| 1862-09-03 | 1862 | statewide | General | no | Supt. Public Instruction + Legislature |
+| 1863-05-19 | 1863 | municipal | Municipal | no | Mayor (Coon) |
+| 1863-09-02 | 1863 | statewide | Gubernatorial | no | Governor |
+| 1864-11-08 | 1864 | statewide | Presidential | no | President + Congress |
+| 1865-05-16 | 1865 | municipal | Municipal | no | Mayor (Coon re-elected) |
+| 1865-09-05 | 1865 | statewide | General | no | Legislature |
+| 1867-09-04 | 1867 | both | Gubernatorial + Municipal | no | Governor; Mayor (McCoppin) |
+| 1867-10-16 | 1867 | statewide | General | no | Supt. Public Instruction |
+| 1869-09-01 | 1869 | municipal | Municipal | no | Mayor (Selby) |
+| 1871-09-06 | 1871 | both | Gubernatorial + Municipal | no | Governor; Mayor (Alvord) |
+| 1871-10-18 | 1871 | statewide | General | no | Supt. Public Instruction |
+| 1872-11-05 | 1872 | statewide | Presidential | no | President + Congress |
+| 1873-09-03 | 1873 | both | General + Municipal | no | Legislature; Mayor (Otis) |
+| 1875-10-20 | 1875 | statewide | General | no | Supt. Public Instruction |
+| 1877-09-05 | 1877 | both | General + Municipal | no | Legislature; Mayor (Bryant re-elected) |
+| 1878-06-19 | 1878 | statewide | Special | yes | Delegates to the 1878-79 state Constitutional Convention |
+| 1879-05-07 | 1879 | statewide | Special | yes | Ratification of the 1879 Constitution |
+| 1880-03-30 | 1880 | municipal | Charter | yes | Board of Freeholders (draft new charter) — registrar cumulative table (vol47 p.277): 30,877 votes |
+| 1880-09-08 | 1880 | municipal | Charter | yes | Proposed new charter — REJECTED; dated Sept 8 1880 by the registrar cumulative table (vol47 p.277): 23,398 votes |
+| 1880-11-02 | 1880 | statewide | Presidential | yes | President + Congress + Legislature |
+| 1881-09-07 | 1881 | municipal | Municipal | yes | Mayor (Blake) — last September municipal |
+| 1883-03-03 | 1883 | municipal | Charter | yes | Proposed new charter — REJECTED; dated March 3 1883 by the registrar cumulative table (vol47 p.277): 18,764 votes |
+| 1884-03-18 | 1884 | municipal | Special | yes | Assemblyman (special) — registrar cumulative table (vol47 p.277): 2,655 votes |
+| 1886-11-02 | 1886 | both | Gubernatorial + Municipal | yes | Governor + state officers; Mayor (Pond) |
+| 1887-04-12 | 1887 | municipal | Charter | yes | Amendments and proposed charter — REJECTED; dated April 12 1887 by the registrar cumulative table (vol47 p.277): 25,959 votes |
+| 1890-11-04 | 1890 | both | Gubernatorial + Municipal | yes | Governor + state officers; Mayor (Sanderson) |
+| 1897-12-27 | 1897 | municipal | Charter | yes | Board of Freeholders (draft new charter) |
+| 1908-05-11 | 1908 | city | Special | no |  |
+| 1908-11-12 | 1908 | city | Special | no |  |
+| 1909-06-22 | 1909 | city | Primary | no |  |
+| 1909-11-02 | 1909 | city | General | no |  |
+| 1909-12-30 | 1909 | city | Special | no |  |
+| 1911-11-07 | 1911 | city | Municipal | no |  |
+| 1912-03-28 | 1912 | city | Special | no |  |
+| 1913-04-22 | 1913 | city | Special | no |  |
+| 1915-03-16 | 1915 | city | Special | no |  |
+| 1921-03-08 | 1921 | city | Special | no |  |
+| 1922-11-21 | 1922 | city | Special | no |  |
+| 1928-08-28 | 1928 | city | Primary | no |  |
+| 1929-11-05 | 1929 | city | Municipal | no |  |
+| 1931-02-06 | 1931 | city | Special | no |  |
+| 1940-05-07 | 1940 | city | Special | no |  |
+| 1944-05-16 | 1944 | city | Primary | no |  |
+| 1944-11-07 | 1944 | city | General | yes |  |
+| 1945-11-06 | 1945 | city | Municipal | no |  |
+| 1972-06-06 | 1972 | city | Primary | yes |  |
+| 1977-08-02 | 1977 | city | Special | yes |  |
+| 1982-06-08 | 1982 | city | Primary | yes |  |
+| 1982-11-02 | 1982 | city | General | yes |  |
+| 1984-06-05 | 1984 | city | Primary | yes |  |
+| 1986-11-04 | 1986 | city | General | yes |  |
+| 1994-11-08 | 1994 | city | General | yes |  |
+| 1998-06-02 | 1998 | city | Primary | yes |  |
+| 1999-11-02 | 1999 | city | Municipal | yes |  |
+| 2000-11-07 | 2000 | city | General | yes |  |
+| 2001-12-11 | 2001 | city | Runoff | yes |  |
+| 2003-10-07 | 2003 | city | Special | yes |  |
+| 2006-11-07 | 2006 | city | General | yes |  |
+| 2009-05-19 | 2009 | city | Special | yes |  |
 
 ---
 

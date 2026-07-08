@@ -33,25 +33,25 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1875-10-20,1875,statewide,General,Supt. Public Instruction,no,,exact,Blue Book/SOV/Wikipedia
 1876-11-07,1876,statewide,Presidential,President + Congress,night,100.0,exact,Blue Book/SOV/Wikipedia
 1877-09-05,1877,both,General + Municipal,Legislature; Mayor (Bryant re-elected),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
-1878-06-19,1878,statewide,Special,Delegates to the 1878-79 state Constitutional Convention,no,,exact,Blue Book/SOV/Wikipedia
-1879-05-07,1879,statewide,Special,Ratification of the 1879 Constitution,no,,exact,Blue Book/SOV/Wikipedia
+1878-06-19,1878,statewide,Special,Delegates to the 1878-79 state Constitutional Convention,final-only,,exact,Blue Book/SOV/Wikipedia
+1879-05-07,1879,statewide,Special,Ratification of the 1879 Constitution,final-only,,exact,Blue Book/SOV/Wikipedia
 1879-09-03,1879,both,Gubernatorial + Municipal,Governor (1879 Constitution); Mayor (Kalloch) — 1st under 1879 Constitution,night,2.4,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
-1880-03-30,1880,municipal,Charter,"Board of Freeholders (draft new charter) — registrar cumulative table (vol47 p.277): 30,877 votes",no,,exact,Municipal Reports/CDNC/Wikipedia
-1880-09-08,1880,municipal,Charter,"Proposed new charter — REJECTED; dated Sept 8 1880 by the registrar cumulative table (vol47 p.277): 23,398 votes",no,,exact,Municipal Reports/CDNC/Wikipedia
-1880-11-02,1880,statewide,Presidential,President + Congress + Legislature,turnout-only,,exact,Blue Book/SOV/Wikipedia
-1881-09-07,1881,municipal,Municipal,Mayor (Blake) — last September municipal,no,,exact,Municipal Reports/CDNC/Wikipedia
+1880-03-30,1880,municipal,Charter,"Board of Freeholders (draft new charter) — registrar cumulative table (vol47 p.277): 30,877 votes",final-only,,exact,Municipal Reports/CDNC/Wikipedia
+1880-09-08,1880,municipal,Charter,"Proposed new charter — REJECTED; dated Sept 8 1880 by the registrar cumulative table (vol47 p.277): 23,398 votes",final-only,,exact,Municipal Reports/CDNC/Wikipedia
+1880-11-02,1880,statewide,Presidential,President + Congress + Legislature,final-only,,exact,Blue Book/SOV/Wikipedia
+1881-09-07,1881,municipal,Municipal,Mayor (Blake) — last September municipal,final-only,,exact,Municipal Reports/CDNC/Wikipedia
 1882-11-07,1882,both,Gubernatorial + Municipal,Governor + state officers; Mayor (Bartlett) — 1st November municipal,night,10.9,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
-1883-03-03,1883,municipal,Charter,"Proposed new charter — REJECTED; dated March 3 1883 by the registrar cumulative table (vol47 p.277): 18,764 votes",no,,exact,Municipal Reports/CDNC/Wikipedia
-1884-03-18,1884,municipal,Special,"Assemblyman (special) — registrar cumulative table (vol47 p.277): 2,655 votes",no,,exact,Municipal Reports/CDNC/Wikipedia
+1883-03-03,1883,municipal,Charter,"Proposed new charter — REJECTED; dated March 3 1883 by the registrar cumulative table (vol47 p.277): 18,764 votes",final-only,,exact,Municipal Reports/CDNC/Wikipedia
+1884-03-18,1884,municipal,Special,"Assemblyman (special) — registrar cumulative table (vol47 p.277): 2,655 votes",final-only,,exact,Municipal Reports/CDNC/Wikipedia
 1884-11-04,1884,both,Presidential + Municipal,President + Congress + Legislature; Mayor (Bartlett re-elected),night,10.6,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
-1886-11-02,1886,both,Gubernatorial + Municipal,Governor + state officers; Mayor (Pond),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
-1887-04-12,1887,municipal,Charter,"Amendments and proposed charter — REJECTED; dated April 12 1887 by the registrar cumulative table (vol47 p.277): 25,959 votes",no,,exact,Municipal Reports/CDNC/Wikipedia
+1886-11-02,1886,both,Gubernatorial + Municipal,Governor + state officers; Mayor (Pond),final-only,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1887-04-12,1887,municipal,Charter,"Amendments and proposed charter — REJECTED; dated April 12 1887 by the registrar cumulative table (vol47 p.277): 25,959 votes",final-only,,exact,Municipal Reports/CDNC/Wikipedia
 1888-11-06,1888,both,Presidential + Municipal,President + Congress + Legislature; Mayor (Pond re-elected),night,11.4,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
-1890-11-04,1890,both,Gubernatorial + Municipal,Governor + state officers; Mayor (Sanderson),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1890-11-04,1890,both,Gubernatorial + Municipal,Governor + state officers; Mayor (Sanderson),final-only,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
 1892-11-08,1892,both,Presidential + Municipal,President + Congress + Legislature; Mayor (Ellert),night,66.7,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
 1894-11-06,1894,both,Gubernatorial + Municipal,Governor + state officers; Mayor (Sutro),night,56.8,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
 1896-11-03,1896,both,Presidential + Municipal,President + Congress + Legislature; Mayor (Phelan),night,82.3,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
-1897-12-27,1897,municipal,Charter,Board of Freeholders (draft new charter),turnout-only,,exact,Municipal Reports/CDNC/Wikipedia
+1897-12-27,1897,municipal,Charter,Board of Freeholders (draft new charter),final-only,,exact,Municipal Reports/CDNC/Wikipedia
 1898-05-26,1898,municipal,Charter,New (1898/1900) Charter RATIFIED,night,100.0,exact,Municipal Reports/CDNC/Wikipedia
 1898-11-08,1898,both,Gubernatorial + Municipal,"Governor + state officers; Mayor (Phelan re-elected), consolidated onto the state ballot (no separate Nov 1 municipal election; Municipal Reports cumulative table)",night,74.6,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
 1899-11-07,1899,municipal,Municipal,Mayor (Phelan) — 1st under 1898 charter,night,67.5,exact,Municipal Reports/CDNC/Wikipedia
@@ -134,7 +134,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1943-04-20,1943,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
 1943-11-02,1943,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
 1944-05-16,1944,city,Primary,,no,,exact,SFPL/DataSF/DOE
-1944-11-07,1944,city,General,,no,,exact,SFPL/DataSF/DOE
+1944-11-07,1944,city,General,,final-only,,exact,SFPL/DataSF/DOE
 1945-11-06,1945,city,Municipal,,no,,exact,SFPL/DataSF/DOE
 1946-07-16,1946,city,Recall,,night,100.0,exact,SFPL/DataSF/DOE
 1946-11-05,1946,city,General,,night,87.2,exact,SFPL/DataSF/DOE
@@ -175,7 +175,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1970-06-02,1970,city,Primary,,night,50.6,exact,SFPL/DataSF/DOE
 1970-11-03,1970,city,General,,night,93.6,exact,SFPL/DataSF/DOE
 1971-11-02,1971,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
-1972-06-06,1972,city,Primary,,turnout-only,,exact,SFPL/DataSF/DOE
+1972-06-06,1972,city,Primary,,final-only,,exact,SFPL/DataSF/DOE
 1972-11-07,1972,city,General,,night,92.3,exact,SFPL/DataSF/DOE
 1973-11-06,1973,city,Municipal,,night,57.9,exact,SFPL/DataSF/DOE
 1974-06-04,1974,city,Primary,,night,44.9,exact,SFPL/DataSF/DOE
@@ -184,7 +184,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1975-12-11,1975,city,Runoff,,night,99.0,exact,SFPL/DataSF/DOE
 1976-06-08,1976,city,Primary,,night,74.8,exact,SFPL/DataSF/DOE
 1976-11-02,1976,city,General,,night,59.1,exact,SFPL/DataSF/DOE
-1977-08-02,1977,city,Special,,turnout-only,,exact,SFPL/DataSF/DOE
+1977-08-02,1977,city,Special,,final-only,,exact,SFPL/DataSF/DOE
 1977-11-08,1977,city,Municipal,,night,98.8,exact,SFPL/DataSF/DOE
 1978-06-06,1978,city,Primary,,night,46.6,exact,SFPL/DataSF/DOE
 1978-11-07,1978,city,General,,night,93.5,exact,SFPL/DataSF/DOE
@@ -193,15 +193,15 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1980-08-19,1980,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
 1980-11-04,1980,city,General,,night,93.0,exact,SFPL/DataSF/DOE
 1981-11-03,1981,city,Municipal,,night,91.4,exact,SFPL/DataSF/DOE
-1982-06-08,1982,city,Primary,,turnout-only,,exact,SFPL/DataSF/DOE
-1982-11-02,1982,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+1982-06-08,1982,city,Primary,,final-only,,exact,SFPL/DataSF/DOE
+1982-11-02,1982,city,General,,final-only,,exact,SFPL/DataSF/DOE
 1983-04-26,1983,city,Recall,,night,93.5,exact,SFPL/DataSF/DOE
 1983-11-08,1983,city,Municipal,,night,83.6,exact,SFPL/DataSF/DOE
-1984-06-05,1984,city,Primary,,turnout-only,,exact,SFPL/DataSF/DOE
+1984-06-05,1984,city,Primary,,final-only,,exact,SFPL/DataSF/DOE
 1984-11-06,1984,city,General,,night,94.6,exact,SFPL/DataSF/DOE
 1985-11-05,1985,city,Municipal,,night,92.5,exact,SFPL/DataSF/DOE
 1986-06-03,1986,city,Primary,,night,85.4,exact,SFPL/DataSF/DOE
-1986-11-04,1986,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+1986-11-04,1986,city,General,,final-only,,exact,SFPL/DataSF/DOE
 1987-04-07,1987,city,Special,,night,91.2,exact,SFPL/DataSF/DOE
 1987-06-02,1987,city,Special,,night,79.4,exact,SFPL/DataSF/DOE
 1987-11-03,1987,city,Municipal,,night,91.3,exact,SFPL/DataSF/DOE
@@ -218,39 +218,39 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1993-06-15,1993,city,Special,,night,93.6,exact,SFPL/DataSF/DOE
 1993-11-02,1993,city,General,,night,81.5,exact,SFPL/DataSF/DOE
 1994-06-07,1994,city,Primary,,night,81.9,exact,SFPL/DataSF/DOE
-1994-11-08,1994,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+1994-11-08,1994,city,General,,final-only,,exact,SFPL/DataSF/DOE
 1995-11-07,1995,city,Municipal,,night,81.6,exact,SFPL/DataSF/DOE
 1995-12-12,1995,city,Runoff,,night,68.2,exact,SFPL/DataSF/DOE
 1996-03-26,1996,city,Primary,,night,59.6,exact,SFPL/DataSF/DOE
 1996-11-05,1996,city,General,,night,93.4,exact,SFPL/DataSF/DOE
 1997-06-03,1997,city,Special,,night,97.5,exact,SFPL/DataSF/DOE
 1997-11-04,1997,city,Municipal,,night,87.3,exact,SFPL/DataSF/DOE
-1998-06-02,1998,city,Primary,,turnout-only,,exact,SFPL/DataSF/DOE
+1998-06-02,1998,city,Primary,,final-only,,exact,SFPL/DataSF/DOE
 1998-11-03,1998,city,General,,night,73.3,exact,SFPL/DataSF/DOE
-1999-11-02,1999,city,Municipal,,turnout-only,,exact,SFPL/DataSF/DOE
+1999-11-02,1999,city,Municipal,,final-only,,exact,SFPL/DataSF/DOE
 1999-12-14,1999,city,Runoff,,night,88.9,exact,SFPL/DataSF/DOE
 2000-03-07,2000,city,Primary,,night,83.6,exact,SFPL/DataSF/DOE
-2000-11-07,2000,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+2000-11-07,2000,city,General,,final-only,,exact,SFPL/DataSF/DOE
 2000-12-12,2000,city,Runoff,,night,29.7,exact,SFPL/DataSF/DOE
 2001-11-06,2001,city,Municipal,,night,80.5,exact,SFPL/DataSF/DOE
-2001-12-11,2001,city,Runoff,,turnout-only,,exact,SFPL/DataSF/DOE
+2001-12-11,2001,city,Runoff,,final-only,,exact,SFPL/DataSF/DOE
 2002-03-05,2002,city,Primary,,night,57.1,exact,SFPL/DataSF/DOE
 2002-11-05,2002,city,General,,night,75.3,exact,SFPL/DataSF/DOE
 2002-12-10,2002,city,Runoff,,night,41.8,exact,SFPL/DataSF/DOE
-2003-10-07,2003,city,Special,,turnout-only,,exact,SFPL/DataSF/DOE
+2003-10-07,2003,city,Special,,final-only,,exact,SFPL/DataSF/DOE
 2003-11-04,2003,city,Municipal,,night,84.7,exact,SFPL/DataSF/DOE
 2003-12-09,2003,city,Runoff,,night,88.9,exact,SFPL/DataSF/DOE
 2004-03-02,2004,city,Primary,,night,75.1,exact,SFPL/DataSF/DOE
 2004-11-02,2004,city,General,,night,74.9,exact,SFPL/DataSF/DOE
 2005-11-08,2005,city,Special,,night,66.9,exact,SFPL/DataSF/DOE
 2006-06-06,2006,city,Primary,,night,66.3,exact,SFPL/DataSF/DOE
-2006-11-07,2006,city,General,,turnout-only,,exact,SFPL/DataSF/DOE
+2006-11-07,2006,city,General,,final-only,,exact,SFPL/DataSF/DOE
 2007-11-06,2007,city,Municipal,,night,32.2,exact,SFPL/DataSF/DOE
 2008-02-05,2008,city,Primary,,night,63.1,exact,SFPL/DataSF/DOE
 2008-04-08,2008,city,Primary,,night,83.6,exact,SFPL/DataSF/DOE
 2008-06-03,2008,city,Primary,,night,62.8,exact,SFPL/DataSF/DOE
 2008-11-04,2008,city,General,,night,61.0,exact,SFPL/DataSF/DOE
-2009-05-19,2009,city,Special,,turnout-only,,exact,SFPL/DataSF/DOE
+2009-05-19,2009,city,Special,,final-only,,exact,SFPL/DataSF/DOE
 2009-11-03,2009,city,Municipal,,night,68.3,exact,SFPL/DataSF/DOE
 2010-06-08,2010,city,Primary,,night,64.7,exact,SFPL/DataSF/DOE
 2010-11-02,2010,city,General,,night,61.3,exact,SFPL/DataSF/DOE

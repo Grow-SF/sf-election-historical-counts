@@ -215,10 +215,12 @@ haven't recovered them yet. The full election-by-election list is now
 [`data/elections_master.csv`](data/elections_master.csv) (built by
 [`scripts/build_elections_master.py`](scripts/build_elections_master.py)) — **279
 San Francisco elections, 1849–2026**, each flagged by whether we hold a night
-count: **204 recovered · 16 turnout-only · 59 still missing**. The categories below
-summarize those 59. (The total rose in July 2026: the Municipal Reports
-cumulative Registrar table exposed a spurious index entry, Nov 1 1898, and
-three previously unindexed specials; see the search log.)
+count: **204 recovered · 75 still missing** (27 of the missing at least have a
+known final count; 48 have no recovered data at all). The categories below
+summarize the missing. (The total rose in July 2026: the Municipal Reports
+cumulative Registrar tables exposed a spurious index entry, Nov 1 1898, three
+previously unindexed specials, and then four more 1878-1887 elections plus
+true dates for three rejected charters; see the search log.)
 
 **Pre-1892 statewide generals** (certified SF denominators already in hand — see
 [`data/pre1892_certified.md`](data/pre1892_certified.md); only the night count is missing)

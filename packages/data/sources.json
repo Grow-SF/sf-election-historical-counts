@@ -7217,10 +7217,10 @@
    {
     "date": "1888-11-09",
     "days": 3,
-    "total": 52916,
-    "pct": 95.7,
+    "total": 54101,
+    "pct": 97.8,
     "label": "cdnc-ocr",
-    "citation": "Daily Alta California via CDNC (cdnc.ucr.edu), 1888-11-09 'MUNICIPAL ELECTION' (section DAC18881109.2.3): Cleveland 27,693 + Harrison 24,950 + Fisk 273 (Curtis illegible, excluded) = 52,916, explicitly 'a few precincts... not completed' plus several sealed-without-copy - near-final day-3 count; Cleveland/Harrison ratio 1.110 vs certified 1.116 corroborates; mirror/cdnc/DAC18881109/, read 2026-07-07"
+    "citation": "Daily Alta California via CDNC (cdnc.ucr.edu), 1888-11-09 'MUNICIPAL ELECTION' (section DAC18881109.2.3), operator hand-read of the page image 2026-07-07: Mayor sum Pond 20,211 + O'Donnell 15,219 + Story 18,671 = 54,101, the largest same-day contest sum and so the day-3 floor; the President column corroborates at 52,960 (Cleveland 27,693 + Harrison 24,980 + Fisk 273 + Curtis 14; the OCR had misread Harrison as 24,950 and found Curtis illegible), Cleveland/Harrison ratio 1.109 vs certified 1.116; explicitly 'a few precincts... not completed' plus several sealed-without-copy - near-final day-3 count; mirror/cdnc/DAC18881109/, read 2026-07-07"
    }
   ]
  },

@@ -200,11 +200,25 @@ for d, k, what, conf in P2B:
 # --- recovered? cross-reference the live dataset --------------------------------
 el = json.loads((ROOT / "packages" / "data" / "elections.json").read_text())
 night = {e["id"]: e.get("nightPct") for e in el}
+# an election is "missing" if we hold no election-night count; among the
+# missing, distinguish those whose FINAL count we do hold (a certified or
+# registrar total from any source) from those with no recovered data at all
+finals = set(night)  # every canvass/modern election carries a certified final
+for fn in ("sf_turnout_pre1899.csv", "sf_turnout_1891_1907.csv"):
+    with open(ROOT / "data" / fn, newline="") as f:
+        for r in csv.DictReader(f):
+            if r["ballots_cast"]:
+                finals.add(r["election_date"])
+DOE_TABLE_DATE_FIXES = {"2001-12-10": "2001-12-11", "1899-12-02": "1899-12-29"}
+with open(ROOT / "data" / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
+    for r in csv.DictReader(f):
+        if r["ballots_cast"] and r["ballots_cast"] not in ("n/a",):
+            finals.add(DOE_TABLE_DATE_FIXES.get(r["election_date"], r["election_date"]))
 def recovered(date):
-    if date not in night:
-        return "no", ""
-    p = night[date]
-    return ("night", p) if p is not None else ("turnout-only", "")
+    p = night.get(date)
+    if p is not None:
+        return "night", p
+    return ("final-only", "") if date in finals else ("no", "")
 
 # --- write ----------------------------------------------------------------------
 out = ROOT / "data" / "elections_master.csv"
@@ -216,13 +230,13 @@ with open(out, "w", newline="") as f:
     w = csv.writer(f)
     w.writerow(["election_date","year","level","kind","description",
                 "recovered","night_pct","date_confidence","sources"])
-    n_night = n_turn = n_missing = 0
+    n_night = n_final = n_nothing = 0
     for date in sorted(rows):
         r = rows[date]
         rec, pct = recovered(date)
         if rec == "night": n_night += 1
-        elif rec == "turnout-only": n_turn += 1
-        else: n_missing += 1
+        elif rec == "final-only": n_final += 1
+        else: n_nothing += 1
         lvl = ("both" if {"statewide"} <= r["levels"] and
                ({"municipal"} <= r["levels"] or "city" in r["levels"])
                else ("statewide" if "statewide" in r["levels"]
@@ -232,6 +246,6 @@ with open(out, "w", newline="") as f:
                     "; ".join(r["descs"]), rec, pct, conf, "; ".join(sorted(r["src"]))])
     total = len(rows)
 print(f"{total} distinct election dates -> {out}")
-print(f"  recovered (night count): {n_night}")
-print(f"  turnout-only:            {n_turn}")
-print(f"  MISSING:                 {n_missing}")
+print(f"  recovered (night count):     {n_night}")
+print(f"  missing, final count known:  {n_final}")
+print(f"  missing, no data at all:     {n_nothing}")
