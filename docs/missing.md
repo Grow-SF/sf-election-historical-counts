@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**65 San Francisco elections still lack an election-night ballot count.** For 17 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**64 San Francisco elections still lack an election-night ballot count.** For 16 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 65 elections still missing a night count
+## The 64 elections still missing a night count
 
 | Date | Year | Level | Kind | Final count known? | Description |
 |------|------|-------|------|--------------------|-------------|
@@ -77,7 +77,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1945-11-06 | 1945 | city | Municipal | no |  |
 | 1972-06-06 | 1972 | city | Primary | yes |  |
 | 1982-11-02 | 1982 | city | General | yes |  |
-| 1984-06-05 | 1984 | city | Primary | yes |  |
 | 1994-11-08 | 1994 | city | General | yes |  |
 
 ---
@@ -904,3 +903,53 @@ required). Reproduction: NewsBank image-edition alltext search 'SAN
 FRANCISCO VOTED' (quoted) scoped to SF Chronicle 1982-06-09, single
 hit page 8. Method note: in primary-election tables the party
 contests are subsets; read the propositions columns first.
+**Update (2026-07-08, August 1977: the overnight count, hiding on the
+front page).** The 1977 district-elections special was already in the
+dataset as a day-2 floor (174,308, the Aug 4 per-district table) with
+a note that the E+1 paper 'printed a percentage map only'. Wrong: the
+Aug 3 1977 FRONT PAGE prints the outcome block in text, 'With all 735
+precincts reporting, this was the outcome: PROPOSITION A Yes ...;
+No—97,5xx. PROPOSITION B Yes, 62,185; No—112,123', digit-for-digit
+identical to the E+2 table, and the story confirms the count ran
+'last night'. A two-measure lever-era ballot counted overnight: the
+existing 174,308 Prop B sum is re-stamped to election night (03:00
+press convention, disclosed), dimmed as a contest sum, 97.7 percent
+of the certified 178,367: the 214th night count. Lesson repeated: the
+E+1 verdict of an earlier pass is worth one more look when it rests
+on 'only a map/percentages' — the outcome paragraph often carries the
+counts in prose. Reproduction: NewsBank image-edition alltext search
+'precincts' scoped to SF Chronicle 1977-08-03, single hit page 1.
+**Dead end (2026-07-08, June 1972: the punch-card debut printed no
+E+1 numbers).** San Francisco's first Votomatic election jammed the
+polls ('This is criminal,' shouted an elderly voter, in the June 7
+p6 'Phones Rang On For S.F. Registrar' chaos story; a federal order
+was being hand-delivered to precincts at 8 p.m. per the p30 story)
+and the next morning's Chronicle printed no results table at all:
+alltext searches of the June 7 issue for 'The S.F. Vote', 'ballots
+counted', and 'SAN FRANCISCO VOTED' all return zero, and the page 1
+election story carries only 'The four incumbents took strong early
+leads this morning... With most of the precincts reporting' on the
+multi-seat school-board race (vote-for-several, unusable as a ballot
+floor). The count was complete by the June 8 paper (the dataset's
+existing day-2 record, 1349 of 1349). June 1972 stays without a
+night count; the evening Examiner of June 7 (ProQuest vein) is the
+untried source that could carry a clocked day-1 partial.
+Reproduction: NewsBank image-edition searches scoped to SF Chronicle
+1972-06-07 as quoted above; 'precincts' returns six pages, all read.
+**Finding, pending a denominator (2026-07-08, November 1945: twelve
+precincts by press time).** The prewar cluster opens with a
+hand-count-era night state worthy of 1918: the Nov 7 1945 Chronicle
+front page prints an 'Election Returns' box reading 'Complete
+semi-official returns from 12 widely scattered precincts out of 1194
+at yesterday's election gave the following results', Airport Bonds
+YES ~1,362 / NO ~355 (digits soft, operator read requested), and the
+adjacent story blames 'showers and a general apathy' for 'a light
+vote'. Twelve of 1,194 precincts is a 1.0 percent night state: the
+municipal hand count still effectively produced nothing overnight in
+1945. NOT ingested yet: this election has no denominator anywhere in
+the dataset (absent from the DOE turnout table entirely), so the
+night point cannot compute a share until the complete count is
+recovered from the Nov 8-10 1945 papers or the Municipal Reports.
+Queued. Reproduction: NewsBank image-edition alltext search
+'precincts' (quoted) scoped to SF Chronicle 1945-11-07, hit page 1,
+'Election Returns' box, left of the fold.

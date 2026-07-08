@@ -870,3 +870,19 @@ recovered from the Nov 8-10 1945 papers or the Municipal Reports.
 Queued. Reproduction: NewsBank image-edition alltext search
 'precincts' (quoted) scoped to SF Chronicle 1945-11-07, hit page 1,
 'Election Returns' box, left of the fold.
+**Correction (2026-07-08, June 1984 IS a night count, the 215th).**
+The earlier note calling the June 6 1984 ELECTION SPECIAL a
+post-completion late run was overruled by the operator: the special
+is the Wednesday morning paper (press deadline early Wednesday
+morning), not a later-day extra, so its complete 708-of-708 table is
+election-night state, printed hours after the polls closed. The
+operator hand-read the propositions columns from the scan. The
+existing 155,192 floor (City Prop B, Police Night Pay, YES 81,436 +
+NO 73,756) re-stamps from day-2 to night at the disclosed 03:00
+convention, dimmed as a contest sum: 85.9 percent of the certified
+180,741. The earlier morning edition's box (Prop 24 at 67 percent)
+now reads as the early press run of the same night, the familiar
+edition sequence. November 1982's ELECTION EXTRA remains open for
+the same adjudication: if that extra is likewise a Wednesday-morning
+run, its '8,000 absentees remain' conversion (230,991, 96.7 percent)
+would re-stamp to night as well; the operator has the scan open.

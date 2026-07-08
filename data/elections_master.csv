@@ -197,7 +197,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1982-11-02,1982,city,General,,final-only,,exact,SFPL/DataSF/DOE
 1983-04-26,1983,city,Recall,,night,93.5,exact,SFPL/DataSF/DOE
 1983-11-08,1983,city,Municipal,,night,83.6,exact,SFPL/DataSF/DOE
-1984-06-05,1984,city,Primary,,final-only,,exact,SFPL/DataSF/DOE
+1984-06-05,1984,city,Primary,,night,85.9,exact,SFPL/DataSF/DOE
 1984-11-06,1984,city,General,,night,94.6,exact,SFPL/DataSF/DOE
 1985-11-05,1985,city,Municipal,,night,92.5,exact,SFPL/DataSF/DOE
 1986-06-03,1986,city,Primary,,night,85.4,exact,SFPL/DataSF/DOE

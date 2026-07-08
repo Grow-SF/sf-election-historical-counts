@@ -8836,12 +8836,12 @@
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nightPct": 85.9,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
    [
-    1.29,
+    0.29,
     85.9,
     null,
     null
@@ -8849,39 +8849,39 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "85": {
-    "days": 2,
+    "days": 1,
     "bound": true
    }
   },
-  "nightSrc": null,
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {

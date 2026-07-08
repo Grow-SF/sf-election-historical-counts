@@ -5032,12 +5032,12 @@
   "finalSource": "SF Dept. of Elections historical turnout table (1899\u20132019): certified 180,741",
   "observations": [
    {
-    "date": "1984-06-07",
-    "days": 2,
+    "date": "1984-06-06",
+    "days": 1,
     "total": 155192,
     "pct": 85.9,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle page scan (NewsBank/SFPL), 1984-06-07 p20 'HOW SAN FRANCISCO VOTED' box, 708/708 precincts (100%): City Prop B (Police Night Pay) YES 81,436 + NO 73,756 = 155,192 - largest same-basis SF measure sum (printed 52.5/47.5 pcts match counts); beats in-person floor 151,013; E+1 box's only counted measure (Prop 24, sum 36,573 at 67% reporting; the complete E+2 Prop 24 sum was 135,327) sits below the in-person floor, so no night point ingested; scan final_19840605_issue19840607_p20_s1_cityprop.png, read 2026-07-06 \u00b7 view the scanned issue at SFPL (browse to the cited page): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=image/v2%3A142051F45F422A02%40NGPA-CASFC-156952CA1DE699EE%402445858-156900B7B348064E%407-156900B7B348064E%40"
+    "citation": "SF Chronicle print edition via NewsBank page image (SFPL ezproxy), 1984-06-06 ELECTION SPECIAL edition, p2 'HOW SAN FRANCISCO VOTED' full-page table, every citywide block at '708 of 708 precincts reporting' (operator adjudication 2026-07-08: the ELECTION SPECIAL is the Wednesday morning paper, press deadline early Wednesday morning, not a later-day extra; operator hand-read the propositions columns from the scan): City Prop B (Police Night Pay) YES 81,436 + NO 73,756 = 155,192, the largest same-basis all-voter measure sum (printed 52.5/47.5 percents match; City Prop J sums 148,816, I 148,576, K 150,494, state Prop 18 sums 147,120; all 708 of 708); contest sum, undervote-limited, flagged night_partial; the 03:00 press-time stamp is the dataset convention, disclosed; digit-for-digit identical to the E+2 table (1984-06-07 p20, scan final_19840605_issue19840607_p20_s1_cityprop.png), which corroborates every figure; an earlier edition of the June 6 issue shows only Prop 24 counted at 67 percent, corroborating the edition sequence within the morning run; beats in-person floor 151,013; reproduction: NewsBank image-edition alltext search 'SAN FRANCISCO VOTED' (quoted) scoped to SF Chronicle 1984-06-06, single hit page 2; operator-verified 2026-07-08"
    }
   ]
  },
