@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**63 San Francisco elections still lack an election-night ballot count.** For 15 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**49 San Francisco elections still lack an election-night ballot count.** For 25 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 24 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 63 elections still missing a night count
+## The 49 elections still missing a night count
 
 | Date | Year | Level | Kind | Final count known? | Description |
 |------|------|-------|------|--------------------|-------------|
@@ -26,24 +26,17 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1857-09-04 | 1857 | municipal | Municipal | no | City/county offices |
 | 1858-07-01 | 1858 | municipal | Municipal | no | Annual city offices — exact date unknown |
 | 1858-09-01 | 1858 | statewide | General | no | Legislature + Controller |
-| 1859-09-07 | 1859 | both | Gubernatorial + Municipal | no | Governor; Mayor (Teschemacher) + city offices |
-| 1860-11-06 | 1860 | statewide | Presidential | no | President |
-| 1861-05-21 | 1861 | municipal | Municipal | no | Mayor (Teschemacher re-elected) |
-| 1861-09-04 | 1861 | statewide | Gubernatorial | no | Governor |
-| 1862-09-03 | 1862 | statewide | General | no | Supt. Public Instruction + Legislature |
-| 1863-05-19 | 1863 | municipal | Municipal | no | Mayor (Coon) |
+| 1859-09-07 | 1859 | both | Gubernatorial + Municipal | yes | Governor; Mayor (Teschemacher) + city offices |
+| 1861-05-21 | 1861 | municipal | Municipal | yes | Mayor (Teschemacher re-elected) |
+| 1862-09-03 | 1862 | statewide | General | yes | Supt. Public Instruction + Legislature |
+| 1863-05-19 | 1863 | municipal | Municipal | yes | Mayor (Coon) |
 | 1863-09-02 | 1863 | statewide | Gubernatorial | no | Governor |
-| 1864-11-08 | 1864 | statewide | Presidential | no | President + Congress |
-| 1865-05-16 | 1865 | municipal | Municipal | no | Mayor (Coon re-elected) |
-| 1865-09-05 | 1865 | statewide | General | no | Legislature |
+| 1865-05-16 | 1865 | municipal | Municipal | yes | Mayor (Coon re-elected) |
+| 1865-09-06 | 1865 | statewide | General | yes | Legislature |
 | 1867-09-04 | 1867 | both | Gubernatorial + Municipal | no | Governor; Mayor (McCoppin) |
-| 1867-10-16 | 1867 | statewide | General | no | Supt. Public Instruction |
 | 1869-09-01 | 1869 | municipal | Municipal | no | Mayor (Selby) |
 | 1871-09-06 | 1871 | both | Gubernatorial + Municipal | no | Governor; Mayor (Alvord) |
-| 1871-10-18 | 1871 | statewide | General | no | Supt. Public Instruction |
-| 1872-11-05 | 1872 | statewide | Presidential | no | President + Congress |
 | 1873-09-03 | 1873 | both | General + Municipal | no | Legislature; Mayor (Otis) |
-| 1875-10-20 | 1875 | statewide | General | no | Supt. Public Instruction |
 | 1877-09-05 | 1877 | both | General + Municipal | no | Legislature; Mayor (Bryant re-elected) |
 | 1878-06-19 | 1878 | statewide | Special | yes | Delegates to the 1878-79 state Constitutional Convention |
 | 1879-05-07 | 1879 | statewide | Special | yes | Ratification of the 1879 Constitution |
@@ -57,17 +50,10 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1887-04-12 | 1887 | municipal | Charter | yes | Amendments and proposed charter — REJECTED; dated April 12 1887 by the registrar cumulative table (vol47 p.277): 25,959 votes |
 | 1890-11-04 | 1890 | both | Gubernatorial + Municipal | yes | Governor + state officers; Mayor (Sanderson) |
 | 1897-12-27 | 1897 | municipal | Charter | yes | Board of Freeholders (draft new charter) |
-| 1908-05-11 | 1908 | city | Special | no |  |
-| 1908-11-12 | 1908 | city | Special | no |  |
-| 1909-06-22 | 1909 | city | Primary | no |  |
-| 1909-11-02 | 1909 | city | General | no |  |
-| 1909-12-30 | 1909 | city | Special | no |  |
-| 1911-11-07 | 1911 | city | Municipal | no |  |
-| 1912-03-28 | 1912 | city | Special | no |  |
-| 1913-04-22 | 1913 | city | Special | no |  |
-| 1915-03-16 | 1915 | city | Special | no |  |
-| 1921-03-08 | 1921 | city | Special | no |  |
-| 1922-11-21 | 1922 | city | Special | no |  |
+| 1909-06-22 | 1909 | city | Special | yes |  |
+| 1909-11-02 | 1909 | city | General | yes |  |
+| 1915-03-16 | 1915 | city | Special | yes |  |
+| 1922-11-21 | 1922 | city | Special | yes |  |
 | 1928-08-28 | 1928 | city | Primary | no |  |
 | 1929-11-05 | 1929 | city | Municipal | no |  |
 | 1931-02-06 | 1931 | city | Special | no |  |
@@ -162,6 +148,13 @@ their elections' certified totals (June 1974, November 1978) — both
 listed on the missing-records page awaiting a second source.
 
 ## Why ~30 elections still lack a true election-night count
+
+*[Superseded, June 2026 snapshot preserved as written. The July 2026
+recovery campaign disproved much of this section: group 2's day-2-only
+elections and group 3's RCV elections have all since yielded night
+counts, and group 1 has shrunk. See the dated update and correction
+entries appended below for the current state; the live tally lives in
+the README and docs/missing.md.]*
 
 The remaining diamond-only elections fall into three groups, each
 exhausted for the digital archives:
@@ -1004,3 +997,35 @@ ELECTION SPECIAL and ELECTION EXTRA banners mark late-closing
 overnight runs; star counts in the folio order the editions within
 the night. The 1984 and 1982 adjudications together re-open any past
 verdict that discarded a complete E+1 table for being 'a special'.
+**Update (2026-07-08, the CDNC agent batch lands: sixteen night
+counts at once, 216 to 232).** With the operator's authorization the
+four parallel CDNC agents' verified findings were ingested in one
+batch, the largest single-day gain of the campaign. Night counts:
+1860-11 (a true clocked midnight state, 9,224 of 14,415 cast, locked
+by 'As there were 14,415 votes cast, 5,191 remain to be counted');
+1861-09 (2:30 AM, 98.4 percent); 1864-11 (complete overnight, 21,024
+margin-locked); 1867-10, 1871-10 ('At three o'clock this morning the
+returns of all the Wards were completed'), 1872-11, 1875-10 (the
+hand-count era finishing short ballots overnight, all dimmed contest
+sums); 1908-05, 1908-11, 1909-12, 1912-03-28, 1913-04 (conservative
+62,691 over the discrepant 62,934 headline), and 1921-03 (complete
+by 9:30 PM, arithmetic-locked 74,079); the midnight partial 1911-11
+(20,633 at 140 of 356, dimmed); and two elections no index knew
+existed, now recovered complete: 1909-06-24 (Geary bonds, 22,258,
+double-locked by the two-thirds arithmetic) and 1912-03-29 (the
+invalidated initiative special, 31,968). Finals without night counts:
+1859-09, 1861-05, 1862-09, 1863-05, 1865-05, 1865-09 (poll-list
+total, deliberately stamped outside the night cutoff), 1909-06-22
+(the master's 'Primary' label corrected to Special: no primary
+occurred, the direct primary law being in litigation), 1909-11,
+1915-03, 1922-11. Index changes: the universe grows 279 to 281, and
+the 1865 general moves to its true date, Wednesday Sept 6. Denominator
+convention: where no official certified exists (the DOE table skips
+specials and starts at 1899), the complete unofficial count or the
+paper's printed ballots-cast total serves as the news-derived final,
+per the 1933 precedent. Still held for operator hand-reads: 1877-09
+(soft digits at 2:45 AM), 1873-09 (approximations only), 1869-09
+(OCR-poor digits), 1863-09 (a three-way total conflict), and the
+flagged single digits listed in the verification queue. Full
+provenance for every figure: the agent salvage files
+(agents/cdnc_*.md) and mirror/cdnc/ screenshots.

@@ -234,6 +234,14 @@
   "kind": "Municipal"
  },
  {
+  "date": "1908-05-11",
+  "turnoutPct": 29.8,
+  "registered": 79000,
+  "ballots": 23550,
+  "source": "archival",
+  "kind": "Special"
+ },
+ {
   "date": "1908-11-03",
   "turnoutPct": 79.7,
   "registered": 75467,

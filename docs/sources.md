@@ -2,7 +2,7 @@
 
 # Data sources
 
-Every number in the Long Count dataset traces to a primary source. This file documents all 317 source records — what was consulted, what it established, and where to find it.
+Every number in the Long Count dataset traces to a primary source. This file documents all 343 source records — what was consulted, what it established, and where to find it.
 
 These records were previously displayed on the `/sources` page of the viz app. They now live here as a stable, version-controlled reference in the data repository.
 
@@ -4390,6 +4390,22 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Special Bond Election (school + Relief Home)
+
+**ID:** `1922-11-21`
+
+**Certified final:** 81,213
+
+**Source:** SF Call 1922-11-23 complete district table, school-bond ballots (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1922-11-23 | 2 |  | 81,213 | 100.0% | cdnc-ocr — SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08): day+1 evening paper (1922-11-22) 'Complete returns from all of the 891 precincts ... show over 80,000 votes were cast' (School 69,262/11,504, Relief 70,445/9,989) but with no timing language a night claim is unproven; the day+2 district table (1922-11-23) is fully legible and every column sums exactly: school-bond ballots 81,213 (Yes 69,271 / No 11,548), Relief 70,400/10,045; URLs https://cdnc.ucr.edu/?a=d&d=SFC19221122.2.188 and SFC19221123.2.176 ; shots mirror/cdnc/SFC19221122/, SFC19221123/; provenance agents/cdnc_1911_1922.md |
+
+---
+
 ### General Election
 
 **ID:** `1922-11-07`
@@ -4403,6 +4419,22 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1922-11-08 | 1 |  | 35,601 | 26.5% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1922-11-08 Governor SF sum=35601, 289/~750 precincts, partial; scan sweep_19221107_issue19221108_p1_s1+p1_s2; conf=medium; Richardson(R)15422+Woolwine(D)20179; box "complete returns from 289 precincts" = 289 of SFs ~750 precincts (partial morning); announced 3AM |
+
+---
+
+### Special Election (Spring Valley purchase)
+
+**ID:** `1921-03-08`
+
+**Certified final:** 74,079
+
+**Source:** SF Call 1921-03-09 complete unofficial count (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1921-03-08 | 0 |  | 74,079 | 100.0% | cdnc-ocr — SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1921-03-09: 'The unofficial count at the close of the polls last night, showing the 419 precincts complete'; 'the returns were tabulated quickly last night and the result was definitely known before 9:30 o'clock'; totals row 74,079 total vote cast / Yes 42,898 / No 31,082, arithmetic-locked by 'Necessary to pass 49,320' = two-thirds of 73,980 exactly; a clocked 9:30 PM complete count, undimmed; URL https://cdnc.ucr.edu/?a=d&d=SFC19210309.2.43 ; shot mirror/cdnc/SFC19210309/SFC19210309.2.43.png; provenance agents/cdnc_1911_1922.md |
 
 ---
 
@@ -4502,6 +4534,22 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Special Election (36 charter amendments)
+
+**ID:** `1915-03-16`
+
+**Certified final:** 51,030
+
+**Source:** SF Call 1915-03-17 day+1 complete tabulation, largest measure sum (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1915-03-17 | 1 |  | 51,030 | 100.0% | cdnc-ocr — SF Call (evening) via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1915-03-17: 'Tabulation of yesterday's vote ... was completed today ... Less than one-third of the registered voters, approximately 50,000, voted' - no night count exists (this explains the ledger's old Chronicle SKIP); day+1 complete: the full 36-amendment box read from image, largest measure sum Amendment 11: 16,136 + 34,894 = 51,030; URL https://cdnc.ucr.edu/?a=d&d=SFC19150317.2.38 (box .2.40); shots mirror/cdnc/SFC19150317/; provenance agents/cdnc_1911_1922.md |
+
+---
+
 ### General Election
 
 **ID:** `1914-11-03`
@@ -4531,6 +4579,22 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1913-08-27 | 1 |  | 65,478 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1913-08-27 p1 — HAND-COUNT era but SINGLE-QUESTION bond → COMPLETE overnight; total vote cast 65,478 (Municipal Railway $3.5M bond For 51,649+Against 13,720=65,369; carried 2/3); all 13 assembly districts in; scan sweep_19130826_issue19130827_p1_s0; conf=high |
+
+---
+
+### Special Election (Weller recall + 2 props)
+
+**ID:** `1913-04-22`
+
+**Certified final:** 62,691
+
+**Source:** SF Call 1913-04-23 figures box total (news-derived final; 62,934 headline variant logged)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1913-04-23 | 1 |  | 62,691 | 100.0% | cdnc-ocr — SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1913-04-23: headline 'Large Vote Cast for Special Election--Total 62,934' vs the figures box 'Total Vote ... 62,691' - a genuine in-paper discrepancy, both crisp in the screenshots; the conservative figures-box value is ingested; box digits: Crist 30,784 / Weller 29,934 (majority 850 checks), Prop 1 38,089/21,920, Prop 2 30,672/27,797 (majorities check); the Apr 24 issue says 'The canvass will begin Monday morning', proving these are night figures; undimmed total-vote statement; URLs https://cdnc.ucr.edu/?a=d&d=SFC19130423.2.2 and .2.3 ; shots mirror/cdnc/SFC19130423/; provenance agents/cdnc_1911_1922.md |
 
 ---
 
@@ -4566,6 +4630,54 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Special Election (initiative ordinances)
+
+**ID:** `1912-03-29`
+
+**Certified final:** 31,968
+
+**Source:** SF Call 1912-03-30 complete unofficial count (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1912-03-30 | 1 |  | 31,968 | 100.0% | cdnc-ocr — SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1912-03-30: 'The total vote cast yesterday wa£ 31,968, as against 49.917 the day before' - the phone-merger/municipal-phone initiative ordinances special held the day after the Civic Center bond special (declared invalid pre-election by the city attorney); complete overnight count, total-vote statement, undimmed; THIS ELECTION WAS ABSENT FROM THE MASTER INDEX until this recovery; URL https://cdnc.ucr.edu/?a=d&d=SFC19120330.2.13 ; shots mirror/cdnc/SFC19120330/; provenance agents/cdnc_1911_1922.md |
+
+---
+
+### Special Bond Election (Civic Center)
+
+**ID:** `1912-03-28`
+
+**Certified final:** 49,917
+
+**Source:** SF Call 1912-03-30 total-ballots statement 49,917 (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1912-03-29 | 1 |  | 49,168 | 98.5% | cdnc-ocr — SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1912-03-29 'The total vote cast was 45,133 for the bonds and 4,035 against' with full district table (Total 45,133/4,035; sum 49,168) - complete overnight count of the single measure, dimmed as a measure sum (blanks uncounted); denominator: the Mar 30 issue states 'The total vote cast yesterday wa£ 31,968, as against 49.917 the day before', fixing total ballots Mar 28 at 49,917; URL https://cdnc.ucr.edu/?a=d&d=SFC19120329.2.8 ; shots mirror/cdnc/SFC19120329/; provenance agents/cdnc_1911_1922.md |
+
+---
+
+### Municipal Election
+
+**ID:** `1911-11-07`
+
+**Certified final:** 68,878
+
+**Source:** SF Call 1911-11-09 complete unofficial count (news-derived final; companion day-2 row)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1911-11-08 | 1 |  | 20,633 | 30.0% | cdnc-ocr — SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1911-11-08 p1: 'At Midnight His Opponent Led Him by 1,500 Votes in Over Twenty Thousand Counted'; 'partial returns available at 11:30 ... a total of 20,633 votes in 140 scattering precincts out of 356' (DA contest, 11,027 + 9,606 = 20,633 checks) - a clocked midnight partial, dimmed as a contest sum at 140 of 356 precincts; the '65,000 CITIZENS' figure is a projection, excluded; denominator from the day-2 complete unofficial count (companion row); URL https://cdnc.ucr.edu/?a=d&d=SFC19111108.2.2 ; shot mirror/cdnc/SFC19111108/SFC19111108.2.2.png; provenance agents/cdnc_1911_1922.md |
+
+---
+
 ### General Election
 
 **ID:** `1910-11-08`
@@ -4582,6 +4694,86 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Special Bond Election (Geary resubmission)
+
+**ID:** `1909-12-30`
+
+**Certified final:** 43,081
+
+**Source:** SF Call 1909-12-31 complete unofficial count (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1909-12-31 | 1 |  | 43,081 | 100.0% | cdnc-ocr — SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1909-12-31 p1 'At six o'clock the polls closed and the count began... The total count showed 43,081 votes'; 'The vote of 31,185 to 11,694, by which the bonds carried'; 'Of the total of 43,081 votes cast 28,721 were necessary... the majority over the required two-thirds was 2,464' - all arithmetic reconciles exactly and the district table Total column sums to 43,081 across 18 districts; complete overnight count, undimmed; URL https://cdnc.ucr.edu/?a=d&d=SFC19091231.2.2 ; shots mirror/cdnc/SFC19091231/shot_table_2.2.1.png, shot_article_2.2.png; provenance agents/cdnc_1908_1909.md |
+
+---
+
+### General Municipal Election (McCarthy mayoral)
+
+**ID:** `1909-11-02`
+
+**Certified final:** 64,931
+
+**Source:** SF Call 1909-11-04 complete unofficial count (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1909-11-03 | 1 |  | 64,931 | 100.0% | cdnc-ocr — SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1909-11-04: 'the returns were received at 8 o'clock from the last precinct'; 'Out of a total vote of 64,931' with McCarthy 29,437 (one OCR digit flagged), Leland 19,602, Crocker 13,717, every citywide office <= 64,931 - a complete unofficial count reached 8 PM day+1; election night itself was qualitative only ('On the face of the incomplete returns available at midnight, McCarthy won by an indicated plurality of 10,000' - projection class, excluded), so no night point exists; URL https://cdnc.ucr.edu/?a=d&d=SFC19091104.2.18 ; shots mirror/cdnc/SFC19091103/, SFC19091104/; provenance agents/cdnc_1908_1909.md |
+
+---
+
+### Special Bond Election (Geary Street railroad)
+
+**ID:** `1909-06-24`
+
+**Certified final:** 22,258
+
+**Source:** SF Call 1909-06-25 complete unofficial count (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1909-06-25 | 1 |  | 22,258 | 100.0% | cdnc-ocr — SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1909-06-25 'BY just 436 votes the Geary street railroad bonds failed... A total of 22,258 votes were cast -- 14,403 for the bonds, 7,805 against' - the against digit is OCR-conflicted (7,805 vs 7,855) but the total is double-locked: two-thirds of 22,258 is 14,839 and 14,839 minus 14,403 = 436 exactly as printed, and 14,403 + 7,855 = 22,258 exactly; complete overnight count, total-vote statement, undimmed; THIS ELECTION WAS ABSENT FROM THE MASTER INDEX until this recovery; URL https://cdnc.ucr.edu/?a=d&d=SFC19090625.2.15 ; shot mirror/cdnc/SFC19090625/shot_geary_2.15.png; provenance agents/cdnc_1908_1909.md |
+
+---
+
+### Special Bond Election (9 propositions)
+
+**ID:** `1909-06-22`
+
+**Certified final:** 24,028
+
+**Source:** Derived from SF Call 1909-06-25 arithmetic (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1909-06-25 | 3 |  | 24,028 | 100.0% | cdnc-ocr — SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08): the 9-proposition $11,005,000 bond special (all lost except Polytechnic; the master index had mislabeled it a primary - no primary occurred, the direct primary law being in litigation per the same issue). Night state: 'The whole vote cast approximated 22,000' (approximation class, excluded) and the by-district tables print blank Totals rows (count incomplete at press). Final derived day+3: the June 25 issue says the Geary vote 'was 1,770 less than that cast Tuesday', implying 22,258 + 1,770 = 24,028; URLs https://cdnc.ucr.edu/?a=d&d=SFC19090623.2.16 (tables .2.22) and SFC19090625 ; shots mirror/cdnc/SFC19090623/; provenance agents/cdnc_1908_1909.md |
+
+---
+
+### Special Bond Election (Hetch Hetchy)
+
+**ID:** `1908-11-12`
+
+**Certified final:** 41,011
+
+**Source:** SF Call 1908-11-13 complete unofficial count (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1908-11-13 | 1 |  | 41,011 | 100.0% | cdnc-ocr — SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1908-11-13 p2 'Returns on Bond Election', 18-district table totals: Prop 1 Yes 34,950 / No 5,708; Prop 2 34,681 / 5,647; 'Total vote cast, 41,011'; corroborated p6 editorial 'The total vote cast was 41,000 -- two-thirds as many as were polled at the presidential election on November 3' (that general certified 41,137, consistent); complete overnight count, total-vote statement, undimmed; URL https://cdnc.ucr.edu/?a=d&d=SFC19081113.2.17 ; shot mirror/cdnc/SFC19081113/shot_returns_2.17.png; provenance agents/cdnc_1908_1909.md |
+
+---
+
 ### Presidential General Election
 
 **ID:** `1908-11-03`
@@ -4595,6 +4787,22 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1908-11-04 | 1 |  | 36,450 | 60.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1908-11-04 PRES SF sum=36450, 300/300 precincts, complete; scan sweep_19081103_issue19081104_p5_s1; conf=low; image-read:Taft~20816+Bryan~15634=36450;minor-parties-not-readable-from-crop;300-precincts=all-SF;39816-is-1904-comparison-col &#124; DENOMINATOR CORRECTED: was DOE 41,137 (appears low); the night box's '300/300 complete' is inconsistent with certified President 60,124, so the night count was PARTIAL not complete; night share recomputed vs SOV (was mislabeled 88.6%). |
+
+---
+
+### Special Bond Election
+
+**ID:** `1908-05-11`
+
+**Certified final:** 23,550
+
+**Source:** SF Call 1908-05-12 complete unofficial count (news-derived final; no official certified on file)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1908-05-12 | 1 |  | 23,550 | 100.0% | cdnc-ocr — SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1908-05-12 p1 'CITIZEN'S APPROVAL TEN TO ONE': 'Out of a total vote of 23,550 the auxiliary water system led with 21,488... A two-thirds vote, or 15,700, was required' and 'Yesterday's vote of 23,550 was based on a registration of 79,000' - complete overnight count in the E+1 morning paper, total-vote statement, undimmed; per-prop For/Against printed for all six props, max sum 23,123 <= 23,550 consistent; no official certified exists (DOE table skips specials), certified set to the complete unofficial count per the news-derived-final convention; URL https://cdnc.ucr.edu/?a=d&d=SFC19080512.2.3 ; shots mirror/cdnc/SFC19080512/shot_article_2.3.png, shot_recap_2.10.3.png; full provenance scratchpad agents/cdnc_1908_1909.md |
 
 ---
 
@@ -5058,6 +5266,22 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### General Election (Supt. Public Instruction)
+
+**ID:** `1875-10-20`
+
+**Certified final:** 17,044
+
+**Source:** Daily Alta 1875-10-21 printed Total Vote 17,044 (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1875-10-21 | 1 |  | 16,635 | 97.6% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1875-10-21 'A GRAND RESULT': Carr 9,166 + Fitzgerald 7,469 = 16,635 (majority 1,697 checks), 'Total Vote 17,044' as denominator; complete overnight count, dimmed as a contest sum; URL https://cdnc.ucr.edu/?a=d&d=DAC18751021.2.21 ; shot mirror/cdnc/DAC18751021/shot_2.21.png; provenance agents/cdnc_1867_1877.md |
+
+---
+
 ### Gubernatorial General Election
 
 **ID:** `1875-09-01`
@@ -5076,6 +5300,38 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ### Presidential General Election
 
+**ID:** `1872-11-05`
+
+**Certified final:** 23,150
+
+**Source:** CA SoS Statement Nov 5 1872 band 22,996-23,150 (data/pre1892_certified.md, upper bound)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1872-11-06 | 1 |  | 22,974 | 99.2% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1872-11-06 'VOTE OF SAN FRANCISCO--COMPLETE': Grant 11,769 + Greeley 11,182 + O'Conor 23 = 22,974 counted overnight; Clayton 11,942 vs Piper 10,888 (majority 1,054 checks); Grant majority 587 checks; dimmed as a contest sum; certified band on file 22,996-23,150 (data/pre1892_certified.md), upper bound used as the conservative denominator; the paper's 'total polled 23,048' is poll-list class, logged not ingested; URL https://cdnc.ucr.edu/?a=d&d=DAC18721106.2.5 ; shot mirror/cdnc/DAC18721106/shot_2.5_vote_complete.png; provenance agents/cdnc_1867_1877.md |
+
+---
+
+### General Election (Supt. Public Instruction)
+
+**ID:** `1871-10-18`
+
+**Certified final:** 16,175
+
+**Source:** Daily Alta 1871-10-19 polled total 16,175 (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1871-10-19 | 1 |  | 16,133 | 99.7% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1871-10-19: 'At three o'clock this morning the returns of all the Wards were completed' - an explicit 3 AM completion statement; Bolander 10,510 + Fitzgerald 5,623 = 16,133 (Bolander majority 4,887 checks; the Fitzgerald digit is flagged for operator hand-read); dimmed as a contest sum; denominator: the paper's polled total 16,175; URL https://cdnc.ucr.edu/?a=d&d=DAC18711019.2.14 ; shot mirror/cdnc/DAC18711019/; provenance agents/cdnc_1867_1877.md |
+
+---
+
+### Presidential General Election
+
 **ID:** `1868-11-03`
 
 **Certified final:** 25,765
@@ -5087,6 +5343,166 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1868-11-04 | 1 |  | 25,655 | 99.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Daily Alta California (NewsBank image scan via SFPL), 1868-11-04 p3 'City and County Election Returns' — COMPLETE ward×precinct canvass; President Grant(Union) 12,171 + Seymour(Dem) 13,484 = 25,655 (paper majority col 1,313 = 13,484-12,171). Counted overnight. scan zg_18681103_issue18681104_p3; conf=high |
+
+---
+
+### General Election (Supt. Public Instruction)
+
+**ID:** `1867-10-16`
+
+**Certified final:** 14,071
+
+**Source:** Daily Alta 1867-10-17 editorial total 14,071 (news-derived final; recap variant 13,971 logged)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1867-10-17 | 1 |  | 13,971 | 99.3% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1867-10-17 printed recap 'Total vote... Currey and Sprague together, 13,971' (sums exactly); the Supt contest sums 13,789 (Swett 6,361 + Fitzgerald 7,428); the p2 editorial's 14,071 total is used as the conservative denominator (likely 14,061 = certified Gov 17,294 minus 3,233 per the same arithmetic; conflict disclosed, operator read invited); dimmed as a contest sum; URL https://cdnc.ucr.edu/?a=d&d=DAC18671017.2.4 ; shot mirror/cdnc/DAC18671017/shot_2.4.png; provenance agents/cdnc_1867_1877.md |
+
+---
+
+### General Election (Legislature)
+
+**ID:** `1865-09-06`
+
+**Certified final:** 13,354
+
+**Source:** Daily Alta 1865-09-07 printed citywide total (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1865-09-07 | 1 |  | 13,354 | 100.0% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1865-09-07: printed citywide total 13,354, cross-checked exactly by the Sept 8 arithmetic article (21,024 - 13,354 = 7,670 'less than the Presidential'); the Legislature-only ballot is all multi-seat contests so no usable single-contest night sum exists (2:30 AM partial straight-ticket states only); DATE CORRECTION: this election was held Wednesday Sept 6, not Sept 5 as the master index had it; the 13,354 is a poll-list total (ballots polled, not votes counted), deliberately stamped outside the 06:00 night cutoff so it records a final, not a night count; URL https://cdnc.ucr.edu/?a=d&d=DAC18650907.2.5 ; shots mirror/cdnc/DAC18650907/; provenance agents/cdnc_1859_1865.md |
+
+---
+
+### Municipal Election (Mayor Coon re-elected)
+
+**ID:** `1865-05-16`
+
+**Certified final:** 14,196
+
+**Source:** Daily Alta Sept 1865 retrospective citywide ballots 14,196 (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1865-05-19 | 3 |  | 13,781 | 97.1% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08): day+3 complete table (1865-05-19): Coon 6,980 + Rowell 6,801 = 13,781, majority 179 exact; citywide ballots 14,196 per the Sept 1865 Alta retrospective (which also set the trap 'Coon had 8,980', an OCR misread of 6,980, resolved); URL https://cdnc.ucr.edu/?a=d&d=DAC18650519.2.3 ; shots mirror/cdnc/DAC18650519/; provenance agents/cdnc_1859_1865.md |
+
+---
+
+### Presidential General Election
+
+**ID:** `1864-11-08`
+
+**Certified final:** 21,024
+
+**Source:** Daily Alta 1864-11-09 complete unofficial count (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1864-11-09 | 1 |  | 21,024 | 100.0% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1864-11-09 p2: 'The total vote was 21,024. Of these the Unionists polled 12,667, and the McClellanites 8,357. The majority ... is therefore 4,310' - sum and margin check exactly (the OCR's 21,021 corrected against the page image, which reads 21,024); complete 12-district table on p1; complete overnight count, total-vote statement, undimmed; URL https://cdnc.ucr.edu/?a=d&d=DAC18641109.2.12 ; shot mirror/cdnc/DAC18641109/DAC18641109.2.12_total_vote_21021.png; provenance agents/cdnc_1859_1865.md |
+
+---
+
+### Municipal Election (Mayor Coon)
+
+**ID:** `1863-05-19`
+
+**Certified final:** 11,417
+
+**Source:** Daily Alta total-cast statement 11,417 (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1863-05-21 | 2 |  | 11,147 | 97.6% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08): election night had only midnight count states; the total cast, 11,417, self-checks exactly (1862's 11,383 plus 'thirty-four votes more'); day+2 complete table (1863-05-21): Coon 6,513 + Holland 4,634 = 11,147, majority 1,879 (the OCR dropped the leading 1; image, district sums and sibling-row majority checks all confirm); URL https://cdnc.ucr.edu/?a=d&d=DAC18630521.2.7 ; shots mirror/cdnc/DAC18630521/; provenance agents/cdnc_1859_1865.md |
+
+---
+
+### General Election (Supt. Public Instruction)
+
+**ID:** `1862-09-03`
+
+**Certified final:** 8,957
+
+**Source:** Daily Alta 1862-09-06 contest sum (news-derived final floor; no ballots total printed)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1862-09-06 | 3 |  | 8,957 | 100.0% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08): the day-after paper says 'impossible to give the returns in tabular form ... at midnight, canvassers ... had not finished' (no night point); day+3 (1862-09-06, read from image crop): Swett 6,636 + Stevenson 2,062 + Fitzgerald 259 = 8,957, the single-seat statewide Superintendent contest as a citywide floor; no printed ballots-cast total was found for this election; URL https://cdnc.ucr.edu/?a=d&d=DAC18620906.2.2 ; shots mirror/cdnc/DAC18620906/; provenance agents/cdnc_1859_1865.md |
+
+---
+
+### Gubernatorial General Election
+
+**ID:** `1861-09-04`
+
+**Certified final:** 15,294
+
+**Source:** Daily Alta 1861-09-05 aggregate-vote statement 15,294 (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1861-09-05 | 1 |  | 15,053 | 98.4% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1861-09-05: 'Latest -- 2 1/2 A.M. GUBERNATORIAL VOTE OF THE CITY. Stanford 10,700 / Conness 3,121 / McConnell 1,232' = 15,053 with 'the aggregate vote is 15,294' as denominator - a clocked 2:30 AM count at 98.4 percent, dimmed as a contest sum; the day+3 complete table (Stanford 10,735 / Conness 3,177 / McConnell 1,242, majority 7,558 exact) confirms the overnight count was 99.3 percent of the final contest sum; URLs https://cdnc.ucr.edu/?a=d&d=DAC18610905.2.2 and DAC18610907.2.4 ; shots mirror/cdnc/DAC18610905/; provenance agents/cdnc_1859_1865.md |
+
+---
+
+### Municipal Election (Mayor Teschemacher)
+
+**ID:** `1861-05-21`
+
+**Certified final:** 11,507
+
+**Source:** Daily Alta 1861-05-23 complete total (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1861-05-23 | 2 |  | 11,507 | 100.0% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08): midnight states included complete 5th/11th/12th districts but no citywide sum; day+2 (1861-05-23) 'VOTE OF SAN FRANCISCO COMPLETE': total 11,507; Teschemacher 6,247, majority 1,213 implying Fay 5,034 (OCR read 5,029; the digit is flagged for operator hand-read); URL https://cdnc.ucr.edu/?a=d&d=DAC18610523.2.3 ; shots mirror/cdnc/DAC18610523/; provenance agents/cdnc_1859_1865.md |
+
+---
+
+### Presidential General Election
+
+**ID:** `1860-11-06`
+
+**Certified final:** 14,415
+
+**Source:** Daily Alta 1860-11-07 votes-cast statement 14,415 (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1860-11-07 | 1 |  | 9,224 | 64.0% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1860-11-07 'Returns at Midnight': Lincoln 4,434 / Douglas 2,562 / Breckinridge 1,666 / Bell 562 = 9,224 counted; 'As there were 14,415 votes cast, 5,191 remain to be counted' - both checks exact (9,224 + 5,191 = 14,415), a true clocked midnight count state locked by the remaining statement, undimmed; day+2 table sums 13,593 (mixed state) and day+3 near-complete flagged for operator read; URL https://cdnc.ucr.edu/?a=d&d=DAC18601107.2.3 ; shots mirror/cdnc/DAC18601107/; provenance agents/cdnc_1859_1865.md |
+
+---
+
+### Gubernatorial + Municipal Election
+
+**ID:** `1859-09-07`
+
+**Certified final:** 10,889
+
+**Source:** Daily Alta 1859-09-08 polled statement 10,889 (news-derived final)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1859-09-11 | 4 |  | 10,750 | 98.7% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1859-09-08: 'The whole number of votes polled in the city was 10,889' (the district table closes exactly once the 3d District OCR 1,635 is corrected to 1,035, confirmed by prose) - a poll-list denominator known E+1; election night had only midnight per-district straight-ticket counts; day+4 complete table (1859-09-11): Governor Latham 4,738 + Stanford 3,069 + Currey 2,943 = 10,750 (Currey's district sum exact); the President-of-Supervisors (mayoral) digits are flagged for operator hand-read and not ingested; URLs https://cdnc.ucr.edu/?a=d&d=DAC18590908.2.17 and DAC18590911.2.11 ; shots mirror/cdnc/DAC18590908/, DAC18590911/; provenance agents/cdnc_1859_1865.md |
 
 ---
 

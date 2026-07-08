@@ -11,26 +11,26 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1857-09-04,1857,municipal,Municipal,City/county offices,no,,approx,Municipal Reports/CDNC/Wikipedia
 1858-07-01,1858,municipal,Municipal,Annual city offices — exact date unknown,no,,date-unknown,Municipal Reports/CDNC/Wikipedia
 1858-09-01,1858,statewide,General,Legislature + Controller,no,,exact,Blue Book/SOV/Wikipedia
-1859-09-07,1859,both,Gubernatorial + Municipal,Governor; Mayor (Teschemacher) + city offices,no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
-1860-11-06,1860,statewide,Presidential,President,no,,exact,Blue Book/SOV/Wikipedia
-1861-05-21,1861,municipal,Municipal,Mayor (Teschemacher re-elected),no,,exact,Municipal Reports/CDNC/Wikipedia
-1861-09-04,1861,statewide,Gubernatorial,Governor,no,,exact,Blue Book/SOV/Wikipedia
-1862-09-03,1862,statewide,General,Supt. Public Instruction + Legislature,no,,exact,Blue Book/SOV/Wikipedia
-1863-05-19,1863,municipal,Municipal,Mayor (Coon),no,,exact,Municipal Reports/CDNC/Wikipedia
+1859-09-07,1859,both,Gubernatorial + Municipal,Governor; Mayor (Teschemacher) + city offices,final-only,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1860-11-06,1860,statewide,Presidential,President,night,64.0,exact,Blue Book/SOV/Wikipedia
+1861-05-21,1861,municipal,Municipal,Mayor (Teschemacher re-elected),final-only,,exact,Municipal Reports/CDNC/Wikipedia
+1861-09-04,1861,statewide,Gubernatorial,Governor,night,98.4,exact,Blue Book/SOV/Wikipedia
+1862-09-03,1862,statewide,General,Supt. Public Instruction + Legislature,final-only,,exact,Blue Book/SOV/Wikipedia
+1863-05-19,1863,municipal,Municipal,Mayor (Coon),final-only,,exact,Municipal Reports/CDNC/Wikipedia
 1863-09-02,1863,statewide,Gubernatorial,Governor,no,,exact,Blue Book/SOV/Wikipedia
-1864-11-08,1864,statewide,Presidential,President + Congress,no,,exact,Blue Book/SOV/Wikipedia
-1865-05-16,1865,municipal,Municipal,Mayor (Coon re-elected),no,,exact,Municipal Reports/CDNC/Wikipedia
-1865-09-05,1865,statewide,General,Legislature,no,,exact,Blue Book/SOV/Wikipedia
+1864-11-08,1864,statewide,Presidential,President + Congress,night,100.0,exact,Blue Book/SOV/Wikipedia
+1865-05-16,1865,municipal,Municipal,Mayor (Coon re-elected),final-only,,exact,Municipal Reports/CDNC/Wikipedia
+1865-09-06,1865,statewide,General,Legislature,final-only,,exact,Blue Book/SOV/Wikipedia
 1867-09-04,1867,both,Gubernatorial + Municipal,Governor; Mayor (McCoppin),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
-1867-10-16,1867,statewide,General,Supt. Public Instruction,no,,exact,Blue Book/SOV/Wikipedia
+1867-10-16,1867,statewide,General,Supt. Public Instruction,night,99.3,exact,Blue Book/SOV/Wikipedia
 1868-11-03,1868,statewide,Presidential,President + Congress,night,99.6,exact,Blue Book/SOV/Wikipedia
 1869-09-01,1869,municipal,Municipal,Mayor (Selby),no,,exact,Municipal Reports/CDNC/Wikipedia
 1871-09-06,1871,both,Gubernatorial + Municipal,Governor; Mayor (Alvord),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
-1871-10-18,1871,statewide,General,Supt. Public Instruction,no,,exact,Blue Book/SOV/Wikipedia
-1872-11-05,1872,statewide,Presidential,President + Congress,no,,exact,Blue Book/SOV/Wikipedia
+1871-10-18,1871,statewide,General,Supt. Public Instruction,night,99.7,exact,Blue Book/SOV/Wikipedia
+1872-11-05,1872,statewide,Presidential,President + Congress,night,99.2,exact,Blue Book/SOV/Wikipedia
 1873-09-03,1873,both,General + Municipal,Legislature; Mayor (Otis),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
 1875-09-01,1875,both,Gubernatorial + Municipal,Governor; Mayor (Bryant),night,100.0,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
-1875-10-20,1875,statewide,General,Supt. Public Instruction,no,,exact,Blue Book/SOV/Wikipedia
+1875-10-20,1875,statewide,General,Supt. Public Instruction,night,97.6,exact,Blue Book/SOV/Wikipedia
 1876-11-07,1876,statewide,Presidential,President + Congress,night,100.0,exact,Blue Book/SOV/Wikipedia
 1877-09-05,1877,both,General + Municipal,Legislature; Mayor (Bryant re-elected),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
 1878-06-19,1878,statewide,Special,Delegates to the 1878-79 state Constitutional Convention,final-only,,exact,Blue Book/SOV/Wikipedia
@@ -69,30 +69,32 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1905-11-07,1905,municipal,Municipal,"Mayor (Schmitz, 3rd) + Supervisors",night,100.0,exact,Municipal Reports/CDNC/Wikipedia
 1906-11-06,1906,statewide,Gubernatorial,Governor + state officers,night,96.7,exact,Blue Book/SOV/Wikipedia
 1907-11-05,1907,municipal,Municipal,Mayor (Taylor) — post-graft-trial,night,22.3,exact,Municipal Reports/CDNC/Wikipedia; SFPL/DataSF/DOE
-1908-05-11,1908,city,Special,,no,,exact,SFPL/DataSF/DOE
+1908-05-11,1908,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
 1908-11-03,1908,city,General,,night,60.6,exact,SFPL/DataSF/DOE
-1908-11-12,1908,city,Special,,no,,exact,SFPL/DataSF/DOE
-1909-06-22,1909,city,Primary,,no,,exact,SFPL/DataSF/DOE
-1909-11-02,1909,city,General,,no,,exact,SFPL/DataSF/DOE
-1909-12-30,1909,city,Special,,no,,exact,SFPL/DataSF/DOE
+1908-11-12,1908,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1909-06-22,1909,city,Special,,final-only,,exact,SFPL/DataSF/DOE
+1909-06-24,1909,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
+1909-11-02,1909,city,General,,final-only,,exact,SFPL/DataSF/DOE
+1909-12-30,1909,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
 1910-11-08,1910,city,General,,night,17.8,exact,SFPL/DataSF/DOE
-1911-11-07,1911,city,Municipal,,no,,exact,SFPL/DataSF/DOE
-1912-03-28,1912,city,Special,,no,,exact,SFPL/DataSF/DOE
+1911-11-07,1911,city,Municipal,,night,30.0,exact,SFPL/DataSF/DOE
+1912-03-28,1912,city,Special,,night,98.5,exact,SFPL/DataSF/DOE
+1912-03-29,1912,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
 1912-11-05,1912,city,General,,night,85.0,exact,SFPL/DataSF/DOE
 1912-12-10,1912,city,Special,,night,27.8,exact,SFPL/DataSF/DOE
-1913-04-22,1913,city,Special,,no,,exact,SFPL/DataSF/DOE
+1913-04-22,1913,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
 1913-08-26,1913,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
 1914-11-03,1914,city,General,,night,4.2,exact,SFPL/DataSF/DOE
-1915-03-16,1915,city,Special,,no,,exact,SFPL/DataSF/DOE
+1915-03-16,1915,city,Special,,final-only,,exact,SFPL/DataSF/DOE
 1915-04-20,1915,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
 1916-11-07,1916,city,General,,night,3.0,exact,SFPL/DataSF/DOE
 1917-10-30,1917,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
 1917-11-06,1917,city,Municipal,,night,4.6,exact,SFPL/DataSF/DOE
 1918-11-05,1918,city,General,,night,0.0,exact,SFPL/DataSF/DOE
 1920-11-02,1920,city,General,,night,66.2,exact,SFPL/DataSF/DOE
-1921-03-08,1921,city,Special,,no,,exact,SFPL/DataSF/DOE
+1921-03-08,1921,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
 1922-11-07,1922,city,General,,night,26.5,exact,SFPL/DataSF/DOE
-1922-11-21,1922,city,Special,,no,,exact,SFPL/DataSF/DOE
+1922-11-21,1922,city,Special,,final-only,,exact,SFPL/DataSF/DOE
 1923-11-06,1923,city,Municipal,,night,74.1,exact,SFPL/DataSF/DOE
 1924-10-07,1924,city,Special,,night,100.0,exact,SFPL/DataSF/DOE
 1924-11-04,1924,city,General,,night,35.6,exact,SFPL/DataSF/DOE

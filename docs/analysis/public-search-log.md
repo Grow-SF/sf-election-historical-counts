@@ -81,6 +81,13 @@ listed on the missing-records page awaiting a second source.
 
 ## Why ~30 elections still lack a true election-night count
 
+*[Superseded, June 2026 snapshot preserved as written. The July 2026
+recovery campaign disproved much of this section: group 2's day-2-only
+elections and group 3's RCV elections have all since yielded night
+counts, and group 1 has shrunk. See the dated update and correction
+entries appended below for the current state; the live tally lives in
+the README and docs/missing.md.]*
+
 The remaining diamond-only elections fall into three groups, each
 exhausted for the digital archives:
 
@@ -922,3 +929,35 @@ ELECTION SPECIAL and ELECTION EXTRA banners mark late-closing
 overnight runs; star counts in the folio order the editions within
 the night. The 1984 and 1982 adjudications together re-open any past
 verdict that discarded a complete E+1 table for being 'a special'.
+**Update (2026-07-08, the CDNC agent batch lands: sixteen night
+counts at once, 216 to 232).** With the operator's authorization the
+four parallel CDNC agents' verified findings were ingested in one
+batch, the largest single-day gain of the campaign. Night counts:
+1860-11 (a true clocked midnight state, 9,224 of 14,415 cast, locked
+by 'As there were 14,415 votes cast, 5,191 remain to be counted');
+1861-09 (2:30 AM, 98.4 percent); 1864-11 (complete overnight, 21,024
+margin-locked); 1867-10, 1871-10 ('At three o'clock this morning the
+returns of all the Wards were completed'), 1872-11, 1875-10 (the
+hand-count era finishing short ballots overnight, all dimmed contest
+sums); 1908-05, 1908-11, 1909-12, 1912-03-28, 1913-04 (conservative
+62,691 over the discrepant 62,934 headline), and 1921-03 (complete
+by 9:30 PM, arithmetic-locked 74,079); the midnight partial 1911-11
+(20,633 at 140 of 356, dimmed); and two elections no index knew
+existed, now recovered complete: 1909-06-24 (Geary bonds, 22,258,
+double-locked by the two-thirds arithmetic) and 1912-03-29 (the
+invalidated initiative special, 31,968). Finals without night counts:
+1859-09, 1861-05, 1862-09, 1863-05, 1865-05, 1865-09 (poll-list
+total, deliberately stamped outside the night cutoff), 1909-06-22
+(the master's 'Primary' label corrected to Special: no primary
+occurred, the direct primary law being in litigation), 1909-11,
+1915-03, 1922-11. Index changes: the universe grows 279 to 281, and
+the 1865 general moves to its true date, Wednesday Sept 6. Denominator
+convention: where no official certified exists (the DOE table skips
+specials and starts at 1899), the complete unofficial count or the
+paper's printed ballots-cast total serves as the news-derived final,
+per the 1933 precedent. Still held for operator hand-reads: 1877-09
+(soft digits at 2:45 AM), 1873-09 (approximations only), 1869-09
+(OCR-poor digits), 1863-09 (a three-way total conflict), and the
+flagged single digits listed in the verification queue. Full
+provenance for every figure: the agent salvage files
+(agents/cdnc_*.md) and mirror/cdnc/ screenshots.

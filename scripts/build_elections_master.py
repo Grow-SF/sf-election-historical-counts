@@ -23,8 +23,15 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 # --- P1: 1907–2025 (date, kind) -------------------------------------------------
 P1 = [
  ("1907-11-05","Municipal"),("1908-05-11","Special"),("1908-11-03","General"),
- ("1908-11-12","Special"),("1909-06-22","Primary"),("1909-11-02","General"),
+ ("1908-11-12","Special"),
+ # 1909-06-22 was a 9-proposition bond special, not a primary (the direct
+ # primary law was in litigation; CDNC recovery 2026-07-08), and a second
+ # Geary bond special followed two days later, absent from all prior indexes
+ ("1909-06-22","Special"),("1909-06-24","Special"),("1909-11-02","General"),
  ("1909-12-30","Special"),("1911-11-07","Municipal"),("1912-03-28","Special"),
+ # 1912-03-29: initiative-ordinance special held the day after the Civic
+ # Center bond special (invalidated pre-election; 31,968 cast per the Call)
+ ("1912-03-29","Special"),
  ("1912-11-05","General"),("1912-12-10","Special"),("1913-04-22","Special"),
  ("1913-08-26","Special"),("1914-11-03","General"),("1915-03-16","Special"),
  ("1915-04-20","Special"),("1916-11-07","General"),("1917-10-30","Special"),
@@ -109,7 +116,9 @@ P2A = [
  ("1859-09-07","Gubernatorial","Governor"),("1860-11-06","Presidential","President"),
  ("1861-09-04","Gubernatorial","Governor"),("1862-09-03","General","Supt. Public Instruction + Legislature"),
  ("1863-09-02","Gubernatorial","Governor"),("1864-11-08","Presidential","President + Congress"),
- ("1865-09-05","General","Legislature"),("1867-09-04","Gubernatorial","Governor"),
+ # 1865 general was held Wednesday Sept 6, not Sept 5 (Alta masthead check,
+ # CDNC recovery 2026-07-08)
+ ("1865-09-06","General","Legislature"),("1867-09-04","Gubernatorial","Governor"),
  ("1867-10-16","General","Supt. Public Instruction"),("1868-11-03","Presidential","President + Congress"),
  ("1871-09-06","Gubernatorial","Governor"),("1871-10-18","General","Supt. Public Instruction"),
  ("1872-11-05","Presidential","President + Congress"),("1873-09-03","General","Legislature"),
