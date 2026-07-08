@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**52 San Francisco elections still lack an election-night ballot count.** For 46 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 6 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**52 San Francisco elections still lack an election-night ballot count.** For 47 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 5 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -35,7 +35,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1866-09-05 | 1866 | municipal | Municipal | yes | City offices — Municipal Reports official total 13,371; absent from all prior indexes (2026-07-08) |
 | 1867-09-04 | 1867 | both | Gubernatorial + Municipal | yes | Governor; Mayor (McCoppin) |
 | 1870-09-07 | 1870 | municipal | General | yes | State general — Municipal Reports official total 19,944; absent from all prior indexes (2026-07-08) |
-| 1871-09-06 | 1871 | both | Gubernatorial + Municipal | no | Governor; Mayor (Alvord) |
+| 1871-09-06 | 1871 | both | Gubernatorial + Municipal | yes | Governor; Mayor (Alvord) |
 | 1873-10-15 | 1873 | municipal | Special | yes | Judicial election — Municipal Reports official total 15,594; absent from all prior indexes (2026-07-08) |
 | 1877-10-17 | 1877 | municipal | Special | yes | Judicial election — official canvass Res. 11,450 total 22,942; absent from all prior indexes (2026-07-08) |
 | 1878-06-19 | 1878 | statewide | Special | yes | Delegates to the 1878-79 state Constitutional Convention |

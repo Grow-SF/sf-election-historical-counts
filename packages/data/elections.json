@@ -374,7 +374,7 @@
   "name": "General Election (Congress-at-large + Legislature)",
   "kind": "General",
   "year": 1854,
-  "final": 5017,
+  "final": 9949,
   "registered": null,
   "source": "archival",
   "provisional": false,
@@ -384,7 +384,7 @@
   "vbmShare": null,
   "pts": [
    [
-    29.67,
+    60.67,
     100.0,
     null,
     null
@@ -392,51 +392,51 @@
   ],
   "thresholds": {
    "50": {
-    "days": 30,
+    "days": 61,
     "bound": true
    },
    "55": {
-    "days": 30,
+    "days": 61,
     "bound": true
    },
    "60": {
-    "days": 30,
+    "days": 61,
     "bound": true
    },
    "65": {
-    "days": 30,
+    "days": 61,
     "bound": true
    },
    "70": {
-    "days": 30,
+    "days": 61,
     "bound": true
    },
    "75": {
-    "days": 30,
+    "days": 61,
     "bound": true
    },
    "80": {
-    "days": 30,
+    "days": 61,
     "bound": true
    },
    "85": {
-    "days": 30,
+    "days": 61,
     "bound": true
    },
    "90": {
-    "days": 30,
+    "days": 61,
     "bound": true
    },
    "95": {
-    "days": 30,
+    "days": 61,
     "bound": true
    },
    "98": {
-    "days": 30,
+    "days": 61,
     "bound": true
    },
    "99": {
-    "days": 30,
+    "days": 61,
     "bound": true
    }
   },
@@ -1688,7 +1688,7 @@
   "name": "General Election (Supt. Public Instruction)",
   "kind": "General",
   "year": 1867,
-  "final": 14071,
+  "final": 13871,
   "registered": null,
   "source": "archival",
   "provisional": false,
@@ -1862,6 +1862,80 @@
   "kind": "General",
   "year": 1870,
   "final": 19944,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    29.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 30,
+    "bound": true
+   },
+   "55": {
+    "days": 30,
+    "bound": true
+   },
+   "60": {
+    "days": 30,
+    "bound": true
+   },
+   "65": {
+    "days": 30,
+    "bound": true
+   },
+   "70": {
+    "days": 30,
+    "bound": true
+   },
+   "75": {
+    "days": 30,
+    "bound": true
+   },
+   "80": {
+    "days": 30,
+    "bound": true
+   },
+   "85": {
+    "days": 30,
+    "bound": true
+   },
+   "90": {
+    "days": 30,
+    "bound": true
+   },
+   "95": {
+    "days": 30,
+    "bound": true
+   },
+   "98": {
+    "days": 30,
+    "bound": true
+   },
+   "99": {
+    "days": 30,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1871-09-06",
+  "name": "Gubernatorial + Municipal Election (Mayor Alvord)",
+  "kind": "Municipal",
+  "year": 1871,
+  "final": 25094,
   "registered": null,
   "source": "archival",
   "provisional": false,

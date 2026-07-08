@@ -26,7 +26,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1868-11-03,1868,statewide,Presidential,President + Congress,night,99.5,exact,Blue Book/SOV/Wikipedia
 1869-09-01,1869,municipal,Municipal,Mayor (Selby),night,21.3,exact,Municipal Reports/CDNC/Wikipedia
 1870-09-07,1870,municipal,General,"State general — Municipal Reports official total 19,944; absent from all prior indexes (2026-07-08)",final-only,,exact,Municipal Reports/CDNC/Wikipedia
-1871-09-06,1871,both,Gubernatorial + Municipal,Governor; Mayor (Alvord),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1871-09-06,1871,both,Gubernatorial + Municipal,Governor; Mayor (Alvord),final-only,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
 1871-10-18,1871,statewide,General,Supt. Public Instruction,night,99.7,exact,Blue Book/SOV/Wikipedia
 1872-11-05,1872,statewide,Presidential,President + Congress,night,99.8,exact,Blue Book/SOV/Wikipedia
 1873-09-03,1873,both,General + Municipal,Legislature; Mayor (Otis),night,9.1,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia

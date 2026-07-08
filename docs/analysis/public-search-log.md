@@ -1015,3 +1015,27 @@ hunt queued for the complete canvass. The zero-data bucket stands at
 six: 1871-09 (three official values await an operator pick) and the
 prewar NewsBank cluster (1928-08, 1929-11, 1931-02, 1940-05,
 1944-05).
+**Resolutions (2026-07-08, three operator rulings and a footing-error
+audit).** (1) 1871-09: the contemporaneous Municipal Reports total
+25,094 governs (operator ruling, same-year-record principle); the
+retrospective 25,015 and the state-side Governor figure 24,995 are
+logged; the election leaves the zero-data bucket as final-known. (2)
+1854: upgraded from the Benham floor to the certified record - the
+Secretary of State's own per-county canvass (J.W. Denver, Nov 6
+1854, printed in the Sacramento Daily Union) supplies the COMPLETE
+SF congressional row including the Broderick ticket the almanac
+dropped, corroborated cell-for-cell by the SF Board of Canvassers'
+table in the Alta; the single-seat Clerk of the Supreme Court race
+sums to 9,949, the new floor (~10,333 ballots derived; fraud-year
+spread to ~11.7k disclosed); the 1855 legislative journals print no
+1854 canvass (the Legislature only canvassed Governor returns) -
+dead end documented. (3) 1867-10: the 100-vote ladder
+(13,871/13,971/14,071) dissolved under the operator's ward-sum
+audit: the Alta mis-footed Currey's column by +200 (printed 6,257
+over wards summing 6,057; Sprague's 7,714 foots honestly), and both
+higher paper totals were artifacts of that one error; the corrected
+night sum 13,771 sits gate-clean beneath the official 13,871 at 99.3
+percent. METHOD LESSON for the era, now twice-proven (the 1863
+retrospective mis-citation, the 1867 footing error): never trust a
+printed total without summing its own column, and prefer the
+same-year official record to any retrospective summary.
