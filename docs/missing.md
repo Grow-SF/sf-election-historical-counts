@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**71 San Francisco elections still lack an election-night ballot count.** For 23 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**70 San Francisco elections still lack an election-night ballot count.** For 22 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 71 elections still missing a night count
+## The 70 elections still missing a night count
 
 | Date | Year | Level | Kind | Final count known? | Description |
 |------|------|-------|------|--------------------|-------------|
@@ -84,7 +84,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1994-11-08 | 1994 | city | General | yes |  |
 | 1998-06-02 | 1998 | city | Primary | yes |  |
 | 1999-11-02 | 1999 | city | Municipal | yes |  |
-| 2000-11-07 | 2000 | city | General | yes |  |
 
 ---
 
@@ -754,3 +753,19 @@ to January and should be avoided. Of the five post-2000 holdouts that
 began the evening judged Examiner-tapped, only November 2000 remains,
 and the same print-edition trick (the Nov 8 2000 paper's results
 tables) is queued for it.
+**Update (2026-07-07, November 2000 falls; the post-2000 era is
+complete).** The last holdout of the recent era went the same way as
+the others: the Nov 8 2000 Chronicle print edition, page 14, 'HOW SAN
+FRANCISCO VOTED', prints the county's night state at 599 of 647
+precincts reporting. The PRESIDENT block sums to 251,382 (Gore
+190,051, Bush 39,756, Nader 20,106, Browne 825, Buchanan 351, Hagelin
+163, Phillips 130): a 77.6 percent night floor, dimmed as a contest
+sum, corroborated by the same page's Senate field and the S.F.
+PROPOSITIONS block under the same precincts header. With this, every
+San Francisco election from 2000 onward carries a recovered
+election-night count. The era that the Department of Elections said
+had no data, that every web archive missed, and that two full
+Examiner passes could not complete, was finished in a single evening
+by the operator's page-image insight: the print editions were the
+mid-count snapshots all along, and NewsBank's image collection
+(1865-2017) preserved them.

@@ -11103,11 +11103,17 @@
   "registered": 486636,
   "source": "archival",
   "provisional": false,
-  "nReports": 5,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 6,
+  "nightPct": 77.6,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    77.6,
+    null,
+    null
+   ],
    [
     0.92,
     85.7,
@@ -11166,11 +11172,11 @@
    },
    "80": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 3,
@@ -11181,8 +11187,8 @@
     "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
   "id": "2000-12-12",

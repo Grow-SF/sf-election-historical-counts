@@ -4170,6 +4170,14 @@
    {
     "date": "2000-11-08",
     "days": 1,
+    "total": 251382,
+    "pct": 77.6,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle print edition via NewsBank page image (SFPL ezproxy), 2000-11-08 p14 'HOW SAN FRANCISCO VOTED' county table (operator-directed hunt, page image hand-read 2026-07-07): PRESIDENT block, '599 of 647 precincts reporting': Gore 190,051 (75.5) + Bush 39,756 (15.8) + Nader 20,106 (7.99) + Browne 825 + Buchanan 351 + Hagelin 163 + Phillips 130 = 251,382, the largest same-page contest sum and an undervote-limited citywide night floor at 92.6 percent of precincts; corroborated on the same page by U.S. Senate (Feinstein 174,156 + Campbell 36,860 + Benjamin 26,523 leading the field) and the S.F. PROPOSITIONS block under the same '599 of 647' header (largest measure sum: state Prop 38, 49,115 + 187,193 = 236,308); no hour printed, the 03:00 stamp is the dataset's morning-edition press-time convention, disclosed; flagged night_partial (contest sum, 48 precincts and the absentee pile out); monotonic under the existing Nov 8 18:00 floor 277,575; screenshots mirror/newsbank/scans/general_20001107_issue20001108_p14_*.png; reproduction: NewsBank image docref image/v2:142051F45F422A02@EANX-NB-1657C1D6FAA926B9@2451857-16575A2A2C8D5A25@13; read 2026-07-07"
+   },
+   {
+    "date": "2000-11-08",
+    "days": 1,
     "total": 277575,
     "pct": 85.7,
     "label": "SF Chronicle via NewsBank (SFPL)",

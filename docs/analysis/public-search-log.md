@@ -664,3 +664,19 @@ to January and should be avoided. Of the five post-2000 holdouts that
 began the evening judged Examiner-tapped, only November 2000 remains,
 and the same print-edition trick (the Nov 8 2000 paper's results
 tables) is queued for it.
+**Update (2026-07-07, November 2000 falls; the post-2000 era is
+complete).** The last holdout of the recent era went the same way as
+the others: the Nov 8 2000 Chronicle print edition, page 14, 'HOW SAN
+FRANCISCO VOTED', prints the county's night state at 599 of 647
+precincts reporting. The PRESIDENT block sums to 251,382 (Gore
+190,051, Bush 39,756, Nader 20,106, Browne 825, Buchanan 351, Hagelin
+163, Phillips 130): a 77.6 percent night floor, dimmed as a contest
+sum, corroborated by the same page's Senate field and the S.F.
+PROPOSITIONS block under the same precincts header. With this, every
+San Francisco election from 2000 onward carries a recovered
+election-night count. The era that the Department of Elections said
+had no data, that every web archive missed, and that two full
+Examiner passes could not complete, was finished in a single evening
+by the operator's page-image insight: the print editions were the
+mid-count snapshots all along, and NewsBank's image collection
+(1865-2017) preserved them.
