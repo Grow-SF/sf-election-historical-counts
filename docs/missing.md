@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**64 San Francisco elections still lack an election-night ballot count.** For 16 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**63 San Francisco elections still lack an election-night ballot count.** For 15 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 64 elections still missing a night count
+## The 63 elections still missing a night count
 
 | Date | Year | Level | Kind | Final count known? | Description |
 |------|------|-------|------|--------------------|-------------|
@@ -76,7 +76,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1944-11-07 | 1944 | city | General | yes |  |
 | 1945-11-06 | 1945 | city | Municipal | no |  |
 | 1972-06-06 | 1972 | city | Primary | yes |  |
-| 1982-11-02 | 1982 | city | General | yes |  |
 | 1994-11-08 | 1994 | city | General | yes |  |
 
 ---
@@ -953,3 +952,34 @@ recovered from the Nov 8-10 1945 papers or the Municipal Reports.
 Queued. Reproduction: NewsBank image-edition alltext search
 'precincts' (quoted) scoped to SF Chronicle 1945-11-07, hit page 1,
 'Election Returns' box, left of the fold.
+**Correction (2026-07-08, June 1984 IS a night count, the 215th).**
+The earlier note calling the June 6 1984 ELECTION SPECIAL a
+post-completion late run was overruled by the operator: the special
+is the Wednesday morning paper (press deadline early Wednesday
+morning), not a later-day extra, so its complete 708-of-708 table is
+election-night state, printed hours after the polls closed. The
+operator hand-read the propositions columns from the scan. The
+existing 155,192 floor (City Prop B, Police Night Pay, YES 81,436 +
+NO 73,756) re-stamps from day-2 to night at the disclosed 03:00
+convention, dimmed as a contest sum: 85.9 percent of the certified
+180,741. The earlier morning edition's box (Prop 24 at 67 percent)
+now reads as the early press run of the same night, the familiar
+edition sequence. November 1982's ELECTION EXTRA remains open for
+the same adjudication: if that extra is likewise a Wednesday-morning
+run, its '8,000 absentees remain' conversion (230,991, 96.7 percent)
+would re-stamp to night as well; the operator has the scan open.
+**Retry, still dry (2026-07-08, November 1994 second pass, the
+multi-paper vein).** Operator-requested retry of the 1994 night hunt
+through the ~90-paper NewsBank text sweep that filled the 1987, 1993
+and 1995 gaps. Queries scoped to 1994-11-09 and -11-10 across all
+sources: quoted '576 precincts' (three hits, all out-of-state noise),
+'county-by-county' + Feinstein (zero), 'precincts in San Francisco'
+(zero), 'San Francisco' + Huffington + precincts (statewide prose
+only; the Orange County Register's E+1 story confirms 'results were
+incomplete from the Democratic strongholds of Los Angeles and
+Feinstein's hometown of San Francisco', corroborating the crashed SF
+count), 'San Francisco' + registrar + ballots counted (statewide
+Senate arithmetic only). No paper printed an SF-specific counted
+figure for election night 1994 in the text archive. Untried veins
+that remain: the Oakland Tribune's image edition if NewsBank holds
+it for 1994, and broadcast archives.

@@ -901,3 +901,24 @@ Senate arithmetic only). No paper printed an SF-specific counted
 figure for election night 1994 in the text archive. Untried veins
 that remain: the Oakland Tribune's image edition if NewsBank holds
 it for 1994, and broadcast archives.
+**Correction (2026-07-08, November 1982 IS a night count, the 216th;
+what ELECTION EXTRA means).** The operator researched the Chronicle's
+edition mechanics and overruled the dead-end verdict: an ELECTION
+EXTRA is an ADDITIONAL OVERNIGHT PRESS RUN of the morning paper, not
+a late-day edition. The presses were held (or replated) into the
+early morning to get overnight returns onto the street; the four-star
+folio ('118th Year No. 249' with four stars) marks the last plate of
+the night, and the page's own clocks prove it: the Brown/Wilson story
+cites returns 'at 3:30 a.m., with 90 percent of the precincts
+reporting' statewide, and the governor's-race story references the
+count 'at 4 a.m.'. Pressed ~4-5 a.m. Wednesday, sold that morning,
+before the 06:00 night cutoff. The existing 230,991 floor ('With all
+the votes cast yesterday counted', certified minus the stated 8,000
+remaining absentees) re-stamps from a 08:00 day-1 to a T04:00 NIGHT
+observation, undimmed as a statement-derived ballots floor: 96.7
+percent of certified, the era's fastest-known modern count. The
+edition rule generalizes: for the Chronicle (a morning paper), both
+ELECTION SPECIAL and ELECTION EXTRA banners mark late-closing
+overnight runs; star counts in the folio order the editions within
+the night. The 1984 and 1982 adjudications together re-open any past
+verdict that discarded a complete E+1 table for being 'a special'.
