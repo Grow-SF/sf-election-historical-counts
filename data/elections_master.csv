@@ -233,7 +233,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 2000-11-07,2000,city,General,,final-only,,exact,SFPL/DataSF/DOE
 2000-12-12,2000,city,Runoff,,night,29.7,exact,SFPL/DataSF/DOE
 2001-11-06,2001,city,Municipal,,night,80.5,exact,SFPL/DataSF/DOE
-2001-12-11,2001,city,Runoff,,final-only,,exact,SFPL/DataSF/DOE
+2001-12-11,2001,city,Runoff,,night,87.7,exact,SFPL/DataSF/DOE
 2002-03-05,2002,city,Primary,,night,57.1,exact,SFPL/DataSF/DOE
 2002-11-05,2002,city,General,,night,75.3,exact,SFPL/DataSF/DOE
 2002-12-10,2002,city,Runoff,,night,41.8,exact,SFPL/DataSF/DOE

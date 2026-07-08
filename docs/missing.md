@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**72 San Francisco elections still lack an election-night ballot count.** For 24 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**71 San Francisco elections still lack an election-night ballot count.** For 23 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 72 elections still missing a night count
+## The 71 elections still missing a night count
 
 | Date | Year | Level | Kind | Final count known? | Description |
 |------|------|-------|------|--------------------|-------------|
@@ -85,7 +85,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1998-06-02 | 1998 | city | Primary | yes |  |
 | 1999-11-02 | 1999 | city | Municipal | yes |  |
 | 2000-11-07 | 2000 | city | General | yes |  |
-| 2001-12-11 | 2001 | city | Runoff | yes |  |
 
 ---
 
@@ -738,3 +737,20 @@ And a presentation bug surfaced by these finds: the README night-share
 image inherited the preview's default kind filter, which hides Special
 and Recall elections; the shoot script now passes kinds=all, so the
 1980-08 special (100.0), the recall, and both 2022 recalls render.
+**Update (2026-07-07, December 2001 falls; the post-2000 sweep is done
+save one).** Hours after the web-archive verdict declared this runoff
+fully dead on the open web, the operator-directed NewsBank page-image
+hunt found its night count in the only place it still existed: the
+Dec 12 2001 Chronicle print edition. The pA23 Bay Area front carries
+'Herrera victorious in city attorney race' with '52.1 percent to 47.4
+percent in unofficial returns last night', and the pA24 jump
+quantifies the returns: 'only slightly more than 66,000 - or fewer
+than 1 in 5 registered voters - cast ballots.' Rounding-safe floor
+66,000, 87.7 percent of certified 75,267, undimmed per the 2013
+precedent: the 208th recovered night count. Method note: the image
+edition is OCR-searchable, so a name query (Herrera) scoped to the
+date finds the exact pages without browsing; the calendar UI defaults
+to January and should be avoided. Of the five post-2000 holdouts that
+began the evening judged Examiner-tapped, only November 2000 remains,
+and the same print-edition trick (the Nov 8 2000 paper's results
+tables) is queued for it.

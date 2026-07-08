@@ -4024,6 +4024,14 @@
   "finalSource": "post-certification results page capture 2002-02-14 (75,267)",
   "observations": [
    {
+    "date": "2001-12-12",
+    "days": 1,
+    "total": 66000,
+    "pct": 87.7,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle print edition via NewsBank page image (SFPL ezproxy), 2001-12-12 pA24 'Herrera wins city attorney runoff' jump from the pA23 Bay Area front (operator-directed hunt, page image hand-read 2026-07-07): 'But the results show neither struck a chord with voters as only slightly more than 66,000 - or fewer than 1 in 5 registered voters - cast ballots', describing the same 'unofficial returns last night' the front-page lede quantifies (Herrera 52.1 to 47.4 percent); a direct ballots-cast statement in the night returns, ingested rounding-safe at 66,000 following the 2013-11 'just more than' precedent, undimmed; no hour printed, the 01:00 press-time stamp is an inference, disclosed; monotonic under the existing day-2 floor 70,244 and certified 75,267; this election was established the same evening as fully dead on the open web, making the print page image its only night carrier; screenshots mirror/newsbank/scans/runoff_20011211_issue20011212_p23_s*.png and _p24_s*.png; reproduction: NewsBank image docref image/v2:142051F45F422A02@EANX-NB-165C0A195C554DF0@2452256-165B30AC1C013986@23; read 2026-07-07"
+   },
+   {
     "date": "2001-12-13",
     "days": 2,
     "total": 70244,

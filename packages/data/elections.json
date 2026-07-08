@@ -11383,11 +11383,17 @@
   "registered": 453961,
   "source": "archival",
   "provisional": false,
-  "nReports": 3,
-  "nightPct": null,
+  "nReports": 4,
+  "nightPct": 87.7,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.21,
+    87.7,
+    null,
+    null
+   ],
    [
     1.5,
     93.3,
@@ -11409,40 +11415,40 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "85": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "90": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 6,
@@ -11457,8 +11463,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "SF Chronicle via NewsBank (SFPL)"
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
   "id": "2002-03-05",
