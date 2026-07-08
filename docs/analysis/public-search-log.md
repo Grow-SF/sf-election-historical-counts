@@ -703,3 +703,41 @@ recovered night count at a striking 30.6 percent, dimmed. The
 operator read the page live and flagged the write-in mechanics; the
 mayor's-race table itself footnotes that its Ammiano figure 'reflects
 partial write-in count'.
+**Update (2026-07-07, June 1998: the blanket primary counts itself).**
+One more step backward. The Jun 3 1998 Chronicle's two-star (later)
+edition prints the 'HOW SAN FRANCISCO VOTED' box on page 25 of the
+scanned issue with GOVERNOR at 521 of 644 precincts reporting, and
+1998's blanket primary makes that contest uniquely useful: every
+voter, regardless of party, voted in the same 17-candidate Governor
+field, so the full field sum (Davis 62,097 through Johnson 162,
+totaling 137,554) is an all-voter undervote-limited night floor, not
+a party-slice. That is 69.1 percent of the certified 199,157, dimmed
+as a contest sum at 81 percent of precincts, the 211th recovered
+night count. An earlier edition of the same box (scanned page 43)
+shows the count at 79 of 644 precincts, corroborating that the
+editions snapshot the count at different hours; no hour is printed,
+so the entry carries the dataset's disclosed 03:00 press-time
+convention. It slots monotonically under the existing day-1
+afternoon floor of 185,157 (the Examiner's absentee-remaining
+conversion). Screenshots under
+mirror/newsbank/scans/primary_19980602_issue19980603_p25_*.png;
+reproduction: NewsBank image-edition search 'CITY AND COUNTY' scoped
+to 1998-06-03, and compare the Governor precinct headers across the
+page 25/35/43 edition variants to find the latest.
+**Dead end (2026-07-07, November 1994: structurally dry for a night
+point).** The same method fails here for a documented reason: the
+count crashed. The Nov 9 1994 Chronicle morning edition in NewsBank's
+image collection (front page captured at
+mirror/newsbank/scans/general_19941108_issue19941109_p1_*.png, plus
+pages 13 and 30) leads its election coverage on exit polls and
+statewide projections and prints no San Francisco returns table in
+the scanned edition; there is no 'HOW SAN FRANCISCO VOTED' box to
+read. The repo already holds the next-day state (a day-1 floor of
+239,669 via the Chronicle's absentee-remaining conversion), and the
+evening Examiner's 373 of 576 precincts figure encountered during the
+hunt is likewise day-1 state, not election night; nothing in the Nov
+9 morning paper beats either or establishes any night-of figure. Reproduction: NewsBank image-edition issue
+1994-11-09, front section; searched 'HOW SAN FRANCISCO VOTED' and
+'precincts reporting' scoped to the date. November 1994 stays in the
+missing set pending a different vein (wire copy with a timestamped SF
+figure, or the Examiner's own Nov 9 morning run if one exists).

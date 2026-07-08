@@ -10671,11 +10671,17 @@
   "registered": 430794,
   "source": "archival",
   "provisional": false,
-  "nReports": 2,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 3,
+  "nightPct": 69.1,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    69.1,
+    null,
+    null
+   ],
    [
     0.79,
     93.0,
@@ -10708,27 +10714,27 @@
    },
    "70": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "75": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 1,
-    "bound": true
+    "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "proquest-examiner"
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
   "id": "1998-11-03",

@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**69 San Francisco elections still lack an election-night ballot count.** For 21 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**68 San Francisco elections still lack an election-night ballot count.** For 20 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 69 elections still missing a night count
+## The 68 elections still missing a night count
 
 | Date | Year | Level | Kind | Final count known? | Description |
 |------|------|-------|------|--------------------|-------------|
@@ -82,7 +82,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1984-06-05 | 1984 | city | Primary | yes |  |
 | 1986-11-04 | 1986 | city | General | yes |  |
 | 1994-11-08 | 1994 | city | General | yes |  |
-| 1998-06-02 | 1998 | city | Primary | yes |  |
 
 ---
 
