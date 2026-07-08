@@ -1,5 +1,671 @@
 [
  {
+  "id": "1849-11-13",
+  "name": "General Election (Governor + Constitution)",
+  "kind": "General",
+  "year": 1849,
+  "final": 3119,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    47.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 48,
+    "bound": true
+   },
+   "55": {
+    "days": 48,
+    "bound": true
+   },
+   "60": {
+    "days": 48,
+    "bound": true
+   },
+   "65": {
+    "days": 48,
+    "bound": true
+   },
+   "70": {
+    "days": 48,
+    "bound": true
+   },
+   "75": {
+    "days": 48,
+    "bound": true
+   },
+   "80": {
+    "days": 48,
+    "bound": true
+   },
+   "85": {
+    "days": 48,
+    "bound": true
+   },
+   "90": {
+    "days": 48,
+    "bound": true
+   },
+   "95": {
+    "days": 48,
+    "bound": true
+   },
+   "98": {
+    "days": 48,
+    "bound": true
+   },
+   "99": {
+    "days": 48,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1850-10-07",
+  "name": "General Election (state officers)",
+  "kind": "General",
+  "year": 1850,
+  "final": 3440,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    1.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 2,
+    "bound": true
+   },
+   "55": {
+    "days": 2,
+    "bound": true
+   },
+   "60": {
+    "days": 2,
+    "bound": true
+   },
+   "65": {
+    "days": 2,
+    "bound": true
+   },
+   "70": {
+    "days": 2,
+    "bound": true
+   },
+   "75": {
+    "days": 2,
+    "bound": true
+   },
+   "80": {
+    "days": 2,
+    "bound": true
+   },
+   "85": {
+    "days": 2,
+    "bound": true
+   },
+   "90": {
+    "days": 2,
+    "bound": true
+   },
+   "95": {
+    "days": 2,
+    "bound": true
+   },
+   "98": {
+    "days": 2,
+    "bound": true
+   },
+   "99": {
+    "days": 2,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1851-09-03",
+  "name": "Gubernatorial General Election",
+  "kind": "General",
+  "year": 1851,
+  "final": 5774,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    11.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 12,
+    "bound": true
+   },
+   "55": {
+    "days": 12,
+    "bound": true
+   },
+   "60": {
+    "days": 12,
+    "bound": true
+   },
+   "65": {
+    "days": 12,
+    "bound": true
+   },
+   "70": {
+    "days": 12,
+    "bound": true
+   },
+   "75": {
+    "days": 12,
+    "bound": true
+   },
+   "80": {
+    "days": 12,
+    "bound": true
+   },
+   "85": {
+    "days": 12,
+    "bound": true
+   },
+   "90": {
+    "days": 12,
+    "bound": true
+   },
+   "95": {
+    "days": 12,
+    "bound": true
+   },
+   "98": {
+    "days": 12,
+    "bound": true
+   },
+   "99": {
+    "days": 12,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1852-11-02",
+  "name": "Presidential General Election",
+  "kind": "General",
+  "year": 1852,
+  "final": 8692,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    8.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 9,
+    "bound": true
+   },
+   "55": {
+    "days": 9,
+    "bound": true
+   },
+   "60": {
+    "days": 9,
+    "bound": true
+   },
+   "65": {
+    "days": 9,
+    "bound": true
+   },
+   "70": {
+    "days": 9,
+    "bound": true
+   },
+   "75": {
+    "days": 9,
+    "bound": true
+   },
+   "80": {
+    "days": 9,
+    "bound": true
+   },
+   "85": {
+    "days": 9,
+    "bound": true
+   },
+   "90": {
+    "days": 9,
+    "bound": true
+   },
+   "95": {
+    "days": 9,
+    "bound": true
+   },
+   "98": {
+    "days": 9,
+    "bound": true
+   },
+   "99": {
+    "days": 9,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1853-09-07",
+  "name": "Gubernatorial General Election",
+  "kind": "General",
+  "year": 1853,
+  "final": 10955,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    29.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 30,
+    "bound": true
+   },
+   "55": {
+    "days": 30,
+    "bound": true
+   },
+   "60": {
+    "days": 30,
+    "bound": true
+   },
+   "65": {
+    "days": 30,
+    "bound": true
+   },
+   "70": {
+    "days": 30,
+    "bound": true
+   },
+   "75": {
+    "days": 30,
+    "bound": true
+   },
+   "80": {
+    "days": 30,
+    "bound": true
+   },
+   "85": {
+    "days": 30,
+    "bound": true
+   },
+   "90": {
+    "days": 30,
+    "bound": true
+   },
+   "95": {
+    "days": 30,
+    "bound": true
+   },
+   "98": {
+    "days": 30,
+    "bound": true
+   },
+   "99": {
+    "days": 30,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1855-09-05",
+  "name": "Gubernatorial General Election",
+  "kind": "General",
+  "year": 1855,
+  "final": 12351,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    29.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 30,
+    "bound": true
+   },
+   "55": {
+    "days": 30,
+    "bound": true
+   },
+   "60": {
+    "days": 30,
+    "bound": true
+   },
+   "65": {
+    "days": 30,
+    "bound": true
+   },
+   "70": {
+    "days": 30,
+    "bound": true
+   },
+   "75": {
+    "days": 30,
+    "bound": true
+   },
+   "80": {
+    "days": 30,
+    "bound": true
+   },
+   "85": {
+    "days": 30,
+    "bound": true
+   },
+   "90": {
+    "days": 30,
+    "bound": true
+   },
+   "95": {
+    "days": 30,
+    "bound": true
+   },
+   "98": {
+    "days": 30,
+    "bound": true
+   },
+   "99": {
+    "days": 30,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1856-11-04",
+  "name": "Presidential + Municipal Election",
+  "kind": "Municipal",
+  "year": 1856,
+  "final": 12019,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    29.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 30,
+    "bound": true
+   },
+   "55": {
+    "days": 30,
+    "bound": true
+   },
+   "60": {
+    "days": 30,
+    "bound": true
+   },
+   "65": {
+    "days": 30,
+    "bound": true
+   },
+   "70": {
+    "days": 30,
+    "bound": true
+   },
+   "75": {
+    "days": 30,
+    "bound": true
+   },
+   "80": {
+    "days": 30,
+    "bound": true
+   },
+   "85": {
+    "days": 30,
+    "bound": true
+   },
+   "90": {
+    "days": 30,
+    "bound": true
+   },
+   "95": {
+    "days": 30,
+    "bound": true
+   },
+   "98": {
+    "days": 30,
+    "bound": true
+   },
+   "99": {
+    "days": 30,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1857-09-02",
+  "name": "Gubernatorial + Municipal Election",
+  "kind": "Municipal",
+  "year": 1857,
+  "final": 10326,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    16.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 17,
+    "bound": true
+   },
+   "55": {
+    "days": 17,
+    "bound": true
+   },
+   "60": {
+    "days": 17,
+    "bound": true
+   },
+   "65": {
+    "days": 17,
+    "bound": true
+   },
+   "70": {
+    "days": 17,
+    "bound": true
+   },
+   "75": {
+    "days": 17,
+    "bound": true
+   },
+   "80": {
+    "days": 17,
+    "bound": true
+   },
+   "85": {
+    "days": 17,
+    "bound": true
+   },
+   "90": {
+    "days": 17,
+    "bound": true
+   },
+   "95": {
+    "days": 17,
+    "bound": true
+   },
+   "98": {
+    "days": 17,
+    "bound": true
+   },
+   "99": {
+    "days": 17,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1858-09-01",
+  "name": "General Election (Legislature + Controller)",
+  "kind": "General",
+  "year": 1858,
+  "final": 8584,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    14.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 15,
+    "bound": true
+   },
+   "55": {
+    "days": 15,
+    "bound": true
+   },
+   "60": {
+    "days": 15,
+    "bound": true
+   },
+   "65": {
+    "days": 15,
+    "bound": true
+   },
+   "70": {
+    "days": 15,
+    "bound": true
+   },
+   "75": {
+    "days": 15,
+    "bound": true
+   },
+   "80": {
+    "days": 15,
+    "bound": true
+   },
+   "85": {
+    "days": 15,
+    "bound": true
+   },
+   "90": {
+    "days": 15,
+    "bound": true
+   },
+   "95": {
+    "days": 15,
+    "bound": true
+   },
+   "98": {
+    "days": 15,
+    "bound": true
+   },
+   "99": {
+    "days": 15,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
   "id": "1859-09-07",
   "name": "Gubernatorial + Municipal Election",
   "kind": "Municipal",
@@ -74,11 +740,11 @@
   "name": "Presidential General Election",
   "kind": "General",
   "year": 1860,
-  "final": 14415,
+  "final": 14419,
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
+  "nReports": 2,
   "nightPct": 64.0,
   "nightPartial": false,
   "vbmShare": null,
@@ -86,6 +752,12 @@
    [
     0.17,
     64.0,
+    null,
+    null
+   ],
+   [
+    2.29,
+    99.9,
     null,
     null
    ]
@@ -102,6 +774,42 @@
    "60": {
     "days": 1,
     "bound": true
+   },
+   "65": {
+    "days": 3,
+    "bound": false
+   },
+   "70": {
+    "days": 3,
+    "bound": false
+   },
+   "75": {
+    "days": 3,
+    "bound": false
+   },
+   "80": {
+    "days": 3,
+    "bound": false
+   },
+   "85": {
+    "days": 3,
+    "bound": false
+   },
+   "90": {
+    "days": 3,
+    "bound": false
+   },
+   "95": {
+    "days": 3,
+    "bound": false
+   },
+   "98": {
+    "days": 3,
+    "bound": false
+   },
+   "99": {
+    "days": 3,
+    "bound": false
    }
   },
   "nightSrc": "cdnc-ocr",
@@ -256,7 +964,7 @@
   "name": "General Election (Supt. Public Instruction)",
   "kind": "General",
   "year": 1862,
-  "final": 8957,
+  "final": 8813,
   "registered": null,
   "source": "archival",
   "provisional": false,
@@ -392,11 +1100,159 @@
   "srcShort": "cdnc-ocr"
  },
  {
+  "id": "1863-09-02",
+  "name": "Gubernatorial General Election",
+  "kind": "General",
+  "year": 1863,
+  "final": 14866,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1864-05-17",
+  "name": "Municipal Election",
+  "kind": "Municipal",
+  "year": 1864,
+  "final": 10847,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    29.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 30,
+    "bound": true
+   },
+   "55": {
+    "days": 30,
+    "bound": true
+   },
+   "60": {
+    "days": 30,
+    "bound": true
+   },
+   "65": {
+    "days": 30,
+    "bound": true
+   },
+   "70": {
+    "days": 30,
+    "bound": true
+   },
+   "75": {
+    "days": 30,
+    "bound": true
+   },
+   "80": {
+    "days": 30,
+    "bound": true
+   },
+   "85": {
+    "days": 30,
+    "bound": true
+   },
+   "90": {
+    "days": 30,
+    "bound": true
+   },
+   "95": {
+    "days": 30,
+    "bound": true
+   },
+   "98": {
+    "days": 30,
+    "bound": true
+   },
+   "99": {
+    "days": 30,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
   "id": "1864-11-08",
   "name": "Presidential General Election",
   "kind": "General",
   "year": 1864,
-  "final": 21024,
+  "final": 21030,
   "registered": null,
   "source": "archival",
   "provisional": false,
@@ -606,6 +1462,154 @@
   "srcShort": "cdnc-ocr"
  },
  {
+  "id": "1866-09-05",
+  "name": "Municipal Election",
+  "kind": "Municipal",
+  "year": 1866,
+  "final": 13371,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    29.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 30,
+    "bound": true
+   },
+   "55": {
+    "days": 30,
+    "bound": true
+   },
+   "60": {
+    "days": 30,
+    "bound": true
+   },
+   "65": {
+    "days": 30,
+    "bound": true
+   },
+   "70": {
+    "days": 30,
+    "bound": true
+   },
+   "75": {
+    "days": 30,
+    "bound": true
+   },
+   "80": {
+    "days": 30,
+    "bound": true
+   },
+   "85": {
+    "days": 30,
+    "bound": true
+   },
+   "90": {
+    "days": 30,
+    "bound": true
+   },
+   "95": {
+    "days": 30,
+    "bound": true
+   },
+   "98": {
+    "days": 30,
+    "bound": true
+   },
+   "99": {
+    "days": 30,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1867-09-04",
+  "name": "Gubernatorial + Municipal Election (Mayor McCoppin)",
+  "kind": "Municipal",
+  "year": 1867,
+  "final": 17472,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    25.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 26,
+    "bound": true
+   },
+   "55": {
+    "days": 26,
+    "bound": true
+   },
+   "60": {
+    "days": 26,
+    "bound": true
+   },
+   "65": {
+    "days": 26,
+    "bound": true
+   },
+   "70": {
+    "days": 26,
+    "bound": true
+   },
+   "75": {
+    "days": 26,
+    "bound": true
+   },
+   "80": {
+    "days": 26,
+    "bound": true
+   },
+   "85": {
+    "days": 26,
+    "bound": true
+   },
+   "90": {
+    "days": 26,
+    "bound": true
+   },
+   "95": {
+    "days": 26,
+    "bound": true
+   },
+   "98": {
+    "days": 26,
+    "bound": true
+   },
+   "99": {
+    "days": 26,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
   "id": "1867-10-16",
   "name": "General Election (Supt. Public Instruction)",
   "kind": "General",
@@ -684,18 +1688,18 @@
   "name": "Presidential General Election",
   "kind": "General",
   "year": 1868,
-  "final": 25765,
+  "final": 25774,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 99.6,
+  "nightPct": 99.5,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    99.6,
+    99.5,
     null,
     null
    ]
@@ -754,11 +1758,110 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1869-09-01",
+  "name": "Municipal Election (Mayor Selby)",
+  "kind": "Municipal",
+  "year": 1869,
+  "final": 21693,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 21.3,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    21.3,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "cdnc-ocr",
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1870-09-07",
+  "name": "General Election",
+  "kind": "General",
+  "year": 1870,
+  "final": 19944,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    29.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 30,
+    "bound": true
+   },
+   "55": {
+    "days": 30,
+    "bound": true
+   },
+   "60": {
+    "days": 30,
+    "bound": true
+   },
+   "65": {
+    "days": 30,
+    "bound": true
+   },
+   "70": {
+    "days": 30,
+    "bound": true
+   },
+   "75": {
+    "days": 30,
+    "bound": true
+   },
+   "80": {
+    "days": 30,
+    "bound": true
+   },
+   "85": {
+    "days": 30,
+    "bound": true
+   },
+   "90": {
+    "days": 30,
+    "bound": true
+   },
+   "95": {
+    "days": 30,
+    "bound": true
+   },
+   "98": {
+    "days": 30,
+    "bound": true
+   },
+   "99": {
+    "days": 30,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
   "id": "1871-10-18",
   "name": "General Election (Supt. Public Instruction)",
   "kind": "General",
   "year": 1871,
-  "final": 16175,
+  "final": 16177,
   "registered": null,
   "source": "archival",
   "provisional": false,
@@ -832,18 +1935,18 @@
   "name": "Presidential General Election",
   "kind": "General",
   "year": 1872,
-  "final": 23150,
+  "final": 23029,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 99.2,
+  "nightPct": 99.8,
   "nightPartial": true,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    99.2,
+    99.8,
     null,
     null
    ]
@@ -902,22 +2005,121 @@
   "srcShort": "cdnc-ocr"
  },
  {
-  "id": "1875-09-01",
-  "name": "Gubernatorial General Election",
-  "kind": "General",
-  "year": 1875,
-  "final": 25534,
+  "id": "1873-09-03",
+  "name": "General + Municipal Election (Mayor Otis)",
+  "kind": "Municipal",
+  "year": 1873,
+  "final": 26198,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 100.0,
+  "nightPct": 9.1,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.25,
+    9.1,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "cdnc-ocr",
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1873-10-15",
+  "name": "Special Judicial Election",
+  "kind": "Special",
+  "year": 1873,
+  "final": 15594,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    29.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 30,
+    "bound": true
+   },
+   "55": {
+    "days": 30,
+    "bound": true
+   },
+   "60": {
+    "days": 30,
+    "bound": true
+   },
+   "65": {
+    "days": 30,
+    "bound": true
+   },
+   "70": {
+    "days": 30,
+    "bound": true
+   },
+   "75": {
+    "days": 30,
+    "bound": true
+   },
+   "80": {
+    "days": 30,
+    "bound": true
+   },
+   "85": {
+    "days": 30,
+    "bound": true
+   },
+   "90": {
+    "days": 30,
+    "bound": true
+   },
+   "95": {
+    "days": 30,
+    "bound": true
+   },
+   "98": {
+    "days": 30,
+    "bound": true
+   },
+   "99": {
+    "days": 30,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1875-09-01",
+  "name": "Gubernatorial General Election",
+  "kind": "General",
+  "year": 1875,
+  "final": 25653,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 99.5,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.42,
-    100.0,
+    99.5,
     null,
     null
    ]
@@ -980,7 +2182,7 @@
   "name": "General Election (Supt. Public Instruction)",
   "kind": "General",
   "year": 1875,
-  "final": 17044,
+  "final": 17050,
   "registered": null,
   "source": "archival",
   "provisional": false,
@@ -1046,18 +2248,18 @@
   "name": "Presidential General Election",
   "kind": "General",
   "year": 1876,
-  "final": 41571,
+  "final": 41646,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 100.0,
+  "nightPct": 99.8,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.38,
-    100.0,
+    99.8,
     null,
     null
    ]
@@ -1114,6 +2316,144 @@
   },
   "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1877-09-05",
+  "name": "General + Municipal Election (Mayor Bryant)",
+  "kind": "Municipal",
+  "year": 1877,
+  "final": 33663,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": 17.7,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.28,
+    17.7,
+    null,
+    null
+   ],
+   [
+    2.29,
+    89.1,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 3,
+    "bound": false
+   },
+   "55": {
+    "days": 3,
+    "bound": false
+   },
+   "60": {
+    "days": 3,
+    "bound": false
+   },
+   "65": {
+    "days": 3,
+    "bound": false
+   },
+   "70": {
+    "days": 3,
+    "bound": false
+   },
+   "75": {
+    "days": 3,
+    "bound": false
+   },
+   "80": {
+    "days": 3,
+    "bound": false
+   },
+   "85": {
+    "days": 3,
+    "bound": false
+   }
+  },
+  "nightSrc": "cdnc-ocr",
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1877-10-17",
+  "name": "Special Judicial Election",
+  "kind": "Special",
+  "year": 1877,
+  "final": 22942,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    29.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 30,
+    "bound": true
+   },
+   "55": {
+    "days": 30,
+    "bound": true
+   },
+   "60": {
+    "days": 30,
+    "bound": true
+   },
+   "65": {
+    "days": 30,
+    "bound": true
+   },
+   "70": {
+    "days": 30,
+    "bound": true
+   },
+   "75": {
+    "days": 30,
+    "bound": true
+   },
+   "80": {
+    "days": 30,
+    "bound": true
+   },
+   "85": {
+    "days": 30,
+    "bound": true
+   },
+   "90": {
+    "days": 30,
+    "bound": true
+   },
+   "95": {
+    "days": 30,
+    "bound": true
+   },
+   "98": {
+    "days": 30,
+    "bound": true
+   },
+   "99": {
+    "days": 30,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
  },
  {
   "id": "1879-09-03",
@@ -2697,7 +4037,7 @@
   "name": "Special Bond Election",
   "kind": "Special",
   "year": 1908,
-  "final": 23550,
+  "final": 23560,
   "registered": 79000,
   "source": "archival",
   "provisional": false,
@@ -2809,18 +4149,18 @@
   "name": "Special Bond Election (Hetch Hetchy)",
   "kind": "Special",
   "year": 1908,
-  "final": 41011,
+  "final": 41137,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 100.0,
+  "nightPct": 99.7,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    100.0,
+    99.7,
     null,
     null
    ]
@@ -2883,7 +4223,7 @@
   "name": "Special Bond Election (9 propositions)",
   "kind": "Special",
   "year": 1909,
-  "final": 24028,
+  "final": 24058,
   "registered": null,
   "source": "archival",
   "provisional": false,
@@ -2894,7 +4234,7 @@
   "pts": [
    [
     2.88,
-    100.0,
+    99.9,
     null,
     null
    ]
@@ -2957,18 +4297,18 @@
   "name": "Special Bond Election (Geary Street railroad)",
   "kind": "Special",
   "year": 1909,
-  "final": 22258,
+  "final": 22272,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 100.0,
+  "nightPct": 99.9,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    100.0,
+    99.9,
     null,
     null
    ]
@@ -3031,7 +4371,7 @@
   "name": "General Municipal Election (McCarthy mayoral)",
   "kind": "Municipal",
   "year": 1909,
-  "final": 64931,
+  "final": 65065,
   "registered": null,
   "source": "archival",
   "provisional": false,
@@ -3042,7 +4382,7 @@
   "pts": [
    [
     1.0,
-    100.0,
+    99.8,
     null,
     null
    ]
@@ -3105,18 +4445,18 @@
   "name": "Special Bond Election (Geary resubmission)",
   "kind": "Special",
   "year": 1909,
-  "final": 43081,
+  "final": 43189,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 100.0,
+  "nightPct": 99.7,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    100.0,
+    99.7,
     null,
     null
    ]
@@ -3175,6 +4515,80 @@
   "srcShort": "cdnc-ocr"
  },
  {
+  "id": "1910-01-14",
+  "name": "Special Bond Election (Spring Valley)",
+  "kind": "Special",
+  "year": 1910,
+  "final": 35015,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    29.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 30,
+    "bound": true
+   },
+   "55": {
+    "days": 30,
+    "bound": true
+   },
+   "60": {
+    "days": 30,
+    "bound": true
+   },
+   "65": {
+    "days": 30,
+    "bound": true
+   },
+   "70": {
+    "days": 30,
+    "bound": true
+   },
+   "75": {
+    "days": 30,
+    "bound": true
+   },
+   "80": {
+    "days": 30,
+    "bound": true
+   },
+   "85": {
+    "days": 30,
+    "bound": true
+   },
+   "90": {
+    "days": 30,
+    "bound": true
+   },
+   "95": {
+    "days": 30,
+    "bound": true
+   },
+   "98": {
+    "days": 30,
+    "bound": true
+   },
+   "99": {
+    "days": 30,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
   "id": "1910-11-08",
   "name": "General Election",
   "kind": "General",
@@ -3200,22 +4614,96 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
-  "id": "1911-11-07",
-  "name": "Municipal Election",
-  "kind": "Municipal",
+  "id": "1911-10-10",
+  "name": "Special Election (constitutional amendments)",
+  "kind": "Special",
   "year": 1911,
-  "final": 68878,
+  "final": 59266,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 30.0,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    29.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 30,
+    "bound": true
+   },
+   "55": {
+    "days": 30,
+    "bound": true
+   },
+   "60": {
+    "days": 30,
+    "bound": true
+   },
+   "65": {
+    "days": 30,
+    "bound": true
+   },
+   "70": {
+    "days": 30,
+    "bound": true
+   },
+   "75": {
+    "days": 30,
+    "bound": true
+   },
+   "80": {
+    "days": 30,
+    "bound": true
+   },
+   "85": {
+    "days": 30,
+    "bound": true
+   },
+   "90": {
+    "days": 30,
+    "bound": true
+   },
+   "95": {
+    "days": 30,
+    "bound": true
+   },
+   "98": {
+    "days": 30,
+    "bound": true
+   },
+   "99": {
+    "days": 30,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1911-11-07",
+  "name": "Municipal Election",
+  "kind": "Municipal",
+  "year": 1911,
+  "final": 69689,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 29.6,
   "nightPartial": true,
   "vbmShare": null,
   "pts": [
    [
     0.19,
-    30.0,
+    29.6,
     null,
     null
    ]
@@ -3229,18 +4717,18 @@
   "name": "Special Bond Election (Civic Center)",
   "kind": "Special",
   "year": 1912,
-  "final": 49917,
+  "final": 49498,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 98.5,
+  "nightPct": 99.3,
   "nightPartial": true,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    98.5,
+    99.3,
     null,
     null
    ]
@@ -3289,6 +4777,10 @@
    "98": {
     "days": 1,
     "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
    }
   },
   "nightSrc": "cdnc-ocr",
@@ -3299,18 +4791,18 @@
   "name": "Special Election (initiative ordinances)",
   "kind": "Special",
   "year": 1912,
-  "final": 31968,
+  "final": 32058,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 100.0,
+  "nightPct": 99.7,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    100.0,
+    99.7,
     null,
     null
    ]
@@ -3452,18 +4944,18 @@
   "name": "Special Election (Weller recall + 2 props)",
   "kind": "Special",
   "year": 1913,
-  "final": 62691,
+  "final": 62876,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 100.0,
+  "nightPct": 99.7,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    100.0,
+    99.7,
     null,
     null
    ]
@@ -3596,6 +5088,80 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1914-10-08",
+  "name": "Recall Special Election (Grant)",
+  "kind": "Recall",
+  "year": 1914,
+  "final": 8944,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    29.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 30,
+    "bound": true
+   },
+   "55": {
+    "days": 30,
+    "bound": true
+   },
+   "60": {
+    "days": 30,
+    "bound": true
+   },
+   "65": {
+    "days": 30,
+    "bound": true
+   },
+   "70": {
+    "days": 30,
+    "bound": true
+   },
+   "75": {
+    "days": 30,
+    "bound": true
+   },
+   "80": {
+    "days": 30,
+    "bound": true
+   },
+   "85": {
+    "days": 30,
+    "bound": true
+   },
+   "90": {
+    "days": 30,
+    "bound": true
+   },
+   "95": {
+    "days": 30,
+    "bound": true
+   },
+   "98": {
+    "days": 30,
+    "bound": true
+   },
+   "99": {
+    "days": 30,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
+ },
+ {
   "id": "1914-11-03",
   "name": "General Election",
   "kind": "General",
@@ -3625,7 +5191,7 @@
   "name": "Special Election (36 charter amendments)",
   "kind": "Special",
   "year": 1915,
-  "final": 51030,
+  "final": 55611,
   "registered": null,
   "source": "archival",
   "provisional": false,
@@ -3636,7 +5202,7 @@
   "pts": [
    [
     0.88,
-    100.0,
+    91.8,
     null,
     null
    ]
@@ -3675,18 +5241,6 @@
     "bound": true
    },
    "90": {
-    "days": 1,
-    "bound": true
-   },
-   "95": {
-    "days": 1,
-    "bound": true
-   },
-   "98": {
-    "days": 1,
-    "bound": true
-   },
-   "99": {
     "days": 1,
     "bound": true
    }
@@ -3767,6 +5321,80 @@
   },
   "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1915-10-26",
+  "name": "Special Election (constitutional amendments)",
+  "kind": "Special",
+  "year": 1915,
+  "final": 48884,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": null,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    29.67,
+    100.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 30,
+    "bound": true
+   },
+   "55": {
+    "days": 30,
+    "bound": true
+   },
+   "60": {
+    "days": 30,
+    "bound": true
+   },
+   "65": {
+    "days": 30,
+    "bound": true
+   },
+   "70": {
+    "days": 30,
+    "bound": true
+   },
+   "75": {
+    "days": 30,
+    "bound": true
+   },
+   "80": {
+    "days": 30,
+    "bound": true
+   },
+   "85": {
+    "days": 30,
+    "bound": true
+   },
+   "90": {
+    "days": 30,
+    "bound": true
+   },
+   "95": {
+    "days": 30,
+    "bound": true
+   },
+   "98": {
+    "days": 30,
+    "bound": true
+   },
+   "99": {
+    "days": 30,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": "cdnc-ocr"
  },
  {
   "id": "1916-11-07",
@@ -3964,18 +5592,18 @@
   "name": "Special Election (Spring Valley purchase)",
   "kind": "Special",
   "year": 1921,
-  "final": 74079,
+  "final": 74191,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 100.0,
+  "nightPct": 99.8,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.06,
-    100.0,
+    99.8,
     null,
     null
    ]
@@ -4063,7 +5691,7 @@
   "name": "Special Bond Election (school + Relief Home)",
   "kind": "Special",
   "year": 1922,
-  "final": 81213,
+  "final": 81363,
   "registered": null,
   "source": "archival",
   "provisional": false,
@@ -4074,7 +5702,7 @@
   "pts": [
    [
     1.29,
-    100.0,
+    99.8,
     null,
     null
    ]

@@ -23,6 +23,10 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 # --- P1: 1907–2025 (date, kind) -------------------------------------------------
 P1 = [
  ("1907-11-05","Municipal"),("1908-05-11","Special"),("1908-11-03","General"),
+ # 1910-01-14, 1911-10-10, 1914-10-08, 1915-10-26: found in the Municipal
+ # Reports official canvasses (2026-07-08), absent from all prior indexes
+ ("1910-01-14","Special"),("1911-10-10","Special"),
+ ("1914-10-08","Recall"),("1915-10-26","Special"),
  ("1908-11-12","Special"),
  # 1909-06-22 was a 9-proposition bond special, not a primary (the direct
  # primary law was in litigation; CDNC recovery 2026-07-08), and a second
@@ -112,7 +116,8 @@ P2A = [
  ("1851-09-03","Gubernatorial","Governor"),("1852-11-02","Presidential","President"),
  ("1853-09-07","Gubernatorial","Governor"),("1854-09-06","General","Congress-at-large + Legislature"),
  ("1855-09-05","Gubernatorial","Governor"),("1856-11-04","Presidential","President"),
- ("1857-09-02","Gubernatorial","Governor"),("1858-09-01","General","Legislature + Controller"),
+ ("1857-09-02","Gubernatorial","Governor + city offices (same day; the index's separate Sept 4 city election was a date error, corrected 2026-07-08)"),
+ ("1858-09-01","General","Legislature + Controller"),
  ("1859-09-07","Gubernatorial","Governor"),("1860-11-06","Presidential","President"),
  ("1861-09-04","Gubernatorial","Governor"),("1862-09-03","General","Supt. Public Instruction + Legislature"),
  ("1863-09-02","Gubernatorial","Governor"),("1864-11-08","Presidential","President + Congress"),
@@ -147,14 +152,23 @@ P2A = [
 # conf: H exact, A approx (month/cycle), U date unknown (year placeholder)
 P2B = [
  ("1856-11-04","Municipal","Mayor (Burr) + city offices — 1st under Consolidation Act","H"),
- ("1857-09-04","Municipal","City/county offices","A"),
- ("1858-07-01","Municipal","Annual city offices — exact date unknown","U"),
+ # 1857-09-04 removed: city officers were chosen the same day as the Sept 2
+ # state election (Alta 1857-09-19 canvass); the separate entry was an index
+ # error. 1858-07-01 removed: no such election existed (Alta 1858-07-17: the
+ # city's 60 officers were all chosen at the September election). Both per
+ # the 1849-1858 official-canvass recovery, 2026-07-08.
  ("1859-09-07","Municipal","Mayor (Teschemacher) + city offices","H"),
  ("1861-05-21","Municipal","Mayor (Teschemacher re-elected)","H"),
- ("1863-05-19","Municipal","Mayor (Coon)","H"),("1865-05-16","Municipal","Mayor (Coon re-elected)","H"),
+ ("1863-05-19","Municipal","Mayor (Coon)","H"),
+ ("1864-05-17","Municipal","City offices — Municipal Reports official total 10,847; absent from all prior indexes (2026-07-08)","H"),
+ ("1865-05-16","Municipal","Mayor (Coon re-elected)","H"),
+ ("1866-09-05","Municipal","City offices — Municipal Reports official total 13,371; absent from all prior indexes (2026-07-08)","H"),
  ("1867-09-04","Municipal","Mayor (McCoppin)","H"),("1869-09-01","Municipal","Mayor (Selby)","H"),
+ ("1870-09-07","General","State general — Municipal Reports official total 19,944; absent from all prior indexes (2026-07-08)","H"),
  ("1871-09-06","Municipal","Mayor (Alvord)","H"),("1873-09-03","Municipal","Mayor (Otis)","H"),
+ ("1873-10-15","Special","Judicial election — Municipal Reports official total 15,594; absent from all prior indexes (2026-07-08)","H"),
  ("1875-09-01","Municipal","Mayor (Bryant)","H"),("1877-09-05","Municipal","Mayor (Bryant re-elected)","H"),
+ ("1877-10-17","Special","Judicial election — official canvass Res. 11,450 total 22,942; absent from all prior indexes (2026-07-08)","H"),
  ("1879-09-03","Municipal","Mayor (Kalloch) — 1st under 1879 Constitution","H"),
  ("1880-03-30","Charter","Board of Freeholders (draft new charter) — registrar cumulative table (vol47 p.277): 30,877 votes","H"),
  ("1880-09-08","Charter","Proposed new charter — REJECTED; dated Sept 8 1880 by the registrar cumulative table (vol47 p.277): 23,398 votes","H"),

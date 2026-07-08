@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**49 San Francisco elections still lack an election-night ballot count.** For 25 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 24 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**53 San Francisco elections still lack an election-night ballot count.** For 45 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 8 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,34 +10,34 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 49 elections still missing a night count
+## The 53 elections still missing a night count
 
 | Date | Year | Level | Kind | Final count known? | Description |
 |------|------|-------|------|--------------------|-------------|
-| 1849-11-13 | 1849 | statewide | General | no | Governor + Legislature + ratify 1849 Constitution |
-| 1850-10-07 | 1850 | statewide | General | no | State officers + Legislature |
-| 1851-09-03 | 1851 | statewide | Gubernatorial | no | Governor |
-| 1852-11-02 | 1852 | statewide | Presidential | no | President |
-| 1853-09-07 | 1853 | statewide | Gubernatorial | no | Governor |
+| 1849-11-13 | 1849 | statewide | General | yes | Governor + Legislature + ratify 1849 Constitution |
+| 1850-10-07 | 1850 | statewide | General | yes | State officers + Legislature |
+| 1851-09-03 | 1851 | statewide | Gubernatorial | yes | Governor |
+| 1852-11-02 | 1852 | statewide | Presidential | yes | President |
+| 1853-09-07 | 1853 | statewide | Gubernatorial | yes | Governor |
 | 1854-09-06 | 1854 | statewide | General | no | Congress-at-large + Legislature |
-| 1855-09-05 | 1855 | statewide | Gubernatorial | no | Governor |
-| 1856-11-04 | 1856 | both | Presidential + Municipal | no | President; Mayor (Burr) + city offices — 1st under Consolidation Act |
-| 1857-09-02 | 1857 | statewide | Gubernatorial | no | Governor |
-| 1857-09-04 | 1857 | municipal | Municipal | no | City/county offices |
-| 1858-07-01 | 1858 | municipal | Municipal | no | Annual city offices — exact date unknown |
-| 1858-09-01 | 1858 | statewide | General | no | Legislature + Controller |
+| 1855-09-05 | 1855 | statewide | Gubernatorial | yes | Governor |
+| 1856-11-04 | 1856 | both | Presidential + Municipal | yes | President; Mayor (Burr) + city offices — 1st under Consolidation Act |
+| 1857-09-02 | 1857 | statewide | Gubernatorial | yes | Governor + city offices (same day; the index's separate Sept 4 city election was a date error, corrected 2026-07-08) |
+| 1858-09-01 | 1858 | statewide | General | yes | Legislature + Controller |
 | 1859-09-07 | 1859 | both | Gubernatorial + Municipal | yes | Governor; Mayor (Teschemacher) + city offices |
 | 1861-05-21 | 1861 | municipal | Municipal | yes | Mayor (Teschemacher re-elected) |
 | 1862-09-03 | 1862 | statewide | General | yes | Supt. Public Instruction + Legislature |
 | 1863-05-19 | 1863 | municipal | Municipal | yes | Mayor (Coon) |
-| 1863-09-02 | 1863 | statewide | Gubernatorial | no | Governor |
+| 1863-09-02 | 1863 | statewide | Gubernatorial | yes | Governor |
+| 1864-05-17 | 1864 | municipal | Municipal | yes | City offices — Municipal Reports official total 10,847; absent from all prior indexes (2026-07-08) |
 | 1865-05-16 | 1865 | municipal | Municipal | yes | Mayor (Coon re-elected) |
 | 1865-09-06 | 1865 | statewide | General | yes | Legislature |
-| 1867-09-04 | 1867 | both | Gubernatorial + Municipal | no | Governor; Mayor (McCoppin) |
-| 1869-09-01 | 1869 | municipal | Municipal | no | Mayor (Selby) |
+| 1866-09-05 | 1866 | municipal | Municipal | yes | City offices — Municipal Reports official total 13,371; absent from all prior indexes (2026-07-08) |
+| 1867-09-04 | 1867 | both | Gubernatorial + Municipal | yes | Governor; Mayor (McCoppin) |
+| 1870-09-07 | 1870 | municipal | General | yes | State general — Municipal Reports official total 19,944; absent from all prior indexes (2026-07-08) |
 | 1871-09-06 | 1871 | both | Gubernatorial + Municipal | no | Governor; Mayor (Alvord) |
-| 1873-09-03 | 1873 | both | General + Municipal | no | Legislature; Mayor (Otis) |
-| 1877-09-05 | 1877 | both | General + Municipal | no | Legislature; Mayor (Bryant re-elected) |
+| 1873-10-15 | 1873 | municipal | Special | yes | Judicial election — Municipal Reports official total 15,594; absent from all prior indexes (2026-07-08) |
+| 1877-10-17 | 1877 | municipal | Special | yes | Judicial election — official canvass Res. 11,450 total 22,942; absent from all prior indexes (2026-07-08) |
 | 1878-06-19 | 1878 | statewide | Special | yes | Delegates to the 1878-79 state Constitutional Convention |
 | 1879-05-07 | 1879 | statewide | Special | yes | Ratification of the 1879 Constitution |
 | 1880-03-30 | 1880 | municipal | Charter | yes | Board of Freeholders (draft new charter) — registrar cumulative table (vol47 p.277): 30,877 votes |
@@ -52,7 +52,11 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1897-12-27 | 1897 | municipal | Charter | yes | Board of Freeholders (draft new charter) |
 | 1909-06-22 | 1909 | city | Special | yes |  |
 | 1909-11-02 | 1909 | city | General | yes |  |
+| 1910-01-14 | 1910 | city | Special | yes |  |
+| 1911-10-10 | 1911 | city | Special | yes |  |
+| 1914-10-08 | 1914 | city | Recall | yes |  |
 | 1915-03-16 | 1915 | city | Special | yes |  |
+| 1915-10-26 | 1915 | city | Special | yes |  |
 | 1922-11-21 | 1922 | city | Special | yes |  |
 | 1928-08-28 | 1928 | city | Primary | no |  |
 | 1929-11-05 | 1929 | city | Municipal | no |  |
@@ -1029,3 +1033,40 @@ per the 1933 precedent. Still held for operator hand-reads: 1877-09
 flagged single digits listed in the verification queue. Full
 provenance for every figure: the agent salvage files
 (agents/cdnc_*.md) and mirror/cdnc/ screenshots.
+**Update (2026-07-08, the official-canvass sweep and the operator
+walkthrough: 232 to 235 nights, the no-data bucket falls from 48 to
+8, the universe grows to 288).** Three parallel agents chased official
+denominators while the operator hand-verified the queue live. The
+Municipal Reports (FY1859-60 through FY1916-17, archive.org) yielded
+official totals for every 1908-1915 special - including the Weller
+recall arbitration: the official canvass says 62,876, a FOURTH number
+distinct from all three the Call printed - and for fifteen 1859-1877
+elections; the Board of Supervisors Journal of Proceedings and the
+Registrar's tabulation in the press supplied 1921 (74,191; the Spring
+Valley purchase in fact FAILED two-thirds by 6,387) and 1922 (81,363,
+Resolution 20564). The legislative-journal/almanac vein (Tribune/Whig
+Almanac SF county rows, read from page images) supplied official
+finals for eleven 1849-1858 elections and refuted the 1863
+retrospective's 11,507 for September 1861 (official: 15,149) -
+confirming the operator's clerical-slip adjudication: the 1863
+compiler mis-cited the May 1861 municipal, then computed his '451
+more than ever before' boast against his own error. Twenty-four
+existing rows gained official denominators. The operator walkthrough
+then minted three new night counts from digits agents could not read:
+1877 (the original 'THE LONG COUNT' headline election: the full
+six-candidate Mayor field, 5,965 counted at 2:45 A.M., 17.7 percent),
+1873 (fragment-sum floor 2,393 at 2 A.M., 9.1 percent, the
+call-every-name law), and 1869 (straight-ticket ballots 4,624 by
+press, 21.3 percent - the counted-first straight tickets called it
+for McCoppin; the slow scratched ballots elected Selby by 117, the
+era's great miscall). A district-by-year official table printed in
+the 1863 Alta is preserved as data/sf_vote_by_district_1856_1863.csv.
+Index changes: two phantom elections deleted (1857-09-04 was the same
+day as the state election; 1858-07-01 never occurred) and nine real
+ones added (1864-05, 1866-09, 1870-09, 1873-10, 1877-10, 1910-01,
+1911-10, 1914-10, 1915-10). Operator rulings recorded: 1856 state
+canvass (12,019) over the county variant; 1862 official (8,813)
+replaces an over-official Alta sum. Still open: 1854 (fraud year, no
+defensible total), 1871-09 (three official-series values, operator
+pick pending), 1867-10 and 1863-05/1865-05 (official-vs-paper
+conflicts queued), and the prewar NewsBank cluster.

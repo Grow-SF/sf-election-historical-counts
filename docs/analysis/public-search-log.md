@@ -961,3 +961,40 @@ per the 1933 precedent. Still held for operator hand-reads: 1877-09
 flagged single digits listed in the verification queue. Full
 provenance for every figure: the agent salvage files
 (agents/cdnc_*.md) and mirror/cdnc/ screenshots.
+**Update (2026-07-08, the official-canvass sweep and the operator
+walkthrough: 232 to 235 nights, the no-data bucket falls from 48 to
+8, the universe grows to 288).** Three parallel agents chased official
+denominators while the operator hand-verified the queue live. The
+Municipal Reports (FY1859-60 through FY1916-17, archive.org) yielded
+official totals for every 1908-1915 special - including the Weller
+recall arbitration: the official canvass says 62,876, a FOURTH number
+distinct from all three the Call printed - and for fifteen 1859-1877
+elections; the Board of Supervisors Journal of Proceedings and the
+Registrar's tabulation in the press supplied 1921 (74,191; the Spring
+Valley purchase in fact FAILED two-thirds by 6,387) and 1922 (81,363,
+Resolution 20564). The legislative-journal/almanac vein (Tribune/Whig
+Almanac SF county rows, read from page images) supplied official
+finals for eleven 1849-1858 elections and refuted the 1863
+retrospective's 11,507 for September 1861 (official: 15,149) -
+confirming the operator's clerical-slip adjudication: the 1863
+compiler mis-cited the May 1861 municipal, then computed his '451
+more than ever before' boast against his own error. Twenty-four
+existing rows gained official denominators. The operator walkthrough
+then minted three new night counts from digits agents could not read:
+1877 (the original 'THE LONG COUNT' headline election: the full
+six-candidate Mayor field, 5,965 counted at 2:45 A.M., 17.7 percent),
+1873 (fragment-sum floor 2,393 at 2 A.M., 9.1 percent, the
+call-every-name law), and 1869 (straight-ticket ballots 4,624 by
+press, 21.3 percent - the counted-first straight tickets called it
+for McCoppin; the slow scratched ballots elected Selby by 117, the
+era's great miscall). A district-by-year official table printed in
+the 1863 Alta is preserved as data/sf_vote_by_district_1856_1863.csv.
+Index changes: two phantom elections deleted (1857-09-04 was the same
+day as the state election; 1858-07-01 never occurred) and nine real
+ones added (1864-05, 1866-09, 1870-09, 1873-10, 1877-10, 1910-01,
+1911-10, 1914-10, 1915-10). Operator rulings recorded: 1856 state
+canvass (12,019) over the county variant; 1862 official (8,813)
+replaces an over-official Alta sum. Still open: 1854 (fraud year, no
+defensible total), 1871-09 (three official-series values, operator
+pick pending), 1867-10 and 1863-05/1865-05 (official-vs-paper
+conflicts queued), and the prewar NewsBank cluster.
