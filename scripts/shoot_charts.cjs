@@ -38,7 +38,11 @@ const NIGHT_RANGE = span(
 // output file -> { title: substring of the chart's <h3> to locate its <figure>,
 //                  range: optional [from, to] applied via the site's URL state }
 const TARGETS = {
-  "docs/img/night-share.png": { title: "How much of the vote was counted", range: NIGHT_RANGE },
+  // kinds=all: the preview's default filter hides Special and Recall
+  // elections; the README image should show every recovered night count
+  // (the 1980-08 special at 100.0, the 2003 recall, the 2009 special)
+  "docs/img/night-share.png": { title: "How much of the vote was counted", range: NIGHT_RANGE,
+    query: "kinds=General,Midterm,Primary,Local,Special,Recall" },
   "docs/img/turnout.png": { title: "Turnout of registered voters", range: TURNOUT_RANGE },
   "docs/img/vote-by-mail.png": { title: "Vote-by-mail share of ballots cast" },
   "docs/img/franchise-funnel.png": { title: "Who could vote", range: FUNNEL_RANGE },
@@ -56,10 +60,11 @@ const TARGETS = {
   // group targets by URL (the year range is shared page state, so each
   // distinct range needs its own page load)
   const byUrl = new Map();
-  for (const [file, { title, range }] of Object.entries(TARGETS)) {
-    const url = range
+  for (const [file, { title, range, query }] of Object.entries(TARGETS)) {
+    let url = range
       ? `${URL}${URL.includes("?") ? "&" : "?"}from=${range[0]}&to=${range[1]}`
       : URL;
+    if (query) url += `${url.includes("?") ? "&" : "?"}${query}`;
     if (!byUrl.has(url)) byUrl.set(url, []);
     byUrl.get(url).push([file, title]);
   }

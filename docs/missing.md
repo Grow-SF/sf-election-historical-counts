@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**73 San Francisco elections still lack an election-night ballot count.** For 25 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**72 San Francisco elections still lack an election-night ballot count.** For 24 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 73 elections still missing a night count
+## The 72 elections still missing a night count
 
 | Date | Year | Level | Kind | Final count known? | Description |
 |------|------|-------|------|--------------------|-------------|
@@ -86,7 +86,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1999-11-02 | 1999 | city | Municipal | yes |  |
 | 2000-11-07 | 2000 | city | General | yes |  |
 | 2001-12-11 | 2001 | city | Runoff | yes |  |
-| 2009-05-19 | 2009 | city | Special | yes |  |
 
 ---
 
@@ -717,3 +716,25 @@ of certified, and October 2003 becomes the 206th recovered night count
 from the NewsBank TEXT corpus, check the page-image edition of the
 same issue; the image collection extends later than the previously
 assumed mid-1980s endpoint.
+**Update (2026-07-07, the snapshot vein sweep).** The vein agent
+generalized the calinst find across smartvoter, calvoter, CNN, the SoS
+sites, and the old calinst in Wayback (full log: the calinst-vein
+session report; all load-bearing pages mirrored under mirror/altweb/).
+Two upgrades landed. May 2009: the SoS County Reporting Status page,
+captured E+1, prints San Francisco's own night ledger verbatim ('428
+428 100.0% 465,181 97,958 21.1% 19 8:08 p.m. 19 11:01 p.m.'), a DIRECT
+97,958 ballots-counted night figure (75.0 percent, undimmed) that
+supersedes the print-edition Prop 1A sum as the night value. October
+2003: CNN's county page, mirroring the official feed with per-county
+stamps, shows 'San Francisco updated: 5:28 a.m. [Eastern; 2:28 a.m.
+Pacific] Yes 45,783 20% 100% of precincts reporting No 187,450 80%',
+lifting the recall's night value to 233,233 (86.7, still dimmed as a
+contest sum). Both print-edition rows re-stamped to precede their
+feed-snapshot successors. Also established: December 2001 is fully
+dead on the open web (no DOE, sfgate, or Examiner captures in the
+runoff week; smartvoter never archived a page for it), leaving the
+Chronicle print edition in NewsBank as its only plausible carrier.
+And a presentation bug surfaced by these finds: the README night-share
+image inherited the preview's default kind filter, which hides Special
+and Recall elections; the shoot script now passes kinds=all, so the
+1980-08 special (100.0), the recall, and both 2022 recalls render.

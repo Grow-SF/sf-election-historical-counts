@@ -237,7 +237,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 2002-03-05,2002,city,Primary,,night,57.1,exact,SFPL/DataSF/DOE
 2002-11-05,2002,city,General,,night,75.3,exact,SFPL/DataSF/DOE
 2002-12-10,2002,city,Runoff,,night,41.8,exact,SFPL/DataSF/DOE
-2003-10-07,2003,city,Special,,night,86.1,exact,SFPL/DataSF/DOE
+2003-10-07,2003,city,Special,,night,86.7,exact,SFPL/DataSF/DOE
 2003-11-04,2003,city,Municipal,,night,84.7,exact,SFPL/DataSF/DOE
 2003-12-09,2003,city,Runoff,,night,88.9,exact,SFPL/DataSF/DOE
 2004-03-02,2004,city,Primary,,night,75.1,exact,SFPL/DataSF/DOE
@@ -250,7 +250,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 2008-04-08,2008,city,Primary,,night,83.6,exact,SFPL/DataSF/DOE
 2008-06-03,2008,city,Primary,,night,62.8,exact,SFPL/DataSF/DOE
 2008-11-04,2008,city,General,,night,61.0,exact,SFPL/DataSF/DOE
-2009-05-19,2009,city,Special,,final-only,,exact,SFPL/DataSF/DOE
+2009-05-19,2009,city,Special,,night,75.0,exact,SFPL/DataSF/DOE
 2009-11-03,2009,city,Municipal,,night,68.3,exact,SFPL/DataSF/DOE
 2010-06-08,2010,city,Primary,,night,64.7,exact,SFPL/DataSF/DOE
 2010-11-02,2010,city,General,,night,61.3,exact,SFPL/DataSF/DOE

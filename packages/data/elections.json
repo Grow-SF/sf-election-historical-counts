@@ -11781,14 +11781,20 @@
   "registered": 454929,
   "source": "archival",
   "provisional": false,
-  "nReports": 4,
-  "nightPct": 86.1,
+  "nReports": 5,
+  "nightPct": 86.7,
   "nightPartial": true,
   "vbmShare": null,
   "pts": [
    [
-    0.29,
+    0.21,
     86.1,
+    null,
+    null
+   ],
+   [
+    0.27,
+    86.7,
     null,
     null
    ],
@@ -11861,7 +11867,7 @@
     "bound": true
    }
   },
-  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "nightSrc": "Wayback Machine capture",
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
@@ -12923,11 +12929,23 @@
   "registered": 465428,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
+  "nReports": 3,
+  "nightPct": 75.0,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.13,
+    75.0,
+    null,
+    null
+   ],
+   [
+    0.21,
+    74.1,
+    null,
+    null
+   ],
    [
     7.83,
     97.3,
@@ -12937,23 +12955,23 @@
   ],
   "thresholds": {
    "50": {
-    "days": 8,
+    "days": 0,
     "bound": true
    },
    "55": {
-    "days": 8,
+    "days": 0,
     "bound": true
    },
    "60": {
-    "days": 8,
+    "days": 0,
     "bound": true
    },
    "65": {
-    "days": 8,
+    "days": 0,
     "bound": true
    },
    "70": {
-    "days": 8,
+    "days": 0,
     "bound": true
    },
    "75": {
@@ -12977,7 +12995,7 @@
     "bound": true
    }
   },
-  "nightSrc": null,
+  "nightSrc": "Wayback Machine capture",
   "srcShort": "Wayback Machine capture"
  },
  {

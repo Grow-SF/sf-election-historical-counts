@@ -3080,6 +3080,22 @@
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
    {
+    "date": "2009-05-19",
+    "days": 0,
+    "total": 97958,
+    "pct": 75.0,
+    "label": "Wayback Machine capture",
+    "citation": "CA Secretary of State County Reporting Status page, Wayback capture 2009-05-20 (reproduction: curl http://web.archive.org/web/20090520202706id_/http://vote.sos.ca.gov/returns/status.htm): San Francisco row verbatim '428 428 100.0% 465,181 97,958 21.1% 19 8:08 p.m. 19 11:01 p.m. FENU' - 97,958 ballots counted at 100 percent of precincts, first report 8:08 p.m., final election-night report 11:01 p.m. May 19; a DIRECT ballots-cast night figure, not a contest sum, so not flagged partial; the VBM and provisional pile (certified 130,644) counted over the following weeks; located by the third-party-snapshot vein agent 2026-07-07, mirrored mirror/altweb/2009-05-19/; read 2026-07-07"
+   },
+   {
+    "date": "2009-05-20",
+    "days": 1,
+    "total": 96799,
+    "pct": 74.1,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle print edition via NewsBank page image (SFPL ezproxy), 2009-05-20 pA12 'SPECIAL ELECTION' proposition boxes, Bay Area county tables (operator-located and hand-read 2026-07-07): San Francisco row under Proposition 1A reads '100 [pct rptg], 45,343 Yes (47), 51,456 No (53)', sum 96,799 - the largest same-page measure sum and an all-voter floor (every ballot carried Prop 1A, undervote only); corroborated by the same page's Prop 1B SF row (50,372 + 46,300 = 96,672) and Prop 1C SF row (43,155 + 53,168 = 96,323); SF shows 100 percent of precincts reporting while the statewide boxes sit at 72-75 percent, so the city count was precinct-complete by the morning press deadline, with the VBM and provisional pile counted over the following weeks (certified 130,644); no hour printed; stamped 01:00, after the city's 11:01 p.m. final night report to the SoS whose tally the table prints, disclosed; flagged night_partial (undervote-limited, large post-night VBM remainder); screenshot mirror/newsbank/scans/special_20090519_issue20090520_pA12_s0.png; reproduction: NewsBank image docref image/v2:142051F45F422A02@EANX-NB-165ED81441B1AC86@2454972-165E99C1058967BC@11; read 2026-07-07"
+   },
+   {
     "date": "2009-05-27",
     "days": 8,
     "total": 127083,
@@ -3733,7 +3749,15 @@
     "total": 231712,
     "pct": 86.1,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
-    "citation": "SF Chronicle print edition via NewsBank page image (SFPL ezproxy), 2003-10-08 pA14 'CALIFORNIA RECALL / How the regions voted' county table, San Francisco Bay Area block, San Francisco row (operator-located and hand-read 2026-07-07; row verbatim: '99.2 [pct reporting], 45,388 Yes (20), 186,324 No (80)'): recall-question sum 45,388 + 186,324 = 231,712, an all-voter floor (every ballot carries the recall question, undervote only) at 99.2 percent of precincts by the morning press deadline; same issue's news story (docref news/0FE0FB1FEB220A59, text mirrored) anchors the night state: 'By 10 p.m., San Francisco officials were able to report results from 99 percent of the city's precincts'; no hour printed on the table, the 03:00 stamp is the morning-edition press-time convention used dataset-wide, disclosed; flagged night_partial (undervote-limited sum, 0.8 percent of precincts out); screenshots mirror/newsbank/scans/recall_20031007_issue20031008_p14_s*.png (s4_panleft shows the full row); reproduction: NewsBank image docref image/v2:142051F45F422A02@EANX-NB-1659AB43EED28678@2452921-165910F452B9DEC5@13; read 2026-07-07"
+    "citation": "SF Chronicle print edition via NewsBank page image (SFPL ezproxy), 2003-10-08 pA14 'CALIFORNIA RECALL / How the regions voted' county table, San Francisco Bay Area block, San Francisco row (operator-located and hand-read 2026-07-07; row verbatim: '99.2 [pct reporting], 45,388 Yes (20), 186,324 No (80)'): recall-question sum 45,388 + 186,324 = 231,712, an all-voter floor (every ballot carries the recall question, undervote only) at 99.2 percent of precincts by the morning press deadline; same issue's news story (docref news/0FE0FB1FEB220A59, text mirrored) anchors the night state: 'By 10 p.m., San Francisco officials were able to report results from 99 percent of the city's precincts'; no hour printed on the table; stamped 01:00 because its 99.2-percent state necessarily precedes the 2:28am 100-percent state on CNN's feed snapshot, disclosed; flagged night_partial (undervote-limited sum, 0.8 percent of precincts out); screenshots mirror/newsbank/scans/recall_20031007_issue20031008_p14_s*.png (s4_panleft shows the full row); reproduction: NewsBank image docref image/v2:142051F45F422A02@EANX-NB-1659AB43EED28678@2452921-165910F452B9DEC5@13; read 2026-07-07"
+   },
+   {
+    "date": "2003-10-08",
+    "days": 1,
+    "total": 233233,
+    "pct": 86.7,
+    "label": "Wayback Machine capture",
+    "citation": "CNN recall results county page mirroring the official feed, Wayback capture 2003-10-10 (reproduction: curl http://web.archive.org/web/20031010053009id_/http://www.cnn.com:80/ELECTION/2003/recall/pages/states/CA/I/01/county.003.html): 'San Francisco updated: 5:28 a.m. Yes 45,783 20% 100% of precincts reporting No 187,450 80%' - the page's times are Eastern Daylight per its header, so 2:28 a.m. Pacific, inside the night cutoff under either timezone reading; recall-question sum 45,783 + 187,450 = 233,233 at 100 percent of precincts, an all-voter undervote-limited floor; supersedes the same night's 99.2-percent-reporting print-edition state (231,712) as the night value; located by the third-party-snapshot vein agent 2026-07-07, mirrored mirror/altweb/2003-10-07/; read 2026-07-07"
    },
    {
     "date": "2003-10-15",
