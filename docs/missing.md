@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**47 San Francisco elections still lack an election-night ballot count — but every one of them has a known final count** (a certified, registrar, or official-canvass total; `recovered = final-only`), so as of July 2026 no election lacks recovered data entirely. The list lives in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**72 San Francisco elections still lack an election-night ballot count — but every one of them has a known final count** (a certified, registrar, or official-canvass total; `recovered = final-only`), so as of July 2026 no election lacks recovered data entirely. The list lives in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 47 elections still missing a night count
+## The 72 elections still missing a night count
 
 | Date | Year | Level | Kind | Final count known? | Description |
 |------|------|-------|------|--------------------|-------------|
@@ -50,13 +50,38 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1887-04-12 | 1887 | municipal | Charter | yes | Amendments and proposed charter — REJECTED; dated April 12 1887 by the registrar cumulative table (vol47 p.277): 25,959 votes |
 | 1890-11-04 | 1890 | both | Gubernatorial + Municipal | yes | Governor + state officers; Mayor (Sanderson) |
 | 1897-12-27 | 1897 | municipal | Charter | yes | Board of Freeholders (draft new charter) |
+| 1899-08-08 | 1899 | municipal | Primary | yes | Municipal primary — registrar cumulative table |
+| 1901-08-13 | 1901 | municipal | Primary | yes | Municipal primary — registrar cumulative table |
+| 1902-08-12 | 1902 | municipal | Primary | yes | State primary — registrar cumulative table (the FY1915-16 index prints Aug. 25; both chronological printings print Aug. 12) |
+| 1903-08-11 | 1903 | municipal | Primary | yes | Municipal primary — registrar cumulative table |
+| 1904-05-03 | 1904 | municipal | Primary | yes | Primary — registrar cumulative table |
+| 1904-08-09 | 1904 | municipal | Primary | yes | State primary — registrar cumulative table |
+| 1905-08-08 | 1905 | municipal | Primary | yes | Municipal primary — FY1915-16 categorized index p.331 (both chronological printings skip this row) |
+| 1906-08-14 | 1906 | municipal | Primary | yes | State primary — registrar cumulative table |
+| 1907-08-13 | 1907 | city | Primary | yes | Municipal primary — registrar cumulative table |
+| 1908-05-05 | 1908 | city | Primary | yes | State primary — registrar cumulative table |
+| 1908-08-11 | 1908 | city | Primary | yes | State primary — registrar cumulative table |
 | 1909-06-22 | 1909 | city | Special | yes |  |
+| 1909-08-17 | 1909 | city | Primary | yes | Municipal primary — registrar cumulative table |
 | 1909-11-02 | 1909 | city | General | yes |  |
 | 1910-01-14 | 1910 | city | Special | yes |  |
+| 1910-08-16 | 1910 | city | Primary | yes | State primary — registrar cumulative table |
+| 1910-11-15 | 1910 | city | Special | yes | Charter amendments, one week after the state general — registrar cumulative table |
+| 1911-09-26 | 1911 | city | Primary | yes | Municipal primary — registrar cumulative table |
 | 1911-10-10 | 1911 | city | Special | yes |  |
+| 1912-05-14 | 1912 | city | Primary | yes | Presidential primary — registrar cumulative table |
+| 1912-09-03 | 1912 | city | Primary | yes | State primary — registrar cumulative table |
+| 1912-12-20 | 1912 | city | Special | yes | General-utilities bonds, ten days after the charter-amendments special — registrar cumulative table |
+| 1913-09-30 | 1913 | city | Primary | yes | Municipal primary — registrar cumulative table |
+| 1913-11-11 | 1913 | city | Municipal | yes | General municipal — registrar cumulative table |
+| 1914-08-25 | 1914 | city | Primary | yes | State primary — registrar cumulative table |
 | 1914-10-08 | 1914 | city | Recall | yes |  |
 | 1915-03-16 | 1915 | city | Special | yes |  |
+| 1915-09-28 | 1915 | city | Primary | yes | Municipal primary — registrar cumulative table |
 | 1915-10-26 | 1915 | city | Special | yes |  |
+| 1915-11-09 | 1915 | city | Municipal | yes | General municipal (Rolph re-elected) — registrar cumulative table |
+| 1916-05-02 | 1916 | city | Primary | yes | Presidential primary — registrar cumulative table |
+| 1916-08-29 | 1916 | city | Primary | yes | State primary — FY1916-17 Municipal Reports canvass |
 | 1922-11-21 | 1922 | city | Special | yes |  |
 | 1944-11-07 | 1944 | city | General | yes |  |
 | 1972-06-06 | 1972 | city | Primary | yes |  |
@@ -1133,3 +1158,78 @@ single-contest totals, not ballots - 1863's '10,147' is a corrupted
 11,147 that exactly matches the official canvass; 1865's '13,770' is
 the post-recount Mayor total) and 1864-05's figure reclassified as
 the official Sheriff contest floor.
+**Update (2026-07-08, the turnout denominator pass: 167 to 249
+turnout points, the universe grows 288 to 314).** Two agent
+recoveries against the Municipal Reports on archive.org. First, the
+full transcription of the Registrar's own cumulative election table
+('Registration and votes cast at each Election since the Act of
+March 18, 1878') - 237 printed rows across the FY1912-13 volume
+(munisanfrancisco62sanfrich pp.260-262), the FY1915-16 volume's
+extended reprint with a percentage column (munisanfrancisco65sanfrich
+pp.327-329) and categorized index (pp.330-332), and the FY1916-17
+canvass. That table carries official per-election REGISTRATION and
+VOTE POLLED for every SF election 1878-1916, specials and primaries
+included, so 49 curated rows now live in
+data/sf_turnout_registrar_1899_1916.csv (the 1878-1898 rows
+cross-check the existing pre-1899 file; all match except a one-digit
+1879 registration variant, 44,764 in three later printings vs the
+FY1888-89 volume's 44,765, which stands). It also surfaced 26
+elections absent from every prior index - the 1899-1916 county-run
+primaries, the Nov 15 1910 charter special a week after the general,
+the Dec 20 1912 general-utilities bond special ten days after the
+charter special, and the 1913-11-11 and 1915-11-09 general
+municipals - all added to the master list as final-only rows, which
+grows the universe from 288 to 314 elections (every one still has a
+recovered final; the zero-data bucket stays empty).
+**Update (2026-07-08, same pass: registration law by era, and reused
+denominators for 1917-1945).** The operator's claim that
+registration was annual proved right in spirit, wrong in period:
+registration was valid per REGISTRATION PERIOD - per general
+election under the March 18, 1878 act (sec. 16: an enrolled elector
+may vote 'at all special elections between said general election
+and the next general election'), per BIENNIUM 1900-1931 (Stats.
+1899 / Pol. Code sec. 1094: complete new registration each even
+year, old affidavits canceled Jan 1, carried over only through
+March 31; sec. 1121: specials use the last-general roll plus a
+supplement), and PERMANENT from Jan 1, 1932 (Prop 14, Nov 1930)
+with a non-voter purge each January of odd years. Within a period
+the roll accretes continuously and closes 30 days before each
+election - which is why the table prints different registration for
+elections two days apart (June 22 vs 24, 1909: 75,679 vs 75,808).
+Full citations in docs/research/registration-law-history-1866-1945.md. Under those rules the
+nearest general's registration is now reused as the denominator for
+34 elections 1917-1945 whose ballots-cast final we hold but whose
+own registration never got an official printing (the Municipal
+Reports series ends FY1916-17 and the DOE table skips most specials
+and municipals): data/sf_turnout_reused_registration_1917_1945.csv,
+each row carrying the era rule and the bias direction (pre-general
+specials and post-purge odd-year specials compute as turnout
+floors). The May and August 1932 specials are deliberately omitted -
+the old biennial roll was canceled Jan 1, 1932 and the permanent
+roll was still forming, so no honest denominator exists.
+**Update (2026-07-08, same pass: four official-final corrections
+from the registrar table).** (1) The DOE turnout table's Nov 3 1908
+row (75,467 / 41,137) actually carries the Nov 12 1908 bond
+special's figures - a mislabel in the DOE's own table, which finally
+explains our old 'DOE 41,137 appears low' note; the general's
+official figures are registration 75,388, total vote polled 61,625,
+so the 1908-11-03 final moves from the SOV President-contest floor
+60,124 to 61,625 (night 36,450 = 59.2 percent). (2) 1912-12-10:
+official total polled 83,850 supersedes the Chronicle's approximate
+'~81,104[?]'. (3) 1913-08-26: official 65,522 supersedes the
+Chronicle's complete overnight 65,478, which stands as a 99.9
+percent night count. (4) 1915-04-20: official Total Vote 73,583
+(twice-attested, canvass table plus the suffrage statement's
+males 50,556 + females 23,027) supersedes the Chronicle's 73,656,
+which included 234 spoiled ballots - the overnight count therefore
+computes to 100.1 percent of the official final, the dataset's first
+night share above 100, disclosed in the row. Also upgraded:
+1905-11-07 registration from vol57's fire-era rounded 98,000 to the
+precise 97,670 in the two later printings; and the 1902-12-04
+printing split re-examined (now 3 later printings for 14,371 vs the
+2 earliest for 14,271 - the earliest-printing rule keeps 14,271, the
+same precedent as the 1896 arbitration). Flagged for operator eyes:
+the 1911-09-26 municipal-primary vote polled, 79,019 per both
+FY1915-16 printings (whose own 77.5 percent column matches exactly)
+vs 78,919 in the FY1912-13 printing - 79,019 ingested; and the
+1905-08-08 primary, printed only in the FY1915-16 index.

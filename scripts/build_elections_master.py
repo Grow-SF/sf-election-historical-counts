@@ -109,6 +109,33 @@ P1 = [
  ("2026-06-02","Primary"),   # upcoming June 2026 primary
 ]
 
+# --- P1R: 1907–1916 elections absent from the DataSF/SFPL indexes, found in the
+# Registrar's cumulative election table, SF Municipal Reports FY1912-13
+# pp.260-262 and FY1915-16 pp.327-332 (full transcription ingested 2026-07-08;
+# see data/sf_turnout_registrar_1899_1916.csv). Mostly primaries (the
+# proposition-based indexes skip them), plus a charter special a week after
+# the 1910 general, a second December 1912 bond special, and the 1913/1915
+# odd-year municipals. (date, kind, description)
+P1R = [
+ ("1907-08-13","Primary","Municipal primary — registrar cumulative table"),
+ ("1908-05-05","Primary","State primary — registrar cumulative table"),
+ ("1908-08-11","Primary","State primary — registrar cumulative table"),
+ ("1909-08-17","Primary","Municipal primary — registrar cumulative table"),
+ ("1910-08-16","Primary","State primary — registrar cumulative table"),
+ ("1910-11-15","Special","Charter amendments, one week after the state general — registrar cumulative table"),
+ ("1911-09-26","Primary","Municipal primary — registrar cumulative table"),
+ ("1912-05-14","Primary","Presidential primary — registrar cumulative table"),
+ ("1912-09-03","Primary","State primary — registrar cumulative table"),
+ ("1912-12-20","Special","General-utilities bonds, ten days after the charter-amendments special — registrar cumulative table"),
+ ("1913-09-30","Primary","Municipal primary — registrar cumulative table"),
+ ("1913-11-11","Municipal","General municipal — registrar cumulative table"),
+ ("1914-08-25","Primary","State primary — registrar cumulative table"),
+ ("1915-09-28","Primary","Municipal primary — registrar cumulative table"),
+ ("1915-11-09","Municipal","General municipal (Rolph re-elected) — registrar cumulative table"),
+ ("1916-05-02","Primary","Presidential primary — registrar cumulative table"),
+ ("1916-08-29","Primary","State primary — FY1916-17 Municipal Reports canvass"),
+]
+
 # --- P2A: CA statewide generals 1849–1906 (date, kind, top office) ---------------
 P2A = [
  ("1849-11-13","General","Governor + Legislature + ratify 1849 Constitution"),
@@ -185,6 +212,17 @@ P2B = [
  ("1897-12-27","Charter","Board of Freeholders (draft new charter)","H"),
  ("1898-05-26","Charter","New (1898/1900) Charter RATIFIED","H"),
  ("1898-11-08","Municipal","Mayor (Phelan re-elected), consolidated onto the state ballot (no separate Nov 1 municipal election; Municipal Reports cumulative table)","H"),
+ # 1899-1906 primaries: county-run party primaries from the Registrar's
+ # cumulative table (ingested 2026-07-08; data/sf_turnout_registrar_1899_1916.csv);
+ # absent from all prior indexes
+ ("1899-08-08","Primary","Municipal primary — registrar cumulative table","H"),
+ ("1901-08-13","Primary","Municipal primary — registrar cumulative table","H"),
+ ("1902-08-12","Primary","State primary — registrar cumulative table (the FY1915-16 index prints Aug. 25; both chronological printings print Aug. 12)","H"),
+ ("1903-08-11","Primary","Municipal primary — registrar cumulative table","H"),
+ ("1904-05-03","Primary","Primary — registrar cumulative table","H"),
+ ("1904-08-09","Primary","State primary — registrar cumulative table","H"),
+ ("1905-08-08","Primary","Municipal primary — FY1915-16 categorized index p.331 (both chronological printings skip this row)","H"),
+ ("1906-08-14","Primary","State primary — registrar cumulative table","H"),
  ("1899-11-07","Municipal","Mayor (Phelan) — 1st under 1898 charter","H"),
  ("1899-12-27","Special","Park-bond special (Municipal Reports cumulative table)","H"),
  ("1899-12-29","Special","Sewer-bond special (the DOE turnout table dates it 1899-12-02; see doe-data-discrepancies.md)","H"),
@@ -215,6 +253,8 @@ def add(date, kind, desc, level, conf, src):
 
 for d, k in P1:
     add(d, k, "", "city", "H", "SFPL/DataSF/DOE")
+for d, k, desc in P1R:
+    add(d, k, desc, "city", "H", "Municipal Reports (registrar cumulative table)")
 for d, k, office in P2A:
     add(d, k, office, "statewide", "H", "Blue Book/SOV/Wikipedia")
 for d, k, what, conf in P2B:
@@ -227,7 +267,8 @@ night = {e["id"]: e.get("nightPct") for e in el}
 # missing, distinguish those whose FINAL count we do hold (a certified or
 # registrar total from any source) from those with no recovered data at all
 finals = set(night)  # every canvass/modern election carries a certified final
-for fn in ("sf_turnout_pre1899.csv", "sf_turnout_1891_1907.csv"):
+for fn in ("sf_turnout_pre1899.csv", "sf_turnout_1891_1907.csv",
+           "sf_turnout_registrar_1899_1916.csv"):
     with open(ROOT / "data" / fn, newline="") as f:
         for r in csv.DictReader(f):
             if r["ballots_cast"]:

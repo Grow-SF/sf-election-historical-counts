@@ -205,7 +205,7 @@
  {
   "id": "funnel-1908",
   "name": "1908 franchise composition (decennial census)",
-  "summary": "population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75,467; voted 60,124",
+  "summary": "population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75,388; voted 61,625",
   "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
   "observations": []
  },
@@ -6946,6 +6946,20 @@
   ]
  },
  {
+  "id": "1916-05-02",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "48,150 ballots cast, 40.5% of 118,927 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "observations": []
+ },
+ {
+  "id": "1915-11-09",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "83,297 ballots cast, 46.2% of 180,204 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "observations": []
+ },
+ {
   "id": "1915-10-26",
   "name": "Special Election (constitutional amendments)",
   "final": 48884,
@@ -6962,16 +6976,23 @@
   ]
  },
  {
+  "id": "1915-09-28",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "119,105 ballots cast, 66.3% of 179,592 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "observations": []
+ },
+ {
   "id": "1915-04-20",
   "name": "Special Election (Spring Valley Water Bond)",
-  "final": 73656,
-  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1915-04-21 p1 \u2014 complete total vote polled 73,656 (single-question bond); scan sweep_19150420_issue19150421_p1_s0",
+  "final": 73583,
+  "finalSource": "SF Municipal Reports Dept of Elections canvass: official Total Vote 73,583 (FY1914-15 munisanfrancisco64sanfrich leaf n539, image https://archive.org/download/munisanfrancisco64sanfrich/page/n539; corroborated by the p.525 suffrage statement, males 50,556 + females 23,027 = 73,583; registration 162,812 per the registrar cumulative table FY1915-16 p.329; ingested 2026-07-08). The Chronicle's complete overnight 73,656 (including 234 spoiled ballots) slightly exceeds the official canvass, so the night share computes to 100.1%.",
   "observations": [
    {
     "date": "1915-04-21",
     "days": 1,
     "total": 73656,
-    "pct": 100.0,
+    "pct": 100.1,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1915-04-21 p1 'TOTAL VOTE ON PURCHASE' \u2014 HAND era, SINGLE-QUESTION \u2192 COMPLETE; Spring Valley $34.5M water purchase For 39,955+Against 33,467 (+234 spoiled)=73,656 total polled (defeated, failed 2/3); full assembly-district breakdown; scan sweep_19150420_issue19150421_p1_s0; conf=high"
    }
@@ -7026,16 +7047,37 @@
   ]
  },
  {
+  "id": "1914-08-25",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "97,417 ballots cast, 66.2% of 147,130 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "observations": []
+ },
+ {
+  "id": "1913-11-11",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "72,551 ballots cast, 49.5% of 146,462 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "observations": []
+ },
+ {
+  "id": "1913-09-30",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "65,905 ballots cast, 46.1% of 143,075 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "observations": []
+ },
+ {
   "id": "1913-08-26",
   "name": "Special Election (Municipal Railway Bond)",
-  "final": 65478,
-  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1913-08-27 p1 \u2014 complete total vote cast 65,478 (single-question bond, all districts); scan sweep_19130826_issue19130827_p1_s0",
+  "final": 65522,
+  "finalSource": "SF Municipal Reports registrar cumulative table: official total vote polled 65,522, registration 141,254 (FY1912-13 munisanfrancisco62sanfrich p.262 leaf n279; FY1915-16 p.329; ingested 2026-07-08). The Chronicle's complete overnight 65,478 stands as the night count (99.9% of official).",
   "observations": [
    {
     "date": "1913-08-27",
     "days": 1,
     "total": 65478,
-    "pct": 100.0,
+    "pct": 99.9,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1913-08-27 p1 \u2014 HAND-COUNT era but SINGLE-QUESTION bond \u2192 COMPLETE overnight; total vote cast 65,478 (Municipal Railway $3.5M bond For 51,649+Against 13,720=65,369; carried 2/3); all 13 assembly districts in; scan sweep_19130826_issue19130827_p1_s0; conf=high"
    }
@@ -7058,16 +7100,23 @@
   ]
  },
  {
+  "id": "1912-12-20",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "47,484 ballots cast, 34.7% of 136,914 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279",
+  "observations": []
+ },
+ {
   "id": "1912-12-10",
   "name": "Special Election (Charter Amendments)",
-  "final": 81104,
-  "finalSource": "SF Chronicle (NewsBank image scan via SFPL), 1912-12-12 p2 'COMPLETE FIGURES ON AMENDMENTS' \u2014 citywide total vote cast ~81,104[?] (~60% of registration; largest complete measure, local-option No.27, 15,087+62,770=77,857); scan sweep_19121210_issue19121212_p2_s0",
+  "final": 83850,
+  "finalSource": "SF Municipal Reports registrar cumulative table: official total vote polled 83,850, registration 136,914 (FY1912-13 munisanfrancisco62sanfrich p.262 leaf n279, image https://archive.org/download/munisanfrancisco62sanfrich/page/n279; FY1915-16 p.329; ingested 2026-07-08). Supersedes the Chronicle 1912-12-12 p2 approximate citywide total '~81,104[?]'; the Chronicle's largest complete measure (77,857) is consistent as a floor.",
   "observations": [
    {
     "date": "1912-12-11",
     "days": 1,
     "total": 22534,
-    "pct": 27.8,
+    "pct": 26.9,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1912-12-11 p2 'Tabulation of the Registrar' \u2014 HAND-COUNT era, PARTIAL 169/479 precincts by morning (~35%); 37 charter amendments; largest measure at the partial stage (Hetch-Hetchy utilities amendment) Yes 9,168+No 13,366=22,534; scan sweep_19121210_issue19121211_p2_s0; conf=high; multi-measure ballot = slow hand count"
    }
@@ -7088,6 +7137,20 @@
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1912-11-06 PRES SF sum=89789, 600/638 precincts, partial; scan sweep_19121105_issue19121106_p2_s0; conf=high; Wilson=43158+Roosevelt=34101+Debs=11459+Chapin=1071=89789;600-of-638-precincts;paper-labels-Roosevelt-as-Rep-but-was-Prog-Bull-Moose;Taft-absent-from-CA-ballot"
    }
   ]
+ },
+ {
+  "id": "1912-09-03",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "65,948 ballots cast, 55.0% of 119,933 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279",
+  "observations": []
+ },
+ {
+  "id": "1912-05-14",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "62,407 ballots cast, 45.7% of 136,490 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279",
+  "observations": []
  },
  {
   "id": "1912-03-29",
@@ -7154,6 +7217,20 @@
   ]
  },
  {
+  "id": "1911-09-26",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "79,019 ballots cast, 77.5% of 101,955 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278; vote polled 79,019 per FY1915-16 printings pp.329+331 whose own 77.5% column matches it exactly; the FY1912-13 printing p.261 prints 78,919 (inter-volume variant, flagged for operator eye-verification)",
+  "observations": []
+ },
+ {
+  "id": "1910-11-15",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "45,889 ballots cast, 60.5% of 75,828 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "observations": []
+ },
+ {
   "id": "1910-11-08",
   "name": "General Election",
   "final": 59724,
@@ -7168,6 +7245,13 @@
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1910-11-09 Governor SF sum=10640, 176/352 precincts, 0.5; scan p3_s0,p5_s0; conf=medium; 176/352 pcts: Johnson(R)=4529,Bell(D)=4354,Wilson(S)=1757; county table SF row dots for pcts-heard but article text explicit 176of352 [DOE turnout table lists this election as 1910-11-01; actual general was Nov 8]"
    }
   ]
+ },
+ {
+  "id": "1910-08-16",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "47,532 ballots cast, 70.4% of 67,513 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "observations": []
  },
  {
   "id": "1910-01-14",
@@ -7216,6 +7300,13 @@
     "citation": "SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1909-11-04: 'the returns were received at 8 o'clock from the last precinct'; 'Out of a total vote of 64,931' with McCarthy 29,437 (operator verified 2026-07-08: total and candidate counts correct), Leland 19,602, Crocker 13,717, every citywide office <= 64,931 - a complete unofficial count reached 8 PM day+1; election night itself was qualitative only ('On the face of the incomplete returns available at midnight, McCarthy won by an indicated plurality of 10,000' - projection class, excluded), so no night point exists; URL https://cdnc.ucr.edu/?a=d&d=SFC19091104.2.18 ; shots mirror/cdnc/SFC19091103/, SFC19091104/; provenance agents/cdnc_1908_1909.md || OFFICIAL DENOMINATOR (reconciliation 2026-07-08): official 65,065, Municipal Reports FY1912-13 p.261 + FY1910-11 p.623 + FY1915-16 index p.331; full provenance scratchpad agents/muni_reports_denominators.md, muni_reports_1859_1877.md, officials_1921_1922.md"
    }
   ]
+ },
+ {
+  "id": "1909-08-17",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "38,317 ballots cast, 45.3% of 84,571 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "observations": []
  },
  {
   "id": "1909-06-24",
@@ -7268,18 +7359,25 @@
  {
   "id": "1908-11-03",
   "name": "Presidential General Election",
-  "final": 60124,
-  "finalSource": "CA SoS Statement of Vote (Gen. Election Nov 3 1908), SF County President 60,124 (Taft 33,184+Bryan 21,260+Debs 4,523+Hisgen 751+Chafin 406). DOE's 41,137 appears low \u2014 it is below the President contest alone (60,124), so for our dataset we use the SOV figure here, pending confirmation. https://archive.org/details/statementofvo19081922cali/page/n5 ; cross-ref Wikipedia 1908 US pres in CA.",
+  "final": 61625,
+  "finalSource": "SF Municipal Reports registrar cumulative table: official total vote polled 61,625, registration 75,388 (FY1912-13 munisanfrancisco62sanfrich p.261 leaf n278, image https://archive.org/download/munisanfrancisco62sanfrich/page/n278; corroborated FY1910-11 p.623; ingested 2026-07-08). Supersedes the SOV President-contest sum 60,124 (a contest floor, used 'pending confirmation'). Mystery resolved: the DOE turnout table's Nov 3 1908 row (75,467/41,137) actually carries the Nov 12 1908 bond special's figures \u2014 a mislabel in the DOE table itself.",
   "observations": [
    {
     "date": "1908-11-04",
     "days": 1,
     "total": 36450,
-    "pct": 60.6,
+    "pct": 59.1,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1908-11-04 PRES SF sum=36450, 300/300 precincts, complete; scan sweep_19081103_issue19081104_p5_s1; conf=low; image-read:Taft~20816+Bryan~15634=36450;minor-parties-not-readable-from-crop;300-precincts=all-SF;39816-is-1904-comparison-col | DENOMINATOR CORRECTED: was DOE 41,137 (appears low); the night box's '300/300 complete' is inconsistent with certified President 60,124, so the night count was PARTIAL not complete; night share recomputed vs SOV (was mislabeled 88.6%)."
    }
   ]
+ },
+ {
+  "id": "1908-08-11",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "22,698 ballots cast, 40.9% of 55,437 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "observations": []
  },
  {
   "id": "1908-05-11",
@@ -7298,6 +7396,13 @@
   ]
  },
  {
+  "id": "1908-05-05",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "24,178 ballots cast, 66.1% of 36,564 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "observations": []
+ },
+ {
   "id": "1907-11-05",
   "name": "Municipal Election",
   "final": 55994,
@@ -7312,6 +7417,13 @@
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1907-11-06 p1 returns box (10pm) \u2014 DEEP HAND-COUNT era; only ~one-fifth of the vote counted by 10pm; Mayor Taylor 6,235+M'Carthy 3,945+Ryan 2,002+Reguin 290=12,472 (matches paper's stated '12,472 ballots ... over one-fifth of the total vote'); 232/273 precincts had begun reporting; scan sweep_19071105_issue19071106_p1_s0; conf=high"
    }
   ]
+ },
+ {
+  "id": "1907-08-13",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "22,851 ballots cast, 37.8% of 60,469 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "observations": []
  },
  {
   "id": "1906-11-06",
@@ -7330,6 +7442,13 @@
   ]
  },
  {
+  "id": "1906-08-14",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "10,824 ballots cast, 49.1% of 22,026 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "observations": []
+ },
+ {
   "id": "1905-11-07",
   "name": "General Municipal Election",
   "final": 71033,
@@ -7346,6 +7465,13 @@
   ]
  },
  {
+  "id": "1905-08-08",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "28,951 ballots cast, 33.3% of 87,062 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n350; printed only in the FY1915-16 categorized index p.331 (both chronological printings skip this row)",
+  "observations": []
+ },
+ {
   "id": "1904-11-08",
   "name": "Presidential General Election",
   "final": 65427,
@@ -7360,6 +7486,20 @@
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1904-11-09 p9 (SF returns section) \u2014 HUMAN-VERIFIED: by early morning the Press Election Bureau had counted ~50,000 votes: Republican electors (Roosevelt) 29,705 + Democrat (Parker) 13,837 + Socialist (Debs) 5,108 + Prohibition (Swallow) 307 = 48,957; hand-count era partial. docref EANX-NB-1532150DC600E112 p9; conf=high"
    }
   ]
+ },
+ {
+  "id": "1904-08-09",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "18,141 ballots cast, 35.8% of 50,708 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "observations": []
+ },
+ {
+  "id": "1904-05-03",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "9,384 ballots cast, 28.7% of 32,721 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "observations": []
  },
  {
   "id": "1903-11-03",
@@ -7418,6 +7558,13 @@
   ]
  },
  {
+  "id": "1903-08-11",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "26,039 ballots cast, 35.5% of 73,280 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "observations": []
+ },
+ {
   "id": "1902-12-04",
   "name": "Special Municipal Election",
   "final": 14271,
@@ -7466,6 +7613,13 @@
   ]
  },
  {
+  "id": "1902-08-12",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "28,697 ballots cast, 55.5% of 51,726 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278; the FY1915-16 index p.331 dates this primary Aug. 25; both chronological printings print Aug. 12, used here",
+  "observations": []
+ },
+ {
   "id": "1901-11-05",
   "name": "General Municipal Election",
   "final": 53746,
@@ -7488,6 +7642,13 @@
     "citation": "SF Call via CDNC (cdnc.ucr.edu), 1901-11-07 'COMPLETE RETURNS OF VOTES CAST AT TUESDAY'S ELECTION' (section SFC19011107.2.3.5): printed 'TOTAL VOTE POLLED 53,493' (verbatim) and printed plurality 4,058; the Schmitz 21,776 + Tobin 12,647 + Ames 912 figures are clean reads while Wells 17,718 and O'Donnell 440 are reconstructions of OCR-garbled cells (two independent methods and arithmetic closure against the printed total agree); a competing prose figure 53,814 exceeds certified and is logged only; 253 below certified; mirror/cdnc/SFC19011107/, read 2026-07-07"
    }
   ]
+ },
+ {
+  "id": "1901-08-13",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "22,939 ballots cast, 30.1% of 76,192 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.260; munisanfrancisco65sanfrich p.327; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n277",
+  "observations": []
  },
  {
   "id": "1900-11-06",
@@ -7560,6 +7721,13 @@
     "citation": "SF Call via CDNC (cdnc.ucr.edu), 1899-11-09 p12 'SEMI-OFFICIAL FIGURES OF THE CITY ELECTION' (section SFC18991109.2.111), semi-official returns from each voting precinct: Mayor sum 51,660 (Phelan 29,228 + Davis 21,303 + Hall 884 + Coburn 162 + Cleveland 83) - Davis cross-checked against the article prose; 305 below certified; mirror/cdnc/SFC18991109/page_12.txt, read 2026-07-07"
    }
   ]
+ },
+ {
+  "id": "1899-08-08",
+  "name": "Certified turnout record \u2014 night count not yet recovered",
+  "summary": "32,521 ballots cast, 52.1% of 62,410 registered",
+  "finalSource": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.260; munisanfrancisco65sanfrich p.327; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n277",
+  "observations": []
  },
  {
   "id": "1898-11-08",

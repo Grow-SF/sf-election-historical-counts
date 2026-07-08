@@ -183,17 +183,19 @@ export function HelpWanted() {
         <div className="mx-auto max-w-5xl px-5 py-12">
           <p className="smallcaps text-gold">open research — help wanted</p>
           <h2 className="mt-2 max-w-3xl text-3xl font-bold leading-tight">
-            49 San Francisco elections are still missing a night count. You
+            72 San Francisco elections are still missing a night count. You
             might find one.
           </h2>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-paper/85">
             The record now runs back to 1860, and every election from 1965
             onward is covered except two documented dead ends (the 1972
-            punch-card debut and the crashed 1994 count). The gaps that remain
-            are mostly nineteenth-century — half sit before 1878 — plus a
-            scatter of early-1900s specials and prewar primaries. None are
-            lost causes: the returns were printed at the time and survive in
-            the newspaper archive. No special skills needed to find them.
+            punch-card debut and the crashed 1994 count). A third of the gaps
+            sit before 1878; most of the rest are the 1899&ndash;1916
+            county-run primaries and specials that the Registrar&rsquo;s own
+            cumulative table surfaced in 2026 (each already has an official
+            final, so only the night count is missing). None are lost causes:
+            the returns were printed at the time and survive in the newspaper
+            archive. No special skills needed to find them.
           </p>
           <ol className="mt-6 max-w-3xl list-decimal space-y-2 pl-5 leading-relaxed text-paper/85">
             <li>

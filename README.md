@@ -169,10 +169,11 @@ uses `tesseract`. None of these binaries are in pyproject; install via brew.)
 
 ## Help us recover the missing elections
 
-**47 San Francisco elections still lack an election-night count** — see
+**72 San Francisco elections still lack an election-night count** — see
 [`data/elections_master.csv`](data/elections_master.csv) (the `recovered=final-only` rows)
-and [`docs/missing.md`](docs/missing.md). Most are pre-1907, above all the 1856–1905 mayoral
-elections. None are lost causes: the returns were printed at the time and survive
+and [`docs/missing.md`](docs/missing.md). A third sit before 1878; most of the rest are the
+1899–1916 county-run primaries and specials the Registrar's cumulative table surfaced in
+July 2026 (every one has an official final; only the night count is missing). None are lost causes: the returns were printed at the time and survive
 in the newspaper archive. You can help find them — no special skills needed.
 
 **How to look:**
@@ -214,14 +215,14 @@ None of these are *impossible* — the returns exist in some edition, microfilm,
 the County Clerk/Registrar's canvass, or the state Statement of Vote; we just
 haven't recovered them yet. The full election-by-election list is now
 [`data/elections_master.csv`](data/elections_master.csv) (built by
-[`scripts/build_elections_master.py`](scripts/build_elections_master.py)) — **288
+[`scripts/build_elections_master.py`](scripts/build_elections_master.py)) — **313
 San Francisco elections, 1849–2026**, each flagged by whether we hold a night
-count: **241 recovered · 47 still missing** — and as of July 2026 every one of the 47
+count: **241 recovered · 72 still missing** — and as of July 2026 every one of the 72
 has at least a known final count; the "no recovered data at all" bucket is empty. The categories below
 summarize the missing. (The total rose in July 2026: the Municipal Reports
 cumulative Registrar tables exposed a spurious index entry, Nov 1 1898, three
 previously unindexed specials, and then four more 1878-1887 elections plus
-true dates for three rejected charters; the July 2026 CDNC sweep then found two more elections no index knew about, a June 24 1909 Geary bond special and a March 29 1912 initiative special, and corrected the 1865 general to Sept 6; the official-canvass sweep that followed found seven more (an 1864 and an 1866 municipal, an 1870 general, 1873 and 1877 judicial elections, a 1910 Spring Valley bond, a 1914 recall and two constitutional-amendment specials) while deleting two index phantoms (a Sept 4 1857 city election held the same day as the state one, and a July 1858 election that never occurred); see the search log.)
+true dates for three rejected charters; the July 2026 CDNC sweep then found two more elections no index knew about, a June 24 1909 Geary bond special and a March 29 1912 initiative special, and corrected the 1865 general to Sept 6; the official-canvass sweep that followed found seven more (an 1864 and an 1866 municipal, an 1870 general, 1873 and 1877 judicial elections, a 1910 Spring Valley bond, a 1914 recall and two constitutional-amendment specials) while deleting two index phantoms (a Sept 4 1857 city election held the same day as the state one, and a July 1858 election that never occurred); and the full transcription of the Registrar's cumulative election table added 25 more that no index carried: the 1899–1916 county-run primaries, a Nov 15 1910 charter special, a Dec 20 1912 bond special, and the 1913 and 1915 general municipals; see the search log.)
 
 **Pre-1892 statewide generals** (certified SF denominators already in hand — see
 [`data/pre1892_certified.md`](data/pre1892_certified.md); only the night count is missing)

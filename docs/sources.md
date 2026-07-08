@@ -2,7 +2,7 @@
 
 # Data sources
 
-Every number in the Long Count dataset traces to a primary source. This file documents all 374 source records — what was consulted, what it established, and where to find it.
+Every number in the Long Count dataset traces to a primary source. This file documents all 398 source records — what was consulted, what it established, and where to find it.
 
 These records were previously displayed on the `/sources` page of the viz app. They now live here as a stable, version-controlled reference in the data repository.
 
@@ -302,7 +302,7 @@ population 434,865; voting-age 214,006; eligible citizens 167,227; registered 13
 
 **ID:** `funnel-1908`
 
-population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75,467; voted 60,124
+population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75,388; voted 61,625
 
 **Source:** IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above
 
@@ -4616,6 +4616,26 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1916-05-02`
+
+48,150 ballots cast, 40.5% of 118,927 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1915-11-09`
+
+83,297 ballots cast, 46.2% of 180,204 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348
+
+---
+
 ### Special Election (constitutional amendments)
 
 **ID:** `1915-10-26`
@@ -4632,19 +4652,29 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1915-09-28`
+
+119,105 ballots cast, 66.3% of 179,592 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348
+
+---
+
 ### Special Election (Spring Valley Water Bond)
 
 **ID:** `1915-04-20`
 
-**Certified final:** 73,656
+**Certified final:** 73,583
 
-**Source:** SF Chronicle (NewsBank image scan via SFPL), 1915-04-21 p1 — complete total vote polled 73,656 (single-question bond); scan sweep_19150420_issue19150421_p1_s0
+**Source:** SF Municipal Reports Dept of Elections canvass: official Total Vote 73,583 (FY1914-15 munisanfrancisco64sanfrich leaf n539, image https://archive.org/download/munisanfrancisco64sanfrich/page/n539; corroborated by the p.525 suffrage statement, males 50,556 + females 23,027 = 73,583; registration 162,812 per the registrar cumulative table FY1915-16 p.329; ingested 2026-07-08). The Chronicle's complete overnight 73,656 (including 234 spoiled ballots) slightly exceeds the official canvass, so the night share computes to 100.1%.
 
 **Observations**
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1915-04-21 | 1 |  | 73,656 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1915-04-21 p1 'TOTAL VOTE ON PURCHASE' — HAND era, SINGLE-QUESTION → COMPLETE; Spring Valley $34.5M water purchase For 39,955+Against 33,467 (+234 spoiled)=73,656 total polled (defeated, failed 2/3); full assembly-district breakdown; scan sweep_19150420_issue19150421_p1_s0; conf=high |
+| 1915-04-21 | 1 |  | 73,656 | 100.1% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1915-04-21 p1 'TOTAL VOTE ON PURCHASE' — HAND era, SINGLE-QUESTION → COMPLETE; Spring Valley $34.5M water purchase For 39,955+Against 33,467 (+234 spoiled)=73,656 total polled (defeated, failed 2/3); full assembly-district breakdown; scan sweep_19150420_issue19150421_p1_s0; conf=high |
 
 ---
 
@@ -4696,19 +4726,49 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1914-08-25`
+
+97,417 ballots cast, 66.2% of 147,130 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1913-11-11`
+
+72,551 ballots cast, 49.5% of 146,462 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1913-09-30`
+
+65,905 ballots cast, 46.1% of 143,075 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348
+
+---
+
 ### Special Election (Municipal Railway Bond)
 
 **ID:** `1913-08-26`
 
-**Certified final:** 65,478
+**Certified final:** 65,522
 
-**Source:** SF Chronicle (NewsBank image scan via SFPL), 1913-08-27 p1 — complete total vote cast 65,478 (single-question bond, all districts); scan sweep_19130826_issue19130827_p1_s0
+**Source:** SF Municipal Reports registrar cumulative table: official total vote polled 65,522, registration 141,254 (FY1912-13 munisanfrancisco62sanfrich p.262 leaf n279; FY1915-16 p.329; ingested 2026-07-08). The Chronicle's complete overnight 65,478 stands as the night count (99.9% of official).
 
 **Observations**
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1913-08-27 | 1 |  | 65,478 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1913-08-27 p1 — HAND-COUNT era but SINGLE-QUESTION bond → COMPLETE overnight; total vote cast 65,478 (Municipal Railway $3.5M bond For 51,649+Against 13,720=65,369; carried 2/3); all 13 assembly districts in; scan sweep_19130826_issue19130827_p1_s0; conf=high |
+| 1913-08-27 | 1 |  | 65,478 | 99.9% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1913-08-27 p1 — HAND-COUNT era but SINGLE-QUESTION bond → COMPLETE overnight; total vote cast 65,478 (Municipal Railway $3.5M bond For 51,649+Against 13,720=65,369; carried 2/3); all 13 assembly districts in; scan sweep_19130826_issue19130827_p1_s0; conf=high |
 
 ---
 
@@ -4728,19 +4788,29 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1912-12-20`
+
+47,484 ballots cast, 34.7% of 136,914 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279
+
+---
+
 ### Special Election (Charter Amendments)
 
 **ID:** `1912-12-10`
 
-**Certified final:** 81,104
+**Certified final:** 83,850
 
-**Source:** SF Chronicle (NewsBank image scan via SFPL), 1912-12-12 p2 'COMPLETE FIGURES ON AMENDMENTS' — citywide total vote cast ~81,104[?] (~60% of registration; largest complete measure, local-option No.27, 15,087+62,770=77,857); scan sweep_19121210_issue19121212_p2_s0
+**Source:** SF Municipal Reports registrar cumulative table: official total vote polled 83,850, registration 136,914 (FY1912-13 munisanfrancisco62sanfrich p.262 leaf n279, image https://archive.org/download/munisanfrancisco62sanfrich/page/n279; FY1915-16 p.329; ingested 2026-07-08). Supersedes the Chronicle 1912-12-12 p2 approximate citywide total '~81,104[?]'; the Chronicle's largest complete measure (77,857) is consistent as a floor.
 
 **Observations**
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1912-12-11 | 1 |  | 22,534 | 27.8% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1912-12-11 p2 'Tabulation of the Registrar' — HAND-COUNT era, PARTIAL 169/479 precincts by morning (~35%); 37 charter amendments; largest measure at the partial stage (Hetch-Hetchy utilities amendment) Yes 9,168+No 13,366=22,534; scan sweep_19121210_issue19121211_p2_s0; conf=high; multi-measure ballot = slow hand count |
+| 1912-12-11 | 1 |  | 22,534 | 26.9% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1912-12-11 p2 'Tabulation of the Registrar' — HAND-COUNT era, PARTIAL 169/479 precincts by morning (~35%); 37 charter amendments; largest measure at the partial stage (Hetch-Hetchy utilities amendment) Yes 9,168+No 13,366=22,534; scan sweep_19121210_issue19121211_p2_s0; conf=high; multi-measure ballot = slow hand count |
 
 ---
 
@@ -4757,6 +4827,26 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1912-11-06 | 1 |  | 89,789 | 85.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1912-11-06 PRES SF sum=89789, 600/638 precincts, partial; scan sweep_19121105_issue19121106_p2_s0; conf=high; Wilson=43158+Roosevelt=34101+Debs=11459+Chapin=1071=89789;600-of-638-precincts;paper-labels-Roosevelt-as-Rep-but-was-Prog-Bull-Moose;Taft-absent-from-CA-ballot |
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1912-09-03`
+
+65,948 ballots cast, 55.0% of 119,933 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1912-05-14`
+
+62,407 ballots cast, 45.7% of 136,490 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279
 
 ---
 
@@ -4824,6 +4914,26 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1911-09-26`
+
+79,019 ballots cast, 77.5% of 101,955 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278; vote polled 79,019 per FY1915-16 printings pp.329+331 whose own 77.5% column matches it exactly; the FY1912-13 printing p.261 prints 78,919 (inter-volume variant, flagged for operator eye-verification)
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1910-11-15`
+
+45,889 ballots cast, 60.5% of 75,828 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
+
+---
+
 ### General Election
 
 **ID:** `1910-11-08`
@@ -4837,6 +4947,16 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1910-11-09 | 1 |  | 10,640 | 17.8% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1910-11-09 Governor SF sum=10640, 176/352 precincts, 0.5; scan p3_s0,p5_s0; conf=medium; 176/352 pcts: Johnson(R)=4529,Bell(D)=4354,Wilson(S)=1757; county table SF row dots for pcts-heard but article text explicit 176of352 [DOE turnout table lists this election as 1910-11-01; actual general was Nov 8] |
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1910-08-16`
+
+47,532 ballots cast, 70.4% of 67,513 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
 
 ---
 
@@ -4885,6 +5005,16 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1909-11-03 | 1 |  | 64,931 | 99.8% | cdnc-ocr — SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1909-11-04: 'the returns were received at 8 o'clock from the last precinct'; 'Out of a total vote of 64,931' with McCarthy 29,437 (operator verified 2026-07-08: total and candidate counts correct), Leland 19,602, Crocker 13,717, every citywide office <= 64,931 - a complete unofficial count reached 8 PM day+1; election night itself was qualitative only ('On the face of the incomplete returns available at midnight, McCarthy won by an indicated plurality of 10,000' - projection class, excluded), so no night point exists; URL https://cdnc.ucr.edu/?a=d&d=SFC19091104.2.18 ; shots mirror/cdnc/SFC19091103/, SFC19091104/; provenance agents/cdnc_1908_1909.md &#124;&#124; OFFICIAL DENOMINATOR (reconciliation 2026-07-08): official 65,065, Municipal Reports FY1912-13 p.261 + FY1910-11 p.623 + FY1915-16 index p.331; full provenance scratchpad agents/muni_reports_denominators.md, muni_reports_1859_1877.md, officials_1921_1922.md |
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1909-08-17`
+
+38,317 ballots cast, 45.3% of 84,571 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
 
 ---
 
@@ -4940,15 +5070,25 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **ID:** `1908-11-03`
 
-**Certified final:** 60,124
+**Certified final:** 61,625
 
-**Source:** CA SoS Statement of Vote (Gen. Election Nov 3 1908), SF County President 60,124 (Taft 33,184+Bryan 21,260+Debs 4,523+Hisgen 751+Chafin 406). DOE's 41,137 appears low — it is below the President contest alone (60,124), so for our dataset we use the SOV figure here, pending confirmation. https://archive.org/details/statementofvo19081922cali/page/n5 ; cross-ref Wikipedia 1908 US pres in CA.
+**Source:** SF Municipal Reports registrar cumulative table: official total vote polled 61,625, registration 75,388 (FY1912-13 munisanfrancisco62sanfrich p.261 leaf n278, image https://archive.org/download/munisanfrancisco62sanfrich/page/n278; corroborated FY1910-11 p.623; ingested 2026-07-08). Supersedes the SOV President-contest sum 60,124 (a contest floor, used 'pending confirmation'). Mystery resolved: the DOE turnout table's Nov 3 1908 row (75,467/41,137) actually carries the Nov 12 1908 bond special's figures — a mislabel in the DOE table itself.
 
 **Observations**
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1908-11-04 | 1 |  | 36,450 | 60.6% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1908-11-04 PRES SF sum=36450, 300/300 precincts, complete; scan sweep_19081103_issue19081104_p5_s1; conf=low; image-read:Taft~20816+Bryan~15634=36450;minor-parties-not-readable-from-crop;300-precincts=all-SF;39816-is-1904-comparison-col &#124; DENOMINATOR CORRECTED: was DOE 41,137 (appears low); the night box's '300/300 complete' is inconsistent with certified President 60,124, so the night count was PARTIAL not complete; night share recomputed vs SOV (was mislabeled 88.6%). |
+| 1908-11-04 | 1 |  | 36,450 | 59.1% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1908-11-04 PRES SF sum=36450, 300/300 precincts, complete; scan sweep_19081103_issue19081104_p5_s1; conf=low; image-read:Taft~20816+Bryan~15634=36450;minor-parties-not-readable-from-crop;300-precincts=all-SF;39816-is-1904-comparison-col &#124; DENOMINATOR CORRECTED: was DOE 41,137 (appears low); the night box's '300/300 complete' is inconsistent with certified President 60,124, so the night count was PARTIAL not complete; night share recomputed vs SOV (was mislabeled 88.6%). |
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1908-08-11`
+
+22,698 ballots cast, 40.9% of 55,437 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
 
 ---
 
@@ -4968,6 +5108,16 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1908-05-05`
+
+24,178 ballots cast, 66.1% of 36,564 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
+
+---
+
 ### Municipal Election
 
 **ID:** `1907-11-05`
@@ -4981,6 +5131,16 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1907-11-06 | 1 |  | 12,472 | 22.3% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1907-11-06 p1 returns box (10pm) — DEEP HAND-COUNT era; only ~one-fifth of the vote counted by 10pm; Mayor Taylor 6,235+M'Carthy 3,945+Ryan 2,002+Reguin 290=12,472 (matches paper's stated '12,472 ballots ... over one-fifth of the total vote'); 232/273 precincts had begun reporting; scan sweep_19071105_issue19071106_p1_s0; conf=high |
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1907-08-13`
+
+22,851 ballots cast, 37.8% of 60,469 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
 
 ---
 
@@ -5000,6 +5160,16 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1906-08-14`
+
+10,824 ballots cast, 49.1% of 22,026 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
+
+---
+
 ### General Municipal Election
 
 **ID:** `1905-11-07`
@@ -5016,6 +5186,16 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1905-08-08`
+
+28,951 ballots cast, 33.3% of 87,062 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n350; printed only in the FY1915-16 categorized index p.331 (both chronological printings skip this row)
+
+---
+
 ### Presidential General Election
 
 **ID:** `1904-11-08`
@@ -5029,6 +5209,26 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1904-11-09 | 1 |  | 48,957 | 74.8% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle (NewsBank image scan via SFPL), 1904-11-09 p9 (SF returns section) — HUMAN-VERIFIED: by early morning the Press Election Bureau had counted ~50,000 votes: Republican electors (Roosevelt) 29,705 + Democrat (Parker) 13,837 + Socialist (Debs) 5,108 + Prohibition (Swallow) 307 = 48,957; hand-count era partial. docref EANX-NB-1532150DC600E112 p9; conf=high |
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1904-08-09`
+
+18,141 ballots cast, 35.8% of 50,708 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1904-05-03`
+
+9,384 ballots cast, 28.7% of 32,721 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
 
 ---
 
@@ -5081,6 +5281,16 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1903-08-11`
+
+26,039 ballots cast, 35.5% of 73,280 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
+
+---
+
 ### Special Municipal Election
 
 **ID:** `1902-12-04`
@@ -5129,6 +5339,16 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1902-08-12`
+
+28,697 ballots cast, 55.5% of 51,726 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278; the FY1915-16 index p.331 dates this primary Aug. 25; both chronological printings print Aug. 12, used here
+
+---
+
 ### General Municipal Election
 
 **ID:** `1901-11-05`
@@ -5143,6 +5363,16 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1901-11-06 | 1 |  | 38,982 | 72.5% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1901-11-06 'INCOMPLETE RETURNS OF THE LOCAL ELECTION AS COMPILED TO 1:30 THIS MORNING' (section SFC19011106.2.7): Mayor 4-candidate sum 38,982 (Wells 15,253 + Schmitz 14,591 + Tobin 8,646 + Ames 492; O'Donnell illegible, excluded) - press-deadline partial, flagged night_partial; mirror/cdnc/SFC19011106/, read 2026-07-07 |
 | 1901-11-07 | 2 |  | 53,493 | 99.5% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1901-11-07 'COMPLETE RETURNS OF VOTES CAST AT TUESDAY'S ELECTION' (section SFC19011107.2.3.5): printed 'TOTAL VOTE POLLED 53,493' (verbatim) and printed plurality 4,058; the Schmitz 21,776 + Tobin 12,647 + Ames 912 figures are clean reads while Wells 17,718 and O'Donnell 440 are reconstructions of OCR-garbled cells (two independent methods and arithmetic closure against the printed total agree); a competing prose figure 53,814 exceeds certified and is logged only; 253 below certified; mirror/cdnc/SFC19011107/, read 2026-07-07 |
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1901-08-13`
+
+22,939 ballots cast, 30.1% of 76,192 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.260; munisanfrancisco65sanfrich p.327; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n277
 
 ---
 
@@ -5208,6 +5438,16 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1899-11-08 | 1 |  | 35,055 | 67.5% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1899-11-08 p1 'THE COUNT.' (section SFC18991108.2.2.2), timestamped 2:15am, all but fifteen precincts reporting (hand-count era, precinct returns themselves partial): full Mayor sum, operator hand-read of the page image 2026-07-07 settling the two OCR-garbled figures (Davis 14,690 where OCR gave '14.6r<'; Phelan 19,907 where OCR gave 19,901) plus image-read Cleveland 111, Hall 283, Coburn 64 = 35,055 - conservative night floor; proportionally consistent with the day-2 semi-official per-candidate figures (night is about 68 percent of each candidate's Nov 9 total); flagged night_partial; page image screenshots mirror/cdnc/SFC18991108/shot_section_2.2.2_thecount.png and _v2.png (the v2 recapture renders the final-digit column the first export left as an unrendered tile band; the print itself is ink-blobbed on those digits, and the operator's read was made in the live CDNC viewer), OCR mirror/cdnc/SFC18991108/page_1.txt, read 2026-07-07 |
 | 1899-11-09 | 2 |  | 51,660 | 99.4% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1899-11-09 p12 'SEMI-OFFICIAL FIGURES OF THE CITY ELECTION' (section SFC18991109.2.111), semi-official returns from each voting precinct: Mayor sum 51,660 (Phelan 29,228 + Davis 21,303 + Hall 884 + Coburn 162 + Cleveland 83) - Davis cross-checked against the article prose; 305 below certified; mirror/cdnc/SFC18991109/page_12.txt, read 2026-07-07 |
+
+---
+
+### Certified turnout record — night count not yet recovered
+
+**ID:** `1899-08-08`
+
+32,521 ballots cast, 52.1% of 62,410 registered
+
+**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.260; munisanfrancisco65sanfrich p.327; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n277
 
 ---
 

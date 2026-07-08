@@ -4021,7 +4021,7 @@
   "kind": "Municipal",
   "year": 1905,
   "final": 71033,
-  "registered": 98000,
+  "registered": 97670,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
@@ -4259,18 +4259,18 @@
   "name": "Presidential General Election",
   "kind": "General",
   "year": 1908,
-  "final": 60124,
-  "registered": 75467,
+  "final": 61625,
+  "registered": 75388,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 60.6,
+  "nightPct": 59.1,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    60.6,
+    59.1,
     null,
     null
    ]
@@ -4281,10 +4281,6 @@
     "bound": true
    },
    "55": {
-    "days": 1,
-    "bound": true
-   },
-   "60": {
     "days": 1,
     "bound": true
    }
@@ -5067,18 +5063,18 @@
   "name": "Special Election (Charter Amendments)",
   "kind": "Special",
   "year": 1912,
-  "final": 81104,
+  "final": 83850,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 27.8,
+  "nightPct": 26.9,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    27.8,
+    26.9,
     null,
     null
    ]
@@ -5166,18 +5162,18 @@
   "name": "Special Election (Municipal Railway Bond)",
   "kind": "Special",
   "year": 1913,
-  "final": 65478,
+  "final": 65522,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 100.0,
+  "nightPct": 99.9,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    100.0,
+    99.9,
     null,
     null
    ]
@@ -5401,18 +5397,18 @@
   "name": "Special Election (Spring Valley Water Bond)",
   "kind": "Special",
   "year": 1915,
-  "final": 73656,
+  "final": 73583,
   "registered": null,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 100.0,
+  "nightPct": 100.1,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    100.0,
+    100.1,
     null,
     null
    ]

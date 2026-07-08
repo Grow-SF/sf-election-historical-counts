@@ -445,6 +445,25 @@ def main():
             turnout[date] = {"date": date, "turnoutPct": round(100 * bal / reg_i, 1),
                              "registered": reg_i, "ballots": bal,
                              "source": "doe-turnout-table"}
+    # 1899-1916: the Registrar's own cumulative table (Municipal Reports), the
+    # primary official series - overrides the DOE table where they disagree
+    # (the DOE table's 1908-11-03 row actually carries the Nov 12 1908 bond
+    # special's figures; its 1903-10-08 and 1912-11-05 rows are off by a few
+    # digits from the registrar's printing). Dates already adjudicated in
+    # sf_turnout_1891_1907.csv are excluded from this file so operator rulings
+    # there stand.
+    registrar_csv = ROOT / "data" / "sf_turnout_registrar_1899_1916.csv"
+    if registrar_csv.exists():
+        with open(registrar_csv, newline="") as f:
+            for r in csv.DictReader(f):
+                if not r["registration"]:
+                    continue  # 1916-08-29 prints ballots only
+                reg_i, bal = int(r["registration"]), int(r["ballots_cast"])
+                turnout[r["election_date"]] = {"date": r["election_date"],
+                    "turnoutPct": round(100 * bal / reg_i, 1),
+                    "registered": reg_i, "ballots": bal,
+                    "source": "muni-registrar",
+                    "cite": r["source"]}
     # certified finals (exact 2012+, archival 2002-2014) override the table
     for e in out:
         if e["registered"]:
@@ -452,6 +471,30 @@ def main():
                                 "turnoutPct": round(100 * e["final"] / e["registered"], 1),
                                 "registered": e["registered"], "ballots": e["final"],
                                 "source": e["source"]}
+    # 1917-1945: elections whose ballots-cast final we hold but for which no
+    # official per-election registration survives (the Municipal Reports series
+    # ends FY1916-17 and the DOE table skips most specials/municipals). Per the
+    # era registration law (biennial rolls 1900-1931, permanent-with-purges from
+    # 1932; research logged 2026-07-08), the nearest general's registration is
+    # reused as the denominator; each row carries the era rule and bias
+    # direction. The 1932 May/Aug specials are deliberately absent: the old
+    # roll was canceled Jan 1, 1932 and the permanent roll was still forming.
+    reused_csv = ROOT / "data" / "sf_turnout_reused_registration_1917_1945.csv"
+    if reused_csv.exists():
+        final_by_id = {e["id"]: e["final"] for e in out if e.get("final")}
+        with open(reused_csv, newline="") as f:
+            for r in csv.DictReader(f):
+                date = r["election_date"]
+                bal = final_by_id.get(date)
+                if bal is None:
+                    continue  # no recovered final for this date (yet)
+                reg_i = int(r["registration"])
+                notes = "; ".join(x for x in (r["turnout_note"], r["ballots_note"]) if x)
+                turnout[date] = {"date": date,
+                    "turnoutPct": round(100 * bal / reg_i, 1),
+                    "registered": reg_i, "ballots": bal,
+                    "source": "reused-registration",
+                    "cite": f"{r['registration_basis']}; {r['era_rule']}; {notes}"}
     for tp in turnout.values():
         tp["kind"] = kind_by_id.get(tp["date"]) or kind_for_date(tp["date"])
     tn = sorted(turnout.values(), key=lambda x: x["date"])
@@ -568,7 +611,10 @@ def main():
         "doe-turnout-history": "SF Dept. of Elections turnout history (1960–2002)",
         "certified-sov": "Certified Statement of Vote (CA Secretary of State / SF Dept. of Elections)",
         "doe-turnout-table": "SF Dept. of Elections historical turnout table (1899–2019)",
-        "muni-registrar": "SF Municipal Reports — Registrar of Voters (1879–1890)",
+        "muni-registrar": "SF Municipal Reports — Registrar of Voters (1879–1916)",
+        "reused-registration": ("nearest general election's registration, reused per era "
+                                "registration law (biennial rolls 1900–1931, permanent from "
+                                "1932); turnout approximate"),
     }
     have = {s["id"] for s in sources}
     # (a) certified turnout dates without a recovered night count: the in-person
