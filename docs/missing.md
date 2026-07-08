@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**47 San Francisco elections still lack an election-night ballot count.** For 47 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 0 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**47 San Francisco elections still lack an election-night ballot count — but every one of them has a known final count** (a certified, registrar, or official-canvass total; `recovered = final-only`), so as of July 2026 no election lacks recovered data entirely. The list lives in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
