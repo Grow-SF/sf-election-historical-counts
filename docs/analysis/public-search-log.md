@@ -764,3 +764,59 @@ arrow-key pan (the keys silently no-op if the canvas loses focus),
 and zoom in once before reading digits. The 1985-2026 era is now
 complete except for the five pre-1985 stragglers (1984-06, 1982-11,
 1982-06, 1977-08, 1972-06).
+**Finding, not a night count (2026-07-08, June 1984: the ELECTION
+SPECIAL edition).** Walking backward past November 1986, the June 6
+1984 issue in NewsBank's image collection turns out to be an ELECTION
+SPECIAL edition ('MONDALE: I'VE WON' front page), and its page 2 'HOW
+SAN FRANCISCO VOTED' table prints the count COMPLETE: every citywide
+block at 708 of 708 precincts, City Prop B (Police Night Pay) YES
+81,436 + NO 73,756 = 155,192, identical to the E+2 table already in
+the dataset (the June 7 paper p20). This does NOT create a night
+point: the regular June 6 edition's box (read in an earlier pass)
+showed only Prop 24 counted, at 67 percent of precincts, and the
+November 1986 comparison (still 611 of 710 at morning press) makes a
+pre-dawn completion implausible; the special is a later-press extra
+with an unknown hour, likely past the 06:00 night cutoff. Recorded as
+day-1 corroboration of the existing 155,192 floor. The true
+election-night state of June 1984 remains the early box's Prop 24 at
+67 percent, whose sum (36,573) is too small to be useful. June 1984
+stays missing a night count pending a source with a clocked overnight
+figure. Reproduction: NewsBank image-edition alltext search 'SAN
+FRANCISCO VOTED' (quoted) scoped to SF Chronicle 1984-06-06, single
+hit page 2; the front page (page 1 of the same scan) carries the
+ELECTION SPECIAL banner.
+**Dead end confirmed (2026-07-08, November 1982: the ELECTION EXTRA).**
+The Nov 3 1982 issue in NewsBank's image collection carries an
+ELECTION EXTRA banner on its front page ('WILSON WINS IT'), and its
+page 5 'HOW SAN FRANCISCO VOTED' table is headed '100 percent of
+vote': like June 1984's ELECTION SPECIAL, the digitized issue is a
+post-completion late run whose press hour cannot be placed before the
+06:00 night cutoff. Its GOVERNOR field sums to 224,633 (Bradley
+149,699 + Deukmejian 67,973 + Dougherty 2,780 + Martinez 3,170 +
+Griffin 1,011), which corroborates but does not beat the dataset's
+existing day-1 floor for this election (230,991, the same issue's
+'8,000 absentee ballots... counted later this week' conversion,
+stamped 08:00). November 1982 stays without a night count; what would
+resolve it is the REGULAR final edition of Nov 3 (not digitized in
+NewsBank, which holds the extra) or a wire snapshot with a clocked
+partial. Reproduction: NewsBank image-edition alltext search 'SAN
+FRANCISCO VOTED' (quoted) scoped to SF Chronicle 1982-11-03, single
+hit page 5; page 1 of the same scan shows the ELECTION EXTRA banner.
+**Update (2026-07-08, June 1982: the 64-percent morning table, the
+213th night count).** Unlike its November sibling (an ELECTION EXTRA)
+and June 1984 (an ELECTION SPECIAL), the June 9 1982 issue's page 8
+'HOW SAN FRANCISCO VOTED' table is a genuine mid-count snapshot,
+headed '64% of vote', which itself rules out a post-completion extra:
+extras print more counted, not less. Propositions appear on every
+ballot regardless of party, so the largest all-voter sum is the night
+floor: state Prop 9, the Peripheral Canal referendum, YES 4,351 + NO
+91,931 = 96,282 (San Francisco rejected the canal 95 to 5), 54.6
+percent of the certified 176,381, dimmed as a contest sum, stamped
+with the disclosed 03:00 morning-press convention. It sits cleanly
+against the existing day-2 floor (93,431, a Democratic-governor
+party-subset at 100 percent, a smaller basis) and the 64-percent
+state (64 percent of certified is 112,884, above the floor, as
+required). Reproduction: NewsBank image-edition alltext search 'SAN
+FRANCISCO VOTED' (quoted) scoped to SF Chronicle 1982-06-09, single
+hit page 8. Method note: in primary-election tables the party
+contests are subsets; read the propositions columns first.

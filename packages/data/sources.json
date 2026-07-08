@@ -5097,6 +5097,14 @@
   "observations": [
    {
     "date": "1982-06-09",
+    "days": 1,
+    "total": 96282,
+    "pct": 54.6,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle print edition via NewsBank page image (SFPL ezproxy), 1982-06-09 'HOW SAN FRANCISCO VOTED' table, p8 of the scanned issue, table headed '64% of vote' (operator-directed backward walk, read live 2026-07-08): state Prop 9 (Peripheral Canal) YES 4,351 + NO 91,931 = 96,282, the largest all-voter contest sum in the table (city Prop C sums 88,040, Prop 4 sums 88,100, Democratic Governor field sums 55,715+; nonpartisan ASSESSOR single-candidate 54,384 unusable); propositions are on every ballot regardless of party, so the sum is an all-voter undervote-limited night floor at the table's 64-percent count state; flagged night_partial; no hour printed, the 03:00 press-time stamp is the dataset convention, disclosed, and the partial count state itself rules out a post-completion extra edition (the Nov 1982 and Jun 1984 scans are completion extras; this one is not); consistent with the existing day-2 party-subset floor 93,431 (Democratic governor primary at 100 percent, smaller basis) and the certified 176,381; reproduction: NewsBank image-edition alltext search 'SAN FRANCISCO VOTED' (quoted) scoped to SF Chronicle 1982-06-09, single hit p8, zoom in once, right-hand STATE PROPOSITIONS column; read 2026-07-08"
+   },
+   {
+    "date": "1982-06-09",
     "days": 2,
     "total": 93431,
     "pct": 53.0,

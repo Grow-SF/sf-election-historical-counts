@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**67 San Francisco elections still lack an election-night ballot count.** For 19 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**66 San Francisco elections still lack an election-night ballot count.** For 18 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 67 elections still missing a night count
+## The 66 elections still missing a night count
 
 | Date | Year | Level | Kind | Final count known? | Description |
 |------|------|-------|------|--------------------|-------------|
@@ -77,7 +77,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1945-11-06 | 1945 | city | Municipal | no |  |
 | 1972-06-06 | 1972 | city | Primary | yes |  |
 | 1977-08-02 | 1977 | city | Special | yes |  |
-| 1982-06-08 | 1982 | city | Primary | yes |  |
 | 1982-11-02 | 1982 | city | General | yes |  |
 | 1984-06-05 | 1984 | city | Primary | yes |  |
 | 1994-11-08 | 1994 | city | General | yes |  |
@@ -827,3 +826,64 @@ hunt is likewise day-1 state, not election night; nothing in the Nov
 'precincts reporting' scoped to the date. November 1994 stays in the
 missing set pending a different vein (wire copy with a timestamped SF
 figure, or the Examiner's own Nov 9 morning run if one exists).
+**Update (2026-07-08, November 1986: the whole ballot, summed and
+beaten by the Senate race).** The operator hand-read hunt that stalled
+at the page edge finished today: the Nov 5 1986 Chronicle's page 10
+'HOW SAN FRANCISCO VOTED' table (found via the quoted alltext search
+'SAN FRANCISCO VOTED' scoped to the date, a single hit) prints every
+contest at '611 of 710 precincts reporting', and this time the whole
+statewide column was read in the live viewer. The U.S. SENATOR field
+is the page's largest single-vote sum: Cranston 143,953 + Zschau
+47,667 + McKinley 1,159 + Kangas 1,076 + Vallen 932 = 194,787, edging
+the GOVERNOR field's 192,367 and well above the Bird confirmation's
+180,053 and every proposition (Prop 64, the AIDS quarantine measure,
+tops those at 181,058). That is an 82.2 percent night floor against
+the certified 236,863, dimmed as a contest sum, the 212th recovered
+night count; the same page's board-president story corroborates the
+state: 'With nearly 80 percent of the vote counted last night, Walker
+led the pack of 19 candidates.' It slots monotonically under the
+repo's existing day-2 Governor sum (222,403 at 710 of 710). Method
+note for future agents: the NewsBank viewer viewport clips the
+table's left column at default position; click the canvas, then
+arrow-key pan (the keys silently no-op if the canvas loses focus),
+and zoom in once before reading digits. The 1985-2026 era is now
+complete except for the five pre-1985 stragglers (1984-06, 1982-11,
+1982-06, 1977-08, 1972-06).
+**Finding, not a night count (2026-07-08, June 1984: the ELECTION
+SPECIAL edition).** Walking backward past November 1986, the June 6
+1984 issue in NewsBank's image collection turns out to be an ELECTION
+SPECIAL edition ('MONDALE: I'VE WON' front page), and its page 2 'HOW
+SAN FRANCISCO VOTED' table prints the count COMPLETE: every citywide
+block at 708 of 708 precincts, City Prop B (Police Night Pay) YES
+81,436 + NO 73,756 = 155,192, identical to the E+2 table already in
+the dataset (the June 7 paper p20). This does NOT create a night
+point: the regular June 6 edition's box (read in an earlier pass)
+showed only Prop 24 counted, at 67 percent of precincts, and the
+November 1986 comparison (still 611 of 710 at morning press) makes a
+pre-dawn completion implausible; the special is a later-press extra
+with an unknown hour, likely past the 06:00 night cutoff. Recorded as
+day-1 corroboration of the existing 155,192 floor. The true
+election-night state of June 1984 remains the early box's Prop 24 at
+67 percent, whose sum (36,573) is too small to be useful. June 1984
+stays missing a night count pending a source with a clocked overnight
+figure. Reproduction: NewsBank image-edition alltext search 'SAN
+FRANCISCO VOTED' (quoted) scoped to SF Chronicle 1984-06-06, single
+hit page 2; the front page (page 1 of the same scan) carries the
+ELECTION SPECIAL banner.
+**Dead end confirmed (2026-07-08, November 1982: the ELECTION EXTRA).**
+The Nov 3 1982 issue in NewsBank's image collection carries an
+ELECTION EXTRA banner on its front page ('WILSON WINS IT'), and its
+page 5 'HOW SAN FRANCISCO VOTED' table is headed '100 percent of
+vote': like June 1984's ELECTION SPECIAL, the digitized issue is a
+post-completion late run whose press hour cannot be placed before the
+06:00 night cutoff. Its GOVERNOR field sums to 224,633 (Bradley
+149,699 + Deukmejian 67,973 + Dougherty 2,780 + Martinez 3,170 +
+Griffin 1,011), which corroborates but does not beat the dataset's
+existing day-1 floor for this election (230,991, the same issue's
+'8,000 absentee ballots... counted later this week' conversion,
+stamped 08:00). November 1982 stays without a night count; what would
+resolve it is the REGULAR final edition of Nov 3 (not digitized in
+NewsBank, which holds the extra) or a wire snapshot with a clocked
+partial. Reproduction: NewsBank image-edition alltext search 'SAN
+FRANCISCO VOTED' (quoted) scoped to SF Chronicle 1982-11-03, single
+hit page 5; page 1 of the same scan shows the ELECTION EXTRA banner.

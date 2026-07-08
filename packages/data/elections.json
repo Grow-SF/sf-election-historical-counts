@@ -8617,11 +8617,17 @@
   "registered": 344483,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 54.6,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    54.6,
+    null,
+    null
+   ],
    [
     0.88,
     53.0,
@@ -8635,7 +8641,7 @@
     "bound": true
    }
   },
-  "nightSrc": null,
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
