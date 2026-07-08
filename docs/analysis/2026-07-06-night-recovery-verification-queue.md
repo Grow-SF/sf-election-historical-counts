@@ -149,3 +149,14 @@ agent salvage files under the session scratchpad (agents/cdnc_*.md).
    certified totals (DOE table is thin before 1899 and skips specials);
    the Municipal Reports registrar tables are the likely source, as in
    the vol47 recovery.
+6. **1859-1865 CDNC finds** (salvage cdnc_1859_1865.md): all ten
+   elections recovered. Highlights: 1864-11 night-era total 21,024
+   (margin-locked); 1860-11 TRUE MIDNIGHT STATE, 9,224 of 14,415 counted
+   (64.0 percent, both checks exact); 1861-09 2:30am count 15,053 vs
+   complete 15,154-sum (99.3 percent overnight); 1859/1861-05/1863 x2/
+   1865 x2 with flagged digits for hand-read (list in the salvage file).
+   PLUS a date correction: the 1865 general was Sept 6, not Sept 5
+   (master index fix needed). Bonus denominators: May 1864 ~13,885, May
+   1865 = 14,196, and 1856-1865 citywide vote-by-year tables printed in
+   the Sept 1863 and Sept 1865 Alta issues (could fill several pre-1867
+   'no data' rows).

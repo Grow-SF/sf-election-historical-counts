@@ -886,3 +886,18 @@ edition sequence. November 1982's ELECTION EXTRA remains open for
 the same adjudication: if that extra is likewise a Wednesday-morning
 run, its '8,000 absentees remain' conversion (230,991, 96.7 percent)
 would re-stamp to night as well; the operator has the scan open.
+**Retry, still dry (2026-07-08, November 1994 second pass, the
+multi-paper vein).** Operator-requested retry of the 1994 night hunt
+through the ~90-paper NewsBank text sweep that filled the 1987, 1993
+and 1995 gaps. Queries scoped to 1994-11-09 and -11-10 across all
+sources: quoted '576 precincts' (three hits, all out-of-state noise),
+'county-by-county' + Feinstein (zero), 'precincts in San Francisco'
+(zero), 'San Francisco' + Huffington + precincts (statewide prose
+only; the Orange County Register's E+1 story confirms 'results were
+incomplete from the Democratic strongholds of Los Angeles and
+Feinstein's hometown of San Francisco', corroborating the crashed SF
+count), 'San Francisco' + registrar + ballots counted (statewide
+Senate arithmetic only). No paper printed an SF-specific counted
+figure for election night 1994 in the text archive. Untried veins
+that remain: the Oakland Tribune's image edition if NewsBank holds
+it for 1994, and broadcast archives.
