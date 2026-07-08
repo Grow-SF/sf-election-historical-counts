@@ -7058,10 +7058,10 @@
    {
     "date": "1899-12-28",
     "days": 1,
-    "total": 29938,
-    "pct": 99.9,
+    "total": 29958,
+    "pct": 100.0,
     "label": "cdnc-ocr",
-    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1899-12-28 (section SFC18991228.2.5.2): printed total votes cast 29,938 (For 21,900 + Against 7,840 + rejected 218; component arithmetic suggests 29,958, a 3/5 OCR ambiguity queued for hand-read; lower reading used) - 'exactly at 8:20 p.m. the last precinct had reported', complete count election evening; 34 below certified; mirror/cdnc/SFC18991228/, read 2026-07-07"
+    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1899-12-28 (section SFC18991228.2.5.2): printed total votes cast 29,958, operator hand-read of the page image 2026-07-07 settling the 3/5 OCR ambiguity in agreement with the component arithmetic (For 21,900 + Against 7,840 + rejected 218 = 29,958) - 'exactly at 8:20 p.m. the last precinct had reported', complete count election evening; 14 below certified; mirror/cdnc/SFC18991228/, read 2026-07-07"
    }
   ]
  },
@@ -7251,7 +7251,7 @@
     "total": 40200,
     "pct": 84.6,
     "label": "cdnc-ocr",
-    "citation": "Daily Alta California via CDNC (cdnc.ucr.edu), 1884-11-07 'THE CITY'S COUNT.' (section DAC18841107.2.2.3): Blaine 21,682 + Cleveland 17,990 + Independent-column 528 (party identity uncertain, likely Butler) = 40,200, 'about 20 precincts... yet to be heard from' but 'will not change the result'; the day-2 turnout prose 47,900 exceeds the certified ceiling and is logged, not used; mirror/cdnc/DAC18841107/, read 2026-07-07"
+    "citation": "Daily Alta California via CDNC (cdnc.ucr.edu), 1884-11-07 'THE CITY'S COUNT.' (section DAC18841107.2.2.3): Blaine 21,682 + Cleveland 17,990 + Independent-column top elector Curry 528 = 40,200 (the column is headed 'Independent' per operator hand-read of the page image 2026-07-07: the Butler Greenback/Anti-Monopoly fusion ticket, listed as an eight-man elector slate, Curry 528 down to Merwin 340; not St. John's Prohibition slate), 'about 20 precincts... yet to be heard from' but 'will not change the result'; the day-2 turnout prose 47,900 exceeds the certified ceiling and is logged, not used; mirror/cdnc/DAC18841107/, read 2026-07-07"
    }
   ]
  },

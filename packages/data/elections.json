@@ -934,13 +934,13 @@
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 99.9,
+  "nightPct": 100.0,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    99.9,
+    100.0,
     null,
     null
    ]

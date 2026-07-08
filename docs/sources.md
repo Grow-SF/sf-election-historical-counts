@@ -4809,7 +4809,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1899-12-28 | 1 |  | 29,938 | 99.9% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1899-12-28 (section SFC18991228.2.5.2): printed total votes cast 29,938 (For 21,900 + Against 7,840 + rejected 218; component arithmetic suggests 29,958, a 3/5 OCR ambiguity queued for hand-read; lower reading used) - 'exactly at 8:20 p.m. the last precinct had reported', complete count election evening; 34 below certified; mirror/cdnc/SFC18991228/, read 2026-07-07 |
+| 1899-12-28 | 1 |  | 29,958 | 100.0% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1899-12-28 (section SFC18991228.2.5.2): printed total votes cast 29,958, operator hand-read of the page image 2026-07-07 settling the 3/5 OCR ambiguity in agreement with the component arithmetic (For 21,900 + Against 7,840 + rejected 218 = 29,958) - 'exactly at 8:20 p.m. the last precinct had reported', complete count election evening; 14 below certified; mirror/cdnc/SFC18991228/, read 2026-07-07 |
 
 ---
 
@@ -4977,7 +4977,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1884-11-05 | 1 |  | 5,056 | 10.6% | cdnc-ocr — Daily Alta California via CDNC (cdnc.ucr.edu), 1884-11-05 'VOTE OF THE CITY' (section DAC18841105.2.2.2): 'At midnight there were only six complete precincts received'; Blaine + Cleveland approximately 5,056 - token overnight slice, flagged night_partial; mirror/cdnc/DAC18841105/, read 2026-07-07 |
-| 1884-11-07 | 3 |  | 40,200 | 84.6% | cdnc-ocr — Daily Alta California via CDNC (cdnc.ucr.edu), 1884-11-07 'THE CITY'S COUNT.' (section DAC18841107.2.2.3): Blaine 21,682 + Cleveland 17,990 + Independent-column 528 (party identity uncertain, likely Butler) = 40,200, 'about 20 precincts... yet to be heard from' but 'will not change the result'; the day-2 turnout prose 47,900 exceeds the certified ceiling and is logged, not used; mirror/cdnc/DAC18841107/, read 2026-07-07 |
+| 1884-11-07 | 3 |  | 40,200 | 84.6% | cdnc-ocr — Daily Alta California via CDNC (cdnc.ucr.edu), 1884-11-07 'THE CITY'S COUNT.' (section DAC18841107.2.2.3): Blaine 21,682 + Cleveland 17,990 + Independent-column top elector Curry 528 = 40,200 (the column is headed 'Independent' per operator hand-read of the page image 2026-07-07: the Butler Greenback/Anti-Monopoly fusion ticket, listed as an eight-man elector slate, Curry 528 down to Merwin 340; not St. John's Prohibition slate), 'about 20 precincts... yet to be heard from' but 'will not change the result'; the day-2 turnout prose 47,900 exceeds the certified ceiling and is logged, not used; mirror/cdnc/DAC18841107/, read 2026-07-07 |
 
 ---
 
