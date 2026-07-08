@@ -558,8 +558,9 @@ Sunday Nov 12 ('about 10,000 provisional ballots still to be
 counted', Nov 13 p3, docview 2206629184, corroborating the existing
 Chronicle-derived row exactly). Lesson recorded for future agents:
 when generic vocabulary drowns in wire copy, search the named local
-official. The other five elections stayed dry across roughly 17 new
-queries each; with two full passes done, the Examiner is judged
-tapped for those five, and any remaining recovery lies with the
+official. The other five elections stayed dry again (5 to 9 new
+queries each this pass, roughly 16 to 17 cumulative per election
+across both passes); with two full passes done, the Examiner is
+judged tapped for those five, and any remaining recovery lies with the
 Chronicle, broadcast tape, or human channels. Exact queries and
 verbatim evidence: the examiner-retry session report.
