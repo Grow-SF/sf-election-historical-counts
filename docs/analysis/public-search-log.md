@@ -820,3 +820,19 @@ required). Reproduction: NewsBank image-edition alltext search 'SAN
 FRANCISCO VOTED' (quoted) scoped to SF Chronicle 1982-06-09, single
 hit page 8. Method note: in primary-election tables the party
 contests are subsets; read the propositions columns first.
+**Update (2026-07-08, August 1977: the overnight count, hiding on the
+front page).** The 1977 district-elections special was already in the
+dataset as a day-2 floor (174,308, the Aug 4 per-district table) with
+a note that the E+1 paper 'printed a percentage map only'. Wrong: the
+Aug 3 1977 FRONT PAGE prints the outcome block in text, 'With all 735
+precincts reporting, this was the outcome: PROPOSITION A Yes ...;
+No—97,5xx. PROPOSITION B Yes, 62,185; No—112,123', digit-for-digit
+identical to the E+2 table, and the story confirms the count ran
+'last night'. A two-measure lever-era ballot counted overnight: the
+existing 174,308 Prop B sum is re-stamped to election night (03:00
+press convention, disclosed), dimmed as a contest sum, 97.7 percent
+of the certified 178,367: the 214th night count. Lesson repeated: the
+E+1 verdict of an earlier pass is worth one more look when it rests
+on 'only a map/percentages' — the outcome paragraph often carries the
+counts in prose. Reproduction: NewsBank image-edition alltext search
+'precincts' scoped to SF Chronicle 1977-08-03, single hit page 1.

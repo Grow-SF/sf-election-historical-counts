@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**66 San Francisco elections still lack an election-night ballot count.** For 18 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**65 San Francisco elections still lack an election-night ballot count.** For 17 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 66 elections still missing a night count
+## The 65 elections still missing a night count
 
 | Date | Year | Level | Kind | Final count known? | Description |
 |------|------|-------|------|--------------------|-------------|
@@ -76,7 +76,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1944-11-07 | 1944 | city | General | yes |  |
 | 1945-11-06 | 1945 | city | Municipal | no |  |
 | 1972-06-06 | 1972 | city | Primary | yes |  |
-| 1977-08-02 | 1977 | city | Special | yes |  |
 | 1982-11-02 | 1982 | city | General | yes |  |
 | 1984-06-05 | 1984 | city | Primary | yes |  |
 | 1994-11-08 | 1994 | city | General | yes |  |
@@ -887,3 +886,21 @@ NewsBank, which holds the extra) or a wire snapshot with a clocked
 partial. Reproduction: NewsBank image-edition alltext search 'SAN
 FRANCISCO VOTED' (quoted) scoped to SF Chronicle 1982-11-03, single
 hit page 5; page 1 of the same scan shows the ELECTION EXTRA banner.
+**Update (2026-07-08, June 1982: the 64-percent morning table, the
+213th night count).** Unlike its November sibling (an ELECTION EXTRA)
+and June 1984 (an ELECTION SPECIAL), the June 9 1982 issue's page 8
+'HOW SAN FRANCISCO VOTED' table is a genuine mid-count snapshot,
+headed '64% of vote', which itself rules out a post-completion extra:
+extras print more counted, not less. Propositions appear on every
+ballot regardless of party, so the largest all-voter sum is the night
+floor: state Prop 9, the Peripheral Canal referendum, YES 4,351 + NO
+91,931 = 96,282 (San Francisco rejected the canal 95 to 5), 54.6
+percent of the certified 176,381, dimmed as a contest sum, stamped
+with the disclosed 03:00 morning-press convention. It sits cleanly
+against the existing day-2 floor (93,431, a Democratic-governor
+party-subset at 100 percent, a smaller basis) and the 64-percent
+state (64 percent of certified is 112,884, above the floor, as
+required). Reproduction: NewsBank image-edition alltext search 'SAN
+FRANCISCO VOTED' (quoted) scoped to SF Chronicle 1982-06-09, single
+hit page 8. Method note: in primary-election tables the party
+contests are subsets; read the propositions columns first.
