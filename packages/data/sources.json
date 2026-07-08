@@ -4298,6 +4298,14 @@
    {
     "date": "1999-11-03",
     "days": 1,
+    "total": 62334,
+    "pct": 30.6,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle print edition via NewsBank page image (SFPL ezproxy), 1999-11-03 front page 'BAY AREA HIGHLIGHTS' box and pA22 'County-by-County Bay Area Election Results' table, final (six-star) edition (operator-directed hunt, page images hand-read 2026-07-07): San Francisco at '232 of 646 precincts reporting'; largest contest sum is Proposition A (Laguna Honda Bonds) Yes 43,687 (70.0) + No 18,647 (29.9) = 62,334; corroborating same-state sums: Prop F (ATM fees) 34,918 + 25,703 = 60,621, Prop J 32,684 + 26,228 = 58,912, Mayor field 32,155 + 15,000 + 10,662 + 966 + 764 + 716 + 688 + 663 (partial write-in count flagged by the paper) = 61,614 or more; the front page explains the freeze: 'The first returns from the city's 646 precincts were not released until about 75 minutes after the polls closed at 8 p.m., then were not updated again for another hour, and after that only sporadically into the early hours of today' (the Ammiano write-in campaign forced hand checks); no hour printed, the 03:00 final-edition press stamp is the dataset convention, disclosed; flagged night_partial (36 percent of precincts, undervote-limited); monotonic under the E+1 08:30 floor of 126,000; screenshots mirror/newsbank/scans/muni_19991102_issue19991103_p*_*.png; reproduction: NewsBank image-edition search 'PROPOSITIONS' scoped to 1999-11-03, pages 1/22/34/44/54 (editions); read 2026-07-07"
+   },
+   {
+    "date": "1999-11-03",
+    "days": 1,
     "total": 126000,
     "pct": 61.9,
     "label": "proquest-examiner",

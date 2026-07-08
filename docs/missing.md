@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**70 San Francisco elections still lack an election-night ballot count.** For 22 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**69 San Francisco elections still lack an election-night ballot count.** For 21 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 70 elections still missing a night count
+## The 69 elections still missing a night count
 
 | Date | Year | Level | Kind | Final count known? | Description |
 |------|------|-------|------|--------------------|-------------|
@@ -83,7 +83,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1986-11-04 | 1986 | city | General | yes |  |
 | 1994-11-08 | 1994 | city | General | yes |  |
 | 1998-06-02 | 1998 | city | Primary | yes |  |
-| 1999-11-02 | 1999 | city | Municipal | yes |  |
 
 ---
 
@@ -777,3 +776,18 @@ elections are unusual by definition, so they stay out of the visual
 trends). The kinds override has been reverted; the recovered night
 counts for those elections live in the dataset and the master index
 regardless of chart presentation.
+**Update (2026-07-07, November 1999: the write-in freeze, measured).**
+Walking backward from the completed post-2000 era, the same
+print-image method dated the era's most notorious count. The Nov 3
+1999 Chronicle's final six-star edition shows San Francisco frozen at
+232 of 646 precincts at press time, and its front page explains why:
+'The first returns from the city's 646 precincts were not released
+until about 75 minutes after the polls closed at 8 p.m., then were
+not updated again for another hour, and after that only sporadically
+into the early hours of today' as the Ammiano write-in campaign
+forced hand examination of ballots. The largest same-state contest
+sum (Proposition A, Laguna Honda Bonds, 62,334) becomes the 210th
+recovered night count at a striking 30.6 percent, dimmed. The
+operator read the page live and flagged the write-in mechanics; the
+mayor's-race table itself footnotes that its Ammiano figure 'reflects
+partial write-in count'.

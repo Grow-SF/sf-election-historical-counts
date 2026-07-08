@@ -688,3 +688,18 @@ elections are unusual by definition, so they stay out of the visual
 trends). The kinds override has been reverted; the recovered night
 counts for those elections live in the dataset and the master index
 regardless of chart presentation.
+**Update (2026-07-07, November 1999: the write-in freeze, measured).**
+Walking backward from the completed post-2000 era, the same
+print-image method dated the era's most notorious count. The Nov 3
+1999 Chronicle's final six-star edition shows San Francisco frozen at
+232 of 646 precincts at press time, and its front page explains why:
+'The first returns from the city's 646 precincts were not released
+until about 75 minutes after the polls closed at 8 p.m., then were
+not updated again for another hour, and after that only sporadically
+into the early hours of today' as the Ammiano write-in campaign
+forced hand examination of ballots. The largest same-state contest
+sum (Proposition A, Laguna Honda Bonds, 62,334) becomes the 210th
+recovered night count at a striking 30.6 percent, dimmed. The
+operator read the page live and flagged the write-in mechanics; the
+mayor's-race table itself footnotes that its Ammiano figure 'reflects
+partial write-in count'.

@@ -10843,11 +10843,17 @@
   "registered": 453151,
   "source": "archival",
   "provisional": false,
-  "nReports": 7,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 8,
+  "nightPct": 30.6,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    30.6,
+    null,
+    null
+   ],
    [
     0.52,
     61.9,
@@ -10894,15 +10900,15 @@
   "thresholds": {
    "50": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "55": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "60": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "65": {
     "days": 1,
@@ -10929,8 +10935,8 @@
     "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "proquest-examiner"
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
   "id": "1999-12-14",
