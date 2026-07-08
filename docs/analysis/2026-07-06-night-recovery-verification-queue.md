@@ -110,3 +110,42 @@ its night reading in the judgment table above); 2002-12-10 ingested
 percentage derivation was logged, not ingested); 2009-05-19 dry (wire
 coverage only). Do not re-run these searches; the exact queries and
 their outcomes are in the session report.
+
+## Backward-walk batch, 2026-07-08 (agent finds + 1945): OPEN
+
+Operator verification requested before ingestion. Live viewer links in the
+agent salvage files under the session scratchpad (agents/cdnc_*.md).
+
+1. **1945-11-06 night box digits** (NewsBank, SF Chronicle 1945-11-07 p1
+   'Election Returns'): claimed Airport Bonds YES 1,362 + NO 355 at '12
+   widely scattered precincts out of 1194'. Read the four digits; then the
+   Nov 8-10 papers owe us the complete count (this election has NO
+   denominator on file at all).
+2. **1908-1909 CDNC finds** (agent report, salvage cdnc_1908_1909.md):
+   1908-05-11 night 23,550 total; 1908-11-12 night 41,011 (one garbled
+   digit in Prop 3 No); 1909-12-30 night 43,081 (arithmetic-locked);
+   1909-11-02 day-1 64,931 (McCarthy digit to hand-read); 1909-06-22
+   approximation ~22,000/24,028 derived. PLUS a new election discovered:
+   1909-06-24 Geary bonds (22,258 cast; against 7,805 vs 7,855 OCR
+   conflict, hand-read shot_geary_2.15.png).
+3. **1911-1922 CDNC finds** (salvage cdnc_1911_1922.md): 1921-03-08 night
+   74,079 at 419/419 by 9:30pm (arithmetic-locked); 1912-03-28 night
+   45,133/4,035 with day-2 total-cast 49,917; 1913-04-22 night with
+   in-paper discrepancy 62,934 headline vs 62,691 figures box (recommend
+   62,691); 1911-11-07 night partial 20,633 at 140/356; 1915-03-16 day+1
+   51,030 (no night exists); 1922-11-21 day+1/day+2 (timing unproven).
+   PLUS a second new election discovered: 1912-03-29 (invalidated
+   initiative ordinances; 31,968 cast per the Mar 30 Call).
+4. **1867-1877 CDNC finds** (salvage cdnc_1867_1877.md): complete
+   overnight counts 1872-11 (22,974, passes the certified band), 1871-10
+   (16,133, 'At three o'clock this morning the returns of all the Wards
+   were completed'; Fitzgerald digit to hand-read), 1875-10 (16,635),
+   1867-10 (13,971 recap, conflicting 14,071 editorial); trajectories
+   1877-09 (night Mayor sum ~2,076 at 2:45am, day-3 headline 'THE LONG
+   COUNT'), 1873-09 (fragments only by 2am), 1869-09 (miscalled winner,
+   digits OCR-poor, hand-reads flagged), 1871-09 (day-after dry; day-2
+   issue missing from CDNC).
+5. **Denominator gap**: most of the special-election finds above lack
+   certified totals (DOE table is thin before 1899 and skips specials);
+   the Municipal Reports registrar tables are the likely source, as in
+   the vol47 recovery.

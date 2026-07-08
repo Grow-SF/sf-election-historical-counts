@@ -853,3 +853,20 @@ night count; the evening Examiner of June 7 (ProQuest vein) is the
 untried source that could carry a clocked day-1 partial.
 Reproduction: NewsBank image-edition searches scoped to SF Chronicle
 1972-06-07 as quoted above; 'precincts' returns six pages, all read.
+**Finding, pending a denominator (2026-07-08, November 1945: twelve
+precincts by press time).** The prewar cluster opens with a
+hand-count-era night state worthy of 1918: the Nov 7 1945 Chronicle
+front page prints an 'Election Returns' box reading 'Complete
+semi-official returns from 12 widely scattered precincts out of 1194
+at yesterday's election gave the following results', Airport Bonds
+YES ~1,362 / NO ~355 (digits soft, operator read requested), and the
+adjacent story blames 'showers and a general apathy' for 'a light
+vote'. Twelve of 1,194 precincts is a 1.0 percent night state: the
+municipal hand count still effectively produced nothing overnight in
+1945. NOT ingested yet: this election has no denominator anywhere in
+the dataset (absent from the DOE turnout table entirely), so the
+night point cannot compute a share until the complete count is
+recovered from the Nov 8-10 1945 papers or the Municipal Reports.
+Queued. Reproduction: NewsBank image-edition alltext search
+'precincts' (quoted) scoped to SF Chronicle 1945-11-07, hit page 1,
+'Election Returns' box, left of the fold.
