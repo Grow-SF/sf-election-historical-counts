@@ -11924,19 +11924,19 @@
   "source": "archival",
   "provisional": false,
   "nReports": 4,
-  "nightPct": null,
-  "nightPartial": false,
+  "nightPct": 88.9,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
    [
-    0.79,
-    92.4,
+    0.25,
+    88.9,
     null,
     null
    ],
    [
-    1.5,
-    88.9,
+    0.79,
+    92.4,
     null,
     null
    ],
@@ -11988,15 +11988,15 @@
    },
    "90": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 3,
     "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "proquest-examiner"
+  "nightSrc": "SF Chronicle via NewsBank (SFPL)",
+  "srcShort": "SF Chronicle via NewsBank (SFPL)"
  },
  {
   "id": "2004-03-02",
