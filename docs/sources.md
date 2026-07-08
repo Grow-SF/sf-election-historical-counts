@@ -4623,15 +4623,15 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **ID:** `1905-11-07`
 
-**Certified final:** 72,000
+**Certified final:** 71,033
 
-**Source:** SF Municipal Reports FY1907-08 cumulative table: certified approximately 72,000 ballots, printed as a rounded fire-era estimate (data/sf_turnout_1891_1907.csv)
+**Source:** SF Call E+1 complete count 71,033, promoted by operator decision over the Municipal Reports rounded fire-era estimate of 72,000 (data/sf_turnout_1891_1907.csv)
 
 **Observations**
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1905-11-08 | 1 |  | 71,033 | 98.7% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1905-11-08 'SCHMITZ'S LEAD IS OVER 10,000' (section SFC19051108.2.2.3): printed 'Total vote cast: 71,033' with Schmitz 40,191 + Partridge 28,687 + Castner 1,686 (printed plurality 11,504 reconciles exactly) - voting-machine election counted essentially complete election night (175 of 198 precincts in by 6:20 PM per the same issue; no E+2 returns article exists); denominator is the Registrar's post-fire ROUNDED estimate 72,000, so the share carries about 1 percent uncertainty; the precise 71,033 may be the best surviving count for this election (promotion question logged); mirror/cdnc/SFC19051108/, read 2026-07-07 |
+| 1905-11-08 | 1 |  | 71,033 | 100.0% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1905-11-08 'SCHMITZ'S LEAD IS OVER 10,000' (section SFC19051108.2.2.3): printed 'Total vote cast: 71,033' with Schmitz 40,191 + Partridge 28,687 + Castner 1,686 (printed plurality 11,504 reconciles exactly) - voting-machine election counted essentially complete election night (175 of 198 precincts in by 6:20 PM per the same issue; no E+2 returns article exists); the operator promoted this precise count to the denominator on 2026-07-07 (hand-read of the page image) over the Registrar's post-fire ROUNDED estimate of 72,000, so the night share is 100.0 by identity, disclosed; screenshot mirror/cdnc/SFC19051108/shot_section_2.2.3_schmitz_lead.png, read 2026-07-07 |
 
 ---
 

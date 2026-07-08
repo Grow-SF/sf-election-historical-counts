@@ -73,7 +73,7 @@ cdnc.ucr.edu (issue code in the citation) and read the page image.
 | 1888-11-06 | Curtis (American) day-3 figure illegible, excluded | if readable on the page image, add to the 52,916 sum | DAC18881109 section 2.3 | low |
 | 1884-11-04 | third column (528) party identity: Butler vs St. John | affects labeling only, not the 40,200 sum | DAC18841107 section 2.2.3 | low |
 | 1902-12-02 | printed 26,615 exceeds certified 26,612 by 3 | consistent with the 161 rejected ballots reclassified at canvass; For+Against 26,454 ingested | SFC19021203 section 2.128 | low |
-| 1905-11-07 | promotion question: printed 71,033 vs official rounded 72,000 denominator | if you judge the paper's precise figure the better denominator, the night share becomes 100.0 and the turnout row should change too | report .superpowers/sdd/cdnc-1905-11-report.md | judgment call |
+| 1905-11-07 | RESOLVED (operator judgment, 2026-07-07): the printed 'Total vote cast 71,033' is PROMOTED to the denominator over the Municipal Reports rounded fire-era estimate of 72,000 (the operator read the page image; the internal plurality cross-check is exact and 72,000 reads as a rounding of this count). Night share becomes 100.0 by identity; the turnout row now carries 71,033 with the promotion disclosed in both citations | report .superpowers/sdd/cdnc-1905-11-report.md; screenshot mirror/cdnc/SFC19051108/shot_section_2.2.3_schmitz_lead.png | done |
 | 1899-12-29 | dry: the only vote table's OCR fails the certified gate | needs a page-image read (CDNC viewer by hand or NewsBank) | SFC18991230 section 2.4.2 | medium |
 
 ## Resumable ProQuest queue (1999-11-02, blocked by the returning captcha)

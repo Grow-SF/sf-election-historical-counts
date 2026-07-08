@@ -1638,18 +1638,18 @@
   "name": "General Municipal Election",
   "kind": "Municipal",
   "year": 1905,
-  "final": 72000,
+  "final": 71033,
   "registered": 98000,
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 98.7,
+  "nightPct": 100.0,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    98.7,
+    100.0,
     null,
     null
    ]
@@ -1696,6 +1696,10 @@
     "bound": true
    },
    "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
     "days": 1,
     "bound": true
    }

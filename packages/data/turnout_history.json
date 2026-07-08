@@ -208,9 +208,9 @@
  },
  {
   "date": "1905-11-07",
-  "turnoutPct": 73.5,
+  "turnoutPct": 72.5,
   "registered": 98000,
-  "ballots": 72000,
+  "ballots": 71033,
   "source": "archival",
   "kind": "Municipal"
  },
