@@ -11781,11 +11781,17 @@
   "registered": 454929,
   "source": "archival",
   "provisional": false,
-  "nReports": 3,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 4,
+  "nightPct": 86.1,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    86.1,
+    null,
+    null
+   ],
    [
     7.82,
     95.3,
@@ -11807,35 +11813,35 @@
   ],
   "thresholds": {
    "50": {
-    "days": 8,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 8,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 8,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 8,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 8,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 8,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 8,
+    "days": 1,
     "bound": true
    },
    "85": {
-    "days": 8,
+    "days": 1,
     "bound": true
    },
    "90": {
@@ -11855,8 +11861,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "Wayback Machine capture"
+  "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
+  "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
   "id": "2003-11-04",

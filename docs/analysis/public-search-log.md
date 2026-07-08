@@ -613,3 +613,15 @@ AND yes AND no', 'precincts reporting', 'ELECTION RESULTS', 'the
 vote'; the Bay Area reaction story news/0FE0FB1FE3468E6C carries
 percentages only): the county results tables did not digitize into
 NewsBank text, a dead end for absolute SF numbers in that issue.
+**Update (2026-07-07, the recall falls).** Minutes after the
+night-completeness anchor was logged, the operator found the numbers
+themselves: the Oct 8 2003 Chronicle print edition's county table
+('CALIFORNIA RECALL / How the regions voted', page A14), which exists
+in NewsBank's page-image collection even though it never digitized to
+text. The San Francisco row reads 99.2 percent reporting, Yes 45,388
+(20), No 186,324 (80): a recall-question sum of 231,712, 86.1 percent
+of certified, and October 2003 becomes the 206th recovered night count
+(dimmed, undervote-limited). Lesson recorded: when a table is missing
+from the NewsBank TEXT corpus, check the page-image edition of the
+same issue; the image collection extends later than the previously
+assumed mid-1980s endpoint.

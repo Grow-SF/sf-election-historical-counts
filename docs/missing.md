@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**74 San Francisco elections still lack an election-night ballot count.** For 26 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**73 San Francisco elections still lack an election-night ballot count.** For 25 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 48 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 74 elections still missing a night count
+## The 73 elections still missing a night count
 
 | Date | Year | Level | Kind | Final count known? | Description |
 |------|------|-------|------|--------------------|-------------|
@@ -86,7 +86,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1999-11-02 | 1999 | city | Municipal | yes |  |
 | 2000-11-07 | 2000 | city | General | yes |  |
 | 2001-12-11 | 2001 | city | Runoff | yes |  |
-| 2003-10-07 | 2003 | city | Special | yes |  |
 | 2009-05-19 | 2009 | city | Special | yes |  |
 
 ---
@@ -706,3 +705,15 @@ AND yes AND no', 'precincts reporting', 'ELECTION RESULTS', 'the
 vote'; the Bay Area reaction story news/0FE0FB1FE3468E6C carries
 percentages only): the county results tables did not digitize into
 NewsBank text, a dead end for absolute SF numbers in that issue.
+**Update (2026-07-07, the recall falls).** Minutes after the
+night-completeness anchor was logged, the operator found the numbers
+themselves: the Oct 8 2003 Chronicle print edition's county table
+('CALIFORNIA RECALL / How the regions voted', page A14), which exists
+in NewsBank's page-image collection even though it never digitized to
+text. The San Francisco row reads 99.2 percent reporting, Yes 45,388
+(20), No 186,324 (80): a recall-question sum of 231,712, 86.1 percent
+of certified, and October 2003 becomes the 206th recovered night count
+(dimmed, undervote-limited). Lesson recorded: when a table is missing
+from the NewsBank TEXT corpus, check the page-image edition of the
+same issue; the image collection extends later than the previously
+assumed mid-1980s endpoint.
