@@ -4944,6 +4944,14 @@
   "finalSource": "DOE historical voter turnout table (certified)",
   "observations": [
    {
+    "date": "1986-11-05",
+    "days": 1,
+    "total": 194787,
+    "pct": 82.2,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle print edition via NewsBank page image (SFPL ezproxy), 1986-11-05 'HOW SAN FRANCISCO VOTED' full-page results table, p10 of the scanned issue (operator-directed hunt continued 2026-07-08, statewide column read from the live viewer): U.S. SENATOR at '611 of 710 precincts reporting', the full five-candidate field: Cranston 143,953 + Zschau 47,667 + McKinley 1,159 + Kangas 1,076 + Vallen 932 = 194,787, the largest single-vote contest sum on the page (GOVERNOR under the same 611-of-710 header sums 192,367: Bradley 114,763 + Deukmejian 73,079 + Munoz 2,314 + Fuhrig 1,438 + Miller 773; Chief Justice Bird confirmation sums 180,053; every state proposition sum is 181,058 or less); undervote-limited night floor, flagged night_partial (86 percent of precincts, contest sum); the same page's board-president story corroborates the count state: 'With nearly 80 percent of the vote counted last night, Walker led the pack of 19 candidates' (scan _p10_s1.png); no hour printed, the 03:00 press-time stamp is the dataset convention, disclosed; monotonic under the existing day-2 GOVERNOR sum 222,403 at 710 of 710 precincts; screenshots mirror/newsbank/scans/general_19861104_issue19861105_p10_*.png (confirmations, supervisors, propositions columns); reproduction: NewsBank image-edition alltext search 'SAN FRANCISCO VOTED' (quoted) scoped to SF Chronicle 1986-11-05, single hit p10, open viewer, zoom in once, STATEWIDE OFFICES column top to bottom; read 2026-07-08"
+   },
+   {
     "date": "1986-11-06",
     "days": 2,
     "total": 222403,

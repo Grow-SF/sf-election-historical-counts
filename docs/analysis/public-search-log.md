@@ -741,3 +741,26 @@ hunt is likewise day-1 state, not election night; nothing in the Nov
 'precincts reporting' scoped to the date. November 1994 stays in the
 missing set pending a different vein (wire copy with a timestamped SF
 figure, or the Examiner's own Nov 9 morning run if one exists).
+**Update (2026-07-08, November 1986: the whole ballot, summed and
+beaten by the Senate race).** The operator hand-read hunt that stalled
+at the page edge finished today: the Nov 5 1986 Chronicle's page 10
+'HOW SAN FRANCISCO VOTED' table (found via the quoted alltext search
+'SAN FRANCISCO VOTED' scoped to the date, a single hit) prints every
+contest at '611 of 710 precincts reporting', and this time the whole
+statewide column was read in the live viewer. The U.S. SENATOR field
+is the page's largest single-vote sum: Cranston 143,953 + Zschau
+47,667 + McKinley 1,159 + Kangas 1,076 + Vallen 932 = 194,787, edging
+the GOVERNOR field's 192,367 and well above the Bird confirmation's
+180,053 and every proposition (Prop 64, the AIDS quarantine measure,
+tops those at 181,058). That is an 82.2 percent night floor against
+the certified 236,863, dimmed as a contest sum, the 212th recovered
+night count; the same page's board-president story corroborates the
+state: 'With nearly 80 percent of the vote counted last night, Walker
+led the pack of 19 candidates.' It slots monotonically under the
+repo's existing day-2 Governor sum (222,403 at 710 of 710). Method
+note for future agents: the NewsBank viewer viewport clips the
+table's left column at default position; click the canvas, then
+arrow-key pan (the keys silently no-op if the canvas loses focus),
+and zoom in once before reading digits. The 1985-2026 era is now
+complete except for the five pre-1985 stragglers (1984-06, 1982-11,
+1982-06, 1977-08, 1972-06).
