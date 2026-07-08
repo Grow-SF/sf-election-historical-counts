@@ -66,7 +66,7 @@ cdnc.ucr.edu (issue code in the citation) and read the page image.
 
 | Election | Claimed value | What to check | Where | Priority |
 |---|---|---|---|---|
-| 1899-11-07 | Davis E+1 figure, OCR-garbled, prose implies about 14,676 | one digit string on the 2:15am table; a confirmed read lifts the night floor from 20,248 (39.0) to about 34,900 (67) | SFC18991108 p1 'THE COUNT.' | HIGH (biggest single improvement available) |
+| 1899-11-07 | RESOLVED (operator hand-read of the page image, 2026-07-07): Davis 14,690 and Phelan 19,907 (the OCR had garbled Davis entirely and dropped Phelan's final digit to 19,901). Full Mayor sum 35,055; night floor lifted from 20,248 (39.0) to 35,055 (67.5), the biggest single improvement of the campaign. Page image screenshot saved: mirror/cdnc/SFC18991108/shot_section_2.2.2_thecount.png (captured via the raw-CDP recipe with the tab briefly foregrounded; Veridian's canvas tiles do not paint in a background tab) | SFC18991108 p1 'THE COUNT.' | done |
 | 1906-11-06 | grand total prints 38,802 (headline) vs 38,302 (body line) | which is the true printed total; neither is ingested (Governor sum 37,287 is the floor) | SFC19061107 section 2.10.5 | medium |
 | 1899-12-27 | total 29,938 vs component arithmetic 29,958 | a 3/5 digit; both pass the gate; lower ingested | SFC18991228 section 2.5.2 | low |
 | 1896-11-03 | ballots corrected 61,820 to 64,820 | spot-check mirror/muni_reports/vol47_n320.jpg (crisp) and the SOV elector pages | evidence saved | medium |

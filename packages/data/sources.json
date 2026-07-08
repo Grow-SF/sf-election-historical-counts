@@ -7074,10 +7074,10 @@
    {
     "date": "1899-11-08",
     "days": 1,
-    "total": 20248,
-    "pct": 39.0,
+    "total": 35055,
+    "pct": 67.5,
     "label": "cdnc-ocr",
-    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1899-11-08 p1 'THE COUNT.' (section SFC18991108.2.2.2), timestamped 2:15am, all but fifteen precincts reporting (hand-count era, precinct returns themselves partial): clean-OCR Mayor candidates only, Phelan 19,901 + Hall 283 + Coburn 64 = 20,248 - conservative night floor; Davis's figure is OCR-garbled (prose implies about 14,676, unverified, queued for hand-read; would lift the floor to about 34,900); flagged night_partial; mirror/cdnc/SFC18991108/page_1.txt, read 2026-07-07"
+    "citation": "SF Call via CDNC (cdnc.ucr.edu), 1899-11-08 p1 'THE COUNT.' (section SFC18991108.2.2.2), timestamped 2:15am, all but fifteen precincts reporting (hand-count era, precinct returns themselves partial): full Mayor sum, operator hand-read of the page image 2026-07-07 settling the two OCR-garbled figures (Davis 14,690 where OCR gave '14.6r<'; Phelan 19,907 where OCR gave 19,901) plus image-read Cleveland 111, Hall 283, Coburn 64 = 35,055 - conservative night floor; proportionally consistent with the day-2 semi-official per-candidate figures (night is about 68 percent of each candidate's Nov 9 total); flagged night_partial; page image screenshot mirror/cdnc/SFC18991108/shot_section_2.2.2_thecount.png, OCR mirror/cdnc/SFC18991108/page_1.txt, read 2026-07-07"
    },
    {
     "date": "1899-11-09",

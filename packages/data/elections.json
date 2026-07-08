@@ -854,13 +854,13 @@
   "source": "archival",
   "provisional": false,
   "nReports": 2,
-  "nightPct": 39.0,
+  "nightPct": 67.5,
   "nightPartial": true,
   "vbmShare": null,
   "pts": [
    [
     0.29,
-    39.0,
+    67.5,
     null,
     null
    ],
@@ -873,20 +873,20 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
-    "bound": false
+    "days": 1,
+    "bound": true
    },
    "55": {
-    "days": 2,
-    "bound": false
+    "days": 1,
+    "bound": true
    },
    "60": {
-    "days": 2,
-    "bound": false
+    "days": 1,
+    "bound": true
    },
    "65": {
-    "days": 2,
-    "bound": false
+    "days": 1,
+    "bound": true
    },
    "70": {
     "days": 2,
