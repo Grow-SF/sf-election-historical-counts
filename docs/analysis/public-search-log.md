@@ -998,3 +998,20 @@ replaces an over-official Alta sum. Still open: 1854 (fraud year, no
 defensible total), 1871-09 (three official-series values, operator
 pick pending), 1867-10 and 1863-05/1865-05 (official-vs-paper
 conflicts queued), and the prewar NewsBank cluster.
+**Update (2026-07-08, November 1945: the 236th night count, at one
+percent).** The operator verified the Nov 7 front-page box (Airport
+Bonds YES 1,362 / NO 355 at '12 widely scattered precincts out of
+1194') and the Nov 8 day-2 paper supplied the missing denominator:
+'Complete semi-official returns from the 1194 precincts' with the
+bond vote 'Yes, 146,285; No, 29,200' - a 5-to-1 landslide totaling
+175,485, the page's largest single-vote sum. Night share: 1.0
+percent, the lowest twentieth-century night point in the dataset -
+the municipal hand count of 1945 produced effectively nothing
+overnight, exactly like 1918. 1854 was also recorded as a
+floor-with-fraud-note per operator ruling (Benham 5,017; the
+Broderick ticket missing from the official compilation, vote-for-two
+Congress, the ballot-box-stuffing era) with a legislative-journal
+hunt queued for the complete canvass. The zero-data bucket stands at
+six: 1871-09 (three official values await an operator pick) and the
+prewar NewsBank cluster (1928-08, 1929-11, 1931-02, 1940-05,
+1944-05).

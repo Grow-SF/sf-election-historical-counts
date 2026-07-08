@@ -2,7 +2,7 @@
 
 # Data sources
 
-Every number in the Long Count dataset traces to a primary source. This file documents all 366 source records — what was consulted, what it established, and where to find it.
+Every number in the Long Count dataset traces to a primary source. This file documents all 368 source records — what was consulted, what it established, and where to find it.
 
 These records were previously displayed on the `/sources` page of the viz app. They now live here as a stable, version-controlled reference in the data repository.
 
@@ -3804,6 +3804,23 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### General Municipal Election
+
+**ID:** `1945-11-06`
+
+**Certified final:** 175,485
+
+**Source:** SF Chronicle 1945-11-08 complete semi-official returns (news-derived final; companion row)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1945-11-07 | 1 |  | 1,717 | 1.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle print edition via NewsBank page image (SFPL ezproxy), 1945-11-07 p1 'Election Returns' box (operator hand-read 2026-07-08): 'Complete semi-official returns from 12 widely scattered precincts out of 1194 at yesterday's election gave the following results: AIRPORT BONDS YES 1,362 NO 355' = 1,717 ballots counted, a 1.0 percent night state - twelve of 1,194 precincts, the lowest twentieth-century night point in the dataset; the adjacent story blames 'showers and a general apathy' for 'a light vote'; dimmed contest-sum partial; denominator from the day-2 complete count (companion row); reproduction: NewsBank image-edition alltext search 'precincts' (quoted) scoped to SF Chronicle 1945-11-07, hit page 1, left of the fold |
+| 1945-11-08 | 2 |  | 175,485 | 100.0% | SF Chronicle page scan (NewsBank/SFPL) — SF Chronicle print edition via NewsBank page image (SFPL ezproxy), 1945-11-08 p8 'Results of the Election' (operator-attended read 2026-07-08): '[Co]mplete semi-official returns [from] the 1194 precincts in Tuesday's election follow'; the airport-bond story fixes the complete measure vote: 'the bonds a 5-to-1 majority vote. The vote was "Yes," 146,285; "No," 29,200' = 175,485, the page's largest single-vote contest sum (Municipal Court Office No. 2 sums 138,446: Molkenbuhr 118,762 + Spagnoll 19,684; City Attorney O'Toole 118,337 unopposed; SUPERVISORS is vote-for-several, unusable); news-derived final for an election absent from the DOE turnout table; reproduction: NewsBank image-edition alltext search 'precincts' (quoted) scoped to SF Chronicle 1945-11-08, single hit page 8 |
+
+---
+
 ### Certified turnout record — night count not yet recovered
 
 **ID:** `1944-11-07`
@@ -5793,6 +5810,22 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1855-10-05 | 30 |  | 12,351 | 100.0% | cdnc-ocr — Tribune Almanac 1856 p.57 official state canvass SF row (page image read; archive.org tribunealmanacpo1856newy leaf 63): Governor Bigler 7,138 + Johnson 5,213 = 12,351; canvass-date stamp approximate; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
+
+---
+
+### General Election (Congress-at-large + Legislature)
+
+**ID:** `1854-09-06`
+
+**Certified final:** 5,017
+
+**Source:** Whig Almanac 1855 official compilation, floor-class (true total unknown; fraud year)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1854-10-06 | 30 |  | 5,017 | 100.0% | cdnc-ocr — Whig Almanac 1855 p.57 official compilation, SF county row (page image read, archive.org tribunealmanacpo1855newy leaf 53; agent recovery, operator-authorized 2026-07-08): top single candidate Benham (Congress-at-large) 5,017 - recorded as a BALLOTS FLOOR ONLY, with heavy disclosure: the true total is likely 9,000-10,000 but no defensible total exists. (1) The Democratic party had split into Broderick and Gwin factions running separate tickets, and the official compilation OMITS the Broderick congressional ticket from its per-county rows; (2) Congress-at-large was vote-for-two, so candidate sums double-count ballots; (3) this is the ballot-box-stuffing era that produced the 1856 Vigilance Committee - the Alta's own tables are mid-count in a year whose count integrity was itself contested (operator fraud note, 2026-07-08). Other printed rows: Bowie 4,130, Denver 2,620, Herbert 2,502. A CA legislative-journal canvass hunt for the complete per-county table is queued; full provenance scratchpad agents/officials_1849_1858.md |
 
 ---
 

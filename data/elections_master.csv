@@ -4,7 +4,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1851-09-03,1851,statewide,Gubernatorial,Governor,final-only,,exact,Blue Book/SOV/Wikipedia
 1852-11-02,1852,statewide,Presidential,President,final-only,,exact,Blue Book/SOV/Wikipedia
 1853-09-07,1853,statewide,Gubernatorial,Governor,final-only,,exact,Blue Book/SOV/Wikipedia
-1854-09-06,1854,statewide,General,Congress-at-large + Legislature,no,,exact,Blue Book/SOV/Wikipedia
+1854-09-06,1854,statewide,General,Congress-at-large + Legislature,final-only,,exact,Blue Book/SOV/Wikipedia
 1855-09-05,1855,statewide,Gubernatorial,Governor,final-only,,exact,Blue Book/SOV/Wikipedia
 1856-11-04,1856,both,Presidential + Municipal,President; Mayor (Burr) + city offices — 1st under Consolidation Act,final-only,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
 1857-09-02,1857,statewide,Gubernatorial,"Governor + city offices (same day; the index's separate Sept 4 city election was a date error, corrected 2026-07-08)",final-only,,exact,Blue Book/SOV/Wikipedia
@@ -144,7 +144,7 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1943-11-02,1943,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
 1944-05-16,1944,city,Primary,,no,,exact,SFPL/DataSF/DOE
 1944-11-07,1944,city,General,,final-only,,exact,SFPL/DataSF/DOE
-1945-11-06,1945,city,Municipal,,no,,exact,SFPL/DataSF/DOE
+1945-11-06,1945,city,Municipal,,night,1.0,exact,SFPL/DataSF/DOE
 1946-07-16,1946,city,Recall,,night,100.0,exact,SFPL/DataSF/DOE
 1946-11-05,1946,city,General,,night,87.2,exact,SFPL/DataSF/DOE
 1947-11-04,1947,city,Municipal,,night,100.0,exact,SFPL/DataSF/DOE
