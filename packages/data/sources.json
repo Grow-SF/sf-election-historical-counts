@@ -6154,6 +6154,30 @@
   "observations": []
  },
  {
+  "id": "1944-05-16",
+  "name": "Consolidated Primary Election",
+  "final": 188188,
+  "finalSource": "SF Chronicle 1944-05-18 complete returns (news-derived final; companion row)",
+  "observations": [
+   {
+    "date": "1944-05-17",
+    "days": 1,
+    "total": 1906,
+    "pct": 1.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle ELECTION EXTRA edition via NewsBank page image (SFPL ezproxy), 1944-05-17 p1 'The Latest Returns from S.F.' box (operator-attended read 2026-07-08; the EXTRA banner marks the overnight plate per the operator's 1982 edition ruling): 'Complete semi-official returns [from] 15 widely scattered precincts out of 1181 in San Francisco gave the following results: Charter Amendment, Market Street Purchase - YES 1,137 / NO 769' = 1,906 ballots counted at 15 of 1,181 precincts, a 1.0 percent night state, twin to Nov 1945's; the charter amendment is the box's only all-voter contest (the rest are party-sliced primary races); the p1 lead: Mayor Lapham's purchase 'apparently was on its way to victory on the basis of complete semi-official returns from the first San Francisco precincts'; dimmed contest-sum partial; reproduction: NewsBank image-edition alltext search 'precincts' (quoted) scoped to SF Chronicle 1944-05-17, hit page 1"
+   },
+   {
+    "date": "1944-05-18",
+    "days": 2,
+    "total": 188188,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle via NewsBank page image (SFPL ezproxy), 1944-05-18 p7 'Returns on Propositions' box (operator hand-read 2026-07-08): 'Complete semi-official returns from 1181 precincts in San Francisco gave the following results: ... Charter Amendment No. 1, Market Street Railway Purchase - YES 105,302 / NO 82,886' = 188,188, the box's largest all-voter sum (Constitutional Amdt 1: 87,105/38,966; Charter Amdts 2-6 range 160,469-167,196); news-derived final for an election absent from the DOE turnout table; reproduction: NewsBank image-edition alltext search 'precincts' (quoted) scoped to SF Chronicle 1944-05-18, open the page-7/12 hit, 'Returns on Propositions' box"
+   }
+  ]
+ },
+ {
   "id": "1943-11-02",
   "name": "General Municipal Election",
   "final": 217783,
@@ -6246,6 +6270,22 @@
     "pct": 95.3,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1940-11-06 President SF sum=300729, 1103/1103 precincts, complete; scan sweep_19401105_issue19401106_p4_s0; conf=medium; all-1103-precincts-complete;minor-cands-Babson-Browder-Thomas-not-tabulated-in-paper;Roosevelt-181620-Willkie-119109"
+   }
+  ]
+ },
+ {
+  "id": "1940-05-07",
+  "name": "Special + Presidential Primary Election",
+  "final": 155367,
+  "finalSource": "SF Chronicle 1940-05-08 complete semi-official returns, two-party ballots sum (news-derived final)",
+  "observations": [
+   {
+    "date": "1940-05-08",
+    "days": 1,
+    "total": 155367,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle via NewsBank page image (SFPL ezproxy), 1940-05-08 p8 'The Vote in S.F. / FDR Has a Margin Here' + p1-jump (operator-attended read 2026-07-08): 'Semi-official complete returns of San Francisco's 1084 precincts' - the count finished overnight; 'For the Democrats the vote was: Roosevelt 81,331; Garner, 13,328; Ham [and Eggs/Allen] 6610; Patterson, 6595' = 107,864, plus 'Republican uninstructed [delegation] vote was 47,503': the two party presidential ballots sum to 155,367, a ballots floor (each ballot in exactly one party contest; nonpartisan-only voters excluded, disclosed); corroborated by the AP county table's SF row (the earlier same-night state, 1,060 of 1,084: Allen 6,462/Garner 13,068/Patterson 6,474/Roosevelt 79,957) and the charter measures ('Charter amendment No. 1 received 81,886 Yes votes'; No. 2 'rejected 40,2xx'); 'The very light ballot was a surprise... anticipated that between 225,000 [and ?] votes would be cast'; no official certified exists (absent from the DOE table), night = complete count per the 1933-1963 era convention; reproduction: NewsBank image-edition alltext search 'precincts' (quoted) scoped to SF Chronicle 1940-05-08, open the page-8 hit, 'The Vote by Counties' page"
    }
   ]
  },
@@ -6554,6 +6594,22 @@
   ]
  },
  {
+  "id": "1931-02-06",
+  "name": "Special Bond Election (employment bonds)",
+  "final": 84725,
+  "finalSource": "SF Chronicle 1931-02-07 'Total vote cast 84,725' (news-derived final, complete count)",
+  "observations": [
+   {
+    "date": "1931-02-07",
+    "days": 1,
+    "total": 84725,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle via NewsBank page image (SFPL ezproxy), 1931-02-07 p1 'Complete Returns' box (operator-attended read 2026-07-08): 'Final semi official returns from the 788 precincts of San Francisco gave the following results from yesterday's balloting on the local $2,500,000 employment bonds: No. 1 - Improvement of Paths and Roads in Public Parks and Squares, $1,400,000: Yes 72,868 / No 10,957; No. 2 - Construction of Roads and Highways, $900,000: Yes 72,522 / No 10,836; No. 3 - Improvements in Public Playgrounds, $200,000: Yes 72,337 / No 11,235. Total vote cast......84,725' - an explicit total-ballots statement at complete precincts in the E+1 morning paper (the Depression-era employment bonds); every bond sum sits consistently beneath it (83,825 / 83,358 / 83,572); count complete on election night, undimmed; no official certified exists (absent from the DOE table), the printed total is the news-derived final; reproduction: NewsBank image-edition alltext search 'precincts' (quoted) scoped to SF Chronicle 1931-02-07, page 1 hit, 'Complete Returns' box"
+   }
+  ]
+ },
+ {
   "id": "1930-11-04",
   "name": "General Election",
   "final": 158629,
@@ -6586,6 +6642,22 @@
   ]
  },
  {
+  "id": "1929-11-05",
+  "name": "General Municipal Election",
+  "final": 96319,
+  "finalSource": "SF Chronicle 1929-11-07 recheck-confirmed count (news-derived final)",
+  "observations": [
+   {
+    "date": "1929-11-06",
+    "days": 1,
+    "total": 96319,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle via NewsBank page image (SFPL ezproxy), 1929-11-06 p1 'RETURNS' box + 1929-11-07 p2 recheck (operator-attended read 2026-07-08): 'Returns from 734 scattered precincts [received] at 12 o'clock for the election held [yesterday]' - a clocked MIDNIGHT state; For Treasurer: MATHESON 43,125 + Wilson 24,334 + Richardson 14,767 + McDougald 14,093 = 96,319, the largest single-seat field (Tax Collector sums 85,864: Bryant 66,865 + Spencer 7,628 + Goodenough 5,789 + McCormick 5,582); the front page called the result ('FIVE SUPERVISORS BEATEN, KATZ, MATHESON VICTORS'); the day-2 paper confirms completeness: 'the total [votes for] Treasurer Matheson, ... City Attorney ..., Judges O'Brien and [Tax] Collector Edward F. [Bryant], Mrs. Mary Prag ... failed to show changes yesterday' (its complete Katz/Shannon supervisor tally: 51,786 + 38,694 = 90,480); the midnight count was effectively complete (lever-machine era); 'scattered' precinct phrasing disclosed; no official certified exists (absent from the DOE table), night = confirmed count per the era convention; reproduction: NewsBank image-edition alltext searches 'precincts' scoped 1929-11-06 (page 1 hit) and Matheson + 'total vote' scoped 1929-11-07 (page 2 hit)"
+   }
+  ]
+ },
+ {
   "id": "1928-11-06",
   "name": "Presidential General Election",
   "final": 199665,
@@ -6598,6 +6670,22 @@
     "pct": 90.8,
     "label": "SF Chronicle page scan (NewsBank/SFPL)",
     "citation": "SF Chronicle (NewsBank image scan via SFPL), 1928-11-07 PRESIDENT SF sum=181264, 970/1006 precincts, PARTIAL; scan sweep_19281106_issue19281107_p1_s1; conf=high; HOOVER-89487-SMITH-91777-from-image; regular-morning-edition; SEN-JOHNSON-66107-MOORE-15790-smaller"
+   }
+  ]
+ },
+ {
+  "id": "1928-08-28",
+  "name": "Primary Election",
+  "final": 50641,
+  "finalSource": "SF Chronicle 1928-08-29 midnight-compiled count, Senate field (news-derived final)",
+  "observations": [
+   {
+    "date": "1928-08-29",
+    "days": 1,
+    "total": 50641,
+    "pct": 100.0,
+    "label": "SF Chronicle page scan (NewsBank/SFPL)",
+    "citation": "SF Chronicle via NewsBank page image (SFPL ezproxy), 1928-08-29 p1 'S.F. ELECTION RETURNS' box (operator-verified verbatim 2026-07-08): 'Here are primary returns from 1000 out of 1003 precincts in San Francisco, compiled at midnight' - a clocked midnight state at 99.7 percent of precincts, the lever-machine era at full stride; UNITED STATES SENATOR: HIRAM W. JOHNSON 45,760 + Charles H. Randall 4,881 = 50,641, the box's citywide contest (State Senate and Assembly district fields follow beneath); single-contest basis in the cross-filing era, true total ballots higher, disclosed; the front page: 'JOHNSON SNOWS UNDER OPPONENTS'; no official certified exists (absent from the DOE table), night = the midnight-compiled count per the era convention; reproduction: NewsBank image-edition alltext search 'precincts' (quoted) scoped to SF Chronicle 1928-08-29, page 1 hit, 'S.F. ELECTION RETURNS' box"
    }
   ]
  },
@@ -7995,7 +8083,7 @@
     "total": 13781,
     "pct": 97.1,
     "label": "cdnc-ocr",
-    "citation": "Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08): day+3 complete table (1865-05-19): Coon 6,980 + Rowell 6,801 = 13,781, majority 179 exact; citywide ballots 14,196 per the Sept 1865 Alta retrospective (which also set the trap 'Coon had 8,980', an OCR misread of 6,980, resolved); URL https://cdnc.ucr.edu/?a=d&d=DAC18650519.2.3 ; shots mirror/cdnc/DAC18650519/; provenance agents/cdnc_1859_1865.md || OPEN CONFLICT (queued): the Municipal Reports FY1865-66 p.415 retrospective sentence prints a lower figure (1863: 10,147; 1865: 13,770) than this row; the sentence is a summary line, not a canvass table, and echoes the 1863 Alta retrospective's mis-citation pattern. Awaiting operator ruling; row unchanged meanwhile."
+    "citation": "Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08): day+3 complete table (1865-05-19): Coon 6,980 + Rowell 6,801 = 13,781, majority 179 exact; citywide ballots 14,196 per the Sept 1865 Alta retrospective (which also set the trap 'Coon had 8,980', an OCR misread of 6,980, resolved); URL https://cdnc.ucr.edu/?a=d&d=DAC18650519.2.3 ; shots mirror/cdnc/DAC18650519/; provenance agents/cdnc_1859_1865.md || CONFLICT RESOLVED (agent recovery 2026-07-08): the FY1865-66 p.415 sentence's '1865, 13,770' is the official POST-RECOUNT Mayor total (Coon 6,972 + Rowell 6,798, majority 174; the Board recounted May 22-25 on Rowell's demand and shaved 11 votes off the unofficial figures this row records; official per-district statement Alta 1865-06-01, cdnc.ucr.edu/?a=d&d=DAC18650601.2.3); this row remains the dated day-3 unofficial observation, gate-clean beneath the 14,196 ballots denominator; provenance agents/may_municipals_1863_1865.md"
    }
   ]
  },
@@ -8027,7 +8115,7 @@
     "total": 10847,
     "pct": 100.0,
     "label": "cdnc-ocr",
-    "citation": "Municipal Reports FY1865-66 p.415 ('1864, 10,847') + cumulative attestation (agent recovery): official total 10,847 for the May 1864 municipal, an election absent from every prior index; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md"
+    "citation": "Municipal Reports FY1865-66 p.415 ('1864, 10,847') + cumulative attestation (agent recovery): official figure 10,847 for the May 1864 municipal - CLASS CORRECTED (2026-07-08): this is the official SHERIFF contest total (Davis 7,642 + Weller 3,205, Resolution No. 3390 of May 23 1864, printed Alta 1864-05-25, cdnc.ucr.edu/?a=d&d=DAC18640525.2.27.5; there was no Mayor contest), a contest floor, true ballots higher, an election absent from every prior index; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md"
    }
   ]
  },
@@ -8059,7 +8147,7 @@
     "total": 11147,
     "pct": 97.6,
     "label": "cdnc-ocr",
-    "citation": "Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08): election night had only midnight count states; the total cast, 11,417, self-checks exactly (1862's 11,383 plus 'thirty-four votes more'); day+2 complete table (1863-05-21): Coon 6,513 + Holland 4,634 = 11,147, majority 1,879 (the OCR dropped the leading 1; image, district sums and sibling-row majority checks all confirm); URL https://cdnc.ucr.edu/?a=d&d=DAC18630521.2.7 ; shots mirror/cdnc/DAC18630521/; provenance agents/cdnc_1859_1865.md || OPEN CONFLICT (queued): the Municipal Reports FY1865-66 p.415 retrospective sentence prints a lower figure (1863: 10,147; 1865: 13,770) than this row; the sentence is a summary line, not a canvass table, and echoes the 1863 Alta retrospective's mis-citation pattern. Awaiting operator ruling; row unchanged meanwhile."
+    "citation": "Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08): election night had only midnight count states; the total cast, 11,417, self-checks exactly (1862's 11,383 plus 'thirty-four votes more'); day+2 complete table (1863-05-21): Coon 6,513 + Holland 4,634 = 11,147, majority 1,879 (the OCR dropped the leading 1; image, district sums and sibling-row majority checks all confirm); URL https://cdnc.ucr.edu/?a=d&d=DAC18630521.2.7 ; shots mirror/cdnc/DAC18630521/; provenance agents/cdnc_1859_1865.md || CONFLICT RESOLVED (agent recovery 2026-07-08): the FY1865-66 p.415 sentence reports official SINGLE-CONTEST totals, not ballots; its '1863, 10,147' is a corrupted print of 11,147, which the Board's official canvass (declared May 25, printed Alta 1863-05-26, cdnc.ucr.edu/?a=d&d=DAC18630526.2.3) confirms EXACTLY as this row's Mayor sum (Coon 6,513 + Holland 4,634 = 11,147); the same election's railroad-subscription measure was officially 6,329 for / 3,118 against (Municipal Reports FY1862-63 p.267); provenance agents/may_municipals_1863_1865.md"
    }
   ]
  },

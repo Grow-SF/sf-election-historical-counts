@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**52 San Francisco elections still lack an election-night ballot count.** For 47 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 5 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**47 San Francisco elections still lack an election-night ballot count.** For 47 of them we at least hold the final count (a certified or registrar total; `recovered = final-only`); the other 0 have no recovered data at all (`recovered = no`). Both live in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 52 elections still missing a night count
+## The 47 elections still missing a night count
 
 | Date | Year | Level | Kind | Final count known? | Description |
 |------|------|-------|------|--------------------|-------------|
@@ -58,11 +58,6 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1915-03-16 | 1915 | city | Special | yes |  |
 | 1915-10-26 | 1915 | city | Special | yes |  |
 | 1922-11-21 | 1922 | city | Special | yes |  |
-| 1928-08-28 | 1928 | city | Primary | no |  |
-| 1929-11-05 | 1929 | city | Municipal | no |  |
-| 1931-02-06 | 1931 | city | Special | no |  |
-| 1940-05-07 | 1940 | city | Special | no |  |
-| 1944-05-16 | 1944 | city | Primary | no |  |
 | 1944-11-07 | 1944 | city | General | yes |  |
 | 1972-06-06 | 1972 | city | Primary | yes |  |
 | 1994-11-08 | 1994 | city | General | yes |  |
@@ -1086,3 +1081,55 @@ hunt queued for the complete canvass. The zero-data bucket stands at
 six: 1871-09 (three official values await an operator pick) and the
 prewar NewsBank cluster (1928-08, 1929-11, 1931-02, 1940-05,
 1944-05).
+**Resolutions (2026-07-08, three operator rulings and a footing-error
+audit).** (1) 1871-09: the contemporaneous Municipal Reports total
+25,094 governs (operator ruling, same-year-record principle); the
+retrospective 25,015 and the state-side Governor figure 24,995 are
+logged; the election leaves the zero-data bucket as final-known. (2)
+1854: upgraded from the Benham floor to the certified record - the
+Secretary of State's own per-county canvass (J.W. Denver, Nov 6
+1854, printed in the Sacramento Daily Union) supplies the COMPLETE
+SF congressional row including the Broderick ticket the almanac
+dropped, corroborated cell-for-cell by the SF Board of Canvassers'
+table in the Alta; the single-seat Clerk of the Supreme Court race
+sums to 9,949, the new floor (~10,333 ballots derived; fraud-year
+spread to ~11.7k disclosed); the 1855 legislative journals print no
+1854 canvass (the Legislature only canvassed Governor returns) -
+dead end documented. (3) 1867-10: the 100-vote ladder
+(13,871/13,971/14,071) dissolved under the operator's ward-sum
+audit: the Alta mis-footed Currey's column by +200 (printed 6,257
+over wards summing 6,057; Sprague's 7,714 foots honestly), and both
+higher paper totals were artifacts of that one error; the corrected
+night sum 13,771 sits gate-clean beneath the official 13,871 at 99.3
+percent. METHOD LESSON for the era, now twice-proven (the 1863
+retrospective mis-citation, the 1867 footing error): never trust a
+printed total without summing its own column, and prefer the
+same-year official record to any retrospective summary.
+**Update (2026-07-08, the prewar five fall and the zero-data bucket
+empties: 236 to 241 nights, no election without recovered data).**
+The operator-attended walk through the last five blank elections
+closed the record. 1944-05 (the Market Street Railway purchase
+primary): the ELECTION EXTRA's front-page box gives a 1.0 percent
+night twin to 1945's (Charter Amendment 1,137 + 769 = 1,906 at 15 of
+1,181 precincts), against the day-2 complete 188,188 (YES 105,302 /
+NO 82,886, the operator-read 'Returns on Propositions' box).
+1940-05: the count finished overnight - 'semi-official complete
+returns of San Francisco's 1084 precincts', the two party
+presidential ballots summing 155,367 (Roosevelt 81,331 + Garner
+13,328 + Allen 6,610 + Patterson 6,595; Republican 47,503).
+1931-02: the Depression employment-bond special printed its own
+'Total vote cast......84,725' at complete precincts E+1. 1929-11:
+a clocked MIDNIGHT state, 'returns from 734 scattered precincts at
+12 o'clock', Treasurer field 96,319, confirmed unchanged by the
+day-2 recheck - the lever machines counted the city by midnight.
+1928-08: 'primary returns from 1000 out of 1003 precincts, compiled
+at midnight', Senate field 50,641. The era story is now complete on
+the chart: hand counts crawling at 1-20 percent through 1877, the
+machines arriving in 1928 and delivering midnight counts, the
+1944-45 wartime paper-ballot municipals collapsing back to 1 percent,
+and the modern mail-era slide. Also resolved: the 1863/1865 May
+municipal conflicts (the retrospective sentence reported official
+single-contest totals, not ballots - 1863's '10,147' is a corrupted
+11,147 that exactly matches the official canvass; 1865's '13,770' is
+the post-recount Mayor total) and 1864-05's figure reclassified as
+the official Sheriff contest floor.

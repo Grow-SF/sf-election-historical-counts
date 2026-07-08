@@ -1039,3 +1039,31 @@ percent. METHOD LESSON for the era, now twice-proven (the 1863
 retrospective mis-citation, the 1867 footing error): never trust a
 printed total without summing its own column, and prefer the
 same-year official record to any retrospective summary.
+**Update (2026-07-08, the prewar five fall and the zero-data bucket
+empties: 236 to 241 nights, no election without recovered data).**
+The operator-attended walk through the last five blank elections
+closed the record. 1944-05 (the Market Street Railway purchase
+primary): the ELECTION EXTRA's front-page box gives a 1.0 percent
+night twin to 1945's (Charter Amendment 1,137 + 769 = 1,906 at 15 of
+1,181 precincts), against the day-2 complete 188,188 (YES 105,302 /
+NO 82,886, the operator-read 'Returns on Propositions' box).
+1940-05: the count finished overnight - 'semi-official complete
+returns of San Francisco's 1084 precincts', the two party
+presidential ballots summing 155,367 (Roosevelt 81,331 + Garner
+13,328 + Allen 6,610 + Patterson 6,595; Republican 47,503).
+1931-02: the Depression employment-bond special printed its own
+'Total vote cast......84,725' at complete precincts E+1. 1929-11:
+a clocked MIDNIGHT state, 'returns from 734 scattered precincts at
+12 o'clock', Treasurer field 96,319, confirmed unchanged by the
+day-2 recheck - the lever machines counted the city by midnight.
+1928-08: 'primary returns from 1000 out of 1003 precincts, compiled
+at midnight', Senate field 50,641. The era story is now complete on
+the chart: hand counts crawling at 1-20 percent through 1877, the
+machines arriving in 1928 and delivering midnight counts, the
+1944-45 wartime paper-ballot municipals collapsing back to 1 percent,
+and the modern mail-era slide. Also resolved: the 1863/1865 May
+municipal conflicts (the retrospective sentence reported official
+single-contest totals, not ballots - 1863's '10,147' is a corrupted
+11,147 that exactly matches the official canvass; 1865's '13,770' is
+the post-recount Mayor total) and 1864-05's figure reclassified as
+the official Sheriff contest floor.
