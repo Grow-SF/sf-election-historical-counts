@@ -407,11 +407,18 @@ def main():
     if pre1899.exists():
         with open(pre1899, newline="") as f:
             for r in csv.DictReader(f):
+                if not r["registration"]:
+                    # non-general elections in the vol47 cumulative table print
+                    # ballots but no registration figure, so no turnout share
+                    # can be computed; the ballots live in the CSV and the
+                    # master index, not on the turnout chart
+                    continue
                 reg_i, bal = int(r["registration"]), int(r["ballots_cast"])
                 turnout[r["election_date"]] = {"date": r["election_date"],
                     "turnoutPct": round(100 * bal / reg_i, 1),
                     "registered": reg_i, "ballots": bal,
-                    "source": "muni-registrar"}
+                    "source": "muni-registrar",
+                    "cite": r["source"]}
     # 1891-1907: the gap between the FY1888-89 Registrar master table and the
     # reliable start of the DOE table, recovered from Municipal Reports volumes
     # (basis muni-registrar) and the CA SOV / Blue Book (basis sov-bluebook)

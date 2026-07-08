@@ -37,6 +37,7 @@
   "registered": 48792,
   "ballots": 45716,
   "source": "muni-registrar",
+  "cite": "SF Municipal Reports FY1888-89 (Registrar master table, p.856) \u2014 Nov 2 1886 general: registration 48,792, total vote 45,716",
   "kind": "General"
  },
  {
@@ -49,10 +50,11 @@
  },
  {
   "date": "1890-11-04",
-  "turnoutPct": 92.6,
-  "registered": 59712,
-  "ballots": 55317,
+  "turnoutPct": 93.0,
+  "registered": 59770,
+  "ballots": 55565,
   "source": "muni-registrar",
+  "cite": "SF Municipal Reports vol47 Board of Election Commissioners' Report p.277 cumulative table (mirror/muni_reports/vol47_n320.jpg, operator hand-read 2026-07-07): Nov 4 1890 general, 310 precincts, registration 59,770, total vote 55,565 \u2014 upgrades the prior stitched floor (Great Register 59,712 + Governor-sum 55,317, SOV/Blue Book 1891 p.88, kept here for the record) with the registrar's own official series, which continues past the FY1888-89 table's 1888 endpoint",
   "kind": "General"
  },
  {

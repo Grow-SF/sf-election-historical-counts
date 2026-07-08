@@ -33,15 +33,19 @@ election_date,year,level,kind,description,recovered,night_pct,date_confidence,so
 1875-10-20,1875,statewide,General,Supt. Public Instruction,no,,exact,Blue Book/SOV/Wikipedia
 1876-11-07,1876,statewide,Presidential,President + Congress,night,100.0,exact,Blue Book/SOV/Wikipedia
 1877-09-05,1877,both,General + Municipal,Legislature; Mayor (Bryant re-elected),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
+1878-06-19,1878,statewide,Special,Delegates to the 1878-79 state Constitutional Convention,no,,exact,Blue Book/SOV/Wikipedia
+1879-05-07,1879,statewide,Special,Ratification of the 1879 Constitution,no,,exact,Blue Book/SOV/Wikipedia
 1879-09-03,1879,both,Gubernatorial + Municipal,Governor (1879 Constitution); Mayor (Kalloch) — 1st under 1879 Constitution,night,2.4,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
-1880-07-01,1880,municipal,Charter,Proposed new charter — REJECTED; exact date unknown,no,,date-unknown,Municipal Reports/CDNC/Wikipedia
+1880-03-30,1880,municipal,Charter,"Board of Freeholders (draft new charter) — registrar cumulative table (vol47 p.277): 30,877 votes",no,,exact,Municipal Reports/CDNC/Wikipedia
+1880-09-08,1880,municipal,Charter,"Proposed new charter — REJECTED; dated Sept 8 1880 by the registrar cumulative table (vol47 p.277): 23,398 votes",no,,exact,Municipal Reports/CDNC/Wikipedia
 1880-11-02,1880,statewide,Presidential,President + Congress + Legislature,turnout-only,,exact,Blue Book/SOV/Wikipedia
 1881-09-07,1881,municipal,Municipal,Mayor (Blake) — last September municipal,no,,exact,Municipal Reports/CDNC/Wikipedia
 1882-11-07,1882,both,Gubernatorial + Municipal,Governor + state officers; Mayor (Bartlett) — 1st November municipal,night,10.9,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
-1883-07-01,1883,municipal,Charter,Proposed new charter — REJECTED; exact date unknown,no,,date-unknown,Municipal Reports/CDNC/Wikipedia
+1883-03-03,1883,municipal,Charter,"Proposed new charter — REJECTED; dated March 3 1883 by the registrar cumulative table (vol47 p.277): 18,764 votes",no,,exact,Municipal Reports/CDNC/Wikipedia
+1884-03-18,1884,municipal,Special,"Assemblyman (special) — registrar cumulative table (vol47 p.277): 2,655 votes",no,,exact,Municipal Reports/CDNC/Wikipedia
 1884-11-04,1884,both,Presidential + Municipal,President + Congress + Legislature; Mayor (Bartlett re-elected),night,10.6,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
 1886-11-02,1886,both,Gubernatorial + Municipal,Governor + state officers; Mayor (Pond),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
-1887-07-01,1887,municipal,Charter,Proposed new charter — REJECTED; exact date unknown,no,,date-unknown,Municipal Reports/CDNC/Wikipedia
+1887-04-12,1887,municipal,Charter,"Amendments and proposed charter — REJECTED; dated April 12 1887 by the registrar cumulative table (vol47 p.277): 25,959 votes",no,,exact,Municipal Reports/CDNC/Wikipedia
 1888-11-06,1888,both,Presidential + Municipal,President + Congress + Legislature; Mayor (Pond re-elected),night,11.4,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
 1890-11-04,1890,both,Gubernatorial + Municipal,Governor + state officers; Mayor (Sanderson),no,,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia
 1892-11-08,1892,both,Presidential + Municipal,President + Congress + Legislature; Mayor (Ellert),night,66.7,exact,Blue Book/SOV/Wikipedia; Municipal Reports/CDNC/Wikipedia

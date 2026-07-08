@@ -2,7 +2,7 @@
 
 # Missing election-night counts — help wanted
 
-**55 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
+**59 San Francisco elections still lack an election-night ballot count.** These are the `recovered = no` rows in [`data/elections_master.csv`](../data/elections_master.csv). None are lost causes: the returns were printed at the time and most survive in the newspaper archive. You can help find them — no special skills needed.
 
 This page was previously the `/missing` route in the viz app. It now lives here as a stable, version-controlled reference in the data repository.
 
@@ -10,7 +10,7 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 
 ---
 
-## The 55 elections still missing a night count
+## The 59 elections still missing a night count
 
 | Date | Year | Level | Kind | Description |
 |------|------|-------|------|-------------|
@@ -45,11 +45,15 @@ This page was previously the `/missing` route in the viz app. It now lives here 
 | 1873-09-03 | 1873 | both | General + Municipal | Legislature; Mayor (Otis) |
 | 1875-10-20 | 1875 | statewide | General | Supt. Public Instruction |
 | 1877-09-05 | 1877 | both | General + Municipal | Legislature; Mayor (Bryant re-elected) |
-| 1880-07-01 | 1880 | municipal | Charter | Proposed new charter — REJECTED; exact date unknown |
+| 1878-06-19 | 1878 | statewide | Special | Delegates to the 1878-79 state Constitutional Convention |
+| 1879-05-07 | 1879 | statewide | Special | Ratification of the 1879 Constitution |
+| 1880-03-30 | 1880 | municipal | Charter | Board of Freeholders (draft new charter) — registrar cumulative table (vol47 p.277): 30,877 votes |
+| 1880-09-08 | 1880 | municipal | Charter | Proposed new charter — REJECTED; dated Sept 8 1880 by the registrar cumulative table (vol47 p.277): 23,398 votes |
 | 1881-09-07 | 1881 | municipal | Municipal | Mayor (Blake) — last September municipal |
-| 1883-07-01 | 1883 | municipal | Charter | Proposed new charter — REJECTED; exact date unknown |
+| 1883-03-03 | 1883 | municipal | Charter | Proposed new charter — REJECTED; dated March 3 1883 by the registrar cumulative table (vol47 p.277): 18,764 votes |
+| 1884-03-18 | 1884 | municipal | Special | Assemblyman (special) — registrar cumulative table (vol47 p.277): 2,655 votes |
 | 1886-11-02 | 1886 | both | Gubernatorial + Municipal | Governor + state officers; Mayor (Pond) |
-| 1887-07-01 | 1887 | municipal | Charter | Proposed new charter — REJECTED; exact date unknown |
+| 1887-04-12 | 1887 | municipal | Charter | Amendments and proposed charter — REJECTED; dated April 12 1887 by the registrar cumulative table (vol47 p.277): 25,959 votes |
 | 1890-11-04 | 1890 | both | Gubernatorial + Municipal | Governor + state officers; Mayor (Sanderson) |
 | 1908-05-11 | 1908 | city | Special |  |
 | 1908-11-12 | 1908 | city | Special |  |

@@ -213,10 +213,10 @@ None of these are *impossible* — the returns exist in some edition, microfilm,
 the County Clerk/Registrar's canvass, or the state Statement of Vote; we just
 haven't recovered them yet. The full election-by-election list is now
 [`data/elections_master.csv`](data/elections_master.csv) (built by
-[`scripts/build_elections_master.py`](scripts/build_elections_master.py)) — **275
+[`scripts/build_elections_master.py`](scripts/build_elections_master.py)) — **279
 San Francisco elections, 1849–2026**, each flagged by whether we hold a night
-count: **204 recovered · 16 turnout-only · 55 still missing**. The categories below
-summarize those 55. (The total rose in July 2026: the Municipal Reports
+count: **204 recovered · 16 turnout-only · 59 still missing**. The categories below
+summarize those 59. (The total rose in July 2026: the Municipal Reports
 cumulative Registrar table exposed a spurious index entry, Nov 1 1898, and
 three previously unindexed specials; see the search log.)
 

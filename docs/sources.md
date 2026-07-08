@@ -4615,7 +4615,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1906-11-07 | 1 |  | 37,287 | 96.7% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1906-11-07 'Figures Show How City's Citizens Cast Votes' (section SFC19061107.2.10.5), semi-official returns after revision by the Registrar's deputies at midnight, all of the post-fire city's 129 precincts effectively in (no partial caption, unlike every other county in the issue): Governor sum 37,287 (Gillett 12,906 + Bell 11,600 + Langdon 10,521 + Lewis 2,103 + Blanchard 157) - Lt Governor sum 37,334 within 0.1 percent corroborates; the printed grand total reads 38,802 or 38,302 depending on the line (OCR digit conflict, queued for hand-read, not used); mirror/cdnc/SFC19061107/section_SFC19061107.2.10.5.txt, read 2026-07-07 |
+| 1906-11-07 | 1 |  | 37,287 | 96.7% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1906-11-07 'Figures Show How City's Citizens Cast Votes' (section SFC19061107.2.10.5), semi-official returns after revision by the Registrar's deputies at midnight, all of the post-fire city's 129 precincts effectively in (no partial caption, unlike every other county in the issue): Governor sum 37,287 (Gillett 12,906 + Bell 11,600 + Langdon 10,521 + Lewis 2,103 + Blanchard 157) - Lt Governor sum 37,334 within 0.1 percent corroborates; the printed grand total is 38,802 in both the subhead and the closing body line (operator hand-read of the page image 2026-07-07; the OCR's 38,302 body variant was an artifact), which exceeds certified 38,564 by 238 so it stays logged, never ingested, per the above-certified rule; the article's closing 'Total 51,633' matches certified registration exactly; mirror/cdnc/SFC19061107/section_SFC19061107.2.10.5.txt, read 2026-07-07 |
 
 ---
 
@@ -4930,9 +4930,9 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **ID:** `1890-11-04`
 
-55,317 ballots cast, 92.6% of 59,712 registered
+55,565 ballots cast, 93.0% of 59,770 registered
 
-**Source:** SF Municipal Reports — Registrar of Voters (1879–1890)
+**Source:** SF Municipal Reports vol47 Board of Election Commissioners' Report p.277 cumulative table (mirror/muni_reports/vol47_n320.jpg, operator hand-read 2026-07-07): Nov 4 1890 general, 310 precincts, registration 59,770, total vote 55,565 — upgrades the prior stitched floor (Great Register 59,712 + Governor-sum 55,317, SOV/Blue Book 1891 p.88, kept here for the record) with the registrar's own official series, which continues past the FY1888-89 table's 1888 endpoint
 
 ---
 
@@ -4960,7 +4960,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 45,716 ballots cast, 93.7% of 48,792 registered
 
-**Source:** SF Municipal Reports — Registrar of Voters (1879–1890)
+**Source:** SF Municipal Reports FY1888-89 (Registrar master table, p.856) — Nov 2 1886 general: registration 48,792, total vote 45,716
 
 ---
 
