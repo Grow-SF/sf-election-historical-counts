@@ -92,9 +92,13 @@ def gen_missing_md() -> str:
         reader = csv.DictReader(f)
         rows = list(reader)
 
-    missing = [r for r in rows if r.get("recovered", "").strip().lower() == "no"]
+    # "missing" = every election without a recovered night count; among them,
+    # `final-only` rows have a known certified/registrar final and `no` rows
+    # have no recovered data at all (operator category ruling, 2026-07-07)
+    missing = [r for r in rows if r.get("recovered", "").strip().lower() != "night"]
     # Stable sort: by election_date (already ISO-ish strings, lexicographic == chronological)
     missing.sort(key=lambda r: r.get("election_date", ""))
+    n_final = sum(1 for r in missing if r.get("recovered", "").strip().lower() == "final-only")
 
     with open(LEDGER_JSON, encoding="utf-8") as f:
         ledger = json.load(f)
@@ -104,14 +108,29 @@ def gen_missing_md() -> str:
 
     lines: list[str] = [GENERATED_NOTE]
     lines.append("# Missing election-night counts — help wanted\n\n")
-    lines.append(
-        f"**{count} San Francisco elections still lack an election-night ballot count.** "
-        "These are the `recovered = no` rows in "
-        "[`data/elections_master.csv`](../data/elections_master.csv). "
-        "None are lost causes: the returns were printed at the time and most "
-        "survive in the newspaper archive. You can help find them — no special "
-        "skills needed.\n\n"
-    )
+    if count == n_final:
+        lines.append(
+            f"**{count} San Francisco elections still lack an election-night ballot "
+            "count — but every one of them has a known final count** (a certified, "
+            "registrar, or official-canvass total; `recovered = final-only`), so as "
+            "of July 2026 no election lacks recovered data entirely. The list lives "
+            "in [`data/elections_master.csv`](../data/elections_master.csv). "
+            "None are lost causes: the returns were printed at the time and most "
+            "survive in the newspaper archive. You can help find them — no special "
+            "skills needed.\n\n"
+        )
+    else:
+        lines.append(
+            f"**{count} San Francisco elections still lack an election-night ballot count.** "
+            f"For {n_final} of them we at least hold the final count (a certified or "
+            "registrar total; `recovered = final-only`); the other "
+            f"{count - n_final} have no recovered data at all (`recovered = no`). "
+            "Both live in "
+            "[`data/elections_master.csv`](../data/elections_master.csv). "
+            "None are lost causes: the returns were printed at the time and most "
+            "survive in the newspaper archive. You can help find them — no special "
+            "skills needed.\n\n"
+        )
     lines.append(
         "This page was previously the `/missing` route in the viz app. "
         "It now lives here as a stable, version-controlled reference in the "
@@ -128,15 +147,16 @@ def gen_missing_md() -> str:
     lines.append(f"## The {count} elections still missing a night count\n\n")
 
     # Table
-    lines.append("| Date | Year | Level | Kind | Description |\n")
-    lines.append("|------|------|-------|------|-------------|\n")
+    lines.append("| Date | Year | Level | Kind | Final count known? | Description |\n")
+    lines.append("|------|------|-------|------|--------------------|-------------|\n")
     for r in missing:
         date = r.get("election_date", "").strip()
         year = r.get("year", "").strip()
         level = r.get("level", "").strip()
         kind = r.get("kind", "").strip()
+        has_final = "yes" if r.get("recovered", "").strip().lower() == "final-only" else "no"
         description = r.get("description", "").strip().replace("|", "&#124;")
-        lines.append(f"| {date} | {year} | {level} | {kind} | {description} |\n")
+        lines.append(f"| {date} | {year} | {level} | {kind} | {has_final} | {description} |\n")
 
     lines.append("\n---\n\n")
 

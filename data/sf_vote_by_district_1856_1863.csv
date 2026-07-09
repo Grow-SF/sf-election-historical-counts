@@ -1,0 +1,26 @@
+# Votes cast by district and year, San Francisco 1856-1863, as printed in the
+# Daily Alta California 1863-09-03 ("The following table shows the vote in the
+# various Districts in each year since 1856"), operator hand-read 2026-07-08.
+# Source: https://cdnc.ucr.edu/?a=d&d=DAC18630903.2.4
+# Each column is the year's general/state election EXCEPT 1861, which the
+# compiler mis-cited as the May municipal (11,507) instead of the September
+# gubernatorial (official 15,149) - operator adjudication 2026-07-08; the same
+# error produced the article's false "451 more than ever before" boast.
+# Column checks: 1856/1860/1861/1862/1863 sum to their printed totals exactly;
+# 1857 and 1859 columns are each 3 over their printed totals (one soft cell
+# each, unresolved); 1858 District 9 is arithmetic-corrected to 1,063 (the
+# scan reads like 1,913; the printed total 8,742 requires 1,063).
+district,y1856,y1857,y1858,y1859,y1860,y1861,y1862,y1863
+1,962,705,687,774,1034,690,670,834
+2,1473,1330,1062,1374,1552,1303,1188,1345
+3,1505,1234,939,1083,1280,838,885,864
+4,1050,833,733,833,1018,883,769,857
+5,1447,1003,797,933,1408,934,827,1120
+6,866,883,673,817,1033,819,692,792
+7,1394,1236,1010,1244,1662,1289,1225,1565
+8,570,553,438,619,801,755,830,1104
+9,1248,1134,1063,1353,1805,1486,1408,1950
+10,908,917,774,1156,1822,1743,1927,2876
+11,393,381,284,421,684,436,634,1099
+12,336,377,282,285,316,331,328,460
+total_printed,12152,10583,8742,10889,14415,11507,11383,14866
