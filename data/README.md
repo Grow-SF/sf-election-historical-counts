@@ -51,7 +51,7 @@ e-day/VBM splits.
 | `sf_registration_eligible.csv` | registered vs eligible citizens | 2000–2026 | per SoS report |
 | `sf_registration_eligible_sov_1974_1998.csv` | registered vs eligible (recovered) | 1974–1998 | per election |
 | `sf_eligible_vap_estimate.csv` | voting-age & eligible-citizen population | 1900–2020 | per census |
-| `sf_franchise_by_election.csv` | eligible / registered / voted, joined per election | 1908–2024 | per election |
+| `sf_franchise_by_election.csv` | eligible / registered / voted, joined per election (deliberately separate from the rollup: the eligible denominator is an estimate with its own caveats) | 1908–2024 | per election |
 | `sf_june2026_vbm_returns_by_day.csv` | DoE daily VBM return tracking (hand-copied reference) | 2026 | per day |
 
 **Definitions used throughout** (they are not interchangeable):
