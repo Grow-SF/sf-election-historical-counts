@@ -116,3 +116,19 @@ let me know the expected timeline. Thank you for your work and your help.
 Sincerely,
 Steven [last name]
 GrowSF · contact@growsf.org
+
+---
+
+## Outcome (2026-07-09)
+
+The Department responded that they **do not have this data** — no retained
+per-election day-by-day canvass datasets exist to produce. The records
+request is closed.
+
+Path forward for the "days to certification" series: the newspapers. The
+Chronicle (and for the web era, Wayback captures of the results pages)
+printed running canvass updates between election night and certification —
+the same vein that already produced the repo's mid-canvass observations in
+`data/sf_archival_canvass_points.csv`. A per-election sweep of the E+2
+through certification-day issues could build the series the Department
+cannot; the method is proven, the cost is one NewsBank sweep per election.
