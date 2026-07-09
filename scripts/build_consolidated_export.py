@@ -20,6 +20,31 @@ OUT = ROOT / "data" / "exports" / "sf_elections_consolidated.csv"
 
 DOE_TABLE_DATE_FIXES = {"2001-12-10": "2001-12-11", "1899-12-02": "1899-12-29"}
 
+# the nine elections with no recoverable night count (documented dead ends;
+# verbatim quotes in docs/analysis/public-search-log.md and
+# docs/research/night-recovery-2026-07-09/)
+DEAD_ENDS = {
+    "1849-11-13": "documented dead end: no day-after paper existed (the Alta was weekly)",
+    "1850-10-07": "documented dead end: E+1 Alta printed outcomes only, no count",
+    "1902-08-12": "documented dead end: morning Call printed winners-only delegate lists",
+    "1908-05-05": "documented dead end: only printed overnight total exceeds the official final",
+    "1909-11-02": "documented dead end: winners conceded on prose pluralities; no returns table printed",
+    "1913-09-30": "documented dead end: count finished after the 6 AM cutoff (E+1 daytime count on file)",
+    "1944-11-07": "documented dead end: the ELECTION EXTRA printed no SF count (all 18 pages verified)",
+    "1972-06-06": "documented dead end: punch-card debut, no overnight figures printed",
+    "1994-11-08": "documented dead end: the count crashed; no usable night release survives",
+}
+
+# finals that are themselves single-contest floors rather than total-ballot
+# counts, detected from the final_source citation text
+FLOOR_FINAL_PAT = ("contest floor", "contest-sum", "final floor", "contest total",
+                   "top-contest", "Sheriff-contest", "field sum", "largest contest",
+                   "ballots sum", "proposition sum", "majority-official")
+
+# floor-class finals whose sources.json citation predates the reclassification
+FLOOR_FINAL_EXTRA = {"1864-05-17",   # Sheriff-contest total (operator ruling)
+                     "1856-11-04"}   # presidential-contest state-canvass sum
+
 SRC_LABELS = {
     "doe-turnout-table": "SF Dept. of Elections historical turnout table (1899-2019)",
     "doe-turnout-history": "SF Dept. of Elections turnout history (1960-2002)",
@@ -59,10 +84,23 @@ def main():
     elections = {e["id"]: e for e in
                  json.load(open(ROOT / "packages" / "data" / "elections.json"))}
     final_src = {}
+    source_ids = set()
     for rec in json.load(open(ROOT / "packages" / "data" / "sources.json")):
+        if rec.get("id"):
+            source_ids.add(rec["id"])
         fs = rec.get("finalSource")
         if rec.get("id") and fs:
             final_src.setdefault(rec["id"], fs)
+
+    # finals that are single-contest floors, per the reuse file's structured notes
+    floor_finals = set()
+    for r in csv.DictReader(open(ROOT / "data" /
+                                 "sf_turnout_reused_registration_1917_1945.csv")):
+        if r["ballots_note"]:
+            floor_finals.add(r["election_date"])
+
+    # per-election night-count class (floors/partials are dimmed on the charts)
+    night_partial = {e["id"] for e in elections.values() if e.get("nightPartial")}
 
     # ballots-only finals (no registration) from the turnout source files
     ballots_only = {}
@@ -84,7 +122,7 @@ def main():
             continue
         total = int(r["ballots_counted_total"])
         if d not in night or total > night[d][0]:
-            night[d] = (total, compact(r["source_url"]))
+            night[d] = (total, compact(r["source_url"]), r["observed_at"])
     # ...and the modern per-release night totals
     by_date = {}
     for r in csv.DictReader(open(ROOT / "data" / "sf_count_timeline.csv")):
@@ -101,7 +139,8 @@ def main():
             best = max(nrows, key=lambda r: int(r["ballots_counted_total"]))
             night[d] = (int(best["ballots_counted_total"]),
                         f"SF Dept. of Elections results release {best['snapshot']} "
-                        f"(reported {best['report_datetime']})")
+                        f"(reported {best['report_datetime']})",
+                        best["report_datetime"])
         fin = max(rs, key=lambda r: int(r["ballots_counted_total"]))
         if fin["ballots_vbm"] or fin["ballots_election_day"]:
             modern_split[d] = (fin["ballots_election_day"], fin["ballots_vbm"],
@@ -130,11 +169,15 @@ def main():
     OUT.parent.mkdir(exist_ok=True)
     with open(OUT, "w", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["date", "election_type", "registration", "total_turnout",
-                    "night_of_count", "eday_turnout", "vbm_turnout",
+        w.writerow(["date", "election_type", "level", "election_name",
+                    "registration", "registration_basis",
+                    "total_turnout", "total_turnout_class", "turnout_pct",
+                    "night_of_count", "night_count_class", "night_observed_at",
+                    "night_pct_of_final",
+                    "eday_turnout", "vbm_turnout",
                     "registration_source", "total_turnout_source",
                     "night_of_count_source", "eday_turnout_source",
-                    "vbm_turnout_source"])
+                    "vbm_turnout_source", "sources_record_id"])
         n_reg = n_tot = n_night = n_split = 0
         for m in sorted(master, key=lambda r: r["election_date"]):
             d = m["election_date"]
@@ -142,13 +185,14 @@ def main():
             e = elections.get(d)
 
             reg = reg_s = ""
+            reg_basis = ""
             if tp:
                 reg = tp["registered"]
                 reg_s = compact(tp.get("cite", "")) or SRC_LABELS.get(
                     tp["source"], tp["source"])
-                if tp["source"] == "reused-registration":
-                    reg_s += (" [reused from the nearest general per era"
-                              " registration law; approximate]")
+                reg_basis = ("reused from nearest general (approximate)"
+                             if tp["source"] == "reused-registration"
+                             else "as recorded for this election")
 
             tot = tot_s = ""
             if e and e.get("final"):
@@ -161,12 +205,29 @@ def main():
                     tp["source"], tp["source"])
             elif d in ballots_only:
                 tot, tot_s = ballots_only[d]
+            full_fs = final_src.get(d, "") or tot_s
+            if (d in floor_finals or d in FLOOR_FINAL_EXTRA
+                    or any(pat in full_fs for pat in FLOOR_FINAL_PAT)):
+                tot_class = "single-contest floor (a lower bound on ballots cast)"
+            elif ("news-derived" in full_fs or "polled statement" in full_fs
+                    or "semi-official" in full_fs.lower()):
+                tot_class = "news-derived complete count"
+            elif tot:
+                tot_class = "certified / official canvass"
+            else:
+                tot_class = ""
+            turnout_pct = (round(100 * int(tot) / int(reg), 1)
+                           if tot and reg else "")
 
-            nt = nt_s = ""
+            nt = nt_s = nt_at = nt_class = nt_pct = ""
             if d in night:
-                nt, nt_s = night[d]
-                if e and e.get("nightPartial"):
-                    nt_s += " [partial or contest-sum floor - a lower bound]"
+                nt, nt_s, nt_at = night[d]
+                nt_class = ("lower bound (partial or contest-sum floor)"
+                            if d in night_partial else "as printed")
+                if tot:
+                    nt_pct = round(100 * nt / int(tot), 1)
+            elif d in DEAD_ENDS:
+                nt_s = DEAD_ENDS[d]
 
             ed = vb = sp_s = ""
             if d in split:
@@ -176,9 +237,12 @@ def main():
 
             n_reg += reg != ""; n_tot += tot != ""
             n_night += nt != ""; n_split += vb != ""
-            w.writerow([d, m["kind"], reg, tot, nt, ed, vb,
+            w.writerow([d, m["kind"], m["level"], m["description"],
+                        reg, reg_basis, tot, tot_class, turnout_pct,
+                        nt, nt_class, nt_at, nt_pct, ed, vb,
                         reg_s, tot_s, nt_s,
-                        sp_s if ed else "", sp_s if vb else ""])
+                        sp_s if ed else "", sp_s if vb else "",
+                        d if d in source_ids else ""])
 
     print(f"{len(master)} elections -> {OUT}")
     print(f"  registration: {n_reg} · total: {n_tot} · night: {n_night} · vbm split: {n_split}")
