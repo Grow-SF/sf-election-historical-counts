@@ -1067,8 +1067,8 @@ single-contest totals, not ballots - 1863's '10,147' is a corrupted
 11,147 that exactly matches the official canvass; 1865's '13,770' is
 the post-recount Mayor total) and 1864-05's figure reclassified as
 the official Sheriff contest floor.
-**Update (2026-07-08, the turnout denominator pass: 167 to 249
-turnout points, the universe grows 288 to 314).** Two agent
+**Update (2026-07-08, the turnout denominator pass: 167 to 243
+turnout points, the universe grows 288 to 313).** Two agent
 recoveries against the Municipal Reports on archive.org. First, the
 full transcription of the Registrar's own cumulative election table
 ('Registration and votes cast at each Election since the Act of
@@ -1078,17 +1078,17 @@ extended reprint with a percentage column (munisanfrancisco65sanfrich
 pp.327-329) and categorized index (pp.330-332), and the FY1916-17
 canvass. That table carries official per-election REGISTRATION and
 VOTE POLLED for every SF election 1878-1916, specials and primaries
-included, so 49 curated rows now live in
+included, so 51 curated rows now live in
 data/sf_turnout_registrar_1899_1916.csv (the 1878-1898 rows
 cross-check the existing pre-1899 file; all match except a one-digit
 1879 registration variant, 44,764 in three later printings vs the
-FY1888-89 volume's 44,765, which stands). It also surfaced 26
+FY1888-89 volume's 44,765, which stands). It also surfaced 25
 elections absent from every prior index - the 1899-1916 county-run
 primaries, the Nov 15 1910 charter special a week after the general,
 the Dec 20 1912 general-utilities bond special ten days after the
 charter special, and the 1913-11-11 and 1915-11-09 general
 municipals - all added to the master list as final-only rows, which
-grows the universe from 288 to 314 elections (every one still has a
+grows the universe from 288 to 313 elections (every one still has a
 recovered final; the zero-data bucket stays empty).
 **Update (2026-07-08, same pass: registration law by era, and reused
 denominators for 1917-1945).** The operator's claim that

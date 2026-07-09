@@ -22,7 +22,7 @@ whether *their* published table has since changed (we can't edit it ourselves).
 
 | Election | DOE figure | SOV reference | Status | Our data | Raised with DOE | DOE updated |
 |---|---|---|---|---|---|---|
-| 1908-11-03 | 41,137 | SF President **60,124** | Under review — figures don't reconcile | →60,124; 88.6→60.6% | ☐ | ☐ |
+| 1908-11-03 | 41,137 | Registrar total polled **61,625** | Resolved — DOE row mislabeled (carries the Nov 12 1908 special's figures) | →61,625; night 59.2% | ☐ | ☐ |
 | 1934-11-06 | 166,133 | SF Governor **225,977** | Under review — figures don't reconcile | →225,977; 100→97.7% | ✉️ draft | ☐ |
 | 1978-11-07 | 217,965 | SF total cast **238,667** | Under review — looks precinct-only | →238,667; 100→93.5% | ☐ | ☐ |
 | 1968-06-04 | (no DOE row) | SOV total cast **254,825**; Chronicle unofficial complete **262,449** | Open question (SOV internal pct anomaly + newspaper conflict) | keep 254,825 | n/a | n/a |
@@ -32,12 +32,20 @@ whether *their* published table has since changed (we can't edit it ourselves).
 
 ## Detail
 
-### 1908-11-03 — figures don't reconcile (under review)
+### 1908-11-03 — resolved: the DOE row is mislabeled (2026-07-08)
 - **DOE figure / source:** 41,137 ballots cast (54.51%) — DOE historical turnout table (`sf_turnout_history_doe_1899_2019.csv`).
 - **SOV reference:** SF County President = **60,124** (Taft 33,184 + Bryan 21,260 + Debs 4,523 + Hisgen 751 + Chafin 406). Source: [CA SoS *Statement of Vote*, Nov 3 1908 (archive.org)](https://archive.org/details/statementofvo19081922cali/page/n5) · cross-ref [Wikipedia: 1908 U.S. presidential election in California](https://en.wikipedia.org/wiki/1908_United_States_presidential_election_in_California).
 - **What we noticed:** the President contest alone (60,124) is larger than the table's total ballots cast (41,137). A single contest can't exceed total turnout, so the table figure looks low — most likely a transcription slip, but worth confirming. (True turnout would be ≥ 60,124, ~80% of 75,467 registered.)
 - **How we've handled it:** for our dataset we use the SOV figure — `certified_final` 41,137 → 60,124; recovered night count 36,450 ÷ 60,124 = **60.6%** (rather than a phantom 88.6%). **Prose impact:** the article's "≈89% in 1908" had been computed against the lower denominator — since corrected.
-- **Raised with DOE:** not yet — worth raising.
+- **Resolution (2026-07-08):** the Registrar's cumulative election table (SF Municipal
+  Reports FY1912-13, `munisanfrancisco62sanfrich` p.261, and FY1910-11 p.623) shows the
+  DOE table's Nov 3 1908 row (registration 75,467, ballots 41,137) is actually the
+  **Nov 12, 1908 bond special's** row — same figures, wrong date line. The general's
+  official figures are registration **75,388**, total vote polled **61,625**. Our data
+  now uses 61,625 (`certified_final`) and 75,388 (registration); night count
+  36,450 ÷ 61,625 = **59.2%**. Worth checking whether the table's other under-review
+  rows are also row-slips from an adjacent election rather than transcription errors.
+- **Raised with DOE:** not yet — worth raising (with the mislabel evidence above).
 
 ### 1934-11-06 — figures don't reconcile (under review)
 - **DOE figure / source:** 166,133 ballots cast (57.15%) — DOE turnout table.
