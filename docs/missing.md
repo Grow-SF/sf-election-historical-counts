@@ -1233,3 +1233,25 @@ the 1911-09-26 municipal-primary vote polled, 79,019 per both
 FY1915-16 printings (whose own 77.5 percent column matches exactly)
 vs 78,919 in the FY1912-13 printing - 79,019 ingested; and the
 1905-08-08 primary, printed only in the FY1915-16 index.
+**Update (2026-07-08, operator rulings on the registrar-table flags,
+and the 1911 primary arbitrated).** The operator ruled on the four
+flagged items: 1879-09-03 registration stays 44,765 (the FY1888-89
+printing, closest to the event, over the three later printings'
+44,764); 1905-11-07 goes with the precise later-printing figures;
+1902-12-04 keeps 14,271. For the 1911-09-26 municipal primary the
+operator ordered an independent-printing hunt (a 100-even gap smells
+like a mistype or a mis-summed district) - and first, a correction:
+the earlier entry's claim that the FY1915-16 percentage column
+'matches 79,019 exactly' was weak evidence, since both candidates
+round to the printed 77 1/2 at nearest-half precision. The hunt then
+settled it properly: the FY1911-12 volume prints the Department of
+Elections' own canvass of the primary (sanfranciscomuni61sanfrich
+printed p.195, leaf n222, 'PRIMARY MUNICIPAL ELECTION, SEPTEMBER 26,
+1911. FOR MAYOR.'), whose 18 assembly-district Total Vote Polled
+entries sum to 79,019 exactly as printed (AD28 1,522 through AD45
+2,068; candidate columns sum to 78,647 = 79,019 minus 372 blanks),
+and '78,919' appears nowhere in that volume. The FY1912-13
+cumulative table's 78,919 is a one-digit compositor slip, exactly
+the class of error the operator predicted. Dead end recorded: CDNC
+corroboration (SF Call, Oct 3-14, 1911 official canvass) blocked by
+Cloudflare for the agent; not needed given the district sum.
