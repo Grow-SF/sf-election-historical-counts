@@ -311,11 +311,8 @@ city gaps — has been recovered; the era-by-era outcomes live in the search log
 - [x] Sync the viz datasets + prose/subtitles into the Grow-SF web embed
       (`content/research/2026-06-14-the-long-count/longcount/`), re-render the OG
       image, push both branches. *(Done 2026-06-17 — through the 1868/1879
-      extension.)*
-- [ ] **Re-sync the web embed with the July 2026 recoveries** — the embed still
-      shows the pre-sweep numbers; the datasets have since moved to 304 night
-      counts / 313 elections / 243 turnout points, spans back to 1851, and the
-      chart copy changed (HelpWanted, MethodNote, subtitles).
+      extension; the article is not yet published, so it picks up the current
+      datasets whenever the embed is next synced before launch.)*
 
 ## Provenance & licensing
 
