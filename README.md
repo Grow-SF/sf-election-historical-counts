@@ -266,8 +266,10 @@ city gaps — has been recovered; the era-by-era outcomes live in the search log
 **Verification (hand-read against the cited scans — [the loop](data/README.md))**
 - [ ] **1974–1998 SOV registration** recoveries — pending hand-verification
       (`docs/eligible-denominator-notes.md`; `scripts/recover_sov_registration.py`).
-- [ ] **Pre-1964 night-floor** load-bearing digits — re-read on the image before
-      relying on them (`docs/analysis/2026-06-13-pre1964-night-floor.md`).
+- [x] **Pre-1964 night-floor** load-bearing digits — superseded July 2026: the
+      derived floors were replaced by actual recovered night counts for the whole
+      pre-1964 era (the floor series now starts 1964; the analysis doc remains as
+      method history).
 
 **Turnout-table discrepancies — under review** ([`docs/doe-data-discrepancies.md`](docs/doe-data-discrepancies.md))
 - [x] **1908 resolved** (2026-07-08): the DOE table's Nov 3 1908 row carries the
@@ -277,20 +279,23 @@ city gaps — has been recovered; the era-by-era outcomes live in the search log
 - [ ] Raise the **1978** discrepancy (looks precinct-only — appears to drop
       absentees) with the Dept. of Elections for confirmation.
 - [ ] Send the drafted **1934** note (turnout 166,133 vs Governor 225,977) to the DOE.
-- [ ] **Midterm-general turnout 1958 · 1962 · 1966 · 1970** — the DOE 1899–2019
-      table skips these four off-presidential generals, so the turnout chart's
-      1956→1972 stretch rides the presidential years alone. 1958 and 1962 already
-      have night counts (recover just the turnout denominator from the SOV/Registrar);
-      1966 and 1970 need both (see *Mid-century city gaps* above).
+- [ ] **Midterm-general turnout 1958 · 1962** — the DOE 1899–2019 table skips
+      the off-presidential generals; 1966 and 1970 were resolved in the July 2026
+      mid-century sweep (registration recovered with their night counts), so only
+      the 1958 and 1962 denominators remain (SOV / Registrar records).
 - [ ] Check back whether the published 1899–2019 turnout table changes.
 
 **SOV cross-check remaining** ([`data/sov_crosscheck_ledger.md`](data/sov_crosscheck_ledger.md))
 - [ ] Primaries **1928/1930/1932/1962**; modern DOE figures **1968–2014**
-      (lower priority — exact per-release data already matches).
+      (lower priority — exact per-release data already matches). Now doubles as an
+      upgrade path: the 1928/1930/1932 primary finals are single-contest floors, and
+      the SOV would give true ballots-cast totals.
 
 **Remaining historical recovery** ([`data/recovery_ledger_pre1965.md`](data/recovery_ledger_pre1965.md))
-- [ ] Direct primaries **1954–1964** (1954-06-08 … 1964-06-02).
-- [ ] Specials/recalls **1943-04-20, 1944-05-16, 1946-07-16** (Lapham recall).
+- [x] Direct primaries **1954–1964** — recovered (all have night counts; July 2026 sweeps).
+- [x] Specials/recalls **1943-04-20, 1944-05-16, 1946-07-16** — recovered (July 2026;
+      the 1943/1944 finals are single-contest floors, see the consolidated export's
+      `total_turnout_class` — an SOV cross-check could still upgrade them).
 
 **Prose corrections**
 - [x] The era-1 "≈89% in 1908" claim corrected to **~61%** (DOE's 1908 denominator
@@ -306,7 +311,11 @@ city gaps — has been recovered; the era-by-era outcomes live in the search log
 - [x] Sync the viz datasets + prose/subtitles into the Grow-SF web embed
       (`content/research/2026-06-14-the-long-count/longcount/`), re-render the OG
       image, push both branches. *(Done 2026-06-17 — through the 1868/1879
-      extension; re-sync after each future ingestion.)*
+      extension.)*
+- [ ] **Re-sync the web embed with the July 2026 recoveries** — the embed still
+      shows the pre-sweep numbers; the datasets have since moved to 304 night
+      counts / 313 elections / 243 turnout points, spans back to 1851, and the
+      chart copy changed (HelpWanted, MethodNote, subtitles).
 
 ## Provenance & licensing
 
