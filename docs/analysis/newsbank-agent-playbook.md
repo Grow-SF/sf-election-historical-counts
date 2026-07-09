@@ -70,3 +70,14 @@ Haiku/Sonnet transcribe → arithmetic gates vs DOE certified columns
 (sum ≤ certified ballots; monotone vs neighboring observations; PCT match
 within 1pt) → independent re-read of load-bearing digits → user hand-read
 is the authoritative tiebreaker.
+
+## Never steal the operator's focus (standing rule, 2026-07-09)
+
+The debug Chrome runs on the operator's desktop. Never call `Page.bringToFront`
+or `Target.activateTarget`, never open new windows (tabs only, created with
+`Target.createTarget {background: true}`), and never un-hide the Chrome app.
+If scan tiles paint black on a throttled background tab, un-throttle WITHOUT
+focus: `Emulation.setFocusEmulationEnabled {enabled: true}` plus
+`Page.setWebLifecycleState {state: "active"}` on the target. This renders
+deep-zoom tiles correctly on a hidden window (validated in the 2026-07-09
+recovery waves).

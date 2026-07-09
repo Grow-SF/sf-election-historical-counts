@@ -1164,3 +1164,83 @@ cumulative table's 78,919 is a one-digit compositor slip, exactly
 the class of error the operator predicted. Dead end recorded: CDNC
 corroboration (SF Call, Oct 3-14, 1911 official canvass) blocked by
 Cloudflare for the agent; not needed given the district sum.
+**Update (2026-07-09, waves 3-4: the great night-count sweep - 241 to
+301 nights, the missing list falls from 72 to 12).** Seven parallel
+CDNC agents (day-after Daily Alta, SF Call, Sacramento Daily Union)
+and three NewsBank agents (day-after SF Chronicle via SFPL) hunted
+all 66 reachable targets, followed by a full operator review: every
+flagged digit hand-read against the scans, every class decision
+adjudicated, four elections transcribed whole by the operator
+(1870's sixteen-candidate table, 1880's twelve-ward presidential
+table, 1883's charter table, 1871's heterogeneous prose returns).
+Sixty new night counts ingested, 1851-1922. The record now reaches
+the Gold Rush: 1851's 'up to two o'clock this morning, but little
+over a hundred votes had been counted in each ward'. Era headlines:
+pioneer hand counts ran ~20-27 percent overnight except when
+straight tickets sorted fast (1852 presidential 71.6, 1857 56.8);
+the operator identified the 1852 First Ward's identical 485s as
+alternating-tally lockstep (both four-elector slates equal at any
+snapshot, so W1 = 970); Civil-War-era counts ran 42-80 percent,
+collapsing to 19-49 percent in the scratched-ticket 1870s (1870
+quantified at 48.9 via the operator's full-table transcription,
+which also caught the 1st Ward column as a DUPLICATED typesetting
+of 7th-1P); judicial one-question specials counted complete the
+same night (1873 exactly 15,594 = the official total; 1877 23,332);
+the 1879 constitution ratification near-complete (38,584); the
+1880s-90s big-ballot elections crawled again (1886: 3,070 by 1 AM,
+6.7 percent) while single-question charters flew (1880: 97.2; 1883:
+98.6 with the majority at NINE votes against, one precinct out at
+3:15 AM); the 1899-1916 primaries mostly counted overnight (1901:
+99.8; 1903: 99.9; 1904-05: 99.9; 1915-11: 'ONLY 83,138 ENTER POLLS'
+= 99.8; 1916-05: 97.3 at midnight) except the multi-party state
+primaries (1914-08: FOUR precincts complete by 2:15 AM, 0.5 percent,
+the slowest night on record; 1910-08: 20.1; 1915-09: 23.4); woman
+suffrage 1911: 31,032 counted on the question by night, the city
+against 19,869-11,163 while the state carried it; and 1922's school
+bonds proved complete by the Chronicle's morning run (80,766 floor,
+99.3). A pattern got a name: OVERNIGHT COMPILATIONS RUN HOT - four
+elections' complete press counts exceed their official canvasses
+(1877 +390, 1879 +550, 1884 +86, 1890 +819), all ingested at their
+disclosed >100 percent shares per the 1915-04-20 precedent.
+**Update (2026-07-09, same sweep: three more registrar-table
+transplants corrected).** (1) 1884-03-18 Assembly special: the
+cumulative table's 2,655 is W. T. Wallace's certified vote
+transplanted into the Vote Polled column (the row's precinct and
+registration cells are uniquely blank; all six printings copy it);
+the FY1883-84 volume's own certified canvass gives Wallace 2,655 +
+Hawes 2,250 + Ellis 69 + scattering 6 = TOTAL 4,984 - the operator
+predicted this class of slip before the agent proved it. (2)
+1908-08-11 state primary: 22,698 is the Republican column of the
+FY1908-09 certified canvass (p.1125) back-filled as if it were the
+total; true all-party total 33,331 (operator independently floored
+it at 30,000+ from the Call's night table before the canvass
+landed). (3) 1905-08-08 municipal primary: 28,951 is a fire-era
+backfill matching NOTHING in the canvass; the Election
+Commissioners' declaration of Aug 14, 1905 (Call, Aug 15, p10)
+gives 41,117 (R 31,728 across the League and Ruef factions + D
+3,732 + UL 4,500 + Soc 319 + scattering 838, every column exact).
+Dead ends documented and closed: 1849 (no E+1 paper existed - the
+Alta was still a weekly), 1850 (outcomes only, 'we shall give the
+result in full to-morrow'), 1902-08 (winners-only delegate lists),
+1908-05 (only printed total exceeds the final), 1909-11 (winners
+conceded by 10 PM on prose 'indicated plurality' alone; no returns
+table in the 16-page issue), 1913-09 (count finished 'shortly after
+8', past the 06:00 cutoff; the E+1 daytime 45,752 recorded as a
+non-night observation), 1944-11 (the ELECTION EXTRA printed no SF
+count of any kind, all 18 pages verified - only the registrar's 3 PM
+turnout prediction). Full agent salvage packet with every verbatim
+quote, locating query, and the operator review queue preserved at
+docs/research/night-recovery-2026-07-09/.
+**Update (2026-07-09, the 1884 'overshoot' dissolves under the
+operator's full transcription).** The operator transcribed the
+entire 41-precinct Alta table for the 1884-03-18 Assembly special
+(which the certified canvass confirms is the district's complete
+geography, 11th Ward precincts 6-33 plus 12th Ward 12-24): cells
+sum Wallace 2,667 + Hawes 2,241 + Ellis 60 = 4,968. The printed
+totals row (2,668 / 2,342 / 60 / 5,070, glyphs operator-verified on
+the scan) is internally consistent but mis-foots the Hawes column
+by +101 against its own cells - the same class of printed footing
+error as 1867's Currey column. The night claim moves from 5,070
+(101.7 percent) to the computed 4,968 = 99.7 percent of the
+certified 4,984, and the overnight-compilations-run-hot pattern
+drops to three members (1877 +390, 1879 +550, 1890 +819).

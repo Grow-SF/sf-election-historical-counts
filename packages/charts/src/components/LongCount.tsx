@@ -183,19 +183,18 @@ export function HelpWanted() {
         <div className="mx-auto max-w-5xl px-5 py-12">
           <p className="smallcaps text-gold">open research — help wanted</p>
           <h2 className="mt-2 max-w-3xl text-3xl font-bold leading-tight">
-            72 San Francisco elections are still missing a night count. You
-            might find one.
+            Only 9 San Francisco elections still lack a night count &mdash;
+            and every one is a documented dead end. Think you can beat one?
           </h2>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-paper/85">
-            The record now runs back to 1860, and every election from 1965
-            onward is covered except two documented dead ends (the 1972
-            punch-card debut and the crashed 1994 count). A third of the gaps
-            sit before 1878; most of the rest are the 1899&ndash;1916
-            county-run primaries and specials that the Registrar&rsquo;s own
-            cumulative table surfaced in 2026 (each already has an official
-            final, so only the night count is missing). None are lost causes:
-            the returns were printed at the time and survive in the newspaper
-            archive. No special skills needed to find them.
+            The record now runs back to Gold Rush San Francisco: 304 of 313
+            elections since 1849 have a recovered election-night count. The
+            nine that don&rsquo;t each carry a verbatim-quoted reason &mdash;
+            no day-after paper existed (1849), the count crashed (1994), the
+            EXTRA printed no city figures (1944) &mdash; documented in the
+            source repository. If you know a source we haven&rsquo;t tried
+            &mdash; another paper, a county record, a family scrapbook &mdash;
+            one photograph could close a 175-year-old gap.
           </p>
           <ol className="mt-6 max-w-3xl list-decimal space-y-2 pl-5 leading-relaxed text-paper/85">
             <li>
@@ -280,12 +279,13 @@ export function MethodNote() {
                 mean the truth is at or above/before the shown value. Counts for
                 elections within ~32 days are provisional. “News-derived” points
                 are conservative floors: the certified total minus the ballots a
-                registrar told a reporter were still uncounted. 1860–1985: 155
+                registrar told a reporter were still uncounted. 1851–1985: 227
                 election-night counts read from page scans of the Chronicle,
-                Call and Alta California vote-tally boxes and count reporting,
-                every digit independently re-verified and checked against
-                certified totals — the pre-1965 figures (121 elections,
-                recovered 2026) extend the record back to the hand-count era. A records request with the Department is in
+                Call, Alta California and Sacramento Daily Union vote-tally
+                boxes and count reporting, every digit independently
+                re-verified and checked against certified totals — the
+                pre-1965 figures (193 elections, recovered 2026) extend the
+                record back to the hand-count era. A records request with the Department is in
                 progress for the remaining web-era gaps.
               </p>
             </div>
