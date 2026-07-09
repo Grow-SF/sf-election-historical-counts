@@ -34,9 +34,9 @@ Distance from `complete` (nulls among the six chart years 2012, 2014,
 | Madera | 2012, 2014 | | Fresno Bee / Madera Tribune via NewsBank |
 | San Diego | 2012, 2014, 2016 | | San Diego Union-Tribune via NewsBank |
 | Fresno | 2012, 2014, 2018, 2022 | | Fresno Bee via NewsBank |
-| Placer | 2012, 2022, 2024 | 2018 ceiling | Sacramento Bee; CPRA (2022/2024 are recent, retention likely) |
+| Placer | 2012, 2022, 2024 | 2018 ceiling | Sacramento Bee via NewsBank |
 | Riverside | 2012, 2014, 2016, 2018 | 2024 ceiling | Press-Enterprise via NewsBank |
-| San Bernardino | 2012, 2014, 2016, 2018, 2022 | | SB Sun / Press-Enterprise via NewsBank; CPRA for 2022 (county's own posting schedule proves the report existed at a known time) |
+| San Bernardino | 2012, 2014, 2016, 2018, 2022 | | SB Sun / Press-Enterprise via NewsBank |
 
 The existing null-row notes show Wayback, Clarity, county report series,
 and press-release routes are genuinely exhausted for these rows. What has
@@ -65,8 +65,6 @@ NOT been tried, anywhere in the dataset:
 4. **Registrar social media.** County registrars post election-night
    totals on Twitter/X and Facebook; Wayback holds captures of those
    accounts (e.g. @sacvote, @sdvote) that were never searched.
-5. **CPRA requests.** The slow lane, for rows where the county demonstrably
-   holds the record. Operator sends the emails; we draft them.
 
 ## Approaches considered
 
@@ -91,8 +89,7 @@ Nevada yubanet primary-vs-secondary question only if registrar PDFs
 surface. Improves rigor, not panel count; done opportunistically alongside
 A and B, never as its own pass.
 
-Chosen sequencing: A, then B, with C opportunistic and CPRA drafted early
-(latency) but never blocking. Rationale: A's rows already have
+Chosen sequencing: A, then B, with C opportunistic. Rationale: A's rows already have
 denominators, tech records, VERIFY.md sections, and dead-end notes to
 extend; each recovered row is one surgical edit plus pipeline run.
 
@@ -104,6 +101,8 @@ extend; each recovered row is one surgical edit plus pipeline run.
 - Relaxing the `complete` gate to show partial series.
 - Non-CA jurisdictions (the county_tech NY/PA/WI entries are state
   aggregates, not jurisdictions; the denominator playbook is CA SoS).
+- Public records (CPRA) requests: ruled out by the operator on 2026-07-09;
+  automated source recovery only.
 
 ## Method constraints (all inherited, none new)
 
@@ -147,8 +146,6 @@ extend; each recovered row is one surgical edit plus pipeline run.
   Phase 1 session doubles as a coverage probe.
 - archive.today has no API and aggressive bot walls; browser-only, and a
   miss there is cheap to record.
-- CPRA responses take weeks and may return nothing; that lane is fire-and-
-  forget by design.
 - Clarity scouting may find no CA county with pre-2016 JSON history
   (Web01-era versions are HTML-only); then Phase B counties come from the
   press-release scout instead.
