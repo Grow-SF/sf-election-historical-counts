@@ -38,7 +38,7 @@
   "ballots": 45716,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports FY1888-89 (Registrar master table, p.856) \u2014 Nov 2 1886 general: registration 48,792, total vote 45,716",
-  "kind": "General"
+  "kind": "Municipal"
  },
  {
   "date": "1888-11-06",
@@ -55,7 +55,7 @@
   "ballots": 55565,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports vol47 Board of Election Commissioners' Report p.277 cumulative table (mirror/muni_reports/vol47_n320.jpg, operator hand-read 2026-07-07): Nov 4 1890 general, 310 precincts, registration 59,770, total vote 55,565 \u2014 upgrades the prior stitched floor (Great Register 59,712 + Governor-sum 55,317, SOV/Blue Book 1891 p.88, kept here for the record) with the registrar's own official series, which continues past the FY1888-89 table's 1888 endpoint",
-  "kind": "General"
+  "kind": "Municipal"
  },
  {
   "date": "1892-11-08",
@@ -116,7 +116,7 @@
   "ballots": 32521,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.260; munisanfrancisco65sanfrich p.327; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n277",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1899-11-07",
@@ -158,7 +158,7 @@
   "ballots": 22939,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.260; munisanfrancisco65sanfrich p.327; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n277",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1901-11-05",
@@ -209,7 +209,7 @@
   "ballots": 26039,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1903-09-29",
@@ -242,7 +242,7 @@
   "ballots": 9384,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1904-08-09",
@@ -251,7 +251,7 @@
   "ballots": 18141,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1904-11-08",
@@ -264,12 +264,12 @@
  },
  {
   "date": "1905-08-08",
-  "turnoutPct": 33.3,
+  "turnoutPct": 47.2,
   "registered": 87062,
-  "ballots": 28951,
+  "ballots": 41117,
   "source": "muni-registrar",
-  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n350; printed only in the FY1915-16 categorized index p.331 (both chronological printings skip this row)",
-  "kind": "Special"
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n350; printed only in the FY1915-16 categorized index p.331 (both chronological printings skip this row) | CORRECTED 2026-07-09: the index's 28,951 is a fire-era backfill matching nothing in the canvass (records burned April 1906). True all-party total = 41,117, declared by the Election Commissioners 1905-08-14 (SF Call 1905-08-15 p10, SFC19050815.2.110 'BOARD MAKES OFFICIAL COUNT': R 31,728 + D 3,732 + Soc 319 + UL 4,500 + scattering 838, all columns and 18 district rows foot exactly); registration 87,062 retained from the index with backfill caveat; see docs/research/night-recovery-2026-07-09/primary_1905_denominator.md",
+  "kind": "Primary"
  },
  {
   "date": "1905-11-07",
@@ -286,7 +286,7 @@
   "ballots": 10824,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1906-11-06",
@@ -303,7 +303,7 @@
   "ballots": 22851,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1907-11-05",
@@ -333,12 +333,12 @@
  },
  {
   "date": "1908-08-11",
-  "turnoutPct": 40.9,
+  "turnoutPct": 60.1,
   "registered": 55437,
-  "ballots": 22698,
+  "ballots": 33331,
   "source": "muni-registrar",
-  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
-  "kind": "Special"
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278 | CORRECTED 2026-07-09: the cumulative table's 22,698 is the Republican column of the official canvass, back-filled into later printings as if it were the total (the FY1908-09 volume's own table skips this row). True all-party total = 33,331 per the FY1908-09 certified canvass (sanfranciscomuni58sanfrich p.1125 leaf n1144: R 22,698 + D 8,605 + Ind 176 + Soc 301 + Proh 24 + UL 1,527, both columns hand-summed exact), image https://archive.org/download/sanfranciscomuni58sanfrich/page/n1144; see docs/research/night-recovery-2026-07-09/primary_1908_denominator.md",
+  "kind": "Primary"
  },
  {
   "date": "1908-11-03",
@@ -382,7 +382,7 @@
   "ballots": 38317,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1909-11-02",
@@ -418,7 +418,7 @@
   "ballots": 47532,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1910-11-08",
@@ -436,7 +436,7 @@
   "ballots": 45889,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
-  "kind": "General"
+  "kind": "Special"
  },
  {
   "date": "1911-09-26",
@@ -445,7 +445,7 @@
   "ballots": 79019,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278; vote polled 79,019 CONFIRMED by the Dept of Elections' own canvass of this primary in the FY1911-12 volume (sanfranciscomuni61sanfrich printed p.195, leaf n222, image https://archive.org/download/sanfranciscomuni61sanfrich/page/n222): the 18 assembly-district Total Vote Polled entries sum to 79,019 exactly, and '78,919' appears nowhere in that volume; the FY1912-13 cumulative-table printing of 78,919 is a one-digit compositor slip (operator-ordered arbitration, 2026-07-08)",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1911-10-10",
@@ -490,7 +490,7 @@
   "ballots": 62407,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1912-09-03",
@@ -499,7 +499,7 @@
   "ballots": 65948,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1912-11-05",
@@ -552,7 +552,7 @@
   "ballots": 65905,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1913-11-11",
@@ -570,7 +570,7 @@
   "ballots": 97417,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1914-10-08",
@@ -614,7 +614,7 @@
   "ballots": 119105,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1915-10-26",
@@ -641,7 +641,7 @@
   "ballots": 48150,
   "source": "muni-registrar",
   "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
-  "kind": "Special"
+  "kind": "Primary"
  },
  {
   "date": "1916-11-07",

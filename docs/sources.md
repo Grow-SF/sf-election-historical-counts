@@ -2,7 +2,7 @@
 
 # Data sources
 
-Every number in the Long Count dataset traces to a primary source. This file documents all 398 source records — what was consulted, what it established, and where to find it.
+Every number in the Long Count dataset traces to a primary source. This file documents all 407 source records — what was consulted, what it established, and where to find it.
 
 These records were previously displayed on the `/sources` page of the viz app. They now live here as a stable, version-controlled reference in the data repository.
 
@@ -4500,6 +4500,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1922-11-22 | 1 |  | 80,766 | 99.3% | SF Chronicle 1922-11-22 p1 'Results of Bond Vote Yesterday' (edition CC, masthead-verified; NewsBank): 'Complete returns from all of the 891 precincts in San Francisco show that a total of 81,502 votes were cast' (the 81,502 exceeds the official final by 139 - flagged, not claimed); claimed night floor = school-bond contest For 69,262 + Against 11,504 = 80,766; all four printed derived lines lock; see docs/research/night-recovery-2026-07-09/wave4_newsbank_1922_1944.md |
 | 1922-11-23 | 2 |  | 81,213 | 99.8% | cdnc-ocr — SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08): day+1 evening paper (1922-11-22) 'Complete returns from all of the 891 precincts ... show over 80,000 votes were cast' (School 69,262/11,504, Relief 70,445/9,989) but with no timing language a night claim is unproven; the day+2 district table (1922-11-23) is fully legible and every column sums exactly: school-bond ballots 81,213 (Yes 69,271 / No 11,548), Relief 70,400/10,045; URLs https://cdnc.ucr.edu/?a=d&d=SFC19221122.2.188 and SFC19221123.2.176 ; shots mirror/cdnc/SFC19221122/, SFC19221123/; provenance agents/cdnc_1911_1922.md &#124;&#124; OFFICIAL DENOMINATOR (reconciliation 2026-07-08): official 81,363 cast, Board of Supervisors Resolution 20564 (1922-12-11), Journal of Proceedings vol.17 pp.1044-45, archive.org journalofproceed1922sanfrich leaf 1183; full provenance scratchpad agents/muni_reports_denominators.md, muni_reports_1859_1877.md, officials_1921_1922.md |
 
 ---
@@ -4616,23 +4617,51 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### State Primary Election
 
-**ID:** `1916-05-02`
+**ID:** `1916-08-29`
 
-48,150 ballots cast, 40.5% of 118,927 registered
+**Certified final:** 76,902
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348
+**Source:** FY1916-17 Municipal Reports canvass total 76,902 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1916-08-30 | 1 |  | 54,346 | 70.7% | SF Chronicle 1916-08-30 p1 'SAN FRANCISCO / Total vote, 575 Precincts' box (NewsBank): republican US Senate contest floor Booth 22,062 + Johnson 32,284 = 54,346, complete overnight ('Majority of 10,000 in Complete Count', district figures 'announced at 1:30 o'clock this morning'); Dem/other-party ballots not in the printed pair -> floor; see docs/research/night-recovery-2026-07-09/wave4_newsbank_1914_1916.md |
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Presidential Primary Election
+
+**ID:** `1916-05-02`
+
+**Certified final:** 48,150
+
+**Source:** Registrar cumulative table official total 48,150 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1916-05-03 | 1 |  | 46,832 | 97.3% | SF Chronicle 1916-05-03 p2 box 'Regulars Lead by 6000 Votes in S. F.' (NewsBank): '362 out of 370 precincts complete in San Francisco at midnight ... a total vote of 46,832 returned with the count complete, except eight precincts' (Registrar Zemansky; load-bearing 6-vs-8 digit resolved by deep-zoom + arithmetic); see docs/research/night-recovery-2026-07-09/wave4_newsbank_1914_1916.md |
+
+---
+
+### General Municipal Election (Rolph re-elected)
 
 **ID:** `1915-11-09`
 
-83,297 ballots cast, 46.2% of 180,204 registered
+**Certified final:** 83,297
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348
+**Source:** Registrar cumulative table official total 83,297 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1915-11-10 | 1 |  | 83,138 | 99.8% | SF Chronicle 1915-11-10 p3 'ONLY 83,138 ENTER POLLS' (NewsBank): 'In a total vote of 83,138 ... complete returns from yesterday's final municipal election'; Police Judge contest 79,922 consistency check passes; see docs/research/night-recovery-2026-07-09/wave4_newsbank_1914_1916.md |
 
 ---
 
@@ -4648,17 +4677,24 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1915-10-27 | 1 |  | 48,817 | 99.9% | SF Chronicle 1915-10-27 p1+p2 'S. F. 27 to 20 Against No Party' box (NewsBank image edition via SFPL, masthead-verified): 'COMPLETE semi-official returns from the 651 precincts of San Francisco ... total vote cast yesterday' 48,817 (651/651; p1 midnight box supports overnight completion); OCR's 43,817 refuted by 6x zoom AND row-sum arithmetic (max amendment row 47,348); 'ran close to 50,000' = rounded estimate, excluded; see docs/research/night-recovery-2026-07-09/wave4_mopup_1914_1915.md |
 | 1915-11-25 | 30 |  | 48,884 | 100.0% | cdnc-ocr — Municipal Reports official total 48,884 for the Oct 1915 constitutional-amendments special, absent from every prior index (agent recovery); full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md, muni_reports_denominators.md |
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Municipal Primary Election
 
 **ID:** `1915-09-28`
 
-119,105 ballots cast, 66.3% of 179,592 registered
+**Certified final:** 119,105
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348
+**Source:** Registrar cumulative table official total 119,105 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1915-09-29 | 1 |  | 27,856 | 23.4% | SF Chronicle 1915-09-29 p1 (NewsBank): 'the complete count tabulated from 189 out of 651 precincts in the city, at an early hour this morning' (Registrar Zemansky); Mayor contest floor Rolph 16,396 + Schmitz 8,059 + Gallagher 3,401 = 27,856; 'Estimated total vote cast, 115,000' = estimate (excluded); see docs/research/night-recovery-2026-07-09/wave4_newsbank_1914_1916.md |
 
 ---
 
@@ -4690,6 +4726,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1915-03-17 | 1 |  | 41,388 | 74.4% | SF Chronicle 1915-03-17 p1 (NewsBank image edition via SFPL, masthead-verified): 36-row YES/NO table, 'Total Vote Polled' 41,388 at 352 of 395 precincts, verbatim 'the count having been completed up to this point at 2 o'clock this morning' - a self-stamped 2 AM count; caveat: amendment rows No.1 (42,190) and No.11 (~42,146) sum slightly above the printed total (1915 print ambiguity, all figures under the final); Zemansky's '70,000 expected' = estimate, excluded; the Call's E+1 EVENING 51,030 (17:00 row above) remains a day-1 observation, not a night count; see docs/research/night-recovery-2026-07-09/wave4_mopup_1914_1915.md |
 | 1915-03-17 | 1 |  | 51,030 | 91.8% | cdnc-ocr — SF Call (evening) via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1915-03-17: 'Tabulation of yesterday's vote ... was completed today ... Less than one-third of the registered voters, approximately 50,000, voted' - no night count exists (this explains the ledger's old Chronicle SKIP); day+1 complete: the full 36-amendment box read from image, largest measure sum Amendment 11: 16,136 + 34,894 = 51,030; URL https://cdnc.ucr.edu/?a=d&d=SFC19150317.2.38 (box .2.40); shots mirror/cdnc/SFC19150317/; provenance agents/cdnc_1911_1922.md &#124;&#124; OFFICIAL DENOMINATOR (reconciliation 2026-07-08): official 55,611 (Amendment No. 1 Total Vote; 39,306 men + 16,305 women checks), Municipal Reports FY1914-15 p.502+p.525; full provenance scratchpad agents/muni_reports_denominators.md, muni_reports_1859_1877.md, officials_1921_1922.md |
 
 ---
@@ -4722,37 +4759,56 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1914-10-09 | 1 |  | 8,940 | 100.0% | SF Chronicle 1914-10-09 p1 'VOTERS DECIDE ON RECALL OF GRANT' + 'DETAILED VOTE' table (NewsBank image edition via SFPL, masthead-verified): complete district count in the morning press, 42 precincts itemized by assembly district (30th 367, 31st 6,508, 32nd 1,329, 33rd 736); total votes cast 8,940 (recall 4,672 / against 4,141 / Wolfe 4,576); column sums verify exactly (AD30 'No' cell prints 158, prose says 156, 156 makes the 4,141 total exact - disclosed); see docs/research/night-recovery-2026-07-09/wave4_mopup_1914_1915.md |
 | 1914-11-07 | 30 |  | 8,944 | 100.0% | cdnc-ocr — Municipal Reports official total 8,944 for the Oct 1914 Grant recall, absent from every prior index (agent recovery); full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md, muni_reports_denominators.md |
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### State Primary Election
 
 **ID:** `1914-08-25`
 
-97,417 ballots cast, 66.2% of 147,130 registered
+**Certified final:** 97,417
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348
+**Source:** Registrar cumulative table official total 97,417 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1914-08-26 | 1 |  | 491 | 0.5% | SF Chronicle 1914-08-26 p1 + p9 'COUNT OF VOTE IN CITY PROCEEDS SLOWLY' (NewsBank image edition via SFPL): 'Up to 2:15 o'clock this morning only four precincts in San Francisco had been counted complete'; SF-scoped floor 491; 'the result will not be known before late tomorrow'; the slowest night count on record (0.5%); see docs/research/night-recovery-2026-07-09/wave4_newsbank_1914_1916.md |
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### General Municipal Election
 
 **ID:** `1913-11-11`
 
-72,551 ballots cast, 49.5% of 146,462 registered
+**Certified final:** 72,551
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348
+**Source:** Registrar cumulative table official total 72,551 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1913-11-12 | 1 |  | 70,442 | 97.1% | SF Call 1913-11-12 p9 'MIXED TICKET' (SFC19131112.2.74): Registrar Zemansky's first complete count 'announced this morning' printed 'Total vote 72,574' which EXCEEDS the certified final by 23 (flagged, not claimed); claimed night figure = tax-collector contest sum 70,442 (police judge 70,397 corroborates), gate-clean; AP wire datelined Nov 11 named all winners overnight; see docs/research/night-recovery-2026-07-09/wave3_elections_1910_1913.md |
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Municipal Primary Election
 
 **ID:** `1913-09-30`
 
-65,905 ballots cast, 46.1% of 143,075 registered
+**Certified final:** 65,905
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348
+**Source:** Registrar cumulative table official total 65,905 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1913-10-01 | 1 |  | 45,752 | 69.4% | SF Call (evening) 1913-10-01 p1 (SFC19131001.2.3/.2.5): tax-collector contest complete 45,752 by E+1 morning - but 'Forty deputies worked on the returns until 4 o'clock this morning and returned ... shortly after 8', i.e. AFTER the 06:00 night cutoff -> stamped T12:00, NOT a night count (documented dead end for strict overnight; supervisors at 233/673 precincts only); semiofficial total cast 65,778; see docs/research/night-recovery-2026-07-09/wave3_elections_1910_1913.md |
 
 ---
 
@@ -4788,13 +4844,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Special Election (general-utilities bonds)
 
 **ID:** `1912-12-20`
 
-47,484 ballots cast, 34.7% of 136,914 registered
+**Certified final:** 47,484
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279
+**Source:** Registrar cumulative table official total 47,484 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1912-12-21 | 1 |  | 47,238 | 99.5% | SF Call 1912-12-21 p1 'Story of Voting at a Glance / Only 47,238 Ballots Cast' (SFC19121221.2.3, tables .2.2): 'Complete Unofficial Returns' printed E+1 morning; see docs/research/night-recovery-2026-07-09/wave3_elections_1910_1913.md |
 
 ---
 
@@ -4830,23 +4892,35 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### State Primary Election
 
 **ID:** `1912-09-03`
 
-65,948 ballots cast, 55.0% of 119,933 registered
+**Certified final:** 65,948
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279
+**Source:** Registrar cumulative table official total 65,948 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1912-09-04 | 1 |  | 53,721 | 81.5% | SF Call 1912-09-04 p1 'THIS CITY'S VOTE IN DETAIL' (SFC19120904.2.8/.2.11): 'Returns from 454 out of 463 precincts', clocked 2 AM; OPERATOR-SUMMED 2026-07-09: 4th + 5th congressional-district candidates (all parties) total 53,721 counted = ballots FLOOR (each ballot one congressional vote); top judge Graham 41,893 secondary bound (operator-read); see docs/research/night-recovery-2026-07-09/wave3_elections_1910_1913.md |
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Presidential Primary Election
 
 **ID:** `1912-05-14`
 
-62,407 ballots cast, 45.7% of 136,490 registered
+**Certified final:** 62,407
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279
+**Source:** Registrar cumulative table official total 62,407 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1912-05-15 | 1 |  | 60,700 | 97.3% | SF Call 1912-05-15 p2 'LOCAL RESULTS ANALYZED' (SFC19120515.2.18, lead .2.2): delegate-slate contest sum, 354/356 precincts: Roosevelt 21,650 + Taft 17,851 + La Follette 10,004 + Wilson 3,345 + Clark 7,850 = 60,700 FLOOR; preference line (356/356): Roosevelt 19,843, Taft 16,536, La Follette 8,507, Wilson 2,963, Clark 6,777 (OPERATOR-READ 2026-07-09; Clark-Wilson = 3,814 matches the article exactly); see docs/research/night-recovery-2026-07-09/wave3_elections_1910_1913.md |
 
 ---
 
@@ -4910,27 +4984,40 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1911-10-11 | 1 |  | 31,032 | 52.4% | SF Call 1911-10-11 p1 (SFC19111011.2.9): 'In 220 precincts ... 19,869 against suffrage and 11,163 in favor' = suffrage contest floor 31,032 (the city voting against while the state carried it); recall count clocked 'counted by 11 o'clock last night'; see docs/research/night-recovery-2026-07-09/wave3_elections_1910_1913.md |
 | 1911-11-09 | 30 |  | 59,266 | 100.0% | cdnc-ocr — Municipal Reports official total 59,266 for the Oct 1911 constitutional-amendments special, absent from every prior index (agent recovery); full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md, muni_reports_denominators.md |
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Municipal Primary Election
 
 **ID:** `1911-09-26`
 
-79,019 ballots cast, 77.5% of 101,955 registered
+**Certified final:** 79,019
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278; vote polled 79,019 CONFIRMED by the Dept of Elections' own canvass of this primary in the FY1911-12 volume (sanfranciscomuni61sanfrich printed p.195, leaf n222, image https://archive.org/download/sanfranciscomuni61sanfrich/page/n222): the 18 assembly-district Total Vote Polled entries sum to 79,019 exactly, and '78,919' appears nowhere in that volume; the FY1912-13 cumulative-table printing of 78,919 is a one-digit compositor slip (operator-ordered arbitration, 2026-07-08)
+**Source:** Dept of Elections canvass, FY1911-12 vol p.195: 18-district Total Vote Polled sums exactly 79,019 (arbitrated 2026-07-08; FY1912-13 printing's 78,919 = compositor slip)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1911-09-27 | 1 |  | 3,987 | 5.0% | SF Call 1911-09-27 p1 (SFC19110927.2.2): Zemansky's midnight compilation, coroner contest sum 3,987 at 186 partial precincts (Eggers 1,714 + Finn 1,657 + ...); 'total vote of 75,000' = midnight estimate (excluded); see docs/research/night-recovery-2026-07-09/wave3_elections_1910_1913.md |
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Special Election (charter amendments)
 
 **ID:** `1910-11-15`
 
-45,889 ballots cast, 60.5% of 75,828 registered
+**Certified final:** 45,889
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
+**Source:** Registrar cumulative table official total 45,889 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1910-11-16 | 1 |  | 2,325 | 5.1% | SF Call 1910-11-16 p1/p2 (SFC19101116.2.2/.2.25): 'complete returns ... up to midnight ... 61 scattering precincts'; Amendment 7 contest floor at 35/352 precincts: 1,860 for + 465 against = 2,325; '~30,000' was an explicit projection (excluded); see docs/research/night-recovery-2026-07-09/wave3_elections_1910_1913.md |
 
 ---
 
@@ -4950,13 +5037,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### State Primary Election
 
 **ID:** `1910-08-16`
 
-47,532 ballots cast, 70.4% of 67,513 registered
+**Certified final:** 47,532
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
+**Source:** Registrar cumulative table official total 47,532 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1910-08-17 | 1 |  | 9,557 | 20.1% | SF Call 1910-08-17 p1 (SFC19100817.2.3.1): midnight partial, 100 scattered precincts; republican Governor contest floor Curry 4,425 + Johnson 3,094 + Anderson 1,875 + Ellery 86 + Stanton 77 = 9,557 (OPERATOR-READ 2026-07-09); '40,000 republican votes' = estimate, excluded; see docs/research/night-recovery-2026-07-09/wave3_elections_1907_1910.md |
 
 ---
 
@@ -4972,6 +5065,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1910-01-15 | 1 |  | 34,939 | 99.8% | SF Call 1910-01-15 p9 'Vote Cast For and Against the Hetch Hetchy Project and the Purchase of Spring Valley' (SFC19100115.2.18.4, banner .2.2): COMPLETE overnight count, printed 'Total vote cast 34,939', TRIPLE ARITHMETIC-LOCKED (18 district cells sum exactly 34,939; SV-For column exact 22,059; 2/3 = 23,293, carried-by 9,583, lost-by 1,234 all reconcile); officials quoted reacting 'last night'; see docs/research/night-recovery-2026-07-09/wave3_elections_1907_1910.md |
 | 1910-02-13 | 30 |  | 35,015 | 100.0% | cdnc-ocr — Municipal Reports official total 35,015 for the Jan 1910 Spring Valley bond special, absent from every prior index (agent recovery); full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md, muni_reports_denominators.md |
 
 ---
@@ -5008,13 +5102,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Municipal Primary Election
 
 **ID:** `1909-08-17`
 
-38,317 ballots cast, 45.3% of 84,571 registered
+**Certified final:** 38,317
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
+**Source:** Registrar cumulative table official total 38,317 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1909-08-18 | 1 |  | 5,452 | 14.2% | SF Call 1909-08-18 p1/p2 (SFC19090818.2.9/.2.17.3/.2.2): 'returns from 59 out of 149 precincts, available at midnight': republican Mayor contest floor Countryman 916 + Crocker 2,376 + Mauzy 2,160 = 5,452 (locks: Crocker+Mauzy=4,536 'out of 4,536', margin 216 'votes behind'; DA sum 5,007 = 'first 5,000 votes counted'); registrar's 'not less than 40,000 cast' = estimate, excluded; see docs/research/night-recovery-2026-07-09/wave3_elections_1907_1910.md |
 
 ---
 
@@ -5046,6 +5146,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1909-06-23 | 1 |  | 23,133 | 96.2% | SF Call 1909-06-23 p2 'How Two Bond Issues Fared at City Polls' (SFC19090623.2.22.x): district table's citywide totals row blank in print; Civic Center prop For 12,799 + Against 10,334 = 23,133 FLOOR (ALL CELLS OPERATOR-CHECKED 2026-07-09, conf high); see docs/research/night-recovery-2026-07-09/wave3_elections_1907_1910.md |
 | 1909-06-25 | 3 |  | 24,028 | 99.9% | cdnc-ocr — SF Call via CDNC (agent recovery, operator-authorized ingest 2026-07-08): the 9-proposition $11,005,000 bond special (all lost except Polytechnic; the master index had mislabeled it a primary - no primary occurred, the direct primary law being in litigation per the same issue). Night state: 'The whole vote cast approximated 22,000' (approximation class, excluded) and the by-district tables print blank Totals rows (count incomplete at press). Final derived day+3: the June 25 issue says the Geary vote 'was 1,770 less than that cast Tuesday', implying 22,258 + 1,770 = 24,028; URLs https://cdnc.ucr.edu/?a=d&d=SFC19090623.2.16 (tables .2.22) and SFC19090625 ; shots mirror/cdnc/SFC19090623/; provenance agents/cdnc_1908_1909.md &#124;&#124; OFFICIAL DENOMINATOR (reconciliation 2026-07-08): official 24,058, Municipal Reports FY1912-13 p.261 + FY1910-11 p.623; full provenance scratchpad agents/muni_reports_denominators.md, muni_reports_1859_1877.md, officials_1921_1922.md |
 
 ---
@@ -5082,13 +5183,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### State Primary Election
 
 **ID:** `1908-08-11`
 
-22,698 ballots cast, 40.9% of 55,437 registered
+**Certified final:** 33,331
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
+**Source:** FY1908-09 Municipal Reports certified canvass p.1125: all-party total 33,331 (R 22,698 + D 8,605 + Ind 176 + Soc 301 + Proh 24 + UL 1,527); the cumulative table's 22,698 was the Republican column back-filled as if total (corrected 2026-07-09)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1908-08-12 | 1 |  | 30,647 | 91.9% | SF Call 1908-08-12 p2 'The Vote of the City by Districts' (SFC19080812.2.14.2, lead .2.2): printed totals row 173 &#124; 10,371 &#124; 11,746 &#124; 4,941 &#124; 3,589 (OPERATOR-CONFIRMED 2026-07-09); Republican League 10,371 + Machine 11,746 + Dem McNab 4,941 + Bell 3,589 = 30,647 counted ('*One precinct missing - ninety-second of the thirty-ninth district'); union-labor ballots not tabulated -> floor; agent cell-sums of Dem columns differ slightly from printed footings (noted); see docs/research/night-recovery-2026-07-09/wave3_elections_1907_1910.md and docs/research/night-recovery-2026-07-09/primary_1908_denominator.md |
 
 ---
 
@@ -5134,13 +5241,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Municipal Primary Election
 
 **ID:** `1907-08-13`
 
-22,851 ballots cast, 37.8% of 60,469 registered
+**Certified final:** 22,851
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
+**Source:** Registrar cumulative table official total 22,851 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1907-08-14 | 1 |  | 20,801 | 91.0% | SF Call 1907-08-14 p2 'The Vote by Assembly Districts' (SFC19070814.2.10.3, lead .2.5): 'Total republican vote, 12,019; total democratic vote, 3,293; total union labor vote, 5,310; total socialist vote, 179. Total vote, 20,801. *Incomplete.' (sum locks exactly; districts 33/37 flagged incomplete; 'incomplete returns available at midnight'); see docs/research/night-recovery-2026-07-09/wave3_elections_1907_1910.md |
 
 ---
 
@@ -5160,13 +5273,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### State Primary Election
 
 **ID:** `1906-08-14`
 
-10,824 ballots cast, 49.1% of 22,026 registered
+**Certified final:** 10,824
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
+**Source:** Registrar cumulative table official total 10,824 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1906-08-15 | 1 |  | 10,554 | 97.5% | SF Call 1906-08-15 pp1-2 (SFC19060815.2.9): 'total registration ... 22,026, and the total vote polled 10,554, with the Thirty-fourth Precinct of the Thirty-seventh to be heard from' (returns aggregate, one precinct out; page-image verified); see docs/research/night-recovery-2026-07-09/wave3_primaries_1899_1906.md |
 
 ---
 
@@ -5186,13 +5305,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Municipal Primary Election (League vs Ruef factions)
 
 **ID:** `1905-08-08`
 
-28,951 ballots cast, 33.3% of 87,062 registered
+**Certified final:** 41,117
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n350; printed only in the FY1915-16 categorized index p.331 (both chronological printings skip this row)
+**Source:** Election Commissioners official declaration 1905-08-14 (SF Call 1905-08-15 p10, SFC19050815.2.110): total 41,117 (R 31,728 + D 3,732 + Soc 319 + UL 4,500 + scattering 838), all columns foot exactly
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1905-08-09 | 1 |  | 38,120 | 92.7% | SF Call 1905-08-09 p2 'SUMMARY OF THE VOTE' (SFC19050809.2.8.3/.2.8.5): 2 AM compilation TOTAL 38,120, foots exactly (Rep League 16,071 + Ruef Rep 15,429 + Dem 2,575 + Reorg Dem 654 + UL 2,955 + anti-Ruef UL 170 + Soc 266); printed under 'OFFICIAL FIGURES ARE INCOMPLETE', Registrar 'not footed up at 2 o'clock this morning'; see docs/research/night-recovery-2026-07-09/primary_1905_denominator.md |
 
 ---
 
@@ -5212,23 +5337,35 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### State Primary Election
 
 **ID:** `1904-08-09`
 
-18,141 ballots cast, 35.8% of 50,708 registered
+**Certified final:** 18,141
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
+**Source:** Registrar cumulative table official total 18,141 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1904-08-10 | 1 |  | 17,914 | 98.7% | SF Call 1904-08-10 p4 (SFC19040810.2.48.2): semi-official 17,914, 'returns in Precinct 109, Forty-fourth District lacking'; PRINTED FOOTING ERROR caught: components as printed foot to 18,532 (exceeds final), aggregate passes gate; see docs/research/night-recovery-2026-07-09/wave3_primaries_1899_1906.md |
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Presidential Primary Election
 
 **ID:** `1904-05-03`
 
-9,384 ballots cast, 28.7% of 32,721 registered
+**Certified final:** 9,384
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
+**Source:** Registrar cumulative table official total 9,384 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1904-05-04 | 1 |  | 9,370 | 99.9% | SF Call 1904-05-04 p4 (SFC19040504.2.22): 'The total vote cast was 9370, of which 6705 were Republican and 2647 Democratic' (+ 11 Proh + 7 scattering, exact footing; page image reads 6705, lead's '8705' was the misread); see docs/research/night-recovery-2026-07-09/wave3_primaries_1899_1906.md |
 
 ---
 
@@ -5281,13 +5418,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Municipal Primary Election
 
 **ID:** `1903-08-11`
 
-26,039 ballots cast, 35.5% of 73,280 registered
+**Certified final:** 26,039
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278
+**Source:** Registrar cumulative table official total 26,039 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1903-08-12 | 1 |  | 26,021 | 99.9% | SF Call 1903-08-12 p4 (SFC19030812.2.37.1): 'The official figures at the Registrar's office place the number at 26,021' = exact party sum 13,306 R + 7,443 D + 5,066 UL + 206 Soc (page-image verified; district table's OCR sum 26,106 proven garble); see docs/research/night-recovery-2026-07-09/wave3_primaries_1899_1906.md |
 
 ---
 
@@ -5366,13 +5509,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Municipal Primary Election
 
 **ID:** `1901-08-13`
 
-22,939 ballots cast, 30.1% of 76,192 registered
+**Certified final:** 22,939
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.260; munisanfrancisco65sanfrich p.327; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n277
+**Source:** Registrar cumulative table official total 22,939 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1901-08-14 | 1 |  | 22,898 | 99.8% | SF Call 1901-08-14 p1 (SFC19010814.2.2.1): 'The total vote cast in the 106 precincts yesterday was 22,898. Of this number the Republicans cast 19,021, the Democrats 3633 and the Socialists 244' (foots exact; page image arbitrated OCR '22,838'); one precinct short in 38th; see docs/research/night-recovery-2026-07-09/wave3_primaries_1899_1906.md |
 
 ---
 
@@ -5441,13 +5590,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Municipal Primary Election
 
 **ID:** `1899-08-08`
 
-32,521 ballots cast, 52.1% of 62,410 registered
+**Certified final:** 32,521
 
-**Source:** SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.260; munisanfrancisco65sanfrich p.327; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n277
+**Source:** Registrar cumulative table official total 32,521 (data/sf_turnout_registrar_1899_1916.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1899-08-09 | 1 |  | 30,479 | 93.7% | SF Call 1899-08-09 p12 'RETURNS BY DISTRICTS. Number of Votes Cast - The Successful Tickets.' (SFC18990809.2.153.1/.2.154): contest-sum floor, 17 of 18 Assembly districts (40th printed winners but no total); page-image verified, two OCR corrections (33rd = 1,896, 39th = 1,911); 'Revised returns from the Twenty-ninth District received at 2 a.m.'; see docs/research/night-recovery-2026-07-09/wave3_primaries_1899_1906.md |
 
 ---
 
@@ -5495,6 +5650,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1897-12-28 | 1 |  | 24,000 | 91.6% | SF Call 1897-12-28 p7 'PHELAN BOARD PROBABLY MAKE IT.' (SFC18971228.1.7): 'With complete returns from thirty-two precincts and incomplete from sixty-two ... total vote of about 24,000'; APPROXIMATE (rounded press compilation, operator-approved claim 2026-07-09, conf medium); see docs/research/night-recovery-2026-07-09/wave3_gilded_1880_1897.md |
 | 1897-12-29 | 2 |  | 26,163 | 99.9% | cdnc-ocr — SF Call via CDNC (cdnc.ucr.edu), 1897-12-29 p7 'COMPLETE RETURNS OF THE FREEHOLDERS ELECTION' (section SFC18971229.2.60): 'a total of 26,163 votes' per the Registrar's deputies, complete pre-canvass tabulation - 39 below certified; the E+1 issue printed only a rounded partial estimate (about 24,000 at 32 precincts complete), logged; 15-seat at-large contest, so candidate sums are not ballot counts; mirror/cdnc/SFC18971229/, read 2026-07-07 |
 
 ---
@@ -5547,13 +5703,19 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Gubernatorial + Municipal Election (Mayor Sanderson)
 
 **ID:** `1890-11-04`
 
-55,565 ballots cast, 93.0% of 59,770 registered
+**Certified final:** 55,565
 
-**Source:** SF Municipal Reports vol47 Board of Election Commissioners' Report p.277 cumulative table (mirror/muni_reports/vol47_n320.jpg, operator hand-read 2026-07-07): Nov 4 1890 general, 310 precincts, registration 59,770, total vote 55,565 — upgrades the prior stitched floor (Great Register 59,712 + Governor-sum 55,317, SOV/Blue Book 1891 p.88, kept here for the record) with the registrar's own official series, which continues past the FY1888-89 table's 1888 endpoint
+**Source:** Registrar cumulative table official total 55,565 (data/sf_turnout_pre1899.csv); night figure is the press party-sort aggregate
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1890-11-05 | 1 |  | 56,384 | 101.5% | SF Call 1890-11-05 'THE STATE.' (SFC18901105.2.15): 'The aggregate of ballots cast yesterday in this city is 56,384, of which there were: Republicans, 29,065; Democrats, 25,317; American party, 362; Prohibition, 147; Reform Democrats, 1259; all others, 234' (foots exactly; OPERATOR-READ 2026-07-09); ballots SORTED BY PARTY overnight, no candidate counts existed ('The Republican majority is over 4000' prose only); exceeds the registrar official by 819 -> disclosed 101.5%; see docs/research/night-recovery-2026-07-09/wave3_gilded_1880_1897.md |
 
 ---
 
@@ -5575,13 +5737,35 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
-### Certified turnout record — night count not yet recovered
+### Charter + Amendments Special (REJECTED)
+
+**ID:** `1887-04-12`
+
+**Certified final:** 25,959
+
+**Source:** Registrar cumulative table official total 25,959 (data/sf_turnout_pre1899.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1887-04-13 | 1 |  | 23,001 | 88.6% | Daily Alta California 1887-04-13 (DAC18870413.2.15): 'returns from 159 precincts show ... for the charter 9,697, and against 13,304' = 23,001; 4 precincts sealed their returns 'last night'; see docs/research/night-recovery-2026-07-09/wave3_gilded_1880_1897.md |
+
+---
+
+### Gubernatorial + Municipal Election (Mayor Pond)
 
 **ID:** `1886-11-02`
 
-45,716 ballots cast, 93.7% of 48,792 registered
+**Certified final:** 45,716
 
-**Source:** SF Municipal Reports FY1888-89 (Registrar master table, p.856) — Nov 2 1886 general: registration 48,792, total vote 45,716
+**Source:** Certified SF denominator 45,716 (data/pre1892_certified.md)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1886-11-03 | 1 |  | 3,070 | 6.7% | Daily Alta California 1886-11-03 (DAC18861103.2.2.18/.2.2.20): 'votes counted up to 1 o'clock this morning': Mayor contest floor Pond 1,693 + Doble 1,244 + Hinton 133 = 3,070; count 'very slowly, on account of ... scratching'; see docs/research/night-recovery-2026-07-09/wave3_gilded_1880_1897.md |
 
 ---
 
@@ -5602,6 +5786,38 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Assembly Special (13th Senatorial District vacancy)
+
+**ID:** `1884-03-18`
+
+**Certified final:** 4,984
+
+**Source:** FY1883-84 Municipal Reports certified canvass (sanfranciscomuni83sanfrich pp.172-173): Wallace 2,655 + Hawes 2,250 + Ellis 69 + scattering 6 = 4,984; the cumulative table's 2,655 is Wallace's vote transplanted (operator-adjudicated 2026-07-09)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1884-03-18 | 0 |  | 5,070 | 101.7% | Daily Alta California 1884-03-19 (DAC18840319.2.58/.2.58.1, found via date-scoped search, TOC empty): COMPLETE 41-precinct count by ~10 PM, Wallace 2,668 + Hawes 2,342 + Ellis 60 = 5,070 exact; exceeds the certified canvass total by 86 -> disclosed 101.7% (press-compilation pattern); see docs/research/night-recovery-2026-07-09/wave3_gilded_1880_1897.md and docs/research/night-recovery-2026-07-09/assembly_1884_row_trace.md |
+
+---
+
+### Proposed-Charter Special (REJECTED)
+
+**ID:** `1883-03-03`
+
+**Certified final:** 18,764
+
+**Source:** Registrar cumulative table official total 18,764 (data/sf_turnout_pre1899.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1883-03-04 | 1 |  | 18,503 | 98.6% | Daily Alta California 1883-03-04 'IN DOUBT.' (DAC18830304.2.11): ward table OPERATOR-TRANSCRIBED 2026-07-09, For 9,247 + Against 9,256 = 18,503 counted, one precinct out at 3:15 AM; computed margin 9 votes against (the story's 'majority of one vote' was an intermediate tally); printed footings +12/-8 noted; see docs/research/night-recovery-2026-07-09/wave3_gilded_1880_1897.md |
+
+---
+
 ### Gubernatorial General Election
 
 **ID:** `1882-11-07`
@@ -5618,6 +5834,22 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Municipal Election (Mayor Blake)
+
+**ID:** `1881-09-07`
+
+**Certified final:** 33,216
+
+**Source:** Registrar cumulative table official total 33,216 (data/sf_turnout_pre1899.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1881-09-08 | 1 |  | 11,242 | 33.8% | Daily Alta California 1881-09-08 (DAC18810908.2.12/.2.11): 'Full returns up to midnight, from every precinct ... 11,242 votes had been counted' (Blake 6,130 / Howe 5,113, two majorities exact); ~13,400[?] by 2 AM (soft, excluded); complete ballots-cast tally 33,160 = poll class; see docs/research/night-recovery-2026-07-09/wave3_gilded_1880_1897.md |
+
+---
+
 ### Consolidated General Election
 
 **ID:** `1880-11-02`
@@ -5630,7 +5862,40 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1880-11-03 | 1 |  | 24,128 | 58.4% | Daily Alta California 1880-11-03 (DAC18801103.2.12), press-time 12-ward table OPERATOR-TRANSCRIBED 2026-07-09: President contest computed 11,100 (Garfield) + 12,701 (Hancock) + 327 (Weaver) = 24,128 FLOOR; Congress computed 23,854 secondary; printed column totals mis-footed (Garfield +219, Rosecrans +530, deltas documented); complete cast tally 41,298 = poll class (+6 vs official, noted); see docs/research/night-recovery-2026-07-09/wave3_gilded_1880_1897.md |
 | 1880-11-04 | 2 |  | 40,429 | 97.9% | cdnc-ocr — Daily Alta California via CDNC (cdnc.ucr.edu), 1880-11-04 'THE TOTAL VOTE / The Count Concluded' (section DAC18801104.2.10.1): Garfield 19,011 + Hancock 21,418 = 40,429, within about 70 votes of the certified split; companion Congress table's stated Rosecrans majority 1,078 corroborates the known result; the E+1 paper's spelled-out turnout headline 'Forty-One Thousand Two Hundred and Ninety-Eight Votes Cast' (41,298) exceeds the certified 41,292 by 6 and is logged, not ingested (rejected-ballot reclassification class); mirror/cdnc/DAC18801103-05/, read 2026-07-07 |
+
+---
+
+### Proposed-Charter Special (REJECTED)
+
+**ID:** `1880-09-08`
+
+**Certified final:** 23,398
+
+**Source:** Registrar cumulative table official total 23,398 (data/sf_turnout_pre1899.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1880-09-09 | 1 |  | 22,732 | 97.2% | Daily Alta California 1880-09-09 'BEATEN' (DAC18800909.2.8): For 4,057 + Against 18,675 = 22,732; all but 'a few of the smaller far outlying precincts ... last night'; majority 14,618 exact; see docs/research/night-recovery-2026-07-09/wave3_gilded_1880_1897.md |
+
+---
+
+### Board of Freeholders Charter Election
+
+**ID:** `1880-03-30`
+
+**Certified final:** 30,877
+
+**Source:** Registrar cumulative table official total 30,877 (data/sf_turnout_pre1899.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1880-03-31 | 1 |  | 20,271 | 65.7% | Daily Alta California 1880-03-31 '6093 MAJORITY' (DAC18800331.2.11): 'Total vote counted, 20,271' at MIDNIGHT (Citizens 12,360 + Sand-lot 7,911, both sums exact); see docs/research/night-recovery-2026-07-09/wave3_gilded_1880_1897.md |
 
 ---
 
@@ -5652,6 +5917,38 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 ---
 
+### Constitution Ratification Special
+
+**ID:** `1879-05-07`
+
+**Certified final:** 38,034
+
+**Source:** Registrar cumulative table official total 38,034 (data/sf_turnout_pre1899.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1879-05-08 | 1 |  | 38,584 | 101.4% | Daily Alta California 1879-05-08 'YESTERDAY'S ELECTION. / The City Returns.' (DAC18790508.2.16): full precinct For/Against table 'in accordance with the official returns furnished at the Registrar's office ... complete with the exception of three Precincts of the Second Ward'; grand total 38,584 OPERATOR-READ 2026-07-09 (OCR printed 38,834); exceeds the official final by 550 -> disclosed 101.4% (overnight-compilation pattern); city majority against 2,263; see docs/research/night-recovery-2026-07-09/wave3_states_1859_1879.md |
+
+---
+
+### Constitutional Convention Delegate Election
+
+**ID:** `1878-06-19`
+
+**Certified final:** 27,098
+
+**Source:** Registrar cumulative table official total 27,098 (data/sf_turnout_pre1899.csv)
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 1878-06-20 | 1 |  | 6,000 | 22.1% | Daily Alta California 1878-06-20 'THE ELECTION.' (DAC18780620.2.16, corroboration .2.4): 'About 27,000 Votes Polled. Only a Small Number Counted ... Up to the hour of going to press, about 6,000 votes had been reported as counted'; corroborated 'only about one-fifth of the whole vote'; APPROXIMATE (paper's own round figure); scratched-ticket slowness and telephone failure documented; see docs/research/night-recovery-2026-07-09/wave3_states_1859_1879.md |
+
+---
+
 ### Special Judicial Election
 
 **ID:** `1877-10-17`
@@ -5664,6 +5961,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1877-10-18 | 1 |  | 23,332 | 101.7% | Daily Alta California 1877-10-18 'THE JUDICIAL ELECTION' (DAC18771018.2.14): 'The Complete Vote From All the Wards'; totals row 12,720/10,403/10,845/12,493 and grand total 'The total vote cast was 23,332' OPERATOR-VERIFIED 2026-07-09 (ward recap sums 23,322, era footing noise); complete overnight count EXCEEDS the official canvass by 390 -> disclosed 101.7% (overnight-compilation-runs-hot pattern, cf. 1915-04-20); see docs/research/night-recovery-2026-07-09/wave3_states_1859_1879.md |
 | 1877-11-16 | 30 |  | 22,942 | 100.0% | cdnc-ocr — Municipal Reports FY1876-77 p.1057 official canvass (Resolution 11,450): 22,942 for the Oct 1877 judicial election, absent from every prior index (agent recovery, page image read; leaf n1108); full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
 
 ---
@@ -5745,6 +6043,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1873-10-16 | 1 |  | 15,594 | 100.0% | Daily Alta California 1873-10-16 'THE JUDICIAL ELECTION.' (DAC18731016.2.14/.2.15/.2.10): 'Complete Returns from the City' precinct table from official returns, boxes 'under lock and key at twenty minutes past ten o'clock in the evening'; cells OPERATOR-COMPUTED 2026-07-09 to 15,594 exactly (= official final); printed '15,785 total vote cast' is the poll-class tally (noted); COMPLETE same-night count; see docs/research/night-recovery-2026-07-09/wave3_states_1859_1879.md |
 | 1873-11-14 | 30 |  | 15,594 | 100.0% | cdnc-ocr — Municipal Reports official total 15,594 for the Oct 1873 judicial election, absent from every prior index (agent recovery); full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
 
 ---
@@ -5809,6 +6108,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1871-09-07 | 1 |  | 8,535 | 34.0% | Daily Alta California 1871-09-07 'TRIUMPHANT VICTORY.' (DAC18710907.2.7/.2.2), per-ward count states stamped 1:48-3:30 AM: OPERATOR-EXTRACTED 2026-07-09 floor = straights counted (Dem 2,870 + Rep 1,588 + TP 320 + W1 combined 110) + explicitly counted scratched (W2 400 + W4 255 + W5 488 + W7-2P 419 + W8-1P 475 + W8-2P 10) + W9 tallied piles 1,600 = 8,535; W5 reconciles exactly to its stated 860; McGlynn+Rosenfeld 487 > 475 ceiling noted as misprint; poll list 25,112 excluded; see docs/research/night-recovery-2026-07-09/wave3_states_1859_1879.md |
 | 1871-10-06 | 30 |  | 25,094 | 100.0% | cdnc-ocr — Municipal Reports FY1870-71 p.527 contemporaneous official total 25,094 (wards sum internally; agent recovery, page image read, archive.org/download/sanfranciscomuni70sanfrich/page/n546); OPERATOR RULING 2026-07-08: the contemporaneous volume governs, per the 1861 adjudication principle that the same-year record beats a later summary - the FY1875-76 p.752 retrospective variant 25,015 and the state-records Governor-contest figure 24,995 (data/pre1892_certified.md) are logged, the latter consistent as a contest sum beneath the ballots total; election night itself: the day-after Alta was dry ('No definite or full returns can be had before this afternoon') and the day-2 issue is missing from CDNC (DAC18710908, empty TOC twice), so no night point exists; provenance scratchpad agents/muni_reports_1859_1877.md, cdnc_1867_1877.md |
 
 ---
@@ -5825,6 +6125,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1870-09-08 | 1 |  | 9,746 | 48.9% | Daily Alta California 1870-09-08 returns table (DAC18700908.2.5, notes .2.7/.2.8), press stamp 'at this hour (3:30 A.M.)', snapshot ~1:30 AM: FULL TABLE OPERATOR-TRANSCRIBED 2026-07-09 (16 candidates x 13 columns, cross-footed 82,600); 1st Ward column identified as a DUPLICATED typesetting of 7th-1P (excluded); floor = sum of per-column best two-candidate contest = 9,746 (2d straights 422, 5th 828, 6th 1,016, 7th-1P 1,040, 8th-2P 1,422, 9th 720, 10th 792/831/831, 11th 763/128, 12th-1P 953); see docs/research/night-recovery-2026-07-09/wave3_states_1859_1879.md |
 | 1870-10-07 | 30 |  | 19,944 | 100.0% | cdnc-ocr — Municipal Reports official total 19,944 for the Sept 1870 general, an election absent from every prior index (agent recovery, page image read); full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
 
 ---
@@ -5889,6 +6190,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1867-09-05 | 1 |  | 7,324 | 41.9% | Daily Alta California 1867-09-05 'Local Intelligence' (DAC18670905.2.3): 'Up to 2 A.M. we are able to collect only the following positive returns'; per-ward governor tallies, firm floor 6,307 + W6 (Gorham 570 + Haight 520 + Fay 30 = 1,120, OPERATOR-READ 2026-07-09; exceeds the ward's poll 1,017, so capped at 1,017) = 7,324; W1/W7/W12 no-count; RECAP 17,365 is a poll list (excluded); W5 Gorham 164 operator-confirmed; see docs/research/night-recovery-2026-07-09/wave3_civilwar_municipals.md |
 | 1867-09-30 | 26 |  | 17,472 | 100.0% | cdnc-ocr — Municipal Reports FY1866-67 p.495 + FY1867-68 p.614 ('voting taken from the official returns'), double-attested official total 17,472 (agent recovery, page images read; archive.org/download/sanfranciscomuni66sanfrich/page/n500); full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
 
 ---
@@ -5905,6 +6207,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1866-09-06 | 1 |  | 10,749 | 80.4% | Daily Alta California 1866-09-06 'Election Returns. September 5, 1866' (DAC18660906.2.12/.2.2): Chief of Police contest floor wards 2-12, Crowley 5,917 + White 4,832 = 10,749 (all cells operator-confirmed 2026-07-09); First Ward delayed; 'count being still in progress ... as we go to press'; Tax Collector cross-check 10,831; see docs/research/night-recovery-2026-07-09/wave3_civilwar_municipals.md |
 | 1866-10-05 | 30 |  | 13,371 | 100.0% | cdnc-ocr — Municipal Reports official total 13,371 for the Sept 1866 municipal, an election absent from every prior index (agent recovery, page image read); full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
 
 ---
@@ -5921,6 +6224,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1865-09-07 | 1 |  | 8,264 | 61.9% | Daily Alta California 1865-09-07 'ELECTION RETURNS. SEPTEMBER 6, 1865.' (DAC18650907.2.3/.2.4): table's blank columns operator-identified 2026-07-09 as D6/D8/D9/D10 = exactly the clocked 2:30 AM partial districts (disjoint, no double-count); Nunan (unexpired Senate, UNOPPOSED - operator-confirmed) 9 complete districts 3,587 + clocked partials 4,677 = 8,264 FLOOR; poll list 13,354 printed same issue (excluded); see docs/research/night-recovery-2026-07-09/wave3_civilwar_municipals.md |
 | 1865-09-07 | 1 |  | 13,354 | 100.0% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1865-09-07: printed citywide total 13,354, cross-checked exactly by the Sept 8 arithmetic article (21,024 - 13,354 = 7,670 'less than the Presidential'); the Legislature-only ballot is all multi-seat contests so no usable single-contest night sum exists (2:30 AM partial straight-ticket states only); DATE CORRECTION: this election was held Wednesday Sept 6, not Sept 5 as the master index had it; the 13,354 is a poll-list total (ballots polled, not votes counted), deliberately stamped outside the 06:00 night cutoff so it records a final, not a night count; URL https://cdnc.ucr.edu/?a=d&d=DAC18650907.2.5 ; shots mirror/cdnc/DAC18650907/; provenance agents/cdnc_1859_1865.md |
 
 ---
@@ -5937,6 +6241,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1865-05-17 | 1 |  | 8,977 | 63.2% | Daily Alta California 1865-05-17 'City Election, May 16' (DAC18650517.2.6/.2.5): Sheriff contest floor Davis 5,010 + Bluxome 3,967 = 8,977 ('returns so far as received up to the hour of our going to press'; Bluxome D12 = 137 OPERATOR-CORRECTED 2026-07-09 from OCR 187); D2 clocked 3 AM and D11 complete in text (unquantified); see docs/research/night-recovery-2026-07-09/wave3_civilwar_municipals.md |
 | 1865-05-19 | 3 |  | 13,781 | 97.1% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08): day+3 complete table (1865-05-19): Coon 6,980 + Rowell 6,801 = 13,781, majority 179 exact; citywide ballots 14,196 per the Sept 1865 Alta retrospective (which also set the trap 'Coon had 8,980', an OCR misread of 6,980, resolved); URL https://cdnc.ucr.edu/?a=d&d=DAC18650519.2.3 ; shots mirror/cdnc/DAC18650519/; provenance agents/cdnc_1859_1865.md &#124;&#124; CONFLICT RESOLVED (agent recovery 2026-07-08): the FY1865-66 p.415 sentence's '1865, 13,770' is the official POST-RECOUNT Mayor total (Coon 6,972 + Rowell 6,798, majority 174; the Board recounted May 22-25 on Rowell's demand and shaved 11 votes off the unofficial figures this row records; official per-district statement Alta 1865-06-01, cdnc.ucr.edu/?a=d&d=DAC18650601.2.3); this row remains the dated day-3 unofficial observation, gate-clean beneath the 14,196 ballots denominator; provenance agents/may_municipals_1863_1865.md |
 
 ---
@@ -5969,6 +6274,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1864-05-18 | 1 |  | 7,230 | 66.7% | Daily Alta California 1864-05-18 'Election Returns, May Seventeenth' (DAC18640518.2.4/.2.5): Sheriff contest floor Davis 5,377 + Weller 1,853 = 7,230 (all 22 cells + blank 7th/10th operator-confirmed 2026-07-09); poll list 10,916 excluded; see docs/research/night-recovery-2026-07-09/wave3_civilwar_municipals.md |
 | 1864-06-16 | 30 |  | 10,847 | 100.0% | cdnc-ocr — Municipal Reports FY1865-66 p.415 ('1864, 10,847') + cumulative attestation (agent recovery): official figure 10,847 for the May 1864 municipal - CLASS CORRECTED (2026-07-08): this is the official SHERIFF contest total (Davis 7,642 + Weller 3,205, Resolution No. 3390 of May 23 1864, printed Alta 1864-05-25, cdnc.ucr.edu/?a=d&d=DAC18640525.2.27.5; there was no Mayor contest), a contest floor, true ballots higher, an election absent from every prior index; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
 
 ---
@@ -5985,6 +6291,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1863-09-03 | 1 |  | 8,900 | 59.9% | Daily Alta California 1863-09-03 'Returns up to Two o'Clock.' (DAC18630903.2.4): Low/Downey counted per district 'as far as ascertainable ... at two o'clock this morning', sum ~8,900 APPROXIMATE FLOOR (OCR-soft, conf medium; operator accepted 2026-07-09); total vote 14,866 printed as poll list (excluded); see docs/research/night-recovery-2026-07-09/wave3_states_1859_1879.md |
 | 1863-09-03 | 1 |  | 14,866 | 100.0% | cdnc-ocr — Daily Alta California 1863-09-03 via CDNC (operator hand-read 2026-07-08): 'total vote of the city was 14,866 - 451 more than were ever cast in the city before', arithmetic-locked (1860's 14,415 + 451); the same article prints the district-by-year table recorded in data/sf_vote_by_district_1856_1863.csv; poll-list total, stamped outside the night cutoff (ballots polled, not votes counted; the 2 A.M. states were district fragments only); official Gov contest corroboration: Tribune Almanac 1865 p.64 SF row Low 9,261 + Downey 5,462 = 14,723; URL https://cdnc.ucr.edu/?a=d&d=DAC18630903.2.4 ; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
 
 ---
@@ -6001,6 +6308,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1863-05-20 | 1 |  | 6,225 | 54.5% | Daily Alta California 1863-05-20 'CITY ELECTION RETURNS 1863' (DAC18630520.2.6, status .2.8): Mayor contest floor Coon 3,595 + Holland 2,630 = 6,225; D6 uncounted (blank column operator-confirmed 2026-07-09), D11 partial; see docs/research/night-recovery-2026-07-09/wave3_civilwar_municipals.md |
 | 1863-05-21 | 2 |  | 11,147 | 97.6% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08): election night had only midnight count states; the total cast, 11,417, self-checks exactly (1862's 11,383 plus 'thirty-four votes more'); day+2 complete table (1863-05-21): Coon 6,513 + Holland 4,634 = 11,147, majority 1,879 (the OCR dropped the leading 1; image, district sums and sibling-row majority checks all confirm); URL https://cdnc.ucr.edu/?a=d&d=DAC18630521.2.7 ; shots mirror/cdnc/DAC18630521/; provenance agents/cdnc_1859_1865.md &#124;&#124; CONFLICT RESOLVED (agent recovery 2026-07-08): the FY1865-66 p.415 sentence reports official SINGLE-CONTEST totals, not ballots; its '1863, 10,147' is a corrupted print of 11,147, which the Board's official canvass (declared May 25, printed Alta 1863-05-26, cdnc.ucr.edu/?a=d&d=DAC18630526.2.3) confirms EXACTLY as this row's Mayor sum (Coon 6,513 + Holland 4,634 = 11,147); the same election's railroad-subscription measure was officially 6,329 for / 3,118 against (Municipal Reports FY1862-63 p.267); provenance agents/may_municipals_1863_1865.md |
 
 ---
@@ -6017,6 +6325,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1862-09-04 | 1 |  | 6,172 | 70.0% | Daily Alta California 1862-09-04 'The Election. / The Returns.' (DAC18620904.2.3): 'At midnight, canvassers in most of the Districts had not finished counting the straight tickets'; per-district midnight counts ~5,765 (OCR-soft, conf medium) + 12th District official table OPERATOR-TRANSCRIBED 2026-07-09 (Supt Public Instruction contest Swett 205 + Stevenson 202 = 407; slate columns are 16-name lockstep, not ballots) = ~6,172 APPROXIMATE FLOOR; see docs/research/night-recovery-2026-07-09/wave3_states_1859_1879.md |
 | 1862-09-06 | 3 |  | 8,813 | 100.0% | cdnc-ocr — Tribune Almanac 1863 p.54 (leaf 462, page image read) via agent recovery, operator-authorized reconciliation 2026-07-08: OFFICIAL SF county row, Supt. Public Instruction: Swett 6,652 + Stevenson 1,912 + Fitzgerald 249 = 8,813. Replaces the Daily Alta 1862-09-06 day+3 unofficial table sum 8,957 (Swett 6,636 + Stevenson 2,062 + Fitzgerald 259), which EXCEEDS the official canvass and is logged-not-ingested per the campaign gate (unofficial count over official; the era's canvasses rejected returns). Election night itself: 'impossible to give the returns in tabular form ... at midnight, canvassers ... had not finished' - no night point. URL https://cdnc.ucr.edu/?a=d&d=DAC18620906.2.2 ; provenance agents/officials_1849_1858.md, cdnc_1859_1865.md |
 
 ---
@@ -6049,6 +6358,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1861-05-22 | 1 |  | 6,423 | 55.8% | Daily Alta California 1861-05-22 'Election Returns at Midnight.' (DAC18610522.2.3): 10 of 12 districts counted or complete by 2:30 AM (D2 750 People's Union + 553 Fusion; D9 'Total counted, 786' OPERATOR-CORRECTED 2026-07-09 from OCR 796; D11 436); D7/D10 documented no-count; total 6,423; see docs/research/night-recovery-2026-07-09/wave3_civilwar_municipals.md |
 | 1861-05-23 | 2 |  | 11,507 | 100.0% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08): midnight states included complete 5th/11th/12th districts but no citywide sum; day+2 (1861-05-23) 'VOTE OF SAN FRANCISCO COMPLETE': total 11,507; Teschemacher 6,247, printed majority 1,218, Fay 5,029 (operator hand-read 2026-07-08: 6,247 - 5,029 = 1,218 exact; the agent had misread the majority and 'corrected' the correct Fay figure); URL https://cdnc.ucr.edu/?a=d&d=DAC18610523.2.3 ; shots mirror/cdnc/DAC18610523/; provenance agents/cdnc_1859_1865.md |
 
 ---
@@ -6082,6 +6392,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1859-09-08 | 1 |  | 3,068 | 28.2% | Daily Alta California 1859-09-08 'CITY ITEMS. / The Election.' (DAC18590908.2.17): midnight per-district straight-ticket counts, sum 3,068 with D1 = 374 (operator-read 2026-07-09; the district's printed '314' recap conflicts with its own governor figures); 'It will probably be several days before the official result is declared'; poll-list 10,889 excluded; see docs/research/night-recovery-2026-07-09/wave3_states_1859_1879.md |
 | 1859-09-11 | 4 |  | 10,750 | 98.7% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1859-09-08: 'The whole number of votes polled in the city was 10,889' (the district table closes exactly once the 3d District OCR 1,635 is corrected to 1,035, confirmed by prose) - a poll-list denominator known E+1; election night had only midnight per-district straight-ticket counts; day+4 complete table (1859-09-11): Governor Latham 4,738 + Stanford 3,069 + Currey 2,943 = 10,750 (Currey's district sum exact); the President-of-Supervisors (mayoral) digits are flagged for operator hand-read and not ingested; URLs https://cdnc.ucr.edu/?a=d&d=DAC18590908.2.17 and DAC18590911.2.11 ; shots mirror/cdnc/DAC18590908/, DAC18590911/; provenance agents/cdnc_1859_1865.md |
 
 ---
@@ -6098,6 +6409,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1858-09-02 | 1 |  | 1,655 | 19.3% | Daily Alta California 1858-09-02 'CITY ITEMS' 1 O'CLOCK A.M. section (DAC18580902.2.20): D1 100, D2 state ticket Currey 564 + Baldwin 400 = 964 (operator-read 2026-07-09; Congress McKibbin 572 + Tracy 350 = 922 corroborates), D3 102, D4 ~104, D6 62, D7 85, D8 ~128, D9 80, D10 30 = 1,655 FLOOR; 'total vote polled ... 8,742' stated twice (poll list, excluded); see docs/research/night-recovery-2026-07-09/wave3_pioneer_1849_1858.md |
 | 1858-09-16 | 15 |  | 8,584 | 100.0% | cdnc-ocr — Daily Alta California 1858-09-16 official county canvass via CDNC (asterisked in the Alta compilation) + Tribune Almanac 1859 p.63: Supreme Court Currey 5,621 + Baldwin 2,963 = 8,584; URL https://cdnc.ucr.edu/?a=d&d=DAC18580916.2.10 ; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
 
 ---
@@ -6114,6 +6426,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1857-09-03 | 1 |  | 5,866 | 56.8% | Daily Alta California 1857-09-03 'RETURNS OF THE ELECTION...' (DAC18570903.2.15), 'Returns from the City Polls up to Midnight' straight-ticket table OPERATOR-TRANSCRIBED 2026-07-09: Dem 2,862 + Rep 2,881 + Am. 123 = 5,866 counted straights; Scratched column 1,353 sorted-pending (excluded); 'People's Maj'ty' column = claimed majorities (excluded); telegraph closed 2 AM; see docs/research/night-recovery-2026-07-09/wave3_pioneer_1849_1858.md |
 | 1857-09-19 | 17 |  | 10,326 | 100.0% | cdnc-ocr — Tribune Almanac 1858 p.59 official SF row + Alta 1857-09-19 city canvass (agree): Governor Stanly 5,535 + Weller 4,430 + Bowie 361 = 10,326; city offices were elected the SAME DAY (the master's separate 1857-09-04 entry was an index error, removed); URL https://cdnc.ucr.edu/?a=d&d=DAC18570919.2.3 ; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
 
 ---
@@ -6130,6 +6443,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1856-11-05 | 1 |  | 3,947 | 32.8% | Sacramento Daily Union 1856-11-05 (SDU18561105.2.8), SF telegraph dispatch 'San Francisco, Nov. 5 - 3 a.m.': D1 252, D3 1,505 complete, D5 1,225 at 12, D6 100, D8 136, D10 350, D11 200, D12 179 = 3,947 FLOOR (D2/D4/D7/D9 amounts unstated); the Alta's own E+1 issue is missing from CDNC ('Issue missing. This issue was published but no copy is available'); cast 12,152; see docs/research/night-recovery-2026-07-09/wave3_pioneer_1849_1858.md |
 | 1856-12-04 | 30 |  | 12,019 | 100.0% | cdnc-ocr — Tribune Almanac 1857 p.64 + 1858 p.59 official state-canvass SF row (page images read; archive.org tribunealmanacfo00gree leaves 168, 215): President Buchanan 5,332 + Fremont 5,089 + Fillmore 1,598 = 12,019; OPERATOR RULING 2026-07-08: the state canvass governs over the county-canvass variant 11,904 (Alta 1856-11-14, logged); city top office (President Bd. of Supervisors, the Consolidation Act having abolished the Mayor): Burr 6,877; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
 
 ---
@@ -6146,6 +6460,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1855-09-06 | 1 |  | 2,726 | 22.1% | Daily Alta California 1855-09-06 'Further from the different Wards.' (DAC18550906.2.9): W1 100 straight Dem then sealed; W2 Governor fully counted (Bigler 1,200 + Johnson 916); W3 20; W4 ~70 at 12; W6 420 straights; W7 1,662 SORTED only (KN 417 + W&mongrel 215 + strDem 400 + splits 630; 'counting will proceed all night'; operator-read 2026-07-09, excluded); W8 0 counted ('about 300 tickets were stuffed into the box'); see docs/research/night-recovery-2026-07-09/wave3_pioneer_1849_1858.md |
 | 1855-10-05 | 30 |  | 12,351 | 100.0% | cdnc-ocr — Tribune Almanac 1856 p.57 official state canvass SF row (page image read; archive.org tribunealmanacpo1856newy leaf 63): Governor Bigler 7,138 + Johnson 5,213 = 12,351; canvass-date stamp approximate; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
 
 ---
@@ -6162,6 +6477,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1854-09-07 | 1 |  | 2,717 | 27.3% | Daily Alta California 1854-09-07 'ELECTION RETURNS.' (DAC18540907.2.5): 'votes counted up to 12 o'clock last night ... in several Wards there were no votes counted at all. The ballot boxes were sealed and strong guards placed over them' (fraud-year; 'A man by the name of McDowall was shot'); counted W3 ~935 + W4 ~105 + W5 979 + W6 ~210 + W7 ~488 = ~2,717 APPROXIMATE; see docs/research/night-recovery-2026-07-09/wave3_pioneer_1849_1858.md |
 | 1854-11-06 | 61 |  | 9,949 | 100.0% | cdnc-ocr — ("Secretary of State's certified statewide per-county canvass ('ELECTION RETURNS--OFFICIAL', certified 'J. W. DENVER, Secretary of State', Sacramento, Nov. 6th, 1854), printed Sacramento Daily Union 1854-11-07 p.2, SF row read from the page image at high zoom (agent recovery, operator-authorized 2026-07-08): single-seat Clerk of the Supreme Court race Leake 2,410 + Beard 4,442 + Woodside 3,065 + scattering 32 = 9,949, a BALLOTS FLOOR from the certified row; the complete two-seat congressional field (Benham 5,017 + Bowie 4,130 + Churchman 3,195 + McDougal 2,846 + Denver 2,620 + Herbert 2,502 + scattering 356 = 20,666, all tickets including the Broderick columns the Whig Almanac dropped) implies ~10,333 ballots (divided by two seats, derived class); Alta county-office races suggest up to ~11.5-11.7k voting locally; 1854 was a notorious SF fraud year, spread disclosed (operator fraud note). Independently corroborated by the SF Board of Canvassers' county canvass, Daily Alta 1854-09-25 (Wilson Free Soil 314 + scattering 42 = the SoS's 356 exactly; Churchman crisp at 3,195 in the certified table). The 1855 legislative journals print NO 1854 canvass (the Legislature only canvassed Governor returns in odd years) - dead end documented. URLs https://cdnc.ucr.edu/?a=d&d=SDU18541107.2.8 and https://cdnc.ucr.edu/?a=d&d=DAC18540925.2.7 ; verification crops scratchpad sdu1107_*.png; provenance agents/journal_1854.md",) |
 
 ---
@@ -6178,6 +6494,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1853-09-08 | 1 |  | 2,670 | 24.4% | Daily Alta California 1853-09-08 'Election Returns' (DAC18530908.2.15), per-ward clocked counts: W2 43 at 12, W3 618 at 1 AM, W4 ~41, W5 652 at 2 AM, W6 610 at 1:30, W7 706 at 1 AM; W1 box sealed ~10 PM, W8 none; polled 10,606 (poll list, excluded); see docs/research/night-recovery-2026-07-09/wave3_pioneer_1849_1858.md |
 | 1853-10-07 | 30 |  | 10,955 | 100.0% | cdnc-ocr — Whig Almanac 1854 p.64 official state canvass SF row (page image read; archive.org tribunealmanacpo1854newy leaf 60): Governor Bigler 5,480 + Waldo 5,475 = 10,955; Alta 9/14 mid-count ward table ~10.8k corroborates; canvass-date stamp approximate; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
 
 ---
@@ -6194,6 +6511,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1852-11-03 | 1 |  | 6,222 | 71.6% | Daily Alta California 1852-11-03 'The Latest Election Returns.' (DAC18521103.2.8), 'as far as ascertained up to 4 A.M. this morning': W2 1,216, W4 792 complete, W5 1,048, W6 984, W7 784, W8 165 straights, 10th Pct 123, W3 ~140 at 3:30 AM (scan-verified); W1 = 970 (both 4-elector slates in alternating-tally lockstep at 485 each, Haskell '385' a 4->3 misprint; OPERATOR-ADJUDICATED 2026-07-09); total 6,222; see docs/research/night-recovery-2026-07-09/wave3_pioneer_1849_1858.md |
 | 1852-11-11 | 9 |  | 8,692 | 100.0% | cdnc-ocr — Daily Alta California 1852-11-11 official county canvass via CDNC (agent recovery): largest contest District Judge 8,692 (top electors Pierce 4,241 + Scott 4,167 + 55 = 8,463); Whig Almanac 1854 p.64 agrees; URL https://cdnc.ucr.edu/?a=d&d=DAC18521111.2.9 ; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
 
 ---
@@ -6210,6 +6528,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
+| 1851-09-04 | 1 |  | 1,129 | 19.6% | Daily Alta California 1851-09-04 'ELECTION RETURNS.' (CDNC DAC18510904.2.6): 'up to two o'clock this morning, but little over a hundred votes had been counted in each ward' (7 city wards, ~700) + complete county precincts by special express (8th 144 + 9th 26 + 10th 153 + 11th 106 = 429); ~1,129 APPROXIMATE, conf medium; see docs/research/night-recovery-2026-07-09/wave3_pioneer_1849_1858.md |
 | 1851-09-15 | 12 |  | 5,774 | 100.0% | cdnc-ocr — Daily Alta California 1851-09-15 official county canvass via CDNC (agent recovery): Governor Reading 3,343 + Bigler 2,431 = 5,774; URL https://cdnc.ucr.edu/?a=d&d=DAC18510915.2.11.1 ; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
 
 ---

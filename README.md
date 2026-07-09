@@ -15,11 +15,11 @@ historical counts from newspaper and web archives — and tells the story in an
 interactive site.
 
 Live data spans **1849–2026** (turnout back to 1879, registration back to 1908,
-election-night counts back to 1860): 241 elections with an election-night count
-(including 130 pre-1965 counts recovered from the hand-count and machine eras,
-back to 1860), 418 recovered historical canvass observations, and 241 modern
+election-night counts back to 1851): 304 elections with an election-night count
+(including 193 pre-1965 counts recovered from the hand-count and machine eras,
+back to Gold Rush San Francisco), 482 recovered historical canvass observations, and 241 modern
 per-release reports, every number traceable to a cited source. The long view
-reveals distinct eras — _erratic_ in the hand-count era (1860–1922, when ballot
+reveals distinct eras — _erratic_ in the hand-count era (1851–1922, when ballot
 length, not the calendar, set the pace: ~61% counted by morning in 1908 but
 effectively nothing in 1918's long-ballot election), fast and near-complete once
 lever voting machines arrived (1928–1990s), and the modern mail-driven slide —
@@ -33,11 +33,12 @@ see
 **Election night tells you less every cycle.** The share of the vote counted by
 the morning after has collapsed since ~2002 — though the long view shows it
 failed before, too, in the 1910s, for the opposite reason (hand-counting long
-Progressive-era ballots). The record now reaches back to 1860, when the Alta California printed a true
-midnight tally (64% counted); by 1868 the small electorate was counted in full
-overnight (~100%).
+Progressive-era ballots). The record now reaches back to 1851, when the Alta reported
+"little over a hundred votes ... counted in each ward" by 2 a.m.; by the 1870s the
+one-question judicial specials were counted in full the same night (1873: 100%),
+while long scratched-ticket ballots crawled at 9–35%.
 
-![Election-night count as a share of the certified final, San Francisco 1860–2026](docs/img/night-share.png)
+![Election-night count as a share of the certified final, San Francisco 1851–2026](docs/img/night-share.png)
 
 **What changed is the mail.** Vote-by-mail grew from a sliver in the 1960s to
 nine in ten today. Those ballots arrive late and need signature checks, so the
@@ -169,12 +170,13 @@ uses `tesseract`. None of these binaries are in pyproject; install via brew.)
 
 ## Help us recover the missing elections
 
-**72 San Francisco elections still lack an election-night count** — see
-[`data/elections_master.csv`](data/elections_master.csv) (the `recovered=final-only` rows)
-and [`docs/missing.md`](docs/missing.md). A third sit before 1878; most of the rest are the
-1899–1916 county-run primaries and specials the Registrar's cumulative table surfaced in
-July 2026 (every one has an official final; only the night count is missing). None are lost causes: the returns were printed at the time and survive
-in the newspaper archive. You can help find them — no special skills needed.
+**9 San Francisco elections still lack an election-night count — and every one is a
+documented dead end** (see [`data/elections_master.csv`](data/elections_master.csv),
+the `recovered=final-only` rows, and [`docs/missing.md`](docs/missing.md)). The July 2026
+recovery waves hunted every reachable target: of 313 elections since 1849, 304 now have
+a night count, and the 9 that don't each carry a verbatim-quoted reason (below). If you
+can beat one of our dead ends — a paper we haven't checked, a family scrapbook, a
+county record — we want to hear from you.
 
 **How to look:**
 
@@ -217,75 +219,41 @@ haven't recovered them yet. The full election-by-election list is now
 [`data/elections_master.csv`](data/elections_master.csv) (built by
 [`scripts/build_elections_master.py`](scripts/build_elections_master.py)) — **313
 San Francisco elections, 1849–2026**, each flagged by whether we hold a night
-count: **241 recovered · 72 still missing** — and as of July 2026 every one of the 72
-has at least a known final count; the "no recovered data at all" bucket is empty. The categories below
-summarize the missing. (The total rose in July 2026: the Municipal Reports
+count: **304 recovered · 9 still missing** — and as of July 2026 every one of the 9
+is a documented dead end with a known final count; the "no recovered data at all"
+bucket is empty. The dead ends are listed below. (The total rose in July 2026: the Municipal Reports
 cumulative Registrar tables exposed a spurious index entry, Nov 1 1898, three
 previously unindexed specials, and then four more 1878-1887 elections plus
 true dates for three rejected charters; the July 2026 CDNC sweep then found two more elections no index knew about, a June 24 1909 Geary bond special and a March 29 1912 initiative special, and corrected the 1865 general to Sept 6; the official-canvass sweep that followed found seven more (an 1864 and an 1866 municipal, an 1870 general, 1873 and 1877 judicial elections, a 1910 Spring Valley bond, a 1914 recall and two constitutional-amendment specials) while deleting two index phantoms (a Sept 4 1857 city election held the same day as the state one, and a July 1858 election that never occurred); and the full transcription of the Registrar's cumulative election table added 25 more that no index carried: the 1899–1916 county-run primaries, a Nov 15 1910 charter special, a Dec 20 1912 bond special, and the 1913 and 1915 general municipals; see the search log.)
 
-**Pre-1892 statewide generals** (certified SF denominators already in hand — see
-[`data/pre1892_certified.md`](data/pre1892_certified.md); only the night count is missing)
-- [ ] **1871 Gov** — capture hit the *Oakland* Daily Transcript (no SF returns); pull a San Francisco paper (Alta / Morning Call) for Sept 7 1871.
-- [ ] **1872 Pres** — capture hit a *German-language* SF daily; pull the English SF paper for Nov 6 1872.
-- [ ] **1879 Gov** — not yet attempted (turnout point exists; no night-count capture).
-- [ ] **1880 Pres** — only a prose *Evening Bulletin* ("two-thirds count") found; pull the morning Chronicle/Alta overnight tally for Nov 3 1880.
-- [ ] **1884 Pres** — only a prose *Evening Bulletin* 4th ed.; pull the morning paper for Nov 5 1884.
-- [ ] **1888 Pres** — *Evening Bulletin* entry docref won't paginate; pull the Chronicle front page for Nov 7 1888.
-- [ ] **1867 Gov** — the day-after morning paper printed only an editorial + a margin (count unfinished at press time); the full canvass is in a later issue or the County Clerk's returns — pull a 2–3-day-later SF paper.
-- [ ] **1886 Gov (~29%), 1890 Gov (~12%)** — recovered but digits soft; hand-verify the sent crops, then finalize.
+**The nine documented dead ends** (full quotes and reproduction paths in the
+search log and [`docs/research/night-recovery-2026-07-09/`](docs/research/night-recovery-2026-07-09/)):
 
-**Pre-1867 statewide generals** — the entire run is unrecovered (no night counts
-*and* no certified SF figures gathered yet): President **1852, 1856, 1860, 1864**;
-Governor **1849, 1851, 1853, 1855, 1857, 1859, 1861, 1863**. Likely source: the
-*Daily Alta California* (on NewsBank from 1849); certified via the California Blue
-Book / Bancroft.
+| Election | Why no night count exists |
+|---|---|
+| **1849-11-13** | No day-after paper existed — the Alta was still a weekly; the Daily Pacific News printed Tue/Thu/Sat and skipped Nov 14. Earliest returns are the E+2 complete canvass. |
+| **1850-10-07** | The E+1 Alta printed outcomes only: "we shall give the result in full to-morrow." No count table. |
+| **1902-08-12** | The morning-after Call printed winners-only delegate lists; "An official count may be necessary to determine the result." |
+| **1908-05-05** | The only printed overnight total (24,305) exceeds the official final (24,178); no counted partial below the ceiling exists in the issue. |
+| **1909-11-02** | Winners conceded by 10 p.m. on prose "indicated plurality" alone; no returns table anywhere in the 16-page issue. First figures E+1 evening. |
+| **1913-09-30** | "Forty deputies worked on the returns until 4 o'clock this morning and returned… shortly after 8" — past the 06:00 cutoff. The E+1 daytime count is on file as a non-night observation. |
+| **1944-11-07** | The ELECTION EXTRA printed no SF count of any kind (all 18 pages verified) — only the registrar's 3 p.m. turnout prediction; absentees "will not be counted until November 21." |
+| **1972-06-06** | The punch-card debut: no overnight figures were printed (documented June 2026). |
+| **1994-11-08** | The count crashed; no usable night release survives (documented June 2026). |
 
-**Pre-1907 SF municipals** — the 1897–1906 stretch is now recovered from the SF
-Call on CDNC (the free California Digital Newspaper Collection; see the search
-log for the method): night or complete counts for the 1897 Freeholders, 1898
-charter ratification, and the 1899/1901/1903/1905 mayoral elections, with
-certified denominators from the Municipal Reports cumulative table. Still open:
-the 1850s–1895 municipals (the Consolidation-era odd-year and consolidated
-even-year races), where the Daily Alta California and the Call on CDNC are the
-next vein.
-
-**Pre-1928 primaries** — California's direct primary began 1909; primaries **~1910–1926**
-are unrecovered (the ledger's primary tier starts 1928).
-
-**Modern night-count gaps** (tracked in [`docs/missing.md`](docs/missing.md)): **1995-12** runoff,
-**1999-11** (Ammiano write-in), **2000-11**, **2003-10** (Davis recall), **2006-11**,
-**2010-11** — the city's results databases for these were stale or never captured.
-
-**Recovered-as-SKIP** — the captured edition never printed a complete count; need
-the county Statement of Vote: **1915-03, 1928-08, 1929-11, 1944-05, 1944-11, 1945-11**
-(see [`data/recovery_ledger_pre1965.md`](data/recovery_ledger_pre1965.md)).
-
-**Mid-century city gaps (1966–1984)** — RESOLVED July 2026 (Chronicle NewsBank
-image sweep; method and per-election outcomes in the search log). All 16 post-1965
-gaps were attempted: night counts recovered for the generals (1966-11, 1970-11,
-1974-11), the 1971-11 municipal (a canvass story supplied both the certified total
-and the election-night 258,164, a 100.0% night share), primaries 1966-06, 1968-06,
-1970-06, 1976-06, 1980-06, the 1980-08 special, and the 2008-04 special primary
-(NewsBank text archive); complete day-2 counts (turnout-only) for 1972-06, 1977-08,
-1984-06. Still open from this group:
-- [ ] **Municipals 1967-11 and 1969-11** — night observations recovered and held
-      pending certified denominators; the city's own "Statement of Vote" volumes at
-      the SFPL History Center (in-library, undigitized) hold them.
-- [ ] **1968-06 discrepancy** — the paper's completed unofficial count (262,449)
-      exceeds the SOV certified total (254,825); see `docs/doe-data-discrepancies.md`.
-
-**Early-1900s city specials (1908–1922)** — index dates known, night counts
-uncaptured: **1908-05, 1908-11, 1909-12, 1912-03, 1913-04, 1921-03, 1922-11**, plus
-the **1909-11 general** and **1911-11 municipal**.
+Everything that was on the hunt lists before July 2026 — the pre-1867 statewide
+generals, the Civil-War and Gilded-Age municipals, the 1880/1884 presidentials, the
+1899–1916 county-run primaries, the early-1900s bond specials, and the mid-century
+city gaps — has been recovered; the era-by-era outcomes live in the search log.
 
 - [x] **Built the `data/` master election table** (`elections_master.csv`) — the
       SFPL/DataSF index gave 1907+ (the [SFPL pamphlet index](https://sfpl.org/locations/main-library/government-information-center/san-francisco-government/san-francisco-1/san)
       only covers Nov 1907–present), and pre-1907 was reconstructed from the CA
       Statement of Vote / Blue Book (statewide, 1849+) + SF Municipal Reports +
-      Wikipedia mayoral pages. **Still to verify:** the date-unknown pre-1907 charter
-      votes (1880/1883/1887) and the 1858 municipal date against the Municipal
-      Reports; reconcile a couple of adjacent-date concurrent generals.
+      Wikipedia mayoral pages. The once-open verification items (the pre-1907
+      charter-vote dates, the 1858 municipal, the adjacent-date concurrent
+      generals) were all settled by the July 2026 registrar-table transcription
+      and official-canvass sweeps.
 
 **Verification (hand-read against the cited scans — [the loop](data/README.md))**
 - [ ] **1974–1998 SOV registration** recoveries — pending hand-verification
@@ -294,9 +262,12 @@ the **1909-11 general** and **1911-11 municipal**.
       relying on them (`docs/analysis/2026-06-13-pre1964-night-floor.md`).
 
 **Turnout-table discrepancies — under review** ([`docs/doe-data-discrepancies.md`](docs/doe-data-discrepancies.md))
-- [ ] Raise the **1908** (41,137 vs President 60,124) and **1978** (looks
-      precinct-only — appears to drop absentees) discrepancies with the Dept. of
-      Elections for confirmation.
+- [x] **1908 resolved** (2026-07-08): the DOE table's Nov 3 1908 row carries the
+      Nov 12 special's figures — a row mislabel, not a transcription error; official
+      figures restored from the registrar's own table. Still worth sending to the DOE
+      with the evidence.
+- [ ] Raise the **1978** discrepancy (looks precinct-only — appears to drop
+      absentees) with the Dept. of Elections for confirmation.
 - [ ] Send the drafted **1934** note (turnout 166,133 vs Governor 225,977) to the DOE.
 - [ ] **Midterm-general turnout 1958 · 1962 · 1966 · 1970** — the DOE 1899–2019
       table skips these four off-presidential generals, so the turnout chart's

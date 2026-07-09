@@ -156,11 +156,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 19.6,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    19.6,
+    null,
+    null
+   ],
    [
     11.67,
     100.0,
@@ -218,8 +224,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1852-11-02",
@@ -230,11 +236,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
+  "nReports": 2,
+  "nightPct": 71.6,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    71.6,
+    null,
+    null
+   ],
    [
     8.67,
     100.0,
@@ -244,23 +256,23 @@
   ],
   "thresholds": {
    "50": {
-    "days": 9,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 9,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 9,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 9,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 9,
+    "days": 1,
     "bound": true
    },
    "75": {
@@ -292,8 +304,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1853-09-07",
@@ -304,11 +316,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
+  "nReports": 2,
+  "nightPct": 24.4,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    24.4,
+    null,
+    null
+   ],
    [
     29.67,
     100.0,
@@ -366,8 +384,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1854-09-06",
@@ -378,11 +396,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 27.3,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    27.3,
+    null,
+    null
+   ],
    [
     60.67,
     100.0,
@@ -440,8 +464,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1855-09-05",
@@ -452,11 +476,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 22.1,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    22.1,
+    null,
+    null
+   ],
    [
     29.67,
     100.0,
@@ -514,8 +544,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1856-11-04",
@@ -526,11 +556,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 32.8,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    32.8,
+    null,
+    null
+   ],
    [
     29.67,
     100.0,
@@ -588,8 +624,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1857-09-02",
@@ -600,11 +636,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
+  "nReports": 2,
+  "nightPct": 56.8,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    56.8,
+    null,
+    null
+   ],
    [
     16.67,
     100.0,
@@ -614,11 +656,11 @@
   ],
   "thresholds": {
    "50": {
-    "days": 17,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 17,
+    "days": 1,
     "bound": true
    },
    "60": {
@@ -662,8 +704,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1858-09-01",
@@ -674,11 +716,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 19.3,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    19.3,
+    null,
+    null
+   ],
    [
     14.67,
     100.0,
@@ -736,8 +784,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1859-09-07",
@@ -748,11 +796,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 28.2,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    28.2,
+    null,
+    null
+   ],
    [
     3.29,
     98.7,
@@ -806,8 +860,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1860-11-06",
@@ -898,11 +952,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
+  "nReports": 2,
+  "nightPct": 55.8,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    55.8,
+    null,
+    null
+   ],
    [
     1.29,
     100.0,
@@ -912,56 +972,56 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "65": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "70": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "75": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "98": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "99": {
     "days": 2,
-    "bound": true
+    "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1861-09-04",
@@ -1042,11 +1102,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 70.0,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    70.0,
+    null,
+    null
+   ],
    [
     2.29,
     100.0,
@@ -1056,56 +1122,56 @@
   ],
   "thresholds": {
    "50": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "75": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "98": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "99": {
     "days": 3,
-    "bound": true
+    "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1863-05-19",
@@ -1116,11 +1182,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 54.5,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    54.5,
+    null,
+    null
+   ],
    [
     1.29,
     97.6,
@@ -1130,48 +1202,48 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "60": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "65": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "70": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "75": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 2,
-    "bound": true
+    "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1863-09-02",
@@ -1182,11 +1254,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 59.9,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    59.9,
+    null,
+    null
+   ],
    [
     0.67,
     100.0,
@@ -1205,47 +1283,47 @@
    },
    "60": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "65": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "70": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "75": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "98": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "99": {
     "days": 1,
-    "bound": true
+    "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1864-05-17",
@@ -1256,11 +1334,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 66.7,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    66.7,
+    null,
+    null
+   ],
    [
     29.67,
     100.0,
@@ -1270,19 +1354,19 @@
   ],
   "thresholds": {
    "50": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "70": {
@@ -1318,8 +1402,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1864-11-08",
@@ -1404,11 +1488,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 63.2,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    63.2,
+    null,
+    null
+   ],
    [
     2.29,
     97.1,
@@ -1418,48 +1508,48 @@
   ],
   "thresholds": {
    "50": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "65": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "70": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "75": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 3,
-    "bound": true
+    "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1865-09-06",
@@ -1470,11 +1560,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 61.9,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    61.9,
+    null,
+    null
+   ],
    [
     0.67,
     100.0,
@@ -1497,43 +1593,43 @@
    },
    "65": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "70": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "75": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "98": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "99": {
     "days": 1,
-    "bound": true
+    "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1866-09-05",
@@ -1544,11 +1640,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 80.4,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    80.4,
+    null,
+    null
+   ],
    [
     29.67,
     100.0,
@@ -1558,31 +1660,31 @@
   ],
   "thresholds": {
    "50": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "85": {
@@ -1606,8 +1708,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1867-09-04",
@@ -1618,11 +1720,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 41.9,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    41.9,
+    null,
+    null
+   ],
    [
     25.67,
     100.0,
@@ -1680,8 +1788,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1867-10-16",
@@ -1865,11 +1973,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 48.9,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    48.9,
+    null,
+    null
+   ],
    [
     29.67,
     100.0,
@@ -1927,8 +2041,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1871-09-06",
@@ -1939,11 +2053,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 34.0,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    34.0,
+    null,
+    null
+   ],
    [
     29.67,
     100.0,
@@ -2001,8 +2121,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1871-10-18",
@@ -2186,11 +2306,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
+  "nReports": 2,
+  "nightPct": 100.0,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    100.0,
+    null,
+    null
+   ],
    [
     29.67,
     100.0,
@@ -2200,56 +2326,56 @@
   ],
   "thresholds": {
    "50": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "85": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "90": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "95": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "98": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "99": {
-    "days": 30,
+    "days": 1,
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1875-09-01",
@@ -2538,11 +2664,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
+  "nReports": 2,
+  "nightPct": 101.7,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    101.7,
+    null,
+    null
+   ],
    [
     29.67,
     100.0,
@@ -2552,56 +2684,155 @@
   ],
   "thresholds": {
    "50": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "85": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "90": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "95": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "98": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "99": {
-    "days": 30,
+    "days": 1,
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
+  "id": "1878-06-19",
+  "name": "Constitutional Convention Delegate Election",
+  "kind": "Special",
+  "year": 1878,
+  "final": 27098,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 22.1,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    22.1,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
+  "id": "1879-05-07",
+  "name": "Constitution Ratification Special",
+  "kind": "Special",
+  "year": 1879,
+  "final": 38034,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 101.4,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    101.4,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1879-09-03",
@@ -2674,6 +2905,114 @@
   "srcShort": "cdnc-ocr"
  },
  {
+  "id": "1880-03-30",
+  "name": "Board of Freeholders Charter Election",
+  "kind": "Special",
+  "year": 1880,
+  "final": 30877,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 65.7,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    65.7,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
+  "id": "1880-09-08",
+  "name": "Proposed-Charter Special (REJECTED)",
+  "kind": "Special",
+  "year": 1880,
+  "final": 23398,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 97.2,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    97.2,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
   "id": "1880-11-02",
   "name": "Consolidated General Election",
   "kind": "General",
@@ -2682,11 +3021,17 @@
   "registered": 43775,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 58.4,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    58.4,
+    null,
+    null
+   ],
    [
     1.29,
     97.9,
@@ -2696,48 +3041,73 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "65": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "70": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "75": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "95": {
     "days": 2,
-    "bound": true
+    "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
+  "id": "1881-09-07",
+  "name": "Municipal Election (Mayor Blake)",
+  "kind": "Municipal",
+  "year": 1881,
+  "final": 33216,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 33.8,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    33.8,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1882-11-07",
@@ -2763,6 +3133,150 @@
   "thresholds": {},
   "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1883-03-03",
+  "name": "Proposed-Charter Special (REJECTED)",
+  "kind": "Special",
+  "year": 1883,
+  "final": 18764,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 98.6,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    98.6,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
+  "id": "1884-03-18",
+  "name": "Assembly Special (13th Senatorial District vacancy)",
+  "kind": "Special",
+  "year": 1884,
+  "final": 4984,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 101.7,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.08,
+    101.7,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 0,
+    "bound": true
+   },
+   "55": {
+    "days": 0,
+    "bound": true
+   },
+   "60": {
+    "days": 0,
+    "bound": true
+   },
+   "65": {
+    "days": 0,
+    "bound": true
+   },
+   "70": {
+    "days": 0,
+    "bound": true
+   },
+   "75": {
+    "days": 0,
+    "bound": true
+   },
+   "80": {
+    "days": 0,
+    "bound": true
+   },
+   "85": {
+    "days": 0,
+    "bound": true
+   },
+   "90": {
+    "days": 0,
+    "bound": true
+   },
+   "95": {
+    "days": 0,
+    "bound": true
+   },
+   "98": {
+    "days": 0,
+    "bound": true
+   },
+   "99": {
+    "days": 0,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1884-11-04",
@@ -2823,6 +3337,89 @@
   },
   "nightSrc": "cdnc-ocr",
   "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1886-11-02",
+  "name": "Gubernatorial + Municipal Election (Mayor Pond)",
+  "kind": "Municipal",
+  "year": 1886,
+  "final": 45716,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 6.7,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    6.7,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
+  "id": "1887-04-12",
+  "name": "Charter + Amendments Special (REJECTED)",
+  "kind": "Special",
+  "year": 1887,
+  "final": 25959,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 88.6,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    88.6,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1888-11-06",
@@ -2901,6 +3498,80 @@
   },
   "nightSrc": "cdnc-ocr",
   "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1890-11-04",
+  "name": "Gubernatorial + Municipal Election (Mayor Sanderson)",
+  "kind": "Municipal",
+  "year": 1890,
+  "final": 55565,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 101.5,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    101.5,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1892-11-08",
@@ -3041,11 +3712,17 @@
   "registered": 72782,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 91.6,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    91.6,
+    null,
+    null
+   ],
    [
     1.29,
     99.9,
@@ -3055,56 +3732,56 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "85": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "90": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "95": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "98": {
     "days": 2,
-    "bound": true
+    "bound": false
    },
    "99": {
     "days": 2,
-    "bound": true
+    "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1898-05-26",
@@ -3225,6 +3902,68 @@
   },
   "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1899-08-08",
+  "name": "Municipal Primary Election",
+  "kind": "Primary",
+  "year": 1899,
+  "final": 32521,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 93.7,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    93.7,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1899-11-07",
@@ -3489,6 +4228,80 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1901-08-13",
+  "name": "Municipal Primary Election",
+  "kind": "Primary",
+  "year": 1901,
+  "final": 22939,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 99.8,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    99.8,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
   "id": "1901-11-05",
   "name": "General Municipal Election",
   "kind": "Municipal",
@@ -3742,6 +4555,80 @@
   "srcShort": "cdnc-ocr"
  },
  {
+  "id": "1903-08-11",
+  "name": "Municipal Primary Election",
+  "kind": "Primary",
+  "year": 1903,
+  "final": 26039,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 99.9,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    99.9,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
   "id": "1903-09-29",
   "name": "Special Municipal Election",
   "kind": "Special",
@@ -3970,6 +4857,150 @@
   "srcShort": "cdnc-ocr"
  },
  {
+  "id": "1904-05-03",
+  "name": "Presidential Primary Election",
+  "kind": "Primary",
+  "year": 1904,
+  "final": 9384,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 99.9,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    99.9,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
+  "id": "1904-08-09",
+  "name": "State Primary Election",
+  "kind": "Primary",
+  "year": 1904,
+  "final": 18141,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 98.7,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    98.7,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
   "id": "1904-11-08",
   "name": "Presidential General Election",
   "kind": "General",
@@ -4014,6 +5045,68 @@
   },
   "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1905-08-08",
+  "name": "Municipal Primary Election (League vs Ruef factions)",
+  "kind": "Primary",
+  "year": 1905,
+  "final": 41117,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 92.7,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    92.7,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1905-11-07",
@@ -4090,6 +5183,72 @@
   "srcShort": "cdnc-ocr"
  },
  {
+  "id": "1906-08-14",
+  "name": "State Primary Election",
+  "kind": "Primary",
+  "year": 1906,
+  "final": 10824,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 97.5,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    97.5,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
   "id": "1906-11-06",
   "name": "Consolidated General Election",
   "kind": "General",
@@ -4154,6 +5313,68 @@
   },
   "nightSrc": "cdnc-ocr",
   "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1907-08-13",
+  "name": "Municipal Primary Election",
+  "kind": "Primary",
+  "year": 1907,
+  "final": 22851,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 91.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    91.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1907-11-05",
@@ -4253,6 +5474,68 @@
   },
   "nightSrc": "cdnc-ocr",
   "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1908-08-11",
+  "name": "State Primary Election",
+  "kind": "Primary",
+  "year": 1908,
+  "final": 33331,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 91.9,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    91.9,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1908-11-03",
@@ -4371,11 +5654,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 96.2,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    96.2,
+    null,
+    null
+   ],
    [
     2.88,
     99.9,
@@ -4385,56 +5674,56 @@
   ],
   "thresholds": {
    "50": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "85": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "90": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "95": {
-    "days": 3,
+    "days": 1,
     "bound": true
    },
    "98": {
     "days": 3,
-    "bound": true
+    "bound": false
    },
    "99": {
     "days": 3,
-    "bound": true
+    "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1909-06-24",
@@ -4509,6 +5798,31 @@
   },
   "nightSrc": "cdnc-ocr",
   "srcShort": "cdnc-ocr"
+ },
+ {
+  "id": "1909-08-17",
+  "name": "Municipal Primary Election",
+  "kind": "Primary",
+  "year": 1909,
+  "final": 38317,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 14.2,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    14.2,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1909-11-02",
@@ -4667,11 +5981,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
+  "nReports": 2,
+  "nightPct": 99.8,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    99.8,
+    null,
+    null
+   ],
    [
     29.67,
     100.0,
@@ -4681,56 +6001,81 @@
   ],
   "thresholds": {
    "50": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "85": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "90": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "95": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "98": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "99": {
-    "days": 30,
+    "days": 1,
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
+  "id": "1910-08-16",
+  "name": "State Primary Election",
+  "kind": "Primary",
+  "year": 1910,
+  "final": 47532,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 20.1,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    20.1,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1910-11-08",
@@ -4758,6 +6103,56 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1910-11-15",
+  "name": "Special Election (charter amendments)",
+  "kind": "Special",
+  "year": 1910,
+  "final": 45889,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 5.1,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    5.1,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
+  "id": "1911-09-26",
+  "name": "Municipal Primary Election",
+  "kind": "Primary",
+  "year": 1911,
+  "final": 79019,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 5.0,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    5.0,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
   "id": "1911-10-10",
   "name": "Special Election (constitutional amendments)",
   "kind": "Special",
@@ -4766,11 +6161,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 52.4,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    52.4,
+    null,
+    null
+   ],
    [
     29.67,
     100.0,
@@ -4780,7 +6181,7 @@
   ],
   "thresholds": {
    "50": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "55": {
@@ -4828,8 +6229,8 @@
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1911-11-07",
@@ -5005,6 +6406,126 @@
   "srcShort": "cdnc-ocr"
  },
  {
+  "id": "1912-05-14",
+  "name": "Presidential Primary Election",
+  "kind": "Primary",
+  "year": 1912,
+  "final": 62407,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 97.3,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    97.3,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
+  "id": "1912-09-03",
+  "name": "State Primary Election",
+  "kind": "Primary",
+  "year": 1912,
+  "final": 65948,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 81.5,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    81.5,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
   "id": "1912-11-05",
   "name": "Presidential General Election",
   "kind": "General",
@@ -5082,6 +6603,80 @@
   "thresholds": {},
   "nightSrc": "SF Chronicle page scan (NewsBank/SFPL)",
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
+ },
+ {
+  "id": "1912-12-20",
+  "name": "Special Election (general-utilities bonds)",
+  "kind": "Special",
+  "year": 1912,
+  "final": 47484,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 99.5,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    99.5,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1913-04-22",
@@ -5232,11 +6827,11 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
-  "id": "1914-10-08",
-  "name": "Recall Special Election (Grant)",
-  "kind": "Recall",
-  "year": 1914,
-  "final": 8944,
+  "id": "1913-09-30",
+  "name": "Municipal Primary Election",
+  "kind": "Primary",
+  "year": 1913,
+  "final": 65905,
   "registered": null,
   "source": "archival",
   "provisional": false,
@@ -5246,6 +6841,145 @@
   "vbmShare": null,
   "pts": [
    [
+    0.67,
+    69.4,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": null,
+  "srcShort": ""
+ },
+ {
+  "id": "1913-11-11",
+  "name": "General Municipal Election",
+  "kind": "Municipal",
+  "year": 1913,
+  "final": 72551,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 97.1,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    97.1,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
+  "id": "1914-08-25",
+  "name": "State Primary Election",
+  "kind": "Primary",
+  "year": 1914,
+  "final": 97417,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 0.5,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    0.5,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
+  "id": "1914-10-08",
+  "name": "Recall Special Election (Grant)",
+  "kind": "Recall",
+  "year": 1914,
+  "final": 8944,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 2,
+  "nightPct": 100.0,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    100.0,
+    null,
+    null
+   ],
+   [
     29.67,
     100.0,
     null,
@@ -5254,56 +6988,56 @@
   ],
   "thresholds": {
    "50": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "85": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "90": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "95": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "98": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "99": {
-    "days": 30,
+    "days": 1,
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1914-11-03",
@@ -5339,11 +7073,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
+  "nReports": 2,
+  "nightPct": 74.4,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    74.4,
+    null,
+    null
+   ],
    [
     0.88,
     91.8,
@@ -5374,23 +7114,23 @@
    },
    "75": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "80": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "85": {
     "days": 1,
-    "bound": true
+    "bound": false
    },
    "90": {
     "days": 1,
-    "bound": true
+    "bound": false
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1915-04-20",
@@ -5467,6 +7207,31 @@
   "srcShort": "SF Chronicle page scan (NewsBank/SFPL)"
  },
  {
+  "id": "1915-09-28",
+  "name": "Municipal Primary Election",
+  "kind": "Primary",
+  "year": 1915,
+  "final": 119105,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 23.4,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    23.4,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {},
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
   "id": "1915-10-26",
   "name": "Special Election (constitutional amendments)",
   "kind": "Special",
@@ -5475,11 +7240,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
+  "nReports": 2,
+  "nightPct": 99.9,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    99.9,
+    null,
+    null
+   ],
    [
     29.67,
     100.0,
@@ -5489,56 +7260,242 @@
   ],
   "thresholds": {
    "50": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "85": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "90": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "95": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "98": {
-    "days": 30,
+    "days": 1,
     "bound": true
    },
    "99": {
-    "days": 30,
+    "days": 1,
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
+  "id": "1915-11-09",
+  "name": "General Municipal Election (Rolph re-elected)",
+  "kind": "Municipal",
+  "year": 1915,
+  "final": 83297,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 99.8,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    99.8,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   },
+   "98": {
+    "days": 1,
+    "bound": true
+   },
+   "99": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
+  "id": "1916-05-02",
+  "name": "Presidential Primary Election",
+  "kind": "Primary",
+  "year": 1916,
+  "final": 48150,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 97.3,
+  "nightPartial": false,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    97.3,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   },
+   "75": {
+    "days": 1,
+    "bound": true
+   },
+   "80": {
+    "days": 1,
+    "bound": true
+   },
+   "85": {
+    "days": 1,
+    "bound": true
+   },
+   "90": {
+    "days": 1,
+    "bound": true
+   },
+   "95": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
+ },
+ {
+  "id": "1916-08-29",
+  "name": "State Primary Election",
+  "kind": "Primary",
+  "year": 1916,
+  "final": 76902,
+  "registered": null,
+  "source": "archival",
+  "provisional": false,
+  "nReports": 1,
+  "nightPct": 70.7,
+  "nightPartial": true,
+  "vbmShare": null,
+  "pts": [
+   [
+    0.29,
+    70.7,
+    null,
+    null
+   ]
+  ],
+  "thresholds": {
+   "50": {
+    "days": 1,
+    "bound": true
+   },
+   "55": {
+    "days": 1,
+    "bound": true
+   },
+   "60": {
+    "days": 1,
+    "bound": true
+   },
+   "65": {
+    "days": 1,
+    "bound": true
+   },
+   "70": {
+    "days": 1,
+    "bound": true
+   }
+  },
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1916-11-07",
@@ -5839,11 +7796,17 @@
   "registered": null,
   "source": "archival",
   "provisional": false,
-  "nReports": 1,
-  "nightPct": null,
-  "nightPartial": false,
+  "nReports": 2,
+  "nightPct": 99.3,
+  "nightPartial": true,
   "vbmShare": null,
   "pts": [
+   [
+    0.29,
+    99.3,
+    null,
+    null
+   ],
    [
     1.29,
     99.8,
@@ -5853,56 +7816,56 @@
   ],
   "thresholds": {
    "50": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "55": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "60": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "65": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "70": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "75": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "80": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "85": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "90": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "95": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "98": {
-    "days": 2,
+    "days": 1,
     "bound": true
    },
    "99": {
-    "days": 2,
+    "days": 1,
     "bound": true
    }
   },
-  "nightSrc": null,
-  "srcShort": "cdnc-ocr"
+  "nightSrc": "",
+  "srcShort": ""
  },
  {
   "id": "1923-11-06",

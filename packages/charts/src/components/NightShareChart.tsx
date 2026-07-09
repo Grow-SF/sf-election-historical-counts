@@ -311,7 +311,7 @@ export default function NightShareChart({
     <div>
       <ChartFrame
         title="How much of the vote was counted on election night"
-        subtitle="Percent counted on election night, 1860–2026"
+        subtitle="Percent counted on election night, 1851–2026"
         note={
           <>
             Each dot shows what percent of the final turnout was counted on
