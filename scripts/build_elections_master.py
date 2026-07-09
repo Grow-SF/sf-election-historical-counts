@@ -23,8 +23,19 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 # --- P1: 1907–2025 (date, kind) -------------------------------------------------
 P1 = [
  ("1907-11-05","Municipal"),("1908-05-11","Special"),("1908-11-03","General"),
- ("1908-11-12","Special"),("1909-06-22","Primary"),("1909-11-02","General"),
+ # 1910-01-14, 1911-10-10, 1914-10-08, 1915-10-26: found in the Municipal
+ # Reports official canvasses (2026-07-08), absent from all prior indexes
+ ("1910-01-14","Special"),("1911-10-10","Special"),
+ ("1914-10-08","Recall"),("1915-10-26","Special"),
+ ("1908-11-12","Special"),
+ # 1909-06-22 was a 9-proposition bond special, not a primary (the direct
+ # primary law was in litigation; CDNC recovery 2026-07-08), and a second
+ # Geary bond special followed two days later, absent from all prior indexes
+ ("1909-06-22","Special"),("1909-06-24","Special"),("1909-11-02","General"),
  ("1909-12-30","Special"),("1911-11-07","Municipal"),("1912-03-28","Special"),
+ # 1912-03-29: initiative-ordinance special held the day after the Civic
+ # Center bond special (invalidated pre-election; 31,968 cast per the Call)
+ ("1912-03-29","Special"),
  ("1912-11-05","General"),("1912-12-10","Special"),("1913-04-22","Special"),
  ("1913-08-26","Special"),("1914-11-03","General"),("1915-03-16","Special"),
  ("1915-04-20","Special"),("1916-11-07","General"),("1917-10-30","Special"),
@@ -98,6 +109,33 @@ P1 = [
  ("2026-06-02","Primary"),   # upcoming June 2026 primary
 ]
 
+# --- P1R: 1907–1916 elections absent from the DataSF/SFPL indexes, found in the
+# Registrar's cumulative election table, SF Municipal Reports FY1912-13
+# pp.260-262 and FY1915-16 pp.327-332 (full transcription ingested 2026-07-08;
+# see data/sf_turnout_registrar_1899_1916.csv). Mostly primaries (the
+# proposition-based indexes skip them), plus a charter special a week after
+# the 1910 general, a second December 1912 bond special, and the 1913/1915
+# odd-year municipals. (date, kind, description)
+P1R = [
+ ("1907-08-13","Primary","Municipal primary — registrar cumulative table"),
+ ("1908-05-05","Primary","State primary — registrar cumulative table"),
+ ("1908-08-11","Primary","State primary — registrar cumulative table"),
+ ("1909-08-17","Primary","Municipal primary — registrar cumulative table"),
+ ("1910-08-16","Primary","State primary — registrar cumulative table"),
+ ("1910-11-15","Special","Charter amendments, one week after the state general — registrar cumulative table"),
+ ("1911-09-26","Primary","Municipal primary — registrar cumulative table"),
+ ("1912-05-14","Primary","Presidential primary — registrar cumulative table"),
+ ("1912-09-03","Primary","State primary — registrar cumulative table"),
+ ("1912-12-20","Special","General-utilities bonds, ten days after the charter-amendments special — registrar cumulative table"),
+ ("1913-09-30","Primary","Municipal primary — registrar cumulative table"),
+ ("1913-11-11","Municipal","General municipal — registrar cumulative table"),
+ ("1914-08-25","Primary","State primary — registrar cumulative table"),
+ ("1915-09-28","Primary","Municipal primary — registrar cumulative table"),
+ ("1915-11-09","Municipal","General municipal (Rolph re-elected) — registrar cumulative table"),
+ ("1916-05-02","Primary","Presidential primary — registrar cumulative table"),
+ ("1916-08-29","Primary","State primary — FY1916-17 Municipal Reports canvass"),
+]
+
 # --- P2A: CA statewide generals 1849–1906 (date, kind, top office) ---------------
 P2A = [
  ("1849-11-13","General","Governor + Legislature + ratify 1849 Constitution"),
@@ -105,16 +143,21 @@ P2A = [
  ("1851-09-03","Gubernatorial","Governor"),("1852-11-02","Presidential","President"),
  ("1853-09-07","Gubernatorial","Governor"),("1854-09-06","General","Congress-at-large + Legislature"),
  ("1855-09-05","Gubernatorial","Governor"),("1856-11-04","Presidential","President"),
- ("1857-09-02","Gubernatorial","Governor"),("1858-09-01","General","Legislature + Controller"),
+ ("1857-09-02","Gubernatorial","Governor + city offices (same day; the index's separate Sept 4 city election was a date error, corrected 2026-07-08)"),
+ ("1858-09-01","General","Legislature + Controller"),
  ("1859-09-07","Gubernatorial","Governor"),("1860-11-06","Presidential","President"),
  ("1861-09-04","Gubernatorial","Governor"),("1862-09-03","General","Supt. Public Instruction + Legislature"),
  ("1863-09-02","Gubernatorial","Governor"),("1864-11-08","Presidential","President + Congress"),
- ("1865-09-05","General","Legislature"),("1867-09-04","Gubernatorial","Governor"),
+ # 1865 general was held Wednesday Sept 6, not Sept 5 (Alta masthead check,
+ # CDNC recovery 2026-07-08)
+ ("1865-09-06","General","Legislature"),("1867-09-04","Gubernatorial","Governor"),
  ("1867-10-16","General","Supt. Public Instruction"),("1868-11-03","Presidential","President + Congress"),
  ("1871-09-06","Gubernatorial","Governor"),("1871-10-18","General","Supt. Public Instruction"),
  ("1872-11-05","Presidential","President + Congress"),("1873-09-03","General","Legislature"),
  ("1875-09-01","Gubernatorial","Governor"),("1875-10-20","General","Supt. Public Instruction"),
  ("1876-11-07","Presidential","President + Congress"),("1877-09-05","General","Legislature"),
+ ("1878-06-19","Special","Delegates to the 1878-79 state Constitutional Convention"),
+ ("1879-05-07","Special","Ratification of the 1879 Constitution"),
  ("1879-09-03","Gubernatorial","Governor (1879 Constitution)"),
  ("1880-11-02","Presidential","President + Congress + Legislature"),
  ("1882-11-07","Gubernatorial","Governor + state officers"),
@@ -136,29 +179,57 @@ P2A = [
 # conf: H exact, A approx (month/cycle), U date unknown (year placeholder)
 P2B = [
  ("1856-11-04","Municipal","Mayor (Burr) + city offices — 1st under Consolidation Act","H"),
- ("1857-09-04","Municipal","City/county offices","A"),
- ("1858-07-01","Municipal","Annual city offices — exact date unknown","U"),
+ # 1857-09-04 removed: city officers were chosen the same day as the Sept 2
+ # state election (Alta 1857-09-19 canvass); the separate entry was an index
+ # error. 1858-07-01 removed: no such election existed (Alta 1858-07-17: the
+ # city's 60 officers were all chosen at the September election). Both per
+ # the 1849-1858 official-canvass recovery, 2026-07-08.
  ("1859-09-07","Municipal","Mayor (Teschemacher) + city offices","H"),
  ("1861-05-21","Municipal","Mayor (Teschemacher re-elected)","H"),
- ("1863-05-19","Municipal","Mayor (Coon)","H"),("1865-05-16","Municipal","Mayor (Coon re-elected)","H"),
+ ("1863-05-19","Municipal","Mayor (Coon)","H"),
+ ("1864-05-17","Municipal","City offices — Municipal Reports official total 10,847; absent from all prior indexes (2026-07-08)","H"),
+ ("1865-05-16","Municipal","Mayor (Coon re-elected)","H"),
+ ("1866-09-05","Municipal","City offices — Municipal Reports official total 13,371; absent from all prior indexes (2026-07-08)","H"),
  ("1867-09-04","Municipal","Mayor (McCoppin)","H"),("1869-09-01","Municipal","Mayor (Selby)","H"),
+ ("1870-09-07","General","State general — Municipal Reports official total 19,944; absent from all prior indexes (2026-07-08)","H"),
  ("1871-09-06","Municipal","Mayor (Alvord)","H"),("1873-09-03","Municipal","Mayor (Otis)","H"),
+ ("1873-10-15","Special","Judicial election — Municipal Reports official total 15,594; absent from all prior indexes (2026-07-08)","H"),
  ("1875-09-01","Municipal","Mayor (Bryant)","H"),("1877-09-05","Municipal","Mayor (Bryant re-elected)","H"),
+ ("1877-10-17","Special","Judicial election — official canvass Res. 11,450 total 22,942; absent from all prior indexes (2026-07-08)","H"),
  ("1879-09-03","Municipal","Mayor (Kalloch) — 1st under 1879 Constitution","H"),
- ("1880-07-01","Charter","Proposed new charter — REJECTED; exact date unknown","U"),
+ ("1880-03-30","Charter","Board of Freeholders (draft new charter) — registrar cumulative table (vol47 p.277): 30,877 votes","H"),
+ ("1880-09-08","Charter","Proposed new charter — REJECTED; dated Sept 8 1880 by the registrar cumulative table (vol47 p.277): 23,398 votes","H"),
  ("1881-09-07","Municipal","Mayor (Blake) — last September municipal","H"),
  ("1882-11-07","Municipal","Mayor (Bartlett) — 1st November municipal","H"),
- ("1883-07-01","Charter","Proposed new charter — REJECTED; exact date unknown","U"),
+ ("1883-03-03","Charter","Proposed new charter — REJECTED; dated March 3 1883 by the registrar cumulative table (vol47 p.277): 18,764 votes","H"),
+ ("1884-03-18","Special","Assemblyman (special) — registrar cumulative table (vol47 p.277): 2,655 votes","H"),
  ("1884-11-04","Municipal","Mayor (Bartlett re-elected)","H"),
  ("1886-11-02","Municipal","Mayor (Pond)","H"),
- ("1887-07-01","Charter","Proposed new charter — REJECTED; exact date unknown","U"),
+ ("1887-04-12","Charter","Amendments and proposed charter — REJECTED; dated April 12 1887 by the registrar cumulative table (vol47 p.277): 25,959 votes","H"),
  ("1888-11-06","Municipal","Mayor (Pond re-elected)","H"),
  ("1890-11-04","Municipal","Mayor (Sanderson)","H"),("1892-11-08","Municipal","Mayor (Ellert)","H"),
  ("1894-11-06","Municipal","Mayor (Sutro)","H"),("1896-11-03","Municipal","Mayor (Phelan)","H"),
  ("1897-12-27","Charter","Board of Freeholders (draft new charter)","H"),
  ("1898-05-26","Charter","New (1898/1900) Charter RATIFIED","H"),
- ("1898-11-01","Municipal","Mayor (Phelan re-elected)","H"),
+ ("1898-11-08","Municipal","Mayor (Phelan re-elected), consolidated onto the state ballot (no separate Nov 1 municipal election; Municipal Reports cumulative table)","H"),
+ # 1899-1906 primaries: county-run party primaries from the Registrar's
+ # cumulative table (ingested 2026-07-08; data/sf_turnout_registrar_1899_1916.csv);
+ # absent from all prior indexes
+ ("1899-08-08","Primary","Municipal primary — registrar cumulative table","H"),
+ ("1901-08-13","Primary","Municipal primary — registrar cumulative table","H"),
+ ("1902-08-12","Primary","State primary — registrar cumulative table (the FY1915-16 index prints Aug. 25; both chronological printings print Aug. 12)","H"),
+ ("1903-08-11","Primary","Municipal primary — registrar cumulative table","H"),
+ ("1904-05-03","Primary","Primary — registrar cumulative table","H"),
+ ("1904-08-09","Primary","State primary — registrar cumulative table","H"),
+ ("1905-08-08","Primary","Municipal primary — FY1915-16 categorized index p.331 (both chronological printings skip this row)","H"),
+ ("1906-08-14","Primary","State primary — registrar cumulative table","H"),
  ("1899-11-07","Municipal","Mayor (Phelan) — 1st under 1898 charter","H"),
+ ("1899-12-27","Special","Park-bond special (Municipal Reports cumulative table)","H"),
+ ("1899-12-29","Special","Sewer-bond special (the DOE turnout table dates it 1899-12-02; see doe-data-discrepancies.md)","H"),
+ ("1902-12-02","Special","Geary Street Railroad bond special (DOE turnout table; Municipal Reports confirm)","H"),
+ ("1902-12-04","Special","Charter-amendments special (Municipal Reports cumulative table)","H"),
+ ("1903-09-29","Special","Sewer and other bonds special (DOE turnout table; Municipal Reports confirm)","H"),
+ ("1903-10-08","Special","Street-railroad bonds special (DOE turnout table; Municipal Reports confirm)","H"),
  ("1901-11-05","Municipal","Mayor (Schmitz)","H"),("1903-11-03","Municipal","Mayor (Schmitz re-elected)","H"),
  ("1905-11-07","Municipal","Mayor (Schmitz, 3rd) + Supervisors","H"),
  ("1907-11-05","Municipal","Mayor (Taylor) — post-graft-trial","H"),
@@ -182,6 +253,8 @@ def add(date, kind, desc, level, conf, src):
 
 for d, k in P1:
     add(d, k, "", "city", "H", "SFPL/DataSF/DOE")
+for d, k, desc in P1R:
+    add(d, k, desc, "city", "H", "Municipal Reports (registrar cumulative table)")
 for d, k, office in P2A:
     add(d, k, office, "statewide", "H", "Blue Book/SOV/Wikipedia")
 for d, k, what, conf in P2B:
@@ -190,11 +263,26 @@ for d, k, what, conf in P2B:
 # --- recovered? cross-reference the live dataset --------------------------------
 el = json.loads((ROOT / "packages" / "data" / "elections.json").read_text())
 night = {e["id"]: e.get("nightPct") for e in el}
+# an election is "missing" if we hold no election-night count; among the
+# missing, distinguish those whose FINAL count we do hold (a certified or
+# registrar total from any source) from those with no recovered data at all
+finals = set(night)  # every canvass/modern election carries a certified final
+for fn in ("sf_turnout_pre1899.csv", "sf_turnout_1891_1907.csv",
+           "sf_turnout_registrar_1899_1916.csv"):
+    with open(ROOT / "data" / fn, newline="") as f:
+        for r in csv.DictReader(f):
+            if r["ballots_cast"]:
+                finals.add(r["election_date"])
+DOE_TABLE_DATE_FIXES = {"2001-12-10": "2001-12-11", "1899-12-02": "1899-12-29"}
+with open(ROOT / "data" / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
+    for r in csv.DictReader(f):
+        if r["ballots_cast"] and r["ballots_cast"] not in ("n/a",):
+            finals.add(DOE_TABLE_DATE_FIXES.get(r["election_date"], r["election_date"]))
 def recovered(date):
-    if date not in night:
-        return "no", ""
-    p = night[date]
-    return ("night", p) if p is not None else ("turnout-only", "")
+    p = night.get(date)
+    if p is not None:
+        return "night", p
+    return ("final-only", "") if date in finals else ("no", "")
 
 # --- write ----------------------------------------------------------------------
 out = ROOT / "data" / "elections_master.csv"
@@ -206,13 +294,13 @@ with open(out, "w", newline="") as f:
     w = csv.writer(f)
     w.writerow(["election_date","year","level","kind","description",
                 "recovered","night_pct","date_confidence","sources"])
-    n_night = n_turn = n_missing = 0
+    n_night = n_final = n_nothing = 0
     for date in sorted(rows):
         r = rows[date]
         rec, pct = recovered(date)
         if rec == "night": n_night += 1
-        elif rec == "turnout-only": n_turn += 1
-        else: n_missing += 1
+        elif rec == "final-only": n_final += 1
+        else: n_nothing += 1
         lvl = ("both" if {"statewide"} <= r["levels"] and
                ({"municipal"} <= r["levels"] or "city" in r["levels"])
                else ("statewide" if "statewide" in r["levels"]
@@ -222,6 +310,6 @@ with open(out, "w", newline="") as f:
                     "; ".join(r["descs"]), rec, pct, conf, "; ".join(sorted(r["src"]))])
     total = len(rows)
 print(f"{total} distinct election dates -> {out}")
-print(f"  recovered (night count): {n_night}")
-print(f"  turnout-only:            {n_turn}")
-print(f"  MISSING:                 {n_missing}")
+print(f"  recovered (night count):     {n_night}")
+print(f"  missing, final count known:  {n_final}")
+print(f"  missing, no data at all:     {n_nothing}")

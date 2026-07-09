@@ -4,15 +4,15 @@
   "turnoutPct": 92.9,
   "registered": 44765,
   "ballots": 41575,
-  "source": "muni-registrar",
-  "kind": "Special"
+  "source": "archival",
+  "kind": "General"
  },
  {
   "date": "1880-11-02",
   "turnoutPct": 94.3,
   "registered": 43775,
   "ballots": 41292,
-  "source": "muni-registrar",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -28,7 +28,7 @@
   "turnoutPct": 94.1,
   "registered": 50542,
   "ballots": 47535,
-  "source": "muni-registrar",
+  "source": "archival",
   "kind": "General"
  },
  {
@@ -37,6 +37,7 @@
   "registered": 48792,
   "ballots": 45716,
   "source": "muni-registrar",
+  "cite": "SF Municipal Reports FY1888-89 (Registrar master table, p.856) \u2014 Nov 2 1886 general: registration 48,792, total vote 45,716",
   "kind": "General"
  },
  {
@@ -44,31 +45,170 @@
   "turnoutPct": 94.5,
   "registered": 58549,
   "ballots": 55313,
-  "source": "muni-registrar",
+  "source": "archival",
   "kind": "General"
  },
  {
   "date": "1890-11-04",
-  "turnoutPct": 92.6,
-  "registered": 59712,
-  "ballots": 55317,
+  "turnoutPct": 93.0,
+  "registered": 59770,
+  "ballots": 55565,
   "source": "muni-registrar",
+  "cite": "SF Municipal Reports vol47 Board of Election Commissioners' Report p.277 cumulative table (mirror/muni_reports/vol47_n320.jpg, operator hand-read 2026-07-07): Nov 4 1890 general, 310 precincts, registration 59,770, total vote 55,565 \u2014 upgrades the prior stitched floor (Great Register 59,712 + Governor-sum 55,317, SOV/Blue Book 1891 p.88, kept here for the record) with the registrar's own official series, which continues past the FY1888-89 table's 1888 endpoint",
   "kind": "General"
  },
  {
-  "date": "1899-12-02",
+  "date": "1892-11-08",
+  "turnoutPct": 89.6,
+  "registered": 67849,
+  "ballots": 60790,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports Dept. of Elections cumulative registration-and-votes table; confirmed identical in four printings read from page images (vol49 FY1898-99 p.55, vol53 FY1902-03 p.290, vol55 FY1904-05 p.264, vol57 FY1907-08 p.871, archive.org sanfranciscomuni49/53/55/57sanfrich; evidence in mirror/muni_reports/) - Nov 8 1892 presidential general",
+  "kind": "General"
+ },
+ {
+  "date": "1894-11-06",
+  "turnoutPct": 90.5,
+  "registered": 68039,
+  "ballots": 61548,
+  "source": "muni-registrar",
+  "cite": "Municipal Reports cumulative table; confirmed identical in four printings (vols 49/53/55/57, page images in mirror/muni_reports/) - Nov 6 1894 general",
+  "kind": "General"
+ },
+ {
+  "date": "1896-11-03",
+  "turnoutPct": 88.8,
+  "registered": 72992,
+  "ballots": 64820,
+  "source": "muni-registrar",
+  "cite": "Municipal Reports cumulative table; ballots 64,820 per the three earliest printings including the election's own fiscal-year volume (vol47 FY1896-97 p.277 image-read, vol49, vol53); vols 55/57 print 61,820, a propagated compositor error ruled out arithmetically by the SOV presidential-elector sum 61,889 (statementofvoteo1886cali leaves n110-n113); arbitration in .superpowers evidence and mirror/muni_reports/vol47_n320.jpg - Nov 3 1896 presidential general",
+  "kind": "General"
+ },
+ {
+  "date": "1897-12-27",
+  "turnoutPct": 36.0,
+  "registered": 72782,
+  "ballots": 26202,
+  "source": "archival",
+  "kind": "Special"
+ },
+ {
+  "date": "1898-05-26",
+  "turnoutPct": 36.9,
+  "registered": 73140,
+  "ballots": 26969,
+  "source": "archival",
+  "kind": "Special"
+ },
+ {
+  "date": "1898-11-08",
+  "turnoutPct": 87.8,
+  "registered": 62965,
+  "ballots": 55275,
+  "source": "muni-registrar",
+  "cite": "Municipal Reports cumulative table; confirmed in vols 53/55/57 (vol49 alone prints registration 62,410, a compositor slip duplicating the adjacent Aug 1899 primary row's figure) - Nov 8 1898 general; the municipal offices (Mayor Phelan re-elected) rode the state ballot, there was no separate Nov 1 municipal election; registration dip vs 1897 reflects the fresh biennial register",
+  "kind": "General"
+ },
+ {
+  "date": "1899-08-08",
+  "turnoutPct": 52.1,
+  "registered": 62410,
+  "ballots": 32521,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.260; munisanfrancisco65sanfrich p.327; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n277",
+  "kind": "Special"
+ },
+ {
+  "date": "1899-11-07",
+  "turnoutPct": 72.4,
+  "registered": 71786,
+  "ballots": 51965,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1899-12-27",
+  "turnoutPct": 42.4,
+  "registered": 70681,
+  "ballots": 29972,
+  "source": "archival",
+  "kind": "Special"
+ },
+ {
+  "date": "1899-12-29",
   "turnoutPct": 31.6,
   "registered": 70726,
   "ballots": 22331,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "Special"
+ },
+ {
+  "date": "1900-11-06",
+  "turnoutPct": 88.5,
+  "registered": 73633,
+  "ballots": 65161,
+  "source": "muni-registrar",
+  "cite": "Municipal Reports cumulative table; confirmed in all three covering printings (vols 53/55/57) - Nov 6 1900 presidential general",
+  "kind": "General"
+ },
+ {
+  "date": "1901-08-13",
+  "turnoutPct": 30.1,
+  "registered": 76192,
+  "ballots": 22939,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.260; munisanfrancisco65sanfrich p.327; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n277",
+  "kind": "Special"
+ },
+ {
+  "date": "1901-11-05",
+  "turnoutPct": 69.0,
+  "registered": 77890,
+  "ballots": 53746,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1902-08-12",
+  "turnoutPct": 55.5,
+  "registered": 51726,
+  "ballots": 28697,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278; the FY1915-16 index p.331 dates this primary Aug. 25; both chronological printings print Aug. 12, used here",
+  "kind": "Special"
+ },
+ {
+  "date": "1902-11-04",
+  "turnoutPct": 86.4,
+  "registered": 70716,
+  "ballots": 61091,
+  "source": "muni-registrar",
+  "cite": "Municipal Reports cumulative table; confirmed in all three covering printings (vols 53/55/57) - Nov 4 1902 gubernatorial general",
+  "kind": "General"
  },
  {
   "date": "1902-12-02",
   "turnoutPct": 37.6,
   "registered": 70764,
   "ballots": 26612,
-  "source": "doe-turnout-table",
+  "source": "archival",
+  "kind": "Special"
+ },
+ {
+  "date": "1902-12-04",
+  "turnoutPct": 20.2,
+  "registered": 70764,
+  "ballots": 14271,
+  "source": "archival",
+  "kind": "Special"
+ },
+ {
+  "date": "1903-08-11",
+  "turnoutPct": 35.5,
+  "registered": 73280,
+  "ballots": 26039,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
   "kind": "Special"
  },
  {
@@ -76,24 +216,290 @@
   "turnoutPct": 37.1,
   "registered": 73540,
   "ballots": 27308,
-  "source": "doe-turnout-table",
+  "source": "archival",
   "kind": "Special"
  },
  {
   "date": "1903-10-08",
   "turnoutPct": 34.3,
   "registered": 73702,
-  "ballots": 25275,
-  "source": "doe-turnout-table",
+  "ballots": 25276,
+  "source": "archival",
+  "kind": "Special"
+ },
+ {
+  "date": "1903-11-03",
+  "turnoutPct": 75.1,
+  "registered": 79684,
+  "ballots": 59824,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1904-05-03",
+  "turnoutPct": 28.7,
+  "registered": 32721,
+  "ballots": 9384,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "kind": "Special"
+ },
+ {
+  "date": "1904-08-09",
+  "turnoutPct": 35.8,
+  "registered": 50708,
+  "ballots": 18141,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "kind": "Special"
+ },
+ {
+  "date": "1904-11-08",
+  "turnoutPct": 83.1,
+  "registered": 81576,
+  "ballots": 67770,
+  "source": "muni-registrar",
+  "cite": "Municipal Reports cumulative table; confirmed in both covering printings (vols 55/57, including the 40-voting-machines footnote) - Nov 8 1904 presidential general",
+  "kind": "General"
+ },
+ {
+  "date": "1905-08-08",
+  "turnoutPct": 33.3,
+  "registered": 87062,
+  "ballots": 28951,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n350; printed only in the FY1915-16 categorized index p.331 (both chronological printings skip this row)",
+  "kind": "Special"
+ },
+ {
+  "date": "1905-11-07",
+  "turnoutPct": 72.7,
+  "registered": 97670,
+  "ballots": 71033,
+  "source": "archival",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1906-08-14",
+  "turnoutPct": 49.1,
+  "registered": 22026,
+  "ballots": 10824,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "kind": "Special"
+ },
+ {
+  "date": "1906-11-06",
+  "turnoutPct": 74.7,
+  "registered": 51633,
+  "ballots": 38564,
+  "source": "archival",
+  "kind": "General"
+ },
+ {
+  "date": "1907-08-13",
+  "turnoutPct": 37.8,
+  "registered": 60469,
+  "ballots": 22851,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "kind": "Special"
+ },
+ {
+  "date": "1907-11-05",
+  "turnoutPct": 74.9,
+  "registered": 77601,
+  "ballots": 58086,
+  "source": "muni-registrar",
+  "cite": "Municipal Reports cumulative table, vol57 p.871 (the only volume covering this election; no cross-printing exists) - Nov 5 1907 general municipal (Taylor); mayor-contest sum 57,110 is 976 below ballots cast, gate passes",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1908-05-05",
+  "turnoutPct": 66.1,
+  "registered": 36564,
+  "ballots": 24178,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "kind": "Special"
+ },
+ {
+  "date": "1908-05-11",
+  "turnoutPct": 29.8,
+  "registered": 79000,
+  "ballots": 23560,
+  "source": "archival",
+  "kind": "Special"
+ },
+ {
+  "date": "1908-08-11",
+  "turnoutPct": 40.9,
+  "registered": 55437,
+  "ballots": 22698,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
   "kind": "Special"
  },
  {
   "date": "1908-11-03",
-  "turnoutPct": 79.7,
-  "registered": 75467,
-  "ballots": 60124,
+  "turnoutPct": 81.7,
+  "registered": 75388,
+  "ballots": 61625,
   "source": "archival",
   "kind": "General"
+ },
+ {
+  "date": "1908-11-12",
+  "turnoutPct": 54.5,
+  "registered": 75467,
+  "ballots": 41137,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "kind": "Special"
+ },
+ {
+  "date": "1909-06-22",
+  "turnoutPct": 31.8,
+  "registered": 75679,
+  "ballots": 24058,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "kind": "Special"
+ },
+ {
+  "date": "1909-06-24",
+  "turnoutPct": 29.4,
+  "registered": 75808,
+  "ballots": 22272,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "kind": "Special"
+ },
+ {
+  "date": "1909-08-17",
+  "turnoutPct": 45.3,
+  "registered": 84571,
+  "ballots": 38317,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "kind": "Special"
+ },
+ {
+  "date": "1909-11-02",
+  "turnoutPct": 71.7,
+  "registered": 90790,
+  "ballots": 65065,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.328; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1909-12-30",
+  "turnoutPct": 47.5,
+  "registered": 90957,
+  "ballots": 43189,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "kind": "Special"
+ },
+ {
+  "date": "1910-01-14",
+  "turnoutPct": 38.5,
+  "registered": 91026,
+  "ballots": 35015,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "kind": "Special"
+ },
+ {
+  "date": "1910-08-16",
+  "turnoutPct": 70.4,
+  "registered": 67513,
+  "ballots": 47532,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "kind": "Special"
+ },
+ {
+  "date": "1910-11-08",
+  "turnoutPct": 78.8,
+  "registered": 75828,
+  "ballots": 59724,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "kind": "General"
+ },
+ {
+  "date": "1910-11-15",
+  "turnoutPct": 60.5,
+  "registered": 75828,
+  "ballots": 45889,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278",
+  "kind": "General"
+ },
+ {
+  "date": "1911-09-26",
+  "turnoutPct": 77.5,
+  "registered": 101955,
+  "ballots": 79019,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.261; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n278; vote polled 79,019 CONFIRMED by the Dept of Elections' own canvass of this primary in the FY1911-12 volume (sanfranciscomuni61sanfrich printed p.195, leaf n222, image https://archive.org/download/sanfranciscomuni61sanfrich/page/n222): the 18 assembly-district Total Vote Polled entries sum to 79,019 exactly, and '78,919' appears nowhere in that volume; the FY1912-13 cumulative-table printing of 78,919 is a one-digit compositor slip (operator-ordered arbitration, 2026-07-08)",
+  "kind": "Special"
+ },
+ {
+  "date": "1911-10-10",
+  "turnoutPct": 58.2,
+  "registered": 101894,
+  "ballots": 59266,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279",
+  "kind": "Special"
+ },
+ {
+  "date": "1911-11-07",
+  "turnoutPct": 68.2,
+  "registered": 102196,
+  "ballots": 69689,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1912-03-28",
+  "turnoutPct": 42.9,
+  "registered": 115427,
+  "ballots": 49498,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279; registration cell footnoted \"Includes Carried-over Registration of 1911\"",
+  "kind": "Special"
+ },
+ {
+  "date": "1912-03-29",
+  "turnoutPct": 27.8,
+  "registered": 115445,
+  "ballots": 32058,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279; registration cell footnoted \"Includes Carried-over Registration of 1911\"",
+  "kind": "Special"
+ },
+ {
+  "date": "1912-05-14",
+  "turnoutPct": 45.7,
+  "registered": 136490,
+  "ballots": 62407,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279",
+  "kind": "Special"
+ },
+ {
+  "date": "1912-09-03",
+  "turnoutPct": 55.0,
+  "registered": 119933,
+  "ballots": 65948,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279",
+  "kind": "Special"
  },
  {
   "date": "1912-11-05",
@@ -104,6 +510,78 @@
   "kind": "General"
  },
  {
+  "date": "1912-12-10",
+  "turnoutPct": 61.2,
+  "registered": 136914,
+  "ballots": 83850,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279",
+  "kind": "Special"
+ },
+ {
+  "date": "1912-12-20",
+  "turnoutPct": 34.7,
+  "registered": 136914,
+  "ballots": 47484,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279",
+  "kind": "Special"
+ },
+ {
+  "date": "1913-04-22",
+  "turnoutPct": 45.7,
+  "registered": 137718,
+  "ballots": 62876,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco62sanfrich p.262; munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco62sanfrich/page/n279",
+  "kind": "Special"
+ },
+ {
+  "date": "1913-08-26",
+  "turnoutPct": 46.4,
+  "registered": 141254,
+  "ballots": 65522,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "kind": "Special"
+ },
+ {
+  "date": "1913-09-30",
+  "turnoutPct": 46.1,
+  "registered": 143075,
+  "ballots": 65905,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "kind": "Special"
+ },
+ {
+  "date": "1913-11-11",
+  "turnoutPct": 49.5,
+  "registered": 146462,
+  "ballots": 72551,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1914-08-25",
+  "turnoutPct": 66.2,
+  "registered": 147130,
+  "ballots": 97417,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.330; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "kind": "Special"
+ },
+ {
+  "date": "1914-10-08",
+  "turnoutPct": 55.6,
+  "registered": 16090,
+  "ballots": 8944,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "kind": "Recall"
+ },
+ {
   "date": "1914-11-03",
   "turnoutPct": 83.1,
   "registered": 161846,
@@ -112,12 +590,84 @@
   "kind": "General"
  },
  {
+  "date": "1915-03-16",
+  "turnoutPct": 34.3,
+  "registered": 162137,
+  "ballots": 55611,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "kind": "Special"
+ },
+ {
+  "date": "1915-04-20",
+  "turnoutPct": 45.2,
+  "registered": 162812,
+  "ballots": 73583,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "kind": "Special"
+ },
+ {
+  "date": "1915-09-28",
+  "turnoutPct": 66.3,
+  "registered": 179592,
+  "ballots": 119105,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "kind": "Special"
+ },
+ {
+  "date": "1915-10-26",
+  "turnoutPct": 27.1,
+  "registered": 180204,
+  "ballots": 48884,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.332; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "kind": "Special"
+ },
+ {
+  "date": "1915-11-09",
+  "turnoutPct": 46.2,
+  "registered": 180204,
+  "ballots": 83297,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; munisanfrancisco65sanfrich p.331; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1916-05-02",
+  "turnoutPct": 40.5,
+  "registered": 118927,
+  "ballots": 48150,
+  "source": "muni-registrar",
+  "cite": "SF Municipal Reports registrar cumulative table ('Registration and votes cast at each Election since the Act of March 18, 1878'): munisanfrancisco65sanfrich p.329; image https://archive.org/download/munisanfrancisco65sanfrich/page/n348",
+  "kind": "Special"
+ },
+ {
   "date": "1916-11-07",
   "turnoutPct": 84.3,
   "registered": 184819,
   "ballots": 155747,
   "source": "archival",
   "kind": "General"
+ },
+ {
+  "date": "1917-10-30",
+  "turnoutPct": 24.4,
+  "registered": 184819,
+  "ballots": 45183,
+  "source": "reused-registration",
+  "cite": "1916-11-07 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); roll had grown since the general close, so turnout slightly overstates",
+  "kind": "Special"
+ },
+ {
+  "date": "1917-11-06",
+  "turnoutPct": 51.3,
+  "registered": 184819,
+  "ballots": 94774,
+  "source": "reused-registration",
+  "cite": "1916-11-07 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); roll had grown since the general close, so turnout slightly overstates",
+  "kind": "Municipal"
  },
  {
   "date": "1918-11-05",
@@ -136,12 +686,48 @@
   "kind": "General"
  },
  {
+  "date": "1921-03-08",
+  "turnoutPct": 35.3,
+  "registered": 210024,
+  "ballots": 74191,
+  "source": "reused-registration",
+  "cite": "1920-11-02 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); roll of the 1920-21 biennium at its Nov 1920 close; turnout approximate",
+  "kind": "Special"
+ },
+ {
   "date": "1922-11-07",
   "turnoutPct": 66.7,
   "registered": 201563,
   "ballots": 134503,
   "source": "archival",
   "kind": "General"
+ },
+ {
+  "date": "1922-11-21",
+  "turnoutPct": 40.4,
+  "registered": 201563,
+  "ballots": 81363,
+  "source": "reused-registration",
+  "cite": "1922-11-07 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); two weeks after the general on the same roll; near-exact",
+  "kind": "Special"
+ },
+ {
+  "date": "1923-11-06",
+  "turnoutPct": 63.5,
+  "registered": 201563,
+  "ballots": 127983,
+  "source": "reused-registration",
+  "cite": "1922-11-07 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); roll of the 1922-23 biennium at its Nov 1922 close; turnout approximate",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1924-10-07",
+  "turnoutPct": 32.8,
+  "registered": 219434,
+  "ballots": 71867,
+  "source": "reused-registration",
+  "cite": "1924-11-04 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); same-year roll still growing at the special's earlier close, so turnout is a floor",
+  "kind": "Special"
  },
  {
   "date": "1924-11-04",
@@ -152,12 +738,57 @@
   "kind": "General"
  },
  {
+  "date": "1925-11-03",
+  "turnoutPct": 56.9,
+  "registered": 219434,
+  "ballots": 124819,
+  "source": "reused-registration",
+  "cite": "1924-11-04 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); roll of the 1924-25 biennium at its Nov 1924 close; turnout approximate",
+  "kind": "Municipal"
+ },
+ {
   "date": "1926-11-02",
   "turnoutPct": 58.7,
   "registered": 222799,
   "ballots": 130835,
   "source": "archival",
   "kind": "General"
+ },
+ {
+  "date": "1927-06-14",
+  "turnoutPct": 31.7,
+  "registered": 222799,
+  "ballots": 70615,
+  "source": "reused-registration",
+  "cite": "1926-11-02 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); roll of the 1926-27 biennium; turnout approximate; ballots figure is the largest contest, a floor",
+  "kind": "Special"
+ },
+ {
+  "date": "1927-11-08",
+  "turnoutPct": 73.2,
+  "registered": 222799,
+  "ballots": 163187,
+  "source": "reused-registration",
+  "cite": "1926-11-02 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); roll of the 1926-27 biennium at its Nov 1926 close; turnout approximate",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1928-05-01",
+  "turnoutPct": 45.9,
+  "registered": 253053,
+  "ballots": 116237,
+  "source": "reused-registration",
+  "cite": "1928-11-06 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); same-year roll still growing at the special's close, so turnout is a floor",
+  "kind": "Special"
+ },
+ {
+  "date": "1928-08-28",
+  "turnoutPct": 20.0,
+  "registered": 253053,
+  "ballots": 50641,
+  "source": "reused-registration",
+  "cite": "1928-11-06 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); same-year roll still growing at the primary's close, so turnout is a floor; ballots figure is the Senate-field sum, a floor",
+  "kind": "Primary"
  },
  {
   "date": "1928-11-06",
@@ -168,12 +799,57 @@
   "kind": "General"
  },
  {
+  "date": "1929-11-05",
+  "turnoutPct": 38.1,
+  "registered": 253053,
+  "ballots": 96319,
+  "source": "reused-registration",
+  "cite": "1928-11-06 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); roll of the 1928-29 biennium at its Nov 1928 close; turnout approximate",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1930-08-26",
+  "turnoutPct": 60.9,
+  "registered": 228582,
+  "ballots": 139235,
+  "source": "reused-registration",
+  "cite": "1930-11-04 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); same-year roll still growing at the primary's close, so turnout is a floor",
+  "kind": "Primary"
+ },
+ {
   "date": "1930-11-04",
   "turnoutPct": 69.4,
   "registered": 228582,
   "ballots": 158629,
   "source": "archival",
   "kind": "General"
+ },
+ {
+  "date": "1931-02-06",
+  "turnoutPct": 37.1,
+  "registered": 228582,
+  "ballots": 84725,
+  "source": "reused-registration",
+  "cite": "1930-11-04 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); roll of the 1930-31 biennium (permanent registration only operative from Jan 1, 1932); turnout approximate",
+  "kind": "Special"
+ },
+ {
+  "date": "1931-03-26",
+  "turnoutPct": 45.8,
+  "registered": 228582,
+  "ballots": 104727,
+  "source": "reused-registration",
+  "cite": "1930-11-04 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); roll of the 1930-31 biennium; turnout approximate; ballots figure is the New Charter measure, a floor",
+  "kind": "Special"
+ },
+ {
+  "date": "1931-11-03",
+  "turnoutPct": 66.2,
+  "registered": 228582,
+  "ballots": 151351,
+  "source": "reused-registration",
+  "cite": "1930-11-04 general-election registration (SF DOE historical turnout table); biennial-roll era (Stats. 1899 / Pol. Code sec. 1094: complete new registration each even year; specials use the last-general roll plus supplement); roll of the 1930-31 biennium at its Nov 1930 close; turnout approximate",
+  "kind": "Municipal"
  },
  {
   "date": "1932-11-08",
@@ -184,12 +860,66 @@
   "kind": "General"
  },
  {
+  "date": "1933-04-11",
+  "turnoutPct": 36.3,
+  "registered": 273487,
+  "ballots": 99381,
+  "source": "reused-registration",
+  "cite": "1932-11-08 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); Jan 1933 non-voter purge shrank the roll below the Nov 1932 figure, so turnout is a floor",
+  "kind": "Special"
+ },
+ {
+  "date": "1933-06-27",
+  "turnoutPct": 54.9,
+  "registered": 273487,
+  "ballots": 150068,
+  "source": "reused-registration",
+  "cite": "1932-11-08 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); Jan 1933 purge shrank the roll below the Nov 1932 figure, so turnout is a floor",
+  "kind": "Special"
+ },
+ {
+  "date": "1933-11-07",
+  "turnoutPct": 59.1,
+  "registered": 273487,
+  "ballots": 161599,
+  "source": "reused-registration",
+  "cite": "1932-11-08 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); purged-then-rebuilt roll; turnout approximate",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1933-12-19",
+  "turnoutPct": 36.2,
+  "registered": 273487,
+  "ballots": 98955,
+  "source": "reused-registration",
+  "cite": "1932-11-08 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); purged-then-rebuilt roll; turnout approximate; ballots figure is the measure total, a floor",
+  "kind": "Special"
+ },
+ {
   "date": "1934-11-06",
   "turnoutPct": 57.2,
   "registered": 290683,
   "ballots": 166133,
   "source": "doe-turnout-table",
   "kind": "General"
+ },
+ {
+  "date": "1935-05-02",
+  "turnoutPct": 44.9,
+  "registered": 290683,
+  "ballots": 130526,
+  "source": "reused-registration",
+  "cite": "1934-11-06 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); Jan 1935 purge shrank the roll below the Nov 1934 figure, so turnout is a floor; ballots figure is the largest charter amendment, a floor",
+  "kind": "Special"
+ },
+ {
+  "date": "1935-11-05",
+  "turnoutPct": 63.8,
+  "registered": 290683,
+  "ballots": 185568,
+  "source": "reused-registration",
+  "cite": "1934-11-06 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); purged-then-rebuilt roll; turnout approximate",
+  "kind": "Municipal"
  },
  {
   "date": "1936-11-03",
@@ -200,12 +930,66 @@
   "kind": "General"
  },
  {
+  "date": "1937-03-09",
+  "turnoutPct": 47.8,
+  "registered": 314990,
+  "ballots": 150584,
+  "source": "reused-registration",
+  "cite": "1936-11-03 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); Jan 1937 purge shrank the roll below the Nov 1936 figure, so turnout is a floor",
+  "kind": "Special"
+ },
+ {
+  "date": "1937-11-02",
+  "turnoutPct": 54.5,
+  "registered": 314990,
+  "ballots": 171570,
+  "source": "reused-registration",
+  "cite": "1936-11-03 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); purged-then-rebuilt roll; turnout approximate; ballots figure is the largest contest (Prop 1), a floor",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1938-09-27",
+  "turnoutPct": 43.8,
+  "registered": 340739,
+  "ballots": 149266,
+  "source": "reused-registration",
+  "cite": "1938-11-08 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); same-year roll still growing at the special's close, so turnout is a floor",
+  "kind": "Special"
+ },
+ {
   "date": "1938-11-08",
   "turnoutPct": 75.6,
   "registered": 340739,
   "ballots": 257597,
   "source": "archival",
   "kind": "General"
+ },
+ {
+  "date": "1939-05-19",
+  "turnoutPct": 51.0,
+  "registered": 340739,
+  "ballots": 173881,
+  "source": "reused-registration",
+  "cite": "1938-11-08 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); Jan 1939 purge shrank the roll below the Nov 1938 figure, so turnout is a floor",
+  "kind": "Special"
+ },
+ {
+  "date": "1939-11-07",
+  "turnoutPct": 83.9,
+  "registered": 340739,
+  "ballots": 285745,
+  "source": "reused-registration",
+  "cite": "1938-11-08 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); purged-then-rebuilt roll; turnout approximate",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1940-05-07",
+  "turnoutPct": 40.5,
+  "registered": 383845,
+  "ballots": 155367,
+  "source": "reused-registration",
+  "cite": "1940-11-05 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); same-year roll still growing at the primary's close, so turnout is a floor; ballots figure is the two-party ballots sum, a floor",
+  "kind": "Primary"
  },
  {
   "date": "1940-11-05",
@@ -216,6 +1000,24 @@
   "kind": "General"
  },
  {
+  "date": "1941-11-04",
+  "turnoutPct": 54.8,
+  "registered": 383845,
+  "ballots": 210351,
+  "source": "reused-registration",
+  "cite": "1940-11-05 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); purged-then-rebuilt roll; turnout approximate",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1942-06-09",
+  "turnoutPct": 37.9,
+  "registered": 367352,
+  "ballots": 139184,
+  "source": "reused-registration",
+  "cite": "1942-11-03 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); same-year roll still growing at the special's close, so turnout is a floor",
+  "kind": "Special"
+ },
+ {
   "date": "1942-11-03",
   "turnoutPct": 62.6,
   "registered": 367352,
@@ -224,12 +1026,48 @@
   "kind": "General"
  },
  {
+  "date": "1943-04-20",
+  "turnoutPct": 38.3,
+  "registered": 367352,
+  "ballots": 140840,
+  "source": "reused-registration",
+  "cite": "1942-11-03 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); Jan 1943 purge shrank the roll below the Nov 1942 figure, so turnout is a floor; ballots figure is the Market St Railway bond total, a floor",
+  "kind": "Special"
+ },
+ {
+  "date": "1943-11-02",
+  "turnoutPct": 59.3,
+  "registered": 367352,
+  "ballots": 217783,
+  "source": "reused-registration",
+  "cite": "1942-11-03 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); purged-then-rebuilt roll; turnout approximate; ballots figure is the Mayor contest total, a floor",
+  "kind": "Municipal"
+ },
+ {
+  "date": "1944-05-16",
+  "turnoutPct": 46.4,
+  "registered": 405921,
+  "ballots": 188188,
+  "source": "reused-registration",
+  "cite": "1944-11-07 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); same-year roll still growing at the primary's close, so turnout is a floor; ballots figure is the Market St purchase proposition sum, a floor",
+  "kind": "Primary"
+ },
+ {
   "date": "1944-11-07",
   "turnoutPct": 86.8,
   "registered": 405921,
   "ballots": 352409,
   "source": "doe-turnout-table",
   "kind": "General"
+ },
+ {
+  "date": "1945-11-06",
+  "turnoutPct": 43.2,
+  "registered": 405921,
+  "ballots": 175485,
+  "source": "reused-registration",
+  "cite": "1944-11-07 general-election registration (SF DOE historical turnout table); permanent-registration era (Prop 14, Nov 1930; new roll from Jan 1, 1932; non-voter purge each Jan of odd years); purged-then-rebuilt roll; turnout approximate",
+  "kind": "Municipal"
  },
  {
   "date": "1946-11-05",
@@ -326,6 +1164,14 @@
   "ballots": 307012,
   "source": "archival",
   "kind": "General"
+ },
+ {
+  "date": "1969-11-04",
+  "turnoutPct": 61.5,
+  "registered": 324138,
+  "ballots": 199200,
+  "source": "archival",
+  "kind": "Municipal"
  },
  {
   "date": "1970-06-02",

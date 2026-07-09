@@ -127,7 +127,7 @@ export default function TurnoutChart({
     <ChartFrame
       title="Turnout of registered voters"
       subtitle="Ballots cast ÷ registered, by election type, 1879–2026"
-      note="Color = election type; generals split into presidential years (General, ~80–90%) and the even off-years (Midterm, ~60–70%) — lumped together they zigzag between the two cadences. Lines break across multi-decade gaps; the Midterm line breaks over the missing 1958–1962 turnout. Use the filter to add or remove types. Sources: SF Municipal Reports Registrar table (1879–1890); DOE turnout table; certified per-release finals."
+      note="Color = election type; generals split into presidential years (General, ~80–90%) and the even off-years (Midterm, ~60–70%) — lumped together they zigzag between the two cadences. Lines break across multi-decade gaps; the Midterm line breaks over the missing 1958–1962 turnout. Use the filter to add or remove types. Sources: SF Municipal Reports Registrar tables (1879–1916); DOE turnout table; for 1917–1945 specials and municipals the nearest general's registration, reused per era registration law (approximate); certified per-release finals."
     >
       <ResponsiveContainer width="100%" height={400}>
         <ComposedChart margin={{ top: 24, right: 20, bottom: 8, left: 0 }}>

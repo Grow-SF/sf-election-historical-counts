@@ -27,11 +27,22 @@ const span = (rows, year) => {
 };
 const TURNOUT_RANGE = span(dataFile("turnout_history.json"), (r) => +r.date.slice(0, 4));
 const FUNNEL_RANGE = span(dataFile("franchise_funnel.json"), (r) => r.year);
+// night-share: fit to elections that actually have a night observation, so the
+// README image shows the full 1868+ record the prose describes (the app's
+// interactive default starts at 1902)
+const NIGHT_RANGE = span(
+  dataFile("elections.json").filter((e) => e.nightPct != null),
+  (e) => e.year,
+);
 
 // output file -> { title: substring of the chart's <h3> to locate its <figure>,
 //                  range: optional [from, to] applied via the site's URL state }
 const TARGETS = {
-  "docs/img/night-share.png": { title: "How much of the vote was counted" },
+  // The default kind filter EXCLUDES Special and Recall elections by design
+  // (operator ruling, 2026-07-07): they are off-calendar and unusual by
+  // definition, so they stay out of the README trend chart even when their
+  // night counts are recovered. Do not add a kinds= override here.
+  "docs/img/night-share.png": { title: "How much of the vote was counted", range: NIGHT_RANGE },
   "docs/img/turnout.png": { title: "Turnout of registered voters", range: TURNOUT_RANGE },
   "docs/img/vote-by-mail.png": { title: "Vote-by-mail share of ballots cast" },
   "docs/img/franchise-funnel.png": { title: "Who could vote", range: FUNNEL_RANGE },
@@ -49,10 +60,11 @@ const TARGETS = {
   // group targets by URL (the year range is shared page state, so each
   // distinct range needs its own page load)
   const byUrl = new Map();
-  for (const [file, { title, range }] of Object.entries(TARGETS)) {
-    const url = range
+  for (const [file, { title, range, query }] of Object.entries(TARGETS)) {
+    let url = range
       ? `${URL}${URL.includes("?") ? "&" : "?"}from=${range[0]}&to=${range[1]}`
       : URL;
+    if (query) url += `${url.includes("?") ? "&" : "?"}${query}`;
     if (!byUrl.has(url)) byUrl.set(url, []);
     byUrl.get(url).push([file, title]);
   }

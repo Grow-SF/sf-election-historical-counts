@@ -19,7 +19,10 @@ details are at the [bottom](#reproducing--provenance); they aren't needed to
 | `sf_archival_canvass_points.csv` | recovered election-night / mid-canvass counts | 1868–2014 | per observation |
 | `sf_night_floor_1964_2026.csv` | share counted by election night (lower bound) | 1964–2026 | per election |
 | `elections_master.csv` | master list of every SF election + whether a night count is recovered | 1849–2026 | per election |
-| `sf_turnout_pre1899.csv` | pre-1899 certified turnout (registrar table) | 1879–1890 | per election |
+| `sf_turnout_pre1899.csv` | pre-1899 certified turnout (registrar table) | 1878–1898 | per election |
+| `sf_turnout_1891_1907.csv` | official registration + ballots (Municipal Reports, cross-printing arbitrated) | 1891–1907 | per election |
+| `sf_turnout_registrar_1899_1916.csv` | the Registrar's cumulative election table (official registration + votes, specials and primaries included) | 1899–1916 | per election |
+| `sf_turnout_reused_registration_1917_1945.csv` | denominators reused from the nearest general per era registration law | 1917–1945 | per election |
 | `sf_days_to_90.csv` | how long until 90% of the vote was counted | 2015–2026 | per election |
 | `sf_canvass_minutes_statements.csv` | registrar "ballots remaining" statements | 2002+ | per statement |
 | `sf_turnout_history_doe_1899_2019.csv` | registration, ballots cast, turnout % | 1899–2019 | per election |
@@ -152,6 +155,48 @@ registration/ballots/turnout series. **Coverage:** 1899–2019, per election.
 | `pct_turnout` | turnout as printed (e.g. `31.57%`) |
 | `precinct` | in-person ballots (`n/a` where not split) |
 | `mail` | vote-by-mail/absentee ballots (`n/a` where not split) |
+
+### `sf_turnout_registrar_1899_1916.csv`
+**What:** the Registrar of Voters' own cumulative election table ("Registration and
+votes cast at each Election since the Act of March 18, 1878"), transcribed from page
+images of the SF Municipal Reports (FY1912-13 pp.260-262, FY1915-16 pp.327-332,
+FY1916-17 canvass). Official per-election registration and total vote polled for
+every SF election 1899–1916, specials and primaries included; it also defined 25
+elections absent from every other index. Overrides the DOE table for these dates in
+`scripts/build_viz_data.py` (the DOE table's 1908-11-03 row is mislabeled — see
+`docs/doe-data-discrepancies.md`). Dates already adjudicated in
+`sf_turnout_1891_1907.csv` are deliberately excluded. **Coverage:** 1899–1916,
+per election.
+
+| column | meaning |
+|---|---|
+| `election_date` | election day |
+| `precincts` | precincts as printed |
+| `registration` | registered voters at that election's 30-day close (blank where not printed) |
+| `ballots_cast` | total vote polled as printed |
+| `label` | the table's own election label |
+| `source` | volume/page/image citation + any adjudication note |
+
+### `sf_turnout_reused_registration_1917_1945.csv`
+**What:** registration denominators for 34 elections whose ballots-cast final we hold
+but whose own registration was never officially printed (the Municipal Reports series
+ends FY1916-17; the DOE table skips most specials and municipals). Each reuses the
+nearest general's registration under the era registration law — per-general rolls
+1878–1899, biennial 1900–1931, permanent-with-purges from 1932 (research:
+`docs/research/registration-law-history-1866-1945.md`) — with the era rule and bias
+direction stated per row. The ballots numerator is joined at build time from the
+canvass finals, never duplicated here. The May and August 1932 specials are
+deliberately absent (the old roll was canceled Jan 1, 1932; the permanent roll was
+still forming). **Coverage:** 1917–1945, per election.
+
+| column | meaning |
+|---|---|
+| `election_date` | election day |
+| `registration` | the reused registration figure |
+| `registration_basis` | which general it comes from |
+| `era_rule` | the registration-law regime that justifies the reuse |
+| `turnout_note` | bias direction (floor / approximate / near-exact) |
+| `ballots_note` | set when the joined final is itself a contest floor |
 
 ### `sf_turnout_history_1960_2002.csv`
 **What:** turnout with the absentee-vs-precinct breakdown. **Coverage:**

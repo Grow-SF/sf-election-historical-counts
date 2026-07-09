@@ -49,8 +49,114 @@ always-use-real-data rule).
 
 ## One operator errand closes the rest
 
-The SF History Center (Main Library, 6th floor) holds the city's own
-"Statement of Vote" volumes for Nov 7 1967, Nov 4 1969, and Nov 2 1971
-(finding aid: sfpl.org, "Statement of Vote 1906-1979"; in-library use).
-Certified totals from those volumes unlock the two held elections above
-and arbitrate the 1968-06 discrepancy.
+UPDATE 2026-07-07: 1967-11 and 1969-11 are RESOLVED without the library
+trip; the ProQuest Examiner printed both certified totals (see the search
+log). The 1971-11 rows in the held table above are likewise resolved (the
+canvass story supplied everything). The SF History Center's "Statement of
+Vote 1906-1979" volumes now serve one purpose: arbitrating the June 1968
+three-way discrepancy (SOV 254,825 vs Chronicle unofficial complete
+262,449). Also verify the 1967 certified read (Examiner docview
+2164093541, full-field Mayor sum 249,831) and the 1969 one (docview
+2196968259, total 199,200) if you're in ProQuest anyway.
+
+## Overnight additions (2026-07-07, the CDNC campaign)
+
+CDNC items are text-OCR reads; to hand-verify, open the cited section on
+cdnc.ucr.edu (issue code in the citation) and read the page image.
+
+| Election | Claimed value | What to check | Where | Priority |
+|---|---|---|---|---|
+| 1899-11-07 | RESOLVED (operator hand-read of the page image, 2026-07-07): Davis 14,690 and Phelan 19,907 (the OCR had garbled Davis entirely and dropped Phelan's final digit to 19,901). Full Mayor sum 35,055; night floor lifted from 20,248 (39.0) to 35,055 (67.5), the biggest single improvement of the campaign. Page image screenshot saved: mirror/cdnc/SFC18991108/shot_section_2.2.2_thecount.png (captured via the raw-CDP recipe with the tab briefly foregrounded; Veridian's canvas tiles do not paint in a background tab) | SFC18991108 p1 'THE COUNT.' | done |
+| 1906-11-06 | RESOLVED (operator hand-read, 2026-07-07): the body line also reads 38,802; the OCR's 38,302 was an artifact and no discrepancy exists. The consistent printed total 38,802 exceeds certified 38,564 by 238, so it remains logged-never-ingested per the above-certified rule and the Governor-sum night floor 37,287 (96.7) stands; the adjacent printed 'Total 51,633' matches certified registration exactly | SFC19061107 section 2.10.5 | done |
+| 1899-12-27 | RESOLVED (operator hand-read, 2026-07-07): the printed total is 29,958, agreeing with the component arithmetic (21,900 + 7,840 + 218); the OCR's 29,938 was the artifact. Row updated, night share 99.9 to 100.0 (14 below certified) | SFC18991228 section 2.5.2 | done |
+| 1896-11-03 | RESOLVED (operator hand-read of vol47_n320.jpg, 2026-07-07): the crisp printing reads 64,820, confirming the arbitration (the 61,820 variant was refuted by the SOV elector-sum proof). Operator also noted the vol47 cumulative Registrar table extends back to 1878, a possible denominator source for pre-1891 elections | mirror/muni_reports/vol47_n320.jpg | done |
+| 1888-11-06 | RESOLVED (operator hand-read, 2026-07-07): Curtis (American, running for President not Mayor) polled 14; the OCR had also misread Harrison (24,980, not 24,950). Presidential sum corrected to 52,960, and the operator's read of the Mayor column (Pond 20,211 + O'Donnell 15,219 + Story 18,671 = 54,101) supplied a larger same-day floor, so the day-3 row moves 52,916 to 54,101 (95.7 to 97.8) | DAC18881109 section 2.3 | done |
+| 1884-11-04 | RESOLVED (operator hand-read, 2026-07-07): the third column is headed 'Independent' and lists the eight-man Butler (Greenback/Anti-Monopoly) elector slate by name, Curry 528 down to Merwin 340; St. John's Prohibition slate is not in the table. Label fixed in the citation; the 40,200 sum is unchanged | DAC18841107 section 2.2.3 | done |
+| 1902-12-02 | printed 26,615 exceeds certified 26,612 by 3 | consistent with the 161 rejected ballots reclassified at canvass; For+Against 26,454 ingested | SFC19021203 section 2.128 | low |
+| 1905-11-07 | RESOLVED (operator judgment, 2026-07-07): the printed 'Total vote cast 71,033' is PROMOTED to the denominator over the Municipal Reports rounded fire-era estimate of 72,000 (the operator read the page image; the internal plurality cross-check is exact and 72,000 reads as a rounding of this count). Night share becomes 100.0 by identity; the turnout row now carries 71,033 with the promotion disclosed in both citations | report .superpowers/sdd/cdnc-1905-11-report.md; screenshot mirror/cdnc/SFC19051108/shot_section_2.2.3_schmitz_lead.png | done |
+| 1899-12-29 | SUPERSEDED: the CDNC table stayed unreadable but the election was recovered anyway via the ProQuest Examiner (Dec 30 1899 p1 'THE VOTE' table, docview 2132356675, night 22,322 of certified 22,331, ingested at 100.0); screenshots mirror/examiner/1899-12-30/docview_2132356675_p1_s*.png if a spot-check is ever wanted | SFC18991230 section 2.4.2 (dead end, documented) | done |
+
+## Resumable ProQuest queue (1999-11-02, blocked by the returning captcha)
+
+Six KWIC-located Examiner docviews await page-image reads once the robot
+wall cools (it now retriggers after a handful of loads even at 27-second
+pacing; consider resuming tomorrow, or reading these by hand in ProQuest):
+2206373293 (Nov 5 p22, an itemized status box, highest value), 2206796248
+(Nov 4 p16, count-completion estimate), 2206420897 and 2206420136 (Nov 3,
+registrar spokesperson on the write-in backlog), 2206377576 (Nov 5 p18,
+Friday updated numbers), 2206795946 (Nov 4 p30). The 2003-12-09 runoff
+was not searched at all before the block: virgin territory for the next
+run. Method notes in the session's examiner-1999-2003 report.
+
+## Judgment items from the alt-web hunt (2026-07-07)
+
+| Election | Item | Question | Where |
+|---|---|---|---|
+| 2011-11-08 | RESOLVED: the ratio derivation is refuted; the Examiner's day-2 full-field first-choice table (154,942, docview 2069597521) is below the ratio-implied night range, so the liveblog percentages were mis-based; the dim top-3 night floor stands | settled 2026-07-07 |
+| 2013-11-05 | RESOLVED: the Examiner's direct night count ('just more than 95,000 counted by 10:30 p.m.', docview 2069644090) confirms the SFist figure was the counted state and supersedes it; night point 73.7 ingested | settled 2026-07-07 |
+| 2000-12-12 | LAT-via-Usenet 8,000-remaining conversion (ingested, 93.8) | optional: confirm the sentence against the LA Times archive directly | groups.google.com/g/ba.politics/c/Y8S4VZY1-Ng |
+| 2000-12-12 | RESOLVED (operator hand-read, 2026-07-07): the operator opened docview 2206415258 (page A6 of the Dec 13 Examiner) and read the sentence in context: 'By 8:30 p.m., when election officials released the first absentee ballot results, it was clear that District 6 winner Chris Daly had trounced rival Chris Dittenhafer. With 38,445 ballots counted, Daly had won 76 percent to Dittenhafer's 23 percent.' The 38,445 is the citywide first absentee release (the 76/23 is the D6 split within it); a D6-only reading is also arithmetically impossible (nine runoff districts averaged about 14,400 certified ballots). The same page's 'Supervisors' runoff race: 86 percent reporting' sidebar independently confirms exactly nine districts ran runoffs (2 and 9 absent). Row stands as ingested (29.7, night_partial). Full-page screenshot saved: mirror/examiner/2000-12-12/dv2206415258_dec13_pA6_fullpage.png. Note for future capture agents: the docview's page image lazy-loads and the viewport can open mid-page; the earlier 'wrong page' scare was the bottom half of the same A6 | ProQuest docview 2206415258 |
+| 2003-12-09 | RESOLVED both ways (operator, 2026-07-07). (a) The 246,667 night reading is REFUTED by official Statement of Vote arithmetic the operator supplied: 91,119 total absentee ballots and 253,872 total cast mean e-day was about 162,700, so a night-of 246,667 would require roughly 84,000 of the 91,119 absentees counted by Tuesday night, inconsistent with the night state the same paper printed the next morning (mayor-race sum 225,681) and with the days of counting that followed (234,627 Wednesday afternoon, 247,890 Friday); the day-3 stamp on that row stands. (b) The TRUE night point was hiding in plain sight: the operator located the Examiner's Dec 10 morning front page (docview 2206456902), whose results boxes print Newsom 118,651 / Gonzalez 107,030 (sum 225,681), identical to the AP 'with all precincts reporting' figures we had conservatively stamped Dec-11 08:00. The DailyKos-documented DOE liveblog (562/562 precincts by about 2:48am PT) dates the all-precincts state to about 03:00, inside the E+1 06:00 night window regardless of the paper's press schedule, so the AP row is re-stamped to 2003-12-10T03:00 and 2003-12-09 becomes a night count: 88.9 percent, night_partial (contest-sum floor). Screenshots mirror/examiner/2003-12/dv2206456902_dec10_s*.png and dv2206312937_dec12_p11_s*.png | ProQuest docviews 2206456902, 2206312937 |
+
+## Resumable ProQuest queue #2: EXECUTED (2026-07-07, fast attended pass)
+
+All five elections in this queue were swept the same day (see the
+examiner-runoffs session report, 'fast attended pass'): 2003-12-09
+ingested (day-1 race total 234,627 and the day-3 editorial 246,667, with
+its night reading in the judgment table above); 2002-12-10 ingested
+(night-partial 15,022 from the results-board photograph plus day-1
+33,308); 2014-06-03 ingested (night 90,262 plus day-6 106,171);
+2001-12-11 dry beyond the existing 70,244 floor (a near-ceiling
+percentage derivation was logged, not ingested); 2009-05-19 dry (wire
+coverage only). Do not re-run these searches; the exact queries and
+their outcomes are in the session report.
+
+## Backward-walk batch, 2026-07-08 (agent finds + 1945): OPEN
+
+Operator verification requested before ingestion. Live viewer links in the
+agent salvage files under the session scratchpad (agents/cdnc_*.md).
+
+1. **1945-11-06 night box digits** (NewsBank, SF Chronicle 1945-11-07 p1
+   'Election Returns'): claimed Airport Bonds YES 1,362 + NO 355 at '12
+   widely scattered precincts out of 1194'. Read the four digits; then the
+   Nov 8-10 papers owe us the complete count (this election has NO
+   denominator on file at all).
+2. **1908-1909 CDNC finds** (agent report, salvage cdnc_1908_1909.md):
+   1908-05-11 night 23,550 total; 1908-11-12 night 41,011 (one garbled
+   digit in Prop 3 No); 1909-12-30 night 43,081 (arithmetic-locked);
+   1909-11-02 day-1 64,931 (McCarthy digit to hand-read); 1909-06-22
+   approximation ~22,000/24,028 derived. PLUS a new election discovered:
+   1909-06-24 Geary bonds (22,258 cast; against 7,805 vs 7,855 OCR
+   conflict, hand-read shot_geary_2.15.png).
+3. **1911-1922 CDNC finds** (salvage cdnc_1911_1922.md): 1921-03-08 night
+   74,079 at 419/419 by 9:30pm (arithmetic-locked); 1912-03-28 night
+   45,133/4,035 with day-2 total-cast 49,917; 1913-04-22 night with
+   in-paper discrepancy 62,934 headline vs 62,691 figures box (recommend
+   62,691); 1911-11-07 night partial 20,633 at 140/356; 1915-03-16 day+1
+   51,030 (no night exists); 1922-11-21 day+1/day+2 (timing unproven).
+   PLUS a second new election discovered: 1912-03-29 (invalidated
+   initiative ordinances; 31,968 cast per the Mar 30 Call).
+4. **1867-1877 CDNC finds** (salvage cdnc_1867_1877.md): complete
+   overnight counts 1872-11 (22,974, passes the certified band), 1871-10
+   (16,133, 'At three o'clock this morning the returns of all the Wards
+   were completed'; Fitzgerald digit to hand-read), 1875-10 (16,635),
+   1867-10 (13,971 recap, conflicting 14,071 editorial); trajectories
+   1877-09 (night Mayor sum ~2,076 at 2:45am, day-3 headline 'THE LONG
+   COUNT'), 1873-09 (fragments only by 2am), 1869-09 (miscalled winner,
+   digits OCR-poor, hand-reads flagged), 1871-09 (day-after dry; day-2
+   issue missing from CDNC).
+5. **Denominator gap**: most of the special-election finds above lack
+   certified totals (DOE table is thin before 1899 and skips specials);
+   the Municipal Reports registrar tables are the likely source, as in
+   the vol47 recovery.
+6. **1859-1865 CDNC finds** (salvage cdnc_1859_1865.md): all ten
+   elections recovered. Highlights: 1864-11 night-era total 21,024
+   (margin-locked); 1860-11 TRUE MIDNIGHT STATE, 9,224 of 14,415 counted
+   (64.0 percent, both checks exact); 1861-09 2:30am count 15,053 vs
+   complete 15,154-sum (99.3 percent overnight); 1859/1861-05/1863 x2/
+   1865 x2 with flagged digits for hand-read (list in the salvage file).
+   PLUS a date correction: the 1865 general was Sept 6, not Sept 5
+   (master index fix needed). Bonus denominators: May 1864 ~13,885, May
+   1865 = 14,196, and 1856-1865 citywide vote-by-year tables printed in
+   the Sept 1863 and Sept 1865 Alta issues (could fill several pre-1867
+   'no data' rows).
