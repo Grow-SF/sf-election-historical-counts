@@ -182,7 +182,7 @@ def main() -> None:
     print(f"Wrote {sources_path} ({sources_path.stat().st_size:,} bytes)")
     print(f"Wrote {missing_path} ({missing_path.stat().st_size:,} bytes)")
 
-    # keep the DOE-facing consolidated export in lockstep with the datasets
+    # keep the consolidated one-file export in lockstep with the datasets
     import subprocess
     import sys
     subprocess.run([sys.executable, str(Path(__file__).parent / "build_consolidated_export.py")],

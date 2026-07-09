@@ -26,6 +26,12 @@ lever voting machines arrived (1928–1990s), and the modern mail-driven slide �
 see
 [`docs/analysis/2026-06-13-a-century-of-election-nights.md`](docs/analysis/2026-06-13-a-century-of-election-nights.md).
 
+**Just want the data? Start here:**
+[`data/exports/sf_elections_consolidated.csv`](data/exports/sf_elections_consolidated.csv)
+— every election since 1849 in one file: registration, total turnout, the
+election-night count, the e-day/VBM split, a source citation for every value,
+and structured class columns saying exactly what each number is.
+
 ---
 
 ## The story, in four charts
@@ -70,6 +76,44 @@ against the running preview harness.)*
 
 ---
 
+## Help us recover the missing elections
+
+**9 San Francisco elections still lack an election-night count — and every one is a
+documented dead end** (see [`data/elections_master.csv`](data/elections_master.csv),
+the `recovered=final-only` rows, and [`docs/missing.md`](docs/missing.md)). The July 2026
+recovery waves hunted every reachable target: of 313 elections since 1849, 304 now have
+a night count, and the 9 that don't each carry a verbatim-quoted reason (below). If you
+can beat one of our dead ends — a paper we haven't checked, a family scrapbook, a
+county record — we want to hear from you.
+
+**How to look:**
+
+1. Get a free **San Francisco Public Library card** — SF residents can sign up
+   online at [sfpl.org](https://sfpl.org). (Anyone in California can get one.)
+2. Your card unlocks the **San Francisco Chronicle archive on NewsBank** (it goes
+   back to 1865), through SFPL's online databases — use the *Access World News /
+   image edition*.
+3. Pick a missing election and note its **date** from `elections_master.csv`.
+4. Open the **day-after issue** and find the San Francisco returns. For elections
+   before ~1985 use the **image edition** and page through the front pages: look for
+   a box headed **"ELECTION RETURNS," "VOTE OF THE CITY,"** or **"THE CITY"** with a
+   per-candidate San Francisco table. Helpful search terms: the office + candidate
+   surnames, `"vote of the city"`, `"election returns"`.
+5. **Check the masthead date** matches the election's day-after — NewsBank's issue
+   labels are sometimes off by a day.
+6. Take a clear **photo or screenshot** of the returns box.
+
+**How to contribute what you find:**
+
+- **Open a pull request** adding your source (a citation plus the figures) to the
+  relevant file in `data/`, **or**
+- **Email [contact@growsf.org](mailto:contact@growsf.org)** with the photo/scan, the
+  election date, which contest, and where you found it.
+
+Every submission is verified against certified totals and credited in
+[`docs/sources.md`](docs/sources.md). Before you dig,
+[`docs/missing.md`](docs/missing.md) notes what's already been tried for each.
+
 ## Repository map
 
 | Path | What it is |
@@ -83,9 +127,11 @@ against the running preview harness.)*
 
 ## Key datasets (`data/`)
 
+- `exports/sf_elections_consolidated.csv` — **the one-file rollup** (every
+  election, every headline number, per-value sources); most readers want this.
 - `sf_count_timeline.csv` — modern per-release counts (the `sfcount` output).
 - `sf_archival_canvass_points.csv` — recovered historical observations
-  (1868–2014); schema and method in the runbook.
+  (1851–2014); schema and method in the runbook.
 - `sf_turnout_history_doe_1899_2019.csv` — DOE certified turnout (the
   denominators). Known data-quality issues tracked in
   `docs/denominator-errors.md`.
@@ -167,44 +213,6 @@ Set `SF_MIRROR_DIR` to point them at a mirror kept elsewhere:
 it pulls CA SoS registration PDFs into `data/` and needs `pdftotext`;
 `scripts/recover_sov_registration.py` needs ImageMagick; the NewsBank triage
 uses `tesseract`. None of these binaries are in pyproject; install via brew.)
-
-## Help us recover the missing elections
-
-**9 San Francisco elections still lack an election-night count — and every one is a
-documented dead end** (see [`data/elections_master.csv`](data/elections_master.csv),
-the `recovered=final-only` rows, and [`docs/missing.md`](docs/missing.md)). The July 2026
-recovery waves hunted every reachable target: of 313 elections since 1849, 304 now have
-a night count, and the 9 that don't each carry a verbatim-quoted reason (below). If you
-can beat one of our dead ends — a paper we haven't checked, a family scrapbook, a
-county record — we want to hear from you.
-
-**How to look:**
-
-1. Get a free **San Francisco Public Library card** — SF residents can sign up
-   online at [sfpl.org](https://sfpl.org). (Anyone in California can get one.)
-2. Your card unlocks the **San Francisco Chronicle archive on NewsBank** (it goes
-   back to 1865), through SFPL's online databases — use the *Access World News /
-   image edition*.
-3. Pick a missing election and note its **date** from `elections_master.csv`.
-4. Open the **day-after issue** and find the San Francisco returns. For elections
-   before ~1985 use the **image edition** and page through the front pages: look for
-   a box headed **"ELECTION RETURNS," "VOTE OF THE CITY,"** or **"THE CITY"** with a
-   per-candidate San Francisco table. Helpful search terms: the office + candidate
-   surnames, `"vote of the city"`, `"election returns"`.
-5. **Check the masthead date** matches the election's day-after — NewsBank's issue
-   labels are sometimes off by a day.
-6. Take a clear **photo or screenshot** of the returns box.
-
-**How to contribute what you find:**
-
-- **Open a pull request** adding your source (a citation plus the figures) to the
-  relevant file in `data/`, **or**
-- **Email [contact@growsf.org](mailto:contact@growsf.org)** with the photo/scan, the
-  election date, which contest, and where you found it.
-
-Every submission is verified against certified totals and credited in
-[`docs/sources.md`](docs/sources.md). Before you dig,
-[`docs/missing.md`](docs/missing.md) notes what's already been tried for each.
 
 ## Open work & roadmap
 

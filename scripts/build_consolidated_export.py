@@ -3,7 +3,7 @@
 (1849-present) with registration, total turnout, election-night count, and the
 election-day / vote-by-mail split, each value paired with its source citation.
 
-Built to share with the SF Department of Elections. Every value is drawn from
+The one-file rollup most readers want. Every value is drawn from
 the repo's arbitrated datasets (never recomputed here); source strings are the
 per-row citations, compacted to their leading clause — the full verbatim
 citations live in the underlying data/*.csv files and docs/sources.md.
