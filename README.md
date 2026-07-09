@@ -304,8 +304,13 @@ city gaps — has been recovered; the era-by-era outcomes live in the search log
       other in-progress edits to that file.)*
 
 **Next dataset**
-- [ ] **Day-by-day counts to certification** ("how long until certified") — needs
-      the DOE's certified per-election datasets; records request pending.
+- [ ] **Day-by-day counts to certification** ("how long until certified") — the
+      records request came back empty: the DOE does not have this data
+      (see [`docs/doe-records-request.md`](docs/doe-records-request.md), outcome
+      2026-07-09). The path is the newspapers: daily canvass updates in the
+      Chronicle (and Wayback captures for the web era), the same vein that
+      produced the existing mid-canvass observations — one archive sweep per
+      election.
 
 **Publish**
 - [x] Sync the viz datasets + prose/subtitles into the Grow-SF web embed
