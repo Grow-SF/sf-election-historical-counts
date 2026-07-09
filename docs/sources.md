@@ -5798,7 +5798,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1884-03-18 | 0 |  | 5,070 | 101.7% | Daily Alta California 1884-03-19 (DAC18840319.2.58/.2.58.1, found via date-scoped search, TOC empty): COMPLETE 41-precinct count by ~10 PM, Wallace 2,668 + Hawes 2,342 + Ellis 60 = 5,070 exact; exceeds the certified canvass total by 86 -> disclosed 101.7% (press-compilation pattern); see docs/research/night-recovery-2026-07-09/wave3_gilded_1880_1897.md and docs/research/night-recovery-2026-07-09/assembly_1884_row_trace.md |
+| 1884-03-18 | 0 |  | 4,968 | 99.7% | Daily Alta California 1884-03-19 (DAC18840319.2.58/.2.58.1, found via date-scoped search, TOC empty): COMPLETE count by ~10 PM of the district's full 41-precinct geography (W11 pcts 6-33 + W12 pcts 12-24, exactly the precincts the certified canvass names); OPERATOR-TRANSCRIBED IN FULL 2026-07-09: cells sum Wallace 2,667 + Hawes 2,241 + Ellis 60 = 4,968; the printed totals row (2,668 / 2,342 / 60 / 5,070, operator-verified on the scan) is internally consistent but mis-foots the Hawes column by +101 against its own cells - an 1867-Currey-class printed footing error, so the computed 4,968 is claimed (the earlier 5,070 reading and its 101.7% disclosure are RETIRED); seven rows crossfoot off by 1-2 (net +6, likely blank Ellis cells or scattering folded into printed totals, disclosed); see docs/research/night-recovery-2026-07-09/wave3_gilded_1880_1897.md and docs/research/night-recovery-2026-07-09/assembly_1884_row_trace.md |
 
 ---
 

@@ -3214,13 +3214,13 @@
   "source": "archival",
   "provisional": false,
   "nReports": 1,
-  "nightPct": 101.7,
+  "nightPct": 99.7,
   "nightPartial": false,
   "vbmShare": null,
   "pts": [
    [
     0.08,
-    101.7,
+    99.7,
     null,
     null
    ]

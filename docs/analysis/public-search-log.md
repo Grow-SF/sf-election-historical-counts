@@ -1231,3 +1231,16 @@ count of any kind, all 18 pages verified - only the registrar's 3 PM
 turnout prediction). Full agent salvage packet with every verbatim
 quote, locating query, and the operator review queue preserved at
 docs/research/night-recovery-2026-07-09/.
+**Update (2026-07-09, the 1884 'overshoot' dissolves under the
+operator's full transcription).** The operator transcribed the
+entire 41-precinct Alta table for the 1884-03-18 Assembly special
+(which the certified canvass confirms is the district's complete
+geography, 11th Ward precincts 6-33 plus 12th Ward 12-24): cells
+sum Wallace 2,667 + Hawes 2,241 + Ellis 60 = 4,968. The printed
+totals row (2,668 / 2,342 / 60 / 5,070, glyphs operator-verified on
+the scan) is internally consistent but mis-foots the Hawes column
+by +101 against its own cells - the same class of printed footing
+error as 1867's Currey column. The night claim moves from 5,070
+(101.7 percent) to the computed 4,968 = 99.7 percent of the
+certified 4,984, and the overnight-compilations-run-hot pattern
+drops to three members (1877 +390, 1879 +550, 1890 +819).
