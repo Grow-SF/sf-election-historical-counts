@@ -20,7 +20,8 @@ vote-by-mail split,
 each value paired with a compacted source citation (full verbatim citations
 live in the underlying files and `docs/sources.md` — join on the
 `sources_record_id` column). Structured class columns say exactly what each
-number is: `night_count_class` (as-printed vs lower-bound floor),
+number is: `night_count_class` (the actual count as reported, vs a lower
+bound where only one contest's sum could be extracted),
 `total_turnout_class` (certified/official vs news-derived vs single-contest
 floor), `registration_basis` (as-recorded vs reused-approximate); the nine
 elections with no night count carry their documented dead-end reason in the

@@ -222,8 +222,10 @@ def main():
             nt = nt_s = nt_at = nt_class = nt_pct = ""
             if d in night:
                 nt, nt_s, nt_at = night[d]
-                nt_class = ("lower bound (partial or contest-sum floor)"
-                            if d in night_partial else "as printed")
+                nt_class = ("lower bound (only part of the count could be "
+                            "extracted; the true night count is higher)"
+                            if d in night_partial
+                            else "actual count as reported by the source")
                 if tot:
                     nt_pct = round(100 * nt / int(tot), 1)
             elif d in DEAD_ENDS:
