@@ -59,6 +59,19 @@
       "note": "PLATEAU = 22,366, the FINAL election-night cumulative. YubaNet's 'Many Nevada County races too close to call' (Nov 5 2014) republished the county's official final election-night report: 'The final election night tally of votes comes in at 22,366 of 61,706 - a rather low voter turnout of 36.25%' (61,706 = registered voters; our denominator is certified ballots cast). Page header 'Below is the final election night report for all contests in Nevada County.' The count held until the multi-day canvass ('YubaNet estimates a minimum of 15-20,000 ballots remain to be tallied'). Certified final = 'Total Voters' 39,629 (Precinct 9,383 + VBM 30,246), CA SoS SoV (real URL has SoS typo 'particpiation'). Pre-e-pollbook, pre-ASV. Snapshot used: Wayback capture 20141108075409 (Nov 8 2014 07:54 UTC). CORRECTION (2026-07-10, Nevada tech adjudication, scratchpad/nevada-tech-adjudication.md): vs_epollbook pre -> post. Nevada County's traditional precinct e-pollbooks were fully deployed countywide by this Nov 2014 General (Clerk-Recorder Diaz's Feb 2015 statement that EPBs replaced paper rosters in ALL polling places during the 2014 cycle, preceded by a June 2014 pilot); the epollbook adoption year is re-keyed 2018 -> 2014, making this the first post-EPB general. vs_asv stays pre (ASV first-adopted 2016). The separate VCA vote-center transition (2018) is tracked apart so it does not double-count here."
     },
     {
+      "date": "2016-06-07",
+      "type": "presidential-primary",
+      "election_night_ballots": 27852,
+      "certified_final": 45167,
+      "election_night_pct": 61.66,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20160614032019/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('FENU'-coded row), Nevada County: 100.0% precincts reporting, Ballots Cast 27,852, Last Report stamp 'Jun 8 12:08 a.m.' (First Report 'Jun 7 9:38 p.m.') at Wayback capture 20160614032019 (2016-06-14 03:20:19 UTC). SINGLE CAPTURE at 2016-06-14 03:20:19 UTC carries this value. The next available capture (2016-06-17 06:35:08 UTC) jumps to 37,816 (Last Report 'Jun 14 12:34 p.m.'), confirming 27,852 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 45,167 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf). Arithmetic: 27,852/45,167 = 61.66%. vs_epollbook=post, vs_asv=post (per county_tech/adoption record: epollbook 2014, asv 2016). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2016-06-07 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
       "date": "2016-11-08",
       "type": "presidential-general",
       "election_night_ballots": 34728,

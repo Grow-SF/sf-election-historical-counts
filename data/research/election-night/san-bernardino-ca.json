@@ -32,15 +32,15 @@
     {
       "date": "2016-11-08",
       "type": "presidential-general",
-      "election_night_ballots": null,
+      "election_night_ballots": 443517,
       "certified_final": 672871,
-      "election_night_pct": null,
+      "election_night_pct": 65.91,
       "vs_epollbook": "pre",
       "vs_asv": "pre",
       "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
-      "source_url_night": null,
-      "confidence": "none",
-      "note": "Certified final 672,871 ballots cast (CA SoS; polls 287,315 + VBM 385,556; 75.77% of 888,019 registered). Pre-adoption, precinct-based. Election-night PLATEAU not sourceable: San Bernardino's live iframe results page for 2016 (www.sbcounty.gov/rov/elections/Results/20161108/) was archived only as the frameset default.html (Fri Nov 11 19:27 PST) plus a POST-CANVASS capture of the inner content/results.aspx on Fri Nov 18, 2016 (10 days after Election Day) -- the iframe data pages were never crawled at an election-night timestamp (the 8:05pm/10pm/etc. live postings overwrote in place and were not separately archived). No clean end-of-night county ballot total found in news. Null per definition. snapshot 20161118181952 (post-canvass, not usable). [2026-06 re-check per updated methodology: no pre-2019 downloadable election-night report PDF/XLSX exists, and San Bernardino ROV issues no morning-after 'semi-final results' ballot-count press release (full news archive 2011-2026 = public notices/certifications only); re-CDX of content/results.aspx confirms the earliest capture is Fri Nov 18 (post-canvass), no Election-Night capture. Remains null.]"
+      "source_url_night": "https://web.archive.org/web/20161110185817/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('SF'-coded row), San Bernardino County: 100.0% precincts reporting, Ballots Cast 443,517, Last Report stamp 'Nov 9 4:56 a.m.' (First Report 'Nov 8 8:22 p.m.') at Wayback capture 20161110185817 (2016-11-10 18:58:17 UTC). SINGLE CAPTURE at 2016-11-10 18:58:17 UTC carries this value. The next available capture (2016-11-14 19:00:27 UTC) jumps to 515,334 (Last Report 'Nov 11 4:29 p.m.'), confirming 443,517 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 672,871 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 443,517/672,871 = 65.91%. vs_epollbook=pre, vs_asv=pre (per county_tech/adoption record: epollbook 2020, asv 2025). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2016-11-08 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
     },
     {
       "date": "2018-11-06",

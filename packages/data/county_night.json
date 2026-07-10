@@ -182,12 +182,12 @@
         {
           "year": 2016,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 72.67,
+          "ballots": 4952,
           "final": 6814,
-          "confidence": "none",
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20161110185817/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2018,
@@ -460,6 +460,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 54.15,
+          "ballots": 9049,
+          "final": 16712,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20160614032019/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": 53.75,
           "ballots": 13484,
@@ -467,6 +477,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20161112110847/http://publicapps.lakecountyca.gov:80/elections/results/result30.htm"
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 57.78,
+          "ballots": 8158,
+          "final": 14119,
+          "confidence": "secondary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20180619011846/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2018,
@@ -646,6 +666,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 80.0,
+          "ballots": 21553,
+          "final": 26941,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20160614032019/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": 80.0,
           "ballots": 35364,
@@ -653,6 +683,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20161112115134/http://votemadera.com/results/Election33/HTML/resultsc33.htm"
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 75.41,
+          "ballots": 18258,
+          "final": 24211,
+          "confidence": "secondary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20180619011846/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2018,
@@ -739,6 +779,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 40.35,
+          "ballots": 11320,
+          "final": 28056,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20160614032019/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": 31.07,
           "ballots": 12032,
@@ -746,6 +796,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20161113022000/http://www.co.mendocino.ca.us/acr/current.htm"
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 83.2,
+          "ballots": 19049,
+          "final": 22896,
+          "confidence": "secondary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20180619011846/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2018,
@@ -829,6 +889,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2016,
+          "type": "presidential-primary",
+          "pct": 47.01,
+          "ballots": 20427,
+          "final": 43450,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20160614032019/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2016,
@@ -922,6 +992,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20141108075409/http://yubanet.com:80/regional/Many-Nevada-County-races-too-close-to-call.php"
+        },
+        {
+          "year": 2016,
+          "type": "presidential-primary",
+          "pct": 61.66,
+          "ballots": 27852,
+          "final": 45167,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20160614032019/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2016,
@@ -1091,6 +1171,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 61.91,
+          "ballots": 71358,
+          "final": 115266,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20160614032019/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": 57.55,
           "ballots": 109666,
@@ -1195,12 +1285,12 @@
         {
           "year": 2016,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 62.57,
+          "ballots": 481315,
           "final": 769193,
-          "confidence": "none",
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20161110185817/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2018,
@@ -1268,7 +1358,7 @@
       "name": "Sacramento",
       "slug": "sacramento-ca",
       "control": false,
-      "complete": false,
+      "complete": true,
       "adoption": {
         "epollbook": 2018,
         "asv": null,
@@ -1308,12 +1398,12 @@
         {
           "year": 2016,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 57.1,
+          "ballots": 328744,
           "final": 575711,
-          "confidence": "none",
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20161110185817/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2018,
@@ -1381,12 +1471,12 @@
         {
           "year": 2016,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 65.91,
+          "ballots": 443517,
           "final": 672871,
-          "confidence": "none",
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20161110185817/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2018,

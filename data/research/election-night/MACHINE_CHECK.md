@@ -13,6 +13,7 @@ verify_en_* scripts to regenerate).
 | colusa-ca | 2014-11-04 | denominator | 4,422 | VERIFIED | 18 12,296 7,595 1,762 2,660 4,422 60.15% 58.22% 35.96% |
 | colusa-ca | 2014-11-04 | numerator | 3,628 | VERIFIED | Colusa 18 18 100.0% 7,595 3,628 47.8% Nov 4 9:11 p.m. Nov 4 10:00 p.m. FENU |
 | colusa-ca | 2016-11-08 | denominator | 6,814 | VERIFIED | 18 12,496 8,638 2,607 4,207 6,814 61.74% 78.88% 54.53% |
+| colusa-ca | 2016-11-08 | numerator | 4,952 | VERIFIED | Colusa 18 18 100.0% 8,638 4,952 57.3% Nov 8 9:10 p.m. Nov 8 10:25 p.m. SF |
 | colusa-ca | 2018-11-06 | denominator | 5,815 | VERIFIED | 18 12,552 8,792 2,580 3,235 5,815 55.63% 66.14% 46.33% |
 | colusa-ca | 2022-11-08 | denominator | 5,617 | VERIFIED | 19 13,214 10,144 1,134 4,483 5,617 79.81% 55.37% 42.51% |
 | colusa-ca | 2024-11-05 | denominator | 7,122 | VERIFIED | 19 13,123 10,626 0** 7,122 7,122 100.00% 67.02% 54.27% |
@@ -54,8 +55,12 @@ verify_en_* scripts to regenerate).
 | lake-ca | 2014-06-03 | numerator | 9,703 | VERIFIED | Lake 70 70 100.0% 33,987 9,703 28.5% Jun 3 8:59 p.m. Jun 4 12:55 a.m. FENU |
 | lake-ca | 2014-11-04 | denominator | 18,061 | VERIFIED | 70 49,067 33,489 6,017 12,044 18,061 66.69% 53.93% 36.81% |
 | lake-ca | 2014-11-04 | numerator | 12,593 | VERIFIED | bsentee Ballots Cast 7,228 21.6% Total Ballots Cast 12,593 37.6% Registration and Turnout CONGRESSIONAL DIST |
+| lake-ca | 2016-06-07 | denominator | 16,712 | VERIFIED | ake 70 48,604 32,796 5,042 11,670 16,712 69.83% 50.96% 34.38% |
+| lake-ca | 2016-06-07 | numerator | 9,049 | VERIFIED | Lake 70 70 100.0% 32,796 9,049 27.6% Jun 7 9:39 p.m. Jun 8 2:54 a.m. CCU |
 | lake-ca | 2016-11-08 | denominator | 25,085 | VERIFIED | 70 48,487 34,706 8,163 16,922 25,085 67.46% 72.28% 51.74% |
 | lake-ca | 2016-11-08 | numerator | 13,484 | VERIFIED | bsentee Ballots Cast 6,587 19.0% Total Ballots Cast 13,484 38.9% Registration and Turnout CONGRESSIONAL DIST |
+| lake-ca | 2018-06-05 | denominator | 14,119 | VERIFIED | 70 49,352 32,805 3,917 10,202 14,119 72.26% 43.04% 28.61% |
+| lake-ca | 2018-06-05 | numerator | 8,158 | VERIFIED | U Lake 70 70 100.0% 32,805 8,158 24% Jun 5 9:07 p.m. Jun 6 1:44 a.m. U |
 | lake-ca | 2018-11-06 | denominator | 21,465 | VERIFIED | 70 49,469 32,653 6,049 15,416 21,465 71.82% 65.74% 43.39% |
 | lake-ca | 2018-11-06 | numerator | 13,522 | VERIFIED | bsentee Ballots Cast 8,566 26.2% Total Ballots Cast 13,522 41.4% Registration and Turnout CONGRESSIONAL DIST |
 | lake-ca | 2022-11-08 | denominator | 20,362 | VERIFIED | 80 51,231 37,154 2,416 17,946 20,362 88.13% 54.80% 39.75% |
@@ -86,8 +91,12 @@ verify_en_* scripts to regenerate).
 | madera-ca | 2014-06-03 | numerator | 15,719 | VERIFIED | Madera 76 76 100.0% 52,817 15,719 29.8% Jun 3 8:00 p.m. Jun 3 10:40 p.m. FENU |
 | madera-ca | 2014-11-04 | denominator | 27,370 | VERIFIED | 100 85,976 52,494 8,970 18,400 27,370 67.23% 52.14% 31.83% |
 | madera-ca | 2014-11-04 | numerator | 22,031 | VERIFIED | Madera 100 100 100.0% 52,494 22,031 42.0% Nov 4 8:07 p.m. Nov 4 11:03 p.m. FENU |
+| madera-ca | 2016-06-07 | denominator | 26,941 | VERIFIED | adera 77 87,117 54,017 8,278 18,663 26,941 69.27% 49.88% 30.93% |
+| madera-ca | 2016-06-07 | numerator | 21,553 | VERIFIED | Madera 77 77 100.0% 54,017 21,553 39.9% Jun 7 8:10 p.m. Jun 7 11:13 p.m. FENU |
 | madera-ca | 2016-11-08 | denominator | 44,186 | VERIFIED | 102 87,254 58,086 15,211 28,975 44,186 65.58% 76.07% 50.64% |
 | madera-ca | 2016-11-08 | numerator | 35,364 | VERIFIED | Absentee Ballots Cast 22,561 38.8% Total Ballots Cast 35,364 60.8% President and Vice President Completed Prec |
+| madera-ca | 2018-06-05 | denominator | 24,211 | VERIFIED | 69 89,532 54,848 1,995 22,216 24,211 91.76% 44.14% 27.04% |
+| madera-ca | 2018-06-05 | numerator | 18,258 | VERIFIED | U Madera 69 69 100.0% 54,848 18,258 33% Jun 5 9:07 p.m. Jun 6 12:20 a.m. SF |
 | madera-ca | 2018-11-06 | denominator | 38,968 | VERIFIED | 69 89,818 57,418 4,434 34,534 38,968 88.62% 67.87% 43.39% |
 | madera-ca | 2018-11-06 | numerator | 28,159 | VERIFIED | 0 , "BCxContest" : 0 , "VF" : 1 , "TP" : 69 , "PR" : 62 , "TV" : 31713 , "BC" : 28159 , "RC" : 0 , "RO" : 0 , "CH" : [ " |
 | madera-ca | 2022-11-08 | denominator | 37,345 | VERIFIED | 59 93,789 72,865 3,333 34,012 37,345 91.08% 51.25% 39.82% |
@@ -102,8 +111,12 @@ verify_en_* scripts to regenerate).
 | mendocino-ca | 2014-06-03 | numerator | 8,669 | VERIFIED | Mendocino 249 249 100.0% 47,400 8,669 18.3% Jun 3 8:47 p.m. Jun 4 1:29 a.m. FENU |
 | mendocino-ca | 2014-11-04 | denominator | 25,017 | VERIFIED | 249 64,404 47,502 4,377 20,640 25,017 82.50% 52.67% 38.84% |
 | mendocino-ca | 2014-11-04 | numerator | 11,402 | VERIFIED | he counting of maybe 10,000 more votes) for key Mendocino County Elections. 11,402 votes cast, 24.02% of registered vote |
+| mendocino-ca | 2016-06-07 | denominator | 28,056 | VERIFIED | endocino 250 63,670 48,935 4,249 23,807 28,056 84.86% 57.33% 44.06% |
+| mendocino-ca | 2016-06-07 | numerator | 11,320 | VERIFIED | Mendocino 250 250 100.0% 48,935 11,320 23.1% Jun 7 8:54 p.m. Jun 8 2:39 a.m. FENU |
 | mendocino-ca | 2016-11-08 | denominator | 38,730 | VERIFIED | o 250 63,741 51,061 6,036 32,694 38,730 84.42% 75.85% 60.76% |
 | mendocino-ca | 2016-11-08 | numerator | 12,032 | VERIFIED | anvass. 11/09/16 01:55:06 Registered Voters 51035 - Cards Cast 12032 23.58% Num. Report Precinct 250 - Num. Reporting 25 |
+| mendocino-ca | 2018-06-05 | denominator | 22,896 | VERIFIED | 250 64,340 47,487 3,066 19,830 22,896 86.61% 48.22% 35.59% |
+| mendocino-ca | 2018-06-05 | numerator | 19,049 | VERIFIED | Mendocino 250 250 100.0% 47,487 19,049 40% Jun 5 9:16 p.m. Jun 6 3:57 a.m. SF |
 | mendocino-ca | 2018-11-06 | denominator | 33,966 | VERIFIED | 250 64,399 49,411 4,462 29,504 33,966 86.86% 68.74% 52.74% |
 | mendocino-ca | 2018-11-06 | numerator | 15,819 | VERIFIED | anvass. 11/07/18 00:48:58 Registered Voters 48032 - Cards Cast 15819 32.93% Num. Report Precinct 250 - Num. Reporting 25 |
 | mendocino-ca | 2022-11-08 | denominator | 31,008 | VERIFIED | 281 67,114 53,105 646 30,362 31,008 97.92% 58.39% 46.20% |
@@ -117,6 +130,8 @@ verify_en_* scripts to regenerate).
 | napa-ca | 2014-06-03 | numerator | 17,431 | VERIFIED | Napa 165 165 100.0% 71,241 17,431 24.5% Jun 3 7:59 p.m. Jun 3 11:43 p.m. FENU |
 | napa-ca | 2014-11-04 | denominator | 38,766 | VERIFIED | 167 91,531 70,493 2,397 36,369 38,766 93.82% 54.99% 42.35% |
 | napa-ca | 2014-11-04 | numerator | 19,515 | VERIFIED | Napa 167 167 100.0% 70,493 19,515 27.7% Nov 4 8:00 p.m. Nov 4 11:14 p.m. FENU |
+| napa-ca | 2016-06-07 | denominator | 43,450 | VERIFIED | apa 167 93,331 72,461 2,150 41,300 43,450 95.05% 59.96% 46.55% |
+| napa-ca | 2016-06-07 | numerator | 20,427 | VERIFIED | Napa 167 167 100.0% 72,461 20,427 28.2% Jun 7 8:03 p.m. Jun 8 12:07 a.m. CCU |
 | napa-ca | 2016-11-08 | denominator | 63,255 | VERIFIED | 167 93,686 76,833 4,530 58,725 63,255 92.84% 82.33% 67.52% |
 | napa-ca | 2016-11-08 | numerator | 34,108 | VERIFIED | November 8, 2016 Precincts Reported: 167 of 167 (100.00%) Ballots Cast: 34,108 PRESIDENT/VICE PRESIDENT (Vote for 1) Pre |
 | napa-ca | 2018-11-06 | denominator | 57,132 | VERIFIED | 170 92,369 78,135 42 57,090 57,132 99.93% 73.12% 61.85% |
@@ -133,6 +148,8 @@ verify_en_* scripts to regenerate).
 | nevada-ca | 2014-06-03 | numerator | 17,752 | VERIFIED | Nevada 71 71 100.0% 61,711 17,752 28.8% Jun 3 8:49 p.m. Jun 4 12:23 a.m. FENU |
 | nevada-ca | 2014-11-04 | denominator | 39,629 | VERIFIED | 84 76,731 61,690 9,383 30,246 39,629 76.32% 64.24% 51.65% |
 | nevada-ca | 2014-11-04 | numerator | 22,366 | VERIFIED | , Calif. November 5, 2014 - The final election night tally of votes comes in at 22,366 of 61,706 - a rather low voter tu |
+| nevada-ca | 2016-06-07 | denominator | 45,167 | VERIFIED | evada 80 77,440 66,149 10,572 34,595 45,167 76.59% 68.28% 58.33% |
+| nevada-ca | 2016-06-07 | numerator | 27,852 | VERIFIED | Nevada 80 80 100.0% 66,149 27,852 42.1% Jun 7 9:18 p.m. Jun 8 12:50 a.m. CCU |
 | nevada-ca | 2016-11-08 | denominator | 56,800 | VERIFIED | 82 77,443 68,829 12,543 44,257 56,800 77.92% 82.52% 73.34% |
 | nevada-ca | 2016-11-08 | numerator | 34,728 | VERIFIED | asure A – Library system Measure A received 23,060 Yes votes, 68.99% of the 34,728 ballots counted as of tonight. Early  |
 | nevada-ca | 2018-11-06 | denominator | 54,996 | VERIFIED | 68 78,603 68,954 3,059 51,937 54,996 94.44% 79.76% 69.97% |
@@ -161,6 +178,8 @@ verify_en_* scripts to regenerate).
 | placer-ca | 2014-06-03 | numerator | 47,986 | VERIFIED | Placer 301 301 100.0% 200,829 47,986 23.9% Jun 3 9:14 p.m. Jun 4 2:06 a.m. FENU |
 | placer-ca | 2014-11-04 | denominator | 115,547 | VERIFIED | 368 259,591 200,422 31,546 84,001 115,547 72.70% 57.65% 44.51% |
 | placer-ca | 2014-11-04 | numerator | 76,411 | VERIFIED | 05/14 00:36:57 Registered Voters 200402 - Cards Cast 76411 38.13% Num. Report Precinct 369 - Num. Reporting 369 100.00% |
+| placer-ca | 2016-06-07 | denominator | 115,266 | VERIFIED | Placer 316 262,922 210,913 30,302 84,964 115,266 73.71% 54.65% 43.84% |
+| placer-ca | 2016-06-07 | numerator | 71,358 | VERIFIED | Placer 316 316 100.0% 210,913 71,358 33.8% Jun 7 9:48 p.m. Jun 8 2:27 a.m. FENU |
 | placer-ca | 2016-11-08 | denominator | 190,550 | VERIFIED | 363 264,101 226,249 58,385 132,165 190,550 69.36% 84.22% 72.15% |
 | placer-ca | 2016-11-08 | numerator | 109,666 | VERIFIED | 09/16 00:29:40 Registered Voters 226454 - Cards Cast 109666 48.43% Num. Report Precinct 363 - Num. Reporting 363 100.00% |
 | placer-ca | 2018-11-06 | denominator | 177,725 | VERIFIED | 358 276,613 234,732 46,896 130,829 177,725 73.61% 75.71% 64.25% |
@@ -176,6 +195,7 @@ verify_en_* scripts to regenerate).
 | riverside-ca | 2016-06-07 | denominator | 403,828 | VERIFIED | Riverside 869 1,429,960 909,922 127,086 276,742 403,828 68.53% 44.38% 28.24% |
 | riverside-ca | 2016-06-07 | numerator | 249,970 | VERIFIED | ast 5,338 0.00% Total Ballots Cast 249,970 27.43% Total Ballots Cast 5,046 18.32% Total |
 | riverside-ca | 2016-11-08 | denominator | 769,193 | VERIFIED | de 1,126 1,438,117 1,019,130 264,638 504,555 769,193 65.60% 75.48% 53.49% |
+| riverside-ca | 2016-11-08 | numerator | 481,315 | VERIFIED | rside 1,126 1,126 100.0% 1,019,130 481,315 47.2% Nov 8 8:31 p.m. Nov 9 5:52 a.m. SF |
 | riverside-ca | 2018-06-05 | denominator | 346,472 | VERIFIED | 826 1,472,819 984,214 91,667 254,805 346,472 73.54% 35.20% 23.52% |
 | riverside-ca | 2018-06-05 | numerator | 193,152 | VERIFIED | 19,838 11.01% Total Ballots Cast 193,152 19.63% REP - DAVID R. HERNANDEZ 13,439 8.06% PF - KEVI |
 | riverside-ca | 2018-11-06 | denominator | 650,545 | VERIFIED | 1,072 1,481,361 1,035,957 194,606 455,939 650,545 70.09% 62.80% 43.92% |
@@ -193,6 +213,7 @@ verify_en_* scripts to regenerate).
 | sacramento-ca | 2014-11-04 | denominator | 330,817 | VERIFIED | to 1,263 961,112 683,632 111,628 219,189 330,817 66.26% 48.39% 34.42% |
 | sacramento-ca | 2014-11-04 | numerator | 195,317 | VERIFIED | L . . . . . 683,632 BALLOTS CAST - TOTAL. . . . . . . 195,317 VOTER TURNOUT - TOTAL . . . . . . 28.57 |
 | sacramento-ca | 2016-11-08 | denominator | 575,711 | VERIFIED | nto 1,267 989,090 772,865 203,114 372,597 575,711 64.72% 74.49% 58.21% |
+| sacramento-ca | 2016-11-08 | numerator | 328,744 | VERIFIED | ramento 1,267 1,267 100.0% 772,865 328,744 42.5% Nov 8 8:07 p.m. Nov 9 1:52 a.m. SF |
 | sacramento-ca | 2018-11-06 | denominator | 522,652 | VERIFIED | 593 1,013,368 765,965 30,279 492,373 522,652 94.21% 68.23% 51.58% |
 | sacramento-ca | 2018-11-06 | numerator | 185,623 | VERIFIED | ( 100.00% ) Registered Voters: 185,623 of 764,998 ( 24.26% ) Ball |
 | sacramento-ca | 2022-11-08 | denominator | 484,315 | VERIFIED | 685 1,112,665 865,225 28,929 455,386 484,315 94.03% 55.98% 43.53% |
@@ -203,6 +224,7 @@ verify_en_* scripts to regenerate).
 | san-bernardino-ca | 2014-11-04 | denominator | 293,283 | VERIFIED | ardino 1,737 1,273,684 851,684 117,179 176,104 293,283 60.05% 34.44% 23.03% |
 | san-bernardino-ca | 2014-11-04 | numerator | 231,219 | VERIFIED | nardino 1,737 1,737 100.0% 851,684 231,219 27.1% Nov 4 8:09 p.m. Nov 5 1:50 a.m. FENU |
 | san-bernardino-ca | 2016-11-08 | denominator | 672,871 | VERIFIED | nardino 1,789 1,308,522 888,019 287,315 385,556 672,871 57.30% 75.77% 51.42% |
+| san-bernardino-ca | 2016-11-08 | numerator | 443,517 | VERIFIED | nardino 1,789 1,789 100.0% 888,019 443,517 49.9% Nov 8 8:22 p.m. Nov 9 4:56 a.m. SF |
 | san-bernardino-ca | 2018-11-06 | denominator | 546,041 | VERIFIED | 2,209 1,330,247 937,316 209,168 336,873 546,041 61.69% 58.26% 41.05% |
 | san-bernardino-ca | 2022-11-08 | denominator | 458,946 | VERIFIED | 2,765 1,472,696 1,138,818 66,469 392,477 458,946 85.52% 40.30% 31.16% |
 | san-bernardino-ca | 2024-11-05 | denominator | 771,834 | VERIFIED | 2,872 1,472,596 1,197,953 154,974 616,860 771,834 79.92% 64.43% 52.41% |

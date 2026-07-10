@@ -35,15 +35,15 @@
     {
       "date": "2016-11-08",
       "type": "presidential-general",
-      "election_night_ballots": null,
+      "election_night_ballots": 4952,
       "certified_final": 6814,
-      "election_night_pct": null,
+      "election_night_pct": 72.67,
       "vs_epollbook": "n/a",
       "vs_asv": "n/a",
       "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
-      "source_url_night": null,
-      "confidence": "none",
-      "note": "DIRECTLY CONFIRMED not a night number: fetched /DocumentCenter/View/8620 via https://web.archive.org/web/20201121161224id_/https://www.countyofcolusa.org/DocumentCenter/View/8620/November-8-2016-Results-By-Contest?bidId= (image-only PDF, no text layer, rendered with pdftoppm -png -r 150 and read directly). Page 1 is a SIGNED 'CANVASS AND STATEMENT OF RESULT OF ELECTION' certificate dated 'this 30th day of NOVEMBER 2016' by County Clerk/Registrar Rose Gallo-Vasquez. Page 2 header: 'RUN DATE: 11/30/16 04:49 PM ... OFFICIAL RESULTS - EL45A', Ballots Cast - Total: 6,814, exactly equal to the SoS certified final. This is the certified canvass, 22 days post-election, not an election-night report. www.countyofcolusa.org/elections (the page that links to it) has a 2-month Wayback gap bracketing election night (last capture before: 2016-10-20; next: 2016-12-21; CDX: url=countyofcolusa.org/elections&matchType=prefix), consistent with no night-specific page ever being crawled. No Clarity. No local-news coverage of election night found via WebSearch. Value left null per RUNBOOK.md 5.1: the only surviving number is the certified final itself, which cannot stand in as a 'night' figure."
+      "source_url_night": "https://web.archive.org/web/20161110185817/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('SF'-coded row), Colusa County: 100.0% precincts reporting, Ballots Cast 4,952, Last Report stamp 'Nov 8 10:25 p.m.' (First Report 'Nov 8 9:10 p.m.') at Wayback capture 20161110185817 (2016-11-10 18:58:17 UTC). SINGLE CAPTURE at 2016-11-10 18:58:17 UTC carries this value. The next available capture (2016-11-14 19:00:27 UTC) jumps to 6,463 (Last Report 'Nov 10 6:20 p.m.'), confirming 4,952 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 6,814 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 4,952/6,814 = 72.67%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2016-11-08 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
     },
     {
       "date": "2018-11-06",

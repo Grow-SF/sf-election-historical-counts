@@ -56,6 +56,19 @@
       "note": "PLATEAU = county's own numbered results-report system (acm.co.lake.ca.us/elections/results/result27.htm, report #27 = Nov 4 2014 General per its index27.htm title block). Internal header: 'Election Results as of 11/05/2014 at 12:41:23 AM' (past-midnight, tail of election night). 'Completed Precincts: 70 of 70' (100%). 'Total Ballots Cast 12,593 (37.6%)' = Precinct 5,365 + Absentee 7,228. NON-CIRCULAR LEG (RUNBOOK 8, strongest form): the SAME URL's 2014-11-30 08:26:48 UTC Wayback capture has the IDENTICAL content digest (AJH6HNMV3OVULKQXIFCRFEJFVHRZPJFN) as the Nov 8 capture -- the page held byte-for-byte unchanged for 3+ weeks after election night, directly proving the plateau held. Only the 2015-01-27 capture shows new content, labeled 'Final Results for Election', Total Ballots Cast 18,061 (53.9%) -- the exact SoS certified total. NOT the 8 PM first tranche (no earlier capture survives; 12:41:23 AM is explicitly past midnight). Certified final 18,061 voters (CA SoS Voter Participation Statistics by County: 6,017 precinct + 12,044 VBM). Pct = 12,593/18,061 = 69.72%. Lake never adopted epollbook or ASV (n/a both legs, control county). VERIFIED 2026-07-10 by direct re-fetch: Nov 8 capture confirmed 'Total Ballots Cast 12,593 37.6%'; byte-for-byte diff of the Nov 8 and Nov 30 raw captures confirmed identical (0 bytes differ); SoS SoV PDF re-fetched and confirmed Lake's Total Voters line = 18,061. CDX query: url=acm.co.lake.ca.us/elections/results/&matchType=prefix&from=20140901&to=20150228."
     },
     {
+      "date": "2016-06-07",
+      "type": "presidential-primary",
+      "election_night_ballots": 9049,
+      "certified_final": 16712,
+      "election_night_pct": 54.15,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20160614032019/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('FENU'-coded row), Lake County: 100.0% precincts reporting, Ballots Cast 9,049, Last Report stamp 'Jun 8 2:11 a.m.' (First Report 'Jun 7 9:56 p.m.') at Wayback capture 20160614032019 (2016-06-14 03:20:19 UTC). FROZEN: the identical Ballots Cast figure 9,049 recurs across 5 captures, 2016-06-14 03:20:19 UTC through 2016-06-22 03:35:32 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 16,712 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf). Arithmetic: 9,049/16,712 = 54.15%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2016-06-07 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
       "date": "2016-11-08",
       "type": "presidential-general",
       "election_night_ballots": 13484,
@@ -67,6 +80,19 @@
       "source_url_night": "https://web.archive.org/web/20161112110847/http://publicapps.lakecountyca.gov:80/elections/results/result30.htm",
       "confidence": "primary",
       "note": "PLATEAU = county's own numbered results-report system, now hosted on publicapps.lakecountyca.gov (moved from acm.co.lake.ca.us between 2014 and 2016), report #30 = Nov 8 2016 Consolidated General. Internal header: 'Election Results as of 11/09/2016 at 12:49:48 AM', explicitly labeled 'PRELIMINARY RESULTS'. 'Completed Precincts: 70 of 70' (100%). 'Total Ballots Cast 13,484 (38.9%)' = Precinct 6,897 + Absentee 6,587. NON-CIRCULAR LEG (RUNBOOK 8): the SAME URL's only later capture (2016-12-24, six weeks after election night, no intermediate captures exist per CDX) is titled 'Final Results for Election' / 'FINAL RESULTS', Total Ballots Cast 25,094 (72.3%) -- matching the SoS certified 25,085 to within 9 ballots (routine late county-vs-SoS reconciliation, not a method discrepancy). Same overwrite-in-place report-page pattern already independently confirmed for this county in 2012 and 2014. NOT the 8 PM first tranche (no earlier capture survives; page self-labels 'PRELIMINARY RESULTS' as of 12:49:48 AM, after full 70/70 precinct reporting). Certified final 25,085 voters (CA SoS Voter Participation Statistics by County: 8,163 precinct + 16,922 VBM). Pct = 13,484/25,085 = 53.75% -- notably lower than Lake's own 2012 (70.18%) and 2014 (69.72%), driven by presidential-year VBM surge (only 6,587 of the eventual 16,922 certified VBM ballots were in by the Nov 9 report), not any tech confound (Lake never adopted epollbook/ASV, n/a both legs, control county). VERIFIED 2026-07-10 by direct re-fetch: Nov 12 capture confirmed 'PRELIMINARY RESULTS' / 'Total Ballots Cast 13,484 38.9%'; Dec 24 capture confirmed 'FINAL' / 'Total Ballots Cast 25,094 72.3%'; SoS SoV PDF re-fetched and confirmed Lake's Total Voters line = 25,085. CDX query: url=publicapps.lakecountyca.gov/elections/results/&matchType=prefix&from=20161001&to=20170228."
+    },
+    {
+      "date": "2018-06-05",
+      "type": "statewide-primary",
+      "election_night_ballots": 8158,
+      "certified_final": 14119,
+      "election_night_pct": 57.78,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20180619011846/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "secondary",
+      "note": "CA SoS per-county reporting-status page ('U'-coded row), Lake County: 100.0% precincts reporting, Ballots Cast 8,158, Last Report stamp 'Jun 6 1:44 a.m.' (First Report 'Jun 5 9:07 p.m.') at Wayback capture 20180619011846 (2018-06-19 01:18:46 UTC). SINGLE CAPTURE at 2018-06-19 01:18:46 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 14,119 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 8,158/14,119 = 57.78%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade PLAUSIBLE per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2018-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
     },
     {
       "date": "2018-11-06",
