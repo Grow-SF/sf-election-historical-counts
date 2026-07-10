@@ -30,17 +30,30 @@
       "note": "CA SoS per-county reporting-status page ('FENU'-coded row), Madera County: 100.0% precincts reporting, Ballots Cast 32,865, Last Report stamp 'Nov 6 11:01 p.m.' (First Report 'Nov 6 8:03 p.m.') at Wayback capture 20121110102540 (2012-11-10 10:25:40 UTC). SINGLE CAPTURE at 2012-11-10 10:25:40 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 40,325 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf). Arithmetic: 32,865/40,325 = 81.5%. vs_epollbook=pre, vs_asv=n/a (per county_tech/adoption record: epollbook 2018, asv None). Grade PLAUSIBLE per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-11-06 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
     },
     {
-      "date": "2014-11-04",
-      "type": "midterm-general",
-      "election_night_ballots": null,
-      "certified_final": 27370,
-      "election_night_pct": null,
+      "date": "2014-06-03",
+      "type": "statewide-primary",
+      "election_night_ballots": 15719,
+      "certified_final": 19206,
+      "election_night_pct": 81.84,
       "vs_epollbook": "pre",
       "vs_asv": "n/a",
-      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf",
-      "source_url_night": null,
-      "confidence": "none",
-      "note": "Certified final 27,370 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County', 2014 complete SOV (Madera: 100 precincts, 85,976 eligible, 52,494 registered, 8,970 precinct + 18,400 VBM = 27,370). Election-night plateau NOT recoverable as a clean number. The only archived data state of votemadera.com's result28.htm / resultsc28.htm (captures 20141108134805 and 20141118031430) is the report 'Election Results as of 11/07/2014 at 02:14:32 PM' = Total Ballots Cast 26,449 (precinct 8,106 + absentee 18,343), 100 of 100 precincts -- this is the FIRST CANVASS UPDATE (Friday 11/7 afternoon, ~96.6% of certified), NOT the election-night semifinal. Madera's own 'Updates to Election Night Results' page (capture 20141111035904) confirms 4,385 late VBM 'arrived too late to be processed and included in the Semifinal Results from Election Night' and were counted starting 'Friday 11/7 at 1:00pm', so the true election-night plateau (which excluded those 4,385) was overwritten in place and is unarchived. No 2014 Clarity ENR exists (Madera's first Clarity is June 2018), so the live-CDN version recovery used for 2018/2022 is not available here. Recording 26,449 would overstate the election-night share, so left null."
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('FENU'-coded row), Madera County: 100.0% precincts reporting, Ballots Cast 15,719, Last Report stamp 'Jun 3 10:40 p.m.' (First Report 'Jun 3 8:00 p.m.') at Wayback capture 20140606205510 (2014-06-06 20:55:10 UTC). FROZEN: the identical Ballots Cast figure 15,719 recurs across 3 captures, 2014-06-06 20:55:10 UTC through 2014-06-11 17:04:51 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 19,206 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf). Arithmetic: 15,719/19,206 = 81.84%. vs_epollbook=pre, vs_asv=n/a (per county_tech/adoption record: epollbook 2018, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2014-06-03 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": 22031,
+      "certified_final": 27370,
+      "election_night_pct": 80.49,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('FENU'-coded row), Madera County: 100.0% precincts reporting, Ballots Cast 22,031, Last Report stamp 'Nov 4 11:03 p.m.' (First Report 'Nov 4 8:07 p.m.') at Wayback capture 20141105141649 (2014-11-05 14:16:49 UTC). FROZEN: the identical Ballots Cast figure 22,031 recurs across 2 captures, 2014-11-05 14:16:49 UTC through 2014-11-07 08:38:01 UTC, before the next available capture (2014-11-15 02:26:27 UTC) jumps to 26,449 (Last Report 'Nov 7 2:21 p.m.'), marking the canvass resuming. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 27,370 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf). Arithmetic: 22,031/27,370 = 80.49%. vs_epollbook=pre, vs_asv=n/a (per county_tech/adoption record: epollbook 2018, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2014-11-04 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
     },
     {
       "date": "2016-11-08",

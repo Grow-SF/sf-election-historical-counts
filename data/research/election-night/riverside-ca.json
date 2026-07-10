@@ -44,16 +44,16 @@
     },
     {
       "date": "2014-11-04",
-      "type": "midterm",
-      "election_night_ballots": null,
+      "type": "midterm-general",
+      "election_night_ballots": 265771,
       "certified_final": 357764,
-      "election_night_pct": null,
+      "election_night_pct": 74.29,
       "vs_epollbook": "pre",
       "vs_asv": "pre",
-      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf",
-      "source_url_night": null,
-      "confidence": "none",
-      "note": "Certified final = 357,764 ballots (Election Day 124,829 + VBM 232,935) from CA SoS 2014 complete Statement of Vote, Voter Participation Statistics page, primary. Election-night plateau not sourceable: the only Wayback capture of the eresults page is 2014-11-20 (post-certification canvass), no election-night-stage snapshot. Re-verified 2026-06: Riverside's /Elections/20141104/docs/ press-release archive contains only operational releases (no morning-after 'semi-official results' release stating an election-night total), so the registrar-release route yields nothing either; plateau remains unsourceable."
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('FENU'-coded row), Riverside County: 100.0% precincts reporting, Ballots Cast 265,771, Last Report stamp 'Nov 5 2:26 a.m.' (First Report 'Nov 4 8:20 p.m.') at Wayback capture 20141105141649 (2014-11-05 14:16:49 UTC). SINGLE CAPTURE at 2014-11-05 14:16:49 UTC carries this value. The next available capture (2014-11-07 08:38:01 UTC) jumps to 294,055 (Last Report 'Nov 6 6:45 p.m.'), confirming 265,771 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 357,764 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf). Arithmetic: 265,771/357,764 = 74.29%. vs_epollbook=pre, vs_asv=pre (per county_tech/adoption record: epollbook 2022, asv 2025). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2014-11-04 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
     },
     {
       "date": "2016-06-07",

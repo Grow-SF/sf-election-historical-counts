@@ -48,15 +48,15 @@
     {
       "date": "2014-11-04",
       "type": "midterm-general",
-      "election_night_ballots": null,
+      "election_night_ballots": 509214,
       "certified_final": 692434,
-      "election_night_pct": null,
+      "election_night_pct": 73.54,
       "vs_epollbook": "pre",
       "vs_asv": "pre",
       "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
-      "source_url_night": null,
-      "confidence": "none",
-      "note": "Certified final (denominator) is SOLID: CA SoS Statement of Vote, Voter Participation Statistics by County, San Diego Total Voters 692,434 (= Precinct 242,638 + VBM 449,796). Election-night NUMERATOR not sourceable: SD did not use the livevoterturnout.com live-results system until 2018; the 2014 ROV results page was not archived on election night (Nov 4-5 2014). The only SD ROV pages Wayback captured in that window were query forms (Epolling_query.asp), not a ballots-counted summary. News (Times of San Diego 'Results at a Glance', updated 11/7/2014) gives no numeric ballot total. Left null rather than substitute. Pre-epollbook (2022) and pre-ASV (2024). PRESS-RELEASE ROUTE ALSO CHECKED (updated methodology) and is EMPTY: the registrar's own news page (sdvote.com/content/rov/en/elections/news.html) is only archived in Wayback from 2019 onward, and the County News Center's November-2014/2016 archives carry only 'Election Results – When to Expect Them' previews plus an 'Election results available at SDVote.com' pointer — no morning-after 'semi-official results' release stating an election-night ballots-counted total. SD's practice was to direct the public to the live SDVote.com results page (unarchived on election night), not to issue a release with the total. Remains null."
+      "source_url_night": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('FENU'-coded row), San Diego County: 100.0% precincts reporting, Ballots Cast 509,214, Last Report stamp 'Nov 5 1:14 a.m.' (First Report 'Nov 4 8:03 p.m.') at Wayback capture 20141105141649 (2014-11-05 14:16:49 UTC). SINGLE CAPTURE at 2014-11-05 14:16:49 UTC carries this value. The next available capture (2014-11-07 08:38:01 UTC) jumps to 541,370 (Last Report 'Nov 6 5:05 p.m.'), confirming 509,214 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 692,434 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf). Arithmetic: 509,214/692,434 = 73.54%. vs_epollbook=pre, vs_asv=pre (per county_tech/adoption record: epollbook 2022, asv 2024). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2014-11-04 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
     },
     {
       "date": "2016-06-07",

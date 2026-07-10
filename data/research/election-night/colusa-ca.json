@@ -22,15 +22,15 @@
     {
       "date": "2014-11-04",
       "type": "midterm-general",
-      "election_night_ballots": null,
+      "election_night_ballots": 3628,
       "certified_final": 4422,
-      "election_night_pct": null,
+      "election_night_pct": 82.04,
       "vs_epollbook": "n/a",
       "vs_asv": "n/a",
       "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
-      "source_url_night": null,
-      "confidence": "none",
-      "note": "No Clarity. The elections page www.countyofcolusa.org/elections has a >18-month Wayback gap spanning the entire election (last capture before: 2014-08-11 302 redirect / not-yet-live; next: 2016-06-11); CDX: url=countyofcolusa.org/elections&matchType=prefix&limit=200. Only surviving results artifact is /DocumentCenter/View/4693 ('By Contest'), Wayback capture 2019-07-20 (https://web.archive.org/web/20190720094634id_/https://www.countyofcolusa.org/DocumentCenter/View/4693), part of the same standing single-document-per-election results archive whose every independently-confirmed sibling year (2016, 2018, 2022, 2024; see 2012 row note) turned out via internal PDF metadata to be the certified final 3-4 weeks post-election, not a night snapshot. Direct byte-fetch to confirm 4693's own CreationDate was attempted (curl --max-time 60) and blocked by intermittent web.archive.org connectivity this session (curl error 7; one earlier attempt truncated at exactly 1,048,576 bytes mid-transfer). No local-news coverage found for Nov 2014 election night. Value left null per RUNBOOK.md 5.1."
+      "source_url_night": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('FENU'-coded row), Colusa County: 100.0% precincts reporting, Ballots Cast 3,628, Last Report stamp 'Nov 4 10:00 p.m.' (First Report 'Nov 4 9:11 p.m.') at Wayback capture 20141105141649 (2014-11-05 14:16:49 UTC). SINGLE CAPTURE at 2014-11-05 14:16:49 UTC carries this value. The next available capture (2014-11-07 08:38:01 UTC) jumps to 4,229 (Last Report 'Nov 6 11:19 a.m.'), confirming 3,628 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 4,422 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf). Arithmetic: 3,628/4,422 = 82.04%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2014-11-04 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
     },
     {
       "date": "2016-11-08",

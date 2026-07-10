@@ -403,3 +403,121 @@ Tehama row at capture 20120608222655 (2012-06-08 22:26:55 UTC): 100.0% precincts
 CA SoS status-page single-capture bracket (RUNBOOK 8).
 
 Tehama row at capture 20121110102540 (2012-11-10 10:25:40 UTC): 100.0% precincts, Ballots Cast 17,559, Last Report 'Nov 7 12:37 a.m.'. SINGLE CAPTURE at 2012-11-10 10:25:40 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. Sweep bracket-evidence cross-check: "single capture 20121110102540, no later capture to confirm freeze" (scratchpad/sos-status-sweep.md).
+
+---
+
+UPDATE (2026-07-10, CA SoS status-page sweep integration -- 2014 elections): 19 new sourced rows landed across 16 counties (of the 18 panel counties besides San Francisco, the control), recovered from the CA SoS per-county reporting-status page (`vote.sos.ca.gov/returns/status` 2012-2018, `electionresults.sos.ca.gov/returns/status` 2022+) across 2 statewide election(s) in this batch. 19 CONFIRMED (frozen-capture or single-capture-then-jump bracket per RUNBOOK 8), 0 PLAUSIBLE (self-describing FENU/plateau state but no independent capture available in the CDX window to bracket it). Source: `scratchpad/sos-status-sweep.md` (research sweep) and `scratchpad/sweep_applylist.json` (computed apply-list, this batch's subset); every cell's capture citation and freeze/jump evidence below was independently re-derived from the raw per-capture timeline data (not merely transcribed from the sweep's prose), matching exact ballots-cast values with zero mismatches. Running totals: 105 CONFIRMED, 8 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2 REFUTED_AND_CORRECTED (117 sourced rows, matching the validator).
+
+### colusa-ca 2014-11-04: CONFIRMED
+
+CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8).
+
+Colusa row at capture 20141105141649 (2014-11-05 14:16:49 UTC): 100.0% precincts, Ballots Cast 3,628, Last Report 'Nov 4 10:00 p.m.'. SINGLE CAPTURE at 2014-11-05 14:16:49 UTC carries this value. The next available capture (2014-11-07 08:38:01 UTC) jumps to 4,229 (Last Report 'Nov 6 11:19 a.m.'), confirming 3,628 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). Sweep bracket-evidence cross-check: "single capture, next capture jumps to 4,229@Nov 6 11:19 a.m." (scratchpad/sos-status-sweep.md).
+
+### del-norte-ca 2014-06-03: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Del Norte row at capture 20140606205510 (2014-06-06 20:55:10 UTC): 100.0% precincts, Ballots Cast 5,122, Last Report 'Jun 3 10:14 p.m.'. FROZEN: the identical Ballots Cast figure 5,122 recurs across 3 captures, 2014-06-06 20:55:10 UTC through 2014-06-11 17:04:51 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20140606205510->20140611170451 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### fresno-ca 2014-06-03: CONFIRMED
+
+CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8).
+
+Fresno row at capture 20140606205510 (2014-06-06 20:55:10 UTC): 100.0% precincts, Ballots Cast 79,801, Last Report 'Jun 4 1:28 a.m.'. SINGLE CAPTURE at 2014-06-06 20:55:10 UTC carries this value. The next available capture (2014-06-07 07:58:13 UTC) jumps to 92,691 (Last Report 'Jun 6 3:09 p.m.'), confirming 79,801 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). Sweep bracket-evidence cross-check: "single capture, next capture jumps to 92,691@Jun 6 3:09 p.m." (scratchpad/sos-status-sweep.md).
+
+### fresno-ca 2014-11-04: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Fresno row at capture 20141105141649 (2014-11-05 14:16:49 UTC): 100.0% precincts, Ballots Cast 119,317, Last Report 'Nov 5 1:38 a.m.'. FROZEN: the identical Ballots Cast figure 119,317 recurs across 2 captures, 2014-11-05 14:16:49 UTC through 2014-11-07 08:38:01 UTC, before the next available capture (2014-11-15 02:26:27 UTC) jumps to 154,961 (Last Report 'Nov 14 3:08 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20141105141649->20141107083801 then jumps to 154,961@Nov 14 3:08 p.m." (scratchpad/sos-status-sweep.md).
+
+### lake-ca 2014-06-03: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Lake row at capture 20140606205510 (2014-06-06 20:55:10 UTC): 100.0% precincts, Ballots Cast 9,703, Last Report 'Jun 4 12:55 a.m.'. FROZEN: the identical Ballots Cast figure 9,703 recurs across 3 captures, 2014-06-06 20:55:10 UTC through 2014-06-11 17:04:51 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20140606205510->20140611170451 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### los-angeles-ca 2014-06-03: CONFIRMED
+
+CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8).
+
+Los Angeles row at capture 20140606205510 (2014-06-06 20:55:10 UTC): 100.0% precincts, Ballots Cast 636,186, Last Report 'Jun 4 3:07 a.m.'. SINGLE CAPTURE at 2014-06-06 20:55:10 UTC carries this value. The next available capture (2014-06-07 07:58:13 UTC) jumps to 655,432 (Last Report 'Jun 6 2:22 p.m.'), confirming 636,186 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). Sweep bracket-evidence cross-check: "single capture, next capture jumps to 655,432@Jun 6 2:22 p.m." (scratchpad/sos-status-sweep.md).
+
+### madera-ca 2014-06-03: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Madera row at capture 20140606205510 (2014-06-06 20:55:10 UTC): 100.0% precincts, Ballots Cast 15,719, Last Report 'Jun 3 10:40 p.m.'. FROZEN: the identical Ballots Cast figure 15,719 recurs across 3 captures, 2014-06-06 20:55:10 UTC through 2014-06-11 17:04:51 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20140606205510->20140611170451 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### madera-ca 2014-11-04: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Madera row at capture 20141105141649 (2014-11-05 14:16:49 UTC): 100.0% precincts, Ballots Cast 22,031, Last Report 'Nov 4 11:03 p.m.'. FROZEN: the identical Ballots Cast figure 22,031 recurs across 2 captures, 2014-11-05 14:16:49 UTC through 2014-11-07 08:38:01 UTC, before the next available capture (2014-11-15 02:26:27 UTC) jumps to 26,449 (Last Report 'Nov 7 2:21 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20141105141649->20141107083801 then jumps to 26,449@Nov 7 2:21 p.m." (scratchpad/sos-status-sweep.md).
+
+### mendocino-ca 2014-06-03: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Mendocino row at capture 20140606205510 (2014-06-06 20:55:10 UTC): 100.0% precincts, Ballots Cast 8,669, Last Report 'Jun 4 1:29 a.m.'. FROZEN: the identical Ballots Cast figure 8,669 recurs across 3 captures, 2014-06-06 20:55:10 UTC through 2014-06-11 17:04:51 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20140606205510->20140611170451 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### napa-ca 2014-06-03: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Napa row at capture 20140606205510 (2014-06-06 20:55:10 UTC): 100.0% precincts, Ballots Cast 17,431, Last Report 'Jun 3 11:43 p.m.'. FROZEN: the identical Ballots Cast figure 17,431 recurs across 3 captures, 2014-06-06 20:55:10 UTC through 2014-06-11 17:04:51 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20140606205510->20140611170451 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### nevada-ca 2014-06-03: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Nevada row at capture 20140606205510 (2014-06-06 20:55:10 UTC): 100.0% precincts, Ballots Cast 17,752, Last Report 'Jun 4 12:23 a.m.'. FROZEN: the identical Ballots Cast figure 17,752 recurs across 3 captures, 2014-06-06 20:55:10 UTC through 2014-06-11 17:04:51 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20140606205510->20140611170451 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### placer-ca 2014-06-03: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Placer row at capture 20140606205510 (2014-06-06 20:55:10 UTC): 100.0% precincts, Ballots Cast 47,986, Last Report 'Jun 4 2:06 a.m.'. FROZEN: the identical Ballots Cast figure 47,986 recurs across 3 captures, 2014-06-06 20:55:10 UTC through 2014-06-11 17:04:51 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20140606205510->20140611170451 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### riverside-ca 2014-11-04: CONFIRMED
+
+CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8).
+
+Riverside row at capture 20141105141649 (2014-11-05 14:16:49 UTC): 100.0% precincts, Ballots Cast 265,771, Last Report 'Nov 5 2:26 a.m.'. SINGLE CAPTURE at 2014-11-05 14:16:49 UTC carries this value. The next available capture (2014-11-07 08:38:01 UTC) jumps to 294,055 (Last Report 'Nov 6 6:45 p.m.'), confirming 265,771 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). Sweep bracket-evidence cross-check: "single capture, next capture jumps to 294,055@Nov 6 6:45 p.m." (scratchpad/sos-status-sweep.md).
+
+### sacramento-ca 2014-06-03: CONFIRMED
+
+CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8).
+
+Sacramento row at capture 20140606205510 (2014-06-06 20:55:10 UTC): 100.0% precincts, Ballots Cast 122,053, Last Report 'Jun 4 12:11 a.m.'. SINGLE CAPTURE at 2014-06-06 20:55:10 UTC carries this value. The next available capture (2014-06-07 07:58:13 UTC) jumps to 140,521 (Last Report 'Jun 6 2:08 p.m.'), confirming 122,053 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). Sweep bracket-evidence cross-check: "single capture, next capture jumps to 140,521@Jun 6 2:08 p.m." (scratchpad/sos-status-sweep.md).
+
+### san-bernardino-ca 2014-11-04: CONFIRMED
+
+CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8).
+
+San Bernardino row at capture 20141105141649 (2014-11-05 14:16:49 UTC): 100.0% precincts, Ballots Cast 231,219, Last Report 'Nov 5 1:50 a.m.'. SINGLE CAPTURE at 2014-11-05 14:16:49 UTC carries this value. The next available capture (2014-11-07 08:38:01 UTC) jumps to 270,882 (Last Report 'Nov 6 4:07 p.m.'), confirming 231,219 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). Sweep bracket-evidence cross-check: "single capture, next capture jumps to 270,882@Nov 6 4:07 p.m." (scratchpad/sos-status-sweep.md).
+
+### san-diego-ca 2014-11-04: CONFIRMED
+
+CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8).
+
+San Diego row at capture 20141105141649 (2014-11-05 14:16:49 UTC): 100.0% precincts, Ballots Cast 509,214, Last Report 'Nov 5 1:14 a.m.'. SINGLE CAPTURE at 2014-11-05 14:16:49 UTC carries this value. The next available capture (2014-11-07 08:38:01 UTC) jumps to 541,370 (Last Report 'Nov 6 5:05 p.m.'), confirming 509,214 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). Sweep bracket-evidence cross-check: "single capture, next capture jumps to 541,370@Nov 6 5:05 p.m." (scratchpad/sos-status-sweep.md).
+
+### san-mateo-ca 2014-06-03: CONFIRMED
+
+CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8).
+
+San Mateo row at capture 20140606205510 (2014-06-06 20:55:10 UTC): 100.0% precincts, Ballots Cast 70,651, Last Report 'Jun 3 11:30 p.m.'. SINGLE CAPTURE at 2014-06-06 20:55:10 UTC carries this value. The next available capture (2014-06-07 07:58:13 UTC) jumps to 85,537 (Last Report 'Jun 6 4:30 p.m.'), confirming 70,651 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). Sweep bracket-evidence cross-check: "single capture, next capture jumps to 85,537@Jun 6 4:30 p.m." (scratchpad/sos-status-sweep.md).
+
+### tehama-ca 2014-06-03: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Tehama row at capture 20140606205510 (2014-06-06 20:55:10 UTC): 100.0% precincts, Ballots Cast 8,976, Last Report 'Jun 4 1:28 a.m.'. FROZEN: the identical Ballots Cast figure 8,976 recurs across 2 captures, 2014-06-06 20:55:10 UTC through 2014-06-07 07:58:13 UTC, before the next available capture (2014-06-11 17:04:51 UTC) jumps to 13,016 (Last Report 'Jun 10 5:32 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20140606205510->20140607075813 then jumps to 13,016@Jun 10 5:32 p.m." (scratchpad/sos-status-sweep.md).
+
+### tehama-ca 2014-11-04: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Tehama row at capture 20141105141649 (2014-11-05 14:16:49 UTC): 100.0% precincts, Ballots Cast 10,558, Last Report 'Nov 5 12:26 a.m.'. FROZEN: the identical Ballots Cast figure 10,558 recurs across 2 captures, 2014-11-05 14:16:49 UTC through 2014-11-07 08:38:01 UTC, before the next available capture (2014-11-15 02:26:27 UTC) jumps to 15,791 (Last Report 'Nov 13 8:30 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20141105141649->20141107083801 then jumps to 15,791@Nov 13 8:30 p.m." (scratchpad/sos-status-sweep.md).

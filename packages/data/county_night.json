@@ -172,12 +172,12 @@
         {
           "year": 2014,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 82.04,
+          "ballots": 3628,
           "final": 4422,
-          "confidence": "none",
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2016,
@@ -251,6 +251,16 @@
           "confidence": "secondary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2014,
+          "type": "midterm-primary",
+          "pct": 86.08,
+          "ballots": 5122,
+          "final": 5950,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2014,
@@ -337,13 +347,23 @@
         },
         {
           "year": 2014,
-          "type": "midterm",
-          "pct": null,
-          "ballots": null,
-          "final": 163420,
-          "confidence": "none",
+          "type": "midterm-primary",
+          "pct": 74.02,
+          "ballots": 79801,
+          "final": 107805,
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 73.01,
+          "ballots": 119317,
+          "final": 163420,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2016,
@@ -417,6 +437,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20121110034513/http://acm.co.lake.ca.us:80/elections/results/result24.htm"
+        },
+        {
+          "year": 2014,
+          "type": "midterm-primary",
+          "pct": 62.41,
+          "ballots": 9703,
+          "final": 15548,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2014,
@@ -503,6 +533,16 @@
         },
         {
           "year": 2014,
+          "type": "midterm-primary",
+          "pct": 77.2,
+          "ballots": 636186,
+          "final": 824070,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2014,
           "type": "midterm",
           "pct": 75.53,
           "ballots": 1147248,
@@ -557,7 +597,7 @@
       "name": "Madera",
       "slug": "madera-ca",
       "control": false,
-      "complete": false,
+      "complete": true,
       "adoption": {
         "epollbook": 2018,
         "asv": null,
@@ -586,13 +626,23 @@
         },
         {
           "year": 2014,
-          "type": "midterm",
-          "pct": null,
-          "ballots": null,
-          "final": 27370,
-          "confidence": "none",
+          "type": "midterm-primary",
+          "pct": 81.84,
+          "ballots": 15719,
+          "final": 19206,
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 80.49,
+          "ballots": 22031,
+          "final": 27370,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2016,
@@ -666,6 +716,16 @@
           "confidence": "secondary",
           "comparable": true,
           "source_url": "https://theava.com/archives/62338"
+        },
+        {
+          "year": 2014,
+          "type": "midterm-primary",
+          "pct": 52.8,
+          "ballots": 8669,
+          "final": 16420,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2014,
@@ -752,6 +812,16 @@
         },
         {
           "year": 2014,
+          "type": "midterm-primary",
+          "pct": 61.86,
+          "ballots": 17431,
+          "final": 28179,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2014,
           "type": "midterm",
           "pct": 50.34,
           "ballots": 19515,
@@ -832,6 +902,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20121112105530/http://yubanet.com:80/regional/Nevada-County-Election-Tally-Continues---Turnout-Is-Nearly-80-Mail-Ins-Top-16-000.php"
+        },
+        {
+          "year": 2014,
+          "type": "midterm-primary",
+          "pct": 64.33,
+          "ballots": 17752,
+          "final": 27596,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2014,
@@ -991,6 +1071,16 @@
         },
         {
           "year": 2014,
+          "type": "midterm-primary",
+          "pct": 68.54,
+          "ballots": 47986,
+          "final": 70016,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2014,
           "type": "midterm",
           "pct": 66.1,
           "ballots": 76411,
@@ -1085,12 +1175,12 @@
         {
           "year": 2014,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 74.29,
+          "ballots": 265771,
           "final": 357764,
-          "confidence": "none",
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2016,
@@ -1197,6 +1287,16 @@
         },
         {
           "year": 2014,
+          "type": "midterm-primary",
+          "pct": 59.87,
+          "ballots": 122053,
+          "final": 203850,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2014,
           "type": "midterm",
           "pct": 59.04,
           "ballots": 195317,
@@ -1271,12 +1371,12 @@
         {
           "year": 2014,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 78.84,
+          "ballots": 231219,
           "final": 293283,
-          "confidence": "none",
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2016,
@@ -1364,12 +1464,12 @@
         {
           "year": 2014,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 73.54,
+          "ballots": 509214,
           "final": 692434,
-          "confidence": "none",
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2016,
@@ -1473,6 +1573,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://smcacre.gov/system/files/migrated/acre/precinct_report_6.pdf"
+        },
+        {
+          "year": 2014,
+          "type": "midterm-primary",
+          "pct": 72.5,
+          "ballots": 70651,
+          "final": 97447,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2014,
@@ -1642,13 +1752,23 @@
         },
         {
           "year": 2014,
-          "type": "midterm",
-          "pct": null,
-          "ballots": null,
-          "final": 15791,
-          "confidence": "none",
+          "type": "midterm-primary",
+          "pct": 68.96,
+          "ballots": 8976,
+          "final": 13016,
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 66.86,
+          "ballots": 10558,
+          "final": 15791,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2016,

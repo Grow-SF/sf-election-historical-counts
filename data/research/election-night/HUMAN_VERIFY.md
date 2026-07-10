@@ -138,12 +138,28 @@ note for any row is its detail bullet in VERIFY.md (same directory).
 
 ## 4. Machine-confirmed rows (number is at the URL; plateau read still owed)
 
+- [ ] **colusa-ca 2014-11-04** (plateau check)
+      claimed: night ballots **3,628**, certified final **4,422**, share **82.04%**
+      numerator URL: https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), Colusa County: 100.0% precincts reporting, Ballots Cast 3,628, Last Report stamp 'Nov 4 10:00 p.m.' (First Report 'Nov 4 9:11 p.m.') at Wayback capture 20141105141649 (2014-11-05 14:16:49 UTC). SINGLE CAPTURE at 2014-11-05 14:16:49 UTC carr
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for colusa-ca 2014-11-04
+      controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8))
+
 - [ ] **del-norte-ca 2012-06-05** (plateau check)
       claimed: night ballots **4,820**, certified final **5,242**, share **91.95%**
       numerator URL: https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf
       look for: CA SoS per-county reporting-status page ('FENU'-coded row), Del Norte County: 100.0% precincts reporting, Ballots Cast 4,820, Last Report stamp 'Jun 5 11:07 p.m.' (First Report 'Jun 5 8:30 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). FROZEN: the identical Ballots Cast figure 4
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for del-norte-ca 2012-06-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
+- [ ] **del-norte-ca 2014-06-03** (plateau check)
+      claimed: night ballots **5,122**, certified final **5,950**, share **86.08%**
+      numerator URL: https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), Del Norte County: 100.0% precincts reporting, Ballots Cast 5,122, Last Report stamp 'Jun 3 10:14 p.m.' (First Report 'Jun 3 8:32 p.m.') at Wayback capture 20140606205510 (2014-06-06 20:55:10 UTC). FROZEN: the identical Ballots Cast figure 5
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for del-norte-ca 2014-06-03
       controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **del-norte-ca 2014-11-04** (plateau check)
@@ -194,6 +210,22 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for fresno-ca 2012-06-05
       controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8))
 
+- [ ] **fresno-ca 2014-06-03** (plateau check)
+      claimed: night ballots **79,801**, certified final **107,805**, share **74.02%**
+      numerator URL: https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), Fresno County: 100.0% precincts reporting, Ballots Cast 79,801, Last Report stamp 'Jun 4 1:28 a.m.' (First Report 'Jun 3 8:15 p.m.') at Wayback capture 20140606205510 (2014-06-06 20:55:10 UTC). SINGLE CAPTURE at 2014-06-06 20:55:10 UTC carr
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for fresno-ca 2014-06-03
+      controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8))
+
+- [ ] **fresno-ca 2014-11-04** (plateau check)
+      claimed: night ballots **119,317**, certified final **163,420**, share **73.01%**
+      numerator URL: https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), Fresno County: 100.0% precincts reporting, Ballots Cast 119,317, Last Report stamp 'Nov 5 1:38 a.m.' (First Report 'Nov 4 8:00 p.m.') at Wayback capture 20141105141649 (2014-11-05 14:16:49 UTC). FROZEN: the identical Ballots Cast figure 119
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for fresno-ca 2014-11-04
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **fresno-ca 2016-11-08** (plateau check)
       claimed: night ballots **177,183**, certified final **291,890**, share **60.7%**
       numerator URL: https://web.archive.org/web/20161112171743/http://www2.co.fresno.ca.us/2850/Results/Results20161108.htm
@@ -225,6 +257,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU = county's own numbered results-report system (acm.co.lake.ca.us/elections/results/result24.htm, report #24 = the Nov 6 2012 Consolidated General per its index24.htm title block). Internal header: 'Preliminary Election Results as of 11/06/2012 at 11:59:41 PM' (self-described late-night times
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for lake-ca 2012-11-06
       controller verdict: CONFIRMED (self-described late-night timestamp + later capture of same URL overwritten to the certified final)
+
+- [ ] **lake-ca 2014-06-03** (plateau check)
+      claimed: night ballots **9,703**, certified final **15,548**, share **62.41%**
+      numerator URL: https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), Lake County: 100.0% precincts reporting, Ballots Cast 9,703, Last Report stamp 'Jun 4 12:55 a.m.' (First Report 'Jun 3 8:59 p.m.') at Wayback capture 20140606205510 (2014-06-06 20:55:10 UTC). FROZEN: the identical Ballots Cast figure 9,703 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for lake-ca 2014-06-03
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **lake-ca 2014-11-04** (plateau check)
       claimed: night ballots **12,593**, certified final **18,061**, share **69.72%**
@@ -282,6 +322,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for los-angeles-ca 2012-11-06
       controller verdict: CONFIRMED (RR/CC semi-final press release states the election-night total)
 
+- [ ] **los-angeles-ca 2014-06-03** (plateau check)
+      claimed: night ballots **636,186**, certified final **824,070**, share **77.2%**
+      numerator URL: https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), Los Angeles County: 100.0% precincts reporting, Ballots Cast 636,186, Last Report stamp 'Jun 4 3:07 a.m.' (First Report 'Jun 3 8:06 p.m.') at Wayback capture 20140606205510 (2014-06-06 20:55:10 UTC). SINGLE CAPTURE at 2014-06-06 20:55:10 UT
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for los-angeles-ca 2014-06-03
+      controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8))
+
 - [ ] **los-angeles-ca 2014-11-04** (plateau check)
       claimed: night ballots **1,147,248**, certified final **1,518,835**, share **75.53%**
       numerator URL: https://www.lavote.gov/Documents/News_Releases/11052014.pdf
@@ -330,6 +378,22 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for madera-ca 2012-06-05
       controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
+- [ ] **madera-ca 2014-06-03** (plateau check)
+      claimed: night ballots **15,719**, certified final **19,206**, share **81.84%**
+      numerator URL: https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), Madera County: 100.0% precincts reporting, Ballots Cast 15,719, Last Report stamp 'Jun 3 10:40 p.m.' (First Report 'Jun 3 8:00 p.m.') at Wayback capture 20140606205510 (2014-06-06 20:55:10 UTC). FROZEN: the identical Ballots Cast figure 15,
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for madera-ca 2014-06-03
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
+- [ ] **madera-ca 2014-11-04** (plateau check)
+      claimed: night ballots **22,031**, certified final **27,370**, share **80.49%**
+      numerator URL: https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), Madera County: 100.0% precincts reporting, Ballots Cast 22,031, Last Report stamp 'Nov 4 11:03 p.m.' (First Report 'Nov 4 8:07 p.m.') at Wayback capture 20141105141649 (2014-11-05 14:16:49 UTC). FROZEN: the identical Ballots Cast figure 22,
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for madera-ca 2014-11-04
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **madera-ca 2016-11-08** (plateau check)
       claimed: night ballots **35,364**, certified final **44,186**, share **80.0%**
       numerator URL: https://web.archive.org/web/20161112115134/http://votemadera.com/results/Election33/HTML/resultsc33.htm
@@ -370,6 +434,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for mendocino-ca 2012-06-05
       controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
+- [ ] **mendocino-ca 2014-06-03** (plateau check)
+      claimed: night ballots **8,669**, certified final **16,420**, share **52.8%**
+      numerator URL: https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), Mendocino County: 100.0% precincts reporting, Ballots Cast 8,669, Last Report stamp 'Jun 4 1:29 a.m.' (First Report 'Jun 3 8:47 p.m.') at Wayback capture 20140606205510 (2014-06-06 20:55:10 UTC). FROZEN: the identical Ballots Cast figure 8,
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for mendocino-ca 2014-06-03
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **mendocino-ca 2016-11-08** (plateau check)
       claimed: night ballots **12,032**, certified final **38,730**, share **31.07%**
       numerator URL: https://web.archive.org/web/20161113022000/http://www.co.mendocino.ca.us/acr/current.htm
@@ -401,6 +473,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU = final-of-night report. County 'Unofficial Election Night Results' detail header reads 'Last Updated: November 6, 2012 11:29 PM (Last of the Night)'. Registration & Turnout block: Vote by Mail Turnout 26,846 + Election Day Turnout 5,869 = Total 32,715 (45.07% of 72,592 reg). Napa released A
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for napa-ca 2012-11-06
       controller verdict: CONFIRMED (county report self-describes)
+
+- [ ] **napa-ca 2014-06-03** (plateau check)
+      claimed: night ballots **17,431**, certified final **28,179**, share **61.86%**
+      numerator URL: https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), Napa County: 100.0% precincts reporting, Ballots Cast 17,431, Last Report stamp 'Jun 3 11:43 p.m.' (First Report 'Jun 3 7:59 p.m.') at Wayback capture 20140606205510 (2014-06-06 20:55:10 UTC). FROZEN: the identical Ballots Cast figure 17,43
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for napa-ca 2014-06-03
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **napa-ca 2014-11-04** (plateau check)
       claimed: night ballots **19,515**, certified final **38,766**, share **50.34%**
@@ -457,6 +537,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU = 31,275, the END-OF-ELECTION-NIGHT tabulation. Official Nevada County Elections Office release (Registrar Gregory Diaz / Assistant Registrar Gail Smith quoted), republished verbatim by YubaNet: 'On Tuesday, Election Day, workers in the election office tabulated a total of 31,275 votes by 1 
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for nevada-ca 2012-11-06
       controller verdict: CONFIRMED (county release republished verbatim)
+
+- [ ] **nevada-ca 2014-06-03** (plateau check)
+      claimed: night ballots **17,752**, certified final **27,596**, share **64.33%**
+      numerator URL: https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), Nevada County: 100.0% precincts reporting, Ballots Cast 17,752, Last Report stamp 'Jun 4 12:23 a.m.' (First Report 'Jun 3 8:49 p.m.') at Wayback capture 20140606205510 (2014-06-06 20:55:10 UTC). FROZEN: the identical Ballots Cast figure 17,
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for nevada-ca 2014-06-03
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **nevada-ca 2014-11-04** (plateau check)
       claimed: night ballots **22,366**, certified final **39,629**, share **56.44%**
@@ -554,6 +642,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for placer-ca 2012-06-05
       controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
+- [ ] **placer-ca 2014-06-03** (plateau check)
+      claimed: night ballots **47,986**, certified final **70,016**, share **68.54%**
+      numerator URL: https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), Placer County: 100.0% precincts reporting, Ballots Cast 47,986, Last Report stamp 'Jun 4 2:06 a.m.' (First Report 'Jun 3 9:14 p.m.') at Wayback capture 20140606205510 (2014-06-06 20:55:10 UTC). FROZEN: the identical Ballots Cast figure 47,9
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for placer-ca 2014-06-03
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **placer-ca 2014-11-04** (plateau check)
       claimed: night ballots **76,411**, certified final **115,547**, share **66.1%**
       numerator URL: https://web.archive.org/web/20141115000402/http://www.placerelections.com/election-night-results.aspx
@@ -576,6 +672,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf
       look for: CA SoS per-county reporting-status page ('FENU'-coded row), Riverside County: 100.0% precincts reporting, Ballots Cast 189,087, Last Report stamp 'Jun 6 1:42 a.m.' (First Report 'Jun 5 8:11 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). SINGLE CAPTURE at 2012-06-08 22:26:55 UTC 
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2012-06-05
+      controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8))
+
+- [ ] **riverside-ca 2014-11-04** (plateau check)
+      claimed: night ballots **265,771**, certified final **357,764**, share **74.29%**
+      numerator URL: https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), Riverside County: 100.0% precincts reporting, Ballots Cast 265,771, Last Report stamp 'Nov 5 2:26 a.m.' (First Report 'Nov 4 8:20 p.m.') at Wayback capture 20141105141649 (2014-11-05 14:16:49 UTC). SINGLE CAPTURE at 2014-11-05 14:16:49 UTC 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2014-11-04
       controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8))
 
 - [ ] **riverside-ca 2016-06-07** (plateau check)
@@ -626,6 +730,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2012-11-06
       controller verdict: PLAUSIBLE (distinct on-time capture exists but is currently unservable)
 
+- [ ] **sacramento-ca 2014-06-03** (plateau check)
+      claimed: night ballots **122,053**, certified final **203,850**, share **59.87%**
+      numerator URL: https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), Sacramento County: 100.0% precincts reporting, Ballots Cast 122,053, Last Report stamp 'Jun 4 12:11 a.m.' (First Report 'Jun 3 8:09 p.m.') at Wayback capture 20140606205510 (2014-06-06 20:55:10 UTC). SINGLE CAPTURE at 2014-06-06 20:55:10 UT
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2014-06-03
+      controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8))
+
 - [ ] **sacramento-ca 2014-11-04** (plateau check)
       claimed: night ballots **195,317**, certified final **330,817**, share **59.04%**
       numerator URL: https://web.archive.org/web/20141106101214/http://www.eresults.saccounty.net/
@@ -658,6 +770,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2024-11-05
       controller verdict: CONFIRMED (county schedule plus night report)
 
+- [ ] **san-bernardino-ca 2014-11-04** (plateau check)
+      claimed: night ballots **231,219**, certified final **293,283**, share **78.84%**
+      numerator URL: https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), San Bernardino County: 100.0% precincts reporting, Ballots Cast 231,219, Last Report stamp 'Nov 5 1:50 a.m.' (First Report 'Nov 4 8:09 p.m.') at Wayback capture 20141105141649 (2014-11-05 14:16:49 UTC). SINGLE CAPTURE at 2014-11-05 14:16:49
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-bernardino-ca 2014-11-04
+      controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8))
+
 - [ ] **san-bernardino-ca 2024-11-05** (plateau check)
       claimed: night ballots **434,108**, certified final **771,834**, share **56.24%**
       numerator URL: https://web.archive.org/web/20241106224114/https://elections.sbcounty.gov/elections/2024/1105/results/
@@ -665,6 +785,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: Election-night PLATEAU = 434,108 ballots ('Voters Cast: 434,108 of 1,198,556', 36.22% of registered) at Precincts Reported 2,872 of 2,872 (100.00%), from San Bernardino's OFFICIAL Clarity-style results page whose header reads literally 'Final Unofficial Election Night Results' with 'Next Update: Nov
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-bernardino-ca 2024-11-05
       controller verdict: CONFIRMED (county posting schedule brackets the capture)
+
+- [ ] **san-diego-ca 2014-11-04** (plateau check)
+      claimed: night ballots **509,214**, certified final **692,434**, share **73.54%**
+      numerator URL: https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), San Diego County: 100.0% precincts reporting, Ballots Cast 509,214, Last Report stamp 'Nov 5 1:14 a.m.' (First Report 'Nov 4 8:03 p.m.') at Wayback capture 20141105141649 (2014-11-05 14:16:49 UTC). SINGLE CAPTURE at 2014-11-05 14:16:49 UTC 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-diego-ca 2014-11-04
+      controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8))
 
 - [ ] **san-diego-ca 2016-06-07** (plateau check)
       claimed: night ballots **468,340**, certified final **775,930**, share **60.36%**
@@ -729,6 +857,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU = Final Election Night Report (UPGRADED from prior 'not sourceable'). Official San Mateo County 'Precinct Turnout — Total Voters — Unofficial' report (precinct_report_6.pdf, linked from smcacre.gov/elections/november-6-2012-election-results as the 'Preliminary report available after Semi Fin
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-mateo-ca 2012-11-06
       controller verdict: CONFIRMED (county-archived night turnout report)
+
+- [ ] **san-mateo-ca 2014-06-03** (plateau check)
+      claimed: night ballots **70,651**, certified final **97,447**, share **72.5%**
+      numerator URL: https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), San Mateo County: 100.0% precincts reporting, Ballots Cast 70,651, Last Report stamp 'Jun 3 11:30 p.m.' (First Report 'Jun 3 8:05 p.m.') at Wayback capture 20140606205510 (2014-06-06 20:55:10 UTC). SINGLE CAPTURE at 2014-06-06 20:55:10 UTC 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-mateo-ca 2014-06-03
+      controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8))
 
 - [ ] **san-mateo-ca 2014-11-04** (plateau check)
       claimed: night ballots **112,592**, certified final **164,453**, share **68.46%**
@@ -825,6 +961,22 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: CA SoS per-county reporting-status page ('FENU'-coded row), Tehama County: 100.0% precincts reporting, Ballots Cast 9,993, Last Report stamp 'Jun 6 12:06 a.m.' (First Report 'Jun 5 8:07 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). SINGLE CAPTURE at 2012-06-08 22:26:55 UTC carr
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for tehama-ca 2012-06-05
       controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8))
+
+- [ ] **tehama-ca 2014-06-03** (plateau check)
+      claimed: night ballots **8,976**, certified final **13,016**, share **68.96%**
+      numerator URL: https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('CCU'-coded row), Tehama County: 100.0% precincts reporting, Ballots Cast 8,976, Last Report stamp 'Jun 4 1:28 a.m.' (First Report 'Jun 3 8:25 p.m.') at Wayback capture 20140606205510 (2014-06-06 20:55:10 UTC). FROZEN: the identical Ballots Cast figure 8,976 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for tehama-ca 2014-06-03
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
+- [ ] **tehama-ca 2014-11-04** (plateau check)
+      claimed: night ballots **10,558**, certified final **15,791**, share **66.86%**
+      numerator URL: https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('CCU'-coded row), Tehama County: 100.0% precincts reporting, Ballots Cast 10,558, Last Report stamp 'Nov 5 12:26 a.m.' (First Report 'Nov 4 8:26 p.m.') at Wayback capture 20141105141649 (2014-11-05 14:16:49 UTC). FROZEN: the identical Ballots Cast figure 10,5
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for tehama-ca 2014-11-04
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **tehama-ca 2022-11-08** (plateau check)
       claimed: night ballots **11,878**, certified final **20,819**, share **57.05%**
