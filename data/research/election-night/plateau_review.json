@@ -302,6 +302,27 @@
  },
  {
   "slug": "san-diego-ca",
+  "date": "2012-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "election-night registrar figure held through the county's next press release",
+  "evidence": "North County Times, 2:25 a.m. report, all precincts reporting, 475,000 absentee/provisional remaining; the county's own Nov. 7 press release (US Fed News, Nov 9) restates the identical 475,000 figure before any post-night update, proving it had not moved since election night; certified 1,203,265 minus 475,000 = 728,265 (60.52%)"
+ },
+ {
+  "slug": "san-diego-ca",
+  "date": "2014-11-04",
+  "verdict": "CONFIRMED",
+  "basis": "county statement self-describes as unchanged since election night, corroborated by three independent bylines",
+  "evidence": "Times of San Diego (Nov 6): 509,214 voters cast a ballot per CA SoS, ~180,000 outstanding; U-T (Nov 6, two separate bylines) both quote the same ~180,000 remaining and state results were 'unchanged from election night. No new results were released Wednesday'; certified 692,434, 509,214/692,434 = 73.54%"
+ },
+ {
+  "slug": "san-diego-ca",
+  "date": "2016-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "election-night registrar figure held across Wednesday afternoon through Thursday print, three independent bylines",
+  "evidence": "U-T Web Edition (Nov 9, 'as of late Wednesday afternoon... not expected to release more results until Thursday'): 620,000 uncounted provisional/mail-in; two Nov 10 print pieces restate the identical 620,000 figure attributed to Registrar Vu speaking Wednesday, with all precincts counted; certified 1,346,513 minus 620,000 = 726,513 (53.96%)"
+ },
+ {
+  "slug": "san-diego-ca",
   "date": "2018-11-06",
   "verdict": "CONFIRMED",
   "basis": "night stamp, captured the same night",

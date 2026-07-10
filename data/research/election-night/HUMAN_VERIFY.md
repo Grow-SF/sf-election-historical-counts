@@ -55,6 +55,30 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2024-11-05
       controller verdict: REFUTED_AS_PLATEAU (next-day canvass update, already documented in the note)
 
+- [ ] **san-diego-ca 2012-11-06** (secondary confidence)
+      claimed: night ballots **728,265**, certified final **1,203,265**, share **60.52%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14273902C00B3B00
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf
+      look for: Certified final (denominator) is SOLID: CA SoS Statement of Vote, Voter Participation Statistics by County, San Diego Total Voters 1,203,265 (= Precinct 528,258 + VBM 675,007). Election-night NUMERATOR not sourceable: San Diego did NOT use the livevoterturnout.com live-results system until 2018 (ear
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-diego-ca 2012-11-06
+      controller verdict: CONFIRMED (election-night registrar figure held through the county's next press release)
+
+- [ ] **san-diego-ca 2014-11-04** (secondary confidence)
+      claimed: night ballots **509,214**, certified final **692,434**, share **73.54%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1A43A319608C8500
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: Certified final (denominator) is SOLID: CA SoS Statement of Vote, Voter Participation Statistics by County, San Diego Total Voters 692,434 (= Precinct 242,638 + VBM 449,796). Election-night NUMERATOR not sourceable: SD did not use the livevoterturnout.com live-results system until 2018; the 2014 ROV
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-diego-ca 2014-11-04
+      controller verdict: CONFIRMED (county statement self-describes as unchanged since election night, corroborated by three independent bylines)
+
+- [ ] **san-diego-ca 2016-11-08** (secondary confidence)
+      claimed: night ballots **726,513**, certified final **1,346,513**, share **53.96%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16871C80DC62E438
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: Certified final (denominator) is SOLID: CA SoS Statement of Vote, Voter Participation Statistics by County, San Diego Total Voters 1,346,513 (= Precinct 489,576 + VBM 856,937). Election-night NUMERATOR not sourceable: SD did not use livevoterturnout.com until 2018. In 2016 the ROV homepage 'Election
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-diego-ca 2016-11-08
+      controller verdict: CONFIRMED (election-night registrar figure held across Wednesday afternoon through Thursday print, three independent bylines)
+
 - [ ] **santa-clara-ca 2014-11-04** (secondary confidence)
       claimed: night ballots **251,620**, certified final **404,166**, share **62.26%**
       numerator URL: https://web.archive.org/web/20141106082527/http://results.enr.clarityelections.com/CA/Santa_Clara/54209/148095/json/sum.json

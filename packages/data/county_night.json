@@ -810,7 +810,7 @@
       "name": "San Diego",
       "slug": "san-diego-ca",
       "control": false,
-      "complete": false,
+      "complete": true,
       "adoption": {
         "epollbook": 2022,
         "asv": 2024
@@ -819,32 +819,32 @@
         {
           "year": 2012,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 60.52,
+          "ballots": 728265,
           "final": 1203265,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14273902C00B3B00"
         },
         {
           "year": 2014,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 73.54,
+          "ballots": 509214,
           "final": 692434,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1A43A319608C8500"
         },
         {
           "year": 2016,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 53.96,
+          "ballots": 726513,
           "final": 1346513,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16871C80DC62E438"
         },
         {
           "year": 2018,

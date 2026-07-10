@@ -113,8 +113,11 @@ verify_en_* scripts to regenerate).
 | san-bernardino-ca | 2024-11-05 | denominator | 771,834 | VERIFIED | 2,872 1,472,596 1,197,953 154,974 616,860 771,834 79.92% 64.43% 52.41% |
 | san-bernardino-ca | 2024-11-05 | numerator | 434,108 | VERIFIED | render-verified: Precincts Reported: 2,872 of 2,872 (100.00%) Voters Cast: 434,108 of 1,198,556 (36.22%) Cards Cast: 1,2 |
 | san-diego-ca | 2012-11-06 | denominator | 1,203,265 | VERIFIED | go 2,064 2,094,093 1,563,093 528,258 675,007 1,203,265 56.10% 76.98% 57.46% |
+| san-diego-ca | 2012-11-06 | numerator | 728,265 | VERIFIED | render-verified: US Fed News, Nov 9 2012, republishing verbatim a San Diego County press release dated Nov. 7: 'Those ba |
 | san-diego-ca | 2014-11-04 | denominator | 692,434 | VERIFIED | o 2,001 2,135,863 1,546,924 242,638 449,796 692,434 64.96% 44.76% 32.42% |
+| san-diego-ca | 2014-11-04 | numerator | 509,214 | VERIFIED | render-verified: Times of San Diego, Nov 6 2014: 'out of more than 1.5 million registered voters, only 509,214 voters ca |
 | san-diego-ca | 2016-11-08 | denominator | 1,346,513 | VERIFIED | iego 2,175 2,191,191 1,652,570 489,576 856,937 1,346,513 63.64% 81.48% 61.45% |
+| san-diego-ca | 2016-11-08 | numerator | 726,513 | VERIFIED | render-verified: San Diego Union-Tribune Web Edition, Nov 9 2016, 'Issa still leading, barely': 'as of late Wednesday af |
 | san-diego-ca | 2018-11-06 | denominator | 1,173,924 | VERIFIED | 2,136 2,224,081 1,741,707 369,655 804,269 1,173,924 68.51% 67.40% 52.78% |
 | san-diego-ca | 2018-11-06 | numerator | 536,734 | VERIFIED | (dataArray, colorObject, elem); })(); Ballots Cast 536,734 Registered Voters 1,767,300 |
 | san-diego-ca | 2022-11-08 | denominator | 1,043,490 | VERIFIED | 2,718 2,349,554 1,924,634 104,388 939,102 1,043,490 90.00% 54.22% 44.41% |
