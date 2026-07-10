@@ -81,3 +81,35 @@ election_night_pct=73.93, confidence=secondary, source_url_night=
 https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/15171395564B90B8
 render_verified.json entry added (method newsbank-sfpl-manual). VERIFY.md table +
 detail bullet updated. plateau_review.json CONFIRMED entry added.
+
+## Fix pass (2026-07-09, review, Finding 2)
+
+Re-read both mirrored articles (`mirror/newsbank/2014-digesting-the-results.txt`,
+`mirror/newsbank/2014-soria-vote-update.txt`) in full against the reviewer's finding
+that the Nov 6/Nov 8 two-article bracket is an arithmetic coincidence (~42,600 vs
+~22,000+20,400=~42,400 from two independently-approximated figures), not an explicit
+county-schedule-bracketing statement like 2012's "first vote-count update since
+Tuesday's election" or 2018's "will not announce updated vote totals until Friday
+afternoon". Agreed: downgraded verdict CONFIRMED to PLAUSIBLE in `plateau_review.json`
+and `fresno-ca.json` (dated append, prior text preserved).
+
+Also confirmed the reviewer's required disclosure: "Digesting the results" states
+Merced County's remaining-ballot figure as "officials said late Wednesday," but its
+own Fresno County figure ("approximately 42,600 Fresno County mail and provisional
+ballots left to count") carries no such attribution -- it may be the reporter's own
+approximation rather than a stated official count. Appended to both `fresno-ca.json`
+and `VERIFY.md`.
+
+Comparable determination: re-read confirms comparable stays TRUE. The Nov 6 article's
+736-vote Costa-Tacherra lead (quoted in the same breath as the 42,600 figure) is
+independently identified by the Nov 8 "Soria" article as the state "on election
+night" ("Madera's update pushed Republican Tacherra's lead -- 736 on election night --
+to 1,775"), and that article separately establishes the Wednesday-morning post held
+frozen until Friday's updates across all the county races it covers. So the
+Thursday-dated 42,600 figure describes the frozen Tuesday-night/Wednesday-morning
+plateau, not a later Thursday-specific state; it targets the plateau directly, same
+as the Madera 2014 CEILING precedent would require IF the snapshot had instead been
+shown to be a later state (it was not).
+
+Numeric fields (120,820 / 163,420 = 73.93%) unchanged. Only the verdict and note/
+VERIFY.md prose changed, via dated appends.

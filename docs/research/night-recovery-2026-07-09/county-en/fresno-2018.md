@@ -72,3 +72,59 @@ before this task reached it; per the coordinator's explicit instruction this tas
 left that row untouched. All four Fresno rows (2012, 2014, 2018, 2022) plus the
 already-CONFIRMED 2016/2024 rows are now landed, so Fresno reaches the chart with
 a complete six-election series.
+
+## Fix pass (2026-07-09, review, Finding 1)
+
+Reviewer flagged that this row's landed leg rests entirely on ONE article (Nov 8
+2018 "It's all over but the counting"), whose only bracketing evidence is Orth's own
+forward-looking promise ("Fresno County will not announce updated vote totals until
+Friday afternoon") -- never confirmed by a second, later source that the promise was
+kept (the pattern the 2012 row uses: a companion Friday-or-later piece).
+
+Ran the requested NewsBank search (Fresno Bee, Nov 9-12 2018 window, real logged-in
+Chrome on port 9222, puppeteer-core `connect({browserURL:'http://127.0.0.1:9222'})`
+reusing `(await browser.pages())[0]`, 2-3s between searches):
+
+- `"Fresno County" ballots update` 11/09-11/12/2018: 2 hits, including "Election 2018
+  - Hurtado increases lead, Janz closes slightly on Nunes" (Nov 11 2018, docref
+  news/16FA94EDA82A6CC8) -- **the decisive find**.
+- `Orth count Friday` 11/09-11/12/2018: 0 hits.
+- `"votes counted" Friday` 11/09-11/12/2018: 0 hits.
+- `"100,000 ballots"` 11/09-11/12/2018: 0 hits.
+- `"updated vote totals" Friday` 11/09-11/12/2018: 0 hits.
+- `Orth "ballots" counted` 11/09-11/12/2018: 0 hits.
+- Follow-up sanity checks for an earlier (Wed/Thu) interim update:
+  `"Fresno County" "vote count" Thursday` 11/08-11/09/2018: 0 hits.
+  `Fresno "vote totals" Wednesday` 11/07-11/09/2018: 3 hits, all the already-known
+  Nov 8 "It's all over but the counting" (no distinct interim-update article).
+
+Opened and mirrored (gitignored `mirror/newsbank/2018-hurtado-janz-nunes-friday-
+update.txt`): "Election 2018 - Hurtado increases lead, Janz closes slightly on
+Nunes" (Nov 11 2018, docref news/16FA94EDA82A6CC8, Rory Appleton): "Several central
+San Joaquin Valley counties updated their election results Friday... Fresno County
+-- About 23,000 of the 100,000 remaining ballots were counted and included in a
+Friday update from the Fresno County Clerk's office. The next update on the
+remaining 77,000 votes will come Wednesday at 3 p.m." (100,000-23,000=77,000,
+arithmetic checks out).
+
+This is a genuinely separate article (published Nov 11, three days after the
+original Nov 8 piece, by a different byline) independently confirming that Orth's
+promise was kept: no county release moved the 100,000-outstanding count between
+election night and Friday's update, matching the 2012 row's gold-standard
+bracketing pattern (two independent articles) rather than resting on a single
+article's forward-looking statement alone.
+
+## Verdict (updated)
+
+CONFIRMED stands, now with an independent bracketing leg in addition to the
+self-describing Wednesday-morning statement. Numeric fields (156,972 / 256,972 =
+61.09%) unchanged.
+
+## Landed (correction)
+
+`fresno-ca.json` 2018-11-06 note: dated append (2026-07-09) adding the Nov 11 2018
+docref and quote. `plateau_review.json` evidence/basis updated to cite the new leg
+(verdict unchanged, CONFIRMED). `VERIFY.md` detail bullet appended with the same
+correction. `render_verified.json` unchanged (source_url_night still the original
+Nov 8 docref; the new article is corroborating evidence in the note/plateau_review,
+not a new numerator source).
