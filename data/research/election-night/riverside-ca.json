@@ -45,15 +45,15 @@
     {
       "date": "2018-11-06",
       "type": "midterm",
-      "election_night_ballots": null,
+      "election_night_ballots": 300000,
       "certified_final": 650545,
-      "election_night_pct": null,
+      "election_night_pct": 46.12,
       "vs_epollbook": "pre",
       "vs_asv": "pre",
       "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
-      "source_url_night": null,
-      "confidence": "none",
-      "note": "Certified final = 650,545 ballots (Election Day 194,606 + VBM 455,939) from CA SoS 2018 Voter Participation Statistics by County; corroborated by Riverside Summary_Final.pdf (Run Date/Time 12/7/18). Primary. Election-night plateau not sourceable: earliest Wayback capture of the eresults page is 2018-11-28 (post-certification); no election-night-stage snapshot exists. Re-verified 2026-06: Riverside's /Elections/20181106/docs/ press-release archive runs candidate-filing -> VBM -> early-voting -> 20181105_Release_Encouraged and 20181106_QualWriteInResults, then certification -- NO morning-after 'semi-official results' release stating an election-night total; plateau remains unsourceable. DEAD-END NOTE EXTENSION (2026-07-09, Task 9): checked whether Riverside's elections CMS (voteinfo.net / livevoterturnout.com) runs CivicPlus DocumentCenter (the module that yields guessable sequential report IDs for Nevada and Napa counties) -- it does not (CDX prefix probe of www.rivco.org/DocumentCenter: 0 captures), so no ID-walk was possible. Checked the brief's named registrar Twitter handle @RivCoVote via Wayback CDX (exact URL and matchType=prefix, unrestricted date range): zero captures under any form; a small set of plausible alternate handles (RivCoElections, VoteRiverside, RiversideVotes) also returned zero. No Facebook page candidate for Riverside's registrar was found either. No new route found; row remains as documented above."
+      "source_url_night": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F9051D0AED5530",
+      "confidence": "secondary",
+      "note": "Certified final = 650,545 ballots (Election Day 194,606 + VBM 455,939) from CA SoS 2018 Voter Participation Statistics by County; corroborated by Riverside Summary_Final.pdf (Run Date/Time 12/7/18). Primary. Wayback/press-release/DocumentCenter/social-handle routes exhausted (earliest eresults capture is 2018-11-28 post-certification; see prior dead-end history). RECOVERY (2026-07-09, Task 7, NewsBank Press-Enterprise): 'Elections - Many Inland ballots still not processed or counted' (docref news/16F9051D0AED5530): 'Final unofficial vote counts aren't expected to be released until 6 p.m. today for Riverside County ... Riverside County Registrar of Voters Rebecca Spencer said she had a crew of about 300 workers processing ballots overnight Tuesday. According to Wednesday vote totals, they counted about 300,000 ballots. On Wednesday morning, Spencer's staff started going over about 200,000 vote-by-mail, 45,000 provisional and 5,000 damaged ballots.' Spencer is directly quoted the same Wednesday: 'We're not counting anything today ... We are sorting out all the materials from the polling places' -- confirming the 300,000 figure was frozen (no counting that day) at the time of the report, a self-confirming plateau. PLATEAU = 300,000 (directly stated, not a subtraction derivation). 300,000/650,545 = 46.12%. Below the general ~55-75% precinct-era band but explicitly within the brief's 'mid-40s-to-60s on-night shares are plausible' carve-out for Riverside's notoriously slow 2010s counting (this election also saw unusually high turnout and long lines per the same article, plausibly slowing the count further). Comparable true. Confidence secondary (news-quoted registrar figure, round number)."
     },
     {
       "date": "2022-11-08",

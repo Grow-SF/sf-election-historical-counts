@@ -594,7 +594,7 @@
       "name": "Riverside",
       "slug": "riverside-ca",
       "control": false,
-      "complete": false,
+      "complete": true,
       "adoption": {
         "epollbook": 2022,
         "asv": 2025
@@ -633,12 +633,12 @@
         {
           "year": 2018,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 46.12,
+          "ballots": 300000,
           "final": 650545,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F9051D0AED5530"
         },
         {
           "year": 2022,

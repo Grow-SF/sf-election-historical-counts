@@ -551,5 +551,12 @@
   "verdict": "CONFIRMED",
   "basis": "registrar-derived outstanding-ballot figure repeated across three articles (two verbatim, one corroborating), bracketed unchanged by the registrar's own posting schedule and by direction/magnitude consistency with the subsequent Friday update",
   "evidence": "'One Eastvale council race especially close' (news/16095824826D46E0) and 'Corona voters back council districts, pick new treasurer' (news/160958246D11FAA8): 'posted by the Riverside County Registrar of Voters Office early Wednesday ... Officials have yet to count 262,000 provisional, damaged and vote-by-mail ballots submitted countywide.' 'Familiar faces on southwest councils' (news/16095823F5443EE8): 'more than 200,000 ballots need to be counted' and 'The next update from the registrar's office is set for 6 p.m. Friday.' 'Latest vote count: No big changes' (news/160A0028EF5A1DB8, Nov 12) shows 212,000 remaining on Friday, consistent with 262,000 minus ~2 days processing. 769,193 minus 262,000 = 507,193 (65.94%), closely matching SF's own 2016 calibration (66%)."
+ },
+ {
+  "slug": "riverside-ca",
+  "date": "2018-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "directly-stated overnight-Tuesday count, self-confirming plateau via the registrar's own same-day quote that no counting was occurring",
+  "evidence": "'Elections - Many Inland ballots still not processed or counted' (news/16F9051D0AED5530): 'Riverside County Registrar of Voters Rebecca Spencer said she had a crew of about 300 workers processing ballots overnight Tuesday. According to Wednesday vote totals, they counted about 300,000 ballots.' Spencer, quoted the same Wednesday: 'We're not counting anything today ... We are sorting out all the materials from the polling places' -- confirms the count was frozen at 300,000 as of the article's writing. 300,000/650,545 = 46.12%, within the brief's 'mid-40s-to-60s' carve-out for Riverside's slow 2010s counting."
  }
 ]

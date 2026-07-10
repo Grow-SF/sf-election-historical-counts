@@ -95,6 +95,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2016-11-08
       controller verdict: CONFIRMED (registrar-derived outstanding-ballot figure repeated across three articles (two verbatim, one corroborating), bracketed unchanged by the registrar's own posting schedule and by direction/magnitude consistency with the subsequent Friday update)
 
+- [ ] **riverside-ca 2018-11-06** (secondary confidence)
+      claimed: night ballots **300,000**, certified final **650,545**, share **46.12%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F9051D0AED5530
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: Certified final = 650,545 ballots (Election Day 194,606 + VBM 455,939) from CA SoS 2018 Voter Participation Statistics by County; corroborated by Riverside Summary_Final.pdf (Run Date/Time 12/7/18). Primary. Wayback/press-release/DocumentCenter/social-handle routes exhausted (earliest eresults captu
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2018-11-06
+      controller verdict: CONFIRMED (directly-stated overnight-Tuesday count, self-confirming plateau via the registrar's own same-day quote that no counting was occurring)
+
 - [ ] **riverside-ca 2024-11-05** (secondary confidence)
       claimed: night ballots **611,101**, certified final **959,098**, share **63.7%**
       numerator URL: https://web.archive.org/web/20241107034053/https://www.livevoterturnout.com/ENR/riversidecaenr/5/en/Index_5.html

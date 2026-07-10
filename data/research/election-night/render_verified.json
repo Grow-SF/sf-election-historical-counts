@@ -96,5 +96,12 @@
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16095824826D46E0",
   "evidence": "The figures, posted by the Riverside County Registrar of Voters Office early Wednesday, are not final. Officials have yet to count 262,000 provisional, damaged and vote-by-mail ballots submitted countywide. Certified final 769,193 minus 262,000 = 507,193 counted through election night (65.94%).",
   "method": "newsbank-sfpl-manual"
+ },
+ {
+  "slug": "riverside-ca",
+  "date": "2018-11-06",
+  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F9051D0AED5530",
+  "evidence": "Riverside County Registrar of Voters Rebecca Spencer said she had a crew of about 300 workers processing ballots overnight Tuesday. According to Wednesday vote totals, they counted about 300,000 ballots. \"We're not counting anything today,\" Spencer said. 300,000/650,545 = 46.12%.",
+  "method": "newsbank-sfpl-manual"
  }
 ]
