@@ -367,8 +367,8 @@
   "slug": "santa-clara-ca",
   "date": "2016-11-08",
   "verdict": "PLAUSIBLE",
-  "basis": "documented floor: same-contest ratio (Measure A/B) at printed precinct percentage",
-  "evidence": "Mercury News Nov 9 2016 'RESULTS' page (docref news/1608FF6D81BADB18): Measure A 299,508 + Measure B 303,678 total votes at '41% of precincts'; floor 303,678 (41.91%) is self-consistent across both measures but well below the calibration band, so PLAUSIBLE not CONFIRMED (no independent bracket proving it was the LAST report, only that it predates it)"
+  "basis": "documented NON-COMPARABLE mid-count floor: same-contest ratio (Measure A/B) at printed precinct percentage, flagged comparable=false",
+  "evidence": "Mercury News Nov 9 2016 'RESULTS' page (docref news/1608FF6D81BADB18): Measure A 299,508 + Measure B 303,678 total votes at '41% of precincts'; floor 303,678 (41.91%) is self-consistent across both measures but is a mid-count snapshot (41% precincts reporting) well below the row's own 55-65% calibration estimate, so it is flagged comparable=false and excluded from pre/post comparisons; PLAUSIBLE not CONFIRMED (no independent bracket proving it was the LAST report, only that it predates it); true plateau bracketed 41.91%-61% per the note's post-night ~61%-counted estimate"
  },
  {
   "slug": "santa-clara-ca",

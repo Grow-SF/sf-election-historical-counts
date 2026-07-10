@@ -59,15 +59,15 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       claimed: night ballots **303,678**, certified final **724,596**, share **41.91%**
       numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1608FF6D81BADB18
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf
-      look for: PLATEAU = documented FLOOR (UPGRADED from prior null via NewsBank San Jose Mercury News; Clarity event 64404 routes remain exhausted, see below). The Nov 9, 2016 Mercury News 'RESULTS' page (Bay Area News Group, p8S, NewsBank docref news/1608FF6D81BADB18, source 'Mercury News, The (San Jose, CA)') p
+      look for: ELECTION-NIGHT PLATEAU NOT SOURCEABLE. Clarity event 64404 (Web01 layout): the only election-night-period capture is a pre-poll-close placeholder (version 178468, Wayback 20161107003316 = Nov 6 4:33 PM PT, Ballots Cast 0). The Nov 8 election-night data versions were never crawled; the next captures 
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2016-11-08
-      controller verdict: PLAUSIBLE (documented floor: same-contest ratio (Measure A/B) at printed precinct percentage)
+      controller verdict: PLAUSIBLE (documented NON-COMPARABLE mid-count floor: same-contest ratio (Measure A/B) at printed precinct percentage, flagged comparable=false)
 
 - [ ] **santa-clara-ca 2018-11-06** (secondary confidence)
       claimed: night ballots **304,000**, certified final **625,425**, share **48.61%**
       numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F946169D59A048
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
-      look for: PLATEAU = documented CEILING, comparable:false (UPGRADED from prior null via NewsBank San Jose Mercury News; Clarity event 92418 routes remain exhausted, see below). Annie Sciacca and Joseph Geha, 'WHY BAY AREA COUNTIES STILL HAVE SO MANY VOTES TO COUNT' (Mercury News, Nov 8 2018 edition, p1B, NewsB
+      look for: ELECTION-NIGHT PLATEAU NOT SOURCEABLE. Clarity event 92418 (Web02 SPA): NO election-night (Nov 6-7 2018) data version was crawled; the earliest readable JSON is version 221262, sum.json GOVERNOR BC = 443,266 at 1,098/1,098 precincts, electionsettings '11/11/2018 4:43:32 PM PST' -- a DEEP CANVASS cou
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2018-11-06
       controller verdict: PLAUSIBLE (documented ceiling: Wednesday-afternoon post-night newspaper estimate, tightened from the prior 5-days-post deep canvass)
 
