@@ -31,6 +31,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for fresno-ca 2012-11-06
       controller verdict: CONFIRMED (county clerk's own election-night figure, bracketed unchanged by the county's own posting schedule (next update days later))
 
+- [ ] **fresno-ca 2014-11-04** (secondary confidence)
+      claimed: night ballots **120,820**, certified final **163,420**, share **73.93%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/15171395564B90B8
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: Certified final 163,420 ballots cast (CA SoS; precinct 64,901 + VBM 98,519; 39.24% of 416,433 registered). Pre-adoption, precinct-based. Election-night PLATEAU not sourceable. The only archived 2014-general GEMS reports are the OFFICIAL FINAL canvass version: Results-2014-11-04.htm (internal header 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for fresno-ca 2014-11-04
+      controller verdict: CONFIRMED (certified-minus-outstanding derivation self-describing as through election night, bracketed unchanged by the county's own posting schedule)
+
 - [ ] **madera-ca 2014-11-04** (secondary confidence)
       claimed: night ballots **22,012**, certified final **27,370**, share **80.42%**
       numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/15175914B6DDC6C0

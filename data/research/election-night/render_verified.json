@@ -61,5 +61,12 @@
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/142721EBD5B41378",
   "evidence": "Fresno Bee, Nov 8 2012, 'Valley ballot-counting continues': County Clerk Brandi Orth: 'So far, about 160,400 ballots have been counted, putting voter turnout at 39.1%.' Bracketed as unchanged election-night data by the companion Nov 10 2012 item 'Election throws Valley GOP roots deep' (docref news/142872B3AAB99388): 'Fresno County on Friday did its first vote-count update since Tuesday's election... counted 19,000 absentee ballots since election night and has 78,000 still to count.' 160,400 / 261,652 certified = 61.30%.",
   "method": "newsbank-sfpl-manual"
+ },
+ {
+  "slug": "fresno-ca",
+  "date": "2014-11-04",
+  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/15171395564B90B8",
+  "evidence": "Fresno Bee, Nov 6 2014, 'Digesting the results': 'With the Election Day ballot counting finished, Tacherra holds a slim 736-vote lead over Costa' and 'approximately 42,600 Fresno County mail and provisional ballots left to count.' Bracketed as unchanged through the reporting gap by the companion Nov 8 2014 item 'Soria takes council race lead - Vote update' (docref news/151AB2A3C7094500): 'The initial vote totals -- posted early Wednesday morning after Tuesday's election -- showed Catalano ahead by 20 votes' versus Friday's separately-dated update, plus 'more than 22,000' processed and '10,300 absentees and 10,100 provisionals... remain to be counted' (20,400) as of that Friday, totalling ~42,400 remaining after Tuesday night (matches the ~42,600 Thursday figure). Certified final 163,420 minus ~42,600 = 120,820 counted through election night (73.93%).",
+  "method": "newsbank-sfpl-manual"
  }
 ]

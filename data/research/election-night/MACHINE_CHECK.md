@@ -12,6 +12,7 @@ verify_en_* scripts to regenerate).
 | fresno-ca | 2012-11-06 | denominator | 261,652 | VERIFIED | 611 559,268 410,188 119,543 142,109 261,652 54.31% 63.79% 46.78% |
 | fresno-ca | 2012-11-06 | numerator | 160,400 | VERIFIED | render-verified: Fresno Bee, Nov 8 2012, 'Valley ballot-counting continues': County Clerk Brandi Orth: 'So far, about 16 |
 | fresno-ca | 2014-11-04 | denominator | 163,420 | VERIFIED | 577 572,045 416,433 64,901 98,519 163,420 60.29% 39.24% 28.57% |
+| fresno-ca | 2014-11-04 | numerator | 120,820 | VERIFIED | render-verified: Fresno Bee, Nov 6 2014, 'Digesting the results': 'With the Election Day ballot counting finished, Tache |
 | fresno-ca | 2016-11-08 | denominator | 291,890 | VERIFIED | 592 583,238 437,423 131,787 160,103 291,890 54.85% 66.73% 50.05% |
 | fresno-ca | 2016-11-08 | numerator | 177,183 | VERIFIED | es." 11/9/2016 1:42:19 AM Registered Voters 437667 - Cards Cast 177183 40.48% Num. Report Precinct 592 - Num. Reporting  |
 | fresno-ca | 2018-11-06 | denominator | 256,972 | VERIFIED | 640 597,497 456,891 93,581 163,391 256,972 63.58% 56.24% 43.01% |

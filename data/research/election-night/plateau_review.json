@@ -516,5 +516,12 @@
   "verdict": "CONFIRMED",
   "basis": "county clerk's own election-night figure, bracketed unchanged by the county's own posting schedule (next update days later)",
   "evidence": "Fresno Bee Nov 8 2012 quotes Clerk Brandi Orth: 'So far, about 160,400 ballots have been counted, putting voter turnout at 39.1%' (matches 160,400/410,188 registered exactly); the Nov 10 2012 companion item states 'Fresno County on Friday did its first vote-count update since Tuesday's election', proving no interim release moved the count between election night and Friday. 160,400/261,652 = 61.30%."
+ },
+ {
+  "slug": "fresno-ca",
+  "date": "2014-11-04",
+  "verdict": "CONFIRMED",
+  "basis": "certified-minus-outstanding derivation self-describing as through election night, bracketed unchanged by the county's own posting schedule",
+  "evidence": "Fresno Bee Nov 6 2014 'Digesting the results': 'With the Election Day ballot counting finished... approximately 42,600 Fresno County mail and provisional ballots left to count.' The Nov 8 2014 companion 'Soria takes council race lead' shows no county update between the Wednesday-morning post and Friday 3pm, and independently corroborates the remaining-ballot pool (more than 22,000 processed by Friday plus 10,300+10,100 still remaining = ~42,400, matching the Thursday figure). 163,420 minus ~42,600 = 120,820 (73.93%); cross-checked against San Diego's own CONFIRMED 2014 row (73.54%, same election)."
  }
 ]
