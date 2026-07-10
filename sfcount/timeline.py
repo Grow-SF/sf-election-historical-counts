@@ -37,7 +37,7 @@ def stage_parse(data_dir: Path, raw_dir: Path, eras: tuple[str, ...]) -> None:
         el["election_date"].replace("-", ""): el
         for el in load_elections(data_dir, eras)
     }
-    manifest = load_manifest(data_dir / "manifest.csv")
+    manifest = load_manifest(data_dir / "pipeline" / "manifest.csv")
     rows, failures = [], []
 
     for path in sorted(raw_dir.glob("*/*/summary.*")):
@@ -104,7 +104,8 @@ def stage_parse(data_dir: Path, raw_dir: Path, eras: tuple[str, ...]) -> None:
         w.writeheader()
         for r in rows:
             w.writerow({k: ("" if v is None else v) for k, v in r.items()})
-    with open(data_dir / "parse_failures.csv", "w", newline="") as f:
+    (data_dir / "pipeline").mkdir(parents=True, exist_ok=True)
+    with open(data_dir / "pipeline" / "parse_failures.csv", "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["file", "error"])
         w.writeheader()
         w.writerows(failures)

@@ -153,6 +153,7 @@ class PoliteSession:
 
 
 def stage_fetch(data_dir: Path, raw_dir: Path, eras: tuple[str, ...]) -> None:
+    (data_dir / "pipeline").mkdir(parents=True, exist_ok=True)
     import requests
     from requests.adapters import HTTPAdapter, Retry
 
@@ -167,11 +168,11 @@ def stage_fetch(data_dir: Path, raw_dir: Path, eras: tuple[str, ...]) -> None:
         allowed_methods=["GET", "HEAD"])))
     session = PoliteSession(raw_session)
     cache = MissCache(raw_dir / "probe_misses.txt")
-    manifest = load_manifest(data_dir / "manifest.csv")
+    manifest = load_manifest(data_dir / "pipeline" / "manifest.csv")
     today = dt.date.today()
     for el in load_elections(data_dir, eras):
         edate = dt.date.fromisoformat(el["election_date"])
         n = fetch_election(session, edate, el["era"], raw_dir, cache, manifest, today)
         cache.save()
-        save_manifest(data_dir / "manifest.csv", manifest)
+        save_manifest(data_dir / "pipeline" / "manifest.csv", manifest)
         print(f"fetch {edate}: {n} snapshots", flush=True)
