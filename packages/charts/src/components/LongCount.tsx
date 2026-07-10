@@ -144,12 +144,23 @@ export function Registration() {
   );
 }
 
-export function FranchiseFunnel() {
+export function FranchiseFunnel({
+  defaultMode,
+  defaultEligibleOnly,
+}: {
+  defaultMode?: "counts" | "share";
+  defaultEligibleOnly?: boolean;
+} = {}) {
   const { state } = useLongCount();
   return (
     <Island>
       <FilterBar showKinds={false} />
-      <FranchiseFunnelChart from={state.from} to={state.to} />
+      <FranchiseFunnelChart
+        from={state.from}
+        to={state.to}
+        defaultMode={defaultMode}
+        defaultEligibleOnly={defaultEligibleOnly}
+      />
     </Island>
   );
 }
