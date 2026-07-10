@@ -75,7 +75,7 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       claimed: night ballots **486,627**, certified final **669,627**, share **72.67%**
       numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14270915258D4BE8
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf
-      look for: Certified final = 669,627 ballots (Election Day 298,112 + VBM 371,515) from CA SoS 2012 Voter Participation Statistics by County, primary. Election-night plateau not sourceable via Wayback: Riverside's Sequoia 'eresults' live page (voteinfo.net/Elections/20121106/eresults/) was not archived on/near 
+      look for: Certified final = 669,627 ballots (Election Day 298,112 + VBM 371,515) from CA SoS 2012 Voter Participation Statistics by County, primary. Election-night plateau not sourceable: Riverside's Sequoia 'eresults' live page (voteinfo.net/Elections/20121106/eresults/) was not archived on/near election nig
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2012-11-06
       controller verdict: CONFIRMED (certified-minus-outstanding derivation, corroborated by two independently-bylined articles, bracketed by the registrar's own posting schedule)
 
@@ -83,7 +83,7 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       claimed: night ballots **264,764**, certified final **357,764**, share **74.01%**
       numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/151717B89F05D948
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf
-      look for: Certified final = 357,764 ballots (Election Day 124,829 + VBM 232,935) from CA SoS 2014 complete Statement of Vote, Voter Participation Statistics page, primary; registration 891,575, final turnout 40.13%. Wayback/press-release/DocumentCenter/social-handle routes exhausted (no election-night eresult
+      look for: Certified final = 357,764 ballots (Election Day 124,829 + VBM 232,935) from CA SoS 2014 complete Statement of Vote, Voter Participation Statistics page, primary. Election-night plateau not sourceable: the only Wayback capture of the eresults page is 2014-11-20 (post-certification canvass), no electi
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2014-11-04
       controller verdict: CONFIRMED (certified-minus-outstanding registrar derivation, cross-checked by an independent turnout-percentage x registration calculation from a second bylined article)
 
@@ -91,7 +91,7 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       claimed: night ballots **507,193**, certified final **769,193**, share **65.94%**
       numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16095824826D46E0
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf
-      look for: Certified final = 769,193 ballots (Election Day 264,638 + VBM 504,555) from CA SoS 2016 Voter Participation Statistics by County, primary. Wayback/press-release/DocumentCenter/social-handle routes exhausted (earliest Sequoia eresults capture is a 2016-11-12 post-canvass 'Last Updated November 11, 20
+      look for: Certified final = 769,193 ballots (Election Day 264,638 + VBM 504,555) from CA SoS 2016 Voter Participation Statistics by County, primary. Election-night plateau not sourceable: earliest Wayback capture of the Sequoia eresults page is 2016-11-10 (Election Result.htm frameset), and the detail page (E
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2016-11-08
       controller verdict: CONFIRMED (registrar-derived outstanding-ballot figure repeated across three articles (two verbatim, one corroborating), bracketed unchanged by the registrar's own posting schedule and by direction/magnitude consistency with the subsequent Friday update)
 
@@ -99,7 +99,7 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       claimed: night ballots **300,000**, certified final **650,545**, share **46.12%**
       numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F9051D0AED5530
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
-      look for: Certified final = 650,545 ballots (Election Day 194,606 + VBM 455,939) from CA SoS 2018 Voter Participation Statistics by County; corroborated by Riverside Summary_Final.pdf (Run Date/Time 12/7/18). Primary. Wayback/press-release/DocumentCenter/social-handle routes exhausted (earliest eresults captu
+      look for: Certified final = 650,545 ballots (Election Day 194,606 + VBM 455,939) from CA SoS 2018 Voter Participation Statistics by County; corroborated by Riverside Summary_Final.pdf (Run Date/Time 12/7/18). Primary. Election-night plateau not sourceable: earliest Wayback capture of the eresults page is 2018
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2018-11-06
       controller verdict: CONFIRMED (directly-stated overnight-Tuesday count, self-confirming plateau via the registrar's own same-day quote that no counting was occurring)
 
@@ -115,7 +115,7 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       claimed: night ballots **484,611**, certified final **589,611**, share **82.19%**
       numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14275EF93A805950
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf
-      look for: Certified final 589,611 ballots cast (CA SoS Statement of Vote, Voter Participation Stats by County: polls 306,324 + VBM 283,287; 69.24% of 851,581 registered). Pre-adoption (precinct-based; e-pollbooks not until 2020). Wayback/press-release/DocumentCenter/social-handle routes exhausted (no election
+      look for: Certified final 589,611 ballots cast (CA SoS Statement of Vote, Voter Participation Stats by County: polls 306,324 + VBM 283,287; 69.24% of 851,581 registered). Pre-adoption (precinct-based; e-pollbooks not until 2020). Election-night PLATEAU not sourceable: San Bernardino's 2012 live results lived 
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-bernardino-ca 2012-11-06
       controller verdict: REFUTED_AS_PLATEAU (the only sourceable remaining-ballot figure is explicitly framed as a post-night ('as of Thursday morning') state with no confirmed no-update bracket, and the resulting share (82.19%) is anomalously high with no precinct-era anchor for comparison)
 
@@ -131,9 +131,9 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       claimed: night ballots **322,000**, certified final **546,041**, share **58.97%**
       numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F9051D0AED5530
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
-      look for: Certified final 546,041 ballots cast (CA SoS; polls 209,168 + VBM 336,873; 58.26% of 937,316 registered). Pre-adoption, precinct-based (LAST midterm before e-pollbooks in 2020). Wayback/press-release/DocumentCenter/social-handle routes exhausted (only a post-canvass Nov 12 capture of 365,083 exists;
+      look for: Certified final 546,041 ballots cast (CA SoS; polls 209,168 + VBM 336,873; 58.26% of 937,316 registered). Pre-adoption, precinct-based (LAST midterm before e-pollbooks in 2020). Election-night PLATEAU not sourceable: the live iframe results page (sbcounty.gov/rov/elections/results/20181106/content/r
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-bernardino-ca 2018-11-06
-      controller verdict: CONFIRMED (directly-stated overnight-Tuesday count, cross-checked by an internal turnout-estimate calculation in the same article)
+      controller verdict: REFUTED_AS_PLATEAU (same-article schedule shows a pending post-night release; leg was a same-article arithmetic cross-check; value retained as a documented ceiling)
 
 - [ ] **san-bernardino-ca 2022-11-08** (secondary confidence)
       claimed: night ballots **218,993**, certified final **458,946**, share **47.72%**

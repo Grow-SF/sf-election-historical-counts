@@ -108,7 +108,7 @@
   "slug": "san-bernardino-ca",
   "date": "2018-11-06",
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F9051D0AED5530",
-  "evidence": "In San Bernardino County, elections workers counted about 322,000 ballots overnight Tuesday. On Wednesday, about 150,816 ballots remained to be counted, along with 8,929 damaged ballots and 43,818 provisional and other ballots that require processing. 322,000/546,041 = 58.97%.",
+  "evidence": "In San Bernardino County, elections workers counted about 322,000 ballots overnight Tuesday. On Wednesday, about 150,816 ballots remained to be counted, along with 8,929 damaged ballots and 43,818 provisional and other ballots that require processing. 322,000/546,041 = 58.97%. CORRECTION (2026-07-09): reclassified REFUTED_AS_PLATEAU / retained as a documented ceiling, comparable=false -- the article's own schedule shows a pending Friday release and the supporting leg was a same-article arithmetic cross-check (disallowed).",
   "method": "newsbank-sfpl-manual"
  },
  {

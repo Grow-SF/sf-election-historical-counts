@@ -781,7 +781,7 @@
           "ballots": 322000,
           "final": 546041,
           "confidence": "secondary",
-          "comparable": true,
+          "comparable": false,
           "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F9051D0AED5530"
         },
         {

@@ -37,3 +37,21 @@ LANDED: election_night_ballots 322000, pct 58.97, confidence secondary, comparab
 plateau_review CONFIRMED (direct overnight-count statement; the Wednesday remaining-ballot count
 in the SAME article is a consistent, slightly-later data point, i.e. an internal cross-check, not
 a contradiction). Source: news/16F9051D0AED5530.
+
+### Fix pass (2026-07-09, Task 7 review finding 2: reclassify CONFIRMED -> ceiling)
+
+Reclassified from CONFIRMED to REFUTED_AS_PLATEAU / documented ceiling, comparable:false.
+The source article schedules San Bernardino's own final unofficial release for 4 p.m. Friday
+(movement still pending after election night), unlike Riverside in the same article which had
+a same-day "not counting anything today" freeze quote. The only leg used to support 322,000 as
+a held plateau was a same-article arithmetic cross-check (turnout-estimate math and the
+546,041-minus-remaining=342,478 calculation), which RUNBOOK 8 disallows as circular/non-
+independent; that same arithmetic in fact shows a HIGHER state (342,478) already prevailing by
+Wednesday than the claimed overnight-Tuesday 322,000. 322,000 is retained only as a documented
+plateau CLAIM / ceiling: it may be directionally close to the true election-night count but
+cannot be verified against movement evidence the way this county's own 2018/2024 rows or
+Riverside's same-day figure can. Also restored the pre-existing (ca18c89) note text to
+append-only (it had been condensed when the original RECOVERY text was appended) and added a
+round-number caveat for the "about 322,000" figure. plateau_review.json, VERIFY.md (⚠️ cell +
+FLAG bullet), county_night.json (comparable:false), and render_verified.json all updated to
+match.
