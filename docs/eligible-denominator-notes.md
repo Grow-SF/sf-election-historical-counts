@@ -20,8 +20,8 @@ SF was already near the ceiling.
 
 | Era | Source | Notes |
 |---|---|---|
-| 2000–2026 | CA SoS **Reports of Registration** (county.pdf / .xlsx) | `data/sf_registration_eligible.csv`, via `scripts/fetch_sos_registration.py` |
-| 1978–1998 | Printed **Statement of Vote** "Voter Participation by County" tables (archive.org) | `data/sf_registration_eligible_sov_1974_1998.csv`, via `scripts/recover_sov_registration.py` (read off page-image crops; **pending hand-verification**) |
+| 2000–2026 | CA SoS **Reports of Registration** (county.pdf / .xlsx) | `data/sources/sf_registration_eligible.csv`, via `scripts/fetch_sos_registration.py` |
+| 1978–1998 | Printed **Statement of Vote** "Voter Participation by County" tables (archive.org) | `data/sources/sf_registration_eligible_sov_1974_1998.csv`, via `scripts/recover_sov_registration.py` (read off page-image crops; **pending hand-verification**) |
 | 1996 (cross-check) | Chronicle/NewsBank (SoS Bill Jones quote) | independent "eligible adult citizens" figure; confirms the denominator = citizen-VAP |
 
 **Hard floor:** the SoS published **no county-level eligible figure before ~1973**
@@ -37,7 +37,7 @@ by county but no eligible column). So a citizen-eligible rate cannot run back to
    the figure is the **citizen-eligible** estimate (DOF "eligible to register":
    1978 470,773). VAP runs ~50–70k above citizen-eligible (the non-citizen adult
    gap), so the two are *not* comparable as a rate — 1974/76 are excluded from the
-   registration-rate line and live in `data/sf_eligible_vap_estimate.csv` instead.
+   registration-rate line and live in `data/sources/sf_eligible_vap_estimate.csv` instead.
 2. **Pre-NVRA "deadwood" (1994–96).** SF registration approached and then exceeded
    eligible (1994: 96.5%; Oct 1996: 482,541 registered vs 479,127 eligible =
    100.7%). The SoS (Bill Jones, via the Contra Costa Times, 1996-10-25, NewsBank
@@ -62,7 +62,7 @@ overstates eligible by that ~20-pt gap; don't use it as the franchise denominato
   (1978–1998) and `sf_registration_eligible.csv` (2000–2026; e.g. SF 2020 = 668,567,
   2026 = 658,495 eligible).
 - **1900–2020 — real census voting-age population (IPUMS NHGIS).**
-  `data/sf_eligible_vap_estimate.csv` now carries actual NHGIS county counts, not
+  `data/sources/sf_eligible_vap_estimate.csv` now carries actual NHGIS county counts, not
   estimates (`scripts/nhgis_extract.json` reproduces the pull). Eligible-age basis:
   21+ before 1971, 18+ after; and **women could not vote before 1920** (CA 1911),
   so the 1900/1910 electorate is **male 21+**. Selected: 1900 VAP 128,985 (men);

@@ -27,7 +27,7 @@ see
 [`docs/analysis/2026-06-13-a-century-of-election-nights.md`](docs/analysis/2026-06-13-a-century-of-election-nights.md).
 
 **Just want the data? Start here:**
-[`data/exports/sf_elections_consolidated.csv`](data/exports/sf_elections_consolidated.csv)
+[`data/sf_elections_consolidated.csv`](data/sf_elections_consolidated.csv)
 — every election since 1849 in one file: registration, total turnout, the
 election-night count, the e-day/VBM split, a source citation for every value,
 and structured class columns saying exactly what each number is.
@@ -127,19 +127,19 @@ Every submission is verified against certified totals and credited in
 
 ## Key datasets (`data/`)
 
-- `exports/sf_elections_consolidated.csv` — **the one-file rollup** (every
+- `sf_elections_consolidated.csv` — **the one-file rollup** (every
   election, every headline number, per-value sources); most readers want this.
 - `sf_count_timeline.csv` — modern per-release counts (the `sfcount` output).
 - `sf_archival_canvass_points.csv` — recovered historical observations
   (1851–2014); schema and method in the runbook.
-- `sf_turnout_history_doe_1899_2019.csv` — DOE certified turnout (the
+- `sources/sf_turnout_history_doe_1899_2019.csv` — DOE certified turnout (the
   denominators). Known data-quality issues tracked in
   `docs/denominator-errors.md`.
-- `sf_vbm_share_sos.csv`, `sf_turnout_history_1960_2002.csv` — mail-share and
-  precinct/absentee splits from the CA Secretary of State and DOE.
-- `sf_registration_eligible*.csv`, `sf_eligible_vap_estimate.csv` — registered,
-  eligible-citizen, and voting-age population (CA Secretary of State + U.S.
-  Census via IPUMS NHGIS), 1900–2026.
+- `sources/sf_vbm_share_sos.csv`, `sources/sf_turnout_history_1960_2002.csv` —
+  mail-share and precinct/absentee splits from the CA Secretary of State and DOE.
+- `sources/sf_registration_eligible*.csv`, `sources/sf_eligible_vap_estimate.csv`
+  — registered, eligible-citizen, and voting-age population (CA Secretary of
+  State + U.S. Census via IPUMS NHGIS), 1900–2026.
 
 **→ Full data dictionary — every file and every column — in
 [`data/README.md`](data/README.md).**
@@ -148,7 +148,7 @@ Every submission is verified against certified totals and credited in
 
 Ingests the structured files SF Elections publishes per release —
 `summary.xml` (2019+) and `summary.txt` TSV (2008–2018) — rather than parsing
-PDFs. Timestamps come from HTTP `Last-Modified` headers (`data/manifest.csv`).
+PDFs. Timestamps come from HTTP `Last-Modified` headers (`data/pipeline/manifest.csv`).
 
     uv run sfcount all        # inventory → fetch → parse → validate → derive
     uv run sfcount fetch      # resumable; ~25 min cold
@@ -285,13 +285,13 @@ city gaps — has been recovered; the era-by-era outcomes live in the search log
       the 1958 and 1962 denominators remain (SOV / Registrar records).
 - [ ] Check back whether the published 1899–2019 turnout table changes.
 
-**SOV cross-check remaining** ([`data/sov_crosscheck_ledger.md`](data/sov_crosscheck_ledger.md))
+**SOV cross-check remaining** ([`data/provenance/sov_crosscheck_ledger.md`](data/provenance/sov_crosscheck_ledger.md))
 - [ ] Primaries **1928/1930/1932/1962**; modern DOE figures **1968–2014**
       (lower priority — exact per-release data already matches). Now doubles as an
       upgrade path: the 1928/1930/1932 primary finals are single-contest floors, and
       the SOV would give true ballots-cast totals.
 
-**Remaining historical recovery** ([`data/recovery_ledger_pre1965.md`](data/recovery_ledger_pre1965.md))
+**Remaining historical recovery** ([`data/provenance/recovery_ledger_pre1965.md`](data/provenance/recovery_ledger_pre1965.md))
 - [x] Direct primaries **1954–1964** — recovered (all have night counts; July 2026 sweeps).
 - [x] Specials/recalls **1943-04-20, 1944-05-16, 1946-07-16** — recovered (July 2026;
       the 1943/1944 finals are single-contest floors, see the consolidated export's

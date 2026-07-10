@@ -1,4 +1,4 @@
-<!-- Agent research file, recovered 2026-07-08; the basis for data/sf_turnout_reused_registration_1917_1945.csv.
+<!-- Agent research file, recovered 2026-07-08; the basis for data/sources/sf_turnout_reused_registration_1917_1945.csv.
      Era verdicts summarized in docs/analysis/public-search-log.md (2026-07-08 turnout denominator pass). -->
 
 # California voter registration law history, 1866-1945 (SF focus)

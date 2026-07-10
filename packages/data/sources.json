@@ -5478,7 +5478,7 @@
   "id": "1970-11-03",
   "name": "Consolidated General Election",
   "final": 262398,
-  "finalSource": "CA SoS Statement of Vote, Nov 1970 general: SF Total Ballots Cast 262,398 (see data/sov_crosscheck_ledger.md)",
+  "finalSource": "CA SoS Statement of Vote, Nov 1970 general: SF Total Ballots Cast 262,398 (see data/provenance/sov_crosscheck_ledger.md)",
   "observations": [
    {
     "date": "1970-11-04",
@@ -5502,7 +5502,7 @@
   "id": "1970-06-02",
   "name": "Direct Primary Election",
   "final": 214943,
-  "finalSource": "CA SoS Statement of Vote, June 1970 primary: SF total vote cast 214,943 (see data/sov_crosscheck_ledger.md)",
+  "finalSource": "CA SoS Statement of Vote, June 1970 primary: SF total vote cast 214,943 (see data/provenance/sov_crosscheck_ledger.md)",
   "observations": [
    {
     "date": "1970-06-03",
@@ -5566,7 +5566,7 @@
   "id": "1968-06-04",
   "name": "Direct Primary Election",
   "final": 254825,
-  "finalSource": "CA SoS Statement of Vote, June 1968 primary: SF total vote cast 254,825 (see data/sov_crosscheck_ledger.md; SOV pct-column anomaly and newspaper conflict logged in docs/doe-data-discrepancies.md)",
+  "finalSource": "CA SoS Statement of Vote, June 1968 primary: SF total vote cast 254,825 (see data/provenance/sov_crosscheck_ledger.md; SOV pct-column anomaly and newspaper conflict logged in docs/doe-data-discrepancies.md)",
   "observations": [
    {
     "date": "1968-06-05",
@@ -5614,7 +5614,7 @@
   "id": "1966-11-08",
   "name": "Consolidated General Election",
   "final": 286049,
-  "finalSource": "CA SoS Statement of Vote, Nov 1966 general: SF total vote 286,049 (see data/sov_crosscheck_ledger.md)",
+  "finalSource": "CA SoS Statement of Vote, Nov 1966 general: SF total vote 286,049 (see data/provenance/sov_crosscheck_ledger.md)",
   "observations": [
    {
     "date": "1966-11-09",
@@ -5630,7 +5630,7 @@
   "id": "1966-06-07",
   "name": "Direct Primary Election",
   "final": 226622,
-  "finalSource": "CA SoS Statement of Vote, June 1966 primary: SF total vote cast 226,622 (see data/sov_crosscheck_ledger.md)",
+  "finalSource": "CA SoS Statement of Vote, June 1966 primary: SF total vote cast 226,622 (see data/provenance/sov_crosscheck_ledger.md)",
   "observations": [
    {
     "date": "1966-06-08",
@@ -8123,7 +8123,7 @@
   "id": "1888-11-06",
   "name": "Consolidated General Election",
   "final": 55313,
-  "finalSource": "SF Municipal Reports Registrar master table: certified 55,313 ballots (data/sf_turnout_pre1899.csv); the President contest sum 55,717 exceeds it by 404, a known source tension (data/pre1892_certified.md)",
+  "finalSource": "SF Municipal Reports Registrar master table: certified 55,313 ballots (data/sf_turnout_pre1899.csv); the President contest sum 55,717 exceeds it by 404, a known source tension (data/provenance/pre1892_certified.md)",
   "observations": [
    {
     "date": "1888-11-07",
@@ -8171,7 +8171,7 @@
   "id": "1886-11-02",
   "name": "Gubernatorial + Municipal Election (Mayor Pond)",
   "final": 45716,
-  "finalSource": "Certified SF denominator 45,716 (data/pre1892_certified.md)",
+  "finalSource": "Certified SF denominator 45,716 (data/provenance/pre1892_certified.md)",
   "observations": [
    {
     "date": "1886-11-03",
@@ -8187,7 +8187,7 @@
   "id": "1884-11-04",
   "name": "Consolidated General Election",
   "final": 47535,
-  "finalSource": "SF Municipal Reports Registrar master table: certified 47,535 ballots (data/sf_turnout_pre1899.csv); the President contest sum 47,719 exceeds it by 184, a known source tension (data/pre1892_certified.md)",
+  "finalSource": "SF Municipal Reports Registrar master table: certified 47,535 ballots (data/sf_turnout_pre1899.csv); the President contest sum 47,719 exceeds it by 184, a known source tension (data/provenance/pre1892_certified.md)",
   "observations": [
    {
     "date": "1884-11-05",
@@ -8531,7 +8531,7 @@
   "id": "1872-11-05",
   "name": "Presidential General Election",
   "final": 23029,
-  "finalSource": "CA SoS Statement Nov 5 1872 band 22,996-23,150 (data/pre1892_certified.md, upper bound)",
+  "finalSource": "CA SoS Statement Nov 5 1872 band 22,996-23,150 (data/provenance/pre1892_certified.md, upper bound)",
   "observations": [
    {
     "date": "1872-11-06",
@@ -8539,7 +8539,7 @@
     "total": 22974,
     "pct": 99.8,
     "label": "cdnc-ocr",
-    "citation": "Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1872-11-06 'VOTE OF SAN FRANCISCO--COMPLETE': Grant 11,769 + Greeley 11,182 + O'Conor 23 = 22,974 counted overnight; Clayton 11,942 vs Piper 10,888 (majority 1,054 checks); Grant majority 587 checks; dimmed as a contest sum; certified band on file 22,996-23,150 (data/pre1892_certified.md), upper bound used as the conservative denominator; the paper's 'total polled 23,048' is poll-list class, logged not ingested; URL https://cdnc.ucr.edu/?a=d&d=DAC18721106.2.5 ; shot mirror/cdnc/DAC18721106/shot_2.5_vote_complete.png; provenance agents/cdnc_1867_1877.md || OFFICIAL DENOMINATOR (reconciliation 2026-07-08): official 'total number of votes polled... was 23,029', Municipal Reports FY1871-72 p.643 (cumulative-table variant 23,023 logged), archive.org/download/sanfranciscomuni71sanfrich/page/n660; full provenance scratchpad agents/muni_reports_denominators.md, muni_reports_1859_1877.md, officials_1921_1922.md"
+    "citation": "Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1872-11-06 'VOTE OF SAN FRANCISCO--COMPLETE': Grant 11,769 + Greeley 11,182 + O'Conor 23 = 22,974 counted overnight; Clayton 11,942 vs Piper 10,888 (majority 1,054 checks); Grant majority 587 checks; dimmed as a contest sum; certified band on file 22,996-23,150 (data/provenance/pre1892_certified.md), upper bound used as the conservative denominator; the paper's 'total polled 23,048' is poll-list class, logged not ingested; URL https://cdnc.ucr.edu/?a=d&d=DAC18721106.2.5 ; shot mirror/cdnc/DAC18721106/shot_2.5_vote_complete.png; provenance agents/cdnc_1867_1877.md || OFFICIAL DENOMINATOR (reconciliation 2026-07-08): official 'total number of votes polled... was 23,029', Municipal Reports FY1871-72 p.643 (cumulative-table variant 23,023 logged), archive.org/download/sanfranciscomuni71sanfrich/page/n660; full provenance scratchpad agents/muni_reports_denominators.md, muni_reports_1859_1877.md, officials_1921_1922.md"
    }
   ]
  },
@@ -8579,7 +8579,7 @@
     "total": 25094,
     "pct": 100.0,
     "label": "cdnc-ocr",
-    "citation": "Municipal Reports FY1870-71 p.527 contemporaneous official total 25,094 (wards sum internally; agent recovery, page image read, archive.org/download/sanfranciscomuni70sanfrich/page/n546); OPERATOR RULING 2026-07-08: the contemporaneous volume governs, per the 1861 adjudication principle that the same-year record beats a later summary - the FY1875-76 p.752 retrospective variant 25,015 and the state-records Governor-contest figure 24,995 (data/pre1892_certified.md) are logged, the latter consistent as a contest sum beneath the ballots total; election night itself: the day-after Alta was dry ('No definite or full returns can be had before this afternoon') and the day-2 issue is missing from CDNC (DAC18710908, empty TOC twice), so no night point exists; provenance scratchpad agents/muni_reports_1859_1877.md, cdnc_1867_1877.md"
+    "citation": "Municipal Reports FY1870-71 p.527 contemporaneous official total 25,094 (wards sum internally; agent recovery, page image read, archive.org/download/sanfranciscomuni70sanfrich/page/n546); OPERATOR RULING 2026-07-08: the contemporaneous volume governs, per the 1861 adjudication principle that the same-year record beats a later summary - the FY1875-76 p.752 retrospective variant 25,015 and the state-records Governor-contest figure 24,995 (data/provenance/pre1892_certified.md) are logged, the latter consistent as a contest sum beneath the ballots total; election night itself: the day-after Alta was dry ('No definite or full returns can be had before this afternoon') and the day-2 issue is missing from CDNC (DAC18710908, empty TOC twice), so no night point exists; provenance scratchpad agents/muni_reports_1859_1877.md, cdnc_1867_1877.md"
    }
   ]
  },

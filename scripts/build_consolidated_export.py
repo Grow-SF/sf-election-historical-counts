@@ -6,7 +6,7 @@ election-day / vote-by-mail split, each value paired with its source citation.
 The one-file rollup most readers want. Every value is drawn from
 the repo's arbitrated datasets (never recomputed here); source strings are the
 per-row citations, compacted to their leading clause — the full verbatim
-citations live in the underlying data/*.csv files and docs/sources.md.
+citations live in the underlying data/ and data/sources/ CSVs and docs/sources.md.
 
 Do not edit the output by hand — re-run this script instead.
 """

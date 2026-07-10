@@ -3197,7 +3197,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 262,398
 
-**Source:** CA SoS Statement of Vote, Nov 1970 general: SF Total Ballots Cast 262,398 (see data/sov_crosscheck_ledger.md)
+**Source:** CA SoS Statement of Vote, Nov 1970 general: SF Total Ballots Cast 262,398 (see data/provenance/sov_crosscheck_ledger.md)
 
 **Observations**
 
@@ -3214,7 +3214,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 214,943
 
-**Source:** CA SoS Statement of Vote, June 1970 primary: SF total vote cast 214,943 (see data/sov_crosscheck_ledger.md)
+**Source:** CA SoS Statement of Vote, June 1970 primary: SF total vote cast 214,943 (see data/provenance/sov_crosscheck_ledger.md)
 
 **Observations**
 
@@ -3264,7 +3264,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 254,825
 
-**Source:** CA SoS Statement of Vote, June 1968 primary: SF total vote cast 254,825 (see data/sov_crosscheck_ledger.md; SOV pct-column anomaly and newspaper conflict logged in docs/doe-data-discrepancies.md)
+**Source:** CA SoS Statement of Vote, June 1968 primary: SF total vote cast 254,825 (see data/provenance/sov_crosscheck_ledger.md; SOV pct-column anomaly and newspaper conflict logged in docs/doe-data-discrepancies.md)
 
 **Observations**
 
@@ -3298,7 +3298,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 286,049
 
-**Source:** CA SoS Statement of Vote, Nov 1966 general: SF total vote 286,049 (see data/sov_crosscheck_ledger.md)
+**Source:** CA SoS Statement of Vote, Nov 1966 general: SF total vote 286,049 (see data/provenance/sov_crosscheck_ledger.md)
 
 **Observations**
 
@@ -3314,7 +3314,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 226,622
 
-**Source:** CA SoS Statement of Vote, June 1966 primary: SF total vote cast 226,622 (see data/sov_crosscheck_ledger.md)
+**Source:** CA SoS Statement of Vote, June 1966 primary: SF total vote cast 226,622 (see data/provenance/sov_crosscheck_ledger.md)
 
 **Observations**
 
@@ -5725,7 +5725,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 55,313
 
-**Source:** SF Municipal Reports Registrar master table: certified 55,313 ballots (data/sf_turnout_pre1899.csv); the President contest sum 55,717 exceeds it by 404, a known source tension (data/pre1892_certified.md)
+**Source:** SF Municipal Reports Registrar master table: certified 55,313 ballots (data/sf_turnout_pre1899.csv); the President contest sum 55,717 exceeds it by 404, a known source tension (data/provenance/pre1892_certified.md)
 
 **Observations**
 
@@ -5759,7 +5759,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 45,716
 
-**Source:** Certified SF denominator 45,716 (data/pre1892_certified.md)
+**Source:** Certified SF denominator 45,716 (data/provenance/pre1892_certified.md)
 
 **Observations**
 
@@ -5775,7 +5775,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 47,535
 
-**Source:** SF Municipal Reports Registrar master table: certified 47,535 ballots (data/sf_turnout_pre1899.csv); the President contest sum 47,719 exceeds it by 184, a known source tension (data/pre1892_certified.md)
+**Source:** SF Municipal Reports Registrar master table: certified 47,535 ballots (data/sf_turnout_pre1899.csv); the President contest sum 47,719 exceeds it by 184, a known source tension (data/provenance/pre1892_certified.md)
 
 **Observations**
 
@@ -6070,13 +6070,13 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 23,029
 
-**Source:** CA SoS Statement Nov 5 1872 band 22,996-23,150 (data/pre1892_certified.md, upper bound)
+**Source:** CA SoS Statement Nov 5 1872 band 22,996-23,150 (data/provenance/pre1892_certified.md, upper bound)
 
 **Observations**
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1872-11-06 | 1 |  | 22,974 | 99.8% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1872-11-06 'VOTE OF SAN FRANCISCO--COMPLETE': Grant 11,769 + Greeley 11,182 + O'Conor 23 = 22,974 counted overnight; Clayton 11,942 vs Piper 10,888 (majority 1,054 checks); Grant majority 587 checks; dimmed as a contest sum; certified band on file 22,996-23,150 (data/pre1892_certified.md), upper bound used as the conservative denominator; the paper's 'total polled 23,048' is poll-list class, logged not ingested; URL https://cdnc.ucr.edu/?a=d&d=DAC18721106.2.5 ; shot mirror/cdnc/DAC18721106/shot_2.5_vote_complete.png; provenance agents/cdnc_1867_1877.md &#124;&#124; OFFICIAL DENOMINATOR (reconciliation 2026-07-08): official 'total number of votes polled... was 23,029', Municipal Reports FY1871-72 p.643 (cumulative-table variant 23,023 logged), archive.org/download/sanfranciscomuni71sanfrich/page/n660; full provenance scratchpad agents/muni_reports_denominators.md, muni_reports_1859_1877.md, officials_1921_1922.md |
+| 1872-11-06 | 1 |  | 22,974 | 99.8% | cdnc-ocr — Daily Alta California via CDNC (agent recovery, operator-authorized ingest 2026-07-08), 1872-11-06 'VOTE OF SAN FRANCISCO--COMPLETE': Grant 11,769 + Greeley 11,182 + O'Conor 23 = 22,974 counted overnight; Clayton 11,942 vs Piper 10,888 (majority 1,054 checks); Grant majority 587 checks; dimmed as a contest sum; certified band on file 22,996-23,150 (data/provenance/pre1892_certified.md), upper bound used as the conservative denominator; the paper's 'total polled 23,048' is poll-list class, logged not ingested; URL https://cdnc.ucr.edu/?a=d&d=DAC18721106.2.5 ; shot mirror/cdnc/DAC18721106/shot_2.5_vote_complete.png; provenance agents/cdnc_1867_1877.md &#124;&#124; OFFICIAL DENOMINATOR (reconciliation 2026-07-08): official 'total number of votes polled... was 23,029', Municipal Reports FY1871-72 p.643 (cumulative-table variant 23,023 logged), archive.org/download/sanfranciscomuni71sanfrich/page/n660; full provenance scratchpad agents/muni_reports_denominators.md, muni_reports_1859_1877.md, officials_1921_1922.md |
 
 ---
 
@@ -6109,7 +6109,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1871-09-07 | 1 |  | 8,535 | 34.0% | Daily Alta California 1871-09-07 'TRIUMPHANT VICTORY.' (DAC18710907.2.7/.2.2), per-ward count states stamped 1:48-3:30 AM: OPERATOR-EXTRACTED 2026-07-09 floor = straights counted (Dem 2,870 + Rep 1,588 + TP 320 + W1 combined 110) + explicitly counted scratched (W2 400 + W4 255 + W5 488 + W7-2P 419 + W8-1P 475 + W8-2P 10) + W9 tallied piles 1,600 = 8,535; W5 reconciles exactly to its stated 860; McGlynn+Rosenfeld 487 > 475 ceiling noted as misprint; poll list 25,112 excluded; see docs/research/night-recovery-2026-07-09/wave3_states_1859_1879.md |
-| 1871-10-06 | 30 |  | 25,094 | 100.0% | cdnc-ocr — Municipal Reports FY1870-71 p.527 contemporaneous official total 25,094 (wards sum internally; agent recovery, page image read, archive.org/download/sanfranciscomuni70sanfrich/page/n546); OPERATOR RULING 2026-07-08: the contemporaneous volume governs, per the 1861 adjudication principle that the same-year record beats a later summary - the FY1875-76 p.752 retrospective variant 25,015 and the state-records Governor-contest figure 24,995 (data/pre1892_certified.md) are logged, the latter consistent as a contest sum beneath the ballots total; election night itself: the day-after Alta was dry ('No definite or full returns can be had before this afternoon') and the day-2 issue is missing from CDNC (DAC18710908, empty TOC twice), so no night point exists; provenance scratchpad agents/muni_reports_1859_1877.md, cdnc_1867_1877.md |
+| 1871-10-06 | 30 |  | 25,094 | 100.0% | cdnc-ocr — Municipal Reports FY1870-71 p.527 contemporaneous official total 25,094 (wards sum internally; agent recovery, page image read, archive.org/download/sanfranciscomuni70sanfrich/page/n546); OPERATOR RULING 2026-07-08: the contemporaneous volume governs, per the 1861 adjudication principle that the same-year record beats a later summary - the FY1875-76 p.752 retrospective variant 25,015 and the state-records Governor-contest figure 24,995 (data/provenance/pre1892_certified.md) are logged, the latter consistent as a contest sum beneath the ballots total; election night itself: the day-after Alta was dry ('No definite or full returns can be had before this afternoon') and the day-2 issue is missing from CDNC (DAC18710908, empty TOC twice), so no night point exists; provenance scratchpad agents/muni_reports_1859_1877.md, cdnc_1867_1877.md |
 
 ---
 
