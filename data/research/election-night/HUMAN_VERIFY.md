@@ -119,6 +119,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-bernardino-ca 2012-11-06
       controller verdict: REFUTED_AS_PLATEAU (the only sourceable remaining-ballot figure is explicitly framed as a post-night ('as of Thursday morning') state with no confirmed no-update bracket, and the resulting share (82.19%) is anomalously high with no precinct-era anchor for comparison)
 
+- [ ] **san-bernardino-ca 2014-11-04** (secondary confidence)
+      claimed: night ballots **230,806**, certified final **293,283**, share **78.7%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/151717B8F7250120
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: Certified final 293,283 ballots cast (CA SoS; polls 117,179 + VBM 176,104; 34.44% of 851,684 registered). Pre-adoption, precinct-based. Election-night PLATEAU not sourceable: the live iframe results page (www.sbcounty.gov/rov/elections/Results/20141104/content/results.aspx) has NO election-night Way
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-bernardino-ca 2014-11-04
+      controller verdict: REFUTED_AS_PLATEAU (the only sourceable figure is a Wednesday-released turnout percentage, and this county's own documented posting schedule shows continuous updates through Wednesday, so it is not confirmed to be frozen at the overnight-election-night state)
+
 - [ ] **san-bernardino-ca 2018-11-06** (secondary confidence)
       claimed: night ballots **322,000**, certified final **546,041**, share **58.97%**
       numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F9051D0AED5530

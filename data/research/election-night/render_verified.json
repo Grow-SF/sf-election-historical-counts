@@ -117,5 +117,12 @@
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14275EF93A805950",
   "evidence": "About 60,000 mail-in and 45,000 provisional ballots in San Bernardino County were uncounted as of Thursday morning, said Elections Office spokeswoman Felisa Cardona. Ballots cast at polling places and mailed prior to Election Day were all counted by 5:15 a.m. Wednesday. 589,611 minus 105,000 = 484,611 (82.19%), retained as a ceiling, comparable=false.",
   "method": "newsbank-sfpl-manual"
+ },
+ {
+  "slug": "san-bernardino-ca",
+  "date": "2014-11-04",
+  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/151717B8F7250120",
+  "evidence": "In San Bernardino County, turnout was 27.1 percent. San Bernardino County Registrar of Voters Michael Scarpello estimated that the final number likely will be closer to 34 percent. 27.1% x 851,684 registered = 230,806; 230,806/293,283 = 78.70%, retained as a ceiling, comparable=false.",
+  "method": "newsbank-sfpl-manual"
  }
 ]

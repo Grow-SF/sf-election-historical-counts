@@ -572,5 +572,12 @@
   "verdict": "REFUTED_AS_PLATEAU",
   "basis": "the only sourceable remaining-ballot figure is explicitly framed as a post-night ('as of Thursday morning') state with no confirmed no-update bracket, and the resulting share (82.19%) is anomalously high with no precinct-era anchor for comparison",
   "evidence": "'Many races await tallies' (news/14275EF93A805950): 'About 60,000 mail-in and 45,000 provisional ballots in San Bernardino County were uncounted as of Thursday morning ... Ballots cast at polling places and mailed prior to Election Day were all counted by 5:15 a.m. Wednesday.' 589,611 minus 105,000 = 484,611 (82.19%), well above the ~55-75% band and SF's own 71% (2012). Unlike Riverside in the same article, no 'not counting today' pause confirmation exists for San Bernardino, so counting plausibly moved between Wednesday and the Thursday-morning quote. Retained only as a flagged ceiling (comparable=false), not a confirmed plateau."
+ },
+ {
+  "slug": "san-bernardino-ca",
+  "date": "2014-11-04",
+  "verdict": "REFUTED_AS_PLATEAU",
+  "basis": "the only sourceable figure is a Wednesday-released turnout percentage, and this county's own documented posting schedule shows continuous updates through Wednesday, so it is not confirmed to be frozen at the overnight-election-night state",
+  "evidence": "'a new low in area's Voter turnout?' (news/151717B8F7250120): 'preliminary numbers released Wednesday by county registrars ... In San Bernardino County, turnout was 27.1 percent.' 27.1% x 851,684 registered = 230,806; 230,806/293,283 = 78.70%, anomalously high (consistent with the same county's 2012 ceiling). Retained only as a flagged ceiling (comparable=false), not a confirmed plateau."
  }
 ]
