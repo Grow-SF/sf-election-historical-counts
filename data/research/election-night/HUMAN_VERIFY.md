@@ -29,7 +29,7 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf
       look for: Certified final 27,370 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County', 2014 complete SOV (Madera: 100 precincts, 85,976 eligible, 52,494 registered, 8,970 precinct + 18,400 VBM = 27,370). Election-night plateau NOT recoverable as a clean number. The only archived 
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for madera-ca 2014-11-04
-      controller verdict: PLAUSIBLE (computed floor: certified final minus clerk-quantified not-yet-counted ballots)
+      controller verdict: PLAUSIBLE (computed ceiling: certified final minus clerk-quantified not-yet-counted ballots, snapshot is Friday not election night)
 
 - [ ] **napa-ca 2014-11-04** (secondary confidence)
       claimed: night ballots **18,286**, certified final **38,766**, share **47.17%**

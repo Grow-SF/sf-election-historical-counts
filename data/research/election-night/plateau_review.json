@@ -59,15 +59,8 @@
   "slug": "madera-ca",
   "date": "2014-11-04",
   "verdict": "PLAUSIBLE",
-  "basis": "computed floor: certified final minus clerk-quantified not-yet-counted ballots",
-  "evidence": "Madera Tribune Nov 7 2014 (docref news/15175914B6DDC6C0): Clerk Rebecca Martinez quantifies 4,385 late VBM + 973 provisional = 5,358 ballots 'left to be counted'; 27,370-5,358=22,012 (80.42%), self-consistent with the row's own prior-known Friday 2:14pm capture of 26,449 (26,449-22,012=4,437, close to the 4,385 late-VBM batch)"
- },
- {
-  "slug": "madera-ca",
-  "date": "2014-11-04",
-  "verdict": "PLAUSIBLE",
-  "basis": "computed floor: certified final minus clerk-quantified not-yet-counted ballots",
-  "evidence": "Madera Tribune Nov 7 2014 (docref news/15175914B6DDC6C0): Clerk Rebecca Martinez quantifies 4,385 late VBM + 973 provisional = 5,358 ballots 'left to be counted'; 27,370-5,358=22,012 (80.42%), self-consistent with the row's own prior-known Friday 2:14pm capture of 26,449 (26,449-22,012=4,437, close to the 4,385 late-VBM batch)"
+  "basis": "computed ceiling: certified final minus clerk-quantified not-yet-counted ballots, snapshot is Friday not election night",
+  "evidence": "Madera Tribune Nov 7 2014 (docref news/15175914B6DDC6C0): Clerk Rebecca Martinez quantifies 4,385 late VBM + 973 provisional = 5,358 ballots 'left to be counted'; 27,370-5,358=22,012 (80.42%), self-consistent with the row's own prior-known Friday 2:14pm capture of 26,449 (26,449-22,012=4,437, close to the 4,385 late-VBM batch). CORRECTION (2026-07-09): the 5,358-remaining figure is stated as of Friday Nov 7, not election night; any interim processing between Tuesday night and Friday beyond the two named categories can only make the true election-night count LOWER than 22,012, so 22,012 is a CEILING (comparable=false), not a floor as previously labeled."
  },
  {
   "slug": "madera-ca",

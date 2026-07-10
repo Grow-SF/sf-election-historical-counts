@@ -31,7 +31,7 @@
   "slug": "madera-ca",
   "date": "2014-11-04",
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/15175914B6DDC6C0",
-  "evidence": "Madera County Clerk-Recorder Rebecca Martinez: 4,385 late vote-by-mail ballots (received after noon on Election Day) plus 973 provisional ballots equal 'the 5,358 ballots left to be counted'. Certified final 27,370 minus 5,358 = 22,012 ballots counted as of election night (computed floor; article's own framing: 'more than 22,000 votes').",
+  "evidence": "Madera County Clerk-Recorder Rebecca Martinez: 4,385 late vote-by-mail ballots (received after noon on Election Day) plus 973 provisional ballots equal 'the 5,358 ballots left to be counted'. Certified final 27,370 minus 5,358 = 22,012 ballots counted as of election night (computed CEILING, comparable=false: the 5,358-remaining figure is a Friday Nov 7 snapshot, so interim processing can only make the true night count lower than 22,012. The article's 'this week's election saw more than 22,000 votes' framing is retained as reported language but is not independent corroboration, likely the same subtraction; exact wording not re-verified).",
   "method": "newsbank-sfpl-manual"
  }
 ]
