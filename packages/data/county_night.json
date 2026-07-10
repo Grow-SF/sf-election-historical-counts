@@ -881,7 +881,7 @@
     {
       "name": "San Luis Obispo",
       "slug": "san-luis-obispo-ca",
-      "control": false,
+      "control": true,
       "complete": true,
       "adoption": {
         "epollbook": 2026,
