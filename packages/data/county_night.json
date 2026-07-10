@@ -139,12 +139,12 @@
         {
           "year": 2022,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 57.1,
+          "ballots": 126440,
           "final": 221419,
-          "confidence": "none",
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20221109071724/https://www.co.fresno.ca.us/departments/county-clerk-registrar-of-voters/election-information/election-results/results-for-november-8-2022-statewide-general-election"
         },
         {
           "year": 2024,

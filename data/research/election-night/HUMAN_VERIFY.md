@@ -105,6 +105,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for fresno-ca 2016-11-08
       controller verdict: CONFIRMED (frozen GEMS live page, held past night)
 
+- [ ] **fresno-ca 2022-11-08** (plateau check)
+      claimed: night ballots **126,440**, certified final **221,419**, share **57.1%**
+      numerator URL: https://web.archive.org/web/20221109071724/https://www.co.fresno.ca.us/departments/county-clerk-registrar-of-voters/election-information/election-results/results-for-november-8-2022-statewide-general-election
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: Certified final 221,419 ballots cast (CA SoS; in-person 28,343 + VBM 193,076; 44.28% of 500,076 registered). Post-adoption (VCA vote centers + DFM/EIMS e-pollbooks + automated signature verification, all from 2020). Election-night PLATEAU not sourceable. CORRECTION to the prior v4 note: in Nov 2022 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for fresno-ca 2022-11-08
+      controller verdict: CONFIRMED (frozen GEMS live results page, held past night)
+
 - [ ] **fresno-ca 2024-11-05** (plateau check)
       claimed: night ballots **206,372**, certified final **330,932**, share **62.36%**
       numerator URL: https://web.archive.org/web/20241107003627/https://www.fresnocountyca.gov/files/sharedassets/county/v/5/county-clerk-registrar-of-voters/1_election-results-page-sov-ssov/2024/november-5th-general-election/electionsummaryreportrpt_11_5_24_1231.pdf
