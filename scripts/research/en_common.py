@@ -79,7 +79,7 @@ def fetch(url, dest, tries=3, sleep=2.0):
 
 
 def load_rows():
-    """All election rows across the 13 county JSONs, flattened. Skips
+    """All election rows across all county JSONs, flattened. Skips
     non-county manifests in the same directory (e.g. render_verified.json,
     a list, not a {jurisdiction, elections} county object)."""
     rows = []

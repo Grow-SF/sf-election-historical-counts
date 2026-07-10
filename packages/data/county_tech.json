@@ -537,7 +537,7 @@
    "denominator": "certified final ballots (256,927 / 330,419, CA SoS Statement of Vote Voter Participation Statistics by County)",
    "source_url": "https://web.archive.org/web/20121109175939/http://results.enr.clarityelections.com:80/CA/Ventura/43954/110763/en/summary.html",
    "confidence": "primary",
-   "note": "From this project's own election-night dataset (data/research/election-night/ventura-ca.json, 2012-11-06 row): Clarity ENR version 110763 (630 of 630 precincts completely reported, 'Updated 11/6/2012 2:11:37 AM PST'), bracketed against the next version 111498 ('Semi Official Update #1', 11/9/2012 12:12:16 PM PST, higher ballot count) proving 110763 was the last election-night report. Pre-e-pollbook, pre-ASV, pre-VCA."
+   "note": "From this project's own election-night dataset (data/research/election-night/ventura-ca.json, 2012-11-06 row): Clarity ENR version 110763 (630 of 630 precincts completely reported, 'Updated 11/7/2012 2:11:37 AM PST'), bracketed against the next version 111498 ('Semi Official Update #1', 11/9/2012 12:12:16 PM PST, higher ballot count) proving 110763 was the last election-night report. Pre-e-pollbook, pre-ASV, pre-VCA."
   },
   {
    "jurisdiction": "Ventura County",
