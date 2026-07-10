@@ -513,6 +513,22 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-bernardino-ca 2024-11-05
       controller verdict: CONFIRMED (county posting schedule brackets the capture)
 
+- [ ] **san-diego-ca 2016-06-07** (plateau check)
+      claimed: night ballots **468,340**, certified final **775,930**, share **60.36%**
+      numerator URL: https://web.archive.org/web/20160608190823/http://www.sdvote.com/content/rov/electioninfo/election.xml
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU metric, recovered from the lead flagged in the 2016 GENERAL row's own note ('Wayback captured election.xml only for the June 2016 primary'). Pre-livevoterturnout era GEMS-style XML at sdvote.com/content/rov/electioninfo/election.xml (plain text, curl-fetched, no rendering needed). Only elect
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-diego-ca 2016-06-07
+      controller verdict: CONFIRMED (self-describing overnight UNOFFICIAL report timestamp, plus growth in the next available capture 12 days later (the non-circular leg; a single-capture crawl-time-vs-data-time gap is noted but treated as weaker corroboration, not the primary basis))
+
+- [ ] **san-diego-ca 2018-06-05** (plateau check)
+      claimed: night ballots **406,501**, certified final **673,640**, share **60.34%**
+      numerator URL: https://web.archive.org/web/20180606114855/http://www.livevoterturnout.com/SanDiego/LiveResults/en/Index_3.html
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU metric. San Diego's June 2018 primary is livevoterturnout.com/SanDiego/LiveResults/en/Index_3.html (Nov 2018 general = Index_5). Only election-night-window Wayback capture is 20180606114855 (4:48:55am PDT 6/6), which shows internal 'Website Updated: 6/6/2018 04:44:12 AM' and the page's own h
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-diego-ca 2018-06-05
+      controller verdict: CONFIRMED (self-describing 'ELECTION NIGHT FINAL' header plus growth in the next capture)
+
 - [ ] **san-diego-ca 2018-11-06** (plateau check)
       claimed: night ballots **536,734**, certified final **1,173,924**, share **45.72%**
       numerator URL: https://web.archive.org/web/20181107120607/https://www.livevoterturnout.com/SanDiego/LiveResults/en/Index_5.html
@@ -521,6 +537,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-diego-ca 2018-11-06
       controller verdict: CONFIRMED (night stamp, captured the same night)
 
+- [ ] **san-diego-ca 2022-06-07** (plateau check)
+      claimed: night ballots **416,748**, certified final **674,608**, share **61.78%**
+      numerator URL: https://web.archive.org/web/20220608181901/https://www.livevoterturnout.com/ENR/sandiegocaenr/15/en/Index_15.html
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU metric. ROLLOUT-TIMING: this is the FIRST election on SD's ENR/vote-center/e-pollbook platform (ElectionID 15; the Nov 2022 general, already CONFIRMED elsewhere in this file, is ElectionID 16, immediately next); data/research/county-tech/san-diego-ca.json independently confirms both epollboo
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-diego-ca 2022-06-07
+      controller verdict: CONFIRMED (night stamp plus next-post schedule, corroborated by the companion XML feed's next report landing exactly on schedule)
+
 - [ ] **san-diego-ca 2022-11-08** (plateau check)
       claimed: night ballots **565,982**, certified final **1,043,490**, share **54.24%**
       numerator URL: https://web.archive.org/web/20221109172128/https://www.livevoterturnout.com/ENR/sandiegocaenr/16/en/Index_16.html
@@ -528,6 +552,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU metric (final election-night report). Vote-center / e-pollbook era; the ENR page shows 'Ballots Cast' with an internal 'Website Updated' data timestamp. Sequence from Wayback captures of Index_16.html: 11/8/2022 8:01:54 PM = 487,957 (first tranche, pre-Election-Day mail + early vote-center);
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-diego-ca 2022-11-08
       controller verdict: CONFIRMED (self-describing final plus next-post schedule)
+
+- [ ] **san-diego-ca 2024-03-05** (plateau check)
+      claimed: night ballots **425,572**, certified final **704,068**, share **60.44%**
+      numerator URL: https://web.archive.org/web/20240306103630/https://www.livevoterturnout.com/ENR/sandiegocaenr/19/en/Index_19.html
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU metric, best-evidenced row in this dataset's primary set. ENR page Index_19.html (ElectionID 19, confirmed by its March 6 election-night captures and 'Presidential Primary Election' page title) literally headers itself 'FINAL UNOFFICIAL ELECTION NIGHT RESULTS' with internal 'Website Updated:
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-diego-ca 2024-03-05
+      controller verdict: CONFIRMED (self-describing 'FINAL UNOFFICIAL ELECTION NIGHT RESULTS' header, held across three captures spanning 14h, plus the promised next-update landing exactly on schedule)
 
 - [ ] **san-diego-ca 2024-11-05** (plateau check)
       claimed: night ballots **975,373**, certified final **1,503,018**, share **64.89%**

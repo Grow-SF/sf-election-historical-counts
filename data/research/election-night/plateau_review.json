@@ -414,6 +414,20 @@
  },
  {
   "slug": "san-diego-ca",
+  "date": "2016-06-07",
+  "verdict": "CONFIRMED",
+  "basis": "self-describing overnight UNOFFICIAL report timestamp, plus growth in the next available capture 12 days later (the non-circular leg; a single-capture crawl-time-vs-data-time gap is noted but treated as weaker corroboration, not the primary basis)",
+  "evidence": "election.xml internal date=06-08-16 time=03:21:51 etype=UNOFFICIAL ToBeCnt=285000; US SENATOR (nonpartisan universal-turnout proxy) tcounted=468340, recurring across ~15 universal contests; next capture (internal date 06-16-16) shows tcounted risen to 689,612 and ToBeCnt fallen to 83,000 -- confirms 468,340 was not yet the settled total"
+ },
+ {
+  "slug": "san-diego-ca",
+  "date": "2018-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "self-describing 'ELECTION NIGHT FINAL' header plus growth in the next capture",
+  "evidence": "'UNOFFICIAL RESULTS - ELECTION NIGHT FINAL', stamp 6/6/2018 04:44:12 AM, Ballots Cast 406,501; next capture (6/7/2018 5:15:43 PM, ~37.5h later) shows 427,779"
+ },
+ {
+  "slug": "san-diego-ca",
   "date": "2018-11-06",
   "verdict": "CONFIRMED",
   "basis": "night stamp, captured the same night",
@@ -421,10 +435,24 @@
  },
  {
   "slug": "san-diego-ca",
+  "date": "2022-06-07",
+  "verdict": "CONFIRMED",
+  "basis": "night stamp plus next-post schedule, corroborated by the companion XML feed's next report landing exactly on schedule",
+  "evidence": "stamp 6/8/2022 12:39:38 AM, Ballots Cast 416,748, 'NEXT POST 6/9/22 BY 5PM' still showing hours later with no update; summary_15.xml next report GeneratedDate 2022-06-09T16:49:11-07:00 = 475,054 -- first election on SD's ENR/e-pollbook/vote-center platform (ElectionID 15, immediately preceding the already-CONFIRMED Nov 2022 general, ElectionID 16)"
+ },
+ {
+  "slug": "san-diego-ca",
   "date": "2022-11-08",
   "verdict": "CONFIRMED",
   "basis": "self-describing final plus next-post schedule",
   "evidence": "'FINAL UNOFFICIAL ELECTION NIGHT RESULTS ... NEXT POST 11/10/2022 BY 5 P.M.', stamp 11/9/2022 2:21:25 AM"
+ },
+ {
+  "slug": "san-diego-ca",
+  "date": "2024-03-05",
+  "verdict": "CONFIRMED",
+  "basis": "self-describing 'FINAL UNOFFICIAL ELECTION NIGHT RESULTS' header, held across three captures spanning 14h, plus the promised next-update landing exactly on schedule",
+  "evidence": "'FINAL UNOFFICIAL ELECTION NIGHT RESULTS ... NEXT UPDATE: MAR. 7', stamp 3/6/2024 12:46:42 AM, Ballots Counted 425,572 held across captures 20240306103630/145646/223911; the 3/8 capture shows stamp 3/7/2024 4:48:18 PM, 492,333 -- canvass resumed exactly on the promised schedule"
  },
  {
   "slug": "san-diego-ca",

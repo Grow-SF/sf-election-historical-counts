@@ -132,6 +132,32 @@ permanent snapshots rather than a live, mutable URL. Running totals: 69
 CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2 REFUTED_AND_CORRECTED (76
 sourced rows total).
 
+UPDATE (2026-07-10, San Diego County statewide-primary integration): four
+new sourced rows for san-diego-ca (2016-06-07, 2018-06-05, 2022-06-07,
+2024-03-05; 2012-06-05/2014-06-03 are documented nulls, no plateau_review
+entries), completing the first primaries batch alongside Riverside above.
+All four adjudicated CONFIRMED; none downgraded. 2018-06, 2022-06, and
+2024-03 follow the same self-describing-header-plus-growth/schedule
+pattern already CONFIRMED for this county's Nov generals. 2016-06-07 is
+the weakest of the four on first read (only one Wayback capture near
+election night exists, so the "held" observation is a single artifact's
+internal-timestamp-vs-crawl-time gap, not two independent captures) but is
+still legitimately CONFIRMED because its real non-circular leg is
+different: the NEXT available capture (12 days later) shows the count
+grown substantially, which is the same report-series-next-file-later leg
+accepted throughout this file (e.g. del-norte-ca, mendocino-ca). The
+intraday-freeze observation is recorded as secondary corroboration only,
+not the basis. One classification note carried forward rather than
+resolved: san-diego-ca 2024-03-05's vs_epollbook is 'post' (San Diego's
+e-pollbook/vote-center/ENR platform launch is independently dated to this
+exact primary, ElectionID 15, immediately preceding the Nov 2022 general's
+ElectionID 16), but its vs_asv is a coarse adopted_year=2024 inference:
+the county's own ASV tech-adoption record could not pin ASV's first
+election to March vs November 2024 from primary sources, and that
+ambiguity is carried verbatim in the row's note rather than silently
+resolved. Running totals: 73 CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU,
+2 REFUTED_AND_CORRECTED (80 sourced rows total).
+
 | County | Date | Verdict | Basis | Evidence |
 |---|---|---|---|---|
 | del-norte-ca | 2014-11-04 | CONFIRMED | last surviving on-night release (provably the last of only 2 pre-Final releases per the county's own dated index page), still labeled Unofficial; next report 3 days later relabeled Final at the exact certified total | Release 2/3, footer timestamp 11/4/2014 10:05 PM, 18/18 precincts (100%), Total Voters 6,539/12,743 (51.31%); the index page (re-verified 2026-07-10) lists exactly Release 1, Release 2, Release 3-Final; Release 3 (11/7/2014, 3 days later) retitled 'General Election Final', Total Voters 7,332/12,743 -- exactly the SoS certified figure -- confirming Release 2 was the last report before the canvass resumed and completed |
@@ -193,8 +219,12 @@ sourced rows total).
 | sacramento-ca | 2022-11-08 | CONFIRMED | county schedule plus midnight report | summary stamped 11/9/2022 12:00:20 AM; the county's own schedule text says updates run until about 12:00 am; captured 1:11 AM PST the same night |
 | sacramento-ca | 2024-11-05 | CONFIRMED | county schedule plus night report | summary stamped 11/6/2024 1:56:14 AM; captured 7:17 AM PST before any next-day update |
 | san-bernardino-ca | 2024-11-05 | CONFIRMED | county posting schedule brackets the capture | header 'Final Unofficial Election Night Results'; the 2:41 PM capture sits between the county's 10 AM final-EN posting and the 4 PM canvass resume; Provisional 0 confirms pre-canvass; render-verified 434,108 at 2,872/2,8 |
+| san-diego-ca | 2016-06-07 | CONFIRMED | self-describing overnight UNOFFICIAL timestamp plus growth in the next capture 12 days later (the non-circular leg; single-capture intraday freeze noted but not the basis) | election.xml date=06-08-16 time=03:21:51 etype=UNOFFICIAL, US SENATOR tcounted=468340 (recurs across ~15 universal contests); next capture (06-16-16) shows tcounted 689,612 |
+| san-diego-ca | 2018-06-05 | CONFIRMED | self-describing 'ELECTION NIGHT FINAL' header plus growth in the next capture | 'UNOFFICIAL RESULTS - ELECTION NIGHT FINAL', stamp 6/6/2018 04:44:12 AM, Ballots Cast 406,501; next capture (6/7/2018 5:15:43 PM, ~37.5h later) shows 427,779 |
 | san-diego-ca | 2018-11-06 | CONFIRMED | night stamp, captured the same night | stamp 11/7/2018 01:42:41 AM; captured 4:06 AM PST |
+| san-diego-ca | 2022-06-07 | CONFIRMED | night stamp plus next-post schedule, corroborated by the companion XML feed's next report landing exactly on schedule | stamp 6/8/2022 12:39:38 AM, Ballots Cast 416,748, 'NEXT POST 6/9/22 BY 5PM'; summary_15.xml next report GeneratedDate 2022-06-09T16:49:11-07:00 = 475,054; first election on SD's ENR/e-pollbook platform (ElectionID 15) |
 | san-diego-ca | 2022-11-08 | CONFIRMED | self-describing final plus next-post schedule | 'FINAL UNOFFICIAL ELECTION NIGHT RESULTS ... NEXT POST 11/10/2022 BY 5 P.M.', stamp 11/9/2022 2:21:25 AM |
+| san-diego-ca | 2024-03-05 | CONFIRMED | self-describing 'FINAL UNOFFICIAL ELECTION NIGHT RESULTS' header, held across three captures spanning 14h, plus canvass resumed exactly on schedule | stamp 3/6/2024 12:46:42 AM, Ballots Counted 425,572 held 20240306103630/145646/223911; 3/8 capture shows stamp 3/7/2024 4:48:18 PM, 492,333 |
 | san-diego-ca | 2024-11-05 | CONFIRMED | self-describing final | 'UNOFFICIAL ELECTION NIGHT FINAL (ESTIMATED BALLOTS TO BE PROCESSED: 590,000)', stamp 11/6/2024 2:52:20 AM |
 | san-mateo-ca | 2012-11-06 | CONFIRMED | county-archived night turnout report | 'Precinct Turnout Total Voters Unofficial' stamped 11/07/2012 12:07 AM |
 | san-mateo-ca | 2014-11-04 | CONFIRMED | county-archived night turnout report | stamped 11/04/2014 11:36 PM |

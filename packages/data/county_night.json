@@ -1227,10 +1227,30 @@
       "points": [
         {
           "year": 2012,
+          "type": "presidential-primary",
+          "pct": null,
+          "ballots": null,
+          "final": 548462,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2012,
           "type": "presidential",
           "pct": null,
           "ballots": null,
           "final": 1203265,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2014,
+          "type": "midterm-primary",
+          "pct": null,
+          "ballots": null,
+          "final": 420700,
           "confidence": "none",
           "comparable": true,
           "source_url": null
@@ -1247,6 +1267,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 60.36,
+          "ballots": 468340,
+          "final": 775930,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20160608190823/http://www.sdvote.com/content/rov/electioninfo/election.xml"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": null,
           "ballots": null,
@@ -1254,6 +1284,16 @@
           "confidence": "none",
           "comparable": true,
           "source_url": null
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 60.34,
+          "ballots": 406501,
+          "final": 673640,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20180606114855/http://www.livevoterturnout.com/SanDiego/LiveResults/en/Index_3.html"
         },
         {
           "year": 2018,
@@ -1267,6 +1307,16 @@
         },
         {
           "year": 2022,
+          "type": "midterm-primary",
+          "pct": 61.78,
+          "ballots": 416748,
+          "final": 674608,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20220608181901/https://www.livevoterturnout.com/ENR/sandiegocaenr/15/en/Index_15.html"
+        },
+        {
+          "year": 2022,
           "type": "midterm",
           "pct": 54.24,
           "ballots": 565982,
@@ -1274,6 +1324,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20221109172128/https://www.livevoterturnout.com/ENR/sandiegocaenr/16/en/Index_16.html"
+        },
+        {
+          "year": 2024,
+          "type": "presidential-primary",
+          "pct": 60.44,
+          "ballots": 425572,
+          "final": 704068,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20240306103630/https://www.livevoterturnout.com/ENR/sandiegocaenr/19/en/Index_19.html"
         },
         {
           "year": 2024,

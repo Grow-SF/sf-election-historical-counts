@@ -158,13 +158,23 @@ verify_en_* scripts to regenerate).
 | san-bernardino-ca | 2022-11-08 | denominator | 458,946 | VERIFIED | 2,765 1,472,696 1,138,818 66,469 392,477 458,946 85.52% 40.30% 31.16% |
 | san-bernardino-ca | 2024-11-05 | denominator | 771,834 | VERIFIED | 2,872 1,472,596 1,197,953 154,974 616,860 771,834 79.92% 64.43% 52.41% |
 | san-bernardino-ca | 2024-11-05 | numerator | 434,108 | VERIFIED | render-verified: Precincts Reported: 2,872 of 2,872 (100.00%) Voters Cast: 434,108 of 1,198,556 (36.22%) Cards Cast: 1,2 |
+| san-diego-ca | 2012-06-05 | denominator | 548,462 | VERIFIED | go 1,643 2,084,578 1,465,269 187,942 360,520 548,462 65.73% 37.43% 26.31% |
 | san-diego-ca | 2012-11-06 | denominator | 1,203,265 | VERIFIED | go 2,064 2,094,093 1,563,093 528,258 675,007 1,203,265 56.10% 76.98% 57.46% |
+| san-diego-ca | 2014-06-03 | denominator | 420,700 | VERIFIED | ego 1,616 2,124,563 1,544,841 113,714 306,986 420,700 72.97% 27.23% 19.80% |
 | san-diego-ca | 2014-11-04 | denominator | 692,434 | VERIFIED | o 2,001 2,135,863 1,546,924 242,638 449,796 692,434 64.96% 44.76% 32.42% |
+| san-diego-ca | 2016-06-07 | denominator | 775,930 | VERIFIED | San Diego 1,726 2,183,908 1,523,251 285,370 490,560 775,930 63.22% 50.94% 35.53% |
+| san-diego-ca | 2016-06-07 | numerator | 468,340 | VERIFIED | " id="53" title="UNITED STATES SENATOR" numberof="35" votefor="1" tcounted="468340" tblank="47700" tover="0" tunder="0"  |
 | san-diego-ca | 2016-11-08 | denominator | 1,346,513 | VERIFIED | iego 2,175 2,191,191 1,652,570 489,576 856,937 1,346,513 63.64% 81.48% 61.45% |
+| san-diego-ca | 2018-06-05 | denominator | 673,640 | VERIFIED | 1,705 2,216,211 1,683,430 197,501 476,139 673,640 70.68% 40.02% 30.40% |
+| san-diego-ca | 2018-06-05 | numerator | 406,501 | VERIFIED | (dataArray, colorObject, elem); })(); Ballots Cast 406,501 Registered Voters 1,693,774 |
 | san-diego-ca | 2018-11-06 | denominator | 1,173,924 | VERIFIED | 2,136 2,224,081 1,741,707 369,655 804,269 1,173,924 68.51% 67.40% 52.78% |
 | san-diego-ca | 2018-11-06 | numerator | 536,734 | VERIFIED | (dataArray, colorObject, elem); })(); Ballots Cast 536,734 Registered Voters 1,767,300 |
+| san-diego-ca | 2022-06-07 | denominator | 674,608 | VERIFIED | 2,031 2,349,594 1,932,683 45,332 629,276 674,608 93.28% 34.91% 28.71% |
+| san-diego-ca | 2022-06-07 | numerator | 416,748 | VERIFIED | (dataArray, colorObject, elem); })(); Ballots Cast 416,748 Vote Center Ballots 44,165 Mail Ballots |
 | san-diego-ca | 2022-11-08 | denominator | 1,043,490 | VERIFIED | 2,718 2,349,554 1,924,634 104,388 939,102 1,043,490 90.00% 54.22% 44.41% |
 | san-diego-ca | 2022-11-08 | numerator | 565,982 | VERIFIED | (dataArray, colorObject, elem); })(); Ballots Cast 565,982 Mail Ballots 468,632 Vote Center Ballots |
+| san-diego-ca | 2024-03-05 | denominator | 704,068 | VERIFIED | 1,886 2,332,492 1,930,294 53,989 650,079 704,068 92.33% 36.47% 30.19% |
+| san-diego-ca | 2024-03-05 | numerator | 425,572 | VERIFIED | taArray, colorObject, elem); })(); Ballots Counted 425,572 Mail Ballots 374,440 Vote Center Ballots |
 | san-diego-ca | 2024-11-05 | denominator | 1,503,018 | VERIFIED | 2,669 2,353,145 1,982,264 227,714 1,275,304 1,503,018 84.85% 75.82% 63.87% |
 | san-diego-ca | 2024-11-05 | numerator | 975,373 | VERIFIED | taArray, colorObject, elem); })(); Ballots Counted 975,373 Mail Ballots 787,702 Vote Center Ballots |
 | san-mateo-ca | 2012-11-06 | denominator | 288,592 | VERIFIED | 468 479,562 361,486 119,212 169,380 288,592 58.69% 79.83% 60.18% |

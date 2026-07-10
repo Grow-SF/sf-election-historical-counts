@@ -699,6 +699,45 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 </details>
 
+**Primaries** (statewide primary elections; same metric, same JSON file, joined by date):
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012p | presidential-primary | — | 548,462 | — | none | — (not sourceable) |
+| 2014p | statewide-primary | — | 420,700 | — | none | — (not sourceable) |
+| 2016p | presidential-primary | 468,340 | 775,930 | 60.36% | primary | [link](https://web.archive.org/web/20160608190823/http://www.sdvote.com/content/rov/electioninfo/election.xml) |
+| 2018p | statewide-primary | 406,501 | 673,640 | 60.34% | primary | [link](https://web.archive.org/web/20180606114855/http://www.livevoterturnout.com/SanDiego/LiveResults/en/Index_3.html) |
+| 2022p | statewide-primary | 416,748 | 674,608 | 61.78% | primary | [link](https://web.archive.org/web/20220608181901/https://www.livevoterturnout.com/ENR/sandiegocaenr/15/en/Index_15.html) |
+| 2024p | presidential-primary | 425,572 | 704,068 | 60.44% | primary | [link](https://web.archive.org/web/20240306103630/https://www.livevoterturnout.com/ENR/sandiegocaenr/19/en/Index_19.html) |
+
+<details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
+
+- **2012-06-05 presidential-primary** — night `—` / final `548,462` = `—` (none)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
+  - look for: the election.xml feed that recovered the 2016 primary has ZERO Wayback captures anywhere 2010-2016; a sdvote.com domain sweep for 2012-06-04/08 shows only robots.txt; County News Center did not exist yet; registrar news page archived only from 2019. Null per RUNBOOK 5.1.
+- **2014-06-03 statewide-primary** — night `—` / final `420,700` = `—` (none)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf>
+  - look for: election.xml feed has zero Wayback captures 2010-2016; sdvote.com domain sweep 2014-06-02/06 shows only pre-election static pages under the legacy voters/Eng/... structure; County News Center shows only a pre-election 'where to vote' reminder, not a results release. Null per RUNBOOK 5.1.
+- **2016-06-07 presidential-primary** — night `468,340` / final `775,930` = `60.36%` (primary)
+  - numerator: <https://web.archive.org/web/20160608190823/http://www.sdvote.com/content/rov/electioninfo/election.xml>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf>
+  - look for: GEMS-style XML, internal header `date="06-08-16" time="03:21:51" etype="UNOFFICIAL" ToBeCnt="285000"`; UNITED STATES SENATOR (nonpartisan blanket-primary, universal turnout proxy) `tcounted="468340"`, recurring identically across ~15 universal contests. Next capture (6/16 internal date) shows growth to 689,612 / ToBeCnt 83,000, confirming 468,340 was election night, not final. Recovers the lead flagged in the 2016 GENERAL row's own note above.
+- **2018-06-05 statewide-primary** — night `406,501` / final `673,640` = `60.34%` (primary)
+  - numerator: <https://web.archive.org/web/20180606114855/http://www.livevoterturnout.com/SanDiego/LiveResults/en/Index_3.html>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: page header 'UNOFFICIAL RESULTS - ELECTION NIGHT FINAL', internal 'Website Updated: 6/6/2018 04:44:12 AM', Ballots Cast 406,501. Next capture (6/7 5:15pm, ~37.5h later) shows a higher count (427,779), confirming 406,501 was the election-night figure.
+- **2022-06-07 statewide-primary** — night `416,748` / final `674,608` = `61.78%` (primary)
+  - numerator: <https://web.archive.org/web/20220608181901/https://www.livevoterturnout.com/ENR/sandiegocaenr/15/en/Index_15.html>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: internal 'Website Updated: 6/8/2022 12:39:38 AM', Ballots Cast 416,748, 'NEXT POST 6/9/22 BY 5PM' still showing hours later with no update. Companion summary_15.xml (plain XML, 3 captures) shows the next report, GeneratedDate 2022-06-09T16:49:11-07:00, TotalBallotsCast 475,054, confirming 416,748 held through the night. ROLLOUT-TIMING: this is San Diego's FIRST election on the ENR/vote-center/e-pollbook platform (ElectionID 15; Nov 2022 general = ElectionID 16, immediately next) — vs_epollbook=post for this row itself.
+- **2024-03-05 presidential-primary** — night `425,572` / final `704,068` = `60.44%` (primary)
+  - numerator: <https://web.archive.org/web/20240306103630/https://www.livevoterturnout.com/ENR/sandiegocaenr/19/en/Index_19.html>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: page literally headers itself 'FINAL UNOFFICIAL ELECTION NIGHT RESULTS', internal 'Website Updated: 3/6/2024 12:46:42 AM', 'NEXT UPDATE: MAR. 7', Ballots Counted 425,572; held across two more same-day captures (+14h); 3/8 capture confirms the promised Mar-7 canvass update landed at 492,333.
+  - ⚠️ **NOTE:** vs_asv is a coarse-rule call, not independently pinned to March vs November 2024 — see the JSON note; the county-tech record explicitly could not resolve this, so treat vs_asv=post for this row as provisional pending a more precise ASV go-live date.
+
+</details>
+
 ---
 
 ### San Mateo County
