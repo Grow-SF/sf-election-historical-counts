@@ -97,6 +97,20 @@ corrected (the VBM-composition explanation for the low share still holds).
 Running totals: 66 CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2
 REFUTED_AND_CORRECTED.
 
+UPDATE (2026-07-10, running-total audit): recounted ALL verdicts directly
+from the current plateau_review.json (73 rows total, matching the 73
+sourced rows the validator reports). Counts: 66 CONFIRMED, 3 PLAUSIBLE, 2
+REFUTED_AS_PLATEAU, 2 REFUTED_AND_CORRECTED -- identical to the Tehama
+block's running total immediately above; no new sourced rows landed since
+Tehama (the subsequent Colusa County integration added six documented
+nulls, no plateau_review entries). Correction to the historical record: the
+Mendocino block's stated running total (63 CONFIRMED, above) undercounted
+by one -- a direct recount of plateau_review.json at that commit (1ec5652)
+gives 64 CONFIRMED (71 rows total: 64/3/2/2), not 63. The error was
+isolated to that one arithmetic statement and did not propagate forward:
+the Tehama block's total was computed independently from the data and is,
+and remains, correct as stated.
+
 | County | Date | Verdict | Basis | Evidence |
 |---|---|---|---|---|
 | del-norte-ca | 2014-11-04 | CONFIRMED | last surviving on-night release (provably the last of only 2 pre-Final releases per the county's own dated index page), still labeled Unofficial; next report 3 days later relabeled Final at the exact certified total | Release 2/3, footer timestamp 11/4/2014 10:05 PM, 18/18 precincts (100%), Total Voters 6,539/12,743 (51.31%); the index page (re-verified 2026-07-10) lists exactly Release 1, Release 2, Release 3-Final; Release 3 (11/7/2014, 3 days later) retitled 'General Election Final', Total Voters 7,332/12,743 -- exactly the SoS certified figure -- confirming Release 2 was the last report before the canvass resumed and completed |

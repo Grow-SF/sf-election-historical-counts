@@ -1,4 +1,5 @@
 """Offline tests for the election-night verification helpers."""
+import json
 import pathlib
 import sys
 
@@ -108,20 +109,52 @@ def test_apply_render_override_skips_when_evidence_lacks_claimed_number():
     assert out["status"] == "NOT_FOUND"
 
 
-def test_is_control_true_when_both_adoption_years_absent():
-    assert is_control({"epollbook": None, "asv": None}) is True
+def _write_tech_record(tmp_path, slug, epollbook_status="not-adopted",
+                        epollbook_year=None, asv_status="not-adopted", asv_year=None):
+    (tmp_path / f"{slug}.json").write_text(json.dumps({
+        "jurisdiction": slug,
+        "tech": [
+            {"type": "epollbook", "status": epollbook_status, "adopted_year": epollbook_year},
+            {"type": "asv", "status": asv_status, "adopted_year": asv_year},
+        ],
+    }))
+
+
+def test_is_control_true_for_never_adopter_with_tech_record(tmp_path):
+    _write_tech_record(tmp_path, "example-ca")
+    assert is_control("example-ca", {"epollbook": None, "asv": None}, tech_dir=tmp_path) is True
+
+
+def test_is_control_false_when_null_years_but_no_tech_record(tmp_path, capsys):
+    # A future unresearched county must not silently become a control just
+    # because nobody has filled in its adoption years yet.
+    assert is_control("unresearched-ca", {"epollbook": None, "asv": None}, tech_dir=tmp_path) is False
+    err = capsys.readouterr().err
+    assert "unresearched-ca" in err
+    assert "no county-tech record" in err
 
 
 def test_is_control_false_when_epollbook_adopted():
-    assert is_control({"epollbook": 2018, "asv": None}) is False
+    assert is_control("example-ca", {"epollbook": 2018, "asv": None}) is False
 
 
 def test_is_control_false_when_only_asv_adopted():
-    assert is_control({"epollbook": None, "asv": 2022}) is False
+    assert is_control("example-ca", {"epollbook": None, "asv": 2022}) is False
 
 
 def test_is_control_false_when_both_adopted():
-    assert is_control({"epollbook": 2020, "asv": 2020}) is False
+    assert is_control("example-ca", {"epollbook": 2020, "asv": 2020}) is False
+
+
+def test_is_control_false_when_tech_record_shows_adopted_status_despite_null_summary_years(tmp_path):
+    # Guards against a stale/inconsistent EN adoption summary: the tech
+    # record itself is the source of truth for the never-adoption claim.
+    _write_tech_record(tmp_path, "example-ca", epollbook_status="adopted", epollbook_year=2020)
+    assert is_control("example-ca", {"epollbook": None, "asv": None}, tech_dir=tmp_path) is False
+
+
+def test_is_control_true_for_real_control_county_lake():
+    assert is_control("lake-ca", {"epollbook": None, "asv": None}) is True
 
 
 def test_apply_render_override_applies_when_legitimate():

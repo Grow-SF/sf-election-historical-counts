@@ -16,10 +16,12 @@ Re-run after the election-night fan-out updates the per-county JSON.
 """
 import json
 import pathlib
+import sys
 import datetime
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 EN = ROOT / "data/research/election-night"
+COUNTY_TECH = ROOT / "data/research/county-tech"
 OUT = ROOT / "packages/data/county_night.json"
 ELECTIONS = ROOT / "packages/data/elections.json"
 
@@ -36,12 +38,37 @@ def norm_type(year: int, raw: str) -> str | None:
     return "midterm"
 
 
-def is_control(adoption: dict) -> bool:
-    """A county is a second CONTROL (alongside SF) when it never adopted
-    either tracked tech (both adoption years absent): no treatment, so
-    nothing to be "pre"/"post" of. See docs/research/RUNBOOK.md section 10
-    (Lake County, 2026-07)."""
-    return adoption.get("epollbook") is None and adoption.get("asv") is None
+def is_control(slug: str, adoption: dict, tech_dir: pathlib.Path = COUNTY_TECH) -> bool:
+    """A county is a second CONTROL (alongside SF) only when it never
+    adopted either tracked tech (both adoption years absent) AND its
+    data/research/county-tech/<slug>.json record exists and confirms a
+    researched never-adoption conclusion (status "not-adopted" -- or, as a
+    schema fallback, no recorded adoption event -- for both epollbook and
+    asv). Null adoption years alone are NOT enough: a future county whose
+    years are null merely because it is UNRESEARCHED must not silently
+    become a control. See docs/research/RUNBOOK.md section 10 (Lake
+    County, 2026-07) and the is_control() tech-record hardening
+    (2026-07-10)."""
+    if adoption.get("epollbook") is not None or adoption.get("asv") is not None:
+        return False
+    tech_fp = tech_dir / f"{slug}.json"
+    if not tech_fp.exists():
+        print(
+            f"WARNING: {slug} has null epollbook/asv adoption years but no "
+            f"county-tech record at {tech_fp}; treating as NOT a control "
+            f"(unresearched, not a confirmed never-adopter)",
+            file=sys.stderr,
+        )
+        return False
+    tech = json.loads(tech_fp.read_text())
+    entries = {t.get("type"): t for t in tech.get("tech", [])}
+    for kind in ("epollbook", "asv"):
+        entry = entries.get(kind)
+        if entry is None:
+            continue  # schema fallback: no adoption event recorded for this type
+        if entry.get("status") == "adopted" or entry.get("adopted_year") is not None:
+            return False
+    return True
 
 
 def load_counties() -> list[dict]:
@@ -73,7 +100,7 @@ def load_counties() -> list[dict]:
         out.append({
             "name": d.get("jurisdiction", fp.stem).replace(" County", ""),
             "slug": fp.stem,
-            "control": is_control(adopt),
+            "control": is_control(fp.stem, adopt),
             # complete = every Nov-general row has a sourced election-night count
             "complete": bool(points) and all(p["ballots"] is not None for p in points),
             "adoption": {"epollbook": adopt.get("epollbook"), "asv": adopt.get("asv")},
