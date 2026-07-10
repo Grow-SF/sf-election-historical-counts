@@ -93,7 +93,7 @@ verify_en_* scripts to regenerate).
 | riverside-ca | 2024-11-05 | denominator | 959,098 | VERIFIED | 1,345 1,646,951 1,372,548 170,437 788,661 959,098 82.23% 69.88% 58.23% |
 | riverside-ca | 2024-11-05 | numerator | 611,101 | VERIFIED | taArray, colorObject, elem); })(); Ballots Counted 611,101 Vote by Mail 483,778 Mail Ballot Precinc |
 | sacramento-ca | 2012-11-06 | denominator | 522,045 | VERIFIED | 1,106 944,243 698,899 216,021 306,024 522,045 58.62% 74.70% 55.29% |
-| sacramento-ca | 2012-11-06 | numerator | 328,516 | NOT_FOUND |  |
+| sacramento-ca | 2012-11-06 | numerator | 328,516 | VERIFIED | L . . . . . 698,899 BALLOTS CAST - TOTAL. . . . . . . 328,516 VOTER TURNOUT - TOTAL . . . . . . 47.00 |
 | sacramento-ca | 2014-11-04 | denominator | 330,817 | VERIFIED | to 1,263 961,112 683,632 111,628 219,189 330,817 66.26% 48.39% 34.42% |
 | sacramento-ca | 2014-11-04 | numerator | 195,317 | VERIFIED | L . . . . . 683,632 BALLOTS CAST - TOTAL. . . . . . . 195,317 VOTER TURNOUT - TOTAL . . . . . . 28.57 |
 | sacramento-ca | 2016-11-08 | denominator | 575,711 | VERIFIED | nto 1,267 989,090 772,865 203,114 372,597 575,711 64.72% 74.49% 58.21% |
