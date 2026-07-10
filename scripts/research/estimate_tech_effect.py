@@ -25,12 +25,18 @@ Effect per treated county c with adoption year a:
                 of pre_cells and post_cells
     effect_c  = delta_c - ctrl_c
 Aggregate effect = mean over treated counties. Inference = leave-one-county-
-out jackknife over ALL counties (treated and control). Placebo = same
-computation with controls assigned a fake adoption year and treated counties
-excluded. Scenario mode projects the MDE (2.8 * SE) for hypothetical panel
-sizes using the observed between-county effect s.d. and the controls'
-year-demeaned within-county s.d. (a first-order approximation, documented
-here so nobody mistakes it for the real jackknife).
+out jackknife over ALL counties (treated and control). Placebo = the same
+computation run over EVERY nonempty proper subset of control counties as a
+fake-adopter split (treated counties excluded entirely), reporting the full
+distribution of split-level effects rather than one arbitrary split -- an
+earlier version quoted a single alphabetical every-second split as if it
+were the noise floor, which understated how wide that floor actually is (see
+placebo_distribution() and the dated correction in
+docs/analysis/2026-07-10-tech-effect-estimate.md Section 3). Scenario mode
+projects the MDE (2.8 * SE) for hypothetical panel sizes using the observed
+between-county effect s.d. and the controls' year-demeaned within-county
+s.d. (a first-order approximation, documented here so nobody mistakes it for
+the real jackknife).
 
 Usage:
   python3 scripts/research/estimate_tech_effect.py
@@ -38,8 +44,10 @@ Usage:
       [--mechanism any|epb|asv] [--placebo] [--scenario K M] [--json]
 """
 import argparse
+import itertools
 import json
 import math
+import random
 import statistics as st
 from pathlib import Path
 
@@ -162,21 +170,106 @@ def jackknife(panel, mechanism="any"):
             "mde": 2.8 * se, "n_replicates": n}
 
 
-def placebo(panel, fake_year=2018):
-    """Controls only: every second control county (sorted by slug) becomes a
-    fake adopter at fake_year; the rest stay controls. A working design must
-    return ~0 (fake adopters and real controls share the same year shocks)."""
+# Above this many control counties, enumerating every nonempty proper subset
+# (2**n - 2 of them) stops being sane -- cap enumeration and sample instead.
+_MAX_ENUM_CONTROLS = 12
+_MAX_SAMPLED_SPLITS = 2000
+
+
+def _fake_adopter_splits(slugs):
+    """Every nonempty proper subset of slugs, as sorted tuples. Exhaustive
+    for up to _MAX_ENUM_CONTROLS controls (2**12 - 2 = 4094 subsets, still
+    fast); above that, deterministically sample up to _MAX_SAMPLED_SPLITS
+    distinct subsets instead of enumerating 2**n of them."""
+    n = len(slugs)
+    if n < 2:
+        return []
+    if n <= _MAX_ENUM_CONTROLS:
+        return [c for k in range(1, n)
+                for c in itertools.combinations(slugs, k)]
+    rng = random.Random(0)  # deterministic across runs
+    seen = set()
+    attempts = 0
+    while len(seen) < _MAX_SAMPLED_SPLITS and attempts < _MAX_SAMPLED_SPLITS * 20:
+        attempts += 1
+        k = rng.randint(1, n - 1)
+        seen.add(tuple(sorted(rng.sample(slugs, k))))
+    return list(seen)
+
+
+def placebo_distribution(panel, mechanism="epb", fake_year=2018):
+    """Controls only: enumerate EVERY nonempty proper subset of control
+    counties (not one arbitrary split) and promote each subset to fake
+    adopters at fake_year, with the remaining controls left as controls and
+    all real treated counties excluded. A working design must return a
+    distribution centered near 0 (fake adopters and real controls share the
+    same year shocks); reporting a single split, as an earlier version of
+    this function did, understates how wide that null distribution actually
+    is.
+
+    NOTE on precision asymmetry: because each split's fake-adopter group is
+    drawn from the (small) control pool, it is almost always smaller than
+    the real treated group (n_treated counties), so any individual split's
+    effect is noisier than the real estimate. That means this distribution's
+    spread OVERSTATES the noise on a same-size estimate -- it is a
+    conservative (wide) noise floor, not an apples-to-apples one. Read the
+    real estimate's jackknife CI as the primary inference; this distribution
+    corroborates it.
+
+    Returns a dict: effects (sorted list of per-split aggregate effects),
+    n_splits, mean, sd, min, max, real_effect (the actual estimate at
+    `mechanism` against the unmodified panel), n_as_extreme (count of
+    |placebo effect| >= |real_effect|), share_as_extreme."""
     ctrl = [r for r in panel if r["control"]]
-    fake_adopters = set(sorted({r["slug"] for r in ctrl})[::2])
-    out = []
-    for r in ctrl:
-        r2 = dict(r)
-        if r2["slug"] in fake_adopters:
-            r2["control"] = False
-            r2["epb_year"] = fake_year
-            r2["asv_year"] = None
-        out.append(r2)
-    return estimate(out, mechanism="epb")
+    slugs = sorted({r["slug"] for r in ctrl})
+    real_effect = estimate(panel, mechanism)["effect"]
+    fake_key = "asv_year" if mechanism == "asv" else "epb_year"
+    other_key = "epb_year" if mechanism == "asv" else "asv_year"
+    est_mechanism = "asv" if mechanism == "asv" else "epb"
+
+    effects = []
+    for split in _fake_adopter_splits(slugs):
+        fake_adopters = set(split)
+        out = []
+        for r in ctrl:
+            r2 = dict(r)
+            if r2["slug"] in fake_adopters:
+                r2["control"] = False
+                r2[fake_key] = fake_year
+                r2[other_key] = None
+            out.append(r2)
+        e = estimate(out, mechanism=est_mechanism)["effect"]
+        if e is not None:
+            effects.append(e)
+    effects.sort()
+
+    n_splits = len(effects)
+    if n_splits == 0:
+        return {"effects": [], "n_splits": 0, "mean": None, "sd": None,
+                "min": None, "max": None, "real_effect": real_effect,
+                "n_as_extreme": None, "share_as_extreme": None}
+
+    mean = st.mean(effects)
+    sd = st.stdev(effects) if n_splits > 1 else 0.0
+    if real_effect is None:
+        n_as_extreme = None
+        share_as_extreme = None
+    else:
+        n_as_extreme = sum(1 for e in effects if abs(e) >= abs(real_effect))
+        share_as_extreme = n_as_extreme / n_splits
+    return {"effects": effects, "n_splits": n_splits, "mean": mean,
+            "sd": sd, "min": effects[0], "max": effects[-1],
+            "real_effect": real_effect, "n_as_extreme": n_as_extreme,
+            "share_as_extreme": share_as_extreme}
+
+
+def placebo(panel, mechanism="epb", fake_year=2018):
+    """Thin wrapper kept for existing callers: returns the same distribution
+    dict as placebo_distribution(). The old version of this function
+    returned a single arbitrary split's point estimate; every caller must
+    now read the distribution, not a lone "effect" key."""
+    return placebo_distribution(panel, mechanism=mechanism,
+                                fake_year=fake_year)
 
 
 def scenario(panel, mechanism, n_controls, n_elections):
@@ -219,7 +312,18 @@ def main():
         print(json.dumps(out, indent=1))
     else:
         for k, v in out.items():
-            print(f"{k}: {v}")
+            if k == "placebo" and v is not None:
+                print("placebo:")
+                print(f"  n_splits: {v['n_splits']}")
+                print(f"  real_effect: {v['real_effect']}")
+                print(f"  mean: {v['mean']}")
+                print(f"  sd: {v['sd']}")
+                print(f"  min: {v['min']}")
+                print(f"  max: {v['max']}")
+                print(f"  n_as_extreme: {v['n_as_extreme']}")
+                print(f"  share_as_extreme: {v['share_as_extreme']}")
+            else:
+                print(f"{k}: {v}")
 
 
 if __name__ == "__main__":

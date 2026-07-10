@@ -3,9 +3,11 @@ import subprocess
 import sys
 from pathlib import Path
 
+import pytest
+
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts" / "research"))
 from estimate_tech_effect import (load_panel, estimate, jackknife, placebo,
-                                  scenario)
+                                  placebo_distribution, scenario)
 
 
 def synth(tmp_path, effect=-10.0, year_drift=-2.0, noise=None,
@@ -114,10 +116,64 @@ def test_jackknife_zero_se_on_noiseless_data(tmp_path):
     assert jk["ci95"][0] <= jk["effect"] <= jk["ci95"][1]
 
 
-def test_placebo_is_zero_on_controls(tmp_path):
+def test_placebo_distribution_zero_on_noiseless_data(tmp_path):
+    """A working design must return ~0 for EVERY fake-adopter split, not
+    just one arbitrary one: fake adopters and real controls share the same
+    year shocks in noiseless synthetic data regardless of which subset of
+    controls is promoted to fake-adopter status."""
     panel = load_panel(synth(tmp_path))
     res = placebo(panel, fake_year=2018)
-    assert abs(res["effect"]) < 1e-9
+    assert res["n_splits"] >= 1
+    for e in res["effects"]:
+        assert abs(e) < 1e-9
+    assert abs(res["mean"]) < 1e-9
+    assert res["sd"] < 1e-9
+
+
+def test_placebo_distribution_share_as_extreme_on_constructed_example():
+    """Hand-computable example: one treated county (t1, +10pp real change,
+    zero control-side drift against its own controls) and three controls
+    (c1: 0 change, c2: +10 change, c3: -10 change). Enumerating every
+    nonempty proper subset of {c1, c2, c3} as fake adopters gives 6 splits.
+    Working through _control_change by hand for each split:
+      {c1}      -> fake c1 (0) vs remaining {c2,c3} mean (0)   = 0
+      {c2}      -> fake c2 (+10) vs remaining {c1,c3} mean (-5) = +15
+      {c3}      -> fake c3 (-10) vs remaining {c1,c2} mean (+5) = -15
+      {c1,c2}   -> fake c1 (0) vs remaining {c3} (-10) = +10;
+                   fake c2 (+10) vs remaining {c3} (-10) = +20;
+                   split effect = mean(10, 20) = +15
+      {c1,c3}   -> fake c1 (0) vs remaining {c2} (+10) = -10;
+                   fake c3 (-10) vs remaining {c2} (+10) = -20;
+                   split effect = mean(-10, -20) = -15
+      {c2,c3}   -> fake c2 (+10) vs remaining {c1} (0) = +10;
+                   fake c3 (-10) vs remaining {c1} (0) = -10;
+                   split effect = mean(10, -10) = 0
+    So effects sorted = [-15, -15, 0, 0, 15, 15], real_effect = +10, and
+    4 of 6 splits (both -15s and both 15s) are at least as extreme as +10."""
+    def row(slug, year, pct, control, epb_year=None):
+        return {"slug": slug, "year": year, "type": "midterm", "pct": pct,
+                "control": control, "epb_year": epb_year, "asv_year": None}
+
+    panel = [
+        row("t1", 2016, 50.0, False, epb_year=2018),
+        row("t1", 2020, 60.0, False, epb_year=2018),
+        row("c1", 2016, 50.0, True),
+        row("c1", 2020, 50.0, True),
+        row("c2", 2016, 50.0, True),
+        row("c2", 2020, 60.0, True),
+        row("c3", 2016, 50.0, True),
+        row("c3", 2020, 40.0, True),
+    ]
+    res = placebo_distribution(panel, mechanism="epb", fake_year=2018)
+    assert res["real_effect"] == pytest.approx(10.0)
+    assert res["n_splits"] == 6
+    assert res["effects"] == pytest.approx(
+        sorted([0.0, 0.0, 15.0, 15.0, -15.0, -15.0]))
+    assert res["mean"] == pytest.approx(0.0)
+    assert res["min"] == pytest.approx(-15.0)
+    assert res["max"] == pytest.approx(15.0)
+    assert res["n_as_extreme"] == 4
+    assert res["share_as_extreme"] == pytest.approx(4 / 6)
 
 
 def test_mechanism_filter_uses_matching_adoption_year(tmp_path):
@@ -153,3 +209,20 @@ def test_cli_json_reports_counts(tmp_path):
     assert out["n_treated"] == 2
     assert out["n_controls"] == 2
     assert "mde" in out and "n_replicates" in out
+
+
+def test_cli_placebo_reports_distribution(tmp_path):
+    p = synth(tmp_path)
+    r = subprocess.run(
+        [sys.executable,
+         str(Path(__file__).parent.parent / "scripts" / "research" /
+             "estimate_tech_effect.py"),
+         "--path", str(p), "--mechanism", "epb", "--placebo", "--json"],
+        capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    out = json.loads(r.stdout)
+    placebo_out = out["placebo"]
+    assert placebo_out["n_splits"] >= 1
+    assert set(placebo_out) == {
+        "effects", "n_splits", "mean", "sd", "min", "max", "real_effect",
+        "n_as_extreme", "share_as_extreme"}
