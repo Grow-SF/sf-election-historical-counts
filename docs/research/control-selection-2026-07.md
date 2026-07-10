@@ -31,11 +31,7 @@ design, per the plan's lever 3). Ties broken by archive score.
 
 ## The large-county requirement cannot be met, and that's not fixable by better search
 
-The census's full 58-county sweep found **zero** large CA counties (>400k ballots) available as
-*additional* never-adopter controls. The one large never-adopter in the census, San Francisco, is
-already the panel's pre-existing control and is excluded as a candidate here for exactly that
-reason; every other county above roughly 90k population in California has adopted at least one of
-the two technologies by 2024. This isn't a gap in the research; it's the actual shape of the data;
+The census's full 58-county sweep found that California's only large never-adopter county (>400k ballots), San Francisco, is already the panel's pre-existing control; zero additional large-county controls are available. Every other county above roughly 90k population in California has adopted at least one of the two technologies by 2024. This isn't a gap in the research; it's the actual shape of the data;
 California's largest counties (SF aside) adopted VCA vote centers (with e-pollbooks bundled in) or
 rolled out standalone ASV between 2018 and 2025, and the remaining holdouts are all small, rural,
 mail-heavy counties in the northern part of the state.
