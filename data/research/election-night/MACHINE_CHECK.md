@@ -9,6 +9,12 @@ verify_en_* scripts to regenerate).
 
 | County | Date | Check | Claimed | Status | Evidence (context around match) |
 |---|---|---|---:|---|---|
+| colusa-ca | 2012-11-06 | denominator | 6,092 | VERIFIED | 18 12,364 7,765 2,692 3,400 6,092 55.81% 78.45% 49.27% |
+| colusa-ca | 2014-11-04 | denominator | 4,422 | VERIFIED | 18 12,296 7,595 1,762 2,660 4,422 60.15% 58.22% 35.96% |
+| colusa-ca | 2016-11-08 | denominator | 6,814 | VERIFIED | 18 12,496 8,638 2,607 4,207 6,814 61.74% 78.88% 54.53% |
+| colusa-ca | 2018-11-06 | denominator | 5,815 | VERIFIED | 18 12,552 8,792 2,580 3,235 5,815 55.63% 66.14% 46.33% |
+| colusa-ca | 2022-11-08 | denominator | 5,617 | VERIFIED | 19 13,214 10,144 1,134 4,483 5,617 79.81% 55.37% 42.51% |
+| colusa-ca | 2024-11-05 | denominator | 7,122 | VERIFIED | 19 13,123 10,626 0** 7,122 7,122 100.00% 67.02% 54.27% |
 | del-norte-ca | 2012-11-06 | denominator | 8,879 | VERIFIED | 18 18,250 12,516 3,620 5,259 8,879 59.23% 70.94% 48.65% |
 | del-norte-ca | 2014-11-04 | denominator | 7,332 | VERIFIED | 18 18,253 12,750 2,980 4,352 7,332 59.36% 57.51% 40.17% |
 | del-norte-ca | 2014-11-04 | numerator | 6,539 | VERIFIED | render-verified: DEL_20141104_E Summary Report Del Norte County Nov. 4, 2014 General Election Unofficial. Registration & |

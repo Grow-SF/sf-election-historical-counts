@@ -87,6 +87,78 @@
       ]
     },
     {
+      "name": "Colusa",
+      "slug": "colusa-ca",
+      "control": true,
+      "complete": false,
+      "adoption": {
+        "epollbook": null,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 6092,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 4422,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 6814,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 5815,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 5617,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 7122,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        }
+      ]
+    },
+    {
       "name": "Del Norte",
       "slug": "del-norte-ca",
       "control": true,

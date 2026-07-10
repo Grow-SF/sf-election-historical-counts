@@ -1,0 +1,88 @@
+{
+  "jurisdiction": "Colusa County",
+  "state": "CA",
+  "adoption": {
+    "epollbook": null,
+    "asv": null
+  },
+  "elections": [
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 6092,
+      "election_night_pct": null,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "No Clarity (results.enr.clarityelections.com/CA/Colusa/ -> 404). No Wayback capture of any elections-labeled path on countyofcolusa.org, co.colusa.ca.us, or ca-colusacounty.civicplus.com exists anywhere in 2012 (CDX: url=countyofcolusa.org&matchType=domain&filter=original:.*(?i)(elect|vote|result).* limit=2000, earliest hit 2013-08; url=co.colusa.ca.us&matchType=domain, captures stop 2008; url=ca-colusacounty.civicplus.com&matchType=domain, homepage-only captures 2012-04/2013-05, no elections subpage). Colusa's only surviving results artifact for this election is /DocumentCenter/View/5436, titled 'November-6-2012-Official-Results-By-Contest' (Wayback capture 2022-07-02, https://web.archive.org/web/20220702140759id_/https://www.countyofcolusa.org/DocumentCenter/View/5436/November-6-2012-Official-Results-By-Contest?bidId=); its title matches the certified-canvass naming pattern independently confirmed via internal PDF metadata for Colusa's 2016 (CreationDate 2017-01-12), 2018 (CreationDate 2018-11-28), 2022 (report header 2022-12-01, Voters Cast exactly = certified final 5,617), and 2024 (report header 2024-12-03, Voters Cast exactly = certified final 7,122) results documents -- in every year checked, Colusa's registrar publishes exactly ONE results document per election and it is the certified final, 3-4 weeks post-election, never a distinct night snapshot. Byte-level PDF metadata confirmation for the 2012 document specifically was attempted (curl --max-time 45/60 against the web.archive.org id_ replay) but blocked by intermittent web.archive.org connectivity in this research session (curl error 7, connection refused), not a bot-wall; CDX enumeration (which hit the same host) succeeded before and after. No local-news coverage found (WebSearch for Colusa Sun-Herald / Appeal-Democrat 2012 election-night coverage returned nothing dated Nov 2012). Value left null per RUNBOOK.md 5.1 rather than substituting the certified-final PDF as a fake night number."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 4422,
+      "election_night_pct": null,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "No Clarity. The elections page www.countyofcolusa.org/elections has a >18-month Wayback gap spanning the entire election (last capture before: 2014-08-11 302 redirect / not-yet-live; next: 2016-06-11); CDX: url=countyofcolusa.org/elections&matchType=prefix&limit=200. Only surviving results artifact is /DocumentCenter/View/4693 ('By Contest'), Wayback capture 2019-07-20 (https://web.archive.org/web/20190720094634id_/https://www.countyofcolusa.org/DocumentCenter/View/4693), part of the same standing single-document-per-election results archive whose every independently-confirmed sibling year (2016, 2018, 2022, 2024; see 2012 row note) turned out via internal PDF metadata to be the certified final 3-4 weeks post-election, not a night snapshot. Direct byte-fetch to confirm 4693's own CreationDate was attempted (curl --max-time 60) and blocked by intermittent web.archive.org connectivity this session (curl error 7; one earlier attempt truncated at exactly 1,048,576 bytes mid-transfer). No local-news coverage found for Nov 2014 election night. Value left null per RUNBOOK.md 5.1."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 6814,
+      "election_night_pct": null,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "DIRECTLY CONFIRMED not a night number: fetched /DocumentCenter/View/8620 via https://web.archive.org/web/20201121161224id_/https://www.countyofcolusa.org/DocumentCenter/View/8620/November-8-2016-Results-By-Contest?bidId= (image-only PDF, no text layer, rendered with pdftoppm -png -r 150 and read directly). Page 1 is a SIGNED 'CANVASS AND STATEMENT OF RESULT OF ELECTION' certificate dated 'this 30th day of NOVEMBER 2016' by County Clerk/Registrar Rose Gallo-Vasquez. Page 2 header: 'RUN DATE: 11/30/16 04:49 PM ... OFFICIAL RESULTS - EL45A', Ballots Cast - Total: 6,814, exactly equal to the SoS certified final. This is the certified canvass, 22 days post-election, not an election-night report. www.countyofcolusa.org/elections (the page that links to it) has a 2-month Wayback gap bracketing election night (last capture before: 2016-10-20; next: 2016-12-21; CDX: url=countyofcolusa.org/elections&matchType=prefix), consistent with no night-specific page ever being crawled. No Clarity. No local-news coverage of election night found via WebSearch. Value left null per RUNBOOK.md 5.1: the only surviving number is the certified final itself, which cannot stand in as a 'night' figure."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 5815,
+      "election_night_pct": null,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "DIRECTLY CONFIRMED not a night number: fetched /DocumentCenter/View/10616 via https://web.archive.org/web/20190723050900id_/https://www.countyofcolusa.org/DocumentCenter/View/10616 (image-only PDF, rendered with pdftoppm -png -r 150 and read directly). Header: 'OFFICIAL RESULTS ... RUN DATE: 11/26/18 02:24 PM ... REPORT-EL45A PAGE 001'; Ballots Cast - Total: 5,815, exactly equal to the SoS certified final. pdfinfo also shows CreationDate 2018-11-28 / ModDate 2018-11-29 -- 22-23 days post-election. This document is also what the elections homepage linked as 'Official Results' (/DocumentCenter/View/10611, no independent Wayback capture) in its 2018-11-29 Wayback snapshot -- the FIRST time the elections page was crawled again after a >10-month gap (last before: 2018-01-31; CDX: url=countyofcolusa.org/elections&matchType=prefix), meaning Wayback never saw the page during the live count at all, only after certification was essentially complete. No Clarity. No local-news coverage of election night found via WebSearch. Value left null per RUNBOOK.md 5.1."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 5617,
+      "election_night_pct": null,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "DIRECTLY CONFIRMED not a night number, fetched live (no Wayback needed): https://www.countyofcolusaca.gov/DocumentCenter/View/16571 (curl -L, 689,931 bytes, text PDF). pdfinfo CreationDate 2022-12-02 12:45:31 PM. pdftotext -layout header: 'Election Summary Report ... November 08, 2022 ... Official Results ... Page 1 of 14 ... 12/1/2022 4:50:41 PM'; body 'Total 5,617 ... Registered Voters 10,147 ... Turnout 55.36% ... Precincts Reported: 19 of 19 (100.00%)' -- exact match to the SoS certified final (5,617). This is the certified canvass, 23 days post-election, not election night. The live 'Past Election Results' archive page (https://www.countyofcolusaca.gov/679/Past-Election-Results) lists only 'Summary' and 'Provisional Ballot Status' documents for this election -- no distinct election-night report was ever published. The one Colusa Sun-Herald article found covering an 'unofficial results, ballot count continues' theme (appeal-democrat.com/colusa_sun_herald/colusa-county-releases-unofficial-election-results-as-ballot-count-continue/) is dated mid-June 2022 and covers the June 2022 primary, not this November general -- wrong election, not usable; a WebFetch re-check hit HTTP 429 and was not pursued further given the date mismatch. No Clarity. Value left null per RUNBOOK.md 5.1."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 7122,
+      "election_night_pct": null,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "GOTCHA: the registrar's own document is titled/URL-named 'Election-Night-Results' (https://www.countyofcolusaca.gov/DocumentCenter/View/18349/Election-Night-Results, live-fetched, image-only PDF, pdfinfo CreationDate 2024-12-03 2:11 PM) but its OWN internal title block, read directly off the rendered page-1 image, says 'Election Summary Report ... November 05, 2024 ... Colusa County FINAL REPORT', report timestamp 12/3/2024 1:03:33 PM (28 days post-election), Voters Cast 7,122 of 10,651 (66.87%) -- exactly equal to the SoS certified final (7,122). This is the certified canvass, not election night, despite the filename. Confirmed as a systemic naming artifact: the live Elections page's CURRENT 'Official Election Results' link (for the most recent election as of this 2026 research pass) is /DocumentCenter/View/20340/ElectionSummaryReportRPT-election-night-6226, the same '-election-night-' filename fragment, indicating Colusa's Dominion-based elections-management software (per CA SoS Oct-2025 tech PDF) always exports its cumulative ElectionSummaryReportRPT with 'election-night' baked into the filename template regardless of report date. Future researchers: do NOT trust this filename pattern for Colusa; always read the document's own internal 'RUN DATE' / report-title text. No Clarity. No local-news coverage of Nov 2024 election night found via WebSearch. Value left null per RUNBOOK.md 5.1."
+    }
+  ]
+}
