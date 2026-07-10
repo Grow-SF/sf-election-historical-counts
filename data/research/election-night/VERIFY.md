@@ -45,7 +45,7 @@ This is the gold-standard series the county numbers are compared against.
 
 ### Colusa County
 *Control county: never adopted e-pollbook or ASV (adoption years null both legs). All six election-night
-numerators are documented nulls — no distinct election-night report survives at any route for any year;
+numerators are documented nulls: no distinct election-night report survives at any route for any year.
 Colusa's registrar publishes exactly one results document per election, always the certified final
 3-4 weeks post-election.*
 
@@ -68,16 +68,16 @@ Colusa's registrar publishes exactly one results document per election, always t
   - look for: Certified final 4,422 ballots cast. Election-night PLATEAU not sourceable: the elections page has an 18-month Wayback gap spanning this election; the only surviving results document (`/DocumentCenter/View/4693`) is, by the same cross-year pattern, the certified final.
 - **2016 presidential-general** — night `—` / final `6,814` = `—` (none)
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf>
-  - look for: Certified final 6,814 ballots cast. Election-night PLATEAU not sourceable: DIRECTLY CONFIRMED — the only surviving results document ([Wayback capture of DocumentCenter/View/8620](https://web.archive.org/web/20201121161224id_/https://www.countyofcolusa.org/DocumentCenter/View/8620/November-8-2016-Results-By-Contest?bidId=)) is a SIGNED canvass certificate dated Nov 30, 2016 (22 days post-election), Ballots Cast 6,814 = certified final exactly, confirmed by direct page-image read.
+  - look for: Certified final 6,814 ballots cast. Election-night PLATEAU not sourceable: DIRECTLY CONFIRMED (the only surviving results document, [Wayback capture of DocumentCenter/View/8620](https://web.archive.org/web/20201121161224id_/https://www.countyofcolusa.org/DocumentCenter/View/8620/November-8-2016-Results-By-Contest?bidId=), is a SIGNED canvass certificate dated Nov 30, 2016, 22 days post-election), Ballots Cast 6,814 = certified final exactly, confirmed by direct page-image read.
 - **2018 midterm-general** — night `—` / final `5,815` = `—` (none)
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf>
-  - look for: Certified final 5,815 ballots cast. Election-night PLATEAU not sourceable: DIRECTLY CONFIRMED — the only surviving results document ([Wayback capture of DocumentCenter/View/10616](https://web.archive.org/web/20190723050900id_/https://www.countyofcolusa.org/DocumentCenter/View/10616)) is headered "OFFICIAL RESULTS, RUN DATE: 11/26/18", Ballots Cast 5,815 = certified final exactly, confirmed by direct page-image read.
+  - look for: Certified final 5,815 ballots cast. Election-night PLATEAU not sourceable: DIRECTLY CONFIRMED (the only surviving results document, [Wayback capture of DocumentCenter/View/10616](https://web.archive.org/web/20190723050900id_/https://www.countyofcolusa.org/DocumentCenter/View/10616), is headered "OFFICIAL RESULTS, RUN DATE: 11/26/18"), Ballots Cast 5,815 = certified final exactly, confirmed by direct page-image read.
 - **2022 midterm-general** — night `—` / final `5,617` = `—` (none)
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf>
-  - look for: Certified final 5,617 ballots cast. Election-night PLATEAU not sourceable: DIRECTLY CONFIRMED via a live fetch (no Wayback needed) — the registrar's only document for this election ([DocumentCenter/View/16571](https://www.countyofcolusaca.gov/DocumentCenter/View/16571)) is headered "Official Results ... 12/1/2022 4:50:41 PM", Total 5,617 = certified final exactly.
+  - look for: Certified final 5,617 ballots cast. Election-night PLATEAU not sourceable: DIRECTLY CONFIRMED via a live fetch, no Wayback needed (the registrar's only document for this election, [DocumentCenter/View/16571](https://www.countyofcolusaca.gov/DocumentCenter/View/16571), is headered "Official Results ... 12/1/2022 4:50:41 PM"), Total 5,617 = certified final exactly.
 - **2024 presidential-general** — night `—` / final `7,122` = `—` (none)
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf>
-  - look for: Certified final 7,122 ballots cast. Election-night PLATEAU not sourceable: GOTCHA — the registrar's document is titled/URL-named "Election-Night-Results" ([DocumentCenter/View/18349](https://www.countyofcolusaca.gov/DocumentCenter/View/18349/Election-Night-Results)) but its own internal title block, read directly off the rendered page image, is the "Colusa County Final Report" dated 12/3/2024, Voters Cast 7,122 = certified final exactly. Filename is misleading; verified by direct page-image read, not the URL text.
+  - look for: Certified final 7,122 ballots cast. Election-night PLATEAU not sourceable: GOTCHA (the registrar's document is titled/URL-named "Election-Night-Results", [DocumentCenter/View/18349](https://www.countyofcolusaca.gov/DocumentCenter/View/18349/Election-Night-Results), but its own internal title block, read directly off the rendered page image, is the "Colusa County Final Report" dated 12/3/2024), Voters Cast 7,122 = certified final exactly. Filename is misleading; verified by direct page-image read, not the URL text.
 
 </details>
 

@@ -31,24 +31,27 @@ design, per the plan's lever 3). Ties broken by archive score.
 
 ## The large-county requirement cannot be met, and that's not fixable by better search
 
-The census's full 58-county sweep found **zero** large CA counties (>400k ballots) that never
-adopted e-pollbooks or ASV. Every county above roughly 90k population in California has adopted at
-least one of the two technologies by 2024. This isn't a gap in the research; it's the actual shape
-of the data; California's largest counties adopted VCA vote centers (with e-pollbooks bundled in) or
-rolled out standalone ASV between 2018 and 2025, and the handful of holdouts are all small, rural,
+The census's full 58-county sweep found **zero** large CA counties (>400k ballots) available as
+*additional* never-adopter controls. The one large never-adopter in the census, San Francisco, is
+already the panel's pre-existing control and is excluded as a candidate here for exactly that
+reason; every other county above roughly 90k population in California has adopted at least one of
+the two technologies by 2024. This isn't a gap in the research; it's the actual shape of the data;
+California's largest counties (SF aside) adopted VCA vote centers (with e-pollbooks bundled in) or
+rolled out standalone ASV between 2018 and 2025, and the remaining holdouts are all small, rural,
 mail-heavy counties in the northern part of the state.
 
 **Decision: do not force a large county into the control set.** Selecting the best 5 available
 small counties and documenting the gap is more honest than padding the pool with a marginal-adopter
 county mislabeled as a control. What this costs and doesn't cost the design:
 
-- **Costs:** the control set can't test whether a large, high-volume county's election-night
-  trajectory shifts across matched years the way SF's does. If large adopter counties show a level
-  change that's actually a large-county-specific effect (more processing capacity, different
-  staffing ratios, urban press cycles) rather than a tech effect, the small-county control panel
-  can't distinguish that from a genuine tech effect. Level comparisons between an adopter like LA or
-  Orange and a control need to lean more on same-county before/after (already the core of the
-  design) than on cross-sectional adopter-vs-control-at-a-point-in-time comparisons.
+- **Costs:** SF stays the panel's only large control, with no second large-county series to test
+  whether SF's election-night trajectory generalizes or is an SF idiosyncrasy (goal (a) at the top
+  of this memo). If large adopter counties show a level change that's actually a
+  large-county-specific effect (more processing capacity, different staffing ratios, urban press
+  cycles) rather than a tech effect, a control panel whose only large member is SF can't distinguish
+  that from a genuine tech effect. Level comparisons between an adopter like LA or Orange and a
+  control need to lean more on same-county before/after (already the core of the design) than on
+  cross-sectional adopter-vs-control-at-a-point-in-time comparisons.
 - **Doesn't cost:** the control panel's primary job in the matched-years design is to net out
   *statewide* year-level shocks common to every county in a given election cycle (weather, a
   marquee statewide race driving turnout, a printing/mailing delay affecting the whole state's VBM
@@ -157,19 +160,19 @@ therefore the rejected near-miss; the other 5 are the picks.
 
 1. Clarity: `curl -A UA -o /dev/null -w "%{http_code}" https://results.enr.clarityelections.com/CA/Del_Norte/` -> 404. No Clarity usage (small county).
 2. Registrar URL: `curl -o /dev/null -w "%{http_code}" https://www.co.del-norte.ca.us/departments/elections` -> 200; canonical path is actually `/departments/clerk-recorder/elections` (also 200), plus a legacy subdomain `elections.co.del-norte.ca.us`.
-3. Wayback density: strong in both windows. Nov 2016: `elections.co.del-norte.ca.us/` captured 5x (2016-11-02 through 2016-11-21, 200 each); `.../clerk-recorder/elections` captured 2016-11-03 and 2016-11-17. Nov 2018: `.../elections/election-results` captured repeatedly, and — notably — dated per-election subpages exist: `.../election-results/november-8-2016-general-election-results` and `.../june-7-2016-primary-election-results`, both still live and captured as of 2018-11-25, meaning the county keeps a standing results archive by election name rather than overwriting a single "current results" page.
+3. Wayback density: strong in both windows. Nov 2016: `elections.co.del-norte.ca.us/` captured 5x (2016-11-02 through 2016-11-21, 200 each); `.../clerk-recorder/elections` captured 2016-11-03 and 2016-11-17. Nov 2018: `.../elections/election-results` captured repeatedly, and, notably, dated per-election subpages exist: `.../election-results/november-8-2016-general-election-results` and `.../june-7-2016-primary-election-results`, both still live and captured as of 2018-11-25, meaning the county keeps a standing results archive by election name rather than overwriting a single "current results" page.
 4. Press-release archive: `curl -o /dev/null -w "%{http_code}" https://www.co.del-norte.ca.us/departments/clerk-recorder/elections/press-releases` -> 200 (path guessed correctly on first try).
 
-Verdict: **viable** — best result in this batch for methodology: the county's own site structure preserves dated per-election results pages, so even a single fresh capture would recover the 2016 numbers; Wayback also already has that exact page indexed.
+Verdict: **viable**: best result in this batch for methodology, since the county's own site structure preserves dated per-election results pages, so even a single fresh capture would recover the 2016 numbers; Wayback also already has that exact page indexed.
 
 ### Lake (picked)
 
 1. Clarity: `curl -A UA -o /dev/null -w "%{http_code}" https://results.enr.clarityelections.com/CA/Lake/` -> 404. No Clarity usage.
 2. Registrar URL: `curl -o /dev/null -w "%{http_code}" https://www.lakecountyca.gov/818/Registrar-of-Voters` -> 200.
-3. Wayback density: strong once the right subdomain is found. Nov 2016 -> `publicapps.lakecountyca.gov/elections/results/result30.htm` captured **2016-11-12**, 200, 4.3KB — a genuine dated results page (the main `www.lakecountyca.gov` domain itself didn't show elections-tagged hits in the same window, so results lived on a separate `publicapps` subdomain). Nov 2018 -> very dense: individual ballot-measure PDFs (`Hv2.pdf`, `Iv2.pdf`, `Kv2.pdf`, `Lv2.pdf`, `Mv2.pdf`) and a `Nov2018MediaReleases/Registration+Deadline.pdf` all captured 200 through late November — the county evidently keeps a dedicated per-election media-release folder.
+3. Wayback density: strong once the right subdomain is found. Nov 2016 -> `publicapps.lakecountyca.gov/elections/results/result30.htm` captured **2016-11-12**, 200, 4.3KB: a genuine dated results page (the main `www.lakecountyca.gov` domain itself didn't show elections-tagged hits in the same window, so results lived on a separate `publicapps` subdomain). Nov 2018 -> very dense: individual ballot-measure PDFs (`Hv2.pdf`, `Iv2.pdf`, `Kv2.pdf`, `Lv2.pdf`, `Mv2.pdf`) and a `Nov2018MediaReleases/Registration+Deadline.pdf` all captured 200 through late November; the county evidently keeps a dedicated per-election media-release folder.
 4. Press-release archive: `curl -o /dev/null -w "%{http_code}" https://www.lakecountyca.gov/916/Resources` -> 200; CDX independently surfaced a `Nov2018MediaReleases/` folder confirming an actual press-release archiving convention, not just a guess.
 
-Verdict: **viable** — the `publicapps` results subdomain plus a confirmed `MediaReleases` folder-per-election convention makes this one of the cleaner recoveries in the batch, though note results.aspx lives on a different subdomain than the main county site, worth remembering for future probes.
+Verdict: **viable**: the `publicapps` results subdomain plus a confirmed `MediaReleases` folder-per-election convention makes this one of the cleaner recoveries in the batch, though note results.aspx lives on a different subdomain than the main county site, worth remembering for future probes.
 
 ### Colusa (picked)
 
@@ -178,16 +181,16 @@ Verdict: **viable** — the `publicapps` results subdomain plus a confirmed `Med
 3. Wayback density: CDX on current domain `countyofcolusaca.gov` for both Nov 2016 and Nov 2018 -> **empty both windows** (domain didn't exist yet, or wasn't crawled). CDX on the old domain `countyofcolusa.org` -> Nov 2016 also empty; Nov 2018 has a real `/elections` page capture (2018-11-29, 200, 18KB) plus incidental site-chrome assets, but nothing dated closer to election night itself and nothing at all for 2016.
 4. Press-release archive: `curl -o /dev/null -w "%{http_code}" https://www.countyofcolusaca.gov/CivicAlerts.aspx` -> 200 (CivicPlus alerts module exists; depth/vintage unconfirmed).
 
-Verdict: **marginal** — no 2016 web trail found at all under either domain; 2018 has only a late-month capture. This is a small county where PDF result books may be the only real record for 2016.
+Verdict: **marginal**: no 2016 web trail found at all under either domain; 2018 has only a late-month capture. This is a small county where PDF result books may be the only real record for 2016.
 
 ### Mendocino (picked)
 
 1. Clarity: `curl -A UA -o /dev/null -w "%{http_code}" https://results.enr.clarityelections.com/CA/Mendocino/` -> 404. No Clarity usage.
 2. Registrar URL: current `https://www.mendocinocounty.gov/government/assessor-county-clerk-recorder-elections/elections` (curl -> 403, Cloudflare-blocked but real). 2016/2018-era domain was `co.mendocino.ca.us`.
-3. Wayback density: strong, and shows a long-running naming convention. Nov 2016: `/acr/elections.htm` captured **10 times** between 2016-11-04 and 2016-11-23 (all 200, ~6.4KB, spanning election day 2016-11-08 itself). Nov 2018: the same path now 301-redirects to the new site, but CDX also surfaced named historical-results pages reaching back to 2008 (`election_results/results20080205.pdf`, `results-20080620.htm`, `results20091118.htm`, `results20100608.htm`, `20101102-general.htm`) and a `pastElections.htm` index — strong evidence the county has archived results by dated filename for over a decade.
+3. Wayback density: strong, and shows a long-running naming convention. Nov 2016: `/acr/elections.htm` captured **10 times** between 2016-11-04 and 2016-11-23 (all 200, ~6.4KB, spanning election day 2016-11-08 itself). Nov 2018: the same path now 301-redirects to the new site, but CDX also surfaced named historical-results pages reaching back to 2008 (`election_results/results20080205.pdf`, `results-20080620.htm`, `results20091118.htm`, `results20100608.htm`, `20101102-general.htm`) and a `pastElections.htm` index: strong evidence the county has archived results by dated filename for over a decade.
 4. Press-release archive: `curl -o /dev/null -w "%{http_code}" -L https://www.mendocinocounty.gov/government/assessor-county-clerk-recorder-elections/current-election-results` -> 403 (Cloudflare-blocked, not independently confirmed, though a "Past Election Results" page was found directly via search).
 
-Verdict: **viable** — 2016 has a direct, dated `elections.htm` capture including election day itself, and the site's own dated-filename convention for results pages (`resultsYYYYMMDD.htm`) going back to 2008 makes this one of the more self-documenting counties in the batch.
+Verdict: **viable**: 2016 has a direct, dated `elections.htm` capture including election day itself, and the site's own dated-filename convention for results pages (`resultsYYYYMMDD.htm`) going back to 2008 makes this one of the more self-documenting counties in the batch.
 
 ### Tehama (picked)
 
@@ -196,7 +199,7 @@ Verdict: **viable** — 2016 has a direct, dated `elections.htm` capture includi
 3. Wayback density: 2016 window: `dep-elections` landing page captured 11-03, 11-04, and 2016-11-08 08:19 UTC (=11-08 12:19am PST, early election day, pre-results); separately a dedicated `election_results/Election Result_dtl.htm` page captured 2016-11-07 22:05 UTC (day before election). Also plain `/elections` alias captured 11-04/11-05. 2018 window: `dep-elections` captured 2018-11-07 15:01 and 2018-11-09 15:21 (day after and 3 days after election). Score: 1
 4. Press-release archive: could not check (DNS failure on live site). Score: 0 (unknown)
 
-Verdict: **marginal** — site is crawled with reasonable regularity around election windows both years and has a dedicated results-detail page, but no confirmed exact-election-night capture and live site currently unreachable from this probe environment.
+Verdict: **marginal**: site is crawled with reasonable regularity around election windows both years and has a dedicated results-detail page, but no confirmed exact-election-night capture and live site currently unreachable from this probe environment.
 
 ### Plumas (rejected near-miss)
 
@@ -213,8 +216,14 @@ Verdict: **poor** (tiny county, no Clarity, thin Wayback coverage of the actual 
 |---|---|---|
 | Alpine | unknown / low | EPB-clean but no ASV-absence source found in either the original census research or this pass's follow-up search; only statewide SoS boilerplate on file. |
 | Sierra | unknown / low | 2025-2026 grand jury report watched "signature verification" happen but never states whether the match itself is machine-assisted or human-only; genuinely ambiguous, not just under-searched. |
-| Siskiyou | unknown / low | No county-specific verification-method statement found in county pages, local news, or grand jury archive. A promising "human eyes" search snippet turned out to be a misattributed quote actually belonging to Shasta County (see flip-attempt section above) — a real near-miss, not a Siskiyou finding. |
+| Siskiyou | unknown / low | No county-specific verification-method statement found in county pages, local news, or grand jury archive. A promising "human eyes" search snippet turned out to be a misattributed quote actually belonging to Shasta County (see flip-attempt section above): a real near-miss, not a Siskiyou finding. |
 | Trinity | unknown / low | County's own elections page and the one available grand jury writeup (Dec 2020) praise ballot handling generally but don't describe the signature-comparison method specifically. |
+
+The census actually carries a 5th `unknown` county, Glenn (`glenn-ca`), omitted from
+this table because it isn't part of the same ASV-evidence gap as the four above: Glenn's
+`unknown` status stems from an unresolved EPB-source conflict (SoS voting-tech snapshots
+say "Do not use," EAVS says electronic-poll-book use is true), so it was never a
+flip-attempt candidate for this control search in the first place.
 
 ## The 5 picks
 
@@ -229,8 +238,9 @@ Verdict: **poor** (tiny county, no Clarity, thin Wayback coverage of the actual 
 All 5 satisfy the brief's "small" bucket (<100k ballots is trivially true for counties this size;
 even Mendocino, the largest, has a population under 90k so ballots cast tops out in the low
 tens-of-thousands). All 5 are non-VCA, traditional-precinct-polling counties (satisfies ">=2
-non-VCA" many times over). No large county and no VCA-but-never-EPB county exist in the current
-58-county census; both gaps are documented above rather than papered over.
+non-VCA" many times over). No additional large control county (San Francisco, already the panel's
+control, is the census's only large never-adopter) and no VCA-but-never-EPB county exist in the
+current 58-county census; both gaps are documented above rather than papered over.
 
 ## Validation
 

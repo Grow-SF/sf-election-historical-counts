@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Bake packages/data/county_night.json — the cross-county ELECTION-NIGHT share
-comparison (last election-night report ÷ certified final), with San Francisco
-(no new counting tech) as the control.
+comparison (last election-night report ÷ certified final). San Francisco plus
+five researched never-adopter counties (Lake, Del Norte, Mendocino, Tehama,
+Colusa) serve as the no-new-counting-tech controls; see is_control() below for
+exactly how a county earns that flag.
 
 Sources:
   - data/research/election-night/<slug>.json
@@ -46,9 +48,9 @@ def is_control(slug: str, adoption: dict, tech_dir: pathlib.Path = COUNTY_TECH) 
     schema fallback, no recorded adoption event -- for both epollbook and
     asv). Null adoption years alone are NOT enough: a future county whose
     years are null merely because it is UNRESEARCHED must not silently
-    become a control. See docs/research/RUNBOOK.md section 10 (Lake
-    County, 2026-07) and the is_control() tech-record hardening
-    (2026-07-10)."""
+    become a control. See docs/research/RUNBOOK.md section 4 (the
+    control-flag rule paragraph, added 2026-07-10) and the is_control()
+    tech-record hardening below."""
     if adoption.get("epollbook") is not None or adoption.get("asv") is not None:
         return False
     tech_fp = tech_dir / f"{slug}.json"
@@ -147,7 +149,10 @@ def main() -> None:
     payload = {
         "metric": "election-night share = ballots in the last election-night report / certified-final ballots",
         "note": (
-            "San Francisco is the no-new-tech control. 2020 (presidential) is a COVID "
+            "San Francisco plus five researched never-adopter counties (Lake, Del "
+            "Norte, Mendocino, Tehama, Colusa) are the no-new-tech controls; Colusa "
+            "carries documented nulls (no surviving election-night report for any "
+            "year) rather than sourced points. 2020 (presidential) is a COVID "
             "all-mail outlier; rows flagged comparable=false (e.g. Nevada 2024, a "
             "ballot-printer-defect outlier) are excluded from pre/post comparisons. "
             "The 2018-2020 statewide Voter's Choice Act all-mail shift is a confound "

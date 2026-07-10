@@ -1,7 +1,9 @@
 # Gap-fill triage, 2026-07
 
-Triage of the 17 null/ceiling election-night cells listed in Task 5 of the
-county panel expansion, per `docs/research/RUNBOOK.md` sections 5, 6, 7, 8.
+Triage of the 24 null/ceiling election-night cells listed in Task 5 of the
+county panel expansion (4 recovered, including 1 documentation-hygiene fix;
+3 kept null after a re-research attempt; 17 kept null with routes confirmed
+exhausted), per `docs/research/RUNBOOK.md` sections 5, 6, 7, 8.
 A read-only scout drafted an initial classification (7 RE-RESEARCH, 16
 KEEP-NULL, 1 documentation-hygiene-only); this memo is the verified,
 final record after independently re-running or spot-checking every call.
