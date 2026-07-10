@@ -1,4 +1,5 @@
 import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -87,3 +88,18 @@ def test_scenario_mde_decreases_with_more_controls(tmp_path):
     mde_now = scenario(panel, "epb", n_controls=2, n_elections=6)
     mde_more = scenario(panel, "epb", n_controls=8, n_elections=6)
     assert mde_more < mde_now
+
+
+def test_cli_json_reports_counts(tmp_path):
+    p = synth(tmp_path)
+    r = subprocess.run(
+        [sys.executable,
+         str(Path(__file__).parent.parent / "scripts" / "research" /
+             "estimate_tech_effect.py"),
+         "--path", str(p), "--mechanism", "epb", "--json"],
+        capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    out = json.loads(r.stdout)
+    assert out["n_treated"] == 2
+    assert out["n_controls"] == 2
+    assert "mde" in out and "n_replicates" in out

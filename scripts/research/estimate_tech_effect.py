@@ -123,7 +123,8 @@ def jackknife(panel, mechanism="any"):
             reps.append(e)
     n = len(reps)
     if n < 2 or full["effect"] is None:
-        return {"effect": full["effect"], "se": None, "ci95": (None, None)}
+        return {"effect": full["effect"], "se": None, "ci95": (None, None),
+                "mde": None, "n_replicates": n}
     mean_rep = st.mean(reps)
     var = (n - 1) / n * sum((e - mean_rep) ** 2 for e in reps)
     se = math.sqrt(var)
@@ -176,8 +177,11 @@ def main():
     ap.add_argument("--json", action="store_true")
     args = ap.parse_args()
     panel = load_panel(args.path)
+    est = estimate(panel, args.mechanism)
     out = {"mechanism": args.mechanism, **jackknife(panel, args.mechanism)}
-    out["per_county"] = estimate(panel, args.mechanism)["per_county"]
+    out["n_treated"] = est["n_treated"]
+    out["n_controls"] = est["n_controls"]
+    out["per_county"] = est["per_county"]
     if args.placebo:
         out["placebo"] = placebo(panel)
     if args.scenario:
