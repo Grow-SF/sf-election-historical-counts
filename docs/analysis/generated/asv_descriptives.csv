@@ -1,0 +1,38 @@
+test,row_type,unit,value,rank,n_pool,exact_one_sided_p,min_attainable_p,note
+nevada_asv_2018_to_2022,pool_change,san-mateo-ca,9.93,,,,,
+nevada_asv_2018_to_2022,pool_change,nevada-ca,7.10,2,7,0.2857,0.1429,ASV adopter
+nevada_asv_2018_to_2022,pool_change,napa-ca,5.10,,,,,
+nevada_asv_2018_to_2022,pool_change,sacramento-ca,-5.58,,,,,
+nevada_asv_2018_to_2022,pool_change,san-francisco-ca,-8.30,,,,,
+nevada_asv_2018_to_2022,pool_change,madera-ca,-13.48,,,,,
+nevada_asv_2018_to_2022,pool_change,san-luis-obispo-ca,-15.67,,,,,
+san_diego_asv_2022_to_2024,pool_change,sacramento-ca,16.71,,,,,
+san_diego_asv_2022_to_2024,pool_change,los-angeles-ca,15.31,,,,,
+san_diego_asv_2022_to_2024,pool_change,san-mateo-ca,14.86,,,,,
+san_diego_asv_2022_to_2024,pool_change,ventura-ca,13.68,,,,,
+san_diego_asv_2022_to_2024,pool_change,san-diego-ca,10.65,5,12,0.4167,0.0833,ASV adopter
+san_diego_asv_2022_to_2024,pool_change,orange-ca,9.60,,,,,
+san_diego_asv_2022_to_2024,pool_change,madera-ca,8.32,,,,,
+san_diego_asv_2022_to_2024,pool_change,santa-clara-ca,6.89,,,,,
+san_diego_asv_2022_to_2024,pool_change,san-francisco-ca,5.90,,,,,
+san_diego_asv_2022_to_2024,pool_change,san-luis-obispo-ca,5.85,,,,,
+san_diego_asv_2022_to_2024,pool_change,fresno-ca,5.26,,,,,
+san_diego_asv_2022_to_2024,pool_change,napa-ca,-3.95,,,,,
+cohort2020_asv_contrast,mean_post_delta,fresno-ca,10.78,,,,,bundle+ASV
+cohort2020_asv_contrast,mean_post_delta,los-angeles-ca,8.04,,,,,bundle+ASV
+cohort2020_asv_contrast,mean_post_delta,orange-ca,15.51,,,,,bundle only
+cohort2020_asv_contrast,mean_post_delta,santa-clara-ca,11.69,,,,,bundle only
+cohort2020_asv_contrast,observed_diff,fresno+los-angeles minus orange+santa-clara,-4.19,,6,1.0000,0.1667,exact 6-assignment permutation
+san_bernardino_2024_placement,night_share_2024,orange-ca,71.06,,,,,
+san_bernardino_2024_placement,night_share_2024,los-angeles-ca,68.96,,,,,
+san_bernardino_2024_placement,night_share_2024,ventura-ca,67.79,,,,,
+san_bernardino_2024_placement,night_share_2024,madera-ca,67.10,,,,,
+san_bernardino_2024_placement,night_share_2024,san-diego-ca,64.89,,,,,
+san_bernardino_2024_placement,night_share_2024,san-mateo-ca,63.28,,,,,
+san_bernardino_2024_placement,night_share_2024,fresno-ca,62.36,,,,,
+san_bernardino_2024_placement,night_share_2024,santa-clara-ca,60.13,,,,,
+san_bernardino_2024_placement,night_share_2024,san-francisco-ca,56.90,,,,,
+san_bernardino_2024_placement,night_share_2024,san-bernardino-ca,56.24,10,13,,,"pure e-pollbook county; descriptive only, no inference"
+san_bernardino_2024_placement,night_share_2024,san-luis-obispo-ca,53.80,,,,,
+san_bernardino_2024_placement,night_share_2024,sacramento-ca,46.65,,,,,
+san_bernardino_2024_placement,night_share_2024,napa-ca,39.26,,,,,
