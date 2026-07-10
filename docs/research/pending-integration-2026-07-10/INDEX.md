@@ -20,7 +20,7 @@ dossier-fresno-ca-primaries.md: Fresno County primary election research and arch
 
 dossier-lake-ca.md: Lake County general election research. Status: Pending integration.
 
-dossier-lake-ca-primaries.md: Lake County primary election research. Status: Pending integration.
+dossier-lake-ca-primaries.md: Lake County primary election research. Status: Integrated 2026-07-10 (backfill batch 1): all 6 primary rows were already landed via the SoS status-page sweep with matching values; 2012/2014/2016/2022/2024 corroborated in place (JSON note append, source/confidence unchanged), 2018 upgraded from the SoS single-capture PLAUSIBLE/secondary read to this dossier's county-report bracket (CONFIRMED/primary).
 
 dossier-los-angeles-ca-primaries.md: Los Angeles County primary election research. Status: Pending integration.
 

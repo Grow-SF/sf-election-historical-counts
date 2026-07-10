@@ -47,14 +47,6 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for fresno-ca 2012-11-06
       controller verdict: PLAUSIBLE (CA SoS status-page single-capture bracket (RUNBOOK 8))
 
-- [ ] **lake-ca 2018-06-05** (secondary confidence)
-      claimed: night ballots **8,158**, certified final **14,119**, share **57.78%**
-      numerator URL: https://web.archive.org/web/20180619011846/http://vote.sos.ca.gov/returns/status/
-      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf
-      look for: CA SoS per-county reporting-status page ('U'-coded row), Lake County: 100.0% precincts reporting, Ballots Cast 8,158, Last Report stamp 'Jun 6 1:44 a.m.' (First Report 'Jun 5 9:07 p.m.') at Wayback capture 20180619011846 (2018-06-19 01:18:46 UTC). SINGLE CAPTURE at 2018-06-19 01:18:46 UTC carries th
-      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for lake-ca 2018-06-05
-      controller verdict: PLAUSIBLE (CA SoS status-page single-capture bracket (RUNBOOK 8))
-
 - [ ] **madera-ca 2012-11-06** (secondary confidence)
       claimed: night ballots **32,865**, certified final **40,325**, share **81.5%**
       numerator URL: https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/
@@ -386,6 +378,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU = county's own numbered results-report system, now hosted on publicapps.lakecountyca.gov (moved from acm.co.lake.ca.us between 2014 and 2016), report #30 = Nov 8 2016 Consolidated General. Internal header: 'Election Results as of 11/09/2016 at 12:49:48 AM', explicitly labeled 'PRELIMINARY RE
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for lake-ca 2016-11-08
       controller verdict: CONFIRMED (self-described past-midnight 'PRELIMINARY RESULTS' timestamp + only later capture of same URL (6 weeks on, no intermediate captures) labeled 'FINAL RESULTS' at the certified total)
+
+- [ ] **lake-ca 2018-06-05** (plateau check)
+      claimed: night ballots **8,158**, certified final **14,119**, share **57.78%**
+      numerator URL: https://web.archive.org/web/20180610025440id_/http://publicapps.lakecountyca.gov:80/elections/results/result35.htm
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Lake County: 100.0% precincts reporting, Ballots Cast 8,158, Last Report stamp 'Jun 6 1:44 a.m.' (First Report 'Jun 5 9:07 p.m.') at Wayback capture 20180619011846 (2018-06-19 01:18:46 UTC). SINGLE CAPTURE at 2018-06-19 01:18:46 UTC carries th
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for lake-ca 2018-06-05
+      controller verdict: CONFIRMED (county's own numbered results-report system (result35.htm), self-labeled preliminary results at 100% precincts, same-URL overwritten to the exact certified total 5 weeks later (upgraded 2026-07-10 from the SoS status-page single-capture PLAUSIBLE read, retained as historical corroboration))
 
 - [ ] **lake-ca 2018-11-06** (plateau check)
       claimed: night ballots **13,522**, certified final **21,465**, share **63.0%**

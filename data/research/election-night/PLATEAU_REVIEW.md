@@ -538,11 +538,11 @@ CA SoS status-page frozen-capture bracket (RUNBOOK 8).
 
 Lake row at capture 20160614032019 (2016-06-14 03:20:19 UTC): 100.0% precincts, Ballots Cast 9,049, Last Report 'Jun 8 2:11 a.m.'. FROZEN: the identical Ballots Cast figure 9,049 recurs across 5 captures, 2016-06-14 03:20:19 UTC through 2016-06-22 03:35:32 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20160614032019->20160622033532 (to end of window)" (scratchpad/sos-status-sweep.md).
 
-### lake-ca 2018-06-05: PLAUSIBLE
+### lake-ca 2018-06-05: CONFIRMED
 
-CA SoS status-page single-capture bracket (RUNBOOK 8).
+County's own numbered results-report system (result35.htm), self-labeled preliminary results at 100% precincts, same-URL overwritten to the exact certified total 5 weeks later (RUNBOOK 8).
 
-Lake row at capture 20180619011846 (2018-06-19 01:18:46 UTC): 100.0% precincts, Ballots Cast 8,158, Last Report 'Jun 6 1:44 a.m.'. SINGLE CAPTURE at 2018-06-19 01:18:46 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. Sweep bracket-evidence cross-check: "single capture 20180619011846, no later capture to confirm freeze" (scratchpad/sos-status-sweep.md).
+UPGRADE (2026-07-10, primaries batch-1 integration): landed value retained (8,158/14,119 = 57.78%, same figure) but source and verdict upgraded from the SoS status-page single-capture PLAUSIBLE read (capture 20180619011846, Ballots Cast 8,158, Last Report 'Jun 6 1:44 a.m.', no later capture to confirm the freeze; retained in the JSON note as historical corroboration) to Lake County's own numbered results-report system, result35.htm (Wayback https://web.archive.org/web/20180610025440id_/http://publicapps.lakecountyca.gov:80/elections/results/result35.htm): "Election Results as of 06/06/2018 at 12:06:21 AM", "Completed Precincts: 70 of 70 PRELIMINARY RESULTS", Total Ballots Cast 8,158; the same URL's only later capture (2018-07-10, five weeks later) shows "Final Results for Election" / "COUNTY OF LAKE - Final Results", Total Ballots Cast 14,119, the exact certified total -- a same-URL-overwritten-to-certified-final bracket leg the SoS single-capture read lacked. Source: docs/research/pending-integration-2026-07-10/dossier-lake-ca-primaries.md Item 4.
 
 ### madera-ca 2016-06-07: CONFIRMED
 

@@ -835,9 +835,9 @@
  {
   "slug": "lake-ca",
   "date": "2018-06-05",
-  "verdict": "PLAUSIBLE",
-  "basis": "CA SoS status-page single-capture bracket (RUNBOOK 8)",
-  "evidence": "Lake row at capture 20180619011846 (2018-06-19 01:18:46 UTC): 100.0% precincts, Ballots Cast 8,158, Last Report 'Jun 6 1:44 a.m.'. SINGLE CAPTURE at 2018-06-19 01:18:46 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. Sweep bracket-evidence cross-check: \"single capture 20180619011846, no later capture to confirm freeze\" (scratchpad/sos-status-sweep.md)."
+  "verdict": "CONFIRMED",
+  "basis": "county's own numbered results-report system (result35.htm), self-labeled preliminary results at 100% precincts, same-URL overwritten to the exact certified total 5 weeks later (upgraded 2026-07-10 from the SoS status-page single-capture PLAUSIBLE read, retained as historical corroboration)",
+  "evidence": "Wayback https://web.archive.org/web/20180610025440id_/http://publicapps.lakecountyca.gov:80/elections/results/result35.htm: \"Election Results as of 06/06/2018 at 12:06:21 AM\", \"Completed Precincts: 70 of 70 PRELIMINARY RESULTS\", Total Ballots Cast 8,158; only later capture of same URL (2018-07-10) shows \"Final Results for Election\" / \"COUNTY OF LAKE - Final Results\", Total Ballots Cast 14,119 (= certified). Source: docs/research/pending-integration-2026-07-10/dossier-lake-ca-primaries.md Item 4."
  },
  {
   "slug": "madera-ca",
