@@ -121,8 +121,8 @@ def check_sf(tables):
 
 def main():
     rows = load_rows()
-    if len(rows) != 96:
-        fail(f"expected 96 county rows, got {len(rows)}")
+    if len(rows) != 102:
+        fail(f"expected 102 county rows, got {len(rows)}")
     tables = parse_verify_tables((EN / "VERIFY.md").read_text())
     check_rows(rows)
     check_verify_md(rows, tables)

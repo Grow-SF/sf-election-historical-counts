@@ -1237,6 +1237,78 @@
           "source_url": "https://web.archive.org/web/20260702055736/https://results.enr.clarityelections.com/CA/Santa_Clara/122582/353227/json/sum.json"
         }
       ]
+    },
+    {
+      "name": "Tehama",
+      "slug": "tehama-ca",
+      "control": true,
+      "complete": false,
+      "adoption": {
+        "epollbook": null,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 23261,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 15791,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 24541,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 21147,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 57.05,
+          "ballots": 11878,
+          "final": 20819,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20221205014450id_/https://www.co.tehama.ca.us/wp-content/uploads/2022/11/ThirdUnofficialPrecinctReport.pdf"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 48.79,
+          "ballots": 13109,
+          "final": 26867,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://www.tehama.gov/wp-content/uploads/2024/11/3rd-Unoffical-Report.pdf"
+        }
+      ]
     }
   ]
 }

@@ -609,3 +609,19 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2024-11-05
       controller verdict: REFUTED_AND_CORRECTED (clarity version walk recovers the true plateau)
 
+- [ ] **tehama-ca 2022-11-08** (plateau check)
+      claimed: night ballots **11,878**, certified final **20,819**, share **57.05%**
+      numerator URL: https://web.archive.org/web/20221205014450id_/https://www.co.tehama.ca.us/wp-content/uploads/2022/11/ThirdUnofficialPrecinctReport.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: Election-night PLATEAU = 11,878 ballots ('Voters Cast: 11,878 of 37,115 (32.00%)'), from Tehama County's official 'Election Summary Report' internally timestamped 11/8/2022 10:37:39 PM -- the 'Third Unofficial Precinct Report' (the county's public numbering skips 'Second'; verified no Second-named f
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for tehama-ca 2022-11-08
+      controller verdict: CONFIRMED (internal generation timestamp (10:37:39 PM) squarely inside the election-night window PLUS the county's own posting schedule brackets it: the next report in the series (Fourth) is dated 40 hours later with nothing interposed)
+
+- [ ] **tehama-ca 2024-11-05** (plateau check)
+      claimed: night ballots **13,109**, certified final **26,867**, share **48.79%**
+      numerator URL: https://www.tehama.gov/wp-content/uploads/2024/11/3rd-Unoffical-Report.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: Election-night PLATEAU = 13,109 ballots ('Voters Cast: 13,109 of 37,488 (34.97%)', 'Precincts Reported: 40 of 40 (100.00%)'), from Tehama County's official 'Election Summary Report' internally timestamped 11/6/2024 12:17:11 AM -- the '3rd Unofficial Report', the LAST election-night update (all 40 pr
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for tehama-ca 2024-11-05
+      controller verdict: CONFIRMED (self-describes as end-of-night (3rd of 3 Unofficial Reports, 100.00% precincts, 12:17:11 AM internal timestamp) PLUS the county's own posting schedule brackets it: no 4th/5th/Final-Unofficial file exists anywhere (all guessed URLs 404), and the next file in the series (Final Official Report) is dated 27 days later with Voters Cast exactly equal to the certified final)
+

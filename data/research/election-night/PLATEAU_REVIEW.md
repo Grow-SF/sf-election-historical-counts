@@ -76,6 +76,27 @@ review; see the mendocino-ca.json 2012 row note for the full derivation.
 Running totals: 63 CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2
 REFUTED_AND_CORRECTED.
 
+UPDATE (2026-07-10, Tehama County control-county integration): two new
+rows added for tehama-ca (2022, 2024; 2012/2014/2016/2018 are documented
+nulls, no plateau_review entries), a fifth control county (alongside SF,
+Lake, Del Norte, and Mendocino), never having adopted e-pollbooks or ASV.
+Both verdicts CONFIRMED: 2022 via the county's own numbered report series
+(Third Unofficial Precinct Report, internal timestamp 10:37:39 PM election
+night) bracketed by the next report in the series (Fourth) 40 hours later
+with nothing interposed; 2024 via the county's own numbered report series
+(3rd Unofficial Report, internal timestamp 12:17:11 AM, 40/40 precincts)
+bracketed by a 27-day gap to the next surviving report, the canvass-complete
+Final Official Report. One dossier correction made on integration review:
+the 2022 row's claimed percentage (57.06%) was arithmetically wrong
+(11,878/20,819 = 57.05%, not 57.06%) and its note incorrectly asserted the
+Third Unofficial Precinct Report does not state 100% of precincts reporting
+-- direct re-fetch of the cited Wayback capture (2026-07-10) shows it
+already reads 'Precincts Reported: 40 of 40 (100.00%)', identical to the
+Fourth report's framing; both the pct and the note's reasoning were
+corrected (the VBM-composition explanation for the low share still holds).
+Running totals: 66 CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2
+REFUTED_AND_CORRECTED.
+
 | County | Date | Verdict | Basis | Evidence |
 |---|---|---|---|---|
 | del-norte-ca | 2014-11-04 | CONFIRMED | last surviving on-night release (provably the last of only 2 pre-Final releases per the county's own dated index page), still labeled Unofficial; next report 3 days later relabeled Final at the exact certified total | Release 2/3, footer timestamp 11/4/2014 10:05 PM, 18/18 precincts (100%), Total Voters 6,539/12,743 (51.31%); the index page (re-verified 2026-07-10) lists exactly Release 1, Release 2, Release 3-Final; Release 3 (11/7/2014, 3 days later) retitled 'General Election Final', Total Voters 7,332/12,743 -- exactly the SoS certified figure -- confirming Release 2 was the last report before the canvass resumed and completed |
@@ -149,6 +170,8 @@ REFUTED_AND_CORRECTED.
 | santa-clara-ca | 2018-11-06 | CONFIRMED | clarity live-CDN version bracket: adjacent official versions in the settings array, 9h22m gap | v220444 (11/7 6:37:33 AM PST, BC 304,303, precincts 1,098/1,098) is immediately followed in the electionsettings versions array by v220630 (3:59:46 PM, BC 306,086, +1,783 only) |
 | santa-clara-ca | 2022-11-08 | CONFIRMED | clarity version bracket, re-derived | cited v311769 stamped 11/8/2022 10:41:38 PM; next v312163 stamped 11/9 4:36 PM (BC 309,580) |
 | santa-clara-ca | 2024-11-05 | REFUTED_AND_CORRECTED | clarity version walk recovers the true plateau | cited v353583 (11/6 4:46 PM, BC 468,395) is a next-day canvass bump; the night sequence is v353205 11:57 PM BC 459,487 then v353227 12:16 AM BC 460,325 (last of the night, held through v353516 at 1:10 PM); corrected to 4 |
+| tehama-ca | 2022-11-08 | CONFIRMED | internal generation timestamp (10:37:39 PM) squarely inside the election-night window plus the county's own posting schedule brackets it: the next report (Fourth) is dated 40 hours later with nothing interposed | 'Third Unofficial Precinct Report', 11/8/2022 10:37:39 PM, Precincts Reported 40 of 40 (100.00%), Voters Cast 11,878 of 37,115; Fourth Unofficial Precinct Report dated 11/10/2022 3:02:05 PM, Voters Cast 14,317 -- both re-fetched and confirmed 2026-07-10 |
+| tehama-ca | 2024-11-05 | CONFIRMED | self-describes as end-of-night (3rd of 3 Unofficial Reports, 100.00% precincts, 12:17:11 AM internal timestamp) plus the county's own posting schedule brackets it: no 4th/5th/Final-Unofficial file exists anywhere, and the next file (Final Official Report) is 27 days later at exactly the certified final | '3rd Unofficial Report', 11/6/2024 12:17:11 AM, Precincts Reported 40 of 40 (100.00%), Voters Cast 13,109 of 37,488; Final Official Report dated 12/3/2024 10:26:46 AM, Voters Cast 26,867 (= SoS SoV certified final) -- both re-fetched and confirmed 2026-07-10 |
 
 ## Non-CONFIRMED rows (read these first)
 

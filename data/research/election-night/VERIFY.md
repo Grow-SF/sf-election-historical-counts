@@ -710,4 +710,43 @@ This is the gold-standard series the county numbers are compared against.
 
 ---
 
+### Tehama County
+*Control county: never adopted e-pollbook or ASV (adoption years null both legs).*
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012 | presidential-general | — | 23,261 | — | none | — (not sourceable) |
+| 2014 | midterm-general | — | 15,791 | — | none | — (not sourceable) |
+| 2016 | presidential-general | — | 24,541 | — | none | — (not sourceable) |
+| 2018 | midterm-general | — | 21,147 | — | none | — (not sourceable) |
+| 2022 | midterm-general | 11,878 | 20,819 | 57.1% | primary | [link](https://web.archive.org/web/20221205014450id_/https://www.co.tehama.ca.us/wp-content/uploads/2022/11/ThirdUnofficialPrecinctReport.pdf) |
+| 2024 | presidential-general | 13,109 | 26,867 | 48.8% | primary | [link](https://www.tehama.gov/wp-content/uploads/2024/11/3rd-Unoffical-Report.pdf) |
+
+<details><summary>What to look for on each source page (numerator) + denominator URL</summary>
+
+- **2012 presidential-general** — night `—` / final `23,261` = `—` (none)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf>
+  - look for: Certified final 23,261 ballots cast. Election-night PLATEAU not sourceable: no elections-related page on co.tehama.ca.us was crawled by Wayback anywhere in the Oct 25-Dec 15 2012 window (verified by full-domain CDX sweep).
+- **2014 midterm-general** — night `—` / final `15,791` = `—` (none)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf>
+  - look for: Certified final 15,791 ballots cast. Election-night PLATEAU not sourceable: the only surviving post-poll-close capture of the county's results page (Jan 19, 2015) carries an internal 'Last Updated: November 13, 2014' stamp already equal to the certified final -- rejected as a ceiling because it equals rather than bounds the final (see note).
+- **2016 presidential-general** — night `—` / final `24,541` = `—` (none)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: Certified final 24,541 ballots cast. Election-night PLATEAU not sourceable: the county elections page's report link is a pre-election zero report through the last pre-Nov-13 capture, and the only later-linked report filename (Fifth_Unofficial_Report.pdf) was first crawled in Sept 2018 showing different (later-election) content due to Joomla filename reuse.
+- **2018 midterm-general** — night `—` / final `21,147` = `—` (none)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: Certified final 21,147 ballots cast. Election-night PLATEAU not sourceable: the linked `/images/Third_Unofficial_report.pdf` on the county's Nov 2018 elections page was never crawled by Wayback at the time (only a 2025-12-06 capture exists, on a filename confirmed reused/overwritten across later elections); the "Election Result_dtl.htm" results page is frozen on 2014 data throughout the 2016-2021 window. No press release or local news figure found.
+- **2022 midterm-general** — night `11,878` / final `20,819` = `57.05%` (primary)
+  - numerator: <https://web.archive.org/web/20221205014450id_/https://www.co.tehama.ca.us/wp-content/uploads/2022/11/ThirdUnofficialPrecinctReport.pdf>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: "Third Unofficial Precinct Report", header "11/8/2022 10:37:39 PM", "Precincts Reported: 40 of 40 (100.00%)", "Voters Cast: 11,878 of 37,115 (32.00%)".
+- **2024 presidential-general** — night `13,109` / final `26,867` = `48.79%` (primary)
+  - numerator: <https://www.tehama.gov/wp-content/uploads/2024/11/3rd-Unoffical-Report.pdf>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: "3rd Unofficial Report", header "11/6/2024 12:17:11 AM", "Precincts Reported: 40 of 40 (100.00%)", "Voters Cast: 13,109 of 37,488 (34.97%)".
+
+</details>
+
+---
+
 _Generated 2026-06-27 from 13 county files (all 13 complete) + SF authoritative series._

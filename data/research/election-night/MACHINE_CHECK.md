@@ -176,3 +176,11 @@ verify_en_* scripts to regenerate).
 | santa-clara-ca | 2022-11-08 | numerator | 293,148 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 754 , "PR" : 671 , "TV" : 1009422 , "BC" : 293148 , "RC" : 0 , "RO" : 0 , "CH" : [  |
 | santa-clara-ca | 2024-11-05 | denominator | 765,495 | VERIFIED | 784 1,269,781 1,048,723 97,924 667,571 765,495 87.21% 72.99% 60.29% |
 | santa-clara-ca | 2024-11-05 | numerator | 460,325 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 784 , "PR" : 686 , "TV" : 1031980 , "BC" : 460325 , "RC" : 0 , "RO" : 0 , "CH" : [  |
+| tehama-ca | 2012-11-06 | denominator | 23,261 | VERIFIED | 46 43,306 31,174 8,032 15,229 23,261 65.47% 74.62% 53.71% |
+| tehama-ca | 2014-11-04 | denominator | 15,791 | VERIFIED | 46 43,727 30,169 4,527 11,264 15,791 71.33% 52.34% 36.11% |
+| tehama-ca | 2016-11-08 | denominator | 24,541 | VERIFIED | 46 43,753 32,555 7,489 17,052 24,541 69.48% 75.38% 56.09% |
+| tehama-ca | 2018-11-06 | denominator | 21,147 | VERIFIED | 46 43,847 33,286 5,583 15,564 21,147 73.60% 63.53% 48.23% |
+| tehama-ca | 2022-11-08 | denominator | 20,819 | VERIFIED | 40 46,966 37,131 3,258 17,561 20,819 84.35% 56.07% 44.33% |
+| tehama-ca | 2022-11-08 | numerator | 11,878 | VERIFIED | nofficial Precinct Report Precincts Reported: 40 of 40 (100.00%) Voters Cast: 11,878 of 37,115 (32.00%) GOVERNOR (Vote f |
+| tehama-ca | 2024-11-05 | denominator | 26,867 | VERIFIED | 40 46,304 37,488 4,426 22,441 26,867 83.53% 71.67% 58.02% |
+| tehama-ca | 2024-11-05 | numerator | 13,109 | VERIFIED | 3rd Unofficial Report Precincts Reported: 40 of 40 (100.00%) Voters Cast: 13,109 of 37,488 (34.97%) Cards Cast: 13,109 P |

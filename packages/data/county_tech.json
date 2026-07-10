@@ -2062,6 +2062,54 @@
    "note": "County converted to the Voter's Choice Act vote-center model in 2020: 'Beginning with the 2020 elections, County of Santa Clara voters have a more modern voting experience under the Voter's Choice Act. In-person voting takes place at larger Vote Centers.' First VCA election was the March 3, 2020 Presidential Primary (~110 Vote Centers, 10-day and 3-day early voting). Confirmed by the county Election Administration Plan filed with CA SoS (santa-clara-amended-eap-11.22.19.pdf)."
   },
   {
+   "jurisdiction": "Tehama County",
+   "state": "CA",
+   "tech": "asv",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://krcrtv.com/news/local/tehama-county-clerk-process-of-distinguishing-voter-fraud",
+   "confidence": "secondary",
+   "note": "Positive evidence of manual-only signature verification (not merely absence of evidence). KRCR News 7 feature quotes Tehama County Clerk Jennifer Vise describing a two-person, eyes-on visual comparison process ('We look for slants, loops, certain characteristics of a signature to make sure that it does not match'; 'two people compare the signatures on the ballots to signatures from the past records'); mismatches are referred to the DA's office. No software/scanner/automated matching tool named anywhere in the article. Direct fetch of the article re-confirmed 2026-07-10 (same content, same quotes). No corroborating official county EAP or grand-jury document; census row already flagged this same gap, and no second independent source was found on this pass. CORRECTED (2026-07-10, integration review): the source dossier proposed confidence 'medium', not a valid value in this schema's enum; reclassified to 'secondary' per RUNBOOK 5.3 ('News reportage is secondary even when it quotes officials')."
+  },
+  {
+   "jurisdiction": "Tehama County",
+   "state": "CA",
+   "tech": "epollbook",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+   "confidence": "primary",
+   "note": "NOT a VCA county (no vote-center/all-mail model, so no VCA-driven e-pollbook rollout). CA SoS voting-technology-by-county snapshots list Tehama e-pollbook status as 'Do not use' continuously across the May 2022, Sept 2024, and Oct 2025 editions (census row source); EAVS reports 'False' for e-pollbook use in all four editions checked by the census pass. No county document, grand jury report, or news story found describing an electronic roster pilot at any point through 2024. Consistent never-adopter signal across three official SoS snapshots plus EAVS, matching the confidence level used for the same evidence pattern in the Lake County control record. CORRECTED (2026-07-10, integration review): the source dossier proposed confidence 'medium', which is not a value in this schema's confidence enum (primary/secondary/estimated/none); reclassified to 'primary' given the multi-snapshot official-government-source basis, consistent with the Lake County precedent (data/research/county-tech/lake-ca.json) for equivalent evidence strength."
+  },
+  {
+   "jurisdiction": "Tehama County",
+   "state": "CA",
+   "tech": "sign-scan-go",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://www.sos.ca.gov/voters-choice-act",
+   "confidence": "secondary",
+   "note": "Tehama is not a Voter's Choice Act county (not on the CA SoS VCA county list), so the AB 626 in-vote-center 'Sign-Scan-and-Go' mail-ballot verify+scan model, which is built on the VCA vote-center infrastructure, does not apply. Absence-of-evidence inference from non-VCA status, consistent with the epollbook finding above."
+  },
+  {
+   "jurisdiction": "Tehama County",
+   "state": "CA",
+   "tech": "vote-center",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://www.sos.ca.gov/voters-choice-act",
+   "confidence": "primary",
+   "note": "CA SoS Voter's Choice Act county list does not include Tehama (as of 2024/2025). Tehama continues to run traditional precinct-based polling places plus vote-by-mail rather than the VCA all-mail/vote-center model, consistent with the epollbook not-adopted finding (VCA adoption is the mechanism that drives e-pollbook rollout in most small CA counties)."
+  },
+  {
    "jurisdiction": "Wisconsin (Badger Books)",
    "state": "WI",
    "tech": "asv",

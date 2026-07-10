@@ -1,0 +1,88 @@
+{
+  "jurisdiction": "Tehama County",
+  "state": "CA",
+  "adoption": {
+    "epollbook": null,
+    "asv": null
+  },
+  "elections": [
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 23261,
+      "election_night_pct": null,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 23,261 ballots cast (CA SoS SoV; precinct 8,032 + VBM 15,229; 74.62% of 31,174 registered; re-fetched and confirmed 2026-07-10, county line: Tehama 46 43,306 31,174 8,032 15,229 23,261 65.47% 74.62% 53.71%). Election-night PLATEAU not sourceable. A full-domain Wayback CDX sweep of co.tehama.ca.us for 2012-10-25 through 2012-12-15 (31 total URLs crawled domain-wide in that 7-week window) found zero pages with 'elect'/'result'/'unoffic' in the path -- the county's website was not crawled for any elections-related content around this election at all (the only 2012-adjacent captures anywhere on the domain are a pre-election calendar PDF crawled 2012-09-05 and an unrelated 404). No local news election-night figure found (WebSearch, multiple phrasings). Not on Clarity. This is the weakest-evidenced year in the dossier: not a near-miss (unlike 2016/2018, where a report was linked but never crawled), but a total absence of any elections crawl. Null per RUNBOOK 5.1. vs_epollbook/vs_asv n/a (control county, never adopted)."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 15791,
+      "election_night_pct": null,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 15,791 ballots cast (CA SoS SoV; precinct 4,527 + VBM 11,264; 52.34% of 30,169 registered; re-fetched and confirmed 2026-07-10, county line: Tehama 46 43,727 30,169 4,527 11,264 15,791 71.33% 52.34% 36.11%). Election-night PLATEAU not sourceable. The county's dedicated 'Election Result_dtl.htm' results page (later found frozen through 2021, see tehama-ca 2016/2018 notes) has only two captures bracketing this election: 2014-11-04 9:25 AM PST (pre-poll-close, internal stamp 'Last Updated: October 17, 2014', all contests 0/46 precincts 0.00%) and 2015-01-19 (2.5 months later, internal stamp 'Last Updated: November 13, 2014 2:36 PM', 46/46 precincts 100.00%, Total 15,791/52.33% -- EXACTLY the certified final). No capture exists in between (CDX-checked tightly, both Nov4-Nov16 and Nov16-Jan19 windows empty). The Nov 13 value was explicitly considered and REJECTED as a RUNBOOK 5.2 ceiling: because it numerically equals the certified final exactly, recording it would produce a fabricated-looking 100.00% election-night share, which misrepresents rather than bounds the true plateau -- not defensible as 'slightly overstates'. No numbered Unofficial Report filename specific to Nov 2014 was found linked from any contemporaneous page capture (the dep-elections page's one poll-close-time capture, Nov 4 8:18 PM PST, carries no results link at all). No local news figure found. Not on Clarity. Null per RUNBOOK 5.1: never substitute a different report time or a value indistinguishable from the final. vs_epollbook/vs_asv n/a (control county, never adopted)."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 24541,
+      "election_night_pct": null,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 24,541 ballots cast (CA SoS SoV; precinct 7,489 + VBM 17,052; 75.38% of 32,555 registered; re-fetched and confirmed 2026-07-10, county line: Tehama 46 43,753 32,555 7,489 17,052 24,541 69.48% 75.38% 56.09%). Election-night PLATEAU not sourceable. The co.tehama.ca.us '/elections' page's single 'Election Summary Report' link points to a pre-election Zero Proof Report at every capture through 2016-11-08 08:19 UTC (still pre-Election-Day) and has jumped to a 'Fifth_Unofficial_Report.pdf' link by the next capture, 2016-11-13 -- Wayback never crawled the page during the gap when it would have linked the actual election-night report(s). Direct CDX probes of images/images/Elections/{First,Second,Third,Fourth,Sixth}_Unofficial_Report.pdf found zero captures ever; the one linked filename we do have (Fifth_Unofficial_Report.pdf) was first crawled 2018-09-03, almost two years later, on a Joomla directory confirmed (Item 4 note) to silently overwrite report filenames across elections -- that 2018 capture reflects a later election's Fifth report, not 2016's, and is not citable as 2016 data. The dedicated Election_Result_dtl.htm page is frozen on 2014 data throughout this window (see 2018 row). No local news election-night figure found. Not on Clarity. Null per RUNBOOK 5.1. vs_epollbook/vs_asv n/a (control county, never adopted)."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 21147,
+      "election_night_pct": null,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final 21,147 ballots cast (CA SoS SoV; precinct 5,583 + VBM 15,564; 63.53% of 33,286 registered; re-fetched and confirmed 2026-07-10, county line: Tehama 46 43,847 33,286 5,583 15,564 21,147 73.60% 63.53% 48.23%). Election-night PLATEAU not sourceable despite substantial effort. The Nov 6, 2018 co.tehama.ca.us 'elections' page (Wayback capture 2018-11-13) links a dated report, '/images/Third_Unofficial_report.pdf' ('November 6, 2018 Election Results'), but Wayback never crawled that PDF at the time -- its only capture is dated 2025-12-06, seven years later, on a Joomla-era 'images/' directory confirmed (via the sibling Fifth_Unofficial_report.pdf, captured only 2024-06) to silently overwrite the same filename across elections, so that 2025 capture would show a much later election's content, not 2018's, and cannot be cited. Guessed sibling filenames (First/Second/Fourth/Final_Unofficial_report.pdf) have zero CDX captures ever. The dedicated 'Election Result_dtl.htm' results page (flagged by the archive probe as plausible for 2016/2018) was re-examined across its full capture history and found to be FROZEN on 2014 election data from 2015-01-19 through 2021-06-20 (digest HGC6WFCVJWKP2475SDIH4XXDVXDDEFPF unchanged for 6+ years, including the 2016-11-07 and 2018-11-28 captures the probe flagged) -- corrects the probe's read of those captures as live pre/post-election content. images/images/Elections/Final_Official_Report.pdf is a stale leftover from the June 2018 primary (captured 2018-09-03, before the November election, revisit-unchanged into 2019). No registrar press release found for Nov 2018 (WebSearch for the exact phrasing that worked for 2020/2022/2024 surfaced nothing dated 2018). No local news election-night figure found (Red Bluff Daily News, Corning Observer). Not on Clarity (probe-confirmed 404). Null per RUNBOOK 5.1: never substitute a different report time or denominator. vs_epollbook/vs_asv n/a (control county, never adopted)."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 11878,
+      "certified_final": 20819,
+      "election_night_pct": 57.05,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20221205014450id_/https://www.co.tehama.ca.us/wp-content/uploads/2022/11/ThirdUnofficialPrecinctReport.pdf",
+      "confidence": "primary",
+      "note": "Election-night PLATEAU = 11,878 ballots ('Voters Cast: 11,878 of 37,115 (32.00%)'), from Tehama County's official 'Election Summary Report' internally timestamped 11/8/2022 10:37:39 PM -- the 'Third Unofficial Precinct Report' (the county's public numbering skips 'Second'; verified no Second-named file exists via CDX on several filename guesses). Recovered from Wayback (co.tehama.ca.us is DNS-dead live; fetched via web.archive.org/web/<ts>id_/<url>, per RUNBOOK 7.1) since the live domain no longer resolves. This is the night's plateau, NOT the 8:02:41 PM First Unofficial Vote By Mail Report (8,882 ballots, VBM-only first tranche) and NOT the Fourth Unofficial Precinct Report (14,317 ballots, internally timestamped 11/10/2022 3:02:05 PM, Thursday afternoon, 2 days post-election -- a canvass update). It HELD through election night and beyond: the report series' next file (Fourth) is dated 40 hours later with nothing interposed, i.e. the county's own posting schedule brackets the Third report as the last one of election night. Arithmetic: 11,878 / 20,819 = 57.05% (round(11878/20819*100, 2); certified final confirmed independently by the county's own Final-Summary-Report.pdf: 'Total Registration and Turnout 37,115 / 20,819', matching the SoS SoV exactly). Pre/post tech: n/a, Tehama never adopted e-pollbooks or ASV (control county). PRIMARY (official county Election Summary Report PDF via Wayback). Calibration: 57.05% sits closer to SF's own midterm shares (59.3% 2018, 51.0% 2022) than the runbook's 80-95% small-rural-county expectation; explained by Tehama's heavy VBM share (84.35% VBM of the certified final). CORRECTION (2026-07-10, integration review): the source dossier's note claimed 57.06% and asserted the Third report 'does NOT state 100% precincts reporting.' Direct re-fetch of the cited Wayback capture (verified 2026-07-10) shows both are wrong: the Third report itself already reads 'Precincts Reported: 40 of 40 (100.00%)' (identical to the Fourth report's framing), and the correct rounded arithmetic is 57.05%, not 57.06% (11878/20819 = 57.053652...%). The 100%-precincts framing therefore reflects full in-person precinct tabulation; the remaining ~9,000-ballot gap to the certified 20,819 (84.35% VBM county) is unopened/unprocessed VBM and drop-box mail, not unreported precincts -- the VBM-composition explanation for the lower-than-rural-typical share still holds, just not for the reason the dossier gave."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 13109,
+      "certified_final": 26867,
+      "election_night_pct": 48.79,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://www.tehama.gov/wp-content/uploads/2024/11/3rd-Unoffical-Report.pdf",
+      "confidence": "primary",
+      "note": "Election-night PLATEAU = 13,109 ballots ('Voters Cast: 13,109 of 37,488 (34.97%)', 'Precincts Reported: 40 of 40 (100.00%)'), from Tehama County's official 'Election Summary Report' internally timestamped 11/6/2024 12:17:11 AM -- the '3rd Unofficial Report', the LAST election-night update (all 40 precincts at 100%). Recovered directly from the live tehama.gov WordPress uploads directory (no Wayback needed): .../wp-content/uploads/2024/11/3rd-Unoffical-Report.pdf (sic, county's own filename misspells 'Unofficial'); re-fetched live and confirmed byte-for-byte 2026-07-10. This is the night's plateau, NOT the 8pm/9:50pm first tranche (1st Unofficial Report, 9:50:38 PM, 11,182 ballots, 57.50% precincts) and NOT the 2nd Unofficial Report (11:26:29 PM, 12,823 ballots, 92.50% precincts): the 3rd is the first (and last) report to reach 100% of precincts. It HELD through the rest of election night and the following weeks: no 4th/5th/Final-Unofficial report exists at any guessed URL (all 404), and the next report found on the county site is the Final Official Report dated 12/3/2024 10:26:46 AM (Voters Cast 26,867 of 37,488, exactly the certified final; re-fetched and confirmed 2026-07-10) -- a 27-day gap with nothing interposed, i.e. the county's own posting schedule brackets the 3rd Unofficial as the last night-of report. Arithmetic: 13,109 / 26,867 = 48.79% (round(13109/26867*100, 2), re-verified 2026-07-10). Pre/post tech: n/a, Tehama never adopted e-pollbooks or ASV (control county, county-tech census row status 'never'). PRIMARY (official county Election Summary Report PDF, fetched live, not via Wayback). Calibration: 48.79% reads low vs. the runbook's small-rural-county 80-95% expectation and vs SF's 51-71% presidential range; explained by Tehama's VBM-heavy composition (83.53% VBM of the certified final per the same SoV line) and the report's precinct-centric 100% framing -- 'all precincts reporting' at 12:17 a.m. describes in-person precinct tabulation, not VBM/drop-box processing, most of which (the ~14k-ballot gap to certified) is canvassed over the following month. Not a first-tranche mistake: this IS the last report of the night, verified by the county's own report-numbering scheme and the absence of any later election-night file."
+    }
+  ]
+}
