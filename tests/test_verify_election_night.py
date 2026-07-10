@@ -3,9 +3,11 @@ import pathlib
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "scripts/research"))
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "scripts"))
 
 from en_common import find_number, norm_pct, strip_html, wayback_raw
 from verify_en_numerators import apply_render_override
+from build_county_night import is_control
 
 
 def test_norm_pct_fraction():
@@ -104,6 +106,22 @@ def test_apply_render_override_skips_when_evidence_lacks_claimed_number():
     out = apply_render_override(res, manifest, "https://example.org/results")
     assert out == res
     assert out["status"] == "NOT_FOUND"
+
+
+def test_is_control_true_when_both_adoption_years_absent():
+    assert is_control({"epollbook": None, "asv": None}) is True
+
+
+def test_is_control_false_when_epollbook_adopted():
+    assert is_control({"epollbook": 2018, "asv": None}) is False
+
+
+def test_is_control_false_when_only_asv_adopted():
+    assert is_control({"epollbook": None, "asv": 2022}) is False
+
+
+def test_is_control_false_when_both_adopted():
+    assert is_control({"epollbook": 2020, "asv": 2020}) is False
 
 
 def test_apply_render_override_applies_when_legitimate():

@@ -159,6 +159,78 @@
       ]
     },
     {
+      "name": "Lake",
+      "slug": "lake-ca",
+      "control": true,
+      "complete": true,
+      "adoption": {
+        "epollbook": null,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 70.18,
+          "ballots": 16622,
+          "final": 23685,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20121110034513/http://acm.co.lake.ca.us:80/elections/results/result24.htm"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 69.72,
+          "ballots": 12593,
+          "final": 18061,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20141108050347/http://acm.co.lake.ca.us:80/elections/results/result27.htm"
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": 53.75,
+          "ballots": 13484,
+          "final": 25085,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20161112110847/http://publicapps.lakecountyca.gov:80/elections/results/result30.htm"
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 63.0,
+          "ballots": 13522,
+          "final": 21465,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20181129033058/http://publicapps.lakecountyca.gov/elections/results/result37.htm"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 38.51,
+          "ballots": 7842,
+          "final": 20362,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20230131164229/https://lakeconews.com/news/74153-registrar-of-voters-office-issues-preliminary-results-for-tuesday-s-general-election-canvass-process-to-begin"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 29.34,
+          "ballots": 7960,
+          "final": 27127,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20241210113951/https://lakeconews.com/news/80085-official-canvass-underway-thousands-of-ballots-still-to-be-counted"
+        }
+      ]
+    },
+    {
       "name": "Los Angeles",
       "slug": "los-angeles-ca",
       "control": false,

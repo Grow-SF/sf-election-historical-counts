@@ -17,10 +17,30 @@ REFUTED_AND_CORRECTED (the live Clarity CDN recovered the true overnight
 plateau that supersedes the documented ceiling). Running totals: 50
 CONFIRMED, 2 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2 REFUTED_AND_CORRECTED.
 
+UPDATE (2026-07-10, Lake County control-county integration): six new rows
+added for lake-ca (2012, 2014, 2016, 2018, 2022, 2024), a never-adopter
+control county. Five verdicts CONFIRMED (2012/2014/2016 via the county's
+own overwrite-in-place numbered report page held or superseded across two
+independent Wayback captures; 2022/2024 via on-the-record registrar-office
+news quotes naming the number as the last election-night count, 2022
+additionally corroborated by a held county-page count). One verdict
+(2018) downgraded from the source dossier's proposed CONFIRMED to
+PLAUSIBLE on review: its only corroborating observation is a single
+Wayback capture whose crawl date diverges from the page's own internal
+timestamp, not a genuine second independent leg per section 8. Running
+totals: 55 CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2
+REFUTED_AND_CORRECTED.
+
 | County | Date | Verdict | Basis | Evidence |
 |---|---|---|---|---|
 | fresno-ca | 2016-11-08 | CONFIRMED | frozen GEMS live page, held past night | header 'Unofficial Final Results ... 11/9/2016 1:42:19 AM' at 592/592 precincts; the Nov 12 capture (the artifact) still shows the 1:42 AM report |
 | fresno-ca | 2024-11-05 | CONFIRMED | official county summary PDF, end of night | internal stamp 11/6/2024 12:30:26 AM at 478/478 (100%); next archived report (11/7 3:28 PM) jumped to 222,324 |
+| lake-ca | 2012-11-06 | CONFIRMED | self-described late-night timestamp + later capture of same URL overwritten to the certified final | result24.htm 2012-11-10 capture: 'Preliminary Election Results as of 11/06/2012 at 11:59:41 PM', 70/70 precincts, Total Ballots Cast 16,622; same URL's only later capture (2012-12-25) reads 'Final Results for Election ... Total Ballots Cast 23,685' (= certified final exactly) |
+| lake-ca | 2014-11-04 | CONFIRMED | self-described past-midnight timestamp + byte-identical later capture of same URL (digest match) three weeks after election night | result27.htm 2014-11-08 capture: 'Election Results as of 11/05/2014 at 12:41:23 AM', 70/70 precincts, Total Ballots Cast 12,593; the 2014-11-30 capture of the same URL has the IDENTICAL digest AJH6HNMV3OVULKQXIFCRFEJFVHRZPJFN; only the 2015-01-27 capture changes to 'Final Results for Election ... Total Ballots Cast 18,061' (= certified final exactly) |
+| lake-ca | 2016-11-08 | CONFIRMED | self-described past-midnight 'PRELIMINARY RESULTS' timestamp + only later capture of same URL (6 weeks on, no intermediate captures) labeled 'FINAL RESULTS' at the certified total | result30.htm 2016-11-12 capture: 'Election Results as of 11/09/2016 at 12:49:48 AM', 'PRELIMINARY RESULTS', 70/70 precincts, Total Ballots Cast 13,484; the 2016-12-24 capture of the same URL (next in CDX, 6 weeks later) reads 'Final Results for Election ... FINAL RESULTS ... Total Ballots Cast 25,094' (matches SoS certified 25,085 within 9 ballots) |
+| lake-ca | 2018-11-06 | PLAUSIBLE | self-described past-midnight 'PRELIMINARY RESULTS' timestamp; the only later observation is a single Wayback crawl (not a second independent capture) whose crawl date diverges from the page's own generation timestamp -- suggestive but not one of the section 8 non-circular legs | result37.htm's sole Wayback capture (2018-11-29) reads 'Election Results as of 11/07/2018 at 12:14:30 AM', 'PRELIMINARY RESULTS', 70/70 precincts, Total Ballots Cast 13,522; DOWNGRADED from the dossier's proposed CONFIRMED (2026-07-10 integration review): the crawl-date/internal-timestamp divergence (22 days) is a single-capture inference, not a genuine second data point like the two-capture holds confirmed for this county's 2012/2014/2016 rows; no Clarity bracket, second capture, county posting schedule, or separate official release is obtainable |
+| lake-ca | 2022-11-08 | CONFIRMED | on-the-record registrar-office quote naming the number as the last preliminary count of election night, plus the number holding unchanged across two Wayback captures of the county's own results page 12+ days apart | Lake County News (archived): 'By 1 a.m. Wednesday, Valadez's office had issued the last preliminary ballot count of the night... 7,842 ballots, or 21.2% of Lake County's 37,165 registered voters'; publicapps2.lakecountyca.gov/elections/results/results221108.html shows 'Registered Voters 7842 of 37165 = 21.10%, Precincts Reporting 80 of 80' identically in both its 2022-11-18 and 2022-11-30 captures |
+| lake-ca | 2024-11-05 | CONFIRMED | on-the-record news report naming the number as the election-night preliminary count for all precincts, with an independent second-article snippet pinning the report to 4 a.m. the morning after election day; the alternative county-page capture was checked and explicitly rejected as already-canvass-contaminated | Lake County News (archived): 'preliminary election results for the 48 precincts ... as of early Wednesday morning ... 7,960 ballots, or 20.99% ... have been counted'; companion article snippet: 'By 4 a.m. on November 6, 2024, initial counts of the county's 48 precincts had been completed'; results241105.html's earliest Wayback capture (2024-11-17, Run Date 11/14/2024) shows a higher 8,641 and was rejected as post-election-night |
 | los-angeles-ca | 2012-11-06 | CONFIRMED | RR/CC semi-final press release states the election-night total | 'On Election Night a total of 2,368,283 ballots were counted' plus 792,658 estimated remaining |
 | los-angeles-ca | 2014-11-04 | CONFIRMED | RR/CC semi-final press release states the election-night total | 'A total of 1,147,248 ballots were processed and counted' (semi-final official results, Nov 5 release) |
 | los-angeles-ca | 2016-11-08 | CONFIRMED | RR/CC semi-final press release states the election-night total | 'A total of 2,306,321 ballots were processed and counted' (semi-final official, Nov 9 release) |
@@ -77,6 +97,12 @@ CONFIRMED, 2 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2 REFUTED_AND_CORRECTED.
 | santa-clara-ca | 2024-11-05 | REFUTED_AND_CORRECTED | clarity version walk recovers the true plateau | cited v353583 (11/6 4:46 PM, BC 468,395) is a next-day canvass bump; the night sequence is v353205 11:57 PM BC 459,487 then v353227 12:16 AM BC 460,325 (last of the night, held through v353516 at 1:10 PM); corrected to 4 |
 
 ## Non-CONFIRMED rows (read these first)
+
+### lake-ca 2018-11-06: PLAUSIBLE
+
+self-described past-midnight 'PRELIMINARY RESULTS' timestamp; the only later observation is a single Wayback crawl (not a second independent capture) whose crawl date diverges from the page's own generation timestamp -- suggestive but not one of the section 8 non-circular legs.
+
+result37.htm's sole Wayback capture (2018-11-29) reads 'Election Results as of 11/07/2018 at 12:14:30 AM', 'PRELIMINARY RESULTS', 70/70 precincts, Total Ballots Cast 13,522; DOWNGRADED from the dossier's proposed CONFIRMED (2026-07-10 integration review): the crawl-date/internal-timestamp divergence (22 days) is a single-capture inference, not a genuine second data point like the two-capture holds confirmed for this county's 2012/2014/2016 rows; no Clarity bracket, second capture, county posting schedule, or separate official release is obtainable
 
 ### napa-ca 2014-11-04: PLAUSIBLE
 

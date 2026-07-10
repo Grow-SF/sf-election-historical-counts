@@ -1,0 +1,48 @@
+{
+  "jurisdiction": "Lake County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "confidence": "primary",
+      "note": "CA SoS 'Voting Technologies in Use by County' snapshots show 'Do not use' for Electronic Pollbook continuously across THREE independent snapshots (May 2022, Sept 2024, Oct 2025). EAVS (Election Administration and Voting Survey) reports electronic-poll-book use as False in all four available editions (2016, 2018, 2022, 2024) per https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys. Lake is NOT a Voter's Choice Act (VCA) vote-center county (absent from the SoS VCA Vote Center Usage Summary county list, https://www.sos.ca.gov/voters-choice-act/vca-participating-counties) -- consistent with never adopting an e-pollbook, since CA's e-pollbook rollout has been almost entirely VCA-vote-center-driven. Four-source consistent never-adopter signal (three SoS snapshots + EAVS + absence from VCA list), all official government sources. Locating query: CA SoS 'Voting Technologies in Use by County' PDF, county-vsys oversight page; EAC EAVS datasets page; SoS VCA participating-counties page."
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://calvoter.org/content/%E2%80%98why-do-we-need-rush%E2%80%99-california%E2%80%99s-lake-county-may-have-nation%E2%80%99s-slowest-elections",
+      "confidence": "secondary",
+      "note": "CalVoter's ballot-processing profile of Lake County ('Why do we need to rush? California's Lake County may have the nation's slowest elections department') describes vote-by-mail signatures being 'examined by staff' with no automated signature-matching equipment named, in the context of an understaffed/slow elections office. Direct fetch of the CalVoter page was blocked by a bot wall (403 both in the original census pass and re-checked in this pass); this rests on a WebSearch-indexed snippet only, not a full primary-source read. Lake's own Signature Verification Statement PDF (https://lakecountyca.gov/DocumentCenter/View/3378/Signature-Verification-Statement-and-Instructions-PDF) is a generic cure-form that does not describe the underlying match method (re-checked this pass: still a bare fillable cure form, no vendor/software language). Lake does not appear in the Stanford Law School 'Signature Verification and Mail Ballots' (May 2020) Appendix III county survey table (33 counties interviewed; Lake not among them) -- https://law.stanford.edu/wp-content/uploads/2020/04/SLS_Signature_Verification_Report-5-15-20-FINAL.pdf, re-checked this pass, confirmed absent via pdftotext -layout search for 'Lake County'. NEW this pass: Lake's current Registrar of Voters page (https://elections.lakecountyca.gov/818/Registrar-of-Voters) and its Election Administration Plan were checked for an ASV vendor name; none found (page is a general contacts/services page, no EAP document linked as of this pass; Lake does not have a VCA EAP because it never adopted the VCA). Positive-support standard only weakly met (search-snippet only for the CalVoter quote, small rural county with essentially no independent press coverage of ballot-processing internals). Confidence stays secondary (finding-by-absence-of-evidence + one bot-blocked snippet source), matching the county-tech schema's confidence enum and the low-confidence read of the census row. Locating queries: 'Lake County California elections vote by mail signature verification staff compare'; site:calvoter.org Lake County ballot processing (403 blocked); direct curl of elections.lakecountyca.gov/818/Registrar-of-Voters (200, no ASV content); pdftotext search of Stanford SLS report Appendix III for 'Lake County' (not found)."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.sos.ca.gov/voters-choice-act/vca-participating-counties",
+      "confidence": "secondary",
+      "note": "Sign-Scan-and-Go (AB 626 in-vote-center mail-ballot verify+scan) is a VCA-vote-center-only program (piloted at Placer). Lake has never adopted the VCA (absent from the SoS VCA participating-counties list), so it structurally cannot have Sign-Scan-and-Go. Absence-of-evidence inference, consistent with the epollbook finding."
+    },
+    {
+      "type": "vote-center",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.sos.ca.gov/voters-choice-act/vca-participating-counties",
+      "confidence": "primary",
+      "note": "Lake does not appear on the CA SoS Voter's Choice Act participating-counties list (checked this pass). Lake runs traditional neighborhood-precinct polling places plus vote-by-mail, not the VCA all-mail/vote-center model. This is the structural reason Lake is a clean control county: no VCA-driven confound coincides with its (non-)adoption of epollbook/ASV, unlike Napa/Sacramento/Madera/Nevada/San Mateo where VCA adoption and epollbook adoption happened in the same year."
+    }
+  ],
+  "metrics": [],
+  "notes": "TECH SUMMARY: Lake County is a clean 'never adopted' control county for BOTH e-pollbooks and ASV through 2024 -- never joined the VCA (no vote-center confound), SoS voting-tech snapshots and EAVS both show epollbook 'Do not use'/False continuously 2016-2025, and the one ASV-relevant source found (CalVoter profile) describes staff-only signature examination, though that specific source is snippet-only (403-blocked direct fetch) and hence secondary confidence for the ASV leg specifically (matches the census row's low-confidence assessment, mapped into this schema's primary/secondary/estimated/none enum). Election-night rows extended in data/research/election-night/lake-ca.json: NOT on Clarity (probe-confirmed 404 at results.enr.clarityelections.com/CA/Lake/), results moved subdomains three times (acm.co.lake.ca.us 2012-2014, publicapps.lakecountyca.gov 2016-2018, publicapps2.lakecountyca.gov 2022-2024), and the county keeps a per-election media-release folder (Nov2018MediaReleases/ confirmed in the probe)."
+}

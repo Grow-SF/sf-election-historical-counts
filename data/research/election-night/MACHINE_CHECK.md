@@ -17,6 +17,18 @@ verify_en_* scripts to regenerate).
 | fresno-ca | 2022-11-08 | denominator | 221,419 | VERIFIED | 562 642,412 500,076 28,343 193,076 221,419 87.20% 44.28% 34.47% |
 | fresno-ca | 2024-11-05 | denominator | 330,932 | VERIFIED | 478 649,184 513,799 63,049 267,883 330,932 80.95% 64.41% 50.98% |
 | fresno-ca | 2024-11-05 | numerator | 206,372 | VERIFIED | FICIAL ELECTION RESULTS Precincts Reported: 478 of 478 (100.00%) Voters Cast: 206,372 of 511,349 (40.36%) President and  |
+| lake-ca | 2012-11-06 | denominator | 23,685 | VERIFIED | 70 47,135 34,936 8,987 14,698 23,685 62.06% 67.80% 50.25% |
+| lake-ca | 2012-11-06 | numerator | 16,622 | VERIFIED | bsentee Ballots Cast 8,057 23.1% Total Ballots Cast 16,622 47.6% Registration and Turnout CONGRESSIONAL DIST |
+| lake-ca | 2014-11-04 | denominator | 18,061 | VERIFIED | 70 49,067 33,489 6,017 12,044 18,061 66.69% 53.93% 36.81% |
+| lake-ca | 2014-11-04 | numerator | 12,593 | VERIFIED | bsentee Ballots Cast 7,228 21.6% Total Ballots Cast 12,593 37.6% Registration and Turnout CONGRESSIONAL DIST |
+| lake-ca | 2016-11-08 | denominator | 25,085 | VERIFIED | 70 48,487 34,706 8,163 16,922 25,085 67.46% 72.28% 51.74% |
+| lake-ca | 2016-11-08 | numerator | 13,484 | VERIFIED | bsentee Ballots Cast 6,587 19.0% Total Ballots Cast 13,484 38.9% Registration and Turnout CONGRESSIONAL DIST |
+| lake-ca | 2018-11-06 | denominator | 21,465 | VERIFIED | 70 49,469 32,653 6,049 15,416 21,465 71.82% 65.74% 43.39% |
+| lake-ca | 2018-11-06 | numerator | 13,522 | VERIFIED | bsentee Ballots Cast 8,566 26.2% Total Ballots Cast 13,522 41.4% Registration and Turnout CONGRESSIONAL DIST |
+| lake-ca | 2022-11-08 | denominator | 20,362 | VERIFIED | 80 51,231 37,154 2,416 17,946 20,362 88.13% 54.80% 39.75% |
+| lake-ca | 2022-11-08 | numerator | 7,842 | VERIFIED | finalize the results and certify the election. The preliminary count included 7,842 ballots, or 21.2% of Lake County’s 3 |
+| lake-ca | 2024-11-05 | denominator | 27,127 | VERIFIED | 48 51,197 37,975 3,577 23,550 27,127 86.81% 71.43% 52.99% |
+| lake-ca | 2024-11-05 | numerator | 7,960 | VERIFIED | e counted as of early Wednesday morning. Out of 37,915 registered voters, only 7,960 ballots, or 20.99%, have been count |
 | los-angeles-ca | 2012-11-06 | denominator | 3,236,704 | VERIFIED | eles 4,993 5,976,156 4,758,437 2,260,876 975,828 3,236,704 30.15% 68.02% 54.16% |
 | los-angeles-ca | 2012-11-06 | numerator | 2,368,283 | VERIFIED | d ballots with votes for write-in candidates. On Election Night a total of 2,368,283 ballots were counted. This included |
 | los-angeles-ca | 2014-11-04 | denominator | 1,518,835 | VERIFIED | geles 5,027 6,096,320 4,897,915 941,812 577,023 1,518,835 37.99% 31.01% 24.91% |

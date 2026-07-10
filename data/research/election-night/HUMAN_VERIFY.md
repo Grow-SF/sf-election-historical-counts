@@ -81,6 +81,54 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for fresno-ca 2024-11-05
       controller verdict: CONFIRMED (official county summary PDF, end of night)
 
+- [ ] **lake-ca 2012-11-06** (plateau check)
+      claimed: night ballots **16,622**, certified final **23,685**, share **70.18%**
+      numerator URL: https://web.archive.org/web/20121110034513/http://acm.co.lake.ca.us:80/elections/results/result24.htm
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = county's own numbered results-report system (acm.co.lake.ca.us/elections/results/result24.htm, report #24 = the Nov 6 2012 Consolidated General per its index24.htm title block). Internal header: 'Preliminary Election Results as of 11/06/2012 at 11:59:41 PM' (self-described late-night times
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for lake-ca 2012-11-06
+      controller verdict: CONFIRMED (self-described late-night timestamp + later capture of same URL overwritten to the certified final)
+
+- [ ] **lake-ca 2014-11-04** (plateau check)
+      claimed: night ballots **12,593**, certified final **18,061**, share **69.72%**
+      numerator URL: https://web.archive.org/web/20141108050347/http://acm.co.lake.ca.us:80/elections/results/result27.htm
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: PLATEAU = county's own numbered results-report system (acm.co.lake.ca.us/elections/results/result27.htm, report #27 = Nov 4 2014 General per its index27.htm title block). Internal header: 'Election Results as of 11/05/2014 at 12:41:23 AM' (past-midnight, tail of election night). 'Completed Precincts
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for lake-ca 2014-11-04
+      controller verdict: CONFIRMED (self-described past-midnight timestamp + byte-identical later capture of same URL (digest match) three weeks after election night)
+
+- [ ] **lake-ca 2016-11-08** (plateau check)
+      claimed: night ballots **13,484**, certified final **25,085**, share **53.75%**
+      numerator URL: https://web.archive.org/web/20161112110847/http://publicapps.lakecountyca.gov:80/elections/results/result30.htm
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = county's own numbered results-report system, now hosted on publicapps.lakecountyca.gov (moved from acm.co.lake.ca.us between 2014 and 2016), report #30 = Nov 8 2016 Consolidated General. Internal header: 'Election Results as of 11/09/2016 at 12:49:48 AM', explicitly labeled 'PRELIMINARY RE
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for lake-ca 2016-11-08
+      controller verdict: CONFIRMED (self-described past-midnight 'PRELIMINARY RESULTS' timestamp + only later capture of same URL (6 weeks on, no intermediate captures) labeled 'FINAL RESULTS' at the certified total)
+
+- [ ] **lake-ca 2018-11-06** (plateau check)
+      claimed: night ballots **13,522**, certified final **21,465**, share **63.0%**
+      numerator URL: https://web.archive.org/web/20181129033058/http://publicapps.lakecountyca.gov/elections/results/result37.htm
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = county's own numbered results-report system (publicapps.lakecountyca.gov/elections/results/result37.htm, report #37 = Nov 6 2018 Statewide General per its index37.htm title block, confirmed by CDX). Internal header: 'Election Results as of 11/07/2018 at 12:14:30 AM', explicitly labeled 'PR
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for lake-ca 2018-11-06
+      controller verdict: PLAUSIBLE (self-described past-midnight 'PRELIMINARY RESULTS' timestamp; the only later observation is a single Wayback crawl (not a second independent capture) whose crawl date diverges from the page's own generation timestamp -- suggestive but not one of the section 8 non-circular legs)
+
+- [ ] **lake-ca 2022-11-08** (plateau check)
+      claimed: night ballots **7,842**, certified final **20,362**, share **38.51%**
+      numerator URL: https://web.archive.org/web/20230131164229/https://lakeconews.com/news/74153-registrar-of-voters-office-issues-preliminary-results-for-tuesday-s-general-election-canvass-process-to-begin
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = the LAST election-night preliminary report, per a Lake County News article (archived copy used; live lakeconews.com blocks both curl and WebFetch with HTTP 403) quoting the Registrar of Voters' office directly: 'By 1 a.m. Wednesday, Valadez's office had issued the last preliminary ballot c
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for lake-ca 2022-11-08
+      controller verdict: CONFIRMED (on-the-record registrar-office quote naming the number as the last preliminary count of election night, plus the number holding unchanged across two Wayback captures of the county's own results page 12+ days apart)
+
+- [ ] **lake-ca 2024-11-05** (plateau check)
+      claimed: night ballots **7,960**, certified final **27,127**, share **29.34%**
+      numerator URL: https://web.archive.org/web/20241210113951/https://lakeconews.com/news/80085-official-canvass-underway-thousands-of-ballots-still-to-be-counted
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = the last election-night preliminary report, per Lake County News ('Official canvass underway; thousands of ballots still to be counted', archived copy used; live lakeconews.com blocks both curl and WebFetch with HTTP 403): 'The Lake County Registrar of Voters Office has issued preliminary 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for lake-ca 2024-11-05
+      controller verdict: CONFIRMED (on-the-record news report naming the number as the election-night preliminary count for all precincts, with an independent second-article snippet pinning the report to 4 a.m. the morning after election day; the alternative county-page capture was checked and explicitly rejected as already-canvass-contaminated)
+
 - [ ] **los-angeles-ca 2012-11-06** (plateau check)
       claimed: night ballots **2,368,283**, certified final **3,236,704**, share **73.17%**
       numerator URL: https://www.lavote.gov/Documents/News_Releases/11072012-055616.pdf

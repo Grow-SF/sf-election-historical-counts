@@ -82,6 +82,49 @@ This is the gold-standard series the county numbers are compared against.
 
 ---
 
+### Lake County
+*Control county: never adopted e-pollbook or ASV (adoption years null both legs).*
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012 | presidential-general | 16,622 | 23,685 | 70.2% | primary | [link](https://web.archive.org/web/20121110034513/http://acm.co.lake.ca.us:80/elections/results/result24.htm) |
+| 2014 | midterm-general | 12,593 | 18,061 | 69.7% | primary | [link](https://web.archive.org/web/20141108050347/http://acm.co.lake.ca.us:80/elections/results/result27.htm) |
+| 2016 | presidential-general | 13,484 | 25,085 | 53.8% | primary | [link](https://web.archive.org/web/20161112110847/http://publicapps.lakecountyca.gov:80/elections/results/result30.htm) |
+| 2018 | midterm-general | 13,522 | 21,465 | 63.0% | primary | [link](https://web.archive.org/web/20181129033058/http://publicapps.lakecountyca.gov/elections/results/result37.htm) |
+| 2022 | midterm-general | 7,842 | 20,362 | 38.5% | primary | [link](https://web.archive.org/web/20230131164229/https://lakeconews.com/news/74153-registrar-of-voters-office-issues-preliminary-results-for-tuesday-s-general-election-canvass-process-to-begin) |
+| 2024 | presidential-general | 7,960 | 27,127 | 29.3% | primary | [link](https://web.archive.org/web/20241210113951/https://lakeconews.com/news/80085-official-canvass-underway-thousands-of-ballots-still-to-be-counted) |
+
+<details><summary>What to look for on each source page (numerator) + denominator URL</summary>
+
+- **2012 presidential-general** — night `16,622` / final `23,685` = `70.2%` (primary)
+  - numerator: <https://web.archive.org/web/20121110034513/http://acm.co.lake.ca.us:80/elections/results/result24.htm>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf>
+  - look for: "Preliminary Election Results as of 11/06/2012 at 11:59:41 PM", "Completed Precincts: 70 of 70", "Total Ballots Cast 16,622 47.6%"; the same URL's Dec 25 capture reads "Final Results for Election ... Total Ballots Cast 23,685 67.8%" (proves the plateau/overwrite pattern).
+- **2014 midterm-general** — night `12,593` / final `18,061` = `69.7%` (primary)
+  - numerator: <https://web.archive.org/web/20141108050347/http://acm.co.lake.ca.us:80/elections/results/result27.htm>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf>
+  - look for: "Election Results as of 11/05/2014 at 12:41:23 AM", "Completed Precincts: 70 of 70", "Total Ballots Cast 12,593 37.6%"; a later capture (2014-11-30) of the same URL is byte-identical (digest match); only the 2015-01-27 capture changes to "Final Results for Election ... Total Ballots Cast 18,061 53.9%".
+- **2016 presidential-general** — night `13,484` / final `25,085` = `53.8%` (primary)
+  - numerator: <https://web.archive.org/web/20161112110847/http://publicapps.lakecountyca.gov:80/elections/results/result30.htm>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: "Election Results as of 11/09/2016 at 12:49:48 AM", "PRELIMINARY RESULTS", "Completed Precincts: 70 of 70", "Total Ballots Cast 13,484 38.9%"; the 2016-12-24 capture of the same URL reads "Final Results for Election ... FINAL RESULTS ... Total Ballots Cast 25,094 72.3%" (matches certified 25,085 within 9 ballots).
+- **2018 midterm-general** — night `13,522` / final `21,465` = `63.0%` (primary)
+  - numerator: <https://web.archive.org/web/20181129033058/http://publicapps.lakecountyca.gov/elections/results/result37.htm>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: "Election Results as of 11/07/2018 at 12:14:30 AM", "PRELIMINARY RESULTS", "Completed Precincts: 70 of 70", "Total Ballots Cast 13,522 41.4%"; note the ONLY Wayback capture of this URL is dated Nov 29 yet still shows the Nov 7 12:14 AM internal stamp unchanged. PLATEAU VERDICT: PLAUSIBLE, not CONFIRMED (single-capture evidence only; see plateau_review.json).
+- **2022 midterm-general** — night `7,842` / final `20,362` = `38.5%` (primary)
+  - numerator: <https://web.archive.org/web/20230131164229/https://lakeconews.com/news/74153-registrar-of-voters-office-issues-preliminary-results-for-tuesday-s-general-election-canvass-process-to-begin>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: "By 1 a.m. Wednesday, Valadez's office had issued the last preliminary ballot count of the night... The preliminary count included 7,842 ballots, or 21.2% of Lake County's 37,165 registered voters"; corroborating county page (publicapps2.lakecountyca.gov/elections/results/results221108.html) shows the same 7,842 figure unchanged across its 2022-11-18 and 2022-11-30 Wayback captures.
+- **2024 presidential-general** — night `7,960` / final `27,127` = `29.3%` (primary)
+  - numerator: <https://web.archive.org/web/20241210113951/https://lakeconews.com/news/80085-official-canvass-underway-thousands-of-ballots-still-to-be-counted>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: "preliminary election results for the 48 precincts and the vote by mail ballots that were counted as of early Wednesday morning. Out of 37,915 registered voters, only 7,960 ballots, or 20.99%, have been counted"; do NOT confuse with the county's own results241105.html page, whose earliest surviving capture (Nov 17) already shows a higher, partial-canvass 8,641 dated "Run Date 11/14/2024".
+
+</details>
+
+---
+
 ### Los Angeles County
 *Adoption: e-pollbook 2020, ASV 2020.*
 

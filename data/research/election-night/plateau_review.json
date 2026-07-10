@@ -14,6 +14,48 @@
   "evidence": "internal stamp 11/6/2024 12:30:26 AM at 478/478 (100%); next archived report (11/7 3:28 PM) jumped to 222,324"
  },
  {
+  "slug": "lake-ca",
+  "date": "2012-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "self-described late-night timestamp + later capture of same URL overwritten to the certified final",
+  "evidence": "result24.htm 2012-11-10 capture: 'Preliminary Election Results as of 11/06/2012 at 11:59:41 PM', 70/70 precincts, Total Ballots Cast 16,622; same URL's only later capture (2012-12-25) reads 'Final Results for Election ... Total Ballots Cast 23,685' (= certified final exactly)"
+ },
+ {
+  "slug": "lake-ca",
+  "date": "2014-11-04",
+  "verdict": "CONFIRMED",
+  "basis": "self-described past-midnight timestamp + byte-identical later capture of same URL (digest match) three weeks after election night",
+  "evidence": "result27.htm 2014-11-08 capture: 'Election Results as of 11/05/2014 at 12:41:23 AM', 70/70 precincts, Total Ballots Cast 12,593; the 2014-11-30 capture of the same URL has the IDENTICAL digest AJH6HNMV3OVULKQXIFCRFEJFVHRZPJFN; only the 2015-01-27 capture changes to 'Final Results for Election ... Total Ballots Cast 18,061' (= certified final exactly)"
+ },
+ {
+  "slug": "lake-ca",
+  "date": "2016-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "self-described past-midnight 'PRELIMINARY RESULTS' timestamp + only later capture of same URL (6 weeks on, no intermediate captures) labeled 'FINAL RESULTS' at the certified total",
+  "evidence": "result30.htm 2016-11-12 capture: 'Election Results as of 11/09/2016 at 12:49:48 AM', 'PRELIMINARY RESULTS', 70/70 precincts, Total Ballots Cast 13,484; the 2016-12-24 capture of the same URL (next in CDX, 6 weeks later) reads 'Final Results for Election ... FINAL RESULTS ... Total Ballots Cast 25,094' (matches SoS certified 25,085 within 9 ballots)"
+ },
+ {
+  "slug": "lake-ca",
+  "date": "2018-11-06",
+  "verdict": "PLAUSIBLE",
+  "basis": "self-described past-midnight 'PRELIMINARY RESULTS' timestamp; the only later observation is a single Wayback crawl (not a second independent capture) whose crawl date diverges from the page's own generation timestamp -- suggestive but not one of the section 8 non-circular legs",
+  "evidence": "result37.htm's sole Wayback capture (2018-11-29) reads 'Election Results as of 11/07/2018 at 12:14:30 AM', 'PRELIMINARY RESULTS', 70/70 precincts, Total Ballots Cast 13,522; DOWNGRADED from the dossier's proposed CONFIRMED (2026-07-10 integration review): the crawl-date/internal-timestamp divergence (22 days) is a single-capture inference, not a genuine second data point like the two-capture holds confirmed for this county's 2012/2014/2016 rows; no Clarity bracket, second capture, county posting schedule, or separate official release is obtainable"
+ },
+ {
+  "slug": "lake-ca",
+  "date": "2022-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "on-the-record registrar-office quote naming the number as the last preliminary count of election night, plus the number holding unchanged across two Wayback captures of the county's own results page 12+ days apart",
+  "evidence": "Lake County News (archived): 'By 1 a.m. Wednesday, Valadez's office had issued the last preliminary ballot count of the night... 7,842 ballots, or 21.2% of Lake County's 37,165 registered voters'; publicapps2.lakecountyca.gov/elections/results/results221108.html shows 'Registered Voters 7842 of 37165 = 21.10%, Precincts Reporting 80 of 80' identically in both its 2022-11-18 and 2022-11-30 captures"
+ },
+ {
+  "slug": "lake-ca",
+  "date": "2024-11-05",
+  "verdict": "CONFIRMED",
+  "basis": "on-the-record news report naming the number as the election-night preliminary count for all precincts, with an independent second-article snippet pinning the report to 4 a.m. the morning after election day; the alternative county-page capture was checked and explicitly rejected as already-canvass-contaminated",
+  "evidence": "Lake County News (archived): 'preliminary election results for the 48 precincts ... as of early Wednesday morning ... 7,960 ballots, or 20.99% ... have been counted'; companion article snippet: 'By 4 a.m. on November 6, 2024, initial counts of the county's 48 precincts had been completed'; results241105.html's earliest Wayback capture (2024-11-17, Run Date 11/14/2024) shows a higher 8,641 and was rejected as post-election-night"
+ },
+ {
   "slug": "los-angeles-ca",
   "date": "2012-11-06",
   "verdict": "CONFIRMED",

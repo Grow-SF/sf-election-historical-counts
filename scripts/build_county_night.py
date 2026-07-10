@@ -36,6 +36,14 @@ def norm_type(year: int, raw: str) -> str | None:
     return "midterm"
 
 
+def is_control(adoption: dict) -> bool:
+    """A county is a second CONTROL (alongside SF) when it never adopted
+    either tracked tech (both adoption years absent): no treatment, so
+    nothing to be "pre"/"post" of. See docs/research/RUNBOOK.md section 10
+    (Lake County, 2026-07)."""
+    return adoption.get("epollbook") is None and adoption.get("asv") is None
+
+
 def load_counties() -> list[dict]:
     out = []
     for fp in sorted(EN.glob("*.json")):
@@ -65,7 +73,7 @@ def load_counties() -> list[dict]:
         out.append({
             "name": d.get("jurisdiction", fp.stem).replace(" County", ""),
             "slug": fp.stem,
-            "control": False,
+            "control": is_control(adopt),
             # complete = every Nov-general row has a sourced election-night count
             "complete": bool(points) and all(p["ballots"] is not None for p in points),
             "adoption": {"epollbook": adopt.get("epollbook"), "asv": adopt.get("asv")},

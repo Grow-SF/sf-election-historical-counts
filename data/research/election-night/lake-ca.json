@@ -1,0 +1,85 @@
+{
+  "jurisdiction": "Lake County",
+  "state": "CA",
+  "adoption": { "epollbook": null, "asv": null },
+  "elections": [
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": 16622,
+      "certified_final": 23685,
+      "election_night_pct": 70.18,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20121110034513/http://acm.co.lake.ca.us:80/elections/results/result24.htm",
+      "confidence": "primary",
+      "note": "PLATEAU = county's own numbered results-report system (acm.co.lake.ca.us/elections/results/result24.htm, report #24 = the Nov 6 2012 Consolidated General per its index24.htm title block). Internal header: 'Preliminary Election Results as of 11/06/2012 at 11:59:41 PM' (self-described late-night timestamp, effectively midnight on election day). 'Completed Precincts: 70 of 70' (100%). 'Total Ballots Cast 16,622 (47.6% of registered)' = Precinct Ballots Cast 8,565 + Absentee Ballots Cast 8,057. NON-CIRCULAR LEG (RUNBOOK 8): the SAME URL's only later Wayback capture (2012-12-25 11:18:19 UTC) is titled 'Final Results for Election' and shows Total Ballots Cast 23,685 (67.8%) -- the EXACT certified total from the SoS SoV -- proving the county overwrites this URL in place as the canvass proceeds, that no other on-night update was lost between the frozen 11:59:41 PM snapshot and the certified-final overwrite weeks later, and that 16,622 is genuinely pre-canvass (its absentee subtotal, 8,057, is far below the eventual certified 14,698 VBM; ~6,641 more VBM ballots were processed post-election-night). NOT the 8 PM first tranche (no capture of an earlier state survives; the 11:59:41 PM report is self-labeled 'Preliminary', the latest pre-canvass state found). Certified final 23,685 voters (CA SoS Voter Participation Statistics by County: 8,987 precinct + 14,698 VBM). Pct = 16,622/23,685 = 70.18%, well above SF's ~71% 2012 calibration is close but Lake trends higher as expected for a small rural county with an all-in-one election-night precinct count. Lake never adopted epollbook or ASV (n/a both legs, control county). VERIFIED 2026-07-10 by direct re-fetch (raw id_ Wayback, both captures): 11:59:41 PM capture confirmed 'Total Ballots Cast 16,622 47.6%'; Dec 25 capture confirmed 'Final Results for Election ... Total Ballots Cast 23,685 67.8%'; SoS SoV PDF re-fetched and confirmed Lake's Total Voters line = 23,685. CDX queries used: url=acm.co.lake.ca.us/elections/results/&matchType=prefix&from=20120801&to=20130331 (found result24.htm both captures); url=co.lake.ca.us&matchType=domain&from=20121101&to=20121130 (found the acm subdomain in the first place after publicapps.lakecountyca.gov CDX for Nov 2012 returned empty)."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": 12593,
+      "certified_final": 18061,
+      "election_night_pct": 69.72,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20141108050347/http://acm.co.lake.ca.us:80/elections/results/result27.htm",
+      "confidence": "primary",
+      "note": "PLATEAU = county's own numbered results-report system (acm.co.lake.ca.us/elections/results/result27.htm, report #27 = Nov 4 2014 General per its index27.htm title block). Internal header: 'Election Results as of 11/05/2014 at 12:41:23 AM' (past-midnight, tail of election night). 'Completed Precincts: 70 of 70' (100%). 'Total Ballots Cast 12,593 (37.6%)' = Precinct 5,365 + Absentee 7,228. NON-CIRCULAR LEG (RUNBOOK 8, strongest form): the SAME URL's 2014-11-30 08:26:48 UTC Wayback capture has the IDENTICAL content digest (AJH6HNMV3OVULKQXIFCRFEJFVHRZPJFN) as the Nov 8 capture -- the page held byte-for-byte unchanged for 3+ weeks after election night, directly proving the plateau held. Only the 2015-01-27 capture shows new content, labeled 'Final Results for Election', Total Ballots Cast 18,061 (53.9%) -- the exact SoS certified total. NOT the 8 PM first tranche (no earlier capture survives; 12:41:23 AM is explicitly past midnight). Certified final 18,061 voters (CA SoS Voter Participation Statistics by County: 6,017 precinct + 12,044 VBM). Pct = 12,593/18,061 = 69.72%. Lake never adopted epollbook or ASV (n/a both legs, control county). VERIFIED 2026-07-10 by direct re-fetch: Nov 8 capture confirmed 'Total Ballots Cast 12,593 37.6%'; byte-for-byte diff of the Nov 8 and Nov 30 raw captures confirmed identical (0 bytes differ); SoS SoV PDF re-fetched and confirmed Lake's Total Voters line = 18,061. CDX query: url=acm.co.lake.ca.us/elections/results/&matchType=prefix&from=20140901&to=20150228."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": 13484,
+      "certified_final": 25085,
+      "election_night_pct": 53.75,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20161112110847/http://publicapps.lakecountyca.gov:80/elections/results/result30.htm",
+      "confidence": "primary",
+      "note": "PLATEAU = county's own numbered results-report system, now hosted on publicapps.lakecountyca.gov (moved from acm.co.lake.ca.us between 2014 and 2016), report #30 = Nov 8 2016 Consolidated General. Internal header: 'Election Results as of 11/09/2016 at 12:49:48 AM', explicitly labeled 'PRELIMINARY RESULTS'. 'Completed Precincts: 70 of 70' (100%). 'Total Ballots Cast 13,484 (38.9%)' = Precinct 6,897 + Absentee 6,587. NON-CIRCULAR LEG (RUNBOOK 8): the SAME URL's only later capture (2016-12-24, six weeks after election night, no intermediate captures exist per CDX) is titled 'Final Results for Election' / 'FINAL RESULTS', Total Ballots Cast 25,094 (72.3%) -- matching the SoS certified 25,085 to within 9 ballots (routine late county-vs-SoS reconciliation, not a method discrepancy). Same overwrite-in-place report-page pattern already independently confirmed for this county in 2012 and 2014. NOT the 8 PM first tranche (no earlier capture survives; page self-labels 'PRELIMINARY RESULTS' as of 12:49:48 AM, after full 70/70 precinct reporting). Certified final 25,085 voters (CA SoS Voter Participation Statistics by County: 8,163 precinct + 16,922 VBM). Pct = 13,484/25,085 = 53.75% -- notably lower than Lake's own 2012 (70.18%) and 2014 (69.72%), driven by presidential-year VBM surge (only 6,587 of the eventual 16,922 certified VBM ballots were in by the Nov 9 report), not any tech confound (Lake never adopted epollbook/ASV, n/a both legs, control county). VERIFIED 2026-07-10 by direct re-fetch: Nov 12 capture confirmed 'PRELIMINARY RESULTS' / 'Total Ballots Cast 13,484 38.9%'; Dec 24 capture confirmed 'FINAL' / 'Total Ballots Cast 25,094 72.3%'; SoS SoV PDF re-fetched and confirmed Lake's Total Voters line = 25,085. CDX query: url=publicapps.lakecountyca.gov/elections/results/&matchType=prefix&from=20161001&to=20170228."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": 13522,
+      "certified_final": 21465,
+      "election_night_pct": 63.0,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20181129033058/http://publicapps.lakecountyca.gov/elections/results/result37.htm",
+      "confidence": "primary",
+      "note": "PLATEAU = county's own numbered results-report system (publicapps.lakecountyca.gov/elections/results/result37.htm, report #37 = Nov 6 2018 Statewide General per its index37.htm title block, confirmed by CDX). Internal header: 'Election Results as of 11/07/2018 at 12:14:30 AM', explicitly labeled 'PRELIMINARY RESULTS'. 'Completed Precincts: 70 of 70' (100%). 'Total Ballots Cast 13,522 (41.4%)' = Precinct 4,956 + Absentee 8,566. Two secondary routes tried and not usable this pass: the probe's Nov2018MediaReleases/ folder (a fresh CDX search for a press release with the election-night total hit repeated connection timeouts on broad matchType=domain queries against lakecountyca.gov, the RUNBOOK 7.1 'broad domain queries 504' gotcha); result35.htm on the same system (checked, confirmed to be a DIFFERENT, earlier June 2018 primary report, not usable). NOT the 8 PM first tranche (no earlier capture survives; page self-labels 'PRELIMINARY RESULTS' after full 70/70 precinct reporting). Certified final 21,465 voters (CA SoS Voter Participation Statistics by County: 6,049 precinct + 15,416 VBM). Pct = 13,522/21,465 = 63.00%. Lake never adopted epollbook or ASV (n/a both legs, control county) and never adopted VCA, so unlike Napa/San Mateo/Sacramento 2018 (all of which show a SHARP election-night-share DROP that year from the VCA vote-center transition), Lake's 2018 share (63.0%) sits comfortably between its 2016 (53.8%) and its own longer-run range, with no VCA-driven confound to explain. PLATEAU VERDICT DOWNGRADED to PLAUSIBLE on integration review (2026-07-10): the dossier's proposed second leg -- 'the page held unchanged through the only later Wayback crawl of the same URL (22 days on)' -- rests on a SINGLE Wayback capture (result37.htm was crawled exactly once, 2018-11-29), comparing the crawl date to the page's own embedded 'as of' stamp within that one fetch. That is a weaker, single-observation form than the genuine two-capture holds confirmed for this county's 2012/2014/2016 rows (two distinct crawl events showing consistent or divergent content). Per RUNBOOK 8, self-description ('PRELIMINARY RESULTS' + past-midnight timestamp) is solid but no independent CONFIRMED-grade leg (Clarity bracket, second capture, county posting schedule, later report-series file, or a separate official release) is actually obtainable here; kept as a sourced primary-confidence row (the number is a genuine county-report figure, machine-verified present) but the plateau verdict is PLAUSIBLE, not CONFIRMED. VERIFIED 2026-07-10 by direct re-fetch: sole Nov 29 capture confirmed 'PRELIMINARY RESULTS' / 'Election Results as of 11/07/2018 at 12:14:30 AM' / 'Total Ballots Cast 13,522 41.4%'; SoS SoV PDF re-fetched and confirmed Lake's Total Voters line = 21,465."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 7842,
+      "certified_final": 20362,
+      "election_night_pct": 38.51,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20230131164229/https://lakeconews.com/news/74153-registrar-of-voters-office-issues-preliminary-results-for-tuesday-s-general-election-canvass-process-to-begin",
+      "confidence": "primary",
+      "note": "PLATEAU = the LAST election-night preliminary report, per a Lake County News article (archived copy used; live lakeconews.com blocks both curl and WebFetch with HTTP 403) quoting the Registrar of Voters' office directly: 'By 1 a.m. Wednesday, Valadez's office had issued the last preliminary ballot count of the night, which included the election night initial count for all 80 Lake County precincts... The preliminary count included 7,842 ballots, or 21.2% of Lake County's 37,165 registered voters.' Independently corroborated by the county's own results page (publicapps2.lakecountyca.gov/elections/results/results221108.html, the successor to the 2012-2018 acm.co.lake.ca.us/publicapps.lakecountyca.gov numbered-report system): its earliest Wayback capture (2022-11-18) already shows 'Registered Voters 7842 of 37165 = 21.10%, Precincts Reporting 80 of 80 = 100.00%', and the SAME 7,842 figure recurs unchanged in the next capture (2022-11-30, 12 days later) -- non-circular held-count evidence per RUNBOOK 8. No earlier (election-night-dated) Wayback capture of this specific URL survives; the news article explains why direct county reporting was itself delayed that night ('Challenges with the county's website led to results not being posted online until late Tuesday night'). NOT a later canvass update (the article is explicit this is the FINAL/LAST preliminary count of election night itself, and both Wayback captures used are corroborating, not the sourced value). Certified final 20,362 voters (CA SoS Voter Participation Statistics by County: 2,416 precinct + 17,946 VBM). Pct = 7,842/20,362 = 38.51% -- markedly lower than Lake's own 2012 (70.18%), 2014 (69.72%), 2016 (53.75%), 2018 (63.00%); the news source itself attributes the shortfall to website/reporting delays that night, and Lake's own CalVoter profile (cited in the tech-record item) independently documents the county as an unusually slow reporter, not a tech-adoption confound (Lake never adopted epollbook/ASV/VCA, n/a both legs, control county). VERIFIED 2026-07-10 by direct re-fetch of the archived Lake County News article: confirmed 'The preliminary count included 7,842 ballots, or 21.2% of Lake County's 37,165 registered voters'; SoS SoV PDF re-fetched and confirmed Lake's Total Voters line = 20,362."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 7960,
+      "certified_final": 27127,
+      "election_night_pct": 29.34,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20241210113951/https://lakeconews.com/news/80085-official-canvass-underway-thousands-of-ballots-still-to-be-counted",
+      "confidence": "primary",
+      "note": "PLATEAU = the last election-night preliminary report, per Lake County News ('Official canvass underway; thousands of ballots still to be counted', archived copy used; live lakeconews.com blocks both curl and WebFetch with HTTP 403): 'The Lake County Registrar of Voters Office has issued preliminary election results for the 48 precincts and the vote by mail ballots that were counted as of early Wednesday morning. Out of 37,915 registered voters, only 7,960 ballots, or 20.99%, have been counted.' A second lakeconews.com article (news/80080, no surviving Wayback capture -- CDX empty for both lakeconews.com and www.lakeconews.com prefixes) is quoted via WebSearch snippet sharpening the timing: 'By 4 a.m. on November 6, 2024, initial counts of the county's 48 precincts had been completed' -- the same overnight-report pattern (1 a.m. in 2022, 4 a.m. here) independently confirmed for this county's reporting cadence. REJECTED alternative: the county's own publicapps2.lakecountyca.gov/elections/results/results241105.html page's earliest Wayback capture (2024-11-17) already reads 'Run Date 11/14/2024 ... Registered Voters 8,641 of 37,915 = 22.79%' -- 8 days post-election and already a partial-canvass update (681 ballots higher than the true election-night 7,960), explicitly NOT used as the numerator. Certified final 27,127 voters (CA SoS Voter Participation Statistics by County: 3,577 precinct + 23,550 VBM). Pct = 7,960/27,127 = 29.34% -- Lake's lowest election-night share of all six elections in this dossier, continuing a downward trend from 2012-2018 (53.75%-70.18%) through 2022 (38.51%); the news source itself frames this as ongoing capacity/backlog issues, consistent with Lake's own CalVoter 'slowest elections department' profile (tech-record item), not a tech-adoption confound (Lake never adopted epollbook/ASV/VCA, n/a both legs, control county). (2020 deliberately excluded as a COVID universal-VBM outlier.) VERIFIED 2026-07-10 by direct re-fetch of the archived Lake County News article: confirmed 'Out of 37,915 registered voters, only 7,960 ballots, or 20.99%, have been counted'; SoS SoV PDF re-fetched and confirmed Lake's Total Voters line = 27,127."
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 
 Fetches each numerator source (Wayback raw id_ form for archived pages) into
 cache/numerators/, converts to text, and checks the claimed ballot count
-appears. Network: ~54 fetches with a 2s pause each; artifacts are cached so
+appears. Network: ~62 fetches with a 2s pause each; artifacts are cached so
 reruns only refetch failures. Writes cache/numerator_results.json.
 """
 import gzip
