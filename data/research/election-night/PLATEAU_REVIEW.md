@@ -10,6 +10,13 @@ counts in later captures, and Wayback CDX capture histories.
 
 Verdicts: 48 CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 1 REFUTED_AND_CORRECTED.
 
+UPDATE (2026-07-10, gap-triage recoveries): two newly recovered rows added
+(santa-clara-ca 2016 and 2018, both CONFIRMED via live-CDN version
+brackets) and santa-clara-ca 2014 re-adjudicated PLAUSIBLE ->
+REFUTED_AND_CORRECTED (the live Clarity CDN recovered the true overnight
+plateau that supersedes the documented ceiling). Running totals: 50
+CONFIRMED, 2 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2 REFUTED_AND_CORRECTED.
+
 | County | Date | Verdict | Basis | Evidence |
 |---|---|---|---|---|
 | fresno-ca | 2016-11-08 | CONFIRMED | frozen GEMS live page, held past night | header 'Unofficial Final Results ... 11/9/2016 1:42:19 AM' at 592/592 precincts; the Nov 12 capture (the artifact) still shows the 1:42 AM report |
@@ -63,7 +70,9 @@ Verdicts: 48 CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 1 REFUTED_AND_CORRECT
 | san-mateo-ca | 2022-11-08 | CONFIRMED | self-describing final plus next-update schedule | 'Semi-Official Results - Final Election Night Report - Next update on Thursday, November 10', stamp 11/9/2022 3:17:37 AM |
 | san-mateo-ca | 2024-11-05 | CONFIRMED | self-describing final plus next-update schedule | 'Final Election Night Report - Next update on Thursday, November 7', stamp 11/6/2024 2:18:48 AM |
 | santa-clara-ca | 2012-11-06 | CONFIRMED | long-night report held in a later capture | stamped 11/7/2012 4:14:04 AM PST; the Nov 10 capture still shows it |
-| santa-clara-ca | 2014-11-04 | PLAUSIBLE | documented ceiling: next-day canvass-start report | ver 148095 'Last updated 11/5/2014 5:08:58 PM'; the overnight versions' JSON was never crawled; note estimates the true plateau near 239,000; ceiling 251,620 flagged comparable=false |
+| santa-clara-ca | 2014-11-04 | REFUTED_AND_CORRECTED | clarity live-CDN version walk recovers the true overnight plateau, superseding the documented ceiling | cited ceiling ver 148095 (11/5 5:08:58 PM, BC 251,620) is a next-day canvass-start report; the live CDN (unlike Wayback) still serves the overnight versions' JSON -- v147908 (11/5 4:00:59 AM PST, BC 235,062) is the last of the continuous night sequence (pace collapses to +624 in the final 63 min, then a 13-hour gap to 148095); corrected 251,620 -> 235,062, comparable=false removed |
+| santa-clara-ca | 2016-11-08 | CONFIRMED | clarity live-CDN version bracket: cadence break in the immediately following version | v182800 (11/9 10:28:40 AM PST, BC 443,269) is the last of a continuous ~hourly overnight sequence from v181922 (11/8 7:43 PM); the next version v182869 (3:41 PM) breaks cadence (+7,333 over 5h13m vs an overnight pace of 5,700-15,400/hr) |
+| santa-clara-ca | 2018-11-06 | CONFIRMED | clarity live-CDN version bracket: adjacent official versions in the settings array, 9h22m gap | v220444 (11/7 6:37:33 AM PST, BC 304,303, precincts 1,098/1,098) is immediately followed in the electionsettings versions array by v220630 (3:59:46 PM, BC 306,086, +1,783 only) |
 | santa-clara-ca | 2022-11-08 | CONFIRMED | clarity version bracket, re-derived | cited v311769 stamped 11/8/2022 10:41:38 PM; next v312163 stamped 11/9 4:36 PM (BC 309,580) |
 | santa-clara-ca | 2024-11-05 | REFUTED_AND_CORRECTED | clarity version walk recovers the true plateau | cited v353583 (11/6 4:46 PM, BC 468,395) is a next-day canvass bump; the night sequence is v353205 11:57 PM BC 459,487 then v353227 12:16 AM BC 460,325 (last of the night, held through v353516 at 1:10 PM); corrected to 4 |
 
@@ -93,11 +102,11 @@ distinct on-time capture exists but is currently unservable.
 
 CDX shows a distinct Nov 8 2012 8:53 PM PST capture (digest CYR7..., 10,563 bytes) differing from the 2013 FINAL-report capture (10,647 bytes); Wayback replay now 302-aliases it to 2013-02-15, which is why machine fetches see the Nov 30 report; the note's reading (Run Date 11/07/12 12:49 AM, 328,516 at 1,106/1,106) is temporally coherent but machine-unverifiable today
 
-### santa-clara-ca 2014-11-04: PLAUSIBLE
+### santa-clara-ca 2014-11-04: REFUTED_AND_CORRECTED
 
-documented ceiling: next-day canvass-start report.
+clarity live-CDN version walk recovers the true overnight plateau, superseding the documented ceiling.
 
-ver 148095 'Last updated 11/5/2014 5:08:58 PM'; the overnight versions' JSON was never crawled; note estimates the true plateau near 239,000; ceiling 251,620 flagged comparable=false
+Original 2026-07-02 verdict was PLAUSIBLE (documented ceiling: next-day canvass-start report; ver 148095 'Last updated 11/5/2014 5:08:58 PM'; the overnight versions' JSON was never crawled; note estimated the true plateau near 239,000; ceiling 251,620 flagged comparable=false). CORRECTION (2026-07-10, gap-triage): the live Clarity CDN, unlike Wayback, still serves the overnight versions' JSON -- v147908 (11/5 4:00:59 AM PST, BC 235,062) is the last of the continuous night sequence (pace collapses to +624 in the final 63 min, then a 13-hour gap to 148095); corrected 251,620 -> 235,062 (58.16%), comparable=false removed, confidence upgraded to primary.
 
 ### santa-clara-ca 2024-11-05: REFUTED_AND_CORRECTED
 

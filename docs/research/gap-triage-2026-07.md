@@ -16,7 +16,7 @@ the index, not the primary evidence trail.
 
 ## RECOVERED (4 cells)
 
-- **santa-clara-ca 2016-11-08**: RECOVERED, 443,269 / 724,596 = **61.18%**,
+- **santa-clara-ca 2016-11-08**: RECOVERED, 443,269 / 724,596 = **61.17%**,
   confidence **primary**, plateau **CONFIRMED**. Route: the live Clarity CDN
   (electionId 64404), not Wayback. curl and puppeteer-with-`headless:true`
   both 403 on this CDN (CloudFront block); puppeteer with `headless:"new"` +
@@ -28,7 +28,7 @@ the index, not the primary evidence trail.
   sequence; the next version breaks cadence 5h13m later with a
   4x-collapsed increment. Snapshot archived and verified:
   `https://web.archive.org/web/20260710174832/https://results.enr.clarityelections.com/CA/Santa_Clara/64404/182800/json/sum.json`.
-- **santa-clara-ca 2018-11-06**: RECOVERED, 304,303 / 625,425 = **48.65%**,
+- **santa-clara-ca 2018-11-06**: RECOVERED, 304,303 / 625,425 = **48.66%**,
   confidence **primary**, plateau **CONFIRMED**. Same live-CDN route,
   electionId 92418 (Web02 SPA, which does carry a versions array unlike the
   Web01 2016/2014 elections). Plateau = v220444 (11/7 6:37:33 AM PST, all
@@ -80,7 +80,7 @@ the index, not the primary evidence trail.
   (confirmed by reading two of its pages directly), not a results report.
   WebSearch surfaced no news article with a figure. Value remains null.
 
-## KEEP-NULL, routes confirmed exhausted (13 cells)
+## KEEP-NULL, routes confirmed exhausted (17 cells)
 
 Spot-checked directly against each row's JSON note (not just the scout's
 summary); all quoted dead-end evidence matches the underlying files

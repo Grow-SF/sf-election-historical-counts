@@ -983,7 +983,7 @@
         {
           "year": 2016,
           "type": "presidential",
-          "pct": 61.18,
+          "pct": 61.17,
           "ballots": 443269,
           "final": 724596,
           "confidence": "primary",
@@ -993,7 +993,7 @@
         {
           "year": 2018,
           "type": "midterm",
-          "pct": 48.65,
+          "pct": 48.66,
           "ballots": 304303,
           "final": 625425,
           "confidence": "primary",

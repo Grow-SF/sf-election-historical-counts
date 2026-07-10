@@ -458,7 +458,7 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       controller verdict: REFUTED_AND_CORRECTED (clarity live-CDN version walk recovers the true overnight plateau, superseding the documented ceiling)
 
 - [ ] **santa-clara-ca 2016-11-08** (plateau check)
-      claimed: night ballots **443,269**, certified final **724,596**, share **61.18%**
+      claimed: night ballots **443,269**, certified final **724,596**, share **61.17%**
       numerator URL: https://web.archive.org/web/20260710174832/https://results.enr.clarityelections.com/CA/Santa_Clara/64404/182800/json/sum.json
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf
       look for: ELECTION-NIGHT PLATEAU NOT SOURCEABLE. Clarity event 64404 (Web01 layout): the only election-night-period capture is a pre-poll-close placeholder (version 178468, Wayback 20161107003316 = Nov 6 4:33 PM PT, Ballots Cast 0). The Nov 8 election-night data versions were never crawled; the next captures 
@@ -466,7 +466,7 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       controller verdict: CONFIRMED (clarity live-CDN version bracket: cadence break in the immediately following version)
 
 - [ ] **santa-clara-ca 2018-11-06** (plateau check)
-      claimed: night ballots **304,303**, certified final **625,425**, share **48.65%**
+      claimed: night ballots **304,303**, certified final **625,425**, share **48.66%**
       numerator URL: https://web.archive.org/web/20260710173809/https://results.enr.clarityelections.com/CA/Santa_Clara/92418/220444/json/sum.json
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
       look for: ELECTION-NIGHT PLATEAU NOT SOURCEABLE. Clarity event 92418 (Web02 SPA): NO election-night (Nov 6-7 2018) data version was crawled; the earliest readable JSON is version 221262, sum.json GOVERNOR BC = 443,266 at 1,098/1,098 precincts, electionsettings '11/11/2018 4:43:32 PM PST' -- a DEEP CANVASS cou
