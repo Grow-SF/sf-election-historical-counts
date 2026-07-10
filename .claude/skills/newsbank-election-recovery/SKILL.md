@@ -15,9 +15,20 @@ Chrome while captures run clobbers it and sends a capture to the wrong issue
 (verified: two concurrent captures on an idle session both land correctly).
 
 ## Prerequisites (already set up by the operator — do NOT touch credentials)
-- Chrome is running with `--remote-debugging-port=9222`.
-- The SFPL ezproxy NewsBank session is logged in (the human logs in manually;
-  never automate or enter credentials).
+- Chrome is launched ONLY through `scripts/research/iso_chrome.sh` — the one
+  sanctioned, focus-safe launcher (headless "new", no window, cannot steal
+  focus). Never `open -a`, never exec the Chrome binary directly, never
+  leave a headful Chrome running unattended. See
+  `docs/superpowers/plans/2026-07-10-focus-safe-browser.md` and
+  `docs/archive-recovery-runbook.md` for the design.
+- The SFPL ezproxy NewsBank session is logged in via the **login ceremony**:
+  the human says go, the controller sets `ISO_CHROME_LOGIN_ACK=yes` for one
+  `bash scripts/research/iso_chrome.sh login` call (an agent never sets this
+  latch itself), the user logs in in the single visible window that opens,
+  then runs `bash scripts/research/iso_chrome.sh stop`. That session lives in
+  a dedicated profile, so every headless worker afterward
+  (`bash scripts/research/iso_chrome.sh headless`) reuses it — never automate
+  or enter credentials.
 - Licensed content stays in the **gitignored** `mirror/newsbank/scans/` tree.
   Only figures + citations (docref / scan filename) are ever committed — never
   the page images.
@@ -28,6 +39,8 @@ cd /Users/sbuss/workspace/sf-election-count
 export PATH="/Users/sbuss/.nvm/versions/node/v22.21.1/bin:$PATH"
 export NODE_PATH="$(pwd)/node_modules"
 # (viz/ was deleted 2026-06; puppeteer-core now lives in the ROOT package.json)
+# Get a browserURL for scripts that puppeteer.connect() to it:
+#   URL=$(bash scripts/research/iso_chrome.sh headless)
 ```
 
 ## Step 1 — capture the day-after pages
