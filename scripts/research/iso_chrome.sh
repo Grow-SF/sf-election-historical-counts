@@ -28,7 +28,7 @@ PORT_END="${ISO_CHROME_PORT_END:-9250}"
 LOGIN_URL="${ISO_CHROME_LOGIN_URL:-https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F969E1C867F6}"
 
 usage() {
-  echo "usage: iso_chrome.sh <headless|login|stop|status> [--profile NAME] [--dry-run]" >&2
+  echo "usage: iso_chrome.sh <headless|login|park|stop|status> [--profile NAME] [--dry-run]" >&2
 }
 
 CMD="${1:-}"
@@ -61,6 +61,7 @@ done
 
 PROFILE_DIR="$PROFILE_ROOT/$PROFILE_NAME"
 PID_FILE="$PROFILE_DIR/.iso_chrome.pid"
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 PORT_FILE="$PROFILE_DIR/.iso_chrome.port"
 
 # Matches only Chrome processes launched against THIS profile's
@@ -149,13 +150,47 @@ cmd_login() {
     exit 1
   fi
 
-  echo "launching visible Chrome for the login ceremony on profile '$PROFILE_NAME'..." >&2
-  echo "log in, then run: iso_chrome.sh stop --profile $PROFILE_NAME" >&2
+  local port
+  port="$(free_port)" || { echo "no free port in $PORT_START-$PORT_END" >&2; exit 1; }
+  echo "$port" > "$PORT_FILE"
+
+  echo "launching visible Chrome for the login ceremony on profile '$PROFILE_NAME' (debug port $port)..." >&2
+  echo "log in, then have the controller run: iso_chrome.sh park --profile $PROFILE_NAME" >&2
+  echo "(ezproxy sessions are session cookies: the logged-in instance must STAY ALIVE;" >&2
+  echo " park moves its window off-screen and workers connect to this same instance)" >&2
 
   # Direct binary exec (never `open -a`), in the foreground of THIS
-  # invocation only - the human runs or approves this single call, and the
-  # window goes away the moment they close it or run `stop`.
-  exec "$CHROME_BIN" --user-data-dir="$PROFILE_DIR" --no-first-run --no-default-browser-check "$LOGIN_URL"
+  # invocation only - the human runs or approves this single call. The debug
+  # port lets park and the headless-style workers talk to the LIVE session.
+  exec "$CHROME_BIN" --user-data-dir="$PROFILE_DIR" --no-first-run --no-default-browser-check \
+    --remote-debugging-port="$port" "$LOGIN_URL"
+}
+
+cmd_park() {
+  local port
+  [[ -f "$PORT_FILE" ]] || { echo "no port file for profile '$PROFILE_NAME'; is an instance running?" >&2; exit 1; }
+  port="$(cat "$PORT_FILE")"
+  curl -s -o /dev/null "http://127.0.0.1:$port/json/version" || { echo "debug port $port not answering" >&2; exit 1; }
+  # Move every window of the live instance off-screen via CDP. Moving a
+  # window takes no focus; nothing is activated.
+  local parker="$PROFILE_DIR/.park.cjs"
+  cat > "$parker" <<'PARKER'
+const puppeteer = require("puppeteer-core");
+(async () => {
+  const port = process.argv[2];
+  const b = await puppeteer.connect({ browserURL: "http://127.0.0.1:" + port, defaultViewport: null });
+  const pages = await b.pages();
+  for (const p of pages) {
+    const s = await p.createCDPSession();
+    const { windowId } = await s.send("Browser.getWindowForTarget");
+    await s.send("Browser.setWindowBounds", { windowId, bounds: { left: -32000, top: -32000 } });
+    await s.detach();
+  }
+  b.disconnect();
+  console.log("parked " + pages.length + " window(s) off-screen; browserURL: http://127.0.0.1:" + port);
+})().catch((e) => { console.error(e.message); process.exit(1); });
+PARKER
+  (cd "$REPO_ROOT/scripts/archive-recovery" && node "$parker" park "$port")
 }
 
 cmd_stop() {
@@ -201,6 +236,7 @@ cmd_status() {
 case "$CMD" in
   headless) cmd_headless ;;
   login) cmd_login ;;
+  park) cmd_park ;;
   stop) cmd_stop ;;
   status) cmd_status ;;
   "")
