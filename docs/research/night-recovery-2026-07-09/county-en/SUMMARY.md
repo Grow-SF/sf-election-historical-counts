@@ -34,8 +34,10 @@ time, by county" chart from the live preview harness.
   Orange, San Mateo).
 - **After this program: 11 panels** (adds Fresno, Riverside, San Diego, Santa
   Clara, Ventura). Confirmed by reading the screenshot: all 5 new counties'
-  panels render with their full 2012-2024 trajectories and adoption-year
-  markers.
+  panels render, full 2012-2024 trajectories and adoption-year markers
+  except Santa Clara, whose panel draws only its three comparable points
+  (2012, 2022, 2024); 2014/2016/2018 are flagged `comparable: false` and
+  excluded from the line by design.
 - **San Luis Obispo does NOT render**, despite being a complete, CONFIRMED
   control county (Task 12). This is a known chart bug: `CountyNightTimelineChart`
   only ever shows one `control`-flagged jurisdiction (San Francisco); a second
@@ -49,7 +51,7 @@ Per the "don't kill other processes" rule it was left alone; a fresh preview
 instance was started from this worktree's `packages/charts/preview` on the
 next free port (4319) and the screenshot was taken against that instance.
 
-## Rows landed this program (30 rows, 7 counties)
+## Rows landed this program (30 rows, 8 counties)
 
 Values below are read directly from `packages/data/county_night.json` /
 `data/research/election-night/plateau_review.json`, not from memory. "New"
