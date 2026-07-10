@@ -99,12 +99,12 @@
         {
           "year": 2012,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 61.3,
+          "ballots": 160400,
           "final": 261652,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/142721EBD5B41378"
         },
         {
           "year": 2014,

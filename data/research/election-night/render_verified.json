@@ -54,5 +54,12 @@
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16871C80DC62E438",
   "evidence": "San Diego Union-Tribune Web Edition, Nov 9 2016, 'Issa still leading, barely': 'as of late Wednesday afternoon... Across San Diego County there are 620,000 uncounted provisional and mail-in ballots... San Diego County is not expected to release more results until Thursday.' Certified final 1,346,513 minus 620,000 = 726,513 counted (53.96%).",
   "method": "newsbank-sfpl-manual"
+ },
+ {
+  "slug": "fresno-ca",
+  "date": "2012-11-06",
+  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/142721EBD5B41378",
+  "evidence": "Fresno Bee, Nov 8 2012, 'Valley ballot-counting continues': County Clerk Brandi Orth: 'So far, about 160,400 ballots have been counted, putting voter turnout at 39.1%.' Bracketed as unchanged election-night data by the companion Nov 10 2012 item 'Election throws Valley GOP roots deep' (docref news/142872B3AAB99388): 'Fresno County on Friday did its first vote-count update since Tuesday's election... counted 19,000 absentee ballots since election night and has 78,000 still to count.' 160,400 / 261,652 certified = 61.30%.",
+  "method": "newsbank-sfpl-manual"
  }
 ]

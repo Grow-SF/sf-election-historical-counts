@@ -23,6 +23,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
 
 ## 2. Secondary-confidence rows (weakest sourcing, read closely)
 
+- [ ] **fresno-ca 2012-11-06** (secondary confidence)
+      claimed: night ballots **160,400**, certified final **261,652**, share **61.3%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/142721EBD5B41378
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf
+      look for: Certified final 261,652 ballots cast (CA SoS Statement of Vote, Voter Participation Stats by County: precinct 119,543 + VBM 142,109; 63.79% of 410,188 registered). Pre-adoption, precinct-based. Election-night PLATEAU not sourceable. Fresno's no-dash GEMS live election-night page for this race (www2.
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for fresno-ca 2012-11-06
+      controller verdict: CONFIRMED (county clerk's own election-night figure, bracketed unchanged by the county's own posting schedule (next update days later))
+
 - [ ] **madera-ca 2014-11-04** (secondary confidence)
       claimed: night ballots **22,012**, certified final **27,370**, share **80.42%**
       numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/15175914B6DDC6C0

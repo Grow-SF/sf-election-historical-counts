@@ -509,5 +509,12 @@
   "verdict": "CONFIRMED",
   "basis": "self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket",
   "evidence": "2024-general-final-unofficial-electionnight stamped 11/6/2024 12:10:19 PM, 158/158 precincts, Voters Cast 82,548; UNOFFICIAL ELECTION RESULTS - UPDATE 11/8/2024 = 98,548; FINAL OFFICIAL ELECTION RESULTS stamped 12/3/2024 1:23:47 PM = 153,432, matches SoS exactly"
+ },
+ {
+  "slug": "fresno-ca",
+  "date": "2012-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "county clerk's own election-night figure, bracketed unchanged by the county's own posting schedule (next update days later)",
+  "evidence": "Fresno Bee Nov 8 2012 quotes Clerk Brandi Orth: 'So far, about 160,400 ballots have been counted, putting voter turnout at 39.1%' (matches 160,400/410,188 registered exactly); the Nov 10 2012 companion item states 'Fresno County on Friday did its first vote-count update since Tuesday's election', proving no interim release moved the count between election night and Friday. 160,400/261,652 = 61.30%."
  }
 ]
