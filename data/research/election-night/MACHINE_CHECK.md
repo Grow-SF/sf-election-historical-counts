@@ -16,6 +16,7 @@ verify_en_* scripts to regenerate).
 | fresno-ca | 2016-11-08 | denominator | 291,890 | VERIFIED | 592 583,238 437,423 131,787 160,103 291,890 54.85% 66.73% 50.05% |
 | fresno-ca | 2016-11-08 | numerator | 177,183 | VERIFIED | es." 11/9/2016 1:42:19 AM Registered Voters 437667 - Cards Cast 177183 40.48% Num. Report Precinct 592 - Num. Reporting  |
 | fresno-ca | 2018-11-06 | denominator | 256,972 | VERIFIED | 640 597,497 456,891 93,581 163,391 256,972 63.58% 56.24% 43.01% |
+| fresno-ca | 2018-11-06 | numerator | 156,972 | VERIFIED | render-verified: Fresno Bee, Nov 8 2018, 'It's all over but the counting': 'Election Day is over, but there are still 10 |
 | fresno-ca | 2022-11-08 | denominator | 221,419 | VERIFIED | 562 642,412 500,076 28,343 193,076 221,419 87.20% 44.28% 34.47% |
 | fresno-ca | 2022-11-08 | numerator | 126,440 | VERIFIED | Precincts Reported: 562 of 562 (100.00%) Voters Cast: 126,440 of 499,979 (25.29%) Governor (Vote for 1) Precincts Report |
 | fresno-ca | 2024-11-05 | denominator | 330,932 | VERIFIED | 478 649,184 513,799 63,049 267,883 330,932 80.95% 64.41% 50.98% |

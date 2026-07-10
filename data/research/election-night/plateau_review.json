@@ -523,5 +523,12 @@
   "verdict": "CONFIRMED",
   "basis": "certified-minus-outstanding derivation self-describing as through election night, bracketed unchanged by the county's own posting schedule",
   "evidence": "Fresno Bee Nov 6 2014 'Digesting the results': 'With the Election Day ballot counting finished... approximately 42,600 Fresno County mail and provisional ballots left to count.' The Nov 8 2014 companion 'Soria takes council race lead' shows no county update between the Wednesday-morning post and Friday 3pm, and independently corroborates the remaining-ballot pool (more than 22,000 processed by Friday plus 10,300+10,100 still remaining = ~42,400, matching the Thursday figure). 163,420 minus ~42,600 = 120,820 (73.93%); cross-checked against San Diego's own CONFIRMED 2014 row (73.54%, same election)."
+ },
+ {
+  "slug": "fresno-ca",
+  "date": "2018-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "certified-minus-outstanding derivation self-describing as the state Wednesday morning after election night, bracketed unchanged by the county's own posting schedule",
+  "evidence": "Fresno Bee Nov 8 2018 'It's all over but the counting': 'Election Day is over, but there are still 100,000 vote-by-mail and provisional ballots left to count in Fresno County. Registrar Brandi Orth said Wednesday morning that the process of counting about 76,000 mail-in ballots had begun' and 'Fresno County will not announce updated vote totals until Friday afternoon.' 256,972 minus 100,000 = 156,972 (61.09%); consistent with this row's already-documented 2018-11-21 canvass snapshot (239,032) as an intermediate point toward certification."
  }
 ]

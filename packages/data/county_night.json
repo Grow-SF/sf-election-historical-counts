@@ -90,7 +90,7 @@
       "name": "Fresno",
       "slug": "fresno-ca",
       "control": false,
-      "complete": false,
+      "complete": true,
       "adoption": {
         "epollbook": 2020,
         "asv": 2020
@@ -129,12 +129,12 @@
         {
           "year": 2018,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 61.09,
+          "ballots": 156972,
           "final": 256972,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F940DF80FB53D8"
         },
         {
           "year": 2022,
