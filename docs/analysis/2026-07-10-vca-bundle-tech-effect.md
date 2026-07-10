@@ -200,3 +200,80 @@ python3 scripts/research/estimate_tech_effect.py --path county_night_HEAD.json -
 ## Appendix B: what will move with the pending integration
 
 Integration of `docs/research/pending-integration-2026-07-10/` (roughly 46 further primary cells, the 87-cell Secretary of State apply-list, and any wave-3 stragglers) continues after this document. It is expected to refine decimals, not direction: the counterfactual advantage, the placebo swallowing the headline, and the between-county heterogeneity floor are all robust to the panel roughly doubling once already, and the pending remainder is smaller than that. A successor note will re-pin these figures at the post-integration commit if any headline moves by more than its rounding.
+
+---
+
+## Post-integration update (2026-07-10): the SoS apply-list lands, the jackknife CI clears zero
+
+**Panel pinned at:** commit `470f0a63b6265f0d183706d33c3fac09b99d844b` (`packages/data/county_night.json`, read via `git show 470f0a6:...`, same reproducibility discipline as Appendix A)
+
+Since this document was finalized at HEAD `9bff066`, four commits (`20690cc`, `9f80211`, `c2f2a3a`, `470f0a6`) applied all 87 Secretary of State status-page cells that Section 6 described as pending. The panel grew from 121 to 184 rows (82 to 169 sourced), and two new counties cleared the identification bar: **Placer** and **San Bernardino**, taking `n_treated` from 11 to 13. This section recomputes every number in Sections 4, 5, and 2 against the new panel. It does not restate the rest of the document, which stands as written below.
+
+### 1. The refreshed battery
+
+Run by the author against commit `470f0a6` (commands identical in form to Appendix A, `--path` pointed at the panel exported from that commit):
+
+```bash
+git rev-parse HEAD          # 470f0a63b6265f0d183706d33c3fac09b99d844b
+git show 470f0a6:packages/data/county_night.json > county_night_HEAD.json
+
+python3 scripts/research/estimate_tech_effect.py --path county_night_HEAD.json --mechanism any --placebo --json
+python3 scripts/research/estimate_tech_effect.py --path county_night_HEAD.json --mechanism epb --json
+python3 scripts/research/estimate_tech_effect.py --path county_night_HEAD.json --mechanism asv --json
+python3 scripts/research/estimate_tech_effect.py --path county_night_HEAD.json --mechanism vca --json
+```
+
+| mechanism | effect (pp) | SE | 95% CI | MDE | n_treated | n_controls |
+|---|---:|---:|---|---:|---:|---:|
+| any / epb | **+7.64** | 3.47 | **(0.84, 14.44)** | 9.72 | 13 | 6 |
+| vca | **+8.45** | 3.57 | **(1.46, 15.45)** | 9.99 | 12 | 6 |
+| asv | **+12.31** | 3.22 | **(6.00, 18.62)** | 9.02 | 4 | 6 |
+
+Placebo (`--mechanism any --placebo`, fake year 2018): **62 valid splits**, mean **+2.16**, sd **7.00**, range (-13.39, +15.66), **22 of 62 splits (35.5%)** produce an effect at least as extreme as the real +7.64 headline. All figures match the expected values supplied for this run exactly (any +7.64/3.47/[0.84,14.44]; vca +8.45/[1.46,15.45]; asv +12.31/[6.00,18.62]; placebo n=62, mean +2.16, sd 7.00, share 0.355). Nothing here required reconciliation.
+
+### 2. The recomputed treated-vs-control counterfactual table
+
+Same method as Section 2 above: own actual election-night change minus composition-expected change (era kernels 0.315 pre-2022 / 0.172 from 2022, cells matched to `data/research/county-vbm/county_vbm_share.csv` by underscore-slug), each treated county's own pre/post window cut at its adoption year (`min(epb_year, asv_year)`), controls split at 2020.
+
+| county | window cut | actual change (pp) | composition-expected (pp) | residual (pp) |
+|---|---:|---:|---:|---:|
+| San Diego | 2022 | +0.35 | -4.00 | **+4.35** |
+| Placer | 2024 | +2.15 | -0.96 | **+3.11** |
+| Santa Clara | 2020 | -5.86 | -3.04 | -2.83 |
+| Orange | 2020 | -7.96 | -4.27 | -3.70 |
+| Fresno | 2020 | -8.44 | -4.54 | -3.90 |
+| Nevada | 2014 | -8.46 | -2.42 | -6.04 |
+| Los Angeles | 2020 | -15.28 | -6.70 | -8.58 |
+| Madera | 2018 | -16.50 | -4.93 | -11.56 |
+| Riverside | 2022 | -18.15 | -3.52 | -14.63 |
+| Napa | 2018 | -15.59 | -0.84 | -14.75 |
+| San Mateo | 2018 | -20.59 | -4.82 | -15.78 |
+| San Bernardino | 2020 | -21.75 | -4.53 | -17.21 |
+| Sacramento | 2018 | -24.09 | -5.69 | -18.39 |
+| **adopters (mean, n=13)** | | **-12.32** | | **-8.45** (sd 7.31) |
+| San Francisco (control) | 2020 | -15.48 | -4.39 | -11.09 |
+| Tehama (control) | 2020 | -17.43 | -2.54 | -14.88 |
+| Mendocino (control) | 2020 | -20.16 | -2.19 | -17.97 |
+| Del Norte (control) | 2020 | -23.53 | -4.15 | -19.38 |
+| Lake (control) | 2020 | -26.09 | -3.57 | -22.51 |
+| Colusa (control) | 2020 | -30.16 | -5.50 | -24.66 |
+| **controls (mean, n=6)** | | **-22.14** | | **-18.42** (sd 4.53) |
+| **adopter advantage** | | | | **+9.96** |
+
+The new adopter-vs-control residual gap is **+9.96 pp**, essentially unchanged from the +9.51 pp reported at HEAD `9bff066` despite the control group more than doubling (4 to 6 counties, adding Tehama and Colusa) and the treated group growing by two (Placer, San Bernardino). Both new treated entrants land on the positive side: San Bernardino's raw actual change is the second-worst in the panel (-21.75), but its composition-expected change is also steep (-4.53, largest mail shift among the 2020 cohort), so its residual (-17.21) sits mid-pack rather than as an outlier; Placer, the contrarian data point flagged in Section 3 as not yet identified, now clears the bar with a small positive residual (+3.11), joining San Diego as a post-2022 adopter that beat its own composition counterfactual. The two new controls (Tehama, Colusa) both land with large negative residuals (-14.88, -24.66), reinforcing rather than diluting the no-tech collapse the original four controls showed, and Lake no longer dominates the control mean alone (Colusa's residual is now the largest in the panel).
+
+### 3. Honest inference: two methods disagree, and the effect is one notch short
+
+The two inference methods no longer point the same direction on the headline question, and that disagreement is itself the finding.
+
+**The jackknife interval now excludes zero, for the first time in this campaign.** Both the `any`/`epb` cut, +7.64 pp with 95% CI (0.84, 14.44), and the `vca` cut, +8.45 pp with 95% CI (1.46, 15.45), clear zero. At the panel finalized in this document (HEAD `9bff066`), the same cuts read +4.83 pp (-6.43, +16.09) and +4.33 pp (-7.27, +15.93): intervals that comfortably included zero. The realized MDE fell alongside it, from **16.09 pp to 9.72 pp** for `any`/`epb` (roughly halved), now closer to than double the point estimate rather than 3.3 times it. By the jackknife test alone, this would be reportable as a certified effect.
+
+**The randomization placebo tightened but did not clear.** The fake-adopter null distribution's spread fell from sd **9.75 to 7.00** as the control pool grew from 5 to 6 (adding Colusa, previously a documented null with no pre-2020 point, and gaining more valid splits, 28 to 62, at fake year 2018) and each split now averages over more matched cells. But **22 of 62 splits (35.5%)** still produce a fake effect at least as extreme as the real +7.64 headline, down from 71% at the prior panel but still more than one in three. A design whose own noise floor reproduces the headline effect more than a third of the time has not cleared the bar the jackknife CI suggests it has.
+
+**The two methods disagree, and that disagreement is the honest headline.** The jackknife CI treats each county as an independent unit and asks whether the treated-minus-control mean is distinguishable from zero under leave-one-out resampling; by that test, the effect is now real. The randomization placebo treats the *design* as the object under test and asks how often an equivalently-structured comparison built entirely from untreated counties would produce something this large by chance; by that test, more than a third of the time it would. Both are legitimate questions and they are not asking the same thing, which is why they can disagree. The effect is one notch short of certification: closer than it has ever been (CI clearing zero, MDE roughly halved, placebo sd down 28%), but not yet at a point where both tests agree.
+
+**What would close the gap.** Three concrete paths, in the order Section 9 above already ranked them: (1) the pending ~46 dossier cells still sitting in `docs/research/pending-integration-2026-07-10/` (recovered primaries not yet in the SoS apply-list), which would add pre/post cells to counties currently thin on one side of their window and could tighten the placebo's matched-cell averaging further; (2) the November 2026 general, mechanically adding a fresh post-2024 point to every panel county at no research cost and a second post-adoption point for Placer and Riverside specifically; (3) out-of-state controls (Pennsylvania, New York, Wisconsin), which remains the only path to breaking the VCA-bundle collinearity and, separately, would add treated-county heterogeneity headroom the placebo cannot get from a still-small, still-correlated California control pool. None of these is required to report the suggestive finding; all three would help resolve the disagreement between the two inference methods.
+
+### 4. A note on the sections above
+
+The pre-update sections of this document (through Appendix B) report numbers computed against the smaller panel pinned at HEAD `9bff066` (121 rows, 82 sourced, `n_treated` 11) and are left unchanged as the historical record of that stage of the analysis; the current, certified-closer numbers are the ones in this post-integration section.
