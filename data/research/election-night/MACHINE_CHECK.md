@@ -93,7 +93,7 @@ verify_en_* scripts to regenerate).
 | riverside-ca | 2024-11-05 | denominator | 959,098 | VERIFIED | 1,345 1,646,951 1,372,548 170,437 788,661 959,098 82.23% 69.88% 58.23% |
 | riverside-ca | 2024-11-05 | numerator | 611,101 | VERIFIED | taArray, colorObject, elem); })(); Ballots Counted 611,101 Vote by Mail 483,778 Mail Ballot Precinc |
 | sacramento-ca | 2012-11-06 | denominator | 522,045 | VERIFIED | 1,106 944,243 698,899 216,021 306,024 522,045 58.62% 74.70% 55.29% |
-| sacramento-ca | 2012-11-06 | numerator | 328,516 | NOT_FOUND |  |
+| sacramento-ca | 2012-11-06 | numerator | 328,516 | VERIFIED | L . . . . . 698,899 BALLOTS CAST - TOTAL. . . . . . . 328,516 VOTER TURNOUT - TOTAL . . . . . . 47.00 |
 | sacramento-ca | 2014-11-04 | denominator | 330,817 | VERIFIED | to 1,263 961,112 683,632 111,628 219,189 330,817 66.26% 48.39% 34.42% |
 | sacramento-ca | 2014-11-04 | numerator | 195,317 | VERIFIED | L . . . . . 683,632 BALLOTS CAST - TOTAL. . . . . . . 195,317 VOTER TURNOUT - TOTAL . . . . . . 28.57 |
 | sacramento-ca | 2016-11-08 | denominator | 575,711 | VERIFIED | nto 1,267 989,090 772,865 203,114 372,597 575,711 64.72% 74.49% 58.21% |
@@ -134,9 +134,11 @@ verify_en_* scripts to regenerate).
 | santa-clara-ca | 2012-11-06 | denominator | 653,239 | VERIFIED | a 1,000 1,122,390 817,837 195,354 457,885 653,239 70.09% 79.87% 58.20% |
 | santa-clara-ca | 2012-11-06 | numerator | 438,348 | VERIFIED | 012 Registered Voters: 817,837 Ballots Cast: 438,348 Voter Turnout: 53.60 % Precincts P |
 | santa-clara-ca | 2014-11-04 | denominator | 404,166 | VERIFIED | ara 1,066 1,157,944 805,502 96,077 308,089 404,166 76.23% 50.18% 34.90% |
-| santa-clara-ca | 2014-11-04 | numerator | 251,620 | VERIFIED | OR" , "K" : "6" , "VF" : 1 , "TP" : 1066 , "PR" : 1066 , "TV" : 805502 , "BC" : 251620 , "RC" : 0 , "RO" : 0 , "CH" : [  |
+| santa-clara-ca | 2014-11-04 | numerator | 235,062 | VERIFIED | OR" , "K" : "6" , "VF" : 1 , "TP" : 1066 , "PR" : 1066 , "TV" : 805502 , "BC" : 235062 , "RC" : 0 , "RO" : 0 , "CH" : [  |
 | santa-clara-ca | 2016-11-08 | denominator | 724,596 | VERIFIED | lara 1,063 1,193,225 875,176 190,379 534,217 724,596 73.73% 82.79% 60.73% |
+| santa-clara-ca | 2016-11-08 | numerator | 443,269 | VERIFIED | "regvoters" : 0 , "VF" : 1 , "TP" : 1063 , "PR" : 1063 , "TV" : 875176 , "BC" : 443269 , "RC" : 0 , "RO" : 0 , "CH" : [  |
 | santa-clara-ca | 2018-11-06 | denominator | 625,425 | VERIFIED | 1,098 1,208,495 885,764 138,468 486,957 625,425 77.86% 70.61% 51.75% |
+| santa-clara-ca | 2018-11-06 | numerator | 304,303 | VERIFIED | BCxContest" : 0 , "VF" : 1 , "TP" : 1098 , "PR" : 1098 , "TV" : 885764 , "BC" : 304303 , "RC" : 0 , "RO" : 0 , "CH" : [  |
 | santa-clara-ca | 2022-11-08 | denominator | 550,602 | VERIFIED | 754 1,259,821 1,009,422 40,694 509,908 550,602 92.61% 54.55% 43.70% |
 | santa-clara-ca | 2022-11-08 | numerator | 293,148 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 754 , "PR" : 671 , "TV" : 1009422 , "BC" : 293148 , "RC" : 0 , "RO" : 0 , "CH" : [  |
 | santa-clara-ca | 2024-11-05 | denominator | 765,495 | VERIFIED | 784 1,269,781 1,048,723 97,924 667,571 765,495 87.21% 72.99% 60.29% |

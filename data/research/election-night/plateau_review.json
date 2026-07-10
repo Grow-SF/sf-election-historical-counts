@@ -359,9 +359,23 @@
  {
   "slug": "santa-clara-ca",
   "date": "2014-11-04",
-  "verdict": "PLAUSIBLE",
-  "basis": "documented ceiling: next-day canvass-start report",
-  "evidence": "ver 148095 'Last updated 11/5/2014 5:08:58 PM'; the overnight versions' JSON was never crawled; note estimates the true plateau near 239,000; ceiling 251,620 flagged comparable=false"
+  "verdict": "REFUTED_AND_CORRECTED",
+  "basis": "clarity live-CDN version walk recovers the true overnight plateau, superseding the documented ceiling",
+  "evidence": "cited ceiling ver 148095 (11/5 5:08:58 PM, BC 251,620) is a next-day canvass-start report; the live CDN (unlike Wayback) still serves the overnight versions' JSON -- v147908 (11/5 4:00:59 AM PST, BC 235,062) is the last of the continuous night sequence (pace collapses to +624 in the final 63 min, then a 13-hour gap to 148095); corrected 251,620 -> 235,062, comparable=false removed"
+ },
+ {
+  "slug": "santa-clara-ca",
+  "date": "2016-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "clarity live-CDN version bracket: cadence break in the immediately following version",
+  "evidence": "v182800 (11/9 10:28:40 AM PST, BC 443,269) is the last of a continuous ~hourly overnight sequence from v181922 (11/8 7:43 PM); the next version v182869 (3:41 PM) breaks cadence (+7,333 over 5h13m vs an overnight pace of 5,700-15,400/hr)"
+ },
+ {
+  "slug": "santa-clara-ca",
+  "date": "2018-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "clarity live-CDN version bracket: adjacent official versions in the settings array, 9h22m gap",
+  "evidence": "v220444 (11/7 6:37:33 AM PST, BC 304,303, precincts 1,098/1,098) is immediately followed in the electionsettings versions array by v220630 (3:59:46 PM, BC 306,086, +1,783 only)"
  },
  {
   "slug": "santa-clara-ca",

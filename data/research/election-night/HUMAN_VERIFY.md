@@ -21,14 +21,6 @@ note for any row is its detail bullet in VERIFY.md (same directory).
 
 ## 1. Machine check could not verify these (open and eyeball)
 
-- [ ] **sacramento-ca 2012-11-06** (numerator NOT_FOUND)
-      claimed: night ballots **328,516**, certified final **522,045**, share **62.93%**
-      numerator URL: https://web.archive.org/web/20121109045323/http://www.eresults.saccounty.net/
-      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf
-      look for: PLATEAU metric (final election-night report, not the 8 p.m. first tranche). Sacramento County VRE posts a fixed-width Hart 'SUMMARY REPORT' on eresults.saccounty.net. The archived capture embeds the SEMI-OFFICIAL report, Run Date 11/07/12, Run Time 12:49 AM (just after midnight on election night), w
-      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2012-11-06
-      controller verdict: PLAUSIBLE (distinct on-time capture exists but is currently unservable)
-
 ## 2. Secondary-confidence rows (weakest sourcing, read closely)
 
 - [ ] **napa-ca 2014-11-04** (secondary confidence)
@@ -54,14 +46,6 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: 611,101 'Ballots Counted' from the earliest Wayback capture of Riverside's livevoterturnout ENR, embedded timestamp 'Updated: 11/6/2024 5:35:21 PM' -- the FIRST daily canvass update (afternoon of the day after the Nov 5 election), NOT the ~3 a.m. election-night plateau. Riverside reports hourly unti
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2024-11-05
       controller verdict: REFUTED_AS_PLATEAU (next-day canvass update, already documented in the note)
-
-- [ ] **santa-clara-ca 2014-11-04** (secondary confidence)
-      claimed: night ballots **251,620**, certified final **404,166**, share **62.26%**
-      numerator URL: https://web.archive.org/web/20141106082527/http://results.enr.clarityelections.com/CA/Santa_Clara/54209/148095/json/sum.json
-      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
-      look for: CEILING (next-day all-precincts report; true overnight plateau modestly lower and not archived). The overnight election-night versions of Clarity event 54209 (Web01 layout; lower version folders 143630, 144518, 147xxx) WERE captured by Wayback as summary.html only -- their electionsettings.json/sum.
-      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2014-11-04
-      controller verdict: PLAUSIBLE (documented ceiling: next-day canvass-start report)
 
 ## 3. Blocked-source recoveries (need a real browser)
 
@@ -337,6 +321,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2022-11-08
       controller verdict: CONFIRMED (2 AM report held until the canvass)
 
+- [ ] **sacramento-ca 2012-11-06** (plateau check)
+      claimed: night ballots **328,516**, certified final **522,045**, share **62.93%**
+      numerator URL: https://web.archive.org/web/20121109045323/http://www.eresults.saccounty.net/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU metric (final election-night report, not the 8 p.m. first tranche). Sacramento County VRE posts a fixed-width Hart 'SUMMARY REPORT' on eresults.saccounty.net. The archived capture embeds the SEMI-OFFICIAL report, Run Date 11/07/12, Run Time 12:49 AM (just after midnight on election night), w
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2012-11-06
+      controller verdict: PLAUSIBLE (distinct on-time capture exists but is currently unservable)
+
 - [ ] **sacramento-ca 2014-11-04** (plateau check)
       claimed: night ballots **195,317**, certified final **330,817**, share **59.04%**
       numerator URL: https://web.archive.org/web/20141106101214/http://www.eresults.saccounty.net/
@@ -456,6 +448,30 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU = last continuous election-night (overnight) report, NOT the 8 PM first tranche. Full Clarity/SOE ENR trajectory (event 43231, summary.html versions rendered from Wayback id_ raw replay): 109562 'Updated 11/6/2012 7:35:52 PM PST' = 279,357 ballots / 246 of 1000 precincts (pre-processed VBM f
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2012-11-06
       controller verdict: CONFIRMED (long-night report held in a later capture)
+
+- [ ] **santa-clara-ca 2014-11-04** (plateau check)
+      claimed: night ballots **235,062**, certified final **404,166**, share **58.16%**
+      numerator URL: https://web.archive.org/web/20260710175200/https://results.enr.clarityelections.com/CA/Santa_Clara/54209/147908/json/sum.json
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: CEILING (next-day all-precincts report; true overnight plateau modestly lower and not archived). The overnight election-night versions of Clarity event 54209 (Web01 layout; lower version folders 143630, 144518, 147xxx) WERE captured by Wayback as summary.html only -- their electionsettings.json/sum.
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2014-11-04
+      controller verdict: REFUTED_AND_CORRECTED (clarity live-CDN version walk recovers the true overnight plateau, superseding the documented ceiling)
+
+- [ ] **santa-clara-ca 2016-11-08** (plateau check)
+      claimed: night ballots **443,269**, certified final **724,596**, share **61.18%**
+      numerator URL: https://web.archive.org/web/20260710174832/https://results.enr.clarityelections.com/CA/Santa_Clara/64404/182800/json/sum.json
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: ELECTION-NIGHT PLATEAU NOT SOURCEABLE. Clarity event 64404 (Web01 layout): the only election-night-period capture is a pre-poll-close placeholder (version 178468, Wayback 20161107003316 = Nov 6 4:33 PM PT, Ballots Cast 0). The Nov 8 election-night data versions were never crawled; the next captures 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2016-11-08
+      controller verdict: CONFIRMED (clarity live-CDN version bracket: cadence break in the immediately following version)
+
+- [ ] **santa-clara-ca 2018-11-06** (plateau check)
+      claimed: night ballots **304,303**, certified final **625,425**, share **48.65%**
+      numerator URL: https://web.archive.org/web/20260710173809/https://results.enr.clarityelections.com/CA/Santa_Clara/92418/220444/json/sum.json
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: ELECTION-NIGHT PLATEAU NOT SOURCEABLE. Clarity event 92418 (Web02 SPA): NO election-night (Nov 6-7 2018) data version was crawled; the earliest readable JSON is version 221262, sum.json GOVERNOR BC = 443,266 at 1,098/1,098 precincts, electionsettings '11/11/2018 4:43:32 PM PST' -- a DEEP CANVASS cou
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2018-11-06
+      controller verdict: CONFIRMED (clarity live-CDN version bracket: adjacent official versions in the settings array, 9h22m gap)
 
 - [ ] **santa-clara-ca 2022-11-08** (plateau check)
       claimed: night ballots **293,148**, certified final **550,602**, share **53.24%**
