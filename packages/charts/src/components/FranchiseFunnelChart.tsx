@@ -97,18 +97,24 @@ function FunnelTooltip({
 export default function FranchiseFunnelChart({
   from,
   to,
+  defaultMode = "counts",
+  defaultEligibleOnly = false,
 }: {
   from: number;
   to: number;
+  /** Initial display mode; the user can still toggle. */
+  defaultMode?: "counts" | "share";
+  /** Initial state of the eligible-citizens-only checkbox (only visible in "share" mode). */
+  defaultEligibleOnly?: boolean;
 }) {
   const theme = useChartTheme();
   // "counts" stacks the absolute bands (height grows with population); "share"
   // normalizes the stack to 100% so each band reads as a fraction of the total.
-  const [mode, setMode] = useState<"counts" | "share">("counts");
+  const [mode, setMode] = useState<"counts" | "share">(defaultMode);
   // in % mode, optionally restrict to the eligible-citizen bands (dropping
   // children and non-citizen adults) so they renormalize to 100% of the
   // eligible population
-  const [eligibleOnly, setEligibleOnly] = useState(false);
+  const [eligibleOnly, setEligibleOnly] = useState(defaultEligibleOnly);
   const data = DATA.filter((r) => r.year >= from && r.year <= to);
   const shownBands =
     mode === "share" && eligibleOnly
