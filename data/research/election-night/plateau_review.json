@@ -544,5 +544,12 @@
   "verdict": "CONFIRMED",
   "basis": "certified-minus-outstanding registrar derivation, cross-checked by an independent turnout-percentage x registration calculation from a second bylined article",
   "evidence": "'Council members succeed, struggle' (news/151717B89F05D948): 'The Riverside County Registrar of Voters office announced that 93,000 votes are still to be processed ... The next update will be posted at 6 p.m. tonight.' 357,764 minus 93,000 = 264,764 (74.01%). Cross-check: 'a new low in area's Voter turnout?' (news/151717B8F7250120) states turnout 29.8% as of Wednesday, projected final 39-40% (matches actual certified 40.13%); 29.8% x 891,575 registered = 265,689, within 0.3% of the 264,764 derivation."
+ },
+ {
+  "slug": "riverside-ca",
+  "date": "2016-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "registrar-derived outstanding-ballot figure repeated across three articles (two verbatim, one corroborating), bracketed unchanged by the registrar's own posting schedule and by direction/magnitude consistency with the subsequent Friday update",
+  "evidence": "'One Eastvale council race especially close' (news/16095824826D46E0) and 'Corona voters back council districts, pick new treasurer' (news/160958246D11FAA8): 'posted by the Riverside County Registrar of Voters Office early Wednesday ... Officials have yet to count 262,000 provisional, damaged and vote-by-mail ballots submitted countywide.' 'Familiar faces on southwest councils' (news/16095823F5443EE8): 'more than 200,000 ballots need to be counted' and 'The next update from the registrar's office is set for 6 p.m. Friday.' 'Latest vote count: No big changes' (news/160A0028EF5A1DB8, Nov 12) shows 212,000 remaining on Friday, consistent with 262,000 minus ~2 days processing. 769,193 minus 262,000 = 507,193 (65.94%), closely matching SF's own 2016 calibration (66%)."
  }
 ]

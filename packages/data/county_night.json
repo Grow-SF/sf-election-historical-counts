@@ -623,12 +623,12 @@
         {
           "year": 2016,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 65.94,
+          "ballots": 507193,
           "final": 769193,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16095824826D46E0"
         },
         {
           "year": 2018,

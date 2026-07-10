@@ -89,5 +89,12 @@
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/151717B89F05D948",
   "evidence": "The Riverside County Registrar of Voters office announced that 93,000 votes are still to be processed, including 66,000 vote-by-mail ballots, 19,000 provisional ballots and 8,000 damaged ballots. The next update will be posted at 6 p.m. tonight. Certified final 357,764 minus 93,000 = 264,764 counted through election night (74.01%).",
   "method": "newsbank-sfpl-manual"
+ },
+ {
+  "slug": "riverside-ca",
+  "date": "2016-11-08",
+  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16095824826D46E0",
+  "evidence": "The figures, posted by the Riverside County Registrar of Voters Office early Wednesday, are not final. Officials have yet to count 262,000 provisional, damaged and vote-by-mail ballots submitted countywide. Certified final 769,193 minus 262,000 = 507,193 counted through election night (65.94%).",
+  "method": "newsbank-sfpl-manual"
  }
 ]

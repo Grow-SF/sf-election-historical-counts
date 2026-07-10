@@ -87,6 +87,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2014-11-04
       controller verdict: CONFIRMED (certified-minus-outstanding registrar derivation, cross-checked by an independent turnout-percentage x registration calculation from a second bylined article)
 
+- [ ] **riverside-ca 2016-11-08** (secondary confidence)
+      claimed: night ballots **507,193**, certified final **769,193**, share **65.94%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16095824826D46E0
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: Certified final = 769,193 ballots (Election Day 264,638 + VBM 504,555) from CA SoS 2016 Voter Participation Statistics by County, primary. Wayback/press-release/DocumentCenter/social-handle routes exhausted (earliest Sequoia eresults capture is a 2016-11-12 post-canvass 'Last Updated November 11, 20
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2016-11-08
+      controller verdict: CONFIRMED (registrar-derived outstanding-ballot figure repeated across three articles (two verbatim, one corroborating), bracketed unchanged by the registrar's own posting schedule and by direction/magnitude consistency with the subsequent Friday update)
+
 - [ ] **riverside-ca 2024-11-05** (secondary confidence)
       claimed: night ballots **611,101**, certified final **959,098**, share **63.7%**
       numerator URL: https://web.archive.org/web/20241107034053/https://www.livevoterturnout.com/ENR/riversidecaenr/5/en/Index_5.html

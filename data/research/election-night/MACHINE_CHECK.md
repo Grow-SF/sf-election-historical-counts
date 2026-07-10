@@ -94,6 +94,7 @@ verify_en_* scripts to regenerate).
 | riverside-ca | 2014-11-04 | denominator | 357,764 | VERIFIED | e 1,193 1,394,302 891,575 124,829 232,935 357,764 65.11% 40.13% 25.66% |
 | riverside-ca | 2014-11-04 | numerator | 264,764 | VERIFIED | render-verified: The Riverside County Registrar of Voters office announced that 93,000 votes are still to be processed,  |
 | riverside-ca | 2016-11-08 | denominator | 769,193 | VERIFIED | de 1,126 1,438,117 1,019,130 264,638 504,555 769,193 65.60% 75.48% 53.49% |
+| riverside-ca | 2016-11-08 | numerator | 507,193 | VERIFIED | render-verified: The figures, posted by the Riverside County Registrar of Voters Office early Wednesday, are not final.  |
 | riverside-ca | 2018-11-06 | denominator | 650,545 | VERIFIED | 1,072 1,481,361 1,035,957 194,606 455,939 650,545 70.09% 62.80% 43.92% |
 | riverside-ca | 2022-11-08 | denominator | 604,617 | VERIFIED | 1,265 1,637,165 1,310,505 59,812 544,805 604,617 90.11% 46.14% 36.93% |
 | riverside-ca | 2022-11-08 | numerator | 205,813 | VERIFIED | orted: 1,265 of 1,265 ( 100.00% ) Voters Cast: 205,813 of 1,310,928 ( 15.70% ) Governor |
