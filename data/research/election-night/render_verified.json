@@ -26,5 +26,12 @@
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F946169D59A048",
   "evidence": "In Santa Clara County, more than 75 percent of voters use mail-in ballots. As of Wednesday afternoon, about 304,000 ballots were counted and staff estimated roughly 270,000 still needed to be.",
   "method": "newsbank-sfpl-manual"
+ },
+ {
+  "slug": "madera-ca",
+  "date": "2014-11-04",
+  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/15175914B6DDC6C0",
+  "evidence": "Madera County Clerk-Recorder Rebecca Martinez: 4,385 late vote-by-mail ballots (received after noon on Election Day) plus 973 provisional ballots equal 'the 5,358 ballots left to be counted'. Certified final 27,370 minus 5,358 = 22,012 ballots counted as of election night (computed floor; article's own framing: 'more than 22,000 votes').",
+  "method": "newsbank-sfpl-manual"
  }
 ]

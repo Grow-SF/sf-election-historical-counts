@@ -31,6 +31,7 @@ verify_en_* scripts to regenerate).
 | los-angeles-ca | 2024-11-05 | numerator | 2,615,541 | VERIFIED | d the semi-final results for the November 5, 2024 General Election. A total of 2,615,541 ballots were processed and coun |
 | madera-ca | 2012-11-06 | denominator | 40,325 | VERIFIED | 96 86,894 53,779 15,658 24,667 40,325 61.17% 74.98% 46.41% |
 | madera-ca | 2014-11-04 | denominator | 27,370 | VERIFIED | 100 85,976 52,494 8,970 18,400 27,370 67.23% 52.14% 31.83% |
+| madera-ca | 2014-11-04 | numerator | 22,012 | VERIFIED | render-verified: Madera County Clerk-Recorder Rebecca Martinez: 4,385 late vote-by-mail ballots (received after noon on  |
 | madera-ca | 2016-11-08 | denominator | 44,186 | VERIFIED | 102 87,254 58,086 15,211 28,975 44,186 65.58% 76.07% 50.64% |
 | madera-ca | 2016-11-08 | numerator | 35,364 | VERIFIED | Absentee Ballots Cast 22,561 38.8% Total Ballots Cast 35,364 60.8% President and Vice President Completed Prec |
 | madera-ca | 2018-11-06 | denominator | 38,968 | VERIFIED | 69 89,818 57,418 4,434 34,534 38,968 88.62% 67.87% 43.39% |

@@ -64,6 +64,13 @@
  },
  {
   "slug": "madera-ca",
+  "date": "2014-11-04",
+  "verdict": "PLAUSIBLE",
+  "basis": "computed floor: certified final minus clerk-quantified not-yet-counted ballots",
+  "evidence": "Madera Tribune Nov 7 2014 (docref news/15175914B6DDC6C0): Clerk Rebecca Martinez quantifies 4,385 late VBM + 973 provisional = 5,358 ballots 'left to be counted'; 27,370-5,358=22,012 (80.42%), self-consistent with the row's own prior-known Friday 2:14pm capture of 26,449 (26,449-22,012=4,437, close to the 4,385 late-VBM batch)"
+ },
+ {
+  "slug": "madera-ca",
   "date": "2016-11-08",
   "verdict": "CONFIRMED",
   "basis": "static county results page, frozen",
