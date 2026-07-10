@@ -8,11 +8,22 @@ from estimate_tech_effect import (load_panel, estimate, jackknife, placebo,
                                   scenario)
 
 
-def synth(tmp_path, effect=-10.0, year_drift=-2.0, noise=None):
+def synth(tmp_path, effect=-10.0, year_drift=-2.0, noise=None,
+          primary_shift=None, primary_coverage=None):
     """county_night.json-shaped synthetic data. Two treated counties adopt
     e-pollbooks in 2018; two controls never adopt. pct = 60 + county offset
     + year_drift per year-index + effect on treated post rows. noise, if
-    given, is a dict {(slug, year): delta} added on top."""
+    given, is a dict {(slug, year): delta} added on top.
+
+    primary_shift/primary_coverage add a SECOND (year, type) cell in some
+    years: when primary_shift is given, primary_coverage (dict slug -> set of
+    years) lists which (slug, year) pairs also get a "primary"-typed row,
+    valued at that year's general-row pct minus primary_shift (primaries run
+    below generals). Coverage is deliberately uneven across counties -- this
+    is what a real primary-election panel looks like once SF starts
+    contributing primary points but researched counties mostly don't (yet).
+    Every existing caller that omits these two args gets exactly the old
+    single-type-per-year data, unchanged."""
     years = [2012, 2014, 2016, 2018, 2022, 2024]
     juris = []
     for i, (slug, treated) in enumerate(
@@ -25,6 +36,10 @@ def synth(tmp_path, effect=-10.0, year_drift=-2.0, noise=None):
             pct += (noise or {}).get((slug, y), 0.0)
             pts.append({"year": y, "type": "midterm", "pct": round(pct, 2),
                         "comparable": True})
+            if primary_shift is not None and y in (primary_coverage or {}).get(slug, ()):
+                pts.append({"year": y, "type": "primary",
+                            "pct": round(pct - primary_shift, 2),
+                            "comparable": True})
         juris.append({"name": slug, "slug": slug, "control": not treated,
                       "adoption": {"epollbook": 2018 if treated else None,
                                    "asv": None},
@@ -55,6 +70,41 @@ def test_estimate_recovers_known_effect_despite_year_drift(tmp_path):
     assert abs(res["effect"] - (-10.0)) < 1e-9
     assert res["n_treated"] == 2
     assert res["n_controls"] == 2
+
+
+def test_estimate_recovers_effect_with_type_shifted_uneven_primary_coverage(tmp_path):
+    """Cell-matching test: t1 is a treated county with NO primary rows at
+    all. Both matched controls (c1, c2) carry general rows every year; c1
+    ALSO carries a primary row (shifted 15 points below its general row) in
+    2016, one of t1's pre years. c2 has no primary rows.
+
+    Pure year-matching (the old _control_change) would fold c1's 2016
+    primary row into c1's pre-period average for that year (year 2016 is in
+    the pre-year set regardless of type), pulling the control-side change
+    down and mis-recovering the effect. Hand-verified by reasoning through
+    both code paths (see report): year-only matching yields effect_t1 =
+    -12.125 for this panel; a temporary run of the pre-cell-matching
+    _control_change against this exact synthetic panel was used to confirm
+    that number before this test was written. Cell-matching must instead use
+    only the (year, type) cells t1 actually has (general-only, since t1 has
+    no primary rows) when averaging each control's pre/post change, which
+    excludes c1's 2016 primary row and recovers the injected effect (-10.0)
+    exactly."""
+    panel = load_panel(synth(
+        tmp_path, effect=-10.0, year_drift=-2.0, primary_shift=15.0,
+        primary_coverage={"t2": {2016, 2022}, "c1": {2016}}))
+    res = estimate(panel, mechanism="epb")
+    assert res["n_treated"] == 2
+    assert res["n_controls"] == 2
+    # t1 has no primary rows at all -- every matched control cell is general-
+    # only, so cell-matching must recover the injected effect exactly.
+    assert abs(res["per_county"]["t1"] - (-10.0)) < 1e-9
+    # t2 has primaries in a pre year (2016) and a post year (2022), neither
+    # of which is fully mirrored by both controls (c1 only has 2016, c2 has
+    # none) -- the estimator must still compute a finite, sane result for it
+    # rather than crashing on the uneven intersection.
+    assert res["per_county"]["t2"] is not None
+    assert -30.0 < res["per_county"]["t2"] < 0.0
 
 
 def test_jackknife_zero_se_on_noiseless_data(tmp_path):

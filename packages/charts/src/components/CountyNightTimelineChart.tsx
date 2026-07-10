@@ -10,7 +10,7 @@ import {
   YAxis,
 } from "recharts";
 import { COUNTY_NIGHT } from "../../../data/index";
-import type { CountyNightJurisdiction } from "../../../data/index";
+import type { CountyNightJurisdiction, CountyNightPoint } from "../../../data/index";
 import { useChartTheme } from "../theme";
 import { ChartFrame } from "./ui";
 
@@ -40,15 +40,22 @@ const adoptYear = (j: CountyNightJurisdiction) => {
   return ys.length ? Math.min(...ys) : null;
 };
 
+// primaries excluded pending an editorial decision
+const GENERAL_TYPES = new Set<CountyNightPoint["type"]>(["presidential", "midterm"]);
+
 // a jurisdiction's election-night share per election year (null where unsourced
 // or excluded, e.g. the Nevada 2024 printer-defect outlier)
-const seriesFor = (j: CountyNightJurisdiction) =>
+export const seriesFor = (j: CountyNightJurisdiction) =>
   YEARS.map((year) => {
     // 2020 is the COVID all-mail outlier — omitted for every jurisdiction (SF
     // carries a 2020 row the counties don't, so drop it for consistency).
     if (year === 2020) return { year, v: null };
     const p = j.points.find(
-      (pt) => pt.year === year && pt.pct != null && pt.comparable,
+      (pt) =>
+        pt.year === year &&
+        pt.pct != null &&
+        pt.comparable &&
+        GENERAL_TYPES.has(pt.type),
     );
     return { year, v: p ? norm(p.pct) : null };
   });

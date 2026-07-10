@@ -1,6 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { test, expect } from "vitest";
-import CountyNightShareChart from "./CountyNightShareChart";
+import CountyNightShareChart, { prepost } from "./CountyNightShareChart";
+import type { CountyNightJurisdiction } from "../../../data/index";
 
 test("county night-share chart renders its title, type toggle, and the SF control", () => {
   render(<CountyNightShareChart />);
@@ -28,4 +29,51 @@ test("county night-share chart renders its title, type toggle, and the SF contro
   expect(screen.queryByText("Tehama")).not.toBeInTheDocument();
   expect(screen.queryByText("Colusa")).not.toBeInTheDocument();
   expect(screen.getAllByText("no new tech")).toHaveLength(4);
+});
+
+test("prepost excludes primary-typed points -- generals-only hold pending an editorial decision", () => {
+  const point = (
+    year: number,
+    type: CountyNightJurisdiction["points"][number]["type"],
+    pct: number,
+  ) => ({
+    year,
+    type,
+    pct,
+    ballots: null,
+    final: null,
+    confidence: null,
+    comparable: true,
+    source_url: null,
+  });
+
+  const j: CountyNightJurisdiction = {
+    name: "Synthetic County",
+    slug: "synthetic-county",
+    control: false,
+    complete: true,
+    adoption: { epollbook: 2018, asv: null },
+    points: [
+      point(2014, "midterm", 40),
+      point(2022, "midterm", 70),
+      // synthetic primary points, both far outside the general values --
+      // if these leaked in they would change pre/post/change materially.
+      point(2014, "midterm-primary", 5),
+      point(2022, "midterm-primary", 95),
+    ],
+  };
+
+  const row = prepost(j, "midterm");
+  expect(row).not.toBeNull();
+  expect(row?.pre).toBe(40);
+  expect(row?.post).toBe(70);
+  expect(row?.change).toBe(30);
+
+  // a jurisdiction with ONLY primary points must not render a bar at all.
+  const primaryOnly: CountyNightJurisdiction = {
+    ...j,
+    slug: "primary-only",
+    points: [point(2014, "midterm-primary", 5), point(2022, "midterm-primary", 95)],
+  };
+  expect(prepost(primaryOnly, "midterm")).toBeNull();
 });

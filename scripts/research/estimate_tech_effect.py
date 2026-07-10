@@ -1,12 +1,28 @@
-"""Matched-years difference-in-differences estimator for the county
+"""Matched-CELLS difference-in-differences estimator for the county
 election-night panel.
 
+A "cell" is a (year, election-type) pair, e.g. (2018, "midterm") or
+(2018, "midterm-primary"). Matching on cells rather than bare years matters
+once the panel carries primaries alongside generals: a year can hold two
+observations of systematically different level (primaries run well below
+generals in election-night share), and primary coverage is uneven across
+counties (some researched counties have no primary rows at all). Matching
+controls to a treated county by calendar year alone would silently blend a
+control's primary-year row into a comparison the treated county never had,
+biasing the control-adjustment. Matching by (year, type) cell instead means a
+control only contributes a cell the treated county actually has.
+
 Effect per treated county c with adoption year a:
-    delta_c   = mean(pct, post years) - mean(pct, pre years)
+    delta_c   = mean(pct, post years) - mean(pct, pre years)   [c's own
+                rows, unchanged: still averaged by bare year, not cell --
+                this is c's own observed trajectory, not a match]
+    pre_cells / post_cells = the (year, type) cells present in c's own rows
+                for year < a / year >= a
     ctrl_c    = mean over control counties k of
-                [mean(pct_k over c's post years) - mean(pct_k over c's pre
-                 years)], using only controls observed in at least one year
-                of each set
+                [mean(pct_k over cells in post_cells present in k's rows) -
+                 mean(pct_k over cells in pre_cells present in k's rows)],
+                using only controls with at least one matching cell in each
+                of pre_cells and post_cells
     effect_c  = delta_c - ctrl_c
 Aggregate effect = mean over treated counties. Inference = leave-one-county-
 out jackknife over ALL counties (treated and control). Placebo = same
@@ -29,6 +45,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 DEFAULT_PATH = ROOT / "packages" / "data" / "county_night.json"
+# 2020 is excluded as a COVID all-mail outlier for BOTH elections that year:
+# the November general and the March 2020 presidential primary. Neither is
+# comparable to a normal election-night count, so both are dropped here
+# rather than filtered by type.
 EXCLUDED_YEARS = {2020}
 
 
@@ -69,11 +89,17 @@ def _by_slug(panel):
     return out
 
 
-def _control_change(controls, pre_years, post_years):
+def _control_change(controls, pre_cells, post_cells):
+    """pre_cells/post_cells are sets of (year, type) tuples -- the cells the
+    treated county actually has. A control contributes only the subset of
+    its own rows whose (year, type) matches one of those cells, so a
+    control's row in a year/type the treated county doesn't have never
+    leaks into the comparison."""
     changes = []
     for rows in controls.values():
-        pre = [r["pct"] for r in rows if r["year"] in pre_years]
-        post = [r["pct"] for r in rows if r["year"] in post_years]
+        by_cell = {(r["year"], r["type"]): r["pct"] for r in rows}
+        pre = [by_cell[c] for c in pre_cells if c in by_cell]
+        post = [by_cell[c] for c in post_cells if c in by_cell]
         if pre and post:
             changes.append(st.mean(post) - st.mean(pre))
     return st.mean(changes) if changes else None
@@ -95,7 +121,9 @@ def _per_county_effects(panel, mechanism):
             continue
         pre = [r["pct"] for r in rows if r["year"] in pre_years]
         post = [r["pct"] for r in rows if r["year"] in post_years]
-        ctrl = _control_change(controls, pre_years, post_years)
+        pre_cells = {(r["year"], r["type"]) for r in rows if r["year"] < a}
+        post_cells = {(r["year"], r["type"]) for r in rows if r["year"] >= a}
+        ctrl = _control_change(controls, pre_cells, post_cells)
         if ctrl is None:
             continue
         effects[slug] = (st.mean(post) - st.mean(pre)) - ctrl

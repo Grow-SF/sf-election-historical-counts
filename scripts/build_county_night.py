@@ -15,6 +15,21 @@ Sources:
 
 This is the data behind the "Did counting tech speed up election night?" chart.
 Re-run after the election-night fan-out updates the per-county JSON.
+
+Type vocabulary (emitted in every jurisdiction's points[].type, and consumed
+by scripts/research/estimate_tech_effect.py's (year, type) cell-matching):
+  - "presidential" / "midterm" -- November generals (unchanged).
+  - "presidential-primary" -- statewide primaries in a presidential year
+    (2012-06-05, 2016-06-07, 2024-03-05).
+  - "midterm-primary" -- statewide primaries in a midterm year
+    (2014-06-03, 2018-06-05, 2022-06-07).
+County research JSONs (data/research/election-night/<slug>.json) may carry
+raw row types like "presidential-primary" or the generic "statewide-primary";
+norm_type() maps "statewide-primary" -> "midterm-primary" and passes the two
+explicit primary types through unchanged. Charts currently render generals
+only (see packages/charts/src/components/CountyNight*.tsx); primary points
+flow into county_night.json but are filtered out at the chart's data-
+selection boundary pending an editorial decision on how to display them.
 """
 import json
 import pathlib
@@ -27,14 +42,37 @@ COUNTY_TECH = ROOT / "data/research/county-tech"
 OUT = ROOT / "packages/data/county_night.json"
 ELECTIONS = ROOT / "packages/data/elections.json"
 
-# election-type normalisation -> "presidential" | "midterm" (Nov generals only)
+# election-type normalisation -> "presidential" | "midterm" |
+# "presidential-primary" | "midterm-primary". See the module docstring for
+# the full vocabulary.
 PRES_YEARS = {2012, 2016, 2020, 2024}
+
+# SF statewide primary election dates in scope (see load_sf()): the six
+# 2012-2024 statewide primaries whose election-night shares are already
+# hand-verified and baked into packages/data/elections.json. An explicit
+# date list is self-documenting and keeps this from silently picking up a
+# future non-statewide primary (special election, municipal RCV primary,
+# etc.) that happens to carry kind "Primary".
+SF_PRIMARY_DATES = {
+    "2012-06-05", "2014-06-03", "2016-06-07",
+    "2018-06-05", "2022-06-07", "2024-03-05",
+}
 
 
 def norm_type(year: int, raw: str) -> str | None:
     r = (raw or "").lower()
-    if "primary" in r or "special" in r or "recall" in r or "municipal" in r:
+    if "special" in r or "recall" in r or "municipal" in r:
         return None
+    if r == "statewide-primary":
+        return "midterm-primary"
+    if r == "presidential-primary":
+        return "presidential-primary"
+    if r == "midterm-primary":
+        return "midterm-primary"
+    if "primary" in r:
+        # generic/unlabeled primary raw string: derive presidential vs
+        # midterm from the year, same rule as generals below.
+        return "presidential-primary" if year in PRES_YEARS else "midterm-primary"
     if "pres" in r or year in PRES_YEARS:
         return "presidential"
     return "midterm"
@@ -111,29 +149,43 @@ def load_counties() -> list[dict]:
     return out
 
 
-def load_sf() -> dict:
-    els = json.loads(ELECTIONS.read_text())
+def load_sf(elections_path: pathlib.Path = ELECTIONS) -> dict:
+    els = json.loads(elections_path.read_text())
     pts = []
     for e in els:
-        if e.get("kind") != "General":
-            continue
+        kind = e.get("kind")
         yr = e.get("year")
-        if not (2012 <= yr <= 2024) or not e["id"].endswith(("11-06", "11-04", "11-08", "11-03", "11-05")):
+        if kind == "General":
+            if not (2012 <= yr <= 2024) or not e["id"].endswith(("11-06", "11-04", "11-08", "11-03", "11-05")):
+                continue
+            etype = "presidential" if yr in PRES_YEARS else "midterm"
+        elif kind == "Primary":
+            if e["id"] not in SF_PRIMARY_DATES:
+                continue
+            etype = "presidential-primary" if yr in PRES_YEARS else "midterm-primary"
+        else:
             continue
         np = e.get("nightPct")
         fin = e.get("final")
         if np is None:
             continue
-        pts.append({
+        pt = {
             "year": yr,
-            "type": "presidential" if yr in PRES_YEARS else "midterm",
+            "type": etype,
             "pct": round(np, 2),
             "ballots": round(np / 100 * fin) if fin else None,
             "final": fin,
             "confidence": "primary",
             "comparable": True,
             "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md",
-        })
+        }
+        # Mirror elections.json's own nightPartial semantics (an optional
+        # flag, present/true only when the night figure is a press-deadline
+        # partial rather than a full report -- e.g. 2012's primary, a
+        # newspaper-scan floor at 49% precincts reporting statewide).
+        if e.get("nightPartial"):
+            pt["nightPartial"] = True
+        pts.append(pt)
     return {
         "name": "San Francisco",
         "slug": "san-francisco-ca",
@@ -164,9 +216,12 @@ def main() -> None:
     }
     OUT.write_text(json.dumps(payload, indent=2) + "\n")
     nj = len(jurisdictions)
-    npts = sum(len(j["points"]) for j in jurisdictions)
-    sourced = sum(1 for j in jurisdictions for p in j["points"] if p["pct"] is not None)
-    print(f"wrote {OUT.relative_to(ROOT)}: {nj} jurisdictions, {npts} general-election rows, {sourced} with a night share")
+    pts = [p for j in jurisdictions for p in j["points"]]
+    ngen = sum(1 for p in pts if p["type"] in ("presidential", "midterm"))
+    nprim = sum(1 for p in pts if p["type"].endswith("-primary"))
+    sourced = sum(1 for p in pts if p["pct"] is not None)
+    print(f"wrote {OUT.relative_to(ROOT)}: {nj} jurisdictions, {ngen} general rows, "
+          f"{nprim} primary rows, {sourced} with a night share")
     print(f"  (county source: {EN.relative_to(ROOT)})")
 
 

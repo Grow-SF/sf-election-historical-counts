@@ -65,13 +65,17 @@ type Row = {
 
 type SourcedPoint = CountyNightPoint & { pct: number };
 
-function prepost(
+// primaries excluded pending an editorial decision
+const GENERAL_TYPES = new Set<CountyNightPoint["type"]>(["presidential", "midterm"]);
+
+export function prepost(
   j: CountyNightJurisdiction,
   type: "presidential" | "midterm",
 ): Row | null {
   const pts = j.points
     .filter(
       (p) =>
+        GENERAL_TYPES.has(p.type) &&
         p.type === type &&
         p.pct != null &&
         p.comparable &&

@@ -16,10 +16,31 @@
       "points": [
         {
           "year": 2012,
+          "type": "presidential-primary",
+          "pct": 73.2,
+          "ballots": 106217,
+          "final": 145105,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md",
+          "nightPartial": true
+        },
+        {
+          "year": 2012,
           "type": "presidential",
           "pct": 71.4,
           "ballots": 260521,
           "final": 364875,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
+        },
+        {
+          "year": 2014,
+          "type": "midterm-primary",
+          "pct": 69.8,
+          "ballots": 90321,
+          "final": 129399,
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
@@ -36,10 +57,30 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 70.1,
+          "ballots": 185760,
+          "final": 264993,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": 66.1,
           "ballots": 274003,
           "final": 414528,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 60.8,
+          "ballots": 154178,
+          "final": 253583,
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
@@ -66,10 +107,30 @@
         },
         {
           "year": 2022,
+          "type": "midterm-primary",
+          "pct": 55.8,
+          "ballots": 127910,
+          "final": 229229,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
+        },
+        {
+          "year": 2022,
           "type": "midterm",
           "pct": 51.0,
           "ballots": 158136,
           "final": 310071,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
+        },
+        {
+          "year": 2024,
+          "type": "presidential-primary",
+          "pct": 44.9,
+          "ballots": 104826,
+          "final": 233465,
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
