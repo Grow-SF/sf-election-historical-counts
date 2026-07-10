@@ -75,5 +75,12 @@
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F940DF80FB53D8",
   "evidence": "Fresno Bee, Nov 8 2018, 'It's all over but the counting': 'Election Day is over, but there are still 100,000 vote-by-mail and provisional ballots left to count in Fresno County. Registrar Brandi Orth said Wednesday morning that the process of counting about 76,000 mail-in ballots had begun' (plus 24,000 provisionals) and 'Fresno County will not announce updated vote totals until Friday afternoon.' Certified final 256,972 minus 100,000 = 156,972 counted through election night (61.09%).",
   "method": "newsbank-sfpl-manual"
+ },
+ {
+  "slug": "riverside-ca",
+  "date": "2012-11-06",
+  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14270915258D4BE8",
+  "evidence": "Unofficial final results from the county Registrar of Voters show Kevin Jeffries leading Buster ... with all precincts reporting. But about 183,000 vote-by-mail, provisional and damaged ballots remained to be counted. Certified final 669,627 minus 183,000 = 486,627 counted through election night (72.67%).",
+  "method": "newsbank-sfpl-manual"
  }
 ]

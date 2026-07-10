@@ -530,5 +530,12 @@
   "verdict": "CONFIRMED",
   "basis": "certified-minus-outstanding derivation self-describing as the state Wednesday morning after election night, bracketed unchanged by the county's own posting schedule AND (added 2026-07-09) by an independent companion article confirming the promised Friday update was the first update after election night",
   "evidence": "Fresno Bee Nov 8 2018 'It's all over but the counting': 'Election Day is over, but there are still 100,000 vote-by-mail and provisional ballots left to count in Fresno County. Registrar Brandi Orth said Wednesday morning that the process of counting about 76,000 mail-in ballots had begun' and 'Fresno County will not announce updated vote totals until Friday afternoon.' CORRECTION (2026-07-09): the promise was independently confirmed kept by Fresno Bee Nov 11 2018 'Election 2018 - Hurtado increases lead, Janz closes slightly on Nunes' (docref news/16FA94EDA82A6CC8): 'About 23,000 of the 100,000 remaining ballots were counted and included in a Friday update from the Fresno County Clerk's office. The next update on the remaining 77,000 votes will come Wednesday at 3 p.m.' (100,000-23,000=77,000, consistent), i.e. no county release moved the count between the Wednesday-morning 100,000-outstanding statement and Friday's update, matching the 2012 bracketing pattern with a genuinely separate article. 256,972 minus 100,000 = 156,972 (61.09%); consistent with this row's already-documented 2018-11-21 canvass snapshot (239,032) as an intermediate point toward certification."
+ },
+ {
+  "slug": "riverside-ca",
+  "date": "2012-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "certified-minus-outstanding derivation, corroborated by two independently-bylined articles, bracketed by the registrar's own posting schedule",
+  "evidence": "'Buster facing defeat' (news/14270915258D4BE8) and 'Bono Mack, Baca ousters hit clout' (news/14270914E8F945E8), both Nov 8 2012 Press-Enterprise: both state 'with all precincts reporting' and 'about 183,000 vote-by-mail, provisional and damaged ballots remained to be counted countywide'; the registrar's next update is explicitly scheduled for 6 p.m. Thursday Nov 8, and Buster 'didn't concede Wednesday, Nov. 7', confirming no update moved the count between election night and the Wednesday print deadline (San Diego 2012 pattern). 669,627 minus 183,000 = 486,627 (72.67%)."
  }
 ]

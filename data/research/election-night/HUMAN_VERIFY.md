@@ -71,6 +71,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for placer-ca 2018-11-06
       controller verdict: REFUTED_AS_PLATEAU (page provably tracked the canvass)
 
+- [ ] **riverside-ca 2012-11-06** (secondary confidence)
+      claimed: night ballots **486,627**, certified final **669,627**, share **72.67%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14270915258D4BE8
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf
+      look for: Certified final = 669,627 ballots (Election Day 298,112 + VBM 371,515) from CA SoS 2012 Voter Participation Statistics by County, primary. Election-night plateau not sourceable via Wayback: Riverside's Sequoia 'eresults' live page (voteinfo.net/Elections/20121106/eresults/) was not archived on/near 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2012-11-06
+      controller verdict: CONFIRMED (certified-minus-outstanding derivation, corroborated by two independently-bylined articles, bracketed by the registrar's own posting schedule)
+
 - [ ] **riverside-ca 2024-11-05** (secondary confidence)
       claimed: night ballots **611,101**, certified final **959,098**, share **63.7%**
       numerator URL: https://web.archive.org/web/20241107034053/https://www.livevoterturnout.com/ENR/riversidecaenr/5/en/Index_5.html

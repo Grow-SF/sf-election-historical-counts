@@ -348,7 +348,7 @@ This is the gold-standard series the county numbers are compared against.
 
 | Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
 |---|---|---:|---:|---:|---|---|
-| 2012 | presidential | — | 669,627 | — | none | — (not sourceable) |
+| 2012 | presidential | 486,627 | 669,627 | 72.67% | secondary | [link](https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14270915258D4BE8) |
 | 2014 | midterm | — | 357,764 | — | none | — (not sourceable) |
 | 2016 | presidential | — | 769,193 | — | none | — (not sourceable) |
 | 2018 | midterm | — | 650,545 | — | none | — (not sourceable) |
@@ -357,9 +357,10 @@ This is the gold-standard series the county numbers are compared against.
 
 <details><summary>What to look for on each source page (numerator) + denominator URL</summary>
 
-- **2012 presidential** — night `—` / final `669,627` = `—` (none)
+- **2012 presidential** — night `486,627` / final `669,627` = `72.67%` (secondary)
+  - numerator: <https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14270915258D4BE8>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf>
-  - look for: Certified final = 669,627 ballots (Election Day 298,112 + VBM 371,515) from CA SoS 2012 Voter Participation Statistics by County, primary. Election-night plateau not sourceable: Riverside's Sequoia 'eresults' live page (voteinfo.net/Elections/20121106/eresults/) was not archived on/near election night, and Riverside used no Dominion ElectionSummaryReport before 2019. WebFetch blocked; curl+CDX+headless-Chrome used. Re-verified 2026-06: Riverside's /Elections/<date>/docs/ press-release archive holds only operational releases (candidate filing, VBM, early voting, certification) -- there is NO morning-after 'semi-official results' release stating an election-night total -- so SKILL route-1 (registrar semi-final release) is a dead end for this county across all years; plateau remains unsourceable. Task 9 (2026-07-09): rivco.org does not run CivicPlus DocumentCenter (0 captures); @RivCoVote and plausible alternate handles have zero Wayback captures.
+  - look for: Certified final = 669,627 ballots (Election Day 298,112 + VBM 371,515) from CA SoS 2012 Voter Participation Statistics by County, primary. Wayback/CDX/press-release routes exhausted (no election-night eresults capture; no registrar semi-final release; no CivicPlus DocumentCenter; no live registrar social handles -- see prior dead-end history). RECOVERY (2026-07-09, Task 7, NewsBank Press-Enterprise): two Nov 8, 2012 Press-Enterprise articles ('Buster facing defeat', docref news/14270915258D4BE8; 'Bono Mack, Baca ousters hit clout', docref news/14270914E8F945E8) independently state 'with all precincts reporting ... about 183,000 vote-by-mail, provisional and damaged ballots remained to be counted countywide', with the registrar's next update explicitly scheduled for 6 p.m. Thursday Nov 8 and Buster 'didn't concede Wednesday, Nov. 7' (count unmoved since election night). PLATEAU = 669,627 minus 183,000 = 486,627 (72.67%), within the ~55-75% precinct-era calibration band. Comparable true, confidence secondary (news-derived registrar figure).
 - **2014 midterm** — night `—` / final `357,764` = `—` (none)
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf>
   - look for: Certified final = 357,764 ballots (Election Day 124,829 + VBM 232,935) from CA SoS 2014 complete Statement of Vote, Voter Participation Statistics page, primary. Election-night plateau not sourceable: the only Wayback capture of the eresults page is 2014-11-20 (post-certification canvass), no election-night-stage snapshot. Re-verified 2026-06: Riverside's /Elections/20141104/docs/ press-release archive contains only operational releases (no morning-after 'semi-official results' release stating an election-night total), so the registrar-release route yields nothing either; plateau remains unsourceable. Task 9 (2026-07-09): rivco.org does not run CivicPlus DocumentCenter (0 captures); @RivCoVote and plausible alternate handles have zero Wayback captures.
