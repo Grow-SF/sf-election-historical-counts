@@ -2,7 +2,7 @@
   "metric": "election-night share = ballots in the last election-night report / certified-final ballots",
   "note": "San Francisco is the no-new-tech control. 2020 (presidential) is a COVID all-mail outlier; rows flagged comparable=false (e.g. Nevada 2024, a ballot-printer-defect outlier) are excluded from pre/post comparisons. The 2018-2020 statewide Voter's Choice Act all-mail shift is a confound independent of e-pollbooks/ASV.",
   "source": "data/research/election-night/ (per-county, verified) + SF DOE pipeline (packages/data/elections.json)",
-  "generated": "2026-07-02",
+  "generated": "2026-07-09",
   "jurisdictions": [
     {
       "name": "San Francisco",
@@ -90,7 +90,7 @@
       "name": "Fresno",
       "slug": "fresno-ca",
       "control": false,
-      "complete": false,
+      "complete": true,
       "adoption": {
         "epollbook": 2020,
         "asv": 2020
@@ -99,22 +99,22 @@
         {
           "year": 2012,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 61.3,
+          "ballots": 160400,
           "final": 261652,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/142721EBD5B41378"
         },
         {
           "year": 2014,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 73.93,
+          "ballots": 120820,
           "final": 163420,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/15171395564B90B8"
         },
         {
           "year": 2016,
@@ -129,22 +129,22 @@
         {
           "year": 2018,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 61.09,
+          "ballots": 156972,
           "final": 256972,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F940DF80FB53D8"
         },
         {
           "year": 2022,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 57.1,
+          "ballots": 126440,
           "final": 221419,
-          "confidence": "none",
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20221109071724/https://www.co.fresno.ca.us/departments/county-clerk-registrar-of-voters/election-information/election-results/results-for-november-8-2022-statewide-general-election"
         },
         {
           "year": 2024,
@@ -253,12 +253,12 @@
         {
           "year": 2014,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 80.42,
+          "ballots": 22012,
           "final": 27370,
-          "confidence": "none",
-          "comparable": true,
-          "source_url": null
+          "confidence": "secondary",
+          "comparable": false,
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/15175914B6DDC6C0"
         },
         {
           "year": 2016,
@@ -594,7 +594,7 @@
       "name": "Riverside",
       "slug": "riverside-ca",
       "control": false,
-      "complete": false,
+      "complete": true,
       "adoption": {
         "epollbook": 2022,
         "asv": 2025
@@ -603,42 +603,42 @@
         {
           "year": 2012,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 72.67,
+          "ballots": 486627,
           "final": 669627,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14270915258D4BE8"
         },
         {
           "year": 2014,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 74.01,
+          "ballots": 264764,
           "final": 357764,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/151717B89F05D948"
         },
         {
           "year": 2016,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 65.94,
+          "ballots": 507193,
           "final": 769193,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16095824826D46E0"
         },
         {
           "year": 2018,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 46.12,
+          "ballots": 300000,
           "final": 650545,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F9051D0AED5530"
         },
         {
           "year": 2022,
@@ -747,22 +747,22 @@
         {
           "year": 2012,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 82.19,
+          "ballots": 484611,
           "final": 589611,
-          "confidence": "none",
-          "comparable": true,
-          "source_url": null
+          "confidence": "secondary",
+          "comparable": false,
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14275EF93A805950"
         },
         {
           "year": 2014,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 78.7,
+          "ballots": 230806,
           "final": 293283,
-          "confidence": "none",
-          "comparable": true,
-          "source_url": null
+          "confidence": "secondary",
+          "comparable": false,
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/151717B8F7250120"
         },
         {
           "year": 2016,
@@ -777,22 +777,22 @@
         {
           "year": 2018,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 58.97,
+          "ballots": 322000,
           "final": 546041,
-          "confidence": "none",
-          "comparable": true,
-          "source_url": null
+          "confidence": "secondary",
+          "comparable": false,
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F9051D0AED5530"
         },
         {
           "year": 2022,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 47.72,
+          "ballots": 218993,
           "final": 458946,
-          "confidence": "none",
-          "comparable": true,
-          "source_url": null
+          "confidence": "secondary",
+          "comparable": false,
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/18DB36E88190ECB8"
         },
         {
           "year": 2024,
@@ -810,7 +810,7 @@
       "name": "San Diego",
       "slug": "san-diego-ca",
       "control": false,
-      "complete": false,
+      "complete": true,
       "adoption": {
         "epollbook": 2022,
         "asv": 2024
@@ -819,32 +819,32 @@
         {
           "year": 2012,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 60.52,
+          "ballots": 728265,
           "final": 1203265,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14273902C00B3B00"
         },
         {
           "year": 2014,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 73.54,
+          "ballots": 509214,
           "final": 692434,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1A43A319608C8500"
         },
         {
           "year": 2016,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 53.96,
+          "ballots": 726513,
           "final": 1346513,
-          "confidence": "none",
-          "comparable": true,
-          "source_url": null
+          "confidence": "secondary",
+          "comparable": false,
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16871C80DC62E438"
         },
         {
           "year": 2018,
@@ -875,6 +875,78 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20241106165220/https://www.livevoterturnout.com/ENR/sandiegocaenr/20/en/Index_20.html"
+        }
+      ]
+    },
+    {
+      "name": "San Luis Obispo",
+      "slug": "san-luis-obispo-ca",
+      "control": true,
+      "complete": true,
+      "adoption": {
+        "epollbook": 2026,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 77.64,
+          "ballots": 98458,
+          "final": 126818,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20121118201304/http://www.slocounty.ca.gov:80/Assets/CR/Elections/November+6$!2c+2012+Presidential+General+Election/ElectionNightResults.pdf"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 72.04,
+          "ballots": 63180,
+          "final": 87705,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20141114092811/http://www.slocounty.ca.gov/Assets/CR/Elections/November+4+$!2c+2014+Consolidated+General+Election/UENR.pdf"
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": 68.41,
+          "ballots": 95560,
+          "final": 139685,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20161115102722/http://www.slocounty.ca.gov/Assets/CR/Elections/November+8$!2c+2016+Presidential+General+Election/Unofficial+Election+Night+Results.pdf"
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 63.62,
+          "ballots": 81663,
+          "final": 128353,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20210918155924/https://www.slocounty.ca.gov/Departments/Clerk-Recorder/Forms-Documents/Elections-and-Voting/Past-Elections/General-Elections/2018-11-06-Consolidated-General/Reports-and-Results/Unofficial-Election-Night-Summary-Report-2018-11.pdf"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 47.95,
+          "ballots": 58096,
+          "final": 121156,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20221115203615/https://www.slocounty.ca.gov/Departments/Clerk-Recorder/Forms-Documents/Elections-and-Voting/Current-Elections/2022-11-08-Gubernatorial-General/Reports-and-Results/Final-Unofficial-Election-Night-Results.pdf"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 53.8,
+          "ballots": 82548,
+          "final": 153432,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20241117025144/https://www.slocounty.ca.gov/departments/clerk-recorder/forms-documents/elections-and-voting/current-elections/2024-11-05-presidential-general/reports-and-results/2024-general-final-unofficial-electionnight"
         }
       ]
     },
@@ -954,7 +1026,7 @@
       "name": "Santa Clara",
       "slug": "santa-clara-ca",
       "control": false,
-      "complete": false,
+      "complete": true,
       "adoption": {
         "epollbook": 2020,
         "asv": null
@@ -983,22 +1055,22 @@
         {
           "year": 2016,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 41.91,
+          "ballots": 303678,
           "final": 724596,
-          "confidence": "none",
-          "comparable": true,
-          "source_url": null
+          "confidence": "secondary",
+          "comparable": false,
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1608FF6D81BADB18"
         },
         {
           "year": 2018,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 48.61,
+          "ballots": 304000,
           "final": 625425,
-          "confidence": "none",
-          "comparable": true,
-          "source_url": null
+          "confidence": "secondary",
+          "comparable": false,
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F946169D59A048"
         },
         {
           "year": 2022,
@@ -1019,6 +1091,78 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20260702055736/https://results.enr.clarityelections.com/CA/Santa_Clara/122582/353227/json/sum.json"
+        }
+      ]
+    },
+    {
+      "name": "Ventura",
+      "slug": "ventura-ca",
+      "control": false,
+      "complete": true,
+      "adoption": {
+        "epollbook": 2022,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 77.76,
+          "ballots": 256927,
+          "final": 330419,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20121109175939/http://results.enr.clarityelections.com:80/CA/Ventura/43954/110763/en/summary.html"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 75.3,
+          "ballots": 153442,
+          "final": 203783,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20141107151451/http://results.enr.clarityelections.com:80/CA/Ventura/53334/147874/en/summary.html"
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": 71.09,
+          "ballots": 258250,
+          "final": 363285,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20161112105111/http://results.enr.clarityelections.com:80/CA/Ventura/63616/182694/en/summary.html"
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 64.13,
+          "ballots": 201298,
+          "final": 313871,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20260710005310/https://results.enr.clarityelections.com/CA/Ventura/89299/220414/json/sum.json"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 54.11,
+          "ballots": 153682,
+          "final": 284013,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20221109141658/https://results.enr.clarityelections.com/CA/Ventura/115748/311920/json/sum.json"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 67.79,
+          "ballots": 267226,
+          "final": 394197,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20241106171738/https://results.enr.clarityelections.com/CA/Ventura/122837/353328/json/sum.json"
         }
       ]
     }

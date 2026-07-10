@@ -1,6 +1,13 @@
 [
  {
   "slug": "fresno-ca",
+  "date": "2022-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "frozen GEMS live results page, held past night",
+  "evidence": "'UNOFFICIAL ELECTION RESULTS' widget internally stamped 11/08/2022 10:42:58 PM, 562/562 precincts, Voters Cast 126,440; the 1:34 AM Nov 9 and Nov 10 captures of the same URL show the identical frozen report; the Nov 18 capture shows the next update (11/15/2022 5:09:58 PM, 187,620)"
+ },
+ {
+  "slug": "fresno-ca",
   "date": "2016-11-08",
   "verdict": "CONFIRMED",
   "basis": "frozen GEMS live page, held past night",
@@ -54,6 +61,13 @@
   "verdict": "CONFIRMED",
   "basis": "RR/CC semi-final press release states the election-night total",
   "evidence": "'A total of 2,615,541 ballots were processed and counted' (Semi-Final Results Announced, Nov 6)"
+ },
+ {
+  "slug": "madera-ca",
+  "date": "2014-11-04",
+  "verdict": "PLAUSIBLE",
+  "basis": "computed ceiling: certified final minus clerk-quantified not-yet-counted ballots, snapshot is Friday not election night",
+  "evidence": "Madera Tribune Nov 7 2014 (docref news/15175914B6DDC6C0): Clerk Rebecca Martinez quantifies 4,385 late VBM + 973 provisional = 5,358 ballots 'left to be counted'; 27,370-5,358=22,012 (80.42%), self-consistent with the row's own prior-known Friday 2:14pm capture of 26,449 (26,449-22,012=4,437, close to the 4,385 late-VBM batch). CORRECTION (2026-07-09): the 5,358-remaining figure is stated as of Friday Nov 7, not election night; any interim processing between Tuesday night and Friday beyond the two named categories can only make the true election-night count LOWER than 22,012, so 22,012 is a CEILING (comparable=false), not a floor as previously labeled."
  },
  {
   "slug": "madera-ca",
@@ -288,6 +302,27 @@
  },
  {
   "slug": "san-diego-ca",
+  "date": "2012-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "election-night registrar figure held through the county's next press release",
+  "evidence": "North County Times, 2:25 a.m. report, all precincts reporting, 475,000 absentee/provisional remaining; the county's own Nov. 7 press release (US Fed News, Nov 9) restates the identical 475,000 figure before any post-night update, proving it had not moved since election night; certified 1,203,265 minus 475,000 = 728,265 (60.52%)"
+ },
+ {
+  "slug": "san-diego-ca",
+  "date": "2014-11-04",
+  "verdict": "CONFIRMED",
+  "basis": "county statement self-describes as unchanged since election night, corroborated by three independent bylines",
+  "evidence": "Times of San Diego (Nov 6): 509,214 voters cast a ballot per CA SoS, ~180,000 outstanding; U-T (Nov 6, two separate bylines) both quote the same ~180,000 remaining and state results were 'unchanged from election night. No new results were released Wednesday'; certified 692,434, 509,214/692,434 = 73.54%"
+ },
+ {
+  "slug": "san-diego-ca",
+  "date": "2016-11-08",
+  "verdict": "REFUTED_AS_PLATEAU",
+  "basis": "cited corroboration documents a Wednesday-morning update between the plateau and the derived figure; value retained as a documented ceiling, comparable=false",
+  "evidence": "Nov 10 2016 U-T print piece (docref news/160911C5B569B4C0, mirror/newsbank/docs/sandiego2016_160911C5B569B4C0.txt) itself states 'updated unofficial returns released Wednesday morning by the San Diego County Registrar of Voters Office' and that further releases were pending Thursday/Friday and daily for a week; the 620,000-outstanding figure describes that post-night state, not the election-night plateau, so 726,513/1,346,513 = 53.96% is at best a ceiling on the true plateau. CORRECTION (2026-07-09): downgraded from CONFIRMED on review."
+ },
+ {
+  "slug": "san-diego-ca",
   "date": "2018-11-06",
   "verdict": "CONFIRMED",
   "basis": "night stamp, captured the same night",
@@ -365,6 +400,20 @@
  },
  {
   "slug": "santa-clara-ca",
+  "date": "2016-11-08",
+  "verdict": "PLAUSIBLE",
+  "basis": "documented NON-COMPARABLE mid-count floor: same-contest ratio (Measure A/B) at printed precinct percentage, flagged comparable=false",
+  "evidence": "Mercury News Nov 9 2016 'RESULTS' page (docref news/1608FF6D81BADB18): Measure A 299,508 + Measure B 303,678 total votes at '41% of precincts'; floor 303,678 (41.91%) is self-consistent across both measures but is a mid-count snapshot (41% precincts reporting) well below the row's own 55-65% calibration estimate, so it is flagged comparable=false and excluded from pre/post comparisons; PLAUSIBLE not CONFIRMED (no independent bracket proving it was the LAST report, only that it predates it); true plateau bracketed 41.91%-61% per the note's post-night ~61%-counted estimate"
+ },
+ {
+  "slug": "santa-clara-ca",
+  "date": "2018-11-06",
+  "verdict": "PLAUSIBLE",
+  "basis": "documented ceiling: Wednesday-afternoon post-night newspaper estimate, tightened from the prior 5-days-post deep canvass",
+  "evidence": "Mercury News Nov 8 2018 (docref news/16F946169D59A048): 'about 304,000 ballots were counted' 'As of Wednesday afternoon' (Registrar Shannon Bushey); corroborated by the Nov 9 op-ed (docref news/16FA96F533667668) '47 percent remaining' as of Thursday morning; ceiling 304,000 (48.61%) flagged comparable=false"
+ },
+ {
+  "slug": "santa-clara-ca",
   "date": "2022-11-08",
   "verdict": "CONFIRMED",
   "basis": "clarity version bracket, re-derived",
@@ -376,5 +425,166 @@
   "verdict": "REFUTED_AND_CORRECTED",
   "basis": "clarity version walk recovers the true plateau",
   "evidence": "cited v353583 (11/6 4:46 PM, BC 468,395) is a next-day canvass bump; the night sequence is v353205 11:57 PM BC 459,487 then v353227 12:16 AM BC 460,325 (last of the night, held through v353516 at 1:10 PM); corrected to 460,325"
+ },
+ {
+  "slug": "ventura-ca",
+  "date": "2012-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "clarity version bracket (Web01 HTML, no JSON API)",
+  "evidence": "v110763 '630 of 630 Precincts Completely Reported, Updated 11/7/2012 2:11:37 AM PST', BC 256,927; next v111498 titled 'Semi Official Update #1', dated 11/9/2012 12:12:16 PM PST, BC 270,851"
+ },
+ {
+  "slug": "ventura-ca",
+  "date": "2014-11-04",
+  "verdict": "CONFIRMED",
+  "basis": "clarity version bracket (Web01 HTML, no JSON API)",
+  "evidence": "v147874 '614 of 614 Precincts Completely Reported, Website last updated 11/5/2014 1:01:18 AM PST', BC 153,442; next v148521 dated 11/7/2014 12:17:57 PM PST, BC 166,686"
+ },
+ {
+  "slug": "ventura-ca",
+  "date": "2016-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "clarity version bracket (Web01 HTML, no JSON API)",
+  "evidence": "v182694 '684 of 684 Precincts Completely Reported, Last updated 11/9/2016 12:51:27 AM PST', BC 258,250; next v182919 dated 11/10/2016 2:56:28 PM PST, BC 269,779"
+ },
+ {
+  "slug": "ventura-ca",
+  "date": "2018-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "clarity version bracket, re-derived from CDN",
+  "evidence": "cited v220414 stamped 11/7/2018 2:19:16 AM PST, PR 742/742, BC 201,298; next v221160 stamped 11/9/2018 3:11:17 PM PST, BC 219,149"
+ },
+ {
+  "slug": "ventura-ca",
+  "date": "2022-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "clarity version bracket, re-derived from CDN",
+  "evidence": "cited v311920 stamped 11/9/2022 1:27:17 AM PST, PR 1,640/1,640, BC 153,682; next v312263 stamped 11/10/2022 12:04:25 PM PST, BC 172,776"
+ },
+ {
+  "slug": "ventura-ca",
+  "date": "2024-11-05",
+  "verdict": "CONFIRMED",
+  "basis": "clarity version bracket, re-derived from CDN",
+  "evidence": "cited v353328 stamped 11/6/2024 3:19:32 AM PST, PR 1,115/1,419, BC 267,226; next v353719 stamped 11/7/2024 4:04:33 PM PST, BC 278,636"
+ },
+ {
+  "slug": "san-luis-obispo-ca",
+  "date": "2012-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket",
+  "evidence": "ElectionNightResults.pdf stamped 11/07/12 00:08:03, 147/147 precincts, Cards Cast 98,458; 'UnofficialElectionResults.pdf' AFTER COUNTING 11/16/12 = 123,757; Final Official Election Results.pdf 11/28/12 = 126,818, matches SoS exactly"
+ },
+ {
+  "slug": "san-luis-obispo-ca",
+  "date": "2014-11-04",
+  "verdict": "CONFIRMED",
+  "basis": "self-titled FINAL UNOFFICIAL ELECTION NIGHT SUMMARY + later canvass report bracket",
+  "evidence": "UENR.pdf stamped 11/04/14 23:17:07, 163/163 precincts, Ballots Cast 63,180; '111214 UNOFFICIAL ELECTION RESULTS SUMMARY' 11/12/14 = 85,913; 'UNOFFICIAL FINAL ELECTION SUMMARY / BALLOT COUNTING IS COMPLETE' 11/18/14 = 87,705; FINAL OFFICIAL SUMMARY 11/19/14 = 87,705, matches SoS exactly"
+ },
+ {
+  "slug": "san-luis-obispo-ca",
+  "date": "2016-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket",
+  "evidence": "Unofficial Election Night Results.pdf stamped 11/09/16 00:10:54, 160/160 precincts, Ballots Cast 95,560; UNOFFICIAL ELECTION RESULTS AFTER COUNTING 11-23-16 = 133,675; FINAL OFFICIAL ELECTION RESULTS 12/2/16 = 139,685, matches SoS exactly"
+ },
+ {
+  "slug": "san-luis-obispo-ca",
+  "date": "2018-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket",
+  "evidence": "Unofficial-Election-Night-Summary-Report-2018-11.pdf stamped 11/7/2018 11:10:42 AM, 156/156 precincts, Ballots Cast 81,663; Final-Official-Election-Summary-Report-2018-11-0.pdf stamped 11/30/2018 3:55:35 PM = 128,353, matches SoS exactly"
+ },
+ {
+  "slug": "san-luis-obispo-ca",
+  "date": "2022-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket",
+  "evidence": "Final-Unofficial-Election-Night-Results.pdf stamped 11/9/2022 12:28:45 AM, 133/133 precincts, Voters Cast 58,096; UNOFFICIAL ELECTION RESULTS - 11/23/2022 UPDATE = 110,096; Final-Official-Election-Results.pdf stamped 12/7/2022 12:38:57 PM = 121,156, matches SoS exactly"
+ },
+ {
+  "slug": "san-luis-obispo-ca",
+  "date": "2024-11-05",
+  "verdict": "CONFIRMED",
+  "basis": "self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket",
+  "evidence": "2024-general-final-unofficial-electionnight stamped 11/6/2024 12:10:19 PM, 158/158 precincts, Voters Cast 82,548; UNOFFICIAL ELECTION RESULTS - UPDATE 11/8/2024 = 98,548; FINAL OFFICIAL ELECTION RESULTS stamped 12/3/2024 1:23:47 PM = 153,432, matches SoS exactly"
+ },
+ {
+  "slug": "fresno-ca",
+  "date": "2012-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "county clerk's own election-night figure, bracketed unchanged by the county's own posting schedule (next update days later)",
+  "evidence": "Fresno Bee Nov 8 2012 quotes Clerk Brandi Orth: 'So far, about 160,400 ballots have been counted, putting voter turnout at 39.1%' (matches 160,400/410,188 registered exactly); the Nov 10 2012 companion item states 'Fresno County on Friday did its first vote-count update since Tuesday's election', proving no interim release moved the count between election night and Friday. 160,400/261,652 = 61.30%."
+ },
+ {
+  "slug": "fresno-ca",
+  "date": "2014-11-04",
+  "verdict": "PLAUSIBLE",
+  "basis": "certified-minus-outstanding derivation self-describing as through election night; downgraded from CONFIRMED on 2026-07-09 review because the Nov 6/Nov 8 cross-article reconciliation (~42,600 vs ~22,000+20,400=~42,400) is an arithmetic coincidence between two independently-approximated figures, not an explicit county-schedule-bracketing statement of the kind that supports CONFIRMED elsewhere in this dataset (contrast 2012's 'first vote-count update since Tuesday's election' and 2018's 'will not announce updated vote totals until Friday afternoon'). comparable remains true: the companion Nov 8 article independently confirms the cited 736-vote Costa-Tacherra lead was itself 'on election night,' i.e. the Thursday-quoted state (and its accompanying ~42,600 figure) is the frozen Tuesday-night/Wednesday-morning plateau, not a later Thursday development.",
+  "evidence": "Fresno Bee Nov 6 2014 'Digesting the results': 'With the Election Day ballot counting finished... approximately 42,600 Fresno County mail and provisional ballots left to count.' This figure is NOT attributed to officials (unlike the same article's adjacent Merced County figure, 'there are 5,757 mail and around 1,500 provisional ballots left to count, officials said late Wednesday'), so it may be a reporter approximation rather than a stated official count. The Nov 8 2014 companion 'Soria takes council race lead' shows no county update between the Wednesday-morning post and Friday 3pm (confirmed by its own statement that Tacherra's '736 on election night' lead only moved to 1,775 via Friday's Madera/Fresno/Merced updates), and offers a same-ballpark but not matching remaining-ballot pool (more than 22,000 processed by Friday plus 10,300+10,100 still remaining = ~42,400, close to but not identical to the Thursday figure's ~42,600). 163,420 minus ~42,600 = 120,820 (73.93%); cross-checked against San Diego's own CONFIRMED 2014 row (73.54%, same election)."
+ },
+ {
+  "slug": "fresno-ca",
+  "date": "2018-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "certified-minus-outstanding derivation self-describing as the state Wednesday morning after election night, bracketed unchanged by the county's own posting schedule AND (added 2026-07-09) by an independent companion article confirming the promised Friday update was the first update after election night",
+  "evidence": "Fresno Bee Nov 8 2018 'It's all over but the counting': 'Election Day is over, but there are still 100,000 vote-by-mail and provisional ballots left to count in Fresno County. Registrar Brandi Orth said Wednesday morning that the process of counting about 76,000 mail-in ballots had begun' and 'Fresno County will not announce updated vote totals until Friday afternoon.' CORRECTION (2026-07-09): the promise was independently confirmed kept by Fresno Bee Nov 11 2018 'Election 2018 - Hurtado increases lead, Janz closes slightly on Nunes' (docref news/16FA94EDA82A6CC8): 'About 23,000 of the 100,000 remaining ballots were counted and included in a Friday update from the Fresno County Clerk's office. The next update on the remaining 77,000 votes will come Wednesday at 3 p.m.' (100,000-23,000=77,000, consistent), i.e. no county release moved the count between the Wednesday-morning 100,000-outstanding statement and Friday's update, matching the 2012 bracketing pattern with a genuinely separate article. 256,972 minus 100,000 = 156,972 (61.09%); consistent with this row's already-documented 2018-11-21 canvass snapshot (239,032) as an intermediate point toward certification."
+ },
+ {
+  "slug": "riverside-ca",
+  "date": "2012-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "certified-minus-outstanding derivation, corroborated by two independently-bylined Nov 8 articles, bracketed by the registrar's own posting schedule; carried further by the Nov 9 'Many races await tallies' remaining-ballot drawdown (183,000 -> ~164,000), corroborated by Kevin Jeffries' own on-the-record quote that the overnight movement was small (added 2026-07-09)",
+  "evidence": "'Buster facing defeat' (news/14270915258D4BE8) and 'Bono Mack, Baca ousters hit clout' (news/14270914E8F945E8), both Nov 8 2012 Press-Enterprise: both state 'with all precincts reporting' and 'about 183,000 vote-by-mail, provisional and damaged ballots remained to be counted countywide'; the registrar's next update is explicitly scheduled for 6 p.m. Thursday Nov 8, and Buster 'didn't concede Wednesday, Nov. 7', confirming no update moved the count between election night and the Wednesday print deadline (San Diego 2012 pattern). 669,627 minus 183,000 = 486,627 (72.67%). NEW LEG (2026-07-09): independently-bylined Nov 9 2012 Press-Enterprise article ('Many races await tallies', docref news/14275EF93A805950) confirms the Thursday 6pm update posted, showing remaining ballots fall from 183,000 to ~164,000 (+13,000 processed) -- a later-document drawdown of the same baseline, further corroborating the bracket. CORRECTION (2026-07-09): the 'independently-bylined' description of the NEW LEG article is retracted -- 'Many races await tallies' and 'Buster facing defeat' (the cited source_url_night article) share the same byline, Jeff Horseman. The leg's evidentiary weight instead rests on it being a LATER document reporting a new event: Jeffries himself is quoted in that Nov 9 article, 'I'm disappointed the amount of ballots counted in the last day and a half was so small,' corroborating the modest 183,000-to-~164,000 drawdown as consistent with the held election-night baseline, not byline independence. Verdict unchanged: CONFIRMED."
+ },
+ {
+  "slug": "riverside-ca",
+  "date": "2014-11-04",
+  "verdict": "CONFIRMED",
+  "basis": "certified-minus-outstanding registrar derivation, cross-checked by an independent turnout-percentage x registration calculation from a second bylined article; carried further (added 2026-07-09) by the Ghori 'Lead wanes; results unchanged' lead-progression and remaining-ballot drawdown, NOT by the withdrawn Aguilar/Chabot (San Bernardino CD-31) quote",
+  "evidence": "'Council members succeed, struggle' (news/151717B89F05D948): 'The Riverside County Registrar of Voters office announced that 93,000 votes are still to be processed ... The next update will be posted at 6 p.m. tonight.' 357,764 minus 93,000 = 264,764 (74.01%). Cross-check: 'a new low in area's Voter turnout?' (news/151717B8F7250120) states turnout 29.8% as of Wednesday, projected final 39-40% (matches actual certified 40.13%); 29.8% x 891,575 registered = 265,689, within 0.3% of the 264,764 derivation. NEW LEG (2026-07-09): two further independent articles confirm the Thursday update posted and show continued drawdown -- 'Chabot concedes to Aguilar in House race' (news/15176B29AEBF4130, Nov 7): 'A vote-count update posted Thursday afternoon...'; 'Lead wanes; results unchanged' (news/151813F1AA650318, Nov 9): remaining ballots down to 24,000 by the following Sunday, consistent with the 93,000 election-night baseline. CORRECTION (2026-07-09): the Aguilar/Chabot quote above is WITHDRAWN as Riverside evidence -- CD-31 (Aguilar v. Chabot) lies entirely within San Bernardino County, so that Thursday-afternoon update is San Bernardino's registrar's posting, not Riverside's. The actual carrying leg is Imran Ghori's 'Lead wanes; results unchanged': the Moreno Valley council race lead narrowed from 68 votes Tuesday night to 22 Thursday to 18 by late Friday, as 'the Riverside County Registrar of Voters continued sorting damaged, mail-in and provisional ballots,' with 'about 24,000 remaining mail-in, provisional and damaged ballots' left countywide -- a continuous drawdown from the election-night 93,000 baseline, independent of the withdrawn quote. The SAME article that carried the withdrawn quote does still contain Riverside-relevant evidence: 'Stone now leads by 8,405 votes over fellow Republican Bonnie Garcia. He had a roughly 8,000-vote lead going into Thursday evening,' confirming the promised Thursday update posted. Verdict unchanged: CONFIRMED."
+ },
+ {
+  "slug": "riverside-ca",
+  "date": "2016-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "registrar-derived outstanding-ballot figure repeated across three articles (two verbatim, one corroborating), bracketed unchanged by the registrar's own posting schedule and by direction/magnitude consistency with the subsequent Friday update",
+  "evidence": "'One Eastvale council race especially close' (news/16095824826D46E0) and 'Corona voters back council districts, pick new treasurer' (news/160958246D11FAA8): 'posted by the Riverside County Registrar of Voters Office early Wednesday ... Officials have yet to count 262,000 provisional, damaged and vote-by-mail ballots submitted countywide.' 'Familiar faces on southwest councils' (news/16095823F5443EE8): 'more than 200,000 ballots need to be counted' and 'The next update from the registrar's office is set for 6 p.m. Friday.' 'Latest vote count: No big changes' (news/160A0028EF5A1DB8, Nov 12) shows 212,000 remaining on Friday, consistent with 262,000 minus ~2 days processing. 769,193 minus 262,000 = 507,193 (65.94%), closely matching SF's own 2016 calibration (66%)."
+ },
+ {
+  "slug": "riverside-ca",
+  "date": "2018-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "directly-stated overnight-Tuesday count, self-confirming plateau via the registrar's own same-day quote that no counting was occurring; independently bracketed (added 2026-07-09) by the Nov 9 Essayli piece's after-6pm-Thursday update, which shows the Wednesday-morning state (200,000 VBM remaining) held down to only 188,000 by Thursday evening",
+  "evidence": "'Elections - Many Inland ballots still not processed or counted' (news/16F9051D0AED5530): 'Riverside County Registrar of Voters Rebecca Spencer said she had a crew of about 300 workers processing ballots overnight Tuesday. According to Wednesday vote totals, they counted about 300,000 ballots.' Spencer, quoted the same Wednesday: 'We're not counting anything today ... We are sorting out all the materials from the polling places' -- confirms the count was frozen at 300,000 as of the article's writing. 300,000/650,545 = 46.12%, within the brief's 'mid-40s-to-60s' carve-out for Riverside's slow 2010s counting. NEW LEG (2026-07-09): independent Nov 9 2018 article ('Politics - Essayli retakes lead over Cervantes', news/16F95A20B5E20588) reports 188,000 VBM remaining as of Thursday evening (vs 200,000 Wednesday morning), a modest, consistent drawdown corroborating the Wednesday freeze rather than contradicting it."
+ },
+ {
+  "slug": "san-bernardino-ca",
+  "date": "2018-11-06",
+  "verdict": "REFUTED_AS_PLATEAU",
+  "basis": "same-article schedule shows a pending post-night release; leg was a same-article arithmetic cross-check; value retained as a documented ceiling",
+  "evidence": "'Elections - Many Inland ballots still not processed or counted' (news/16F9051D0AED5530): 'elections workers counted about 322,000 ballots overnight Tuesday. On Wednesday, about 150,816 ballots remained to be counted, along with 8,929 damaged ballots and 43,818 provisional ... There are 942,474 registered voters ... so the unofficial turnout estimate is about 55 percent.' (322,000+203,563)/942,474=55.76%, matching the article's own estimate; certified 546,041/942,474=57.94% is close too. 322,000/546,041 = 58.97%. CORRECTION (2026-07-09): reclassified from CONFIRMED. The article states San Bernardino's own final unofficial count was not due until 4 p.m. Friday (movement still pending), and unlike Riverside in the same article, no same-day 'not counting anything today' freeze quote exists for San Bernardino. The turnout-estimate cross-check and the 546,041-minus-remaining=342,478 calculation are both same-article arithmetic, not an independent leg (RUNBOOK 8), and the latter shows a HIGHER state already prevailing by Wednesday than the claimed overnight-Tuesday 322,000. 322,000 is retained only as a documented plateau claim / ceiling (comparable:false), not a confirmed plateau."
+ },
+ {
+  "slug": "san-bernardino-ca",
+  "date": "2012-11-06",
+  "verdict": "REFUTED_AS_PLATEAU",
+  "basis": "the only sourceable remaining-ballot figure is explicitly framed as a post-night ('as of Thursday morning') state with no confirmed no-update bracket, and the resulting share (82.19%) is anomalously high with no precinct-era anchor for comparison",
+  "evidence": "'Many races await tallies' (news/14275EF93A805950): 'About 60,000 mail-in and 45,000 provisional ballots in San Bernardino County were uncounted as of Thursday morning ... Ballots cast at polling places and mailed prior to Election Day were all counted by 5:15 a.m. Wednesday.' 589,611 minus 105,000 = 484,611 (82.19%), well above the ~55-75% band and SF's own 71% (2012). Unlike Riverside in the same article, no 'not counting today' pause confirmation exists for San Bernardino, so counting plausibly moved between Wednesday and the Thursday-morning quote. Retained only as a flagged ceiling (comparable=false), not a confirmed plateau."
+ },
+ {
+  "slug": "san-bernardino-ca",
+  "date": "2014-11-04",
+  "verdict": "REFUTED_AS_PLATEAU",
+  "basis": "the only sourceable figure is a Wednesday-released turnout percentage, and this county's own documented posting schedule shows continuous updates through Wednesday, so it is not confirmed to be frozen at the overnight-election-night state",
+  "evidence": "'a new low in area's Voter turnout?' (news/151717B8F7250120): 'preliminary numbers released Wednesday by county registrars ... In San Bernardino County, turnout was 27.1 percent.' 27.1% x 851,684 registered = 230,806; 230,806/293,283 = 78.70%, anomalously high (consistent with the same county's 2012 ceiling). Retained only as a flagged ceiling (comparable=false), not a confirmed plateau."
+ },
+ {
+  "slug": "san-bernardino-ca",
+  "date": "2022-11-08",
+  "verdict": "REFUTED_AS_PLATEAU",
+  "basis": "the figure is confirmed, by this row's own already-documented posting schedule, to be from the county's 4 p.m. Wednesday canvass-resumption slot, not the 9:40 a.m. election-night posting",
+  "evidence": "'2022 Election - Inland Empire ballot counting continues' (news/18DB36E88190ECB8): 'as of Wednesday at 4 p.m., the Registrar of Voters had counted ballots cast by 218,993 people.' The archived Results Posting Schedule (already in this row's note) pins 4 p.m. Wednesday as the canvass-resume slot, after the 9:40 a.m. election-night posting. 218,993/458,946 = 47.72%, retained only as a flagged ceiling (comparable=false), bracketing but not pinning down the true plateau (>= 177,481, the known 4 a.m. mid-count figure)."
  }
 ]

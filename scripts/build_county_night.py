@@ -36,6 +36,22 @@ def norm_type(year: int, raw: str) -> str | None:
     return "midterm"
 
 
+def is_control(adopt: dict, points: list[dict]) -> bool:
+    """A jurisdiction is a no-new-tech control if none of its tracked tech
+    (epollbook/asv) was adopted at or before the last election year this
+    dataset observes for it. Data-driven: derived from the same `adoption`
+    dict + per-election years the builder already reads, no hardcoded
+    jurisdiction names. A county with NO points can't be evaluated this way
+    and is conservatively not marked control."""
+    if not points:
+        return False
+    adopt_years = [y for y in (adopt.get("epollbook"), adopt.get("asv")) if y]
+    if not adopt_years:
+        return True
+    max_point_year = max(p["year"] for p in points)
+    return min(adopt_years) > max_point_year
+
+
 def load_counties() -> list[dict]:
     out = []
     for fp in sorted(EN.glob("*.json")):
@@ -65,7 +81,7 @@ def load_counties() -> list[dict]:
         out.append({
             "name": d.get("jurisdiction", fp.stem).replace(" County", ""),
             "slug": fp.stem,
-            "control": False,
+            "control": is_control(adopt, points),
             # complete = every Nov-general row has a sourced election-night count
             "complete": bool(points) and all(p["ballots"] is not None for p in points),
             "adoption": {"epollbook": adopt.get("epollbook"), "asv": adopt.get("asv")},

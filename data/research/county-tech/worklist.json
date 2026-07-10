@@ -9,6 +9,7 @@
   {"slug": "madera-ca",         "name": "Madera County",        "state": "CA", "hints": "VCA pilot 2018"},
   {"slug": "nevada-ca",         "name": "Nevada County",        "state": "CA", "hints": "VCA pilot 2018"},
   {"slug": "fresno-ca",         "name": "Fresno County",        "state": "CA", "hints": "e-pollbooks 2020"},
+  {"slug": "ventura-ca",        "name": "Ventura County",       "state": "CA", "hints": "VCA vote centers 2022; SoS Oct 2025 table shows no e-pollbook"},
   {"slug": "san-luis-obispo-ca","name": "San Luis Obispo County","state": "CA","hints": "e-pollbooks 2026"},
   {"slug": "placer-ca",         "name": "Placer County",        "state": "CA", "hints": "Sign-Scan-Go (AB 626)"},
   {"slug": "riverside-ca",      "name": "Riverside County",     "state": "CA", "hints": "ASV (pilot 2025, production 2026)"},

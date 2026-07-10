@@ -10,11 +10,15 @@ verify_en_* scripts to regenerate).
 | County | Date | Check | Claimed | Status | Evidence (context around match) |
 |---|---|---|---:|---|---|
 | fresno-ca | 2012-11-06 | denominator | 261,652 | VERIFIED | 611 559,268 410,188 119,543 142,109 261,652 54.31% 63.79% 46.78% |
+| fresno-ca | 2012-11-06 | numerator | 160,400 | VERIFIED | render-verified: Fresno Bee, Nov 8 2012, 'Valley ballot-counting continues': County Clerk Brandi Orth: 'So far, about 16 |
 | fresno-ca | 2014-11-04 | denominator | 163,420 | VERIFIED | 577 572,045 416,433 64,901 98,519 163,420 60.29% 39.24% 28.57% |
+| fresno-ca | 2014-11-04 | numerator | 120,820 | VERIFIED | render-verified: Fresno Bee, Nov 6 2014, 'Digesting the results': 'With the Election Day ballot counting finished, Tache |
 | fresno-ca | 2016-11-08 | denominator | 291,890 | VERIFIED | 592 583,238 437,423 131,787 160,103 291,890 54.85% 66.73% 50.05% |
 | fresno-ca | 2016-11-08 | numerator | 177,183 | VERIFIED | es." 11/9/2016 1:42:19 AM Registered Voters 437667 - Cards Cast 177183 40.48% Num. Report Precinct 592 - Num. Reporting  |
 | fresno-ca | 2018-11-06 | denominator | 256,972 | VERIFIED | 640 597,497 456,891 93,581 163,391 256,972 63.58% 56.24% 43.01% |
+| fresno-ca | 2018-11-06 | numerator | 156,972 | VERIFIED | render-verified: Fresno Bee, Nov 8 2018, 'It's all over but the counting': 'Election Day is over, but there are still 10 |
 | fresno-ca | 2022-11-08 | denominator | 221,419 | VERIFIED | 562 642,412 500,076 28,343 193,076 221,419 87.20% 44.28% 34.47% |
+| fresno-ca | 2022-11-08 | numerator | 126,440 | VERIFIED | Precincts Reported: 562 of 562 (100.00%) Voters Cast: 126,440 of 499,979 (25.29%) Governor (Vote for 1) Precincts Report |
 | fresno-ca | 2024-11-05 | denominator | 330,932 | VERIFIED | 478 649,184 513,799 63,049 267,883 330,932 80.95% 64.41% 50.98% |
 | fresno-ca | 2024-11-05 | numerator | 206,372 | VERIFIED | FICIAL ELECTION RESULTS Precincts Reported: 478 of 478 (100.00%) Voters Cast: 206,372 of 511,349 (40.36%) President and  |
 | los-angeles-ca | 2012-11-06 | denominator | 3,236,704 | VERIFIED | eles 4,993 5,976,156 4,758,437 2,260,876 975,828 3,236,704 30.15% 68.02% 54.16% |
@@ -31,6 +35,7 @@ verify_en_* scripts to regenerate).
 | los-angeles-ca | 2024-11-05 | numerator | 2,615,541 | VERIFIED | d the semi-final results for the November 5, 2024 General Election. A total of 2,615,541 ballots were processed and coun |
 | madera-ca | 2012-11-06 | denominator | 40,325 | VERIFIED | 96 86,894 53,779 15,658 24,667 40,325 61.17% 74.98% 46.41% |
 | madera-ca | 2014-11-04 | denominator | 27,370 | VERIFIED | 100 85,976 52,494 8,970 18,400 27,370 67.23% 52.14% 31.83% |
+| madera-ca | 2014-11-04 | numerator | 22,012 | VERIFIED | render-verified: Madera County Clerk-Recorder Rebecca Martinez: 4,385 late vote-by-mail ballots (received after noon on  |
 | madera-ca | 2016-11-08 | denominator | 44,186 | VERIFIED | 102 87,254 58,086 15,211 28,975 44,186 65.58% 76.07% 50.64% |
 | madera-ca | 2016-11-08 | numerator | 35,364 | VERIFIED | Absentee Ballots Cast 22,561 38.8% Total Ballots Cast 35,364 60.8% President and Vice President Completed Prec |
 | madera-ca | 2018-11-06 | denominator | 38,968 | VERIFIED | 69 89,818 57,418 4,434 34,534 38,968 88.62% 67.87% 43.39% |
@@ -85,15 +90,19 @@ verify_en_* scripts to regenerate).
 | placer-ca | 2022-11-08 | denominator | 184,507 | VERIFIED | 408 301,467 279,016 25,494 159,013 184,507 86.18% 66.13% 61.20% |
 | placer-ca | 2024-11-05 | denominator | 239,402 | VERIFIED | 331 305,381 291,479 56,964 182,438 239,402 76.21% 82.13% 78.39% |
 | riverside-ca | 2012-11-06 | denominator | 669,627 | VERIFIED | 1,218 1,358,695 943,405 298,112 371,515 669,627 55.48% 70.98% 49.28% |
+| riverside-ca | 2012-11-06 | numerator | 486,627 | VERIFIED | render-verified: Unofficial final results from the county Registrar of Voters show Kevin Jeffries leading Buster ... wit |
 | riverside-ca | 2014-11-04 | denominator | 357,764 | VERIFIED | e 1,193 1,394,302 891,575 124,829 232,935 357,764 65.11% 40.13% 25.66% |
+| riverside-ca | 2014-11-04 | numerator | 264,764 | VERIFIED | render-verified: The Riverside County Registrar of Voters office announced that 93,000 votes are still to be processed,  |
 | riverside-ca | 2016-11-08 | denominator | 769,193 | VERIFIED | de 1,126 1,438,117 1,019,130 264,638 504,555 769,193 65.60% 75.48% 53.49% |
+| riverside-ca | 2016-11-08 | numerator | 507,193 | VERIFIED | render-verified: The figures, posted by the Riverside County Registrar of Voters Office early Wednesday, are not final.  |
 | riverside-ca | 2018-11-06 | denominator | 650,545 | VERIFIED | 1,072 1,481,361 1,035,957 194,606 455,939 650,545 70.09% 62.80% 43.92% |
+| riverside-ca | 2018-11-06 | numerator | 300,000 | VERIFIED | render-verified: Riverside County Registrar of Voters Rebecca Spencer said she had a crew of about 300 workers processin |
 | riverside-ca | 2022-11-08 | denominator | 604,617 | VERIFIED | 1,265 1,637,165 1,310,505 59,812 544,805 604,617 90.11% 46.14% 36.93% |
 | riverside-ca | 2022-11-08 | numerator | 205,813 | VERIFIED | orted: 1,265 of 1,265 ( 100.00% ) Voters Cast: 205,813 of 1,310,928 ( 15.70% ) Governor |
 | riverside-ca | 2024-11-05 | denominator | 959,098 | VERIFIED | 1,345 1,646,951 1,372,548 170,437 788,661 959,098 82.23% 69.88% 58.23% |
 | riverside-ca | 2024-11-05 | numerator | 611,101 | VERIFIED | taArray, colorObject, elem); })(); Ballots Counted 611,101 Vote by Mail 483,778 Mail Ballot Precinc |
 | sacramento-ca | 2012-11-06 | denominator | 522,045 | VERIFIED | 1,106 944,243 698,899 216,021 306,024 522,045 58.62% 74.70% 55.29% |
-| sacramento-ca | 2012-11-06 | numerator | 328,516 | NOT_FOUND |  |
+| sacramento-ca | 2012-11-06 | numerator | 328,516 | VERIFIED | L . . . . . 698,899 BALLOTS CAST - TOTAL. . . . . . . 328,516 VOTER TURNOUT - TOTAL . . . . . . 47.00 |
 | sacramento-ca | 2014-11-04 | denominator | 330,817 | VERIFIED | to 1,263 961,112 683,632 111,628 219,189 330,817 66.26% 48.39% 34.42% |
 | sacramento-ca | 2014-11-04 | numerator | 195,317 | VERIFIED | L . . . . . 683,632 BALLOTS CAST - TOTAL. . . . . . . 195,317 VOTER TURNOUT - TOTAL . . . . . . 28.57 |
 | sacramento-ca | 2016-11-08 | denominator | 575,711 | VERIFIED | nto 1,267 989,090 772,865 203,114 372,597 575,711 64.72% 74.49% 58.21% |
@@ -104,21 +113,40 @@ verify_en_* scripts to regenerate).
 | sacramento-ca | 2024-11-05 | denominator | 668,416 | VERIFIED | 686 1,116,853 889,806 73,650 594,766 668,416 88.98% 75.12% 59.85% |
 | sacramento-ca | 2024-11-05 | numerator | 311,821 | VERIFIED | I-FINAL Voters Cast: 311,821 of 889,465 ( 35.06% ) Preside |
 | san-bernardino-ca | 2012-11-06 | denominator | 589,611 | VERIFIED | dino 1,609 1,259,676 851,581 306,324 283,287 589,611 48.05% 69.24% 46.81% |
+| san-bernardino-ca | 2012-11-06 | numerator | 484,611 | VERIFIED | render-verified: About 60,000 mail-in and 45,000 provisional ballots in San Bernardino County were uncounted as of Thurs |
 | san-bernardino-ca | 2014-11-04 | denominator | 293,283 | VERIFIED | ardino 1,737 1,273,684 851,684 117,179 176,104 293,283 60.05% 34.44% 23.03% |
+| san-bernardino-ca | 2014-11-04 | numerator | 230,806 | VERIFIED | render-verified: In San Bernardino County, turnout was 27.1 percent. San Bernardino County Registrar of Voters Michael S |
 | san-bernardino-ca | 2016-11-08 | denominator | 672,871 | VERIFIED | nardino 1,789 1,308,522 888,019 287,315 385,556 672,871 57.30% 75.77% 51.42% |
 | san-bernardino-ca | 2018-11-06 | denominator | 546,041 | VERIFIED | 2,209 1,330,247 937,316 209,168 336,873 546,041 61.69% 58.26% 41.05% |
+| san-bernardino-ca | 2018-11-06 | numerator | 322,000 | VERIFIED | render-verified: In San Bernardino County, elections workers counted about 322,000 ballots overnight Tuesday. On Wednesd |
 | san-bernardino-ca | 2022-11-08 | denominator | 458,946 | VERIFIED | 2,765 1,472,696 1,138,818 66,469 392,477 458,946 85.52% 40.30% 31.16% |
+| san-bernardino-ca | 2022-11-08 | numerator | 218,993 | VERIFIED | render-verified: In San Bernardino County, as of Wednesday at 4 p.m., the Registrar of Voters had counted ballots cast b |
 | san-bernardino-ca | 2024-11-05 | denominator | 771,834 | VERIFIED | 2,872 1,472,596 1,197,953 154,974 616,860 771,834 79.92% 64.43% 52.41% |
 | san-bernardino-ca | 2024-11-05 | numerator | 434,108 | VERIFIED | render-verified: Precincts Reported: 2,872 of 2,872 (100.00%) Voters Cast: 434,108 of 1,198,556 (36.22%) Cards Cast: 1,2 |
 | san-diego-ca | 2012-11-06 | denominator | 1,203,265 | VERIFIED | go 2,064 2,094,093 1,563,093 528,258 675,007 1,203,265 56.10% 76.98% 57.46% |
+| san-diego-ca | 2012-11-06 | numerator | 728,265 | VERIFIED | render-verified: US Fed News, Nov 9 2012, republishing verbatim a San Diego County press release dated Nov. 7: 'Those ba |
 | san-diego-ca | 2014-11-04 | denominator | 692,434 | VERIFIED | o 2,001 2,135,863 1,546,924 242,638 449,796 692,434 64.96% 44.76% 32.42% |
+| san-diego-ca | 2014-11-04 | numerator | 509,214 | VERIFIED | render-verified: Times of San Diego, Nov 6 2014: 'out of more than 1.5 million registered voters, only 509,214 voters ca |
 | san-diego-ca | 2016-11-08 | denominator | 1,346,513 | VERIFIED | iego 2,175 2,191,191 1,652,570 489,576 856,937 1,346,513 63.64% 81.48% 61.45% |
+| san-diego-ca | 2016-11-08 | numerator | 726,513 | VERIFIED | render-verified: San Diego Union-Tribune Web Edition, Nov 9 2016, 'Issa still leading, barely': 'as of late Wednesday af |
 | san-diego-ca | 2018-11-06 | denominator | 1,173,924 | VERIFIED | 2,136 2,224,081 1,741,707 369,655 804,269 1,173,924 68.51% 67.40% 52.78% |
 | san-diego-ca | 2018-11-06 | numerator | 536,734 | VERIFIED | (dataArray, colorObject, elem); })(); Ballots Cast 536,734 Registered Voters 1,767,300 |
 | san-diego-ca | 2022-11-08 | denominator | 1,043,490 | VERIFIED | 2,718 2,349,554 1,924,634 104,388 939,102 1,043,490 90.00% 54.22% 44.41% |
 | san-diego-ca | 2022-11-08 | numerator | 565,982 | VERIFIED | (dataArray, colorObject, elem); })(); Ballots Cast 565,982 Mail Ballots 468,632 Vote Center Ballots |
 | san-diego-ca | 2024-11-05 | denominator | 1,503,018 | VERIFIED | 2,669 2,353,145 1,982,264 227,714 1,275,304 1,503,018 84.85% 75.82% 63.87% |
 | san-diego-ca | 2024-11-05 | numerator | 975,373 | VERIFIED | taArray, colorObject, elem); })(); Ballots Counted 975,373 Mail Ballots 787,702 Vote Center Ballots |
+| san-luis-obispo-ca | 2012-11-06 | denominator | 126,818 | VERIFIED | bispo 147 201,390 158,603 46,578 80,240 126,818 63.27% 79.96% 62.97% |
+| san-luis-obispo-ca | 2012-11-06 | numerator | 98,458 | VERIFIED | FINAL UNOFFICIAL ELECTION NIGHT RESULTS Registered Voters 158603 - Cards Cast 98458 62.08% Num. Report Precinct 147 - Nu |
+| san-luis-obispo-ca | 2014-11-04 | denominator | 87,705 | VERIFIED | Obispo 163 202,600 150,139 25,417 62,288 87,705 71.02% 58.42% 43.29% |
+| san-luis-obispo-ca | 2014-11-04 | numerator | 63,180 | VERIFIED | FINAL UNOFFICIAL ELECTION NIGHT SUMMARY Registered Voters 150139 - Ballots Cast 63180 42.08% Num. Report Precinct 163 -  |
+| san-luis-obispo-ca | 2016-11-08 | denominator | 139,685 | VERIFIED | s Obispo 160 207,947 168,257 40,994 98,691 139,685 70.65% 83.02% 67.17% |
+| san-luis-obispo-ca | 2016-11-08 | numerator | 95,560 | VERIFIED | FINAL UNOFFICIAL ELECTION NIGHT RESULTS Registered Voters 168257 - Ballots Cast 95560 56.79% Num. Report Precinct 160 -  |
+| san-luis-obispo-ca | 2018-11-06 | denominator | 128,353 | VERIFIED | 156 209,049 172,544 31,257 97,096 128,353 75.65% 74.39% 61.40% |
+| san-luis-obispo-ca | 2018-11-06 | numerator | 81,663 | VERIFIED | TION NIGHT RESULTS Precincts Reported: 156 of 156 (100.00%) Registered Voters: 81,663 of 172,544 (47.33%) Ballots Cast:  |
+| san-luis-obispo-ca | 2022-11-08 | denominator | 121,156 | VERIFIED | 133 221,071 182,340 8,195 112,961 121,156 93.24% 66.45% 54.80% |
+| san-luis-obispo-ca | 2022-11-08 | numerator | 58,096 | VERIFIED | ELECTION NIGHT RESULTS Precincts Reported: 133 of 133 (100.00%) Voters Cast: 58,096 of 182,291 (31.87%) Governor (Vote f |
+| san-luis-obispo-ca | 2024-11-05 | denominator | 153,432 | VERIFIED | 158 219,268 182,701 12,196 141,236 153,432 92.05% 83.98% 69.97% |
+| san-luis-obispo-ca | 2024-11-05 | numerator | 82,548 | VERIFIED | ELECTION NIGHT RESULTS Precincts Reported: 158 of 158 (100.00%) Voters Cast: 82,548 of 182,606 (45.21%) President and Vi |
 | san-mateo-ca | 2012-11-06 | denominator | 288,592 | VERIFIED | 468 479,562 361,486 119,212 169,380 288,592 58.69% 79.83% 60.18% |
 | san-mateo-ca | 2012-11-06 | numerator | 204,287 | VERIFIED | 11/07/2012 12:07 AM Total Number of Voters : 204,287 of 361,486 = 56.51% |
 | san-mateo-ca | 2014-11-04 | denominator | 164,453 | VERIFIED | o 475 490,797 355,598 54,056 110,397 164,453 67.13% 46.25% 33.51% |
@@ -136,8 +164,22 @@ verify_en_* scripts to regenerate).
 | santa-clara-ca | 2014-11-04 | denominator | 404,166 | VERIFIED | ara 1,066 1,157,944 805,502 96,077 308,089 404,166 76.23% 50.18% 34.90% |
 | santa-clara-ca | 2014-11-04 | numerator | 251,620 | VERIFIED | OR" , "K" : "6" , "VF" : 1 , "TP" : 1066 , "PR" : 1066 , "TV" : 805502 , "BC" : 251620 , "RC" : 0 , "RO" : 0 , "CH" : [  |
 | santa-clara-ca | 2016-11-08 | denominator | 724,596 | VERIFIED | lara 1,063 1,193,225 875,176 190,379 534,217 724,596 73.73% 82.79% 60.73% |
+| santa-clara-ca | 2016-11-08 | numerator | 303,678 | VERIFIED | render-verified: Santa Clara County ballot measures, 41% of precincts: Measure A Yes 200,688 67.0% No 98,820 33.0% (299, |
 | santa-clara-ca | 2018-11-06 | denominator | 625,425 | VERIFIED | 1,098 1,208,495 885,764 138,468 486,957 625,425 77.86% 70.61% 51.75% |
+| santa-clara-ca | 2018-11-06 | numerator | 304,000 | VERIFIED | render-verified: In Santa Clara County, more than 75 percent of voters use mail-in ballots. As of Wednesday afternoon, a |
 | santa-clara-ca | 2022-11-08 | denominator | 550,602 | VERIFIED | 754 1,259,821 1,009,422 40,694 509,908 550,602 92.61% 54.55% 43.70% |
 | santa-clara-ca | 2022-11-08 | numerator | 293,148 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 754 , "PR" : 671 , "TV" : 1009422 , "BC" : 293148 , "RC" : 0 , "RO" : 0 , "CH" : [  |
 | santa-clara-ca | 2024-11-05 | denominator | 765,495 | VERIFIED | 784 1,269,781 1,048,723 97,924 667,571 765,495 87.21% 72.99% 60.29% |
 | santa-clara-ca | 2024-11-05 | numerator | 460,325 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 784 , "PR" : 686 , "TV" : 1031980 , "BC" : 460325 , "RC" : 0 , "RO" : 0 , "CH" : [  |
+| ventura-ca | 2012-11-06 | denominator | 330,419 | VERIFIED | 630 534,607 426,948 165,488 164,931 330,419 49.92% 77.39% 61.81% |
+| ventura-ca | 2012-11-06 | numerator | 256,927 | VERIFIED | 012 Registered Voters: 426,948 Ballots Cast: 256,927 Voter Turnout: 60.18 % Precincts P |
+| ventura-ca | 2014-11-04 | denominator | 203,783 | VERIFIED | 614 542,109 433,064 84,672 119,111 203,783 58.45% 47.06% 37.59% |
+| ventura-ca | 2014-11-04 | numerator | 153,442 | VERIFIED | 014 Registered Voters: 433,064 Ballots Cast: 153,442 Voter Turnout: 35.43 % Precincts P |
+| ventura-ca | 2016-11-08 | denominator | 363,285 | VERIFIED | 684 550,625 442,951 144,589 218,696 363,285 60.20% 82.01% 65.98% |
+| ventura-ca | 2016-11-08 | numerator | 258,250 | VERIFIED | 016 Registered Voters: 442,951 Ballots Cast: 258,250 Voter Turnout: 58.30 % Precincts P |
+| ventura-ca | 2018-11-06 | denominator | 313,871 | VERIFIED | 742 550,773 448,174 115,259 198,612 313,871 63.28% 70.03% 56.99% |
+| ventura-ca | 2018-11-06 | numerator | 201,298 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 742 , "PR" : 742 , "TV" : 448174 , "BC" : 201298 , "RC" : 0 , "RO" : 0 , "CH" : [ " |
+| ventura-ca | 2022-11-08 | denominator | 284,013 | VERIFIED | 1,640 584,861 505,110 30,112 253,901 284,013 89.40% 56.23% 48.56% |
+| ventura-ca | 2022-11-08 | numerator | 153,682 | VERIFIED | BCxContest" : 0 , "VF" : 1 , "TP" : 1640 , "PR" : 1640 , "TV" : 505110 , "BC" : 153682 , "RC" : 0 , "RO" : 0 , "CH" : [  |
+| ventura-ca | 2024-11-05 | denominator | 394,197 | VERIFIED | 1,419 578,954 516,989 62,387 331,810 394,197 84.17% 76.25% 68.09% |
+| ventura-ca | 2024-11-05 | numerator | 267,226 | VERIFIED | BCxContest" : 0 , "VF" : 1 , "TP" : 1419 , "PR" : 1115 , "TV" : 516989 , "BC" : 267226 , "RC" : 0 , "RO" : 0 , "CH" : [  |

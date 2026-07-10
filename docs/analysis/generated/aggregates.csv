@@ -1,0 +1,9 @@
+statistic,rule,n,counties,est_pooled,est_sf_only,est_slo_only,ri_p,ri_p_mc_se,holm_p,redraw_rate,null_sd,mde_alpha10_power80,mde_alpha05_power80,ci90_lo,ci90_hi,loo_min,loo_max,loo_sign_flip_drops
+theta_2024,type-matched,10,fresno-ca+los-angeles-ca+madera-ca+napa-ca+orange-ca+sacramento-ca+san-diego-ca+san-mateo-ca+santa-clara-ca+ventura-ca,10.07,6.78,13.37,0.0663,0.0025,,0.7676,5.67,14.11,15.86,2.00,19.00,6.78,13.37,none
+theta_2022,type-matched,12,fresno-ca+los-angeles-ca+madera-ca+napa-ca+nevada-ca+orange-ca+riverside-ca+sacramento-ca+san-diego-ca+san-mateo-ca+santa-clara-ca+ventura-ca,7.20,3.95,10.45,0.3251,0.0047,0.9752,0.5163,6.73,16.76,18.85,,,3.95,10.45,none
+theta_step_2018,type-matched,5,madera-ca+napa-ca+nevada-ca+sacramento-ca+san-mateo-ca,-6.62,-5.38,-7.85,0.3952,0.0049,0.9752,0.5097,7.21,17.95,20.18,,,-8.84,-3.21,none
+theta_step_2022,type-matched,3,riverside-ca+san-diego-ca+ventura-ca,7.44,3.76,11.13,0.4147,0.0049,0.9752,0.3717,8.65,21.55,24.23,,,0.91,11.23,none
+theta_2024,calendar,10,fresno-ca+los-angeles-ca+madera-ca+napa-ca+orange-ca+sacramento-ca+san-diego-ca+san-mateo-ca+santa-clara-ca+ventura-ca,9.39,6.02,12.77,,,,,,,,,,,,
+theta_2022,calendar,12,fresno-ca+los-angeles-ca+madera-ca+napa-ca+nevada-ca+orange-ca+riverside-ca+sacramento-ca+san-diego-ca+san-mateo-ca+santa-clara-ca+ventura-ca,5.66,2.34,8.99,,,,,,,,,,,,
+theta_step_2018,calendar,5,madera-ca+napa-ca+nevada-ca+sacramento-ca+san-mateo-ca,-10.30,-9.24,-11.36,,,,,,,,,,,,
+theta_step_2022,calendar,3,riverside-ca+san-diego-ca+ventura-ca,7.44,3.76,11.13,,,,,,,,,,,,

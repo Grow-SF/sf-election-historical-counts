@@ -1,0 +1,85 @@
+{
+  "jurisdiction": "San Luis Obispo County",
+  "state": "CA",
+  "adoption": { "epollbook": 2026, "asv": null },
+  "elections": [
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": 98458,
+      "certified_final": 126818,
+      "election_night_pct": 77.64,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20121118201304/http://www.slocounty.ca.gov:80/Assets/CR/Elections/November+6$!2c+2012+Presidential+General+Election/ElectionNightResults.pdf",
+      "confidence": "primary",
+      "note": "PLATEAU = 98,458, CONFIRMED. San Luis Obispo's own registrar posted a permanent PDF at the exact filename 'ElectionNightResults.pdf' under the 2012 election folder; the Wayback capture (crawled 11/18/2012, a static-file capture, not a version-pinned CDN) shows the report's own internal generation stamp: 'Election Summary Report Date:11/07/12 Time:00:08:03 ... FINAL UNOFFICIAL ELECTION NIGHT RESULTS. Registered Voters 158603 - Cards Cast 98458 62.08% Num. Report Precinct 147 - Num. Reporting 147 100.00%'. 147 of 147 precincts fully reporting, generated 11/7/2012 12:08:03 AM PST (just after midnight election night). BRACKET PROOF: the county's own later report series at the same URL path, 'UnofficialElectionResults.pdf' titled 'UNOFFICIAL ELECTION RESULTS AFTER COUNTING 11/16/12' (Cards Cast 123,757, +25,299 over this row) -- a 9-day gap -- proves the Nov 7 00:08 report was the last continuous report of election night before the canvass resumed; canvass continued to 'Final Official Election Results.pdf' generated 11/28/12 10:09:06 AM, Cards Cast 126,818, matching the SoS certified total EXACTLY. 98,458 is NOT the 8 PM first tranche (no earlier archived version exists at this URL; SLO's registrar posts one file per report round, this is the first and only 'ElectionNightResults.pdf' capture) and NOT a canvass figure (canvass figures are strictly higher and explicitly labeled 'AFTER COUNTING'/'FINAL OFFICIAL'). Certified final 126,818 ballots (CA SoS Voter Participation Statistics by County: 46,578 precinct + 80,240 VBM = 126,818; 79.96% of 158,603 registered, matching the report's own 'Registered Voters 158603' line exactly). Pct = 98,458/126,818 = 77.64%. Pre-e-pollbook (SLO's first e-pollbook election is June 2026); ASV never adopted (see county-tech record). Fetched via curl with a User-Agent header and --compressed; the raw id_ Wayback replay of this specific artifact carries no content-encoding:gzip header so plain curl also works."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": 63180,
+      "certified_final": 87705,
+      "election_night_pct": 72.04,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20141114092811/http://www.slocounty.ca.gov/Assets/CR/Elections/November+4+$!2c+2014+Consolidated+General+Election/UENR.pdf",
+      "confidence": "primary",
+      "note": "PLATEAU = 63,180, CONFIRMED. SLO's registrar posted 'UENR.pdf' (Unofficial Election Night Results) under the 2014 election folder; Wayback capture 20141114092816 302-redirects (mere 5-second timestamp alias, per RUNBOOK 7.1) to 20141114092811, the actual stored capture. Internal stamp: 'Election Summary Report Date:11/04/14 Time:23:17:07 ... FINAL UNOFFICIAL ELECTION NIGHT SUMMARY. Registered Voters 150139 - Ballots Cast 63180 42.08% Num. Report Precinct 163 - Num. Reporting 163 100.00%'. 163 of 163 precincts fully reporting, generated 11/4/2014 11:17:07 PM PST (election night itself). BRACKET PROOF: the county's dated report series at the same folder -- 'UnofficialElectionResults.pdf' captured 11/14 reads '111214 UNOFFICIAL ELECTION RESULTS SUMMARY' generated 11/12/2014 4:26:38 PM (Ballots Cast 85,913, +22,733) -- an 8-day gap -- then the same-name file captured 11/30 reads 'UNOFFICIAL FINAL ELECTION SUMMARY / BALLOT COUNTING IS COMPLETE' generated 11/18/2014 3:28:54 PM (87,705); 'OfficialResults.pdf' generated 11/19/2014 10:28:42 AM reads 'FINAL OFFICIAL SUMMARY', Ballots Cast 87,705, matching the SoS certified total EXACTLY. This proves 63,180 was the last continuous report of election night. 63,180 is NOT the 8 PM first tranche (this is SLO's own labeled FINAL night summary, not an interim one) and NOT a canvass figure (all later reports are strictly higher and explicitly dated/labeled as post-night updates). Certified final 87,705 ballots (CA SoS Voter Participation Statistics by County: 25,417 precinct + 62,288 VBM = 87,705; 58.42% of 150,139 registered, matching the report's own 'Registered Voters 150139' line exactly; 2014's historically low midterm turnout). Pct = 63,180/87,705 = 72.04%. Pre-e-pollbook; ASV never adopted."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": 95560,
+      "certified_final": 139685,
+      "election_night_pct": 68.41,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20161115102722/http://www.slocounty.ca.gov/Assets/CR/Elections/November+8$!2c+2016+Presidential+General+Election/Unofficial+Election+Night+Results.pdf",
+      "confidence": "primary",
+      "note": "PLATEAU = 95,560, CONFIRMED. SLO's registrar posted 'Unofficial Election Night Results.pdf' under the 2016 election folder. Internal stamp: 'Election Summary Report Date:11/09/16 Time:00:10:54 ... NOVEMBER 8, 2016 PRESIDENTIAL GENERAL ELECTION. FINAL UNOFFICIAL ELECTION NIGHT RESULTS. Registered Voters 168257 - Ballots Cast 95560 56.79% Num. Report Precinct 160 - Num. Reporting 160 100.00%'. 160 of 160 precincts fully reporting, generated 11/9/2016 12:10:54 AM PST (election night). BRACKET PROOF: the same folder's 'Updated Unofficial Election Results.pdf' captured 11/29 reads 'UNOFFICIAL ELECTION RESULTS - AFTER COUNTING 11-23-16' generated 11/23/2016 3:11:37 PM (Ballots Cast 133,675, +38,115) -- a 2-week gap -- then 'Nov 8 2016 Presidential General Final Official Election Results.pdf' generated 12/2/2016 2:27:45 PM reads 'FINAL OFFICIAL ELECTION RESULTS', Ballots Cast 139,685, matching the SoS certified total EXACTLY. 95,560 is NOT the 8 PM first tranche (this is the county's own labeled FINAL night result, generated after full precinct reporting) and NOT a canvass figure. Certified final 139,685 ballots (CA SoS Voter Participation Statistics by County: 40,994 precinct + 98,691 VBM = 139,685; 83.02% of 168,257 registered, matching the report's own 'Registered Voters 168257' line exactly). Pct = 95,560/139,685 = 68.41%. Pre-e-pollbook; ASV never adopted."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": 81663,
+      "certified_final": 128353,
+      "election_night_pct": 63.62,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20210918155924/https://www.slocounty.ca.gov/Departments/Clerk-Recorder/Forms-Documents/Elections-and-Voting/Past-Elections/General-Elections/2018-11-06-Consolidated-General/Reports-and-Results/Unofficial-Election-Night-Summary-Report-2018-11.pdf",
+      "confidence": "primary",
+      "note": "PLATEAU = 81,663, CONFIRMED. SLO migrated to a CivicPlus-style CMS for 2018; the friendly '.aspx' landing page 301-redirects across a category-rename chain (Current-Elections -> Past-Elections), but the underlying static file survives at the matching '.pdf' path (RUNBOOK-style CMS quirk: the http:// aspx form 301s, the static filename itself is a stable 200 PDF). Internal stamp: 'Page: 1 of 32 11/7/2018 11:10:42 AM ... ELECTION SUMMARY REPORT. NOVEMBER 6, 2018 CONSOLIDATED GENERAL ELECTION. COUNTY OF SAN LUIS OBISPO. FINAL UNOFFICIAL ELECTION NIGHT RESULTS. Precincts Reported: 156 of 156 (100.00%). Registered Voters: 81,663 of 172,544 (47.33%). Ballots Cast: 81,663'. Generated 11/7/2018 11:10:42 AM PST -- mid-morning the day after, but explicitly self-titled 'FINAL UNOFFICIAL ELECTION NIGHT RESULTS' with the canvass not yet resumed, the same class of exception RUNBOOK section 1 documents for San Bernardino 2024's 10 a.m. posting. BRACKET PROOF: the same report series' 'Final-Official-Election-Summary-Report-2018-11-0.pdf', generated 11/30/2018 3:55:35 PM, reads 'FINAL OFFICIAL ELECTION RESULTS. Registered Voters: 128,353 of 172,544 (74.39%). Ballots Cast: 128,353' -- matching the SoS certified total EXACTLY, a 23-day gap after this row's report, proving 81,663 was the last election-night report before the canvass completed. 81,663 is NOT the 8 PM first tranche and NOT a canvass figure. Certified final 128,353 ballots (CA SoS Voter Participation Statistics by County: 31,257 precinct + 97,096 VBM = 128,353; 74.39% of 172,544 registered, matching the report's own registered-voter line exactly). Pct = 81,663/128,353 = 63.62%. Pre-e-pollbook; ASV never adopted."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 58096,
+      "certified_final": 121156,
+      "election_night_pct": 47.95,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20221115203615/https://www.slocounty.ca.gov/Departments/Clerk-Recorder/Forms-Documents/Elections-and-Voting/Current-Elections/2022-11-08-Gubernatorial-General/Reports-and-Results/Final-Unofficial-Election-Night-Results.pdf",
+      "confidence": "primary",
+      "note": "PLATEAU = 58,096, CONFIRMED. SLO's registrar posted 'Final-Unofficial-Election-Night-Results.pdf' under the 2022 election folder; Wayback crawled it 11/15/2022 (the file's stable URL, unchanged since the night it was posted, per RUNBOOK 7.3's 'a frozen live-results file a later capture still shows unchanged is good plateau evidence'). Internal stamp: 'Page: 1 of 28 11/9/2022 12:28:45 AM ... NOVEMBER 8, 2022, GENERAL ELECTION. COUNTY OF SAN LUIS OBISPO. FINAL UNOFFICIAL ELECTION NIGHT RESULTS. Precincts Reported: 133 of 133 (100.00%). Voters Cast: 58,096 of 182,291 (31.87%)'. Generated 11/9/2022 12:28:45 AM PST (election night). BRACKET PROOF: 'Unofficial-Election-Results.pdf' captured 12/7/2022 reads 'UNOFFICIAL ELECTION RESULTS - 11/23/2022 UPDATE' generated 11/23/2022 2:33:30 PM (Voters Cast 110,096, +52,000) -- a 2-week gap -- and 'Final-Official-Election-Results.pdf' generated 12/7/2022 12:38:57 PM reads 'FINAL OFFICIAL ELECTION RESULTS. Voters Cast: 121,156 of 182,291 (66.46%)', matching the SoS certified total EXACTLY. 58,096 is NOT the 8 PM first tranche and NOT a canvass figure. Certified final 121,156 ballots (CA SoS Voter Participation Statistics by County: 8,195 precinct + 112,961 VBM = 121,156; 66.45% of 182,340 registered). The share dropped sharply from 2018's 63.62% to 47.95% despite NO tech change at SLO (still pre-e-pollbook, no VCA, no ASV): this tracks California's 2021 permanent-vote-by-mail law (AB 37, effective for this election) plus the extended postmark-counting window (ballots postmarked by Election Day now count if received up to 7 days later, versus 3 days pre-2022), a statewide confound independent of any county-level counting technology, matching the same-shaped drop seen in Ventura 2022 (also non-VCA-caused in Ventura's precinct-count years but tech-driven there in 2022 since Ventura adopted VCA that year; SLO's drop, by contrast, has NO tech explanation at all, since SLO adopted nothing between 2018 and 2022, which is itself evidence that the mail-processing-law change alone can move the election-night share)."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 82548,
+      "certified_final": 153432,
+      "election_night_pct": 53.8,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20241117025144/https://www.slocounty.ca.gov/departments/clerk-recorder/forms-documents/elections-and-voting/current-elections/2024-11-05-presidential-general/reports-and-results/2024-general-final-unofficial-electionnight",
+      "confidence": "primary",
+      "note": "PLATEAU = 82,548, CONFIRMED. SLO's registrar posted '2024-general-final-unofficial-electionnight' (extensionless friendly URL serving a PDF directly, content-type application/pdf) under the 2024 election folder. Internal stamp: 'Page: 1 of 24 11/6/2024 12:10:19 PM ... NOVEMBER 5, 2024, GENERAL ELECTION. COUNTY OF SAN LUIS OBISPO. FINAL UNOFFICIAL ELECTION NIGHT RESULTS. Precincts Reported: 158 of 158 (100.00%). Voters Cast: 82,548 of 182,606 (45.21%)'. Generated 11/6/2024 12:10:19 PM PST -- mid-morning the day after, self-titled 'FINAL UNOFFICIAL ELECTION NIGHT RESULTS' with canvass not yet resumed (same San Bernardino-2024-style exception as SLO's own 2018 row). BRACKET PROOF: '2024-general-results' (a reused live-results URL) captured 11/10/2024 reads 'UNOFFICIAL ELECTION RESULTS - UPDATE 11/8/2024' generated 11/8/2024 2:27:58 PM (Voters Cast 98,548, +16,000) -- a 2-day gap -- and the same URL captured 12/25/2024 reads 'FINAL OFFICIAL ELECTION RESULTS' generated 12/3/2024 1:23:47 PM, Voters Cast 153,432 of 182,606 (84.02%), matching the SoS certified total EXACTLY. 82,548 is NOT the 8 PM first tranche and NOT a canvass figure. Certified final 153,432 ballots (CA SoS Voter Participation Statistics by County: 12,196 precinct + 141,236 VBM = 153,432; 83.98% of 182,701 registered -- the SOV's registered count, 182,701, differs slightly from this report's own 182,606 registered-voter snapshot, a normal small drift between the night-of-count voter roll and the certified SOV's later roll, not affecting the ballots-cast numerator or denominator). Pct = 82,548/153,432 = 53.80%. Pre-e-pollbook (SLO's first e-pollbook election is June 2026, per the county-tech record); ASV never adopted. (2020 deliberately excluded as the COVID all-mail outlier, matching this project's convention for every other county.)"
+    }
+  ]
+}

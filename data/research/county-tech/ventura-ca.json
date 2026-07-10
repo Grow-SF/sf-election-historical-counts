@@ -1,0 +1,121 @@
+{
+  "jurisdiction": "Ventura County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "adopted",
+      "adopted_year": 2022,
+      "first_election": "2022-06",
+      "vendor": "County of Ventura Elections Division proprietary EIMS (Election Information Management System), VoteCal-integrated, on a hardened laptop at each Vote Center",
+      "evidence_url": "https://elections.cdn.sos.ca.gov/vca/eap/ventura-eap.pdf",
+      "confidence": "secondary",
+      "note": "Ventura's Election Administration Plan Renewal (July 2023, elections.cdn.sos.ca.gov/vca/eap/ventura-eap.pdf, p.5 'VOTING TECHNOLOGY') states: 'VCA voter look-up technology utilizes a combination of electronic hardware and software to ensure secure electronic communication between the Vote Centers and the County of Ventura Elections Division's Election Information Management System (EIMS). EIMS interfaces directly with the Secretary of State's office through VoteCal... This VCA technology operates on a laptop that is hardened.' The EAP also states a returned ballot is 'automatically voided' at every other Vote Center once cast at any one -- a real-time cross-location voter-status check, the defining function of an e-pollbook. This adopted with Ventura's first VCA election, the June 7, 2022 Statewide Direct Primary (county press release: 'Ventura County's first full Voter's Choice Act election'; LWVC: Secretary of State Weber's 2022 new-VCA-county announcement names Ventura among 11 counties adopting VCA in 2022). DOCUMENTED CONFLICT, do not silently resolve: the CA SoS's own 'Voting Technologies in Use by County' survey (as of Oct 10, 2025, https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf) lists Ventura's 'Electronic Pollbook' column as 'Do not use', while the SAME row shows a real 'Ballot on Demand VoteCenter/Polling Place' device ('Dominion MBP 5.19'), i.e. Ventura is clearly running the VCA vote-center model with on-demand ballot printing but is not credited with one of the SoS's tracked NAMED commercial e-pollbook products (e.g. KNOWiNK, DFM EIMS/Vote Center App). Confidence held at 'secondary' (not 'primary') specifically because two primary-grade sources disagree on whether Ventura's proprietary look-up system counts as an 'electronic pollbook' in the state's own taxonomy; a verifier should re-check with the Ventura Elections Division directly which classification is current. (Cf. the project's own SF/DFM caveat: a snapshot survey taken well after the elections in question can miss or misclassify a county's actual practice.)"
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://elections.cdn.sos.ca.gov/vca/eap/ventura-eap.pdf",
+      "confidence": "primary",
+      "note": "No automated signature-verification software found. Ventura's EAP describes human review only: 'Once a VBM ballot is returned to the Elections Division, the VBM ballot envelope is signature checked against the voter's signature(s) on their voter file and any supporting documents. The VBM ballot is not processed until Elections Division staff determines the signature is a match.' The companion VCA FAQ (clerkrecorder.venturacounty.gov/wp-content/uploads/2022/03/VCA_FAQ.pdf) uses identical staff-comparison language. No ASV vendor or scanner-matching software named anywhere in county materials found in this pass."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://elections.cdn.sos.ca.gov/vca/eap/ventura-eap.pdf",
+      "confidence": "primary",
+      "note": "No in-Vote-Center mail-ballot verify-and-scan (AB 626 'Sign-Scan-and-Go') program found. Ventura's EAP states plainly: 'All voted ballots are returned nightly to the Elections Division. Tabulation is performed at the Elections Division and there are no tabulators at any Vote Centers.' This directly rules out any Vote Center-side scan/tabulate step (the model piloted elsewhere, e.g. Placer). Confidence primary: the county's own EAP affirmatively describes the opposite (central-only tabulation), not merely an absence of evidence."
+    },
+    {
+      "type": "vote-center",
+      "status": "adopted",
+      "adopted_year": 2022,
+      "first_election": "2022-06",
+      "vendor": "",
+      "evidence_url": "https://recorder.countyofventura.org/county-clerk/press-releases/official-final-results-and-certification-announced-for-june-7-2022-statewide-direct-primary-election-ventura-countys-first-full-voters-choice-act-election/",
+      "confidence": "primary",
+      "note": "Ventura adopted the Voter's Choice Act (VCA) vote-center model in 2022 (SoS Weber's 2022 announcement names Ventura among 11 new VCA counties that year, alongside Alameda, Marin, Merced, Riverside, San Benito, San Diego, Santa Cruz, Sonoma, Stanislaus, and Yolo). Ventura's own registrar press release titles the June 7, 2022 Statewide Direct Primary Election 'Ventura County's first full Voter's Choice Act election' (51 Vote Centers open by Election Day, staggered 10-day/3-day openings starting May 28). Ventura was NOT on the CA SoS's 2020 VCA-county report (the 15-county list: Amador, Butte, Calaveras, El Dorado, Fresno, Los Angeles, Madera, Mariposa, Napa, Nevada, Orange, Sacramento, San Mateo, Santa Clara, Tuolumne), confirming 2022 as the correct first adoption year, not an earlier pilot. Ventura's first EAP was adopted in 2022 and renewed July 2023 (Final Revision 7-6-23, elections.cdn.sos.ca.gov/vca/eap/ventura-eap.pdf)."
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "electionnight_pct",
+      "year": 2012,
+      "value": 77.76,
+      "denominator": "certified final ballots (256,927 / 330,419, CA SoS Statement of Vote Voter Participation Statistics by County)",
+      "source_url": "https://web.archive.org/web/20121109175939/http://results.enr.clarityelections.com:80/CA/Ventura/43954/110763/en/summary.html",
+      "confidence": "primary",
+      "note": "From this project's own election-night dataset (data/research/election-night/ventura-ca.json, 2012-11-06 row): Clarity ENR version 110763 (630 of 630 precincts completely reported, 'Updated 11/7/2012 2:11:37 AM PST'), bracketed against the next version 111498 ('Semi Official Update #1', 11/9/2012 12:12:16 PM PST, higher ballot count) proving 110763 was the last election-night report. Pre-e-pollbook, pre-ASV, pre-VCA."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2014,
+      "value": 75.3,
+      "denominator": "certified final ballots (153,442 / 203,783, CA SoS Statement of Vote Voter Participation Statistics by County)",
+      "source_url": "https://web.archive.org/web/20141107151451/http://results.enr.clarityelections.com:80/CA/Ventura/53334/147874/en/summary.html",
+      "confidence": "primary",
+      "note": "From this project's own election-night dataset (ventura-ca.json, 2014-11-04 row): Clarity ENR version 147874 (614 of 614 precincts completely reported, 'Website last updated 11/5/2014 1:01:18 AM PST'), bracketed against the next version 148521 (11/7/2014 12:17:57 PM PST, +13,244 ballots, 2 days later) proving 147874 was the last election-night report. Pre-e-pollbook, pre-ASV, pre-VCA."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2016,
+      "value": 71.09,
+      "denominator": "certified final ballots (258,250 / 363,285, CA SoS Statement of Vote Voter Participation Statistics by County)",
+      "source_url": "https://web.archive.org/web/20161112105111/http://results.enr.clarityelections.com:80/CA/Ventura/63616/182694/en/summary.html",
+      "confidence": "primary",
+      "note": "From this project's own election-night dataset (ventura-ca.json, 2016-11-08 row): Clarity ENR version 182694 (684 of 684 precincts completely reported, 'Last updated 11/9/2016 12:51:27 AM PST'), bracketed against the next version 182919 (11/10/2016 2:56:28 PM PST, +11,529 ballots, >1.5 days later) proving 182694 was the last election-night report. Pre-e-pollbook, pre-ASV, pre-VCA."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2018,
+      "value": 64.13,
+      "denominator": "certified final ballots (201,298 / 313,871, CA SoS Statement of Vote Voter Participation Statistics by County)",
+      "source_url": "https://web.archive.org/web/20260710005310/https://results.enr.clarityelections.com/CA/Ventura/89299/220414/json/sum.json",
+      "confidence": "primary",
+      "note": "From this project's own election-night dataset (ventura-ca.json, 2018-11-06 row): Clarity ENR version 220414 (742 of 742 precincts reporting, websiteupdatedat 11/7/2018 2:19:16 AM PST), bracketed against the next version 221160 (11/9/2018 3:11:17 PM PST, +17,851 ballots, >2 days later) proving 220414 was the last election-night report. Still pre-VCA/pre-e-pollbook by this project's own adoption finding (Ventura's first VCA election was June 2022)."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2022,
+      "value": 54.11,
+      "denominator": "certified final ballots (153,682 / 284,013, CA SoS Statement of Vote Voter Participation Statistics by County)",
+      "source_url": "https://web.archive.org/web/20221109141658/https://results.enr.clarityelections.com/CA/Ventura/115748/311920/json/sum.json",
+      "confidence": "primary",
+      "note": "From this project's own election-night dataset (ventura-ca.json, 2022-11-08 row): Clarity ENR version 311920 (1,640 of 1,640 precincts reporting, websiteupdatedat 11/9/2022 1:27:17 AM PST), bracketed against the next version 312263 (11/10/2022 12:04:25 PM PST, +19,094 ballots, >34 hours later) proving 311920 was the last election-night report. FIRST general under Ventura's VCA/vote-center model (adopted June 2022): the share dropped from 2018's 64.13% to 54.11%, consistent with the VCA all-mail/vote-center shift observed elsewhere in this dataset (e.g. Napa 2018, San Mateo 2018)."
+    },
+    {
+      "metric": "electionnight_pct",
+      "year": 2024,
+      "value": 67.79,
+      "denominator": "certified final ballots (267,226 / 394,197, CA SoS Statement of Vote Voter Participation Statistics by County)",
+      "source_url": "https://web.archive.org/web/20241106171738/https://results.enr.clarityelections.com/CA/Ventura/122837/353328/json/sum.json",
+      "confidence": "primary",
+      "note": "From this project's own election-night dataset (ventura-ca.json, 2024-11-05 row): Clarity ENR version 353328 (1,115 of 1,419 precincts reporting, websiteupdatedat 11/6/2024 3:19:32 AM PST), bracketed against the next version 353719 (11/7/2024 4:04:33 PM PST, +11,410 ballots, ~37 hours later) proving 353328 was the last election-night report. Post-VCA (adopted 2022); presidential-year turnout is higher than the 2022 midterm in both numerator and share, consistent with the pattern of other post-VCA counties in this dataset (e.g. Madera 2022->2024)."
+    },
+    {
+      "metric": "oneweek_pct",
+      "year": 2024,
+      "value": null,
+      "denominator": "",
+      "source_url": "",
+      "confidence": "none",
+      "note": "Not collected: California Voter Foundation 'Ballot Processing' page (calvoter.org/content/ballot-processing) returned HTTP 403 to both curl (with a browser User-Agent) and WebFetch in this pass (a bot-wall, not a missing page). Per RUNBOOK 6.7, not burning further time on this wall; the shared browser session was unavailable for this task (another agent was using it), so no puppeteer/Claude-in-Chrome attempt was made either. FLAG for manual operator: revisit calvoter.org/content/ballot-processing for Ventura's one-week-counted chart values once a browser session is free."
+    },
+    {
+      "metric": "days_to_90",
+      "year": 2024,
+      "value": null,
+      "denominator": "",
+      "source_url": "",
+      "confidence": "none",
+      "note": "Not collected: requires per-day canvass totals to find the day cumulative count first reached >=90% of certified final. Ventura County does not appear to publish a per-day canvass table in an accessible form; not collected in this pass."
+    }
+  ],
+  "notes": "TECH: Ventura adopted the Voter's Choice Act vote-center model in 2022 (first election June 7, 2022 primary), one of 11 counties in that year's second VCA wave. Its EAP describes a real-time voter look-up system (proprietary EIMS, VoteCal-integrated) functioning as an e-pollbook, but the CA SoS's own October 2025 statewide equipment survey lists Ventura's 'Electronic Pollbook' column as 'Do not use' -- a genuine, unresolved conflict between two primary sources, documented rather than silently picked one way (see the epollbook tech record's note). ASV: not adopted, staff perform signature comparison by eye (EAP language). Sign-Scan-and-Go: not adopted, all ballots are tabulated centrally, no Vote Center tabulators. METRICS: electionnight_pct populated for all six Nov generals 2012-2024 directly from this project's own data/research/election-night/ventura-ca.json (all six rows CONFIRMED via Clarity CDN version-bracket evidence, see that file and its VERIFY.md section for full detail). oneweek_pct blocked by a calvoter.org bot-wall (curl and WebFetch both 403); left null and flagged for a manual-browser follow-up pass. days_to_90 not collected (no per-day canvass data found)."
+}

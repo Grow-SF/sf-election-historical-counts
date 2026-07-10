@@ -8,7 +8,14 @@ gathered per row: Clarity CDN version brackets, internal report
 timestamps and last-of-night titles, county posting schedules, held
 counts in later captures, and Wayback CDX capture histories.
 
-Verdicts: 48 CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 1 REFUTED_AND_CORRECTED.
+Verdicts: 54 CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 1 REFUTED_AND_CORRECTED.
+
+(2026-07-09 addendum: Ventura County's six rows were adjudicated in a
+follow-on pass, same method. All six recovered via Clarity CDN version
+brackets, three from the Web01-era HTML API (2012, 2014, 2016, no
+electionsettings.json for those eids) and three from the JSON API
+(2018, 2022, 2024). See the per-row entries appended at the end of
+this file and in plateau_review.json.)
 
 | County | Date | Verdict | Basis | Evidence |
 |---|---|---|---|---|
@@ -105,3 +112,39 @@ clarity version walk recovers the true plateau.
 
 cited v353583 (11/6 4:46 PM, BC 468,395) is a next-day canvass bump; the night sequence is v353205 11:57 PM BC 459,487 then v353227 12:16 AM BC 460,325 (last of the night, held through v353516 at 1:10 PM); corrected to 460,325
 
+
+### ventura-ca 2012-11-06: CONFIRMED
+
+clarity version bracket (Web01 HTML, no JSON API).
+
+v110763 '630 of 630 Precincts Completely Reported, Updated 11/7/2012 2:11:37 AM PST', BC 256,927; next v111498 titled 'Semi Official Update #1', dated 11/9/2012 12:12:16 PM PST, BC 270,851
+
+### ventura-ca 2014-11-04: CONFIRMED
+
+clarity version bracket (Web01 HTML, no JSON API).
+
+v147874 '614 of 614 Precincts Completely Reported, Website last updated 11/5/2014 1:01:18 AM PST', BC 153,442; next v148521 dated 11/7/2014 12:17:57 PM PST, BC 166,686
+
+### ventura-ca 2016-11-08: CONFIRMED
+
+clarity version bracket (Web01 HTML, no JSON API).
+
+v182694 '684 of 684 Precincts Completely Reported, Last updated 11/9/2016 12:51:27 AM PST', BC 258,250; next v182919 dated 11/10/2016 2:56:28 PM PST, BC 269,779
+
+### ventura-ca 2018-11-06: CONFIRMED
+
+clarity version bracket, re-derived from CDN.
+
+cited v220414 stamped 11/7/2018 2:19:16 AM PST, PR 742/742, BC 201,298; next v221160 stamped 11/9/2018 3:11:17 PM PST, BC 219,149
+
+### ventura-ca 2022-11-08: CONFIRMED
+
+clarity version bracket, re-derived from CDN.
+
+cited v311920 stamped 11/9/2022 1:27:17 AM PST, PR 1,640/1,640, BC 153,682; next v312263 stamped 11/10/2022 12:04:25 PM PST, BC 172,776
+
+### ventura-ca 2024-11-05: CONFIRMED
+
+clarity version bracket, re-derived from CDN.
+
+cited v353328 stamped 11/6/2024 3:19:32 AM PST, PR 1,115/1,419, BC 267,226; next v353719 stamped 11/7/2024 4:04:33 PM PST, BC 278,636

@@ -13,10 +13,26 @@ HUMAN_VERIFY.md   - the hand-check packet covering EVERY sourced row: machine
 """
 import json
 import pathlib
+import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from en_common import CACHE, EN, load_rows, norm_pct
+
+EXCERPT_LEN = 300
+# A dated recovery/correction tail (e.g. "CORRECTION (2026-07-09, review):")
+# means the note's FRONT is a stale opening (often "PLATEAU NOT SOURCEABLE")
+# superseded by that tail; excerpt from the LAST such marker instead.
+TAIL_MARKER_RE = re.compile(
+    r"(RECOVERY|CORRECTION|ALTARCHIVE SWEEP|NEWSBANK DEAD-END)[^:]*\(20\d\d-\d\d-\d\d[^)]*\):"
+)
+
+
+def note_excerpt(note):
+    markers = list(TAIL_MARKER_RE.finditer(note))
+    if markers:
+        return note[markers[-1].start():][:EXCERPT_LEN]
+    return note[:EXCERPT_LEN]
 
 
 def load_results():
@@ -104,7 +120,7 @@ def main():
                 + (f", share **{share}%**" if share is not None else ""),
                 f"      numerator URL: {r.get('source_url_night') or '(none)'}",
                 f"      denominator URL: {r.get('source_url_final')}",
-                f"      look for: {(r.get('note') or '')[:300]}",
+                f"      look for: {note_excerpt(r.get('note') or '')}",
             ]
         )
         if b is not None:
