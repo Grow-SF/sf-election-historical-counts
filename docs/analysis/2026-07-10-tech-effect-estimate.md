@@ -1,3 +1,5 @@
+> **2026-07-10: superseded by [2026-07-10-vca-bundle-tech-effect.md](2026-07-10-vca-bundle-tech-effect.md)** (framing rewrite around the VCA-bundle finding and composition decomposition); the numbers below reflect the pre-primaries panel.
+
 # Does counting technology speed up the election-night count? A first defensible estimate
 
 **Date:** 2026-07-10
