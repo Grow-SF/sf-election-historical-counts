@@ -79,6 +79,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2012-11-06
       controller verdict: CONFIRMED (certified-minus-outstanding derivation, corroborated by two independently-bylined articles, bracketed by the registrar's own posting schedule)
 
+- [ ] **riverside-ca 2014-11-04** (secondary confidence)
+      claimed: night ballots **264,764**, certified final **357,764**, share **74.01%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/151717B89F05D948
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf
+      look for: Certified final = 357,764 ballots (Election Day 124,829 + VBM 232,935) from CA SoS 2014 complete Statement of Vote, Voter Participation Statistics page, primary; registration 891,575, final turnout 40.13%. Wayback/press-release/DocumentCenter/social-handle routes exhausted (no election-night eresult
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2014-11-04
+      controller verdict: CONFIRMED (certified-minus-outstanding registrar derivation, cross-checked by an independent turnout-percentage x registration calculation from a second bylined article)
+
 - [ ] **riverside-ca 2024-11-05** (secondary confidence)
       claimed: night ballots **611,101**, certified final **959,098**, share **63.7%**
       numerator URL: https://web.archive.org/web/20241107034053/https://www.livevoterturnout.com/ENR/riversidecaenr/5/en/Index_5.html

@@ -82,5 +82,12 @@
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14270915258D4BE8",
   "evidence": "Unofficial final results from the county Registrar of Voters show Kevin Jeffries leading Buster ... with all precincts reporting. But about 183,000 vote-by-mail, provisional and damaged ballots remained to be counted. Certified final 669,627 minus 183,000 = 486,627 counted through election night (72.67%).",
   "method": "newsbank-sfpl-manual"
+ },
+ {
+  "slug": "riverside-ca",
+  "date": "2014-11-04",
+  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/151717B89F05D948",
+  "evidence": "The Riverside County Registrar of Voters office announced that 93,000 votes are still to be processed, including 66,000 vote-by-mail ballots, 19,000 provisional ballots and 8,000 damaged ballots. The next update will be posted at 6 p.m. tonight. Certified final 357,764 minus 93,000 = 264,764 counted through election night (74.01%).",
+  "method": "newsbank-sfpl-manual"
  }
 ]

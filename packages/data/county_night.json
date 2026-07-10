@@ -613,12 +613,12 @@
         {
           "year": 2014,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 74.01,
+          "ballots": 264764,
           "final": 357764,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/151717B89F05D948"
         },
         {
           "year": 2016,

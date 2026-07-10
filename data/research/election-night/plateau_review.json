@@ -537,5 +537,12 @@
   "verdict": "CONFIRMED",
   "basis": "certified-minus-outstanding derivation, corroborated by two independently-bylined articles, bracketed by the registrar's own posting schedule",
   "evidence": "'Buster facing defeat' (news/14270915258D4BE8) and 'Bono Mack, Baca ousters hit clout' (news/14270914E8F945E8), both Nov 8 2012 Press-Enterprise: both state 'with all precincts reporting' and 'about 183,000 vote-by-mail, provisional and damaged ballots remained to be counted countywide'; the registrar's next update is explicitly scheduled for 6 p.m. Thursday Nov 8, and Buster 'didn't concede Wednesday, Nov. 7', confirming no update moved the count between election night and the Wednesday print deadline (San Diego 2012 pattern). 669,627 minus 183,000 = 486,627 (72.67%)."
+ },
+ {
+  "slug": "riverside-ca",
+  "date": "2014-11-04",
+  "verdict": "CONFIRMED",
+  "basis": "certified-minus-outstanding registrar derivation, cross-checked by an independent turnout-percentage x registration calculation from a second bylined article",
+  "evidence": "'Council members succeed, struggle' (news/151717B89F05D948): 'The Riverside County Registrar of Voters office announced that 93,000 votes are still to be processed ... The next update will be posted at 6 p.m. tonight.' 357,764 minus 93,000 = 264,764 (74.01%). Cross-check: 'a new low in area's Voter turnout?' (news/151717B8F7250120) states turnout 29.8% as of Wednesday, projected final 39-40% (matches actual certified 40.13%); 29.8% x 891,575 registered = 265,689, within 0.3% of the 264,764 derivation."
  }
 ]

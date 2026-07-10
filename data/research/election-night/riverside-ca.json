@@ -19,15 +19,15 @@
     {
       "date": "2014-11-04",
       "type": "midterm",
-      "election_night_ballots": null,
+      "election_night_ballots": 264764,
       "certified_final": 357764,
-      "election_night_pct": null,
+      "election_night_pct": 74.01,
       "vs_epollbook": "pre",
       "vs_asv": "pre",
       "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf",
-      "source_url_night": null,
-      "confidence": "none",
-      "note": "Certified final = 357,764 ballots (Election Day 124,829 + VBM 232,935) from CA SoS 2014 complete Statement of Vote, Voter Participation Statistics page, primary. Election-night plateau not sourceable: the only Wayback capture of the eresults page is 2014-11-20 (post-certification canvass), no election-night-stage snapshot. Re-verified 2026-06: Riverside's /Elections/20141104/docs/ press-release archive contains only operational releases (no morning-after 'semi-official results' release stating an election-night total), so the registrar-release route yields nothing either; plateau remains unsourceable. DEAD-END NOTE EXTENSION (2026-07-09, Task 9): checked whether Riverside's elections CMS (voteinfo.net / livevoterturnout.com) runs CivicPlus DocumentCenter (the module that yields guessable sequential report IDs for Nevada and Napa counties) -- it does not (CDX prefix probe of www.rivco.org/DocumentCenter: 0 captures), so no ID-walk was possible. Checked the brief's named registrar Twitter handle @RivCoVote via Wayback CDX (exact URL and matchType=prefix, unrestricted date range): zero captures under any form; a small set of plausible alternate handles (RivCoElections, VoteRiverside, RiversideVotes) also returned zero. No Facebook page candidate for Riverside's registrar was found either. No new route found; row remains as documented above."
+      "source_url_night": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/151717B89F05D948",
+      "confidence": "secondary",
+      "note": "Certified final = 357,764 ballots (Election Day 124,829 + VBM 232,935) from CA SoS 2014 complete Statement of Vote, Voter Participation Statistics page, primary; registration 891,575, final turnout 40.13%. Wayback/press-release/DocumentCenter/social-handle routes exhausted (no election-night eresults capture; no registrar semi-final release -- see prior dead-end history). RECOVERY (2026-07-09, Task 7, NewsBank Press-Enterprise): 'Council members succeed, struggle' (Nov 6 2014, docref news/151717B89F05D948): 'The Riverside County Registrar of Voters office announced that 93,000 votes are still to be processed, including 66,000 vote-by-mail ballots, 19,000 provisional ballots and 8,000 damaged ballots. The next update will be posted at 6 p.m. tonight' (same Riverside pattern as 2012: held since election night, first post-night update two days later). Independent cross-check, 'a new low in area's Voter turnout?' (same date, docref news/151717B8F7250120): 'In Riverside County, turnout was 29.8 percent as of Wednesday. It likely will end up at about 39 or 40 percent once all the ballots are counted, said Registrar Rebecca Spencer' -- Spencer's '39 or 40 percent' estimate matches the eventual certified 40.13% almost exactly, validating the article; 29.8% x 891,575 registered = 265,689, within 0.3% of the 93,000-derived 264,764 (independent method, second bylined article). PLATEAU = 357,764 minus 93,000 outstanding = 264,764. 264,764/357,764 = 74.01%, high end of the ~55-75% precinct-era band but corroborated two independent ways. Comparable true. Confidence secondary (news-derived registrar figure)."
     },
     {
       "date": "2016-11-08",
