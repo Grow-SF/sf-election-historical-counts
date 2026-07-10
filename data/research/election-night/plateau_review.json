@@ -565,5 +565,12 @@
   "verdict": "CONFIRMED",
   "basis": "directly-stated overnight-Tuesday count, cross-checked by an internal turnout-estimate calculation in the same article",
   "evidence": "'Elections - Many Inland ballots still not processed or counted' (news/16F9051D0AED5530): 'elections workers counted about 322,000 ballots overnight Tuesday. On Wednesday, about 150,816 ballots remained to be counted, along with 8,929 damaged ballots and 43,818 provisional ... There are 942,474 registered voters ... so the unofficial turnout estimate is about 55 percent.' (322,000+203,563)/942,474=55.76%, matching the article's own estimate; certified 546,041/942,474=57.94% is close too. 322,000/546,041 = 58.97%."
+ },
+ {
+  "slug": "san-bernardino-ca",
+  "date": "2012-11-06",
+  "verdict": "REFUTED_AS_PLATEAU",
+  "basis": "the only sourceable remaining-ballot figure is explicitly framed as a post-night ('as of Thursday morning') state with no confirmed no-update bracket, and the resulting share (82.19%) is anomalously high with no precinct-era anchor for comparison",
+  "evidence": "'Many races await tallies' (news/14275EF93A805950): 'About 60,000 mail-in and 45,000 provisional ballots in San Bernardino County were uncounted as of Thursday morning ... Ballots cast at polling places and mailed prior to Election Day were all counted by 5:15 a.m. Wednesday.' 589,611 minus 105,000 = 484,611 (82.19%), well above the ~55-75% band and SF's own 71% (2012). Unlike Riverside in the same article, no 'not counting today' pause confirmation exists for San Bernardino, so counting plausibly moved between Wednesday and the Thursday-morning quote. Retained only as a flagged ceiling (comparable=false), not a confirmed plateau."
  }
 ]

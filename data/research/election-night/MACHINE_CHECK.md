@@ -113,6 +113,7 @@ verify_en_* scripts to regenerate).
 | sacramento-ca | 2024-11-05 | denominator | 668,416 | VERIFIED | 686 1,116,853 889,806 73,650 594,766 668,416 88.98% 75.12% 59.85% |
 | sacramento-ca | 2024-11-05 | numerator | 311,821 | VERIFIED | I-FINAL Voters Cast: 311,821 of 889,465 ( 35.06% ) Preside |
 | san-bernardino-ca | 2012-11-06 | denominator | 589,611 | VERIFIED | dino 1,609 1,259,676 851,581 306,324 283,287 589,611 48.05% 69.24% 46.81% |
+| san-bernardino-ca | 2012-11-06 | numerator | 484,611 | VERIFIED | render-verified: About 60,000 mail-in and 45,000 provisional ballots in San Bernardino County were uncounted as of Thurs |
 | san-bernardino-ca | 2014-11-04 | denominator | 293,283 | VERIFIED | ardino 1,737 1,273,684 851,684 117,179 176,104 293,283 60.05% 34.44% 23.03% |
 | san-bernardino-ca | 2016-11-08 | denominator | 672,871 | VERIFIED | nardino 1,789 1,308,522 888,019 287,315 385,556 672,871 57.30% 75.77% 51.42% |
 | san-bernardino-ca | 2018-11-06 | denominator | 546,041 | VERIFIED | 2,209 1,330,247 937,316 209,168 336,873 546,041 61.69% 58.26% 41.05% |

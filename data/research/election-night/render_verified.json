@@ -110,5 +110,12 @@
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F9051D0AED5530",
   "evidence": "In San Bernardino County, elections workers counted about 322,000 ballots overnight Tuesday. On Wednesday, about 150,816 ballots remained to be counted, along with 8,929 damaged ballots and 43,818 provisional and other ballots that require processing. 322,000/546,041 = 58.97%.",
   "method": "newsbank-sfpl-manual"
+ },
+ {
+  "slug": "san-bernardino-ca",
+  "date": "2012-11-06",
+  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14275EF93A805950",
+  "evidence": "About 60,000 mail-in and 45,000 provisional ballots in San Bernardino County were uncounted as of Thursday morning, said Elections Office spokeswoman Felisa Cardona. Ballots cast at polling places and mailed prior to Election Day were all counted by 5:15 a.m. Wednesday. 589,611 minus 105,000 = 484,611 (82.19%), retained as a ceiling, comparable=false.",
+  "method": "newsbank-sfpl-manual"
  }
 ]
