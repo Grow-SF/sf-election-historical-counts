@@ -432,8 +432,8 @@
   {
     "county": "Nevada",
     "slug": "nevada-ca",
-    "epollbook_year": 2018,
-    "asv_year": 2022,
+    "epollbook_year": 2014,
+    "asv_year": 2016,
     "vca_year": 2018,
     "status": "adopter",
     "confidence": "high",
@@ -441,9 +441,11 @@
       "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
       "https://www.nevadacountyca.gov/DocumentCenter/View/21900",
       "https://www.nevadacountyca.gov/DocumentCenter/View/47536/Mail-Ballot-Processing-Infographic",
-      "https://www.nevadacountyca.gov/2321/Voters-Choice-Act-Overview"
+      "https://www.nevadacountyca.gov/2321/Voters-Choice-Act-Overview",
+      "https://web.archive.org/web/20150222033106/http://yubanet.com/regional/Trading-in-the-Paper---Nevada-County-s-Electronic-Poll-Book-Journey.php",
+      "https://nevco.legistar.com/LegislationDetail.aspx?GUID=F2AD1997-3E3E-4C30-80F7-21F54318ADDF&ID=2840587"
     ],
-    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/nevada-ca.json (precedence source). One of the five original 2018 VCA pilot counties; electronic pollbook (currently Provista ViBE) dates to the June 5, 2018 first VCA election. ASV adopted: county's own Mail Ballot Processing Infographic describes envelopes passing through a 'signature verification machine' that auto-accepts a portion of signatures, with only the remainder going to human review; adopted_year=2022 is a documented LOWER BOUND (infographic archived by mid-2023; the exact first-use year could be earlier, e.g. 2018 or 2020). Locating query used originally: Nevada County VCA Overview page + Mail Ballot Processing Infographic PDF."
+    "note": "Kept in sync with the project's own researched record, data/research/county-tech/nevada-ca.json (precedence source). One of the five original 2018 VCA pilot counties (vca_year 2018). CORRECTION (2026-07-10, tech adjudication): epollbook_year 2018 -> 2014 and asv_year 2022 -> 2016, synced to the revised researched record. Epollbook 2014: Clerk-Recorder Diaz's Feb 2015 statement that electronic poll books replaced paper rosters in ALL polling places during the 2014 cycle (full countywide by Nov 2014), preceded by a June 2014 pilot; the 2018 VCA vote-center EPB is a distinct later generation tracked via the county-tech vote-center entry (so epollbook and vote-center flags don't double-count 2018). ASV 2016: executed 9/27/2016 ES&S MBV 1000 contract naming 'Automated Signature Recognition Software' and an 'Election setup support and training- 2016 General Election' line item; independent Nov-2016 live-use confirmation still outstanding (documented strong intended-first-use basis). The prior epollbook=2018 / asv=2022 (documented lower bound) reasoning is superseded."
   },
   {
     "county": "Orange",
