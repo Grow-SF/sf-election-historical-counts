@@ -261,3 +261,6 @@ notes for 2016-11-08, 2018-11-06, 2022-11-08). What a FAIL looks like: if a
 second, independent outlet contradicts YubaNet's stated ballot count or
 timing for any of the three years, since the dataset currently has no
 corroborating second source for any of them.
+
+
+UPDATE (2026-07-09, post-rollup): the second-control chart limitation is resolved. CountyNightTimelineChart now renders every complete jurisdiction (San Luis Obispo included, drawn as a control with the SF baseline overlaid), 12 panels total. chart-after.png regenerated from the worktree preview and verified against the live render.

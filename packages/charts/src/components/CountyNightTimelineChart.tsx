@@ -59,11 +59,13 @@ export default function CountyNightTimelineChart() {
   const ink = theme.ink;
 
   const shown = COUNTY_NIGHT.jurisdictions.filter((j) => j.control || j.complete);
-  const sf = shown.find((j) => j.control);
+  // SF is the baseline overlay; every other control (e.g. San Luis Obispo)
+  // still gets its own panel like any county.
+  const sf = shown.find((j) => j.slug === "san-francisco") ?? shown.find((j) => j.control);
   const sfSeries = sf ? seriesFor(sf) : YEARS.map((year) => ({ year, v: null }));
   const ordered = [
     ...(sf ? [sf] : []),
-    ...shown.filter((j) => !j.control),
+    ...shown.filter((j) => j !== sf),
   ];
 
   return (
@@ -78,7 +80,8 @@ export default function CountyNightTimelineChart() {
           midterms (’14 ’18 ’22), so watch the <em>level</em>, not the saw-tooth.
           The all-mail Voter’s Choice Act counties (Napa, San&nbsp;Mateo,
           Nevada, all ’18) step <strong>down</strong> right at adoption and stay
-          there; SF, with no tech, drifts down too. 2020 (COVID all-mail) is
+          there; SF and San&nbsp;Luis&nbsp;Obispo, the two no-tech controls,
+          drift down too. 2020 (COVID all-mail) is
           omitted, as is the Nevada 2024 printer-defect outlier. Sources in{" "}
           <a
             href="https://github.com/Grow-SF/sf-election-historical-counts/blob/main/data/research/election-night/VERIFY.md"
@@ -174,7 +177,7 @@ export default function CountyNightTimelineChart() {
                       strokeOpacity={0.6}
                     />
                   ) : null}
-                  {!j.control ? (
+                  {j !== sf ? (
                     <Line
                       dataKey="sf"
                       stroke={theme.faint}

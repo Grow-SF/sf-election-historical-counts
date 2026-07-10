@@ -7,14 +7,20 @@ test("county night-share timeline renders its title and one panel per complete c
   expect(
     screen.getByText("Election-night share over time, by county"),
   ).toBeInTheDocument();
-  // the control + the five complete counties each get a panel heading
+  // both controls + every complete county get a panel heading
   for (const name of [
     "San Francisco",
+    "San Luis Obispo",
     "Los Angeles",
     "Napa",
     "Nevada",
     "Orange",
     "San Mateo",
+    "Ventura",
+    "Santa Clara",
+    "San Diego",
+    "Fresno",
+    "Riverside",
   ]) {
     expect(screen.getByText(name)).toBeInTheDocument();
   }
