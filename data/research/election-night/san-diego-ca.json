@@ -7,6 +7,19 @@
   },
   "elections": [
     {
+      "date": "2012-06-05",
+      "type": "presidential-primary",
+      "election_night_ballots": null,
+      "certified_final": 548462,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final (denominator) SOLID: CA SoS SoV Voter Participation Statistics by County (filename literally '03-voter-reg-stats-by-county.pdf' despite containing the participation table -- do not confuse with the true registration-stats '02-...' file in the same dir), San Diego Total Voters 548,462 (Precinct 187,942 + VBM 360,520). Election-night NUMERATOR not sourceable, checked fresh for the June date (not just inherited from the Nov-2012 general's dead end): (1) the sdvote.com/content/rov/electioninfo/election.xml feed that recovered the 2016 primary's plateau has ZERO Wayback captures anywhere 2010-2016 -- not archived until 2016; (2) a sdvote.com domain sweep for 2012-06-04 to 06-08 shows only robots.txt captured, no results page; (3) County News Center did not exist yet in 2012 (per the 2012-general row); (4) the registrar's own news page is archived only from 2019 on. No morning-after 'semi-final results' release or precise news figure found. Left null per RUNBOOK 5.1 rather than substitute a different report-time or denominator. Pre-epollbook (2022) and pre-ASV (2024)."
+    },
+    {
       "date": "2012-11-06",
       "type": "presidential-general",
       "election_night_ballots": null,
@@ -20,17 +33,43 @@
       "note": "Certified final (denominator) is SOLID: CA SoS Statement of Vote, Voter Participation Statistics by County, San Diego Total Voters 1,203,265 (= Precinct 528,258 + VBM 675,007). Election-night NUMERATOR not sourceable: San Diego did NOT use the livevoterturnout.com live-results system until 2018 (earliest archived SD results page is the June 2018 primary), and the 2012 ROV live-results page (a JS viewer of sdvote.com/content/rov/electioninfo/election.xml) was not captured by Wayback on election night (Nov 6-7 2012) in any renderable form. News coverage gives no precise election-night ballots-counted total. Per the metric definition, left null rather than substitute a different report-time or denominator. Pre-epollbook (SD adopted e-pollbooks in 2022) and pre-ASV (2024). PRESS-RELEASE ROUTE ALSO CHECKED (updated methodology) and is EMPTY for 2012: the registrar's own news page (sdvote.com/content/rov/en/elections/news.html) is only archived in Wayback from 2019 onward, and the County News Center (sandiegocounty.gov news, launched ~2014) did not yet exist in Nov 2012 — so no morning-after 'semi-official results' press release stating an election-night ballots-counted total is sourceable. Remains null."
     },
     {
-      "date": "2014-11-04",
-      "type": "midterm-general",
+      "date": "2014-06-03",
+      "type": "statewide-primary",
       "election_night_ballots": null,
-      "certified_final": 692434,
+      "certified_final": 420700,
       "election_night_pct": null,
       "vs_epollbook": "pre",
       "vs_asv": "pre",
-      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf",
       "source_url_night": null,
       "confidence": "none",
-      "note": "Certified final (denominator) is SOLID: CA SoS Statement of Vote, Voter Participation Statistics by County, San Diego Total Voters 692,434 (= Precinct 242,638 + VBM 449,796). Election-night NUMERATOR not sourceable: SD did not use the livevoterturnout.com live-results system until 2018; the 2014 ROV results page was not archived on election night (Nov 4-5 2014). The only SD ROV pages Wayback captured in that window were query forms (Epolling_query.asp), not a ballots-counted summary. News (Times of San Diego 'Results at a Glance', updated 11/7/2014) gives no numeric ballot total. Left null rather than substitute. Pre-epollbook (2022) and pre-ASV (2024). PRESS-RELEASE ROUTE ALSO CHECKED (updated methodology) and is EMPTY: the registrar's own news page (sdvote.com/content/rov/en/elections/news.html) is only archived in Wayback from 2019 onward, and the County News Center's November-2014/2016 archives carry only 'Election Results – When to Expect Them' previews plus an 'Election results available at SDVote.com' pointer — no morning-after 'semi-official results' release stating an election-night ballots-counted total. SD's practice was to direct the public to the live SDVote.com results page (unarchived on election night), not to issue a release with the total. Remains null."
+      "note": "Certified final (denominator) SOLID: CA SoS SoV Voter Participation Statistics by County, San Diego Total Voters 420,700 (Precinct 113,714 + VBM 306,986). Election-night NUMERATOR not sourceable, checked fresh for the June date: (1) the sdvote.com/content/rov/electioninfo/election.xml feed (the route that recovered 2016) has ZERO Wayback captures anywhere 2010-2016; (2) a sdvote.com domain sweep for 2014-06-02 to 06-06 shows only PRE-election static pages/PDFs (voter-reg forms, a candidate-list PDF captured 6/6) under the legacy voters/Eng/... URL structure, no live-results page or ballots-counted figure; (3) County News Center (existed by 2014) shows exactly one election-adjacent page in the window, a pre-election 'where to vote' reminder (2014-06-05), not a results release; (4) the registrar's own news page is archived only from 2019 on. No morning-after 'semi-final results' release or precise news figure found. Left null per RUNBOOK 5.1 rather than substitute a different report-time or denominator. Pre-epollbook (2022) and pre-ASV (2024)."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": 509214,
+      "certified_final": 692434,
+      "election_night_pct": 73.54,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('FENU'-coded row), San Diego County: 100.0% precincts reporting, Ballots Cast 509,214, Last Report stamp 'Nov 5 1:14 a.m.' (First Report 'Nov 4 8:03 p.m.') at Wayback capture 20141105141649 (2014-11-05 14:16:49 UTC). SINGLE CAPTURE at 2014-11-05 14:16:49 UTC carries this value. The next available capture (2014-11-07 08:38:01 UTC) jumps to 541,370 (Last Report 'Nov 6 5:05 p.m.'), confirming 509,214 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 692,434 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf). Arithmetic: 509,214/692,434 = 73.54%. vs_epollbook=pre, vs_asv=pre (per county_tech/adoption record: epollbook 2022, asv 2024). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2014-11-04 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
+      "date": "2016-06-07",
+      "type": "presidential-primary",
+      "election_night_ballots": 468340,
+      "certified_final": 775930,
+      "election_night_pct": 60.36,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20160608190823/http://www.sdvote.com/content/rov/electioninfo/election.xml",
+      "confidence": "primary",
+      "note": "PLATEAU metric, recovered from the lead flagged in the 2016 GENERAL row's own note ('Wayback captured election.xml only for the June 2016 primary'). Pre-livevoterturnout era GEMS-style XML at sdvote.com/content/rov/electioninfo/election.xml (plain text, curl-fetched, no rendering needed). Only election-night-adjacent Wayback capture is 20160608190823 (archived 6/8/2016 12:08pm PDT), whose internal ELECTION header reads date=06-08-16 time=03:21:51 etype=UNOFFICIAL ToBeCnt=285000 -- a 3:21am overnight report, matching the overnight-report pattern of every other SD row in this dataset. UNITED STATES SENATOR (CA's nonpartisan top-two blanket-primary contest, open to all voters regardless of party) shows tcounted=468340, a figure that recurs identically across ~15 other universal contests in the same file, confirming it is a genuine countywide ballot snapshot. The primary independent leg is growth in the next available capture (20160620034049, internal date 06-16-16 16:10:26): ToBeCnt fallen to 83,000 and US SENATOR tcounted risen to 689,612 -- i.e. the count grew substantially by the next capture (12 days later), proving 468,340 was the pre-canvass election-night figure, not the settled total (runbook 8 leg: report series' next file being days later, at a higher count). Secondary, weaker corroboration: the capture itself (12:08pm) is ~9h after the internal report time (3:21am) yet shows the same data, i.e. the live page had not updated in that intraday span. CONFIRMED. Sanity check: 468,340 + ToBeCnt 285,000 = 753,340, within ~3% of the certified final 775,930. 468,340/775,930 = 60.36%. Content-verified 2026-07-10 (tcounted=\"468340\" present in the fetched XML). Pre-epollbook (2022) and pre-ASV (2024)."
     },
     {
       "date": "2016-11-08",
@@ -46,6 +85,19 @@
       "note": "Certified final (denominator) is SOLID: CA SoS Statement of Vote, Voter Participation Statistics by County, San Diego Total Voters 1,346,513 (= Precinct 489,576 + VBM 856,937). Election-night NUMERATOR not sourceable: SD did not use livevoterturnout.com until 2018. In 2016 the ROV homepage 'Election Results' link pointed to a data feed sdvote.com/content/rov/electioninfo/election.xml consumed by a JS viewer, but Wayback captured election.xml only for the June 2016 primary and again starting 11/18/2016 (mid-canvass) — NOT on election night (Nov 8-9 2016). A broad domain crawl of sdvote.com for Nov 8-10 2016 shows only the homepage + static assets, no live-results page. News (KPBS 11/11/2016) reports '>500,000 ballots still left' as of Nov 11 (a canvass figure, not the election-night plateau). Left null rather than substitute. Pre-epollbook (2022) and pre-ASV (2024). PRESS-RELEASE ROUTE ALSO CHECKED (updated methodology) and is EMPTY: the County News Center's Nov-2016 monthly archive (Wayback ts 20161114190143, http://www.countynewscenter.com/2016/11/) lists only non-election items plus a single 'Election results available at SDVote.com' pointer (a link to the live page, NOT a release stating a ballots-counted total); the ROV's own news page (sdvote.com/.../news.html) is archived only from 2019. The live election.xml feed independently confirms NO election-night capture (captures cluster around the June-2016 primary, then nothing until the 11/18/2016 canvass). Remains null."
     },
     {
+      "date": "2018-06-05",
+      "type": "statewide-primary",
+      "election_night_ballots": 406501,
+      "certified_final": 673640,
+      "election_night_pct": 60.34,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20180606114855/http://www.livevoterturnout.com/SanDiego/LiveResults/en/Index_3.html",
+      "confidence": "primary",
+      "note": "PLATEAU metric. San Diego's June 2018 primary is livevoterturnout.com/SanDiego/LiveResults/en/Index_3.html (Nov 2018 general = Index_5). Only election-night-window Wayback capture is 20180606114855 (4:48:55am PDT 6/6), which shows internal 'Website Updated: 6/6/2018 04:44:12 AM' and the page's own header 'UNOFFICIAL RESULTS - ELECTION NIGHT FINAL', Ballots Cast 406,501. The next capture (20180608031615, 6/7 8:16pm PDT, ~37.5h later) shows a different internal timestamp (6/7/2018 5:15:43 PM) and a higher count (427,779), confirming 406,501 was the pre-canvass election-night figure, superseded only by a later canvass update. CONFIRMED (self-description + later-capture-growth legs). 406,501/673,640 = 60.34%. Content-verified 2026-07-10 (406,501 present in the fetched, rendered page). Pre-epollbook (2022) and pre-ASV (2024)."
+    },
+    {
       "date": "2018-11-06",
       "type": "midterm-general",
       "election_night_ballots": 536734,
@@ -59,6 +111,19 @@
       "note": "PLATEAU metric (final election-night report). San Diego's live ENR page (livevoterturnout.com/SanDiego/LiveResults/en/Index_5.html) carries an internal 'Website Updated' data timestamp. The only election-night-era Wayback capture, taken 11/7/2018 04:06 PST (Wayback ts 20181107120607), renders 'Website Updated: 11/7/2018 01:42:41 AM' with 'Ballots Cast 536,734' and PRECINCTS REPORTING 1,446 of 2,136 (68%) — i.e. the last post-midnight election-night update, which was still the latest data as of the 4:06 AM snapshot (counting had stopped for the night). The next captures show the canvass had resumed: 11/9/2018 5:25 PM update = 728,420 (100% precincts), 11/13/2018 5:01 PM = 856,311. So 536,734 is the election-night plateau. 536,734 / 1,173,924 certified = 45.72%. NOTE the comparatively low share: 2018 was the precinct-voting era (no vote centers / e-pollbooks yet), and SD had only 68% of election-day precincts counted overnight, with the large vote-by-mail backlog (postmark-by-eday mail) counted during the multi-day canvass. This is a genuine plateau, NOT an 8 p.m. first tranche (which would be ~25-30%). Denominator = CA SoS Voter Participation Statistics by County (Total Voters 1,173,924 = Precinct 369,655 + VBM 804,269). Pre-epollbook (2022) and pre-ASV (2024). Snapshot used: Wayback 20181107120607, internal data ts 11/7/2018 01:42:41 AM."
     },
     {
+      "date": "2022-06-07",
+      "type": "statewide-primary",
+      "election_night_ballots": 416748,
+      "certified_final": 674608,
+      "election_night_pct": 61.78,
+      "vs_epollbook": "post",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20220608181901/https://www.livevoterturnout.com/ENR/sandiegocaenr/15/en/Index_15.html",
+      "confidence": "primary",
+      "note": "PLATEAU metric. ROLLOUT-TIMING: this is the FIRST election on SD's ENR/vote-center/e-pollbook platform (ElectionID 15; the Nov 2022 general, already CONFIRMED elsewhere in this file, is ElectionID 16, immediately next); data/research/county-tech/san-diego-ca.json independently confirms both epollbook and vote-center adopted_year 2022, first_election '2022-06' = this primary. So vs_epollbook=post for THIS row too, not just Nov 2022. Index_15.html (Wayback 20220608181901, PDT 11:19am 6/8) shows internal 'Website Updated: 6/8/2022 12:39:38 AM' (post-midnight election-night update) with Ballots Cast 416,748 and 'NEXT POST 6/9/22 BY 5PM' still posted hours later with no intervening update -- the county's own posting-schedule bracket (runbook 8 leg). Corroborating leg: summary_15.xml (plain XML feed, 3 Wayback captures 2022-06-10) all show GeneratedDate 2022-06-09T16:49:11-07:00 / TotalBallotsCast 475,054 -- the very next (post-night, 6/9 5pm) report, exactly matching the promised schedule and confirming 416,748 held through the night (runbook 8 leg: report series' next file being days later). 416,748/674,608 = 61.78%. CONFIRMED. vs_asv=pre (ASV first-use year 2024 per county-tech record)."
+    },
+    {
       "date": "2022-11-08",
       "type": "midterm-general",
       "election_night_ballots": 565982,
@@ -70,6 +135,19 @@
       "source_url_night": "https://web.archive.org/web/20221109172128/https://www.livevoterturnout.com/ENR/sandiegocaenr/16/en/Index_16.html",
       "confidence": "primary",
       "note": "PLATEAU metric (final election-night report). Vote-center / e-pollbook era; the ENR page shows 'Ballots Cast' with an internal 'Website Updated' data timestamp. Sequence from Wayback captures of Index_16.html: 11/8/2022 8:01:54 PM = 487,957 (first tranche, pre-Election-Day mail + early vote-center); the count rose and the final election-night update was 11/9/2022 2:21:25 AM = 565,982. That 2:21 AM figure HELD steady across the 11/9 evening (ts 20221110062009) and 11/10 12:53 AM (ts 20221110085353) snapshots — SD posted no daytime-Nov-9 update — before the multi-day canvass resumed on 11/10/2022 4:58:34 PM = 649,443. So 565,982 is the election-night plateau. 565,982 / 1,043,490 certified = 54.24% ('PROJECTED OUTSTANDING BALLOTS: 500,000' shown alongside; 565,982 + 500,000 ~= certified). Well above the ~46.8% 8 p.m. first tranche, so it is the plateau, not the first report. Denominator = CA SoS Voter Participation Statistics by County (San Diego* Total Voters 1,043,490 = Precinct 104,388 + VBM 939,102). Post-epollbook (SD adopted e-pollbooks in 2022) and pre-ASV (2024; SD added automated signature verification in 2024). Snapshot used: Wayback 20221109172128, internal data ts 11/9/2022 2:21:25 AM."
+    },
+    {
+      "date": "2024-03-05",
+      "type": "presidential-primary",
+      "election_night_ballots": 425572,
+      "certified_final": 704068,
+      "election_night_pct": 60.44,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20240306103630/https://www.livevoterturnout.com/ENR/sandiegocaenr/19/en/Index_19.html",
+      "confidence": "primary",
+      "note": "PLATEAU metric, best-evidenced row in this dataset's primary set. ENR page Index_19.html (ElectionID 19, confirmed by its March 6 election-night captures and 'Presidential Primary Election' page title) literally headers itself 'FINAL UNOFFICIAL ELECTION NIGHT RESULTS' with internal 'Website Updated: 3/6/2024 12:46:42 AM' and 'NEXT UPDATE: MAR. 7' at the Wayback 20240306103630 capture (2:36am PST 3/6), Ballots Counted 425,572. That exact count+timestamp HELD across two later same-day captures (20240306145646 6:56am, 20240306223911 2:39pm, +14h) with no intervening update, then the 20240308170624 capture (3/8) shows Website Updated 3/7/2024 4:48:18 PM / Ballots Counted 492,333 -- the canvass resumed exactly on the promised MAR.7 schedule. Triple-legged CONFIRMED (self-description + held-across-captures + county posting-schedule bracket, all independently satisfied per runbook 8). 425,572/704,068 = 60.44%. vs_epollbook=post (2022 adoption). vs_asv: data/research/county-tech/san-diego-ca.json's ASV record (adopted_year 2024, confidence secondary) states VERBATIM: 'Could not pin first election to March 2024 primary vs Nov 2024 general from primary sources.' Recorded here as vs_asv='post' per the coarse adopted_year=2024 rule and to match the existing 2024-11-05 general row's convention, but the ambiguity is UNRESOLVED and carried forward: this row's vs_asv should be reconsidered if a more precise ASV go-live date is later found. NOTE FOR HUMAN REVIEW: the vs_asv classification (not the plateau, which is solidly evidenced above) is a judgment call the maintainer should double check."
     },
     {
       "date": "2024-11-05",

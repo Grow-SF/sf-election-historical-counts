@@ -1,0 +1,38 @@
+{
+  "jurisdiction": "Del Norte County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "confidence": "primary",
+      "note": "CA SoS 'Voting Technologies in Use By County' snapshots consistently list Del Norte's Electronic Pollbook column as 'Do not use': May 9, 2022 snapshot (https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2022-1.pdf, row: Dominion ImageCast Central/Precinct/X tabulation, Electronic Pollbook = Do not use), February 9, 2024 snapshot (https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-1.pdf, Electronic Pollbook = Do not use), and October 10, 2025 snapshot (this evidence_url, Electronic Pollbook = Do not use). Three consecutive official snapshots bracketing the 2022-11-08 and 2024-11-05 elections in this dataset show no e-pollbook adoption at any point. Not a VCA county (no vote-center model). Locating query: fetch https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-<YEAR>-1.pdf, pdftotext -layout, grep -n -i 'del norte'."
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://wildrivers.lostcoastoutpost.com/2020/sep/4/dubious-about-vote-mail-call-or-ask-del-norte-coun/",
+      "confidence": "secondary",
+      "note": "No automated signature-verification vendor/software found in any county material. Then-Clerk/Registrar Alissia Northrup on-the-record (Wild Rivers Outpost, Sept 4 2020): 'Each ballot is handled by a human being who examines the ballot to make sure it hasn't been tampered with. They verify signature against the signature we have on file from (the voter's) registration card...' -- explicit description of manual/human signature review, no automated matching software named. Del Norte's own VoteMail page (https://www.co.del-norte.ca.us/departments/Elections/VoteMail) describes only the statutory written-request process, no ASV technology mentioned (supporting, not primary, since it is process description not a tech inventory). Confidence secondary: quote dates to 2020, no county statement located reconfirming the process is still fully manual through 2024, though nothing in the 2022/2024/2025 SoS tech snapshots names any ASV product for Del Norte either (those snapshots do not have a distinct ASV column but no ASV vendor appears anywhere in county communications searched)."
+    },
+    {
+      "type": "vote-center",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "confidence": "primary",
+      "note": "Not a Voter's Choice Act county. SoS voting-tech snapshots show a conventional precinct-tabulator setup (Dominion ICE precinct scanner column populated) rather than the VCA all-mail/vote-center model; census row also independently marked vca_year null."
+    }
+  ],
+  "metrics": [],
+  "notes": "TECH: Del Norte never adopted e-pollbooks through at least Oct 10 2025 (three SoS snapshots: May 2022, Feb 2024, Oct 2025, all 'Do not use' in the Electronic Pollbook column) and never adopted ASV (2020 on-the-record county quote describes fully manual/human signature review; no ASV vendor found anywhere). Not a VCA/vote-center county. This is a control county for the pre/post e-pollbook and pre/post ASV comparisons: vs_epollbook and vs_asv are 'n/a' for every election-night row. Confidence kept at primary for epollbook (direct official snapshot evidence, three independent dates) and secondary for ASV (single 2020 quote, no more recent reconfirmation). Election-night rows extended in data/research/election-night/del-norte-ca.json: NOT on Clarity (probe-confirmed 404 at results.enr.clarityelections.com/CA/Del_Norte/); the county kept a numbered election-night PDF release series across a domain migration (elections.co.del-norte.ca.us 2012-2014 -> co.del-norte.ca.us/Google Sites 2016-2018 -> a public Google Drive folder linked from the live Elections News page 2022-2024), all scanned Canon-photocopier PDFs with no text layer, read visually via 150dpi render."
+}

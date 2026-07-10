@@ -175,7 +175,20 @@ render_verified.json).
 | `render_wayback.cjs` | puppeteer render of a JS Wayback page: `WB_URL="https://web.archive.org/web/<ts>/<orig>" node scripts/research/render_wayback.cjs` |
 | `render_clarity_batch.cjs` | batch puppeteer render of Clarity pages |
 | `validate_county_tech.py`, `merge_county_tech.py` | county-tech record validation + merge into county_tech.json |
+| `validate_adoption_census.py` | validates `ca_adoption_census.json` (58-county schema + agreement with the researched county-tech records); exit 1 with one line per failure |
+| `estimate_tech_effect.py` | matched-years difference-in-differences estimator over `county_night.json` (headline effect, placebo, jackknife inference, scenario/MDE projections) |
+| `data/research/county-tech/ca_adoption_census.json` | not a script: the 58-CA-county adoption census (`status`: adopter/never/unknown, with sources/confidence per county) that `validate_adoption_census.py` checks and that Task 3's control-county selection (`docs/research/control-selection-2026-07.md`) was picked from |
 | `scripts/build_county_night.py` | bakes county_night.json from the dataset + SF control from elections.json |
+
+**The control-flag rule.** A jurisdiction is marked `control: true` in
+`county_night.json` only when BOTH adoption years (`epollbook`, `asv`) are
+null AND its `data/research/county-tech/<slug>.json` record independently
+concludes never-adoption for both tracked technologies (status
+`not-adopted`, or the schema fallback of no recorded adoption event, for
+each). Null adoption years alone are never sufficient: an unresearched
+county has null years too, and treating that silently as a control would
+smuggle an unverified county into the comparison set. See `is_control()` in
+`scripts/build_county_night.py` for the implementation.
 
 pdftotext and jq are installed. `WebFetch` is BLOCKED for web.archive.org;
 `curl` and puppeteer are not.
