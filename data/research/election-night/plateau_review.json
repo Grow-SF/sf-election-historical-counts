@@ -558,5 +558,12 @@
   "verdict": "CONFIRMED",
   "basis": "directly-stated overnight-Tuesday count, self-confirming plateau via the registrar's own same-day quote that no counting was occurring",
   "evidence": "'Elections - Many Inland ballots still not processed or counted' (news/16F9051D0AED5530): 'Riverside County Registrar of Voters Rebecca Spencer said she had a crew of about 300 workers processing ballots overnight Tuesday. According to Wednesday vote totals, they counted about 300,000 ballots.' Spencer, quoted the same Wednesday: 'We're not counting anything today ... We are sorting out all the materials from the polling places' -- confirms the count was frozen at 300,000 as of the article's writing. 300,000/650,545 = 46.12%, within the brief's 'mid-40s-to-60s' carve-out for Riverside's slow 2010s counting."
+ },
+ {
+  "slug": "san-bernardino-ca",
+  "date": "2018-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "directly-stated overnight-Tuesday count, cross-checked by an internal turnout-estimate calculation in the same article",
+  "evidence": "'Elections - Many Inland ballots still not processed or counted' (news/16F9051D0AED5530): 'elections workers counted about 322,000 ballots overnight Tuesday. On Wednesday, about 150,816 ballots remained to be counted, along with 8,929 damaged ballots and 43,818 provisional ... There are 942,474 registered voters ... so the unofficial turnout estimate is about 55 percent.' (322,000+203,563)/942,474=55.76%, matching the article's own estimate; certified 546,041/942,474=57.94% is close too. 322,000/546,041 = 58.97%."
  }
 ]

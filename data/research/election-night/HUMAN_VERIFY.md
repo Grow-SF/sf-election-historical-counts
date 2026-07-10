@@ -111,6 +111,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2024-11-05
       controller verdict: REFUTED_AS_PLATEAU (next-day canvass update, already documented in the note)
 
+- [ ] **san-bernardino-ca 2018-11-06** (secondary confidence)
+      claimed: night ballots **322,000**, certified final **546,041**, share **58.97%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F9051D0AED5530
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: Certified final 546,041 ballots cast (CA SoS; polls 209,168 + VBM 336,873; 58.26% of 937,316 registered). Pre-adoption, precinct-based (LAST midterm before e-pollbooks in 2020). Wayback/press-release/DocumentCenter/social-handle routes exhausted (only a post-canvass Nov 12 capture of 365,083 exists;
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-bernardino-ca 2018-11-06
+      controller verdict: CONFIRMED (directly-stated overnight-Tuesday count, cross-checked by an internal turnout-estimate calculation in the same article)
+
 - [ ] **san-diego-ca 2012-11-06** (secondary confidence)
       claimed: night ballots **728,265**, certified final **1,203,265**, share **60.52%**
       numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14273902C00B3B00

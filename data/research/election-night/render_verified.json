@@ -103,5 +103,12 @@
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F9051D0AED5530",
   "evidence": "Riverside County Registrar of Voters Rebecca Spencer said she had a crew of about 300 workers processing ballots overnight Tuesday. According to Wednesday vote totals, they counted about 300,000 ballots. \"We're not counting anything today,\" Spencer said. 300,000/650,545 = 46.12%.",
   "method": "newsbank-sfpl-manual"
+ },
+ {
+  "slug": "san-bernardino-ca",
+  "date": "2018-11-06",
+  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F9051D0AED5530",
+  "evidence": "In San Bernardino County, elections workers counted about 322,000 ballots overnight Tuesday. On Wednesday, about 150,816 ballots remained to be counted, along with 8,929 damaged ballots and 43,818 provisional and other ballots that require processing. 322,000/546,041 = 58.97%.",
+  "method": "newsbank-sfpl-manual"
  }
 ]
