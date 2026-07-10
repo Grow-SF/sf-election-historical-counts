@@ -13,7 +13,7 @@ For each Report of Registration landing page we resolve its `county.pdf` on the
 SoS CDN, run pdftotext, and read the San Francisco row (first big number pair =
 eligible, registered) and the "Report of Registration as of <date>" header.
 
-Output: data/sf_registration_eligible.csv (one row per report), every value
+Output: data/sources/sf_registration_eligible.csv (one row per report), every value
 traceable to the cited county.pdf URL. Requires `pdftotext` (poppler).
 """
 import csv
@@ -25,7 +25,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
-OUT = ROOT / "data" / "sf_registration_eligible.csv"
+OUT = ROOT / "data" / "sources" / "sf_registration_eligible.csv"
 BASE = "https://www.sos.ca.gov/elections/report-registration/"
 
 # Close-of-registration (15-day, or the nearest pre-election report when no
