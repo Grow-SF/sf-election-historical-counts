@@ -187,6 +187,23 @@ def test_mechanism_filter_uses_matching_adoption_year(tmp_path):
     assert res["n_treated"] == 1  # only t2 has an asv adoption year
 
 
+def test_mechanism_vca_uses_vca_year(tmp_path):
+    p = synth(tmp_path)
+    data = json.loads(p.read_text())
+    # Only t2 gets a VCA adoption year (2022); t1 and the controls have none.
+    # The vca mechanism must split on that year for t2 and treat t1 (no vca
+    # year) as untreated, exactly like the asv mechanism does on asv_year.
+    data["jurisdictions"][1]["adoption"]["vca"] = 2022  # t2
+    p.write_text(json.dumps(data))
+    panel = load_panel(p)
+    # load_panel must surface the vca adoption year onto every row.
+    assert all(r["vca_year"] == 2022 for r in panel if r["slug"] == "t2")
+    assert all(r["vca_year"] is None for r in panel if r["slug"] == "t1")
+    res = estimate(panel, mechanism="vca")
+    assert res["n_treated"] == 1  # only t2 has a vca adoption year
+    assert "t2" in res["per_county"]
+
+
 def test_scenario_mde_decreases_with_more_controls(tmp_path):
     noise = {("c1", 2014): 4.0, ("c2", 2018): -3.0, ("t1", 2016): 2.0,
              ("t2", 2022): -2.5, ("c1", 2024): 1.5}

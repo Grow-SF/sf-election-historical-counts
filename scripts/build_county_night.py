@@ -39,6 +39,7 @@ import datetime
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 EN = ROOT / "data/research/election-night"
 COUNTY_TECH = ROOT / "data/research/county-tech"
+CENSUS = COUNTY_TECH / "ca_adoption_census.json"
 OUT = ROOT / "packages/data/county_night.json"
 ELECTIONS = ROOT / "packages/data/elections.json"
 
@@ -111,7 +112,21 @@ def is_control(slug: str, adoption: dict, tech_dir: pathlib.Path = COUNTY_TECH) 
     return True
 
 
+def load_vca_years(census_path: pathlib.Path = CENSUS) -> dict:
+    """slug -> Voter's Choice Act (all-mail / vote-center) adoption year, read
+    from the CA adoption census (ca_adoption_census.json's vca_year field).
+    The census's vca_year agrees with each county-tech record's vote-center
+    entry adopted_year for every panel county (checked 2026-07-10); the census
+    is used as the single keyed source. Absent/None where the county never
+    adopted VCA."""
+    if not census_path.exists():
+        return {}
+    rows = json.loads(census_path.read_text())
+    return {r["slug"]: r.get("vca_year") for r in rows if r.get("slug")}
+
+
 def load_counties() -> list[dict]:
+    vca = load_vca_years()
     out = []
     for fp in sorted(EN.glob("*.json")):
         d = json.loads(fp.read_text())
@@ -143,7 +158,8 @@ def load_counties() -> list[dict]:
             "control": is_control(fp.stem, adopt),
             # complete = every Nov-general row has a sourced election-night count
             "complete": bool(points) and all(p["ballots"] is not None for p in points),
-            "adoption": {"epollbook": adopt.get("epollbook"), "asv": adopt.get("asv")},
+            "adoption": {"epollbook": adopt.get("epollbook"), "asv": adopt.get("asv"),
+                         "vca": vca.get(fp.stem)},
             "points": points,
         })
     return out
@@ -191,7 +207,11 @@ def load_sf(elections_path: pathlib.Path = ELECTIONS) -> dict:
         "slug": "san-francisco-ca",
         "control": True,
         "complete": True,
-        "adoption": {"epollbook": None, "asv": None},
+        # SF is the never-adopter control on every mechanism, including VCA
+        # (San Francisco is not a Voter's Choice Act county); vca is None by
+        # construction, consistent with its census row (san-francisco-ca
+        # vca_year null).
+        "adoption": {"epollbook": None, "asv": None, "vca": None},
         "points": sorted(pts, key=lambda p: p["year"]),
     }
 

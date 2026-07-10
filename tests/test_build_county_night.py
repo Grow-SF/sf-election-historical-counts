@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
-from build_county_night import load_sf, norm_type, SF_PRIMARY_DATES
+from build_county_night import load_sf, norm_type, SF_PRIMARY_DATES, load_vca_years
 
 
 # ---- norm_type: type vocabulary -------------------------------------------
@@ -124,3 +124,33 @@ def test_load_sf_general_points_still_present_and_unaffected(tmp_path):
     assert len(generals) == 1
     assert generals[0]["year"] == 2012
     assert generals[0]["pct"] == 71.4
+
+
+# ---- vca_year plumbing -----------------------------------------------------
+
+def test_load_vca_years_maps_slug_to_year(tmp_path):
+    census = tmp_path / "census.json"
+    census.write_text(json.dumps([
+        {"slug": "napa-ca", "vca_year": 2018},
+        {"slug": "riverside-ca", "vca_year": 2022},
+        {"slug": "mendocino-ca", "vca_year": None},  # never adopted
+        {"vca_year": 2020},  # no slug -> ignored
+    ]))
+    m = load_vca_years(census)
+    assert m["napa-ca"] == 2018
+    assert m["riverside-ca"] == 2022
+    assert m["mendocino-ca"] is None
+    assert len(m) == 3  # the slug-less row is dropped
+
+
+def test_load_vca_years_missing_census_returns_empty(tmp_path):
+    assert load_vca_years(tmp_path / "does-not-exist.json") == {}
+
+
+def test_load_sf_adoption_includes_vca_none(tmp_path):
+    fp = tmp_path / "elections.json"
+    fp.write_text(json.dumps(_fake_elections()))
+    sf = load_sf(fp)
+    # SF is the never-adopter control on every mechanism, VCA included.
+    assert sf["adoption"]["vca"] is None
+    assert set(sf["adoption"]) == {"epollbook", "asv", "vca"}

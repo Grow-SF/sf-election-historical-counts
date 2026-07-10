@@ -41,7 +41,9 @@ the real jackknife).
 Usage:
   python3 scripts/research/estimate_tech_effect.py
       [--path packages/data/county_night.json]
-      [--mechanism any|epb|asv] [--placebo] [--scenario K M] [--json]
+      [--mechanism any|epb|asv|vca] [--placebo] [--scenario K M] [--json]
+  (--mechanism vca uses each county's Voter's Choice Act all-mail / vote-
+   center adoption year, adoption["vca"], baked from the CA adoption census.)
 """
 import argparse
 import itertools
@@ -76,6 +78,7 @@ def load_panel(path=DEFAULT_PATH):
                 "pct": p["pct"], "control": bool(j.get("control")),
                 "epb_year": j["adoption"].get("epollbook"),
                 "asv_year": j["adoption"].get("asv"),
+                "vca_year": j["adoption"].get("vca"),
             })
     return rows
 
@@ -86,6 +89,8 @@ def _adoption_year(rows_slug, mechanism):
         return r["epb_year"]
     if mechanism == "asv":
         return r["asv_year"]
+    if mechanism == "vca":
+        return r.get("vca_year")
     cands = [y for y in (r["epb_year"], r["asv_year"]) if y]
     return min(cands) if cands else None
 
@@ -291,7 +296,7 @@ def scenario(panel, mechanism, n_controls, n_elections):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--path", default=str(DEFAULT_PATH))
-    ap.add_argument("--mechanism", choices=["any", "epb", "asv"],
+    ap.add_argument("--mechanism", choices=["any", "epb", "asv", "vca"],
                     default="any")
     ap.add_argument("--placebo", action="store_true")
     ap.add_argument("--scenario", nargs=2, type=int, metavar=("K", "M"))

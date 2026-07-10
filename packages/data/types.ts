@@ -130,7 +130,10 @@ export type CountyNightJurisdiction = {
   // true = every Nov-general row has a sourced election-night count (fully
   // recovered). The chart shows only complete jurisdictions (+ the control).
   complete: boolean;
-  adoption: { epollbook: number | null; asv: number | null };
+  // vca = Voter's Choice Act all-mail / vote-center adoption year (from the
+  // CA adoption census). Optional so existing fixtures that predate the field
+  // still type-check; build_county_night.py always emits it.
+  adoption: { epollbook: number | null; asv: number | null; vca?: number | null };
   points: CountyNightPoint[];
 };
 

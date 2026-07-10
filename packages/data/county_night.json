@@ -11,7 +11,8 @@
       "complete": true,
       "adoption": {
         "epollbook": null,
-        "asv": null
+        "asv": null,
+        "vca": null
       },
       "points": [
         {
@@ -154,7 +155,8 @@
       "complete": false,
       "adoption": {
         "epollbook": null,
-        "asv": null
+        "asv": null,
+        "vca": null
       },
       "points": [
         {
@@ -226,7 +228,8 @@
       "complete": false,
       "adoption": {
         "epollbook": null,
-        "asv": null
+        "asv": null,
+        "vca": null
       },
       "points": [
         {
@@ -298,7 +301,8 @@
       "complete": false,
       "adoption": {
         "epollbook": 2020,
-        "asv": 2020
+        "asv": 2020,
+        "vca": 2020
       },
       "points": [
         {
@@ -370,7 +374,8 @@
       "complete": true,
       "adoption": {
         "epollbook": null,
-        "asv": null
+        "asv": null,
+        "vca": null
       },
       "points": [
         {
@@ -442,7 +447,8 @@
       "complete": true,
       "adoption": {
         "epollbook": 2020,
-        "asv": 2020
+        "asv": 2020,
+        "vca": 2020
       },
       "points": [
         {
@@ -514,7 +520,8 @@
       "complete": false,
       "adoption": {
         "epollbook": 2018,
-        "asv": null
+        "asv": null,
+        "vca": 2018
       },
       "points": [
         {
@@ -586,7 +593,8 @@
       "complete": false,
       "adoption": {
         "epollbook": null,
-        "asv": null
+        "asv": null,
+        "vca": null
       },
       "points": [
         {
@@ -658,7 +666,8 @@
       "complete": true,
       "adoption": {
         "epollbook": 2018,
-        "asv": null
+        "asv": null,
+        "vca": 2018
       },
       "points": [
         {
@@ -730,7 +739,8 @@
       "complete": true,
       "adoption": {
         "epollbook": 2018,
-        "asv": 2022
+        "asv": 2022,
+        "vca": 2018
       },
       "points": [
         {
@@ -802,7 +812,8 @@
       "complete": true,
       "adoption": {
         "epollbook": 2020,
-        "asv": null
+        "asv": null,
+        "vca": 2020
       },
       "points": [
         {
@@ -874,7 +885,8 @@
       "complete": false,
       "adoption": {
         "epollbook": 2024,
-        "asv": null
+        "asv": null,
+        "vca": 2024
       },
       "points": [
         {
@@ -946,7 +958,8 @@
       "complete": false,
       "adoption": {
         "epollbook": 2022,
-        "asv": 2025
+        "asv": 2025,
+        "vca": 2022
       },
       "points": [
         {
@@ -1078,7 +1091,8 @@
       "complete": false,
       "adoption": {
         "epollbook": 2018,
-        "asv": null
+        "asv": null,
+        "vca": 2018
       },
       "points": [
         {
@@ -1150,7 +1164,8 @@
       "complete": false,
       "adoption": {
         "epollbook": 2020,
-        "asv": 2025
+        "asv": 2025,
+        "vca": null
       },
       "points": [
         {
@@ -1222,7 +1237,8 @@
       "complete": false,
       "adoption": {
         "epollbook": 2022,
-        "asv": 2024
+        "asv": 2024,
+        "vca": 2022
       },
       "points": [
         {
@@ -1354,7 +1370,8 @@
       "complete": true,
       "adoption": {
         "epollbook": 2018,
-        "asv": null
+        "asv": null,
+        "vca": 2018
       },
       "points": [
         {
@@ -1426,7 +1443,8 @@
       "complete": true,
       "adoption": {
         "epollbook": 2020,
-        "asv": null
+        "asv": null,
+        "vca": 2020
       },
       "points": [
         {
@@ -1508,7 +1526,8 @@
       "complete": false,
       "adoption": {
         "epollbook": null,
-        "asv": null
+        "asv": null,
+        "vca": null
       },
       "points": [
         {
