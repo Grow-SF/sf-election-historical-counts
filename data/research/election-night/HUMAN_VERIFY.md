@@ -21,7 +21,23 @@ note for any row is its detail bullet in VERIFY.md (same directory).
 
 ## 1. Machine check could not verify these (open and eyeball)
 
+- [ ] **mendocino-ca 2012-11-06** (numerator NOT_FOUND)
+      claimed: night ballots **18,401**, certified final **36,080**, share **51.0%**
+      numerator URL: https://theava.com/archives/62338
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf
+      look for: NULL PER RUNBOOK 5.1, on integration review (downgraded from the source dossier's proposed 'secondary, PLAUSIBLE' estimate). WAYBACK ROUTE EXHAUSTED: elections.htm CDX (co.mendocino.ca.us, 20121001-20130101) has a single pre-poll-close capture (20121106055757, Nov 5 9:57pm PST) whose live-results li
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for mendocino-ca 2012-11-06
+      controller verdict: PLAUSIBLE (maintainer-approved approximation; self-description consistent but no independent bracket/hold leg obtainable (RUNBOOK 8))
+
 ## 2. Secondary-confidence rows (weakest sourcing, read closely)
+
+- [ ] **mendocino-ca 2012-11-06** (secondary confidence)
+      claimed: night ballots **18,401**, certified final **36,080**, share **51.0%**
+      numerator URL: https://theava.com/archives/62338
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf
+      look for: NULL PER RUNBOOK 5.1, on integration review (downgraded from the source dossier's proposed 'secondary, PLAUSIBLE' estimate). WAYBACK ROUTE EXHAUSTED: elections.htm CDX (co.mendocino.ca.us, 20121001-20130101) has a single pre-poll-close capture (20121106055757, Nov 5 9:57pm PST) whose live-results li
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for mendocino-ca 2012-11-06
+      controller verdict: PLAUSIBLE (maintainer-approved approximation; self-description consistent but no independent bracket/hold leg obtainable (RUNBOOK 8))
 
 - [ ] **mendocino-ca 2014-11-04** (secondary confidence)
       claimed: night ballots **11,402**, certified final **25,017**, share **45.58%**
@@ -39,14 +55,6 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for mendocino-ca 2024-11-05
       controller verdict: CONFIRMED (news source explicitly self-describes as election-night-tabulated + independent Wayback capture of the same county report series shows a materially higher, 8-days-later count)
 
-- [ ] **napa-ca 2014-11-04** (secondary confidence)
-      claimed: night ballots **18,286**, certified final **38,766**, share **47.17%**
-      numerator URL: https://web.archive.org/web/20150916061050/http://www.countyofnapa.org/ElectionResults/20141104/20141104-2230_dtl.htm
-      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
-      look for: BEST-AVAILABLE (10:30 PM report; the EXACT final-of-night report is permanently unrecoverable from Wayback). Napa's 11/4/2014 election-night reports ran 8:01 PM (20141104-2001) -> 10:30 PM (20141104-2230) -> 10:42 PM final (20141104-2242). RE-VERIFIED: the 10:42 PM final-of-night report's content fr
-      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for napa-ca 2014-11-04
-      controller verdict: PLAUSIBLE (on-night floor; the exact final report is unarchived)
-
 - [ ] **placer-ca 2018-11-06** (secondary confidence)
       claimed: night ballots **113,380**, certified final **177,725**, share **63.8%**
       numerator URL: https://web.archive.org/web/20181113195233/https://www.placerelections.com/election-night-results/
@@ -55,13 +63,13 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for placer-ca 2018-11-06
       controller verdict: REFUTED_AS_PLATEAU (page provably tracked the canvass)
 
-- [ ] **riverside-ca 2024-11-05** (secondary confidence)
-      claimed: night ballots **611,101**, certified final **959,098**, share **63.7%**
-      numerator URL: https://web.archive.org/web/20241107034053/https://www.livevoterturnout.com/ENR/riversidecaenr/5/en/Index_5.html
-      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf
-      look for: 611,101 'Ballots Counted' from the earliest Wayback capture of Riverside's livevoterturnout ENR, embedded timestamp 'Updated: 11/6/2024 5:35:21 PM' -- the FIRST daily canvass update (afternoon of the day after the Nov 5 election), NOT the ~3 a.m. election-night plateau. Riverside reports hourly unti
-      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2024-11-05
-      controller verdict: REFUTED_AS_PLATEAU (next-day canvass update, already documented in the note)
+- [ ] **santa-clara-ca 2012-06-05** (secondary confidence)
+      claimed: night ballots **234,342**, certified final **292,713**, share **80.06%**
+      numerator URL: https://web.archive.org/web/20120607192808/http://www.sccgov.org/elections/results/jun2012/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf
+      look for: CEILING (next-day/canvass-mode value; true overnight plateau unarchived), comparable:false. Santa Clara's June 2012 primary predates its Clarity adoption (Clarity electionId 43231 = Nov 2012 general only); the county's legacy sccgov.org GEMS-style live-results page (http://www.sccgov.org/elections/r
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2012-06-05
+      controller verdict: REFUTED_AS_PLATEAU (earliest archived capture of the only election-night channel (legacy pre-Clarity sccgov.org page) is already ~23h post-poll-close with precincts at 100% and a once-daily canvass cadence; kept only as a documented ceiling per RUNBOOK 5.2, comparable:false)
 
 ## 3. Blocked-source recoveries (need a real browser)
 
@@ -79,6 +87,15 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: Election-night plateau NOT directly sourceable for 2016 — confirmed exhausted across all three numerator routes. (1) PRESS-RELEASE route (now checked): Sacramento County VRE issued NO morning-after 'semi-official/semi-final results' release stating a ballot total in 2016. The MediaRoom press-release
       full flag: Election-night plateau NOT directly sourceable for 2016 — confirmed exhausted across all three numerator routes. (1) PRESS-RELEASE route (now checked): Sacramento County VRE issued NO morning-after 'semi-official/semi-final results' release stating a ballot total in 2016. The MediaRoom press-release archive (Wayback 20161122005718 of elections.saccounty.net/MediaRoom/Pages/PressReleases.aspx) shows the post-election cadence as releases dated Nov 10, Nov 14, Nov 16 ('Presidential General Election Update – Ballot Count Update to be Released on …'); the FIRST post-election release (NewsReleases/Pages/Ballot-Count-Update---11102016.aspx, earliest capture 20161116003641) carries NO numbers — its full body only states 'Registrar of Voters Jill LaVine will release the next update after 3:00 p.m. on Friday, November 11' and points readers to sacresults.e-cers.com / eresults.saccounty.net. (2) eresults.saccounty.net Hart 'SUMMARY REPORT' route: only two captures bracket this election — 20161107220729 (pre-election, Nov 7, zero/test run) and 20161112083512 (embeds the Friday-canvass Run Date 11/11/16 02:46 PM, PRECINCTS 1,267/1,267, BALLOTS CAST - TOTAL 385,520). No Nov 8-evening / Nov 9-morning capture. (3) sacresults.e-cers.com live app: the only election-window capture is the homepage 20161110162635, which shows 'Precincts Reporting: 1267/1267, Last Refresh 11/9/2016 1:10:20 PM' but the ballots-cast/turnout total loads via AJAX (resultsVoterTurnout.aspx) that Wayback did not archive until the canvass (11/13); NO e-cers turnout or contest sub-page (resultsVoterTurnout.aspx, resultsSW.aspx) was archived anywhere in the Nov 8-11 plateau window. The Friday 11/11 canvass figure 385,520 (= 66.96% of the 575,711 certified) is an UPPER BOUND, not the metric; the true election-night plateau would be lower and, by analogy to the clean 2012 presidential plateau (62.93%), was likely ~60-63%, but it is not directly sourceable, so null/none. FLAG for manual operator follow-up: the Sacramento Bee (McClatchy, curl/WebFetch-blocked) is the most likely place a published Nov 8-9 election-night ballots-cast figure could be recovered. Denominator = CA SoS Voter Participation Statistics by County, Sacramento Total Voters 575,711 (Precinct 203,114 + VBM 372,597). RE-RESEARCH ATTEMPT (2026-07-10, gap-triage): tried the FLAGged bypass (curl the Wayback-ARCHIVED copy of Sacramento Bee articles instead of the live-blocked host). CDX prefix sweep of sacbee.com/news/politics-government/election/ and its /local-election/ subsection for Nov 8-12 2016 turned up ~190 distinct article URLs; checked titles of the dozen earliest crawled Nov 8 evening-Nov 9 morning -- all are national election coverage (Trump/Clinton, Sanders, voter suppression, polling-place guns) or off-topic local pieces (a pre-election voter guide, a Rep. Bera profile); none states a Sacramento County ballots-counted total. Broader domain-wide CDX queries 504 Gateway Time-out (runbook 7.1's documented broad-query failure mode). The registrar's own current 'Archived Elections' page (elections.saccounty.net/.../ResultsPrevElect.aspx) 301-redirects into the modern homepage; the CMS migration lost whatever historical index it once had. WebSearch for the article directly surfaced only current-day (2026) results portals, no 2016 article. This exhausts the FLAGged bypass; per runbook 6.7 stopping here rather than burning further hours on a bot-wall. Value remains null.
 
+- [ ] **santa-clara-ca 2012-06-05** (operator-flagged)
+      claimed: night ballots **234,342**, certified final **292,713**, share **80.06%**
+      numerator URL: https://web.archive.org/web/20120607192808/http://www.sccgov.org/elections/results/jun2012/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf
+      look for: CEILING (next-day/canvass-mode value; true overnight plateau unarchived), comparable:false. Santa Clara's June 2012 primary predates its Clarity adoption (Clarity electionId 43231 = Nov 2012 general only); the county's legacy sccgov.org GEMS-style live-results page (http://www.sccgov.org/elections/r
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2012-06-05
+      controller verdict: REFUTED_AS_PLATEAU (earliest archived capture of the only election-night channel (legacy pre-Clarity sccgov.org page) is already ~23h post-poll-close with precincts at 100% and a once-daily canvass cadence; kept only as a documented ceiling per RUNBOOK 5.2, comparable:false)
+      full flag: CEILING (next-day/canvass-mode value; true overnight plateau unarchived), comparable:false. Santa Clara's June 2012 primary predates its Clarity adoption (Clarity electionId 43231 = Nov 2012 general only); the county's legacy sccgov.org GEMS-style live-results page (http://www.sccgov.org/elections/results/jun2012/) was the only election-night channel. Earliest Wayback capture of that URL is 2012-06-07 12:28:08 PM PDT (no June 5-6 capture exists in CDX, narrow or wide window), internal 'Last Updated : 6/6/2012 7:02:03 PM' (~23h post poll-close), Completed Precincts 874 of 874 (100%), county-wide Registration & Turnout block: Vote by Mail 185,455 + Precinct 48,887 = 234,342 (31.03% of 755,117 registered). Subsequent captures (6/7 4:43:58 PM at Wayback ts 20120608222327; 6/8 4:21:51 PM at ts 20120609022555) show a once-daily afternoon-update cadence, confirming the page was already in canvass mode by the first crawl -- same signature this dataset treats as a next-day ceiling elsewhere (Riverside 2024, Placer 2018, this county's own pre-correction 2014 general). Certified final 292,713 ballots (CA SoS Voter Participation Statistics by County, 2012-primary: 55,518 poll + 237,195 VBM = 292,713; 38.76% of 755,117 registered). Ceiling pct = 234,342/292,713 = 80.06% (NOT the plateau -- true election-night share is lower). Pre-epollbook (adopted 2020); ASV never. FREEZE TEST (2026-07-10, retry log santa-clara-2012-06-retry.md): the ceiling classification was re-tested and CONFIRMED-as-a-ceiling; 234,342 is NOT a frozen night state -- the very next capture (20120608222327, internal 6/7 4:43:58 PM) reads 268,370, the next (20120609022555, 6/8 4:21:51 PM) 284,025, growing to the certified 292,713 which then froze July 3 - Dec 8 2012; VBM drove the growth (185,455 -> 237,195, +28%) while precinct barely moved (48,887 -> 55,518), i.e. 'Semi-Final' here is this county's generic in-progress-canvass label, not end-of-night language. A scaling estimate was COMPUTED BUT NOT ADOPTED: applying Santa Clara's own Nov-2012 night-plateau-to-canvass-start ratio (460,329/438,348 = 1.0501) in reverse to 234,342 gives an implied night plateau ~223,152 ballots ~76.24% of 292,713; both bias directions are non-negligible and offsetting (elapsed-time mismatch biases the estimate high; precinct-already-complete mismatch biases it low), so it is a rough central value only, not a bound. MAINTAINER DEFAULT is the 234,342/80.06% ceiling (comparable:false) pending final say; the ~223,152/76.24% scaling estimate is recorded here as the not-adopted alternative. FLAG for manual operator: a June 5-6 capture CDX may have missed (replay aliasing), and/or a San Jose Mercury News election-night quote via NewsBank, could yet upgrade this to a real plateau; neither attempted here.
+
 ## 4. Machine-confirmed rows (number is at the URL; plateau read still owed)
 
 - [ ] **del-norte-ca 2014-11-04** (plateau check)
@@ -90,12 +107,12 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       controller verdict: CONFIRMED (last surviving on-night release (provably the last of only 2 pre-Final releases per the county's own dated index page), still labeled Unofficial; next report 3 days later relabeled Final at the exact certified total)
 
 - [ ] **del-norte-ca 2016-11-08** (plateau check)
-      claimed: night ballots **8,155**, certified final **9,790**, share **83.3%**
-      numerator URL: https://web.archive.org/web/20201111052354id_/https://b012f97e-a-03565450-s-sites.googlegroups.com/a/co.del-norte.ca.us/dnco/departments/clerk-recorder/elections/election-results/november-8-2016-general-election-results/November%208%2C%202016%20General%20Election%20Results%20-%20Release%204.pdf?attachauth=ANoY7crZ3u9uMBbDoq8_7PPqlwXp8FBRiq_Hc508Z099eoeFiu5ijSbO7qJEI-OMzHPKApEpuEWgWy2oTkyFNa1Y1bV3dAKSnZLhGtUumx5iRpJnjrlwFIINYptg1bPKo3zLhH_cUwa8W3B4Ib91AU8RtVc0rWxnKDydWIxj0U7K1Efk-zwMeyzM12PBtRuJ0GlE1vDbb7jsE8UqvSZ8GCVXRNxkwhUMdcUMwPf-wFOrlleOs7KGmEXQMLPD36kpsuLM_kdOZQbFT9b-QAOxx5CFnV4r5886-WhkuMCwxrL5aoAGfC-GTNIdjAO8YF41r2y2rvGvIm6z8H4SkNjgo1WrmuJdSLKO-2inA46ukHpF7NGaOx_HBkKKdd-rQL9IceYjVgidptdRVV-rlx22_3EgTJ9kcoRWpQ%3D%3D&attredirects=0&d=1
+      claimed: night ballots **8,450**, certified final **9,790**, share **86.31%**
+      numerator URL: https://web.archive.org/web/20161110185817/http://vote.sos.ca.gov/returns/status/
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf
       look for: PLATEAU = county's own numbered election-night release series, Release 4 of 6, self-labeled 'Unofficial Results / Election Night Final', internal page-header timestamp 11/8/2016 10:47:49 PM, 18 of 18 precincts (100.00%) reporting. Registered Voters 8,155 of 14,320 (56.95%). Series ran Release 1 (8:0
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for del-norte-ca 2016-11-08
-      controller verdict: CONFIRMED (self-labeled 'Election Night Final' report, last of a numbered on-night release series, next report 8 days later at a higher count)
+      controller verdict: CONFIRMED (CA SoS county-reporting-status page FENU-equivalent figure, frozen 5 days then jumping to the exact certified final; supersedes the county's own slightly-earlier Release 4 as the last election-night value fed to the state)
 
 - [ ] **del-norte-ca 2018-11-06** (plateau check)
       claimed: night ballots **7,127**, certified final **8,439**, share **84.45%**
@@ -289,6 +306,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for napa-ca 2012-11-06
       controller verdict: CONFIRMED (county report self-describes)
 
+- [ ] **napa-ca 2014-11-04** (plateau check)
+      claimed: night ballots **19,515**, certified final **38,766**, share **50.34%**
+      numerator URL: https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: BEST-AVAILABLE (10:30 PM report; the EXACT final-of-night report is permanently unrecoverable from Wayback). Napa's 11/4/2014 election-night reports ran 8:01 PM (20141104-2001) -> 10:30 PM (20141104-2230) -> 10:42 PM final (20141104-2242). RE-VERIFIED: the 10:42 PM final-of-night report's content fr
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for napa-ca 2014-11-04
+      controller verdict: CONFIRMED (CA SoS county-reporting-status page's Final Election Night Unofficial (FENU) figure, doubly bracket-confirmed (frozen 2 days, then a correctly-identified CCU jump))
+
 - [ ] **napa-ca 2016-11-08** (plateau check)
       claimed: night ballots **34,108**, certified final **63,255**, share **53.92%**
       numerator URL: https://web.archive.org/web/20161218225536/http://www.countyofnapa.org/ElectionResults/20161108/20161108-2306.pdf
@@ -464,6 +489,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: Election-night plateau = 205,813 ballots ('Voters Cast: 205,813 of 1,310,928 (15.70%)'; Governor Times Cast 205,813) from the official Riverside Dominion EMS 'Semi-Official Election Results' report, Last-Modified 11/09/2022 02:04 PST (the ~2 a.m. final election-night report, within the hourly-until-
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2022-11-08
       controller verdict: CONFIRMED (2 AM report held until the canvass)
+
+- [ ] **riverside-ca 2024-11-05** (plateau check)
+      claimed: night ballots **547,742**, certified final **959,098**, share **57.11%**
+      numerator URL: https://web.archive.org/web/20241106133254/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: 611,101 'Ballots Counted' from the earliest Wayback capture of Riverside's livevoterturnout ENR, embedded timestamp 'Updated: 11/6/2024 5:35:21 PM' -- the FIRST daily canvass update (afternoon of the day after the Nov 5 election), NOT the ~3 a.m. election-night plateau. Riverside reports hourly unti
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2024-11-05
+      controller verdict: CONFIRMED (CA SoS county-reporting-status page's ~5 a.m. overnight plateau, frozen 12+ hours across 3 captures before the next-day canvass bump)
 
 - [ ] **sacramento-ca 2012-11-06** (plateau check)
       claimed: night ballots **328,516**, certified final **522,045**, share **62.93%**

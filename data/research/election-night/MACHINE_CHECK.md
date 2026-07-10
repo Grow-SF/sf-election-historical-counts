@@ -19,7 +19,7 @@ verify_en_* scripts to regenerate).
 | del-norte-ca | 2014-11-04 | denominator | 7,332 | VERIFIED | 18 18,253 12,750 2,980 4,352 7,332 59.36% 57.51% 40.17% |
 | del-norte-ca | 2014-11-04 | numerator | 6,539 | VERIFIED | render-verified: DEL_20141104_E Summary Report Del Norte County Nov. 4, 2014 General Election Unofficial. Registration & |
 | del-norte-ca | 2016-11-08 | denominator | 9,790 | VERIFIED | 18 17,996 14,318 3,653 6,137 9,790 62.69% 68.38% 54.40% |
-| del-norte-ca | 2016-11-08 | numerator | 8,155 | VERIFIED | render-verified: Page: 1 of 9 11/8/2016 10:47:49 PM. Election Summary Report General Election County of Del Norte Novemb |
+| del-norte-ca | 2016-11-08 | numerator | 8,450 | VERIFIED | Del Norte 18 18 100.0% 14,318 8,450 59.0% Nov 8 8:30 p.m. Nov 8 11:38 p.m. SF |
 | del-norte-ca | 2018-11-06 | denominator | 8,439 | VERIFIED | 18 18,039 14,150 2,898 5,541 8,439 65.66% 59.64% 46.78% |
 | del-norte-ca | 2018-11-06 | numerator | 7,127 | VERIFIED | render-verified: Page: 1 of 12 11/6/2018 9:42:38 PM. Summary for: All Contests, All Districts, All Tabulators, All Count |
 | del-norte-ca | 2022-11-08 | denominator | 8,450 | VERIFIED | 19 19,219 14,943 1,133 7,317 8,450 86.59% 56.55% 43.97% |
@@ -69,6 +69,7 @@ verify_en_* scripts to regenerate).
 | madera-ca | 2024-11-05 | denominator | 55,329 | VERIFIED | 78 95,290 78,204 8,560 46,769 55,329 84.53% 70.75% 58.06% |
 | madera-ca | 2024-11-05 | numerator | 37,106 | VERIFIED | 0 , "BCxContest" : 0 , "VF" : 1 , "TP" : 78 , "PR" : 63 , "TV" : 78317 , "BC" : 37106 , "RC" : 0 , "RO" : 0 , "CH" : [ " |
 | mendocino-ca | 2012-11-06 | denominator | 36,080 | VERIFIED | 247 62,910 49,765 7,046 29,034 36,080 80.47% 72.50% 57.35% |
+| mendocino-ca | 2012-11-06 | numerator | 18,401 | NOT_FOUND |  |
 | mendocino-ca | 2014-11-04 | denominator | 25,017 | VERIFIED | 249 64,404 47,502 4,377 20,640 25,017 82.50% 52.67% 38.84% |
 | mendocino-ca | 2014-11-04 | numerator | 11,402 | VERIFIED | he counting of maybe 10,000 more votes) for key Mendocino County Elections. 11,402 votes cast, 24.02% of registered vote |
 | mendocino-ca | 2016-11-08 | denominator | 38,730 | VERIFIED | o 250 63,741 51,061 6,036 32,694 38,730 84.42% 75.85% 60.76% |
@@ -81,7 +82,7 @@ verify_en_* scripts to regenerate).
 | napa-ca | 2012-11-06 | denominator | 57,672 | VERIFIED | 167 91,138 72,592 6,251 51,421 57,672 89.16% 79.45% 63.28% |
 | napa-ca | 2012-11-06 | numerator | 32,715 | VERIFIED | Election Day Turnout 5,869 8.08% Total 32,715 45.07% PRESIDENT AND VICE PRESIDENT |
 | napa-ca | 2014-11-04 | denominator | 38,766 | VERIFIED | 167 91,531 70,493 2,397 36,369 38,766 93.82% 54.99% 42.35% |
-| napa-ca | 2014-11-04 | numerator | 18,286 | VERIFIED | % Election Day Turnout 945 1.34% Total 18,286 25.94% Governor 0/164 0.00% |
+| napa-ca | 2014-11-04 | numerator | 19,515 | VERIFIED | Napa 167 167 100.0% 70,493 19,515 27.7% Nov 4 8:00 p.m. Nov 4 11:14 p.m. FENU |
 | napa-ca | 2016-11-08 | denominator | 63,255 | VERIFIED | 167 93,686 76,833 4,530 58,725 63,255 92.84% 82.33% 67.52% |
 | napa-ca | 2016-11-08 | numerator | 34,108 | VERIFIED | November 8, 2016 Precincts Reported: 167 of 167 (100.00%) Ballots Cast: 34,108 PRESIDENT/VICE PRESIDENT (Vote for 1) Pre |
 | napa-ca | 2018-11-06 | denominator | 57,132 | VERIFIED | 170 92,369 78,135 42 57,090 57,132 99.93% 73.12% 61.85% |
@@ -139,7 +140,7 @@ verify_en_* scripts to regenerate).
 | riverside-ca | 2022-11-08 | numerator | 205,813 | VERIFIED | orted: 1,265 of 1,265 ( 100.00% ) Voters Cast: 205,813 of 1,310,928 ( 15.70% ) Governor |
 | riverside-ca | 2024-03-05 | denominator | 409,269 | VERIFIED | 928 1,642,089 1,327,135 38,699 370,570 409,269 90.54% 30.84% 24.92% |
 | riverside-ca | 2024-11-05 | denominator | 959,098 | VERIFIED | 1,345 1,646,951 1,372,548 170,437 788,661 959,098 82.23% 69.88% 58.23% |
-| riverside-ca | 2024-11-05 | numerator | 611,101 | VERIFIED | taArray, colorObject, elem); })(); Ballots Counted 611,101 Vote by Mail 483,778 Mail Ballot Precinc |
+| riverside-ca | 2024-11-05 | numerator | 547,742 | VERIFIED | Vote Centers 1,345 1,345 100.0% 1,372,548 547,742 39.9% Nov 5 8:44 p.m. Nov 6 5:02 a.m. U |
 | sacramento-ca | 2012-11-06 | denominator | 522,045 | VERIFIED | 1,106 944,243 698,899 216,021 306,024 522,045 58.62% 74.70% 55.29% |
 | sacramento-ca | 2012-11-06 | numerator | 328,516 | VERIFIED | L . . . . . 698,899 BALLOTS CAST - TOTAL. . . . . . . 328,516 VOTER TURNOUT - TOTAL . . . . . . 47.00 |
 | sacramento-ca | 2014-11-04 | denominator | 330,817 | VERIFIED | to 1,263 961,112 683,632 111,628 219,189 330,817 66.26% 48.39% 34.42% |
@@ -189,6 +190,8 @@ verify_en_* scripts to regenerate).
 | san-mateo-ca | 2022-11-08 | numerator | 122,135 | VERIFIED | (dataArray, colorObject, elem); })(); Ballots Cast 122,135 Vote by Mail Ballots 106,626 Vote Center |
 | san-mateo-ca | 2024-11-05 | denominator | 337,241 | VERIFIED | 338 513,823 443,350 39,466 297,775 337,241 88.30% 76.07% 65.63% |
 | san-mateo-ca | 2024-11-05 | numerator | 213,421 | VERIFIED | taArray, colorObject, elem); })(); Ballots Counted 213,421 Vote by Mail Ballots 178,796 Vote Center |
+| santa-clara-ca | 2012-06-05 | denominator | 292,713 | VERIFIED | lara 874 1,116,131 755,117 55,518 237,195 292,713 81.03% 38.76% 26.23% |
+| santa-clara-ca | 2012-06-05 | numerator | 234,342 | VERIFIED | 455 Precinct Reporting Turnout 6.47% 48,887 31.03% 234,342 ⇑ Back To Top Nonpartisan Registration & Turnout |
 | santa-clara-ca | 2012-11-06 | denominator | 653,239 | VERIFIED | a 1,000 1,122,390 817,837 195,354 457,885 653,239 70.09% 79.87% 58.20% |
 | santa-clara-ca | 2012-11-06 | numerator | 438,348 | VERIFIED | 012 Registered Voters: 817,837 Ballots Cast: 438,348 Voter Turnout: 53.60 % Precincts P |
 | santa-clara-ca | 2014-11-04 | denominator | 404,166 | VERIFIED | ara 1,066 1,157,944 805,502 96,077 308,089 404,166 76.23% 50.18% 34.90% |

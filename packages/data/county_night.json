@@ -252,12 +252,12 @@
         {
           "year": 2016,
           "type": "presidential",
-          "pct": 83.3,
-          "ballots": 8155,
+          "pct": 86.31,
+          "ballots": 8450,
           "final": 9790,
           "confidence": "primary",
           "comparable": true,
-          "source_url": "https://web.archive.org/web/20201111052354id_/https://b012f97e-a-03565450-s-sites.googlegroups.com/a/co.del-norte.ca.us/dnco/departments/clerk-recorder/elections/election-results/november-8-2016-general-election-results/November%208%2C%202016%20General%20Election%20Results%20-%20Release%204.pdf?attachauth=ANoY7crZ3u9uMBbDoq8_7PPqlwXp8FBRiq_Hc508Z099eoeFiu5ijSbO7qJEI-OMzHPKApEpuEWgWy2oTkyFNa1Y1bV3dAKSnZLhGtUumx5iRpJnjrlwFIINYptg1bPKo3zLhH_cUwa8W3B4Ib91AU8RtVc0rWxnKDydWIxj0U7K1Efk-zwMeyzM12PBtRuJ0GlE1vDbb7jsE8UqvSZ8GCVXRNxkwhUMdcUMwPf-wFOrlleOs7KGmEXQMLPD36kpsuLM_kdOZQbFT9b-QAOxx5CFnV4r5886-WhkuMCwxrL5aoAGfC-GTNIdjAO8YF41r2y2rvGvIm6z8H4SkNjgo1WrmuJdSLKO-2inA46ukHpF7NGaOx_HBkKKdd-rQL9IceYjVgidptdRVV-rlx22_3EgTJ9kcoRWpQ%3D%3D&attredirects=0&d=1"
+          "source_url": "https://web.archive.org/web/20161110185817/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2018,
@@ -592,12 +592,12 @@
         {
           "year": 2012,
           "type": "presidential",
-          "pct": null,
-          "ballots": null,
+          "pct": 51.0,
+          "ballots": 18401,
           "final": 36080,
-          "confidence": "none",
+          "confidence": "secondary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://theava.com/archives/62338"
         },
         {
           "year": 2014,
@@ -674,12 +674,12 @@
         {
           "year": 2014,
           "type": "midterm",
-          "pct": 47.17,
-          "ballots": 18286,
+          "pct": 50.34,
+          "ballots": 19515,
           "final": 38766,
-          "confidence": "secondary",
+          "confidence": "primary",
           "comparable": true,
-          "source_url": "https://web.archive.org/web/20150916061050/http://www.countyofnapa.org/ElectionResults/20141104/20141104-2230_dtl.htm"
+          "source_url": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2016,
@@ -1062,12 +1062,12 @@
         {
           "year": 2024,
           "type": "presidential",
-          "pct": 63.7,
-          "ballots": 611101,
+          "pct": 57.11,
+          "ballots": 547742,
           "final": 959098,
-          "confidence": "secondary",
-          "comparable": false,
-          "source_url": "https://web.archive.org/web/20241107034053/https://www.livevoterturnout.com/ENR/riversidecaenr/5/en/Index_5.html"
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20241106133254/https://electionresults.sos.ca.gov/returns/status"
         }
       ]
     },
@@ -1429,6 +1429,16 @@
         "asv": null
       },
       "points": [
+        {
+          "year": 2012,
+          "type": "presidential-primary",
+          "pct": 80.06,
+          "ballots": 234342,
+          "final": 292713,
+          "confidence": "secondary",
+          "comparable": false,
+          "source_url": "https://web.archive.org/web/20120607192808/http://www.sccgov.org/elections/results/jun2012/"
+        },
         {
           "year": 2012,
           "type": "presidential",

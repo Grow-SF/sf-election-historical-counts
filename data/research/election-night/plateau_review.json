@@ -10,8 +10,8 @@
   "slug": "del-norte-ca",
   "date": "2016-11-08",
   "verdict": "CONFIRMED",
-  "basis": "self-labeled 'Election Night Final' report, last of a numbered on-night release series, next report 8 days later at a higher count",
-  "evidence": "Release 4/6, 11/8/2016 10:47:49 PM, 18/18 precincts (100%), Registered Voters 8,155/14,320 (56.95%); Release 5 (next in series) is dated 11/15/2016, 9,702/14,320 -- confirms Release 4 was the last report before the canvass resumed. Numerator URL corrected 2026-07-10 to Release 4's own exact matched Wayback capture (a working draft had cited Release 6's URL by mistake while carrying Release 4's number)"
+  "basis": "CA SoS county-reporting-status page FENU-equivalent figure, frozen 5 days then jumping to the exact certified final; supersedes the county's own slightly-earlier Release 4 as the last election-night value fed to the state",
+  "evidence": "CORRECTION 2026-07-10: landed value moved from county Release 4 (8,155, 10:47:49 PM) to the SoS status page's 8,450 (Last Report 'Nov 8 11:38 p.m.'), Del Norte row 18/18 (100%) at capture 20161110185817, byte-identical (frozen) across 6 captures through 20161116014606 (5 days), then jumps to 9,790 = the certified final exactly (matching the county's own Nov 16 Release 6) at Nov 16 9:40 a.m. The 51-minute gap is late-tabulated/provisional ballots folded into the county's EMS feed after it declared Election Night Final on its public page. Release 4's read (8,155) was itself accurate; retained as history in the row note"
  },
  {
   "slug": "del-norte-ca",
@@ -162,6 +162,13 @@
  },
  {
   "slug": "mendocino-ca",
+  "date": "2012-11-06",
+  "verdict": "PLAUSIBLE",
+  "basis": "maintainer-approved approximation; self-description consistent but no independent bracket/hold leg obtainable (RUNBOOK 8)",
+  "evidence": "MAINTAINER OVERRIDE 2026-07-10: restored from null. The Anderson Valley Advertiser election-night-2016 live-blog (theava.com/archives/62338) cites 2012's 'preliminary election night results ... based on about 51% of about 36,400 votes cast', using the same construction as its independently-verified 2016 figure (23.58%, matching the county's own current.htm) in the same article. Value = round(36,080 x 0.51) = 18,401 = 51.00%, secondary, comparable. Coarse whole-percent approximation; machine numerator check reports NOT_FOUND (derived integer not literally in source) as expected and documented. No Wayback bracket exists for 2012 to confirm it was the LAST report of the night, hence PLAUSIBLE not CONFIRMED"
+ },
+ {
+  "slug": "mendocino-ca",
   "date": "2014-11-04",
   "verdict": "CONFIRMED",
   "basis": "county report self-describes (verbatim-quoted by news) + later Wayback capture of the same URL shows a materially higher, weeks-later count",
@@ -198,9 +205,9 @@
  {
   "slug": "napa-ca",
   "date": "2014-11-04",
-  "verdict": "PLAUSIBLE",
-  "basis": "on-night floor; the exact final report is unarchived",
-  "evidence": "10:30 PM report is the artifact; the 10:42 PM last-of-night report's frames were never crawled (CDX empty); documented floor, stays secondary"
+  "verdict": "CONFIRMED",
+  "basis": "CA SoS county-reporting-status page's Final Election Night Unofficial (FENU) figure, doubly bracket-confirmed (frozen 2 days, then a correctly-identified CCU jump)",
+  "evidence": "CORRECTION 2026-07-10: landed value moved from the county's 10:30 PM web report (18,286, now retained as a floor in the row note) to the SoS FENU 19,515 (Last Report 'Nov 4 11:14 p.m.'). Napa row 167/167 (100.0%) / 19,515 / 27.7% at capture 20141105141649, byte-identical (frozen) 2 days later at 20141107083801, then jumps to 35,800 (CCU) on Nov 14. The county's own 10:30 PM page showed statewide precinct tallying essentially not yet started (0/164), so the SoS captured a later, fuller moment of the SAME continuous election-night count. Non-circular leg: 2-day freeze before the CCU jump"
  },
  {
   "slug": "napa-ca",
@@ -366,9 +373,9 @@
  {
   "slug": "riverside-ca",
   "date": "2024-11-05",
-  "verdict": "REFUTED_AS_PLATEAU",
-  "basis": "next-day canvass update, already documented in the note",
-  "evidence": "cited state is 'Updated: 11/6/2024 5:35:21 PM', the first daily canvass update; the ~3 AM plateau is unarchived; retained as a flagged ceiling (comparable=false, secondary)"
+  "verdict": "CONFIRMED",
+  "basis": "CA SoS county-reporting-status page's ~5 a.m. overnight plateau, frozen 12+ hours across 3 captures before the next-day canvass bump",
+  "evidence": "CORRECTION 2026-07-10: landed value moved from the livevoterturnout ENR next-day-afternoon ceiling (611,101, 'Updated 11/6/2024 5:35:21 PM', comparable=false) to the SoS 547,742 (Last Report 'Nov 6 5:02 a.m.'). SoS timeline: 100% precincts (1,345/1,345) at 466,214, climbing 481,400 (12:05 AM) -> 496,024 -> 510,623 (2:05 AM) -> 547,742 (5:02 AM), which then held byte-identical across 20241106133254 / 154527 / 171813 (~6:32 AM to ~5:18 PM Nov 6) before the next capture jumped to the same 611,101 next-day figure. Non-circular leg: 12+ hour freeze then the canvass bump; comparable:false and flag removed, row now usable"
  },
  {
   "slug": "sacramento-ca",
@@ -502,6 +509,13 @@
   "verdict": "CONFIRMED",
   "basis": "self-describing final plus next-update schedule",
   "evidence": "'Final Election Night Report - Next update on Thursday, November 7', stamp 11/6/2024 2:18:48 AM"
+ },
+ {
+  "slug": "santa-clara-ca",
+  "date": "2012-06-05",
+  "verdict": "REFUTED_AS_PLATEAU",
+  "basis": "earliest archived capture of the only election-night channel (legacy pre-Clarity sccgov.org page) is already ~23h post-poll-close with precincts at 100% and a once-daily canvass cadence; kept only as a documented ceiling per RUNBOOK 5.2, comparable:false",
+  "evidence": "Wayback CDX for sccgov.org/elections/results/jun2012/ has zero captures before 2012-06-07 12:28 PM PDT; that capture's internal 'Last Updated' is 6/6/2012 7:02:03 PM, Completed Precincts 874/874 (100%), 234,342 ballots. FREEZE TEST (retry 2026-07-10): the very next capture (20120608222327, 6/7 4:43 PM) reads 268,370, then 284,025 (6/8), growing to the certified 292,713 which froze July 3 - Dec 8 -- so 234,342 is a mid-canvass Wednesday-evening ceiling, not a frozen night state. Not-adopted scaling estimate (Nov-2012 own ratio reversed) implies ~223,152/76.24%; maintainer default is the 234,342/80.06% ceiling. FLAG for manual operator: missed June 5-6 capture and/or Mercury News NewsBank quote could upgrade"
  },
  {
   "slug": "santa-clara-ca",
