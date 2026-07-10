@@ -954,7 +954,7 @@
       "name": "Santa Clara",
       "slug": "santa-clara-ca",
       "control": false,
-      "complete": false,
+      "complete": true,
       "adoption": {
         "epollbook": 2020,
         "asv": null
@@ -993,12 +993,12 @@
         {
           "year": 2018,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 48.61,
+          "ballots": 304000,
           "final": 625425,
-          "confidence": "none",
-          "comparable": true,
-          "source_url": null
+          "confidence": "secondary",
+          "comparable": false,
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F946169D59A048"
         },
         {
           "year": 2022,

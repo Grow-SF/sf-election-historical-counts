@@ -63,6 +63,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2016-11-08
       controller verdict: PLAUSIBLE (documented floor: same-contest ratio (Measure A/B) at printed precinct percentage)
 
+- [ ] **santa-clara-ca 2018-11-06** (secondary confidence)
+      claimed: night ballots **304,000**, certified final **625,425**, share **48.61%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F946169D59A048
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = documented CEILING, comparable:false (UPGRADED from prior null via NewsBank San Jose Mercury News; Clarity event 92418 routes remain exhausted, see below). Annie Sciacca and Joseph Geha, 'WHY BAY AREA COUNTIES STILL HAVE SO MANY VOTES TO COUNT' (Mercury News, Nov 8 2018 edition, p1B, NewsB
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2018-11-06
+      controller verdict: PLAUSIBLE (documented ceiling: Wednesday-afternoon post-night newspaper estimate, tightened from the prior 5-days-post deep canvass)
+
 ## 3. Blocked-source recoveries (need a real browser)
 
 - [ ] **fresno-ca 2018-11-06** (operator-flagged)

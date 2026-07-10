@@ -372,6 +372,13 @@
  },
  {
   "slug": "santa-clara-ca",
+  "date": "2018-11-06",
+  "verdict": "PLAUSIBLE",
+  "basis": "documented ceiling: Wednesday-afternoon post-night newspaper estimate, tightened from the prior 5-days-post deep canvass",
+  "evidence": "Mercury News Nov 8 2018 (docref news/16F946169D59A048): 'about 304,000 ballots were counted' 'As of Wednesday afternoon' (Registrar Shannon Bushey); corroborated by the Nov 9 op-ed (docref news/16FA96F533667668) '47 percent remaining' as of Thursday morning; ceiling 304,000 (48.61%) flagged comparable=false"
+ },
+ {
+  "slug": "santa-clara-ca",
   "date": "2022-11-08",
   "verdict": "CONFIRMED",
   "basis": "clarity version bracket, re-derived",
@@ -383,5 +390,47 @@
   "verdict": "REFUTED_AND_CORRECTED",
   "basis": "clarity version walk recovers the true plateau",
   "evidence": "cited v353583 (11/6 4:46 PM, BC 468,395) is a next-day canvass bump; the night sequence is v353205 11:57 PM BC 459,487 then v353227 12:16 AM BC 460,325 (last of the night, held through v353516 at 1:10 PM); corrected to 460,325"
+ },
+ {
+  "slug": "ventura-ca",
+  "date": "2012-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "clarity version bracket (Web01 HTML, no JSON API)",
+  "evidence": "v110763 '630 of 630 Precincts Completely Reported, Updated 11/7/2012 2:11:37 AM PST', BC 256,927; next v111498 titled 'Semi Official Update #1', dated 11/9/2012 12:12:16 PM PST, BC 270,851"
+ },
+ {
+  "slug": "ventura-ca",
+  "date": "2014-11-04",
+  "verdict": "CONFIRMED",
+  "basis": "clarity version bracket (Web01 HTML, no JSON API)",
+  "evidence": "v147874 '614 of 614 Precincts Completely Reported, Website last updated 11/5/2014 1:01:18 AM PST', BC 153,442; next v148521 dated 11/7/2014 12:17:57 PM PST, BC 166,686"
+ },
+ {
+  "slug": "ventura-ca",
+  "date": "2016-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "clarity version bracket (Web01 HTML, no JSON API)",
+  "evidence": "v182694 '684 of 684 Precincts Completely Reported, Last updated 11/9/2016 12:51:27 AM PST', BC 258,250; next v182919 dated 11/10/2016 2:56:28 PM PST, BC 269,779"
+ },
+ {
+  "slug": "ventura-ca",
+  "date": "2018-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "clarity version bracket, re-derived from CDN",
+  "evidence": "cited v220414 stamped 11/7/2018 2:19:16 AM PST, PR 742/742, BC 201,298; next v221160 stamped 11/9/2018 3:11:17 PM PST, BC 219,149"
+ },
+ {
+  "slug": "ventura-ca",
+  "date": "2022-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "clarity version bracket, re-derived from CDN",
+  "evidence": "cited v311920 stamped 11/9/2022 1:27:17 AM PST, PR 1,640/1,640, BC 153,682; next v312263 stamped 11/10/2022 12:04:25 PM PST, BC 172,776"
+ },
+ {
+  "slug": "ventura-ca",
+  "date": "2024-11-05",
+  "verdict": "CONFIRMED",
+  "basis": "clarity version bracket, re-derived from CDN",
+  "evidence": "cited v353328 stamped 11/6/2024 3:19:32 AM PST, PR 1,115/1,419, BC 267,226; next v353719 stamped 11/7/2024 4:04:33 PM PST, BC 278,636"
  }
 ]

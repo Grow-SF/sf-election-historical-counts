@@ -19,5 +19,12 @@
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1608FF6D81BADB18",
   "evidence": "Santa Clara County ballot measures, 41% of precincts: Measure A Yes 200,688 67.0% No 98,820 33.0% (299,508 total); Measure B Yes 215,336 70.9% No 88,342 29.1% = 303,678 total votes",
   "method": "newsbank-sfpl-manual"
+ },
+ {
+  "slug": "santa-clara-ca",
+  "date": "2018-11-06",
+  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F946169D59A048",
+  "evidence": "In Santa Clara County, more than 75 percent of voters use mail-in ballots. As of Wednesday afternoon, about 304,000 ballots were counted and staff estimated roughly 270,000 still needed to be.",
+  "method": "newsbank-sfpl-manual"
  }
 ]
