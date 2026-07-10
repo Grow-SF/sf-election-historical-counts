@@ -304,3 +304,102 @@ clarity version walk recovers the true plateau.
 
 cited v353583 (11/6 4:46 PM, BC 468,395) is a next-day canvass bump; the night sequence is v353205 11:57 PM BC 459,487 then v353227 12:16 AM BC 460,325 (last of the night, held through v353516 at 1:10 PM); corrected to 460,325
 
+---
+
+UPDATE (2026-07-10, CA SoS status-page sweep integration -- 2012 elections): 16 new sourced rows landed across 11 counties (of the 18 panel counties besides San Francisco, the control), recovered from the CA SoS per-county reporting-status page (`vote.sos.ca.gov/returns/status` 2012-2018, `electionresults.sos.ca.gov/returns/status` 2022+) across 2 statewide election(s) in this batch. 11 CONFIRMED (frozen-capture or single-capture-then-jump bracket per RUNBOOK 8), 5 PLAUSIBLE (self-describing FENU/plateau state but no independent capture available in the CDX window to bracket it). Source: `scratchpad/sos-status-sweep.md` (research sweep) and `scratchpad/sweep_applylist.json` (computed apply-list, this batch's subset); every cell's capture citation and freeze/jump evidence below was independently re-derived from the raw per-capture timeline data (not merely transcribed from the sweep's prose), matching exact ballots-cast values with zero mismatches. Running totals: 86 CONFIRMED, 8 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2 REFUTED_AND_CORRECTED (98 sourced rows, matching the validator).
+
+### del-norte-ca 2012-06-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Del Norte row at capture 20120608222655 (2012-06-08 22:26:55 UTC): 100.0% precincts, Ballots Cast 4,820, Last Report 'Jun 5 11:07 p.m.'. FROZEN: the identical Ballots Cast figure 4,820 recurs across 2 captures, 2012-06-08 22:26:55 UTC through 2012-06-17 19:21:15 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20120608222655->20120617192115 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### del-norte-ca 2012-11-06: PLAUSIBLE
+
+CA SoS status-page single-capture bracket (RUNBOOK 8).
+
+Del Norte row at capture 20121110102540 (2012-11-10 10:25:40 UTC): 100.0% precincts, Ballots Cast 8,067, Last Report 'Nov 7 12:20 a.m.'. SINGLE CAPTURE at 2012-11-10 10:25:40 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. Sweep bracket-evidence cross-check: "single capture 20121110102540, no later capture to confirm freeze" (scratchpad/sos-status-sweep.md).
+
+### fresno-ca 2012-06-05: CONFIRMED
+
+CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8).
+
+Fresno row at capture 20120608222655 (2012-06-08 22:26:55 UTC): 100.0% precincts, Ballots Cast 66,323, Last Report 'Jun 6 1:45 a.m.'. SINGLE CAPTURE at 2012-06-08 22:26:55 UTC carries this value. The next available capture (2012-06-17 19:21:15 UTC) jumps to 107,825 (Last Report 'Jun 15 2:59 p.m.'), confirming 66,323 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). Sweep bracket-evidence cross-check: "single capture, next capture jumps to 107,825@Jun 15 2:59 p.m." (scratchpad/sos-status-sweep.md).
+
+### fresno-ca 2012-11-06: PLAUSIBLE
+
+CA SoS status-page single-capture bracket (RUNBOOK 8).
+
+Fresno row at capture 20121110102540 (2012-11-10 10:25:40 UTC): 100.0% precincts, Ballots Cast 160,466, Last Report 'Nov 7 2:38 a.m.'. SINGLE CAPTURE at 2012-11-10 10:25:40 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. Sweep bracket-evidence cross-check: "single capture 20121110102540, no later capture to confirm freeze" (scratchpad/sos-status-sweep.md).
+
+### lake-ca 2012-06-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Lake row at capture 20120608222655 (2012-06-08 22:26:55 UTC): 100.0% precincts, Ballots Cast 10,427, Last Report 'Jun 6 1:08 a.m.'. FROZEN: the identical Ballots Cast figure 10,427 recurs across 2 captures, 2012-06-08 22:26:55 UTC through 2012-06-17 19:21:15 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20120608222655->20120617192115 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### los-angeles-ca 2012-06-05: CONFIRMED
+
+CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8).
+
+Los Angeles row at capture 20120608222655 (2012-06-08 22:26:55 UTC): 100.0% precincts, Ballots Cast 765,552, Last Report 'Jun 6 4:41 a.m.'. SINGLE CAPTURE at 2012-06-08 22:26:55 UTC carries this value. The next available capture (2012-06-17 19:21:15 UTC) jumps to 920,096 (Last Report 'Jun 15 2:45 p.m.'), confirming 765,552 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). Sweep bracket-evidence cross-check: "single capture, next capture jumps to 920,096@Jun 15 2:45 p.m." (scratchpad/sos-status-sweep.md).
+
+### madera-ca 2012-06-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Madera row at capture 20120608222655 (2012-06-08 22:26:55 UTC): 100.0% precincts, Ballots Cast 16,619, Last Report 'Jun 5 11:20 p.m.'. FROZEN: the identical Ballots Cast figure 16,619 recurs across 2 captures, 2012-06-08 22:26:55 UTC through 2012-06-17 19:21:15 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20120608222655->20120617192115 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### madera-ca 2012-11-06: PLAUSIBLE
+
+CA SoS status-page single-capture bracket (RUNBOOK 8).
+
+Madera row at capture 20121110102540 (2012-11-10 10:25:40 UTC): 100.0% precincts, Ballots Cast 32,865, Last Report 'Nov 6 11:01 p.m.'. SINGLE CAPTURE at 2012-11-10 10:25:40 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. Sweep bracket-evidence cross-check: "single capture 20121110102540, no later capture to confirm freeze" (scratchpad/sos-status-sweep.md).
+
+### mendocino-ca 2012-06-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Mendocino row at capture 20120608222655 (2012-06-08 22:26:55 UTC): 100.0% precincts, Ballots Cast 13,485, Last Report 'Jun 6 1:16 a.m.'. FROZEN: the identical Ballots Cast figure 13,485 recurs across 2 captures, 2012-06-08 22:26:55 UTC through 2012-06-17 19:21:15 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20120608222655->20120617192115 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### napa-ca 2012-06-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Napa row at capture 20120608222655 (2012-06-08 22:26:55 UTC): 100.0% precincts, Ballots Cast 19,147, Last Report 'Jun 5 11:03 p.m.'. FROZEN: the identical Ballots Cast figure 19,147 recurs across 2 captures, 2012-06-08 22:26:55 UTC through 2012-06-17 19:21:15 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20120608222655->20120617192115 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### nevada-ca 2012-06-05: CONFIRMED
+
+CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8).
+
+Nevada row at capture 20120608222655 (2012-06-08 22:26:55 UTC): 100.0% precincts, Ballots Cast 21,763, Last Report 'Jun 6 12:41 a.m.'. SINGLE CAPTURE at 2012-06-08 22:26:55 UTC carries this value. The next available capture (2012-06-17 19:21:15 UTC) jumps to 30,763 (Last Report 'Jun 15 5:36 p.m.'), confirming 21,763 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). Sweep bracket-evidence cross-check: "single capture, next capture jumps to 30,763@Jun 15 5:36 p.m." (scratchpad/sos-status-sweep.md).
+
+### placer-ca 2012-06-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Placer row at capture 20120608222655 (2012-06-08 22:26:55 UTC): 100.0% precincts, Ballots Cast 62,087, Last Report 'Jun 6 12:42 a.m.'. FROZEN: the identical Ballots Cast figure 62,087 recurs across 2 captures, 2012-06-08 22:26:55 UTC through 2012-06-17 19:21:15 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20120608222655->20120617192115 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### placer-ca 2012-11-06: PLAUSIBLE
+
+CA SoS status-page single-capture bracket (RUNBOOK 8).
+
+Placer row at capture 20121110102540 (2012-11-10 10:25:40 UTC): 100.0% precincts, Ballots Cast 127,593, Last Report 'Nov 6 11:47 p.m.'. SINGLE CAPTURE at 2012-11-10 10:25:40 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. Sweep bracket-evidence cross-check: "single capture 20121110102540, no later capture to confirm freeze" (scratchpad/sos-status-sweep.md).
+
+### riverside-ca 2012-06-05: CONFIRMED
+
+CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8).
+
+Riverside row at capture 20120608222655 (2012-06-08 22:26:55 UTC): 100.0% precincts, Ballots Cast 189,087, Last Report 'Jun 6 1:42 a.m.'. SINGLE CAPTURE at 2012-06-08 22:26:55 UTC carries this value. The next available capture (2012-06-17 19:21:15 UTC) jumps to 232,279 (Last Report 'Jun 13 3:18 p.m.'), confirming 189,087 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). Sweep bracket-evidence cross-check: "single capture, next capture jumps to 232,279@Jun 13 3:18 p.m." (scratchpad/sos-status-sweep.md).
+
+### tehama-ca 2012-06-05: CONFIRMED
+
+CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8).
+
+Tehama row at capture 20120608222655 (2012-06-08 22:26:55 UTC): 100.0% precincts, Ballots Cast 9,993, Last Report 'Jun 6 12:06 a.m.'. SINGLE CAPTURE at 2012-06-08 22:26:55 UTC carries this value. The next available capture (2012-06-17 19:21:15 UTC) jumps to 13,968 (Last Report 'Jun 12 4:04 p.m.'), confirming 9,993 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). Sweep bracket-evidence cross-check: "single capture, next capture jumps to 13,968@Jun 12 4:04 p.m." (scratchpad/sos-status-sweep.md).
+
+### tehama-ca 2012-11-06: PLAUSIBLE
+
+CA SoS status-page single-capture bracket (RUNBOOK 8).
+
+Tehama row at capture 20121110102540 (2012-11-10 10:25:40 UTC): 100.0% precincts, Ballots Cast 17,559, Last Report 'Nov 7 12:37 a.m.'. SINGLE CAPTURE at 2012-11-10 10:25:40 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. Sweep bracket-evidence cross-check: "single capture 20121110102540, no later capture to confirm freeze" (scratchpad/sos-status-sweep.md).

@@ -88,7 +88,7 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 | Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
 |---|---|---:|---:|---:|---|---|
-| 2012 | presidential-general | — | 8,879 | — | none | — (not sourceable) |
+| 2012 | presidential-general | 8,067 | 8,879 | 90.85% | secondary | [link](https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/) |
 | 2014 | midterm-general | 6,539 | 7,332 | 89.2% | primary | [link](https://web.archive.org/web/20211102111036id_/https://425abd7a-a-03565450-s-sites.googlegroups.com/a/co.del-norte.ca.us/elect/elections/election-results/november-4-2014-general-election/November%204%2C%202014%20General%20Election%20-%20Release%202.pdf) |
 | 2016 | presidential-general | 8,450 | 9,790 | 86.3% | primary | [link](https://web.archive.org/web/20161110185817/http://vote.sos.ca.gov/returns/status/) |
 | 2018 | midterm-general | 7,127 | 8,439 | 84.5% | primary | [link](https://web.archive.org/web/20201111052344id_/https://b012f97e-a-03565450-s-sites.googlegroups.com/a/co.del-norte.ca.us/dnco/departments/clerk-recorder/elections/election-results/november-6-2018-general-election/November%206%2C%202018%20General%20Election%20Results%20-%20Release%204.pdf) |
@@ -97,9 +97,10 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 <details><summary>What to look for on each source page (numerator) + denominator URL</summary>
 
-- **2012 presidential-general** — night `—` / final `8,879` = `—` (none)
+- **2012 presidential-general** — night `8,067` / final `8,879` = `90.85%` (secondary)
+  - numerator: <https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf>
-  - look for: Certified final 8,879 Total Voters (CA SoS Voter Participation Statistics by County: 3,620 precinct + 5,259 VBM; 59.23% VBM). The county ran a numbered election-night release series (Release1.pdf-Release5_FINAL.pdf) whose dated index page IS archived, but every attachment link resolves only to a session-scoped redirect stub; the actual PDF bytes were never independently crawled by Wayback for any of the 5 releases (exact-URL CDX queries all return zero captures). No press-release archive reaches back to 2012; no usable local-news total found (the one plausibly relevant Triplicate story has no live URL and no Wayback capture). Election-night PLATEAU not sourceable; null per runbook 5.1.
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Del Norte County: 100.0% precincts reporting, Ballots Cast 8,067, Last Report stamp 'Nov 7 12:20 a.m.' (First Report 'Nov 6 8:51 p.m.') at Wayback capture 20121110102540 (2012-11-10 10:25:40 UTC). SINGLE CAPTURE at 2012-11-10 10:25:40 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 8,879 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf). Arithmetic: 8,067/8,879 = 90.85%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade PLAUSIBLE per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-11-06 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
 - **2014 midterm-general** — night `6,539` / final `7,332` = `89.2%` (primary)
   - numerator: Release 2 of the county's 2014 election-night PDF series (Wayback, elections.co.del-norte.ca.us "elect" Google Site, redirect-resolved to the googlegroups content host)
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf>
@@ -124,6 +125,21 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 </details>
 
+**Primaries** (statewide primary elections; same metric, same JSON file, joined by date):
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012p | presidential-primary | 4,820 | 5,242 | 91.95% | primary | [link](https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/) |
+
+<details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
+
+- **2012-06-05 presidential-primary** — night `4,820` / final `5,242` = `91.95%` (primary)
+  - numerator: <https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Del Norte County: 100.0% precincts reporting, Ballots Cast 4,820, Last Report stamp 'Jun 5 11:07 p.m.' (First Report 'Jun 5 8:30 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). FROZEN: the identical Ballots Cast figure 4,820 recurs across 2 captures, 2012-06-08 22:26:55 UTC through 2012-06-17 19:21:15 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 5,242 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf). Arithmetic: 4,820/5,242 = 91.95%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
+
+</details>
+
 ---
 
 ### Fresno County
@@ -131,7 +147,7 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 | Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
 |---|---|---:|---:|---:|---|---|
-| 2012 | presidential-general | — | 261,652 | — | none | — (not sourceable) |
+| 2012 | presidential-general | 160,466 | 261,652 | 61.33% | secondary | [link](https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/) |
 | 2014 | midterm-general | — | 163,420 | — | none | — (not sourceable) |
 | 2016 | presidential-general | 177,183 | 291,890 | 60.7% | primary | [link](https://web.archive.org/web/20161112171743/http://www2.co.fresno.ca.us/2850/Results/Results20161108.htm) |
 | 2018 | midterm-general | — | 256,972 | — | none | — (not sourceable) |
@@ -140,9 +156,10 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 <details><summary>What to look for on each source page (numerator) + denominator URL</summary>
 
-- **2012 presidential-general** — night `—` / final `261,652` = `—` (none)
+- **2012 presidential-general** — night `160,466` / final `261,652` = `61.33%` (secondary)
+  - numerator: <https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf>
-  - look for: Certified final 261,652 ballots cast (CA SoS Statement of Vote, Voter Participation Stats by County: precinct 119,543 + VBM 142,109; 63.79% of 410,188 registered). Pre-adoption, precinct-based. Election-night PLATEAU not sourceable. Fresno's no-dash GEMS live election-night page for this race (www2.co.fresno.ca.us/2850/Results/Results20121106.htm) has NO Wayback capture. The only archived 2012-general GEMS reports are the OFFICIAL FINAL canvass version: Results-2012-11-06.htm (internal header 'Election Summary Report ... Official Final Report 12/04/12 07:29:39', Cards Cast 261,652 = the certified total, 100% precincts) and Results-1.pdf (Date 12/04/12 07:30:35, same Official Final), neither an election-night report. The election-night-frozen no-dash live file that survives for 2016 (see that row) was never archived for 2012. Null per definition (never substitute a different denominator).
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Fresno County: 100.0% precincts reporting, Ballots Cast 160,466, Last Report stamp 'Nov 7 2:38 a.m.' (First Report 'Nov 6 8:14 p.m.') at Wayback capture 20121110102540 (2012-11-10 10:25:40 UTC). SINGLE CAPTURE at 2012-11-10 10:25:40 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 261,652 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf). Arithmetic: 160,466/261,652 = 61.33%. vs_epollbook=pre, vs_asv=pre (per county_tech/adoption record: epollbook 2020, asv 2020). Grade PLAUSIBLE per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-11-06 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
 - **2014 midterm-general** — night `—` / final `163,420` = `—` (none)
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf>
   - look for: Certified final 163,420 ballots cast (CA SoS; precinct 64,901 + VBM 98,519; 39.24% of 416,433 registered). Pre-adoption, precinct-based. Election-night PLATEAU not sourceable. The only archived 2014-general GEMS reports are the OFFICIAL FINAL canvass version: Results-2014-11-04.htm (internal header 'November 4, 2014 Statewide General Election Official Final Summary Report 12/02/14 13:29:07', Cards Cast 163,420 = the certified total, 100% of 577 precincts) and Results-2014-11-04.pdf (captured 2014-11-26, same Official Final). No no-dash election-night frozen file (Results20141104.htm) and no www2/2850/Post election-night summary report were archived. No election-night news total found. Null per definition.
@@ -160,6 +177,21 @@ Colusa's registrar publishes exactly one results document per election, always t
   - numerator: <https://web.archive.org/web/20241107003627/https://www.fresnocountyca.gov/files/sharedassets/county/v/5/county-clerk-registrar-of-voters/1_election-results-page-sov-ssov/2024/november-5th-general-election/electionsummaryreportrpt_11_5_24_1231.pdf>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf>
   - look for: Election-night PLATEAU = 206,372 ballots ('Voters Cast: 206,372 of 511,349', 40.36% of registered), from Fresno County's OFFICIAL 'Election Summary Report' dated/internally timestamped 11/6/2024 12:30:26 AM with Precincts Reported 478 of 478 (100.00%) -- the LAST election-night update (file electionsummaryreportrpt_11_5_24_1231.pdf, saved ~12:31 AM), recovered as a Wayback-archived PDF (capture 2024-11-07 00:36 UTC) and read with pdftotext (PRIMARY). This is the night's plateau, not the 8 p.m. first tranche: ABC30 (the v2 source) describes a first 8 p.m. wave of ~150,000 early VBM, then three updates through the night as officials 'worked past midnight to tabulate nearly all the ballots voters cast in person' -- the 12:30 AM 100%-precinct report (206,372) is that end-of-night cumulative (early VBM + virtually all election-day in-person). It HELD through Nov 6 before the multi-day canvass resumed: the next archived report (electionsummaryreportrpt11_7_24.pdf, 11/7/2024 3:28 PM) jumped to 222,324, and the count climbed to the certified 330,932 (in-person 63,049 + VBM 267,883) by Dec 3 -- the ~110k gap is the ~100,000 VBM dropped at vote centers/drop boxes on Election Day plus provisionals that were still unprocessed (per registrar James Kus). 206,372 / 330,932 = 62.36%. Post-epollbook AND post-ASV (both adopted 2020). NB: had v2's 8 p.m. ~150,000 first-tranche figure been used it would give a wrong ~45.3%; the correct plateau metric is 62.36%.
+
+</details>
+
+**Primaries** (statewide primary elections; same metric, same JSON file, joined by date):
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012p | presidential-primary | 66,323 | 113,975 | 58.19% | primary | [link](https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/) |
+
+<details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
+
+- **2012-06-05 presidential-primary** — night `66,323` / final `113,975` = `58.19%` (primary)
+  - numerator: <https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Fresno County: 100.0% precincts reporting, Ballots Cast 66,323, Last Report stamp 'Jun 6 1:45 a.m.' (First Report 'Jun 5 8:09 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). SINGLE CAPTURE at 2012-06-08 22:26:55 UTC carries this value. The next available capture (2012-06-17 19:21:15 UTC) jumps to 107,825 (Last Report 'Jun 15 2:59 p.m.'), confirming 66,323 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 113,975 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf). Arithmetic: 66,323/113,975 = 58.19%. vs_epollbook=pre, vs_asv=pre (per county_tech/adoption record: epollbook 2020, asv 2020). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
 
 </details>
 
@@ -206,6 +238,21 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 </details>
 
+**Primaries** (statewide primary elections; same metric, same JSON file, joined by date):
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012p | presidential-primary | 10,427 | 14,274 | 73.05% | primary | [link](https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/) |
+
+<details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
+
+- **2012-06-05 presidential-primary** — night `10,427` / final `14,274` = `73.05%` (primary)
+  - numerator: <https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Lake County: 100.0% precincts reporting, Ballots Cast 10,427, Last Report stamp 'Jun 6 1:08 a.m.' (First Report 'Jun 5 9:46 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). FROZEN: the identical Ballots Cast figure 10,427 recurs across 2 captures, 2012-06-08 22:26:55 UTC through 2012-06-17 19:21:15 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 14,274 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf). Arithmetic: 10,427/14,274 = 73.05%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
+
+</details>
+
 ---
 
 ### Los Angeles County
@@ -249,6 +296,21 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 </details>
 
+**Primaries** (statewide primary elections; same metric, same JSON file, joined by date):
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012p | presidential-primary | 765,552 | 973,274 | 78.66% | primary | [link](https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/) |
+
+<details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
+
+- **2012-06-05 presidential-primary** — night `765,552` / final `973,274` = `78.66%` (primary)
+  - numerator: <https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Los Angeles County: 100.0% precincts reporting, Ballots Cast 765,552, Last Report stamp 'Jun 6 4:41 a.m.' (First Report 'Jun 5 8:13 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). SINGLE CAPTURE at 2012-06-08 22:26:55 UTC carries this value. The next available capture (2012-06-17 19:21:15 UTC) jumps to 920,096 (Last Report 'Jun 15 2:45 p.m.'), confirming 765,552 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 973,274 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf). Arithmetic: 765,552/973,274 = 78.66%. vs_epollbook=pre, vs_asv=pre (per county_tech/adoption record: epollbook 2020, asv 2020). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
+
+</details>
+
 ---
 
 ### Madera County
@@ -256,7 +318,7 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 | Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
 |---|---|---:|---:|---:|---|---|
-| 2012 | presidential-general | — | 40,325 | — | none | — (not sourceable) |
+| 2012 | presidential-general | 32,865 | 40,325 | 81.5% | secondary | [link](https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/) |
 | 2014 | midterm-general | — | 27,370 | — | none | — (not sourceable) |
 | 2016 | presidential-general | 35,364 | 44,186 | 80.0% | primary | [link](https://web.archive.org/web/20161112115134/http://votemadera.com/results/Election33/HTML/resultsc33.htm) |
 | 2018 | midterm-general | 28,159 | 38,968 | 72.3% | primary | [link](https://web.archive.org/web/20260627203408/https://results.enr.clarityelections.com/CA/Madera/92458/220349/json/sum.json) |
@@ -265,9 +327,10 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 <details><summary>What to look for on each source page (numerator) + denominator URL</summary>
 
-- **2012 presidential-general** — night `—` / final `40,325` = `—` (none)
-  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-general/sov-complete.pdf>
-  - look for: Certified final 40,325 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County', complete 2012 SOV (Madera: 96 precincts, 86,894 eligible, 53,779 registered, 15,658 precinct + 24,667 VBM = 40,325). Election-night plateau NOT recoverable: this predates Madera's Clarity ENR (Madera's first Clarity election is the June 2018 primary, id 75694) and its WordPress/votemadera.com results system. Wayback's earliest votemadera.com capture is the homepage 02/02/2011, then nothing until Oct 2014; the /results/ folder is first archived as Election28 = Nov 2014. No 2012 election-night results page, semi-final canvass PDF, or news-quoted county ballot total found. No snapshot used.
+- **2012 presidential-general** — night `32,865` / final `40,325` = `81.5%` (secondary)
+  - numerator: <https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf>
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Madera County: 100.0% precincts reporting, Ballots Cast 32,865, Last Report stamp 'Nov 6 11:01 p.m.' (First Report 'Nov 6 8:03 p.m.') at Wayback capture 20121110102540 (2012-11-10 10:25:40 UTC). SINGLE CAPTURE at 2012-11-10 10:25:40 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 40,325 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf). Arithmetic: 32,865/40,325 = 81.5%. vs_epollbook=pre, vs_asv=n/a (per county_tech/adoption record: epollbook 2018, asv None). Grade PLAUSIBLE per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-11-06 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
 - **2014 midterm-general** — night `—` / final `27,370` = `—` (none)
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf>
   - look for: Certified final 27,370 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County', 2014 complete SOV (Madera: 100 precincts, 85,976 eligible, 52,494 registered, 8,970 precinct + 18,400 VBM = 27,370). Election-night plateau NOT recoverable as a clean number. The only archived data state of votemadera.com's result28.htm / resultsc28.htm (captures 20141108134805 and 20141118031430) is the report 'Election Results as of 11/07/2014 at 02:14:32 PM' = Total Ballots Cast 26,449 (precinct 8,106 + absentee 18,343), 100 of 100 precincts -- this is the FIRST CANVASS UPDATE (Friday 11/7 afternoon, ~96.6% of certified), NOT the election-night semifinal. Madera's own 'Updates to Election Night Results' page (capture 20141111035904) confirms 4,385 late VBM 'arrived too late to be processed and included in the Semifinal Results from Election Night' and were counted starting 'Friday 11/7 at 1:00pm', so the true election-night plateau (which excluded those 4,385) was overwritten in place and is unarchived. No 2014 Clarity ENR exists (Madera's first Clarity is June 2018), so the live-CDN version recovery used for 2018/2022 is not available here. Recording 26,449 would overstate the election-night share, so left null.
@@ -287,6 +350,21 @@ Colusa's registrar publishes exactly one results document per election, always t
   - numerator: <https://web.archive.org/web/20241108001837/https://results.enr.clarityelections.com/CA/Madera/122832/353191/json/sum.json>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf>
   - look for: Numerator 37,106 = total Ballots Cast (field BC) from the Madera County Clarity ENR election-night data version 353191 (results.enr.clarityelections.com/CA/Madera/122832/353191/json/sum.json), recovered via Wayback (snapshot 20241108001837). The version's electionsettings.json gives websiteupdatedat = '11/5/2024 11:51:26 PM PST' -- the late/end-of-election-night report, 63 of 78 precincts reporting, registered 78,317. It is the election-night plateau: the next archived version 353996 is a Nov 9 update where BC jumps to 44,900 (64/78), so 37,106 held from late election night through the next days before the canvass resumed. Certified final 55,329 (CA SoS 'Voter Participation Statistics by County'; Madera 78 precincts, 95,290 eligible, 78,204 registered, 8,560 precinct + 46,769 VBM). pct = 37,106 / 55,329 = 67.06% (rounded 67.1%). Snapshot 20241108001837 used. NOTE on trend: 2016 (pre-epollbook, traditional polling places) plateaued at 80.0% vs 2024 (post-epollbook, universal-VBM vote centers) at 67.1% -- the drop tracks the statewide shift to universal vote-by-mail (more late-arriving ballots), not e-pollbook check-in speed per se. Like-to-like midterms: 2018 (first VCA year) 72.26% -> 2022 58.78%, same downward direction.
+
+</details>
+
+**Primaries** (statewide primary elections; same metric, same JSON file, joined by date):
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012p | presidential-primary | 16,619 | 20,538 | 80.92% | primary | [link](https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/) |
+
+<details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
+
+- **2012-06-05 presidential-primary** — night `16,619` / final `20,538` = `80.92%` (primary)
+  - numerator: <https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Madera County: 100.0% precincts reporting, Ballots Cast 16,619, Last Report stamp 'Jun 5 11:20 p.m.' (First Report 'Jun 5 8:27 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). FROZEN: the identical Ballots Cast figure 16,619 recurs across 2 captures, 2012-06-08 22:26:55 UTC through 2012-06-17 19:21:15 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 20,538 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf). Arithmetic: 16,619/20,538 = 80.92%. vs_epollbook=pre, vs_asv=n/a (per county_tech/adoption record: epollbook 2018, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
 
 </details>
 
@@ -330,6 +408,21 @@ Colusa's registrar publishes exactly one results document per election, always t
   - numerator: <https://mendofever.com/2024/11/06/election-2024-voter-turnout-tight-races-and-early-results-in-mendocino-county/> (live site currently down; use the Wayback capture https://web.archive.org/web/20241123041721/https://mendofever.com/2024/11/06/election-2024-voter-turnout-tight-races-and-early-results-in-mendocino-county/ )
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf>
   - look for: "voter turnout in Mendocino County reached 28.57%, with 15,611 out of 54,640 registered voters casting ballots ... unofficial results, released shortly before midnight" plus an author comment confirming "tabulated by Election night." Wayback's own currentFR.pl capture 11 days later (Run Date 11/13/2024) shows 24,062, confirming 15,611 was the earlier, election-night state.
+
+</details>
+
+**Primaries** (statewide primary elections; same metric, same JSON file, joined by date):
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012p | presidential-primary | 13,485 | 20,116 | 67.04% | primary | [link](https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/) |
+
+<details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
+
+- **2012-06-05 presidential-primary** — night `13,485` / final `20,116` = `67.04%` (primary)
+  - numerator: <https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Mendocino County: 100.0% precincts reporting, Ballots Cast 13,485, Last Report stamp 'Jun 6 1:16 a.m.' (First Report 'Jun 5 8:46 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). FROZEN: the identical Ballots Cast figure 13,485 recurs across 2 captures, 2012-06-08 22:26:55 UTC through 2012-06-17 19:21:15 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 20,116 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf). Arithmetic: 13,485/20,116 = 67.04%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
 
 </details>
 
@@ -377,6 +470,21 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 </details>
 
+**Primaries** (statewide primary elections; same metric, same JSON file, joined by date):
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012p | presidential-primary | 19,147 | 29,305 | 65.34% | primary | [link](https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/) |
+
+<details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
+
+- **2012-06-05 presidential-primary** — night `19,147` / final `29,305` = `65.34%` (primary)
+  - numerator: <https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Napa County: 100.0% precincts reporting, Ballots Cast 19,147, Last Report stamp 'Jun 5 11:03 p.m.' (First Report 'Jun 5 8:00 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). FROZEN: the identical Ballots Cast figure 19,147 recurs across 2 captures, 2012-06-08 22:26:55 UTC through 2012-06-17 19:21:15 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 29,305 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf). Arithmetic: 19,147/29,305 = 65.34%. vs_epollbook=pre, vs_asv=n/a (per county_tech/adoption record: epollbook 2018, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
+
+</details>
+
 ---
 
 ### Nevada County
@@ -418,6 +526,21 @@ Colusa's registrar publishes exactly one results document per election, always t
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf>
   - look for: PLATEAU = 15,486, CONFIRMED as the LAST of the three election-night reports. Source: Nevada County Elections' own official 'Third Report - Cumulative Results' PDF (DocumentCenter View/55078), Run Date 11/05/2024, Run Time 11:24 PM, Precincts Reporting 118 of 118 = 100.00%, Ballots Counted = 15,486 (header '15486 of 75881 registered = 20.41%'). Full election-night sequence from the county's own cumulative/precinct reports: First Report 8:02:22 PM = 11,749 ballots (0 of 118 precincts, VBM pre-count dump); Second Report 10:03:43 PM = 12,409 (118 of 118 precincts); Third/LAST Report 11:24:31 PM = 15,486 (118 of 118 = 100%) - the plateau, which held until the first semi-official canvass update on Fri Nov 8. This UPGRADES the row from secondary to primary and RESOLVES the prior 'first-or-last' ambiguity: 15,486 is the THIRD/last report (NOT the 8pm first tranche of 11,749). NOTE: this note supersedes the preserved flag's earlier 'could not be independently confirmed' caveat - the plateau is now confirmed by the county's own last election-night report. YubaNet 'Too early to call local races' (publ. 2024-11-06) corroborates verbatim: 'With 15,486 ballots (20.41%) counted on election night ... After the polls closed, three reports were issued with vote counts.' election_night_pct = 15,486 / 63,240 = 24.49%. Denominator = certified final 'Total Voters' 63,240 (Precinct 8,047 + VBM 55,193), CA SoS Statement of Vote, Voter Participation Statistics by County. STILL EXCLUDED from the e-pollbook/ASV comparison (comparable=false): the abnormally low election-night share is an artifact of the ballot-printer ink-overspray defect that forced ~3 weeks of in-house VBM rescanning, NOT a counting-tech effect - see the preserved flag. Post-e-pollbook, post-ASV.
   - ⚠️ **FLAG:** EXCLUDE FROM TECH COMPARISON. Ballot-printer ink-overspray defect (county press releases Oct 23/28 2024) made tens of thousands of vote-by-mail ballots unreadable by the tabulators; ~90 staff hand-rescanned them in-house through ~Thanksgiving. So Nevada County counted abnormally FEW ballots on election night 2024 — the low share is a paper-defect artifact, NOT an automatic-signature-verification or e-pollbook effect (the user flagged exactly this). Also UNCONFIRMED: YubaNet says '15,486 ballots (20.41%) counted on election night' but whether that was the first or the last of the three election-night reports is ambiguous in the source, and the true end-of-night plateau could not be independently confirmed (no Wayback/Clarity capture of the county's live results). Treat 24.49% as a depressed, news-derived outlier, not a clean plateau.
+
+</details>
+
+**Primaries** (statewide primary elections; same metric, same JSON file, joined by date):
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012p | presidential-primary | 21,763 | 31,333 | 69.46% | primary | [link](https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/) |
+
+<details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
+
+- **2012-06-05 presidential-primary** — night `21,763` / final `31,333` = `69.46%` (primary)
+  - numerator: <https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Nevada County: 100.0% precincts reporting, Ballots Cast 21,763, Last Report stamp 'Jun 6 12:41 a.m.' (First Report 'Jun 5 9:13 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). SINGLE CAPTURE at 2012-06-08 22:26:55 UTC carries this value. The next available capture (2012-06-17 19:21:15 UTC) jumps to 30,763 (Last Report 'Jun 15 5:36 p.m.'), confirming 21,763 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 31,333 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf). Arithmetic: 21,763/31,333 = 69.46%. vs_epollbook=pre, vs_asv=pre (per county_tech/adoption record: epollbook 2014, asv 2016). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
 
 </details>
 
@@ -471,7 +594,7 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 | Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
 |---|---|---:|---:|---:|---|---|
-| 2012 | presidential-general | — | 172,757 | — | none | — (not sourceable) |
+| 2012 | presidential-general | 127,593 | 172,757 | 73.86% | secondary | [link](https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/) |
 | 2014 | midterm-general | 76,411 | 115,547 | 66.1% | primary | [link](https://web.archive.org/web/20141115000402/http://www.placerelections.com/election-night-results.aspx) |
 | 2016 | presidential-general | 109,666 | 190,550 | 57.6% | primary | [link](https://web.archive.org/web/20161113042955/http://www.placerelections.com/election-night-results.aspx) |
 | 2018 ⚠️ | midterm-general | 113,380 | 177,725 | 63.8% | secondary | [link](https://web.archive.org/web/20181113195233/https://www.placerelections.com/election-night-results/) |
@@ -480,9 +603,10 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 <details><summary>What to look for on each source page (numerator) + denominator URL</summary>
 
-- **2012 presidential-general** — night `—` / final `172,757` = `—` (none)
+- **2012 presidential-general** — night `127,593` / final `172,757` = `73.86%` (secondary)
+  - numerator: <https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf>
-  - look for: Election-night plateau not sourceable. The registrar's GEMS election-night page (placerelections.com/election-night-results.aspx) was archived only PRE-poll-close (snapshot 20121103190051, 'Cards Cast 0', 0 of 350 precincts) and then not again until 20121201032131, by which time the page had already been overwritten with the 'OFFICIAL ELECTION SUMMARY' (data-stamped 11/30/12 11:27:20, Cards Cast 172,757, 350/350, 82.82%). No SEMI-OFFICIAL election-night snapshot was captured between poll close (8pm 11/6) and certification, and no news/press release gives a countywide election-night ballot count. Denominator = certified Total Voters 172,757 (independently CONFIRMED by the rendered 20121201 OFFICIAL summary = 172,757, matching CA SoS Voter Participation Statistics by County). Per rules, numerator left null rather than substituting the certified or first-tranche number. RE-VERIFIED 2026-06: full CDX of placerelections.com/election-night-results.aspx for 2012-11-06 -> 2012-12-01 returns exactly one 200 capture, 20121201032131 (the OFFICIAL ELECTION SUMMARY, 172,757) — confirming no semi-official election-night snapshot was ever archived. Stays none.
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Placer County: 100.0% precincts reporting, Ballots Cast 127,593, Last Report stamp 'Nov 6 11:47 p.m.' (First Report 'Nov 6 8:04 p.m.') at Wayback capture 20121110102540 (2012-11-10 10:25:40 UTC). SINGLE CAPTURE at 2012-11-10 10:25:40 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 172,757 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf). Arithmetic: 127,593/172,757 = 73.86%. vs_epollbook=pre, vs_asv=n/a (per county_tech/adoption record: epollbook 2024, asv None). Grade PLAUSIBLE per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-11-06 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
 - **2014 midterm-general** — night `76,411` / final `115,547` = `66.1%` (primary)
   - numerator: <https://web.archive.org/web/20141115000402/http://www.placerelections.com/election-night-results.aspx>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf>
@@ -503,6 +627,21 @@ Colusa's registrar publishes exactly one results document per election, always t
   - numerator: <https://www.placer.ca.gov/10016/2024-election-results>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf>
   - look for: Election-night PLATEAU not sourceable (first post-DFM-e-pollbook presidential general; VCA vote centers + AB 626 Sign-Scan-&-Go). The registrar's results page (placercountyelections.gov/election-results/) is updated IN PLACE with a pasted GEMS/Dominion summary tagged 'UNOFFICIAL RESULTS - REPORT N / <date>'; Wayback's earliest capture is 20241110202727, which shows 'REPORT 7' DATED 11/8/2024 (the first Tue/Fri canvass update) = 'Cards Cast 182,129, 62.44%, 331/331 precincts.' The page was NOT crawled between poll close and Nov 8, so no election-night report state (Reports ~1-6, Nov 5-7) was archived. The CA SoS ENR (electionresults.sos.ca.gov) is Incapsula-WAF-gated and only its challenge pages archived. Press releases give ONLY the 8 p.m. FIRST tranche: 104,382 vote-by-mail ballots (release 10016 / 11052024_FINAL_PressRelease); vote-center in-person ballots (Oct 26-Nov 5) were added in updates 'tentatively scheduled for 10 p.m. and 11:30 p.m. Nov 5' (per fox40, every ~2 hrs until 100% of vote centers reported) but those end-of-night totals were never archived or stated. BOUNDS on the true plateau: > 104,382 (8pm tranche; 104,382/239,402 = 43.6% = the first-tranche trap, ~half expected) and < 182,129 (the 11/8 Report 7). Per rules, the wrong-stage 8pm tranche is NOT recorded as the election-night share; numerator left null/none. Denominator = certified Total Voters 239,402 (Precinct/vote-center 56,964 + VBM 182,438), CA SoS Voter Participation by County (83.4% reg turnout). Snapshot 20241110202727 examined (= Report 7, 11/8/2024, 182,129 — a canvass update, NOT the election-night plateau). RE-VERIFIED 2026-06: fetched the archived registrar press release 11052024_FINAL_PressRelease-ElectionResults.pdf and CONFIRMED it is the 8 p.m. FIRST-tranche release ('This initial release includes vote totals from 104,382 vote-by-mail ballots... Additional updates are tentatively scheduled for 10 p.m. and 11:30 p.m. Nov. 5'), NOT an end-of-night total. Enumerated the entire archived /Uploads/documents/11052024/ directory: it contains only certified-final artifacts (11052024_Final_Results.pdf, StatementOfVotesCastRPT*, CertificatesA) and LATE unprocessed-ballot reports (112724, 12324) — NO dated election-night report PDF. The /election-results/ page has no capture before 20241110202727 (Report 7). True plateau bounds confirmed: > 104,382 (8pm tranche, 43.6%) and < 182,129 (11/8 Report 7, 62.44%, Registered Voters 291,674). Stays none.
+
+</details>
+
+**Primaries** (statewide primary elections; same metric, same JSON file, joined by date):
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012p | presidential-primary | 62,087 | 89,019 | 69.75% | primary | [link](https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/) |
+
+<details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
+
+- **2012-06-05 presidential-primary** — night `62,087` / final `89,019` = `69.75%` (primary)
+  - numerator: <https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Placer County: 100.0% precincts reporting, Ballots Cast 62,087, Last Report stamp 'Jun 6 12:42 a.m.' (First Report 'Jun 5 8:40 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). FROZEN: the identical Ballots Cast figure 62,087 recurs across 2 captures, 2012-06-08 22:26:55 UTC through 2012-06-17 19:21:15 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 89,019 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf). Arithmetic: 62,087/89,019 = 69.75%. vs_epollbook=pre, vs_asv=n/a (per county_tech/adoption record: epollbook 2024, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
 
 </details>
 
@@ -550,7 +689,7 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 | Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
 |---|---|---:|---:|---:|---|---|
-| 2012p | presidential-primary | — | 238,152 | — | none | — (not sourceable) |
+| 2012p | presidential-primary | 189,087 | 238,152 | 79.4% | primary | [link](https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/) |
 | 2014p | statewide-primary | — | 198,102 | — | none | — (not sourceable) |
 | 2016p | presidential-primary | 249,970 | 403,828 | 61.9% | primary | [link](https://web.archive.org/web/20160615020639/http://www.voteinfo.net:80/elections/20160607/eresults/Summary_Update8.pdf) |
 | 2018p | statewide-primary | 193,152 | 346,472 | 55.75% | primary | [link](https://web.archive.org/web/20260710205406/https://docs.voteinfo.net/Elections/20180605/eresults/Summary8.pdf) |
@@ -559,9 +698,10 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 <details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
 
-- **2012-06-05 presidential-primary** — night `—` / final `238,152` = `—` (none)
+- **2012-06-05 presidential-primary** — night `189,087` / final `238,152` = `79.4%` (primary)
+  - numerator: <https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
-  - look for: zero Wayback captures anywhere under voteinfo.net/Elections/20120605/ (docs/ + eresults/); the one nearby capture (currentElection.asp) is a replay-aliasing dead end (302s to an unrelated 2011 capture); docs.voteinfo.net does not host 2012 files live; no morning-after registrar release. Null per RUNBOOK 5.1.
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Riverside County: 100.0% precincts reporting, Ballots Cast 189,087, Last Report stamp 'Jun 6 1:42 a.m.' (First Report 'Jun 5 8:11 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). SINGLE CAPTURE at 2012-06-08 22:26:55 UTC carries this value. The next available capture (2012-06-17 19:21:15 UTC) jumps to 232,279 (Last Report 'Jun 13 3:18 p.m.'), confirming 189,087 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 238,152 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf). Arithmetic: 189,087/238,152 = 79.4%. vs_epollbook=pre, vs_asv=pre (per county_tech/adoption record: epollbook 2022, asv 2025). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
 - **2014-06-03 statewide-primary** — night `—` / final `198,102` = `—` (none)
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf>
   - look for: the eresults/ directory has no dated report series for this year, only a GEMS frameset frozen at the June 13 CERTIFIED state (198,102, identical to the SoS final) since its earliest Wayback capture -- not a distinct election-night count, so not substituted. No morning-after registrar release. Null per RUNBOOK 5.1.
@@ -850,7 +990,7 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 | Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
 |---|---|---:|---:|---:|---|---|
-| 2012 | presidential-general | — | 23,261 | — | none | — (not sourceable) |
+| 2012 | presidential-general | 17,559 | 23,261 | 75.49% | secondary | [link](https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/) |
 | 2014 | midterm-general | — | 15,791 | — | none | — (not sourceable) |
 | 2016 | presidential-general | — | 24,541 | — | none | — (not sourceable) |
 | 2018 | midterm-general | — | 21,147 | — | none | — (not sourceable) |
@@ -859,9 +999,10 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 <details><summary>What to look for on each source page (numerator) + denominator URL</summary>
 
-- **2012 presidential-general** — night `—` / final `23,261` = `—` (none)
+- **2012 presidential-general** — night `17,559` / final `23,261` = `75.49%` (secondary)
+  - numerator: <https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf>
-  - look for: Certified final 23,261 ballots cast. Election-night PLATEAU not sourceable: no elections-related page on co.tehama.ca.us was crawled by Wayback anywhere in the Oct 25-Dec 15 2012 window (verified by full-domain CDX sweep).
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Tehama County: 100.0% precincts reporting, Ballots Cast 17,559, Last Report stamp 'Nov 7 12:37 a.m.' (First Report 'Nov 6 9:03 p.m.') at Wayback capture 20121110102540 (2012-11-10 10:25:40 UTC). SINGLE CAPTURE at 2012-11-10 10:25:40 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 23,261 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf). Arithmetic: 17,559/23,261 = 75.49%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade PLAUSIBLE per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-11-06 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
 - **2014 midterm-general** — night `—` / final `15,791` = `—` (none)
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf>
   - look for: Certified final 15,791 ballots cast. Election-night PLATEAU not sourceable: the only surviving post-poll-close capture of the county's results page (Jan 19, 2015) carries an internal 'Last Updated: November 13, 2014' stamp already equal to the certified final -- rejected as a ceiling because it equals rather than bounds the final (see note).
@@ -879,6 +1020,21 @@ Colusa's registrar publishes exactly one results document per election, always t
   - numerator: <https://www.tehama.gov/wp-content/uploads/2024/11/3rd-Unoffical-Report.pdf>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf>
   - look for: "3rd Unofficial Report", header "11/6/2024 12:17:11 AM", "Precincts Reported: 40 of 40 (100.00%)", "Voters Cast: 13,109 of 37,488 (34.97%)".
+
+</details>
+
+**Primaries** (statewide primary elections; same metric, same JSON file, joined by date):
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012p | presidential-primary | 9,993 | 13,968 | 71.54% | primary | [link](https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/) |
+
+<details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
+
+- **2012-06-05 presidential-primary** — night `9,993` / final `13,968` = `71.54%` (primary)
+  - numerator: <https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
+  - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Tehama County: 100.0% precincts reporting, Ballots Cast 9,993, Last Report stamp 'Jun 6 12:06 a.m.' (First Report 'Jun 5 8:07 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). SINGLE CAPTURE at 2012-06-08 22:26:55 UTC carries this value. The next available capture (2012-06-17 19:21:15 UTC) jumps to 13,968 (Last Report 'Jun 12 4:04 p.m.'), confirming 9,993 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 13,968 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf). Arithmetic: 9,993/13,968 = 71.54%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
 
 </details>
 

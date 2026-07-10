@@ -225,7 +225,7 @@
       "name": "Del Norte",
       "slug": "del-norte-ca",
       "control": true,
-      "complete": false,
+      "complete": true,
       "adoption": {
         "epollbook": null,
         "asv": null,
@@ -234,13 +234,23 @@
       "points": [
         {
           "year": 2012,
-          "type": "presidential",
-          "pct": null,
-          "ballots": null,
-          "final": 8879,
-          "confidence": "none",
+          "type": "presidential-primary",
+          "pct": 91.95,
+          "ballots": 4820,
+          "final": 5242,
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 90.85,
+          "ballots": 8067,
+          "final": 8879,
+          "confidence": "secondary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2014,
@@ -307,13 +317,23 @@
       "points": [
         {
           "year": 2012,
-          "type": "presidential",
-          "pct": null,
-          "ballots": null,
-          "final": 261652,
-          "confidence": "none",
+          "type": "presidential-primary",
+          "pct": 58.19,
+          "ballots": 66323,
+          "final": 113975,
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 61.33,
+          "ballots": 160466,
+          "final": 261652,
+          "confidence": "secondary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2014,
@@ -378,6 +398,16 @@
         "vca": null
       },
       "points": [
+        {
+          "year": 2012,
+          "type": "presidential-primary",
+          "pct": 73.05,
+          "ballots": 10427,
+          "final": 14274,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/"
+        },
         {
           "year": 2012,
           "type": "presidential",
@@ -453,6 +483,16 @@
       "points": [
         {
           "year": 2012,
+          "type": "presidential-primary",
+          "pct": 78.66,
+          "ballots": 765552,
+          "final": 973274,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2012,
           "type": "presidential",
           "pct": 73.17,
           "ballots": 2368283,
@@ -526,13 +566,23 @@
       "points": [
         {
           "year": 2012,
-          "type": "presidential",
-          "pct": null,
-          "ballots": null,
-          "final": 40325,
-          "confidence": "none",
+          "type": "presidential-primary",
+          "pct": 80.92,
+          "ballots": 16619,
+          "final": 20538,
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 81.5,
+          "ballots": 32865,
+          "final": 40325,
+          "confidence": "secondary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2014,
@@ -597,6 +647,16 @@
         "vca": null
       },
       "points": [
+        {
+          "year": 2012,
+          "type": "presidential-primary",
+          "pct": 67.04,
+          "ballots": 13485,
+          "final": 20116,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/"
+        },
         {
           "year": 2012,
           "type": "presidential",
@@ -672,6 +732,16 @@
       "points": [
         {
           "year": 2012,
+          "type": "presidential-primary",
+          "pct": 65.34,
+          "ballots": 19147,
+          "final": 29305,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2012,
           "type": "presidential",
           "pct": 56.73,
           "ballots": 32715,
@@ -743,6 +813,16 @@
         "vca": 2018
       },
       "points": [
+        {
+          "year": 2012,
+          "type": "presidential-primary",
+          "pct": 69.46,
+          "ballots": 21763,
+          "final": 31333,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/"
+        },
         {
           "year": 2012,
           "type": "presidential",
@@ -891,13 +971,23 @@
       "points": [
         {
           "year": 2012,
-          "type": "presidential",
-          "pct": null,
-          "ballots": null,
-          "final": 172757,
-          "confidence": "none",
+          "type": "presidential-primary",
+          "pct": 69.75,
+          "ballots": 62087,
+          "final": 89019,
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 73.86,
+          "ballots": 127593,
+          "final": 172757,
+          "confidence": "secondary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2014,
@@ -965,12 +1055,12 @@
         {
           "year": 2012,
           "type": "presidential-primary",
-          "pct": null,
-          "ballots": null,
+          "pct": 79.4,
+          "ballots": 189087,
           "final": 238152,
-          "confidence": "none",
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2012,
@@ -1532,13 +1622,23 @@
       "points": [
         {
           "year": 2012,
-          "type": "presidential",
-          "pct": null,
-          "ballots": null,
-          "final": 23261,
-          "confidence": "none",
+          "type": "presidential-primary",
+          "pct": 71.54,
+          "ballots": 9993,
+          "final": 13968,
+          "confidence": "primary",
           "comparable": true,
-          "source_url": null
+          "source_url": "https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 75.49,
+          "ballots": 17559,
+          "final": 23261,
+          "confidence": "secondary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20121110102540/http://vote.sos.ca.gov/returns/status/"
         },
         {
           "year": 2014,

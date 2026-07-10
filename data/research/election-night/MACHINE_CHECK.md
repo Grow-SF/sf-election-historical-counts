@@ -15,7 +15,10 @@ verify_en_* scripts to regenerate).
 | colusa-ca | 2018-11-06 | denominator | 5,815 | VERIFIED | 18 12,552 8,792 2,580 3,235 5,815 55.63% 66.14% 46.33% |
 | colusa-ca | 2022-11-08 | denominator | 5,617 | VERIFIED | 19 13,214 10,144 1,134 4,483 5,617 79.81% 55.37% 42.51% |
 | colusa-ca | 2024-11-05 | denominator | 7,122 | VERIFIED | 19 13,123 10,626 0** 7,122 7,122 100.00% 67.02% 54.27% |
+| del-norte-ca | 2012-06-05 | denominator | 5,242 | VERIFIED | 18 18,288 11,815 1,826 3,416 5,242 65.17% 44.37% 28.66% |
+| del-norte-ca | 2012-06-05 | numerator | 4,820 | VERIFIED | FENU Del Norte 18 18 100% 11,815 4,820 40.8% Jun 5 8:38 p.m. Jun 5 11:10 p.m. FENU |
 | del-norte-ca | 2012-11-06 | denominator | 8,879 | VERIFIED | 18 18,250 12,516 3,620 5,259 8,879 59.23% 70.94% 48.65% |
+| del-norte-ca | 2012-11-06 | numerator | 8,067 | VERIFIED | CCU Del Norte 18 18 100.0% 12,516 8,067 64.5% Nov 6 8:51 p.m. Nov 7 12:20 a.m. FENU |
 | del-norte-ca | 2014-11-04 | denominator | 7,332 | VERIFIED | 18 18,253 12,750 2,980 4,352 7,332 59.36% 57.51% 40.17% |
 | del-norte-ca | 2014-11-04 | numerator | 6,539 | VERIFIED | render-verified: DEL_20141104_E Summary Report Del Norte County Nov. 4, 2014 General Election Unofficial. Registration & |
 | del-norte-ca | 2016-11-08 | denominator | 9,790 | VERIFIED | 18 17,996 14,318 3,653 6,137 9,790 62.69% 68.38% 54.40% |
@@ -26,7 +29,10 @@ verify_en_* scripts to regenerate).
 | del-norte-ca | 2022-11-08 | numerator | 6,312 | VERIFIED | render-verified: Report #3 Del Norte Del Norte 2022 Statewide General Election November 8, 2022 4th Report - 19 Precinct |
 | del-norte-ca | 2024-11-05 | denominator | 10,676 | VERIFIED | 19 18,059 15,036 1,686 8,990 10,676 84.21% 71.00% 59.12% |
 | del-norte-ca | 2024-11-05 | numerator | 6,719 | VERIFIED | render-verified: Page: 1 of 6 11/5/2024 10:05:17 PM. Election Summary Report General Election Del Norte County November  |
+| fresno-ca | 2012-06-05 | denominator | 113,975 | VERIFIED | 484 556,382 390,587 38,890 75,085 113,975 65.88% 29.18% 20.49% |
+| fresno-ca | 2012-06-05 | numerator | 66,323 | VERIFIED | FENU Fresno 484 484 100% 390,587 66,323 17% Jun 5 8:09 p.m. Jun 6 1:45 a.m. FENU Gl |
 | fresno-ca | 2012-11-06 | denominator | 261,652 | VERIFIED | 611 559,268 410,188 119,543 142,109 261,652 54.31% 63.79% 46.78% |
+| fresno-ca | 2012-11-06 | numerator | 160,466 | VERIFIED | FENU Fresno 611 611 100.0% 410,188 160,466 39.1% Nov 6 8:14 p.m. Nov 7 2:38 a.m. FENU |
 | fresno-ca | 2014-11-04 | denominator | 163,420 | VERIFIED | 577 572,045 416,433 64,901 98,519 163,420 60.29% 39.24% 28.57% |
 | fresno-ca | 2016-11-08 | denominator | 291,890 | VERIFIED | 592 583,238 437,423 131,787 160,103 291,890 54.85% 66.73% 50.05% |
 | fresno-ca | 2016-11-08 | numerator | 177,183 | VERIFIED | es." 11/9/2016 1:42:19 AM Registered Voters 437667 - Cards Cast 177183 40.48% Num. Report Precinct 592 - Num. Reporting  |
@@ -34,6 +40,8 @@ verify_en_* scripts to regenerate).
 | fresno-ca | 2022-11-08 | denominator | 221,419 | VERIFIED | 562 642,412 500,076 28,343 193,076 221,419 87.20% 44.28% 34.47% |
 | fresno-ca | 2024-11-05 | denominator | 330,932 | VERIFIED | 478 649,184 513,799 63,049 267,883 330,932 80.95% 64.41% 50.98% |
 | fresno-ca | 2024-11-05 | numerator | 206,372 | VERIFIED | FICIAL ELECTION RESULTS Precincts Reported: 478 of 478 (100.00%) Voters Cast: 206,372 of 511,349 (40.36%) President and  |
+| lake-ca | 2012-06-05 | denominator | 14,274 | VERIFIED | 70 47,459 33,553 4,781 9,493 14,274 66.51% 42.54% 30.08% |
+| lake-ca | 2012-06-05 | numerator | 10,427 | VERIFIED | a.m. FENU Lake 70 70 100% 33,553 10,427 31.1% Jun 5 9:46 p.m. Jun 6 1:10 a.m. FENU |
 | lake-ca | 2012-11-06 | denominator | 23,685 | VERIFIED | 70 47,135 34,936 8,987 14,698 23,685 62.06% 67.80% 50.25% |
 | lake-ca | 2012-11-06 | numerator | 16,622 | VERIFIED | bsentee Ballots Cast 8,057 23.1% Total Ballots Cast 16,622 47.6% Registration and Turnout CONGRESSIONAL DIST |
 | lake-ca | 2014-11-04 | denominator | 18,061 | VERIFIED | 70 49,067 33,489 6,017 12,044 18,061 66.69% 53.93% 36.81% |
@@ -46,6 +54,8 @@ verify_en_* scripts to regenerate).
 | lake-ca | 2022-11-08 | numerator | 7,842 | VERIFIED | finalize the results and certify the election. The preliminary count included 7,842 ballots, or 21.2% of Lake County’s 3 |
 | lake-ca | 2024-11-05 | denominator | 27,127 | VERIFIED | 48 51,197 37,975 3,577 23,550 27,127 86.81% 71.43% 52.99% |
 | lake-ca | 2024-11-05 | numerator | 7,960 | VERIFIED | e counted as of early Wednesday morning. Out of 37,915 registered voters, only 7,960 ballots, or 20.99%, have been count |
+| los-angeles-ca | 2012-06-05 | denominator | 973,274 | VERIFIED | eles 4,786 5,959,291 4,459,268 541,463 431,811 973,274 44.37% 21.83% 16.33% |
+| los-angeles-ca | 2012-06-05 | numerator | 765,552 | VERIFIED | Los Angeles 4,786 4,786 100% 4,459,268 765,552 17.2% Jun 5 8:13 p.m. Jun 6 4:43 a.m. FENU |
 | los-angeles-ca | 2012-11-06 | denominator | 3,236,704 | VERIFIED | eles 4,993 5,976,156 4,758,437 2,260,876 975,828 3,236,704 30.15% 68.02% 54.16% |
 | los-angeles-ca | 2012-11-06 | numerator | 2,368,283 | VERIFIED | d ballots with votes for write-in candidates. On Election Night a total of 2,368,283 ballots were counted. This included |
 | los-angeles-ca | 2014-11-04 | denominator | 1,518,835 | VERIFIED | geles 5,027 6,096,320 4,897,915 941,812 577,023 1,518,835 37.99% 31.01% 24.91% |
@@ -58,7 +68,10 @@ verify_en_* scripts to regenerate).
 | los-angeles-ca | 2022-11-08 | numerator | 1,318,093 | VERIFIED | . Logan announced semi-final results for the 2022 General Election. A total of 1,318,093 ballots were processed and coun |
 | los-angeles-ca | 2024-11-05 | denominator | 3,793,106 | VERIFIED | 3,087 6,657,487 5,745,214 1,060,354 2,732,752 3,793,106 72.05% 66.02% 56.98% |
 | los-angeles-ca | 2024-11-05 | numerator | 2,615,541 | VERIFIED | d the semi-final results for the November 5, 2024 General Election. A total of 2,615,541 ballots were processed and coun |
+| madera-ca | 2012-06-05 | denominator | 20,538 | VERIFIED | 54 86,137 52,826 5,654 14,884 20,538 72.47% 38.88% 23.84% |
+| madera-ca | 2012-06-05 | numerator | 16,619 | VERIFIED | m. FENU Madera 54 54 100% 52,826 16,619 31.5% Jun 5 8:05 p.m. Jun 6 12:00 a.m. FENU |
 | madera-ca | 2012-11-06 | denominator | 40,325 | VERIFIED | 96 86,894 53,779 15,658 24,667 40,325 61.17% 74.98% 46.41% |
+| madera-ca | 2012-11-06 | numerator | 32,865 | VERIFIED | .m. CCU Madera 96 96 100.0% 53,779 32,865 61.1% Nov 6 8:03 p.m. Nov 6 11:01 p.m. FENU |
 | madera-ca | 2014-11-04 | denominator | 27,370 | VERIFIED | 100 85,976 52,494 8,970 18,400 27,370 67.23% 52.14% 31.83% |
 | madera-ca | 2016-11-08 | denominator | 44,186 | VERIFIED | 102 87,254 58,086 15,211 28,975 44,186 65.58% 76.07% 50.64% |
 | madera-ca | 2016-11-08 | numerator | 35,364 | VERIFIED | Absentee Ballots Cast 22,561 38.8% Total Ballots Cast 35,364 60.8% President and Vice President Completed Prec |
@@ -68,6 +81,8 @@ verify_en_* scripts to regenerate).
 | madera-ca | 2022-11-08 | numerator | 21,951 | VERIFIED | 0 , "BCxContest" : 0 , "VF" : 1 , "TP" : 59 , "PR" : 50 , "TV" : 72232 , "BC" : 21951 , "RC" : 0 , "RO" : 0 , "CH" : [ " |
 | madera-ca | 2024-11-05 | denominator | 55,329 | VERIFIED | 78 95,290 78,204 8,560 46,769 55,329 84.53% 70.75% 58.06% |
 | madera-ca | 2024-11-05 | numerator | 37,106 | VERIFIED | 0 , "BCxContest" : 0 , "VF" : 1 , "TP" : 78 , "PR" : 63 , "TV" : 78317 , "BC" : 37106 , "RC" : 0 , "RO" : 0 , "CH" : [ " |
+| mendocino-ca | 2012-06-05 | denominator | 20,116 | VERIFIED | o 247 62,919 47,546 3,171 16,945 20,116 84.24% 42.31% 31.97% |
+| mendocino-ca | 2012-06-05 | numerator | 13,485 | VERIFIED | FENU Mendocino 247 247 100% 47,546 13,485 28.4% Jun 5 8:48 p.m. Jun 6 1:15 a.m. FENU |
 | mendocino-ca | 2012-11-06 | denominator | 36,080 | VERIFIED | 247 62,910 49,765 7,046 29,034 36,080 80.47% 72.50% 57.35% |
 | mendocino-ca | 2012-11-06 | numerator | 18,401 | NOT_FOUND |  |
 | mendocino-ca | 2014-11-04 | denominator | 25,017 | VERIFIED | 249 64,404 47,502 4,377 20,640 25,017 82.50% 52.67% 38.84% |
@@ -79,6 +94,8 @@ verify_en_* scripts to regenerate).
 | mendocino-ca | 2022-11-08 | denominator | 31,008 | VERIFIED | 281 67,114 53,105 646 30,362 31,008 97.92% 58.39% 46.20% |
 | mendocino-ca | 2024-11-05 | denominator | 39,837 | VERIFIED | 245 66,917 54,447 2,479 37,358 39,837 93.78% 73.17% 59.53% |
 | mendocino-ca | 2024-11-05 | numerator | 15,611 | VERIFIED | ential General Election, voter turnout in Mendocino County reached 28.57%, with 15,611 out of 54,640 registered voters c |
+| napa-ca | 2012-06-05 | denominator | 29,305 | VERIFIED | 157 90,847 68,330 2,616 26,689 29,305 91.07% 42.89% 32.26% |
+| napa-ca | 2012-06-05 | numerator | 19,147 | VERIFIED | m. FENU Napa 157 157 100% 68,330 19,147 28% Jun 5 8:30 p.m. Jun 5 11:09 p.m. FENU N |
 | napa-ca | 2012-11-06 | denominator | 57,672 | VERIFIED | 167 91,138 72,592 6,251 51,421 57,672 89.16% 79.45% 63.28% |
 | napa-ca | 2012-11-06 | numerator | 32,715 | VERIFIED | Election Day Turnout 5,869 8.08% Total 32,715 45.07% PRESIDENT AND VICE PRESIDENT |
 | napa-ca | 2014-11-04 | denominator | 38,766 | VERIFIED | 167 91,531 70,493 2,397 36,369 38,766 93.82% 54.99% 42.35% |
@@ -91,6 +108,8 @@ verify_en_* scripts to regenerate).
 | napa-ca | 2022-11-08 | numerator | 21,943 | VERIFIED | 24.43% Total 21,943 83,471 26.29% Precincts Reported: 200 of 200 (100.00 |
 | napa-ca | 2024-11-05 | denominator | 66,634 | VERIFIED | 204 97,259 85,045 4,851 61,783 66,634 92.72% 78.35% 68.51% |
 | napa-ca | 2024-11-05 | numerator | 26,160 | VERIFIED | l Election Night Report Precincts Reported: 204 of 204 (100.00%) Voters Cast: 26,160 of 85,150 (30.72%) President and Vi |
+| nevada-ca | 2012-06-05 | denominator | 31,333 | VERIFIED | 74 76,426 60,590 6,408 24,925 31,333 79.55% 51.71% 41.00% |
+| nevada-ca | 2012-06-05 | numerator | 21,763 | VERIFIED | m. FENU Nevada 74 74 100% 60,590 21,763 35.9% Jun 5 8:57 p.m. Jun 6 12:27 a.m. FENU |
 | nevada-ca | 2012-11-06 | denominator | 52,173 | VERIFIED | 140 76,187 62,853 13,798 38,375 52,173 73.55% 83.01% 68.48% |
 | nevada-ca | 2012-11-06 | numerator | 31,275 | VERIFIED | re than 18,000 unprocessed ballots to add to the county's election-day tally of 31,275. "It takes time because more than |
 | nevada-ca | 2014-11-04 | denominator | 39,629 | VERIFIED | 84 76,731 61,690 9,383 30,246 39,629 76.32% 64.24% 51.65% |
@@ -115,7 +134,10 @@ verify_en_* scripts to regenerate).
 | orange-ca | 2022-11-08 | numerator | 611,060 | VERIFIED | tal Percent Ballots Registered Percent 2,169 2,169 100.00% 611,060 1,817,149 33.63% Choice Party |
 | orange-ca | 2024-11-05 | denominator | 1,417,397 | VERIFIED | 2,294 2,203,227 1,862,010 323,223 1,094,174 1,417,397 77.20% 76.12% 64.33% |
 | orange-ca | 2024-11-05 | numerator | 1,007,150 | VERIFIED | al Percent Ballots Registered Percent 2,294 2,294 100.00% 1,007,150 1,861,450 54.11% Choice Party |
+| placer-ca | 2012-06-05 | denominator | 89,019 | VERIFIED | 281 249,916 194,705 21,276 67,743 89,019 76.10% 45.72% 35.62% |
+| placer-ca | 2012-06-05 | numerator | 62,087 | VERIFIED | CCU Placer 281 281 100% 194,705 62,087 31.9% Jun 5 8:42 p.m. Jun 6 12:40 a.m. FENU |
 | placer-ca | 2012-11-06 | denominator | 172,757 | VERIFIED | 350 251,135 208,604 57,171 115,586 172,757 66.91% 82.82% 68.79% |
+| placer-ca | 2012-11-06 | numerator | 127,593 | VERIFIED | CCU Placer 350 350 100.0% 208,604 127,593 61.2% Nov 6 8:04 p.m. Nov 6 11:47 p.m. FENU |
 | placer-ca | 2014-11-04 | denominator | 115,547 | VERIFIED | 368 259,591 200,422 31,546 84,001 115,547 72.70% 57.65% 44.51% |
 | placer-ca | 2014-11-04 | numerator | 76,411 | VERIFIED | 05/14 00:36:57 Registered Voters 200402 - Cards Cast 76411 38.13% Num. Report Precinct 369 - Num. Reporting 369 100.00% |
 | placer-ca | 2016-11-08 | denominator | 190,550 | VERIFIED | 363 264,101 226,249 58,385 132,165 190,550 69.36% 84.22% 72.15% |
@@ -125,6 +147,7 @@ verify_en_* scripts to regenerate).
 | placer-ca | 2022-11-08 | denominator | 184,507 | VERIFIED | 408 301,467 279,016 25,494 159,013 184,507 86.18% 66.13% 61.20% |
 | placer-ca | 2024-11-05 | denominator | 239,402 | VERIFIED | 331 305,381 291,479 56,964 182,438 239,402 76.21% 82.13% 78.39% |
 | riverside-ca | 2012-06-05 | denominator | 238,152 | VERIFIED | de 853 1,351,562 852,217 70,045 168,107 238,152 70.59% 27.94% 17.62% |
+| riverside-ca | 2012-06-05 | numerator | 189,087 | VERIFIED | CCU Riverside 853 853 100% 852,217 189,087 22.2% Jun 5 8:21 p.m. Jun 6 1:50 a.m. FENU |
 | riverside-ca | 2012-11-06 | denominator | 669,627 | VERIFIED | 1,218 1,358,695 943,405 298,112 371,515 669,627 55.48% 70.98% 49.28% |
 | riverside-ca | 2014-06-03 | denominator | 198,102 | VERIFIED | ide 847 1,387,385 887,643 50,111 147,991 198,102 74.70% 22.32% 14.28% |
 | riverside-ca | 2014-11-04 | denominator | 357,764 | VERIFIED | e 1,193 1,394,302 891,575 124,829 232,935 357,764 65.11% 40.13% 25.66% |
@@ -204,7 +227,10 @@ verify_en_* scripts to regenerate).
 | santa-clara-ca | 2022-11-08 | numerator | 293,148 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 754 , "PR" : 671 , "TV" : 1009422 , "BC" : 293148 , "RC" : 0 , "RO" : 0 , "CH" : [  |
 | santa-clara-ca | 2024-11-05 | denominator | 765,495 | VERIFIED | 784 1,269,781 1,048,723 97,924 667,571 765,495 87.21% 72.99% 60.29% |
 | santa-clara-ca | 2024-11-05 | numerator | 460,325 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 784 , "PR" : 686 , "TV" : 1031980 , "BC" : 460325 , "RC" : 0 , "RO" : 0 , "CH" : [  |
+| tehama-ca | 2012-06-05 | denominator | 13,968 | VERIFIED | 46 43,209 30,476 3,687 10,281 13,968 73.60% 45.83% 32.33% |
+| tehama-ca | 2012-06-05 | numerator | 9,993 | VERIFIED | m. FENU Tehama 46 46 100% 30,476 9,993 32.8% Jun 5 8:24 p.m. Jun 6 1:29 a.m. CCU T |
 | tehama-ca | 2012-11-06 | denominator | 23,261 | VERIFIED | 46 43,306 31,174 8,032 15,229 23,261 65.47% 74.62% 53.71% |
+| tehama-ca | 2012-11-06 | numerator | 17,559 | VERIFIED | m. FENU Tehama 46 46 100.0% 31,174 17,559 56.3% Nov 6 9:03 p.m. Nov 7 12:37 a.m. FENU |
 | tehama-ca | 2014-11-04 | denominator | 15,791 | VERIFIED | 46 43,727 30,169 4,527 11,264 15,791 71.33% 52.34% 36.11% |
 | tehama-ca | 2016-11-08 | denominator | 24,541 | VERIFIED | 46 43,753 32,555 7,489 17,052 24,541 69.48% 75.38% 56.09% |
 | tehama-ca | 2018-11-06 | denominator | 21,147 | VERIFIED | 46 43,847 33,286 5,583 15,564 21,147 73.60% 63.53% 48.23% |

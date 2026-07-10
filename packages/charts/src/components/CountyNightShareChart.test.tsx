@@ -11,29 +11,29 @@ test("county night-share chart renders its title, type toggle, and the SF contro
   // the election-type toggle chips
   expect(screen.getByText("presidential")).toBeInTheDocument();
   expect(screen.getByText("midterm")).toBeInTheDocument();
-  // San Francisco, Lake, and Mendocino are the no-new-tech control rows that
-  // clear the chart's pre/post bar: each has a pre-window and a post-window
-  // same-type sourced point. The control window is EARLIEST_ADOPT, the
-  // earliest adoption year among complete treated counties -- now 2014, after
-  // the 2026-07-10 Nevada tech adjudication re-keyed Nevada's e-pollbook
-  // adoption from 2018 to 2014 (its traditional precinct e-pollbooks were
-  // fully deployed countywide by the Nov 2014 general). SF/Lake/Mendocino
-  // each have a 2012 presidential point (< 2014) and later ones, so they
-  // still render. Del Norte NO LONGER renders: its only pre-2014 general
-  // (2012) is a documented null, leaving it with no pre-window point once the
-  // window moved to 2014 (before the Nevada correction, when EARLIEST_ADOPT
-  // was 2018, Del Norte's 2014/2016 points bracketed the window and it did
-  // render). Tehama is a control county (control:true) but its two sourced
-  // rows split across both election types (2022 midterm, 2024 presidential),
-  // so it never has 2 same-type points; Colusa is a control whose six rows
-  // are all documented nulls -- neither clears prepost()'s pts.length < 2 bar.
+  // San Francisco, Lake, Mendocino, Del Norte, and Tehama are the
+  // no-new-tech control rows that clear the chart's pre/post bar: each has a
+  // pre-window and a post-window same-type sourced point. The control window
+  // is EARLIEST_ADOPT, the earliest adoption year among complete treated
+  // counties -- 2014, since the 2026-07-10 Nevada tech adjudication re-keyed
+  // Nevada's e-pollbook adoption from 2018 to 2014. SF/Lake/Mendocino each
+  // have a 2012 presidential point (< 2014) and later ones, so they render.
+  // Del Norte's and Tehama's 2012 presidential-general points were
+  // documented nulls until the 2026-07-10 CA SoS status-page sweep landed
+  // them (Del Norte 8,067/8,879 = 90.85%, PLAUSIBLE; Tehama 17,559/23,261 =
+  // 75.49%, PLAUSIBLE); both now bracket the 2014 window the same way
+  // SF/Lake/Mendocino do (earlier, before those rows were sourced, neither
+  // rendered here). Colusa is a control whose sourced rows (now including
+  // several generals from the same sweep) are all 2014 or later, so it still
+  // has no pre-2014 point of either type and doesn't clear prepost()'s
+  // pts.length < 2 / no-pre-window bar.
   expect(screen.getByText("San Francisco")).toBeInTheDocument();
   expect(screen.getByText("Lake")).toBeInTheDocument();
   expect(screen.getByText("Mendocino")).toBeInTheDocument();
-  expect(screen.queryByText("Del Norte")).not.toBeInTheDocument();
-  expect(screen.queryByText("Tehama")).not.toBeInTheDocument();
+  expect(screen.getByText("Del Norte")).toBeInTheDocument();
+  expect(screen.getByText("Tehama")).toBeInTheDocument();
   expect(screen.queryByText("Colusa")).not.toBeInTheDocument();
-  expect(screen.getAllByText("no new tech")).toHaveLength(3);
+  expect(screen.getAllByText("no new tech")).toHaveLength(5);
 });
 
 test("prepost excludes primary-typed points -- generals-only hold pending an editorial decision", () => {

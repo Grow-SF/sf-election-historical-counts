@@ -4,6 +4,19 @@
   "adoption": { "epollbook": 2018, "asv": null },
   "elections": [
     {
+      "date": "2012-06-05",
+      "type": "presidential-primary",
+      "election_night_ballots": 19147,
+      "certified_final": 29305,
+      "election_night_pct": 65.34,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('FENU'-coded row), Napa County: 100.0% precincts reporting, Ballots Cast 19,147, Last Report stamp 'Jun 5 11:03 p.m.' (First Report 'Jun 5 8:00 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). FROZEN: the identical Ballots Cast figure 19,147 recurs across 2 captures, 2012-06-08 22:26:55 UTC through 2012-06-17 19:21:15 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 29,305 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf). Arithmetic: 19,147/29,305 = 65.34%. vs_epollbook=pre, vs_asv=n/a (per county_tech/adoption record: epollbook 2018, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
       "date": "2012-11-06",
       "type": "presidential-general",
       "election_night_ballots": 32715,

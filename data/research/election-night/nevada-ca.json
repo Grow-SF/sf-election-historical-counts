@@ -7,6 +7,19 @@
   },
   "elections": [
     {
+      "date": "2012-06-05",
+      "type": "presidential-primary",
+      "election_night_ballots": 21763,
+      "certified_final": 31333,
+      "election_night_pct": 69.46,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('FENU'-coded row), Nevada County: 100.0% precincts reporting, Ballots Cast 21,763, Last Report stamp 'Jun 6 12:41 a.m.' (First Report 'Jun 5 9:13 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). SINGLE CAPTURE at 2012-06-08 22:26:55 UTC carries this value. The next available capture (2012-06-17 19:21:15 UTC) jumps to 30,763 (Last Report 'Jun 15 5:36 p.m.'), confirming 21,763 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 31,333 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf). Arithmetic: 21,763/31,333 = 69.46%. vs_epollbook=pre, vs_asv=pre (per county_tech/adoption record: epollbook 2014, asv 2016). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
       "date": "2012-11-06",
       "type": "presidential-general",
       "election_night_ballots": 31275,

@@ -6,15 +6,15 @@
     {
       "date": "2012-06-05",
       "type": "presidential-primary",
-      "election_night_ballots": null,
+      "election_night_ballots": 189087,
       "certified_final": 238152,
-      "election_night_pct": null,
+      "election_night_pct": 79.4,
       "vs_epollbook": "pre",
       "vs_asv": "pre",
       "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf",
-      "source_url_night": null,
-      "confidence": "none",
-      "note": "Certified final = 238,152 ballots (Precinct 70,045 + VBM 168,107) from CA SoS 2012 Presidential Primary Voter Participation Statistics by County, primary (filename '03-voter-reg-stats-by-county.pdf' on the SoS site despite being the participation table; a separate, differently-named '02-voter-reg-stats-by-county.pdf' is the true registration-stats file). Election-night plateau not sourceable: CDX prefix enumeration of the entire voteinfo.net/Elections/20120605/ tree (docs/ + eresults/) returns zero captures ever; a domain-wide CDX filtered to the date string across Apr-Aug 2012 is also empty. The one nearby capture, currentElection.asp dated 2012-06-06, is a Wayback replay-aliasing case (id_ raw fetch 302s to an unrelated 2011-11-14 capture per runbook 7.1) -- no usable content. Unlike the 2016/2018 primaries, docs.voteinfo.net does not still host the 2012 eresults Summary PDFs live (404 for Summary1-20.pdf). No morning-after semi-official-results registrar press release exists for this date, matching the confirmed dead end for every Riverside GENERAL year. WebSearch for contemporaneous Press-Enterprise coverage found no county-specific election-night ballot count. Plateau remains unsourceable."
+      "source_url_night": "https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('FENU'-coded row), Riverside County: 100.0% precincts reporting, Ballots Cast 189,087, Last Report stamp 'Jun 6 1:42 a.m.' (First Report 'Jun 5 8:11 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). SINGLE CAPTURE at 2012-06-08 22:26:55 UTC carries this value. The next available capture (2012-06-17 19:21:15 UTC) jumps to 232,279 (Last Report 'Jun 13 3:18 p.m.'), confirming 189,087 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 238,152 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf). Arithmetic: 189,087/238,152 = 79.4%. vs_epollbook=pre, vs_asv=pre (per county_tech/adoption record: epollbook 2022, asv 2025). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
     },
     {
       "date": "2012-11-06",
