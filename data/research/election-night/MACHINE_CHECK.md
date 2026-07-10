@@ -62,6 +62,16 @@ verify_en_* scripts to regenerate).
 | madera-ca | 2022-11-08 | numerator | 21,951 | VERIFIED | 0 , "BCxContest" : 0 , "VF" : 1 , "TP" : 59 , "PR" : 50 , "TV" : 72232 , "BC" : 21951 , "RC" : 0 , "RO" : 0 , "CH" : [ " |
 | madera-ca | 2024-11-05 | denominator | 55,329 | VERIFIED | 78 95,290 78,204 8,560 46,769 55,329 84.53% 70.75% 58.06% |
 | madera-ca | 2024-11-05 | numerator | 37,106 | VERIFIED | 0 , "BCxContest" : 0 , "VF" : 1 , "TP" : 78 , "PR" : 63 , "TV" : 78317 , "BC" : 37106 , "RC" : 0 , "RO" : 0 , "CH" : [ " |
+| mendocino-ca | 2012-11-06 | denominator | 36,080 | VERIFIED | 247 62,910 49,765 7,046 29,034 36,080 80.47% 72.50% 57.35% |
+| mendocino-ca | 2014-11-04 | denominator | 25,017 | VERIFIED | 249 64,404 47,502 4,377 20,640 25,017 82.50% 52.67% 38.84% |
+| mendocino-ca | 2014-11-04 | numerator | 11,402 | VERIFIED | he counting of maybe 10,000 more votes) for key Mendocino County Elections. 11,402 votes cast, 24.02% of registered vote |
+| mendocino-ca | 2016-11-08 | denominator | 38,730 | VERIFIED | o 250 63,741 51,061 6,036 32,694 38,730 84.42% 75.85% 60.76% |
+| mendocino-ca | 2016-11-08 | numerator | 12,032 | VERIFIED | anvass. 11/09/16 01:55:06 Registered Voters 51035 - Cards Cast 12032 23.58% Num. Report Precinct 250 - Num. Reporting 25 |
+| mendocino-ca | 2018-11-06 | denominator | 33,966 | VERIFIED | 250 64,399 49,411 4,462 29,504 33,966 86.86% 68.74% 52.74% |
+| mendocino-ca | 2018-11-06 | numerator | 15,819 | VERIFIED | anvass. 11/07/18 00:48:58 Registered Voters 48032 - Cards Cast 15819 32.93% Num. Report Precinct 250 - Num. Reporting 25 |
+| mendocino-ca | 2022-11-08 | denominator | 31,008 | VERIFIED | 281 67,114 53,105 646 30,362 31,008 97.92% 58.39% 46.20% |
+| mendocino-ca | 2024-11-05 | denominator | 39,837 | VERIFIED | 245 66,917 54,447 2,479 37,358 39,837 93.78% 73.17% 59.53% |
+| mendocino-ca | 2024-11-05 | numerator | 15,611 | VERIFIED | ential General Election, voter turnout in Mendocino County reached 28.57%, with 15,611 out of 54,640 registered voters c |
 | napa-ca | 2012-11-06 | denominator | 57,672 | VERIFIED | 167 91,138 72,592 6,251 51,421 57,672 89.16% 79.45% 63.28% |
 | napa-ca | 2012-11-06 | numerator | 32,715 | VERIFIED | Election Day Turnout 5,869 8.08% Total 32,715 45.07% PRESIDENT AND VICE PRESIDENT |
 | napa-ca | 2014-11-04 | denominator | 38,766 | VERIFIED | 167 91,531 70,493 2,397 36,369 38,766 93.82% 54.99% 42.35% |

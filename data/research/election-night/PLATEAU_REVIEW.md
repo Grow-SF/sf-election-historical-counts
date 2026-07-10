@@ -51,6 +51,31 @@ PDF was mischaracterized as native-text and is in fact the same
 no-text-layer scan template as the other years. Running totals: 60
 CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2 REFUTED_AND_CORRECTED.
 
+UPDATE (2026-07-10, Mendocino County control-county integration): four new
+rows added for mendocino-ca (2014, 2016, 2018, 2024; 2012 and 2022 are
+documented nulls, no plateau_review entries), a never-adopter control county
+(third control alongside Lake and Del Norte). All four verdicts CONFIRMED:
+2016/2018 via the county's own self-labeled 'FINAL ELECTION NIGHT REPORT' /
+'Election Night Final Report' held byte-identical (2016) or superseded weeks
+later at the certified total (2018) in a later Wayback capture of the same
+URL; 2014 via a local-news article quoting the county's own report verbatim
+('4th and Final Election Night Report') plus the same report series' next
+Wayback state (weeks later, certified) recovered independently of the news
+source; 2024 via a news article that explicitly self-describes the number as
+election-night-tabulated (both in its body and in an author comment) plus an
+independent Wayback capture of the same county report series 8 days later at
+a materially higher count. The source dossier's proposed fifth sourced row,
+2012 (secondary, PLAUSIBLE, a back-calculated ballot count derived from a
+double-rounded percentage in a 2016 retrospective article), was downgraded to
+null on integration review: the underlying source states no ballot count for
+2012, only a rounded ~51%-of-~36,400 recollection in an unrelated later
+article, which fails both the floor test (no actual on-night report exists)
+and the direct-citation bar; the derived 18,401-ballot figure would present
+false precision from two independently rounded inputs. Flagged for human
+review; see the mendocino-ca.json 2012 row note for the full derivation.
+Running totals: 63 CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2
+REFUTED_AND_CORRECTED.
+
 | County | Date | Verdict | Basis | Evidence |
 |---|---|---|---|---|
 | del-norte-ca | 2014-11-04 | CONFIRMED | last surviving on-night release (provably the last of only 2 pre-Final releases per the county's own dated index page), still labeled Unofficial; next report 3 days later relabeled Final at the exact certified total | Release 2/3, footer timestamp 11/4/2014 10:05 PM, 18/18 precincts (100%), Total Voters 6,539/12,743 (51.31%); the index page (re-verified 2026-07-10) lists exactly Release 1, Release 2, Release 3-Final; Release 3 (11/7/2014, 3 days later) retitled 'General Election Final', Total Voters 7,332/12,743 -- exactly the SoS certified figure -- confirming Release 2 was the last report before the canvass resumed and completed |
@@ -76,6 +101,10 @@ CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2 REFUTED_AND_CORRECTED.
 | madera-ca | 2018-11-06 | CONFIRMED | clarity version bracket, re-derived from CDN | cited v220349 stamped 11/6/2018 11:53:23 PM; next v220492 stamped 11/7 9:34 AM with BC held at 28,159 |
 | madera-ca | 2022-11-08 | CONFIRMED | clarity version bracket, re-derived | cited v311779 stamped 11/8/2022 10:44:29 PM; v312400's settings enumerate zero versions between it and 11/10 4:11 PM (BC 25,243) |
 | madera-ca | 2024-11-05 | CONFIRMED | clarity version bracket, re-derived | cited v353191 stamped 11/5/2024 11:51:26 PM; next v353996 stamped 11/8 3:25 PM (BC 44,900) |
+| mendocino-ca | 2014-11-04 | CONFIRMED | county report self-describes (verbatim-quoted by news) + later Wayback capture of the same URL shows a materially higher, weeks-later count | "'4th and Final Election Night Report' 1am 11/05/2014 ... 11,402 votes cast, 24.02% of registered voters" (theava.com); current.htm's next Wayback state (Nov 30 capture, dated 11/21/14 internally) reads 25,017 |
+| mendocino-ca | 2016-11-08 | CONFIRMED | county report self-describes + later capture same count | 'THIS IS THE FINAL ELECTION NIGHT REPORT', internal timestamp 11/09/16 01:55:06, Cards Cast 12,032; Nov 23 capture of same URL is byte-identical |
+| mendocino-ca | 2018-11-06 | CONFIRMED | county report self-describes + next-captured state is weeks later and materially different | 'Election Night Final Report', internal timestamp 11/07/18 00:48:58, Cards Cast 15,819; Dec 2 capture of same URL headed 'FINAL OFFICIAL RESULTS 11/29/18', Cards Cast 33,966 (= SoV certified) |
+| mendocino-ca | 2024-11-05 | CONFIRMED | news source explicitly self-describes as election-night-tabulated + independent Wayback capture of the same county report series shows a materially higher, 8-days-later count | MendoFever: '15,611 ... released shortly before midnight'; author comment: 'tabulated by Election night'; currentFR.pl Nov 22 capture (Run Date 11/13/2024, 'OFFICIAL UPDATE #1') reads 24,062 |
 | napa-ca | 2012-11-06 | CONFIRMED | county report self-describes | 'Last Updated: November 6, 2012 11:29 PM (Last of the Night)' |
 | napa-ca | 2014-11-04 | PLAUSIBLE | on-night floor; the exact final report is unarchived | 10:30 PM report is the artifact; the 10:42 PM last-of-night report's frames were never crawled (CDX empty); documented floor, stays secondary |
 | napa-ca | 2016-11-08 | CONFIRMED | county last-report title | 'Unofficial Election Night Last Report', stamp 11/8/2016 11:06:38 PM |

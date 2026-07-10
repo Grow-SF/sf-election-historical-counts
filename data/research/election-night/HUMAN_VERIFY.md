@@ -23,6 +23,22 @@ note for any row is its detail bullet in VERIFY.md (same directory).
 
 ## 2. Secondary-confidence rows (weakest sourcing, read closely)
 
+- [ ] **mendocino-ca 2014-11-04** (secondary confidence)
+      claimed: night ballots **11,402**, certified final **25,017**, share **45.58%**
+      numerator URL: https://theava.com/archives/36750
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: WAYBACK DEAD END: current.htm CDX for Nov 2014 has captures Nov 1 (pre-election stub) and Nov 4 17:35 UTC/9:35am PST (pre-poll-close stub), then jumps straight to Nov 30 (three captures ~8.5KB); the Nov 30 capture (20141130082444id_) already reads 'ELECTION SUMMARY REPORT ... FINAL OFFICIAL RESULTS 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for mendocino-ca 2014-11-04
+      controller verdict: CONFIRMED (county report self-describes (verbatim-quoted by news) + later Wayback capture of the same URL shows a materially higher, weeks-later count)
+
+- [ ] **mendocino-ca 2024-11-05** (secondary confidence)
+      claimed: night ballots **15,611**, certified final **39,837**, share **39.19%**
+      numerator URL: https://web.archive.org/web/20241123041721/https://mendofever.com/2024/11/06/election-2024-voter-turnout-tight-races-and-early-results-in-mendocino-county/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: WAYBACK DEAD END (same pattern as 2022): outer CMS page (mendocinocounty.gov/.../current-election-results) CDX for Nov 2024 shows only 403s (Nov 1, Cloudflare-blocked even for the archiver) and a bare 301 (Nov 9) until the first working 200 capture on Nov 22. co.mendocino.ca.us/acr/cgi-bin/currentFR
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for mendocino-ca 2024-11-05
+      controller verdict: CONFIRMED (news source explicitly self-describes as election-night-tabulated + independent Wayback capture of the same county report series shows a materially higher, 8-days-later count)
+
 - [ ] **napa-ca 2014-11-04** (secondary confidence)
       claimed: night ballots **18,286**, certified final **38,766**, share **47.17%**
       numerator URL: https://web.archive.org/web/20150916061050/http://www.countyofnapa.org/ElectionResults/20141104/20141104-2230_dtl.htm
@@ -248,6 +264,22 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: Numerator 37,106 = total Ballots Cast (field BC) from the Madera County Clarity ENR election-night data version 353191 (results.enr.clarityelections.com/CA/Madera/122832/353191/json/sum.json), recovered via Wayback (snapshot 20241108001837). The version's electionsettings.json gives websiteupdatedat
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for madera-ca 2024-11-05
       controller verdict: CONFIRMED (clarity version bracket, re-derived)
+
+- [ ] **mendocino-ca 2016-11-08** (plateau check)
+      claimed: night ballots **12,032**, certified final **38,730**, share **31.07%**
+      numerator URL: https://web.archive.org/web/20161113022000/http://www.co.mendocino.ca.us/acr/current.htm
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = county's own 'ELECTION SUMMARY REPORT ... THIS IS THE FINAL ELECTION NIGHT REPORT' (curl id_ raw fetch of the archived /acr/current.htm 'Current Election Results' page, no gzip; plain HTML; re-verified 2026-07-10, both the FINAL label and 'Cards Cast 12032 23.58%' confirmed present in the 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for mendocino-ca 2016-11-08
+      controller verdict: CONFIRMED (county report self-describes + later capture same count)
+
+- [ ] **mendocino-ca 2018-11-06** (plateau check)
+      claimed: night ballots **15,819**, certified final **33,966**, share **46.57%**
+      numerator URL: https://web.archive.org/web/20181107234314/https://www.co.mendocino.ca.us/acr/cgi-bin/currentFR.pl
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = county's own 'Election Night Final Report' (found via the new mendocinocounty.org CMS page's embedded iframe src='//www.co.mendocino.ca.us/acr/cgi-bin/currentFR.pl', an OLD-domain CGI script the county kept running post-migration; curl id_ raw fetch, plain HTML, no gzip; re-verified 2026-0
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for mendocino-ca 2018-11-06
+      controller verdict: CONFIRMED (county report self-describes + next-captured state is weeks later and materially different)
 
 - [ ] **napa-ca 2012-11-06** (plateau check)
       claimed: night ballots **32,715**, certified final **57,672**, share **56.73%**

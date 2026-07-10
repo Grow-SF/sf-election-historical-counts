@@ -1342,6 +1342,54 @@
    "note": "One of the original five CA counties to adopt the Voter's Choice Act all-mail/vote-center model. Election Administration Plan: 'The Voters Choice Act authorized Madera County... to conduct any election by all mailed ballot with Vote Centers commencing in 2018. The Madera County Registrar of Voters (MCROV) adopted the VCA Model in September 2017.' Board-vote/adoption date = Sept 2017; first election conducted under the model = June 5, 2018 Statewide Primary. Confirmed by CA SoS VCA participating-counties page and CSAC 'Five Counties Weigh In on the Voters Choice Act' (https://www.counties.org/county-voice/five-counties-weigh-voters-choice-act)."
   },
   {
+   "jurisdiction": "Mendocino County",
+   "state": "CA",
+   "tech": "asv",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://www.mendocinocounty.gov/government/assessor-county-clerk-recorder-elections/elections",
+   "confidence": "secondary",
+   "note": "Carried forward from ca_adoption_census.json (no new primary ASV source found this pass). Mendocino County's Registrar of Voters Ballot Information FAQ describes signature review in human terms: 'If the Elections Official verifies the signature, the challenge is removed...' and 'if election workers have trouble reading a signature or believe it doesn't match what's on file, they will make every effort to contact the person' -- language attributing the match decision to a person, no vendor/software named anywhere in county materials found. Direct fetch of the county FAQ page returns HTTP 403 (Cloudflare bot wall); reconstructed from WebSearch-indexed snippets only, not a full primary read (hence confidence kept at secondary rather than primary, matching the same snippet-only pattern used for Lake County's ASV record). Mendocino does not appear in the Stanford Law School 'Signature Verification and Mail Ballots' (May 2020) Appendix III vendor table (33 counties interviewed; Mendocino absent). Locating queries (reused from census pass): 'Mendocino County elections signature verification vote by mail ballot processing'; 'Mendocino County elections \"ballot processing board\" OR \"election workers\" signature compare \"by eye\" OR manually'. A real-browser fetch of the FAQ page (Cloudflare-blocked to curl/WebFetch) could upgrade this to a fuller primary read if attempted."
+  },
+  {
+   "jurisdiction": "Mendocino County",
+   "state": "CA",
+   "tech": "epollbook",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+   "confidence": "primary",
+   "note": "CA SoS 'Voting Technologies in Use by County' snapshots read Mendocino's 'Electronic Pollbook' column as 'Do not use' in THREE independent vintages spanning the study period: 2022-cycle vintage (cached vst2022.pdf/.txt, row: Hart Verity 3.1 Central/Count / Central Tabulation Only / Hart Verity 3.1 TouchWriter-Reader / Hart Verity 3.1 Print / Do not use (BOD VoteCenter) / Democracy Live SecureSelect / Do not use (EPB)); 2024-cycle vintage (cached vst2024.pdf/.txt, row: Hart Verity 3.2 Central/Count / Central Tabulation Only / Hart Verity 3.2 Touchwriter / Hart Verity 3.2 Print / Do not use / Democracy Live Secure Select / Do not use (EPB)); and the current 'as of October 10, 2025' vintage (curl -A <UA> -L -o vot_tech_2025.pdf https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf -> HTTP 200 166,745 bytes; pdftotext -layout; grep -n Mendocino -> line 33, last column 'Do not use', header row confirms last column = 'Electronic Pollbook'). EAVS county-level surveys (per ca_adoption_census.json) also report False for Mendocino electronic-pollbook use across the May 2022 / Sept 2024 / Oct 2025 editions. Also corroborated structurally: Mendocino is not a Voter's Choice Act county (vca_year null; SoV 'Precinct Voters' column nonzero every study year 2012-2024, i.e. traditional precinct-based voting, not the VCA vote-center model that typically accompanies e-pollbook rollout). Consistent never-adopter signal through 2024 and beyond."
+  },
+  {
+   "jurisdiction": "Mendocino County",
+   "state": "CA",
+   "tech": "sign-scan-go",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+   "confidence": "secondary",
+   "note": "No evidence of an AB 626 in-vote-center 'Sign-Scan-and-Go' mail-ballot verify+scan program. Mendocino is not a VCA vote-center county (see epollbook note: nonzero traditional Precinct Voters every SoV year 2012-2024), and Sign-Scan-and-Go is a VCA-vote-center-only feature (piloted at counties like Placer). Confidence secondary: absence-of-evidence inference from the county's non-VCA structure, no explicit county statement ruling it out found."
+  },
+  {
+   "jurisdiction": "Mendocino County",
+   "state": "CA",
+   "tech": "vote-center",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+   "confidence": "primary",
+   "note": "Mendocino is not a Voter's Choice Act (SB 450) county: not on the SoS VCA county list (https://www.sos.ca.gov/voters-choice-act), and ca_adoption_census.json records vca_year: null. Structural confirmation: the CA SoS Statement of Vote 'Voter Participation Statistics by County' reports a nonzero 'Precinct Voters' figure for Mendocino in every study year (2012: 7,046; 2014: 4,377; 2016: 6,036; 2018: 4,462; 2022: 646; 2024: 2,479), i.e. Mendocino still runs polling-place/precinct voting rather than the VCA all-mail/vote-center model. This matters for the election-night comparison: unlike VCA counties (Napa, San Mateo, etc.) whose election-night share dropped ~15-20pp the year they switched to vote centers, Mendocino's series should show no VCA-transition confound in any study year."
+  },
+  {
    "jurisdiction": "Napa County",
    "state": "CA",
    "tech": "asv",

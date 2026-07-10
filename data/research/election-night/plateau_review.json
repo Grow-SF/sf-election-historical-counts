@@ -161,6 +161,34 @@
   "evidence": "cited v353191 stamped 11/5/2024 11:51:26 PM; next v353996 stamped 11/8 3:25 PM (BC 44,900)"
  },
  {
+  "slug": "mendocino-ca",
+  "date": "2014-11-04",
+  "verdict": "CONFIRMED",
+  "basis": "county report self-describes (verbatim-quoted by news) + later Wayback capture of the same URL shows a materially higher, weeks-later count",
+  "evidence": "\"'4th and Final Election Night Report' 1am 11/05/2014 ... 11,402 votes cast, 24.02% of registered voters\" (theava.com); current.htm's next Wayback state (Nov 30 capture, dated 11/21/14 internally) reads 25,017"
+ },
+ {
+  "slug": "mendocino-ca",
+  "date": "2016-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "county report self-describes + later capture same count",
+  "evidence": "'THIS IS THE FINAL ELECTION NIGHT REPORT', internal timestamp 11/09/16 01:55:06, Cards Cast 12,032; Nov 23 capture of same URL is byte-identical"
+ },
+ {
+  "slug": "mendocino-ca",
+  "date": "2018-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "county report self-describes + next-captured state is weeks later and materially different",
+  "evidence": "'Election Night Final Report', internal timestamp 11/07/18 00:48:58, Cards Cast 15,819; Dec 2 capture of same URL headed 'FINAL OFFICIAL RESULTS 11/29/18', Cards Cast 33,966 (= SoV certified)"
+ },
+ {
+  "slug": "mendocino-ca",
+  "date": "2024-11-05",
+  "verdict": "CONFIRMED",
+  "basis": "news source explicitly self-describes as election-night-tabulated + independent Wayback capture of the same county report series shows a materially higher, 8-days-later count",
+  "evidence": "MendoFever: '15,611 ... released shortly before midnight'; author comment: 'tabulated by Election night'; currentFR.pl Nov 22 capture (Run Date 11/13/2024, 'OFFICIAL UPDATE #1') reads 24,062"
+ },
+ {
   "slug": "napa-ca",
   "date": "2012-11-06",
   "verdict": "CONFIRMED",

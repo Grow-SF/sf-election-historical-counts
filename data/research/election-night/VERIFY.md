@@ -251,6 +251,47 @@ This is the gold-standard series the county numbers are compared against.
 
 ---
 
+### Mendocino County
+*Control county: never adopted e-pollbook or ASV (adoption years null both legs).*
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012 | presidential-general | — | 36,080 | — | none | — (not sourceable) |
+| 2014 | midterm-general | 11,402 | 25,017 | 45.6% | secondary | [link](https://theava.com/archives/36750) |
+| 2016 | presidential-general | 12,032 | 38,730 | 31.1% | primary | [link](https://web.archive.org/web/20161113022000/http://www.co.mendocino.ca.us/acr/current.htm) |
+| 2018 | midterm-general | 15,819 | 33,966 | 46.6% | primary | [link](https://web.archive.org/web/20181107234314/https://www.co.mendocino.ca.us/acr/cgi-bin/currentFR.pl) |
+| 2022 | midterm-general | — | 31,008 | — | none | — (not sourceable) |
+| 2024 | presidential-general | 15,611 | 39,837 | 39.2% | secondary | [link](https://web.archive.org/web/20241123041721/https://mendofever.com/2024/11/06/election-2024-voter-turnout-tight-races-and-early-results-in-mendocino-county/) |
+
+<details><summary>What to look for on each source page (numerator) + denominator URL</summary>
+
+- **2012 presidential-general** — night `—` / final `36,080` = `—` (none)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf>
+  - look for: Certified final 36,080 Total Voters (CA SoS Voter Participation Statistics by County: 7,046 precinct + 29,034 VBM). Wayback has no surviving capture of the true 2012 live-results page: the county's 2012-only subdomain (mx2.co.mendocino.ca.us/elections/election_results.php) has a single pre-poll-close placeholder capture and no later one; the permanent archival URL (/acr/election_results/results20121106.htm) is not captured until 2014, already reading the certified final. A retrospective 2016-11-09 Anderson Valley Advertiser live-blog (theava.com/archives/62338) cites "about 51% of about 36,400 votes cast" for 2012, but this is a double-rounded recollection in an unrelated article, not a document reporting an actual ballot count, and was rejected as a numerator on integration review (downgraded from the source dossier's proposed secondary/PLAUSIBLE estimate to null); see the JSON note for the full derivation and the flag for human review.
+- **2014 midterm-general** — night `11,402` / final `25,017` = `45.6%` (secondary)
+  - numerator: <https://theava.com/archives/36750> (Anderson Valley Advertiser, morning-after live-blog quoting the county's report verbatim)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf>
+  - look for: "UNOFFICIAL (FINAL) ELECTION RESULTS '4th and Final Election Night Report' 1am 11/05/2014 ... 11,402 votes cast, 24.02% of registered voters." Wayback has no surviving capture of the actual overnight page (current.htm jumps from a pre-poll-close stub straight to an already-certified Nov 30 capture) -- exhaustively checked and documented as a dead end.
+- **2016 presidential-general** — night `12,032` / final `38,730` = `31.1%` (primary)
+  - numerator: <https://web.archive.org/web/20161113022000/http://www.co.mendocino.ca.us/acr/current.htm>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: county's own "THIS IS THE FINAL ELECTION NIGHT REPORT", internal timestamp 11/09/16 01:55:06, "Cards Cast 12032" of 51,035 registered. A later Nov 23 capture of the same page is byte-identical, proving the count held. CALIBRATION FLAG: unusually low share (31.1%) for a small rural county; evidence-based, not adjusted.
+- **2018 midterm-general** — night `15,819` / final `33,966` = `46.6%` (primary)
+  - numerator: <https://web.archive.org/web/20181107234314/https://www.co.mendocino.ca.us/acr/cgi-bin/currentFR.pl>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: county's own "Election Night Final Report", internal timestamp 11/07/18 00:48:58, "Cards Cast 15819" of 48,032 registered. The same URL's next capture (Dec 2, dated 11/29/18) is headed "FINAL OFFICIAL RESULTS" with Cards Cast 33,966 (= SoV certified exactly), proving 15,819 was the frozen night state.
+- **2022 midterm-general** — night `—` / final `31,008` = `—` (none)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: no numerator recovered. Wayback has no capture of the county's live-results page (co.mendocino.ca.us/acr/cgi-bin/currentFR.pl) between Nov 8 and Nov 27, 2022; the earliest capture (Nov 27, internally dated Nov 18) is already a canvass "Election Update." The Mendocino Voice's live-blog explicitly stopped covering after the 10:10pm second round without stating its total, noting the county continued updating "every two hours" after they stopped. MendoFever's Nov 12 press release covers ballots-remaining, not an election-night total.
+- **2024 presidential-general** — night `15,611` / final `39,837` = `39.2%` (secondary)
+  - numerator: <https://mendofever.com/2024/11/06/election-2024-voter-turnout-tight-races-and-early-results-in-mendocino-county/> (live site currently down; use the Wayback capture https://web.archive.org/web/20241123041721/https://mendofever.com/2024/11/06/election-2024-voter-turnout-tight-races-and-early-results-in-mendocino-county/ )
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: "voter turnout in Mendocino County reached 28.57%, with 15,611 out of 54,640 registered voters casting ballots ... unofficial results, released shortly before midnight" plus an author comment confirming "tabulated by Election night." Wayback's own currentFR.pl capture 11 days later (Run Date 11/13/2024) shows 24,062, confirming 15,611 was the earlier, election-night state.
+
+</details>
+
+---
+
 ### Napa County
 *Adoption: e-pollbook 2018.*
 

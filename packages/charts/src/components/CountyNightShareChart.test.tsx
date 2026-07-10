@@ -10,9 +10,10 @@ test("county night-share chart renders its title, type toggle, and the SF contro
   // the election-type toggle chips
   expect(screen.getByText("presidential")).toBeInTheDocument();
   expect(screen.getByText("midterm")).toBeInTheDocument();
-  // San Francisco, Lake, and Del Norte are the no-new-tech control rows
+  // San Francisco, Lake, Del Norte, and Mendocino are the no-new-tech control rows
   expect(screen.getByText("San Francisco")).toBeInTheDocument();
   expect(screen.getByText("Lake")).toBeInTheDocument();
   expect(screen.getByText("Del Norte")).toBeInTheDocument();
-  expect(screen.getAllByText("no new tech")).toHaveLength(3);
+  expect(screen.getByText("Mendocino")).toBeInTheDocument();
+  expect(screen.getAllByText("no new tech")).toHaveLength(4);
 });

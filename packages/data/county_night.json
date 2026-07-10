@@ -447,6 +447,78 @@
       ]
     },
     {
+      "name": "Mendocino",
+      "slug": "mendocino-ca",
+      "control": true,
+      "complete": false,
+      "adoption": {
+        "epollbook": null,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": null,
+          "ballots": null,
+          "final": 36080,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 45.58,
+          "ballots": 11402,
+          "final": 25017,
+          "confidence": "secondary",
+          "comparable": true,
+          "source_url": "https://theava.com/archives/36750"
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": 31.07,
+          "ballots": 12032,
+          "final": 38730,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20161113022000/http://www.co.mendocino.ca.us/acr/current.htm"
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 46.57,
+          "ballots": 15819,
+          "final": 33966,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20181107234314/https://www.co.mendocino.ca.us/acr/cgi-bin/currentFR.pl"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": null,
+          "ballots": null,
+          "final": 31008,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 39.19,
+          "ballots": 15611,
+          "final": 39837,
+          "confidence": "secondary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20241123041721/https://mendofever.com/2024/11/06/election-2024-voter-turnout-tight-races-and-early-results-in-mendocino-county/"
+        }
+      ]
+    },
+    {
       "name": "Napa",
       "slug": "napa-ca",
       "control": false,
