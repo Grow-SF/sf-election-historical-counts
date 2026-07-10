@@ -207,7 +207,7 @@ def main():
     # readers with SFPL cards can open NewsBank pages directly - synthesize
     # ezproxy links from docref IDs / issue labels embedded in citations
     EZPROXY = "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref="
-    docref_file = ROOT / "data" / "newsbank_issue_docrefs.json"
+    docref_file = ROOT / "data" / "provenance" / "newsbank_issue_docrefs.json"
     ISSUE_DOCREFS = json.loads(docref_file.read_text()) if docref_file.exists() else {}
 
     def link_citation(cite, extraction):

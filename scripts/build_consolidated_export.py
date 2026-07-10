@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build data/exports/sf_elections_consolidated.csv — one row per SF election
+"""Build data/sf_elections_consolidated.csv — one row per SF election
 (1849-present) with registration, total turnout, election-night count, and the
 election-day / vote-by-mail split, each value paired with its source citation.
 
@@ -16,7 +16,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
-OUT = ROOT / "data" / "exports" / "sf_elections_consolidated.csv"
+OUT = ROOT / "data" / "sf_elections_consolidated.csv"
 SRC = ROOT / "data" / "sources"
 
 DOE_TABLE_DATE_FIXES = {"2001-12-10": "2001-12-11", "1899-12-02": "1899-12-29"}
