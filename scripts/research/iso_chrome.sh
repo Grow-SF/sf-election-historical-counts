@@ -190,7 +190,7 @@ const puppeteer = require("puppeteer-core");
   console.log("parked " + pages.length + " window(s) off-screen; browserURL: http://127.0.0.1:" + port);
 })().catch((e) => { console.error(e.message); process.exit(1); });
 PARKER
-  (cd "$REPO_ROOT/scripts/archive-recovery" && node "$parker" park "$port")
+  NODE_PATH="$REPO_ROOT/scripts/archive-recovery/node_modules" node "$parker" "$port"
 }
 
 cmd_stop() {
