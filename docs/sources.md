@@ -2294,7 +2294,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1998-11-04 | 1 |  | 183,839 | 73.3% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 1998-11-04 p21 (docview 2195434094): 'With all the precincts in but no absentee ballots counted' - pins the election-night STATE (precincts complete, zero absentees) whose numeric value 183,839 comes from the certified precinct column of data/sf_turnout_history_1960_2002.csv, not from the page itself; a same-coverage line that 17,000 absentees were counted early Wednesday corroborates the sequencing, and the value can only understate the true night count; the capture agents had declined to promote this number themselves, promotion is the controller's documented judgment; KWIC-derived statement, page image verified 2026-07-07; read 2026-07-07 |
+| 1998-11-04 | 1 |  | 183,839 | 73.3% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 1998-11-04 p21 (docview 2195434094): 'With all the precincts in but no absentee ballots counted' - pins the election-night STATE (precincts complete, zero absentees) whose numeric value 183,839 comes from the certified precinct column of data/sources/sf_turnout_history_1960_2002.csv, not from the page itself; a same-coverage line that 17,000 absentees were counted early Wednesday corroborates the sequencing, and the value can only understate the true night count; the capture agents had declined to promote this number themselves, promotion is the controller's documented judgment; KWIC-derived statement, page image verified 2026-07-07; read 2026-07-07 |
 | 1998-11-04 | 1 |  | 190,719 | 76.1% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 1998-11-04 p29 results box (docview 2195435169): '100% of precincts reporting (55,000-60,000 absentee ballots remain to be counted.)' - conservative conversion using the band's high end, 250,719 minus 60,000 = 190,719; the p32 registrar quote implying 210,719 is contradicted same-day and logged unsafe; KWIC-derived, page image verified 2026-07-07; read 2026-07-07 |
 | 1998-11-05 | 2 |  | 185,653 | 74.0% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4F85C8D6BD9B7): largest contest YES 125999 + NO 59654 = 185,653 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4F85C8D6BD9B7 |
 | 1998-11-05 | 2 |  | 223,719 | 89.2% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 1998-11-05 p14/p21 (docviews 2195423370, 2195423259): 'as of Thursday morning, 27,000 absentee' remain - conversion 250,719 minus 27,000 = 223,719; the p19 'About 55,000' variant (195,719) logged as the conservative alternative; coexists with the same-day contest-sum floor 185,653 already on file (differing bases); KWIC-derived, page image verified 2026-07-07; read 2026-07-07 |
@@ -2747,7 +2747,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
-| 1986-06-04 | 1 |  | 125,143 | 85.4% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 1986-06-04 p27 (docview 2233735509, page image verified): county clerk comparison quote gives 'San Francisco at 12:09 a.m.' for precinct-tally completion, 'whereas San Francisco still had thousands of such [absentee] votes left to count this morning' - pins the night count to the certified precinct total 125,143 (data/sf_turnout_history_1960_2002.csv: precinct 125,143, absentee 21,337); screenshots mirror/examiner/1986-06-04/, read 2026-07-07 |
+| 1986-06-04 | 1 |  | 125,143 | 85.4% | proquest-examiner — SF Examiner via ProQuest (SFPL ezproxy), 1986-06-04 p27 (docview 2233735509, page image verified): county clerk comparison quote gives 'San Francisco at 12:09 a.m.' for precinct-tally completion, 'whereas San Francisco still had thousands of such [absentee] votes left to count this morning' - pins the night count to the certified precinct total 125,143 (data/sources/sf_turnout_history_1960_2002.csv: precinct 125,143, absentee 21,337); screenshots mirror/examiner/1986-06-04/, read 2026-07-07 |
 | 1986-06-04 | 1 |  | 142,480 | 97.3% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'Feinstein's Name Failed To Carry Her Big Issues' 1986-06-05 p1 (0EB4EE0DD33808C9): 'Registrar of Voters Jay Patterson said about 4000 absentee ballots have yet to be counted' - conservative floor · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EE0DD33808C9 |
 | 1986-06-05 | 2 |  | 125,928 | 86.0% | SF Chronicle via NewsBank (SFPL) — SF Chronicle via NewsBank (SFPL), 'HOW SAN FRANCISCO VOTED' results table, day-2 paper (0EB4EE0E8C2947DE): largest contest YES 65926 + NO 60002 = 125,928 at complete table - conservative day-2 floor (largest-contest sum, undervote uncounted) · read at SFPL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/0EB4EE0E8C2947DE |
 
@@ -4623,7 +4623,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 76,902
 
-**Source:** FY1916-17 Municipal Reports canvass total 76,902 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** FY1916-17 Municipal Reports canvass total 76,902 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -4639,7 +4639,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 48,150
 
-**Source:** Registrar cumulative table official total 48,150 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 48,150 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -4655,7 +4655,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 83,297
 
-**Source:** Registrar cumulative table official total 83,297 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 83,297 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -4688,7 +4688,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 119,105
 
-**Source:** Registrar cumulative table official total 119,105 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 119,105 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -4770,7 +4770,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 97,417
 
-**Source:** Registrar cumulative table official total 97,417 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 97,417 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -4786,7 +4786,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 72,551
 
-**Source:** Registrar cumulative table official total 72,551 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 72,551 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -4802,7 +4802,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 65,905
 
-**Source:** Registrar cumulative table official total 65,905 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 65,905 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -4850,7 +4850,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 47,484
 
-**Source:** Registrar cumulative table official total 47,484 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 47,484 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -4898,7 +4898,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 65,948
 
-**Source:** Registrar cumulative table official total 65,948 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 65,948 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -4914,7 +4914,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 62,407
 
-**Source:** Registrar cumulative table official total 62,407 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 62,407 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -5011,7 +5011,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 45,889
 
-**Source:** Registrar cumulative table official total 45,889 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 45,889 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -5043,7 +5043,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 47,532
 
-**Source:** Registrar cumulative table official total 47,532 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 47,532 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -5108,7 +5108,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 38,317
 
-**Source:** Registrar cumulative table official total 38,317 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 38,317 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -5247,7 +5247,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 22,851
 
-**Source:** Registrar cumulative table official total 22,851 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 22,851 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -5263,7 +5263,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 38,564
 
-**Source:** SF Municipal Reports FY1907-08 cumulative table: certified 38,564 ballots, 129 precincts (data/sf_turnout_1891_1907.csv)
+**Source:** SF Municipal Reports FY1907-08 cumulative table: certified 38,564 ballots, 129 precincts (data/sources/sf_turnout_1891_1907.csv)
 
 **Observations**
 
@@ -5279,7 +5279,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 10,824
 
-**Source:** Registrar cumulative table official total 10,824 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 10,824 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -5295,7 +5295,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 71,033
 
-**Source:** SF Call E+1 complete count 71,033, promoted by operator decision over the Municipal Reports rounded fire-era estimate of 72,000 (data/sf_turnout_1891_1907.csv)
+**Source:** SF Call E+1 complete count 71,033, promoted by operator decision over the Municipal Reports rounded fire-era estimate of 72,000 (data/sources/sf_turnout_1891_1907.csv)
 
 **Observations**
 
@@ -5343,7 +5343,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 18,141
 
-**Source:** Registrar cumulative table official total 18,141 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 18,141 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -5359,7 +5359,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 9,384
 
-**Source:** Registrar cumulative table official total 9,384 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 9,384 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -5375,7 +5375,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 59,824
 
-**Source:** SF Municipal Reports FY1907-08 cumulative table: certified 59,824 ballots (data/sf_turnout_1891_1907.csv)
+**Source:** SF Municipal Reports FY1907-08 cumulative table: certified 59,824 ballots (data/sources/sf_turnout_1891_1907.csv)
 
 **Observations**
 
@@ -5424,7 +5424,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 26,039
 
-**Source:** Registrar cumulative table official total 26,039 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 26,039 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -5440,7 +5440,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 14,271
 
-**Source:** SF Municipal Reports cumulative table: certified 14,271 ballots per vols 53/55 (data/sf_turnout_1891_1907.csv)
+**Source:** SF Municipal Reports cumulative table: certified 14,271 ballots per vols 53/55 (data/sources/sf_turnout_1891_1907.csv)
 
 **Observations**
 
@@ -5498,7 +5498,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 53,746
 
-**Source:** SF Municipal Reports FY1907-08 cumulative table: certified 53,746 ballots (data/sf_turnout_1891_1907.csv)
+**Source:** SF Municipal Reports FY1907-08 cumulative table: certified 53,746 ballots (data/sources/sf_turnout_1891_1907.csv)
 
 **Observations**
 
@@ -5515,7 +5515,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 22,939
 
-**Source:** Registrar cumulative table official total 22,939 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 22,939 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -5563,7 +5563,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 29,972
 
-**Source:** SF Municipal Reports cumulative table: certified 29,972 ballots (data/sf_turnout_1891_1907.csv)
+**Source:** SF Municipal Reports cumulative table: certified 29,972 ballots (data/sources/sf_turnout_1891_1907.csv)
 
 **Observations**
 
@@ -5579,7 +5579,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 51,965
 
-**Source:** SF Municipal Reports FY1907-08 cumulative table: certified 51,965 ballots (data/sf_turnout_1891_1907.csv); the Nov 9 Call prose prints 52,005 votes polled, 40 over the certified figure, logged
+**Source:** SF Municipal Reports FY1907-08 cumulative table: certified 51,965 ballots (data/sources/sf_turnout_1891_1907.csv); the Nov 9 Call prose prints 52,005 votes polled, 40 over the certified figure, logged
 
 **Observations**
 
@@ -5596,7 +5596,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 32,521
 
-**Source:** Registrar cumulative table official total 32,521 (data/sf_turnout_registrar_1899_1916.csv)
+**Source:** Registrar cumulative table official total 32,521 (data/sources/sf_turnout_registrar_1899_1916.csv)
 
 **Observations**
 
@@ -5628,7 +5628,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 26,969
 
-**Source:** SF Municipal Reports FY1907-08 cumulative table: certified 26,969 ballots (data/sf_turnout_1891_1907.csv)
+**Source:** SF Municipal Reports FY1907-08 cumulative table: certified 26,969 ballots (data/sources/sf_turnout_1891_1907.csv)
 
 **Observations**
 
@@ -5644,7 +5644,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 26,202
 
-**Source:** SF Municipal Reports FY1907-08 cumulative table: certified 26,202 ballots (data/sf_turnout_1891_1907.csv)
+**Source:** SF Municipal Reports FY1907-08 cumulative table: certified 26,202 ballots (data/sources/sf_turnout_1891_1907.csv)
 
 **Observations**
 
@@ -5709,7 +5709,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 55,565
 
-**Source:** Registrar cumulative table official total 55,565 (data/sf_turnout_pre1899.csv); night figure is the press party-sort aggregate
+**Source:** Registrar cumulative table official total 55,565 (data/sources/sf_turnout_pre1899.csv); night figure is the press party-sort aggregate
 
 **Observations**
 
@@ -5725,7 +5725,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 55,313
 
-**Source:** SF Municipal Reports Registrar master table: certified 55,313 ballots (data/sf_turnout_pre1899.csv); the President contest sum 55,717 exceeds it by 404, a known source tension (data/provenance/pre1892_certified.md)
+**Source:** SF Municipal Reports Registrar master table: certified 55,313 ballots (data/sources/sf_turnout_pre1899.csv); the President contest sum 55,717 exceeds it by 404, a known source tension (data/provenance/pre1892_certified.md)
 
 **Observations**
 
@@ -5743,7 +5743,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 25,959
 
-**Source:** Registrar cumulative table official total 25,959 (data/sf_turnout_pre1899.csv)
+**Source:** Registrar cumulative table official total 25,959 (data/sources/sf_turnout_pre1899.csv)
 
 **Observations**
 
@@ -5775,7 +5775,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 47,535
 
-**Source:** SF Municipal Reports Registrar master table: certified 47,535 ballots (data/sf_turnout_pre1899.csv); the President contest sum 47,719 exceeds it by 184, a known source tension (data/provenance/pre1892_certified.md)
+**Source:** SF Municipal Reports Registrar master table: certified 47,535 ballots (data/sources/sf_turnout_pre1899.csv); the President contest sum 47,719 exceeds it by 184, a known source tension (data/provenance/pre1892_certified.md)
 
 **Observations**
 
@@ -5808,7 +5808,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 18,764
 
-**Source:** Registrar cumulative table official total 18,764 (data/sf_turnout_pre1899.csv)
+**Source:** Registrar cumulative table official total 18,764 (data/sources/sf_turnout_pre1899.csv)
 
 **Observations**
 
@@ -5840,7 +5840,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 33,216
 
-**Source:** Registrar cumulative table official total 33,216 (data/sf_turnout_pre1899.csv)
+**Source:** Registrar cumulative table official total 33,216 (data/sources/sf_turnout_pre1899.csv)
 
 **Observations**
 
@@ -5856,7 +5856,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 41,292
 
-**Source:** SF Municipal Reports Registrar master table: certified 41,292 ballots (data/sf_turnout_pre1899.csv)
+**Source:** SF Municipal Reports Registrar master table: certified 41,292 ballots (data/sources/sf_turnout_pre1899.csv)
 
 **Observations**
 
@@ -5873,7 +5873,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 23,398
 
-**Source:** Registrar cumulative table official total 23,398 (data/sf_turnout_pre1899.csv)
+**Source:** Registrar cumulative table official total 23,398 (data/sources/sf_turnout_pre1899.csv)
 
 **Observations**
 
@@ -5889,7 +5889,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 30,877
 
-**Source:** Registrar cumulative table official total 30,877 (data/sf_turnout_pre1899.csv)
+**Source:** Registrar cumulative table official total 30,877 (data/sources/sf_turnout_pre1899.csv)
 
 **Observations**
 
@@ -5905,7 +5905,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 41,575
 
-**Source:** SF Municipal Reports Registrar master table: certified 41,575 ballots (data/sf_turnout_pre1899.csv)
+**Source:** SF Municipal Reports Registrar master table: certified 41,575 ballots (data/sources/sf_turnout_pre1899.csv)
 
 **Observations**
 
@@ -5923,7 +5923,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 38,034
 
-**Source:** Registrar cumulative table official total 38,034 (data/sf_turnout_pre1899.csv)
+**Source:** Registrar cumulative table official total 38,034 (data/sources/sf_turnout_pre1899.csv)
 
 **Observations**
 
@@ -5939,7 +5939,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 
 **Certified final:** 27,098
 
-**Source:** Registrar cumulative table official total 27,098 (data/sf_turnout_pre1899.csv)
+**Source:** Registrar cumulative table official total 27,098 (data/sources/sf_turnout_pre1899.csv)
 
 **Observations**
 
@@ -6292,7 +6292,7 @@ Share of ballots counted within one week of Election Day — Los Angeles, San Fr
 | Date | Days after | Election night | Count | % of final | Source |
 |------|-----------:|:--------------:|------:|-----------:|--------|
 | 1863-09-03 | 1 |  | 8,900 | 59.9% | Daily Alta California 1863-09-03 'Returns up to Two o'Clock.' (DAC18630903.2.4): Low/Downey counted per district 'as far as ascertainable ... at two o'clock this morning', sum ~8,900 APPROXIMATE FLOOR (OCR-soft, conf medium; operator accepted 2026-07-09); total vote 14,866 printed as poll list (excluded); see docs/research/night-recovery-2026-07-09/wave3_states_1859_1879.md |
-| 1863-09-03 | 1 |  | 14,866 | 100.0% | cdnc-ocr — Daily Alta California 1863-09-03 via CDNC (operator hand-read 2026-07-08): 'total vote of the city was 14,866 - 451 more than were ever cast in the city before', arithmetic-locked (1860's 14,415 + 451); the same article prints the district-by-year table recorded in data/sf_vote_by_district_1856_1863.csv; poll-list total, stamped outside the night cutoff (ballots polled, not votes counted; the 2 A.M. states were district fragments only); official Gov contest corroboration: Tribune Almanac 1865 p.64 SF row Low 9,261 + Downey 5,462 = 14,723; URL https://cdnc.ucr.edu/?a=d&d=DAC18630903.2.4 ; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
+| 1863-09-03 | 1 |  | 14,866 | 100.0% | cdnc-ocr — Daily Alta California 1863-09-03 via CDNC (operator hand-read 2026-07-08): 'total vote of the city was 14,866 - 451 more than were ever cast in the city before', arithmetic-locked (1860's 14,415 + 451); the same article prints the district-by-year table recorded in data/sources/sf_vote_by_district_1856_1863.csv; poll-list total, stamped outside the night cutoff (ballots polled, not votes counted; the 2 A.M. states were district fragments only); official Gov contest corroboration: Tribune Almanac 1865 p.64 SF row Low 9,261 + Downey 5,462 = 14,723; URL https://cdnc.ucr.edu/?a=d&d=DAC18630903.2.4 ; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md |
 
 ---
 
