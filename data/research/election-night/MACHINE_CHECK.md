@@ -136,6 +136,7 @@ verify_en_* scripts to regenerate).
 | santa-clara-ca | 2014-11-04 | denominator | 404,166 | VERIFIED | ara 1,066 1,157,944 805,502 96,077 308,089 404,166 76.23% 50.18% 34.90% |
 | santa-clara-ca | 2014-11-04 | numerator | 251,620 | VERIFIED | OR" , "K" : "6" , "VF" : 1 , "TP" : 1066 , "PR" : 1066 , "TV" : 805502 , "BC" : 251620 , "RC" : 0 , "RO" : 0 , "CH" : [  |
 | santa-clara-ca | 2016-11-08 | denominator | 724,596 | VERIFIED | lara 1,063 1,193,225 875,176 190,379 534,217 724,596 73.73% 82.79% 60.73% |
+| santa-clara-ca | 2016-11-08 | numerator | 303,678 | VERIFIED | render-verified: Santa Clara County ballot measures, 41% of precincts: Measure A Yes 200,688 67.0% No 98,820 33.0% (299, |
 | santa-clara-ca | 2018-11-06 | denominator | 625,425 | VERIFIED | 1,098 1,208,495 885,764 138,468 486,957 625,425 77.86% 70.61% 51.75% |
 | santa-clara-ca | 2022-11-08 | denominator | 550,602 | VERIFIED | 754 1,259,821 1,009,422 40,694 509,908 550,602 92.61% 54.55% 43.70% |
 | santa-clara-ca | 2022-11-08 | numerator | 293,148 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 754 , "PR" : 671 , "TV" : 1009422 , "BC" : 293148 , "RC" : 0 , "RO" : 0 , "CH" : [  |

@@ -365,6 +365,13 @@
  },
  {
   "slug": "santa-clara-ca",
+  "date": "2016-11-08",
+  "verdict": "PLAUSIBLE",
+  "basis": "documented floor: same-contest ratio (Measure A/B) at printed precinct percentage",
+  "evidence": "Mercury News Nov 9 2016 'RESULTS' page (docref news/1608FF6D81BADB18): Measure A 299,508 + Measure B 303,678 total votes at '41% of precincts'; floor 303,678 (41.91%) is self-consistent across both measures but well below the calibration band, so PLAUSIBLE not CONFIRMED (no independent bracket proving it was the LAST report, only that it predates it)"
+ },
+ {
+  "slug": "santa-clara-ca",
   "date": "2022-11-08",
   "verdict": "CONFIRMED",
   "basis": "clarity version bracket, re-derived",

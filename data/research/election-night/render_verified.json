@@ -12,5 +12,12 @@
   "url": "https://web.archive.org/web/20181107121103/https://www.smcacre.org/november-6-2018-election-results",
   "evidence": "Precinct Ballots Cast 0 0.0% Vote Center Ballots Cast 26,210 6.6% Vote by Mail Ballots Cast 85,427 21.4% Total Ballots Cast 111,637 27.9%",
   "method": "Puppeteer render of the archived JS results page, verified 2026-07-01."
+ },
+ {
+  "slug": "santa-clara-ca",
+  "date": "2016-11-08",
+  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1608FF6D81BADB18",
+  "evidence": "Santa Clara County ballot measures, 41% of precincts: Measure A Yes 200,688 67.0% No 98,820 33.0% (299,508 total); Measure B Yes 215,336 70.9% No 88,342 29.1% = 303,678 total votes",
+  "method": "newsbank-sfpl-manual"
  }
 ]

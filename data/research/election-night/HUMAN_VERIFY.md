@@ -55,6 +55,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2014-11-04
       controller verdict: PLAUSIBLE (documented ceiling: next-day canvass-start report)
 
+- [ ] **santa-clara-ca 2016-11-08** (secondary confidence)
+      claimed: night ballots **303,678**, certified final **724,596**, share **41.91%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1608FF6D81BADB18
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = documented FLOOR (UPGRADED from prior null via NewsBank San Jose Mercury News; Clarity event 64404 routes remain exhausted, see below). The Nov 9, 2016 Mercury News 'RESULTS' page (Bay Area News Group, p8S, NewsBank docref news/1608FF6D81BADB18, source 'Mercury News, The (San Jose, CA)') p
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2016-11-08
+      controller verdict: PLAUSIBLE (documented floor: same-contest ratio (Measure A/B) at printed precinct percentage)
+
 ## 3. Blocked-source recoveries (need a real browser)
 
 - [ ] **fresno-ca 2018-11-06** (operator-flagged)
