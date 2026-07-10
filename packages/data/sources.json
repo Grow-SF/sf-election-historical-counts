@@ -4373,7 +4373,7 @@
     "total": 183839,
     "pct": 73.3,
     "label": "proquest-examiner",
-    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 1998-11-04 p21 (docview 2195434094): 'With all the precincts in but no absentee ballots counted' - pins the election-night STATE (precincts complete, zero absentees) whose numeric value 183,839 comes from the certified precinct column of data/sf_turnout_history_1960_2002.csv, not from the page itself; a same-coverage line that 17,000 absentees were counted early Wednesday corroborates the sequencing, and the value can only understate the true night count; the capture agents had declined to promote this number themselves, promotion is the controller's documented judgment; KWIC-derived statement, page image verified 2026-07-07; read 2026-07-07"
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 1998-11-04 p21 (docview 2195434094): 'With all the precincts in but no absentee ballots counted' - pins the election-night STATE (precincts complete, zero absentees) whose numeric value 183,839 comes from the certified precinct column of data/sources/sf_turnout_history_1960_2002.csv, not from the page itself; a same-coverage line that 17,000 absentees were counted early Wednesday corroborates the sequencing, and the value can only understate the true night count; the capture agents had declined to promote this number themselves, promotion is the controller's documented judgment; KWIC-derived statement, page image verified 2026-07-07; read 2026-07-07"
    },
    {
     "date": "1998-11-04",
@@ -4973,7 +4973,7 @@
     "total": 125143,
     "pct": 85.4,
     "label": "proquest-examiner",
-    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 1986-06-04 p27 (docview 2233735509, page image verified): county clerk comparison quote gives 'San Francisco at 12:09 a.m.' for precinct-tally completion, 'whereas San Francisco still had thousands of such [absentee] votes left to count this morning' - pins the night count to the certified precinct total 125,143 (data/sf_turnout_history_1960_2002.csv: precinct 125,143, absentee 21,337); screenshots mirror/examiner/1986-06-04/, read 2026-07-07"
+    "citation": "SF Examiner via ProQuest (SFPL ezproxy), 1986-06-04 p27 (docview 2233735509, page image verified): county clerk comparison quote gives 'San Francisco at 12:09 a.m.' for precinct-tally completion, 'whereas San Francisco still had thousands of such [absentee] votes left to count this morning' - pins the night count to the certified precinct total 125,143 (data/sources/sf_turnout_history_1960_2002.csv: precinct 125,143, absentee 21,337); screenshots mirror/examiner/1986-06-04/, read 2026-07-07"
    },
    {
     "date": "1986-06-04",
@@ -6957,7 +6957,7 @@
   "id": "1916-08-29",
   "name": "State Primary Election",
   "final": 76902,
-  "finalSource": "FY1916-17 Municipal Reports canvass total 76,902 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "FY1916-17 Municipal Reports canvass total 76,902 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1916-08-30",
@@ -6973,7 +6973,7 @@
   "id": "1916-05-02",
   "name": "Presidential Primary Election",
   "final": 48150,
-  "finalSource": "Registrar cumulative table official total 48,150 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 48,150 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1916-05-03",
@@ -6989,7 +6989,7 @@
   "id": "1915-11-09",
   "name": "General Municipal Election (Rolph re-elected)",
   "final": 83297,
-  "finalSource": "Registrar cumulative table official total 83,297 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 83,297 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1915-11-10",
@@ -7029,7 +7029,7 @@
   "id": "1915-09-28",
   "name": "Municipal Primary Election",
   "final": 119105,
-  "finalSource": "Registrar cumulative table official total 119,105 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 119,105 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1915-09-29",
@@ -7125,7 +7125,7 @@
   "id": "1914-08-25",
   "name": "State Primary Election",
   "final": 97417,
-  "finalSource": "Registrar cumulative table official total 97,417 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 97,417 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1914-08-26",
@@ -7141,7 +7141,7 @@
   "id": "1913-11-11",
   "name": "General Municipal Election",
   "final": 72551,
-  "finalSource": "Registrar cumulative table official total 72,551 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 72,551 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1913-11-12",
@@ -7157,7 +7157,7 @@
   "id": "1913-09-30",
   "name": "Municipal Primary Election",
   "final": 65905,
-  "finalSource": "Registrar cumulative table official total 65,905 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 65,905 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1913-10-01",
@@ -7205,7 +7205,7 @@
   "id": "1912-12-20",
   "name": "Special Election (general-utilities bonds)",
   "final": 47484,
-  "finalSource": "Registrar cumulative table official total 47,484 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 47,484 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1912-12-21",
@@ -7253,7 +7253,7 @@
   "id": "1912-09-03",
   "name": "State Primary Election",
   "final": 65948,
-  "finalSource": "Registrar cumulative table official total 65,948 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 65,948 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1912-09-04",
@@ -7269,7 +7269,7 @@
   "id": "1912-05-14",
   "name": "Presidential Primary Election",
   "final": 62407,
-  "finalSource": "Registrar cumulative table official total 62,407 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 62,407 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1912-05-15",
@@ -7373,7 +7373,7 @@
   "id": "1910-11-15",
   "name": "Special Election (charter amendments)",
   "final": 45889,
-  "finalSource": "Registrar cumulative table official total 45,889 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 45,889 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1910-11-16",
@@ -7405,7 +7405,7 @@
   "id": "1910-08-16",
   "name": "State Primary Election",
   "final": 47532,
-  "finalSource": "Registrar cumulative table official total 47,532 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 47,532 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1910-08-17",
@@ -7477,7 +7477,7 @@
   "id": "1909-08-17",
   "name": "Municipal Primary Election",
   "final": 38317,
-  "finalSource": "Registrar cumulative table official total 38,317 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 38,317 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1909-08-18",
@@ -7620,7 +7620,7 @@
   "id": "1907-08-13",
   "name": "Municipal Primary Election",
   "final": 22851,
-  "finalSource": "Registrar cumulative table official total 22,851 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 22,851 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1907-08-14",
@@ -7636,7 +7636,7 @@
   "id": "1906-11-06",
   "name": "Consolidated General Election",
   "final": 38564,
-  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 38,564 ballots, 129 precincts (data/sf_turnout_1891_1907.csv)",
+  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 38,564 ballots, 129 precincts (data/sources/sf_turnout_1891_1907.csv)",
   "observations": [
    {
     "date": "1906-11-07",
@@ -7652,7 +7652,7 @@
   "id": "1906-08-14",
   "name": "State Primary Election",
   "final": 10824,
-  "finalSource": "Registrar cumulative table official total 10,824 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 10,824 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1906-08-15",
@@ -7668,7 +7668,7 @@
   "id": "1905-11-07",
   "name": "General Municipal Election",
   "final": 71033,
-  "finalSource": "SF Call E+1 complete count 71,033, promoted by operator decision over the Municipal Reports rounded fire-era estimate of 72,000 (data/sf_turnout_1891_1907.csv)",
+  "finalSource": "SF Call E+1 complete count 71,033, promoted by operator decision over the Municipal Reports rounded fire-era estimate of 72,000 (data/sources/sf_turnout_1891_1907.csv)",
   "observations": [
    {
     "date": "1905-11-08",
@@ -7716,7 +7716,7 @@
   "id": "1904-08-09",
   "name": "State Primary Election",
   "final": 18141,
-  "finalSource": "Registrar cumulative table official total 18,141 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 18,141 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1904-08-10",
@@ -7732,7 +7732,7 @@
   "id": "1904-05-03",
   "name": "Presidential Primary Election",
   "final": 9384,
-  "finalSource": "Registrar cumulative table official total 9,384 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 9,384 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1904-05-04",
@@ -7748,7 +7748,7 @@
   "id": "1903-11-03",
   "name": "General Municipal Election",
   "final": 59824,
-  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 59,824 ballots (data/sf_turnout_1891_1907.csv)",
+  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 59,824 ballots (data/sources/sf_turnout_1891_1907.csv)",
   "observations": [
    {
     "date": "1903-11-04",
@@ -7804,7 +7804,7 @@
   "id": "1903-08-11",
   "name": "Municipal Primary Election",
   "final": 26039,
-  "finalSource": "Registrar cumulative table official total 26,039 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 26,039 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1903-08-12",
@@ -7820,7 +7820,7 @@
   "id": "1902-12-04",
   "name": "Special Municipal Election",
   "final": 14271,
-  "finalSource": "SF Municipal Reports cumulative table: certified 14,271 ballots per vols 53/55 (data/sf_turnout_1891_1907.csv)",
+  "finalSource": "SF Municipal Reports cumulative table: certified 14,271 ballots per vols 53/55 (data/sources/sf_turnout_1891_1907.csv)",
   "observations": [
    {
     "date": "1902-12-05",
@@ -7875,7 +7875,7 @@
   "id": "1901-11-05",
   "name": "General Municipal Election",
   "final": 53746,
-  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 53,746 ballots (data/sf_turnout_1891_1907.csv)",
+  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 53,746 ballots (data/sources/sf_turnout_1891_1907.csv)",
   "observations": [
    {
     "date": "1901-11-06",
@@ -7899,7 +7899,7 @@
   "id": "1901-08-13",
   "name": "Municipal Primary Election",
   "final": 22939,
-  "finalSource": "Registrar cumulative table official total 22,939 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 22,939 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1901-08-14",
@@ -7947,7 +7947,7 @@
   "id": "1899-12-27",
   "name": "Special Municipal Election",
   "final": 29972,
-  "finalSource": "SF Municipal Reports cumulative table: certified 29,972 ballots (data/sf_turnout_1891_1907.csv)",
+  "finalSource": "SF Municipal Reports cumulative table: certified 29,972 ballots (data/sources/sf_turnout_1891_1907.csv)",
   "observations": [
    {
     "date": "1899-12-28",
@@ -7963,7 +7963,7 @@
   "id": "1899-11-07",
   "name": "General Municipal Election",
   "final": 51965,
-  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 51,965 ballots (data/sf_turnout_1891_1907.csv); the Nov 9 Call prose prints 52,005 votes polled, 40 over the certified figure, logged",
+  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 51,965 ballots (data/sources/sf_turnout_1891_1907.csv); the Nov 9 Call prose prints 52,005 votes polled, 40 over the certified figure, logged",
   "observations": [
    {
     "date": "1899-11-08",
@@ -7987,7 +7987,7 @@
   "id": "1899-08-08",
   "name": "Municipal Primary Election",
   "final": 32521,
-  "finalSource": "Registrar cumulative table official total 32,521 (data/sf_turnout_registrar_1899_1916.csv)",
+  "finalSource": "Registrar cumulative table official total 32,521 (data/sources/sf_turnout_registrar_1899_1916.csv)",
   "observations": [
    {
     "date": "1899-08-09",
@@ -8019,7 +8019,7 @@
   "id": "1898-05-26",
   "name": "Special Municipal Election",
   "final": 26969,
-  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 26,969 ballots (data/sf_turnout_1891_1907.csv)",
+  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 26,969 ballots (data/sources/sf_turnout_1891_1907.csv)",
   "observations": [
    {
     "date": "1898-05-27",
@@ -8035,7 +8035,7 @@
   "id": "1897-12-27",
   "name": "Special Municipal Election",
   "final": 26202,
-  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 26,202 ballots (data/sf_turnout_1891_1907.csv)",
+  "finalSource": "SF Municipal Reports FY1907-08 cumulative table: certified 26,202 ballots (data/sources/sf_turnout_1891_1907.csv)",
   "observations": [
    {
     "date": "1897-12-28",
@@ -8107,7 +8107,7 @@
   "id": "1890-11-04",
   "name": "Gubernatorial + Municipal Election (Mayor Sanderson)",
   "final": 55565,
-  "finalSource": "Registrar cumulative table official total 55,565 (data/sf_turnout_pre1899.csv); night figure is the press party-sort aggregate",
+  "finalSource": "Registrar cumulative table official total 55,565 (data/sources/sf_turnout_pre1899.csv); night figure is the press party-sort aggregate",
   "observations": [
    {
     "date": "1890-11-05",
@@ -8123,7 +8123,7 @@
   "id": "1888-11-06",
   "name": "Consolidated General Election",
   "final": 55313,
-  "finalSource": "SF Municipal Reports Registrar master table: certified 55,313 ballots (data/sf_turnout_pre1899.csv); the President contest sum 55,717 exceeds it by 404, a known source tension (data/provenance/pre1892_certified.md)",
+  "finalSource": "SF Municipal Reports Registrar master table: certified 55,313 ballots (data/sources/sf_turnout_pre1899.csv); the President contest sum 55,717 exceeds it by 404, a known source tension (data/provenance/pre1892_certified.md)",
   "observations": [
    {
     "date": "1888-11-07",
@@ -8155,7 +8155,7 @@
   "id": "1887-04-12",
   "name": "Charter + Amendments Special (REJECTED)",
   "final": 25959,
-  "finalSource": "Registrar cumulative table official total 25,959 (data/sf_turnout_pre1899.csv)",
+  "finalSource": "Registrar cumulative table official total 25,959 (data/sources/sf_turnout_pre1899.csv)",
   "observations": [
    {
     "date": "1887-04-13",
@@ -8187,7 +8187,7 @@
   "id": "1884-11-04",
   "name": "Consolidated General Election",
   "final": 47535,
-  "finalSource": "SF Municipal Reports Registrar master table: certified 47,535 ballots (data/sf_turnout_pre1899.csv); the President contest sum 47,719 exceeds it by 184, a known source tension (data/provenance/pre1892_certified.md)",
+  "finalSource": "SF Municipal Reports Registrar master table: certified 47,535 ballots (data/sources/sf_turnout_pre1899.csv); the President contest sum 47,719 exceeds it by 184, a known source tension (data/provenance/pre1892_certified.md)",
   "observations": [
    {
     "date": "1884-11-05",
@@ -8227,7 +8227,7 @@
   "id": "1883-03-03",
   "name": "Proposed-Charter Special (REJECTED)",
   "final": 18764,
-  "finalSource": "Registrar cumulative table official total 18,764 (data/sf_turnout_pre1899.csv)",
+  "finalSource": "Registrar cumulative table official total 18,764 (data/sources/sf_turnout_pre1899.csv)",
   "observations": [
    {
     "date": "1883-03-04",
@@ -8259,7 +8259,7 @@
   "id": "1881-09-07",
   "name": "Municipal Election (Mayor Blake)",
   "final": 33216,
-  "finalSource": "Registrar cumulative table official total 33,216 (data/sf_turnout_pre1899.csv)",
+  "finalSource": "Registrar cumulative table official total 33,216 (data/sources/sf_turnout_pre1899.csv)",
   "observations": [
    {
     "date": "1881-09-08",
@@ -8275,7 +8275,7 @@
   "id": "1880-11-02",
   "name": "Consolidated General Election",
   "final": 41292,
-  "finalSource": "SF Municipal Reports Registrar master table: certified 41,292 ballots (data/sf_turnout_pre1899.csv)",
+  "finalSource": "SF Municipal Reports Registrar master table: certified 41,292 ballots (data/sources/sf_turnout_pre1899.csv)",
   "observations": [
    {
     "date": "1880-11-03",
@@ -8299,7 +8299,7 @@
   "id": "1880-09-08",
   "name": "Proposed-Charter Special (REJECTED)",
   "final": 23398,
-  "finalSource": "Registrar cumulative table official total 23,398 (data/sf_turnout_pre1899.csv)",
+  "finalSource": "Registrar cumulative table official total 23,398 (data/sources/sf_turnout_pre1899.csv)",
   "observations": [
    {
     "date": "1880-09-09",
@@ -8315,7 +8315,7 @@
   "id": "1880-03-30",
   "name": "Board of Freeholders Charter Election",
   "final": 30877,
-  "finalSource": "Registrar cumulative table official total 30,877 (data/sf_turnout_pre1899.csv)",
+  "finalSource": "Registrar cumulative table official total 30,877 (data/sources/sf_turnout_pre1899.csv)",
   "observations": [
    {
     "date": "1880-03-31",
@@ -8331,7 +8331,7 @@
   "id": "1879-09-03",
   "name": "Consolidated General Election",
   "final": 41575,
-  "finalSource": "SF Municipal Reports Registrar master table: certified 41,575 ballots (data/sf_turnout_pre1899.csv)",
+  "finalSource": "SF Municipal Reports Registrar master table: certified 41,575 ballots (data/sources/sf_turnout_pre1899.csv)",
   "observations": [
    {
     "date": "1879-09-04",
@@ -8363,7 +8363,7 @@
   "id": "1879-05-07",
   "name": "Constitution Ratification Special",
   "final": 38034,
-  "finalSource": "Registrar cumulative table official total 38,034 (data/sf_turnout_pre1899.csv)",
+  "finalSource": "Registrar cumulative table official total 38,034 (data/sources/sf_turnout_pre1899.csv)",
   "observations": [
    {
     "date": "1879-05-08",
@@ -8379,7 +8379,7 @@
   "id": "1878-06-19",
   "name": "Constitutional Convention Delegate Election",
   "final": 27098,
-  "finalSource": "Registrar cumulative table official total 27,098 (data/sf_turnout_pre1899.csv)",
+  "finalSource": "Registrar cumulative table official total 27,098 (data/sources/sf_turnout_pre1899.csv)",
   "observations": [
    {
     "date": "1878-06-20",
@@ -8811,7 +8811,7 @@
     "total": 14866,
     "pct": 100.0,
     "label": "cdnc-ocr",
-    "citation": "Daily Alta California 1863-09-03 via CDNC (operator hand-read 2026-07-08): 'total vote of the city was 14,866 - 451 more than were ever cast in the city before', arithmetic-locked (1860's 14,415 + 451); the same article prints the district-by-year table recorded in data/sf_vote_by_district_1856_1863.csv; poll-list total, stamped outside the night cutoff (ballots polled, not votes counted; the 2 A.M. states were district fragments only); official Gov contest corroboration: Tribune Almanac 1865 p.64 SF row Low 9,261 + Downey 5,462 = 14,723; URL https://cdnc.ucr.edu/?a=d&d=DAC18630903.2.4 ; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md"
+    "citation": "Daily Alta California 1863-09-03 via CDNC (operator hand-read 2026-07-08): 'total vote of the city was 14,866 - 451 more than were ever cast in the city before', arithmetic-locked (1860's 14,415 + 451); the same article prints the district-by-year table recorded in data/sources/sf_vote_by_district_1856_1863.csv; poll-list total, stamped outside the night cutoff (ballots polled, not votes counted; the 2 A.M. states were district fragments only); official Gov contest corroboration: Tribune Almanac 1865 p.64 SF row Low 9,261 + Downey 5,462 = 14,723; URL https://cdnc.ucr.edu/?a=d&d=DAC18630903.2.4 ; full provenance scratchpad agents/officials_1849_1858.md, muni_reports_1859_1877.md, cdnc_1867_1877.md, cdnc_1859_1865.md"
    }
   ]
  },
