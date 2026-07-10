@@ -77,7 +77,7 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf
       look for: Certified final (denominator) is SOLID: CA SoS Statement of Vote, Voter Participation Statistics by County, San Diego Total Voters 1,346,513 (= Precinct 489,576 + VBM 856,937). Election-night NUMERATOR not sourceable: SD did not use livevoterturnout.com until 2018. In 2016 the ROV homepage 'Election
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-diego-ca 2016-11-08
-      controller verdict: CONFIRMED (election-night registrar figure held across Wednesday afternoon through Thursday print, three independent bylines)
+      controller verdict: REFUTED_AS_PLATEAU (cited corroboration documents a Wednesday-morning update between the plateau and the derived figure; value retained as a documented ceiling, comparable=false)
 
 - [ ] **santa-clara-ca 2014-11-04** (secondary confidence)
       claimed: night ballots **251,620**, certified final **404,166**, share **62.26%**

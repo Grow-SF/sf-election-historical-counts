@@ -240,6 +240,11 @@ confidence:
   - Query URL (reconstructed), 2015 full year: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/results?p=WORLDNEWS&b=results&fld-base-0=source&val-base-0=San%20Diego%20Union-Tribune%2C%20The%20(CA)&bln-base-1=AND&fld-base-1=YMD_date&val-base-1=01%2F01%2F2015%20-%2012%2F31%2F2015&sort=YMD_date%3AA
   - Query URL (reconstructed), 2016 H1: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/results?p=WORLDNEWS&b=results&fld-base-0=source&val-base-0=San%20Diego%20Union-Tribune%2C%20The%20(CA)&bln-base-1=AND&fld-base-1=YMD_date&val-base-1=01%2F01%2F2016%20-%2006%2F30%2F2016&sort=YMD_date%3AA
   - Query URL (reconstructed), same-day all-sources control (Nov 7 2012, `election`, no source filter): https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/results?p=WORLDNEWS&b=results&fld-base-0=alltext&val-base-0=election&bln-base-1=AND&fld-base-1=YMD_date&val-base-1=11%2F07%2F2012&sort=YMD_date%3AA
+  - **CORRECTION (2026-07-09):** the 2014 "archive gap" is overstated: U-T
+    2014 content exists in NewsBank but is not reachable via the
+    source-scoped facet (metadata quirk); use all-publications search with
+    San Diego terms instead (proven by Task 5's san-diego-2014.md). The 2012
+    gap re-verification stands.
 - **Madera Tribune, 2012-11-07: also a real archive gap.** `source=Madera
   Tribune (CA)` with no text term returns 0 for all of October 2012, all of
   November 2012, and all of calendar 2012 : despite the A-Z listing's "2002 -
@@ -267,13 +272,17 @@ archive gap, see diagnostics above, for the two starred cells). `MISS-no-src`
 | San Jose Mercury News | n/a | n/a | HIT 6 | HIT 7 | n/a |
 | Fresno Bee | HIT 14 | HIT 17 | n/a | HIT 31 | HIT 43 |
 | Madera Tribune | MISS-empty* | HIT 1 | n/a | n/a | n/a |
-| San Diego Union-Tribune | MISS-empty* | MISS-empty* | HIT 27 | n/a | n/a |
+| San Diego Union-Tribune | MISS-empty* | MISS-empty*† | HIT 27 | n/a | n/a |
 | Press-Enterprise (Riverside) | HIT 15 | HIT 11 | HIT 13 | HIT 20 | n/a |
 | San Bernardino Sun | HIT 3 | HIT 7 | HIT 7 | HIT 13 | HIT 33 |
 
 `n/a` = cell not in the brief's table (paper/window not needed). `*` = confirmed
 genuine NewsBank archive gap (see diagnostics), not a query-construction
-artifact.
+artifact. `†` = CORRECTION (2026-07-09): this cell's "confirmed genuine
+archive gap" verdict is overstated; the content exists in NewsBank but is
+unreachable via the source-scoped facet (a metadata quirk), and is reachable
+via all-publications search instead (see the diagnostic correction above and
+Task 5's san-diego-2014.md). The 2012 gap re-verification stands.
 
 **Totals: 21 cells probed, 18 HIT, 3 MISS-empty-window, 0 MISS-no-source.**
 All 7 papers exist as NewsBank sources; Tasks 2-7 should skip the 3 starred

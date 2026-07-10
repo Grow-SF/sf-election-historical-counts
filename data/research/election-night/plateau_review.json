@@ -317,9 +317,9 @@
  {
   "slug": "san-diego-ca",
   "date": "2016-11-08",
-  "verdict": "CONFIRMED",
-  "basis": "election-night registrar figure held across Wednesday afternoon through Thursday print, three independent bylines",
-  "evidence": "U-T Web Edition (Nov 9, 'as of late Wednesday afternoon... not expected to release more results until Thursday'): 620,000 uncounted provisional/mail-in; two Nov 10 print pieces restate the identical 620,000 figure attributed to Registrar Vu speaking Wednesday, with all precincts counted; certified 1,346,513 minus 620,000 = 726,513 (53.96%)"
+  "verdict": "REFUTED_AS_PLATEAU",
+  "basis": "cited corroboration documents a Wednesday-morning update between the plateau and the derived figure; value retained as a documented ceiling, comparable=false",
+  "evidence": "Nov 10 2016 U-T print piece (docref news/160911C5B569B4C0, mirror/newsbank/docs/sandiego2016_160911C5B569B4C0.txt) itself states 'updated unofficial returns released Wednesday morning by the San Diego County Registrar of Voters Office' and that further releases were pending Thursday/Friday and daily for a week; the 620,000-outstanding figure describes that post-night state, not the election-night plateau, so 726,513/1,346,513 = 53.96% is at best a ceiling on the true plateau. CORRECTION (2026-07-09): downgraded from CONFIRMED on review."
  },
  {
   "slug": "san-diego-ca",
