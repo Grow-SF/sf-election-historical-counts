@@ -26,6 +26,19 @@ lever voting machines arrived (1928–1990s), and the modern mail-driven slide �
 see
 [`docs/analysis/2026-06-13-a-century-of-election-nights.md`](docs/analysis/2026-06-13-a-century-of-election-nights.md).
 
+**The headline finding (2026):** comparing 19 California counties (2012-2024,
+generals and primaries), the election-night slowdown hit everyone, but counties
+that adopted Voter's Choice Act vote centers weathered it about **10 points
+better** than counties that never adopted new counting technology, once each
+county is measured against its own shift to mail voting (which mechanically
+costs roughly 2.7 points of night tally per 10 points of mail share, 3.1
+before 2022 and 1.7 after). The effect's confidence interval now excludes
+zero, though randomization checks leave it one notch short of certification;
+the components of the bundle (e-pollbooks, signature automation, vote centers)
+adopted together and cannot be separated with California data. Full analysis,
+per-county tables, and caveats:
+[`docs/analysis/2026-07-10-vca-bundle-tech-effect.md`](docs/analysis/2026-07-10-vca-bundle-tech-effect.md).
+
 **Just want the data? Start here:**
 [`data/sf_elections_consolidated.csv`](data/sf_elections_consolidated.csv)
 — every election since 1849 in one file: registration, total turnout, the
