@@ -24,6 +24,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 DATA = ROOT / "data"
+SOURCES = DATA / "sources"
 VIZ = ROOT / "packages" / "data"
 OUT = DATA / "sf_franchise_by_election.csv"
 # the DOE table dates the Dec 2001 runoff a day early (a Monday); the runoff was
@@ -63,14 +64,14 @@ COR_SRC = {
 # ---- certified ballot split (e-day = precinct, vbm = mail/absentee) ----
 # priority: certified SoV > 1960–2002 turnout history > DOE 1899–2019 table
 split = {}  # date -> {e_day, vbm, src, url}
-with open(DATA / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
+with open(SOURCES / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
     for r in csv.DictReader(f):
         if r["mail"] in ("n/a", ""):
             continue
         date = DOE_FIX.get(r["election_date"], r["election_date"])
         split[date] = {"e_day": int(r["precinct"]), "vbm": int(r["mail"]),
                        "src": COR_SRC["doe-turnout-table"], "url": ""}
-with open(DATA / "sf_turnout_history_1960_2002.csv", newline="") as f:
+with open(SOURCES / "sf_turnout_history_1960_2002.csv", newline="") as f:
     for r in csv.DictReader(f):
         if r["absentee"] in ("n/a", ""):
             continue
@@ -80,7 +81,7 @@ with open(DATA / "sf_turnout_history_1960_2002.csv", newline="") as f:
         split[date] = {"e_day": int(r["precinct"].replace(",", "")),
                        "vbm": int(r["absentee"].replace(",", "")),
                        "src": "SF Dept. of Elections turnout history (1960–2002)", "url": ""}
-with open(DATA / "sf_vbm_share_sos.csv", newline="") as f:
+with open(SOURCES / "sf_vbm_share_sos.csv", newline="") as f:
     for r in csv.DictReader(f):
         split[r["election_date"]] = {"e_day": int(r["ballots_polling"]),
                                      "vbm": int(r["ballots_absentee"]),

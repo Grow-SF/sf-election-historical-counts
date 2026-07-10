@@ -71,7 +71,7 @@ Generals cross-check complete 1908-1960 (1944 skipped). Discrepancies under revi
 Remaining: 1964 general; 1948-1964 primaries.
 
 ## Batch 5 (Task 5): 1966-1970 fill (no DOE row exists for these five dates)
-`data/sf_turnout_history_doe_1899_2019.csv` has no row at all for 1966-06-07,
+`data/sources/sf_turnout_history_doe_1899_2019.csv` has no row at all for 1966-06-07,
 1966-11-08, 1968-06-04, 1970-06-02, or 1970-11-03 (a gap in the DOE table, not
 a DOE-vs-SOV disagreement), so these are pure "fill" entries: the SOV is the
 only certified source. Method note: for all five, the figure recorded is the

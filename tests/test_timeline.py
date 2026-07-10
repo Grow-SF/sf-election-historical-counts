@@ -64,7 +64,7 @@ def test_stage_parse_records_failures_not_crashes(mini_pipeline):
     bad.parent.mkdir(parents=True)
     bad.write_text("<html>soft 404 that slipped through</html>")
     stage_parse(data, raw, eras=("B", "C"))
-    with open(data / "parse_failures.csv", newline="") as f:
+    with open(data / "pipeline" / "parse_failures.csv", newline="") as f:
         failures = list(csv.DictReader(f))
     assert len(failures) == 1
     assert failures[0]["file"].endswith("20241109/summary.xml")
@@ -98,7 +98,7 @@ def test_stage_parse_2019_psov_mismatch_fails_loudly(mini_pipeline):
              for r in read_timeline(data)}[("2019-11-05", "20191108")]
     assert v2019["ballots_vbm"] == ""
     assert v2019["parser"] == "era_c_xml"
-    with open(data / "parse_failures.csv", newline="") as f:
+    with open(data / "pipeline" / "parse_failures.csv", newline="") as f:
         failures = list(csv.DictReader(f))
     assert len(failures) == 1
     assert "psov sum 3 != summary total 190504" in failures[0]["error"]
@@ -108,10 +108,10 @@ def test_stage_parse_distrusts_reuploaded_header_timestamps(mini_pipeline):
     # The DOE re-uploaded 2015/2016-era files in Dec 2023; such Last-Modified
     # values are migration artifacts, not report times -> folder-date fallback.
     data, raw = mini_pipeline
-    manifest = (data / "manifest.csv").read_text().replace(
+    manifest = (data / "pipeline" / "manifest.csv").read_text().replace(
         "20161108,20161110,summary.txt,downloaded,2016-11-10T16:01:57",
         "20161108,20161110,summary.txt,downloaded,2023-12-19T17:03:31")
-    (data / "manifest.csv").write_text(manifest)
+    (data / "pipeline" / "manifest.csv").write_text(manifest)
     stage_parse(data, raw, eras=("B", "C"))
     row = {(r["election_date"], r["snapshot"]): r
            for r in read_timeline(data)}[("2016-11-08", "20161110")]

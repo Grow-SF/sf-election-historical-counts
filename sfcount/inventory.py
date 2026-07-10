@@ -43,8 +43,8 @@ def extract_elections(html: str) -> dict[dt.date, str]:
 
 
 def write_inventory(seen: dict[dt.date, str], data_dir: Path) -> None:
-    data_dir.mkdir(parents=True, exist_ok=True)
-    with open(data_dir / "elections.csv", "w", newline="") as f:
+    (data_dir / "pipeline").mkdir(parents=True, exist_ok=True)
+    with open(data_dir / "pipeline" / "elections.csv", "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["election_date", "election_name", "era"])
         for date in sorted(seen):
@@ -52,7 +52,7 @@ def write_inventory(seen: dict[dt.date, str], data_dir: Path) -> None:
 
 
 def load_elections(data_dir: Path, eras: tuple[str, ...]) -> list[dict]:
-    with open(data_dir / "elections.csv") as f:
+    with open(data_dir / "pipeline" / "elections.csv") as f:
         return [row for row in csv.DictReader(f) if row["era"] in eras]
 
 
@@ -65,4 +65,4 @@ def stage_inventory(data_dir: Path) -> None:
     r.raise_for_status()
     seen = extract_elections(r.text)
     write_inventory(seen, data_dir)
-    print(f"inventory: {len(seen)} elections -> {data_dir / 'elections.csv'}", flush=True)
+    print(f"inventory: {len(seen)} elections -> {data_dir / 'pipeline' / 'elections.csv'}", flush=True)

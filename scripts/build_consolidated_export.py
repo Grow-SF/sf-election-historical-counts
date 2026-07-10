@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Build data/exports/sf_elections_consolidated.csv — one row per SF election
+"""Build data/sf_elections_consolidated.csv — one row per SF election
 (1849-present) with registration, total turnout, election-night count, and the
 election-day / vote-by-mail split, each value paired with its source citation.
 
 The one-file rollup most readers want. Every value is drawn from
 the repo's arbitrated datasets (never recomputed here); source strings are the
 per-row citations, compacted to their leading clause — the full verbatim
-citations live in the underlying data/*.csv files and docs/sources.md.
+citations live in the underlying data/ and data/sources/ CSVs and docs/sources.md.
 
 Do not edit the output by hand — re-run this script instead.
 """
@@ -16,7 +16,8 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
-OUT = ROOT / "data" / "exports" / "sf_elections_consolidated.csv"
+OUT = ROOT / "data" / "sf_elections_consolidated.csv"
+SRC = ROOT / "data" / "sources"
 
 DOE_TABLE_DATE_FIXES = {"2001-12-10": "2001-12-11", "1899-12-02": "1899-12-29"}
 
@@ -94,8 +95,7 @@ def main():
 
     # finals that are single-contest floors, per the reuse file's structured notes
     floor_finals = set()
-    for r in csv.DictReader(open(ROOT / "data" /
-                                 "sf_turnout_reused_registration_1917_1945.csv")):
+    for r in csv.DictReader(open(SRC / "sf_turnout_reused_registration_1917_1945.csv")):
         if r["ballots_note"]:
             floor_finals.add(r["election_date"])
 
@@ -106,7 +106,7 @@ def main():
     ballots_only = {}
     for fn in ("sf_turnout_pre1899.csv", "sf_turnout_1891_1907.csv",
                "sf_turnout_registrar_1899_1916.csv"):
-        for r in csv.DictReader(open(ROOT / "data" / fn)):
+        for r in csv.DictReader(open(SRC / fn)):
             if r["ballots_cast"]:
                 ballots_only.setdefault(
                     r["election_date"],
@@ -149,7 +149,7 @@ def main():
 
     # election-day / VBM splits, most-authoritative first
     split = {}
-    for r in csv.DictReader(open(ROOT / "data" / "sf_turnout_history_1960_2002.csv")):
+    for r in csv.DictReader(open(SRC / "sf_turnout_history_1960_2002.csv")):
         m, dd, y = r["date"].split("/")
         y = int(y); y += 1900 if y > 26 else 2000
         d = f"{y}-{int(m):02d}-{int(dd):02d}"
@@ -157,11 +157,11 @@ def main():
             eday = r["precinct"].replace(",", "")
             vbm = r["absentee"].replace(",", "")
             split[d] = (eday, vbm, SRC_LABELS["doe-turnout-history"])
-    for r in csv.DictReader(open(ROOT / "data" / "sf_turnout_history_doe_1899_2019.csv")):
+    for r in csv.DictReader(open(SRC / "sf_turnout_history_doe_1899_2019.csv")):
         d = DOE_TABLE_DATE_FIXES.get(r["election_date"], r["election_date"])
         if r["precinct"] not in ("", "n/a"):
             split[d] = (r["precinct"], r["mail"], SRC_LABELS["doe-turnout-table"])
-    for r in csv.DictReader(open(ROOT / "data" / "sf_vbm_share_sos.csv")):
+    for r in csv.DictReader(open(SRC / "sf_vbm_share_sos.csv")):
         split[r["election_date"]] = (r["ballots_polling"], r["ballots_absentee"],
                                      compact(r["source_url"]))
     split.update(modern_split)

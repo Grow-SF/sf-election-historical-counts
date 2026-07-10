@@ -10,7 +10,8 @@ FIXTURES = Path(__file__).parent / "fixtures"
 def mini_pipeline(tmp_path):
     """A raw/ tree built from the source fixtures, plus matching data/ inputs."""
     data, raw = tmp_path / "data", tmp_path / "raw"
-    data.mkdir()
+    pipeline = data / "pipeline"
+    pipeline.mkdir(parents=True)
     raw.mkdir()
     spec = [
         ("20241105", "20241108", "summary.xml", "era_c_modern.xml"),
@@ -24,13 +25,13 @@ def mini_pipeline(tmp_path):
         dest = raw / e / snap / fname
         dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy(FIXTURES / fixture, dest)
-    (data / "elections.csv").write_text(
+    (pipeline / "elections.csv").write_text(
         "election_date,election_name,era\n"
         "2016-06-07,Presidential Primary Election,B\n"
         "2016-11-08,Consolidated General Election,B\n"
         "2019-11-05,Consolidated Municipal Election,C\n"
         "2024-11-05,Consolidated General Election,C\n")
-    (data / "manifest.csv").write_text(
+    (pipeline / "manifest.csv").write_text(
         "election,snapshot,filename,status,last_modified\n"
         "20241105,20241105_1,summary.xml,downloaded,2024-11-05T20:41:41\n"
         "20241105,20241108,summary.xml,downloaded,2024-11-08T15:45:18\n"

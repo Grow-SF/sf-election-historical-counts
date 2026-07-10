@@ -44,6 +44,6 @@ def test_write_and_load_roundtrip(tmp_path):
         dt.date(2001, 11, 6): "Consolidated Municipal Election",
     }
     write_inventory(seen, tmp_path)
-    rows = list(csv.DictReader((tmp_path / "elections.csv").open()))
+    rows = list(csv.DictReader((tmp_path / "pipeline" / "elections.csv").open()))
     assert [r["era"] for r in rows] == ["A", "B", "C"]  # sorted by date
     assert load_elections(tmp_path, eras=("B", "C")) == rows[1:]
