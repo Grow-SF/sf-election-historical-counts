@@ -143,3 +143,15 @@ verify_en_* scripts to regenerate).
 | santa-clara-ca | 2022-11-08 | numerator | 293,148 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 754 , "PR" : 671 , "TV" : 1009422 , "BC" : 293148 , "RC" : 0 , "RO" : 0 , "CH" : [  |
 | santa-clara-ca | 2024-11-05 | denominator | 765,495 | VERIFIED | 784 1,269,781 1,048,723 97,924 667,571 765,495 87.21% 72.99% 60.29% |
 | santa-clara-ca | 2024-11-05 | numerator | 460,325 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 784 , "PR" : 686 , "TV" : 1031980 , "BC" : 460325 , "RC" : 0 , "RO" : 0 , "CH" : [  |
+| ventura-ca | 2012-11-06 | denominator | 330,419 | VERIFIED | 630 534,607 426,948 165,488 164,931 330,419 49.92% 77.39% 61.81% |
+| ventura-ca | 2012-11-06 | numerator | 256,927 | VERIFIED | 012 Registered Voters: 426,948 Ballots Cast: 256,927 Voter Turnout: 60.18 % Precincts P |
+| ventura-ca | 2014-11-04 | denominator | 203,783 | VERIFIED | 614 542,109 433,064 84,672 119,111 203,783 58.45% 47.06% 37.59% |
+| ventura-ca | 2014-11-04 | numerator | 153,442 | VERIFIED | 014 Registered Voters: 433,064 Ballots Cast: 153,442 Voter Turnout: 35.43 % Precincts P |
+| ventura-ca | 2016-11-08 | denominator | 363,285 | VERIFIED | 684 550,625 442,951 144,589 218,696 363,285 60.20% 82.01% 65.98% |
+| ventura-ca | 2016-11-08 | numerator | 258,250 | VERIFIED | 016 Registered Voters: 442,951 Ballots Cast: 258,250 Voter Turnout: 58.30 % Precincts P |
+| ventura-ca | 2018-11-06 | denominator | 313,871 | VERIFIED | 742 550,773 448,174 115,259 198,612 313,871 63.28% 70.03% 56.99% |
+| ventura-ca | 2018-11-06 | numerator | 201,298 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 742 , "PR" : 742 , "TV" : 448174 , "BC" : 201298 , "RC" : 0 , "RO" : 0 , "CH" : [ " |
+| ventura-ca | 2022-11-08 | denominator | 284,013 | VERIFIED | 1,640 584,861 505,110 30,112 253,901 284,013 89.40% 56.23% 48.56% |
+| ventura-ca | 2022-11-08 | numerator | 153,682 | VERIFIED | BCxContest" : 0 , "VF" : 1 , "TP" : 1640 , "PR" : 1640 , "TV" : 505110 , "BC" : 153682 , "RC" : 0 , "RO" : 0 , "CH" : [  |
+| ventura-ca | 2024-11-05 | denominator | 394,197 | VERIFIED | 1,419 578,954 516,989 62,387 331,810 394,197 84.17% 76.25% 68.09% |
+| ventura-ca | 2024-11-05 | numerator | 267,226 | VERIFIED | BCxContest" : 0 , "VF" : 1 , "TP" : 1419 , "PR" : 1115 , "TV" : 516989 , "BC" : 267226 , "RC" : 0 , "RO" : 0 , "CH" : [  |

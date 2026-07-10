@@ -1,0 +1,85 @@
+{
+  "jurisdiction": "Ventura County",
+  "state": "CA",
+  "adoption": { "epollbook": 2022, "asv": null },
+  "elections": [
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": 256927,
+      "certified_final": 330419,
+      "election_night_pct": 77.76,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20121109175939/http://results.enr.clarityelections.com:80/CA/Ventura/43954/110763/en/summary.html",
+      "confidence": "primary",
+      "note": "PLATEAU = 256,927, CONFIRMED via Clarity CDN version bracket (RUNBOOK 7.2). Ventura's Clarity election id 43954 (Web01-era HTML, no JSON/electionsettings API for this eid) has version 110763: 'Ventura - 2012 General Election November 6, 2012. Registered Voters: 426,948. Ballots Cast: 256,927. Voter Turnout: 60.18%. Precincts Partially Reported: 0 of 630. Precincts Completely Reported: 630 of 630. Updated 11/7/2012 2:11:37 AM PST.' The FULL election-night version progression recovered from the live CDN (all 12 versions of eid 43954 walked): v109856 8:12:18 PM 263/630 -> v110336 9:30:58 PM 273/630 -> v110518 10:25:42 PM 315/630 -> v110698 12:04:34 AM 392/630 -> v110726 12:53:54 AM 477/630 -> v110763 2:11:37 AM 630/630 (100%, this row). BRACKET PROOF: the next version, v111498, is titled 'Semi Official Update #1' and is dated 11/9/2012 12:12:16 PM PST (Ballots Cast 270,851) -- a ~2-day gap after 100% precincts already reported, proving v110763 was the last continuous report of election night before the multi-day canvass resumed. Canvass continued: v112035 (11/13, 289,308) -> v112655 (11/16, 308,439) -> v113128 (11/20, 312,578) -> v113575 (11/29, 330,419, the CERTIFIED version -- BC matches the SoS certified total exactly). 256,927 is NOT the 8 PM first tranche (no archived version predates the 8:12 PM 263/630 report) and NOT a canvass figure (all canvass versions are strictly higher, dated Nov 9+ and explicitly 'Semi Official'). Certified final 330,419 ballots (CA SoS Voter Participation Statistics by County: 165,488 precinct + 164,931 VBM = 330,419; 77.39% of 426,948 registered). Pct = 256,927/330,419 = 77.76%. Pre-e-pollbook (Ventura's VCA/e-pollbook-equivalent adopted 2022); ASV never adopted. Snapshot: Wayback capture 20121109175939 (raw id_ replay) of the live Clarity CDN's en/summary.html for version 110763; curl requires a User-Agent header (Clarity 403s bare requests) and --compressed (gzip bytes otherwise)."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": 153442,
+      "certified_final": 203783,
+      "election_night_pct": 75.3,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20141107151451/http://results.enr.clarityelections.com:80/CA/Ventura/53334/147874/en/summary.html",
+      "confidence": "primary",
+      "note": "PLATEAU = 153,442, CONFIRMED via Clarity CDN version bracket. Ventura's Clarity election id 53334 (Web01-era HTML, no JSON API), version 147874: 'Registered Voters: 433,064. Ballots Cast: 153,442. Voter Turnout: 35.43%. Precincts Partially Reported: 0 of 614. Precincts Completely Reported: 614 of 614. Website last updated 11/5/2014 1:01:18 AM PST.' Full progression walked from the live CDN's version list: v143603 (zero report, 10/30 pre-election) -> v145008 (zero, 11/4 1:10 PM, still pre-poll-close) -> v147521 11/4 9:19 PM 251/614 -> v147592 9:45 PM 279/614 -> v147676 10:19 PM 304/614 -> v147745 10:55 PM 367/614 -> v147809 11:40 PM 467/614 -> v147835 12:08 AM 532/614 -> v147859 12:37 AM 594/614 -> v147874 1:01 AM 614/614 (100%, this row). BRACKET PROOF: the next version, v148521, is dated 11/7/2014 12:17:57 PM PST (Ballots Cast 166,686, +13,244) -- a ~2-day gap after 100% precincts, proving v147874 was the last election-night report before the canvass resumed (v149114 11/12, v149326 11/14, v149407 11/18, v149606 11/24 = 203,783, matching the SoS certified total exactly). 153,442 is NOT the 8 PM first tranche (earliest archived non-zero version is 251/614 at 9:19 PM) and NOT a canvass figure. Certified final 203,783 ballots (CA SoS Voter Participation Statistics by County: 84,672 precinct + 119,111 VBM = 203,783; 47.06% of 433,064 registered -- 2014's historically low midterm turnout). Pct = 153,442/203,783 = 75.30%. Pre-e-pollbook; ASV never adopted. Snapshot: Wayback capture 20141107151451 (raw id_) of the live Clarity CDN's en/summary.html for version 147874."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": 258250,
+      "certified_final": 363285,
+      "election_night_pct": 71.09,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20161112105111/http://results.enr.clarityelections.com:80/CA/Ventura/63616/182694/en/summary.html",
+      "confidence": "primary",
+      "note": "PLATEAU = 258,250, CONFIRMED via Clarity CDN version bracket. Ventura's Clarity election id 63616 (Web01-era HTML) is the Nov 8, 2016 general (NOT eid 59396, which this pass confirmed is the June 7, 2016 presidential primary reusing an earlier-numbered eid -- content-checked directly to rule this out, per RUNBOOK 7.2's eid-reuse warning). Version 182694: 'Registered Voters: 442,951. Ballots Cast: 258,250. Voter Turnout: 58.30%. Precincts Partially Reported: 0 of 684. Precincts Completely Reported: 684 of 684. Last updated 11/9/2016 12:51:27 AM PST.' Progression: v178823 (zero report, 11/1) -> v182111 11/8 8:04 PM 133,339/318 precincts -> v182409 9:25 PM 137,547/330 -> v182501 9:58 PM 150,524/371 -> v182576 10:38 PM 165,938/418 -> v182694 12:51 AM 258,250/684 (100%, this row). BRACKET PROOF: the next version, v182919, is dated 11/10/2016 2:56:28 PM PST (269,779, +11,529) -- a >1.5-day gap after 100% precincts, proving v182694 was the last election-night report (canvass continued: v183539 11/15 289,382 -> v184048 11/22 336,932 -> v184312 11/30 361,159, approaching but this CDX window did not capture the final certified version). 258,250 is NOT the 8 PM first tranche and NOT a canvass figure. Certified final 363,285 ballots (CA SoS Voter Participation Statistics by County: 144,589 precinct + 218,696 VBM = 363,285; 82.01% of 442,951 registered). Pct = 258,250/363,285 = 71.09%. Pre-e-pollbook; ASV never adopted. Snapshot: Wayback capture 20161112105111 (raw id_) of the live Clarity CDN's en/summary.html for version 182694."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": 201298,
+      "certified_final": 313871,
+      "election_night_pct": 64.13,
+      "vs_epollbook": "pre",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20260710005310/https://results.enr.clarityelections.com/CA/Ventura/89299/220414/json/sum.json",
+      "confidence": "primary",
+      "note": "PLATEAU = 201,298, CONFIRMED via Clarity CDN version bracket. Ventura's Clarity election id 89299 = 'November 6, 2018 Statewide General Election' (electionsettings.json electiondetails.electiondate 11/6/2018), the first Ventura eid with a working JSON API (json/en/electionsettings.json + json/sum.json). Version 220414 sum.json Contests[0]: TP (total precincts) 742, PR (precincts reporting) 742 (100%), TV (registered voters) 448,174, BC (ballots cast) 201,298; electionsettings.json websiteupdatedat = '11/7/2018 2:19:16 AM PST'. Full election-night progression (current-version electionsettings.json's 'versions' array walked): v216100 11/6 1:57 PM (pre-poll-close) -> v218624 6:47 PM -> v219482 8:06 PM -> v220003 9:27 PM -> v220111 9:56 PM -> v220254 10:54 PM -> v220320 11:32 PM (537/742, BC 142,219) -> v220354 12:00 AM (567/742, 152,468) -> v220378 12:32 AM (639/742, 173,934) -> v220392 1:04 AM (697/742, 187,938) -> v220412 2:13 AM (741/742, 201,298) -> v220414 2:19 AM (742/742 = 100%, BC held at 201,298, this row). BRACKET PROOF: the next version, v221160, is dated 11/9/2018 3:11:17 PM PST (BC 219,149, +17,851) -- a >2-day gap after 100% precincts, proving v220414 was the last election-night report (canvass continued: v221644 11/13, v222265 11/16, v222656 11/20, v222985 11/27, v223392 12/3 = the certified version). 201,298 is NOT the 8 PM first tranche and NOT a canvass figure. Certified final 313,871 ballots (CA SoS Voter Participation Statistics by County: 115,259 precinct + 198,612 VBM = 313,871; 70.03% of 448,174 registered). Pct = 201,298/313,871 = 64.13%. Pre-VCA/pre-e-pollbook (Ventura's first VCA election was June 2022, see the county-tech record); ASV never adopted. No Wayback capture existed for this version-pinned URL, so it was freshly archived via https://web.archive.org/save/ (per RUNBOOK 7.1) at snapshot 20260710005310 on 2026-07-09 and verified (BC 201,298, PR 742/742) before citing."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 153682,
+      "certified_final": 284013,
+      "election_night_pct": 54.11,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20221109141658/https://results.enr.clarityelections.com/CA/Ventura/115748/311920/json/sum.json",
+      "confidence": "primary",
+      "note": "PLATEAU = 153,682, CONFIRMED via Clarity CDN version bracket. Ventura's Clarity election id 115748 = 'November 8, 2022 General Election'. Version 311920 sum.json Contests[0]: TP 1,640, PR 1,640 (100%), TV 505,110, BC 153,682; electionsettings.json websiteupdatedat = '11/9/2022 1:27:17 AM PST'. Election-night progression: v307742 11/7 10:18 AM (pre-poll-close) -> v311043 11/8 8:10 PM -> v311681 10:09 PM -> v311785 10:48 PM (BC 142,490) -> v311839 11:15 PM (BC not walked) -> v311871 11:47 PM (BC 142,490 [pre-final]) -> v311891 12:15 AM (BC 145,549) -> v311901 12:47 AM (BC 149,480) -> v311920 1:27 AM (PR 1,640/1,640 = 100%, BC 153,682, this row). BRACKET PROOF: the next version, v312263, is dated 11/10/2022 12:04:25 PM PST (BC 172,776, +19,094) -- a >34-hour gap after 100% precincts reported, proving v311920 was the last election-night report (canvass continued: v312277, v312316, v312403 same day 11/10 afternoon, then further updates through the certified version). 153,682 is NOT the 8 PM first tranche and NOT a canvass figure. FIRST general under Ventura's Voter's Choice Act vote-center model (adopted 2022, first election the June 2022 primary; see the county-tech record for the adoption evidence and its documented conflict with the CA SoS Oct-2025 equipment survey's 'Electronic Pollbook: Do not use' entry). Certified final 284,013 ballots (CA SoS Voter Participation Statistics by County: 30,112 in-person + 253,901 VBM = 284,013; 56.23% of 505,110 registered). Pct = 153,682/284,013 = 54.11%. The share dropped from 2018's 64.13% to 54.11%, consistent with the VCA all-mail/vote-center transition's effect seen elsewhere in this dataset (e.g. Napa 2018, San Mateo 2018), independent of any e-pollbook or ASV effect (ASV never adopted here)."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 267226,
+      "certified_final": 394197,
+      "election_night_pct": 67.79,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20241106171738/https://results.enr.clarityelections.com/CA/Ventura/122837/353328/json/sum.json",
+      "confidence": "primary",
+      "note": "PLATEAU = 267,226, CONFIRMED via Clarity CDN version bracket. Ventura's Clarity election id 122837 = 'November 5, 2024 General Election'. Version 353328 sum.json Contests[0] (President and Vice President): TP 1,419, PR 1,115 (78.6%), TV 516,989, BC 267,226; electionsettings.json websiteupdatedat = '11/6/2024 3:19:32 AM PST'. Election-night progression: v350684 11/5 4:48 PM (pre-poll-close) -> v352623 8:34 PM -> v353046 10:33 PM (BC 243,491, PR partial) -> v353204 11:56 PM (BC 243,491) -> v353288 1:22 AM (BC 252,056) -> v353327 3:13 AM (BC 252,056) -> v353328 3:19 AM (BC 267,226, PR 1,115/1,419, this row). BRACKET PROOF: the next version, v353719, is dated 11/7/2024 4:04:33 PM PST (BC 278,636, PR 1,118/1,419, +11,410) -- a ~37-hour gap, proving v353328 was the last election-night report (canvass continued: v354468 11/12, v354991 11/14, v355456 11/19, v355684 11/21, ... v356562 the certified version, BC 394,197, matching the SoS certified total exactly, PR 1,419/1,419). 267,226 is NOT the 8 PM first tranche and NOT a canvass figure (precincts were still at 78.6% reporting, not 100%, ruling out a stalled-at-completion misread). Certified final 394,197 ballots (CA SoS Voter Participation Statistics by County: 62,387 in-person + 331,810 VBM = 394,197; 76.25% of 516,989 registered). Pct = 267,226/394,197 = 67.79%. Post-VCA (adopted 2022); ASV never adopted. (2020 deliberately excluded as the COVID universal-VBM outlier, matching this project's convention for every other county.) Snapshot: already-archived Wayback capture 20241106171738 of the live Clarity CDN's json/sum.json for version 353328."
+    }
+  ]
+}

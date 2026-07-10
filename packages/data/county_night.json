@@ -1021,6 +1021,78 @@
           "source_url": "https://web.archive.org/web/20260702055736/https://results.enr.clarityelections.com/CA/Santa_Clara/122582/353227/json/sum.json"
         }
       ]
+    },
+    {
+      "name": "Ventura",
+      "slug": "ventura-ca",
+      "control": false,
+      "complete": true,
+      "adoption": {
+        "epollbook": 2022,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 77.76,
+          "ballots": 256927,
+          "final": 330419,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20121109175939/http://results.enr.clarityelections.com:80/CA/Ventura/43954/110763/en/summary.html"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 75.3,
+          "ballots": 153442,
+          "final": 203783,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20141107151451/http://results.enr.clarityelections.com:80/CA/Ventura/53334/147874/en/summary.html"
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": 71.09,
+          "ballots": 258250,
+          "final": 363285,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20161112105111/http://results.enr.clarityelections.com:80/CA/Ventura/63616/182694/en/summary.html"
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 64.13,
+          "ballots": 201298,
+          "final": 313871,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20260710005310/https://results.enr.clarityelections.com/CA/Ventura/89299/220414/json/sum.json"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 54.11,
+          "ballots": 153682,
+          "final": 284013,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20221109141658/https://results.enr.clarityelections.com/CA/Ventura/115748/311920/json/sum.json"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 67.79,
+          "ballots": 267226,
+          "final": 394197,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20241106171738/https://results.enr.clarityelections.com/CA/Ventura/122837/353328/json/sum.json"
+        }
+      ]
     }
   ]
 }

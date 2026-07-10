@@ -489,3 +489,51 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2024-11-05
       controller verdict: REFUTED_AND_CORRECTED (clarity version walk recovers the true plateau)
 
+- [ ] **ventura-ca 2012-11-06** (plateau check)
+      claimed: night ballots **256,927**, certified final **330,419**, share **77.76%**
+      numerator URL: https://web.archive.org/web/20121109175939/http://results.enr.clarityelections.com:80/CA/Ventura/43954/110763/en/summary.html
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = 256,927, CONFIRMED via Clarity CDN version bracket (RUNBOOK 7.2). Ventura's Clarity election id 43954 (Web01-era HTML, no JSON/electionsettings API for this eid) has version 110763: 'Ventura - 2012 General Election November 6, 2012. Registered Voters: 426,948. Ballots Cast: 256,927. Voter 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for ventura-ca 2012-11-06
+      controller verdict: CONFIRMED (clarity version bracket (Web01 HTML, no JSON API))
+
+- [ ] **ventura-ca 2014-11-04** (plateau check)
+      claimed: night ballots **153,442**, certified final **203,783**, share **75.3%**
+      numerator URL: https://web.archive.org/web/20141107151451/http://results.enr.clarityelections.com:80/CA/Ventura/53334/147874/en/summary.html
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: PLATEAU = 153,442, CONFIRMED via Clarity CDN version bracket. Ventura's Clarity election id 53334 (Web01-era HTML, no JSON API), version 147874: 'Registered Voters: 433,064. Ballots Cast: 153,442. Voter Turnout: 35.43%. Precincts Partially Reported: 0 of 614. Precincts Completely Reported: 614 of 61
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for ventura-ca 2014-11-04
+      controller verdict: CONFIRMED (clarity version bracket (Web01 HTML, no JSON API))
+
+- [ ] **ventura-ca 2016-11-08** (plateau check)
+      claimed: night ballots **258,250**, certified final **363,285**, share **71.09%**
+      numerator URL: https://web.archive.org/web/20161112105111/http://results.enr.clarityelections.com:80/CA/Ventura/63616/182694/en/summary.html
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = 258,250, CONFIRMED via Clarity CDN version bracket. Ventura's Clarity election id 63616 (Web01-era HTML) is the Nov 8, 2016 general (NOT eid 59396, which this pass confirmed is the June 7, 2016 presidential primary reusing an earlier-numbered eid -- content-checked directly to rule this ou
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for ventura-ca 2016-11-08
+      controller verdict: CONFIRMED (clarity version bracket (Web01 HTML, no JSON API))
+
+- [ ] **ventura-ca 2018-11-06** (plateau check)
+      claimed: night ballots **201,298**, certified final **313,871**, share **64.13%**
+      numerator URL: https://web.archive.org/web/20260710005310/https://results.enr.clarityelections.com/CA/Ventura/89299/220414/json/sum.json
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = 201,298, CONFIRMED via Clarity CDN version bracket. Ventura's Clarity election id 89299 = 'November 6, 2018 Statewide General Election' (electionsettings.json electiondetails.electiondate 11/6/2018), the first Ventura eid with a working JSON API (json/en/electionsettings.json + json/sum.js
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for ventura-ca 2018-11-06
+      controller verdict: CONFIRMED (clarity version bracket, re-derived from CDN)
+
+- [ ] **ventura-ca 2022-11-08** (plateau check)
+      claimed: night ballots **153,682**, certified final **284,013**, share **54.11%**
+      numerator URL: https://web.archive.org/web/20221109141658/https://results.enr.clarityelections.com/CA/Ventura/115748/311920/json/sum.json
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = 153,682, CONFIRMED via Clarity CDN version bracket. Ventura's Clarity election id 115748 = 'November 8, 2022 General Election'. Version 311920 sum.json Contests[0]: TP 1,640, PR 1,640 (100%), TV 505,110, BC 153,682; electionsettings.json websiteupdatedat = '11/9/2022 1:27:17 AM PST'. Elect
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for ventura-ca 2022-11-08
+      controller verdict: CONFIRMED (clarity version bracket, re-derived from CDN)
+
+- [ ] **ventura-ca 2024-11-05** (plateau check)
+      claimed: night ballots **267,226**, certified final **394,197**, share **67.79%**
+      numerator URL: https://web.archive.org/web/20241106171738/https://results.enr.clarityelections.com/CA/Ventura/122837/353328/json/sum.json
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = 267,226, CONFIRMED via Clarity CDN version bracket. Ventura's Clarity election id 122837 = 'November 5, 2024 General Election'. Version 353328 sum.json Contests[0] (President and Vice President): TP 1,419, PR 1,115 (78.6%), TV 516,989, BC 267,226; electionsettings.json websiteupdatedat = '
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for ventura-ca 2024-11-05
+      controller verdict: CONFIRMED (clarity version bracket, re-derived from CDN)
+
