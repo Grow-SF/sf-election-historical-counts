@@ -433,6 +433,30 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for placer-ca 2016-11-08
       controller verdict: CONFIRMED (GEMS night report)
 
+- [ ] **riverside-ca 2016-06-07** (plateau check)
+      claimed: night ballots **249,970**, certified final **403,828**, share **61.9%**
+      numerator URL: https://web.archive.org/web/20160615020639/http://www.voteinfo.net:80/elections/20160607/eresults/Summary_Update8.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf
+      look for: Election-night plateau = 249,970 ballots ('Total Ballots Cast' countywide, Riverside County column) from the official Riverside Sequoia 'Official Semi-Final Results' report Summary_Update8.pdf, Run Date/Time 6/8/16 3:18:26 AM (the last-of-night report; posting cadence ~hourly from 8:02 PM through 3:
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2016-06-07
+      controller verdict: CONFIRMED (self-labeled 'Official Semi-Final Results' report, last of a numbered on-night release series, next report 2 days later at a higher count)
+
+- [ ] **riverside-ca 2018-06-05** (plateau check)
+      claimed: night ballots **193,152**, certified final **346,472**, share **55.75%**
+      numerator URL: https://web.archive.org/web/20260710205406/https://docs.voteinfo.net/Elections/20180605/eresults/Summary8.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: Election-night plateau = 193,152 ballots ('Total Ballots Cast' countywide, Riverside County column) from the official Riverside Sequoia 'Official Semi-Final Results' report Summary8.pdf, Run Date/Time 6/6/18 6:25:10 AM. Wayback's own crawl of the eresults/ directory only preserved Summary12.pdf (alr
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2018-06-05
+      controller verdict: CONFIRMED (self-labeled 'Official Semi-Final Results' report, last of a numbered on-night release series, next report 2 days later at a higher count)
+
+- [ ] **riverside-ca 2022-06-07** (plateau check)
+      claimed: night ballots **191,996**, certified final **375,610**, share **51.12%**
+      numerator URL: https://web.archive.org/web/20260710205902/https://docs.voteinfo.net/Elections/20220607/docs/ElectionSummaryReportRPT6.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: Election-night plateau = 191,996 ballots ('Voters Cast: 191,996 of 1,304,447') from the official Riverside Dominion EMS 'Semi-Official Election Results' report ElectionSummaryReportRPT6.pdf, timestamp 6/8/2022 12:31:41 AM -- the first report to reach 795/795 (100.00%) precincts reported, i.e. electi
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2022-06-07
+      controller verdict: CONFIRMED (self-labeled 'Semi-Official Election Results' report, first to reach 100% precincts reported, next report jumps to the following afternoon then settles into daily canvass cadence)
+
 - [ ] **riverside-ca 2022-11-08** (plateau check)
       claimed: night ballots **205,813**, certified final **604,617**, share **34.0%**
       numerator URL: https://web.archive.org/web/20221109110809/https://www.voteinfo.net/Elections/20221108/docs/ElectionSummaryReportRPT_mhtml.htm

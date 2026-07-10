@@ -4,6 +4,19 @@
   "adoption": { "epollbook": 2022, "asv": 2025 },
   "elections": [
     {
+      "date": "2012-06-05",
+      "type": "presidential-primary",
+      "election_night_ballots": null,
+      "certified_final": 238152,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final = 238,152 ballots (Precinct 70,045 + VBM 168,107) from CA SoS 2012 Presidential Primary Voter Participation Statistics by County, primary (filename '03-voter-reg-stats-by-county.pdf' on the SoS site despite being the participation table; a separate, differently-named '02-voter-reg-stats-by-county.pdf' is the true registration-stats file). Election-night plateau not sourceable: CDX prefix enumeration of the entire voteinfo.net/Elections/20120605/ tree (docs/ + eresults/) returns zero captures ever; a domain-wide CDX filtered to the date string across Apr-Aug 2012 is also empty. The one nearby capture, currentElection.asp dated 2012-06-06, is a Wayback replay-aliasing case (id_ raw fetch 302s to an unrelated 2011-11-14 capture per runbook 7.1) -- no usable content. Unlike the 2016/2018 primaries, docs.voteinfo.net does not still host the 2012 eresults Summary PDFs live (404 for Summary1-20.pdf). No morning-after semi-official-results registrar press release exists for this date, matching the confirmed dead end for every Riverside GENERAL year. WebSearch for contemporaneous Press-Enterprise coverage found no county-specific election-night ballot count. Plateau remains unsourceable."
+    },
+    {
       "date": "2012-11-06",
       "type": "presidential",
       "election_night_ballots": null,
@@ -15,6 +28,19 @@
       "source_url_night": null,
       "confidence": "none",
       "note": "Certified final = 669,627 ballots (Election Day 298,112 + VBM 371,515) from CA SoS 2012 Voter Participation Statistics by County, primary. Election-night plateau not sourceable: Riverside's Sequoia 'eresults' live page (voteinfo.net/Elections/20121106/eresults/) was not archived on/near election night, and Riverside used no Dominion ElectionSummaryReport before 2019. WebFetch blocked; curl+CDX+headless-Chrome used. Re-verified 2026-06: Riverside's /Elections/<date>/docs/ press-release archive holds only operational releases (candidate filing, VBM, early voting, certification) -- there is NO morning-after 'semi-official results' release stating an election-night total -- so SKILL route-1 (registrar semi-final release) is a dead end for this county across all years; plateau remains unsourceable."
+    },
+    {
+      "date": "2014-06-03",
+      "type": "statewide-primary",
+      "election_night_ballots": null,
+      "certified_final": 198102,
+      "election_night_pct": null,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final = 198,102 ballots (Precinct 50,111 + VBM 147,991) from CA SoS 2014 Statewide Direct Primary Voter Participation Statistics by County, primary (filename keeps the SoS's well-known 'particpiation' misspelling). Election-night plateau not sourceable: the eresults/ directory for this date has no dated Summary_Update/SummaryN report series (unlike 2016/2018) -- only a GEMS-style frameset. Its Election Result_dtl.htm is locked to 'Last Updated: June 13, 2014 11:59 AM', Governor 847/847 precincts (100%), Total 198,102 -- exactly the SoS certified final, i.e. a fully-certified post-canvass snapshot, not a distinct election-night count. Full CDX history of that exact URL shows every capture 2014-07-01 through 2022-05-27 sharing an identical digest, i.e. frozen at the certified state since the earliest available crawl; no earlier, election-night-stage capture exists. docs/ press-release archive has no morning-after semi-official-results release (runs to the 20140613_Release_Certified.pdf certification announcement). docs.voteinfo.net does not host a dated Summary-series live for this year the way it does for 2016/2018. Plateau remains unsourceable; the 198,102 figure recovered is the certified final itself and is NOT substituted as a night count (would fabricate a false 100.00% share)."
     },
     {
       "date": "2014-11-04",
@@ -30,6 +56,19 @@
       "note": "Certified final = 357,764 ballots (Election Day 124,829 + VBM 232,935) from CA SoS 2014 complete Statement of Vote, Voter Participation Statistics page, primary. Election-night plateau not sourceable: the only Wayback capture of the eresults page is 2014-11-20 (post-certification canvass), no election-night-stage snapshot. Re-verified 2026-06: Riverside's /Elections/20141104/docs/ press-release archive contains only operational releases (no morning-after 'semi-official results' release stating an election-night total), so the registrar-release route yields nothing either; plateau remains unsourceable."
     },
     {
+      "date": "2016-06-07",
+      "type": "presidential-primary",
+      "election_night_ballots": 249970,
+      "certified_final": 403828,
+      "election_night_pct": 61.9,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20160615020639/http://www.voteinfo.net:80/elections/20160607/eresults/Summary_Update8.pdf",
+      "confidence": "primary",
+      "note": "Election-night plateau = 249,970 ballots ('Total Ballots Cast' countywide, Riverside County column) from the official Riverside Sequoia 'Official Semi-Final Results' report Summary_Update8.pdf, Run Date/Time 6/8/16 3:18:26 AM (the last-of-night report; posting cadence ~hourly from 8:02 PM through 3:18 AM, matching the same hourly-until-~3am cadence documented elsewhere for this county). The next available report in the series, Summary_Update9.pdf, is Run Date/Time 6/10/16 4:49:49 PM -- two days later, proving the canvass had resumed and Update8 was the true election-night plateau (runbook 8 leg: report series' next file being days later). Update17/Summary_FINAL_0705.pdf both show 403,828, exactly the SoS certified total, confirming the series runs night-through-certification. NOT the 8:02 PM first tranche (Update1, 157,867 -- 39.1% of final, the classic mistake). 249,970/403,828 = 61.90%. Certified final 403,828 (Precinct 127,086 + VBM 276,742) from CA SoS 2016 Presidential Primary Voter Participation Statistics by County, primary. Series enumerated via CDX (voteinfo.net/Elections/20160607/eresults/, matchType=prefix); PDF fetched via Wayback raw id_ replay and content-verified 2026-07-10 (Total Ballots Cast 249,970, Run Date/Time 6/8/16 3:18:26 AM). Pre-epollbook (2022 VCA rollout), pre-ASV (2025)."
+    },
+    {
       "date": "2016-11-08",
       "type": "presidential",
       "election_night_ballots": null,
@@ -41,6 +80,19 @@
       "source_url_night": null,
       "confidence": "none",
       "note": "Certified final = 769,193 ballots (Election Day 264,638 + VBM 504,555) from CA SoS 2016 Voter Participation Statistics by County, primary. Election-night plateau not sourceable: earliest Wayback capture of the Sequoia eresults page is 2016-11-10 (Election Result.htm frameset), and the detail page (Election Result_dtl.htm, captured 2016-11-12) is locked to 'Last Updated November 11, 2016 4:54 PM' showing 532,023 ballots (202,100 Election-Day + 329,923 VBM) -- a 3-day-post canvass update, NOT the election-night plateau. No election-night-stage (Nov 8-9) snapshot exists in Wayback. Re-verified 2026-06: Riverside's /Elections/20161108/docs/ press-release archive lists releases through 20161107 (cast-your-ballot) and then jumps to 20161207 (certification) -- no morning-after 'semi-official results' release stating an election-night total. snapshots inspected 20161110234008 / 20161112032234."
+    },
+    {
+      "date": "2018-06-05",
+      "type": "statewide-primary",
+      "election_night_ballots": 193152,
+      "certified_final": 346472,
+      "election_night_pct": 55.75,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20260710205406/https://docs.voteinfo.net/Elections/20180605/eresults/Summary8.pdf",
+      "confidence": "primary",
+      "note": "Election-night plateau = 193,152 ballots ('Total Ballots Cast' countywide, Riverside County column) from the official Riverside Sequoia 'Official Semi-Final Results' report Summary8.pdf, Run Date/Time 6/6/18 6:25:10 AM. Wayback's own crawl of the eresults/ directory only preserved Summary12.pdf (already mid-canvass, Run Date/Time 6/19/18 4:32:44 PM, 335,242 ballots); the full Summary1-13 series was instead recovered from docs.voteinfo.net, a still-live document CDN that continues to serve Riverside's historical dated-report PDFs years after the front-end site (www.voteinfo.net) was redesigned and its own copies 404'd (Summary14+ 404 there too). Report cadence: 8:00 PM through 6:25 AM roughly hourly (Summary1-8), then Summary9 jumps to 6/8/18 5:22:39 PM -- a 2-day gap proving Summary8 was the last report of the continuous election-night sequence (runbook 8 leg: report series' next file being days later). NOT the 8:00 PM first tranche (Summary1, 119,452 -- 34.5% of final). 193,152/346,472 = 55.75%. Certified final 346,472 (Precinct 91,667 + VBM 254,805) from CA SoS 2018 Statewide Direct Primary Voter Participation Statistics by County, primary; independently corroborated by the eresults GEMS frameset (Election Result_dtl.htm), frozen at 'Last Updated: June 29, 2018', showing the identical 346,472. Since docs.voteinfo.net is a live (mutable) source, Summary8.pdf was archived to Wayback 2026-07-10 (web.archive.org/save/, snapshot 20260710205406) for a stable citation; content-verified 2026-07-10 (Total Ballots Cast 193,152, Run Date/Time 6/6/18 6:25:10 AM). Pre-epollbook, pre-ASV."
     },
     {
       "date": "2018-11-06",
@@ -56,6 +108,19 @@
       "note": "Certified final = 650,545 ballots (Election Day 194,606 + VBM 455,939) from CA SoS 2018 Voter Participation Statistics by County; corroborated by Riverside Summary_Final.pdf (Run Date/Time 12/7/18). Primary. Election-night plateau not sourceable: earliest Wayback capture of the eresults page is 2018-11-28 (post-certification); no election-night-stage snapshot exists. Re-verified 2026-06: Riverside's /Elections/20181106/docs/ press-release archive runs candidate-filing -> VBM -> early-voting -> 20181105_Release_Encouraged and 20181106_QualWriteInResults, then certification -- NO morning-after 'semi-official results' release stating an election-night total; plateau remains unsourceable."
     },
     {
+      "date": "2022-06-07",
+      "type": "statewide-primary",
+      "election_night_ballots": 191996,
+      "certified_final": 375610,
+      "election_night_pct": 51.12,
+      "vs_epollbook": "post",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20260710205902/https://docs.voteinfo.net/Elections/20220607/docs/ElectionSummaryReportRPT6.pdf",
+      "confidence": "primary",
+      "note": "Election-night plateau = 191,996 ballots ('Voters Cast: 191,996 of 1,304,447') from the official Riverside Dominion EMS 'Semi-Official Election Results' report ElectionSummaryReportRPT6.pdf, timestamp 6/8/2022 12:31:41 AM -- the first report to reach 795/795 (100.00%) precincts reported, i.e. election-day in-person voting fully tallied. Wayback only preserved RPT6 (mid-canvass 8/18/2022 crawl) and RPT14 among the numbered series; the full RPT1-16 run was recovered from docs.voteinfo.net (the same live document CDN that also rescued the 2018 primary's Summary series above; RPT17+ 404 there). Report cadence: 8:03 PM through 12:31 AM roughly hourly (RPT1-6), then RPT7 jumps to 6/8/2022 4:52:51 PM (next afternoon, 16+ hour gap) and every subsequent report is a once-daily canvass update through RPT16 (6/30/2022 = 375,610, exactly the SoS certified final). NOT the 8:03 PM first tranche (RPT1, 155,963 -- 41.5% of final). 191,996/375,610 = 51.12%. Certified final 375,610 (Precinct 23,640 + VBM 351,970) from CA SoS 2022 Primary Voter Participation Statistics by County, primary. RPT6.pdf archived to Wayback 2026-07-10 (web.archive.org/save/, snapshot 20260710205902); content-verified 2026-07-10 (Voters Cast 191,996 of 1,304,447, Precincts Reported 795 of 795). ROLLOUT-TIMING FINDING: per the county-tech record (data/research/county-tech/riverside-ca.json, epollbook, primary confidence, citing the Registrar's Election Administration Plan), the Board of Supervisors approved VCA implementation 2021-12-14 and this June 7, 2022 primary is explicitly named the FIRST election under the new model (vote centers + direct-EMS-connection digital roster replacing paper rosters at polling places) -- vs_epollbook is therefore 'post' for THIS row, not merely for elections after it; every row through 2018 is cleanly 'pre'. CONFOUND: this is also the first all-mail VCA election, so any 2018-vs-2022 election-night-share comparison conflates the e-pollbook change with the simultaneous VCA/all-mail-ballot shift; recorded, not adjusted for. vs_asv: pre (ASV adopted 2025 per county-tech record)."
+    },
+    {
       "date": "2022-11-08",
       "type": "midterm",
       "election_night_ballots": 205813,
@@ -67,6 +132,19 @@
       "source_url_night": "https://web.archive.org/web/20221109110809/https://www.voteinfo.net/Elections/20221108/docs/ElectionSummaryReportRPT_mhtml.htm",
       "confidence": "primary",
       "note": "Election-night plateau = 205,813 ballots ('Voters Cast: 205,813 of 1,310,928 (15.70%)'; Governor Times Cast 205,813) from the official Riverside Dominion EMS 'Semi-Official Election Results' report, Last-Modified 11/09/2022 02:04 PST (the ~2 a.m. final election-night report, within the hourly-until-3am window). This held as the live page until the first canvass update (300,498, Last-Modified 11/11/2022) -- i.e. it plateaued through the next day before the multi-day canvass resumed, matching the metric. Corroborated by Idyllwild Town Crier (Nov 9, 2022): election-night counting complete at ~205,000 with ~335,000 ballots remaining. 205,813/604,617 = 34.0%. Certified final 604,617 (Election Day 59,812 + VBM 544,805) from CA SoS, primary. snapshot 20221109110809 used. First epollbook general."
+    },
+    {
+      "date": "2024-03-05",
+      "type": "presidential-primary",
+      "election_night_ballots": null,
+      "certified_final": 409269,
+      "election_night_pct": null,
+      "vs_epollbook": "post",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "Certified final = 409,269 ballots (Precinct 38,699 + VBM 370,570) from CA SoS 2024 Presidential Primary Voter Participation Statistics by County, primary. Election-night plateau not sourceable: voteinfo.net/Elections/20240305/ has zero Wayback captures of any kind (docs/ + eresults/, prefix CDX); docs.voteinfo.net (the live CDN that rescued the 2018 and 2022 primary numerator series above) 404s for ElectionSummaryReportRPT1-6.pdf under this date -- by 2024 Riverside had discontinued the numbered Dominion-PDF route entirely (same transition already documented for the Nov 2024 general) in favor of livevoterturnout.com ENR only. livevoterturnout's ENR ID 3 (confirmed via its summary_3.xml ElectionID field) has exactly one Wayback capture of its JS-shell index page, 2024-03-09 (4 days post-election), which does not statically embed ballot totals; the AJAX data endpoint it calls (../summary_3.xml, traced from LiveResultsScripts_v4.1.js) has ZERO Wayback captures at any date. That endpoint still resolves live today but is overwritten-in-place (not versioned), frozen at the April 4, 2024 certification state (GeneratedDate 2024-04-04T16:46:46, TotalBallotsCast 409,269 -- exactly the SoS certified final) with no earlier archived version to recover a ceiling or floor from. The registrar's rivco.gov 'March 5 Election Night Results Reporting' press release (dated 2024-03-05) is a pre-election SCHEDULE announcement only (hourly updates until ~3 a.m.), no ballot-count figure. riversiderecord.org's primary-results article likewise states only the reporting schedule, no countywide total at any timing. Plateau remains unsourceable. Post-epollbook (2022), pre-ASV (2025)."
     },
     {
       "date": "2024-11-05",

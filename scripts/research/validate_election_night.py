@@ -53,8 +53,16 @@ def check_rows(rows):
                 fail(f"{key}: pct {got} != ballots/final {want}")
 
 
+def type_bucket(t):
+    """'primary' vs 'general', so a county's primary and general rows in the
+    SAME calendar year (e.g. Riverside 2016-06 and 2016-11) get distinct
+    keys instead of colliding on bare year -- both VERIFY.md's Type column
+    and the JSON row's own "type" field are bucketed the same way."""
+    return "primary" if "primary" in (t or "").lower() else "general"
+
+
 def parse_verify_tables(md):
-    """(slug, year) -> the VERIFY.md summary-table line, parsed."""
+    """(slug, year, type_bucket) -> the VERIFY.md summary-table line, parsed."""
     out = {}
     slug = None
     for line in md.splitlines():
@@ -74,7 +82,8 @@ def parse_verify_tables(md):
             is_county = len(cells) > 6
             link = re.search(r"\((https?://[^)]+)\)", cells[6]) if is_county else None
             year = int(re.search(r"20\d\d", cells[0]).group())
-            out[(slug, year)] = {
+            bucket = type_bucket(cells[1])
+            out[(slug, year, bucket)] = {
                 "night": num(cells[2]),
                 "final": num(cells[3]),
                 "share": float(share.group(1)) if share else None,
@@ -87,8 +96,9 @@ def parse_verify_tables(md):
 def check_verify_md(rows, tables):
     for r in rows:
         year = int(r["date"][:4])
-        row = tables.get((r["slug"], year))
-        key = f"{r['slug']} {year}"
+        bucket = type_bucket(r.get("type"))
+        row = tables.get((r["slug"], year, bucket))
+        key = f"{r['slug']} {year} ({bucket})"
         if row is None:
             fail(f"{key}: missing from VERIFY.md")
             continue
@@ -110,7 +120,7 @@ def check_verify_md(rows, tables):
 def check_sf(tables):
     els = json.loads((ROOT / "packages/data/elections.json").read_text())
     for e in els:
-        row = tables.get(("san-francisco-ca", e.get("year")))
+        row = tables.get(("san-francisco-ca", e.get("year"), "general"))
         if e.get("kind") != "General" or row is None or e.get("nightPct") is None:
             continue
         if row["final"] != e.get("final"):
@@ -121,8 +131,8 @@ def check_sf(tables):
 
 def main():
     rows = load_rows()
-    if len(rows) != 108:
-        fail(f"expected 108 county rows, got {len(rows)}")
+    if len(rows) != 114:
+        fail(f"expected 114 county rows, got {len(rows)}")
     tables = parse_verify_tables((EN / "VERIFY.md").read_text())
     check_rows(rows)
     check_verify_md(rows, tables)

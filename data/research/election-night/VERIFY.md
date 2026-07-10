@@ -542,6 +542,43 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 </details>
 
+**Primaries** (statewide primary elections; same metric, same JSON file, joined by date):
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012p | presidential-primary | — | 238,152 | — | none | — (not sourceable) |
+| 2014p | statewide-primary | — | 198,102 | — | none | — (not sourceable) |
+| 2016p | presidential-primary | 249,970 | 403,828 | 61.9% | primary | [link](https://web.archive.org/web/20160615020639/http://www.voteinfo.net:80/elections/20160607/eresults/Summary_Update8.pdf) |
+| 2018p | statewide-primary | 193,152 | 346,472 | 55.75% | primary | [link](https://web.archive.org/web/20260710205406/https://docs.voteinfo.net/Elections/20180605/eresults/Summary8.pdf) |
+| 2022p | statewide-primary | 191,996 | 375,610 | 51.12% | primary | [link](https://web.archive.org/web/20260710205902/https://docs.voteinfo.net/Elections/20220607/docs/ElectionSummaryReportRPT6.pdf) |
+| 2024p | presidential-primary | — | 409,269 | — | none | — (not sourceable) |
+
+<details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
+
+- **2012-06-05 presidential-primary** — night `—` / final `238,152` = `—` (none)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
+  - look for: zero Wayback captures anywhere under voteinfo.net/Elections/20120605/ (docs/ + eresults/); the one nearby capture (currentElection.asp) is a replay-aliasing dead end (302s to an unrelated 2011 capture); docs.voteinfo.net does not host 2012 files live; no morning-after registrar release. Null per RUNBOOK 5.1.
+- **2014-06-03 statewide-primary** — night `—` / final `198,102` = `—` (none)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf>
+  - look for: the eresults/ directory has no dated report series for this year, only a GEMS frameset frozen at the June 13 CERTIFIED state (198,102, identical to the SoS final) since its earliest Wayback capture -- not a distinct election-night count, so not substituted. No morning-after registrar release. Null per RUNBOOK 5.1.
+- **2016-06-07 presidential-primary** — night `249,970` / final `403,828` = `61.9%` (primary)
+  - numerator: <https://web.archive.org/web/20160615020639/http://www.voteinfo.net:80/elections/20160607/eresults/Summary_Update8.pdf>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf>
+  - look for: 'Official Semi-Final Results' report Summary_Update8.pdf, Run Date/Time 6/8/16 3:18:26 AM, Total Ballots Cast 249,970 (Riverside County column). Next report in the numbered series (Update9) is dated 6/10/16, two days later -- proves Update8 was the last of the continuous election-night sequence. NOT the 8:02 PM first tranche (Update1, 157,867).
+- **2018-06-05 statewide-primary** — night `193,152` / final `346,472` = `55.75%` (primary)
+  - numerator: <https://web.archive.org/web/20260710205406/https://docs.voteinfo.net/Elections/20180605/eresults/Summary8.pdf>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: 'Official Semi-Final Results' report Summary8.pdf, Run Date/Time 6/6/18 6:25:10 AM, Total Ballots Cast 193,152. Recovered from docs.voteinfo.net (a still-live document CDN; Wayback itself only preserved the mid-canvass Summary12.pdf). Next report (Summary9) is dated 6/8/18, two days later, at a higher count -- proves Summary8 was the plateau. Archived to Wayback 2026-07-10 for a stable citation (source is otherwise live/mutable).
+- **2022-06-07 statewide-primary** — night `191,996` / final `375,610` = `51.12%` (primary)
+  - numerator: <https://web.archive.org/web/20260710205902/https://docs.voteinfo.net/Elections/20220607/docs/ElectionSummaryReportRPT6.pdf>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: 'Semi-Official Election Results' report ElectionSummaryReportRPT6.pdf, timestamp 6/8/2022 12:31:41 AM, Voters Cast 191,996 of 1,304,447, Precincts Reported 795 of 795 (100.00%) -- the first report to reach full precinct coverage. Recovered from docs.voteinfo.net (same live CDN as the 2018 row above). Next report (RPT7) jumps to the following afternoon, then daily cadence -- proves RPT6 was the plateau. Archived to Wayback 2026-07-10 for a stable citation. ROLLOUT-TIMING: this is Riverside's FIRST e-pollbook/VCA election (Board approved 2021-12-14, this primary explicitly named the first election under the new model) -- vs_epollbook=post for this row itself.
+- **2024-03-05 presidential-primary** — night `—` / final `409,269` = `—` (none)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: voteinfo.net/Elections/20240305/ has zero Wayback captures; docs.voteinfo.net 404s for the Dominion-PDF series under this date (discontinued by 2024, same as the Nov 2024 general); livevoterturnout's summary_3.xml has zero Wayback captures and the live endpoint is overwritten-in-place, frozen at the April 2024 certification state. No registrar release with a ballot count. Null per RUNBOOK 5.1.
+
+</details>
+
 ---
 
 ### Sacramento County

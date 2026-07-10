@@ -123,12 +123,21 @@ verify_en_* scripts to regenerate).
 | placer-ca | 2018-11-06 | numerator | 113,380 | VERIFIED | 11/09/18 15:15:00 Registered Voters 231461 – Cards Cast 113380 48.98% Num. Report Precinct 358 – Num. Reporting 358 100. |
 | placer-ca | 2022-11-08 | denominator | 184,507 | VERIFIED | 408 301,467 279,016 25,494 159,013 184,507 86.18% 66.13% 61.20% |
 | placer-ca | 2024-11-05 | denominator | 239,402 | VERIFIED | 331 305,381 291,479 56,964 182,438 239,402 76.21% 82.13% 78.39% |
+| riverside-ca | 2012-06-05 | denominator | 238,152 | VERIFIED | de 853 1,351,562 852,217 70,045 168,107 238,152 70.59% 27.94% 17.62% |
 | riverside-ca | 2012-11-06 | denominator | 669,627 | VERIFIED | 1,218 1,358,695 943,405 298,112 371,515 669,627 55.48% 70.98% 49.28% |
+| riverside-ca | 2014-06-03 | denominator | 198,102 | VERIFIED | ide 847 1,387,385 887,643 50,111 147,991 198,102 74.70% 22.32% 14.28% |
 | riverside-ca | 2014-11-04 | denominator | 357,764 | VERIFIED | e 1,193 1,394,302 891,575 124,829 232,935 357,764 65.11% 40.13% 25.66% |
+| riverside-ca | 2016-06-07 | denominator | 403,828 | VERIFIED | Riverside 869 1,429,960 909,922 127,086 276,742 403,828 68.53% 44.38% 28.24% |
+| riverside-ca | 2016-06-07 | numerator | 249,970 | VERIFIED | ast 5,338 0.00% Total Ballots Cast 249,970 27.43% Total Ballots Cast 5,046 18.32% Total |
 | riverside-ca | 2016-11-08 | denominator | 769,193 | VERIFIED | de 1,126 1,438,117 1,019,130 264,638 504,555 769,193 65.60% 75.48% 53.49% |
+| riverside-ca | 2018-06-05 | denominator | 346,472 | VERIFIED | 826 1,472,819 984,214 91,667 254,805 346,472 73.54% 35.20% 23.52% |
+| riverside-ca | 2018-06-05 | numerator | 193,152 | VERIFIED | 19,838 11.01% Total Ballots Cast 193,152 19.63% REP - DAVID R. HERNANDEZ 13,439 8.06% PF - KEVI |
 | riverside-ca | 2018-11-06 | denominator | 650,545 | VERIFIED | 1,072 1,481,361 1,035,957 194,606 455,939 650,545 70.09% 62.80% 43.92% |
+| riverside-ca | 2022-06-07 | denominator | 375,610 | VERIFIED | 795 1,634,639 1,304,257 23,640 351,970 375,610 93.71% 28.80% 22.98% |
+| riverside-ca | 2022-06-07 | numerator | 191,996 | VERIFIED | ficial Election Results Precincts Reported: 795 of 795 (100.00%) Voters Cast: 191,996 of 1,304,447 (14.72%) Governor (Vo |
 | riverside-ca | 2022-11-08 | denominator | 604,617 | VERIFIED | 1,265 1,637,165 1,310,505 59,812 544,805 604,617 90.11% 46.14% 36.93% |
 | riverside-ca | 2022-11-08 | numerator | 205,813 | VERIFIED | orted: 1,265 of 1,265 ( 100.00% ) Voters Cast: 205,813 of 1,310,928 ( 15.70% ) Governor |
+| riverside-ca | 2024-03-05 | denominator | 409,269 | VERIFIED | 928 1,642,089 1,327,135 38,699 370,570 409,269 90.54% 30.84% 24.92% |
 | riverside-ca | 2024-11-05 | denominator | 959,098 | VERIFIED | 1,345 1,646,951 1,372,548 170,437 788,661 959,098 82.23% 69.88% 58.23% |
 | riverside-ca | 2024-11-05 | numerator | 611,101 | VERIFIED | taArray, colorObject, elem); })(); Ballots Counted 611,101 Vote by Mail 483,778 Mail Ballot Precinc |
 | sacramento-ca | 2012-11-06 | denominator | 522,045 | VERIFIED | 1,106 944,243 698,899 216,021 306,024 522,045 58.62% 74.70% 55.29% |

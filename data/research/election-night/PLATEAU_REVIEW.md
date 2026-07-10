@@ -111,6 +111,27 @@ isolated to that one arithmetic statement and did not propagate forward:
 the Tehama block's total was computed independently from the data and is,
 and remains, correct as stated.
 
+UPDATE (2026-07-10, Riverside County statewide-primary integration): the
+first batch of PRIMARY election rows lands in the dataset. Three new
+sourced rows for riverside-ca (2016-06-07, 2018-06-05, 2022-06-07;
+2012-06-05/2014-06-03/2024-03-05 are documented nulls, no plateau_review
+entries). All three adjudicated CONFIRMED on integration review; none
+downgraded. All three follow the same pattern already CONFIRMED for this
+county's Nov 2022 general: a self-labeled 'Official Semi-Final Results' /
+'Semi-Official Election Results' report at a late-night/past-midnight
+timestamp, with the report series' next file landing days later (2016,
+2018) or the following afternoon then daily (2022) at a higher count --
+the non-circular report-series leg. Two of the three (2018, 2022) were
+recovered not from Wayback (which only preserved mid-canvass captures of
+this dated-PDF series) but from docs.voteinfo.net, a still-live document
+CDN that continues to serve Riverside's historical dated reports years
+after the front-end site was redesigned; both were additionally pushed
+through web.archive.org/save/ and content-verified (Total Ballots Cast /
+Voters Cast figures re-fetched and matched) so the citations resolve to
+permanent snapshots rather than a live, mutable URL. Running totals: 69
+CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2 REFUTED_AND_CORRECTED (76
+sourced rows total).
+
 | County | Date | Verdict | Basis | Evidence |
 |---|---|---|---|---|
 | del-norte-ca | 2014-11-04 | CONFIRMED | last surviving on-night release (provably the last of only 2 pre-Final releases per the county's own dated index page), still labeled Unofficial; next report 3 days later relabeled Final at the exact certified total | Release 2/3, footer timestamp 11/4/2014 10:05 PM, 18/18 precincts (100%), Total Voters 6,539/12,743 (51.31%); the index page (re-verified 2026-07-10) lists exactly Release 1, Release 2, Release 3-Final; Release 3 (11/7/2014, 3 days later) retitled 'General Election Final', Total Voters 7,332/12,743 -- exactly the SoS certified figure -- confirming Release 2 was the last report before the canvass resumed and completed |
@@ -161,6 +182,9 @@ and remains, correct as stated.
 | placer-ca | 2014-11-04 | CONFIRMED | GEMS night-final report | stamp 11/05/14 00:36:57 at 369/369; county nav labels it 'Election Night Final' |
 | placer-ca | 2016-11-08 | CONFIRMED | GEMS night report | stamp 11/09/16 00:29:40 (12:29 AM after the Nov 8 election) at 363/363 |
 | placer-ca | 2018-11-06 | REFUTED_AS_PLATEAU | page provably tracked the canvass | cited render is 11/09/18 15:15 (113,380); NEW EVIDENCE: the Nov 21 capture of the same page shows Cards Cast 162,802, so the page re-rendered with canvass data and the Nov 9 figure likely absorbs early canvass; 113,380 i |
+| riverside-ca | 2016-06-07 | CONFIRMED | self-labeled 'Official Semi-Final Results', last of a numbered on-night release series, next report 2 days later at a higher count | Summary_Update8.pdf, Run Date/Time 6/8/16 3:18:26 AM, Total Ballots Cast 249,970; Summary_Update9.pdf (next in series) is 6/10/16 4:49:49 PM, two days later, 279,815 |
+| riverside-ca | 2018-06-05 | CONFIRMED | self-labeled 'Official Semi-Final Results', last of a numbered on-night release series, next report 2 days later at a higher count | Summary8.pdf, Run Date/Time 6/6/18 6:25:10 AM, Total Ballots Cast 193,152; Summary9.pdf (next in series) is 6/8/18 5:22:39 PM, two days later, 231,461; recovered from live docs.voteinfo.net CDN, re-archived to Wayback (snapshot 20260710205406) |
+| riverside-ca | 2022-06-07 | CONFIRMED | self-labeled 'Semi-Official Election Results', first to reach 100% precincts reported, next report jumps to the following afternoon then daily cadence | ElectionSummaryReportRPT6.pdf, 6/8/2022 12:31:41 AM, Voters Cast 191,996, Precincts 795/795 (100.00%); RPT7 (next) is 6/8/2022 4:52:51 PM then daily through RPT16 = 375,610 (certified); recovered from live docs.voteinfo.net CDN, re-archived to Wayback (snapshot 20260710205902) |
 | riverside-ca | 2022-11-08 | CONFIRMED | 2 AM report held until the canvass | Last-Modified 11/09/2022 02:04 PST (inside the hourly-until-3am window); held as the live page until the 11/11 canvass update (300,498); local news corroboration |
 | riverside-ca | 2024-11-05 | REFUTED_AS_PLATEAU | next-day canvass update, already documented in the note | cited state is 'Updated: 11/6/2024 5:35:21 PM', the first daily canvass update; the ~3 AM plateau is unarchived; retained as a flagged ceiling (comparable=false, secondary) |
 | sacramento-ca | 2012-11-06 | PLAUSIBLE | distinct on-time capture exists but is currently unservable | CDX shows a distinct Nov 8 2012 8:53 PM PST capture (digest CYR7..., 10,563 bytes) differing from the 2013 FINAL-report capture (10,647 bytes); Wayback replay now 302-aliases it to 2013-02-15, which is why machine fetche |

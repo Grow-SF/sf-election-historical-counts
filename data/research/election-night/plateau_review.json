@@ -337,6 +337,27 @@
  },
  {
   "slug": "riverside-ca",
+  "date": "2016-06-07",
+  "verdict": "CONFIRMED",
+  "basis": "self-labeled 'Official Semi-Final Results' report, last of a numbered on-night release series, next report 2 days later at a higher count",
+  "evidence": "Summary_Update8.pdf, Run Date/Time 6/8/16 3:18:26 AM, Total Ballots Cast 249,970; Summary_Update9.pdf (next in series) is dated 6/10/16 4:49:49 PM, two days later, 279,815 -- confirms Update8 was the last report before the canvass resumed. Update17/FINAL both equal 403,828, the SoS certified total, confirming the numbering runs night-through-certification"
+ },
+ {
+  "slug": "riverside-ca",
+  "date": "2018-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "self-labeled 'Official Semi-Final Results' report, last of a numbered on-night release series, next report 2 days later at a higher count",
+  "evidence": "Summary8.pdf, Run Date/Time 6/6/18 6:25:10 AM, Total Ballots Cast 193,152; Summary9.pdf (next in series) is dated 6/8/18 5:22:39 PM, two days later, 231,461 -- confirms Summary8 was the last report before the canvass resumed. Recovered from the live docs.voteinfo.net CDN (Wayback only preserved the mid-canvass Summary12); content-verified 2026-07-10 and re-archived to Wayback (snapshot 20260710205406) for a stable citation"
+ },
+ {
+  "slug": "riverside-ca",
+  "date": "2022-06-07",
+  "verdict": "CONFIRMED",
+  "basis": "self-labeled 'Semi-Official Election Results' report, first to reach 100% precincts reported, next report jumps to the following afternoon then settles into daily canvass cadence",
+  "evidence": "ElectionSummaryReportRPT6.pdf, timestamp 6/8/2022 12:31:41 AM, Voters Cast 191,996 of 1,304,447, Precincts Reported 795 of 795 (100.00%); RPT7 (next in series) jumps to 6/8/2022 4:52:51 PM (next afternoon, 16+ hour gap) then daily through RPT16 (6/30/2022 = 375,610, the SoS certified total) -- confirms RPT6 was the last report before the canvass resumed. Recovered from the live docs.voteinfo.net CDN (same route that rescued 2018); content-verified 2026-07-10 and re-archived to Wayback (snapshot 20260710205902)"
+ },
+ {
+  "slug": "riverside-ca",
   "date": "2022-11-08",
   "verdict": "CONFIRMED",
   "basis": "2 AM report held until the canvass",

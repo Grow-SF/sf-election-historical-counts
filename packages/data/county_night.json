@@ -951,10 +951,30 @@
       "points": [
         {
           "year": 2012,
+          "type": "presidential-primary",
+          "pct": null,
+          "ballots": null,
+          "final": 238152,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2012,
           "type": "presidential",
           "pct": null,
           "ballots": null,
           "final": 669627,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
+        },
+        {
+          "year": 2014,
+          "type": "midterm-primary",
+          "pct": null,
+          "ballots": null,
+          "final": 198102,
           "confidence": "none",
           "comparable": true,
           "source_url": null
@@ -971,6 +991,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 61.9,
+          "ballots": 249970,
+          "final": 403828,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20160615020639/http://www.voteinfo.net:80/elections/20160607/eresults/Summary_Update8.pdf"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": null,
           "ballots": null,
@@ -978,6 +1008,16 @@
           "confidence": "none",
           "comparable": true,
           "source_url": null
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 55.75,
+          "ballots": 193152,
+          "final": 346472,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20260710205406/https://docs.voteinfo.net/Elections/20180605/eresults/Summary8.pdf"
         },
         {
           "year": 2018,
@@ -991,6 +1031,16 @@
         },
         {
           "year": 2022,
+          "type": "midterm-primary",
+          "pct": 51.12,
+          "ballots": 191996,
+          "final": 375610,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20260710205902/https://docs.voteinfo.net/Elections/20220607/docs/ElectionSummaryReportRPT6.pdf"
+        },
+        {
+          "year": 2022,
           "type": "midterm",
           "pct": 34.0,
           "ballots": 205813,
@@ -998,6 +1048,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20221109110809/https://www.voteinfo.net/Elections/20221108/docs/ElectionSummaryReportRPT_mhtml.htm"
+        },
+        {
+          "year": 2024,
+          "type": "presidential-primary",
+          "pct": null,
+          "ballots": null,
+          "final": 409269,
+          "confidence": "none",
+          "comparable": true,
+          "source_url": null
         },
         {
           "year": 2024,
