@@ -787,12 +787,12 @@
         {
           "year": 2022,
           "type": "midterm",
-          "pct": null,
-          "ballots": null,
+          "pct": 47.72,
+          "ballots": 218993,
           "final": 458946,
-          "confidence": "none",
-          "comparable": true,
-          "source_url": null
+          "confidence": "secondary",
+          "comparable": false,
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/18DB36E88190ECB8"
         },
         {
           "year": 2024,

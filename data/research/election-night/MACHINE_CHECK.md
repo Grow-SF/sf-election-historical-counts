@@ -120,6 +120,7 @@ verify_en_* scripts to regenerate).
 | san-bernardino-ca | 2018-11-06 | denominator | 546,041 | VERIFIED | 2,209 1,330,247 937,316 209,168 336,873 546,041 61.69% 58.26% 41.05% |
 | san-bernardino-ca | 2018-11-06 | numerator | 322,000 | VERIFIED | render-verified: In San Bernardino County, elections workers counted about 322,000 ballots overnight Tuesday. On Wednesd |
 | san-bernardino-ca | 2022-11-08 | denominator | 458,946 | VERIFIED | 2,765 1,472,696 1,138,818 66,469 392,477 458,946 85.52% 40.30% 31.16% |
+| san-bernardino-ca | 2022-11-08 | numerator | 218,993 | VERIFIED | render-verified: In San Bernardino County, as of Wednesday at 4 p.m., the Registrar of Voters had counted ballots cast b |
 | san-bernardino-ca | 2024-11-05 | denominator | 771,834 | VERIFIED | 2,872 1,472,596 1,197,953 154,974 616,860 771,834 79.92% 64.43% 52.41% |
 | san-bernardino-ca | 2024-11-05 | numerator | 434,108 | VERIFIED | render-verified: Precincts Reported: 2,872 of 2,872 (100.00%) Voters Cast: 434,108 of 1,198,556 (36.22%) Cards Cast: 1,2 |
 | san-diego-ca | 2012-11-06 | denominator | 1,203,265 | VERIFIED | go 2,064 2,094,093 1,563,093 528,258 675,007 1,203,265 56.10% 76.98% 57.46% |

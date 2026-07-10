@@ -579,5 +579,12 @@
   "verdict": "REFUTED_AS_PLATEAU",
   "basis": "the only sourceable figure is a Wednesday-released turnout percentage, and this county's own documented posting schedule shows continuous updates through Wednesday, so it is not confirmed to be frozen at the overnight-election-night state",
   "evidence": "'a new low in area's Voter turnout?' (news/151717B8F7250120): 'preliminary numbers released Wednesday by county registrars ... In San Bernardino County, turnout was 27.1 percent.' 27.1% x 851,684 registered = 230,806; 230,806/293,283 = 78.70%, anomalously high (consistent with the same county's 2012 ceiling). Retained only as a flagged ceiling (comparable=false), not a confirmed plateau."
+ },
+ {
+  "slug": "san-bernardino-ca",
+  "date": "2022-11-08",
+  "verdict": "REFUTED_AS_PLATEAU",
+  "basis": "the figure is confirmed, by this row's own already-documented posting schedule, to be from the county's 4 p.m. Wednesday canvass-resumption slot, not the 9:40 a.m. election-night posting",
+  "evidence": "'2022 Election - Inland Empire ballot counting continues' (news/18DB36E88190ECB8): 'as of Wednesday at 4 p.m., the Registrar of Voters had counted ballots cast by 218,993 people.' The archived Results Posting Schedule (already in this row's note) pins 4 p.m. Wednesday as the canvass-resume slot, after the 9:40 a.m. election-night posting. 218,993/458,946 = 47.72%, retained only as a flagged ceiling (comparable=false), bracketing but not pinning down the true plateau (>= 177,481, the known 4 a.m. mid-count figure)."
  }
 ]

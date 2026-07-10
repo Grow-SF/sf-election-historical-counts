@@ -124,5 +124,12 @@
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/151717B8F7250120",
   "evidence": "In San Bernardino County, turnout was 27.1 percent. San Bernardino County Registrar of Voters Michael Scarpello estimated that the final number likely will be closer to 34 percent. 27.1% x 851,684 registered = 230,806; 230,806/293,283 = 78.70%, retained as a ceiling, comparable=false.",
   "method": "newsbank-sfpl-manual"
+ },
+ {
+  "slug": "san-bernardino-ca",
+  "date": "2022-11-08",
+  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/18DB36E88190ECB8",
+  "evidence": "In San Bernardino County, as of Wednesday at 4 p.m., the Registrar of Voters had counted ballots cast by 218,993 people. An estimated 232,000 mail-in ballots still need to be processed. 218,993/458,946 = 47.72%, retained as a ceiling (this is the county's own canvass-resumption slot, not the 9:40 a.m. election-night posting), comparable=false.",
+  "method": "newsbank-sfpl-manual"
  }
 ]

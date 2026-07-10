@@ -135,6 +135,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-bernardino-ca 2018-11-06
       controller verdict: CONFIRMED (directly-stated overnight-Tuesday count, cross-checked by an internal turnout-estimate calculation in the same article)
 
+- [ ] **san-bernardino-ca 2022-11-08** (secondary confidence)
+      claimed: night ballots **218,993**, certified final **458,946**, share **47.72%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/18DB36E88190ECB8
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: Certified final 458,946 ballots cast (CA SoS; polls 66,469 + VBM 392,477; 40.30% of 1,138,818 registered). Post-epollbook (KNOWiNK PollPad from 2020), pre-ASV. Election-night PLATEAU not sourceable despite knowing its exact posting time: San Bernardino's archived 2022 Results Posting Schedule (sbcou
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-bernardino-ca 2022-11-08
+      controller verdict: REFUTED_AS_PLATEAU (the figure is confirmed, by this row's own already-documented posting schedule, to be from the county's 4 p.m. Wednesday canvass-resumption slot, not the 9:40 a.m. election-night posting)
+
 - [ ] **san-diego-ca 2012-11-06** (secondary confidence)
       claimed: night ballots **728,265**, certified final **1,203,265**, share **60.52%**
       numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14273902C00B3B00
