@@ -77,7 +77,7 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf
       look for: Certified final = 669,627 ballots (Election Day 298,112 + VBM 371,515) from CA SoS 2012 Voter Participation Statistics by County, primary. Election-night plateau not sourceable: Riverside's Sequoia 'eresults' live page (voteinfo.net/Elections/20121106/eresults/) was not archived on/near election nig
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2012-11-06
-      controller verdict: CONFIRMED (certified-minus-outstanding derivation, corroborated by two independently-bylined articles, bracketed by the registrar's own posting schedule)
+      controller verdict: CONFIRMED (certified-minus-outstanding derivation, corroborated by two independently-bylined Nov 8 articles, bracketed by the registrar's own posting schedule; carried further by the Nov 9 'Many races await tallies' remaining-ballot drawdown (183,000 -> ~164,000), corroborated by Kevin Jeffries' own on-the-record quote that the overnight movement was small (added 2026-07-09))
 
 - [ ] **riverside-ca 2014-11-04** (secondary confidence)
       claimed: night ballots **264,764**, certified final **357,764**, share **74.01%**
@@ -85,7 +85,7 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf
       look for: Certified final = 357,764 ballots (Election Day 124,829 + VBM 232,935) from CA SoS 2014 complete Statement of Vote, Voter Participation Statistics page, primary. Election-night plateau not sourceable: the only Wayback capture of the eresults page is 2014-11-20 (post-certification canvass), no electi
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2014-11-04
-      controller verdict: CONFIRMED (certified-minus-outstanding registrar derivation, cross-checked by an independent turnout-percentage x registration calculation from a second bylined article)
+      controller verdict: CONFIRMED (certified-minus-outstanding registrar derivation, cross-checked by an independent turnout-percentage x registration calculation from a second bylined article; carried further (added 2026-07-09) by the Ghori 'Lead wanes; results unchanged' lead-progression and remaining-ballot drawdown, NOT by the withdrawn Aguilar/Chabot (San Bernardino CD-31) quote)
 
 - [ ] **riverside-ca 2016-11-08** (secondary confidence)
       claimed: night ballots **507,193**, certified final **769,193**, share **65.94%**
@@ -101,7 +101,7 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
       look for: Certified final = 650,545 ballots (Election Day 194,606 + VBM 455,939) from CA SoS 2018 Voter Participation Statistics by County; corroborated by Riverside Summary_Final.pdf (Run Date/Time 12/7/18). Primary. Election-night plateau not sourceable: earliest Wayback capture of the eresults page is 2018
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2018-11-06
-      controller verdict: CONFIRMED (directly-stated overnight-Tuesday count, self-confirming plateau via the registrar's own same-day quote that no counting was occurring)
+      controller verdict: CONFIRMED (directly-stated overnight-Tuesday count, self-confirming plateau via the registrar's own same-day quote that no counting was occurring; independently bracketed (added 2026-07-09) by the Nov 9 Essayli piece's after-6pm-Thursday update, which shows the Wednesday-morning state (200,000 VBM remaining) held down to only 188,000 by Thursday evening)
 
 - [ ] **riverside-ca 2024-11-05** (secondary confidence)
       claimed: night ballots **611,101**, certified final **959,098**, share **63.7%**
