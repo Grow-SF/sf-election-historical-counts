@@ -1,0 +1,889 @@
+[
+  {
+    "county": "Alameda",
+    "slug": "alameda-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": 2022,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://acvote.alamedacountyca.gov/vbm",
+      "https://acvote.alamedacountyca.gov/voting/cure-my-ballot",
+      "https://www.sos.ca.gov/administration/regulations/current-regulations/elections/signature-verification-ballot-processing-and-ballot-counting-emergency-regulations",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB (carried over): VCA vote-center county since June 2022 primary (SoS VCA Vote Center Usage Summary: Alameda range starts '2022 Primary Election'). SoS 'Voting Technologies in Use by County' snapshots show KNOWiNK PollPad continuously May 2022 / Sept 2024 / Oct 2025. EAVS 2022 and 2024 both report electronic-poll-book use (True); 2016/2018 False. Clean bracket. Status is already 'adopter' via epollbook_year alone. ASV quick check: Alameda's vote-by-mail/cure-letter pages describe a signature match/cure process and link to the statewide SoS emergency regulation requiring manual review whenever 'signature verification technology' rejects a match, but no Alameda-specific page names an ASV vendor or confirms automated matching is actually used (vs. staff-only comparison). Not separately investigated beyond a quick search; epollbook establishes adopter status. Locating query: \"Alameda County\" signature verification vote by mail ballot processing software."
+  },
+  {
+    "county": "Alpine",
+    "slug": "alpine-ca",
+    "epollbook_year": null,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "unknown",
+    "confidence": "low",
+    "sources": [
+      "https://www.alpinecountyca.gov/388/Election",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB (carried over): NOT a VCA county. SoS voting-tech snapshots show 'Do not use' for Electronic Pollbook continuously May 2022/Sept 2024/Oct 2025; EAVS reports electronic-poll-book use False in all four editions (2016/2018/2022/2024). Consistent never-adopter signal across both sources for epollbook. ASV research (real effort, not a quick check): fetched Alpine County's own Election page directly -- it tracks 'Ballots left to cure (noncomparable signature on identification envelope or unsigned identification envelope)' counts per Elections Code 15306 but does not describe HOW the noncomparable determination is made (no staff-manual-only language, no automated-vendor language). Further searches for an Alpine-specific vote-by-mail/signature page, the Courage California Institute Alpine how-to-vote page (blocked, 403), and a CalVoter Ballot Processing county note (calvoter.org/content/ballot-processing blocked, 403; site-scoped search returned only Alpine's county-clerk contact info, no process description) turned up nothing further. Alpine is California's least-populous county (~1,100 residents) and appears to have essentially no independent press coverage of its ballot-processing internals. Because no POSITIVE support was found for either manual-only review or ASV adoption (only absence/inaccessibility of sources), status is set to 'unknown' per the project rule that 'never' requires positive support for ASV absence, not just a missing source. Locating queries: \"Alpine County\" California elections signature verification vote by mail; Alpine County California elections registrar \"signature\" staff compare ballot processing; calvoter.org/content/ballot-processing (403 blocked)."
+  },
+  {
+    "county": "Amador",
+    "slug": "amador-ca",
+    "epollbook_year": 2020,
+    "asv_year": null,
+    "vca_year": 2020,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://couragecaliforniainstitute.org/how-to/how-to-vote-amador/",
+      "https://www.amadorcounty.gov/government/elections",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB (carried over): VCA vote-center county since March 2020 primary (SoS VCA Usage Summary range: '2020 Primary Election - 2024 General Election'). SoS voting-tech snapshots show DFM electronic pollbook continuously by May 2022 through Oct 2025 (3 independent snapshots). CONFLICT: EAVS reports electronic-poll-book use as False in ALL FOUR editions (2016/2018/2022/2024); resolved in favor of the SoS filings. Status is already 'adopter' via epollbook_year alone. ASV quick check: positive evidence of MANUAL-ONLY signature review found: 'Signature verification is the first step for vote by mail ballots in Amador County, and all signatures are verified by a trained staff member rather than machinery or software' (Courage California Institute Amador how-to-vote page, sourced from Amador County elections process description). asv_year stays null; this is a positive not-adopted signal, not just an absence of evidence. Locating query: \"Amador County\" elections signature verification vote by mail."
+  },
+  {
+    "county": "Butte",
+    "slug": "butte-ca",
+    "epollbook_year": 2020,
+    "asv_year": null,
+    "vca_year": 2020,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://buttevotes.net/248/Voting-Information",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB (carried over): VCA vote-center county since March 2020 primary (SoS VCA Usage Summary range: '2020 Primary Election - 2024 General Election'). SoS snapshots show DFM continuously May 2022/Sept 2024/Oct 2025. EAVS 2022=False but 2024=True (partial EAVS support; 2022 miss treated as self-report noise given 3 consistent SoS filings). Status is already 'adopter' via epollbook_year alone. ASV quick check: Butte's Voting Information page describes signature comparison to the voter registration card and a cure process for mismatches/missing signatures, but does not name any automated signature-matching software or vendor; not clear evidence either way. asv_year stays null; not separately investigated beyond a quick search; epollbook establishes adopter status. Locating query: \"Butte County\" elections signature verification vote by mail ballot."
+  },
+  {
+    "county": "Calaveras",
+    "slug": "calaveras-ca",
+    "epollbook_year": 2020,
+    "asv_year": null,
+    "vca_year": 2020,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://elections.calaverasgov.us/Voter-Services/Vote-by-Mail",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf"
+    ],
+    "note": "EPB (carried over): VCA vote-center county since March 2020 primary. SoS voting-tech snapshot May 2022 shows DFM electronic pollbook; Sept 2024 and Oct 2025 snapshots revert to 'Do not use' despite continued VCA vote-center operation through Nov 2024, the same pattern resolved for Sacramento (data/research/county-tech/sacramento-ca.json) -- treated as adopter by analogy, flagged for a verifier to check Calaveras's EAP directly. Status is already 'adopter' via epollbook_year alone regardless. ASV quick check: Calaveras's Vote by Mail page and Signature Verification Statement form describe a mismatch/missing-signature notice-and-cure process but do not name any automated signature-matching software or vendor; not clear evidence either way. asv_year stays null; not separately investigated beyond a quick search. Locating query: \"Calaveras County\" elections signature verification vote by mail."
+  },
+  {
+    "county": "Colusa",
+    "slug": "colusa-ca",
+    "epollbook_year": null,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "never",
+    "confidence": "medium",
+    "sources": [
+      "https://www.countyofcolusaca.gov/197/Elections",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB (carried over): NOT a VCA county. SoS voting-tech snapshots show 'Do not use' continuously May 2022/Sept 2024/Oct 2025; EAVS False in all four editions. Consistent never-adopter signal for epollbook. ASV research (real effort, not a quick check): Colusa County's official Elections page states, 'Every single ballot undergoes signature verification by one of our elections staff members. If we have any questions or concerns about your signature, we will call you or mail you a notice to verify.' No automated signature-matching software, vendor, or technology is mentioned anywhere on the page; the described process is staff-only comparison against the voter registration card. This is positive support for ASV absence (not just missing evidence), consistent with a small rural county (population ~21,000) with a small elections staff. Both epollbook_year and asv_year stay null; status set to 'never'. Confidence medium rather than high because the page is a general voter-facing FAQ, not a technical/procedural filing (e.g. an EAP), so it cannot fully rule out a machine-assisted first pass that the page simply doesn't mention. Locating query: \"Colusa County\" elections signature verification vote by mail ballot; page fetched directly at countyofcolusaca.gov/197/Elections."
+  },
+  {
+    "county": "Contra Costa",
+    "slug": "contra-costa-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://www.contracostavote.gov/elections/our-voting-system/",
+      "https://www.contracostavote.gov/elections/how-to-vote/voting-by-mail/",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB (carried over): NOT a VCA county (traditional precinct polling; absent from SoS VCA Usage Summary; corroborated by san-francisco-ca.json noting Contra Costa/Solano as Bay Area counties that never adopted VCA). SoS voting-tech snapshot shows KNOWiNK PollPad by May 2022 (continuous through Oct 2025); EAVS 2018=False, 2022=True brackets adoption to (2018,2022]. epollbook_year=2022 is the latest point in that bracket, not precisely pinned. Status is already 'adopter' via epollbook_year alone. ASV quick check: Contra Costa's voting-system page describes envelopes being 'signature verified, up to three separate times' and a sorter that 'captures the signature image from the envelope. That signature is then compared to the signature on file... After the signature is reviewed...' -- this describes image capture plus review but the source text does not explicitly say the comparison itself is done by automated matching software vs. staff reviewing the captured image, so it is treated as ambiguous rather than clear ASV evidence. asv_year stays null. Locating query: \"Contra Costa County\" elections signature verification vote by mail software."
+  },
+  {
+    "county": "Del Norte",
+    "slug": "del-norte-ca",
+    "epollbook_year": null,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "never",
+    "confidence": "medium",
+    "sources": [
+      "https://wildrivers.lostcoastoutpost.com/2020/sep/4/dubious-about-vote-mail-call-or-ask-del-norte-coun/",
+      "https://www.co.del-norte.ca.us/departments/Elections/VoteMail",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB (carried over): NOT a VCA county. SoS voting-tech snapshots show 'Do not use' continuously May 2022/Sept 2024/Oct 2025; EAVS False in all four editions. Consistent never-adopter signal for epollbook. ASV research (real effort, not a quick check): a Wild Rivers Outpost article quotes then-County Clerk/Registrar Alissia Northrup directly: 'Each ballot is handled by a human being who examines the ballot to make sure it hasn't been tampered with,' who then 'verify[ies] signature against the signature we have on file from (the voter's) registration card and... verify[ies] the address.' This is explicit, on-the-record positive support that Del Norte's signature review is human/manual, not software-assisted, as of the 2020 article (and Del Norte's own current Vote by Mail page describes only the statutory signature-match/cure requirement with no mention of automated technology, consistent with no change since). Both epollbook_year and asv_year stay null; status set to 'never'. Confidence medium (not high) because the quote dates to 2020 and no more recent county statement was found reconfirming the process is still fully manual through 2024. Locating query: \"Del Norte County\" elections signature verification vote by mail ballot."
+  },
+  {
+    "county": "El Dorado",
+    "slug": "el-dorado-ca",
+    "epollbook_year": 2020,
+    "asv_year": null,
+    "vca_year": 2020,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://www.eldoradocounty.ca.gov/County-Government/Elections/Voting/Vote-By-Mail-Information",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB (carried over): VCA vote-center county since March 2020 primary. SoS snapshots show DFM continuously May 2022/Sept 2024/Oct 2025. EAVS 2022 and 2024 both True. Clean, consistent. Status is already 'adopter' via epollbook_year alone. ASV quick check: El Dorado's Vote By Mail page describes signature matching against the voter record and invites the public to observe 'the entire process, from ballot sorting and signature verification to ballot extraction and tabulation,' but names no automated signature-matching software or vendor; not clear evidence either way. asv_year stays null; not separately investigated beyond a quick search. Locating query: \"El Dorado County\" elections signature verification vote by mail."
+  },
+  {
+    "county": "Fresno",
+    "slug": "fresno-ca",
+    "epollbook_year": 2020,
+    "asv_year": 2020,
+    "vca_year": 2020,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://elections.cdn.sos.ca.gov/vca/eap/fresno-eap.pdf",
+      "https://gvwire.com/2020/10/12/brandi-orth-vote-by-mail-signature-verification-ensures-safety-and-integrity/",
+      "https://www.sos.ca.gov/administration/news-releases-and-advisories/2019-news-releases-and-advisories/fresno-county-adopts-voters-choice-act-2020-elections"
+    ],
+    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/fresno-ca.json (precedence source per task brief). Epollbook: adopted with the VCA vote-center transition, first election March 3, 2020 Presidential Primary (Board of Supervisors adopted VCA March 12, 2019); e-pollbook = DFM per CA SoS 'Voting Technologies in Use by County' (Oct 10, 2025). ASV: adopted, per Fresno County Clerk/ROV Brandi Orth's Oct 12, 2020 op-ed stating the office 'uses a signature verification software program that completes the first comparison' (~50% auto-verified). Locating query used originally: CA SoS voting-technologies-by-county PDF + Fresno EAP + site search for Fresno ROV signature verification op-ed."
+  },
+  {
+    "county": "Glenn",
+    "slug": "glenn-ca",
+    "epollbook_year": null,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "unknown",
+    "confidence": "low",
+    "sources": [
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB (carried over): CONFLICT unresolved. SoS voting-tech snapshots show 'Do not use' consistently across THREE independent snapshots (May 2022, Sept 2024, Oct 2025), but EAVS reports electronic-poll-book use TRUE in both the 2022 and 2024 editions. Not a VCA county, so there is no vote-center structural story to resolve the conflict the way Sacramento/Calaveras/Mariposa/Ventura were resolved. No independent third source found to break the tie. Per project rule, EPB status itself unresolved means county-level status stays 'unknown' regardless of ASV finding. ASV quick check: web search for a Glenn County vote-by-mail/signature-verification page and a CalVoter Ballot Processing mention turned up no county-specific elections signature-verification page and no CalVoter note for Glenn; genuinely nothing found either way. Locating queries: \"Glenn County\" elections signature verification vote by mail; site:calvoter.org Glenn County ballot processing (both returned no usable Glenn-specific results)."
+  },
+  {
+    "county": "Humboldt",
+    "slug": "humboldt-ca",
+    "epollbook_year": 2016,
+    "asv_year": null,
+    "vca_year": 2024,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://humboldtgov.org/2535/Voting-Options",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB (carried over): TWO SEPARATE milestones. (1) Precinct-based electronic pollbook: EAVS True in both 2016 and 2018 editions, SoS snapshots confirm KNOWiNK PollPad by May 2022; epollbook_year=2016 is the earliest EAVS edition affirming use (EAVS 2022 edition oddly False, corrected back True in 2024, treated as self-report noise). (2) Separately, Humboldt's VCA vote-center model dates to vca_year=2024 per the SoS VCA Vote Center Usage Summary ('2024 Primary and General Elections'), a distinct and later milestone. Status is already 'adopter' via epollbook_year alone. ASV quick check: positive evidence of MANUAL/human-only signature review found: Humboldt's voting-options materials describe 'two election officials reviewing and comparing the signature on the ballot envelope to the voter's registration record' for each mail ballot, no automated matching software named. asv_year stays null; this is a positive not-adopted signal for ASV specifically, though the overall county status remains 'adopter' via EPB. Locating query: \"Humboldt County\" elections signature verification vote by mail."
+  },
+  {
+    "county": "Imperial",
+    "slug": "imperial-ca",
+    "epollbook_year": null,
+    "asv_year": 2024,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://www.ivpressonline.com/featured/registrar-of-voters-gives-november-election-overview-for-imperial-county/article_539a5084-7798-11ef-8d2c-5bb6a2acbdbc.html",
+      "https://elections.imperialcounty.org/wp-content/uploads/2026/01/2025_ElectionAdminPlan_EAP.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB (carried over): NOT a VCA county. SoS voting-tech snapshots show 'Do not use' continuously May 2022/Sept 2024/Oct 2025; EAVS False in all four editions. Consistent never-adopter signal for epollbook: epollbook_year stays null. ASV research (real effort, not a quick check): an ivpressonline.com article on the Registrar of Voters' November 2024 election overview states 'The machines not only count but help verify signatures of the mail-in voters, which is partially what takes so much time for the Registrar to do in the counting and certification process' -- positive evidence that Imperial uses machine-assisted signature verification (an Agilis-class sorter also turned up in search results, consistent with an integrated signature-verification module), not staff-only comparison. This flips county-level status to 'adopter' via ASV even though EPB was never adopted (schema rule: status is adopter if epollbook_year OR asv_year is set). asv_year=2024 is approximate, pinned to the article's date/context, not a primary county filing confirming the exact adoption year. Confidence medium: the source article could not be directly re-fetched (429 rate-limited on repeated tries) so this rests on WebSearch's extracted quote rather than a full read of the page, and a follow-up attempt to pull the county's own 2025 Election Administration Plan PDF for corroboration returned only scanned/non-OCR'd text with no usable passage. Locating queries: \"Imperial County\" elections signature verification vote by mail ballot processing; Imperial County registrar voters \"signature verification\" machines technology ballots."
+  },
+  {
+    "county": "Inyo",
+    "slug": "inyo-ca",
+    "epollbook_year": 2024,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://elections.inyocounty.us/voting/vote-by-mail/",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB (carried over): NOT a VCA county (traditional precinct polling). SoS voting-tech snapshot May 2022 = 'Do not use'; Sept 2024 = Tenex Precinct Central V 6.0.1 (adopter), continuing Oct 2025. EAVS 2022=False, 2024=True. Clean, consistent bracket to 2024. Status is already 'adopter' via epollbook_year alone. ASV quick check: Inyo's Vote by Mail page describes a pending/notify-and-cure process for missing or non-matching signatures and notes 'signature verification training performed by a forensic handwriting expert' for county staff, which suggests a human-review-centric process but does not explicitly rule out a first-pass automated match; not clear-cut positive evidence of manual-only review, so asv_year stays null rather than asserting manual-only. Locating query: \"Inyo County\" elections signature verification vote by mail."
+  },
+  {
+    "county": "Kern",
+    "slug": "kern-ca",
+    "epollbook_year": 2022,
+    "asv_year": 2022,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://www.kget.com/news/politics/your-local-elections/kern-county-vote-by-mail-what-we-know-about-the-popularity-and-security-of-mail-in-ballots/",
+      "https://www.kernvote.com/elections/other/facts",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB (carried over): NOT a VCA county (traditional precinct polling). SoS snapshot May 2022 already shows Tenex Precinct Central 5.0.0 (continues through Oct 2025). EAVS 2018=False, 2022=True brackets adoption to (2018,2022]; epollbook_year=2022 is the latest point in that bracket, not precisely pinned. ASV finding (notable, went beyond the quick check because it surfaced during the search): Kern County used computer software to perform the first round of vote-by-mail signature checks starting November 2022, per KGET 17 News coverage citing Auditor-Controller-County Clerk Aimee Espinoza, but discontinued the software afterward because staff were re-checking every signature anyway (making the software redundant) and the county wanted to save the licensing cost; current process is trained staff comparing signatures to file/DMV records with a mail sorter that image-captures each signature. asv_year=2022 reflects the year ASV was first adopted (even though later discontinued); this is an approximate year drawn from a news article's description of 'for the first time as of November 2022,' not a primary county filing. Confidence medium: the KGET article text could not be directly re-fetched (403 blocked on retry) so this rests on WebSearch's summarization of that article plus corroborating snippets from a related KGET headline ('Kern Elections Division introduces enhancements...') and the kernvote.com facts page (also 403-blocked on direct fetch). Locating query: \"Kern County\" elections signature verification vote by mail software; follow-up: Kern County elections signature verification software discontinued 2022."
+  },
+  {
+    "county": "Kings",
+    "slug": "kings-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": 2022,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://www.countyofkingsca.gov/departments/administration/elections/how-to-vote/accessible-vote-by-mail",
+      "https://www.countyofkingsca.gov/departments/administration/elections/how-to-vote/vote-by-mail",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: VCA vote-center county since June 2022 primary (SoS VCA Usage Summary range: '2022 Primary Election - 2024 General Election'). SoS snapshots show KNOWiNK PollPad continuously May 2022/Sept 2024/Oct 2025. EAVS 2022 and 2024 both True. Clean, consistent. Status is already adopter via epollbook_year=2022 alone. ASV (quick check only): Kings County's Vote-by-Mail and RAVBM pages describe signature comparison against the voter registration form in generic terms only; no vendor/software named, no explicit statement of automated vs manual method found. Locating query: 'Kings County California elections signature verification vote by mail automated software'. Not separately investigated beyond this quick search; epollbook establishes adopter status regardless of the ASV answer."
+  },
+  {
+    "county": "Lake",
+    "slug": "lake-ca",
+    "epollbook_year": null,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "never",
+    "confidence": "low",
+    "sources": [
+      "https://calvoter.org/content/%E2%80%98why-do-we-need-rush%E2%80%99-california%E2%80%99s-lake-county-may-have-nation%E2%80%99s-slowest-elections",
+      "https://lakecountyca.gov/DocumentCenter/View/3378/Signature-Verification-Statement-and-Instructions-PDF?bidId=",
+      "https://elections.lakecountyca.gov/818/Registrar-of-Voters",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county. SoS voting-tech snapshots show 'Do not use' continuously May 2022/Sept 2024/Oct 2025; EAVS False in all four editions. Consistent never-adopter signal for epollbook. ASV: CalVoter's ballot-processing profile of Lake County ('Why do we need to rush? California's Lake County may have the nation's slowest elections department') describes signatures being 'examined by staff' and the office as understaffed/slow, with no mention of automated signature-matching equipment; direct fetch of the CalVoter page was blocked by a bot wall (403) so this is via a WebSearch-indexed snippet only, not a full read. Lake's own Signature Verification Statement PDF is a generic cure-form (does not describe the underlying match method). No vendor/automation evidence found in the Stanford Law School 'Signature Verification and Mail Ballots' (May 2020) county survey table (Appendix III) either; Lake was not among the 33 counties interviewed for that report. Locating queries: 'Lake County California elections vote by mail signature verification staff compare'; 'Lake County News Lakeport elections signatures ballots processing verify staff registrar'; direct curl fetch of the CalVoter URL (403, bot-walled). Positive-support standard is only weakly met (search-snippet only, not primary-source read), hence confidence low rather than medium."
+  },
+  {
+    "county": "Lassen",
+    "slug": "lassen-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://law.stanford.edu/wp-content/uploads/2020/04/SLS_Signature_Verification_Report-5-15-20-FINAL.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county (traditional precinct polling; absent from SoS VCA Usage Summary county list). SoS snapshot May 2022 already shows KNOWiNK PollPad (continues through Oct 2025). EAVS 2018=False, 2022=True brackets adoption to (2018,2022]; epollbook_year=2022 is the latest point in that bracket. Status is already adopter via epollbook_year=2022 alone. ASV (quick check): the Stanford Law School 'Signature Verification and Mail Ballots' (May 2020), Appendix III - Automated Processes Vendors List lists Lassen County's 'Use of Automation' for VBM signature verification as 'manual' (everything done manually, no automated matching) as of its 2019-2020 county interviews. This is the only ASV-specific source found in a quick check; treated as a snapshot circa 2020, not necessarily current through 2024/2025. Locating query: table search inside the Stanford PDF (pdftotext -layout) for 'Lassen County' in Appendix III. asv_year left null (manual as of the only evidence found)."
+  },
+  {
+    "county": "Los Angeles",
+    "slug": "los-angeles-ca",
+    "epollbook_year": 2020,
+    "asv_year": 2020,
+    "vca_year": 2020,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://www.lavote.gov/docs/rrcc/media/VSAP-Report_FINAL.pdf",
+      "https://laist.com/news/politics/voter-guides/2026-election-california-primary-how-they-verify-ballot-signatures",
+      "https://www.sos.ca.gov/voters-choice-act/vca-participating-counties"
+    ],
+    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/los-angeles-ca.json (precedence source). Epollbook: KNOWiNK Poll Pad integrated into LA's county-owned VSAP system, first used countywide at Vote Centers for the March 3, 2020 Presidential Primary. ASV: adopted (machine signature comparison against the voter's registration file per LAist/CBS LA reporting); adopted_year=2020 is an estimate tied to LA's all-vote-by-mail transition, not a primary-sourced date. Locating query used originally: LA County VSAP report + LAist ballot-signature-verification article."
+  },
+  {
+    "county": "Madera",
+    "slug": "madera-ca",
+    "epollbook_year": 2018,
+    "asv_year": null,
+    "vca_year": 2018,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://elections.cdn.sos.ca.gov/vca/eap/madera-eap.pdf",
+      "https://www.counties.org/county-voice/five-counties-weigh-voters-choice-act"
+    ],
+    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/madera-ca.json (precedence source). One of the five original 2018 VCA pilot counties (with Napa, Nevada, Sacramento, San Mateo); electronic roster via DFM Associates EIMS on networked PCs at vote centers, first election June 5, 2018 Statewide Primary. ASV not-adopted: no automated signature-verification software found in the EAP; signatures compared by staff under Elections Code sec. 3019 (secondary confidence, absence of evidence). Locating query used originally: Madera EAP PDF + CSAC 'Five Counties Weigh In on the Voters Choice Act'."
+  },
+  {
+    "county": "Marin",
+    "slug": "marin-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": 2022,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://law.stanford.edu/wp-content/uploads/2020/04/SLS_Signature_Verification_Report-5-15-20-FINAL.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: VCA vote-center county since June 2022 primary (SoS VCA Usage Summary range: '2022 Primary Election - 2024 General Election'). SoS snapshot May 9 2022 (before the June 7 2022 election) still shows 'Do not use'; by Sept 2024 and Oct 2025 shows DFM. EAVS 2022=True but 2024=False (conflicting). epollbook_year=2022 is set to the VCA-transition year per Sacramento-pattern reasoning, flagged as a judgment call. Status is already adopter via epollbook_year=2022 alone regardless of the ASV answer. ASV (quick check): the Stanford Law School 'Signature Verification and Mail Ballots' (May 2020), Appendix III - Automated Processes Vendors List lists Marin County's 'Use of Automation' as 'verification' (automation used for signature verification, not just sorting/scanning) with vendor Bell & Howell, equipment 'Circa 2013 - no model #', as of its 2019-2020 county interviews. This confirms ASV was in use by 2020; exact adoption year not pinned (machine vintage note is about hardware age, not necessarily the year verification-mode use began), so asv_year left null rather than over-precise. Locating query: table search inside the Stanford PDF (pdftotext -layout) for 'Marin County' in Appendix III."
+  },
+  {
+    "county": "Mariposa",
+    "slug": "mariposa-ca",
+    "epollbook_year": 2020,
+    "asv_year": null,
+    "vca_year": 2020,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://www.mariposacounty.org/758/Vote-by-Mail-Ballot-Lookup",
+      "https://www.mariposacounty.org/Faq.aspx?QID=62",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf"
+    ],
+    "note": "EPB: VCA vote-center county since March 2020 primary (SoS VCA Usage Summary range: '2020 Primary Election - 2024 General Election'). SoS snapshot May 2022 shows DFM; Sept 2024 and Oct 2025 revert to 'Do not use' despite continued VCA operation; treated as adopter by Sacramento-pattern analogy, flagged as a judgment call. Status is already adopter via epollbook_year=2020 alone. ASV (quick check): Mariposa's Vote-by-Mail and FAQ pages describe generic signature comparison against the voter registration form; no vendor/software named, no explicit automated-vs-manual statement found; county not listed in the Stanford Law School 2020 signature-verification survey (not among the 33 counties interviewed). Locating query: 'Mariposa County California elections signature verification vote by mail'. Not separately investigated beyond this quick search; epollbook establishes adopter status regardless of the ASV answer."
+  },
+  {
+    "county": "Mendocino",
+    "slug": "mendocino-ca",
+    "epollbook_year": null,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "never",
+    "confidence": "low",
+    "sources": [
+      "https://www.mendocinocounty.gov/Home/Components/News/News/6964/4035?arch=1",
+      "https://www.mendocinocounty.gov/government/assessor-county-clerk-recorder-elections/elections",
+      "https://mendovoice.com/2020/03/over-16000-ballots-remain-to-be-counted-in-mendocino-county-heres-the-breakdown/",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county. SoS voting-tech snapshots show 'Do not use' continuously May 2022/Sept 2024/Oct 2025; EAVS False in all four editions. Consistent never-adopter signal for epollbook. ASV: Mendocino County's Registrar of Voters Ballot Information FAQ describes signature review in human terms: 'If the Elections Official verifies the signature, the challenge is removed...' and 'if election workers have trouble reading a signature or believe it doesn't match what's on file, they will make every effort to contact the person' -- language attributing the match decision to a person ('the Elections Official', 'election workers'), with no vendor/software named anywhere in county materials found. Direct fetch of the county FAQ page returned HTTP 403 (bot wall); this is reconstructed from WebSearch-indexed snippets of that page, not a full primary read. Mendocino does not appear in the Stanford Law School 'Signature Verification and Mail Ballots' (May 2020) Appendix III vendor table (not among the 33 counties interviewed). Locating queries: 'Mendocino County elections signature verification vote by mail ballot processing'; 'Mendocino County elections \"ballot processing board\" OR \"election workers\" signature compare \"by eye\" OR manually'. Confidence kept low: the 'Elections Official'/'election workers' phrasing is suggestive of manual review but is not an explicit statement that no automated matching system is used, and the primary source could not be directly fetched."
+  },
+  {
+    "county": "Merced",
+    "slug": "merced-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": 2022,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://law.stanford.edu/wp-content/uploads/2020/04/SLS_Signature_Verification_Report-5-15-20-FINAL.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: VCA vote-center county since June 2022 primary (SoS VCA Usage Summary range: '2022 Primary Election - 2024 General Election'). SoS snapshots show KNOWiNK PollPad continuously May 2022/Sept 2024/Oct 2025. EAVS 2022 and 2024 both True (2016 also True, isolated early anomaly, not used to set the year). Status is already adopter via epollbook_year=2022 alone. ASV (quick check): the Stanford Law School 'Signature Verification and Mail Ballots' (May 2020), Appendix III - Automated Processes Vendors List lists Merced County's 'Use of Automation' as 'verification' with vendor ES&S, model 'Mail Ballot Verifier 1000', as of its 2019-2020 county interviews -- clear ASV evidence, predating epollbook adoption. Exact first-adoption year not pinned by this source (only confirms in-use by 2020), so asv_year left null rather than assumed equal to the survey year. Locating query: table search inside the Stanford PDF (pdftotext -layout) for 'Merced County' in Appendix III."
+  },
+  {
+    "county": "Modoc",
+    "slug": "modoc-ca",
+    "epollbook_year": 2018,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://law.stanford.edu/wp-content/uploads/2020/04/SLS_Signature_Verification_Report-5-15-20-FINAL.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county (traditional precinct polling; absent from SoS VCA Usage Summary county list). EAVS reports electronic-poll-book use True starting the 2018 edition (continuing True 2022/2024). SoS snapshot May 2022 confirms KNOWiNK PollPad in place (continues through Oct 2025). epollbook_year=2018 per earliest EAVS confirmation. Status is already adopter via epollbook_year=2018 alone. ASV (quick check): the Stanford Law School 'Signature Verification and Mail Ballots' (May 2020), Appendix III - Automated Processes Vendors List lists Modoc County's 'Use of Automation' for VBM signature verification as 'manual' (everything done manually) as of its 2019-2020 county interviews -- ASV not adopted as of that snapshot. Locating query: table search inside the Stanford PDF (pdftotext -layout) for 'Modoc County' in Appendix III. asv_year left null."
+  },
+  {
+    "county": "Mono",
+    "slug": "mono-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://monocounty.ca.gov/elections/page/signature-verification-unsigned-ballot-envelope-instructions-0",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county (traditional precinct polling; absent from SoS VCA Usage Summary county list). SoS snapshot May 2022 already shows KNOWiNK PollPad (continues through Oct 2025). EAVS 2018=False, 2022=True brackets adoption to (2018,2022]. Status is already adopter via epollbook_year=2022 alone. ASV (quick check): Mono County's Signature Verification / Unsigned Ballot Envelope Instructions page describes generic signature comparison against the voter registration card; no vendor/software named, no explicit automated-vs-manual statement found; county not listed in the Stanford Law School 2020 signature-verification survey (not among the 33 counties interviewed). Locating query: 'Mono County California elections signature verification vote by mail'. Not separately investigated beyond this quick search; epollbook establishes adopter status regardless of the ASV answer."
+  },
+  {
+    "county": "Monterey",
+    "slug": "monterey-ca",
+    "epollbook_year": 2024,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://law.stanford.edu/wp-content/uploads/2020/04/SLS_Signature_Verification_Report-5-15-20-FINAL.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county (traditional precinct polling; absent from SoS VCA Usage Summary county list). SoS snapshot May 2022 = 'Do not use'; Sept 2024 = KNOWiNK PollPad (adopter), continuing Oct 2025. EAVS 2022=False, 2024=True. Clean, consistent bracket to 2024. Status is already adopter via epollbook_year=2024 alone. ASV (quick check): the Stanford Law School 'Signature Verification and Mail Ballots' (May 2020), Appendix III - Automated Processes Vendors List lists Monterey County ('Monteray', sic) 'Use of Automation' as 'verification' as of its 2019-2020 county interviews (vendor/model not obtained by that report) -- clear ASV evidence, predating epollbook adoption. Exact first-adoption year not pinned, so asv_year left null. Locating query: table search inside the Stanford PDF (pdftotext -layout) for 'Monteray' in Appendix III."
+  },
+  {
+    "county": "Napa",
+    "slug": "napa-ca",
+    "epollbook_year": 2018,
+    "asv_year": null,
+    "vca_year": 2018,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://www.napacounty.gov/DocumentCenter/View/29158/Napa-County-Draft-Election-Administration-Plan-updated-6-7-23-PDF",
+      "https://www.napacounty.gov/3627/Challenged-Ballots",
+      "https://www.sos.ca.gov/voters-choice-act"
+    ],
+    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/napa-ca.json (precedence source). One of the five original 2018 VCA pilot counties; first VCA/vote-center election June 5, 2018 primary; real-time electronic roster connected to the county EMS/VoteCal (DFM Associates EIMS). ASV not-adopted: Napa's Challenged Ballots page describes human staff signature comparison, no ASV software found (secondary confidence). Locating query used originally: Napa Election Administration Plan PDF + Napa Challenged Ballots page."
+  },
+  {
+    "county": "Nevada",
+    "slug": "nevada-ca",
+    "epollbook_year": 2018,
+    "asv_year": 2022,
+    "vca_year": 2018,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.nevadacountyca.gov/DocumentCenter/View/21900",
+      "https://www.nevadacountyca.gov/DocumentCenter/View/47536/Mail-Ballot-Processing-Infographic",
+      "https://www.nevadacountyca.gov/2321/Voters-Choice-Act-Overview"
+    ],
+    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/nevada-ca.json (precedence source). One of the five original 2018 VCA pilot counties; electronic pollbook (currently Provista ViBE) dates to the June 5, 2018 first VCA election. ASV adopted: county's own Mail Ballot Processing Infographic describes envelopes passing through a 'signature verification machine' that auto-accepts a portion of signatures, with only the remainder going to human review; adopted_year=2022 is a documented LOWER BOUND (infographic archived by mid-2023; the exact first-use year could be earlier, e.g. 2018 or 2020). Locating query used originally: Nevada County VCA Overview page + Mail Ballot Processing Infographic PDF."
+  },
+  {
+    "county": "Orange",
+    "slug": "orange-ca",
+    "epollbook_year": 2020,
+    "asv_year": null,
+    "vca_year": 2020,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://ocvote.gov/fileadmin/user_upload/eap/OCROV_2021-2025%20EAP_SOS/OCROV_2021-2025_EAP.html",
+      "https://www.sos.ca.gov/administration/news-releases-and-advisories/2019-news-releases-and-advisories/orange-county-votes-implement-voters-choice-act-2020-elections"
+    ],
+    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/orange-ca.json (precedence source). iPad-based e-pollbook (Tenex Precinct Central), first deployed at Vote Centers for the March 3, 2020 Presidential Primary (first VCA election; Board adopted VCA Feb 26, 2019). ASV not-adopted (primary): OCROV Election Administration Plan states staff perform signature comparison from envelope images; corroborated by LAist reporting that 'In Orange County, signature comparisons are done by humans, not scanners.' Locating query used originally: OCROV Election Administration Plan HTML + CA SoS VCA news release."
+  },
+  {
+    "county": "Placer",
+    "slug": "placer-ca",
+    "epollbook_year": 2024,
+    "asv_year": null,
+    "vca_year": 2024,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://www.placercountyelections.gov/voters-choice-act/",
+      "https://www.placercountyelections.gov/sign-scan-go/",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-2.pdf"
+    ],
+    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/placer-ca.json (precedence source). Placer transitioned to the VCA model starting with the March 5, 2024 Presidential Primary (Board approved June 13, 2023); electronic pollbook (DFM) rolled out with that transition; the SoS 2022 list showed Placer's e-pollbook column as 'Do not use' pre-VCA, confirming no e-pollbook before 2024. ASV not-adopted (secondary, absence of evidence in the SoS certified-systems list); Placer's well-known 'Sign, Scan & Go' (AB 626) program verifies the in-person check-in signature at vote centers, which is a different mechanism from automated envelope-signature matching. Locating query used originally: Placer County Elections VCA page + Sign, Scan & Go page + SoS voting-tech PDF."
+  },
+  {
+    "county": "Plumas",
+    "slug": "plumas-ca",
+    "epollbook_year": null,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "never",
+    "confidence": "medium",
+    "sources": [
+      "https://plumascounty.us/3250/Ballot-Verification",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county. SoS voting-tech snapshots show 'Do not use' continuously May 2022/Sept 2024/Oct 2025; EAVS False in all four editions. Consistent never-adopter signal for epollbook. ASV: Plumas County's official Ballot Verification page states 'Plumas County Elections employees have undergone certified forensic signature verification training' and describes the process as staff comparing 'the signature on the ballot envelope to the signature(s) the voter has previously registered with' (voter registration card and DMV signature on file), with no vendor/software named for automated matching. This page fetched directly and successfully (not blocked). Plumas appears as a blank/no-data row in the Stanford Law School 'Signature Verification and Mail Ballots' (May 2020) Appendix III vendor table ('we could not obtain this information' per the report's key), so that source is neutral rather than confirmatory, but the county's own current page is explicit about human/forensic-trained review. Locating query: 'Plumas County elections signature verification vote by mail ballot processing', page https://plumascounty.us/3250/Ballot-Verification. Confidence medium: single official source, small/thin county documentation, but the language is explicit about human forensic review and names no automated system."
+  },
+  {
+    "county": "Riverside",
+    "slug": "riverside-ca",
+    "epollbook_year": 2022,
+    "asv_year": 2025,
+    "vca_year": 2022,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://docs.voteinfo.net/docs/riverside-eap-final_ADA_EN.pdf",
+      "https://kesq.com/news/2025/10/23/registrar-demonstrates-new-auto-signature-verification-tool-ahead-of-election/"
+    ],
+    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/riverside-ca.json (precedence source). Electronic roster (direct connection to the Registrar's election management system at vote-center check-in stations) adopted with the VCA transition, first election June 7, 2022 Gubernatorial Primary (Board approved Dec 14, 2021). ASV adopted: piloted at the Nov 4, 2025 special election per KESQ reporting (Registrar Art Tinoco demo), moving to full production for the June 2, 2026 primary; adopted_year=2025 records the pilot's first election. Locating query used originally: Riverside County EAP PDF + KESQ 'Registrar demonstrates new auto signature verification tool' article."
+  },
+  {
+    "county": "Sacramento",
+    "slug": "sacramento-ca",
+    "epollbook_year": 2018,
+    "asv_year": null,
+    "vca_year": 2018,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://elections.cdn.sos.ca.gov/vca/eap/sacramento-eap.pdf",
+      "https://www.sos.ca.gov/voters-choice-act"
+    ],
+    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/sacramento-ca.json (precedence source). Largest of the five original 2018 VCA pilot counties; e-pollbook = real-time DFM Associates EIMS check-in laptops networked via VPN, adopted with the first VCA election, June 5, 2018. Note: the CA SoS 'Voting Technologies in Use by County' categorical column lists Sacramento's Electronic Pollbook as 'Do not use' because the county runs EIMS directly on laptops rather than a separately SoS-certified standalone product; the EAP is the primary source establishing real-time check-in was in fact used from 2018. ASV not-adopted (secondary): EAP describes signature images compared by staff, no automated matching engine named. Locating query used originally: Sacramento County Election Administration Plan PDF."
+  },
+  {
+    "county": "San Benito",
+    "slug": "san-benito-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": 2022,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://law.stanford.edu/wp-content/uploads/2020/04/SLS_Signature_Verification_Report-5-15-20-FINAL.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: VCA vote-center county since June 2022 primary (SoS VCA Usage Summary range: '2022 Primary Election - 2024 General Election'). SoS snapshots show Tenex Precinct Central continuously May 2022/Sept 2024/Oct 2025. EAVS 2022 and 2024 both True; EAVS 2018 also True (isolated pre-VCA anomaly, not used to set the year). Status is already adopter via epollbook_year=2022 alone. ASV (quick check): the Stanford Law School 'Signature Verification and Mail Ballots' (May 2020), Appendix III - Automated Processes Vendors List lists San Benito County's 'Use of Automation' as 'non-verification' as of its 2019-2020 county interviews -- meaning the county used automation for sorting/scanning/displaying signatures only, explicitly NOT for verification, i.e. signature match decisions were made by staff, not software, as of that snapshot. asv_year left null (positive evidence of ASV absence circa 2020, not confirmed current). Locating query: table search inside the Stanford PDF (pdftotext -layout) for 'San Benito' in Appendix III."
+  },
+  {
+    "county": "San Bernardino",
+    "slug": "san-bernardino-ca",
+    "epollbook_year": 2020,
+    "asv_year": 2025,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://elections.sbcounty.gov/faqs/what-is-a-confidence-rating/",
+      "https://elections.sbcounty.gov/voting/polls/"
+    ],
+    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/san-bernardino-ca.json (precedence source). NOT a Voter's Choice Act county (traditional precinct polling places; vca_year null). Electronic pollbook = KNOWiNK PollPad, first-use year pinned to the March 3, 2020 Presidential Primary via the SoS 'Voting Technologies in use by County as of February 4, 2020' snapshot alongside the county's new Dominion system rollout. ASV adopted: county Registrar FAQ describes Automatic Signature Verification software with a 45%-confidence auto-accept threshold; adoption dated to the Nov 4, 2025 statewide special by bracketing against a Sept 2024 Black Voice News walkthrough that still described fully manual signature review. Locating query used originally: SoS voting-tech PDF + San Bernardino elections FAQ pages 'what-is-asv' and 'what-is-a-confidence-rating'."
+  },
+  {
+    "county": "San Diego",
+    "slug": "san-diego-ca",
+    "epollbook_year": 2022,
+    "asv_year": 2024,
+    "vca_year": 2022,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-2.pdf",
+      "https://www.nbcsandiego.com/news/local/what-happens-to-your-ballot-after-voting-heres-how-ballot-counting-works-in-san-diego/3662953/",
+      "https://www.countynewscenter.com/county-approves-move-to-vote-center-model/"
+    ],
+    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/san-diego-ca.json (precedence source). Electronic pollbook (Tenex Precinct Central) and vote-center model both arrived with the VCA transition, first election June 7, 2022 Gubernatorial Primary (Board approved Oct 19, 2021). ASV adopted: high-speed sorter cameras assign a confidence match, routing low-confidence envelopes to human review; adopted_year=2024 is approximate (Sept 2023 EAP still described manual comparison; 2024 election-cycle news coverage describes the automated system). Locating query used originally: SoS voting-tech PDF + NBC San Diego ballot-counting explainer + County News Center VCA approval article."
+  },
+  {
+    "county": "San Francisco",
+    "slug": "san-francisco-ca",
+    "epollbook_year": null,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "never",
+    "confidence": "high",
+    "sources": [
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.sf.gov/vote-in-person",
+      "https://www.sf.gov/news/department-elections-begins-processing-returned-vote-mail-ballots-november-5-election"
+    ],
+    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/san-francisco-ca.json (precedence source, project CONTROL county). Epollbook not-adopted: 501 traditional precinct polling places use paper rosters (sf.gov/vote-in-person); the CA SoS list's 'DFM' entry for SF is DFM Associates EIMS used for back-office/City Hall Voting Center check-in, not a precinct e-pollbook (confidence downgraded to secondary in the source record for this reason, but the operational finding is well corroborated). ASV not-adopted (primary): DOE vote-by-mail processing captures a signature image which staff then compare by eye (three-reviewer rule before any challenge). Never adopted the Voter's Choice Act (vote-center) model either (primary). Confirmed no EPB and no ASV through Nov 2024. Locating query used originally: CA SoS voting-tech PDF + sf.gov vote-in-person page + sf.gov DOE vote-by-mail processing news release."
+  },
+  {
+    "county": "San Joaquin",
+    "slug": "san-joaquin-ca",
+    "epollbook_year": 2022,
+    "asv_year": 2026,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://www.lodinews.com/news/article_621a6ca4-6273-4c2e-ab00-167874b1d8ca.html",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county (traditional precinct polling; absent from SoS VCA Usage Summary county list). SoS snapshot May 2022 already shows KNOWiNK PollPad (continues through Oct 2025). EAVS 2018=False, 2022=True brackets adoption to (2018,2022]. Status is already adopter via epollbook_year=2022 alone. ASV (quick check, but with a clean pinned result): Lodi News-Sentinel, Dec 13 2025, 'San Joaquin County registrar aims for a smoother election' -- Registrar of Voters Olivia Hale told the Board of Supervisors that a NEW automated ballot-duplication and automated signature-verification system will be in place for the June 2026 primary and November 2026 general election, replacing a previously manual signature-comparison process ('sorting machine... photographed by cameras reading signatures and comparing them to those on voter's registration files'). asv_year=2026 (first election of use), confidence high given a specific, dated, on-the-record county-official statement. Locating query: 'San Joaquin County California elections signature verification vote by mail automated software'."
+  },
+  {
+    "county": "San Luis Obispo",
+    "slug": "san-luis-obispo-ca",
+    "epollbook_year": 2026,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://www.ksby.com/san-luis-obispo/san-luis-obispo-county-introduces-new-tech-for-upcoming-elections",
+      "https://www.slocounty.ca.gov/departments/clerk-recorder/all-services/elections-and-voting/vote-by-mail",
+      "https://www.sos.ca.gov/voters-choice-act/vca-participating-counties"
+    ],
+    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/san-luis-obispo-ca.json (precedence source). SLO was a long-standing paper-roster holdout; adopted electronic pollbooks for the first time at the June 2, 2026 Statewide Direct Primary (KSBY: Clerk-Recorder Elaina Cano, 'we're one of the few counties left that don't use [e-pollbooks]'). Through Nov 2024 (this census's reference window) SLO had NOT adopted e-pollbooks (SoS Oct 10, 2025 list still showed 'Do not use'), but the adoption itself is confirmed for 2026, so status is 'adopter' with epollbook_year=2026 rather than 'never'. Confidence downgraded to medium/secondary because adoption is sourced only to KSBY news, no official registrar/SoS adoption document yet. ASV not-adopted (secondary, absence of evidence); not a VCA county (vca_year null). Locating query used originally: KSBY 'SLO County introduces new tech for upcoming elections' + SLO County vote-by-mail page."
+  },
+  {
+    "county": "San Mateo",
+    "slug": "san-mateo-ca",
+    "epollbook_year": 2018,
+    "asv_year": null,
+    "vca_year": 2018,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://smcacre.gov/elections/counting-vote-mail-ballots",
+      "https://smcacre.gov/elections/san-mateo-county-california-voters-choice-act"
+    ],
+    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/san-mateo-ca.json (precedence source). One of the five original 2018 VCA pilot counties (Board authorized Sept 12, 2017); e-pollbooks (currently Tenex Precinct Central) first deployed for the June 5, 2018 vote centers. ASV not-adopted (primary): county's 'Counting Vote by Mail Ballots' page states a Vantage Ballot Sorter images the signature but 'a team compares the signature on the envelope with the one on file' by eye; the sorter only images/sorts, it does not auto-match. Locating query used originally: SoS voting-tech PDF + smcacre.gov Counting Vote by Mail Ballots page."
+  },
+  {
+    "county": "Santa Barbara",
+    "slug": "santa-barbara-ca",
+    "epollbook_year": 2022,
+    "asv_year": 2024,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://www.noozhawk.com/heres-how-ballots-get-processed-by-santa-barbara-county-elections-office/",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county (traditional precinct polling; absent from SoS VCA Usage Summary county list). SoS snapshot May 2022 already shows Tenex Precinct Central (continues through Oct 2025). EAVS 2018=False, 2022=True brackets adoption to (2018,2022]. Status is already adopter via epollbook_year=2022 alone. ASV (quick check): Noozhawk, Oct 29-30 2024, 'Here's How Ballots Get Processed By Santa Barbara County Elections Office' -- describes an Agilis sorting machine plus 'software, and people on computers in a back room' checking signatures against past ballots/DMV records, escalating questionable signatures to staff for outreach: a hybrid automated+human ASV workflow already operating in Oct 2024. asv_year=2024 is approximate (the year of this confirming article, not a confirmed first-adoption year); confidence medium given the article is explicit about software-based matching but doesn't state when it began. Locating query: 'Santa Barbara County California elections signature verification vote by mail automated software'."
+  },
+  {
+    "county": "Santa Clara",
+    "slug": "santa-clara-ca",
+    "epollbook_year": 2020,
+    "asv_year": null,
+    "vca_year": 2020,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-2.pdf",
+      "https://vote.santaclaracounty.gov/vote-mail/how-your-vote-counted",
+      "https://vote.santaclaracounty.gov/how-county-santa-clara-protects-our-votes"
+    ],
+    "note": "Taken verbatim from the project's own prior research record, data/research/county-tech/santa-clara-ca.json (precedence source). Converted to the VCA vote-center model for the March 3, 2020 Presidential Primary; e-pollbook was KNOWiNK PollPad 2020-2024, switching to Tenex Precinct Central by 2025 (vendor change, not a re-adoption; epollbook_year stays the original 2020 adoption). ASV not-adopted (secondary): the county 'How Your Vote Is Counted' page describes signature verification but names no automated signature-recognition software. Locating query used originally: SoS voting-tech PDF + Santa Clara County vote-by-mail 'how your vote counted' page."
+  },
+  {
+    "county": "Santa Cruz",
+    "slug": "santa-cruz-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": 2022,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://www.sos.ca.gov/administration/regulations/current-regulations/elections/signature-verification-ballot-processing-and-ballot-counting-emergency-regulations",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: VCA vote-center county since June 2022 primary (SoS VCA Usage Summary range: '2022 Primary Election - 2024 General Election'). SoS snapshot May 2022 = 'Do not use'; Sept 2024/Oct 2025 = DFM. EAVS 2022 and 2024 both True. epollbook_year=2022 set to the VCA-transition year. ASV: quick search (\"Santa Cruz County\" elections signature verification vote by mail ballot processing) surfaced only statewide CA SoS signature-verification regulation text and the county's generic VBM signature-required language, no county-specific automation or manual-only statement found. ASV not separately investigated beyond a quick search; epollbook establishes adopter status."
+  },
+  {
+    "county": "Shasta",
+    "slug": "shasta-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://elections.shastacounty.gov/post-election-information/",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county (traditional precinct polling). SoS snapshots show KNOWiNK PollPad May 2022 and Sept 2024, then revert to 'Do not use' by Oct 2025 (unexplained late reversal; EAVS 2022 and 2024 both True). EAVS 2018=False, 2022=True brackets adoption to (2018,2022]; epollbook_year=2022. ASV: quick search (\"Shasta County\" elections signature verification vote by mail ballot processing) found the county's own post-election-information page states vote-by-mail ballots are 'signature verified by human eyes before they are counted': positive evidence of manual-only review, no automated matching software found. asv_year stays null. Status remains adopter per schema (epollbook alone is sufficient)."
+  },
+  {
+    "county": "Sierra",
+    "slug": "sierra-ca",
+    "epollbook_year": null,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "unknown",
+    "confidence": "low",
+    "sources": [
+      "https://www.sierracounty.ca.gov/DocumentCenter/View/11819/2025-2026-Grand-Jury-Report",
+      "https://www.themountainmessenger.org/article/sierra-county-grand-jury-commends-election-ballot-counting-process",
+      "https://www.sierrabooster.com/latest-news/from-the-2025-2026-sierra-county-grand-jury",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county. SoS voting-tech snapshots show 'Do not use' continuously May 2022/Sept 2024/Oct 2025; EAVS False in all four editions. Consistent never-adopter signal for epollbook. ASV: real search effort (grand jury report, county elections page, signature-verification-statement searches) for Sierra County (pop. ~3,000, all-mail elections since at least the Nov 2025 special). The 2025-2026 Sierra County Grand Jury report ('Sierra County Elections and Ballot Counting Process,' filed 3/18/2026, read directly from the county's own PDF at the sources URL) describes: 'When ballots arrive at the office, the signature is verified and the ballot is marked as received in special ballot tracking software. Election employees use software to keep track of all known signatures of the registered voter.' This is ambiguous: it names software used to store/track known signatures (a recordkeeping system, standard everywhere) but does not say whether the verification act itself is an automated algorithmic match or a human visual comparison; the report is otherwise very detailed (describes air-gapped, non-networked ballot-creation/scanning/tabulation servers) yet never names a signature-matching product or describes an automated match/no-match/confidence-score outcome the way Ventura's or Yolo's own materials do. Given this ambiguity, this does not rise to positive support for ASV absence per the project rule (unknown requires no clean finding either way, not just missing evidence, but this case has evidence that itself doesn't resolve the question). Status set to unknown rather than never or adopter. Locating queries used: '\"Sierra County\" California elections vote by mail signature verification manual staff compare'; 'Sierra County California grand jury report elections office ballot processing signature'; direct fetch of the Grand Jury PDF; site search for 'signature verification statement' on sierracounty.ca.gov."
+  },
+  {
+    "county": "Siskiyou",
+    "slug": "siskiyou-ca",
+    "epollbook_year": null,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "unknown",
+    "confidence": "low",
+    "sources": [
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2022-1.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-2.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys",
+      "https://www.siskiyoucounty.gov/elections/page/vote-mail"
+    ],
+    "note": "EPB: NOT a VCA county. SoS voting-tech snapshots show 'Do not use' continuously May 2022/Sept 2024/Oct 2025; EAVS False in all four editions. Consistent never-adopter signal for epollbook. ASV: real search effort found no positive evidence either way. Checked the county's own Vote by Mail page (siskiyoucounty.gov/elections/page/vote-mail, fetched directly) which describes only how to apply for a VBM ballot, not how signatures are verified; searched for an Election Administration Plan (none exists, consistent with Siskiyou not being a VCA county so no EAP is required); searched the Siskiyou County Civil Grand Jury report archive (siskiyoucounty.gov/cgj/page/civil-grand-jury-reports, fetched directly) and found no report has ever covered the Elections/Clerk-Registrar department; searched local news (Siskiyou Daily News, KRCR, Action News Now) for any signature-verification feature story, found none for this county specifically (KRCR/Action News Now had a comparable feature for neighboring Tehama County but nothing for Siskiyou). Per project rule, 'never' requires positive support for ASV absence, not just an absence of evidence; since none was found, status is set to unknown rather than never. Locating queries used: '\"Siskiyou County\" elections vote by mail signature verification manual staff compare'; 'Siskiyou County elections office signature verification staff \"compare\" OR \"by eye\" OR \"visually\"'; 'Siskiyou County grand jury report elections office ballot processing'; 'Siskiyou County grand jury 2023 OR 2024 OR 2025 report elections department'; direct fetch of siskiyoucounty.gov/elections/page/vote-mail and the grand jury reports index. (Sources list backfilled by the orchestrating agent with the CA SoS voting-tech snapshot PDFs and the EAC EAVS datasets page that underpin the EPB finding described above, plus the county page named in this note.)"
+  },
+  {
+    "county": "Solano",
+    "slug": "solano-ca",
+    "epollbook_year": 2016,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://www.solanocounty.gov/government/registrar-voters/voting-mail",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county (named alongside Contra Costa in data/research/county-tech/san-francisco-ca.json as a Bay Area county that never adopted VCA). EAVS reports electronic-poll-book use True in all four editions (2016/2018/2022/2024); SoS snapshot confirms KNOWiNK PollPad in place by May 2022 (continues through Oct 2025). epollbook_year=2016 per earliest EAVS edition affirming use. ASV: quick search (\"Solano County\" elections signature verification vote by mail automated software) plus a direct fetch of the county's Voting By Mail page found no description of the verification method (automated or manual); page only covers registration-signature updates and an unsigned-ballot form. ASV not separately investigated beyond a quick search; epollbook establishes adopter status."
+  },
+  {
+    "county": "Sonoma",
+    "slug": "sonoma-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": 2022,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://sonoma-county.granicus.com/MetaViewer.php?view_id=2&clip_id=481&meta_id=155665",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: VCA vote-center county since June 2022 primary (SoS VCA Usage Summary range: '2022 Primary Election - 2024 General Election'). SoS snapshot May 2022 already shows a pollbook product ('DFM lite'), formalized to plain 'DFM' by Sept 2024/Oct 2025. EAVS 2022 and 2024 both True. ASV: quick search (\"Sonoma County\" elections signature verification vote by mail automated) surfaced a Sonoma County Board of Supervisors Granicus agenda record titled 'Agreement for automated Vote by Mail Signature Verification': clear positive evidence the county contracted for ASV, but the linked PDF (Granicus MetaViewer) would not render as extractable text via WebFetch or a jina.ai proxy (401/encoded-stream errors), so vendor name and effective date could not be confirmed. asv_year left null pending a readable copy of that agreement; note this is a stronger lead than a typical quick check and worth revisiting with direct PDF access."
+  },
+  {
+    "county": "Stanislaus",
+    "slug": "stanislaus-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": 2022,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://www.stanvote.com/",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: VCA vote-center county since June 2022 primary (SoS VCA Usage Summary range: '2022 Primary Election - 2024 General Election'). SoS snapshot May 2022 already shows a pollbook product ('DIMS/Runbeck'), continuing as 'DIMS Panorama' Sept 2024/Oct 2025. EAVS 2022 and 2024 both True. ASV: quick search (\"Stanislaus County\" elections signature verification vote by mail automated software) found only generic language that envelopes are 'verified and processed the same as all other vote-by-mail ballots' with signatures 'checked later at the elections office before ballots are tabulated': leans manual but not a definitive statement either way, no vendor or automation confirmed. ASV not separately investigated beyond a quick search; epollbook establishes adopter status."
+  },
+  {
+    "county": "Sutter",
+    "slug": "sutter-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2022-1.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-2.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county (traditional precinct polling). SoS snapshot May 2022 already shows DFM (continues through Oct 2025). EAVS 2018=False, 2022=True brackets adoption to (2018,2022]. ASV: quick search (\"Sutter County\" elections signature verification vote by mail) found only generic signature-required language and a note that phone VBM requests are disallowed 'due to required signature verification': no automation or manual-only statement found. ASV not separately investigated beyond a quick search; epollbook establishes adopter status. (Sources list backfilled by the orchestrating agent with the CA SoS voting-tech snapshot PDFs and the EAC EAVS datasets page that underpin the EPB finding described above.)"
+  },
+  {
+    "county": "Tehama",
+    "slug": "tehama-ca",
+    "epollbook_year": null,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "never",
+    "confidence": "medium",
+    "sources": [
+      "https://krcrtv.com/news/local/tehama-county-clerk-process-of-distinguishing-voter-fraud",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county. SoS voting-tech snapshots show 'Do not use' continuously May 2022/Sept 2024/Oct 2025; EAVS False in all four editions. Consistent never-adopter signal for epollbook. ASV: real search effort found positive evidence of manual-only signature verification. A KRCR News 7 feature ('Tehama County Clerk: process of distinguishing voter fraud', fetched directly) quotes Tehama County Clerk Jennifer Vise describing the process: 'We look for slants, loops, certain characteristics of a signature to make sure that it does not match,' and states that 'two people compare the signatures on the ballots to signatures from the past records' at the County Clerk's office; mismatches are sent to the District Attorney's office. No software, scanner, or automated matching tool is mentioned anywhere in the article; the described process is a two-person, eyes-on visual comparison. This is positive support for ASV absence, so status is set to never (both epollbook_year and asv_year remain null). Confidence medium: single local-news source, no corroborating official county document (Tehama's own vote-by-mail page describes only the signature requirement and cure process, not the comparison method) or grand jury report on this specific point (the 2018-19 Tehama grand jury report touched on elections generally but full text with a specific verification-method quote was not independently re-confirmed). Locating queries used: '\"Tehama County\" elections vote by mail signature verification manual staff compare'; 'Tehama County elections office signature verification staff \"compare\" OR \"by eye\" OR \"visually\" scanner' (surfaced the KRCR article); direct fetch of krcrtv.com/news/local/tehama-county-clerk-process-of-distinguishing-voter-fraud."
+  },
+  {
+    "county": "Trinity",
+    "slug": "trinity-ca",
+    "epollbook_year": null,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "unknown",
+    "confidence": "low",
+    "sources": [
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2022-1.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-2.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys",
+      "https://www.trinitycounty.org/214/Elections"
+    ],
+    "note": "EPB: NOT a VCA county. SoS voting-tech snapshots show 'Do not use' continuously May 2022/Sept 2024/Oct 2025; EAVS False in all four editions. Consistent never-adopter signal for epollbook. ASV: real search effort found no positive evidence either way. Checked the county's own Elections page (trinitycounty.org/214/Elections, fetched directly), which covers general duties and a mailing-vendor error notice but not the signature-verification method; a Trinity Journal article on a Dec-2020 grand jury visit to the elections office (fetched directly) praised the county's ballot handling and hand-tally redundancy but did not describe the signature-comparison method specifically; searched the Trinity County Grand Jury Reports & Responses archive (trinitycounty.org/238/Grand-Jury-Reports-Responses, fetched directly) and the one report retrievable from search (2022 JUR-2022-001) turned out to be a County Counsel/cannabis-licensing review, not elections-related, and no elections-specific grand jury report was found. Per project rule, 'never' requires positive support for ASV absence, not just an absence of evidence; since none was found, status is set to unknown rather than never. Locating queries used: '\"Trinity County\" elections vote by mail signature verification manual staff compare'; 'Trinity County grand jury report elections office ballot processing'; 'Trinity County grand jury 2022 OR 2023 OR 2024 report elections department signature'; direct fetch of trinitycounty.org/214/Elections, the Trinity Journal Dec-2020 grand jury article, and the Grand Jury Reports & Responses index page. (Sources list backfilled by the orchestrating agent with the CA SoS voting-tech snapshot PDFs and the EAC EAVS datasets page that underpin the EPB finding described above, plus the county page named in this note.)"
+  },
+  {
+    "county": "Tulare",
+    "slug": "tulare-ca",
+    "epollbook_year": 2016,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2022-1.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-2.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county (traditional precinct polling). EAVS reports electronic-poll-book use True in all four editions (2016/2018/2022/2024). SoS snapshot confirms KNOWiNK PollPad in place by May 2022, switching to DFM by Sept 2024 (continues Oct 2025): a vendor change, not a re-adoption. epollbook_year=2016 per earliest EAVS edition affirming use. ASV: quick search (\"Tulare County\" elections signature verification vote by mail automated software) found only generic statewide signature-required language, no county-specific automation or manual-only statement found. ASV not separately investigated beyond a quick search; epollbook establishes adopter status. (Sources list backfilled by the orchestrating agent with the CA SoS voting-tech snapshot PDFs and the EAC EAVS datasets page that underpin the EPB finding described above.)"
+  },
+  {
+    "county": "Tuolumne",
+    "slug": "tuolumne-ca",
+    "epollbook_year": 2020,
+    "asv_year": null,
+    "vca_year": 2020,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://www.tuolumnecounty.ca.gov/194/Election-Information",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: VCA vote-center county since March 2020 primary (SoS VCA Usage Summary range: '2020 Primary Election - 2024 General Election'). SoS snapshots show KNOWiNK PollPad continuously May 2022/Sept 2024/Oct 2025. EAVS 2022 and 2024 both True. ASV: quick search (\"Tuolumne County\" elections signature verification vote by mail) found county language that 'county elections staff verify every signature on every ballot envelope and scan them to ensure each signature matches voter registration records': staff-driven ('verify') phrasing leans manual, though 'scan' is ambiguous (could be simple imaging). Not a definitive automated-vs-manual statement. asv_year stays null; status remains adopter per schema."
+  },
+  {
+    "county": "Ventura",
+    "slug": "ventura-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": 2022,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://clerkrecorder.venturacounty.gov/can-i-have-your-autograph-how-signature-verification-protects-vote-by-mail/",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: VCA vote-center county since June 2022 primary (SoS VCA Usage Summary range: '2022 Primary Election - 2024 General Election'). SoS snapshot May 9 2022 already shows DFM; Sept 2024 and Oct 2025 revert to 'Do not use' despite the county's own VCA usage data showing continued active vote-center operation through the 2024 General (Sacramento-pattern reversal, same reasoning as Calaveras/Mariposa; treated as adopter by analogy). EAVS 2022=True, 2024=False. Flagged as a judgment call. ASV: quick search (\"Ventura County\" elections signature verification vote by mail automated software Parascript) found the county's own Clerk-Recorder/Registrar of Voters article 'Can I Have Your Autograph? How Signature Verification Protects Vote-by-Mail,' which states VBM envelopes are 'first fed through a high-speed mail scanner ... that captures an image of the voter's signature and compares it to their voter record, sorting the envelopes based on whether the signature is a match, not a match, or missing,' with ALL signatures then also manually re-checked by a human verifier. This is clear evidence of automated signature-matching (hybrid ASV + human confirmation), not just imaging. Direct WebFetch of the article page returned no extractable content (likely bot-blocked); finding is based on the WebSearch snippet of that URL. Could not pin an adoption year or vendor in the time available; asv_year left null (adoption confirmed, year undetermined)."
+  },
+  {
+    "county": "Yolo",
+    "slug": "yolo-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": 2022,
+    "status": "adopter",
+    "confidence": "high",
+    "sources": [
+      "https://elections.yolocounty.gov/242/How-Vote-by-Mail-Ballots-are-Counted",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: VCA vote-center county since June 2022 primary (SoS VCA Usage Summary range: '2022 Primary Election - 2024 General Election'). SoS snapshot May 2022 already shows Tenex Precinct Central (continues through Oct 2025). EAVS 2022 and 2024 both True. ASV: quick search (\"Yolo County\" elections signature verification vote by mail automated) found the county's own page stating VBM envelopes go through the 'Agilis' machine (Runbeck Election Services), which scans the barcode and 'takes a picture of the voter's signature,' after which 'Yolo County Elections staff compare the signature on the envelope with the signatures on file': explicit statement that the machine only images the signature and a human does the actual comparison. Positive evidence of manual-only signature matching despite automated mail sorting. asv_year stays null; status remains adopter per schema (epollbook alone is sufficient)."
+  },
+  {
+    "county": "Yuba",
+    "slug": "yuba-ca",
+    "epollbook_year": 2022,
+    "asv_year": null,
+    "vca_year": null,
+    "status": "adopter",
+    "confidence": "medium",
+    "sources": [
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2022-1.pdf",
+      "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-2.pdf",
+      "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys"
+    ],
+    "note": "EPB: NOT a VCA county (traditional precinct polling). SoS snapshot May 9 2022 = 'Do not use'; EAVS 2022 edition (Nov 2022 general) = True; SoS snapshot Sept 2024 = KNOWiNK PollPad (continues Oct 2025). Plausible timing: adopted between the May 2022 snapshot and the Nov 2022 general. epollbook_year=2022. ASV: quick search (\"Yuba County\" elections signature verification vote by mail) found only generic language that signatures are 'compared against the signature on the voter's registration' with a cure process for mismatches, no automation or manual-only statement found. ASV not separately investigated beyond a quick search; epollbook establishes adopter status. (Sources list backfilled by the orchestrating agent with the CA SoS voting-tech snapshot PDFs and the EAC EAVS datasets page that underpin the EPB finding described above.)"
+  }
+]
