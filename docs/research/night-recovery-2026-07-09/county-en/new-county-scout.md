@@ -111,7 +111,7 @@ Costa is the weakest of the 6 Step-2 candidates so far probed.**
 
 Strong positive find: a Wayback capture of
 `recorder.countyofventura.org/county-clerk/press-releases/` (2016-05-24)
-shows a real "Press Releases — Search by year 2016 2015 2014 2013 2012 2011
+shows a real "Press Releases - Search by year 2016 2015 2014 2013 2012 2011
 2010" archive built into the site nav, i.e. a citable multi-year press
 release index reaching back past our target window. The specific page
 fetched (a May 2016 snapshot) lists only pre-election-day releases (voter
@@ -389,6 +389,8 @@ JSON API directly:
   HTML-only limitation from RUNBOOK 7.2: no JSON was ever published for
   these Contra Costa elections.
 
+Probe URL: https://results.enr.clarityelections.com/CA/Contra_Costa/10460/15737/json/sum.json
+
 **Conclusion: Contra Costa's Clarity footprint is limited to special
 elections, and none of those special elections publish JSON.** No Nov-general
 year is recoverable via Clarity for Contra Costa. This does not disqualify
@@ -413,6 +415,7 @@ Per-eid electionsettings.json (`settings.electiondetails.electiondate` /
   RUNBOOK 7.2's version-bracket method).
   `json/sum.json` at this version returns real contest data:
   `Contests[0].BC = 72631`. **JSON: YES.**
+  Probe URL: https://results.enr.clarityelections.com/CA/Merced/64651/184354/json/sum.json
 - **eid 71885** = electiondate 11/16/2017 (internalname not captured, but
   the date confirms an off-cycle November 2017 special/municipal election,
   not one of our target even-year Nov generals). Not relevant to this
@@ -426,6 +429,7 @@ Per-eid electionsettings.json (`settings.electiondetails.electiondate` /
   (electionsettings.json 200; sum.json not separately re-checked for this eid
   to conserve requests, but the identical API shape as 64651 makes it
   extremely likely to work; a Task 11/12 recovery pass should re-verify).
+  Probe URL: https://results.enr.clarityelections.com/CA/Merced/92905/223374/json/sum.json
 
 A further CDX query `from=20220901&to=20241215` returns 300 rows (capped)
 spanning 8 distinct eids (116138, 111519, 102793, 120376, 113945, 107145,
@@ -453,6 +457,7 @@ cleanly), but `json/sum.json` returns real data for both:
   this window; Shasta's registered-voter scale makes both years plausible
   and this memo does NOT have a certified-total cross-check handy to
   disambiguate (would need the SoS SoV PDF, out of scope for a scout pass).
+  Probe URL: https://results.enr.clarityelections.com/CA/Shasta/22577/43930/json/sum.json
 - eid 39813, current version: `Contests[0].C = "DEM - PRESIDENTIAL PREFERENCE - DEMOCRATIC"`,
   `BC = 45233` - this is a **June PRESIDENTIAL PRIMARY subtotal (one party's
   ballot type), not a Nov general.** Off-target for this dataset.
@@ -492,6 +497,7 @@ Clarity CDN rather than a Wayback replay) returns real data:
   This is the single strongest pre-2018 find of the whole scout: Ventura
   2012 sits right in the scarcest part of the target range (RUNBOOK ranking
   weights pre-2018 years highest) with a clean, unambiguous, non-reused eid.
+  Probe URL: https://results.enr.clarityelections.com/CA/Ventura/43954/113575/json/sum.json
 - eid 39536: `Contests[0].C = "DEM - Pres Pref - DEMOCRATIC Primary"`,
   `BC = 133,800` - a June presidential-primary subtotal (most likely June
   2016), off-target for this dataset, same pattern as Shasta's 39813.
