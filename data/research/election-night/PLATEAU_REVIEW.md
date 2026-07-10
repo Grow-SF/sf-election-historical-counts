@@ -31,8 +31,33 @@ timestamp, not a genuine second independent leg per section 8. Running
 totals: 55 CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2
 REFUTED_AND_CORRECTED.
 
+UPDATE (2026-07-10, Del Norte County control-county integration): five new
+rows added for del-norte-ca (2014, 2016, 2018, 2022, 2024; 2012 is a
+documented null, no plateau_review entry), a never-adopter control county
+(second control alongside Lake). All five verdicts CONFIRMED: 2016/2018/2024
+via a document self-labeled 'Election Night Final' (or equivalent) plus the
+report series' next file being days later at a higher, differently-labeled
+count; 2014 via the county's own dated index page provably listing only two
+pre-Final releases (no numbering-pattern inference needed) plus the 3-day
+gap to a relabeled Final that matches the certified total exactly; 2022 via
+four strictly-increasing same-night numbered reports plus a 6-day gap to a
+relabeled Final report. All five numerator PDFs are scanned (no text layer)
+Canon-photocopier reports, verified by 150dpi visual render (render_verified.json
+entries added). Two dossier corrections made on integration review: the 2016
+row's cited numerator URL pointed at the wrong release (Release 6, whose
+number is the certified total, not Release 4's night count) and has been
+corrected to Release 4's own exact matched Wayback capture; the 2022 row's
+PDF was mischaracterized as native-text and is in fact the same
+no-text-layer scan template as the other years. Running totals: 60
+CONFIRMED, 3 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2 REFUTED_AND_CORRECTED.
+
 | County | Date | Verdict | Basis | Evidence |
 |---|---|---|---|---|
+| del-norte-ca | 2014-11-04 | CONFIRMED | last surviving on-night release (provably the last of only 2 pre-Final releases per the county's own dated index page), still labeled Unofficial; next report 3 days later relabeled Final at the exact certified total | Release 2/3, footer timestamp 11/4/2014 10:05 PM, 18/18 precincts (100%), Total Voters 6,539/12,743 (51.31%); the index page (re-verified 2026-07-10) lists exactly Release 1, Release 2, Release 3-Final; Release 3 (11/7/2014, 3 days later) retitled 'General Election Final', Total Voters 7,332/12,743 -- exactly the SoS certified figure -- confirming Release 2 was the last report before the canvass resumed and completed |
+| del-norte-ca | 2016-11-08 | CONFIRMED | self-labeled 'Election Night Final' report, last of a numbered on-night release series, next report 8 days later at a higher count | Release 4/6, 11/8/2016 10:47:49 PM, 18/18 precincts (100%), Registered Voters 8,155/14,320 (56.95%); Release 5 (next in series) is dated 11/15/2016, 9,702/14,320 -- confirms Release 4 was the last report before the canvass resumed. Numerator URL corrected 2026-07-10 to Release 4's own exact matched Wayback capture (a working draft had cited Release 6's URL by mistake while carrying Release 4's number) |
+| del-norte-ca | 2018-11-06 | CONFIRMED | document explicitly titled 'ELECTION NIGHT FINAL REPORT'; next report 3 days later explicitly retitled to note late VBM additions | Release 4/5, 11/6/2018 9:42:38 PM, 18/18 precincts (100%), Registered Voters 7,127/14,289 (49.88%); Release 5 (11/9/2018, 3 days later) retitled 'Election Results With Late Vote By Mail', Times Cast 8,121/14,289 -- confirms Release 4 was the last report before the canvass resumed |
+| del-norte-ca | 2022-11-08 | CONFIRMED | last of 4 same-night numbered reports (strictly increasing timestamps, all election night); next artifact ('Final Unofficial Report' / 5th Report) 6 days later at a much higher count | Release 4/4, internal CreationDate 11/8/2022 9:40:53 PM, page stamp 'Data Refreshed 11/8/2022 9:39 PM', Turnout 6,312/15,024; 'Final Unofficial Report' (11/14/2022, 6 days later) Turnout 8,286/15,024 -- confirms Release 4 was the last report before the canvass resumed. Re-verified 2026-07-10: this PDF is also a no-text-layer scan (a working draft mischaracterized it as native-text), read visually |
+| del-norte-ca | 2024-11-05 | CONFIRMED | document explicitly titled 'Election Night Report ... Final Report'; next release 3 days later retitled 'Update' at a much higher count | Release 3/6, 11/5/2024 10:05:17 PM, 19/19 precincts (100%), Voters Cast 6,719/15,117 (44.45%); Release 4 (11/8/2024, 3 days later) retitled '11/08/2024 Update / Unofficial Results', Voters Cast 9,102/15,117 (60.21%) -- confirms Release 3 was the last report before the canvass resumed |
 | fresno-ca | 2016-11-08 | CONFIRMED | frozen GEMS live page, held past night | header 'Unofficial Final Results ... 11/9/2016 1:42:19 AM' at 592/592 precincts; the Nov 12 capture (the artifact) still shows the 1:42 AM report |
 | fresno-ca | 2024-11-05 | CONFIRMED | official county summary PDF, end of night | internal stamp 11/6/2024 12:30:26 AM at 478/478 (100%); next archived report (11/7 3:28 PM) jumped to 222,324 |
 | lake-ca | 2012-11-06 | CONFIRMED | self-described late-night timestamp + later capture of same URL overwritten to the certified final | result24.htm 2012-11-10 capture: 'Preliminary Election Results as of 11/06/2012 at 11:59:41 PM', 70/70 precincts, Total Ballots Cast 16,622; same URL's only later capture (2012-12-25) reads 'Final Results for Election ... Total Ballots Cast 23,685' (= certified final exactly) |

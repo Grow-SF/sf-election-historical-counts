@@ -1,5 +1,40 @@
 [
  {
+  "slug": "del-norte-ca",
+  "date": "2014-11-04",
+  "verdict": "CONFIRMED",
+  "basis": "last surviving on-night release (provably the last of only 2 pre-Final releases per the county's own dated index page), still labeled Unofficial; next report 3 days later relabeled Final at the exact certified total",
+  "evidence": "Release 2/3, footer timestamp 11/4/2014 10:05 PM, 18/18 precincts (100%), Total Voters 6,539/12,743 (51.31%); the index page (re-verified 2026-07-10) lists exactly Release 1, Release 2, Release 3-Final; Release 3 (11/7/2014, 3 days later) retitled 'General Election Final', Total Voters 7,332/12,743 -- exactly the SoS certified figure -- confirming Release 2 was the last report before the canvass resumed and completed"
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2016-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "self-labeled 'Election Night Final' report, last of a numbered on-night release series, next report 8 days later at a higher count",
+  "evidence": "Release 4/6, 11/8/2016 10:47:49 PM, 18/18 precincts (100%), Registered Voters 8,155/14,320 (56.95%); Release 5 (next in series) is dated 11/15/2016, 9,702/14,320 -- confirms Release 4 was the last report before the canvass resumed. Numerator URL corrected 2026-07-10 to Release 4's own exact matched Wayback capture (a working draft had cited Release 6's URL by mistake while carrying Release 4's number)"
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2018-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "document explicitly titled 'ELECTION NIGHT FINAL REPORT'; next report 3 days later explicitly retitled to note late VBM additions",
+  "evidence": "Release 4/5, 11/6/2018 9:42:38 PM, 18/18 precincts (100%), Registered Voters 7,127/14,289 (49.88%); Release 5 (11/9/2018, 3 days later) retitled 'Election Results With Late Vote By Mail', Times Cast 8,121/14,289 -- confirms Release 4 was the last report before the canvass resumed"
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2022-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "last of 4 same-night numbered reports (strictly increasing timestamps, all election night); next artifact ('Final Unofficial Report' / 5th Report) 6 days later at a much higher count",
+  "evidence": "Release 4/4, internal CreationDate 11/8/2022 9:40:53 PM, page stamp 'Data Refreshed 11/8/2022 9:39 PM', Turnout 6,312/15,024; 'Final Unofficial Report' (11/14/2022, 6 days later) Turnout 8,286/15,024 -- confirms Release 4 was the last report before the canvass resumed. Re-verified 2026-07-10: this PDF is also a no-text-layer scan (a working draft mischaracterized it as native-text), read visually"
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2024-11-05",
+  "verdict": "CONFIRMED",
+  "basis": "document explicitly titled 'Election Night Report ... Final Report'; next release 3 days later retitled 'Update' at a much higher count",
+  "evidence": "Release 3/6, 11/5/2024 10:05:17 PM, 19/19 precincts (100%), Voters Cast 6,719/15,117 (44.45%); Release 4 (11/8/2024, 3 days later) retitled '11/08/2024 Update / Unofficial Results', Voters Cast 9,102/15,117 (60.21%) -- confirms Release 3 was the last report before the canvass resumed"
+ },
+ {
   "slug": "fresno-ca",
   "date": "2016-11-08",
   "verdict": "CONFIRMED",

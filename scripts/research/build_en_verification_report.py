@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Merge cache/*_results.json into two committed reports:
 
-MACHINE_CHECK.md  - status of every machine check (168 rows: 84 denominator
-                    + up to 84 numerator, 62 in practice)
+MACHINE_CHECK.md  - status of every machine check (180 rows: 90 denominator
+                    + up to 90 numerator, fewer in practice)
 HUMAN_VERIFY.md   - the hand-check packet covering EVERY sourced row: machine
                     failures, secondary rows, operator-flagged blocked sources,
                     then all machine-confirmed rows. The machine pass only

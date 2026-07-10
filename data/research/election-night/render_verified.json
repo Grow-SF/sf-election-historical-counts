@@ -12,5 +12,40 @@
   "url": "https://web.archive.org/web/20181107121103/https://www.smcacre.org/november-6-2018-election-results",
   "evidence": "Precinct Ballots Cast 0 0.0% Vote Center Ballots Cast 26,210 6.6% Vote by Mail Ballots Cast 85,427 21.4% Total Ballots Cast 111,637 27.9%",
   "method": "Puppeteer render of the archived JS results page, verified 2026-07-01."
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2014-11-04",
+  "url": "https://web.archive.org/web/20211102111036id_/https://425abd7a-a-03565450-s-sites.googlegroups.com/a/co.del-norte.ca.us/elect/elections/election-results/november-4-2014-general-election/November%204%2C%202014%20General%20Election%20-%20Release%202.pdf",
+  "evidence": "DEL_20141104_E Summary Report Del Norte County Nov. 4, 2014 General Election Unofficial. Registration & Turnout 12,743 Voters. Total ... 6,539 51.31%. Footer: November 04, 2014 10:05 PM Page 1 of 3.",
+  "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV C5240 PDF) archived PDF to PNG, read visually; verified 2026-07-10."
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2016-11-08",
+  "url": "https://web.archive.org/web/20201111052354id_/https://b012f97e-a-03565450-s-sites.googlegroups.com/a/co.del-norte.ca.us/dnco/departments/clerk-recorder/elections/election-results/november-8-2016-general-election-results/November%208%2C%202016%20General%20Election%20Results%20-%20Release%204.pdf?attachauth=ANoY7crZ3u9uMBbDoq8_7PPqlwXp8FBRiq_Hc508Z099eoeFiu5ijSbO7qJEI-OMzHPKApEpuEWgWy2oTkyFNa1Y1bV3dAKSnZLhGtUumx5iRpJnjrlwFIINYptg1bPKo3zLhH_cUwa8W3B4Ib91AU8RtVc0rWxnKDydWIxj0U7K1Efk-zwMeyzM12PBtRuJ0GlE1vDbb7jsE8UqvSZ8GCVXRNxkwhUMdcUMwPf-wFOrlleOs7KGmEXQMLPD36kpsuLM_kdOZQbFT9b-QAOxx5CFnV4r5886-WhkuMCwxrL5aoAGfC-GTNIdjAO8YF41r2y2rvGvIm6z8H4SkNjgo1WrmuJdSLKO-2inA46ukHpF7NGaOx_HBkKKdd-rQL9IceYjVgidptdRVV-rlx22_3EgTJ9kcoRWpQ%3D%3D&attredirects=0&d=1",
+  "evidence": "Page: 1 of 9 11/8/2016 10:47:49 PM. Election Summary Report General Election County of Del Norte November 08, 2016. Unofficial Results Election Night Final 18 Precincts Reporting. Precincts Reported: 18 of 18 (100.00%) Registered Voters: 8,155 of 14,320 (56.95%) Ballots Cast: 16,605.",
+  "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV C5240 PDF) archived PDF to PNG, read visually; verified 2026-07-10."
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2018-11-06",
+  "url": "https://web.archive.org/web/20201111052344id_/https://b012f97e-a-03565450-s-sites.googlegroups.com/a/co.del-norte.ca.us/dnco/departments/clerk-recorder/elections/election-results/november-6-2018-general-election/November%206%2C%202018%20General%20Election%20Results%20-%20Release%204.pdf",
+  "evidence": "Page: 1 of 12 11/6/2018 9:42:38 PM. Summary for: All Contests, All Districts, All Tabulators, All Counting Groups. STATEWIDE GENERAL ELECTION TUESDAY, NOVEMBER 6, 2018 ELECTION NIGHT SUMMARY REPORT ELECTION NIGHT FINAL REPORT (UNOFFICIAL RESULTS). Precincts Reported: 18 of 18 (100.00%) Registered Voters: 7,127 of 14,289 (49.88%) Ballots Cast: 7,127.",
+  "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV C5240 PDF) archived PDF to PNG, read visually; verified 2026-07-10."
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2022-11-08",
+  "url": "https://drive.google.com/uc?export=download&id=131PTrk6-v_7MrZiAlLp8BzoQzysS97eu",
+  "evidence": "Report #3 Del Norte Del Norte 2022 Statewide General Election November 8, 2022 4th Report - 19 Precincts Reporting. Total Registration and Turnout 15,024 6,312. Data Refreshed: Tuesday, November 8, 2022 9:39 PM.",
+  "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV C5740 PDF) live Google Drive PDF to PNG, read visually; verified 2026-07-10."
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2024-11-05",
+  "url": "https://drive.google.com/uc?export=download&id=1U3HX1aB8Fim-Ca6_qL_EdSPliM8OHpYB",
+  "evidence": "Page: 1 of 6 11/5/2024 10:05:17 PM. Election Summary Report General Election Del Norte County November 05, 2024. Election Night Report Unofficial Results Final Report. Precincts Reported: 19 of 19 (100.00%) Voters Cast: 6,719 of 15,117 (44.45%).",
+  "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV C5740 PDF) live Google Drive PDF to PNG, read visually; verified 2026-07-10."
  }
 ]

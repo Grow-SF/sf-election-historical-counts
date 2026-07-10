@@ -65,6 +65,46 @@ note for any row is its detail bullet in VERIFY.md (same directory).
 
 ## 4. Machine-confirmed rows (number is at the URL; plateau read still owed)
 
+- [ ] **del-norte-ca 2014-11-04** (plateau check)
+      claimed: night ballots **6,539**, certified final **7,332**, share **89.18%**
+      numerator URL: https://web.archive.org/web/20211102111036id_/https://425abd7a-a-03565450-s-sites.googlegroups.com/a/co.del-norte.ca.us/elect/elections/election-results/november-4-2014-general-election/November%204%2C%202014%20General%20Election%20-%20Release%202.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: PLATEAU = Release 2 of 3 in the county's numbered 2014 election-night PDF series (county's OLDER Google-Sites-hosted domain elections.co.del-norte.ca.us, site name 'elect', distinct from the co.del-norte.ca.us/'dnco' site used 2016-2020). Internal report footer timestamp 11/4/2014 10:05 PM, header '
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for del-norte-ca 2014-11-04
+      controller verdict: CONFIRMED (last surviving on-night release (provably the last of only 2 pre-Final releases per the county's own dated index page), still labeled Unofficial; next report 3 days later relabeled Final at the exact certified total)
+
+- [ ] **del-norte-ca 2016-11-08** (plateau check)
+      claimed: night ballots **8,155**, certified final **9,790**, share **83.3%**
+      numerator URL: https://web.archive.org/web/20201111052354id_/https://b012f97e-a-03565450-s-sites.googlegroups.com/a/co.del-norte.ca.us/dnco/departments/clerk-recorder/elections/election-results/november-8-2016-general-election-results/November%208%2C%202016%20General%20Election%20Results%20-%20Release%204.pdf?attachauth=ANoY7crZ3u9uMBbDoq8_7PPqlwXp8FBRiq_Hc508Z099eoeFiu5ijSbO7qJEI-OMzHPKApEpuEWgWy2oTkyFNa1Y1bV3dAKSnZLhGtUumx5iRpJnjrlwFIINYptg1bPKo3zLhH_cUwa8W3B4Ib91AU8RtVc0rWxnKDydWIxj0U7K1Efk-zwMeyzM12PBtRuJ0GlE1vDbb7jsE8UqvSZ8GCVXRNxkwhUMdcUMwPf-wFOrlleOs7KGmEXQMLPD36kpsuLM_kdOZQbFT9b-QAOxx5CFnV4r5886-WhkuMCwxrL5aoAGfC-GTNIdjAO8YF41r2y2rvGvIm6z8H4SkNjgo1WrmuJdSLKO-2inA46ukHpF7NGaOx_HBkKKdd-rQL9IceYjVgidptdRVV-rlx22_3EgTJ9kcoRWpQ%3D%3D&attredirects=0&d=1
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = county's own numbered election-night release series, Release 4 of 6, self-labeled 'Unofficial Results / Election Night Final', internal page-header timestamp 11/8/2016 10:47:49 PM, 18 of 18 precincts (100.00%) reporting. Registered Voters 8,155 of 14,320 (56.95%). Series ran Release 1 (8:0
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for del-norte-ca 2016-11-08
+      controller verdict: CONFIRMED (self-labeled 'Election Night Final' report, last of a numbered on-night release series, next report 8 days later at a higher count)
+
+- [ ] **del-norte-ca 2018-11-06** (plateau check)
+      claimed: night ballots **7,127**, certified final **8,439**, share **84.45%**
+      numerator URL: https://web.archive.org/web/20201111052344id_/https://b012f97e-a-03565450-s-sites.googlegroups.com/a/co.del-norte.ca.us/dnco/departments/clerk-recorder/elections/election-results/november-6-2018-general-election/November%206%2C%202018%20General%20Election%20Results%20-%20Release%204.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = Release 4 of 5 in the county's own numbered 2018 election-night PDF series, self-titled (exact document header) 'STATEWIDE GENERAL ELECTION / TUESDAY, NOVEMBER 6, 2018 / ELECTION NIGHT SUMMARY REPORT / ELECTION NIGHT FINAL REPORT (UNOFFICIAL RESULTS)', internal timestamp 11/6/2018 9:42:38 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for del-norte-ca 2018-11-06
+      controller verdict: CONFIRMED (document explicitly titled 'ELECTION NIGHT FINAL REPORT'; next report 3 days later explicitly retitled to note late VBM additions)
+
+- [ ] **del-norte-ca 2022-11-08** (plateau check)
+      claimed: night ballots **6,312**, certified final **8,450**, share **74.7%**
+      numerator URL: https://drive.google.com/uc?export=download&id=131PTrk6-v_7MrZiAlLp8BzoQzysS97eu
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = Release 4 ('Report #3' header / '4th Report - 19 Precincts Reporting' subtitle) of 4 same-night numbered reports in the county's live Google Drive election-postings archive (same archive used for the 2024 row; folder 'November 8, 2022 General Election', id 1t5FEPXr-4Ub5a2ABa9ItGgZi06WBmxgd
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for del-norte-ca 2022-11-08
+      controller verdict: CONFIRMED (last of 4 same-night numbered reports (strictly increasing timestamps, all election night); next artifact ('Final Unofficial Report' / 5th Report) 6 days later at a much higher count)
+
+- [ ] **del-norte-ca 2024-11-05** (plateau check)
+      claimed: night ballots **6,719**, certified final **10,676**, share **62.94%**
+      numerator URL: https://drive.google.com/uc?export=download&id=1U3HX1aB8Fim-Ca6_qL_EdSPliM8OHpYB
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = Release 3 of 6 in the county's numbered 2024 election-night PDF series, now hosted on a public Google Drive folder linked from the live Elections News page (successor to the pre-2020 Google-Sites attachment scheme; the numbering convention survived the CMS migration). Document explicitly s
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for del-norte-ca 2024-11-05
+      controller verdict: CONFIRMED (document explicitly titled 'Election Night Report ... Final Report'; next release 3 days later retitled 'Update' at a much higher count)
+
 - [ ] **fresno-ca 2016-11-08** (plateau check)
       claimed: night ballots **177,183**, certified final **291,890**, share **60.7%**
       numerator URL: https://web.archive.org/web/20161112171743/http://www2.co.fresno.ca.us/2850/Results/Results20161108.htm

@@ -43,6 +43,48 @@ This is the gold-standard series the county numbers are compared against.
 
 ## California counties (web-researched; verify each numerator at the URL given)
 
+### Del Norte County
+*Control county: never adopted e-pollbook or ASV (adoption years null both legs).*
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012 | presidential-general | — | 8,879 | — | none | — (not sourceable) |
+| 2014 | midterm-general | 6,539 | 7,332 | 89.2% | primary | [link](https://web.archive.org/web/20211102111036id_/https://425abd7a-a-03565450-s-sites.googlegroups.com/a/co.del-norte.ca.us/elect/elections/election-results/november-4-2014-general-election/November%204%2C%202014%20General%20Election%20-%20Release%202.pdf) |
+| 2016 | presidential-general | 8,155 | 9,790 | 83.3% | primary | [link](https://web.archive.org/web/20201111052354id_/https://b012f97e-a-03565450-s-sites.googlegroups.com/a/co.del-norte.ca.us/dnco/departments/clerk-recorder/elections/election-results/november-8-2016-general-election-results/November%208%2C%202016%20General%20Election%20Results%20-%20Release%204.pdf?attachauth=ANoY7crZ3u9uMBbDoq8_7PPqlwXp8FBRiq_Hc508Z099eoeFiu5ijSbO7qJEI-OMzHPKApEpuEWgWy2oTkyFNa1Y1bV3dAKSnZLhGtUumx5iRpJnjrlwFIINYptg1bPKo3zLhH_cUwa8W3B4Ib91AU8RtVc0rWxnKDydWIxj0U7K1Efk-zwMeyzM12PBtRuJ0GlE1vDbb7jsE8UqvSZ8GCVXRNxkwhUMdcUMwPf-wFOrlleOs7KGmEXQMLPD36kpsuLM_kdOZQbFT9b-QAOxx5CFnV4r5886-WhkuMCwxrL5aoAGfC-GTNIdjAO8YF41r2y2rvGvIm6z8H4SkNjgo1WrmuJdSLKO-2inA46ukHpF7NGaOx_HBkKKdd-rQL9IceYjVgidptdRVV-rlx22_3EgTJ9kcoRWpQ%3D%3D&attredirects=0&d=1) |
+| 2018 | midterm-general | 7,127 | 8,439 | 84.5% | primary | [link](https://web.archive.org/web/20201111052344id_/https://b012f97e-a-03565450-s-sites.googlegroups.com/a/co.del-norte.ca.us/dnco/departments/clerk-recorder/elections/election-results/november-6-2018-general-election/November%206%2C%202018%20General%20Election%20Results%20-%20Release%204.pdf) |
+| 2022 | midterm-general | 6,312 | 8,450 | 74.7% | primary | [link](https://drive.google.com/uc?export=download&id=131PTrk6-v_7MrZiAlLp8BzoQzysS97eu) |
+| 2024 | presidential-general | 6,719 | 10,676 | 62.9% | primary | [link](https://drive.google.com/uc?export=download&id=1U3HX1aB8Fim-Ca6_qL_EdSPliM8OHpYB) |
+
+<details><summary>What to look for on each source page (numerator) + denominator URL</summary>
+
+- **2012 presidential-general** — night `—` / final `8,879` = `—` (none)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf>
+  - look for: Certified final 8,879 Total Voters (CA SoS Voter Participation Statistics by County: 3,620 precinct + 5,259 VBM; 59.23% VBM). The county ran a numbered election-night release series (Release1.pdf-Release5_FINAL.pdf) whose dated index page IS archived, but every attachment link resolves only to a session-scoped redirect stub; the actual PDF bytes were never independently crawled by Wayback for any of the 5 releases (exact-URL CDX queries all return zero captures). No press-release archive reaches back to 2012; no usable local-news total found (the one plausibly relevant Triplicate story has no live URL and no Wayback capture). Election-night PLATEAU not sourceable; null per runbook 5.1.
+- **2014 midterm-general** — night `6,539` / final `7,332` = `89.2%` (primary)
+  - numerator: Release 2 of the county's 2014 election-night PDF series (Wayback, elections.co.del-norte.ca.us "elect" Google Site, redirect-resolved to the googlegroups content host)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf>
+  - look for: "Nov. 4, 2014 General Election Unofficial", 18 of 18 precincts (100.00%), Total Voters 6,539/12,743 (51.31%), page footer timestamp 11/4/2014 10:05 PM. The county's dated index page lists exactly 3 attachments (Release 1, Release 2, Release 3-Final), so Release 2 is provably the last pre-Final release. Release 3 (3 days later) is retitled "Final" and reads 7,332, exactly the certified total.
+- **2016 presidential-general** — night `8,155` / final `9,790` = `83.3%` (primary)
+  - numerator: Release 4 of the county's 2016 election-night PDF series (Wayback/archiveteam Google Sites rescue crawl; exact matched capture of Release 4 itself, not Release 6)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: "Unofficial Results / Election Night Final", 18 of 18 precincts (100.00%), Registered Voters 8,155/14,320 (56.95%), page-header timestamp 11/8/2016 10:47:49 PM.
+- **2018 midterm-general** — night `7,127` / final `8,439` = `84.5%` (primary)
+  - numerator: Release 4 of the county's 2018 election-night PDF series (Wayback/archiveteam Google Sites rescue crawl)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: "ELECTION NIGHT SUMMARY REPORT / ELECTION NIGHT FINAL REPORT (UNOFFICIAL RESULTS)", 18 of 18 precincts (100.00%), Registered Voters 7,127/14,289 (49.88%), internal timestamp 11/6/2018 9:42:38 PM.
+- **2022 midterm-general** — night `6,312` / final `8,450` = `74.7%` (primary)
+  - numerator: Release 4 / "4th Report" of the county's 2022 election-night PDF series (live Google Drive election-postings archive)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: "4th Report - 19 Precincts Reporting", "Data Refreshed: Tuesday, November 8, 2022 9:39 PM", Total Registration and Turnout Registered Voters 15,024 / Turnout 6,312.
+- **2024 presidential-general** — night `6,719` / final `10,676` = `62.9%` (primary)
+  - numerator: Release 3 of the county's 2024 election-night PDF series (live Google Drive election-postings archive linked from the county Elections News page)
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: "Election Night Report / Unofficial Results / Final Report", 19 of 19 precincts (100.00%), Voters Cast 6,719/15,117 (44.45%), page-header timestamp 11/5/2024 10:05:17 PM.
+
+</details>
+
+---
+
 ### Fresno County
 *Adoption: e-pollbook 2020, ASV 2020.*
 

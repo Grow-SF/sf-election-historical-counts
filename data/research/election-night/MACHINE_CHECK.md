@@ -9,6 +9,17 @@ verify_en_* scripts to regenerate).
 
 | County | Date | Check | Claimed | Status | Evidence (context around match) |
 |---|---|---|---:|---|---|
+| del-norte-ca | 2012-11-06 | denominator | 8,879 | VERIFIED | 18 18,250 12,516 3,620 5,259 8,879 59.23% 70.94% 48.65% |
+| del-norte-ca | 2014-11-04 | denominator | 7,332 | VERIFIED | 18 18,253 12,750 2,980 4,352 7,332 59.36% 57.51% 40.17% |
+| del-norte-ca | 2014-11-04 | numerator | 6,539 | VERIFIED | render-verified: DEL_20141104_E Summary Report Del Norte County Nov. 4, 2014 General Election Unofficial. Registration & |
+| del-norte-ca | 2016-11-08 | denominator | 9,790 | VERIFIED | 18 17,996 14,318 3,653 6,137 9,790 62.69% 68.38% 54.40% |
+| del-norte-ca | 2016-11-08 | numerator | 8,155 | VERIFIED | render-verified: Page: 1 of 9 11/8/2016 10:47:49 PM. Election Summary Report General Election County of Del Norte Novemb |
+| del-norte-ca | 2018-11-06 | denominator | 8,439 | VERIFIED | 18 18,039 14,150 2,898 5,541 8,439 65.66% 59.64% 46.78% |
+| del-norte-ca | 2018-11-06 | numerator | 7,127 | VERIFIED | render-verified: Page: 1 of 12 11/6/2018 9:42:38 PM. Summary for: All Contests, All Districts, All Tabulators, All Count |
+| del-norte-ca | 2022-11-08 | denominator | 8,450 | VERIFIED | 19 19,219 14,943 1,133 7,317 8,450 86.59% 56.55% 43.97% |
+| del-norte-ca | 2022-11-08 | numerator | 6,312 | VERIFIED | render-verified: Report #3 Del Norte Del Norte 2022 Statewide General Election November 8, 2022 4th Report - 19 Precinct |
+| del-norte-ca | 2024-11-05 | denominator | 10,676 | VERIFIED | 19 18,059 15,036 1,686 8,990 10,676 84.21% 71.00% 59.12% |
+| del-norte-ca | 2024-11-05 | numerator | 6,719 | VERIFIED | render-verified: Page: 1 of 6 11/5/2024 10:05:17 PM. Election Summary Report General Election Del Norte County November  |
 | fresno-ca | 2012-11-06 | denominator | 261,652 | VERIFIED | 611 559,268 410,188 119,543 142,109 261,652 54.31% 63.79% 46.78% |
 | fresno-ca | 2014-11-04 | denominator | 163,420 | VERIFIED | 577 572,045 416,433 64,901 98,519 163,420 60.29% 39.24% 28.57% |
 | fresno-ca | 2016-11-08 | denominator | 291,890 | VERIFIED | 592 583,238 437,423 131,787 160,103 291,890 54.85% 66.73% 50.05% |
