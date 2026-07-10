@@ -417,6 +417,54 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-diego-ca 2024-11-05
       controller verdict: CONFIRMED (self-describing final)
 
+- [ ] **san-luis-obispo-ca 2012-11-06** (plateau check)
+      claimed: night ballots **98,458**, certified final **126,818**, share **77.64%**
+      numerator URL: https://web.archive.org/web/20121118201304/http://www.slocounty.ca.gov:80/Assets/CR/Elections/November+6$!2c+2012+Presidential+General+Election/ElectionNightResults.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = 98,458, CONFIRMED. San Luis Obispo's own registrar posted a permanent PDF at the exact filename 'ElectionNightResults.pdf' under the 2012 election folder; the Wayback capture (crawled 11/18/2012, a static-file capture, not a version-pinned CDN) shows the report's own internal generation st
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-luis-obispo-ca 2012-11-06
+      controller verdict: CONFIRMED (self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket)
+
+- [ ] **san-luis-obispo-ca 2014-11-04** (plateau check)
+      claimed: night ballots **63,180**, certified final **87,705**, share **72.04%**
+      numerator URL: https://web.archive.org/web/20141114092811/http://www.slocounty.ca.gov/Assets/CR/Elections/November+4+$!2c+2014+Consolidated+General+Election/UENR.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: PLATEAU = 63,180, CONFIRMED. SLO's registrar posted 'UENR.pdf' (Unofficial Election Night Results) under the 2014 election folder; Wayback capture 20141114092816 302-redirects (mere 5-second timestamp alias, per RUNBOOK 7.1) to 20141114092811, the actual stored capture. Internal stamp: 'Election Sum
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-luis-obispo-ca 2014-11-04
+      controller verdict: CONFIRMED (self-titled FINAL UNOFFICIAL ELECTION NIGHT SUMMARY + later canvass report bracket)
+
+- [ ] **san-luis-obispo-ca 2016-11-08** (plateau check)
+      claimed: night ballots **95,560**, certified final **139,685**, share **68.41%**
+      numerator URL: https://web.archive.org/web/20161115102722/http://www.slocounty.ca.gov/Assets/CR/Elections/November+8$!2c+2016+Presidential+General+Election/Unofficial+Election+Night+Results.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = 95,560, CONFIRMED. SLO's registrar posted 'Unofficial Election Night Results.pdf' under the 2016 election folder. Internal stamp: 'Election Summary Report Date:11/09/16 Time:00:10:54 ... NOVEMBER 8, 2016 PRESIDENTIAL GENERAL ELECTION. FINAL UNOFFICIAL ELECTION NIGHT RESULTS. Registered Vot
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-luis-obispo-ca 2016-11-08
+      controller verdict: CONFIRMED (self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket)
+
+- [ ] **san-luis-obispo-ca 2018-11-06** (plateau check)
+      claimed: night ballots **81,663**, certified final **128,353**, share **63.62%**
+      numerator URL: https://web.archive.org/web/20210918155924/https://www.slocounty.ca.gov/Departments/Clerk-Recorder/Forms-Documents/Elections-and-Voting/Past-Elections/General-Elections/2018-11-06-Consolidated-General/Reports-and-Results/Unofficial-Election-Night-Summary-Report-2018-11.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = 81,663, CONFIRMED. SLO migrated to a CivicPlus-style CMS for 2018; the friendly '.aspx' landing page 301-redirects across a category-rename chain (Current-Elections -> Past-Elections), but the underlying static file survives at the matching '.pdf' path (RUNBOOK-style CMS quirk: the http://
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-luis-obispo-ca 2018-11-06
+      controller verdict: CONFIRMED (self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket)
+
+- [ ] **san-luis-obispo-ca 2022-11-08** (plateau check)
+      claimed: night ballots **58,096**, certified final **121,156**, share **47.95%**
+      numerator URL: https://web.archive.org/web/20221115203615/https://www.slocounty.ca.gov/Departments/Clerk-Recorder/Forms-Documents/Elections-and-Voting/Current-Elections/2022-11-08-Gubernatorial-General/Reports-and-Results/Final-Unofficial-Election-Night-Results.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = 58,096, CONFIRMED. SLO's registrar posted 'Final-Unofficial-Election-Night-Results.pdf' under the 2022 election folder; Wayback crawled it 11/15/2022 (the file's stable URL, unchanged since the night it was posted, per RUNBOOK 7.3's 'a frozen live-results file a later capture still shows u
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-luis-obispo-ca 2022-11-08
+      controller verdict: CONFIRMED (self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket)
+
+- [ ] **san-luis-obispo-ca 2024-11-05** (plateau check)
+      claimed: night ballots **82,548**, certified final **153,432**, share **53.8%**
+      numerator URL: https://web.archive.org/web/20241117025144/https://www.slocounty.ca.gov/departments/clerk-recorder/forms-documents/elections-and-voting/current-elections/2024-11-05-presidential-general/reports-and-results/2024-general-final-unofficial-electionnight
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = 82,548, CONFIRMED. SLO's registrar posted '2024-general-final-unofficial-electionnight' (extensionless friendly URL serving a PDF directly, content-type application/pdf) under the 2024 election folder. Internal stamp: 'Page: 1 of 24 11/6/2024 12:10:19 PM ... NOVEMBER 5, 2024, GENERAL ELECT
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-luis-obispo-ca 2024-11-05
+      controller verdict: CONFIRMED (self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket)
+
 - [ ] **san-mateo-ca 2012-11-06** (plateau check)
       claimed: night ballots **204,287**, certified final **288,592**, share **70.79%**
       numerator URL: https://smcacre.gov/system/files/migrated/acre/precinct_report_6.pdf

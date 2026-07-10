@@ -57,6 +57,13 @@
  },
  {
   "slug": "madera-ca",
+  "date": "2014-11-04",
+  "verdict": "PLAUSIBLE",
+  "basis": "computed floor: certified final minus clerk-quantified not-yet-counted ballots",
+  "evidence": "Madera Tribune Nov 7 2014 (docref news/15175914B6DDC6C0): Clerk Rebecca Martinez quantifies 4,385 late VBM + 973 provisional = 5,358 ballots 'left to be counted'; 27,370-5,358=22,012 (80.42%), self-consistent with the row's own prior-known Friday 2:14pm capture of 26,449 (26,449-22,012=4,437, close to the 4,385 late-VBM batch)"
+ },
+ {
+  "slug": "madera-ca",
   "date": "2016-11-08",
   "verdict": "CONFIRMED",
   "basis": "static county results page, frozen",
@@ -432,5 +439,47 @@
   "verdict": "CONFIRMED",
   "basis": "clarity version bracket, re-derived from CDN",
   "evidence": "cited v353328 stamped 11/6/2024 3:19:32 AM PST, PR 1,115/1,419, BC 267,226; next v353719 stamped 11/7/2024 4:04:33 PM PST, BC 278,636"
+ },
+ {
+  "slug": "san-luis-obispo-ca",
+  "date": "2012-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket",
+  "evidence": "ElectionNightResults.pdf stamped 11/07/12 00:08:03, 147/147 precincts, Cards Cast 98,458; 'UnofficialElectionResults.pdf' AFTER COUNTING 11/16/12 = 123,757; Final Official Election Results.pdf 11/28/12 = 126,818, matches SoS exactly"
+ },
+ {
+  "slug": "san-luis-obispo-ca",
+  "date": "2014-11-04",
+  "verdict": "CONFIRMED",
+  "basis": "self-titled FINAL UNOFFICIAL ELECTION NIGHT SUMMARY + later canvass report bracket",
+  "evidence": "UENR.pdf stamped 11/04/14 23:17:07, 163/163 precincts, Ballots Cast 63,180; '111214 UNOFFICIAL ELECTION RESULTS SUMMARY' 11/12/14 = 85,913; 'UNOFFICIAL FINAL ELECTION SUMMARY / BALLOT COUNTING IS COMPLETE' 11/18/14 = 87,705; FINAL OFFICIAL SUMMARY 11/19/14 = 87,705, matches SoS exactly"
+ },
+ {
+  "slug": "san-luis-obispo-ca",
+  "date": "2016-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket",
+  "evidence": "Unofficial Election Night Results.pdf stamped 11/09/16 00:10:54, 160/160 precincts, Ballots Cast 95,560; UNOFFICIAL ELECTION RESULTS AFTER COUNTING 11-23-16 = 133,675; FINAL OFFICIAL ELECTION RESULTS 12/2/16 = 139,685, matches SoS exactly"
+ },
+ {
+  "slug": "san-luis-obispo-ca",
+  "date": "2018-11-06",
+  "verdict": "CONFIRMED",
+  "basis": "self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket",
+  "evidence": "Unofficial-Election-Night-Summary-Report-2018-11.pdf stamped 11/7/2018 11:10:42 AM, 156/156 precincts, Ballots Cast 81,663; Final-Official-Election-Summary-Report-2018-11-0.pdf stamped 11/30/2018 3:55:35 PM = 128,353, matches SoS exactly"
+ },
+ {
+  "slug": "san-luis-obispo-ca",
+  "date": "2022-11-08",
+  "verdict": "CONFIRMED",
+  "basis": "self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket",
+  "evidence": "Final-Unofficial-Election-Night-Results.pdf stamped 11/9/2022 12:28:45 AM, 133/133 precincts, Voters Cast 58,096; UNOFFICIAL ELECTION RESULTS - 11/23/2022 UPDATE = 110,096; Final-Official-Election-Results.pdf stamped 12/7/2022 12:38:57 PM = 121,156, matches SoS exactly"
+ },
+ {
+  "slug": "san-luis-obispo-ca",
+  "date": "2024-11-05",
+  "verdict": "CONFIRMED",
+  "basis": "self-titled FINAL UNOFFICIAL ELECTION NIGHT RESULTS + later canvass report bracket",
+  "evidence": "2024-general-final-unofficial-electionnight stamped 11/6/2024 12:10:19 PM, 158/158 precincts, Voters Cast 82,548; UNOFFICIAL ELECTION RESULTS - UPDATE 11/8/2024 = 98,548; FINAL OFFICIAL ELECTION RESULTS stamped 12/3/2024 1:23:47 PM = 153,432, matches SoS exactly"
  }
 ]

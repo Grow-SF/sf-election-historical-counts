@@ -61,6 +61,13 @@ def source_text(url, dest_base):
         # Wayback's raw id_ replay serves the original content-encoding: gzip
         # bytes verbatim; curl (no --compressed) does not decode them.
         data = gzip.decompress(data)
+    if data[:4] == b"%PDF":
+        # Some CMS document URLs (e.g. a CivicPlus friendly slug with no
+        # .pdf suffix) still serve a real PDF; sniff the magic bytes rather
+        # than trust the URL shape, since the extension check above missed it.
+        pdf_dest = dest_base.with_suffix(".pdf")
+        pdf_dest.write_bytes(data)
+        return pdf_text(pdf_dest), pdf_dest
     raw = data.decode("utf-8", errors="replace")
     return (raw if bare.endswith(".json") else strip_html(raw)), dest
 

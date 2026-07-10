@@ -498,6 +498,49 @@ This is the gold-standard series the county numbers are compared against.
 
 ---
 
+### San Luis Obispo County
+*Adoption: e-pollbook 2026 (after this dataset's window; SLO is the second no-new-tech CONTROL, alongside SF), ASV never adopted, no VCA/vote-center ever.*
+
+| Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
+|---|---|---:|---:|---:|---|---|
+| 2012 | presidential-general | 98,458 | 126,818 | 77.6% | primary | [link](https://web.archive.org/web/20121118201304/http://www.slocounty.ca.gov:80/Assets/CR/Elections/November+6$!2c+2012+Presidential+General+Election/ElectionNightResults.pdf) |
+| 2014 | midterm-general | 63,180 | 87,705 | 72.0% | primary | [link](https://web.archive.org/web/20141114092811/http://www.slocounty.ca.gov/Assets/CR/Elections/November+4+$!2c+2014+Consolidated+General+Election/UENR.pdf) |
+| 2016 | presidential-general | 95,560 | 139,685 | 68.4% | primary | [link](https://web.archive.org/web/20161115102722/http://www.slocounty.ca.gov/Assets/CR/Elections/November+8$!2c+2016+Presidential+General+Election/Unofficial+Election+Night+Results.pdf) |
+| 2018 | midterm-general | 81,663 | 128,353 | 63.6% | primary | [link](https://web.archive.org/web/20210918155924/https://www.slocounty.ca.gov/Departments/Clerk-Recorder/Forms-Documents/Elections-and-Voting/Past-Elections/General-Elections/2018-11-06-Consolidated-General/Reports-and-Results/Unofficial-Election-Night-Summary-Report-2018-11.pdf) |
+| 2022 | midterm-general | 58,096 | 121,156 | 48.0% | primary | [link](https://web.archive.org/web/20221115203615/https://www.slocounty.ca.gov/Departments/Clerk-Recorder/Forms-Documents/Elections-and-Voting/Current-Elections/2022-11-08-Gubernatorial-General/Reports-and-Results/Final-Unofficial-Election-Night-Results.pdf) |
+| 2024 | presidential-general | 82,548 | 153,432 | 53.8% | primary | [link](https://web.archive.org/web/20241117025144/https://www.slocounty.ca.gov/departments/clerk-recorder/forms-documents/elections-and-voting/current-elections/2024-11-05-presidential-general/reports-and-results/2024-general-final-unofficial-electionnight) |
+
+<details><summary>What to look for on each source page (numerator) + denominator URL</summary>
+
+- **2012 presidential-general** — night `98,458` / final `126,818` = `77.6%` (primary)
+  - numerator: <https://web.archive.org/web/20121118201304/http://www.slocounty.ca.gov:80/Assets/CR/Elections/November+6$!2c+2012+Presidential+General+Election/ElectionNightResults.pdf>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf>
+  - look for: PLATEAU = SLO's own registrar PDF at a permanent filename, 'Election Summary Report Date:11/07/12 Time:00:08:03 ... FINAL UNOFFICIAL ELECTION NIGHT RESULTS. Registered Voters 158603 - Cards Cast 98458 62.08% ... Num. Reporting 147 100.00%'. Bracket proof: the same folder's 'UnofficialElectionResults.pdf' shows 'AFTER COUNTING 11/16/12' = 123,757, then 'Final Official Election Results.pdf' generated 11/28/12 = 126,818, matching the SoS certified total exactly. Pct = 98,458/126,818 = 77.64%. Pre-e-pollbook (2026); ASV never adopted.
+- **2014 midterm-general** — night `63,180` / final `87,705` = `72.0%` (primary)
+  - numerator: <https://web.archive.org/web/20141114092811/http://www.slocounty.ca.gov/Assets/CR/Elections/November+4+$!2c+2014+Consolidated+General+Election/UENR.pdf>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf>
+  - look for: PLATEAU = 'UENR.pdf' (Unofficial Election Night Results), 'Date:11/04/14 Time:23:17:07 ... FINAL UNOFFICIAL ELECTION NIGHT SUMMARY. Registered Voters 150139 - Ballots Cast 63180 42.08% ... Num. Reporting 163 100.00%'. Bracket proof: '111214 UNOFFICIAL ELECTION RESULTS SUMMARY' (11/12/14, 85,913) -> 'UNOFFICIAL FINAL ELECTION SUMMARY / BALLOT COUNTING IS COMPLETE' (11/18/14, 87,705) -> 'FINAL OFFICIAL SUMMARY' (11/19/14, 87,705, matches SoS exactly). Pct = 63,180/87,705 = 72.04%. Pre-e-pollbook; ASV never adopted.
+- **2016 presidential-general** — night `95,560` / final `139,685` = `68.4%` (primary)
+  - numerator: <https://web.archive.org/web/20161115102722/http://www.slocounty.ca.gov/Assets/CR/Elections/November+8$!2c+2016+Presidential+General+Election/Unofficial+Election+Night+Results.pdf>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: PLATEAU = 'Unofficial Election Night Results.pdf', 'Date:11/09/16 Time:00:10:54 ... FINAL UNOFFICIAL ELECTION NIGHT RESULTS. Registered Voters 168257 - Ballots Cast 95560 56.79% ... Num. Reporting 160 100.00%'. Bracket proof: 'UNOFFICIAL ELECTION RESULTS - AFTER COUNTING 11-23-16' (133,675) -> 'FINAL OFFICIAL ELECTION RESULTS' generated 12/2/16 = 139,685, matches SoS exactly. Pct = 95,560/139,685 = 68.41%. Pre-e-pollbook; ASV never adopted.
+- **2018 midterm-general** — night `81,663` / final `128,353` = `63.6%` (primary)
+  - numerator: <https://web.archive.org/web/20210918155924/https://www.slocounty.ca.gov/Departments/Clerk-Recorder/Forms-Documents/Elections-and-Voting/Past-Elections/General-Elections/2018-11-06-Consolidated-General/Reports-and-Results/Unofficial-Election-Night-Summary-Report-2018-11.pdf>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: PLATEAU = 'FINAL UNOFFICIAL ELECTION NIGHT RESULTS', generated 11/7/2018 11:10:42 AM PST (mid-morning after, canvass not yet resumed, same class of exception as San Bernardino 2024's 10 a.m. posting). 'Precincts Reported: 156 of 156 (100.00%). Ballots Cast: 81,663'. Bracket proof: 'FINAL OFFICIAL ELECTION RESULTS' generated 11/30/2018 3:55:35 PM = 128,353, matches SoS exactly (23-day gap). Pct = 81,663/128,353 = 63.62%. Pre-e-pollbook; ASV never adopted.
+- **2022 midterm-general** — night `58,096` / final `121,156` = `48.0%` (primary)
+  - numerator: <https://web.archive.org/web/20221115203615/https://www.slocounty.ca.gov/Departments/Clerk-Recorder/Forms-Documents/Elections-and-Voting/Current-Elections/2022-11-08-Gubernatorial-General/Reports-and-Results/Final-Unofficial-Election-Night-Results.pdf>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: PLATEAU = 'Final-Unofficial-Election-Night-Results.pdf', generated 11/9/2022 12:28:45 AM PST. 'Precincts Reported: 133 of 133 (100.00%). Voters Cast: 58,096 of 182,291 (31.87%)'. Bracket proof: 'UNOFFICIAL ELECTION RESULTS - 11/23/2022 UPDATE' (110,096) -> 'FINAL OFFICIAL ELECTION RESULTS' generated 12/7/22 = 121,156, matches SoS exactly. Pct = 58,096/121,156 = 47.95%. Sharp drop from 2018 despite NO tech change at SLO: tracks California's 2021 permanent-VBM law (AB 37) plus the extended 7-day postmark-counting window, a statewide confound independent of counting technology. Pre-e-pollbook; ASV never adopted.
+- **2024 presidential-general** — night `82,548` / final `153,432` = `53.8%` (primary)
+  - numerator: <https://web.archive.org/web/20241117025144/https://www.slocounty.ca.gov/departments/clerk-recorder/forms-documents/elections-and-voting/current-elections/2024-11-05-presidential-general/reports-and-results/2024-general-final-unofficial-electionnight>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: PLATEAU = '2024-general-final-unofficial-electionnight', generated 11/6/2024 12:10:19 PM PST (mid-morning after, canvass not yet resumed). 'Precincts Reported: 158 of 158 (100.00%). Voters Cast: 82,548 of 182,606 (45.21%)'. Bracket proof: 'UNOFFICIAL ELECTION RESULTS - UPDATE 11/8/2024' (98,548) -> 'FINAL OFFICIAL ELECTION RESULTS' generated 12/3/24 = 153,432, matches SoS exactly. Pct = 82,548/153,432 = 53.80%. Pre-e-pollbook (SLO's first e-pollbook election is June 2026); ASV never adopted. 2020 excluded as the COVID all-mail outlier.
+
+</details>
+
+---
+
 ### San Mateo County
 *Adoption: e-pollbook 2018.*
 
@@ -627,4 +670,4 @@ This is the gold-standard series the county numbers are compared against.
 
 ---
 
-_Generated 2026-07-09 from 14 county files (all 14 complete) + SF authoritative series._
+_Generated 2026-07-09 from 15 county files (all 15 complete) + SF authoritative series._

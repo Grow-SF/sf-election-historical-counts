@@ -467,22 +467,22 @@
    "state": "CA",
    "metric": "electionnight_pct",
    "year": 2022,
-   "value": null,
-   "denominator": "certified final ballots (not obtained)",
-   "source_url": null,
-   "confidence": "none",
-   "note": "Not computed: first post-poll-close ballot report vs certified-final denominator not collected in this pass."
+   "value": 47.95,
+   "denominator": "certified final ballots (58,096 / 121,156)",
+   "source_url": "https://web.archive.org/web/20221115203615/https://www.slocounty.ca.gov/Departments/Clerk-Recorder/Forms-Documents/Elections-and-Voting/Current-Elections/2022-11-08-Gubernatorial-General/Reports-and-Results/Final-Unofficial-Election-Night-Results.pdf",
+   "confidence": "primary",
+   "note": "UPDATED (2026-07-09, Task 12): now sourced from data/research/election-night/san-luis-obispo-ca.json (the county-en dataset). LAST election-night report ('FINAL UNOFFICIAL ELECTION NIGHT RESULTS', generated 11/9/2022 12:28:45 AM PST, 133/133 precincts, Voters Cast 58,096) divided by the certified final (CA SoS SoV, 121,156) = 47.95%."
   },
   {
    "jurisdiction": "San Luis Obispo County",
    "state": "CA",
    "metric": "electionnight_pct",
    "year": 2024,
-   "value": null,
-   "denominator": "certified final ballots (not obtained)",
-   "source_url": null,
-   "confidence": "none",
-   "note": "Not computed: would require SLO's first post-poll-close (election-night) ballot report divided by the certified-final ballot total. The first-report ballot count paired with a certified-final denominator was not collected in a comparable primary form in this pass; not substituting a different denominator (e.g. % of registered voters)."
+   "value": 53.8,
+   "denominator": "certified final ballots (82,548 / 153,432)",
+   "source_url": "https://web.archive.org/web/20241117025144/https://www.slocounty.ca.gov/departments/clerk-recorder/forms-documents/elections-and-voting/current-elections/2024-11-05-presidential-general/reports-and-results/2024-general-final-unofficial-electionnight",
+   "confidence": "primary",
+   "note": "UPDATED (2026-07-09, Task 12): now sourced from data/research/election-night/san-luis-obispo-ca.json (the county-en dataset), computed there per the researching-election-night-share/RUNBOOK methodology, not a different metric. LAST election-night report ('FINAL UNOFFICIAL ELECTION NIGHT RESULTS', generated 11/6/2024 12:10:19 PM PST, 158/158 precincts, Voters Cast 82,548) divided by the certified final (CA SoS SoV, 153,432) = 53.80%."
   },
   {
    "jurisdiction": "San Mateo County",
@@ -1881,9 +1881,9 @@
    "adopted_year": null,
    "first_election": "",
    "vendor": "",
-   "evidence_url": "https://www.slocounty.ca.gov/departments/clerk-recorder/all-services/elections-and-voting/vote-by-mail",
+   "evidence_url": "https://www.slocounty.ca.gov/departments/clerk-recorder/all-services/elections-and-voting/signature-cure-letters",
    "confidence": "secondary",
-   "note": "No automated signature-verification software found. SLO verifies vote-by-mail by comparing the signature on the return envelope to the signature on file (e.g. the voter's DMV/driver's-license signature); the Clerk-Recorder describes processing as 'scanning each envelope, checking their signature, determining if their ballots were eligible to be processed, counted, and adjudicated' (KSBY 2024), and mismatched/missing signatures trigger a statutory cure letter (Elections Code sec. 3019). No mention of automated signature-matching software (e.g. Parascript) or a high-speed signature-imaging sorter (Runbeck/BlueCrest) in county materials. SLO is not among the CA counties known to run ASV software (e.g. San Bernardino, Riverside). Finding by absence of evidence -> human comparison, secondary confidence."
+   "note": "FIRMED UP (2026-07-09, Task 12): the county's own official 'Signature \"Cure\" Letters' page (evidence_url, verified by curl fetch) states: 'The following information is provided pursuant to EC section 3019 regarding how to \"cure\" noncomparable and missing signatures on ballot identification envelopes,' i.e. SLO runs the standard statutory human-cure workflow (Elections Code 3019), not a description of any automated signature-matching product. Independently, KSBY's 'San Luis Obispo County introduces new tech for upcoming elections' (the same article cited for the epollbook row above; verified by curl fetch) describes SLO's one piece of signature-adjacent hardware in enough operational detail to rule out ASV directly: the Agilis Election Mail Sorting and Processing System (Runbeck) 'quickly sends mail-in ballots past a camera, which scans the ballots for voter signatures, then separates them into groups of 200. If any mail-in ballot envelopes have an abnormality, like a missing signature, that envelope will be separated from the group so poll workers can double-check it. Once those signatures are verified, the ballots are sent through the machine again to be opened.' This is an imaging/sorting machine that FLAGS anomalies for a human poll worker to verify by eye; it does not itself perform algorithmic signature matching (contrast with true ASV products like Parascript, which auto-score the match and only escalate low-confidence cases to a human). No mention of any signature-matching software in county materials, procurement records, or news coverage found in this pass. Confidence held at secondary (both citations are, respectively, an official process page that does not explicitly rule out software and a news description of hardware, not a registrar statement saying 'we do not use ASV'), but this is a firmer, more specific pair of primary-adjacent citations than the previous pass's generic 'absence of evidence' finding (which cited only the vote-by-mail overview page, a page that does not in fact discuss the verification process at all upon re-check)."
   },
   {
    "jurisdiction": "San Luis Obispo County",

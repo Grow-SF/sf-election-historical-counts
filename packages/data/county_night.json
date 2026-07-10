@@ -879,6 +879,78 @@
       ]
     },
     {
+      "name": "San Luis Obispo",
+      "slug": "san-luis-obispo-ca",
+      "control": false,
+      "complete": true,
+      "adoption": {
+        "epollbook": 2026,
+        "asv": null
+      },
+      "points": [
+        {
+          "year": 2012,
+          "type": "presidential",
+          "pct": 77.64,
+          "ballots": 98458,
+          "final": 126818,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20121118201304/http://www.slocounty.ca.gov:80/Assets/CR/Elections/November+6$!2c+2012+Presidential+General+Election/ElectionNightResults.pdf"
+        },
+        {
+          "year": 2014,
+          "type": "midterm",
+          "pct": 72.04,
+          "ballots": 63180,
+          "final": 87705,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20141114092811/http://www.slocounty.ca.gov/Assets/CR/Elections/November+4+$!2c+2014+Consolidated+General+Election/UENR.pdf"
+        },
+        {
+          "year": 2016,
+          "type": "presidential",
+          "pct": 68.41,
+          "ballots": 95560,
+          "final": 139685,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20161115102722/http://www.slocounty.ca.gov/Assets/CR/Elections/November+8$!2c+2016+Presidential+General+Election/Unofficial+Election+Night+Results.pdf"
+        },
+        {
+          "year": 2018,
+          "type": "midterm",
+          "pct": 63.62,
+          "ballots": 81663,
+          "final": 128353,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20210918155924/https://www.slocounty.ca.gov/Departments/Clerk-Recorder/Forms-Documents/Elections-and-Voting/Past-Elections/General-Elections/2018-11-06-Consolidated-General/Reports-and-Results/Unofficial-Election-Night-Summary-Report-2018-11.pdf"
+        },
+        {
+          "year": 2022,
+          "type": "midterm",
+          "pct": 47.95,
+          "ballots": 58096,
+          "final": 121156,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20221115203615/https://www.slocounty.ca.gov/Departments/Clerk-Recorder/Forms-Documents/Elections-and-Voting/Current-Elections/2022-11-08-Gubernatorial-General/Reports-and-Results/Final-Unofficial-Election-Night-Results.pdf"
+        },
+        {
+          "year": 2024,
+          "type": "presidential",
+          "pct": 53.8,
+          "ballots": 82548,
+          "final": 153432,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20241117025144/https://www.slocounty.ca.gov/departments/clerk-recorder/forms-documents/elections-and-voting/current-elections/2024-11-05-presidential-general/reports-and-results/2024-general-final-unofficial-electionnight"
+        }
+      ]
+    },
+    {
       "name": "San Mateo",
       "slug": "san-mateo-ca",
       "control": false,

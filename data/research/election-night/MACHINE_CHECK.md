@@ -119,6 +119,18 @@ verify_en_* scripts to regenerate).
 | san-diego-ca | 2022-11-08 | numerator | 565,982 | VERIFIED | (dataArray, colorObject, elem); })(); Ballots Cast 565,982 Mail Ballots 468,632 Vote Center Ballots |
 | san-diego-ca | 2024-11-05 | denominator | 1,503,018 | VERIFIED | 2,669 2,353,145 1,982,264 227,714 1,275,304 1,503,018 84.85% 75.82% 63.87% |
 | san-diego-ca | 2024-11-05 | numerator | 975,373 | VERIFIED | taArray, colorObject, elem); })(); Ballots Counted 975,373 Mail Ballots 787,702 Vote Center Ballots |
+| san-luis-obispo-ca | 2012-11-06 | denominator | 126,818 | VERIFIED | bispo 147 201,390 158,603 46,578 80,240 126,818 63.27% 79.96% 62.97% |
+| san-luis-obispo-ca | 2012-11-06 | numerator | 98,458 | VERIFIED | FINAL UNOFFICIAL ELECTION NIGHT RESULTS Registered Voters 158603 - Cards Cast 98458 62.08% Num. Report Precinct 147 - Nu |
+| san-luis-obispo-ca | 2014-11-04 | denominator | 87,705 | VERIFIED | Obispo 163 202,600 150,139 25,417 62,288 87,705 71.02% 58.42% 43.29% |
+| san-luis-obispo-ca | 2014-11-04 | numerator | 63,180 | VERIFIED | FINAL UNOFFICIAL ELECTION NIGHT SUMMARY Registered Voters 150139 - Ballots Cast 63180 42.08% Num. Report Precinct 163 -  |
+| san-luis-obispo-ca | 2016-11-08 | denominator | 139,685 | VERIFIED | s Obispo 160 207,947 168,257 40,994 98,691 139,685 70.65% 83.02% 67.17% |
+| san-luis-obispo-ca | 2016-11-08 | numerator | 95,560 | VERIFIED | FINAL UNOFFICIAL ELECTION NIGHT RESULTS Registered Voters 168257 - Ballots Cast 95560 56.79% Num. Report Precinct 160 -  |
+| san-luis-obispo-ca | 2018-11-06 | denominator | 128,353 | VERIFIED | 156 209,049 172,544 31,257 97,096 128,353 75.65% 74.39% 61.40% |
+| san-luis-obispo-ca | 2018-11-06 | numerator | 81,663 | VERIFIED | TION NIGHT RESULTS Precincts Reported: 156 of 156 (100.00%) Registered Voters: 81,663 of 172,544 (47.33%) Ballots Cast:  |
+| san-luis-obispo-ca | 2022-11-08 | denominator | 121,156 | VERIFIED | 133 221,071 182,340 8,195 112,961 121,156 93.24% 66.45% 54.80% |
+| san-luis-obispo-ca | 2022-11-08 | numerator | 58,096 | VERIFIED | ELECTION NIGHT RESULTS Precincts Reported: 133 of 133 (100.00%) Voters Cast: 58,096 of 182,291 (31.87%) Governor (Vote f |
+| san-luis-obispo-ca | 2024-11-05 | denominator | 153,432 | VERIFIED | 158 219,268 182,701 12,196 141,236 153,432 92.05% 83.98% 69.97% |
+| san-luis-obispo-ca | 2024-11-05 | numerator | 82,548 | VERIFIED | ELECTION NIGHT RESULTS Precincts Reported: 158 of 158 (100.00%) Voters Cast: 82,548 of 182,606 (45.21%) President and Vi |
 | san-mateo-ca | 2012-11-06 | denominator | 288,592 | VERIFIED | 468 479,562 361,486 119,212 169,380 288,592 58.69% 79.83% 60.18% |
 | san-mateo-ca | 2012-11-06 | numerator | 204,287 | VERIFIED | 11/07/2012 12:07 AM Total Number of Voters : 204,287 of 361,486 = 56.51% |
 | san-mateo-ca | 2014-11-04 | denominator | 164,453 | VERIFIED | o 475 490,797 355,598 54,056 110,397 164,453 67.13% 46.25% 33.51% |
