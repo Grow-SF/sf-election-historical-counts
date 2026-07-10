@@ -171,6 +171,38 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for colusa-ca 2016-11-08
       controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8))
 
+- [ ] **colusa-ca 2022-06-07** (plateau check)
+      claimed: night ballots **1,693**, certified final **3,593**, share **47.12%**
+      numerator URL: https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Colusa County: 100.0% precincts reporting, Ballots Cast 1,693, Last Report stamp 'Jun 7 11:09 p.m.' (First Report 'Jun 7 8:51 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 1,693 r
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for colusa-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
+- [ ] **colusa-ca 2022-11-08** (plateau check)
+      claimed: night ballots **2,958**, certified final **5,617**, share **52.66%**
+      numerator URL: https://web.archive.org/web/20221109072903/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), Colusa County: 100.0% precincts reporting, Ballots Cast 2,958, Last Report stamp 'Nov 8 11:20 p.m.' (First Report 'Nov 8 9:15 p.m.') at Wayback capture 20221109072903 (2022-11-09 07:29:03 UTC). FROZEN: the identical Ballots Cast figure 2,958 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for colusa-ca 2022-11-08
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
+- [ ] **colusa-ca 2024-03-05** (plateau check)
+      claimed: night ballots **1,846**, certified final **3,788**, share **48.73%**
+      numerator URL: https://web.archive.org/web/20240306063830/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Colusa County: 100.0% precincts reporting, Ballots Cast 1,846, Last Report stamp 'Mar 5 9:14 p.m.' (First Report 'Mar 5 8:52 p.m.') at Wayback capture 20240306063830 (2024-03-06 06:38:30 UTC). FROZEN: the identical Ballots Cast figure 1,846 re
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for colusa-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
+- [ ] **colusa-ca 2024-11-05** (plateau check)
+      claimed: night ballots **2,868**, certified final **7,122**, share **40.27%**
+      numerator URL: https://web.archive.org/web/20241106065418/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), Colusa County: 100.0% precincts reporting, Ballots Cast 2,868, Last Report stamp 'Nov 5 8:38 p.m.' (First Report 'Nov 5 8:38 p.m.') at Wayback capture 20241106065418 (2024-11-06 06:54:18 UTC). FROZEN: the identical Ballots Cast figure 2,868 r
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for colusa-ca 2024-11-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **del-norte-ca 2012-06-05** (plateau check)
       claimed: night ballots **4,820**, certified final **5,242**, share **91.95%**
       numerator URL: https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/
@@ -211,6 +243,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for del-norte-ca 2018-11-06
       controller verdict: CONFIRMED (document explicitly titled 'ELECTION NIGHT FINAL REPORT'; next report 3 days later explicitly retitled to note late VBM additions)
 
+- [ ] **del-norte-ca 2022-06-07** (plateau check)
+      claimed: night ballots **4,019**, certified final **5,989**, share **67.11%**
+      numerator URL: https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), Del Norte County: 100.0% precincts reporting, Ballots Cast 4,019, Last Report stamp 'Jun 7 10:25 p.m.' (First Report 'Jun 7 8:35 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 4,0
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for del-norte-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **del-norte-ca 2022-11-08** (plateau check)
       claimed: night ballots **6,312**, certified final **8,450**, share **74.7%**
       numerator URL: https://drive.google.com/uc?export=download&id=131PTrk6-v_7MrZiAlLp8BzoQzysS97eu
@@ -218,6 +258,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU = Release 4 ('Report #3' header / '4th Report - 19 Precincts Reporting' subtitle) of 4 same-night numbered reports in the county's live Google Drive election-postings archive (same archive used for the 2024 row; folder 'November 8, 2022 General Election', id 1t5FEPXr-4Ub5a2ABa9ItGgZi06WBmxgd
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for del-norte-ca 2022-11-08
       controller verdict: CONFIRMED (last of 4 same-night numbered reports (strictly increasing timestamps, all election night); next artifact ('Final Unofficial Report' / 5th Report) 6 days later at a much higher count)
+
+- [ ] **del-norte-ca 2024-03-05** (plateau check)
+      claimed: night ballots **3,285**, certified final **6,121**, share **53.67%**
+      numerator URL: https://web.archive.org/web/20240306063830/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), Del Norte County: 100.0% precincts reporting, Ballots Cast 3,285, Last Report stamp 'Mar 5 10:25 p.m.' (First Report 'Mar 5 8:28 p.m.') at Wayback capture 20240306063830 (2024-03-06 06:38:30 UTC). FROZEN: the identical Ballots Cast figure 3,2
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for del-norte-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **del-norte-ca 2024-11-05** (plateau check)
       claimed: night ballots **6,719**, certified final **10,676**, share **62.94%**
@@ -258,6 +306,30 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: Election-night PLATEAU = 177,183 ballots ('Registered Voters 437667 - Cards Cast 177183 40.48%', 'Num. Report Precinct 592 - Num. Reporting 592 100.00%'), from Fresno County's official GEMS 'Election Summary Report' headed 'Fresno County Unofficial Final Results ... 11/9/2016 1:42:19 AM' -- the LAST
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for fresno-ca 2016-11-08
       controller verdict: CONFIRMED (frozen GEMS live page, held past night)
+
+- [ ] **fresno-ca 2022-06-07** (plateau check)
+      claimed: night ballots **76,241**, certified final **136,114**, share **56.01%**
+      numerator URL: https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), Fresno County: 100.0% precincts reporting, Ballots Cast 76,241, Last Report stamp 'Jun 7 11:00 p.m.' (First Report 'Jun 7 8:12 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 76,24
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for fresno-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
+- [ ] **fresno-ca 2022-11-08** (plateau check)
+      claimed: night ballots **126,440**, certified final **221,419**, share **57.1%**
+      numerator URL: https://web.archive.org/web/20221109070432/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), Fresno County: 100.0% precincts reporting, Ballots Cast 126,440, Last Report stamp 'Nov 8 10:56 p.m.' (First Report 'Nov 8 8:23 p.m.') at Wayback capture 20221109070432 (2022-11-09 07:04:32 UTC). FROZEN: the identical Ballots Cast figure 126,
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for fresno-ca 2022-11-08
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
+- [ ] **fresno-ca 2024-03-05** (plateau check)
+      claimed: night ballots **82,242**, certified final **156,425**, share **52.58%**
+      numerator URL: https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), Fresno County: 100.0% precincts reporting, Ballots Cast 82,242, Last Report stamp 'Mar 6 12:58 a.m.' (First Report 'Mar 5 8:12 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 82,24
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for fresno-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **fresno-ca 2024-11-05** (plateau check)
       claimed: night ballots **206,372**, certified final **330,932**, share **62.36%**
@@ -323,6 +395,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for lake-ca 2018-11-06
       controller verdict: PLAUSIBLE (self-described past-midnight 'PRELIMINARY RESULTS' timestamp; the only later observation is a single Wayback crawl (not a second independent capture) whose crawl date diverges from the page's own generation timestamp -- suggestive but not one of the section 8 non-circular legs)
 
+- [ ] **lake-ca 2022-06-07** (plateau check)
+      claimed: night ballots **4,562**, certified final **13,470**, share **33.87%**
+      numerator URL: https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Lake County: 100.0% precincts reporting, Ballots Cast 4,562, Last Report stamp 'Jun 8 2:32 a.m.' (First Report 'Jun 7 9:34 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 4,562 recu
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for lake-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **lake-ca 2022-11-08** (plateau check)
       claimed: night ballots **7,842**, certified final **20,362**, share **38.51%**
       numerator URL: https://web.archive.org/web/20230131164229/https://lakeconews.com/news/74153-registrar-of-voters-office-issues-preliminary-results-for-tuesday-s-general-election-canvass-process-to-begin
@@ -330,6 +410,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU = the LAST election-night preliminary report, per a Lake County News article (archived copy used; live lakeconews.com blocks both curl and WebFetch with HTTP 403) quoting the Registrar of Voters' office directly: 'By 1 a.m. Wednesday, Valadez's office had issued the last preliminary ballot c
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for lake-ca 2022-11-08
       controller verdict: CONFIRMED (on-the-record registrar-office quote naming the number as the last preliminary count of election night, plus the number holding unchanged across two Wayback captures of the county's own results page 12+ days apart)
+
+- [ ] **lake-ca 2024-03-05** (plateau check)
+      claimed: night ballots **7,181**, certified final **15,626**, share **45.96%**
+      numerator URL: https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Lake County: 100.0% precincts reporting, Ballots Cast 7,181, Last Report stamp 'Mar 6 2:01 a.m.' (First Report 'Mar 5 9:15 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 7,181 recu
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for lake-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **lake-ca 2024-11-05** (plateau check)
       claimed: night ballots **7,960**, certified final **27,127**, share **29.34%**
@@ -387,6 +475,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for los-angeles-ca 2018-11-06
       controller verdict: CONFIRMED (RR/CC semi-final press release states the election-night total)
 
+- [ ] **los-angeles-ca 2022-06-07** (plateau check)
+      claimed: night ballots **822,545**, certified final **1,620,593**, share **50.76%**
+      numerator URL: https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Los Angeles County: 100.0% precincts reporting, Ballots Cast 822,545, Last Report stamp 'Jun 8 2:12 a.m.' (First Report 'Jun 7 8:28 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 8
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for los-angeles-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **los-angeles-ca 2022-11-08** (plateau check)
       claimed: night ballots **1,318,093**, certified final **2,456,701**, share **53.65%**
       numerator URL: https://www.lavote.gov/docs/rrcc/news-releases/11082022_semi-final-results.pdf
@@ -394,6 +490,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PRIMARY official plateau (verified against the canonical RR/CC release PDF; previously cited via the lacounty.gov blog). LA County RR/CC 'Semi-Final Results Announced for the 2022 General Election' (docs/rrcc/news-releases/11082022_semi-final-results.pdf): 'A total of 1,318,093 ballots were processe
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for los-angeles-ca 2022-11-08
       controller verdict: CONFIRMED (RR/CC semi-final press release states the election-night total)
+
+- [ ] **los-angeles-ca 2024-03-05** (plateau check)
+      claimed: night ballots **910,857**, certified final **1,641,715**, share **55.48%**
+      numerator URL: https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Los Angeles County: 100.0% precincts reporting, Ballots Cast 910,857, Last Report stamp 'Mar 6 2:06 a.m.' (First Report 'Mar 5 8:44 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 9
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for los-angeles-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **los-angeles-ca 2024-11-05** (plateau check)
       claimed: night ballots **2,615,541**, certified final **3,793,106**, share **68.96%**
@@ -451,6 +555,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for madera-ca 2018-11-06
       controller verdict: CONFIRMED (clarity version bracket, re-derived from CDN)
 
+- [ ] **madera-ca 2022-06-07** (plateau check)
+      claimed: night ballots **13,417**, certified final **24,810**, share **54.08%**
+      numerator URL: https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), Madera County: 100.0% precincts reporting, Ballots Cast 13,417, Last Report stamp 'Jun 7 11:09 p.m.' (First Report 'Jun 7 8:43 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 13,41
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for madera-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **madera-ca 2022-11-08** (plateau check)
       claimed: night ballots **21,951**, certified final **37,345**, share **58.78%**
       numerator URL: https://web.archive.org/web/20260627203522/https://results.enr.clarityelections.com/CA/Madera/116174/311779/json/sum.json
@@ -458,6 +570,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: Numerator 21,951 = total Ballots Cast (Contests[0].BC) from the Madera County Clarity ENR election-night data version 311779 (results.enr.clarityelections.com/CA/Madera/116174/311779/json/sum.json), recovered from the LIVE Clarity CDN (immutable version-pinned data) and freshly archived to Wayback (
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for madera-ca 2022-11-08
       controller verdict: CONFIRMED (clarity version bracket, re-derived)
+
+- [ ] **madera-ca 2024-03-05** (plateau check)
+      claimed: night ballots **16,048**, certified final **27,609**, share **58.13%**
+      numerator URL: https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Madera County: 100.0% precincts reporting, Ballots Cast 16,048, Last Report stamp 'Mar 5 10:32 p.m.' (First Report 'Mar 5 8:02 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 16,048
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for madera-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **madera-ca 2024-11-05** (plateau check)
       claimed: night ballots **37,106**, certified final **55,329**, share **67.1%**
@@ -506,6 +626,30 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU = county's own 'Election Night Final Report' (found via the new mendocinocounty.org CMS page's embedded iframe src='//www.co.mendocino.ca.us/acr/cgi-bin/currentFR.pl', an OLD-domain CGI script the county kept running post-migration; curl id_ raw fetch, plain HTML, no gzip; re-verified 2026-0
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for mendocino-ca 2018-11-06
       controller verdict: CONFIRMED (county report self-describes + next-captured state is weeks later and materially different)
+
+- [ ] **mendocino-ca 2022-06-07** (plateau check)
+      claimed: night ballots **3,864**, certified final **22,248**, share **17.37%**
+      numerator URL: https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), Mendocino County: 100.0% precincts reporting, Ballots Cast 3,864, Last Report stamp 'Jun 8 12:48 a.m.' (First Report 'Jun 7 8:45 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 3,8
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for mendocino-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
+- [ ] **mendocino-ca 2022-11-08** (plateau check)
+      claimed: night ballots **12,597**, certified final **31,008**, share **40.62%**
+      numerator URL: https://web.archive.org/web/20221109142729/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Mendocino County: 100.0% precincts reporting, Ballots Cast 12,597, Last Report stamp 'Nov 9 1:13 a.m.' (First Report 'Nov 8 8:49 p.m.') at Wayback capture 20221109142729 (2022-11-09 14:27:29 UTC). FROZEN: the identical Ballots Cast figure 12,5
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for mendocino-ca 2022-11-08
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
+- [ ] **mendocino-ca 2024-03-05** (plateau check)
+      claimed: night ballots **7,418**, certified final **23,935**, share **30.99%**
+      numerator URL: https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Mendocino County: 100.0% precincts reporting, Ballots Cast 7,418, Last Report stamp 'Mar 6 12:35 a.m.' (First Report 'Mar 5 8:30 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 7,41
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for mendocino-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **napa-ca 2012-06-05** (plateau check)
       claimed: night ballots **19,147**, certified final **29,305**, share **65.34%**
@@ -563,6 +707,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for napa-ca 2018-11-06
       controller verdict: CONFIRMED (county titled last-of-night series)
 
+- [ ] **napa-ca 2022-06-07** (plateau check)
+      claimed: night ballots **14,658**, certified final **36,285**, share **40.4%**
+      numerator URL: https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Napa County: 100.0% precincts reporting, Ballots Cast 14,658, Last Report stamp 'Jun 7 11:08 p.m.' (First Report 'Jun 7 8:12 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 14,658 r
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for napa-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **napa-ca 2022-11-08** (plateau check)
       claimed: night ballots **21,943**, certified final **50,788**, share **43.21%**
       numerator URL: https://www.napacounty.gov/DocumentCenter/View/26985/Last-Unofficial-Election-Night-Report-1046-PM-11822-PDF
@@ -570,6 +722,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU = 'Last Unofficial Election Night Report' timestamped 10:46 PM (napacounty.gov DocumentCenter View/26985; the night's reports ran First 8:01 PM -> Second 9:50 PM -> Last 10:46 PM, then the Nov 14 4:19 PM '1st Post Election Night' canvass report View/26995). Header: 'Precincts Reported: 200 o
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for napa-ca 2022-11-08
       controller verdict: CONFIRMED (county titled last-of-night series)
+
+- [ ] **napa-ca 2024-03-05** (plateau check)
+      claimed: night ballots **15,304**, certified final **37,878**, share **40.4%**
+      numerator URL: https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Napa County: 100.0% precincts reporting, Ballots Cast 15,304, Last Report stamp 'Mar 5 11:34 p.m.' (First Report 'Mar 5 8:02 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 15,304 r
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for napa-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **napa-ca 2024-11-05** (plateau check)
       claimed: night ballots **26,160**, certified final **66,634**, share **39.26%**
@@ -635,6 +795,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for nevada-ca 2018-11-06
       controller verdict: CONFIRMED (morning-after county statement)
 
+- [ ] **nevada-ca 2022-06-07** (plateau check)
+      claimed: night ballots **17,574**, certified final **37,990**, share **46.26%**
+      numerator URL: https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Nevada County: 100.0% precincts reporting, Ballots Cast 17,574, Last Report stamp 'Jun 7 10:16 p.m.' (First Report 'Jun 7 8:16 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 17,574
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for nevada-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **nevada-ca 2022-11-08** (plateau check)
       claimed: night ballots **28,824**, certified final **51,370**, share **56.11%**
       numerator URL: https://yubanet.com/regional/election-day-is-over-whats-the-holdup-in-results/
@@ -642,6 +810,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU = 28,824, the end-of-election-night cumulative. YubaNet 'Election Day is over, what's the holdup on results?' (morning after, Nov 9 2022): 'For the November 8th election 74,225 vote by mail ballots were issued ... Last night, 38.83% of those ballots - 28,824 were counted. The first results o
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for nevada-ca 2022-11-08
       controller verdict: CONFIRMED (morning-after county explainer)
+
+- [ ] **nevada-ca 2024-03-05** (plateau check)
+      claimed: night ballots **21,753**, certified final **39,579**, share **54.96%**
+      numerator URL: https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Nevada County: 100.0% precincts reporting, Ballots Cast 21,753, Last Report stamp 'Mar 6 12:08 a.m.' (First Report 'Mar 5 8:22 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 21,753
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for nevada-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **nevada-ca 2024-11-05** (plateau check)
       claimed: night ballots **15,486**, certified final **63,240**, share **24.49%**
@@ -683,6 +859,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for orange-ca 2018-11-06
       controller verdict: CONFIRMED (county-archived night report with past-midnight stamp)
 
+- [ ] **orange-ca 2022-06-07** (plateau check)
+      claimed: night ballots **325,774**, certified final **636,497**, share **51.18%**
+      numerator URL: https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Orange County: 100.0% precincts reporting, Ballots Cast 325,774, Last Report stamp 'Jun 7 11:42 p.m.' (First Report 'Jun 7 8:24 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 325,7
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for orange-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **orange-ca 2022-11-08** (plateau check)
       claimed: night ballots **611,060**, certified final **994,277**, share **61.46%**
       numerator URL: https://ocvote.gov/fileadmin/live/Gen2022/Run_08/cumulative.pdf
@@ -690,6 +874,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU metric (final election-night report, NOT the 8 p.m. first tranche). Vote-center era (precincts read 100% from Run 02 on, so the plateau is identified by the election-night/next-day TIME GAP, not precinct %). Run 01 (Run Time 8:00 PM, 11/08/2022) = 442,334 ballots = pre-Election-Day mail firs
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for orange-ca 2022-11-08
       controller verdict: CONFIRMED (county-archived night report with past-midnight stamp)
+
+- [ ] **orange-ca 2024-03-05** (plateau check)
+      claimed: night ballots **400,430**, certified final **685,038**, share **58.45%**
+      numerator URL: https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Orange County: 100.0% precincts reporting, Ballots Cast 400,430, Last Report stamp 'Mar 6 12:06 a.m.' (First Report 'Mar 5 8:28 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 400,4
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for orange-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **orange-ca 2024-11-05** (plateau check)
       claimed: night ballots **1,007,150**, certified final **1,417,397**, share **71.06%**
@@ -738,6 +930,38 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU = 109,666 'Cards Cast', the registrar's GEMS 'PLACER COUNTY SEMI-OFFICIAL ELECTION SUMMARY / November 8, 2016 / FINAL' with all 363 of 363 precincts reporting (48.43% reg turnout). The report carries its OWN embedded data timestamp '11/09/16 00:29:40' (12:29 a.m. PT Nov 9, ~4.5 hrs after 8pm
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for placer-ca 2016-11-08
       controller verdict: CONFIRMED (GEMS night report)
+
+- [ ] **placer-ca 2022-06-07** (plateau check)
+      claimed: night ballots **39,433**, certified final **128,152**, share **30.77%**
+      numerator URL: https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), Placer County: 100.0% precincts reporting, Ballots Cast 39,433, Last Report stamp 'Jun 8 12:34 a.m.' (First Report 'Jun 7 8:02 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 39,43
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for placer-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
+- [ ] **placer-ca 2022-11-08** (plateau check)
+      claimed: night ballots **65,224**, certified final **184,507**, share **35.35%**
+      numerator URL: https://web.archive.org/web/20221109142729/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), Placer County: 100.0% precincts reporting, Ballots Cast 65,224, Last Report stamp 'Nov 9 1:23 a.m.' (First Report 'Nov 8 8:05 p.m.') at Wayback capture 20221109142729 (2022-11-09 14:27:29 UTC). FROZEN: the identical Ballots Cast figure 65,224
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for placer-ca 2022-11-08
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
+- [ ] **placer-ca 2024-03-05** (plateau check)
+      claimed: night ballots **69,436**, certified final **135,869**, share **51.11%**
+      numerator URL: https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Placer County: 100.0% precincts reporting, Ballots Cast 69,436, Last Report stamp 'Mar 6 12:04 a.m.' (First Report 'Mar 5 8:02 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 69,436
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for placer-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
+- [ ] **placer-ca 2024-11-05** (plateau check)
+      claimed: night ballots **165,535**, certified final **239,402**, share **69.15%**
+      numerator URL: https://web.archive.org/web/20241106105347/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Placer County: 100.0% precincts reporting, Ballots Cast 165,535, Last Report stamp 'Nov 6 2:14 a.m.' (First Report 'Nov 5 8:04 p.m.') at Wayback capture 20241106105347 (2024-11-06 10:53:47 UTC). FROZEN: the identical Ballots Cast figure 165,53
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for placer-ca 2024-11-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **riverside-ca 2012-06-05** (plateau check)
       claimed: night ballots **189,087**, certified final **238,152**, share **79.4%**
@@ -795,6 +1019,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2022-11-08
       controller verdict: CONFIRMED (2 AM report held until the canvass)
 
+- [ ] **riverside-ca 2024-03-05** (plateau check)
+      claimed: night ballots **213,998**, certified final **409,269**, share **52.29%**
+      numerator URL: https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Riverside County: 100.0% precincts reporting, Ballots Cast 213,998, Last Report stamp 'Mar 6 3:01 a.m.' (First Report 'Mar 5 8:30 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 213
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for riverside-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **riverside-ca 2024-11-05** (plateau check)
       claimed: night ballots **547,742**, certified final **959,098**, share **57.11%**
       numerator URL: https://web.archive.org/web/20241106133254/https://electionresults.sos.ca.gov/returns/status
@@ -843,6 +1075,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2018-11-06
       controller verdict: CONFIRMED (night report held ~22 hours)
 
+- [ ] **sacramento-ca 2022-06-07** (plateau check)
+      claimed: night ballots **107,601**, certified final **336,014**, share **32.02%**
+      numerator URL: https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Sacramento County: 100.0% precincts reporting, Ballots Cast 107,601, Last Report stamp 'Jun 8 12:16 a.m.' (First Report 'Jun 7 8:12 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 1
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **sacramento-ca 2022-11-08** (plateau check)
       claimed: night ballots **145,015**, certified final **484,315**, share **29.94%**
       numerator URL: https://web.archive.org/web/20221109091143/https://eresults.saccounty.net/
@@ -850,6 +1090,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU metric (final election-night report). The archived eresults.saccounty.net capture embeds the ElectionSummaryReportRPT stamped 11/9/2022 12:00:20 AM (SEMI-FINAL) with Voters Cast 145,015 of 864,814 registered (16.77%). This midnight report is the final election-night report and is verified to
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2022-11-08
       controller verdict: CONFIRMED (county schedule plus midnight report)
+
+- [ ] **sacramento-ca 2024-03-05** (plateau check)
+      claimed: night ballots **118,205**, certified final **346,502**, share **34.11%**
+      numerator URL: https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Sacramento County: 100.0% precincts reporting, Ballots Cast 118,205, Last Report stamp 'Mar 5 11:58 p.m.' (First Report 'Mar 5 8:12 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 1
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **sacramento-ca 2024-11-05** (plateau check)
       claimed: night ballots **311,821**, certified final **668,416**, share **46.65%**
@@ -874,6 +1122,22 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: CA SoS per-county reporting-status page ('SF'-coded row), San Bernardino County: 100.0% precincts reporting, Ballots Cast 443,517, Last Report stamp 'Nov 9 4:56 a.m.' (First Report 'Nov 8 8:22 p.m.') at Wayback capture 20161110185817 (2016-11-10 18:58:17 UTC). SINGLE CAPTURE at 2016-11-10 18:58:17 U
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-bernardino-ca 2016-11-08
       controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8))
+
+- [ ] **san-bernardino-ca 2022-06-07** (plateau check)
+      claimed: night ballots **119,998**, certified final **257,580**, share **46.59%**
+      numerator URL: https://web.archive.org/web/20220608230118/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), San Bernardino County: 100.0% precincts reporting, Ballots Cast 119,998, Last Report stamp 'Jun 8 3:16 a.m.' (First Report 'Jun 7 8:42 p.m.') at Wayback capture 20220608230118 (2022-06-08 23:01:18 UTC). SINGLE CAPTURE at 2022-06-08 23:01:18 U
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-bernardino-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8))
+
+- [ ] **san-bernardino-ca 2024-03-05** (plateau check)
+      claimed: night ballots **150,018**, certified final **305,853**, share **49.05%**
+      numerator URL: https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), San Bernardino County: 100.0% precincts reporting, Ballots Cast 150,018, Last Report stamp 'Mar 6 1:48 a.m.' (First Report 'Mar 5 8:20 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figu
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-bernardino-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **san-bernardino-ca 2024-11-05** (plateau check)
       claimed: night ballots **434,108**, certified final **771,834**, share **56.24%**
@@ -987,6 +1251,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-mateo-ca 2018-11-06
       controller verdict: CONFIRMED (on-night capture of the final report)
 
+- [ ] **san-mateo-ca 2022-06-07** (plateau check)
+      claimed: night ballots **63,362**, certified final **166,405**, share **38.08%**
+      numerator URL: https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), San Mateo County: 100.0% precincts reporting, Ballots Cast 63,362, Last Report stamp 'Jun 8 1:06 a.m.' (First Report 'Jun 7 8:12 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 63,
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-mateo-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **san-mateo-ca 2022-11-08** (plateau check)
       claimed: night ballots **122,135**, certified final **252,233**, share **48.42%**
       numerator URL: https://web.archive.org/web/20221109174232/https://www.livevoterturnout.com/ENR/sanmateocaenr/11/en/VRcqD_Index_11.html
@@ -994,6 +1266,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU = Final Election Night Report (UPGRADED from prior null/bounded-proxy). Rendered archived San Mateo livevoterturnout ENR (index 11, file VRcqD_Index_11.html) capture 2022-11-09 17:42 UTC — identical across the 17:42 / 20:21 / 22:23 UTC Nov-9 captures — shows the banner 'SEMI-OFFICIAL RESULTS
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-mateo-ca 2022-11-08
       controller verdict: CONFIRMED (self-describing final plus next-update schedule)
+
+- [ ] **san-mateo-ca 2024-03-05** (plateau check)
+      claimed: night ballots **92,359**, certified final **174,122**, share **53.04%**
+      numerator URL: https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), San Mateo County: 100.0% precincts reporting, Ballots Cast 92,359, Last Report stamp 'Mar 6 2:18 a.m.' (First Report 'Mar 5 8:24 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 92,
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-mateo-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **san-mateo-ca 2024-11-05** (plateau check)
       claimed: night ballots **213,421**, certified final **337,241**, share **63.28%**
@@ -1035,6 +1315,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2018-11-06
       controller verdict: CONFIRMED (clarity live-CDN version bracket: adjacent official versions in the settings array, 9h22m gap)
 
+- [ ] **santa-clara-ca 2022-06-07** (plateau check)
+      claimed: night ballots **181,257**, certified final **357,848**, share **50.65%**
+      numerator URL: https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), Santa Clara County: 100.0% precincts reporting, Ballots Cast 181,257, Last Report stamp 'Jun 7 11:00 p.m.' (First Report 'Jun 7 8:28 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **santa-clara-ca 2022-11-08** (plateau check)
       claimed: night ballots **293,148**, certified final **550,602**, share **53.24%**
       numerator URL: https://web.archive.org/web/20221109173423/https://results.enr.clarityelections.com/CA/Santa_Clara/115971/311769/json/sum.json
@@ -1042,6 +1330,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU = held election-night (overnight) level. Clarity event 115971 SPA: the Nov 8 election-night data JSON was not crawled, but the EARLIEST archived data version, 311769 (Wayback 20221109173423 = Nov 9 9:34 AM PT), is the held overnight plateau -- sum.json top contest GOVERNOR 'BC' (county-wide 
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2022-11-08
       controller verdict: CONFIRMED (clarity version bracket, re-derived)
+
+- [ ] **santa-clara-ca 2024-03-05** (plateau check)
+      claimed: night ballots **182,413**, certified final **383,110**, share **47.61%**
+      numerator URL: https://web.archive.org/web/20240306063830/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Santa Clara County: 100.0% precincts reporting, Ballots Cast 182,413, Last Report stamp 'Mar 5 10:26 p.m.' (First Report 'Mar 5 8:22 p.m.') at Wayback capture 20240306063830 (2024-03-06 06:38:30 UTC). FROZEN: the identical Ballots Cast figure 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **santa-clara-ca 2024-11-05** (plateau check)
       claimed: night ballots **460,325**, certified final **765,495**, share **60.13%**
@@ -1075,6 +1371,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for tehama-ca 2014-11-04
       controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
+- [ ] **tehama-ca 2022-06-07** (plateau check)
+      claimed: night ballots **7,915**, certified final **14,178**, share **55.83%**
+      numerator URL: https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('SF'-coded row), Tehama County: 100.0% precincts reporting, Ballots Cast 7,915, Last Report stamp 'Jun 7 11:41 p.m.' (First Report 'Jun 7 8:39 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 7,915 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for tehama-ca 2022-06-07
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
+
 - [ ] **tehama-ca 2022-11-08** (plateau check)
       claimed: night ballots **11,878**, certified final **20,819**, share **57.05%**
       numerator URL: https://web.archive.org/web/20221205014450id_/https://www.co.tehama.ca.us/wp-content/uploads/2022/11/ThirdUnofficialPrecinctReport.pdf
@@ -1082,6 +1386,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: Election-night PLATEAU = 11,878 ballots ('Voters Cast: 11,878 of 37,115 (32.00%)'), from Tehama County's official 'Election Summary Report' internally timestamped 11/8/2022 10:37:39 PM -- the 'Third Unofficial Precinct Report' (the county's public numbering skips 'Second'; verified no Second-named f
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for tehama-ca 2022-11-08
       controller verdict: CONFIRMED (internal generation timestamp (10:37:39 PM) squarely inside the election-night window PLUS the county's own posting schedule brackets it: the next report in the series (Fourth) is dated 40 hours later with nothing interposed)
+
+- [ ] **tehama-ca 2024-03-05** (plateau check)
+      claimed: night ballots **7,998**, certified final **15,537**, share **51.48%**
+      numerator URL: https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('U'-coded row), Tehama County: 100.0% precincts reporting, Ballots Cast 7,998, Last Report stamp 'Mar 5 11:34 p.m.' (First Report 'Mar 5 8:21 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 7,998 r
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for tehama-ca 2024-03-05
+      controller verdict: CONFIRMED (CA SoS status-page frozen-capture bracket (RUNBOOK 8))
 
 - [ ] **tehama-ca 2024-11-05** (plateau check)
       claimed: night ballots **13,109**, certified final **26,867**, share **48.79%**

@@ -95,6 +95,19 @@
       "note": "PLATEAU = 'LAST UNOFFICIAL ELECTION NIGHT REPORT' (napacounty.gov DocumentCenter View/10436, the last of First/Last pair published election night). 'Precincts Reported: 170 of 170 (100.00%)', 'Registered Voters: 21,774 of 78,135 (27.87%)', and per-contest 'Times Cast 21,774'. ('Ballots Cast: 43,611' is ballot CARDS ~2/voter in the VCA 2-card ballot, NOT the comparable metric.) First report of the night was 21,732 voters, so the count barely moved election night and 21,774 is the plateau before the multi-day canvass. FIRST VCA / e-pollbook vote-center election for Napa (post): same-day vote-center and same-day-dropped mail ballots were processed in the canvass, NOT election night, which is why the election-night share fell from ~54-57% (pre-VCA) to ~38%. Certified final 57,132 voters (CA SoS Voter Participation Statistics by County). Pct = 21,774/57,132 = 38.11%. ASV never. Live PDF parsed with pdftotext."
     },
     {
+      "date": "2022-06-07",
+      "type": "statewide-primary",
+      "election_night_ballots": 14658,
+      "certified_final": 36285,
+      "election_night_pct": 40.4,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('U'-coded row), Napa County: 100.0% precincts reporting, Ballots Cast 14,658, Last Report stamp 'Jun 7 11:08 p.m.' (First Report 'Jun 7 8:12 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 14,658 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 17,685 (Last Report 'Jun 10 3:54 p.m.'), marking the canvass resuming. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 36,285 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 14,658/36,285 = 40.4%. vs_epollbook=post, vs_asv=n/a (per county_tech/adoption record: epollbook 2018, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2022-06-07 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
       "date": "2022-11-08",
       "type": "midterm-general",
       "election_night_ballots": 21943,
@@ -106,6 +119,19 @@
       "source_url_night": "https://www.napacounty.gov/DocumentCenter/View/26985/Last-Unofficial-Election-Night-Report-1046-PM-11822-PDF",
       "confidence": "primary",
       "note": "PLATEAU = 'Last Unofficial Election Night Report' timestamped 10:46 PM (napacounty.gov DocumentCenter View/26985; the night's reports ran First 8:01 PM -> Second 9:50 PM -> Last 10:46 PM, then the Nov 14 4:19 PM '1st Post Election Night' canvass report View/26995). Header: 'Precincts Reported: 200 of 200 (100.00%)', 'Voters Cast: 21,943 of 83,471 (26.29%)', breakdown Election Day 1,553 + Vote by Mail 20,390 = 21,943. NOT the 8:01 PM first tranche (20,390 = 40.1%, the v2 value). Post-VCA / e-pollbook (adopted 2018). Certified final 50,788 voters (CA SoS Voter Participation Statistics by County). Pct = 21,943/50,788 = 43.21%. ASV never. Live PDF parsed with pdftotext."
+    },
+    {
+      "date": "2024-03-05",
+      "type": "presidential-primary",
+      "election_night_ballots": 15304,
+      "certified_final": 37878,
+      "election_night_pct": 40.4,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('U'-coded row), Napa County: 100.0% precincts reporting, Ballots Cast 15,304, Last Report stamp 'Mar 5 11:34 p.m.' (First Report 'Mar 5 8:02 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 15,304 recurs across 4 captures, 2024-03-06 14:44:09 UTC through 2024-03-08 15:51:26 UTC, before the next available capture (2024-03-09 19:45:02 UTC) jumps to 20,504 (Last Report 'Mar 8 4:43 p.m.'), marking the canvass resuming. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 37,878 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 15,304/37,878 = 40.4%. vs_epollbook=post, vs_asv=n/a (per county_tech/adoption record: epollbook 2018, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2024-03-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
     },
     {
       "date": "2024-11-05",

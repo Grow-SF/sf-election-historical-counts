@@ -108,6 +108,19 @@
       "note": "Numerator 28,159 = total Ballots Cast (Contests[0].BC) from the Madera County Clarity ENR election-night data version 220349 (results.enr.clarityelections.com/CA/Madera/92458/220349/json/sum.json), recovered from the LIVE Clarity CDN (immutable version-pinned data) and freshly archived to Wayback (snapshot 20260627203408, verified BC=28,159, 62 of 69 precincts). The version's electionsettings.json gives websiteupdatedat = '11/6/2018 11:53:23 PM PST' -- the LAST election-night report. It is the election-night plateau and it HELD STEADY: the next two published versions 220492 ('11/7/2018 9:34:48 AM PST') and 220715 ('11/8/2018 11:00:04 AM PST') still show BC=28,159; only on 11/9 (version 221196, '11/9/2018 4:17:42 PM PST') does the canvass resume at BC=32,380. Election-night progression on 11/6: v219858 (8:59 PM, 24,508) -> v220100 (9:53 PM, 24,711) -> v220277 (11:06 PM, 26,408) -> v220324 (11:32 PM, 27,262) -> v220349 (11:53 PM, 28,159). Certified final 38,968 (CA SoS 'Voter Participation Statistics by County'; Madera 89,818 eligible, 57,418 registered) -- also equals BC of the Clarity certified version 222713 ('11/21/2018 12:58:53 PM PST', BC=38,968). pct = 28,159 / 38,968 = 72.26%. First general under e-pollbooks / VCA vote centers (adopted 2018). SUPERSEDES the prior 'not recoverable' finding: the Wayback ENR captures of id 92458 lacked the data JSON (only a Nov 29 post-cert index), but the live Clarity CDN still serves every published version and its electionsettings 'versions' array enumerates them. Snapshot 20260627203408 used."
     },
     {
+      "date": "2022-06-07",
+      "type": "statewide-primary",
+      "election_night_ballots": 13417,
+      "certified_final": 24810,
+      "election_night_pct": 54.08,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('SF'-coded row), Madera County: 100.0% precincts reporting, Ballots Cast 13,417, Last Report stamp 'Jun 7 11:09 p.m.' (First Report 'Jun 7 8:43 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 13,417 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 17,214 (Last Report 'Jun 10 2:29 p.m.'), marking the canvass resuming. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 24,810 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 13,417/24,810 = 54.08%. vs_epollbook=post, vs_asv=n/a (per county_tech/adoption record: epollbook 2018, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2022-06-07 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
       "date": "2022-11-08",
       "type": "midterm-general",
       "election_night_ballots": 21951,
@@ -119,6 +132,19 @@
       "source_url_night": "https://web.archive.org/web/20260627203522/https://results.enr.clarityelections.com/CA/Madera/116174/311779/json/sum.json",
       "confidence": "primary",
       "note": "Numerator 21,951 = total Ballots Cast (Contests[0].BC) from the Madera County Clarity ENR election-night data version 311779 (results.enr.clarityelections.com/CA/Madera/116174/311779/json/sum.json), recovered from the LIVE Clarity CDN (immutable version-pinned data) and freshly archived to Wayback (snapshot 20260627203522, verified BC=21,951, 50 of 59 precincts). The version's electionsettings.json gives websiteupdatedat = '11/8/2022 10:44:29 PM PST' -- the LAST election-night report. It is the election-night plateau: the very next published version 312400 is dated '11/10/2022 4:11:23 PM PST' (BC jumps to 25,243), i.e. the county stopped publishing after 11/8 ~10:44 PM and resumed the canvass on 11/10, so 21,951 is the frozen end-of-election-night number. Election-night progression on 11/8: v311053 (8:09 PM, 18,832) -> v311314 (8:47 PM, 19,335) -> v311666 (10:04 PM, 20,099) -> v311726 (10:23 PM, 21,109) -> v311779 (10:44 PM, 21,951). Certified final 37,345 (CA SoS 'Voter Participation Statistics by County'; Madera 59 precincts, 93,789 eligible, 72,865 registered, 3,333 precinct + 34,012 VBM) -- also equals BC of the Clarity certified version 314277 ('11/23/2022 9:30:52 AM PST', BC=37,345). pct = 21,951 / 37,345 = 58.78%. SUPERSEDES the prior 'not recoverable' finding: the Wayback capture of the live ENR page (id 116174) returned HTTP 403 (CloudFront), but the live Clarity CDN still serves every published data version and its electionsettings 'versions' array (18 entries, 305400..314277) enumerates them. Snapshot 20260627203522 used."
+    },
+    {
+      "date": "2024-03-05",
+      "type": "presidential-primary",
+      "election_night_ballots": 16048,
+      "certified_final": 27609,
+      "election_night_pct": 58.13,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('U'-coded row), Madera County: 100.0% precincts reporting, Ballots Cast 16,048, Last Report stamp 'Mar 5 10:32 p.m.' (First Report 'Mar 5 8:02 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 16,048 recurs across 4 captures, 2024-03-06 14:44:09 UTC through 2024-03-08 15:51:26 UTC, before the next available capture (2024-03-09 19:45:02 UTC) jumps to 21,214 (Last Report 'Mar 8 3:55 p.m.'), marking the canvass resuming. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 27,609 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 16,048/27,609 = 58.13%. vs_epollbook=post, vs_asv=n/a (per county_tech/adoption record: epollbook 2018, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2024-03-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
     },
     {
       "date": "2024-11-05",

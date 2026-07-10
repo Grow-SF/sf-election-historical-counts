@@ -69,6 +69,19 @@
       "note": "PLATEAU metric (final election-night report). First Voter's Choice Act / vote-center + e-pollbook general for Sacramento. The eresults.saccounty.net page now embeds an 'ElectionSummaryReportRPT'; the archived capture embeds the report stamped 11/7/2018 1:50:09 AM with Total Times Cast (ballots) 185,623 of 764,998 registered. Per the page's own published schedule the final unofficial election-night report posts by ~2 AM and the first interim canvass report posts ~4 PM the Friday after; the Wayback capture taken 11/07 ~3:44 PM PT still showed the 1:50 AM report, confirming 185,623 held flat through the next day (Wed) before the Friday canvass. 185,623 / 522,652 certified = 35.52%. The sharp drop from the 2014 pre-VCA midterm (59.04%) reflects the 2018 shift to the all-mail VCA model (most ballots arrive as mail, much of it counted after election night), which coincides with e-pollbook adoption. Denominator = CA SoS Voter Participation Statistics by County, Sacramento Total Voters 522,652 (Precinct 30,279 + VBM 492,373). ASV never adopted. Snapshot used: web.archive.org 20181107234429if_ of eresults.saccounty.net, embedded report 11/7/2018 1:50:09 AM. NB: the county summary page mislabels the ballots-cast figure with a 'Registered Voters:' prefix (185,623 of 764,998); per-contest Times Cast rows on the same page confirm 185,623 is ballots cast."
     },
     {
+      "date": "2022-06-07",
+      "type": "statewide-primary",
+      "election_night_ballots": 107601,
+      "certified_final": 336014,
+      "election_night_pct": 32.02,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('U'-coded row), Sacramento County: 100.0% precincts reporting, Ballots Cast 107,601, Last Report stamp 'Jun 8 12:16 a.m.' (First Report 'Jun 7 8:12 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 107,601 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 173,818 (Last Report 'Jun 10 3:24 p.m.'), marking the canvass resuming. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 336,014 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 107,601/336,014 = 32.02%. vs_epollbook=post, vs_asv=n/a (per county_tech/adoption record: epollbook 2018, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2022-06-07 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
       "date": "2022-11-08",
       "type": "midterm-general",
       "election_night_ballots": 145015,
@@ -80,6 +93,19 @@
       "source_url_night": "https://web.archive.org/web/20221109091143/https://eresults.saccounty.net/",
       "confidence": "primary",
       "note": "PLATEAU metric (final election-night report). The archived eresults.saccounty.net capture embeds the ElectionSummaryReportRPT stamped 11/9/2022 12:00:20 AM (SEMI-FINAL) with Voters Cast 145,015 of 864,814 registered (16.77%). This midnight report is the final election-night report and is verified to PLATEAU: three separate Wayback captures across all of Wed 11/9 (taken 11/9 ~01:11 AM, ~11:07 AM, and ~6:36 PM PT) ALL show the identical 11/9 12:00:20 AM / 145,015 report, i.e. it held flat the entire next day before the first interim canvass report (Friday 11/11). 145,015 / 484,315 certified = 29.94%. The low share reflects the low-turnout 2022 midterm under the all-mail VCA model (heavy election-day/late mail counted during the canvass). Denominator = CA SoS Voter Participation Statistics by County, Sacramento Total Voters 484,315 (Precinct 28,929 + VBM 455,386). Post-epollbook (VCA vote centers + e-pollbooks since 2018). ASV never adopted. Snapshot used: web.archive.org 20221109091143if_ of eresults.saccounty.net, embedded report 11/9/2022 12:00:20 AM (confirmed flat through 20221110023647)."
+    },
+    {
+      "date": "2024-03-05",
+      "type": "presidential-primary",
+      "election_night_ballots": 118205,
+      "certified_final": 346502,
+      "election_night_pct": 34.11,
+      "vs_epollbook": "post",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('U'-coded row), Sacramento County: 100.0% precincts reporting, Ballots Cast 118,205, Last Report stamp 'Mar 5 11:58 p.m.' (First Report 'Mar 5 8:12 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 118,205 recurs across 4 captures, 2024-03-06 14:44:09 UTC through 2024-03-08 15:51:26 UTC, before the next available capture (2024-03-09 19:45:02 UTC) jumps to 180,496 (Last Report 'Mar 8 3:12 p.m.'), marking the canvass resuming. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 346,502 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 118,205/346,502 = 34.11%. vs_epollbook=post, vs_asv=n/a (per county_tech/adoption record: epollbook 2018, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2024-03-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
     },
     {
       "date": "2024-11-05",

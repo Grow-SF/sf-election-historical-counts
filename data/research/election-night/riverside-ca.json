@@ -136,15 +136,15 @@
     {
       "date": "2024-03-05",
       "type": "presidential-primary",
-      "election_night_ballots": null,
+      "election_night_ballots": 213998,
       "certified_final": 409269,
-      "election_night_pct": null,
+      "election_night_pct": 52.29,
       "vs_epollbook": "post",
       "vs_asv": "pre",
       "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf",
-      "source_url_night": null,
-      "confidence": "none",
-      "note": "Certified final = 409,269 ballots (Precinct 38,699 + VBM 370,570) from CA SoS 2024 Presidential Primary Voter Participation Statistics by County, primary. Election-night plateau not sourceable: voteinfo.net/Elections/20240305/ has zero Wayback captures of any kind (docs/ + eresults/, prefix CDX); docs.voteinfo.net (the live CDN that rescued the 2018 and 2022 primary numerator series above) 404s for ElectionSummaryReportRPT1-6.pdf under this date -- by 2024 Riverside had discontinued the numbered Dominion-PDF route entirely (same transition already documented for the Nov 2024 general) in favor of livevoterturnout.com ENR only. livevoterturnout's ENR ID 3 (confirmed via its summary_3.xml ElectionID field) has exactly one Wayback capture of its JS-shell index page, 2024-03-09 (4 days post-election), which does not statically embed ballot totals; the AJAX data endpoint it calls (../summary_3.xml, traced from LiveResultsScripts_v4.1.js) has ZERO Wayback captures at any date. That endpoint still resolves live today but is overwritten-in-place (not versioned), frozen at the April 4, 2024 certification state (GeneratedDate 2024-04-04T16:46:46, TotalBallotsCast 409,269 -- exactly the SoS certified final) with no earlier archived version to recover a ceiling or floor from. The registrar's rivco.gov 'March 5 Election Night Results Reporting' press release (dated 2024-03-05) is a pre-election SCHEDULE announcement only (hourly updates until ~3 a.m.), no ballot-count figure. riversiderecord.org's primary-results article likewise states only the reporting schedule, no countywide total at any timing. Plateau remains unsourceable. Post-epollbook (2022), pre-ASV (2025)."
+      "source_url_night": "https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('U'-coded row), Riverside County: 100.0% precincts reporting, Ballots Cast 213,998, Last Report stamp 'Mar 6 3:01 a.m.' (First Report 'Mar 5 8:30 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 213,998 recurs across 2 captures, 2024-03-06 14:44:09 UTC through 2024-03-06 18:05:49 UTC, before the next available capture (2024-03-07 03:52:36 UTC) jumps to 228,760 (Last Report 'Mar 6 6:20 p.m.'), marking the canvass resuming. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 409,269 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 213,998/409,269 = 52.29%. vs_epollbook=post, vs_asv=pre (per county_tech/adoption record: epollbook 2022, asv 2025). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2024-03-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
     },
     {
       "date": "2024-11-05",

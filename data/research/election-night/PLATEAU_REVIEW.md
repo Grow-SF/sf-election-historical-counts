@@ -603,3 +603,241 @@ Sacramento row at capture 20161110185817 (2016-11-10 18:58:17 UTC): 100.0% preci
 CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8).
 
 San Bernardino row at capture 20161110185817 (2016-11-10 18:58:17 UTC): 100.0% precincts, Ballots Cast 443,517, Last Report 'Nov 9 4:56 a.m.'. SINGLE CAPTURE at 2016-11-10 18:58:17 UTC carries this value. The next available capture (2016-11-14 19:00:27 UTC) jumps to 515,334 (Last Report 'Nov 11 4:29 p.m.'), confirming 443,517 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). Sweep bracket-evidence cross-check: "single capture, next capture jumps to 515,334@Nov 11 4:29 p.m." (scratchpad/sos-status-sweep.md).
+
+---
+
+UPDATE (2026-07-10, CA SoS status-page sweep integration -- 2022-2024 elections): 39 new sourced rows landed across 17 counties (of the 18 panel counties besides San Francisco, the control), recovered from the CA SoS per-county reporting-status page (`vote.sos.ca.gov/returns/status` 2012-2018, `electionresults.sos.ca.gov/returns/status` 2022+) across 4 statewide election(s) in this batch. 39 CONFIRMED (frozen-capture or single-capture-then-jump bracket per RUNBOOK 8), 0 PLAUSIBLE (self-describing FENU/plateau state but no independent capture available in the CDX window to bracket it). Source: `scratchpad/sos-status-sweep.md` (research sweep) and `scratchpad/sweep_applylist.json` (computed apply-list, this batch's subset); every cell's capture citation and freeze/jump evidence below was independently re-derived from the raw per-capture timeline data (not merely transcribed from the sweep's prose), matching exact ballots-cast values with zero mismatches. Running totals: 154 CONFIRMED, 11 PLAUSIBLE, 2 REFUTED_AS_PLATEAU, 2 REFUTED_AND_CORRECTED (169 sourced rows, matching the validator).
+
+### colusa-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Colusa row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 1,693, Last Report 'Jun 7 11:09 p.m.'. FROZEN: the identical Ballots Cast figure 1,693 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 2,126 (Last Report 'Jun 10 1:36 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20220608094259->20220609035046 then jumps to 2,126@Jun 10 1:36 p.m." (scratchpad/sos-status-sweep.md).
+
+### colusa-ca 2022-11-08: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Colusa row at capture 20221109072903 (2022-11-09 07:29:03 UTC): 100.0% precincts, Ballots Cast 2,958, Last Report 'Nov 8 11:20 p.m.'. FROZEN: the identical Ballots Cast figure 2,958 recurs across 12 captures, 2022-11-09 07:29:03 UTC through 2022-11-10 22:44:53 UTC, before the next available capture (2022-11-11 03:30:58 UTC) jumps to 4,559 (Last Report 'Nov 10 6:58 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20221109072903->20221110224453 then jumps to 4,559@Nov 10 6:58 p.m." (scratchpad/sos-status-sweep.md).
+
+### colusa-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Colusa row at capture 20240306063830 (2024-03-06 06:38:30 UTC): 100.0% precincts, Ballots Cast 1,846, Last Report 'Mar 5 9:14 p.m.'. FROZEN: the identical Ballots Cast figure 1,846 recurs across 7 captures, 2024-03-06 06:38:30 UTC through 2024-03-11 13:59:17 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen ALL 7 remaining captures thru Mar 11 (never moved)" (scratchpad/sos-status-sweep.md).
+
+### colusa-ca 2024-11-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Colusa row at capture 20241106065418 (2024-11-06 06:54:18 UTC): 100.0% precincts, Ballots Cast 2,868, Last Report 'Nov 5 8:38 p.m.'. FROZEN: the identical Ballots Cast figure 2,868 recurs across 8 captures, 2024-11-06 06:54:18 UTC through 2024-11-06 17:18:13 UTC, before the next available capture (2024-11-07 01:54:46 UTC) jumps to 3,342 (Last Report 'Nov 6 5:11 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20241106065418->20241106171813 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### del-norte-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Del Norte row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 4,019, Last Report 'Jun 7 10:25 p.m.'. FROZEN: the identical Ballots Cast figure 4,019 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 5,929 (Last Report 'Jun 10 3:20 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20220608094259->20220609035046 then jumps to 5,929@Jun 10 3:20 p.m." (scratchpad/sos-status-sweep.md).
+
+### del-norte-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Del Norte row at capture 20240306063830 (2024-03-06 06:38:30 UTC): 100.0% precincts, Ballots Cast 3,285, Last Report 'Mar 5 10:25 p.m.'. FROZEN: the identical Ballots Cast figure 3,285 recurs across 5 captures, 2024-03-06 06:38:30 UTC through 2024-03-08 15:51:26 UTC, before the next available capture (2024-03-09 19:45:02 UTC) jumps to 6,055 (Last Report 'Mar 8 3:28 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen thru 4 captures (Mar6-Mar7), jumps Mar9 to 6,055/Mar8 3:28pm" (scratchpad/sos-status-sweep.md).
+
+### fresno-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Fresno row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 76,241, Last Report 'Jun 7 11:00 p.m.'. FROZEN: the identical Ballots Cast figure 76,241 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 97,487 (Last Report 'Jun 10 4:44 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20220608094259->20220609035046 then jumps to 97,487@Jun 10 4:44 p.m." (scratchpad/sos-status-sweep.md).
+
+### fresno-ca 2022-11-08: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Fresno row at capture 20221109070432 (2022-11-09 07:04:32 UTC): 100.0% precincts, Ballots Cast 126,440, Last Report 'Nov 8 10:56 p.m.'. FROZEN: the identical Ballots Cast figure 126,440 recurs across 13 captures, 2022-11-09 07:04:32 UTC through 2022-11-10 22:44:53 UTC, before the next available capture (2022-11-11 03:30:58 UTC) jumps to 153,891 (Last Report 'Nov 10 6:49 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20221109070432->20221110224453 then jumps to 153,891@Nov 10 6:49 p.m." (scratchpad/sos-status-sweep.md).
+
+### fresno-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Fresno row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 82,242, Last Report 'Mar 6 12:58 a.m.'. FROZEN: the identical Ballots Cast figure 82,242 recurs across 3 captures, 2024-03-06 14:44:09 UTC through 2024-03-07 03:52:36 UTC, before the next available capture (2024-03-08 15:51:26 UTC) jumps to 105,945 (Last Report 'Mar 7 4:59 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen thru 3 captures (Mar6-Mar7), jumps Mar8 to 105,945/Mar7 4:59pm" (scratchpad/sos-status-sweep.md).
+
+### lake-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Lake row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 4,562, Last Report 'Jun 8 2:32 a.m.'. FROZEN: the identical Ballots Cast figure 4,562 recurs across 6 captures, 2022-06-08 09:42:59 UTC through 2022-06-13 22:59:28 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20220608230118->20220613225928 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### lake-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Lake row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 7,181, Last Report 'Mar 6 2:01 a.m.'. FROZEN: the identical Ballots Cast figure 7,181 recurs across 6 captures, 2024-03-06 14:44:09 UTC through 2024-03-11 13:59:17 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen ALL 7 remaining captures thru Mar 11 (never moved)" (scratchpad/sos-status-sweep.md).
+
+### los-angeles-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Los Angeles row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 822,545, Last Report 'Jun 8 2:12 a.m.'. FROZEN: the identical Ballots Cast figure 822,545 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 991,883 (Last Report 'Jun 10 3:19 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20220608094259->20220609035046 then jumps to 991,883@Jun 10 3:19 p.m." (scratchpad/sos-status-sweep.md).
+
+### los-angeles-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Los Angeles row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 910,857, Last Report 'Mar 6 2:06 a.m.'. FROZEN: the identical Ballots Cast figure 910,857 recurs across 2 captures, 2024-03-06 14:44:09 UTC through 2024-03-06 18:05:49 UTC, before the next available capture (2024-03-07 03:52:36 UTC) jumps to 1,016,574 (Last Report 'Mar 6 4:36 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen thru 1 later capture (Mar6 10:05am), jumps same-day 4:36pm" (scratchpad/sos-status-sweep.md).
+
+### madera-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Madera row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 13,417, Last Report 'Jun 7 11:09 p.m.'. FROZEN: the identical Ballots Cast figure 13,417 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 17,214 (Last Report 'Jun 10 2:29 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20220608094259->20220609035046 then jumps to 17,214@Jun 10 2:29 p.m." (scratchpad/sos-status-sweep.md).
+
+### madera-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Madera row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 16,048, Last Report 'Mar 5 10:32 p.m.'. FROZEN: the identical Ballots Cast figure 16,048 recurs across 4 captures, 2024-03-06 14:44:09 UTC through 2024-03-08 15:51:26 UTC, before the next available capture (2024-03-09 19:45:02 UTC) jumps to 21,214 (Last Report 'Mar 8 3:55 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen thru 4 captures, jumps Mar9 to 21,214/Mar8 3:55pm" (scratchpad/sos-status-sweep.md).
+
+### mendocino-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Mendocino row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 3,864, Last Report 'Jun 8 12:48 a.m.'. FROZEN: the identical Ballots Cast figure 3,864 recurs across 6 captures, 2022-06-08 09:42:59 UTC through 2022-06-13 22:59:28 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20220608094259->20220613225928 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### mendocino-ca 2022-11-08: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Mendocino row at capture 20221109142729 (2022-11-09 14:27:29 UTC): 100.0% precincts, Ballots Cast 12,597, Last Report 'Nov 9 1:13 a.m.'. FROZEN: the identical Ballots Cast figure 12,597 recurs across 18 captures, 2022-11-09 14:27:29 UTC through 2022-11-18 23:50:49 UTC, before the next available capture (2022-11-23 01:06:32 UTC) jumps to 21,172 (Last Report 'Nov 22 4:48 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20221109142729->20221118235049 then jumps to 21,172@Nov 22 4:48 p.m." (scratchpad/sos-status-sweep.md).
+
+### mendocino-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Mendocino row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 7,418, Last Report 'Mar 6 12:35 a.m.'. FROZEN: the identical Ballots Cast figure 7,418 recurs across 6 captures, 2024-03-06 14:44:09 UTC through 2024-03-11 13:59:17 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen ALL 7 remaining captures thru Mar 11 (never moved)" (scratchpad/sos-status-sweep.md).
+
+### napa-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Napa row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 14,658, Last Report 'Jun 7 11:08 p.m.'. FROZEN: the identical Ballots Cast figure 14,658 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 17,685 (Last Report 'Jun 10 3:54 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20220608094259->20220609035046 then jumps to 17,685@Jun 10 3:54 p.m." (scratchpad/sos-status-sweep.md).
+
+### napa-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Napa row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 15,304, Last Report 'Mar 5 11:34 p.m.'. FROZEN: the identical Ballots Cast figure 15,304 recurs across 4 captures, 2024-03-06 14:44:09 UTC through 2024-03-08 15:51:26 UTC, before the next available capture (2024-03-09 19:45:02 UTC) jumps to 20,504 (Last Report 'Mar 8 4:43 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen thru 4 captures, jumps Mar9 to 20,504/Mar8 4:43pm" (scratchpad/sos-status-sweep.md).
+
+### nevada-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Nevada row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 17,574, Last Report 'Jun 7 10:16 p.m.'. FROZEN: the identical Ballots Cast figure 17,574 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 20,222 (Last Report 'Jun 10 2:58 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20220608094259->20220609035046 then jumps to 20,222@Jun 10 2:58 p.m." (scratchpad/sos-status-sweep.md).
+
+### nevada-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Nevada row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 21,753, Last Report 'Mar 6 12:08 a.m.'. FROZEN: the identical Ballots Cast figure 21,753 recurs across 4 captures, 2024-03-06 14:44:09 UTC through 2024-03-08 15:51:26 UTC, before the next available capture (2024-03-09 19:45:02 UTC) jumps to 30,094 (Last Report 'Mar 8 3:28 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen thru 4 captures, jumps Mar9 to 30,094/Mar8 3:28pm" (scratchpad/sos-status-sweep.md).
+
+### orange-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Orange row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 325,774, Last Report 'Jun 7 11:42 p.m.'. FROZEN: the identical Ballots Cast figure 325,774 recurs across 2 captures, 2022-06-08 09:42:59 UTC through 2022-06-08 23:01:18 UTC, before the next available capture (2022-06-09 01:58:33 UTC) jumps to 348,130 (Last Report 'Jun 8 5:08 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20220608094259->20220608230118 then jumps to 348,130@Jun 8 5:08 p.m." (scratchpad/sos-status-sweep.md).
+
+### orange-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Orange row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 400,430, Last Report 'Mar 6 12:06 a.m.'. FROZEN: the identical Ballots Cast figure 400,430 recurs across 2 captures, 2024-03-06 14:44:09 UTC through 2024-03-06 18:05:49 UTC, before the next available capture (2024-03-07 03:52:36 UTC) jumps to 427,131 (Last Report 'Mar 6 5:10 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen thru 1 later capture (Mar6 10:05am), jumps same-day 5:10pm" (scratchpad/sos-status-sweep.md).
+
+### placer-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Placer row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 39,433, Last Report 'Jun 8 12:34 a.m.'. FROZEN: the identical Ballots Cast figure 39,433 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 40,944 (Last Report 'Jun 10 3:58 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20220608094259->20220609035046 then jumps to 40,944@Jun 10 3:58 p.m." (scratchpad/sos-status-sweep.md).
+
+### placer-ca 2022-11-08: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Placer row at capture 20221109142729 (2022-11-09 14:27:29 UTC): 100.0% precincts, Ballots Cast 65,224, Last Report 'Nov 9 1:23 a.m.'. FROZEN: the identical Ballots Cast figure 65,224 recurs across 12 captures, 2022-11-09 14:27:29 UTC through 2022-11-11 20:01:00 UTC, before the next available capture (2022-11-12 19:01:19 UTC) jumps to 76,230 (Last Report 'Nov 11 2:38 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20221109142729->20221111200100 then jumps to 76,230@Nov 11 2:38 p.m." (scratchpad/sos-status-sweep.md).
+
+### placer-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Placer row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 69,436, Last Report 'Mar 6 12:04 a.m.'. FROZEN: the identical Ballots Cast figure 69,436 recurs across 4 captures, 2024-03-06 14:44:09 UTC through 2024-03-08 15:51:26 UTC, before the next available capture (2024-03-09 19:45:02 UTC) jumps to 93,100 (Last Report 'Mar 8 4:52 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "(prior recovery, doubly bracketed; see placer-2024-03-retry.md)" (scratchpad/sos-status-sweep.md).
+
+### placer-ca 2024-11-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Placer row at capture 20241106105347 (2024-11-06 10:53:47 UTC): 100.0% precincts, Ballots Cast 165,535, Last Report 'Nov 6 2:14 a.m.'. FROZEN: the identical Ballots Cast figure 165,535 recurs across 10 captures, 2024-11-06 10:53:47 UTC through 2024-11-08 22:47:14 UTC, before the next available capture (2024-11-09 02:21:09 UTC) jumps to 182,129 (Last Report 'Nov 8 4:36 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20241106105347->20241106171813 (to end of window)" (scratchpad/sos-status-sweep.md).
+
+### riverside-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Riverside row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 213,998, Last Report 'Mar 6 3:01 a.m.'. FROZEN: the identical Ballots Cast figure 213,998 recurs across 2 captures, 2024-03-06 14:44:09 UTC through 2024-03-06 18:05:49 UTC, before the next available capture (2024-03-07 03:52:36 UTC) jumps to 228,760 (Last Report 'Mar 6 6:20 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen thru 1 later capture (Mar6 10:05am), jumps same-day 6:20pm" (scratchpad/sos-status-sweep.md).
+
+### sacramento-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Sacramento row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 107,601, Last Report 'Jun 8 12:16 a.m.'. FROZEN: the identical Ballots Cast figure 107,601 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 173,818 (Last Report 'Jun 10 3:24 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20220608094259->20220609035046 then jumps to 173,818@Jun 10 3:24 p.m." (scratchpad/sos-status-sweep.md).
+
+### sacramento-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Sacramento row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 118,205, Last Report 'Mar 5 11:58 p.m.'. FROZEN: the identical Ballots Cast figure 118,205 recurs across 4 captures, 2024-03-06 14:44:09 UTC through 2024-03-08 15:51:26 UTC, before the next available capture (2024-03-09 19:45:02 UTC) jumps to 180,496 (Last Report 'Mar 8 3:12 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen thru 4 captures, jumps Mar9 to 180,496/Mar8 3:12pm" (scratchpad/sos-status-sweep.md).
+
+### san-bernardino-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8).
+
+San Bernardino row at capture 20220608230118 (2022-06-08 23:01:18 UTC): 100.0% precincts, Ballots Cast 119,998, Last Report 'Jun 8 3:16 a.m.'. SINGLE CAPTURE at 2022-06-08 23:01:18 UTC carries this value. The next available capture (2022-06-09 01:58:33 UTC) jumps to 126,421 (Last Report 'Jun 8 4:18 p.m.'), confirming 119,998 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). Sweep bracket-evidence cross-check: "single capture, next capture jumps to 126,421@Jun 8 4:18 p.m." (scratchpad/sos-status-sweep.md).
+
+### san-bernardino-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+San Bernardino row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 150,018, Last Report 'Mar 6 1:48 a.m.'. FROZEN: the identical Ballots Cast figure 150,018 recurs across 2 captures, 2024-03-06 14:44:09 UTC through 2024-03-06 18:05:49 UTC, before the next available capture (2024-03-07 03:52:36 UTC) jumps to 160,881 (Last Report 'Mar 6 3:48 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen thru 3 captures (Mar6), jumps same-day 3:48pm to 160,881" (scratchpad/sos-status-sweep.md).
+
+### san-mateo-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+San Mateo row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 63,362, Last Report 'Jun 8 1:06 a.m.'. FROZEN: the identical Ballots Cast figure 63,362 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 75,776 (Last Report 'Jun 9 4:50 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20220608094259->20220609035046 then jumps to 75,776@Jun 9 4:50 p.m." (scratchpad/sos-status-sweep.md).
+
+### san-mateo-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+San Mateo row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 92,359, Last Report 'Mar 6 2:18 a.m.'. FROZEN: the identical Ballots Cast figure 92,359 recurs across 3 captures, 2024-03-06 14:44:09 UTC through 2024-03-07 03:52:36 UTC, before the next available capture (2024-03-08 15:51:26 UTC) jumps to 104,684 (Last Report 'Mar 7 4:25 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen thru 2 later captures (Mar6 10:05am,7:52pm), jumps to 104,684/Mar7 4:25pm" (scratchpad/sos-status-sweep.md).
+
+### santa-clara-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Santa Clara row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 181,257, Last Report 'Jun 7 11:00 p.m.'. FROZEN: the identical Ballots Cast figure 181,257 recurs across 2 captures, 2022-06-08 09:42:59 UTC through 2022-06-08 23:01:18 UTC, before the next available capture (2022-06-09 01:58:33 UTC) jumps to 187,550 (Last Report 'Jun 8 4:32 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20220608094259->20220608230118 then jumps to 187,550@Jun 8 4:32 p.m." (scratchpad/sos-status-sweep.md).
+
+### santa-clara-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Santa Clara row at capture 20240306063830 (2024-03-06 06:38:30 UTC): 100.0% precincts, Ballots Cast 182,413, Last Report 'Mar 5 10:26 p.m.'. FROZEN: the identical Ballots Cast figure 182,413 recurs across 3 captures, 2024-03-06 06:38:30 UTC through 2024-03-06 18:05:49 UTC, before the next available capture (2024-03-07 03:52:36 UTC) jumps to 209,664 (Last Report 'Mar 6 6:24 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen thru 2 later captures (Mar6 6:44am,10:05am), jumps same-day 6:24pm" (scratchpad/sos-status-sweep.md).
+
+### tehama-ca 2022-06-07: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Tehama row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 7,915, Last Report 'Jun 7 11:41 p.m.'. FROZEN: the identical Ballots Cast figure 7,915 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 12,478 (Last Report 'Jun 9 6:23 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20220608094259->20220609035046 then jumps to 12,478@Jun 9 6:23 p.m." (scratchpad/sos-status-sweep.md).
+
+### tehama-ca 2024-03-05: CONFIRMED
+
+CA SoS status-page frozen-capture bracket (RUNBOOK 8).
+
+Tehama row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 7,998, Last Report 'Mar 5 11:34 p.m.'. FROZEN: the identical Ballots Cast figure 7,998 recurs across 4 captures, 2024-03-06 14:44:09 UTC through 2024-03-08 15:51:26 UTC, before the next available capture (2024-03-09 19:45:02 UTC) jumps to 10,596 (Last Report 'Mar 8 5:52 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen thru 4 captures, jumps Mar9 to 10,596/Mar8 5:52pm" (scratchpad/sos-status-sweep.md).
