@@ -1092,6 +1092,16 @@
         },
         {
           "year": 2018,
+          "type": "midterm-primary",
+          "pct": 40.22,
+          "ballots": 15091,
+          "final": 37525,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://www.napacounty.gov/DocumentCenter/View/8722/Final-Unofficial-Election-Night-Report---Primary-Election-06052018-1039pm-PDF"
+        },
+        {
+          "year": 2018,
           "type": "midterm",
           "pct": 38.11,
           "ballots": 21774,

@@ -232,6 +232,13 @@
  },
  {
   "slug": "napa-ca",
+  "date": "2018-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "rollout election; county's own report-series titling (last report still labeled 'Election Night' vs the 'POST-Election Night' series 3 days later) plus late-night internal timestamp plus a later capture showing the count had moved",
+  "evidence": "'FINAL ELECTION NIGHT SEMIFINAL OFFICIAL CANVASS', stamp 6/5/2018 10:39:31 PM, 170/170 precincts, Times Cast 15,091/76,236 (19.80%, RUNBOOK 7.5 mislabel resolved via the Governor contest's own Times Cast row); First POST report (6/8/2018) shows 16,773, confirming movement resumed after a gap. Source: docs/research/pending-integration-2026-07-10/dossier-napa-ca-primaries.md Item 4."
+ },
+ {
+  "slug": "napa-ca",
   "date": "2018-11-06",
   "verdict": "CONFIRMED",
   "basis": "county titled last-of-night series",

@@ -732,6 +732,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for napa-ca 2016-11-08
       controller verdict: CONFIRMED (county last-report title)
 
+- [ ] **napa-ca 2018-06-05** (plateau check)
+      claimed: night ballots **15,091**, certified final **37,525**, share **40.22%**
+      numerator URL: https://www.napacounty.gov/DocumentCenter/View/8722/Final-Unofficial-Election-Night-Report---Primary-Election-06052018-1039pm-PDF
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: ROLLOUT ELECTION: Napa's first VCA / e-pollbook election (county-tech record epollbook.adopted_year=2018, first_election='2018-06'); vs_epollbook classed POST since vote centers/e-pollbooks were live for this entire election, not adopted after it (same convention already used for this county's 2018-
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for napa-ca 2018-06-05
+      controller verdict: CONFIRMED (rollout election; county's own report-series titling (last report still labeled 'Election Night' vs the 'POST-Election Night' series 3 days later) plus late-night internal timestamp plus a later capture showing the count had moved)
+
 - [ ] **napa-ca 2018-11-06** (plateau check)
       claimed: night ballots **21,774**, certified final **57,132**, share **38.11%**
       numerator URL: https://www.napacounty.gov/DocumentCenter/View/10436/Last-Unofficial-Election-Night-Report-11-06-18-PDF

@@ -174,6 +174,8 @@ verify_en_* scripts to regenerate).
 | napa-ca | 2016-06-07 | numerator | 20,427 | VERIFIED | Napa 167 167 100.0% 72,461 20,427 28.2% Jun 7 8:03 p.m. Jun 8 12:07 a.m. CCU |
 | napa-ca | 2016-11-08 | denominator | 63,255 | VERIFIED | 167 93,686 76,833 4,530 58,725 63,255 92.84% 82.33% 67.52% |
 | napa-ca | 2016-11-08 | numerator | 34,108 | VERIFIED | November 8, 2016 Precincts Reported: 167 of 167 (100.00%) Ballots Cast: 34,108 PRESIDENT/VICE PRESIDENT (Vote for 1) Pre |
+| napa-ca | 2018-06-05 | denominator | 37,525 | VERIFIED | 170 92,519 76,211 4 37,521 37,525 99.99% 49.24% 40.56% |
+| napa-ca | 2018-06-05 | numerator | 15,091 | VERIFIED | ECTION NAPA COUNTY Precincts Reported: 170 of 170 (100.00%) Registered Voters: 15,091 of 76,236 (19.80%) Ballots Cast: 3 |
 | napa-ca | 2018-11-06 | denominator | 57,132 | VERIFIED | 170 92,369 78,135 42 57,090 57,132 99.93% 73.12% 61.85% |
 | napa-ca | 2018-11-06 | numerator | 21,774 | VERIFIED | ION NIGHT REPORT Precincts Reported: 170 of 170 (100.00%) Registered Voters: 21,774 of 78,135 (27.87%) Ballots Cast: 43, |
 | napa-ca | 2022-06-07 | denominator | 36,285 | VERIFIED | 190 97,727 84,163 520 35,765 36,285 98.57% 43.11% 37.13% |
