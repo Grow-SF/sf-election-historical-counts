@@ -206,12 +206,20 @@ verify_en_* scripts to regenerate).
 | nevada-ca | 2024-03-05 | numerator | 21,753 | VERIFIED | Nevada Vote Centers 108 108 100.0% 74,137 21,753 29% Mar 5 8:22 p.m. Mar 6 12:08 a.m. U |
 | nevada-ca | 2024-11-05 | denominator | 63,240 | VERIFIED | 118 81,096 75,654 8,047 55,193 63,240 87.28% 83.59% 77.98% |
 | nevada-ca | 2024-11-05 | numerator | 15,486 | VERIFIED | tal Percent Ballots Registered Percent 118 118 100.00% 15,486 75,881 20.41% Choice Part |
+| orange-ca | 2012-06-05 | denominator | 426,869 | VERIFIED | 1,976 1,916,528 1,612,145 145,474 281,395 426,869 65.92% 26.48% 22.27% |
+| orange-ca | 2012-06-05 | numerator | 315,584 | VERIFIED | 0 0.00% Total Ballots Cast 315,584 19.58% |
 | orange-ca | 2012-11-06 | denominator | 1,133,204 | VERIFIED | 1,977 1,925,205 1,683,001 552,018 581,186 1,133,204 51.29% 67.33% 58.86% |
 | orange-ca | 2012-11-06 | numerator | 862,544 | VERIFIED | 399,220 23.72% Total Ballots Cast 862,544 51.25% Complete Precincts: 184 of 184 |
+| orange-ca | 2014-06-03 | denominator | 340,187 | VERIFIED | 1,856 1,955,899 1,411,232 99,397 240,790 340,187 70.78% 24.11% 17.39% |
+| orange-ca | 2014-06-03 | numerator | 238,460 | VERIFIED | 4,412 1.88% Total Ballots Cast 238,460 16.90% Absentee Ballots Cast 319 5.70% RICH |
 | orange-ca | 2014-11-04 | denominator | 640,358 | VERIFIED | 1,863 1,963,747 1,424,216 252,472 387,886 640,358 60.57% 44.96% 32.61% |
 | orange-ca | 2014-11-04 | numerator | 464,313 | VERIFIED | 252,171 17.71% Total Ballots Cast 464,313 32.60% Complete Precincts: 1,863 of 1,863 |
+| orange-ca | 2016-06-07 | denominator | 691,802 | VERIFIED | Orange 1,597 2,000,797 1,395,380 283,619 408,183 691,802 59.00% 49.58% 34.58% |
+| orange-ca | 2016-06-07 | numerator | 477,064 | VERIFIED | 1,083 0.57% Total Ballots Cast 477,064 34.19% Vote-by-Mail Ballots Cast 373 9. |
 | orange-ca | 2016-11-08 | denominator | 1,239,405 | VERIFIED | e 1,668 2,009,188 1,535,691 516,801 722,604 1,239,405 58.30% 80.71% 61.69% |
 | orange-ca | 2016-11-08 | numerator | 825,317 | VERIFIED | 431,038 28.06% Total Ballots Cast 825,317 53.73% Complete Precincts: 168 of 168 |
+| orange-ca | 2018-06-05 | denominator | 635,224 | VERIFIED | 1,561 2,022,355 1,482,036 226,848 408,376 635,224 64.29% 42.86% 31.41% |
+| orange-ca | 2018-06-05 | numerator | 369,267 | VERIFIED | 30,590 8.79% 369,267 24.92% |
 | orange-ca | 2018-11-06 | denominator | 1,106,729 | VERIFIED | 1,546 2,028,366 1,560,111 393,423 713,306 1,106,729 64.45% 70.94% 54.56% |
 | orange-ca | 2018-11-06 | numerator | 650,671 | VERIFIED | 366,447 23.51% Total Ballots Cast 650,671 41.74% Complete Precincts: 1,546 of 1,546 |
 | orange-ca | 2022-06-07 | denominator | 636,497 | VERIFIED | 2,179 2,205,404 1,809,947 72,455 564,042 636,497 88.62% 35.17% 28.86% |

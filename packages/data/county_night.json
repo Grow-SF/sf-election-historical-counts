@@ -1278,6 +1278,16 @@
       "points": [
         {
           "year": 2012,
+          "type": "presidential-primary",
+          "pct": 73.93,
+          "ballots": 315584,
+          "final": 426869,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://ocvote.gov/fileadmin/live/pri2012/run09/cumulative.pdf"
+        },
+        {
+          "year": 2012,
           "type": "presidential",
           "pct": 76.12,
           "ballots": 862544,
@@ -1285,6 +1295,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://ocvote.gov/fileadmin/live/gen2012/Run09/cumulative.pdf"
+        },
+        {
+          "year": 2014,
+          "type": "midterm-primary",
+          "pct": 70.1,
+          "ballots": 238460,
+          "final": 340187,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://ocvote.gov/fileadmin/live/pri2014/run10/cumulative.pdf"
         },
         {
           "year": 2014,
@@ -1298,6 +1318,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 68.96,
+          "ballots": 477064,
+          "final": 691802,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://ocvote.gov/fileadmin/live/pri2016/Run%2010/cumulative.pdf"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": 66.59,
           "ballots": 825317,
@@ -1305,6 +1335,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://ocvote.gov/fileadmin/live/gen2016/Run%2011/cumulative.pdf"
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 58.13,
+          "ballots": 369267,
+          "final": 635224,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://ocvote.gov/fileadmin/live/pri2018/Run%2009/cumulative.pdf"
         },
         {
           "year": 2018,

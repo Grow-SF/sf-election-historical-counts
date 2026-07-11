@@ -34,7 +34,7 @@ dossier-napa-ca-primaries.md: Napa County primary election research. Status: Pen
 
 dossier-nevada-ca-primaries.md: Nevada County primary election research with technology findings. Status: Pending integration.
 
-dossier-orange-ca-primaries.md: Orange County primary election research. Status: Pending integration.
+dossier-orange-ca-primaries.md: Orange County primary election research. Status: Integrated 2026-07-10 (backfill batch 2): 2022-06-07 and 2024-03-05 were already landed via the SoS status-page sweep (CONFIRMED/primary, bracketed), values matching the dossier exactly; equal evidence class, cross-cited as corroboration in the JSON note only. 2012-06-05, 2014-06-03, 2016-06-07, and 2018-06-05 were absent from the live dataset entirely and are now landed as new CONFIRMED/primary rows from the county's own ocvote.gov numbered-run report series with time-gap brackets.
 
 dossier-placer-ca-primaries.md: Placer County primary election research. Status: Pending integration.
 

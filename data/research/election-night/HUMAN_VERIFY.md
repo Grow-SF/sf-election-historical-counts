@@ -860,6 +860,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for nevada-ca 2024-11-05
       controller verdict: CONFIRMED (county's own last-of-three night report)
 
+- [ ] **orange-ca 2012-06-05** (plateau check)
+      claimed: night ballots **315,584**, certified final **426,869**, share **73.93%**
+      numerator URL: https://ocvote.gov/fileadmin/live/pri2012/run09/cumulative.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf
+      look for: PLATEAU metric (final election-night report, NOT the 8 p.m. first tranche). OCROV posted sequential 'UNOFFICIAL RESULTS CUMULATIVE TOTALS' runs (Presidential Primary Election, Tuesday June 5, 2012): run01 (Run Date/Time 06/05/2012 07:42:12 pm) = 0 of 1,976 precincts, VBM-only pre-count dump; the cou
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for orange-ca 2012-06-05
+      controller verdict: CONFIRMED (county report-series time-gap bracket (100% precincts, ~15.7-hour gap to next-day run))
+
 - [ ] **orange-ca 2012-11-06** (plateau check)
       claimed: night ballots **862,544**, certified final **1,133,204**, share **76.12%**
       numerator URL: https://ocvote.gov/fileadmin/live/gen2012/Run09/cumulative.pdf
@@ -867,6 +875,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU metric (final election-night report, NOT the 8 p.m. first tranche). OCROV posted sequential 'Cumulative Totals' runs every ~20-40 min through election night: Run 01 (Run Date/Time 11/06/2012 07:45:25 pm) = 385,929 ballots / 0 of 1,977 precincts = vote-by-mail-only first tranche; the count th
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for orange-ca 2012-11-06
       controller verdict: CONFIRMED (county-archived night report with past-midnight stamp)
+
+- [ ] **orange-ca 2014-06-03** (plateau check)
+      claimed: night ballots **238,460**, certified final **340,187**, share **70.1%**
+      numerator URL: https://ocvote.gov/fileadmin/live/pri2014/run10/cumulative.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: PLATEAU metric (final election-night report, NOT the 8 p.m. first tranche). OCROV posted sequential 'UNOFFICIAL RESULTS CUMULATIVE TOTALS' runs (Statewide Direct Primary Election, Tuesday June 3, 2014): run01 (Run Date/Time 06/03/2014 07:41:17 pm) = 151,033 ballots / 0 of 1,856 precincts = VBM-only 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for orange-ca 2014-06-03
+      controller verdict: CONFIRMED (county report-series time-gap bracket (100% precincts, ~15.1-hour gap to next-day run))
 
 - [ ] **orange-ca 2014-11-04** (plateau check)
       claimed: night ballots **464,313**, certified final **640,358**, share **72.51%**
@@ -876,6 +892,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for orange-ca 2014-11-04
       controller verdict: CONFIRMED (county-archived night report with past-midnight stamp)
 
+- [ ] **orange-ca 2016-06-07** (plateau check)
+      claimed: night ballots **477,064**, certified final **691,802**, share **68.96%**
+      numerator URL: https://ocvote.gov/fileadmin/live/pri2016/Run%2010/cumulative.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU metric (final election-night report, NOT the 8 p.m. first tranche). OCROV posted sequential 'UNOFFICIAL RESULTS CUMULATIVE TOTALS' runs (Presidential Primary Election, Tuesday June 7, 2016): run01 (Run Date/Time 06/07/2016 07:49:11 pm) = 254,324 ballots / 0 of 1,597 precincts = VBM-only pre-
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for orange-ca 2016-06-07
+      controller verdict: CONFIRMED (county report-series time-gap bracket (100% precincts, ~14.75-hour gap to next-day run, exact reconciliation to certified))
+
 - [ ] **orange-ca 2016-11-08** (plateau check)
       claimed: night ballots **825,317**, certified final **1,239,405**, share **66.59%**
       numerator URL: https://ocvote.gov/fileadmin/live/gen2016/Run%2011/cumulative.pdf
@@ -883,6 +907,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PLATEAU metric (final election-night report, NOT the 8 p.m. first tranche). Run 01 (Run Date/Time 11/08/2016 08:03:32 pm) = 430,263 ballots / 0 of 1,668 precincts = vote-by-mail-only first tranche; the count climbed and PLATEAUED at Run 11 (Run Date/Time 11/09/2016 01:55:57 am) = 825,317 ballots wit
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for orange-ca 2016-11-08
       controller verdict: CONFIRMED (county-archived night report with past-midnight stamp)
+
+- [ ] **orange-ca 2018-06-05** (plateau check)
+      claimed: night ballots **369,267**, certified final **635,224**, share **58.13%**
+      numerator URL: https://ocvote.gov/fileadmin/live/pri2018/Run%2009/cumulative.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU metric (final election-night report, NOT the 8 p.m. first tranche). OCROV posted sequential 'UNOFFICIAL RESULTS CUMULATIVE TOTALS' runs (Statewide Direct Primary Election, Tuesday June 5, 2018): run01 (Run Date/Time 06/05/2018 07:57:34 pm) = 191,928 ballots / 0 of 1,561 precincts = VBM-only 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for orange-ca 2018-06-05
+      controller verdict: CONFIRMED (county report-series time-gap bracket (100% precincts, ~16.0-hour gap to next-day run), cross-checked against the 2018 general share)
 
 - [ ] **orange-ca 2018-11-06** (plateau check)
       claimed: night ballots **650,671**, certified final **1,106,729**, share **58.79%**

@@ -798,11 +798,31 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 | Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
 |---|---|---:|---:|---:|---|---|
+| 2012p | presidential-primary | 315,584 | 426,869 | 73.93% | primary | [link](https://ocvote.gov/fileadmin/live/pri2012/run09/cumulative.pdf) |
+| 2014p | statewide-primary | 238,460 | 340,187 | 70.1% | primary | [link](https://ocvote.gov/fileadmin/live/pri2014/run10/cumulative.pdf) |
+| 2016p | presidential-primary | 477,064 | 691,802 | 68.96% | primary | [link](https://ocvote.gov/fileadmin/live/pri2016/Run%2010/cumulative.pdf) |
+| 2018p | statewide-primary | 369,267 | 635,224 | 58.13% | primary | [link](https://ocvote.gov/fileadmin/live/pri2018/Run%2009/cumulative.pdf) |
 | 2022p | statewide-primary | 325,774 | 636,497 | 51.18% | primary | [link](https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status) |
 | 2024p | presidential-primary | 400,430 | 685,038 | 58.45% | primary | [link](https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status) |
 
 <details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
 
+- **2012-06-05 presidential-primary** — night `315,584` / final `426,869` = `73.93%` (primary)
+  - numerator: <https://ocvote.gov/fileadmin/live/pri2012/run09/cumulative.pdf>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
+  - look for: NEW ROW (2026-07-10). run09's own header "Run Date/Time: 06/06/2012 01:05:49 am", "Complete Precincts: 1,976 of 1,976", "Total Ballots Cast 315,584" (Precinct Ballots Cast 128,320 + Vote-by-Mail Ballots Cast 187,264). run10 (same folder) is dated 06/06/2012 04:45:57 pm = 331,362, the next-day-afternoon canvass jump. Source: docs/research/pending-integration-2026-07-10/dossier-orange-ca-primaries.md Item 1.
+- **2014-06-03 statewide-primary** — night `238,460` / final `340,187` = `70.1%` (primary)
+  - numerator: <https://ocvote.gov/fileadmin/live/pri2014/run10/cumulative.pdf>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf>
+  - look for: NEW ROW (2026-07-10). run10's header "Run Date/Time: 06/04/2014 01:35:06 am", "Complete Precincts: 1,856 of 1,856", "Total Ballots Cast 238,460" (Precinct Ballots Cast 87,164 + Absentee Ballots Cast 151,296). run11 (same folder) is dated 06/04/2014 04:41:04 pm = 245,809. Source: docs/research/pending-integration-2026-07-10/dossier-orange-ca-primaries.md Item 2.
+- **2016-06-07 presidential-primary** — night `477,064` / final `691,802` = `68.96%` (primary)
+  - numerator: <https://ocvote.gov/fileadmin/live/pri2016/Run%2010/cumulative.pdf>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf>
+  - look for: NEW ROW (2026-07-10). Run 10's header "Run Date/Time: 06/08/2016 02:11:01 am", "Complete Precincts: 1,597 of 1,597", "Total Ballots Cast 477,064". Run 11 (same folder) is dated 06/08/2016 04:55:50 pm = 492,060. Source: docs/research/pending-integration-2026-07-10/dossier-orange-ca-primaries.md Item 3.
+- **2018-06-05 statewide-primary** — night `369,267` / final `635,224` = `58.13%` (primary)
+  - numerator: <https://ocvote.gov/fileadmin/live/pri2018/Run%2009/cumulative.pdf>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: NEW ROW (2026-07-10). Run 09's header "Run Date/Time: 06/06/2018 12:55:42 am", "Complete Precincts: 1,561 of 1,561", Precinct 176,297 + Early 766 + VBM 192,204 = 369,267. Run 10 (same folder) is dated 06/06/2018 04:55:41 pm = 383,375. Source: docs/research/pending-integration-2026-07-10/dossier-orange-ca-primaries.md Item 4.
 - **2022-06-07 statewide-primary** — night `325,774` / final `636,497` = `51.18%` (primary)
   - numerator: <https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf>
