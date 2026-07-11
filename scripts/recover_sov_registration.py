@@ -6,7 +6,7 @@ San Francisco row (full width) at native resolution for reliable reading.
 These printed SOV volumes carry an SF-county *eligible* (DOF citizen estimate)
 column from ~1973-74 onward; the SoS CDN only goes back to 1999, so the 1974-98
 franchise denominators come from here. Output crops are read by a human/vision
-model and recorded (with confidence) in data/sf_registration_eligible_sov_1974_1998.csv.
+model and recorded (with confidence) in data/sources/sf_registration_eligible_sov_1974_1998.csv.
 NOTE: page OCR (tesseract/djvu) scrambles these multi-column tables and even a
 vision model misreads digits on the full page; read the *cropped single row*.
 

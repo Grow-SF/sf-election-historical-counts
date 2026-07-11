@@ -10,7 +10,7 @@ entry (`sources.json` and `ledger.json` are typed inline there, not in
 |---|---|---|
 | `elections.json` | `scripts/build_viz_data.py` | `data/*.csv` |
 | `turnout_history.json` | `scripts/build_viz_data.py` | `data/*.csv` |
-| `night_floor.json` | `scripts/build_viz_data.py` | computed live from the turnout/VBM CSVs (NOT from `data/sf_night_floor_1964_2026.csv`) |
+| `night_floor.json` | `scripts/build_viz_data.py` | computed live from the turnout/VBM CSVs |
 | `vbm_history.json` | `scripts/build_viz_data.py` | `data/*.csv` |
 | `registration_eligible.json` | `scripts/build_viz_data.py` | `data/*.csv` |
 | `franchise_funnel.json` | `scripts/build_viz_data.py` | `data/*.csv` |

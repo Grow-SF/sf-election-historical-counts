@@ -22,20 +22,37 @@ SOV = {
     2024: "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
 }
 
+# Statewide-primary counterpart of SOV, keyed the same way. Path shape is
+# NOT a fixed year-to-year pattern (each year's SoS site lays the primary
+# SoV out slightly differently -- see docs/research/RUNBOOK.md 6.1 and the
+# per-county primary dossiers), so this is its own explicit table rather
+# than a string-substitution of SOV.
+SOV_PRIMARY = {
+    2012: "https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf",
+    2014: "https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf",
+    2016: "https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf",
+    2018: "https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf",
+    2022: "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf",
+    2024: "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf",
+}
+
 
 def main():
     texts = {}
-    for year, url in SOV.items():
+    for year, url in {**SOV, **{f"{y}p": u for y, u in SOV_PRIMARY.items()}}.items():
         dest = CACHE / f"sov-{year}.pdf"
         texts[year] = pdf_text(dest) if fetch(url, dest) else None
 
     results = []
     for r in load_rows():
         year = int(r["date"][:4])
-        text = texts.get(year)
+        is_primary = "primary" in (r.get("type") or "").lower()
+        key = f"{year}p" if is_primary else year
+        url = SOV_PRIMARY[year] if is_primary else SOV[year]
+        text = texts.get(key)
         res = {
             "slug": r["slug"], "date": r["date"], "kind": "denominator",
-            "claimed": r["certified_final"], "url": SOV[year],
+            "claimed": r["certified_final"], "url": url,
             "status": "FETCH_FAILED", "evidence": None,
         }
         if text:

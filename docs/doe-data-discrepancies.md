@@ -1,14 +1,14 @@
 # Turnout-table discrepancies — notes for investigation
 
 While cross-checking the **SF Department of Elections** historical turnout table
-(`data/sf_turnout_history_doe_1899_2019.csv`) against the **California Secretary of
+(`data/sources/sf_turnout_history_doe_1899_2019.csv`) against the **California Secretary of
 State Statement of Vote (SOV)** — the certified canvass we use as our reference,
 digitized and public on archive.org — we noticed a few figures that don't reconcile.
 
 We're **not asserting the DOE table is in error.** Any of these could be our own
 misreading, a difference in what each source counts, or a transcription slip on
 either side. Each item below simply needs a closer look, and where relevant we'd
-welcome the Department's input. (Method: see `data/sov_crosscheck_ledger.md` and the
+welcome the Department's input. (Method: see `data/provenance/sov_crosscheck_ledger.md` and the
 `sov-certified-turnout` skill.)
 
 **Status legend:** `Under review — figures don't reconcile` · `Resolved — our error,
@@ -63,7 +63,7 @@ whether *their* published table has since changed (we can't edit it ourselves).
 
 ### 1968-06-04 - open question (SOV internal anomaly plus a conflicting newspaper complete count)
 - **DOE figure / source:** none; this primary has no row in the DOE historical turnout table.
-- **SOV reference:** SF County total vote cast = **254,825** (registration 348,111). Source: CA SoS *Statement of Vote*, Primary June 4 1968, [archive.org page n151](https://archive.org/details/californiastate196668cali/page/n151). The SOV's own printed percentage column for SF (66.34) does not reconcile with its printed total and registration (254,825/348,111 = 73.21%), while every neighboring county's percentage reconciles exactly; see `data/sov_crosscheck_ledger.md` (Batch 5).
+- **SOV reference:** SF County total vote cast = **254,825** (registration 348,111). Source: CA SoS *Statement of Vote*, Primary June 4 1968, [archive.org page n151](https://archive.org/details/californiastate196668cali/page/n151). The SOV's own printed percentage column for SF (66.34) does not reconcile with its printed total and registration (254,825/348,111 = 73.21%), while every neighboring county's percentage reconciles exactly; see `data/provenance/sov_crosscheck_ledger.md` (Batch 5).
 - **Newspaper reference:** SF Chronicle, June 7 1968, p30, "S.F. COUNT - SLOWEST IN 4 DECADES": completed unofficial count as of 9:45 p.m. June 6, "**262,449** ballots cast" against 349,078 registered, with 6,437 absentees hand-counted. That figure EXCEEDS the SOV certified total by 7,624.
 - **What we noticed:** three mutually inconsistent figures (the SOV pct column implies about 230,937; the SOV total prints 254,825; the paper's unofficial complete count is 262,449). Context: the June 1968 count was a documented operational failure (the Chronicle's "Voting Foul-up In S.F." reports the new computer tabulation system's debacle: 30 machines mishandled, tally sheets found in City Hall basement suitcases, one polling place firebombed), so a downward revision between the June 6 unofficial figure and the official canvass is plausible, but unverified.
 - **How we've handled it:** we keep the SOV total (254,825) as `certified_final`, pending resolution; the only night observation ingested (Prop A sum 112,468, flagged night_partial) is below every candidate denominator, so its floor status is safe either way. The city Statement of Vote volume at the SFPL History Center ("Statement of Vote 1906-1979") should settle it.
@@ -72,7 +72,7 @@ whether *their* published table has since changed (we can't edit it ourselves).
 ### 1899-12-02 - date error in the DOE table (figures correct)
 - **DOE figure / source:** 70,726 registered / 22,331 ballots, dated December 2, 1899 - DOE historical turnout table.
 - **Municipal Reports reference:** the Dept. of Elections cumulative registration-and-votes table (SF Municipal Reports FY1907-08, p.871, archive.org sanfranciscomuni57sanfrich; cross-verified against the vols 49/53/55 printings) records a **December 29, 1899** sewer-bond special with exactly these figures. No December 2 election exists in the city record; a companion December 27, 1899 park-bond special (70,681 / 29,972) has no DOE row at all.
-- **How we've handled it:** `build_viz_data.py` re-dates the DOE row to 1899-12-29 (DOE_TABLE_DATE_FIXES); the Dec 27 special is added from the Municipal Reports table (`data/sf_turnout_1891_1907.csv`). A second omission found the same way: the December 4, 1902 charter-amendments special (14,271 ballots), also absent from the DOE table.
+- **How we've handled it:** `build_viz_data.py` re-dates the DOE row to 1899-12-29 (DOE_TABLE_DATE_FIXES); the Dec 27 special is added from the Municipal Reports table (`data/sources/sf_turnout_1891_1907.csv`). A second omission found the same way: the December 4, 1902 charter-amendments special (14,271 ballots), also absent from the DOE table.
 - **Raised with DOE:** not yet - worth raising along with the omissions.
 
 ### 1974-06-04 — our error (fixed)

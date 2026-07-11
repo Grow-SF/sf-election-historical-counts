@@ -18,7 +18,9 @@ from validate_county_tech import validate_record  # noqa: E402
 def main():
     metrics, adoptions, skipped = [], [], []
     for f in sorted(SRC.glob("*.json")):
-        if f.name == "worklist.json":
+        if f.name in ("worklist.json", "ca_adoption_census.json"):
+            # worklist and the CA-58 adoption census have their own formats,
+            # not the per-jurisdiction tech-record schema
             continue
         r = json.loads(f.read_text())
         errs = validate_record(r)

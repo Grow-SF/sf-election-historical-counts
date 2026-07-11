@@ -1,70 +1,70 @@
 check,name,variant,statistic,value,n,note
-1,control_triptych,pooled,theta_2024,10.07,10,
-1,control_triptych,pooled,theta_2022,7.20,12,
-1,control_triptych,pooled,theta_step_2018,-6.62,5,
+1,control_triptych,pooled,theta_2024,10.01,13,
+1,control_triptych,pooled,theta_2022,7.67,12,
+1,control_triptych,pooled,theta_step_2018,-6.57,5,
 1,control_triptych,pooled,theta_step_2022,7.44,3,
-1,control_triptych,sf,theta_2024,6.78,10,
-1,control_triptych,sf,theta_2022,3.95,12,
-1,control_triptych,sf,theta_step_2018,-5.38,5,
+1,control_triptych,sf,theta_2024,7.16,13,
+1,control_triptych,sf,theta_2022,4.52,12,
+1,control_triptych,sf,theta_step_2018,-5.28,5,
 1,control_triptych,sf,theta_step_2022,3.76,3,
-1,control_triptych,slo,theta_2024,13.37,10,
-1,control_triptych,slo,theta_2022,10.45,12,
-1,control_triptych,slo,theta_step_2018,-7.85,5,
+1,control_triptych,slo,theta_2024,12.87,13,
+1,control_triptych,slo,theta_2022,10.81,12,
+1,control_triptych,slo,theta_step_2018,-7.86,5,
 1,control_triptych,slo,theta_step_2022,11.13,3,
-2,base_rule,type,theta_2024,10.07,10,
-2,base_rule,type,theta_2022,7.20,12,
-2,base_rule,type,theta_step_2018,-6.62,5,
+2,base_rule,type,theta_2024,10.01,13,
+2,base_rule,type,theta_2022,7.67,12,
+2,base_rule,type,theta_step_2018,-6.57,5,
 2,base_rule,type,theta_step_2022,7.44,3,
-2,base_rule,calendar,theta_2024,9.39,10,
-2,base_rule,calendar,theta_2022,5.66,12,
-2,base_rule,calendar,theta_step_2018,-10.30,5,
+2,base_rule,calendar,theta_2024,11.12,13,
+2,base_rule,calendar,theta_2022,5.95,12,
+2,base_rule,calendar,theta_step_2018,-10.69,5,
 2,base_rule,calendar,theta_step_2022,7.44,3,
 2,base_rule,flip_check,theta_2024_sign_flip,,,False
-3,tier1_only,drop_11_tier2_rows,theta_2024,10.30,10,
-3,tier1_only,drop_11_tier2_rows,theta_2022,7.46,11,
-3,tier1_only,drop_11_tier2_rows,theta_step_2018,-8.75,5,
-3,tier1_only,drop_11_tier2_rows,theta_step_2022,11.23,2,
-4,excluded_2024_bounds,nevada_2024_included,theta_2024,6.91,11,
-4,excluded_2024_bounds,riverside_2024_included,theta_2024,10.04,11,
-4,excluded_2024_bounds,both_included,theta_2024,7.14,12,
-5,leave_one_out,min,theta_2024,6.78,,drop san-luis-obispo-ca
-5,leave_one_out,max,theta_2024,13.37,,drop san-francisco-ca
+3,tier1_only,drop_11_tier2_rows,theta_2024,10.15,13,
+3,tier1_only,drop_11_tier2_rows,theta_2022,5.94,12,
+3,tier1_only,drop_11_tier2_rows,theta_step_2018,-8.58,4,
+3,tier1_only,drop_11_tier2_rows,theta_step_2022,1.29,3,
+4,excluded_2024_bounds,nevada_2024_included,theta_2024,7.53,14,
+4,excluded_2024_bounds,riverside_2024_included,theta_2024,10.52,13,
+4,excluded_2024_bounds,both_included,theta_2024,8.00,14,
+5,leave_one_out,min,theta_2024,7.16,,drop san-luis-obispo-ca
+5,leave_one_out,max,theta_2024,12.87,,drop san-francisco-ca
 5,leave_one_out,sign_flips,theta_2024,,,none
-5,leave_one_out,min,theta_2022,3.95,,drop san-luis-obispo-ca
-5,leave_one_out,max,theta_2022,10.45,,drop san-francisco-ca
+5,leave_one_out,min,theta_2022,4.52,,drop san-luis-obispo-ca
+5,leave_one_out,max,theta_2022,10.81,,drop san-francisco-ca
 5,leave_one_out,sign_flips,theta_2022,,,none
-5,leave_one_out,min,theta_step_2018,-8.84,,drop nevada-ca
-5,leave_one_out,max,theta_step_2018,-3.21,,drop san-mateo-ca
+5,leave_one_out,min,theta_step_2018,-8.78,,drop nevada-ca
+5,leave_one_out,max,theta_step_2018,-3.14,,drop san-mateo-ca
 5,leave_one_out,sign_flips,theta_step_2018,,,none
 5,leave_one_out,min,theta_step_2022,0.91,,drop san-diego-ca
 5,leave_one_out,max,theta_step_2022,11.23,,drop riverside-ca
 5,leave_one_out,sign_flips,theta_step_2022,,,none
-6,not_yet_treated_att2018,type,theta_step_2018,-1.94,5,"never-treated version -6.62; comparators dropped: san-diego-ca (for madera-ca, base 2016)"
-6,not_yet_treated_att2018,calendar,theta_step_2018,-8.60,5,"never-treated version -10.30; comparators dropped: san-diego-ca (for madera-ca, base 2016); san-diego-ca (for napa-ca, base 2016); san-diego-ca (for nevada-ca, base 2016); san-diego-ca (for san-mateo-ca, base 2016)"
-7,placebo_in_time,shift_one_general_earlier,mean_placebo_delta,0.91,6,cells: fresno-ca@2018(base 2014)=-3.13; los-angeles-ca@2018(base 2014)=-0.47; napa-ca@2016(base 2012)=4.46; nevada-ca@2016(base 2012)=8.47; orange-ca@2018(base 2014)=-4.01; san-mateo-ca@2016(base 2012)=0.15
-8,riverside_excluded,drop_riverside,theta_2024,10.07,10,
-8,riverside_excluded,drop_riverside,theta_2022,7.86,11,
-8,riverside_excluded,drop_riverside,theta_step_2018,-6.62,5,
+6,not_yet_treated_att2018,type,theta_step_2018,-0.98,5,never-treated version -6.57; comparators dropped: none
+6,not_yet_treated_att2018,calendar,theta_step_2018,-10.47,5,"never-treated version -10.69; comparators dropped: san-diego-ca (for madera-ca, base 2016); san-diego-ca (for napa-ca, base 2016); san-diego-ca (for nevada-ca, base 2016); san-diego-ca (for sacramento-ca, base 2016); san-diego-ca (for san-mateo-ca, base 2016)"
+7,placebo_in_time,shift_one_general_earlier,mean_placebo_delta,0.47,10,cells: fresno-ca@2018(base 2014)=-2.21; los-angeles-ca@2018(base 2014)=-0.47; madera-ca@2016(base 2012)=5.77; napa-ca@2016(base 2012)=4.46; nevada-ca@2016(base 2012)=8.47; orange-ca@2018(base 2014)=-4.01; placer-ca@2022(base 2014)=-9.05; sacramento-ca@2016(base 2012)=1.44; san-mateo-ca@2016(base 2012)=0.15; santa-clara-ca@2018(base 2014)=0.21
+8,riverside_excluded,drop_riverside,theta_2024,10.31,12,
+8,riverside_excluded,drop_riverside,theta_2022,8.38,11,
+8,riverside_excluded,drop_riverside,theta_step_2018,-6.57,5,
 8,riverside_excluded,drop_riverside,theta_step_2022,11.23,2,
-9,asv_rows_excluded,drop_nevada2022_sandiego2024,theta_2022,5.91,11,
-9,asv_rows_excluded,drop_nevada2022_sandiego2024,theta_2024,8.58,9,
-10,ballot_weighted,final_ballots_at_t,theta_2024,15.14,10,
-10,ballot_weighted,final_ballots_at_t,theta_2022,6.23,12,
-10,ballot_weighted,final_ballots_at_t,theta_step_2018,-13.50,5,
+9,asv_rows_excluded,drop_nevada2022_sandiego2024,theta_2022,6.42,11,
+9,asv_rows_excluded,drop_nevada2022_sandiego2024,theta_2024,8.88,12,
+10,ballot_weighted,final_ballots_at_t,theta_2024,13.52,13,
+10,ballot_weighted,final_ballots_at_t,theta_2022,6.64,12,
+10,ballot_weighted,final_ballots_at_t,theta_step_2018,-13.55,5,
 10,ballot_weighted,final_ballots_at_t,theta_step_2022,11.32,3,
-11,logit_transform,logit_pct,theta_2024,0.44,10,logit units
-11,logit_transform,logit_pct,theta_2022,0.29,12,logit units
+11,logit_transform,logit_pct,theta_2024,0.43,13,logit units
+11,logit_transform,logit_pct,theta_2022,0.31,12,logit units
 11,logit_transform,logit_pct,theta_step_2018,-0.26,5,logit units
 11,logit_transform,logit_pct,theta_step_2022,0.29,3,logit units
 11,logit_transform,sign_flips,any,,,none
-12,restore_2020,include_covid_election,theta_2024,10.07,10,only 1 usable 2020 row exists in the canonical dataset (san-francisco-ca); restoring 2020 adds no treated outcome or base year
-12,restore_2020,include_covid_election,theta_2022,7.20,12,only 1 usable 2020 row exists in the canonical dataset (san-francisco-ca); restoring 2020 adds no treated outcome or base year
-12,restore_2020,include_covid_election,theta_step_2018,-6.62,5,only 1 usable 2020 row exists in the canonical dataset (san-francisco-ca); restoring 2020 adds no treated outcome or base year
+12,restore_2020,include_covid_election,theta_2024,10.01,13,only 1 usable 2020 row exists in the canonical dataset (san-francisco-ca); restoring 2020 adds no treated outcome or base year
+12,restore_2020,include_covid_election,theta_2022,7.67,12,only 1 usable 2020 row exists in the canonical dataset (san-francisco-ca); restoring 2020 adds no treated outcome or base year
+12,restore_2020,include_covid_election,theta_step_2018,-6.57,5,only 1 usable 2020 row exists in the canonical dataset (san-francisco-ca); restoring 2020 adds no treated outcome or base year
 12,restore_2020,include_covid_election,theta_step_2022,7.44,3,only 1 usable 2020 row exists in the canonical dataset (san-francisco-ca); restoring 2020 adds no treated outcome or base year
-13,estimator_dependence,bjs_imputation,theta_2024,9.64,,cell-mean 10.07; divergence -0.43
-13,estimator_dependence,bjs_imputation,theta_2022,5.44,,cell-mean 7.20; divergence -1.75
-13,estimator_dependence,bjs_imputation,theta_step_2018,-5.74,,cell-mean -6.62; divergence 0.87
-13,estimator_dependence,bjs_imputation,theta_step_2022,1.08,,cell-mean 7.44; divergence -6.36
-13,estimator_dependence,static_twfe_exhibit,beta_post,1.46,,known-biased; quarantined; see validation.json S3
-14,size_split,small_counties,theta_2024_descriptive,5.99,5,final<=median(531306.50): fresno-ca+madera-ca+napa-ca+san-mateo-ca+ventura-ca
-14,size_split,large_counties,theta_2024_descriptive,14.16,5,final>median: los-angeles-ca+orange-ca+sacramento-ca+san-diego-ca+santa-clara-ca
+13,estimator_dependence,bjs_imputation,theta_2024,10.39,,cell-mean 10.01; divergence 0.38
+13,estimator_dependence,bjs_imputation,theta_2022,8.61,,cell-mean 7.67; divergence 0.94
+13,estimator_dependence,bjs_imputation,theta_step_2018,-5.31,,cell-mean -6.57; divergence 1.26
+13,estimator_dependence,bjs_imputation,theta_step_2022,4.01,,cell-mean 7.44; divergence -3.43
+13,estimator_dependence,static_twfe_exhibit,beta_post,3.45,,known-biased; quarantined; see validation.json S3
+14,size_split,small_counties,theta_2024_descriptive,8.91,6,final<=median(531306.50): fresno-ca+madera-ca+napa-ca+placer-ca+san-mateo-ca+ventura-ca
+14,size_split,large_counties,theta_2024_descriptive,10.96,7,final>median: los-angeles-ca+orange-ca+riverside-ca+sacramento-ca+san-bernardino-ca+san-diego-ca+santa-clara-ca

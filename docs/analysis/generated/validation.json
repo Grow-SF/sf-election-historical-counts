@@ -12,12 +12,12 @@
    "pass": true
   },
   {
-   "detail": "rate 0.0740 band [0.0654, 0.1346]",
+   "detail": "rate 0.0880 band [0.0654, 0.1346]",
    "name": "s1_size_alpha10",
    "pass": true
   },
   {
-   "detail": "rate 0.0260 band [0.0249, 0.0751]",
+   "detail": "rate 0.0420 band [0.0249, 0.0751]",
    "name": "s1_size_alpha05",
    "pass": true
   },
@@ -32,7 +32,7 @@
    "pass": true
   },
   {
-   "detail": "coverage 0.9220",
+   "detail": "coverage 0.9140",
    "name": "s2_ci_coverage",
    "pass": true
   },
@@ -47,7 +47,7 @@
    "pass": true
   },
   {
-   "detail": "twfe -1.58 vs +8 truth (post-2022 era)",
+   "detail": "twfe -0.58 vs +8 truth (post-2022 era)",
    "name": "s3_twfe_material_bias",
    "pass": true
   },
@@ -82,16 +82,16 @@
   "county_effect_sd": 8.0,
   "gamma": {
    "2012": 0.0,
-   "2014": -0.09,
-   "2016": -5.43,
-   "2018": -13.86,
-   "2022": -23.97,
-   "2024": -18.1
+   "2014": -0.94,
+   "2016": -6.22,
+   "2018": -14.57,
+   "2022": -27.21,
+   "2024": -19.21
   },
-  "n_params": 20,
-  "n_untreated_cells": 50,
+  "n_params": 21,
+  "n_untreated_cells": 60,
   "note": "year shocks and sigma calibrated to the real untreated two-way FE fit; missingness mask and cohort labels are the real ones",
-  "sigma_untreated_twfe_rmse": 4.61
+  "sigma_untreated_twfe_rmse": 4.44
  },
  "draws_per_rep": 500,
  "power_curve": {
@@ -99,20 +99,20 @@
   "mde_power80_alpha10_interpolated": ">12",
   "power": {
    "12": {
-    "alpha05": 0.5,
-    "alpha10": 0.704
+    "alpha05": 0.624,
+    "alpha10": 0.79
    },
    "3": {
-    "alpha05": 0.058,
-    "alpha10": 0.122
+    "alpha05": 0.06,
+    "alpha10": 0.144
    },
    "5": {
-    "alpha05": 0.092,
-    "alpha10": 0.232
+    "alpha05": 0.144,
+    "alpha10": 0.262
    },
    "8": {
-    "alpha05": 0.25,
-    "alpha10": 0.436
+    "alpha05": 0.338,
+    "alpha10": 0.464
    }
   },
   "tau_grid": [
@@ -139,10 +139,10 @@
    "theta_step_2022": 0.0
   },
   "bias_aggs_raw": {
-   "theta_2022": -0.11,
-   "theta_2024": -0.12,
-   "theta_step_2018": 0.11,
-   "theta_step_2022": 0.09
+   "theta_2022": -0.07,
+   "theta_2024": -0.08,
+   "theta_step_2018": 0.16,
+   "theta_step_2022": 0.08
   },
   "bias_cells_antithetic": {
    "att_2018_2018": 0.0,
@@ -154,8 +154,8 @@
    "att_2022_2024": 0.0
   },
   "bjs_agreement_noiseless_max_abs": 0.0,
-  "rejection_rate_alpha05": 0.026,
-  "rejection_rate_alpha10": 0.074
+  "rejection_rate_alpha05": 0.042,
+  "rejection_rate_alpha10": 0.088
  },
  "s2": {
   "bias_aggs_antithetic": {
@@ -165,7 +165,7 @@
    "theta_step_2022": 0.0
   },
   "bjs_agreement_noiseless_max_abs": 0.0,
-  "ci90_coverage": 0.922,
+  "ci90_coverage": 0.914,
   "coverage_band": [
    0.85,
    0.95
@@ -184,8 +184,8 @@
    "theta_step_2018": -10.0,
    "theta_step_2022": 8.0
   },
-  "twfe_bias_vs_post2022_truth": -9.58,
-  "twfe_static_mean": -1.58
+  "twfe_bias_vs_post2022_truth": -8.58,
+  "twfe_static_mean": -0.58
  },
  "s4": {
   "note": "a level shock of +s pp to both controls in 2022-2024 with zero treatment effect produces spurious theta_2024 of -s pp, one for one; the design cannot distinguish a bundle effect from control-side drift",

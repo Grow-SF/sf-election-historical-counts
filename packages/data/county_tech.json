@@ -1202,6 +1202,90 @@
  ],
  "adoptions": [
   {
+   "jurisdiction": "Colusa County",
+   "state": "CA",
+   "tech": "asv",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://www.countyofcolusaca.gov/197/Elections",
+   "confidence": "secondary",
+   "note": "Colusa County's official Elections page states: 'Every single ballot undergoes signature verification by one of our elections staff members. If we have any questions or concerns about your signature, we will call you or mail you a notice to verify.' No automated signature-matching software or vendor is named; described process is staff-only comparison against the voter registration card (carried over verbatim from ca_adoption_census.json's ASV research, direct fetch, not a snippet). This pass (2026-07-09/10) re-searched via WebSearch for \"Colusa County\" elections \"signature verification\" automated software and \"Colusa County\" elections \"electronic poll book\" OR \"e-pollbook\" and found no additional evidence of ASV or e-pollbook adoption anywhere (only the same official page, its CivicPlus mirror at ca-colusacounty.civicplus.com/197/Elections, and generic SoS/NCSL background pages). CORRECTED (2026-07-10, integration review): the source dossier/census row proposed confidence 'medium', which is not a value in this schema's confidence enum (primary/secondary/estimated/none); reclassified to 'secondary', matching every other county-tech record's ASV rating in this dataset (Lake, Napa, Del Norte, Mendocino, Tehama), all of which rate a voter-facing FAQ/process-description page as 'secondary' rather than 'primary' because it is not a technical/procedural filing (e.g. an EAP or certification document) and cannot fully rule out an unstated machine-assisted first pass."
+  },
+  {
+   "jurisdiction": "Colusa County",
+   "state": "CA",
+   "tech": "epollbook",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+   "confidence": "primary",
+   "note": "CA SoS 'Voting Technologies in Use by County' snapshots list Colusa's Electronic Pollbook column as 'Do not use' continuously across at least three editions: May 2022, Sept 2024 (both cited in ca_adoption_census.json), and Oct 10 2025 (this pass, https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf, grep 'Colusa' on pdftotext -layout output: row reads 'Dominion ICC 5.19 | Central Tabulation Only | Dominion ICX 5.19 | Dominion MBP 5.19 | Do not use | Dominion ImageCast Remote 5.19 | Do not use', last column = Electronic Pollbook). Also: EAVS (federal Election Administration and Voting Survey) reports False for Colusa e-pollbook usage in all four editions per census note. Colusa is not a VCA (Voter's Choice Act) county (vca_year null), so it never adopted the vote-center model that typically drives e-pollbook rollout elsewhere (contrast Napa, adopted 2018 alongside VCA). Confidence primary: official SoS technology-in-use filing, repeated across years, matching the same evidence pattern rated primary for Lake, Napa, Del Norte, Mendocino, and Tehama."
+  },
+  {
+   "jurisdiction": "Colusa County",
+   "state": "CA",
+   "tech": "sign-scan-go",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://www.countyofcolusaca.gov/197/Elections",
+   "confidence": "secondary",
+   "note": "No AB 626 in-vote-center mail-ballot sign-scan-and-go program found; Colusa is not a Voter's Choice Act county and has no vote centers (per SoS tech PDF: 'Vote Center/Polling Place Tabulator' = Central Tabulation Only, i.e. traditional polling places + central count, not VCA vote centers), so the vote-center-dependent Sign-Scan-and-Go model does not apply. Absence-of-evidence inference, consistent with Napa's, Lake's, and Mendocino's pre-VCA baseline pattern (all rated secondary for the same reasoning)."
+  },
+  {
+   "jurisdiction": "Colusa County",
+   "state": "CA",
+   "tech": "vote-center",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+   "confidence": "primary",
+   "note": "Colusa is not among CA's Voter's Choice Act counties (census row: vca_year null); Oct 2025 SoS tech PDF lists Colusa's 'Vote Center/Polling Place Tabulator' column as 'Central Tabulation Only' (i.e. traditional precinct polling places, ballots centrally tabulated -- not the VCA vote-center model). This is why Colusa is a clean control: no e-pollbook, no ASV, no vote-center transition across the whole 2012-2024 window, so vs_epollbook / vs_asv can be set 'n/a' for every election row below rather than pre/post."
+  },
+  {
+   "jurisdiction": "Del Norte County",
+   "state": "CA",
+   "tech": "asv",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://wildrivers.lostcoastoutpost.com/2020/sep/4/dubious-about-vote-mail-call-or-ask-del-norte-coun/",
+   "confidence": "secondary",
+   "note": "No automated signature-verification vendor/software found in any county material. Then-Clerk/Registrar Alissia Northrup on-the-record (Wild Rivers Outpost, Sept 4 2020): 'Each ballot is handled by a human being who examines the ballot to make sure it hasn't been tampered with. They verify signature against the signature we have on file from (the voter's) registration card...' -- explicit description of manual/human signature review, no automated matching software named. Del Norte's own VoteMail page (https://www.co.del-norte.ca.us/departments/Elections/VoteMail) describes only the statutory written-request process, no ASV technology mentioned (supporting, not primary, since it is process description not a tech inventory). Confidence secondary: quote dates to 2020, no county statement located reconfirming the process is still fully manual through 2024, though nothing in the 2022/2024/2025 SoS tech snapshots names any ASV product for Del Norte either (those snapshots do not have a distinct ASV column but no ASV vendor appears anywhere in county communications searched)."
+  },
+  {
+   "jurisdiction": "Del Norte County",
+   "state": "CA",
+   "tech": "epollbook",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+   "confidence": "primary",
+   "note": "CA SoS 'Voting Technologies in Use By County' snapshots consistently list Del Norte's Electronic Pollbook column as 'Do not use': May 9, 2022 snapshot (https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2022-1.pdf, row: Dominion ImageCast Central/Precinct/X tabulation, Electronic Pollbook = Do not use), February 9, 2024 snapshot (https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2024-1.pdf, Electronic Pollbook = Do not use), and October 10, 2025 snapshot (this evidence_url, Electronic Pollbook = Do not use). Three consecutive official snapshots bracketing the 2022-11-08 and 2024-11-05 elections in this dataset show no e-pollbook adoption at any point. Not a VCA county (no vote-center model). Locating query: fetch https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-<YEAR>-1.pdf, pdftotext -layout, grep -n -i 'del norte'."
+  },
+  {
+   "jurisdiction": "Del Norte County",
+   "state": "CA",
+   "tech": "vote-center",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+   "confidence": "primary",
+   "note": "Not a Voter's Choice Act county. SoS voting-tech snapshots show a conventional precinct-tabulator setup (Dominion ICE precinct scanner column populated) rather than the VCA all-mail/vote-center model; census row also independently marked vca_year null."
+  },
+  {
    "jurisdiction": "Fresno County",
    "state": "CA",
    "tech": "asv",
@@ -1248,6 +1332,54 @@
    "evidence_url": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2019-news-releases-and-advisories/fresno-county-adopts-voters-choice-act-2020-elections",
    "confidence": "primary",
    "note": "Fresno adopted the California Voter's Choice Act all-mailed-ballot + vote-center model. The Board of Supervisors voted March 12, 2019 to adopt the VCA 'in time for the 2020 elections' (CA SoS news release); Fresno was the ninth county to implement the VCA. First election conducted under the model was the March 3, 2020 Presidential Primary, with 53 vote centers and drop boxes replacing 268 one-day precinct polling places (Fresno EAP, https://elections.cdn.sos.ca.gov/vca/eap/fresno-eap.pdf). Board-vote/adoption date = March 12, 2019; first election conducted with the model = March 2020."
+  },
+  {
+   "jurisdiction": "Lake County",
+   "state": "CA",
+   "tech": "asv",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://calvoter.org/content/%E2%80%98why-do-we-need-rush%E2%80%99-california%E2%80%99s-lake-county-may-have-nation%E2%80%99s-slowest-elections",
+   "confidence": "secondary",
+   "note": "CalVoter's ballot-processing profile of Lake County ('Why do we need to rush? California's Lake County may have the nation's slowest elections department') describes vote-by-mail signatures being 'examined by staff' with no automated signature-matching equipment named, in the context of an understaffed/slow elections office. Direct fetch of the CalVoter page was blocked by a bot wall (403 both in the original census pass and re-checked in this pass); this rests on a WebSearch-indexed snippet only, not a full primary-source read. Lake's own Signature Verification Statement PDF (https://lakecountyca.gov/DocumentCenter/View/3378/Signature-Verification-Statement-and-Instructions-PDF) is a generic cure-form that does not describe the underlying match method (re-checked this pass: still a bare fillable cure form, no vendor/software language). Lake does not appear in the Stanford Law School 'Signature Verification and Mail Ballots' (May 2020) Appendix III county survey table (33 counties interviewed; Lake not among them) -- https://law.stanford.edu/wp-content/uploads/2020/04/SLS_Signature_Verification_Report-5-15-20-FINAL.pdf, re-checked this pass, confirmed absent via pdftotext -layout search for 'Lake County'. NEW this pass: Lake's current Registrar of Voters page (https://elections.lakecountyca.gov/818/Registrar-of-Voters) and its Election Administration Plan were checked for an ASV vendor name; none found (page is a general contacts/services page, no EAP document linked as of this pass; Lake does not have a VCA EAP because it never adopted the VCA). Positive-support standard only weakly met (search-snippet only for the CalVoter quote, small rural county with essentially no independent press coverage of ballot-processing internals). Confidence stays secondary (finding-by-absence-of-evidence + one bot-blocked snippet source), matching the county-tech schema's confidence enum and the low-confidence read of the census row. Locating queries: 'Lake County California elections vote by mail signature verification staff compare'; site:calvoter.org Lake County ballot processing (403 blocked); direct curl of elections.lakecountyca.gov/818/Registrar-of-Voters (200, no ASV content); pdftotext search of Stanford SLS report Appendix III for 'Lake County' (not found). HUMAN VERIFICATION (2026-07-10): maintainer reviewed the ASV evidence and confirmed Lake County did not adopt ASV; control classification stands."
+  },
+  {
+   "jurisdiction": "Lake County",
+   "state": "CA",
+   "tech": "epollbook",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+   "confidence": "primary",
+   "note": "CA SoS 'Voting Technologies in Use by County' snapshots show 'Do not use' for Electronic Pollbook continuously across THREE independent snapshots (May 2022, Sept 2024, Oct 2025). EAVS (Election Administration and Voting Survey) reports electronic-poll-book use as False in all four available editions (2016, 2018, 2022, 2024) per https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys. Lake is NOT a Voter's Choice Act (VCA) vote-center county (absent from the SoS VCA Vote Center Usage Summary county list, https://www.sos.ca.gov/voters-choice-act/vca-participating-counties) -- consistent with never adopting an e-pollbook, since CA's e-pollbook rollout has been almost entirely VCA-vote-center-driven. Four-source consistent never-adopter signal (three SoS snapshots + EAVS + absence from VCA list), all official government sources. Locating query: CA SoS 'Voting Technologies in Use by County' PDF, county-vsys oversight page; EAC EAVS datasets page; SoS VCA participating-counties page."
+  },
+  {
+   "jurisdiction": "Lake County",
+   "state": "CA",
+   "tech": "sign-scan-go",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://www.sos.ca.gov/voters-choice-act/vca-participating-counties",
+   "confidence": "secondary",
+   "note": "Sign-Scan-and-Go (AB 626 in-vote-center mail-ballot verify+scan) is a VCA-vote-center-only program (piloted at Placer). Lake has never adopted the VCA (absent from the SoS VCA participating-counties list), so it structurally cannot have Sign-Scan-and-Go. Absence-of-evidence inference, consistent with the epollbook finding."
+  },
+  {
+   "jurisdiction": "Lake County",
+   "state": "CA",
+   "tech": "vote-center",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://www.sos.ca.gov/voters-choice-act/vca-participating-counties",
+   "confidence": "primary",
+   "note": "Lake does not appear on the CA SoS Voter's Choice Act participating-counties list (checked this pass). Lake runs traditional neighborhood-precinct polling places plus vote-by-mail, not the VCA all-mail/vote-center model. This is the structural reason Lake is a clean control county: no VCA-driven confound coincides with its (non-)adoption of epollbook/ASV, unlike Napa/Sacramento/Madera/Nevada/San Mateo where VCA adoption and epollbook adoption happened in the same year."
   },
   {
    "jurisdiction": "Los Angeles County",
@@ -1346,6 +1478,54 @@
    "note": "One of the original five CA counties to adopt the Voter's Choice Act all-mail/vote-center model. Election Administration Plan: 'The Voters Choice Act authorized Madera County... to conduct any election by all mailed ballot with Vote Centers commencing in 2018. The Madera County Registrar of Voters (MCROV) adopted the VCA Model in September 2017.' Board-vote/adoption date = Sept 2017; first election conducted under the model = June 5, 2018 Statewide Primary. Confirmed by CA SoS VCA participating-counties page and CSAC 'Five Counties Weigh In on the Voters Choice Act' (https://www.counties.org/county-voice/five-counties-weigh-voters-choice-act)."
   },
   {
+   "jurisdiction": "Mendocino County",
+   "state": "CA",
+   "tech": "asv",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://www.mendocinocounty.gov/Home/Components/News/News/6964/4035?arch=1",
+   "confidence": "secondary",
+   "note": "UPGRADED (2026-07-10, browser-recovery sweep, scratchpad/browser-recovery-sweep.md): the county's Registrar of Voters 'Ballot Information 2024 - FAQs' page (mendocinocounty.gov/Home/Components/News/News/6964/4035, previously 403 Cloudflare to curl/WebFetch) was read directly past the wall via a headless browser (HTTP 200) and states verbatim: 'Additionally, Elections Office staff check the signature on each ballot envelope by hand.' This is direct, unambiguous primary-source confirmation of HUMAN (not automated) signature review, firming the ASV-not-adopted finding that was previously supported only by WebSearch snippets; evidence_url updated to the real FAQ document. (Wayback save-page-now 520'd, so the live URL is cited; the full text is captured in the sweep log.) Confidence held at secondary (a single county FAQ, absence-of-ASV is inherently harder to prove than presence). Prior note follows. Carried forward from ca_adoption_census.json (no new primary ASV source found this pass). Mendocino County's Registrar of Voters Ballot Information FAQ describes signature review in human terms: 'If the Elections Official verifies the signature, the challenge is removed...' and 'if election workers have trouble reading a signature or believe it doesn't match what's on file, they will make every effort to contact the person' -- language attributing the match decision to a person, no vendor/software named anywhere in county materials found. Direct fetch of the county FAQ page returns HTTP 403 (Cloudflare bot wall); reconstructed from WebSearch-indexed snippets only, not a full primary read (hence confidence kept at secondary rather than primary, matching the same snippet-only pattern used for Lake County's ASV record). Mendocino does not appear in the Stanford Law School 'Signature Verification and Mail Ballots' (May 2020) Appendix III vendor table (33 counties interviewed; Mendocino absent). Locating queries (reused from census pass): 'Mendocino County elections signature verification vote by mail ballot processing'; 'Mendocino County elections \"ballot processing board\" OR \"election workers\" signature compare \"by eye\" OR manually'. A real-browser fetch of the FAQ page (Cloudflare-blocked to curl/WebFetch) could upgrade this to a fuller primary read if attempted."
+  },
+  {
+   "jurisdiction": "Mendocino County",
+   "state": "CA",
+   "tech": "epollbook",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+   "confidence": "primary",
+   "note": "CA SoS 'Voting Technologies in Use by County' snapshots read Mendocino's 'Electronic Pollbook' column as 'Do not use' in THREE independent vintages spanning the study period: 2022-cycle vintage (cached vst2022.pdf/.txt, row: Hart Verity 3.1 Central/Count / Central Tabulation Only / Hart Verity 3.1 TouchWriter-Reader / Hart Verity 3.1 Print / Do not use (BOD VoteCenter) / Democracy Live SecureSelect / Do not use (EPB)); 2024-cycle vintage (cached vst2024.pdf/.txt, row: Hart Verity 3.2 Central/Count / Central Tabulation Only / Hart Verity 3.2 Touchwriter / Hart Verity 3.2 Print / Do not use / Democracy Live Secure Select / Do not use (EPB)); and the current 'as of October 10, 2025' vintage (curl -A <UA> -L -o vot_tech_2025.pdf https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf -> HTTP 200 166,745 bytes; pdftotext -layout; grep -n Mendocino -> line 33, last column 'Do not use', header row confirms last column = 'Electronic Pollbook'). EAVS county-level surveys (per ca_adoption_census.json) also report False for Mendocino electronic-pollbook use across the May 2022 / Sept 2024 / Oct 2025 editions. Also corroborated structurally: Mendocino is not a Voter's Choice Act county (vca_year null; SoV 'Precinct Voters' column nonzero every study year 2012-2024, i.e. traditional precinct-based voting, not the VCA vote-center model that typically accompanies e-pollbook rollout). Consistent never-adopter signal through 2024 and beyond."
+  },
+  {
+   "jurisdiction": "Mendocino County",
+   "state": "CA",
+   "tech": "sign-scan-go",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+   "confidence": "secondary",
+   "note": "No evidence of an AB 626 in-vote-center 'Sign-Scan-and-Go' mail-ballot verify+scan program. Mendocino is not a VCA vote-center county (see epollbook note: nonzero traditional Precinct Voters every SoV year 2012-2024), and Sign-Scan-and-Go is a VCA-vote-center-only feature (piloted at counties like Placer). Confidence secondary: absence-of-evidence inference from the county's non-VCA structure, no explicit county statement ruling it out found."
+  },
+  {
+   "jurisdiction": "Mendocino County",
+   "state": "CA",
+   "tech": "vote-center",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+   "confidence": "primary",
+   "note": "Mendocino is not a Voter's Choice Act (SB 450) county: not on the SoS VCA county list (https://www.sos.ca.gov/voters-choice-act), and ca_adoption_census.json records vca_year: null. Structural confirmation: the CA SoS Statement of Vote 'Voter Participation Statistics by County' reports a nonzero 'Precinct Voters' figure for Mendocino in every study year (2012: 7,046; 2014: 4,377; 2016: 6,036; 2018: 4,462; 2022: 646; 2024: 2,479), i.e. Mendocino still runs polling-place/precinct voting rather than the VCA all-mail/vote-center model. This matters for the election-night comparison: unlike VCA counties (Napa, San Mateo, etc.) whose election-night share dropped ~15-20pp the year they switched to vote centers, Mendocino's series should show no VCA-transition confound in any study year."
+  },
+  {
    "jurisdiction": "Napa County",
    "state": "CA",
    "tech": "asv",
@@ -1398,24 +1578,24 @@
    "state": "CA",
    "tech": "asv",
    "status": "adopted",
-   "adopted_year": 2022,
-   "first_election": "",
-   "vendor": "unknown (high-speed envelope sorter with automated signature verification)",
-   "evidence_url": "https://www.nevadacountyca.gov/DocumentCenter/View/47536/Mail-Ballot-Processing-Infographic",
-   "confidence": "secondary",
-   "note": "ADOPTED finding. Nevada County's own 'Mail Ballot Processing Infographic' (primary county document) states under BALLOT SORTING that 'ballot envelopes are then sorted by precinct and passed through a signature verification machine,' and under SIGNATURE VERIFICATION that 'Election staff review signatures that were NOT automatically accepted by the signature verification machine and compare them to the voter registration database.' I.e. a machine auto-accepts a portion of signatures; only the remainder go to human review -- this is automated signature verification, not pure eyeball comparison. Corroborated by The Union, Oct 20, 2025 ('a balance of machines checking humans and humans checking machine'; 'first level of signature verification') describing the new Grass Valley ballot processing center. adopted_year is a DOCUMENTED LOWER BOUND, not a confirmed first-election year: the infographic with this language was archived on the Wayback Machine as early as 2023-06-05 (so the machine was in use by the Nov 2022 general at the latest); the 2017 Election Administration Plan does not mention a signature-verification sorter. The machine could date back to the 2018 VCA all-mail transition or a later sorter acquisition -- exact first-election year and vendor (e.g. Runbeck/BlueCrest/Pitney Bowes class) not confirmed. Flag for verification: pin the sorter purchase year and vendor via board agendas / Legistar."
+   "adopted_year": 2016,
+   "first_election": "2016-11",
+   "vendor": "ES&S MBV 1000 (Mail Ballot Verifier with Automated Signature Recognition Software); superseded by a newer mail sorter FY 2022/23 (~$324k, vendor/model not confirmed)",
+   "evidence_url": "https://nevco.legistar.com/LegislationDetail.aspx?GUID=F2AD1997-3E3E-4C30-80F7-21F54318ADDF&ID=2840587",
+   "confidence": "primary",
+   "note": "ADOPTED finding. Nevada County's own 'Mail Ballot Processing Infographic' (primary county document) states under BALLOT SORTING that 'ballot envelopes are then sorted by precinct and passed through a signature verification machine,' and under SIGNATURE VERIFICATION that 'Election staff review signatures that were NOT automatically accepted by the signature verification machine and compare them to the voter registration database.' I.e. a machine auto-accepts a portion of signatures; only the remainder go to human review -- this is automated signature verification, not pure eyeball comparison. Corroborated by The Union, Oct 20, 2025 ('a balance of machines checking humans and humans checking machine'; 'first level of signature verification') describing the new Grass Valley ballot processing center. adopted_year is a DOCUMENTED LOWER BOUND, not a confirmed first-election year: the infographic with this language was archived on the Wayback Machine as early as 2023-06-05 (so the machine was in use by the Nov 2022 general at the latest); the 2017 Election Administration Plan does not mention a signature-verification sorter. The machine could date back to the 2018 VCA all-mail transition or a later sorter acquisition -- exact first-election year and vendor (e.g. Runbeck/BlueCrest/Pitney Bowes class) not confirmed. Flag for verification: pin the sorter purchase year and vendor via board agendas / Legistar. CORRECTION (2026-07-10, Nevada tech adjudication, scratchpad/nevada-tech-adjudication.md): adopted_year revised 2022 -> 2016. Basis: Nevada County Board of Supervisors File SR 16-0825, an executed ES&S 'Mail Ballot Verifier, Processing and Services Agreement' adopted 9/27/2016 (nevco.legistar.com), whose Exhibit B equipment list for the 'MBV 1000 Transport' explicitly includes '1 Automated Signature Recognition Software' and '1 No Signature Detection', with a paid line item contractually named 'Election setup support and training- 2016 General Election' ($3,150) and a support term beginning 10/1/2016 -- all pointing to intended first production use at the Nov 8, 2016 General. CAVEAT CARRIED VERBATIM per the adjudicator: independent post-election confirmation that the MBV 1000 was actually live and processing signatures on Nov 8, 2016 (news / canvass report / Grand Jury) was NOT found within the time budget; the 2016 date rests on a signed, election-dated contractual deliverable (strong contemporaneous intended-first-use evidence), not a confirmed go-live -- pin via a records request for the county's Nov 2016 canvass materials if a hard confirmation is needed. The prior adopted_year=2022 documented-lower-bound reasoning is retained above as history; 2016 supersedes it as the first-adoption year."
   },
   {
    "jurisdiction": "Nevada County",
    "state": "CA",
    "tech": "epollbook",
    "status": "adopted",
-   "adopted_year": 2018,
-   "first_election": "2018-06",
-   "vendor": "Provista ViBE",
-   "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+   "adopted_year": 2014,
+   "first_election": "2014-11",
+   "vendor": "traditional polling-place EPB (2014 pilot: 'Every One Counts' + ES&S; full countywide Nov 2014); VCA vote-center EPB from 2018 (Provista ViBE per SoS Oct 2025)",
+   "evidence_url": "https://web.archive.org/web/20150222033106/http://yubanet.com/regional/Trading-in-the-Paper---Nevada-County-s-Electronic-Poll-Book-Journey.php",
    "confidence": "primary",
-   "note": "CA SoS 'Voting Technologies in Use by County' (as of Oct 10, 2025) lists Nevada County's Electronic Pollbook as 'Provista ViBE'. Electronic pollbooks date to the county's first Voter's Choice Act election, the June 5, 2018 Statewide Direct Primary: the county's 2017 Election Administration Plan states each vote center will have 'an electronic mechanism for county staff to immediately access ... all relevant voter registration data' and to 'determine instantly whether a voter's ballot has already been cast' (https://www.nevadacountyca.gov/DocumentCenter/View/21900). Provista ViBE is the current certified listing; the specific e-pollbook vendor used in the original June 2018 deployment was not independently confirmed (the county used Hart eSlate/eScan tabulation in 2018 and later upgraded to Hart Verity)."
+   "note": "CA SoS 'Voting Technologies in Use by County' (as of Oct 10, 2025) lists Nevada County's Electronic Pollbook as 'Provista ViBE'. Electronic pollbooks date to the county's first Voter's Choice Act election, the June 5, 2018 Statewide Direct Primary: the county's 2017 Election Administration Plan states each vote center will have 'an electronic mechanism for county staff to immediately access ... all relevant voter registration data' and to 'determine instantly whether a voter's ballot has already been cast' (https://www.nevadacountyca.gov/DocumentCenter/View/21900). Provista ViBE is the current certified listing; the specific e-pollbook vendor used in the original June 2018 deployment was not independently confirmed (the county used Hart eSlate/eScan tabulation in 2018 and later upgraded to Hart Verity). CORRECTION (2026-07-10, Nevada tech adjudication, scratchpad/nevada-tech-adjudication.md): adopted_year revised 2018 -> 2014 and the flag keyed on 2014. Basis: Clerk-Recorder Gregory Diaz's own Feb 18, 2015 YubaNet op-ed 'Trading in the Paper - Nevada County's Electronic Poll Book Journey' states 'During the 2014 election cycle, the Nevada County Elections Office implemented electronic poll books to replace paper rosters in all polling places across the county' -- full countywide deployment by the Nov 4, 2014 General, preceded by a June 3, 2014 pilot (25 units, two vendors 'Every One Counts'/ES&S, 23 locations; The Union, Jul 28, 2014) and continuing in live use through the June 7, 2016 primary (Diaz's own 'E-Poll Books' glitch statement that day, yubanet.com, Wayback 20160609140926). This 2014-2017 traditional precinct-bound roster is a genuinely different technical generation from the 2018 VCA vote-center e-pollbook (real-time countywide ballot-issued sync), which is retained here as vendor/context and is separately tracked via this file's own vote-center entry (adopted_year 2018). Keying epollbook on 2014 (not 2018) avoids double-counting the VCA vote-center transition under both epollbook and vote-center flags in the same election. The original 2018 basis (Provista ViBE / EAP) is retained above as history."
   },
   {
    "jurisdiction": "Nevada County",
@@ -1439,7 +1619,7 @@
    "vendor": "",
    "evidence_url": "https://www.nevadacountyca.gov/2321/Voters-Choice-Act-Overview",
    "confidence": "primary",
-   "note": "Nevada County was one of the original FIVE counties to adopt the California Voter's Choice Act (all-mailed-ballot + vote-center model). The county's VCA Overview page states the Voter's Choice Act 'was passed into law in 2016 and first implemented in 2018 in Madera, Napa, Nevada, Sacramento, and San Mateo counties.' First election conducted under the model = June 5, 2018 Statewide Direct Primary (the county ran 7 vote centers, down from 48 prior polling places). Board/EAP timeline: the Election Administration Plan was drafted Oct 31, 2017 and revised Nov 27 and Dec 19, 2017 (https://www.nevadacountyca.gov/2373/Election-Administration-Plan) ahead of SoS approval; the first-election date (June 5, 2018), not the 2017 plan-adoption date, is recorded as adopted_year."
+   "note": "Nevada County was one of the original FIVE counties to adopt the California Voter's Choice Act (all-mailed-ballot + vote-center model). The county's VCA Overview page states the Voter's Choice Act 'was passed into law in 2016 and first implemented in 2018 in Madera, Napa, Nevada, Sacramento, and San Mateo counties.' First election conducted under the model = June 5, 2018 Statewide Direct Primary (the county ran 7 vote centers, down from 48 prior polling places). Board/EAP timeline: the Election Administration Plan was drafted Oct 31, 2017 and revised Nov 27 and Dec 19, 2017 (https://www.nevadacountyca.gov/2373/Election-Administration-Plan) ahead of SoS approval; the first-election date (June 5, 2018), not the 2017 plan-adoption date, is recorded as adopted_year. NOTE (2026-07-10): per the Nevada tech adjudication, this vote-center entry (2018) is the record that carries the VCA vote-center e-pollbook transition; the separate epollbook entry was re-keyed to 2014 (the county's first traditional precinct EPB) so the two flags do not double-count the same 2018 VCA switch."
   },
   {
    "jurisdiction": "New York (post-2019 e-pollbooks)",
@@ -2016,6 +2196,54 @@
    "evidence_url": "https://vote.santaclaracounty.gov/how-county-santa-clara-protects-our-votes",
    "confidence": "primary",
    "note": "County converted to the Voter's Choice Act vote-center model in 2020: 'Beginning with the 2020 elections, County of Santa Clara voters have a more modern voting experience under the Voter's Choice Act. In-person voting takes place at larger Vote Centers.' First VCA election was the March 3, 2020 Presidential Primary (~110 Vote Centers, 10-day and 3-day early voting). Confirmed by the county Election Administration Plan filed with CA SoS (santa-clara-amended-eap-11.22.19.pdf)."
+  },
+  {
+   "jurisdiction": "Tehama County",
+   "state": "CA",
+   "tech": "asv",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://krcrtv.com/news/local/tehama-county-clerk-process-of-distinguishing-voter-fraud",
+   "confidence": "secondary",
+   "note": "Positive evidence of manual-only signature verification (not merely absence of evidence). KRCR News 7 feature quotes Tehama County Clerk Jennifer Vise describing a two-person, eyes-on visual comparison process ('We look for slants, loops, certain characteristics of a signature to make sure that it does not match'; 'two people compare the signatures on the ballots to signatures from the past records'); mismatches are referred to the DA's office. No software/scanner/automated matching tool named anywhere in the article. Direct fetch of the article re-confirmed 2026-07-10 (same content, same quotes). No corroborating official county EAP or grand-jury document; census row already flagged this same gap, and no second independent source was found on this pass. CORRECTED (2026-07-10, integration review): the source dossier proposed confidence 'medium', not a valid value in this schema's enum; reclassified to 'secondary' per RUNBOOK 5.3 ('News reportage is secondary even when it quotes officials')."
+  },
+  {
+   "jurisdiction": "Tehama County",
+   "state": "CA",
+   "tech": "epollbook",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+   "confidence": "primary",
+   "note": "NOT a VCA county (no vote-center/all-mail model, so no VCA-driven e-pollbook rollout). CA SoS voting-technology-by-county snapshots list Tehama e-pollbook status as 'Do not use' continuously across the May 2022, Sept 2024, and Oct 2025 editions (census row source); EAVS reports 'False' for e-pollbook use in all four editions checked by the census pass. No county document, grand jury report, or news story found describing an electronic roster pilot at any point through 2024. Consistent never-adopter signal across three official SoS snapshots plus EAVS, matching the confidence level used for the same evidence pattern in the Lake County control record. CORRECTED (2026-07-10, integration review): the source dossier proposed confidence 'medium', which is not a value in this schema's confidence enum (primary/secondary/estimated/none); reclassified to 'primary' given the multi-snapshot official-government-source basis, consistent with the Lake County precedent (data/research/county-tech/lake-ca.json) for equivalent evidence strength."
+  },
+  {
+   "jurisdiction": "Tehama County",
+   "state": "CA",
+   "tech": "sign-scan-go",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://www.sos.ca.gov/voters-choice-act",
+   "confidence": "secondary",
+   "note": "Tehama is not a Voter's Choice Act county (not on the CA SoS VCA county list), so the AB 626 in-vote-center 'Sign-Scan-and-Go' mail-ballot verify+scan model, which is built on the VCA vote-center infrastructure, does not apply. Absence-of-evidence inference from non-VCA status, consistent with the epollbook finding above."
+  },
+  {
+   "jurisdiction": "Tehama County",
+   "state": "CA",
+   "tech": "vote-center",
+   "status": "not-adopted",
+   "adopted_year": null,
+   "first_election": "",
+   "vendor": "",
+   "evidence_url": "https://www.sos.ca.gov/voters-choice-act",
+   "confidence": "primary",
+   "note": "CA SoS Voter's Choice Act county list does not include Tehama (as of 2024/2025). Tehama continues to run traditional precinct-based polling places plus vote-by-mail rather than the VCA all-mail/vote-center model, consistent with the epollbook not-adopted finding (VCA adoption is the mechanism that drives e-pollbook rollout in most small CA counties)."
   },
   {
    "jurisdiction": "Ventura County",

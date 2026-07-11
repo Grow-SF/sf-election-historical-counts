@@ -19,7 +19,7 @@ import { ChartFrame, PointTooltip, eventLines, useGraceHover } from "./ui";
 // the standalone /sources page isn't part of this embed, so citations deep-link
 // to the sourced dataset in the public repo instead.
 const SOURCES_URL =
-  "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/viz/src/data/sources.json";
+  "https://github.com/Grow-SF/sf-election-historical-counts/blob/main/packages/data/sources.json";
 
 type Seg = { x: number; y: number }[];
 

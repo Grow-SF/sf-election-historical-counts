@@ -7,6 +7,19 @@
   },
   "elections": [
     {
+      "date": "2012-06-05",
+      "type": "presidential-primary",
+      "election_night_ballots": 765552,
+      "certified_final": 973274,
+      "election_night_pct": 78.66,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('FENU'-coded row), Los Angeles County: 100.0% precincts reporting, Ballots Cast 765,552, Last Report stamp 'Jun 6 4:41 a.m.' (First Report 'Jun 5 8:13 p.m.') at Wayback capture 20120608222655 (2012-06-08 22:26:55 UTC). SINGLE CAPTURE at 2012-06-08 22:26:55 UTC carries this value. The next available capture (2012-06-17 19:21:15 UTC) jumps to 920,096 (Last Report 'Jun 15 2:45 p.m.'), confirming 765,552 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 973,274 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf). Arithmetic: 765,552/973,274 = 78.66%. vs_epollbook=pre, vs_asv=pre (per county_tech/adoption record: epollbook 2020, asv 2020). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2012-06-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
       "date": "2012-11-06",
       "type": "presidential-general",
       "election_night_ballots": 2368283,
@@ -18,6 +31,19 @@
       "source_url_night": "https://www.lavote.gov/Documents/News_Releases/11072012-055616.pdf",
       "confidence": "primary",
       "note": "PRIMARY official plateau. LA County RR/CC 'Semi-Final Official Election Results' news release (Documents/News_Releases/11072012-055616.pdf, released ~5:56 AM Nov 7 2012): 'On Election Night a total of 2,368,283 ballots were counted' (448,470 vote-by-mail + 1,919,813 precinct; the RR/CC estimated 792,658 ballots remained after the semi-final Election Night tally). Certified final 'Total Voters' 3,236,704 (Precinct 2,260,876 + VBM 975,828), CA SoS SoV. 2,368,283/3,236,704 = 73.17%. Pre-e-pollbook, pre-ASV (both adopted 2020)."
+    },
+    {
+      "date": "2014-06-03",
+      "type": "statewide-primary",
+      "election_night_ballots": 636186,
+      "certified_final": 824070,
+      "election_night_pct": 77.2,
+      "vs_epollbook": "pre",
+      "vs_asv": "pre",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('FENU'-coded row), Los Angeles County: 100.0% precincts reporting, Ballots Cast 636,186, Last Report stamp 'Jun 4 3:07 a.m.' (First Report 'Jun 3 8:06 p.m.') at Wayback capture 20140606205510 (2014-06-06 20:55:10 UTC). SINGLE CAPTURE at 2014-06-06 20:55:10 UTC carries this value. The next available capture (2014-06-07 07:58:13 UTC) jumps to 655,432 (Last Report 'Jun 6 2:22 p.m.'), confirming 636,186 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 824,070 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf). Arithmetic: 636,186/824,070 = 77.2%. vs_epollbook=pre, vs_asv=pre (per county_tech/adoption record: epollbook 2020, asv 2020). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2014-06-03 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
     },
     {
       "date": "2014-11-04",
@@ -59,6 +85,19 @@
       "note": "PRIMARY official plateau (REPLACES the earlier derived lower-bound 2,038,417). LA County RR/CC semi-official results release (docs/rrcc/news-releases/11062018_semi-official-results.pdf): semi-official results for the Nov. 6 General Election, 'A total of 1,975,855 ballots were processed and counted, with 38% of eligible registered voters casting ballots.' Certified final 'Total Voters' 3,023,417 (Precinct 1,673,104 + VBM 1,350,313), CA SoS SoV. 1,975,855/3,023,417 = 65.35%. Pre-e-pollbook, pre-ASV (last pre-2020 general)."
     },
     {
+      "date": "2022-06-07",
+      "type": "statewide-primary",
+      "election_night_ballots": 822545,
+      "certified_final": 1620593,
+      "election_night_pct": 50.76,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('U'-coded row), Los Angeles County: 100.0% precincts reporting, Ballots Cast 822,545, Last Report stamp 'Jun 8 2:12 a.m.' (First Report 'Jun 7 8:28 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 822,545 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 991,883 (Last Report 'Jun 10 3:19 p.m.'), marking the canvass resuming. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 1,620,593 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 822,545/1,620,593 = 50.76%. vs_epollbook=post, vs_asv=post (per county_tech/adoption record: epollbook 2020, asv 2020). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2022-06-07 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
       "date": "2022-11-08",
       "type": "midterm-general",
       "election_night_ballots": 1318093,
@@ -70,6 +109,19 @@
       "source_url_night": "https://www.lavote.gov/docs/rrcc/news-releases/11082022_semi-final-results.pdf",
       "confidence": "primary",
       "note": "PRIMARY official plateau (verified against the canonical RR/CC release PDF; previously cited via the lacounty.gov blog). LA County RR/CC 'Semi-Final Results Announced for the 2022 General Election' (docs/rrcc/news-releases/11082022_semi-final-results.pdf): 'A total of 1,318,093 ballots were processed and counted, with 23.42% of registered voters casting ballots.' Certified final 'Total Voters' 2,456,701 (Precinct 487,368 + VBM 1,969,333), CA SoS SoV. 1,318,093/2,456,701 = 53.65%. Post-e-pollbook, post-ASV (both 2020); first midterm under the all-mail VCA model (confound)."
+    },
+    {
+      "date": "2024-03-05",
+      "type": "presidential-primary",
+      "election_night_ballots": 910857,
+      "certified_final": 1641715,
+      "election_night_pct": 55.48,
+      "vs_epollbook": "post",
+      "vs_asv": "post",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('U'-coded row), Los Angeles County: 100.0% precincts reporting, Ballots Cast 910,857, Last Report stamp 'Mar 6 2:06 a.m.' (First Report 'Mar 5 8:44 p.m.') at Wayback capture 20240306144409 (2024-03-06 14:44:09 UTC). FROZEN: the identical Ballots Cast figure 910,857 recurs across 2 captures, 2024-03-06 14:44:09 UTC through 2024-03-06 18:05:49 UTC, before the next available capture (2024-03-07 03:52:36 UTC) jumps to 1,016,574 (Last Report 'Mar 6 4:36 p.m.'), marking the canvass resuming. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 1,641,715 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 910,857/1,641,715 = 55.48%. vs_epollbook=post, vs_asv=post (per county_tech/adoption record: epollbook 2020, asv 2020). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2024-03-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
     },
     {
       "date": "2024-11-05",

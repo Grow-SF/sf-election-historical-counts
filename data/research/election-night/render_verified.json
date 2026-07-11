@@ -14,25 +14,32 @@
   "method": "Puppeteer render of the archived JS results page, verified 2026-07-01."
  },
  {
-  "slug": "santa-clara-ca",
-  "date": "2016-11-08",
-  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1608FF6D81BADB18",
-  "evidence": "Santa Clara County ballot measures, 41% of precincts: Measure A Yes 200,688 67.0% No 98,820 33.0% (299,508 total); Measure B Yes 215,336 70.9% No 88,342 29.1% = 303,678 total votes",
-  "method": "newsbank-sfpl-manual"
- },
- {
-  "slug": "santa-clara-ca",
-  "date": "2018-11-06",
-  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16F946169D59A048",
-  "evidence": "In Santa Clara County, more than 75 percent of voters use mail-in ballots. As of Wednesday afternoon, about 304,000 ballots were counted and staff estimated roughly 270,000 still needed to be.",
-  "method": "newsbank-sfpl-manual"
- },
- {
-  "slug": "madera-ca",
+  "slug": "del-norte-ca",
   "date": "2014-11-04",
-  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/15175914B6DDC6C0",
-  "evidence": "Madera County Clerk-Recorder Rebecca Martinez: 4,385 late vote-by-mail ballots (received after noon on Election Day) plus 973 provisional ballots equal 'the 5,358 ballots left to be counted'. Certified final 27,370 minus 5,358 = 22,012 ballots counted as of election night (computed CEILING, comparable=false: the 5,358-remaining figure is a Friday Nov 7 snapshot, so interim processing can only make the true night count lower than 22,012. The article's 'this week's election saw more than 22,000 votes' framing is retained as reported language but is not independent corroboration, likely the same subtraction; exact wording not re-verified).",
-  "method": "newsbank-sfpl-manual"
+  "url": "https://web.archive.org/web/20211102111036id_/https://425abd7a-a-03565450-s-sites.googlegroups.com/a/co.del-norte.ca.us/elect/elections/election-results/november-4-2014-general-election/November%204%2C%202014%20General%20Election%20-%20Release%202.pdf",
+  "evidence": "DEL_20141104_E Summary Report Del Norte County Nov. 4, 2014 General Election Unofficial. Registration & Turnout 12,743 Voters. Total ... 6,539 51.31%. Footer: November 04, 2014 10:05 PM Page 1 of 3.",
+  "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV C5240 PDF) archived PDF to PNG, read visually; verified 2026-07-10."
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2018-11-06",
+  "url": "https://web.archive.org/web/20201111052344id_/https://b012f97e-a-03565450-s-sites.googlegroups.com/a/co.del-norte.ca.us/dnco/departments/clerk-recorder/elections/election-results/november-6-2018-general-election/November%206%2C%202018%20General%20Election%20Results%20-%20Release%204.pdf",
+  "evidence": "Page: 1 of 12 11/6/2018 9:42:38 PM. Summary for: All Contests, All Districts, All Tabulators, All Counting Groups. STATEWIDE GENERAL ELECTION TUESDAY, NOVEMBER 6, 2018 ELECTION NIGHT SUMMARY REPORT ELECTION NIGHT FINAL REPORT (UNOFFICIAL RESULTS). Precincts Reported: 18 of 18 (100.00%) Registered Voters: 7,127 of 14,289 (49.88%) Ballots Cast: 7,127.",
+  "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV C5240 PDF) archived PDF to PNG, read visually; verified 2026-07-10."
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2022-11-08",
+  "url": "https://drive.google.com/uc?export=download&id=131PTrk6-v_7MrZiAlLp8BzoQzysS97eu",
+  "evidence": "Report #3 Del Norte Del Norte 2022 Statewide General Election November 8, 2022 4th Report - 19 Precincts Reporting. Total Registration and Turnout 15,024 6,312. Data Refreshed: Tuesday, November 8, 2022 9:39 PM.",
+  "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV C5740 PDF) live Google Drive PDF to PNG, read visually; verified 2026-07-10."
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2024-11-05",
+  "url": "https://drive.google.com/uc?export=download&id=1U3HX1aB8Fim-Ca6_qL_EdSPliM8OHpYB",
+  "evidence": "Page: 1 of 6 11/5/2024 10:05:17 PM. Election Summary Report General Election Del Norte County November 05, 2024. Election Night Report Unofficial Results Final Report. Precincts Reported: 19 of 19 (100.00%) Voters Cast: 6,719 of 15,117 (44.45%).",
+  "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV C5740 PDF) live Google Drive PDF to PNG, read visually; verified 2026-07-10."
  },
  {
   "slug": "san-diego-ca",
@@ -43,30 +50,9 @@
  },
  {
   "slug": "san-diego-ca",
-  "date": "2014-11-04",
-  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/1A43A319608C8500",
-  "evidence": "Times of San Diego, Nov 6 2014: 'out of more than 1.5 million registered voters, only 509,214 voters cast a ballot - a turnout of 33 percent, according to election results from the California Secretary of State... There are about 180,000 absentee and provisional ballots still yet to be counted.'",
-  "method": "newsbank-sfpl-manual"
- },
- {
-  "slug": "san-diego-ca",
   "date": "2016-11-08",
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16871C80DC62E438",
   "evidence": "San Diego Union-Tribune Web Edition, Nov 9 2016, 'Issa still leading, barely': 'as of late Wednesday afternoon... Across San Diego County there are 620,000 uncounted provisional and mail-in ballots... San Diego County is not expected to release more results until Thursday.' Certified final 1,346,513 minus 620,000 = 726,513 counted (53.96%).",
-  "method": "newsbank-sfpl-manual"
- },
- {
-  "slug": "fresno-ca",
-  "date": "2012-11-06",
-  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/142721EBD5B41378",
-  "evidence": "Fresno Bee, Nov 8 2012, 'Valley ballot-counting continues': County Clerk Brandi Orth: 'So far, about 160,400 ballots have been counted, putting voter turnout at 39.1%.' Bracketed as unchanged election-night data by the companion Nov 10 2012 item 'Election throws Valley GOP roots deep' (docref news/142872B3AAB99388): 'Fresno County on Friday did its first vote-count update since Tuesday's election... counted 19,000 absentee ballots since election night and has 78,000 still to count.' 160,400 / 261,652 certified = 61.30%.",
-  "method": "newsbank-sfpl-manual"
- },
- {
-  "slug": "fresno-ca",
-  "date": "2014-11-04",
-  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/15171395564B90B8",
-  "evidence": "Fresno Bee, Nov 6 2014, 'Digesting the results': 'With the Election Day ballot counting finished, Tacherra holds a slim 736-vote lead over Costa' and 'approximately 42,600 Fresno County mail and provisional ballots left to count.' Bracketed as unchanged through the reporting gap by the companion Nov 8 2014 item 'Soria takes council race lead - Vote update' (docref news/151AB2A3C7094500): 'The initial vote totals -- posted early Wednesday morning after Tuesday's election -- showed Catalano ahead by 20 votes' versus Friday's separately-dated update, plus 'more than 22,000' processed and '10,300 absentees and 10,100 provisionals... remain to be counted' (20,400) as of that Friday, totalling ~42,400 remaining after Tuesday night (matches the ~42,600 Thursday figure). Certified final 163,420 minus ~42,600 = 120,820 counted through election night (73.93%).",
   "method": "newsbank-sfpl-manual"
  },
  {
@@ -81,20 +67,6 @@
   "date": "2012-11-06",
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14270915258D4BE8",
   "evidence": "Unofficial final results from the county Registrar of Voters show Kevin Jeffries leading Buster ... with all precincts reporting. But about 183,000 vote-by-mail, provisional and damaged ballots remained to be counted. Certified final 669,627 minus 183,000 = 486,627 counted through election night (72.67%).",
-  "method": "newsbank-sfpl-manual"
- },
- {
-  "slug": "riverside-ca",
-  "date": "2014-11-04",
-  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/151717B89F05D948",
-  "evidence": "The Riverside County Registrar of Voters office announced that 93,000 votes are still to be processed, including 66,000 vote-by-mail ballots, 19,000 provisional ballots and 8,000 damaged ballots. The next update will be posted at 6 p.m. tonight. Certified final 357,764 minus 93,000 = 264,764 counted through election night (74.01%).",
-  "method": "newsbank-sfpl-manual"
- },
- {
-  "slug": "riverside-ca",
-  "date": "2016-11-08",
-  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/16095824826D46E0",
-  "evidence": "The figures, posted by the Riverside County Registrar of Voters Office early Wednesday, are not final. Officials have yet to count 262,000 provisional, damaged and vote-by-mail ballots submitted countywide. Certified final 769,193 minus 262,000 = 507,193 counted through election night (65.94%).",
   "method": "newsbank-sfpl-manual"
  },
  {
@@ -116,13 +88,6 @@
   "date": "2012-11-06",
   "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/14275EF93A805950",
   "evidence": "About 60,000 mail-in and 45,000 provisional ballots in San Bernardino County were uncounted as of Thursday morning, said Elections Office spokeswoman Felisa Cardona. Ballots cast at polling places and mailed prior to Election Day were all counted by 5:15 a.m. Wednesday. 589,611 minus 105,000 = 484,611 (82.19%), retained as a ceiling, comparable=false.",
-  "method": "newsbank-sfpl-manual"
- },
- {
-  "slug": "san-bernardino-ca",
-  "date": "2014-11-04",
-  "url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/151717B8F7250120",
-  "evidence": "In San Bernardino County, turnout was 27.1 percent. San Bernardino County Registrar of Voters Michael Scarpello estimated that the final number likely will be closer to 34 percent. 27.1% x 851,684 registered = 230,806; 230,806/293,283 = 78.70%, retained as a ceiling, comparable=false.",
   "method": "newsbank-sfpl-manual"
  },
  {

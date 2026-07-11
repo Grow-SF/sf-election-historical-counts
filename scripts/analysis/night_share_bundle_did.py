@@ -52,7 +52,25 @@ YTYPE = {2012: "presidential", 2014: "midterm", 2016: "presidential",
          2024: "presidential"}
 COHY = [2018, 2020, 2022, 2024]          # cohort label codes 0..3; 4 = never
 NEVER = 4
+# Main-analysis controls: parameterized, default the two never-adopters this
+# spec's identification rests on (SF + SLO). See CONTROLS_FULL7 below for the
+# post-merge 7-control-pool sensitivity check (2026-07-10 merge: origin/main
+# contributed five more researched never-adopter counties).
 CONTROLS = ["san-francisco-ca", "san-luis-obispo-ca"]
+# All 7 no-new-counting-tech controls in the merged county_night.json
+# (scripts/build_county_night.py's is_control()). Used ONLY for the row-15
+# control-pool-size sensitivity check (robustness_grid); the headline
+# identification stays pooled SF+SLO exactly as specified.
+CONTROLS_FULL7 = CONTROLS + ["del-norte-ca", "lake-ca", "mendocino-ca",
+                             "tehama-ca", "colusa-ca"]
+
+# The 16 jurisdictions this model was designed over (SF + SLO controls + the
+# 14 bundle-adoption-labeled counties). The 2026-07-10 merge added primaries
+# as a second election type and 5 more never-adopter counties to
+# county_night.json; both are out of scope for this generals-only bundle
+# model (see load_panel's generals-only filter), so load_panel restricts to
+# exactly this set before applying the len(jur) == 16 startup assertion.
+CORE_SLUGS = None  # set below, after EXPECTED_COHORTS is defined
 
 EXPECTED_COHORTS = {
     "madera-ca": 2018, "napa-ca": 2018, "nevada-ca": 2018,
@@ -62,17 +80,31 @@ EXPECTED_COHORTS = {
     "riverside-ca": 2022, "san-diego-ca": 2022, "ventura-ca": 2022,
     "placer-ca": 2024,                                   # label-only
 }
-EXPECTED_ASV = {"nevada-ca": 2022, "san-diego-ca": 2024,
+CORE_SLUGS = set(CONTROLS) | set(EXPECTED_COHORTS)
+assert len(CORE_SLUGS) == 16, len(CORE_SLUGS)
+
+# Nevada ASV: adjudicated 2026-07-10 (scratchpad/nevada-tech-adjudication.md,
+# see data/research/county-tech/nevada-ca.json's CORRECTION note) at 2016 --
+# BEFORE Nevada's own vote-center bundle cohort (2018), not after it as this
+# model originally assumed (2022). The bundle cohort year is unaffected
+# (vote-center adoption stays 2018); only the ASV year moves. See
+# asv_descriptives() for the re-bracketed pre/post-ASV natural-experiment
+# test (now 2014->2016, not 2018->2022) and robustness_grid check 9 for the
+# ASV-contamination row exclusions this shift implies.
+EXPECTED_ASV = {"nevada-ca": 2016, "san-diego-ca": 2024,
                 "fresno-ca": 2020, "los-angeles-ca": 2020}
 POST_WINDOW_ASV = {"riverside-ca": 2025, "san-bernardino-ca": 2025}
 
 EXPECTED_TIER2 = {
-    ("fresno-ca", 2012), ("fresno-ca", 2014), ("fresno-ca", 2018),
-    ("napa-ca", 2014),
-    ("riverside-ca", 2012), ("riverside-ca", 2014), ("riverside-ca", 2016),
-    ("riverside-ca", 2018),
+    # re-pinned 2026-07-10 after the origin/main merge (SoS status-page
+    # sweep upgraded many rows to primary; Madera 2012 and Placer 2012
+    # entered as secondary; Sacramento 2012 remains PLAUSIBLE-verdict)
+    ("fresno-ca", 2012), ("fresno-ca", 2018),
+    ("madera-ca", 2012), ("madera-ca", 2018),
+    ("placer-ca", 2012),
+    ("riverside-ca", 2012), ("riverside-ca", 2018),
     ("sacramento-ca", 2012),
-    ("san-diego-ca", 2012), ("san-diego-ca", 2014),
+    ("san-diego-ca", 2012),
 }
 
 CI_GRID = [i * 0.5 for i in range(-50, 51)]   # -25 .. +25 by 0.5
@@ -188,8 +220,15 @@ def load_panel(root):
     plateau = json.load(open(os.path.join(
         root, "data/research/election-night/plateau_review.json")))
 
-    jur = night["jurisdictions"]
-    assert len(jur) == 16, "expected 16 jurisdictions, got %d" % len(jur)
+    # Restrict to the 16 core jurisdictions (SF+SLO controls + the 14 labeled
+    # bundle-adoption counties) this model was designed over. The 2026-07-10
+    # merge added 5 more never-adopter counties (Del Norte, Lake, Mendocino,
+    # Tehama, Colusa) to county_night.json for the county-tech Long Count
+    # comparison; they enter THIS model only via CONTROLS_FULL7's dedicated
+    # sensitivity row (robustness_grid check 15), not the core panel.
+    jur_all = night["jurisdictions"]
+    jur = [j for j in jur_all if j["slug"] in CORE_SLUGS]
+    assert len(jur) == 16, "expected 16 core jurisdictions, got %d" % len(jur)
     slugs = sorted(j["slug"] for j in jur)
     names = {j["slug"]: j["name"] for j in jur}
 
@@ -211,7 +250,17 @@ def load_panel(root):
         asv = by[(s, "asv")]
         if vc["status"] == "adopted":
             g = vc["adopted_year"]
-            if epb["status"] == "adopted":
+            if s == "nevada-ca":
+                # Nevada tech adjudication (2026-07-10,
+                # scratchpad/nevada-tech-adjudication.md): epollbook is keyed
+                # to 2014 (a genuinely earlier, different-generation
+                # traditional precinct-roster deployment), deliberately
+                # decoupled from the 2018 VCA vote-center switch that the
+                # vote-center entry (and this county's bundle cohort) tracks.
+                assert epb["status"] == "adopted" and epb["adopted_year"] == 2014, (
+                    "Nevada epollbook year changed from the adjudicated 2014")
+                assert g == 2018, "Nevada vote-center/bundle year changed from 2018"
+            elif epb["status"] == "adopted":
                 assert epb["adopted_year"] == g, (
                     "epollbook year != vote-center year for %s" % s)
             cohorts[s] = g
@@ -253,6 +302,13 @@ def load_panel(root):
     for j in jur:
         s = j["slug"]
         for p in j["points"]:
+            # generals-only: the 2026-07-10 merge added primary-election
+            # points ("presidential-primary" / "midterm-primary") to
+            # county_night.json; this model is specified over November
+            # generals only (spec section 2), so primary points are silently
+            # out of scope here, not counted as exclusions.
+            if p["type"] not in ("presidential", "midterm"):
+                continue
             usable = bool(p.get("comparable")) and p.get("pct") is not None \
                 and p["year"] != 2020
             if not usable:
@@ -292,24 +348,26 @@ def load_panel(root):
             })
             usable_years[s].append(p["year"])
 
-    assert len(rows) == 78, "usable panel is %d rows, expected 78" % len(rows)
+    assert len(rows) == 90, "usable panel is %d rows, expected 90" % len(rows)
     tier2 = {(r["county"], r["year"]) for r in rows if r["tier"] == 2}
     assert tier2 == EXPECTED_TIER2, ("tier-2 set changed:", sorted(tier2))
 
-    # --- special-handling assertions ---
-    assert sorted(usable_years["placer-ca"]) == [2014, 2016], "Placer changed"
-    assert all(y < 2024 for y in usable_years["placer-ca"]), (
-        "Placer has usable post-adoption rows now")
-    assert sorted(usable_years["san-bernardino-ca"]) == [2024], (
+    # --- special-handling assertions (re-pinned 2026-07-10 post-merge: the
+    # SoS status-page sweep filled Placer 2012/2022/2024 and San Bernardino
+    # 2014/2016, and corrected Riverside 2024 to a comparable 57.11, so
+    # Placer's 2024 cohort and San Bernardino's standalone-e-pollbook
+    # contrast are now identified) ---
+    assert sorted(usable_years["placer-ca"]) == [2012, 2014, 2016, 2022, 2024], (
+        "Placer changed")
+    assert sorted(usable_years["san-bernardino-ca"]) == [2014, 2016, 2024], (
         "San Bernardino usable rows changed")
     ex_map = {(e["county"], e["year"]): e for e in exclusions}
     nv = ex_map.get(("nevada-ca", 2024))
-    rv = ex_map.get(("riverside-ca", 2024))
     assert nv is not None and nv["pct"] == 24.49, "Nevada 2024 exclusion changed"
     assert "printer" in nv["reason"].lower() or "defect" in nv["reason"].lower() \
         or "EXCLUDE" in nv["reason"], "Nevada 2024 reason undocumented"
-    assert rv is not None and rv["pct"] == 63.7, "Riverside 2024 exclusion changed"
-    assert "REFUTED_AS_PLATEAU" in rv["reason"], "Riverside 2024 reason undocumented"
+    assert ("riverside-ca", 2024) not in ex_map, (
+        "Riverside 2024 should be comparable (57.11, SoS-corrected) post-merge")
     for c in CONTROLS:
         assert sorted(usable_years[c]) == YEARS, "control %s missing years" % c
 
@@ -317,13 +375,15 @@ def load_panel(root):
     n_untreated = sum(1 for r in rows if cohorts.get(r["county"], 9999) > r["year"])
     treated_post = [(r["county"], r["year"]) for r in rows
                     if r["county"] in cohorts and r["year"] >= cohorts[r["county"]]]
-    assert n_untreated == 50, "untreated cells = %d, expected 50" % n_untreated
-    n_sb_post = sum(1 for c, y in treated_post if c == "san-bernardino-ca")
-    assert n_sb_post == 1 and len(treated_post) - n_sb_post == 27, (
-        "treated post cells changed")
-    # San Bernardino has zero untreated cells: alpha_SB unidentified in BJS.
-    assert not any(r["county"] == "san-bernardino-ca" and
-                   r["year"] < cohorts["san-bernardino-ca"] for r in rows)
+    assert n_untreated == 60, "untreated cells = %d, expected 60" % n_untreated
+    assert len(treated_post) == 30, "treated post cells changed: %d" % len(
+        treated_post)
+    # Post-merge: San Bernardino gained pre-adoption cells (2014, 2016 from
+    # the SoS status-page sweep), so alpha_SB is now identified in BJS and
+    # SB's 2024 post cell is imputed like any other.
+    assert sorted(r["year"] for r in rows
+                  if r["county"] == "san-bernardino-ca" and
+                  r["year"] < cohorts["san-bernardino-ca"]) == [2014, 2016]
 
     Y = {(r["county"], r["year"]): r["pct"] for r in rows}
     FIN = {(r["county"], r["year"]): r["final"] for r in rows}
@@ -340,7 +400,15 @@ _research_cache = {}
 
 
 def _research_flag(root, slug, year):
-    """Documented exclusion reason from the per-county research JSON."""
+    """Documented exclusion reason from the per-county research JSON.
+
+    Only called for a general-election exclusion (this model is
+    generals-only; see load_panel's filter), so the matching row must itself
+    be a general, not a same-year primary. The 2026-07-10 merge added primary
+    rows to every county file, so a bare "date starts with year" match is no
+    longer unique within a year (e.g. Nevada 2024 has both a March primary
+    and a November general row) -- excluding "primary" typed rows keeps this
+    pinned to the general."""
     if slug not in _research_cache:
         path = os.path.join(root, "data/research/election-night", slug + ".json")
         try:
@@ -351,7 +419,8 @@ def _research_flag(root, slug, year):
     if not d:
         return None
     for e in d.get("elections", []):
-        if e.get("date", "").startswith(str(year)):
+        if e.get("date", "").startswith(str(year)) and \
+                "primary" not in (e.get("type") or "").lower():
             return e.get("flag") or e.get("note")
     return None
 
@@ -1652,12 +1721,15 @@ def real_run(panel, eng, draws, seed, outdir, root):
 
     # structural assertions on the cells (spec section 3)
     tm = est_by[("type", "pooled")]
+    # re-pinned 2026-07-10 post-merge: SB joins (2020,2024), Riverside 2024
+    # rejoins (2022,2024), and Placer's SoS-filled 2022/2024 generals open
+    # the (2024,2024) cell, taking theta_2024 from n=10 to n=13
     expected_cells = {(2018, 2018): 5, (2018, 2022): 5, (2018, 2024): 4,
-                      (2020, 2022): 4, (2020, 2024): 4, (2022, 2022): 3,
-                      (2022, 2024): 2}
+                      (2020, 2022): 4, (2020, 2024): 5, (2022, 2022): 3,
+                      (2022, 2024): 3, (2024, 2024): 1}
     got = {k: len(v) for k, v in tm["cells"].items()}
     assert got == expected_cells, got
-    assert tm["aggs"]["theta_2024"]["n"] == 10
+    assert tm["aggs"]["theta_2024"]["n"] == 13
     assert tm["aggs"]["theta_2022"]["n"] == 12
 
     # ------------- RI inference -------------
@@ -1716,7 +1788,7 @@ def real_run(panel, eng, draws, seed, outdir, root):
 
     # ------------- pre-trends -------------
     pre = precells_observed(panel)
-    assert len(pre) == 25, "expected 25 pre-cells, got %d" % len(pre)
+    assert len(pre) == 34, "expected 34 pre-cells, got %d" % len(pre)  # re-pinned post-merge: Placer/SB pre rows joined
     # the RI joint statistic must equal the hand-computable cell mean
     assert abs(ri["pretrend"]["obs"] -
                sum(abs(c["delta_pre"]) for c in pre) / len(pre)) < 1e-9
@@ -1728,7 +1800,7 @@ def real_run(panel, eng, draws, seed, outdir, root):
 
     # ------------- BJS + TWFE -------------
     bjs_aggs, bjs_sigma, bjs_gamma, n_unt, n_imputed = bjs_aggregates(eng)
-    assert n_unt == 50 and n_imputed == 27, (n_unt, n_imputed)
+    assert n_unt == 60 and n_imputed == 30, (n_unt, n_imputed)
     twfe_beta = twfe_static(eng)
 
     # ------------- robustness grid -------------

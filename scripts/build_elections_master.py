@@ -112,7 +112,7 @@ P1 = [
 # --- P1R: 1907–1916 elections absent from the DataSF/SFPL indexes, found in the
 # Registrar's cumulative election table, SF Municipal Reports FY1912-13
 # pp.260-262 and FY1915-16 pp.327-332 (full transcription ingested 2026-07-08;
-# see data/sf_turnout_registrar_1899_1916.csv). Mostly primaries (the
+# see data/sources/sf_turnout_registrar_1899_1916.csv). Mostly primaries (the
 # proposition-based indexes skip them), plus a charter special a week after
 # the 1910 general, a second December 1912 bond special, and the 1913/1915
 # odd-year municipals. (date, kind, description)
@@ -213,7 +213,7 @@ P2B = [
  ("1898-05-26","Charter","New (1898/1900) Charter RATIFIED","H"),
  ("1898-11-08","Municipal","Mayor (Phelan re-elected), consolidated onto the state ballot (no separate Nov 1 municipal election; Municipal Reports cumulative table)","H"),
  # 1899-1906 primaries: county-run party primaries from the Registrar's
- # cumulative table (ingested 2026-07-08; data/sf_turnout_registrar_1899_1916.csv);
+ # cumulative table (ingested 2026-07-08; data/sources/sf_turnout_registrar_1899_1916.csv);
  # absent from all prior indexes
  ("1899-08-08","Primary","Municipal primary — registrar cumulative table","H"),
  ("1901-08-13","Primary","Municipal primary — registrar cumulative table","H"),
@@ -269,12 +269,12 @@ night = {e["id"]: e.get("nightPct") for e in el}
 finals = set(night)  # every canvass/modern election carries a certified final
 for fn in ("sf_turnout_pre1899.csv", "sf_turnout_1891_1907.csv",
            "sf_turnout_registrar_1899_1916.csv"):
-    with open(ROOT / "data" / fn, newline="") as f:
+    with open(ROOT / "data" / "sources" / fn, newline="") as f:
         for r in csv.DictReader(f):
             if r["ballots_cast"]:
                 finals.add(r["election_date"])
 DOE_TABLE_DATE_FIXES = {"2001-12-10": "2001-12-11", "1899-12-02": "1899-12-29"}
-with open(ROOT / "data" / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
+with open(ROOT / "data" / "sources" / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
     for r in csv.DictReader(f):
         if r["ballots_cast"] and r["ballots_cast"] not in ("n/a",):
             finals.add(DOE_TABLE_DATE_FIXES.get(r["election_date"], r["election_date"]))

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Bake the visualization dataset for packages/data/ from the committed data/*.csv
+"""Bake the visualization dataset for packages/data/ from the committed data/ and data/sources/ CSVs
 inputs (nine CSVs; plus docs/analysis/public-search-log.md for ledger.json).
 
 Output: packages/data/elections.json — one record per election with:
@@ -18,6 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 OUT = ROOT / "packages" / "data" / "elections.json"
+SRC = ROOT / "data" / "sources"
 THRESHOLDS = [50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 98, 99]
 # Elections whose count is effectively complete (100% of precincts/tabulators
 # reported) and shown as final ahead of the 32-day provisional default.
@@ -206,7 +207,7 @@ def main():
     # readers with SFPL cards can open NewsBank pages directly - synthesize
     # ezproxy links from docref IDs / issue labels embedded in citations
     EZPROXY = "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref="
-    docref_file = ROOT / "data" / "newsbank_issue_docrefs.json"
+    docref_file = ROOT / "data" / "provenance" / "newsbank_issue_docrefs.json"
     ISSUE_DOCREFS = json.loads(docref_file.read_text()) if docref_file.exists() else {}
 
     def link_citation(cite, extraction):
@@ -266,7 +267,7 @@ def main():
 
     # ---- absentee/VBM share series, 1964-2026
     hist = []
-    with open(ROOT / "data" / "sf_turnout_history_1960_2002.csv", newline="") as f:
+    with open(SRC / "sf_turnout_history_1960_2002.csv", newline="") as f:
         for r in csv.DictReader(f):
             if r["absentee"] in ("n/a", ""):
                 continue
@@ -278,7 +279,7 @@ def main():
     # certified splits recovered from SoS SOVs / DOE SOV spreadsheets /
     # legacy result pages (fills 2002-2014); preferred over archival page reads
     certified = {}
-    with open(ROOT / "data" / "sf_vbm_share_sos.csv", newline="") as f:
+    with open(SRC / "sf_vbm_share_sos.csv", newline="") as f:
         for r in csv.DictReader(f):
             certified[r["election_date"]] = float(r["vbm_share_pct"])
     for date, share in certified.items():
@@ -303,7 +304,7 @@ def main():
                             # Reports cumulative table); see doe-data-discrepancies.md
                             "1899-12-02": "1899-12-29"}
     doe_table = []
-    with open(ROOT / "data" / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
+    with open(SRC / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
         for r in csv.DictReader(f):
             if r["mail"] == "n/a":
                 continue
@@ -333,7 +334,7 @@ def main():
     # date -> (certified total, in-person/precinct count) for the dates whose
     # only record is the certified turnout split, so they can be cited too
     floor_meta = {}
-    with open(ROOT / "data" / "sf_turnout_history_1960_2002.csv", newline="") as f:
+    with open(SRC / "sf_turnout_history_1960_2002.csv", newline="") as f:
         for r in csv.DictReader(f):
             if r["absentee"] in ("n/a", ""):
                 continue
@@ -345,7 +346,7 @@ def main():
             floor[date] = {"date": date, "floorPct": round(100 * prec / total, 1),
                            "source": "doe-turnout-history"}
             floor_meta[date] = {"final": total, "prec": prec}
-    with open(ROOT / "data" / "sf_vbm_share_sos.csv", newline="") as f:
+    with open(SRC / "sf_vbm_share_sos.csv", newline="") as f:
         for r in csv.DictReader(f):
             floor[r["election_date"]] = {
                 "date": r["election_date"],
@@ -412,7 +413,7 @@ def main():
     # Great Register) — extends the turnout-of-registered series back to 1879.
     # Registration is only basis-reliable from 1879 on (earlier Great Register
     # counts are cumulative/gross, so turnout% is omitted before 1879).
-    pre1899 = ROOT / "data" / "sf_turnout_pre1899.csv"
+    pre1899 = SRC / "sf_turnout_pre1899.csv"
     if pre1899.exists():
         with open(pre1899, newline="") as f:
             for r in csv.DictReader(f):
@@ -431,7 +432,7 @@ def main():
     # 1891-1907: the gap between the FY1888-89 Registrar master table and the
     # reliable start of the DOE table, recovered from Municipal Reports volumes
     # (basis muni-registrar) and the CA SOV / Blue Book (basis sov-bluebook)
-    gap_csv = ROOT / "data" / "sf_turnout_1891_1907.csv"
+    gap_csv = SRC / "sf_turnout_1891_1907.csv"
     if gap_csv.exists():
         with open(gap_csv, newline="") as f:
             for r in csv.DictReader(f):
@@ -444,7 +445,7 @@ def main():
                     # as the rounded fire-era 1905 figures) - threaded through
                     # to sources.json instead of the generic era label
                     "cite": r["source"]}
-    with open(ROOT / "data" / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
+    with open(SRC / "sf_turnout_history_doe_1899_2019.csv", newline="") as f:
         for r in csv.DictReader(f):
             reg = r["registration"]
             if not reg or reg in ("n/a", ""):
@@ -461,7 +462,7 @@ def main():
     # digits from the registrar's printing). Dates already adjudicated in
     # sf_turnout_1891_1907.csv are excluded from this file so operator rulings
     # there stand.
-    registrar_csv = ROOT / "data" / "sf_turnout_registrar_1899_1916.csv"
+    registrar_csv = SRC / "sf_turnout_registrar_1899_1916.csv"
     if registrar_csv.exists():
         with open(registrar_csv, newline="") as f:
             for r in csv.DictReader(f):
@@ -488,7 +489,7 @@ def main():
     # reused as the denominator; each row carries the era rule and bias
     # direction. The 1932 May/Aug specials are deliberately absent: the old
     # roll was canceled Jan 1, 1932 and the permanent roll was still forming.
-    reused_csv = ROOT / "data" / "sf_turnout_reused_registration_1917_1945.csv"
+    reused_csv = SRC / "sf_turnout_reused_registration_1917_1945.csv"
     if reused_csv.exists():
         final_by_id = {e["id"]: e["final"] for e in out if e.get("final")}
         with open(reused_csv, newline="") as f:
@@ -520,7 +521,7 @@ def main():
     # not single-report jumps. Registered counts also sawtooth: rolls peak at each
     # general, then post-general list maintenance purges inactive voters.
     regelig = []
-    reg_path = ROOT / "data" / "sf_registration_eligible.csv"
+    reg_path = SRC / "sf_registration_eligible.csv"
     if reg_path.exists():
         with open(reg_path, newline="") as f:
             for r in csv.DictReader(f):
@@ -537,7 +538,7 @@ def main():
     # tables (archive.org), read off page-image crops and pending hand-verification.
     # `confidence: low` marks figures that look anomalous in the source itself
     # (e.g. 1994's ~96% rate: pre-NVRA bloated rolls vs a low DOF eligible estimate).
-    sov_path = ROOT / "data" / "sf_registration_eligible_sov_1974_1998.csv"
+    sov_path = SRC / "sf_registration_eligible_sov_1974_1998.csv"
     if sov_path.exists():
         with open(sov_path, newline="") as f:
             for r in csv.DictReader(f):
@@ -564,7 +565,7 @@ def main():
     # the unregistered, and non-voters.
     funnel = []  # franchise-funnel points (filled below when census data exists)
     census = {}  # year -> (pop, vap, citizen_elig|None)
-    vap_path = ROOT / "data" / "sf_eligible_vap_estimate.csv"
+    vap_path = SRC / "sf_eligible_vap_estimate.csv"
     if vap_path.exists():
         with open(vap_path) as f:
             for r in csv.DictReader(line for line in f if not line.startswith("#")):

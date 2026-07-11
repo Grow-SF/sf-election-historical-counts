@@ -13,15 +13,15 @@ details are at the [bottom](#reproducing--provenance); they aren't needed to
 
 ## Start here: the one-file rollup
 
-### `exports/sf_elections_consolidated.csv`
+### `sf_elections_consolidated.csv`
 **What:** the whole record in one file — one row per election (1849–present)
 with registration, total turnout, election-night count, and the election-day /
 vote-by-mail split,
 each value paired with a compacted source citation (full verbatim citations
-live in the underlying files and `docs/sources.md` — join on the
-`sources_record_id` column). Structured class columns say exactly what each
-number is: `night_count_class` (the actual count as reported, vs a lower
-bound where only one contest's sum could be extracted),
+live in the underlying `data/` and `data/sources/` CSVs and `docs/sources.md` —
+join on the `sources_record_id` column). Structured class columns say exactly
+what each number is: `night_count_class` (the actual count as reported, vs a
+lower bound where only one contest's sum could be extracted),
 `total_turnout_class` (certified/official vs news-derived vs single-contest
 floor), `registration_basis` (as-recorded vs reused-approximate); the nine
 elections with no night count carry their documented dead-end reason in the
@@ -34,25 +34,26 @@ e-day/VBM splits.
 
 | Dataset | What it measures | Years | Grain |
 |---|---|---|---|
-| `exports/sf_elections_consolidated.csv` | single-file rollup: registration, turnout, night count, e-day/VBM split + per-value sources (generated) | 1849–2026 | per election |
+| `sf_elections_consolidated.csv` | single-file rollup: registration, turnout, night count, e-day/VBM split + per-value sources (generated) | 1849–2026 | per election |
 | `sf_count_timeline.csv` | ballots counted in each results release (the count climbing) | 2008–2026 | per release |
-| `sf_archival_canvass_points.csv` | recovered election-night / mid-canvass counts | 1851–2014 | per observation |
-| `sf_night_floor_1964_2026.csv` | share counted by election night (lower bound) | 1964–2026 | per election |
+| `sf_archival_canvass_points.csv` | recovered election-night / mid-canvass counts | 1849–2014 | per observation |
 | `elections_master.csv` | master list of every SF election + whether a night count is recovered | 1849–2026 | per election |
-| `sf_turnout_pre1899.csv` | pre-1899 certified turnout (registrar table) | 1878–1898 | per election |
-| `sf_turnout_1891_1907.csv` | official registration + ballots (Municipal Reports, cross-printing arbitrated) | 1891–1907 | per election |
-| `sf_turnout_registrar_1899_1916.csv` | the Registrar's cumulative election table (official registration + votes, specials and primaries included) | 1899–1916 | per election |
-| `sf_turnout_reused_registration_1917_1945.csv` | denominators reused from the nearest general per era registration law | 1917–1945 | per election |
+| `sources/sf_turnout_pre1899.csv` | pre-1899 certified turnout (registrar table) | 1878–1898 | per election |
+| `sources/sf_turnout_1891_1907.csv` | official registration + ballots (Municipal Reports, cross-printing arbitrated) | 1891–1907 | per election |
+| `sources/sf_turnout_registrar_1899_1916.csv` | the Registrar's cumulative election table (official registration + votes, specials and primaries included) | 1899–1916 | per election |
+| `sources/sf_turnout_reused_registration_1917_1945.csv` | denominators reused from the nearest general per era registration law | 1917–1945 | per election |
 | `sf_days_to_90.csv` | how long until 90% of the vote was counted | 2015–2026 | per election |
-| `sf_canvass_minutes_statements.csv` | registrar "ballots remaining" statements | 2002+ | per statement |
-| `sf_turnout_history_doe_1899_2019.csv` | registration, ballots cast, turnout % | 1899–2019 | per election |
-| `sf_turnout_history_1960_2002.csv` | turnout with absentee/precinct split | 1960–2002 | per election |
-| `sf_vbm_share_sos.csv` | certified vote-by-mail share | 2002–2014 | per election |
-| `sf_registration_eligible.csv` | registered vs eligible citizens | 2000–2026 | per SoS report |
-| `sf_registration_eligible_sov_1974_1998.csv` | registered vs eligible (recovered) | 1974–1998 | per election |
-| `sf_eligible_vap_estimate.csv` | voting-age & eligible-citizen population | 1900–2020 | per census |
+| `sources/sf_canvass_minutes_statements.csv` | registrar "ballots remaining" statements | 2002+ | per statement |
+| `sources/sf_turnout_history_doe_1899_2019.csv` | registration, ballots cast, turnout % | 1899–2019 | per election |
+| `sources/sf_turnout_history_1960_2002.csv` | turnout with absentee/precinct split | 1960–2002 | per election |
+| `sources/sf_vbm_share_sos.csv` | certified vote-by-mail share | 2002–2014 | per election |
+| `sources/sf_registration_eligible.csv` | registered vs eligible citizens | 2000–2026 | per SoS report |
+| `sources/sf_registration_eligible_sov_1974_1998.csv` | registered vs eligible (recovered) | 1974–1998 | per election |
+| `sources/sf_eligible_vap_estimate.csv` | voting-age & eligible-citizen population | 1900–2020 | per census |
 | `sf_franchise_by_election.csv` | eligible / registered / voted, joined per election (deliberately separate from the rollup: the eligible denominator is an estimate with its own caveats) | 1908–2024 | per election |
-| `sf_june2026_vbm_returns_by_day.csv` | DoE daily VBM return tracking (hand-copied reference) | 2026 | per day |
+| `sources/sf_june2026_vbm_returns_by_day.csv` | DoE daily VBM return tracking (hand-copied reference) | 2026 | per day |
+| `sources/sf_vote_by_district_1856_1863.csv` | votes cast by district, from a printed 1863 newspaper table | 1856–1863 | per district, per year |
+| `research/county-vbm/county_vbm_share.csv` | vote-by-mail composition for the 19-county comparison panel (mail vs. polling ballots, not SF-only) | 2012–2024 | per county, per election |
 
 **Definitions used throughout** (they are not interchangeable):
 
@@ -76,7 +77,21 @@ or `n/a`. Known data-quality issues are tracked in
 
 ---
 
-## The count over time (how fast results are known)
+## Layout
+
+`data/` is organized into tiers: top level = datasets you open directly;
+`sources/` = one file per primary source, the inputs and the provenance,
+never merged; `pipeline/` = sfcount machinery, not for human consumption;
+`provenance/` = citation ledgers and helper maps; `research/` = county-comparison
+research data (unchanged by the restructure; operator manual:
+[`../docs/research/RUNBOOK.md`](../docs/research/RUNBOOK.md)).
+
+Restructured 2026-07: files previously at the top level moved into these
+tiers; older dated docs may cite pre-move paths.
+
+---
+
+## Top level
 
 ### `sf_count_timeline.csv`
 **What:** how the ballot count grew, release by release, for each modern
@@ -101,9 +116,9 @@ election — the data behind "election night reports less than it used to."
 ### `sf_archival_canvass_points.csv`
 **What:** the historical equivalent of the timeline — election-night and
 mid-canvass counts recovered from newspaper and web archives.
-**Coverage:** 1868–2014, one row per recovered observation (the 19th-century rows
-were recovered in 2026 — see `pre1892_certified.md`). Counts are **conservative
-floors** (true value ≥ the figure).
+**Coverage:** 1849–2014, one row per recovered observation (the 19th-century rows
+were recovered in 2026 — see `provenance/pre1892_certified.md`). Counts are
+**conservative floors** (true value ≥ the figure).
 
 | column | meaning |
 |---|---|
@@ -120,21 +135,12 @@ floors** (true value ≥ the figure).
 | `extraction` | `wayback-html` \| `chronicle-subscription` \| `newsbank-sfpl` \| `newsbank-image-scan` \| `web-news` |
 | `final_source` | provenance of `certified_final` |
 
-### `sf_night_floor_1964_2026.csv`
-**What:** the share of the vote guaranteed to be counted by election night — the
-precinct (in-person) ballots, which are tallied that night. A floor even when no
-newspaper survives. **Coverage:** 1964–2026, per election.
-**Caveat:** this CSV is a derived one-off snapshot with NO committed generator,
-and it is NOT a build input: `build_viz_data.py` computes the chart's
-`night_floor.json` independently from the turnout/VBM CSVs. Treat this file as
-a record, not a pipeline stage.
-
-| column | meaning |
-|---|---|
-| `election_date` | election day |
-| `night_floor_pct` | precinct ballots ÷ certified total, percent |
-| `method` | how computed |
-| `source` | source series |
+**Note:** a derived one-off snapshot of election-night share by year (the
+precinct/in-person ballots tallied that night, as a share of the certified
+total) used to be committed here as `sf_night_floor_1964_2026.csv`. It was
+deleted in the 2026-07 restructure: it had no committed generator and was
+never a build input (the chart's `night_floor.json` is computed
+independently from the turnout/VBM CSVs in `scripts/build_viz_data.py`).
 
 ### `sf_days_to_90.csv`
 **What:** a per-election summary of counting speed. **Coverage:** 2015–2026.
@@ -147,7 +153,32 @@ a record, not a pipeline stage.
 | `date_90pct`, `days_to_90pct` | when 90% of the final was reached; days after election |
 | `pct_on_election_night` | share counted election night |
 
-### `sf_canvass_minutes_statements.csv`
+### `elections_master.csv`
+**What:** the comprehensive election index: **313 San Francisco
+elections, 1849–2026**, each flagged by whether an election-night count has been
+recovered (304 `night` · 9 `final-only`, meaning only the certified final is
+known and no election-night count was ever recovered). Columns: `election_date`,
+`year`, `level` (statewide/municipal/both/city), `kind` (General/Primary/Municipal/
+Special/…), `description`, `recovered` (`night` \| `final-only`), `night_pct`,
+`date_confidence`, `sources`. Built by `scripts/build_elections_master.py` from the
+SFPL/DataSF index (1907+) and reconstructed pre-1907 from the CA Statement of Vote /
+Blue Book + SF Municipal Reports; the `recovered` flag is computed against the live
+dataset so it never drifts. The source of truth for what we have and what's missing.
+
+### `sf_franchise_by_election.csv`
+**What:** eligible / registered / voted, joined per election. Deliberately
+kept separate from the one-file rollup: the eligible denominator is an
+estimate with its own caveats (see
+[The franchise: registration & eligibility](#the-franchise-registration--eligibility)
+below). **Coverage:** 1908–2024, per election.
+
+---
+
+## `sources/`
+
+### The count over time (how fast results are known)
+
+#### `sources/sf_canvass_minutes_statements.csv`
 **What:** registrar statements of ballots-remaining (from Elections Commission
 minutes), turned into conservative counted-so-far estimates. **Coverage:** 2002+.
 Hand-transcribed; no committed generator.
@@ -159,11 +190,9 @@ Hand-transcribed; no committed generator.
 | `derived_estimate` | the conservative figure derived from it |
 | `source_page` | the minutes citation |
 
----
+### Turnout & vote-by-mail
 
-## Turnout & vote-by-mail
-
-### `sf_turnout_history_doe_1899_2019.csv`
+#### `sources/sf_turnout_history_doe_1899_2019.csv`
 **What:** the Department of Elections' certified turnout table — the backbone
 registration/ballots/turnout series. **Coverage:** 1899–2019, per election.
 
@@ -176,7 +205,7 @@ registration/ballots/turnout series. **Coverage:** 1899–2019, per election.
 | `precinct` | in-person ballots (`n/a` where not split) |
 | `mail` | vote-by-mail/absentee ballots (`n/a` where not split) |
 
-### `sf_turnout_registrar_1899_1916.csv`
+#### `sources/sf_turnout_registrar_1899_1916.csv`
 **What:** the Registrar of Voters' own cumulative election table ("Registration and
 votes cast at each Election since the Act of March 18, 1878"), transcribed from page
 images of the SF Municipal Reports (FY1912-13 pp.260-262, FY1915-16 pp.327-332,
@@ -185,7 +214,7 @@ every SF election 1899–1916, specials and primaries included; it also defined 
 elections absent from every other index. Overrides the DOE table for these dates in
 `scripts/build_viz_data.py` (the DOE table's 1908-11-03 row is mislabeled — see
 `docs/doe-data-discrepancies.md`). Dates already adjudicated in
-`sf_turnout_1891_1907.csv` are deliberately excluded. **Coverage:** 1899–1916,
+`sources/sf_turnout_1891_1907.csv` are deliberately excluded. **Coverage:** 1899–1916,
 per election.
 
 | column | meaning |
@@ -197,7 +226,7 @@ per election.
 | `label` | the table's own election label |
 | `source` | volume/page/image citation + any adjudication note |
 
-### `sf_turnout_reused_registration_1917_1945.csv`
+#### `sources/sf_turnout_reused_registration_1917_1945.csv`
 **What:** registration denominators for 34 elections whose ballots-cast final we hold
 but whose own registration was never officially printed (the Municipal Reports series
 ends FY1916-17; the DOE table skips most specials and municipals). Each reuses the
@@ -218,7 +247,7 @@ still forming). **Coverage:** 1917–1945, per election.
 | `turnout_note` | bias direction (floor / approximate / near-exact) |
 | `ballots_note` | set when the joined final is itself a contest floor |
 
-### `sf_turnout_history_1960_2002.csv`
+#### `sources/sf_turnout_history_1960_2002.csv`
 **What:** turnout with the absentee-vs-precinct breakdown. **Coverage:**
 1960–2002, per election. (Numbers are comma-formatted strings.)
 
@@ -231,7 +260,7 @@ still forming). **Coverage:** 1917–1945, per election.
 | `pct_reg_returned_av` | absentee returned as % of registration |
 | `pct_turnout_voted_av` | absentee as % of ballots cast |
 
-### `sf_vbm_share_sos.csv`
+#### `sources/sf_vbm_share_sos.csv`
 **What:** certified polling-vs-absentee splits filling the 2002–2014 gap.
 **Coverage:** 2002–2014, per election.
 
@@ -242,16 +271,31 @@ still forming). **Coverage:** 1917–1945, per election.
 | `vbm_share_pct` | absentee share of total |
 | `source_url` | the SOV / spreadsheet citation |
 
----
+#### `sources/sf_vote_by_district_1856_1863.csv`
+**What:** votes cast in each of San Francisco's election districts, one column
+per year, transcribed from a single printed newspaper table (Daily Alta
+California, 1863-09-03, "The following table shows the vote in the various
+Districts in each year since 1856"). The file's leading comment block carries
+the full citation, the operator's adjudication of a mis-cited 1861 column (the
+printed total is the September gubernatorial, not the May municipal the table
+compiler cited), and per-column arithmetic-check notes; there is no per-row
+`source` column, the citation is file-level. **Coverage:** 1856–1863, one row
+per election district (12 districts) plus a `total_printed` row, one column
+per year.
 
-## The franchise: registration & eligibility
+| column | meaning |
+|---|---|
+| `district` | election district number, or `total_printed` for the table's own printed column total |
+| `y1856`…`y1863` | votes cast in that district in that year's general/state election |
+
+### The franchise: registration & eligibility
 
 Background, the citizen-vs-VAP distinction, and caveats:
 [`../docs/eligible-denominator-notes.md`](../docs/eligible-denominator-notes.md);
 findings:
 [`../docs/analysis/2026-06-14-franchise-and-eligible-electorate.md`](../docs/analysis/2026-06-14-franchise-and-eligible-electorate.md).
 
-### `sf_registration_eligible.csv`
+#### `sources/sf_registration_eligible.csv`
 **What:** registered voters against the eligible-citizen population, from the CA
 Secretary of State's Reports of Registration. **Coverage:** 2000–2026, one row
 per report (several per year).
@@ -265,7 +309,7 @@ per report (several per year).
 | `pct_registered_of_eligible` | `registered ÷ eligible`, percent |
 | `source_url` | the source `county.pdf` |
 
-### `sf_registration_eligible_sov_1974_1998.csv`
+#### `sources/sf_registration_eligible_sov_1974_1998.csv`
 **What:** the same registered-vs-eligible measure recovered from the printed
 Statement of Vote, extending the series back. **Coverage:** 1974–1998.
 **Status:** values are **pending hand-verification** against the cited scans —
@@ -283,7 +327,7 @@ treat `confidence` accordingly.
 | `source_leaf` | page/leaf in the scanned volume |
 | `source_url` | link to the source |
 
-### `sf_eligible_vap_estimate.csv`
+#### `sources/sf_eligible_vap_estimate.csv`
 **What:** San Francisco's voting-age population and its eligible-citizen subset,
 from the decennial U.S. Census. The denominators for long-run franchise analysis.
 **Coverage:** 1900–2020, one row per census. **Note the eligibility basis:** 21+
@@ -303,30 +347,43 @@ comment block in the file restates the basis and the required NHGIS citation.
 
 ---
 
-## Indexes & provenance helpers
+## `pipeline/`
 
-- **`elections_master.csv`** — the comprehensive election index: **270 San Francisco
-  elections, 1849–2026**, each flagged by whether an election-night count has been
-  recovered (164 recovered · 23 turnout-only · 83 missing). Columns: `election_date`,
-  `year`, `level` (statewide/municipal/both/city), `kind` (General/Primary/Municipal/
-  Special/…), `description`, `recovered` (night/turnout-only/no), `night_pct`,
-  `date_confidence`, `sources`. Built by `scripts/build_elections_master.py` from the
-  SFPL/DataSF index (1907+) and reconstructed pre-1907 from the CA Statement of Vote /
-  Blue Book + SF Municipal Reports; the `recovered` flag is computed against the live
-  dataset so it never drifts. The source of truth for what we have and what's missing.
-- **`pre1892_certified.md`** — pre-1892 certified SF figures (denominators),
-  registration/turnout, and the 19th-century night-count recovery notes + tooling.
-- **`elections.csv`** — modern election index: `election_date`, `election_name`, `era`.
-- **`manifest.csv`** — one row per fetched DOE release (`election`, `snapshot`,
+sfcount machinery, not for human consumption:
+
+- **`pipeline/elections.csv`** — modern election index: `election_date`, `election_name`, `era`.
+- **`pipeline/manifest.csv`** — one row per fetched DOE release (`election`, `snapshot`,
   `filename`, `status`, `last_modified`); `last_modified` is the timestamp that
   dates each modern release.
-- **`mirror_manifest.csv`** — inventory of the **gitignored** `mirror/` tree of
+- **`pipeline/parse_failures.csv`** — `file`, `error`: DOE files the parser couldn't read
+  (empty when clean).
+
+---
+
+## `provenance/`
+
+Citation ledgers and helper maps:
+
+- **`provenance/pre1892_certified.md`** — pre-1892 certified SF figures (denominators),
+  registration/turnout, and the 19th-century night-count recovery notes + tooling.
+- **`provenance/mirror_manifest.csv`** — inventory of the **gitignored** `mirror/` tree of
   licensed source content (`path`, `source`, `sha256`, `bytes`); the bytes
   themselves are not in the repository (cited, never republished).
-- **`parse_failures.csv`** — `file`, `error`: DOE files the parser couldn't read
-  (empty when clean).
-- **`newsbank_issue_docrefs.json`** — maps NewsBank issue dates to document
+- **`provenance/newsbank_issue_docrefs.json`** — maps NewsBank issue dates to document
   references so citations resolve to SFPL deep links on the site's `/sources` page.
+
+---
+
+## `research/county-vbm/`
+
+County-panel vote-by-mail composition data (not SF-specific): mail-versus-polling
+ballot counts for the 19-county election-night comparison panel, read from CA SoS
+Statement of Vote "Voter Participation Statistics by County" PDFs, 12 statewide
+elections from 2012 to 2024. It exists to let the comparison-panel research (see
+[`../docs/research/RUNBOOK.md`](../docs/research/RUNBOOK.md)) separate a county's
+change in mail-ballot share from a genuine change in counting speed. Schema, exact
+source URLs, and verification notes:
+[`research/county-vbm/README.md`](research/county-vbm/README.md).
 
 ---
 
@@ -345,9 +402,9 @@ Not needed to use the data, but for the record:
   (`packages/data/*.json`) is *generated* — rebuild with
   `python3 scripts/build_viz_data.py`; don't edit it by hand. (The full
   generated-vs-hand-maintained map lives in `packages/data/README.md`.)
-- **Modern counting/turnout files** (`manifest`, `elections`, `sf_count_timeline`,
-  `sf_days_to_90`) are produced by the `sfcount` Python pipeline from the
-  Department of Elections' published per-release files.
+- **Modern counting/turnout files** (`pipeline/manifest.csv`, `pipeline/elections.csv`,
+  `sf_count_timeline.csv`, `sf_days_to_90.csv`) are produced by the `sfcount`
+  Python pipeline from the Department of Elections' published per-release files.
 - **Historical files** were hand-recovered from primary sources; the method,
   verification gates, and tooling are in
   [`../docs/archive-recovery-runbook.md`](../docs/archive-recovery-runbook.md).

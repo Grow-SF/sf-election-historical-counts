@@ -17,9 +17,9 @@
      "ventura-ca"
     ],
     "n": 12,
-    "pooled": 5.66,
-    "sf_only": 2.34,
-    "slo_only": 8.99
+    "pooled": 5.95,
+    "sf_only": 2.68,
+    "slo_only": 9.21
    },
    "type": {
     "counties": [
@@ -37,9 +37,9 @@
      "ventura-ca"
     ],
     "n": 12,
-    "pooled": 7.2,
-    "sf_only": 3.95,
-    "slo_only": 10.45
+    "pooled": 7.67,
+    "sf_only": 4.52,
+    "slo_only": 10.81
    }
   },
   "theta_2024": {
@@ -50,16 +50,19 @@
      "madera-ca",
      "napa-ca",
      "orange-ca",
+     "placer-ca",
+     "riverside-ca",
      "sacramento-ca",
+     "san-bernardino-ca",
      "san-diego-ca",
      "san-mateo-ca",
      "santa-clara-ca",
      "ventura-ca"
     ],
-    "n": 10,
-    "pooled": 9.39,
-    "sf_only": 6.02,
-    "slo_only": 12.77
+    "n": 13,
+    "pooled": 11.12,
+    "sf_only": 8.08,
+    "slo_only": 14.16
    },
    "type": {
     "counties": [
@@ -68,16 +71,19 @@
      "madera-ca",
      "napa-ca",
      "orange-ca",
+     "placer-ca",
+     "riverside-ca",
      "sacramento-ca",
+     "san-bernardino-ca",
      "san-diego-ca",
      "san-mateo-ca",
      "santa-clara-ca",
      "ventura-ca"
     ],
-    "n": 10,
-    "pooled": 10.07,
-    "sf_only": 6.78,
-    "slo_only": 13.37
+    "n": 13,
+    "pooled": 10.01,
+    "sf_only": 7.16,
+    "slo_only": 12.87
    }
   },
   "theta_step_2018": {
@@ -90,9 +96,9 @@
      "san-mateo-ca"
     ],
     "n": 5,
-    "pooled": -10.3,
-    "sf_only": -9.24,
-    "slo_only": -11.36
+    "pooled": -10.69,
+    "sf_only": -9.69,
+    "slo_only": -11.7
    },
    "type": {
     "counties": [
@@ -103,9 +109,9 @@
      "san-mateo-ca"
     ],
     "n": 5,
-    "pooled": -6.62,
-    "sf_only": -5.38,
-    "slo_only": -7.85
+    "pooled": -6.57,
+    "sf_only": -5.28,
+    "slo_only": -7.86
    }
   },
   "theta_step_2022": {
@@ -136,7 +142,7 @@
  "asv_descriptives": {
   "cohort2020_contrast": {
    "min_attainable_p": 0.1667,
-   "obs_diff": -4.19,
+   "obs_diff": -5.21,
    "one_sided_p": 1.0
   },
   "nevada_2018_2022": {
@@ -147,9 +153,9 @@
    "rank": 2
   },
   "san_bernardino_2024": {
-   "n": 13,
+   "n": 15,
    "pct": 56.24,
-   "rank": 10
+   "rank": 12
   },
   "san_diego_2022_2024": {
    "change": 10.65,
@@ -161,24 +167,24 @@
  },
  "bjs_imputation": {
   "aggregates": {
-   "theta_2022": 5.44,
-   "theta_2024": 9.64,
-   "theta_step_2018": -5.74,
-   "theta_step_2022": 1.08
+   "theta_2022": 8.61,
+   "theta_2024": 10.39,
+   "theta_step_2018": -5.31,
+   "theta_step_2022": 4.01
   },
   "cell_mean_comparison": {
-   "theta_2022": -1.75,
-   "theta_2024": -0.43,
-   "theta_step_2018": 0.87,
-   "theta_step_2022": -6.36
+   "theta_2022": 0.94,
+   "theta_2024": 0.38,
+   "theta_step_2018": 1.26,
+   "theta_step_2022": -3.43
   },
   "divergence_flags_gt3pp": [
    "theta_step_2022"
   ],
-  "n_imputed_cells": 27,
-  "n_untreated_cells": 50,
+  "n_imputed_cells": 30,
+  "n_untreated_cells": 60,
   "san_bernardino_dropped": true,
-  "sigma_untreated_rmse": 4.61
+  "sigma_untreated_rmse": 4.44
  },
  "cells": {
   "calendar|g2018|t2018": {
@@ -186,7 +192,7 @@
     "madera-ca": 2016,
     "napa-ca": 2016,
     "nevada-ca": 2016,
-    "sacramento-ca": 2014,
+    "sacramento-ca": 2016,
     "san-mateo-ca": 2016
    },
    "counties": [
@@ -200,10 +206,10 @@
     "madera-ca": -1.94,
     "napa-ca": -10.02,
     "nevada-ca": -6.34,
-    "sacramento-ca": -13.81,
+    "sacramento-ca": -15.79,
     "san-mateo-ca": -19.39
    },
-   "mean": -10.3,
+   "mean": -10.69,
    "n": 5
   },
   "calendar|g2018|t2022": {
@@ -211,7 +217,7 @@
     "madera-ca": 2016,
     "napa-ca": 2016,
     "nevada-ca": 2016,
-    "sacramento-ca": 2014,
+    "sacramento-ca": 2016,
     "san-mateo-ca": 2016
    },
    "counties": [
@@ -225,17 +231,17 @@
     "madera-ca": -3.44,
     "napa-ca": 7.07,
     "nevada-ca": 12.75,
-    "sacramento-ca": -7.4,
+    "sacramento-ca": -9.38,
     "san-mateo-ca": 2.53
    },
-   "mean": 2.3,
+   "mean": 1.91,
    "n": 5
   },
   "calendar|g2018|t2024": {
    "bases": {
     "madera-ca": 2016,
     "napa-ca": 2016,
-    "sacramento-ca": 2014,
+    "sacramento-ca": 2016,
     "san-mateo-ca": 2016
    },
    "counties": [
@@ -247,10 +253,10 @@
    "deltas": {
     "madera-ca": -1.0,
     "napa-ca": -2.76,
-    "sacramento-ca": 3.43,
+    "sacramento-ca": 1.45,
     "san-mateo-ca": 11.51
    },
-   "mean": 2.8,
+   "mean": 2.3,
    "n": 4
   },
   "calendar|g2020|t2022": {
@@ -258,7 +264,7 @@
     "fresno-ca": 2018,
     "los-angeles-ca": 2018,
     "orange-ca": 2018,
-    "santa-clara-ca": 2012
+    "santa-clara-ca": 2018
    },
    "counties": [
     "fresno-ca",
@@ -270,9 +276,9 @@
     "fresno-ca": 7.99,
     "los-angeles-ca": 0.29,
     "orange-ca": 14.65,
-    "santa-clara-ca": 11.19
+    "santa-clara-ca": 16.57
    },
-   "mean": 8.53,
+   "mean": 9.87,
    "n": 4
   },
   "calendar|g2020|t2024": {
@@ -280,22 +286,25 @@
     "fresno-ca": 2018,
     "los-angeles-ca": 2018,
     "orange-ca": 2018,
-    "santa-clara-ca": 2012
+    "san-bernardino-ca": 2016,
+    "santa-clara-ca": 2018
    },
    "counties": [
     "fresno-ca",
     "los-angeles-ca",
     "orange-ca",
+    "san-bernardino-ca",
     "santa-clara-ca"
    ],
    "deltas": {
     "fresno-ca": 7.38,
     "los-angeles-ca": 9.72,
     "orange-ca": 18.38,
-    "santa-clara-ca": 12.2
+    "san-bernardino-ca": 2.24,
+    "santa-clara-ca": 17.58
    },
-   "mean": 11.92,
-   "n": 4
+   "mean": 11.06,
+   "n": 5
   },
   "calendar|g2022|t2022": {
    "bases": {
@@ -318,23 +327,39 @@
   },
   "calendar|g2022|t2024": {
    "bases": {
+    "riverside-ca": 2018,
     "san-diego-ca": 2018,
     "ventura-ca": 2018
    },
    "counties": [
+    "riverside-ca",
     "san-diego-ca",
     "ventura-ca"
    ],
    "deltas": {
+    "riverside-ca": 17.1,
     "san-diego-ca": 25.28,
     "ventura-ca": 9.77
    },
-   "mean": 17.53,
-   "n": 2
+   "mean": 17.38,
+   "n": 3
+  },
+  "calendar|g2024|t2024": {
+   "bases": {
+    "placer-ca": 2022
+   },
+   "counties": [
+    "placer-ca"
+   ],
+   "deltas": {
+    "placer-ca": 27.93
+   },
+   "mean": 27.93,
+   "n": 1
   },
   "type|g2018|t2018": {
    "bases": {
-    "madera-ca": 2016,
+    "madera-ca": 2014,
     "napa-ca": 2014,
     "nevada-ca": 2014,
     "sacramento-ca": 2014,
@@ -348,18 +373,18 @@
     "san-mateo-ca"
    ],
    "deltas": {
-    "madera-ca": -1.94,
-    "napa-ca": 0.65,
+    "madera-ca": 1.48,
+    "napa-ca": -2.52,
     "nevada-ca": 2.28,
     "sacramento-ca": -13.81,
     "san-mateo-ca": -20.26
    },
-   "mean": -6.62,
+   "mean": -6.57,
    "n": 5
   },
   "type|g2018|t2022": {
    "bases": {
-    "madera-ca": 2016,
+    "madera-ca": 2014,
     "napa-ca": 2014,
     "nevada-ca": 2014,
     "sacramento-ca": 2014,
@@ -373,20 +398,20 @@
     "san-mateo-ca"
    ],
    "deltas": {
-    "madera-ca": -3.44,
-    "napa-ca": 17.73,
+    "madera-ca": -0.01,
+    "napa-ca": 14.56,
     "nevada-ca": 21.37,
     "sacramento-ca": -7.4,
     "san-mateo-ca": 1.66
    },
-   "mean": 5.98,
+   "mean": 6.03,
    "n": 5
   },
   "type|g2018|t2024": {
    "bases": {
     "madera-ca": 2016,
     "napa-ca": 2016,
-    "sacramento-ca": 2012,
+    "sacramento-ca": 2016,
     "san-mateo-ca": 2016
    },
    "counties": [
@@ -398,10 +423,10 @@
    "deltas": {
     "madera-ca": -1.0,
     "napa-ca": -2.76,
-    "sacramento-ca": 2.89,
+    "sacramento-ca": 1.45,
     "san-mateo-ca": 11.51
    },
-   "mean": 2.66,
+   "mean": 2.3,
    "n": 4
   },
   "type|g2020|t2022": {
@@ -409,7 +434,7 @@
     "fresno-ca": 2018,
     "los-angeles-ca": 2018,
     "orange-ca": 2018,
-    "santa-clara-ca": 2012
+    "santa-clara-ca": 2018
    },
    "counties": [
     "fresno-ca",
@@ -421,9 +446,9 @@
     "fresno-ca": 7.99,
     "los-angeles-ca": 0.29,
     "orange-ca": 14.65,
-    "santa-clara-ca": 11.19
+    "santa-clara-ca": 16.57
    },
-   "mean": 8.53,
+   "mean": 9.87,
    "n": 4
   },
   "type|g2020|t2024": {
@@ -431,22 +456,25 @@
     "fresno-ca": 2016,
     "los-angeles-ca": 2016,
     "orange-ca": 2016,
-    "santa-clara-ca": 2012
+    "san-bernardino-ca": 2016,
+    "santa-clara-ca": 2016
    },
    "counties": [
     "fresno-ca",
     "los-angeles-ca",
     "orange-ca",
+    "san-bernardino-ca",
     "santa-clara-ca"
    ],
    "deltas": {
     "fresno-ca": 13.56,
     "los-angeles-ca": 15.79,
     "orange-ca": 16.37,
-    "santa-clara-ca": 12.2
+    "san-bernardino-ca": 2.24,
+    "santa-clara-ca": 10.86
    },
-   "mean": 14.48,
-   "n": 4
+   "mean": 11.77,
+   "n": 5
   },
   "type|g2022|t2022": {
    "bases": {
@@ -469,45 +497,43 @@
   },
   "type|g2022|t2024": {
    "bases": {
+    "riverside-ca": 2016,
     "san-diego-ca": 2012,
     "ventura-ca": 2016
    },
    "counties": [
+    "riverside-ca",
     "san-diego-ca",
     "ventura-ca"
    ],
    "deltas": {
+    "riverside-ca": 6.44,
     "san-diego-ca": 23.54,
     "ventura-ca": 8.61
    },
-   "mean": 16.07,
-   "n": 2
+   "mean": 12.86,
+   "n": 3
+  },
+  "type|g2024|t2024": {
+   "bases": {
+    "placer-ca": 2016
+   },
+   "counties": [
+    "placer-ca"
+   ],
+   "deltas": {
+    "placer-ca": 23.51
+   },
+   "mean": 23.51,
+   "n": 1
   }
  },
  "exclusions": [
   {
-   "county": "madera-ca",
-   "pct": null,
-   "reason": "no usable night figure (pct null)",
-   "year": 2012
-  },
-  {
-   "county": "madera-ca",
-   "pct": 80.42,
-   "reason": "comparable=false; plateau verdict PLAUSIBLE; Certified final 27,370 ballots cast (Total Voters) from CA SoS 'Voter Participation Statistics by County', 2014 complete SOV (Madera: 100 precincts, 85,976 eligible, 52,494 registered, 8,970 precinct + 18,400 VBM = 27,370). Election-night plateau NOT recoverable as a clean number. The only archived data state of votemadera.com's result28.htm / resultsc28.htm (captures 20141108134805 and 20141118031430) is the report 'Election Results as of 11/07/2014 at 02:14:32 PM' = Total Ballots Cast 26,449 (precinct 8,106 + absentee 18,343), 100 of 100 precincts -- this is the FIRST CANVASS UPDATE (Friday 11/7 afternoon, ~96.6% of certified), NOT the election-night semifinal. Madera's own 'Updates to Election Night Results' page (capture 20141111035904) confirms 4,385 late VBM 'arrived too late to be processed and included in the Semifinal Results from Election Night' and were counted starting 'Friday 11/7 at 1:00pm', so the true election-night plateau (which excluded those 4,385) was overwritten in place and is unarchived. No 2014 Clarity ENR exists (Madera's first Clarity is June 2018), so the live-CDN version recovery used for 2018/2022 is not available here. Recording 26,449 would overstate the election-night share, so left null. RECOVERY (2026-07-09): both papers agree the sheriff and DA races reached 100 of 100 precincts reporting Tuesday night (Fresno Bee 'Varney, Linn roll to wins in Madera', Nov 5 2014 pA6: Varney 57.8%/Salvador 41.9%, Linn 58.5%/Keitz 41.2%; Madera Tribune 'Police chief to be new sheriff' and 'A Linn win for district attorney', Nov 5 2014 pA1, same percentages, 'with all precincts reporting Tuesday evening'), but neither paper prints a raw countywide ballot total for election night itself. The Madera Tribune's Friday edition, 'More than 5,300 votes left to count' (Nov 7 2014 pA1, docref news/15175914B6DDC6C0), quotes Madera County Clerk-Recorder Rebecca Martinez: 4,385 vote-by-mail ballots 'were received by her office and 100 polling places after noon on Tuesday's Election Day' (i.e., too late for the night's tally) plus 973 provisional ballots (requiring eligibility verification over following weeks) equal 'the 5,358 ballots left to be counted' (4,385+973=5,358 exactly). Certified final 27,370 minus the 5,358 ballots explicitly documented as NOT part of the night's tally = 22,012 ballots counted as of election night; this matches the same article's own framing, 'this week's election saw more than 22,000 votes' (22,012>22,000). This is treated as a FLOOR (RUNBOOK 5.2): the article frames the late-VBM/provisional split as the only outstanding categories as of Friday, but a small amount of additional routine VBM processing between Tuesday night and the Friday cutoff cannot be fully ruled out. pct = 22,012/27,370 = 80.42%. Self-consistent with the existing 'not recoverable' finding above: the Friday 2:14pm capture (26,449) is 4,437 higher than 22,012, close to the 4,385 late-VBM batch the article says 'will likely be counted by 5 tonight' (Friday), i.e. that capture already reflects most of the late batch being added. Calibration: 80.42% sits alongside 2016's 80.0% (both pre-e-pollbook, traditional-polling-place era, small precinct-based county that counts fast), slightly above the brief's a-priori 65-80% midterm estimate but explained by the adjacent same-era presidential year, not a first-tranche or canvass-contaminated value (100/100 precincts, only the well-quantified late-VBM/provisional gap remains, which is exactly what the plateau definition expects). PLAUSIBLE not CONFIRMED: no independent Clarity/report bracket proves this was the LAST report of the night (Madera's Clarity ENR did not exist until 2018), only the clerk's own quantified breakdown of what remained uncounted. NewsBank access: SFPL ezproxy, Fresno Bee and Madera Tribune, Newspaper/Text, Nov 5-14 2014 windows, queries 'Madera ballots'/'Madera County votes counted'/'Madera turnout'/'Madera County'/'Madera precincts reporting' plus follow-up sweeps ('Martinez ballots', 'vote', 'election', cadence sweep) that located the Nov 7 and Nov 11 Tribune follow-ups. CORRECTION (2026-07-09): relabeled CEILING and flagged comparable=false: the 5,358-remaining snapshot is from Friday Nov 7, so any interim processing beyond the two named categories can only make the true election-night count lower than 22,012; the prior FLOOR label had the risk direction backwards. The article's 'this week's election saw more than 22,000 votes' framing is retained as reported language but is not independent corroboration of 22,012 (likely the same certified-minus-remaining subtraction the reporter would have done); its exact wording was not re-verified against the source in this pass.",
-   "year": 2014
-  },
-  {
    "county": "nevada-ca",
    "pct": 24.49,
-   "reason": "comparable=false; plateau verdict CONFIRMED; EXCLUDE FROM TECH COMPARISON. Ballot-printer ink-overspray defect (county press releases Oct 23/28 2024) made tens of thousands of vote-by-mail ballots unreadable by the tabulators; ~90 staff hand-rescanned them in-house through ~Thanksgiving. So Nevada County counted abnormally FEW ballots on election night 2024 , the low share is a paper-defect artifact, NOT an automatic-signature-verification or e-pollbook effect (the user flagged exactly this). Also UNCONFIRMED: YubaNet says '15,486 ballots (20.41%) counted on election night' but whether that was the first or the last of the three election-night reports is ambiguous in the source, and the true end-of-night plateau could not be independently confirmed (no Wayback/Clarity capture of the county's live results). Treat 24.49% as a depressed, news-derived outlier, not a clean plateau.",
+   "reason": "comparable=false; plateau verdict CONFIRMED; EXCLUDE FROM TECH COMPARISON. Ballot-printer ink-overspray defect (county press releases Oct 23/28 2024) made tens of thousands of vote-by-mail ballots unreadable by the tabulators; ~90 staff hand-rescanned them in-house through ~Thanksgiving. So Nevada County counted abnormally FEW ballots on election night 2024 , the low share is a paper-defect artifact, NOT an automatic-signature-verification or e-pollbook effect (the user flagged exactly this). Also UNCONFIRMED: YubaNet says '15,486 ballots (20.41%) counted on election night' but whether that was the first or the last of the three election-night reports is ambiguous in the source, and the true end-of-night plateau could not be independently confirmed (no Wayback/Clarity capture of the county's live results). Treat 24.49% as a depressed, news-derived outlier, not a clean plateau. CORRECTION (2026-07-10, gap-triage): this caveat is STALE. The row's note (above) now sources the plateau directly from the county's own three dated 'Cumulative Results' PDFs (First/Second/Third Report), confirming 15,486 is the THIRD/LAST report, not the ambiguous YubaNet figure. The first-or-last ambiguity is resolved; only the ink-overspray/paper-defect exclusion rationale in this flag remains live.",
    "year": 2024
-  },
-  {
-   "county": "placer-ca",
-   "pct": null,
-   "reason": "no usable night figure (pct null)",
-   "year": 2012
   },
   {
    "county": "placer-ca",
@@ -516,46 +542,10 @@
    "year": 2018
   },
   {
-   "county": "placer-ca",
-   "pct": null,
-   "reason": "no usable night figure (pct null)",
-   "year": 2022
-  },
-  {
-   "county": "placer-ca",
-   "pct": null,
-   "reason": "no usable night figure (pct null)",
-   "year": 2024
-  },
-  {
-   "county": "riverside-ca",
-   "pct": 63.7,
-   "reason": "comparable=false; plateau verdict REFUTED_AS_PLATEAU; election-night-stage mismatch: 611,101 is the Nov-6 17:35 first daily canvass update, NOT the ~3 a.m. election-night plateau (which is unarchived); it overstates the true plateau and is not stage-comparable to the clean 2022 2 a.m. figure -- exclude from the pre/post epollbook comparison.",
-   "year": 2024
-  },
-  {
-   "county": "sacramento-ca",
-   "pct": null,
-   "reason": "no usable night figure (pct null)",
-   "year": 2016
-  },
-  {
    "county": "san-bernardino-ca",
    "pct": 82.19,
    "reason": "comparable=false; plateau verdict REFUTED_AS_PLATEAU; Certified final 589,611 ballots cast (CA SoS Statement of Vote, Voter Participation Stats by County: polls 306,324 + VBM 283,287; 69.24% of 851,581 registered). Pre-adoption (precinct-based; e-pollbooks not until 2020). Election-night PLATEAU not sourceable: San Bernardino's 2012 live results lived in a JS-iframe results page (www.sbcounty.gov/rov/elections/Results/20121106/content/results.aspx) whose dynamic iframe content was never archived at an election-night timestamp. The only Wayback artifacts for 2012 are static help pages re-crawled June 2023 on results.rov.sbcounty.gov -- content/electionNightTotals.html (just an EXPLANATION of 'precincts reporting', no totals) and content/resultsTimeline.html (just the posting SCHEDULE: 8:15pm pre-Election-Day mail, 10pm Election-Day mail + nearby polls, Wed 12am+ every 2hrs precincts, Thu mail picked up at polls) -- neither carries a ballot count. No clean end-of-night county ballot total found. Null per definition (never substitute a different denominator). snapshot none used. [2026-06 re-check per updated methodology: San Bernardino ROV issues NO morning-after 'semi-final/semi-official results' ballot-count press release -- its full news archive (elections.sbcounty.gov/news/, years 2011-2026) lists only public notices, L&A certifications and certification-of-results, never a stated election-night ballot total; and no downloadable election-night report PDF/XLSX existed pre-2019 (the results.aspx frameset carried no summary file). Earliest results.aspx Wayback capture is 2015-09-29 (years post-election). Remains none.] DEAD-END NOTE EXTENSION (2026-07-09, Task 9): checked whether San Bernardino's elections CMS (sbcounty.gov/rov, sbcountyelections.com, results.rov.sbcounty.gov) or its parent domain runs CivicPlus DocumentCenter -- it does not (CDX prefix probe of www.sbcounty.gov/DocumentCenter: 0 captures), so no ID-walk was possible. Checked the brief's named registrar Twitter handle @SBCountyROV via Wayback CDX (exact URL and matchType=prefix, unrestricted date range): zero captures under any form; alternate handle guesses (SBCountyElex, SBCountyElections) also returned zero. No Facebook page candidate for this county's registrar was found either. No new route found; row remains as documented above. RECOVERY ATTEMPT (2026-07-09, Task 7, NewsBank cross-check via Press-Enterprise, SB Sun's own 2012 coverage in-window has no countywide figure): 'Many races await tallies' (Nov 9 2012, docref news/14275EF93A805950): 'About 60,000 mail-in and 45,000 provisional ballots in San Bernardino County were uncounted as of Thursday morning, said Elections Office spokeswoman Felisa Cardona. Ballots cast at polling places and mailed prior to Election Day were all counted by 5:15 a.m. Wednesday, six hours faster than the 2008 presidential election, Cardona said.' 589,611 minus 105,000 (60,000+45,000) = 484,611 = 82.19% -- well ABOVE the general ~55-75% precinct-era band and above SF's own 2012 figure (71%), with no precinct-era SB anchor available for comparison. CEILING, not a confirmed plateau: the 60,000/45,000 remaining figure is explicitly anchored to 'as of Thursday morning' (a Wednesday-or-later post-night state per RUNBOOK 5.2), not a confirmed held-since-election-night figure with a no-update bracket (unlike this county's own 2018/2024 rows and Riverside's 2012/2014/2016/2018 rows); SB, unlike Riverside in the same article, offered no 'not counting today' pause confirmation, so counting plausibly moved between the 5:15 a.m. Wednesday polls+early-mail completion and the Thursday-morning quote. No earlier (Wednesday-dated) SB-specific figure was found in either paper. Retained as a documented CEILING (upper bound on the true, lower, election-night count), comparable:false, confidence secondary.",
    "year": 2012
-  },
-  {
-   "county": "san-bernardino-ca",
-   "pct": 78.7,
-   "reason": "comparable=false; plateau verdict REFUTED_AS_PLATEAU; Certified final 293,283 ballots cast (CA SoS; polls 117,179 + VBM 176,104; 34.44% of 851,684 registered). Pre-adoption, precinct-based. Election-night PLATEAU not sourceable: the live iframe results page (www.sbcounty.gov/rov/elections/Results/20141104/content/results.aspx) has NO election-night Wayback capture. The earliest archived rendering is a POST-CANVASS capture from Fri Nov 7, 2014 17:48 PST (3 days after Election Day) showing Precinct Turnout 107,774 + VBM 172,331 = 280,105 -- already 95.5% of the 293,283 certified final, i.e. days of canvass updates had already been added; it is explicitly a multi-day canvass figure, not the election-night plateau, so it cannot be used. No earlier (Election-Night) capture exists. Null per definition. snapshot 20141108014824 (post-canvass, not usable). [2026-06 re-check per updated methodology: no pre-2019 downloadable election-night report PDF/XLSX exists for this election, and San Bernardino ROV issues no morning-after 'semi-final results' ballot-count press release (full news archive 2011-2026 = public notices/certifications only); re-CDX of content/results.aspx on the www.sbcounty.gov host confirms the earliest capture is Fri Nov 7 17:48 PST (the 280,105 post-canvass figure), with no Election-Night capture. Remains null.] DEAD-END NOTE EXTENSION (2026-07-09, Task 9): checked whether San Bernardino's elections CMS (sbcounty.gov/rov, sbcountyelections.com, results.rov.sbcounty.gov) or its parent domain runs CivicPlus DocumentCenter -- it does not (CDX prefix probe of www.sbcounty.gov/DocumentCenter: 0 captures), so no ID-walk was possible. Checked the brief's named registrar Twitter handle @SBCountyROV via Wayback CDX (exact URL and matchType=prefix, unrestricted date range): zero captures under any form; alternate handle guesses (SBCountyElex, SBCountyElections) also returned zero. No Facebook page candidate for this county's registrar was found either. No new route found; row remains as documented above. RECOVERY ATTEMPT (2026-07-09, Task 7, NewsBank cross-check via Press-Enterprise; SB Sun's own in-window coverage has no countywide figure, only a district-specific CD-31 remaining count): 'a new low in area's Voter turnout?' (docref news/151717B8F7250120): 'Less than 30 percent of registered voters cast ballots in the Inland area, according to preliminary numbers released Wednesday by county registrars ... In San Bernardino County, turnout was 27.1 percent. San Bernardino County Registrar of Voters Michael Scarpello estimated that the final number likely will be closer to 34 percent' (matches actual certified 34.44% almost exactly). 27.1% x 851,684 registered = 230,806. 230,806/293,283 = 78.70% -- anomalously high, similar to this county's 2012 row. CEILING, not confirmed: the figure is explicitly 'released Wednesday' (post-night per RUNBOOK 5.2), and this row's own already-documented posting schedule (resultsTimeline.html) shows SB updates precinct counts 'every 2hrs' through Wednesday, meaning the Wednesday figure plausibly already includes several post-election-night updates. Retained as a documented CEILING (upper bound), comparable:false, confidence secondary.",
-   "year": 2014
-  },
-  {
-   "county": "san-bernardino-ca",
-   "pct": null,
-   "reason": "no usable night figure (pct null)",
-   "year": 2016
   },
   {
    "county": "san-bernardino-ca",
@@ -580,44 +570,26 @@
    "pct": 78.4,
    "reason": "2020 excluded by design (COVID election)",
    "year": 2020
-  },
-  {
-   "county": "santa-clara-ca",
-   "pct": 62.26,
-   "reason": "comparable=false; plateau verdict PLAUSIBLE; CEILING (next-day all-precincts report; true overnight plateau modestly lower and not archived). The overnight election-night versions of Clarity event 54209 (Web01 layout; lower version folders 143630, 144518, 147xxx) WERE captured by Wayback as summary.html only -- their electionsettings.json/sum.json were never crawled, so they render blank and yield no readable count (confirmed by rendering 143630 = empty). The earliest version with archived JSON is 148095, sum.json top contest GOVERNOR 'BC' (county-wide ballots cast) = 251,620 with 1,066 of 1,066 precincts reporting, electionsettings 'Last updated 11/5/2014 5:08:58 PM PST' = the day-after-afternoon canvass-start (the analogue of 2012's 460,329 / Orange's rejected next-day run, all precincts at 100% plus the first canvass VBM batch). The true overnight plateau (Nov 4 ~midnight-Nov 5 ~2 AM, precincts just below 100%) is unarchived but ~3-5% lower by the 2012 overnight-vs-next-day ratio, est. ~239,000 (~59%). Reported value 251,620 is therefore a documented CEILING = 62.26%. (v2 left this null.) Certified final 404,166 ballots (CA SoS Voter Participation Statistics by County: 96,077 poll + 308,089 VBM = 404,166; 50.18% of 805,502 reg, the low-turnout 2014 midterm). Pre-epollbook; ASV never. Snapshot used: Clarity ver 148095, internal Last-updated 11/5/2014 5:08:58 PM PST, Wayback capture 20141106082527 (sum.json). v4 ADDITIONAL CHECK (no upgrade found): the morning-after PRIMARY route was exhausted -- Santa Clara County issues NO 'semi-official results' press release stating a ballot total (the county media-center/migrated press-release archive holds only pre-election advisories and post-certification 'Official Results Certified' releases), and no dated election-night / semi-official-canvass results-summary PDF exists on the county file host (only pre-election district-registration and VBM-returned-by-district reports and the certified SOV). The true overnight plateau is Clarity ver 147908 (the last event-54209 version before the 148095 next-day canvass-start); CDX of event 54209 confirms ONLY ver 148095 and the recent certified ver 149818 have archived sum.json/electionsettings.json -- the overnight versions 143630/144518/147095/147609/147848/147873/147908 captured only their summary.html shell + CSS/JS/images (no data JSON), so they render blank and the overnight count is unrecoverable. 251,620 therefore remains the documented CEILING (secondary). CORRECTION (2026-07-02 plateau adjudication): flagged comparable=false for stage consistency (next-day canvass-start ceiling, the same treatment as Riverside 2024); the retained 251,620 remains a documented CEILING on the plateau, not the plateau itself.",
-   "year": 2014
-  },
-  {
-   "county": "santa-clara-ca",
-   "pct": 41.91,
-   "reason": "comparable=false; plateau verdict PLAUSIBLE; ELECTION-NIGHT PLATEAU NOT SOURCEABLE. Clarity event 64404 (Web01 layout): the only election-night-period capture is a pre-poll-close placeholder (version 178468, Wayback 20161107003316 = Nov 6 4:33 PM PT, Ballots Cast 0). The Nov 8 election-night data versions were never crawled; the next captures (versions 181922-183106, crawled Nov 12-16) are summary.html only with no archived JSON, so they render blank. The earliest readable JSON is version 183112, sum.json PRESIDENT BC = 602,338 at 1,063/1,063 precincts, electionsettings '11/13/2016 3:24:05 PM PST' -- a DEEP CANVASS count 5 days post-election (602,338/724,596 = 83.1%), useless as an election-night proxy; version 183538 (11/16) = 669,379. No election-night county press release or news ballot count was found. Value left null per the plateau definition rather than substituting a days-later canvass total. Certified final 724,596 ballots (CA SoS Voter Participation Statistics by County: 190,379 poll + 534,217 VBM = 724,596; 82.79% of 875,176 reg, record turnout). Pre-epollbook; ASV never. v4 ADDITIONAL CHECK (still null/none): re-confirmed via CDX that NO election-night-dated JSON exists in Wayback for Clarity event 64404 -- the only archived data version is 183112 (captured 2016-11-14), the Nov 13 deep canvass at PRESIDENT BC = 602,338 / 724,596 = 83.1%, useless as an election-night proxy. The morning-after PRIMARY route is also empty: Santa Clara issues no semi-official-results press release with a ballot total (media-center/migrated archive = pre-election advisories + certification releases only), and no election-night results-summary PDF exists on the county file host. No news source states a countywide election-night ballot total. Value remains null per the plateau definition. RECOVERY (2026-07-09): NewsBank San Jose Mercury News, Nov 9 2016 'RESULTS' page (p8S, docref news/1608FF6D81BADB18) prints Santa Clara's countywide measures at '41% of precincts': Measure A Yes 200,688 + No 98,820 = 299,508; Measure B Yes 215,336 + No 88,342 = 303,678 (cross-checked against the printed percentages: 200,688/0.670=299,534, 215,336/0.709=303,717). 303,678/724,596 = 41.91% is adopted as a documented FLOOR (RUNBOOK 5.2 same-contest-ratio floor), but it is a NON-COMPARABLE mid-count snapshot at 41% precincts reporting, far below this row's own 55-65% plateau calibration estimate: comparable:false, excluded from pre/post comparisons. The companion Nov 10 article (docref news/160D491E5982E240) quotes officials estimating '39 percent ... untallied' 'as of Wednesday afternoon' (~61% counted, post-night, not adopted). The true election-night plateau is bracketed 41.91%-61% per this note's own derivation. NewsBank access: SFPL ezproxy, Mercury News, Newspaper/Text search, Nov 9-10 2016 window, queries \\\"ballots counted\\\"/\\\"ballots cast\\\" Santa Clara, registrar of voters ballots, precincts reporting, Measure A/B, election night results.",
-   "year": 2016
-  },
-  {
-   "county": "santa-clara-ca",
-   "pct": 48.61,
-   "reason": "comparable=false; plateau verdict PLAUSIBLE; ELECTION-NIGHT PLATEAU NOT SOURCEABLE. Clarity event 92418 (Web02 SPA): NO election-night (Nov 6-7 2018) data version was crawled; the earliest readable JSON is version 221262, sum.json GOVERNOR BC = 443,266 at 1,098/1,098 precincts, electionsettings '11/11/2018 4:43:32 PM PST' -- a DEEP CANVASS count 5 days post-election (443,266/625,425 = 70.9%), not an election-night proxy (version 222476 = 11/20 canvass). Per the county's own post-election analysis ~80% of 2018 ballots were vote-by-mail, processed mostly during the canvass (polling-place ballots first), so the overnight plateau was well below the final -- but no archived election-night ballot count, press release, or news total was found to fix it. Value left null per the plateau definition rather than substituting a days-later canvass total. Certified final 625,425 ballots (CA SoS Voter Participation Statistics by County: 138,468 poll + 486,957 VBM = 625,425; 70.61% of 885,764 reg). Still PRE-epollbook (county adopted e-pollbooks with the 2020 Voter's Choice Act vote-center rollout); ASV never. v4 ADDITIONAL CHECK (still null/none): re-confirmed via CDX that NO election-night-dated JSON exists in Wayback for Clarity event 92418 -- the earliest archived data version is 221262 (captured 2018-11-12, electionsettings 11/11/2018 4:43 PM PST), the deep canvass at GOVERNOR BC = 443,266 / 625,425 = 70.9%; next is 222476 (Nov 20). The county's own official 'Post-Election Report for the November 6, 2018 General Election' (files.santaclaracounty.gov/migrated/Post-Election Report.pdf, Wayback 20240310060338) states ONLY the certified final (625,425 ballots, 71% turnout) and ballot-processing detail -- it gives no election-night plateau count. No morning-after semi-official-results press release with a ballot total and no election-night results-summary PDF exist for this county. Value remains null per the plateau definition. RECOVERY (2026-07-09): NewsBank San Jose Mercury News, Nov 8 2018 'WHY BAY AREA COUNTIES STILL HAVE SO MANY VOTES TO COUNT' (p1B, docref news/16F946169D59A048) quotes Registrar Shannon Bushey: 'As of Wednesday afternoon, about 304,000 ballots were counted and staff estimated roughly 270,000 still needed to be.' 304,000/625,425 = 48.61% is adopted as a documented CEILING (RUNBOOK 5.2): 'Wednesday afternoon' is POST election night (Nov 7, roughly 36-42 hours after Tuesday polls closed), so the true election-night value is necessarily lower; comparable:false. This tightens the row's prior known deep-canvass ceiling (443,266/625,425 = 70.9%, ver 221262, five days post-election) to a report roughly one day post-election. Corroborated by a Nov 9 op-ed (docref news/16FA96F533667668): 'As of Thursday morning ... Santa Clara County had about 47 percent remaining.' No Nov 7 tabular results page (a 2016-style same-contest floor) was found. NewsBank access: SFPL ezproxy, Mercury News, Newspaper/Text search, Nov 7-8 2018 window, queries \\\"ballots counted\\\"/\\\"ballots cast\\\" Santa Clara, registrar ballots, precincts reporting, Measure B, results.",
-   "year": 2018
   }
  ],
  "headline": {
-  "X_pooled": 10.07,
-  "a_vs_sf": 6.78,
-  "b_vs_slo": 13.37,
+  "X_pooled": 10.01,
+  "a_vs_sf": 7.16,
+  "b_vs_slo": 12.87,
   "ci90": [
-   2.0,
-   19.0
+   0.0,
+   19.5
   ],
   "downgrade_triggers": {
    "base_rule_sign_flip": false,
    "placebo_in_time": false,
    "pretrend_rule": false
   },
-  "k_one_in": 15,
-  "mde_alpha05_power80": 15.86,
-  "mde_alpha10_power80": 14.11,
-  "pattern": "A",
-  "ri_p": 0.0663,
+  "k_one_in": 9,
+  "mde_alpha05_power80": 16.85,
+  "mde_alpha10_power80": 14.99,
+  "pattern": "B",
+  "ri_p": 0.1163,
   "single_control_sign_disagreement": false,
   "statistic": "theta_2024 (type-matched bases, pooled SF+SLO controls)"
  },
@@ -632,65 +604,65 @@
    "ci90": {
     "contiguous": true,
     "draws_per_point": 2000,
-    "hi": 19.0,
-    "lo": 2.0,
-    "redraw_rate_mean": 0.7669
+    "hi": 19.5,
+    "lo": 0.0,
+    "redraw_rate_mean": 0.3489
    },
-   "mc_se": 0.0025,
+   "mc_se": 0.0032,
    "mde": {
-    "alpha05_power80": 15.86,
-    "alpha10_power80": 14.11
+    "alpha05_power80": 16.85,
+    "alpha10_power80": 14.99
    },
-   "null_sd": 5.67,
-   "obs": 10.07,
-   "redraw_rate": 0.7676,
-   "ri_p": 0.0663,
+   "null_sd": 6.02,
+   "obs": 10.01,
+   "redraw_rate": 0.3464,
+   "ri_p": 0.1163,
    "rule": "type-matched",
    "statistic": "theta_2024"
   },
   "meaning_of_p": "adoption was not randomized; the RI p is a placebo-calibration benchmark under exchangeability of county trajectories, testing the sharp null that adoption timing moved no county-year outcome. It is evidence against 'no effect plus as-if-random timing', not against 'no effect' alone.",
   "pretrend_joint": {
-   "mc_se": 0.0033,
-   "obs_mean_abs": 6.05,
-   "redraw_rate": 0.6217,
-   "ri_p": 0.8794
+   "mc_se": 0.0027,
+   "obs_mean_abs": 5.88,
+   "redraw_rate": 0.3452,
+   "ri_p": 0.9209
   },
   "secondary_family_holm": {
    "theta_2022": {
-    "holm_p": 0.9752,
-    "mc_se": 0.0047,
+    "holm_p": 0.875,
+    "mc_se": 0.0045,
     "mde": {
-     "alpha05_power80": 18.85,
-     "alpha10_power80": 16.76
+     "alpha05_power80": 18.73,
+     "alpha10_power80": 16.65
     },
-    "null_sd": 6.73,
-    "obs": 7.2,
-    "redraw_rate": 0.5163,
-    "ri_p": 0.3251
+    "null_sd": 6.69,
+    "obs": 7.67,
+    "redraw_rate": 0.243,
+    "ri_p": 0.2917
    },
    "theta_step_2018": {
-    "holm_p": 0.9752,
+    "holm_p": 0.875,
     "mc_se": 0.0049,
     "mde": {
-     "alpha05_power80": 20.18,
-     "alpha10_power80": 17.95
+     "alpha05_power80": 19.62,
+     "alpha10_power80": 17.45
     },
-    "null_sd": 7.21,
-    "obs": -6.62,
-    "redraw_rate": 0.5097,
-    "ri_p": 0.3952
+    "null_sd": 7.01,
+    "obs": -6.57,
+    "redraw_rate": 0.239,
+    "ri_p": 0.3812
    },
    "theta_step_2022": {
-    "holm_p": 0.9752,
+    "holm_p": 0.875,
     "mc_se": 0.0049,
     "mde": {
-     "alpha05_power80": 24.23,
-     "alpha10_power80": 21.55
+     "alpha05_power80": 23.87,
+     "alpha10_power80": 21.22
     },
-    "null_sd": 8.65,
+    "null_sd": 8.52,
     "obs": 7.44,
-    "redraw_rate": 0.3717,
-    "ri_p": 0.4147
+    "redraw_rate": 0.2414,
+    "ri_p": 0.409
    }
   }
  },
@@ -702,7 +674,7 @@
    0.5
   ],
   "draws": 10000,
-  "panel_rows": 78,
+  "panel_rows": 90,
   "script": "scripts/analysis/night_share_bundle_did.py",
   "seed": 20260709,
   "spec": "docs/superpowers/specs/2026-07-09-vca-bundle-model-design.md",
@@ -712,7 +684,7 @@
   "asv_years_in_window": {
    "fresno-ca": 2020,
    "los-angeles-ca": 2020,
-   "nevada-ca": 2022,
+   "nevada-ca": 2016,
    "san-diego-ca": 2024
   },
   "cohorts": {
@@ -731,8 +703,8 @@
    "santa-clara-ca": 2020,
    "ventura-ca": 2022
   },
-  "n_tier2": 11,
-  "n_usable": 78,
+  "n_tier2": 9,
+  "n_usable": 90,
   "never_treated_controls": [
    "san-francisco-ca",
    "san-luis-obispo-ca"
@@ -741,72 +713,73 @@
  "pretrends": {
   "anticipation_2018_cohort": {
    "counties": {
-    "napa-ca": 10.67,
+    "madera-ca": 3.43,
+    "napa-ca": 7.5,
     "nevada-ca": 8.62,
-    "sacramento-ca": -0.54,
+    "sacramento-ca": 1.98,
     "san-mateo-ca": -0.87
    },
-   "mean_move_into_final_pre_year": 4.47,
-   "n": 4
+   "mean_move_into_final_pre_year": 4.13,
+   "n": 5
   },
   "interpretation_rule_triggered": false,
   "largest_abs": [
    {
     "county": "riverside-ca",
-    "delta_pre": 18.18,
+    "delta_pre": 18.46,
     "tier1": false,
     "year": 2014
    },
    {
     "county": "san-diego-ca",
     "delta_pre": 18.11,
-    "tier1": false,
+    "tier1": true,
     "year": 2014
-   },
-   {
-    "county": "riverside-ca",
-    "delta_pre": 14.03,
-    "tier1": false,
-    "year": 2016
    },
    {
     "county": "riverside-ca",
     "delta_pre": 13.49,
     "tier1": false,
     "year": 2012
+   },
+   {
+    "county": "placer-ca",
+    "delta_pre": 13.46,
+    "tier1": false,
+    "year": 2012
    }
   ],
-  "mean_all": 1.04,
-  "mean_tier1_only": -0.9,
-  "n_cells": 25,
-  "n_tier1_cells": 15
+  "mean_all": 1.62,
+  "mean_tier1_only": 0.89,
+  "n_cells": 34,
+  "n_tier1_cells": 24
  },
  "robustness_detail": {
   "base_rule_flip": false,
   "bounds_theta_2024": {
-   "both_included": 7.14,
-   "nevada_2024_included": 6.91,
-   "riverside_2024_included": 10.04
+   "both_included": 8.0,
+   "nevada_2024_included": 7.53,
+   "riverside_2024_included": 10.52
   },
   "loo": {
    "theta_2022": {
-    "max": 10.45,
+    "max": 10.81,
     "max_label": "drop san-francisco-ca",
-    "min": 3.95,
+    "min": 4.52,
     "min_label": "drop san-luis-obispo-ca",
     "sign_flips": []
    },
    "theta_2024": {
-    "max": 13.37,
+    "max": 12.87,
     "max_label": "drop san-francisco-ca",
-    "min": 6.78,
+    "min": 7.16,
     "min_label": "drop san-luis-obispo-ca",
     "sign_flips": []
    },
    "theta_step_2018": {
-    "max": -3.21,
+    "max": -3.14,
     "max_label": "drop san-mateo-ca",
-    "min": -8.84,
+    "min": -8.78,
     "min_label": "drop nevada-ca",
     "sign_flips": []
    },
@@ -824,21 +797,20 @@
      "san-diego-ca (for madera-ca, base 2016)",
      "san-diego-ca (for napa-ca, base 2016)",
      "san-diego-ca (for nevada-ca, base 2016)",
+     "san-diego-ca (for sacramento-ca, base 2016)",
      "san-diego-ca (for san-mateo-ca, base 2016)"
     ],
-    "never_version": -10.3,
-    "value": -8.6
+    "never_version": -10.69,
+    "value": -10.47
    },
    "type": {
-    "dropped": [
-     "san-diego-ca (for madera-ca, base 2016)"
-    ],
-    "never_version": -6.62,
-    "value": -1.94
+    "dropped": [],
+    "never_version": -6.57,
+    "value": -0.98
    }
   },
-  "placebo_in_time_mean": 0.91,
-  "placebo_in_time_n": 6,
+  "placebo_in_time_mean": 0.47,
+  "placebo_in_time_n": 10,
   "placebo_in_time_trigger": false,
   "sf_slo_drift_2012_2024": {
    "sf": -14.5,
@@ -849,26 +821,29 @@
    "large": [
     "los-angeles-ca",
     "orange-ca",
+    "riverside-ca",
     "sacramento-ca",
+    "san-bernardino-ca",
     "san-diego-ca",
     "santa-clara-ca"
    ],
-   "large_mean": 14.16,
+   "large_mean": 10.96,
    "median_final": 531306.5,
    "small": [
     "fresno-ca",
     "madera-ca",
     "napa-ca",
+    "placer-ca",
     "san-mateo-ca",
     "ventura-ca"
    ],
-   "small_mean": 5.99
+   "small_mean": 8.91
   },
-  "tier1_move_pp": 0.23,
-  "tier1_theta_2024": 10.3
+  "tier1_move_pp": 0.13,
+  "tier1_theta_2024": 10.15
  },
  "twfe_static_exhibit": {
-  "beta_post": 1.46,
+  "beta_post": 3.45,
   "label": "known-biased (Goodman-Bacon forbidden comparisons); quarantined; see validation.json S3 for the bias quantified on this exact panel"
  }
 }
