@@ -476,6 +476,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for los-angeles-ca 2014-11-04
       controller verdict: CONFIRMED (RR/CC semi-final press release states the election-night total)
 
+- [ ] **los-angeles-ca 2016-06-07** (plateau check)
+      claimed: night ballots **1,438,909**, certified final **2,026,068**, share **71.02%**
+      numerator URL: https://www.lavote.gov/Documents/News_Releases/06072016_semi-official-results.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf
+      look for: PRIMARY official plateau. LA County RR/CC 'Semi-Final Official Results Reported for the June 7, 2016 Presidential Primary Election' release (Documents/News_Releases/06072016_semi-official-results.pdf, released June 8 2016): 'A total of 1,438,909 ballots were processed and counted, with 29.92% of eli
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for los-angeles-ca 2016-06-07
+      controller verdict: CONFIRMED (RR/CC semi-final press release plus exact-arithmetic report-series bracket 3 days later)
+
 - [ ] **los-angeles-ca 2016-11-08** (plateau check)
       claimed: night ballots **2,306,321**, certified final **3,544,115**, share **65.07%**
       numerator URL: https://www.lavote.gov/Documents/News_Releases/11082016-semi-official-results.pdf
@@ -483,6 +491,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: PRIMARY official plateau (fills the prior null). LA County RR/CC semi-official results release (Documents/News_Releases/11082016-semi-official-results.pdf): announced semi-final official results for the Nov. 8 General Election, 'A total of 2,306,321 ballots were processed and counted, with 45.19% of
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for los-angeles-ca 2016-11-08
       controller verdict: CONFIRMED (RR/CC semi-final press release states the election-night total)
+
+- [ ] **los-angeles-ca 2018-06-05** (plateau check)
+      claimed: night ballots **952,633**, certified final **1,490,502**, share **63.91%**
+      numerator URL: https://www.lavote.gov/docs/rrcc/news-releases/06052018_semi-official-results.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: PRIMARY official plateau. LA County RR/CC 'Semi-Official Results Announced for the Statewide Direct Primary Election' release (docs/rrcc/news-releases/06052018_semi-official-results.pdf, released June 6 2018): 'A total of 952,633 ballots were processed and counted, with 18.53% of eligible registered
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for los-angeles-ca 2018-06-05
+      controller verdict: CONFIRMED (RR/CC semi-official press release plus exact-arithmetic report-series bracket 3 days later)
 
 - [ ] **los-angeles-ca 2018-11-06** (plateau check)
       claimed: night ballots **1,975,855**, certified final **3,023,417**, share **65.35%**

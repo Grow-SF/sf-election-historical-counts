@@ -673,6 +673,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 71.02,
+          "ballots": 1438909,
+          "final": 2026068,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://www.lavote.gov/Documents/News_Releases/06072016_semi-official-results.pdf"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": 65.07,
           "ballots": 2306321,
@@ -680,6 +690,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://www.lavote.gov/Documents/News_Releases/11082016-semi-official-results.pdf"
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 63.91,
+          "ballots": 952633,
+          "final": 1490502,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://www.lavote.gov/docs/rrcc/news-releases/06052018_semi-official-results.pdf"
         },
         {
           "year": 2018,

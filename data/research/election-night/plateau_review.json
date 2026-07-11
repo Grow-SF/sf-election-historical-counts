@@ -106,10 +106,24 @@
  },
  {
   "slug": "los-angeles-ca",
+  "date": "2016-06-07",
+  "verdict": "CONFIRMED",
+  "basis": "RR/CC semi-final press release plus exact-arithmetic report-series bracket 3 days later",
+  "evidence": "'A total of 1,438,909 ballots were processed and counted'; June 10 update: '66,869 ballots processed since Election Night...total...now at 1,505,778' (1,438,909+66,869=1,505,778 exactly). Source: docs/research/pending-integration-2026-07-10/dossier-los-angeles-ca-primaries.md Item 3."
+ },
+ {
+  "slug": "los-angeles-ca",
   "date": "2016-11-08",
   "verdict": "CONFIRMED",
   "basis": "RR/CC semi-final press release states the election-night total",
   "evidence": "'A total of 2,306,321 ballots were processed and counted' (semi-final official, Nov 9 release)"
+ },
+ {
+  "slug": "los-angeles-ca",
+  "date": "2018-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "RR/CC semi-official press release plus exact-arithmetic report-series bracket 3 days later",
+  "evidence": "'A total of 952,633 ballots were processed and counted'; June 8 update: '83,267 ballots processed since Election Night...total...now 1,035,900' (952,633+83,267=1,035,900 exactly). Source: docs/research/pending-integration-2026-07-10/dossier-los-angeles-ca-primaries.md Item 4."
  },
  {
   "slug": "los-angeles-ca",

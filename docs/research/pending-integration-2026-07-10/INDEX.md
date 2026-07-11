@@ -22,7 +22,7 @@ dossier-lake-ca.md: Lake County general election research. Status: Pending integ
 
 dossier-lake-ca-primaries.md: Lake County primary election research. Status: Integrated 2026-07-10 (backfill batch 1): all 6 primary rows were already landed via the SoS status-page sweep with matching values; 2012/2014/2016/2022/2024 corroborated in place (JSON note append, source/confidence unchanged), 2018 upgraded from the SoS single-capture PLAUSIBLE/secondary read to this dossier's county-report bracket (CONFIRMED/primary).
 
-dossier-los-angeles-ca-primaries.md: Los Angeles County primary election research. Status: Pending integration.
+dossier-los-angeles-ca-primaries.md: Los Angeles County primary election research. Status: Integrated 2026-07-10 (backfill batch 2): 2012-06-05, 2014-06-03, 2022-06-07, 2024-03-05 were already landed via the SoS status-page sweep (CONFIRMED/primary, bracketed) with values matching the dossier exactly; equal evidence class, so cross-cited as corroboration in the JSON note only (no field change). 2016-06-07 and 2018-06-05 were absent from the live dataset entirely and are now landed as new CONFIRMED/primary rows from the dossier's registrar press-release + exact-arithmetic bracket evidence.
 
 dossier-madera-ca-primaries.md: Madera County primary election research. Status: Pending integration.
 

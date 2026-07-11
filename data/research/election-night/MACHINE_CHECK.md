@@ -98,8 +98,12 @@ verify_en_* scripts to regenerate).
 | los-angeles-ca | 2014-06-03 | numerator | 636,186 | VERIFIED | os Angeles 4,870 4,870 100.0% 4,857,424 636,186 13.1% Jun 3 8:06 p.m. Jun 4 3:07 a.m. FENU |
 | los-angeles-ca | 2014-11-04 | denominator | 1,518,835 | VERIFIED | geles 5,027 6,096,320 4,897,915 941,812 577,023 1,518,835 37.99% 31.01% 24.91% |
 | los-angeles-ca | 2014-11-04 | numerator | 1,147,248 | VERIFIED | d semi-final official results for the Nov. 4, 2014 General Election. A total of 1,147,248 ballots were processed and cou |
+| los-angeles-ca | 2016-06-07 | denominator | 2,026,068 | VERIFIED | Los Angeles 4,698 6,199,606 4,909,904 1,303,989 722,079 2,026,068 35.64% 41.26% 32.68% |
+| los-angeles-ca | 2016-06-07 | numerator | 1,438,909 | VERIFIED | official results for the June 7, 2016 Presidential Primary Election. A total of 1,438,909 ballots were processed and cou |
 | los-angeles-ca | 2016-11-08 | denominator | 3,544,115 | VERIFIED | ngeles 4,988 6,222,266 5,253,427 2,260,467 1,283,648 3,544,115 36.22% 67.46% 56.96% |
 | los-angeles-ca | 2016-11-08 | numerator | 2,306,321 | VERIFIED | unced semi-final official results for the Nov. 8th General Election. A total of 2,306,321 ballots were processed and cou |
+| los-angeles-ca | 2018-06-05 | denominator | 1,490,502 | VERIFIED | 4,357 6,216,686 5,149,461 825,427 665,075 1,490,502 44.62% 28.94% 23.98% |
+| los-angeles-ca | 2018-06-05 | numerator | 952,633 | VERIFIED | official results for the June 5th Statewide Direct Primary Election. A total of 952,633 ballots were processed and count |
 | los-angeles-ca | 2018-11-06 | denominator | 3,023,417 | VERIFIED | 4,728 6,230,147 5,280,658 1,673,104 1,350,313 3,023,417 44.66% 57.25% 48.53% |
 | los-angeles-ca | 2018-11-06 | numerator | 1,975,855 | VERIFIED | announced semi-official results for the November 6 General Election. A total of 1,975,855 ballots were processed and cou |
 | los-angeles-ca | 2022-06-07 | denominator | 1,620,593 | VERIFIED | 3,293 6,677,886 5,615,370 248,821 1,371,772 1,620,593 84.65% 28.86% 24.27% |
