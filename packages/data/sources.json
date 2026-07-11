@@ -191,35 +191,35 @@
  {
   "id": "funnel-1916",
   "name": "1916 franchise composition (decennial census)",
-  "summary": "population 470,770; voting-age 290,117; eligible citizens 235,682; registered 184,819; voted 155,747",
+  "summary": "population 470,770; voting-age 338,757; eligible citizens 271,220; registered 184,819; voted 155,747",
   "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
   "observations": []
  },
  {
   "id": "funnel-1912",
   "name": "1912 franchise composition (decennial census)",
-  "summary": "population 434,865; voting-age 214,006; eligible citizens 167,227; registered 134,688; voted 105,646",
+  "summary": "population 434,865; voting-age 311,286; eligible citizens 239,941; registered 134,688; voted 105,646",
   "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
   "observations": []
  },
  {
   "id": "funnel-1908",
   "name": "1908 franchise composition (decennial census)",
-  "summary": "population 402,086; voting-age 166,558; eligible citizens 126,539; registered 75,388; voted 61,625",
+  "summary": "population 402,086; voting-age 284,020; eligible citizens 126,539; registered 75,388; voted 61,625",
   "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
   "observations": []
  },
  {
   "id": "funnel-1904",
   "name": "1904 franchise composition (decennial census)",
-  "summary": "population 372,434; voting-age 147,771; eligible citizens 113,618; registered 81,576; voted 67,770",
+  "summary": "population 372,434; voting-age 256,957; eligible citizens 113,618; registered 81,576; voted 67,770",
   "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
   "observations": []
  },
  {
   "id": "funnel-1900",
   "name": "1900 franchise composition (decennial census)",
-  "summary": "population 342,782; voting-age 128,985; eligible citizens 100,697; registered 73,633; voted 65,161",
+  "summary": "population 342,782; voting-age 229,895; eligible citizens 100,697; registered 73,633; voted 65,161",
   "finalSource": "IPUMS NHGIS decennial census (population, voting-age, citizenship), interpolated to the election year; registration and turnout per the records above",
   "observations": []
  },

@@ -1,9 +1,24 @@
 # SF total population, voting-age population (VAP), and eligible (citizen) voting-age
-# population, 1900-2020. All from REAL census data via IPUMS NHGIS; total_population
-# from the decennial census. Eligibility basis: voting age 21+ until 1971 (26th
-# Amendment), 18+ after; women could not vote before 1920 (CA 1911), so the 1900/1910
-# electorate is MALE 21+. For 1978-2026 the eligible (citizen) figure is PUBLISHED by
-# the CA Secretary of State - see sf_registration_eligible*.csv (citizen_kind=see-sos).
+# population, 1900-2020. All from REAL census data via IPUMS NHGIS and the published
+# decennial census volumes; total_population from the decennial census. voting_age_pop
+# counts BOTH sexes in every row (age basis: 21+ until 1971, 18+ after - the 26th
+# Amendment). Women could not vote before California's Prop 4 (October 1911; 19th
+# Amendment nationally 1920): the pre-suffrage electorate is male_vap (males 21+),
+# and citizen_eligible for 1900/1910 counts citizen MEN only. For 1978-2026 the
+# eligible (citizen) figure is PUBLISHED by the CA Secretary of State - see
+# sf_registration_eligible*.csv (citizen_kind=see-sos).
+#
+# male_vap (and the implied females 21+ = voting_age_pop - male_vap) comes from the
+# published census volumes, recovered 2026-07-10; full arithmetic and page-level
+# citations in data/provenance/census_21plus_by_sex_1900_1920.md. In brief:
+# 1900 male 128,985 printed (Census Reports Vol. II Pt. II, Table 26, p.176; = NHGIS),
+# female 100,910 exact by complement (Table 9, p.143: 157,916 females minus under-21);
+# 1910 male 175,951 printed (Vol. I Ch. XI, p.1052; = NHGIS), female 121,600 near-exact
+# (females 25+ = 104,857 printed in Table 50, p.461; only the 21-24 share of the
+# 20-24 bracket is estimated, +/-350, from 1900/1920 SF and 1910 CA single-year
+# ratios - hence vap_kind=census-print-partial); 1920 male 201,057 / female 165,170
+# summed from Vol. II Table 15, p.304 (total 366,227 = NHGIS exactly). Age-unknown
+# persons count as 21+ throughout (verified: reproduces all three NHGIS anchors).
 #
 # citizen_kind provenance: nhgis-census = direct census citizenship (1900 men;
 # 1940/1950/1970 = VAP minus census alien-by-age); nhgis-approx = 1910; nhgis-partial
@@ -17,17 +32,17 @@
 # Kugler, Finn Roberts, and Steven Ruggles. IPUMS National Historical Geographic
 # Information System: Version 20.0 [dataset]. Minneapolis, MN: IPUMS. 2025.
 # http://doi.org/10.18128/D050.V20.0  (San Francisco County, GISJOIN G0600750)
-year,total_population,voting_age_pop,vap_age_basis,vap_sex_basis,vap_kind,citizen_eligible,citizen_kind
-1900,342782,128985,21+,male-only,nhgis-census,100697,nhgis-census
-1910,416912,175951,21+,male-only,nhgis-census,133000,nhgis-approx
-1920,506676,366227,21+,both,nhgis-census,304136,nhgis-partial
-1930,634394,475338,21+,both,nhgis-census,401112,nhgis-partial
-1940,634536,492970,21+,both,nhgis-census,443386,nhgis-census
-1950,775357,585452,21+,both,nhgis-census,554171,nhgis-census
-1960,740316,531381,21+,both,nhgis-census,490965,interp
-1970,715674,519583,21+,both,nhgis-census,461919,nhgis-census
-1980,678974,562363,18+,both,nhgis-census,,see-sos
-1990,723959,607076,18+,both,nhgis-census,,see-sos
-2000,777360,663931,18+,both,nhgis-census,,see-sos
-2010,805235,697711,18+,both,nhgis-census,,see-sos
-2020,870014,760738,18+,both,nhgis-census,,see-sos
+year,total_population,voting_age_pop,vap_age_basis,vap_kind,male_vap,male_vap_kind,citizen_eligible,citizen_kind
+1900,342782,229895,21+,census-print,128985,nhgis-census,100697,nhgis-census
+1910,416912,297551,21+,census-print-partial,175951,nhgis-census,133000,nhgis-approx
+1920,506676,366227,21+,nhgis-census,201057,census-print,304136,nhgis-partial
+1930,634394,475338,21+,nhgis-census,,,401112,nhgis-partial
+1940,634536,492970,21+,nhgis-census,,,443386,nhgis-census
+1950,775357,585452,21+,nhgis-census,,,554171,nhgis-census
+1960,740316,531381,21+,nhgis-census,,,490965,interp
+1970,715674,519583,21+,nhgis-census,,,461919,nhgis-census
+1980,678974,562363,18+,nhgis-census,,,,see-sos
+1990,723959,607076,18+,nhgis-census,,,,see-sos
+2000,777360,663931,18+,nhgis-census,,,,see-sos
+2010,805235,697711,18+,nhgis-census,,,,see-sos
+2020,870014,760738,18+,nhgis-census,,,,see-sos

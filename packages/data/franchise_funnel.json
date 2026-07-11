@@ -2,42 +2,47 @@
  {
   "year": 1900,
   "population": 342782,
-  "vap": 128985,
+  "vap": 229895,
   "eligible": 100697,
   "registered": 73633,
-  "voted": 65161
+  "voted": 65161,
+  "barredWomen": 100910
  },
  {
   "year": 1904,
   "population": 372434,
-  "vap": 147771,
+  "vap": 256957,
   "eligible": 113618,
   "registered": 81576,
-  "voted": 67770
+  "voted": 67770,
+  "barredWomen": 109186
  },
  {
   "year": 1908,
   "population": 402086,
-  "vap": 166558,
+  "vap": 284020,
   "eligible": 126539,
   "registered": 75388,
-  "voted": 61625
+  "voted": 61625,
+  "barredWomen": 117462
  },
  {
   "year": 1912,
   "population": 434865,
-  "vap": 214006,
-  "eligible": 167227,
+  "vap": 311286,
+  "eligible": 239941,
   "registered": 134688,
-  "voted": 105646
+  "voted": 105646,
+  "barredWomen": 0
  },
  {
   "year": 1916,
   "population": 470770,
-  "vap": 290117,
-  "eligible": 235682,
+  "vap": 338757,
+  "eligible": 271220,
   "registered": 184819,
-  "voted": 155747
+  "voted": 155747,
+  "barredWomen": 0
  },
  {
   "year": 1920,
@@ -45,7 +50,8 @@
   "vap": 366227,
   "eligible": 304136,
   "registered": 210024,
-  "voted": 154592
+  "voted": 154592,
+  "barredWomen": 0
  },
  {
   "year": 1924,
@@ -53,7 +59,8 @@
   "vap": 409871,
   "eligible": 342926,
   "registered": 219434,
-  "voted": 159649
+  "voted": 159649,
+  "barredWomen": 0
  },
  {
   "year": 1928,
@@ -61,7 +68,8 @@
   "vap": 453516,
   "eligible": 381717,
   "registered": 253053,
-  "voted": 199665
+  "voted": 199665,
+  "barredWomen": 0
  },
  {
   "year": 1932,
@@ -69,7 +77,8 @@
   "vap": 478864,
   "eligible": 409567,
   "registered": 273487,
-  "voted": 227283
+  "voted": 227283,
+  "barredWomen": 0
  },
  {
   "year": 1936,
@@ -77,7 +86,8 @@
   "vap": 485917,
   "eligible": 426476,
   "registered": 314990,
-  "voted": 269387
+  "voted": 269387,
+  "barredWomen": 0
  },
  {
   "year": 1940,
@@ -85,7 +95,8 @@
   "vap": 492970,
   "eligible": 443386,
   "registered": 383845,
-  "voted": 315518
+  "voted": 315518,
+  "barredWomen": 0
  },
  {
   "year": 1944,
@@ -93,7 +104,8 @@
   "vap": 529963,
   "eligible": 487700,
   "registered": 405921,
-  "voted": 352409
+  "voted": 352409,
+  "barredWomen": 0
  },
  {
   "year": 1948,
@@ -101,7 +113,8 @@
   "vap": 566956,
   "eligible": 532014,
   "registered": 459769,
-  "voted": 359134
+  "voted": 359134,
+  "barredWomen": 0
  },
  {
   "year": 1952,
@@ -109,7 +122,8 @@
   "vap": 574638,
   "eligible": 541530,
   "registered": 431959,
-  "voted": 365972
+  "voted": 365972,
+  "barredWomen": 0
  },
  {
   "year": 1956,
@@ -117,7 +131,8 @@
   "vap": 553009,
   "eligible": 516247,
   "registered": 397385,
-  "voted": 342652
+  "voted": 342652,
+  "barredWomen": 0
  },
  {
   "year": 1960,
@@ -125,7 +140,8 @@
   "vap": 531381,
   "eligible": 490965,
   "registered": 404613,
-  "voted": 348290
+  "voted": 348290,
+  "barredWomen": 0
  },
  {
   "year": 1964,
@@ -133,7 +149,8 @@
   "vap": 526662,
   "eligible": 479347,
   "registered": 389990,
-  "voted": 331612
+  "voted": 331612,
+  "barredWomen": 0
  },
  {
   "year": 1968,
@@ -141,7 +158,8 @@
   "vap": 521943,
   "eligible": 467728,
   "registered": 374335,
-  "voted": 307012
+  "voted": 307012,
+  "barredWomen": 0
  },
  {
   "year": 1972,
@@ -149,7 +167,8 @@
   "vap": 528139,
   "eligible": 464132,
   "registered": 426338,
-  "voted": 316803
+  "voted": 316803,
+  "barredWomen": 0
  },
  {
   "year": 1976,
@@ -157,7 +176,8 @@
   "vap": 545251,
   "eligible": 468560,
   "registered": 345954,
-  "voted": 252932
+  "voted": 252932,
+  "barredWomen": 0
  },
  {
   "year": 1980,
@@ -165,7 +185,8 @@
   "vap": 562363,
   "eligible": 492546,
   "registered": 407982,
-  "voted": 268070
+  "voted": 268070,
+  "barredWomen": 0
  },
  {
   "year": 1984,
@@ -173,7 +194,8 @@
   "vap": 580248,
   "eligible": 484645,
   "registered": 424091,
-  "voted": 298517
+  "voted": 298517,
+  "barredWomen": 0
  },
  {
   "year": 1988,
@@ -181,7 +203,8 @@
   "vap": 598133,
   "eligible": 554796,
   "registered": 435536,
-  "voted": 292097
+  "voted": 292097,
+  "barredWomen": 0
  },
  {
   "year": 1992,
@@ -189,7 +212,8 @@
   "vap": 618447,
   "eligible": 478079,
   "registered": 477726,
-  "voted": 329695
+  "voted": 329695,
+  "barredWomen": 0
  },
  {
   "year": 1996,
@@ -197,7 +221,8 @@
   "vap": 641189,
   "eligible": 479127,
   "registered": 481902,
-  "voted": 298648
+  "voted": 298648,
+  "barredWomen": 0
  },
  {
   "year": 2000,
@@ -205,7 +230,8 @@
   "vap": 663931,
   "eligible": 524404,
   "registered": 486636,
-  "voted": 324031
+  "voted": 324031,
+  "barredWomen": 0
  },
  {
   "year": 2004,
@@ -213,7 +239,8 @@
   "vap": 677443,
   "eligible": 571538,
   "registered": 486937,
-  "voted": 361822
+  "voted": 361822,
+  "barredWomen": 0
  },
  {
   "year": 2008,
@@ -221,7 +248,8 @@
   "vap": 690955,
   "eligible": 599667,
   "registered": 477651,
-  "voted": 388112
+  "voted": 388112,
+  "barredWomen": 0
  },
  {
   "year": 2012,
@@ -229,7 +257,8 @@
   "vap": 710316,
   "eligible": 612758,
   "registered": 502841,
-  "voted": 364875
+  "voted": 364875,
+  "barredWomen": 0
  },
  {
   "year": 2016,
@@ -237,7 +266,8 @@
   "vap": 735527,
   "eligible": 646945,
   "registered": 513573,
-  "voted": 414528
+  "voted": 414528,
+  "barredWomen": 0
  },
  {
   "year": 2020,
@@ -245,7 +275,8 @@
   "vap": 760738,
   "eligible": 668567,
   "registered": 521099,
-  "voted": 449866
+  "voted": 449866,
+  "barredWomen": 0
  },
  {
   "year": 2024,
@@ -253,6 +284,7 @@
   "vap": 760738,
   "eligible": 663453,
   "registered": 522265,
-  "voted": 412231
+  "voted": 412231,
+  "barredWomen": 0
  }
 ]

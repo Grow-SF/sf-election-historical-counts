@@ -61,12 +61,18 @@ overstates eligible by that ~20-pt gap; don't use it as the franchise denominato
   the Statement of Vote / Reports of Registration: `sf_registration_eligible_sov_1974_1998.csv`
   (1978–1998) and `sf_registration_eligible.csv` (2000–2026; e.g. SF 2020 = 668,567,
   2026 = 658,495 eligible).
-- **1900–2020 — real census voting-age population (IPUMS NHGIS).**
+- **1900–2020 — real census voting-age population (IPUMS NHGIS + published volumes).**
   `data/sources/sf_eligible_vap_estimate.csv` now carries actual NHGIS county counts, not
   estimates (`scripts/nhgis_extract.json` reproduces the pull). Eligible-age basis:
-  21+ before 1971, 18+ after; and **women could not vote before 1920** (CA 1911),
-  so the 1900/1910 electorate is **male 21+**. Selected: 1900 VAP 128,985 (men);
-  1920 366,227; 1960 531,381; 1990 607,076 (matches the Bay Area Census 607,210 ✓);
+  21+ before 1971, 18+ after; and **women could not vote before October 1911**
+  (CA Prop 4; 19th Amendment 1920), so the pre-1911 *electorate* is **male 21+**
+  (the `male_vap` column) while `voting_age_pop` counts both sexes in every row.
+  The 1900/1910/1920 sex split was recovered from the published census volumes
+  (`data/provenance/census_21plus_by_sex_1900_1920.md`): 1900 = 128,985 men +
+  100,910 women 21+ (both exact); 1910 = 175,951 men (exact) + ~121,600 women
+  (females 25+ = 104,857 printed; only the 21–24 bracket share estimated, ±350);
+  1920 = 201,057 + 165,170 = 366,227, matching NHGIS exactly. Other anchors:
+  1960 531,381; 1990 607,076 (matches the Bay Area Census 607,210 ✓);
   2020 **760,738** all-adult — vs the SoS *eligible* 668,567, i.e. ~92k non-citizen
   adults, confirming all-adult VAP is the wrong franchise denominator.
   - **Citizen-eligible (now real, not assumed).** From census citizenship tables

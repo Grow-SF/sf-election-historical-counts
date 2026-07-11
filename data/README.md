@@ -327,21 +327,25 @@ treat `confidence` accordingly.
 | `source_url` | link to the source |
 
 #### `sources/sf_eligible_vap_estimate.csv`
-**What:** San Francisco's voting-age population and its eligible-citizen subset,
+**What:** San Francisco's voting-age population (both sexes), its male subset
+where the pre-suffrage electorate needs it, and the eligible-citizen subset,
 from the decennial U.S. Census. The denominators for long-run franchise analysis.
 **Coverage:** 1900–2020, one row per census. **Note the eligibility basis:** 21+
-before 1971 / 18+ after, and **men only in 1900–1910** (pre-suffrage). A leading
-comment block in the file restates the basis and the required NHGIS citation.
+before 1971 / 18+ after; `voting_age_pop` counts **both sexes in every row**,
+while `citizen_eligible` for 1900/1910 is **citizen men only** (women could not
+vote in California until October 1911). A leading comment block in the file
+restates the basis and the required NHGIS citation.
 
 | column | meaning |
 |---|---|
 | `year` | census year |
 | `total_population` | total county population |
-| `voting_age_pop` | voting-age population (real census count) |
+| `voting_age_pop` | voting-age population, both sexes (real census count) |
 | `vap_age_basis` | `21+` or `18+` |
-| `vap_sex_basis` | `male-only` (1900/1910) or `both` |
-| `vap_kind` | `nhgis-census` (a real count) |
-| `citizen_eligible` | eligible (citizen) voting-age count; **blank 1980+, where the SoS file is authoritative** |
+| `vap_kind` | `nhgis-census` (a real count) \| `census-print` (summed from the published volumes, exact) \| `census-print-partial` (1910: female 21–24 bracket share estimated) |
+| `male_vap` | males of voting age (1900/1910/1920 only; sets the pre-suffrage barred-women band = `voting_age_pop − male_vap`) |
+| `male_vap_kind` | provenance of `male_vap` (`nhgis-census` \| `census-print`; see `provenance/census_21plus_by_sex_1900_1920.md`) |
+| `citizen_eligible` | eligible (citizen) voting-age count — **citizen men only in 1900/1910**; blank 1980+, where the SoS file is authoritative |
 | `citizen_kind` | `nhgis-census` (direct) \| `nhgis-approx` \| `nhgis-partial` (foreign-born × interpolated alien share) \| `interp` (1960, no census citizenship question) \| `see-sos` |
 
 ---

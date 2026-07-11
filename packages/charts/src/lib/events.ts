@@ -20,7 +20,9 @@ export const EVENTS: { year: number; label: string }[] = [
  * (franchise funnel, registration); the counting charts use EVENTS above.
  */
 export const FRANCHISE_EVENTS: { year: number; label: string }[] = [
-  { year: 1920, label: "women vote" },
+  // California enfranchised women in October 1911 (Prop 4), nine years before
+  // the 19th Amendment — for SF the franchise step is 1911, not 1920.
+  { year: 1911, label: "CA women vote" },
   { year: 1971, label: "age 18" },
 ];
 

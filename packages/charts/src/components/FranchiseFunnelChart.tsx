@@ -18,18 +18,25 @@ import { ChartFrame, eventLines, noDataGuides } from "./ui";
 
 // Mutually-exclusive bands that sum to total population, bottom (voted) to top
 // (children). The thickness of each band over time is the story. Muted GrowSF
-// brand tokens (green / soft earth / pale green / blue / grey), ordered so every
-// adjacent band differs in hue and/or lightness — keeps the bands distinct for
-// colorblind viewers without the saturated look. Non-citizen stays blue (the
-// prose names it "the blue band"); "under voting age" is neutral grey.
+// brand tokens (green / soft earth / pale green / blue / purple / grey), ordered
+// so every adjacent band differs in hue and/or lightness — keeps the bands
+// distinct for colorblind viewers without the saturated look (worst adjacent
+// CVD ΔE 20, validated). Ineligible adults stays blue (the prose names it "the
+// blue band"); barred women take the brand purple (the suffrage color) and the
+// band exists only through 1911; "under voting age" is neutral grey.
 const BANDS = [
   { key: "voted", label: "voted", color: "#1E7B6A" }, // brand-green-4
   { key: "regNotVoted", label: "registered, didn't vote", color: "#DF7E45" }, // earth-40
   { key: "notRegistered", label: "eligible, not registered", color: "#BCE3B6" }, // green-30
   {
     key: "nonCitizen",
-    label: "non-citizen adults (immigrants)",
+    label: "ineligible adults (mostly non-citizens)",
     color: "#4BADE4", // brand-blue-3 (softer than blue-6, still clearly the "blue band")
+  },
+  {
+    key: "barredWomen",
+    label: "women, barred until 1911",
+    color: "#7E5AA8", // brand purple (the Midterm token)
   },
   { key: "children", label: "under voting age", color: "#D2DBDC" }, // gray-2
 ] as const;
@@ -40,6 +47,7 @@ type Row = {
   regNotVoted: number;
   notRegistered: number;
   nonCitizen: number;
+  barredWomen: number;
   children: number;
   population: number;
   eligible: number;
@@ -51,14 +59,15 @@ const DATA: Row[] = FRANCHISE_FUNNEL.map((p) => ({
   voted: p.voted,
   regNotVoted: Math.max(0, p.registered - p.voted),
   notRegistered: Math.max(0, p.eligible - p.registered),
-  nonCitizen: Math.max(0, p.vap - p.eligible),
+  nonCitizen: Math.max(0, p.vap - p.eligible - p.barredWomen),
+  barredWomen: p.barredWomen,
   children: Math.max(0, p.population - p.vap),
   population: p.population,
   eligible: p.eligible,
   registered: p.registered,
 }));
 
-// the data's extent — the franchise funnel runs ~1908–2024
+// the data's extent — the franchise funnel runs 1900–2024
 const COVER_MIN = Math.min(...DATA.map((r) => r.year));
 const COVER_MAX = Math.max(...DATA.map((r) => r.year));
 
@@ -88,8 +97,13 @@ function FunnelTooltip({
         voted {fmt(p.voted)} · {pct(p.voted)} of eligible
       </div>
       <div className="stat-figure text-faint mt-1">
-        non-citizen adults {fmt(p.nonCitizen)}
+        ineligible adults {fmt(p.nonCitizen)}
       </div>
+      {p.barredWomen > 0 && (
+        <div className="stat-figure text-faint">
+          women barred from voting {fmt(p.barredWomen)}
+        </div>
+      )}
     </div>
   );
 }
@@ -110,15 +124,22 @@ export default function FranchiseFunnelChart({
   // eligible population
   const [eligibleOnly, setEligibleOnly] = useState(false);
   const data = DATA.filter((r) => r.year >= from && r.year <= to);
-  const shownBands =
-    mode === "share" && eligibleOnly
-      ? BANDS.filter((b) => b.key !== "children" && b.key !== "nonCitizen")
-      : BANDS;
+  const shownBands = BANDS.filter((b) => {
+    // the barred-women band only exists before CA suffrage (Oct 1911)
+    if (b.key === "barredWomen" && from > 1911) return false;
+    if (mode === "share" && eligibleOnly)
+      return (
+        b.key !== "children" &&
+        b.key !== "nonCitizen" &&
+        b.key !== "barredWomen"
+      );
+    return true;
+  });
   return (
     <ChartFrame
       title="Who could vote — and who did"
-      subtitle="San Francisco by presidential election, 1908–2024"
-      note="Bands are the five groups that make up the total population; the blue band is non-citizen adults. Switch to “% of population” to read each band as a share of the whole — the chart fills to 100% so the proportions stay comparable as the city grows. The shaded 1990s “deadwood” box marks the years when bloated registration rolls pushed registration up to (or past) the eligible estimate — so the “eligible, not registered” band nearly disappears — until the 1995 motor-voter law forced the cleanup. Sources: IPUMS NHGIS census (population, voting-age, citizenship); SoS and Dept. of Elections."
+      subtitle="San Francisco by presidential election, 1900–2024"
+      note="Bands are the six groups that make up the total population. The blue band is adults ineligible to vote — overwhelmingly non-citizens; the purple band is adult women, barred from voting until California's suffrage amendment of October 1911 (1912 is the first presidential election with women in the electorate; the 1912/1916 eligible figures apply the census citizen share to the full adult population). Switch to “% of population” to read each band as a share of the whole — the chart fills to 100% so the proportions stay comparable as the city grows. The shaded 1990s “deadwood” box marks the years when bloated registration rolls pushed registration up to (or past) the eligible estimate — so the “eligible, not registered” band nearly disappears — until the 1995 motor-voter law forced the cleanup. Sources: IPUMS NHGIS census (population, voting-age by sex, citizenship); SoS and Dept. of Elections."
     >
       <div className="smallcaps mb-2 flex items-center gap-1.5 text-faint">
         <span className="mr-1">show</span>
