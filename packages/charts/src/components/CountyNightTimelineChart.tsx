@@ -25,12 +25,32 @@ const yy = (y: number | null) => (y ? `’${String(y).slice(2)}` : "");
 const norm = (p: number | null) =>
   p == null ? null : p <= 1.5 ? +(p * 100).toFixed(1) : p;
 
-const badge = (j: CountyNightJurisdiction) => {
+const badge = (j: CountyNightJurisdiction, effect?: number | null) => {
   if (j.control) return "no new tech";
   const parts: string[] = [];
   if (j.adoption.epollbook) parts.push(`e-pb ${yy(j.adoption.epollbook)}`);
   if (j.adoption.asv) parts.push(`ASV ${yy(j.adoption.asv)}`);
+  if (effect != null)
+    parts.push(`${effect >= 0 ? "+" : ""}${effect} vs SF`);
   return parts.join(" · ") || "—";
+};
+
+// the ordering statistic for treated panels: the county's own change from
+// its first to its last drawn general, minus SF's change over the SAME two
+// years (differencing same-to-same years absorbs the presidential/midterm
+// saw-tooth). Positive = ended better than SF. Exported for the test.
+export const effectVsSf = (
+  j: CountyNightJurisdiction,
+  sfSeries: ReturnType<typeof seriesFor>,
+): number | null => {
+  const own = seriesFor(j).filter((d) => d.v != null);
+  if (own.length < 2) return null;
+  const first = own[0];
+  const last = own[own.length - 1];
+  const sfF = sfSeries.find((d) => d.year === first.year)?.v;
+  const sfL = sfSeries.find((d) => d.year === last.year)?.v;
+  if (sfF == null || sfL == null) return null;
+  return +((last.v! - first.v!) - (sfL - sfF)).toFixed(1);
 };
 
 const adoptYear = (j: CountyNightJurisdiction) => {
@@ -72,18 +92,28 @@ export default function CountyNightTimelineChart() {
   const ink = theme.ink;
 
   const shown = COUNTY_NIGHT.jurisdictions.filter((j) => j.control || j.complete);
-  // SF is the baseline overlay; every other COMPLETE jurisdiction (treated
-  // counties and the second control, San Luis Obispo) gets its own panel.
-  // Sparse controls (Del Norte, Lake, Mendocino, Tehama, Colusa) have
-  // incomplete series and live in CountyNightShareChart instead.
-  const sf = shown.find((j) => j.slug === "san-francisco") ?? shown.find((j) => j.control);
+  const sf =
+    shown.find((j) => j.slug.startsWith("san-francisco")) ??
+    shown.find((j) => j.control);
   const sfSeries = sf
     ? seriesFor(sf)
     : YEARS.map((year) => ({ year, v: null, primary: null }));
-  const ordered = [
-    ...(sf ? [sf] : []),
-    ...shown.filter((j) => j !== sf && j.complete),
-  ];
+
+  // Panel order: three no-tech control panels first (SF the baseline drawn
+  // in every panel, San Luis Obispo the strongest-provenance second control,
+  // Lake the starkest no-tech collapse), then every complete treated county
+  // ordered by effectVsSf, biggest first. The remaining complete controls
+  // (Del Norte, Mendocino) live in CountyNightShareChart's per-control bars.
+  const CONTROL_PANELS = ["san-francisco", "san-luis-obispo", "lake"];
+  const controls = CONTROL_PANELS.map((prefix) =>
+    shown.find((j) => j.control && j.complete && j.slug.startsWith(prefix)),
+  ).filter((j): j is CountyNightJurisdiction => !!j);
+  const treated = shown
+    .filter((j) => !j.control && j.complete)
+    .map((j) => ({ j, effect: effectVsSf(j, sfSeries) }))
+    .sort((a, b) => (b.effect ?? -Infinity) - (a.effect ?? -Infinity));
+  const ordered = [...controls, ...treated.map((t) => t.j)];
+  const effectBySlug = new Map(treated.map((t) => [t.j.slug, t.effect]));
 
   return (
     <ChartFrame
@@ -101,9 +131,12 @@ export default function CountyNightTimelineChart() {
           ’22), so watch the <em>level</em>, not the saw-tooth. The all-mail
           Voter’s Choice Act counties (Napa, San&nbsp;Mateo, Nevada, all ’18)
           step <strong>down</strong> right at adoption and stay there; the
-          no-tech control counties (the bold panels: SF,
-          San&nbsp;Luis&nbsp;Obispo, Del&nbsp;Norte, Lake, Mendocino) drift
-          down too, some of them hardest of all. Composition-adjusted, the vote-center counties have
+          three no-tech control panels lead the grid (SF the baseline,
+          San&nbsp;Luis&nbsp;Obispo the best-sourced second control, Lake
+          the starkest no-tech collapse; Del&nbsp;Norte and Mendocino appear
+          in the pre/post chart instead). Treated panels are ordered by the
+          badge number: each county&rsquo;s first-to-last drawn change minus
+          SF&rsquo;s over the same years, biggest first. Composition-adjusted, the vote-center counties have
           weathered that decay about 10 points better than the no-tech
           controls (suggestive, not certified; see{" "}
           <a
@@ -141,7 +174,7 @@ export default function CountyNightTimelineChart() {
           const color = j.control ? ink : moss;
           return (
             <div key={j.slug}>
-              <div className="mb-1 flex items-baseline justify-between">
+              <div className="mb-1 flex items-baseline justify-between gap-x-3">
                 <span
                   className="font-display text-ink"
                   style={{ fontWeight: j.control ? 700 : 400 }}
@@ -152,7 +185,7 @@ export default function CountyNightTimelineChart() {
                   className="smallcaps text-xs"
                   style={{ color: j.control ? theme.faint : moss }}
                 >
-                  {badge(j)}
+                  {badge(j, effectBySlug.get(j.slug))}
                 </span>
               </div>
               <ResponsiveContainer width="100%" height={140}>

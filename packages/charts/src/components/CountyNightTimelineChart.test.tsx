@@ -8,30 +8,34 @@ test("county night-share timeline renders its title, one panel per shown county,
   expect(
     screen.getByText("Election-night share over time, by county"),
   ).toBeInTheDocument();
-  // SF + every COMPLETE jurisdiction gets a panel: the complete controls
-  // (San Luis Obispo, Del Norte, Lake, Mendocino) render alongside the
-  // treated counties so the no-tech decay is visible per county; the still
-  // incomplete controls (Tehama, Colusa) live only in CountyNightShareChart's
-  // per-control pre/post bars.
-  for (const name of [
+  // panel order: the three no-tech control panels first (SF the baseline,
+  // San Luis Obispo the strongest-provenance second control, Lake the
+  // starkest no-tech collapse), then every complete TREATED county ordered
+  // by its end-of-window change relative to SF over the same drawn years,
+  // biggest positive effect first. Del Norte and Mendocino (complete
+  // controls beyond the picked three) live in CountyNightShareChart.
+  const headings = Array.from(
+    container.querySelectorAll("span.font-display"),
+  ).map((el) => el.textContent);
+  expect(headings).toEqual([
     "San Francisco",
     "San Luis Obispo",
-    "Del Norte",
     "Lake",
-    "Mendocino",
-    "Los Angeles",
-    "Napa",
+    "San Diego",
     "Nevada",
+    "Fresno",
+    "Los Angeles",
+    "Placer",
     "Orange",
+    "Santa Clara",
     "San Mateo",
     "Ventura",
-    "Santa Clara",
-    "San Diego",
-    "Fresno",
+    "Madera",
     "Riverside",
-  ]) {
-    expect(screen.getByText(name)).toBeInTheDocument();
-  }
+    "Sacramento",
+    "Napa",
+    "San Bernardino",
+  ]);
   // every panel draws a dimmed, dashed primary line (stroke-dasharray "2 3")
   // alongside the solid general line -- primaries render alongside generals,
   // not hidden behind a separate view, in this chart.
