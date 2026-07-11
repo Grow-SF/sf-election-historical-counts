@@ -37,6 +37,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2012-06-05
       controller verdict: PLAUSIBLE (NewsBank newspaper report; self-describing turnout figure but no independent bracket/hold leg obtainable (RUNBOOK 8))
 
+- [ ] **santa-clara-ca 2012-06-05** (numerator NOT_FOUND)
+      claimed: night ballots **191,198**, certified final **292,713**, share **65.32%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/13F42B5474747780
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf
+      look for: NEWSBANK RECOVERY (2026-07-10). REPLACES the prior 234,342/80.06% comparable:false ceiling (a mid-canvass Wednesday-evening county-page value, see CORRECTION below): Milpitas Post / Bay Area News Group, June 6, 2012 edition (docref news/13F42B5474747780), reports 191,198 ballots counted, an election
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2012-06-05
+      controller verdict: REFUTED_AND_CORRECTED (NewsBank election-night newspaper report supersedes the documented ceiling)
+
 ## 2. Secondary-confidence rows (weakest sourcing, read closely)
 
 - [ ] **del-norte-ca 2012-11-06** (secondary confidence)
@@ -136,12 +144,12 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       controller verdict: REFUTED_AS_PLATEAU (kept as documented ceiling (RUNBOOK 5.2), PROVEN still-moving between the only two available captures)
 
 - [ ] **santa-clara-ca 2012-06-05** (secondary confidence)
-      claimed: night ballots **234,342**, certified final **292,713**, share **80.06%**
-      numerator URL: https://web.archive.org/web/20120607192808/http://www.sccgov.org/elections/results/jun2012/
+      claimed: night ballots **191,198**, certified final **292,713**, share **65.32%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/13F42B5474747780
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf
-      look for: CEILING (next-day/canvass-mode value; true overnight plateau unarchived), comparable:false. Santa Clara's June 2012 primary predates its Clarity adoption (Clarity electionId 43231 = Nov 2012 general only); the county's legacy sccgov.org GEMS-style live-results page (http://www.sccgov.org/elections/r
+      look for: NEWSBANK RECOVERY (2026-07-10). REPLACES the prior 234,342/80.06% comparable:false ceiling (a mid-canvass Wednesday-evening county-page value, see CORRECTION below): Milpitas Post / Bay Area News Group, June 6, 2012 edition (docref news/13F42B5474747780), reports 191,198 ballots counted, an election
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2012-06-05
-      controller verdict: REFUTED_AS_PLATEAU (earliest archived capture of the only election-night channel (legacy pre-Clarity sccgov.org page) is already ~23h post-poll-close with precincts at 100% and a once-daily canvass cadence; kept only as a documented ceiling per RUNBOOK 5.2, comparable:false)
+      controller verdict: REFUTED_AND_CORRECTED (NewsBank election-night newspaper report supersedes the documented ceiling)
 
 - [ ] **tehama-ca 2012-11-06** (secondary confidence)
       claimed: night ballots **17,559**, certified final **23,261**, share **75.49%**
@@ -186,15 +194,6 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2012-06-05
       controller verdict: PLAUSIBLE (NewsBank newspaper report; self-describing turnout figure but no independent bracket/hold leg obtainable (RUNBOOK 8))
       full flag: NEWSBANK RECOVERY (2026-07-10). Fills the dossier's documented null: docs/research/pending-integration-2026-07-10/dossier-sacramento-ca-primaries.md Item 1 exhausted all three machine-research routes (press release archive did not exist yet in 2012, zero Wayback captures of eresults.saccounty.net during the primary window, no Sacramento Bee article found via Wayback CDX) and left this row null. A subsequent NewsBank archive pass located the number directly: Sacramento Bee, June 6, 2012 edition (docref news/158D11D2DFBCFC18), '150,286 ... 23 percent' (turnout framing; the article's own dateline is the morning after election night). Confidence secondary (newspaper report, not an official release or archived results page). Certified final = Total Voters 232,743 (CA SoS SoV, embedded in the complete 2012-primary SOV PDF's Voter Participation Statistics by County table; no standalone participation-stats PDF exists for this election). Arithmetic: 150,286/232,743 = 64.57%. Pre-epollbook (adopted 2018-06); ASV never adopted. NewsBank requires an authenticated SFPL ezproxy session (FLAG for manual operator: the cited URL cannot be fetched by curl/machine check, same as every other NewsBank citation in this project; verify by hand via the SFPL portal). PROVENANCE FLAG: this figure was relayed via the batch-2 task brief citing docs/research/pending-integration-2026-07-10/newsbank-recovery.md; that file as committed in this worktree shows an earlier NewsBank pass blocked at NEEDS_LOGIN before reaching any Sacramento target, so this exact number/quote was not independently re-derived from a cached artifact in this repo by this agent -- flagged for human spot-check against the original NewsBank scan.
-
-- [ ] **santa-clara-ca 2012-06-05** (operator-flagged)
-      claimed: night ballots **234,342**, certified final **292,713**, share **80.06%**
-      numerator URL: https://web.archive.org/web/20120607192808/http://www.sccgov.org/elections/results/jun2012/
-      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf
-      look for: CEILING (next-day/canvass-mode value; true overnight plateau unarchived), comparable:false. Santa Clara's June 2012 primary predates its Clarity adoption (Clarity electionId 43231 = Nov 2012 general only); the county's legacy sccgov.org GEMS-style live-results page (http://www.sccgov.org/elections/r
-      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2012-06-05
-      controller verdict: REFUTED_AS_PLATEAU (earliest archived capture of the only election-night channel (legacy pre-Clarity sccgov.org page) is already ~23h post-poll-close with precincts at 100% and a once-daily canvass cadence; kept only as a documented ceiling per RUNBOOK 5.2, comparable:false)
-      full flag: CEILING (next-day/canvass-mode value; true overnight plateau unarchived), comparable:false. Santa Clara's June 2012 primary predates its Clarity adoption (Clarity electionId 43231 = Nov 2012 general only); the county's legacy sccgov.org GEMS-style live-results page (http://www.sccgov.org/elections/results/jun2012/) was the only election-night channel. Earliest Wayback capture of that URL is 2012-06-07 12:28:08 PM PDT (no June 5-6 capture exists in CDX, narrow or wide window), internal 'Last Updated : 6/6/2012 7:02:03 PM' (~23h post poll-close), Completed Precincts 874 of 874 (100%), county-wide Registration & Turnout block: Vote by Mail 185,455 + Precinct 48,887 = 234,342 (31.03% of 755,117 registered). Subsequent captures (6/7 4:43:58 PM at Wayback ts 20120608222327; 6/8 4:21:51 PM at ts 20120609022555) show a once-daily afternoon-update cadence, confirming the page was already in canvass mode by the first crawl -- same signature this dataset treats as a next-day ceiling elsewhere (Riverside 2024, Placer 2018, this county's own pre-correction 2014 general). Certified final 292,713 ballots (CA SoS Voter Participation Statistics by County, 2012-primary: 55,518 poll + 237,195 VBM = 292,713; 38.76% of 755,117 registered). Ceiling pct = 234,342/292,713 = 80.06% (NOT the plateau -- true election-night share is lower). Pre-epollbook (adopted 2020); ASV never. FREEZE TEST (2026-07-10, retry log santa-clara-2012-06-retry.md): the ceiling classification was re-tested and CONFIRMED-as-a-ceiling; 234,342 is NOT a frozen night state -- the very next capture (20120608222327, internal 6/7 4:43:58 PM) reads 268,370, the next (20120609022555, 6/8 4:21:51 PM) 284,025, growing to the certified 292,713 which then froze July 3 - Dec 8 2012; VBM drove the growth (185,455 -> 237,195, +28%) while precinct barely moved (48,887 -> 55,518), i.e. 'Semi-Final' here is this county's generic in-progress-canvass label, not end-of-night language. A scaling estimate was COMPUTED BUT NOT ADOPTED: applying Santa Clara's own Nov-2012 night-plateau-to-canvass-start ratio (460,329/438,348 = 1.0501) in reverse to 234,342 gives an implied night plateau ~223,152 ballots ~76.24% of 292,713; both bias directions are non-negligible and offsetting (elapsed-time mismatch biases the estimate high; precinct-already-complete mismatch biases it low), so it is a rough central value only, not a bound. MAINTAINER DEFAULT is the 234,342/80.06% ceiling (comparable:false) pending final say; the ~223,152/76.24% scaling estimate is recorded here as the not-adopted alternative. FLAG for manual operator: a June 5-6 capture CDX may have missed (replay aliasing), and/or a San Jose Mercury News election-night quote via NewsBank, could yet upgrade this to a real plateau; neither attempted here.
 
 ## 4. Machine-confirmed rows (number is at the URL; plateau read still owed)
 
@@ -1438,6 +1437,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2012-11-06
       controller verdict: CONFIRMED (long-night report held in a later capture)
 
+- [ ] **santa-clara-ca 2014-06-03** (plateau check)
+      claimed: night ballots **166,360**, certified final **264,133**, share **62.98%**
+      numerator URL: https://web.archive.org/web/20260710205734/https://results.enr.clarityelections.com/CA/Santa_Clara/51635/132035/json/sum.json
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf
+      look for: NEW ROW (2026-07-10). PLATEAU = last continuous election-night report, precincts at 100%. Clarity electionId 51635 (Web01, no official versions array; candidates harvested via a Wayback CDX prefix sweep of the electionId path, each read live via curl --compressed with a real desktop UA, which 200s d
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2014-06-03
+      controller verdict: CONFIRMED (election-night internal timestamp (2:39:54 AM the morning after) with precincts at 100%, plus a Clarity version bracket: the next published version is 37.5 hours later with a large jump)
+
 - [ ] **santa-clara-ca 2014-11-04** (plateau check)
       claimed: night ballots **235,062**, certified final **404,166**, share **58.16%**
       numerator URL: https://web.archive.org/web/20260710175200/https://results.enr.clarityelections.com/CA/Santa_Clara/54209/147908/json/sum.json
@@ -1446,6 +1453,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2014-11-04
       controller verdict: REFUTED_AND_CORRECTED (clarity live-CDN version walk recovers the true overnight plateau, superseding the documented ceiling)
 
+- [ ] **santa-clara-ca 2016-06-07** (plateau check)
+      claimed: night ballots **282,389**, certified final **430,779**, share **65.55%**
+      numerator URL: https://web.archive.org/web/20260710205905/https://results.enr.clarityelections.com/CA/Santa_Clara/60535/171284/json/sum.json
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf
+      look for: NEW ROW (2026-07-10). PLATEAU = last continuous election-night report, precincts at 100%. Clarity electionId 60535 (Web01, no official versions array; candidates from a Wayback CDX prefix sweep, each read live via curl --compressed -A <UA>). Trajectory: v171232 6/7 7:58:30 PM 189,407 (0/932, first t
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2016-06-07
+      controller verdict: CONFIRMED (election-night internal timestamp (3:49 AM the morning after) with precincts first reaching 100%, plus a cadence-break bracket)
+
 - [ ] **santa-clara-ca 2016-11-08** (plateau check)
       claimed: night ballots **443,269**, certified final **724,596**, share **61.17%**
       numerator URL: https://web.archive.org/web/20260710174832/https://results.enr.clarityelections.com/CA/Santa_Clara/64404/182800/json/sum.json
@@ -1453,6 +1468,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: ELECTION-NIGHT PLATEAU NOT SOURCEABLE. Clarity event 64404 (Web01 layout): the only election-night-period capture is a pre-poll-close placeholder (version 178468, Wayback 20161107003316 = Nov 6 4:33 PM PT, Ballots Cast 0). The Nov 8 election-night data versions were never crawled; the next captures 
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2016-11-08
       controller verdict: CONFIRMED (clarity live-CDN version bracket: cadence break in the immediately following version)
+
+- [ ] **santa-clara-ca 2018-06-05** (plateau check)
+      claimed: night ballots **196,184**, certified final **369,332**, share **53.12%**
+      numerator URL: https://web.archive.org/web/20260710210752/https://results.enr.clarityelections.com/CA/Santa_Clara/75369/204514/json/sum.json
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: NEW ROW (2026-07-10). PLATEAU = last continuous election-night report, precincts at 100%. Clarity electionId 75369 (Web02 SPA with a COMPLETE official versions array, 91 entries -- same mechanism as this file's existing 2018-general row, no CDX-sweep completeness risk). Trajectory: v204149 6/5 7:49:
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for santa-clara-ca 2018-06-05
+      controller verdict: CONFIRMED (election-night internal timestamp (10:38 AM the morning after) with precincts first reaching 100%, plus an official-versions-array bracket)
 
 - [ ] **santa-clara-ca 2018-11-06** (plateau check)
       claimed: night ballots **304,303**, certified final **625,425**, share **48.66%**

@@ -604,9 +604,30 @@
  {
   "slug": "santa-clara-ca",
   "date": "2012-06-05",
-  "verdict": "REFUTED_AS_PLATEAU",
-  "basis": "earliest archived capture of the only election-night channel (legacy pre-Clarity sccgov.org page) is already ~23h post-poll-close with precincts at 100% and a once-daily canvass cadence; kept only as a documented ceiling per RUNBOOK 5.2, comparable:false",
-  "evidence": "Wayback CDX for sccgov.org/elections/results/jun2012/ has zero captures before 2012-06-07 12:28 PM PDT; that capture's internal 'Last Updated' is 6/6/2012 7:02:03 PM, Completed Precincts 874/874 (100%), 234,342 ballots. FREEZE TEST (retry 2026-07-10): the very next capture (20120608222327, 6/7 4:43 PM) reads 268,370, then 284,025 (6/8), growing to the certified 292,713 which froze July 3 - Dec 8 -- so 234,342 is a mid-canvass Wednesday-evening ceiling, not a frozen night state. Not-adopted scaling estimate (Nov-2012 own ratio reversed) implies ~223,152/76.24%; maintainer default is the 234,342/80.06% ceiling. FLAG for manual operator: missed June 5-6 capture and/or Mercury News NewsBank quote could upgrade"
+  "verdict": "REFUTED_AND_CORRECTED",
+  "basis": "NewsBank election-night newspaper report supersedes the documented ceiling",
+  "evidence": "REPLACES the prior 234,342/80.06% ceiling (sccgov.org page, capture 20120607192808, already ~23h post-poll-close and proven mid-canvass by the santa-clara-2012-06-retry.md freeze test). Milpitas Post/BANG, June 6, 2012 (docref news/13F42B5474747780): 191,198 ballots counted; corroborated by an AP wire item's ~96,000-ballot-uncounted framing (implying ~196,713/67.20%, bracketing the BANG figure). Corrected 234,342/80.06% (secondary, comparable=false) -> 191,198/65.32% (secondary, comparable=true). Confidence stays secondary (newspaper report); no independent bracket/hold leg beyond the AP corroboration, so not upgraded to CONFIRMED. PROVENANCE FLAG: relayed via the batch-2 task brief, not independently re-fetched from a cached NewsBank artifact in this repo. Source: docs/research/pending-integration-2026-07-10/dossier-santa-clara-ca-primaries.md Item 1 (documented the superseded ceiling) + newsbank-recovery.md log."
+ },
+ {
+  "slug": "santa-clara-ca",
+  "date": "2014-06-03",
+  "verdict": "CONFIRMED",
+  "basis": "election-night internal timestamp (2:39:54 AM the morning after) with precincts at 100%, plus a Clarity version bracket: the next published version is 37.5 hours later with a large jump",
+  "evidence": "sum.json BC=166360 at Clarity electionId 51635 version 132035 (now Wayback-archived, capture 20260710205734, per browser-recovery-sweep.md), electionsettings websiteupdatedat 6/4/2014 2:39:54 AM PDT, precincts 1026/1026; next version 132218 is 6/5/2014 4:13:39 PM PDT (BC 198,499), a 37h34m gap. Source: docs/research/pending-integration-2026-07-10/dossier-santa-clara-ca-primaries.md Item 2."
+ },
+ {
+  "slug": "santa-clara-ca",
+  "date": "2016-06-07",
+  "verdict": "CONFIRMED",
+  "basis": "election-night internal timestamp (3:49 AM the morning after) with precincts first reaching 100%, plus a cadence-break bracket",
+  "evidence": "sum.json BC=282389 at Clarity electionId 60535 version 171284 (now Wayback-archived, capture 20260710205905), electionsettings websiteupdatedat 6/8/2016 3:49:26 AM PDT, precincts 932/932; next version 171298 is 6/8/2016 8:43:21 AM PDT (BC 286,492), reporting rate collapsing >10x. Source: docs/research/pending-integration-2026-07-10/dossier-santa-clara-ca-primaries.md Item 3."
+ },
+ {
+  "slug": "santa-clara-ca",
+  "date": "2018-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "election-night internal timestamp (10:38 AM the morning after) with precincts first reaching 100%, plus an official-versions-array bracket",
+  "evidence": "sum.json BC=196184 at Clarity electionId 75369 version 204514 (now Wayback-archived, capture 20260710210752), electionsettings websiteupdatedat 6/6/2018 10:38:16 AM PDT, precincts 988/988 (complete official versions array of 91 entries); next entry 204549 is 6/6/2018 4:25:41 PM PDT (BC 205,809). Source: docs/research/pending-integration-2026-07-10/dossier-santa-clara-ca-primaries.md Item 4."
  },
  {
   "slug": "santa-clara-ca",

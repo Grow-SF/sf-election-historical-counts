@@ -48,7 +48,7 @@ dossier-san-diego-ca-primaries.md: San Diego County primary election research. S
 
 dossier-san-mateo-ca-primaries.md: San Mateo County primary election research. Status: Integrated 2026-07-10 (backfill batch 2): 2014-06-03, 2022-06-07, 2024-03-05 were already landed via the SoS status-page sweep (CONFIRMED/primary), values matching the dossier's independently-routed evidence (county precinct reports / livevoterturnout ENR) exactly; equal evidence class, cross-cited as corroboration in the JSON note only. 2016-06-07 and 2018-06-05 are null in both the dossier and the live dataset (genuinely unrecoverable by machine per the dossier's documented search trail; both carry FLAGs for a human/NewsBank follow-up, not chased further here). 2012-06-05 was absent from the live dataset entirely and is now landed as a new CONFIRMED/primary row from the county's own live precinct-turnout report. Fixed a verify_en_numerators.py false-negative along the way: it classified sources as PDF/HTML purely from the URL, missing a live PDF served without a .pdf suffix; now sniffs the fetched bytes' magic number.
 
-dossier-santa-clara-ca-primaries.md: Santa Clara County primary election research. Status: Pending integration.
+dossier-santa-clara-ca-primaries.md: Santa Clara County primary election research. Status: Integrated 2026-07-10 (backfill batch 2): 2014-06-03, 2016-06-07, 2018-06-05 were absent from the live dataset and are now landed as new CONFIRMED/primary rows from Clarity ENR version brackets, citing the browser-recovery-sweep.md Wayback-archived snapshot URLs (not the live CDN, per that sweep's evidence-permanence closure). 2022-06-07 and 2024-03-05 were already landed via the SoS status-page sweep, matching the dossier's independently-routed Clarity values exactly; cross-cited as corroboration in the JSON note only. 2012-06-05's existing 234,342/80.06% comparable:false ceiling is REPLACED per the NewsBank fold-in instruction: Milpitas Post/BANG (2012-06-06, docref news/13F42B5474747780) gives 191,198/292,713=65.32%, corroborated by an AP ~96k-uncounted-band framing; comparable flipped false->true, the superseded ceiling appended as a dated CORRECTION, plateau verdict updated to REFUTED_AND_CORRECTED.
 
 dossier-tehama-ca.md: Tehama County general election research. Status: Pending integration.
 
@@ -74,7 +74,7 @@ prelim-analysis.md: Preliminary statistical analysis of recovered datasets with 
 
 prelim-analysis-4ctrl.md: Preliminary analysis limited to 4-county control set with detailed methodology. Status: Pending integration as case-study analysis.
 
-santa-clara-2012-06-retry.md: Retry recovery for Santa Clara County 2012 primary election; focused archive search. Status: Pending integration.
+santa-clara-2012-06-retry.md: Retry recovery for Santa Clara County 2012 primary election; focused archive search. Status: Integrated (its freeze-test finding, that the 234,342 figure is a mid-canvass ceiling not a frozen night state, was already landed in santa-clara-ca.json prior to backfill batch 2 and is preserved as history in that row's 2026-07-10 CORRECTION note, which further supersedes the ceiling with a NewsBank election-night figure per the batch-2 task brief).
 
 sf-composition-curve.md: San Francisco ballot composition analysis over time. Status: Integrated into SF-specific findings; details pending supplemental review.
 

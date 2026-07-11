@@ -1349,16 +1349,31 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 | Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
 |---|---|---:|---:|---:|---|---|
-| 2012p ⚠️ | presidential-primary | 234,342 | 292,713 | 80.06% | secondary | [link](https://web.archive.org/web/20120607192808/http://www.sccgov.org/elections/results/jun2012/) |
+| 2012p | presidential-primary | 191,198 | 292,713 | 65.32% | secondary | [link](https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/13F42B5474747780) |
+| 2014p | statewide-primary | 166,360 | 264,133 | 62.98% | primary | [link](https://web.archive.org/web/20260710205734/https://results.enr.clarityelections.com/CA/Santa_Clara/51635/132035/json/sum.json) |
+| 2016p | presidential-primary | 282,389 | 430,779 | 65.55% | primary | [link](https://web.archive.org/web/20260710205905/https://results.enr.clarityelections.com/CA/Santa_Clara/60535/171284/json/sum.json) |
+| 2018p | statewide-primary | 196,184 | 369,332 | 53.12% | primary | [link](https://web.archive.org/web/20260710210752/https://results.enr.clarityelections.com/CA/Santa_Clara/75369/204514/json/sum.json) |
 | 2022p | statewide-primary | 181,257 | 357,848 | 50.65% | primary | [link](https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status) |
 | 2024p | presidential-primary | 182,413 | 383,110 | 47.61% | primary | [link](https://web.archive.org/web/20240306063830/https://electionresults.sos.ca.gov/returns/status) |
 
 <details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
 
-- **2012-06-05 presidential-primary** — night `234,342` / final `292,713` = `80.06%` (secondary, CEILING not plateau, comparable:false)
-  - numerator: <https://web.archive.org/web/20120607192808/http://www.sccgov.org/elections/results/jun2012/>
+- **2012-06-05 presidential-primary** — night `191,198` / final `292,713` = `65.32%` (secondary)
+  - numerator: <https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/13F42B5474747780>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
-  - look for: "Last Updated : 6/6/2012 7:02:03 PM", "Completed Precincts 874 of 874", first Registration & Turnout block "31.03% 234,342". CEILING (next-day/canvass value, ~23h post poll-close); the true overnight plateau is unarchived. FREEZE TEST (2026-07-10) failed -- 234,342 grew to 268,370 (6/7) then 284,025 (6/8) then the certified 292,713 in successive daily captures -- confirming ceiling status; a computed-but-NOT-adopted scaling estimate implies ~223,152/76.24%. Maintainer default is the 234,342/80.06% ceiling pending final say. FLAG for manual operator: a missed June 5-6 capture (replay aliasing) and/or a San Jose Mercury News election-night quote via NewsBank could yet upgrade this to a real plateau.
+  - look for: NEWSBANK RECOVERY (2026-07-10). Milpitas Post / Bay Area News Group, June 6, 2012 (docref news/13F42B5474747780): 191,198 ballots counted, election night. Corroborated by an AP wire item describing ~96,000 ballots still uncounted (implying ~196,713/67.20%, bracketing this figure). REPLACES the prior 234,342/80.06% comparable:false ceiling (a mid-canvass Wednesday-evening county-page value, superseded -- see the JSON note's CORRECTION); comparable flipped false->true. FLAG for manual operator: requires an authenticated SFPL NewsBank session, cannot be fetched by curl.
+- **2014-06-03 statewide-primary** — night `166,360` / final `264,133` = `62.98%` (primary)
+  - numerator: <https://web.archive.org/web/20260710205734/https://results.enr.clarityelections.com/CA/Santa_Clara/51635/132035/json/sum.json>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf>
+  - look for: NEW ROW (2026-07-10). Clarity electionId 51635, version 132035, sum.json Contests[0].BC = 166,360 at 1026/1026 precincts (100%), electionsettings websiteupdatedat 6/4/2014 2:39:54 AM. Bracket: next version 132218, 6/5/2014 4:13:39 PM (+37h34m gap), BC 198,499. Cited URL is the Wayback-archived snapshot (per browser-recovery-sweep.md), not the live CDN.
+- **2016-06-07 presidential-primary** — night `282,389` / final `430,779` = `65.55%` (primary)
+  - numerator: <https://web.archive.org/web/20260710205905/https://results.enr.clarityelections.com/CA/Santa_Clara/60535/171284/json/sum.json>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf>
+  - look for: NEW ROW (2026-07-10). Clarity electionId 60535, version 171284, sum.json Contests[0].BC = 282,389 at 932/932 precincts (100%), electionsettings websiteupdatedat 6/8/2016 3:49:26 AM. Bracket: next version 171298, 6/8/2016 8:43:21 AM (+4h54m gap, cadence collapses >10x). Cited URL is the Wayback-archived snapshot (per browser-recovery-sweep.md), not the live CDN.
+- **2018-06-05 statewide-primary** — night `196,184` / final `369,332` = `53.12%` (primary)
+  - numerator: <https://web.archive.org/web/20260710210752/https://results.enr.clarityelections.com/CA/Santa_Clara/75369/204514/json/sum.json>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: NEW ROW (2026-07-10). Clarity electionId 75369, version 204514, sum.json Contests[0].BC = 196,184 at 988/988 precincts (100%), electionsettings websiteupdatedat 6/6/2018 10:38:16 AM (complete official versions array, 91 entries). Bracket: next OFFICIAL version 204549, 6/6/2018 4:25:41 PM (+5h47m gap). Cited URL is the Wayback-archived snapshot (per browser-recovery-sweep.md), not the live CDN.
 - **2022-06-07 statewide-primary** — night `181,257` / final `357,848` = `50.65%` (primary)
   - numerator: <https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf>

@@ -2170,12 +2170,12 @@
         {
           "year": 2012,
           "type": "presidential-primary",
-          "pct": 80.06,
-          "ballots": 234342,
+          "pct": 65.32,
+          "ballots": 191198,
           "final": 292713,
           "confidence": "secondary",
-          "comparable": false,
-          "source_url": "https://web.archive.org/web/20120607192808/http://www.sccgov.org/elections/results/jun2012/"
+          "comparable": true,
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/13F42B5474747780"
         },
         {
           "year": 2012,
@@ -2189,6 +2189,16 @@
         },
         {
           "year": 2014,
+          "type": "midterm-primary",
+          "pct": 62.98,
+          "ballots": 166360,
+          "final": 264133,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20260710205734/https://results.enr.clarityelections.com/CA/Santa_Clara/51635/132035/json/sum.json"
+        },
+        {
+          "year": 2014,
           "type": "midterm",
           "pct": 58.16,
           "ballots": 235062,
@@ -2199,6 +2209,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 65.55,
+          "ballots": 282389,
+          "final": 430779,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20260710205905/https://results.enr.clarityelections.com/CA/Santa_Clara/60535/171284/json/sum.json"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": 61.17,
           "ballots": 443269,
@@ -2206,6 +2226,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20260710174832/https://results.enr.clarityelections.com/CA/Santa_Clara/64404/182800/json/sum.json"
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 53.12,
+          "ballots": 196184,
+          "final": 369332,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20260710210752/https://results.enr.clarityelections.com/CA/Santa_Clara/75369/204514/json/sum.json"
         },
         {
           "year": 2018,
