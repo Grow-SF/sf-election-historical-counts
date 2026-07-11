@@ -12,17 +12,20 @@ Short answer: no. Turnout of the registered tracks what's on the ballot, not how
 ballots are delivered; the registered share of eligible citizens has held in a
 ~70–86% band for decades, before and after the switch; San Francisco was already
 near the ceiling. The real expansions and contractions of the franchise come
-from **women's suffrage (1920)** and **a century of immigration**, not vote-by-mail.
+from **women's suffrage (CA 1911)** and **a century of immigration**, not vote-by-mail.
 
 ## The franchise funnel
 
 The clearest frame is the whole population sorted into mutually-exclusive bands —
-*under voting age · non-citizen adults · eligible but unregistered · registered
-non-voters · voters* — at each presidential election, 1908–2024
+*under voting age · women barred from voting (through 1911) · ineligible adults
+(mostly non-citizens) · eligible but unregistered · registered non-voters ·
+voters* — at each presidential election, 1900–2024
 (`packages/data/franchise_funnel.json`). Two things dominate the picture, and neither is
 the mail:
 
-- **1920 — women's suffrage** roughly doubles the eligible band in one step.
+- **October 1911 — California women's suffrage** (Prop 4, nine years before the
+  19th Amendment) roughly doubles the eligible band in one step; 1912 is SF's
+  first presidential election with women in the electorate.
 - **The non-citizen band breathes with immigration** (see below).
 
 The gap between the population and the voters is mostly about *who counts as
@@ -63,10 +66,11 @@ decennial census via **IPUMS NHGIS** (`data/sf_eligible_vap_estimate.csv`,
 `scripts/nhgis_extract*.json`), with the correct historical definition of who
 could legally vote:
 
-- **Men only before 1920.** In 1900, ~128,985 men were of voting age but only
+- **Men only before October 1911.** In 1900, ~128,985 men were of voting age but only
   **100,697 were eligible citizens** (native + naturalized; California barred
-  alien and declarant voting). Women's suffrage (CA 1911 / 19th Amendment 1920)
-  then doubled the eligible electorate.
+  alien and declarant voting). California's 1911 suffrage amendment (19th
+  Amendment nationally in 1920) then doubled the eligible electorate — the
+  funnel carries the barred adult women as their own band through 1911.
 - **The immigrant arc.** The non-citizen share of adults tracks immigration:
   the alien share of the foreign-born ran **36.5% (1940) → 23.9% (1950**, WWII-era
   naturalization**) → 44.0% (1970**, the post-1965 Latin American and Asian

@@ -454,11 +454,8 @@ export default function TrajectoryExplorer({
             subtitle="Each election's share of its certified final, over days since election night"
             note={
               <>
-                Each line is one election’s count: % of the certified final, by
-                days since the 8 PM poll close. Drag the dual handles above to
-                zoom the day window — it opens on 0–{10} days, where most of the
-                movement is; pull the right handle out toward {dataMax} days to
-                follow the long mail-cure tail.
+                Click a line to highlight elections; dashed lines with markers
+                are archival recoveries.
                 {beyond > 0 && (
                   <>
                     {" "}
@@ -466,9 +463,7 @@ export default function TrajectoryExplorer({
                     {beyond} election{beyond === 1 ? "" : "s"} still running
                     past day {hi}.
                   </>
-                )}{" "}
-                Click a line to highlight one or more elections for comparison;
-                dashed lines with markers are archival recoveries.
+                )}
               </>
             }
           >

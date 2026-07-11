@@ -77,11 +77,13 @@ not *whether* people cast them.
 
 **Did that expand the franchise? No — and the real story is a century of
 immigration.** Every San Franciscan as a band of the whole population: women's
-suffrage (1920) doubled the eligible electorate, and the non-citizen band
-(blue) breathes with the city's immigration history — wide in the Gold-Rush era,
-thin at mid-century, widening again after 1965.
+suffrage (California, October 1911 — the purple band of barred women vanishes
+at the 1912 election) doubled the eligible electorate, and the ineligible-adult
+band (blue, overwhelmingly non-citizens) breathes with the city's immigration
+history — wide in the Gold-Rush era, thin at mid-century, widening again after
+1965.
 
-![Who could vote, and who did — San Francisco's electorate as bands of the whole population, 1908–2024](docs/img/franchise-funnel.png)
+![Who could vote, and who did — San Francisco's electorate as bands of the whole population, 1900–2024](docs/img/franchise-funnel.png)
 
 *Static snapshots — explore all of it interactively, filtered and zoomable, in
 the published story on [GrowSF](https://growsf.org), or run the charts locally

@@ -561,17 +561,18 @@ def main():
     # (decennial, from sf_eligible_vap_estimate.csv = IPUMS NHGIS) are linearly
     # interpolated to election years; eligible uses census citizen-VAP through 1970
     # then the SoS-published eligible; registered/voted are the real per-election
-    # figures. The bands between layers are the story: children, NON-CITIZENS,
-    # the unregistered, and non-voters.
+    # figures. The bands between layers are the story: children, BARRED WOMEN
+    # (pre-1911 CA suffrage), NON-CITIZENS, the unregistered, and non-voters.
     funnel = []  # franchise-funnel points (filled below when census data exists)
-    census = {}  # year -> (pop, vap, citizen_elig|None)
+    census = {}  # year -> (pop, vap_both_sexes, citizen_elig|None, male_vap|None)
     vap_path = SRC / "sf_eligible_vap_estimate.csv"
     if vap_path.exists():
         with open(vap_path) as f:
             for r in csv.DictReader(line for line in f if not line.startswith("#")):
                 census[int(r["year"])] = (
                     int(r["total_population"]), int(r["voting_age_pop"]),
-                    int(r["citizen_eligible"]) if r["citizen_eligible"] else None)
+                    int(r["citizen_eligible"]) if r["citizen_eligible"] else None,
+                    int(r["male_vap"]) if r.get("male_vap") else None)
 
         def interp(anchors, y):
             xs = sorted(anchors)
@@ -586,12 +587,24 @@ def main():
             return anchors[lo] + (anchors[hi] - anchors[lo]) * (y - lo) / (hi - lo)
 
         pop_a = {y: c[0] for y, c in census.items()}
-        vap_a = {y: c[1] for y, c in census.items()}
+        vap_a = {y: c[1] for y, c in census.items()}  # both sexes, all years
         elig_a = {y: c[2] for y, c in census.items() if c[2]}  # census, 1900-1970
         for p in regelig:  # SoS-published eligible, 1978-2026
             elig_a[int(p["date"][:4])] = p["eligible"]
+        # adult women (VAP minus male VAP), for the pre-suffrage barred band
+        women_a = {y: c[1] - c[3] for y, c in census.items() if c[3]}
         funnel = []
         census_min = min(census) if census else 1900
+        # California enfranchised women in October 1911 (Prop 4). Elections
+        # through 1911 have a barred-women band and a citizen-MEN eligible;
+        # 1912/1916 sit between the male-basis (1910) and both-sex (1920)
+        # eligible anchors, so a straight interp of the LEVEL would smear the
+        # suffrage step across the decade — instead interpolate the citizen
+        # SHARE (citizen eligible over same-sex-basis VAP: 75.6% in 1910,
+        # 83.0% in 1920) and apply it to the both-sex VAP. This assumes women's
+        # citizen share matched men's; SF's immigrants skewed male, so if
+        # anything it understates the eligible electorate.
+        SUFFRAGE = 1911
         for t in tn:  # tn = turnout points; presidential generals only
             y = int(t["date"][:4])
             # gate to years with real census bands — interp() clamps below the
@@ -600,13 +613,28 @@ def main():
             if y < census_min:
                 continue
             if t["date"][5:7] == "11" and y % 4 == 0 and t.get("kind") == "General":
+                vap = round(interp(vap_a, y))
+                if y <= SUFFRAGE:
+                    # eligible anchors 1900/1910 are citizen men — direct interp
+                    eligible = round(interp(elig_a, y))
+                    barred_women = round(interp(women_a, y))
+                elif y < 1920:
+                    share_a = {yr: elig_a[yr] / (census[yr][3] if yr <= SUFFRAGE
+                                                 else census[yr][1])
+                               for yr in (1910, 1920)}
+                    eligible = round(interp(share_a, y) * vap)
+                    barred_women = 0
+                else:
+                    eligible = round(interp(elig_a, y))
+                    barred_women = 0
                 funnel.append({
                     "year": y,
                     "population": round(interp(pop_a, y)),
-                    "vap": round(interp(vap_a, y)),
-                    "eligible": round(interp(elig_a, y)),
+                    "vap": vap,
+                    "eligible": eligible,
                     "registered": t["registered"],
                     "voted": t["ballots"],
+                    "barredWomen": barred_women,
                 })
         funnel.sort(key=lambda x: x["year"])
         F2 = OUT.parent / "franchise_funnel.json"

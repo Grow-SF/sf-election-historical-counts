@@ -46,10 +46,15 @@ export type RegEligPoint = {
 export type FunnelPoint = {
   year: number;
   population: number;
+  // voting-age population, BOTH sexes (21+ through the 1968 election, 18+ after)
   vap: number;
+  // eligible electorate: citizen men 21+ through 1908; citizen adults from 1912
+  // (California enfranchised women in October 1911)
   eligible: number;
   registered: number;
   voted: number;
+  // adult women barred from voting — non-zero only before CA suffrage (1911)
+  barredWomen: number;
 };
 
 // California county counting-speed comparison (vote-by-mail era).
