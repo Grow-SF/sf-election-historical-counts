@@ -1292,6 +1292,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-diego-ca 2024-11-05
       controller verdict: CONFIRMED (self-describing final)
 
+- [ ] **san-mateo-ca 2012-06-05** (plateau check)
+      claimed: night ballots **93,604**, certified final **123,330**, share **75.9%**
+      numerator URL: https://smcacre.gov/media/894/download?attachment
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf
+      look for: NEW ROW (2026-07-10). PLATEAU = Final Election Night Report. Official San Mateo County 'Precinct Turnout - Total Voters - Unofficial' report (Drupal media/894, title 'precinct report 5', linked live from smcacre.gov/elections/june-5-2012-election-results as the 'Preliminary report available after Se
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-mateo-ca 2012-06-05
+      controller verdict: CONFIRMED (self-described end-of-night interim report (11:46 PM timestamp, 100% precincts, 'Unofficial') distinct from the county's separately-linked certified-final document dated 2 weeks later)
+
 - [ ] **san-mateo-ca 2012-11-06** (plateau check)
       claimed: night ballots **204,287**, certified final **288,592**, share **70.79%**
       numerator URL: https://smcacre.gov/system/files/migrated/acre/precinct_report_6.pdf

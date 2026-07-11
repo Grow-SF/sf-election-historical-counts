@@ -1256,12 +1256,17 @@ Colusa's registrar publishes exactly one results document per election, always t
 
 | Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
 |---|---|---:|---:|---:|---|---|
+| 2012p | presidential-primary | 93,604 | 123,330 | 75.9% | primary | [link](https://smcacre.gov/media/894/download?attachment) |
 | 2014p | statewide-primary | 70,651 | 97,447 | 72.5% | primary | [link](https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/) |
 | 2022p | statewide-primary | 63,362 | 166,405 | 38.08% | primary | [link](https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status) |
 | 2024p | presidential-primary | 92,359 | 174,122 | 53.04% | primary | [link](https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status) |
 
 <details><summary>What to look for on each primary source page (numerator) + denominator URL</summary>
 
+- **2012-06-05 presidential-primary** — night `93,604` / final `123,330` = `75.9%` (primary)
+  - numerator: <https://smcacre.gov/media/894/download?attachment>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/03-voter-reg-stats-by-county.pdf>
+  - look for: NEW ROW (2026-07-10). Official San Mateo County 'Precinct Turnout - Total Voters - Unofficial' report (Drupal media/894, title 'precinct report 5'), embedded timestamp '06/05/2012 11:46 PM', Precincts Reporting 467 of 467 = 100.00%, Total Number of Voters 93,604 of 337,702 = 27.72%. A separately-linked 'Results on PDF' titled 'jun12 final 06 19' (certified final, 2 weeks later) proves this is the night-of interim, not the canvass final. Certified final = Total Voters 123,330, CA SoS SoV. Source: docs/research/pending-integration-2026-07-10/dossier-san-mateo-ca-primaries.md Item 1.
 - **2014-06-03 statewide-primary** — night `70,651` / final `97,447` = `72.5%` (primary)
   - numerator: <https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2014-primary/pdf/03-voter-particpiation-stats-by-county.pdf>

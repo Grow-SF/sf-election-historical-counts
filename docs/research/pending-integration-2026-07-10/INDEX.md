@@ -46,7 +46,7 @@ dossier-san-bernardino-ca-primaries.md: San Bernardino County primary election r
 
 dossier-san-diego-ca-primaries.md: San Diego County primary election research. Status: Pending integration.
 
-dossier-san-mateo-ca-primaries.md: San Mateo County primary election research. Status: Pending integration.
+dossier-san-mateo-ca-primaries.md: San Mateo County primary election research. Status: Integrated 2026-07-10 (backfill batch 2): 2014-06-03, 2022-06-07, 2024-03-05 were already landed via the SoS status-page sweep (CONFIRMED/primary), values matching the dossier's independently-routed evidence (county precinct reports / livevoterturnout ENR) exactly; equal evidence class, cross-cited as corroboration in the JSON note only. 2016-06-07 and 2018-06-05 are null in both the dossier and the live dataset (genuinely unrecoverable by machine per the dossier's documented search trail; both carry FLAGs for a human/NewsBank follow-up, not chased further here). 2012-06-05 was absent from the live dataset entirely and is now landed as a new CONFIRMED/primary row from the county's own live precinct-turnout report. Fixed a verify_en_numerators.py false-negative along the way: it classified sources as PDF/HTML purely from the URL, missing a live PDF served without a .pdf suffix; now sniffs the fetched bytes' magic number.
 
 dossier-santa-clara-ca-primaries.md: Santa Clara County primary election research. Status: Pending integration.
 

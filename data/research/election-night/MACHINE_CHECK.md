@@ -328,6 +328,8 @@ verify_en_* scripts to regenerate).
 | san-diego-ca | 2024-03-05 | numerator | 425,572 | VERIFIED | taArray, colorObject, elem); })(); Ballots Counted 425,572 Mail Ballots 374,440 Vote Center Ballots |
 | san-diego-ca | 2024-11-05 | denominator | 1,503,018 | VERIFIED | 2,669 2,353,145 1,982,264 227,714 1,275,304 1,503,018 84.85% 75.82% 63.87% |
 | san-diego-ca | 2024-11-05 | numerator | 975,373 | VERIFIED | taArray, colorObject, elem); })(); Ballots Counted 975,373 Mail Ballots 787,702 Vote Center Ballots |
+| san-mateo-ca | 2012-06-05 | denominator | 123,330 | VERIFIED | eo 467 477,460 337,757 33,793 89,537 123,330 72.60% 36.51% 25.83% |
+| san-mateo-ca | 2012-06-05 | numerator | 93,604 | VERIFIED | 06/05/2012 11:46 PM Total Number of Voters : 93,604 of 337,702 = 27.72% |
 | san-mateo-ca | 2012-11-06 | denominator | 288,592 | VERIFIED | 468 479,562 361,486 119,212 169,380 288,592 58.69% 79.83% 60.18% |
 | san-mateo-ca | 2012-11-06 | numerator | 204,287 | VERIFIED | 11/07/2012 12:07 AM Total Number of Voters : 204,287 of 361,486 = 56.51% |
 | san-mateo-ca | 2014-06-03 | denominator | 97,447 | VERIFIED | eo 475 488,370 354,994 21,484 75,963 97,447 77.95% 27.45% 19.95% |

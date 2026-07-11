@@ -2016,6 +2016,16 @@
       "points": [
         {
           "year": 2012,
+          "type": "presidential-primary",
+          "pct": 75.9,
+          "ballots": 93604,
+          "final": 123330,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://smcacre.gov/media/894/download?attachment"
+        },
+        {
+          "year": 2012,
           "type": "presidential",
           "pct": 70.79,
           "ballots": 204287,

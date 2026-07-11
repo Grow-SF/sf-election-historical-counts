@@ -526,6 +526,13 @@
  },
  {
   "slug": "san-mateo-ca",
+  "date": "2012-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "self-described end-of-night interim report (11:46 PM timestamp, 100% precincts, 'Unofficial') distinct from the county's separately-linked certified-final document dated 2 weeks later",
+  "evidence": "media/894 'precinct report 5': 'Total Number of Voters : 93,604 of 337,702 = 27.72%', Precincts Reporting 467 of 467; sibling 'Results on PDF' link titled 'jun12 final 06 19' proves a later, distinct final canvass exists. Source: docs/research/pending-integration-2026-07-10/dossier-san-mateo-ca-primaries.md Item 1."
+ },
+ {
+  "slug": "san-mateo-ca",
   "date": "2012-11-06",
   "verdict": "CONFIRMED",
   "basis": "county-archived night turnout report",
