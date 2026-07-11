@@ -53,6 +53,7 @@ e-day/VBM splits.
 | `sf_franchise_by_election.csv` | eligible / registered / voted, joined per election (deliberately separate from the rollup: the eligible denominator is an estimate with its own caveats) | 1908–2024 | per election |
 | `sources/sf_june2026_vbm_returns_by_day.csv` | DoE daily VBM return tracking (hand-copied reference) | 2026 | per day |
 | `sources/sf_vote_by_district_1856_1863.csv` | votes cast by district, from a printed 1863 newspaper table | 1856–1863 | per district, per year |
+| `research/county-vbm/county_vbm_share.csv` | vote-by-mail composition for the 19-county comparison panel (mail vs. polling ballots, not SF-only) | 2012–2024 | per county, per election |
 
 **Definitions used throughout** (they are not interchangeable):
 
@@ -374,6 +375,19 @@ Citation ledgers and helper maps:
   themselves are not in the repository (cited, never republished).
 - **`provenance/newsbank_issue_docrefs.json`** — maps NewsBank issue dates to document
   references so citations resolve to SFPL deep links on the site's `/sources` page.
+
+---
+
+## `research/county-vbm/`
+
+County-panel vote-by-mail composition data (not SF-specific): mail-versus-polling
+ballot counts for the 19-county election-night comparison panel, read from CA SoS
+Statement of Vote "Voter Participation Statistics by County" PDFs, 12 statewide
+elections from 2012 to 2024. It exists to let the comparison-panel research (see
+[`../docs/research/RUNBOOK.md`](../docs/research/RUNBOOK.md)) separate a county's
+change in mail-ballot share from a genuine change in counting speed. Schema, exact
+source URLs, and verification notes:
+[`research/county-vbm/README.md`](research/county-vbm/README.md).
 
 ---
 

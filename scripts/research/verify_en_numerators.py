@@ -3,7 +3,7 @@
 
 Fetches each numerator source (Wayback raw id_ form for archived pages) into
 cache/numerators/, converts to text, and checks the claimed ballot count
-appears. Network: ~54 fetches with a 2s pause each; artifacts are cached so
+appears. Network: ~62 fetches with a 2s pause each; artifacts are cached so
 reruns only refetch failures. Writes cache/numerator_results.json.
 """
 import gzip
@@ -62,7 +62,11 @@ def source_text(url, dest_base):
         # bytes verbatim; curl (no --compressed) does not decode them.
         data = gzip.decompress(data)
     raw = data.decode("utf-8", errors="replace")
-    return (raw if bare.endswith(".json") else strip_html(raw)), dest
+    # .xml feeds (e.g. San Diego's pre-2018 GEMS election.xml) carry their
+    # data as element ATTRIBUTES (tcounted="468340"), which strip_html's
+    # <[^>]+> tag stripper would delete along with the tags; treat them like
+    # .json and leave the raw text untouched.
+    return (raw if bare.endswith((".json", ".xml")) else strip_html(raw)), dest
 
 
 def main():

@@ -19,9 +19,11 @@ import { useChartTheme } from "../theme";
 import { ChartFrame } from "./ui";
 
 // ---- data prep: each jurisdiction's pre- vs post-adoption election-night
-// share, like-to-like (presidential vs presidential, midterm vs midterm). SF is
-// the no-new-tech control. 2020 (COVID all-mail) and rows flagged
-// comparable=false (e.g. Nevada 2024, a printer-defect outlier) are excluded. ----
+// share, like-to-like (presidential vs presidential, midterm vs midterm,
+// presidential-primary vs presidential-primary, midterm-primary vs
+// midterm-primary). SF is the no-new-tech control. 2020 (COVID all-mail) and
+// rows flagged comparable=false (e.g. Nevada 2024, a printer-defect outlier)
+// are excluded. ----
 const yy = (y: number | null) => (y ? `’${String(y).slice(2)}` : "");
 
 const badge = (j: CountyNightJurisdiction) => {
@@ -39,16 +41,6 @@ const adoptBoundary = (j: CountyNightJurisdiction) => {
   return ys.length ? Math.min(...ys) : null;
 };
 
-// The control (SF, no adoption) is measured over the same window as the
-// adopters: from the last election before ANY county adopted, to the latest —
-// so its bar isn't unfairly stretched across extra years.
-const EARLIEST_ADOPT = Math.min(
-  ...COUNTY_NIGHT.jurisdictions
-    .filter((j) => j.complete && !j.control)
-    .map(adoptBoundary)
-    .filter((y): y is number => y != null),
-);
-
 type Row = {
   slug: string;
   name: string;
@@ -65,9 +57,9 @@ type Row = {
 
 type SourcedPoint = CountyNightPoint & { pct: number };
 
-function prepost(
+export function prepost(
   j: CountyNightJurisdiction,
-  type: "presidential" | "midterm",
+  type: CountyNightPoint["type"],
 ): Row | null {
   const pts = j.points
     .filter(
@@ -80,12 +72,25 @@ function prepost(
     .sort((a, b) => a.year - b.year) as SourcedPoint[];
   if (pts.length < 2) return null;
 
-  const b = j.control ? EARLIEST_ADOPT : adoptBoundary(j);
-  if (b == null) return null;
-  // last election before the (county's, or for SF the earliest) adoption year,
-  // vs the most recent one at/after it — like-to-like across all bars.
-  const pre = [...pts].reverse().find((p) => p.year < b);
-  const post = [...pts].reverse().find((p) => p.year >= b);
+  let pre: SourcedPoint | undefined;
+  let post: SourcedPoint | undefined;
+  if (j.control) {
+    // controls have no adoption year of their own, so there's no natural
+    // pre/post boundary to anchor on. Use the county's own earliest and most
+    // recent sourced same-type points instead of a shared cutoff year — a
+    // shared cutoff silently drops any control whose earliest point happens
+    // to fall after it (e.g. Del Norte, once the cutoff moved earlier than
+    // its 2016 presidential point).
+    pre = pts[0];
+    post = pts[pts.length - 1];
+  } else {
+    const b = adoptBoundary(j);
+    if (b == null) return null;
+    // last election before the county's adoption year, vs the most recent
+    // one at/after it — like-to-like across all bars.
+    pre = [...pts].reverse().find((p) => p.year < b);
+    post = [...pts].reverse().find((p) => p.year >= b);
+  }
   if (!pre || !post || pre.year === post.year) return null;
 
   const change = +(post.pct - pre.pct).toFixed(1);
@@ -105,8 +110,18 @@ function prepost(
 }
 
 const TYPES = [
-  { key: "presidential", label: "presidential" },
-  { key: "midterm", label: "midterm" },
+  { key: "presidential", label: "presidential", phrase: "presidential generals" },
+  { key: "midterm", label: "midterm", phrase: "midterm generals" },
+  {
+    key: "presidential-primary",
+    label: "pres. primary",
+    phrase: "presidential primaries",
+  },
+  {
+    key: "midterm-primary",
+    label: "midterm primary",
+    phrase: "midterm primaries",
+  },
 ] as const;
 type ElType = (typeof TYPES)[number]["key"];
 
@@ -202,18 +217,35 @@ export default function CountyNightShareChart() {
 
   const color = (r: Row) => (r.control ? ink : r.rose ? moss : warn);
   const height = rows.length * 40 + 72;
+  const activeType = TYPES.find((t) => t.key === type);
+  const isPrimaryType = type.endsWith("-primary");
 
   return (
     <ChartFrame
       title="Did counting tech speed up election night?"
-      subtitle={`Election-night share of the certified vote, before vs after adopting e-pollbooks / automated signature verification, ${type} generals`}
+      subtitle={`Election-night share of the certified vote, before vs after adopting e-pollbooks / automated signature verification, ${activeType?.phrase ?? type}`}
       note={
         <>
-          Green rose after adoption, red fell; San Francisco (bold, no new
-          tech) is the control. The 2018–2020 statewide move to all-mail
-          (Voter’s Choice Act) is the bigger driver, independent of
-          e-pollbooks/ASV. Excludes 2020 (COVID all-mail) and the Nevada 2024
-          printer-defect outlier. Per-number sources in{" "}
+          Each bar runs from a county’s last <strong>pre-adoption</strong>{" "}
+          election-night share to its most recent <strong>post-adoption</strong>{" "}
+          share, always the same election type (a presidential-primary pre
+          pairs only with a presidential-primary post, a midterm general only
+          with a midterm general, etc.); green rose, red fell. Toggle above to
+          switch between generals and primaries — primary bars draw dimmed and
+          dashed to mark them as the secondary comparison. San Francisco and
+          any other no-new-tech county (Lake, Del Norte, Mendocino, Tehama,
+          Colusa where their data clears the bar) are the bold{" "}
+          <em>controls</em>. If the tech sped up the night count, adopters’
+          bars would climb green well past the controls’; instead several
+          fall as far or farther, so there is no single control trend being
+          beaten. The 2018–2020 statewide move to all-mail (Voter’s Choice
+          Act) is the bigger driver, independent of e-pollbooks/ASV. A
+          control county appears whenever it has two sourced points of the
+          selected election type, anchored to its own earliest and most
+          recent data (no shared cutoff year); counties that adopted the tech
+          are shown only when every election-night row in their series is
+          sourced. Excludes 2020 (COVID all-mail outlier) and the Nevada 2024
+          ballot-printer-defect outlier. Per-number sources in{" "}
           <a
             href="https://github.com/Grow-SF/sf-election-historical-counts/blob/main/data/research/election-night/VERIFY.md"
             target="_blank"
@@ -294,7 +326,14 @@ export default function CountyNightShareChart() {
             label={deltaLabel(rows, theme.faint, moss, warn)}
           >
             {rows.map((r) => (
-              <Cell key={r.slug} fill={color(r)} />
+              <Cell
+                key={r.slug}
+                fill={color(r)}
+                fillOpacity={isPrimaryType ? 0.5 : 1}
+                stroke={isPrimaryType ? color(r) : "none"}
+                strokeWidth={isPrimaryType ? 1 : 0}
+                strokeDasharray={isPrimaryType ? "3 3" : undefined}
+              />
             ))}
           </Bar>
         </BarChart>

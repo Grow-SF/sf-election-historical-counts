@@ -1,0 +1,48 @@
+{
+  "jurisdiction": "Tehama County",
+  "state": "CA",
+  "tech": [
+    {
+      "type": "epollbook",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf",
+      "confidence": "primary",
+      "note": "NOT a VCA county (no vote-center/all-mail model, so no VCA-driven e-pollbook rollout). CA SoS voting-technology-by-county snapshots list Tehama e-pollbook status as 'Do not use' continuously across the May 2022, Sept 2024, and Oct 2025 editions (census row source); EAVS reports 'False' for e-pollbook use in all four editions checked by the census pass. No county document, grand jury report, or news story found describing an electronic roster pilot at any point through 2024. Consistent never-adopter signal across three official SoS snapshots plus EAVS, matching the confidence level used for the same evidence pattern in the Lake County control record. CORRECTED (2026-07-10, integration review): the source dossier proposed confidence 'medium', which is not a value in this schema's confidence enum (primary/secondary/estimated/none); reclassified to 'primary' given the multi-snapshot official-government-source basis, consistent with the Lake County precedent (data/research/county-tech/lake-ca.json) for equivalent evidence strength."
+    },
+    {
+      "type": "asv",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://krcrtv.com/news/local/tehama-county-clerk-process-of-distinguishing-voter-fraud",
+      "confidence": "secondary",
+      "note": "Positive evidence of manual-only signature verification (not merely absence of evidence). KRCR News 7 feature quotes Tehama County Clerk Jennifer Vise describing a two-person, eyes-on visual comparison process ('We look for slants, loops, certain characteristics of a signature to make sure that it does not match'; 'two people compare the signatures on the ballots to signatures from the past records'); mismatches are referred to the DA's office. No software/scanner/automated matching tool named anywhere in the article. Direct fetch of the article re-confirmed 2026-07-10 (same content, same quotes). No corroborating official county EAP or grand-jury document; census row already flagged this same gap, and no second independent source was found on this pass. CORRECTED (2026-07-10, integration review): the source dossier proposed confidence 'medium', not a valid value in this schema's enum; reclassified to 'secondary' per RUNBOOK 5.3 ('News reportage is secondary even when it quotes officials')."
+    },
+    {
+      "type": "sign-scan-go",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.sos.ca.gov/voters-choice-act",
+      "confidence": "secondary",
+      "note": "Tehama is not a Voter's Choice Act county (not on the CA SoS VCA county list), so the AB 626 in-vote-center 'Sign-Scan-and-Go' mail-ballot verify+scan model, which is built on the VCA vote-center infrastructure, does not apply. Absence-of-evidence inference from non-VCA status, consistent with the epollbook finding above."
+    },
+    {
+      "type": "vote-center",
+      "status": "not-adopted",
+      "adopted_year": null,
+      "first_election": "",
+      "vendor": "",
+      "evidence_url": "https://www.sos.ca.gov/voters-choice-act",
+      "confidence": "primary",
+      "note": "CA SoS Voter's Choice Act county list does not include Tehama (as of 2024/2025). Tehama continues to run traditional precinct-based polling places plus vote-by-mail rather than the VCA all-mail/vote-center model, consistent with the epollbook not-adopted finding (VCA adoption is the mechanism that drives e-pollbook rollout in most small CA counties)."
+    }
+  ],
+  "metrics": [],
+  "notes": "Item 0 of the Tehama election-night dossier (control county, no tech transition to bracket -- both epollbook and ASV are 'never' per the census row, so every election-night row in tehama-ca.json uses vs_epollbook/vs_asv = 'n/a'). This record reuses the census row's sources (KRCR ASV feature, SoS voting-tech-by-county 2025 PDF) and adds the SoS VCA county-list page as evidence for vote-center/sign-scan-go non-adoption. Metrics array left empty (out of scope; the deliverable is the election-night dataset rows). Two confidence values were corrected from the source dossier's non-enum 'medium' to schema-valid 'primary' (epollbook, matching the Lake County precedent for equivalent multi-source official evidence) and 'secondary' (asv, per RUNBOOK 5.3's rule that news reportage is secondary even when quoting officials) on integration review (2026-07-10)."
+}

@@ -1,0 +1,114 @@
+{
+  "jurisdiction": "Colusa County",
+  "state": "CA",
+  "adoption": {
+    "epollbook": null,
+    "asv": null
+  },
+  "elections": [
+    {
+      "date": "2012-11-06",
+      "type": "presidential-general",
+      "election_night_ballots": null,
+      "certified_final": 6092,
+      "election_night_pct": null,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "No Clarity (results.enr.clarityelections.com/CA/Colusa/ -> 404). No Wayback capture of any elections-labeled path on countyofcolusa.org, co.colusa.ca.us, or ca-colusacounty.civicplus.com exists anywhere in 2012 (CDX: url=countyofcolusa.org&matchType=domain&filter=original:.*(?i)(elect|vote|result).* limit=2000, earliest hit 2013-08; url=co.colusa.ca.us&matchType=domain, captures stop 2008; url=ca-colusacounty.civicplus.com&matchType=domain, homepage-only captures 2012-04/2013-05, no elections subpage). Colusa's only surviving results artifact for this election is /DocumentCenter/View/5436, titled 'November-6-2012-Official-Results-By-Contest' (Wayback capture 2022-07-02, https://web.archive.org/web/20220702140759id_/https://www.countyofcolusa.org/DocumentCenter/View/5436/November-6-2012-Official-Results-By-Contest?bidId=); its title matches the certified-canvass naming pattern independently confirmed via internal PDF metadata for Colusa's 2016 (CreationDate 2017-01-12), 2018 (CreationDate 2018-11-28), 2022 (report header 2022-12-01, Voters Cast exactly = certified final 5,617), and 2024 (report header 2024-12-03, Voters Cast exactly = certified final 7,122) results documents -- in every year checked, Colusa's registrar publishes exactly ONE results document per election and it is the certified final, 3-4 weeks post-election, never a distinct night snapshot. Byte-level PDF metadata confirmation for the 2012 document specifically was attempted (curl --max-time 45/60 against the web.archive.org id_ replay) but blocked by intermittent web.archive.org connectivity in this research session (curl error 7, connection refused), not a bot-wall; CDX enumeration (which hit the same host) succeeded before and after. No local-news coverage found (WebSearch for Colusa Sun-Herald / Appeal-Democrat 2012 election-night coverage returned nothing dated Nov 2012). Value left null per RUNBOOK.md 5.1 rather than substituting the certified-final PDF as a fake night number."
+    },
+    {
+      "date": "2014-11-04",
+      "type": "midterm-general",
+      "election_night_ballots": 3628,
+      "certified_final": 4422,
+      "election_night_pct": 82.04,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('FENU'-coded row), Colusa County: 100.0% precincts reporting, Ballots Cast 3,628, Last Report stamp 'Nov 4 10:00 p.m.' (First Report 'Nov 4 9:11 p.m.') at Wayback capture 20141105141649 (2014-11-05 14:16:49 UTC). SINGLE CAPTURE at 2014-11-05 14:16:49 UTC carries this value. The next available capture (2014-11-07 08:38:01 UTC) jumps to 4,229 (Last Report 'Nov 6 11:19 a.m.'), confirming 3,628 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 4,422 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf). Arithmetic: 3,628/4,422 = 82.04%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2014-11-04 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
+      "date": "2016-11-08",
+      "type": "presidential-general",
+      "election_night_ballots": 4952,
+      "certified_final": 6814,
+      "election_night_pct": 72.67,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20161110185817/http://vote.sos.ca.gov/returns/status/",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('SF'-coded row), Colusa County: 100.0% precincts reporting, Ballots Cast 4,952, Last Report stamp 'Nov 8 10:25 p.m.' (First Report 'Nov 8 9:10 p.m.') at Wayback capture 20161110185817 (2016-11-10 18:58:17 UTC). SINGLE CAPTURE at 2016-11-10 18:58:17 UTC carries this value. The next available capture (2016-11-14 19:00:27 UTC) jumps to 6,463 (Last Report 'Nov 10 6:20 p.m.'), confirming 4,952 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 6,814 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 4,952/6,814 = 72.67%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2016-11-08 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
+      "date": "2018-11-06",
+      "type": "midterm-general",
+      "election_night_ballots": null,
+      "certified_final": 5815,
+      "election_night_pct": null,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": null,
+      "confidence": "none",
+      "note": "DIRECTLY CONFIRMED not a night number: fetched /DocumentCenter/View/10616 via https://web.archive.org/web/20190723050900id_/https://www.countyofcolusa.org/DocumentCenter/View/10616 (image-only PDF, rendered with pdftoppm -png -r 150 and read directly). Header: 'OFFICIAL RESULTS ... RUN DATE: 11/26/18 02:24 PM ... REPORT-EL45A PAGE 001'; Ballots Cast - Total: 5,815, exactly equal to the SoS certified final. pdfinfo also shows CreationDate 2018-11-28 / ModDate 2018-11-29 -- 22-23 days post-election. This document is also what the elections homepage linked as 'Official Results' (/DocumentCenter/View/10611, no independent Wayback capture) in its 2018-11-29 Wayback snapshot -- the FIRST time the elections page was crawled again after a >10-month gap (last before: 2018-01-31; CDX: url=countyofcolusa.org/elections&matchType=prefix), meaning Wayback never saw the page during the live count at all, only after certification was essentially complete. No Clarity. No local-news coverage of election night found via WebSearch. Value left null per RUNBOOK.md 5.1."
+    },
+    {
+      "date": "2022-06-07",
+      "type": "statewide-primary",
+      "election_night_ballots": 1693,
+      "certified_final": 3593,
+      "election_night_pct": 47.12,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('U'-coded row), Colusa County: 100.0% precincts reporting, Ballots Cast 1,693, Last Report stamp 'Jun 7 11:09 p.m.' (First Report 'Jun 7 8:51 p.m.') at Wayback capture 20220608094259 (2022-06-08 09:42:59 UTC). FROZEN: the identical Ballots Cast figure 1,693 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 2,126 (Last Report 'Jun 10 1:36 p.m.'), marking the canvass resuming. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 3,593 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 1,693/3,593 = 47.12%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2022-06-07 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
+      "date": "2022-11-08",
+      "type": "midterm-general",
+      "election_night_ballots": 2958,
+      "certified_final": 5617,
+      "election_night_pct": 52.66,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20221109072903/https://electionresults.sos.ca.gov/returns/status",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('SF'-coded row), Colusa County: 100.0% precincts reporting, Ballots Cast 2,958, Last Report stamp 'Nov 8 11:20 p.m.' (First Report 'Nov 8 9:15 p.m.') at Wayback capture 20221109072903 (2022-11-09 07:29:03 UTC). FROZEN: the identical Ballots Cast figure 2,958 recurs across 12 captures, 2022-11-09 07:29:03 UTC through 2022-11-10 22:44:53 UTC, before the next available capture (2022-11-11 03:30:58 UTC) jumps to 4,559 (Last Report 'Nov 10 6:58 p.m.'), marking the canvass resuming. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 5,617 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2022-general/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 2,958/5,617 = 52.66%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2022-11-08 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
+      "date": "2024-03-05",
+      "type": "presidential-primary",
+      "election_night_ballots": 1846,
+      "certified_final": 3788,
+      "election_night_pct": 48.73,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20240306063830/https://electionresults.sos.ca.gov/returns/status",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('U'-coded row), Colusa County: 100.0% precincts reporting, Ballots Cast 1,846, Last Report stamp 'Mar 5 9:14 p.m.' (First Report 'Mar 5 8:52 p.m.') at Wayback capture 20240306063830 (2024-03-06 06:38:30 UTC). FROZEN: the identical Ballots Cast figure 1,846 recurs across 7 captures, 2024-03-06 06:38:30 UTC through 2024-03-11 13:59:17 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 3,788 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 1,846/3,788 = 48.73%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2024-03-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    },
+    {
+      "date": "2024-11-05",
+      "type": "presidential-general",
+      "election_night_ballots": 2868,
+      "certified_final": 7122,
+      "election_night_pct": 40.27,
+      "vs_epollbook": "n/a",
+      "vs_asv": "n/a",
+      "source_url_final": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf",
+      "source_url_night": "https://web.archive.org/web/20241106065418/https://electionresults.sos.ca.gov/returns/status",
+      "confidence": "primary",
+      "note": "CA SoS per-county reporting-status page ('SF'-coded row), Colusa County: 100.0% precincts reporting, Ballots Cast 2,868, Last Report stamp 'Nov 5 8:38 p.m.' (First Report 'Nov 5 8:38 p.m.') at Wayback capture 20241106065418 (2024-11-06 06:54:18 UTC). FROZEN: the identical Ballots Cast figure 2,868 recurs across 8 captures, 2024-11-06 06:54:18 UTC through 2024-11-06 17:18:13 UTC, before the next available capture (2024-11-07 01:54:46 UTC) jumps to 3,342 (Last Report 'Nov 6 5:11 p.m.'), marking the canvass resuming. NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 7,122 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf). Arithmetic: 2,868/7,122 = 40.27%. vs_epollbook=n/a, vs_asv=n/a (per county_tech/adoption record: epollbook None, asv None). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2024-11-05 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary."
+    }
+  ]
+}

@@ -16,5 +16,10 @@
   {"slug": "san-francisco-ca",  "name": "San Francisco",        "state": "CA", "hints": "CONTROL — no e-pollbook, no ASV"},
   {"slug": "pennsylvania-knowink","name": "Pennsylvania (KNOWiNK counties)","state": "PA","hints": "national vignette — e-pollbooks"},
   {"slug": "wisconsin-badgerbooks","name": "Wisconsin (Badger Books)","state": "WI","hints": "national vignette — e-pollbooks"},
-  {"slug": "new-york-epb",      "name": "New York (post-2019 e-pollbooks)","state": "NY","hints": "national vignette"}
+  {"slug": "new-york-epb",      "name": "New York (post-2019 e-pollbooks)","state": "NY","hints": "national vignette"},
+  {"slug": "del-norte-ca",      "name": "Del Norte County",     "state": "CA", "role": "control", "hints": "never-adopter per census; non-VCA; archive viable (Wayback dense both 2016/2018, dated per-election results pages)"},
+  {"slug": "lake-ca",           "name": "Lake County",          "state": "CA", "role": "control", "hints": "never-adopter per census; non-VCA; archive viable (publicapps results subdomain + Nov2018MediaReleases folder)"},
+  {"slug": "colusa-ca",         "name": "Colusa County",        "state": "CA", "role": "control", "hints": "never-adopter per census; non-VCA; archive marginal (no 2016 web trail, thin 2018)"},
+  {"slug": "mendocino-ca",      "name": "Mendocino County",     "state": "CA", "role": "control", "hints": "never-adopter per census; non-VCA; archive viable (dated resultsYYYYMMDD.htm convention back to 2008)"},
+  {"slug": "tehama-ca",         "name": "Tehama County",        "state": "CA", "role": "control", "hints": "never-adopter per census; non-VCA; archive marginal (dep-elections page captured near both election nights)"}
 ]

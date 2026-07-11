@@ -109,15 +109,23 @@ export type CountyTech = {
 // Cross-county ELECTION-NIGHT share comparison (last election-night report ÷
 // certified final), with San Francisco as the no-new-tech control. Built by
 // scripts/build_county_night.py from data/research/election-night-*/.
+// type vocabulary: "presidential"/"midterm" are November generals;
+// "presidential-primary"/"midterm-primary" are statewide primaries (see the
+// build_county_night.py docstring). Charts currently render generals only --
+// primaries are excluded at each chart's data-selection boundary pending an
+// editorial decision on how to display them.
 export type CountyNightPoint = {
   year: number;
-  type: "presidential" | "midterm";
+  type: "presidential" | "midterm" | "presidential-primary" | "midterm-primary";
   pct: number | null;
   ballots: number | null;
   final: number | null;
   confidence: string | null;
   comparable: boolean;
   source_url: string | null;
+  // true only when the night figure is a press-deadline partial rather than
+  // a full report (mirrors Election.nightPartial in elections.json).
+  nightPartial?: boolean;
 };
 
 export type CountyNightJurisdiction = {
@@ -127,7 +135,10 @@ export type CountyNightJurisdiction = {
   // true = every Nov-general row has a sourced election-night count (fully
   // recovered). The chart shows only complete jurisdictions (+ the control).
   complete: boolean;
-  adoption: { epollbook: number | null; asv: number | null };
+  // vca = Voter's Choice Act all-mail / vote-center adoption year (from the
+  // CA adoption census). Optional so existing fixtures that predate the field
+  // still type-check; build_county_night.py always emits it.
+  adoption: { epollbook: number | null; asv: number | null; vca?: number | null };
   points: CountyNightPoint[];
 };
 
