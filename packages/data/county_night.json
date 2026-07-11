@@ -830,9 +830,9 @@
           "pct": 75.41,
           "ballots": 18258,
           "final": 24211,
-          "confidence": "secondary",
+          "confidence": "primary",
           "comparable": true,
-          "source_url": "https://web.archive.org/web/20180619011846/http://vote.sos.ca.gov/returns/status/"
+          "source_url": "https://web.archive.org/web/20260710214438/https://results.enr.clarityelections.com/CA/Madera/75694/204457/json/sum.json"
         },
         {
           "year": 2018,

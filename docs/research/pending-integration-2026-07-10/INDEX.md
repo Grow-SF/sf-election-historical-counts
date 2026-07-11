@@ -24,7 +24,7 @@ dossier-lake-ca-primaries.md: Lake County primary election research. Status: Int
 
 dossier-los-angeles-ca-primaries.md: Los Angeles County primary election research. Status: Integrated 2026-07-10 (backfill batch 2): 2012-06-05, 2014-06-03, 2022-06-07, 2024-03-05 were already landed via the SoS status-page sweep (CONFIRMED/primary, bracketed) with values matching the dossier exactly; equal evidence class, so cross-cited as corroboration in the JSON note only (no field change). 2016-06-07 and 2018-06-05 were absent from the live dataset entirely and are now landed as new CONFIRMED/primary rows from the dossier's registrar press-release + exact-arithmetic bracket evidence.
 
-dossier-madera-ca-primaries.md: Madera County primary election research. Status: Pending integration.
+dossier-madera-ca-primaries.md: Madera County primary election research. Status: Integrated 2026-07-10 (backfill batch 2): all 6 primary rows were already landed (no new rows). 2012/2014/2016 dossier concluded null where the live dataset already had CONFIRMED/primary SoS-sweep values (nothing to land). 2022/2024 match the dossier exactly (Clarity version bracket, independent Sierra News Online corroboration); equal evidence class, cross-cited as corroboration in the JSON note only. 2018-06-05 UPGRADED from the live PLAUSIBLE/secondary CA SoS single-capture read to the dossier's CONFIRMED/primary Clarity version-bracket evidence (same 18,258 value both routes; prior read retained as history in the JSON note).
 
 dossier-mendocino-ca.md: Mendocino County general election research. Status: Pending integration.
 

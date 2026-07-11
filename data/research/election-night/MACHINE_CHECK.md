@@ -127,7 +127,7 @@ verify_en_* scripts to regenerate).
 | madera-ca | 2016-11-08 | denominator | 44,186 | VERIFIED | 102 87,254 58,086 15,211 28,975 44,186 65.58% 76.07% 50.64% |
 | madera-ca | 2016-11-08 | numerator | 35,364 | VERIFIED | Absentee Ballots Cast 22,561 38.8% Total Ballots Cast 35,364 60.8% President and Vice President Completed Prec |
 | madera-ca | 2018-06-05 | denominator | 24,211 | VERIFIED | 69 89,532 54,848 1,995 22,216 24,211 91.76% 44.14% 27.04% |
-| madera-ca | 2018-06-05 | numerator | 18,258 | VERIFIED | U Madera 69 69 100.0% 54,848 18,258 33% Jun 5 9:07 p.m. Jun 6 12:20 a.m. SF |
+| madera-ca | 2018-06-05 | numerator | 18,258 | VERIFIED | 0 , "BCxContest" : 0 , "VF" : 1 , "TP" : 69 , "PR" : 69 , "TV" : 54815 , "BC" : 18258 , "RC" : 0 , "RO" : 0 , "CH" : [ " |
 | madera-ca | 2018-11-06 | denominator | 38,968 | VERIFIED | 69 89,818 57,418 4,434 34,534 38,968 88.62% 67.87% 43.39% |
 | madera-ca | 2018-11-06 | numerator | 28,159 | VERIFIED | 0 , "BCxContest" : 0 , "VF" : 1 , "TP" : 69 , "PR" : 62 , "TV" : 31713 , "BC" : 28159 , "RC" : 0 , "RO" : 0 , "CH" : [ " |
 | madera-ca | 2022-06-07 | denominator | 24,810 | VERIFIED | 33 93,606 71,979 1,333 23,477 24,810 94.63% 34.47% 26.50% |

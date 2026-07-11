@@ -55,14 +55,6 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for madera-ca 2012-11-06
       controller verdict: PLAUSIBLE (CA SoS status-page single-capture bracket (RUNBOOK 8))
 
-- [ ] **madera-ca 2018-06-05** (secondary confidence)
-      claimed: night ballots **18,258**, certified final **24,211**, share **75.41%**
-      numerator URL: https://web.archive.org/web/20180619011846/http://vote.sos.ca.gov/returns/status/
-      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf
-      look for: CA SoS per-county reporting-status page ('SF'-coded row), Madera County: 100.0% precincts reporting, Ballots Cast 18,258, Last Report stamp 'Jun 6 12:20 a.m.' (First Report 'Jun 5 9:07 p.m.') at Wayback capture 20180619011846 (2018-06-19 01:18:46 UTC). SINGLE CAPTURE at 2018-06-19 01:18:46 UTC carri
-      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for madera-ca 2018-06-05
-      controller verdict: PLAUSIBLE (CA SoS status-page single-capture bracket (RUNBOOK 8))
-
 - [ ] **mendocino-ca 2012-11-06** (secondary confidence)
       claimed: night ballots **18,401**, certified final **36,080**, share **51.0%**
       numerator URL: https://theava.com/archives/62338
@@ -579,6 +571,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: Numerator 35,364 = the election-night Semi-Final Official Canvass total from votemadera.com's static results page resultsc33.htm/result33.htm, header 'Election Results as of 11/08/2016 at 11:31:17 PM', 102 of 102 precincts completed: Precinct Ballots Cast 12,803 + Absentee Ballots Cast 22,561 = Tota
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for madera-ca 2016-11-08
       controller verdict: CONFIRMED (static county results page, frozen)
+
+- [ ] **madera-ca 2018-06-05** (plateau check)
+      claimed: night ballots **18,258**, certified final **24,211**, share **75.41%**
+      numerator URL: https://web.archive.org/web/20260710214438/https://results.enr.clarityelections.com/CA/Madera/75694/204457/json/sum.json
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: UPGRADED (2026-07-10, backfill batch 2): numerator 18,258 = total Ballots Cast (Contests[0].BC) from Madera County's Clarity ENR election-night data version 204457 (results.enr.clarityelections.com/CA/Madera/75694/204457/json/sum.json), Madera's FIRST-EVER Clarity election (id 75694). websiteupdated
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for madera-ca 2018-06-05
+      controller verdict: CONFIRMED (UPGRADED (2026-07-10): Clarity version bracket, re-derived from CDN, supersedes the prior CA SoS single-capture PLAUSIBLE read)
 
 - [ ] **madera-ca 2018-11-06** (plateau check)
       claimed: night ballots **28,159**, certified final **38,968**, share **72.26%**

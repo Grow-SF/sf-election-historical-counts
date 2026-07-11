@@ -905,9 +905,9 @@
  {
   "slug": "madera-ca",
   "date": "2018-06-05",
-  "verdict": "PLAUSIBLE",
-  "basis": "CA SoS status-page single-capture bracket (RUNBOOK 8)",
-  "evidence": "Madera row at capture 20180619011846 (2018-06-19 01:18:46 UTC): 100.0% precincts, Ballots Cast 18,258, Last Report 'Jun 6 12:20 a.m.'. SINGLE CAPTURE at 2018-06-19 01:18:46 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. Sweep bracket-evidence cross-check: \"single capture 20180619011846, no later capture to confirm freeze\" (scratchpad/sos-status-sweep.md)."
+  "verdict": "CONFIRMED",
+  "basis": "UPGRADED (2026-07-10): Clarity version bracket, re-derived from CDN, supersedes the prior CA SoS single-capture PLAUSIBLE read",
+  "evidence": "cited v204457 stamped '6/6/2018 12:03:33 AM PDT', BC 18,258; next v204551 stamped '6/6/2018 4:45:04 PM PDT' (~17hrs later) still BC 18,258; only v204780 (6/8) shows the canvass resuming (22,247). Certified v206422 (6/19) BC=24,211 matches SoS SoV exactly. Same 18,258 value as the prior CA SoS single-capture read (retained as history in the JSON note), now with an independent bracket. Source: docs/research/pending-integration-2026-07-10/dossier-madera-ca-primaries.md Item 4."
  },
  {
   "slug": "mendocino-ca",
