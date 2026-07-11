@@ -40,5 +40,19 @@
   "url": "https://drive.google.com/uc?export=download&id=1U3HX1aB8Fim-Ca6_qL_EdSPliM8OHpYB",
   "evidence": "Page: 1 of 6 11/5/2024 10:05:17 PM. Election Summary Report General Election Del Norte County November 05, 2024. Election Night Report Unofficial Results Final Report. Precincts Reported: 19 of 19 (100.00%) Voters Cast: 6,719 of 15,117 (44.45%).",
   "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV C5740 PDF) live Google Drive PDF to PNG, read visually; verified 2026-07-10."
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2016-06-07",
+  "url": "https://drive.google.com/uc?export=download&id=1Y1Kj4-IqXW5uEgZh6c206EsmNoj9pSEN",
+  "evidence": "Election Summary Report Closed Primary County of Del Norte June 07, 2016. Final Election Night Report Unofficial Results. Precincts Reported: 18 of 18 (100.00%) Registered Voters: 5,020 of 13,525 (37.12%) Ballots Cast: 5,020. Page timestamp 6/7/2016 10:07:46 PM.",
+  "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV C5240 PDF) live Google Drive PDF to PNG, read visually; verified 2026-07-10."
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2018-06-05",
+  "url": "https://drive.google.com/uc?export=download&id=1xrb3b2KmuaR0EhVysw--eKyjXANMzy6k",
+  "evidence": "TOTAL RESULT SUMMARY REPORT (UNOFFICIAL) STATEWIDE GUB PRIMARY ELECTION TUESDAY, JUNE 5, 2018. Registered Voters: 4,637 of 14,151 (32.77%). Governor contest Times Cast ... Total 4,637 / 14,151 32.77%. Page timestamp 6/5/2018 9:42:38 PM.",
+  "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV C5240 PDF) live Google Drive PDF to PNG, read visually; verified 2026-07-10."
  }
 ]

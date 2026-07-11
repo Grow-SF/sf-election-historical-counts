@@ -31,8 +31,12 @@ verify_en_* scripts to regenerate).
 | del-norte-ca | 2014-06-03 | numerator | 5,122 | VERIFIED | Del Norte 18 18 100.0% 12,398 5,122 41.3% Jun 3 8:32 p.m. Jun 3 10:14 p.m. FENU |
 | del-norte-ca | 2014-11-04 | denominator | 7,332 | VERIFIED | 18 18,253 12,750 2,980 4,352 7,332 59.36% 57.51% 40.17% |
 | del-norte-ca | 2014-11-04 | numerator | 6,539 | VERIFIED | render-verified: DEL_20141104_E Summary Report Del Norte County Nov. 4, 2014 General Election Unofficial. Registration & |
+| del-norte-ca | 2016-06-07 | denominator | 6,185 | VERIFIED | l Norte 18 18,073 13,585 2,184 4,001 6,185 64.69% 45.53% 34.22% |
+| del-norte-ca | 2016-06-07 | numerator | 5,020 | VERIFIED | render-verified: Election Summary Report Closed Primary County of Del Norte June 07, 2016. Final Election Night Report U |
 | del-norte-ca | 2016-11-08 | denominator | 9,790 | VERIFIED | 18 17,996 14,318 3,653 6,137 9,790 62.69% 68.38% 54.40% |
 | del-norte-ca | 2016-11-08 | numerator | 8,450 | VERIFIED | Del Norte 18 18 100.0% 14,318 8,450 59.0% Nov 8 8:30 p.m. Nov 8 11:38 p.m. SF |
+| del-norte-ca | 2018-06-05 | denominator | 5,472 | VERIFIED | 18 17,889 14,141 1,796 3,676 5,472 67.18% 38.70% 30.59% |
+| del-norte-ca | 2018-06-05 | numerator | 4,637 | VERIFIED | render-verified: TOTAL RESULT SUMMARY REPORT (UNOFFICIAL) STATEWIDE GUB PRIMARY ELECTION TUESDAY, JUNE 5, 2018. Register |
 | del-norte-ca | 2018-11-06 | denominator | 8,439 | VERIFIED | 18 18,039 14,150 2,898 5,541 8,439 65.66% 59.64% 46.78% |
 | del-norte-ca | 2018-11-06 | numerator | 7,127 | VERIFIED | render-verified: Page: 1 of 12 11/6/2018 9:42:38 PM. Summary for: All Contests, All Districts, All Tabulators, All Count |
 | del-norte-ca | 2022-06-07 | denominator | 5,989 | VERIFIED | 19 19,262 15,256 712 5,277 5,989 88.11% 39.26% 31.09% |

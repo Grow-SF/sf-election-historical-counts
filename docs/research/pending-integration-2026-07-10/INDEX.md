@@ -14,7 +14,7 @@ dossier-colusa-ca.md: Colusa County research including web archive surveys and t
 
 dossier-del-norte-ca.md: Del Norte County general election research. Status: Pending integration.
 
-dossier-del-norte-ca-primaries.md: Del Norte County primary election research. Status: Pending integration.
+dossier-del-norte-ca-primaries.md: Del Norte County primary election research. Status: Integrated 2026-07-10 (backfill batch 1): 2012/2014 dossier concluded null where the live dataset already had SoS-sweep values (nothing to land); 2016-06-07 and 2018-06-05 were absent from the live dataset entirely and are now landed as new CONFIRMED/primary rows (2018 carries a FLAG for manual operator re: the ballots-vs-cards mislabel resolution); 2022/2024 already CONFIRMED/primary with matching values, corroborated in place.
 
 dossier-fresno-ca-primaries.md: Fresno County primary election research and archive availability assessment. Status: Pending integration.
 

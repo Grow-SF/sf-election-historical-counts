@@ -952,6 +952,20 @@
   "evidence": "Del Norte row at capture 20240306063830 (2024-03-06 06:38:30 UTC): 100.0% precincts, Ballots Cast 3,285, Last Report 'Mar 5 10:25 p.m.'. FROZEN: the identical Ballots Cast figure 3,285 recurs across 5 captures, 2024-03-06 06:38:30 UTC through 2024-03-08 15:51:26 UTC, before the next available capture (2024-03-09 19:45:02 UTC) jumps to 6,055 (Last Report 'Mar 8 3:28 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: \"frozen thru 4 captures (Mar6-Mar7), jumps Mar9 to 6,055/Mar8 3:28pm\" (scratchpad/sos-status-sweep.md)."
  },
  {
+  "slug": "del-norte-ca",
+  "date": "2016-06-07",
+  "verdict": "CONFIRMED",
+  "basis": "self-titled 'Final Election Night Report / Unofficial Results', last of a numbered on-night release series (numbering does NOT equal plateau position here -- verified via each file's own CreationDate), next report 3 days later retitled 'Friday Report' at a higher count",
+  "evidence": "Release 3/5, file CreationDate 6/7/2016 11:09:27 PM PDT / printed page stamp 10:07:46 PM, 18/18 precincts (100%), Ballots Cast 5,020/13,525 (37.12%); Release 4 (next in series, NOT the plateau despite the numbering) is CreationDate 6/10/2016 (3 days later), Ballots Cast 6,178 -- confirms Release 3 was the last report before the canvass resumed. Release 5 (6/15, 8 days later) explicitly filename-suffixed FINAL RESULTS. Source: docs/research/pending-integration-2026-07-10/dossier-del-norte-ca-primaries.md Item 3."
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2018-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "late-night internal timestamp (self-description leg), last of a numbered on-night release series before a 2-days-later report explicitly relabeled 'Update' at a higher count (bracket leg); front-page ballot figure disambiguated per the runbook's known Del Norte registered-voters/times-cast mislabel using the per-contest Times Cast cross-check",
+  "evidence": "Release 4/6, CreationDate 6/5/2018 9:46:30 PM PDT / printed page stamp 9:42:38 PM, 18/18 precincts (100%); front page 'Registered Voters: 4,637/14,151 (32.77%)' cross-checked against GOVERNOR contest Times Cast 4,637/14,151 (32.77%) -- exact match confirms 4,637 (not the front page's separately printed 'Ballots Cast: 9,284', which is ballot cards) is the true turnout figure. Release 5 (6/7, 2 days later) retitled '1st Update (6/7/2018)', Registered-Voters field up to 5,347/14,151 -- confirms Release 4 was the last report before the canvass resumed. Source: docs/research/pending-integration-2026-07-10/dossier-del-norte-ca-primaries.md Item 4."
+ },
+ {
   "slug": "fresno-ca",
   "date": "2022-06-07",
   "verdict": "CONFIRMED",

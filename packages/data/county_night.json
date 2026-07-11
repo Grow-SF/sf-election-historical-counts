@@ -294,6 +294,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 81.16,
+          "ballots": 5020,
+          "final": 6185,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://drive.google.com/uc?export=download&id=1Y1Kj4-IqXW5uEgZh6c206EsmNoj9pSEN"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": 86.31,
           "ballots": 8450,
@@ -301,6 +311,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20161110185817/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 84.74,
+          "ballots": 4637,
+          "final": 5472,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://drive.google.com/uc?export=download&id=1xrb3b2KmuaR0EhVysw--eKyjXANMzy6k"
         },
         {
           "year": 2018,
