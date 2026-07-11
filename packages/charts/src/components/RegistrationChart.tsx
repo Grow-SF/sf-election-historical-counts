@@ -88,7 +88,7 @@ export default function RegistrationChart({
     <ChartFrame
       title="Registration among eligible citizens"
       subtitle="Registered ÷ citizen voting-age population, 1908–2026"
-      note="Registered voters as a share of eligible citizens. The 1990s spike past 100% is pre-“motor-voter” deadwood, since cleaned up. Sources: CA SoS Reports of Registration and Statement of Vote from 1978 (1974–98 pending hand-verification); pre-1978 points are per-election registration over census citizen voting-age population (IPUMS NHGIS), shown at presidential generals."
+      note="The 1990s spike past 100% is pre-motor-voter deadwood. Sources: CA SoS Reports of Registration and Statement of Vote from 1978 (1974–98 pending hand-verification); earlier points use census citizen voting-age population (IPUMS NHGIS), at presidential generals."
     >
       <ResponsiveContainer width="100%" height={360}>
         <ComposedChart

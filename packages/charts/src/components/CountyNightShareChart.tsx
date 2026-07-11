@@ -209,17 +209,11 @@ export default function CountyNightShareChart() {
       subtitle={`Election-night share of the certified vote, before vs after adopting e-pollbooks / automated signature verification, ${type} generals`}
       note={
         <>
-          Each bar runs from a county’s last <strong>pre-adoption</strong>{" "}
-          election-night share to its most recent <strong>post-adoption</strong>{" "}
-          share (same election type); green rose, red fell. San Francisco,
-          which adopted <em>none</em> of this tech, is the bold control, and its
-          share fell too. If the tech sped up the night count, adopters’ bars
-          would climb green well past SF’s; instead several fall as far or
-          farther. The 2018–2020 statewide move to all-mail (Voter’s Choice Act)
-          is the bigger driver, independent of e-pollbooks/ASV. Shows only
-          counties with a complete, primary-sourced election-night series (plus
-          SF); excludes 2020 (COVID all-mail outlier) and the Nevada 2024
-          ballot-printer-defect outlier. Per-number sources in{" "}
+          Green rose after adoption, red fell; San Francisco (bold, no new
+          tech) is the control. The 2018–2020 statewide move to all-mail
+          (Voter’s Choice Act) is the bigger driver, independent of
+          e-pollbooks/ASV. Excludes 2020 (COVID all-mail) and the Nevada 2024
+          printer-defect outlier. Per-number sources in{" "}
           <a
             href="https://github.com/Grow-SF/sf-election-historical-counts/blob/main/data/research/election-night/VERIFY.md"
             target="_blank"

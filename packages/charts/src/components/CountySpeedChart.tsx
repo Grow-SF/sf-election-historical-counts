@@ -131,14 +131,10 @@ export default function CountySpeedChart() {
       subtitle="Share of ballots counted within a week of Election Day, 2022 vs 2025"
       note={
         <>
-          Most counties adopted this tech years before our one-week data begins
-          in 2022 — and several were still slow then — so the 2022–25 rise is
-          largely a statewide trend (the state average climbed 78% → 94%), not a
-          direct adoption effect. San Francisco, which adopted <em>nothing</em>,
-          is the one that fell behind that rise; Fresno, which adopted both, also
-          slipped. Marks/badges show each county’s adoption year. (National
-          adopters — Pennsylvania 2016, Wisconsin 2018, New York 2019 — publish
-          no comparable metric.) Sources in{" "}
+          Most counties adopted this tech before the one-week series begins
+          (2022), so the 2022–25 rise is largely a statewide trend (state
+          average 78% → 94%), not an adoption effect. Badges show adoption
+          years. Sources in{" "}
           <a
             href="https://github.com/Grow-SF/sf-election-historical-counts/blob/main/docs/sources.md"
             target="_blank"

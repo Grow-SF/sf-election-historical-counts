@@ -314,12 +314,9 @@ export default function NightShareChart({
         subtitle="Percent counted on election night, 1851–2026"
         note={
           <>
-            Each dot shows what percent of the final turnout was counted on
-            election night. For elections post-1964, the open diamond is the
-            in-person turnout and the dot is in-person + early mail turnout. Dim
-            dashed dots are mid-count press snapshots (lower bounds, excluded
-            from the trend), and rings mark races the election-night leader
-            lost.
+            Dim dashed dots are mid-count press snapshots (lower bounds,
+            excluded from the trend); rings mark races the election-night
+            leader lost.
           </>
         }
       >

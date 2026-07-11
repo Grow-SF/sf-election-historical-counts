@@ -72,14 +72,10 @@ export default function CountyNightTimelineChart() {
       subtitle="Each county’s full trajectory, 2012–2024. The dashed grey line is San Francisco (no new tech) for comparison"
       note={
         <>
-          One panel per county; the vertical dotted mark is the year it adopted
-          e-pollbooks / automated signature verification. Lines zigzag because
-          presidential years (’12 ’16 ’24) draw more election-day turnout than
-          midterms (’14 ’18 ’22), so watch the <em>level</em>, not the saw-tooth.
-          The all-mail Voter’s Choice Act counties (Napa, San&nbsp;Mateo,
-          Nevada, all ’18) step <strong>down</strong> right at adoption and stay
-          there; SF, with no tech, drifts down too. 2020 (COVID all-mail) is
-          omitted, as is the Nevada 2024 printer-defect outlier. Sources in{" "}
+          The dotted vertical mark is each county’s adoption year. Presidential
+          years draw more election-day turnout than midterms, so read the{" "}
+          <em>level</em>, not the saw-tooth. 2020 (COVID all-mail) and the
+          Nevada 2024 printer-defect outlier are omitted. Sources in{" "}
           <a
             href="https://github.com/Grow-SF/sf-election-historical-counts/blob/main/data/research/election-night/VERIFY.md"
             target="_blank"

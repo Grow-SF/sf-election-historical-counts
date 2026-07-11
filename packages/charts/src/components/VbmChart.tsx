@@ -80,7 +80,7 @@ export default function VbmChart({
     <ChartFrame
       title="Vote-by-mail share of ballots cast"
       subtitle="San Francisco, 1964–2026"
-      note="Mail ballots as a share of all ballots cast. Sources: DOE turnout history, certified Statements of Vote, per-release results."
+      note="Sources: DOE turnout history, certified Statements of Vote, per-release results."
     >
       <ResponsiveContainer width="100%" height={380}>
         <ComposedChart

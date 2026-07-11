@@ -18,7 +18,7 @@ import { ChartFrame, eventLines, noDataGuides } from "./ui";
 
 // Mutually-exclusive bands that sum to total population, bottom (voted) to top
 // (children). The thickness of each band over time is the story. Muted GrowSF
-// brand tokens (green / soft earth / pale green / blue / purple / grey), ordered
+// brand tokens (green / soft earth / pale green / purple / blue / grey), ordered
 // so every adjacent band differs in hue and/or lightness — keeps the bands
 // distinct for colorblind viewers without the saturated look (worst adjacent
 // CVD ΔE 20, validated). Ineligible adults stays blue (the prose names it "the
@@ -29,14 +29,14 @@ const BANDS = [
   { key: "regNotVoted", label: "registered, didn't vote", color: "#DF7E45" }, // earth-40
   { key: "notRegistered", label: "eligible, not registered", color: "#BCE3B6" }, // green-30
   {
-    key: "nonCitizen",
-    label: "ineligible adults (mostly non-citizens)",
-    color: "#4BADE4", // brand-blue-3 (softer than blue-6, still clearly the "blue band")
-  },
-  {
     key: "barredWomen",
     label: "women, barred until 1911",
     color: "#7E5AA8", // brand purple (the Midterm token)
+  },
+  {
+    key: "nonCitizen",
+    label: "ineligible adults (mostly non-citizens)",
+    color: "#4BADE4", // brand-blue-3 (softer than blue-6, still clearly the "blue band")
   },
   { key: "children", label: "under voting age", color: "#D2DBDC" }, // gray-2
 ] as const;
@@ -139,7 +139,7 @@ export default function FranchiseFunnelChart({
     <ChartFrame
       title="Who could vote — and who did"
       subtitle="San Francisco by presidential election, 1900–2024"
-      note="Bands are the six groups that make up the total population. The blue band is adults ineligible to vote — overwhelmingly non-citizens; the purple band is adult women, barred from voting until California's suffrage amendment of October 1911 (1912 is the first presidential election with women in the electorate; the 1912/1916 eligible figures apply the census citizen share to the full adult population). Switch to “% of population” to read each band as a share of the whole — the chart fills to 100% so the proportions stay comparable as the city grows. The shaded 1990s “deadwood” box marks the years when bloated registration rolls pushed registration up to (or past) the eligible estimate — so the “eligible, not registered” band nearly disappears — until the 1995 motor-voter law forced the cleanup. Sources: IPUMS NHGIS census (population, voting-age by sex, citizenship); SoS and Dept. of Elections."
+      note="The 1990s “deadwood” box: bloated rolls pushed registration past the eligible estimate until the 1995 motor-voter cleanup. Sources: IPUMS NHGIS census; CA SoS; SF Dept. of Elections."
     >
       <div className="smallcaps mb-2 flex items-center gap-1.5 text-faint">
         <span className="mr-1">show</span>

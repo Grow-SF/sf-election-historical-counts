@@ -98,3 +98,9 @@ Searched exhaustively for a PRINTED female-21+ (or single-years-by-sex) figure f
 - c1910v1.txt = archive.org OCR text of 1910 Vol I (cu31924070698315); c1910abstract_ca.txt = archive.org OCR of Abstract + CA supplement
 - 41084484v2ch04.pdf / 41084484v2ch03.pdf = 1920 Vol II chapters (ch. 3 general tables incl. Table 15 used for the 1920 result; ch. III age-distribution contents)
 - Key crops: sf1900_t9*.png (1900 Table 9 SF), t26sf_*.png + ocr1900p6/pg61-61.png (1900 Tables 26/27 SF), sf1910_left-25.png (1910 Table 50 SF), t43ca_*.png (1910 CA single years), t2ca14-014.png (1900 CA single years), sf1920_*.png (1920 Table 15 SF)
+
+## Independent cross-check (partial)
+A second, independent recovery over archive.org/HathiTrust copies was run in parallel
+and stopped early by the operator once the primary recovery reconciled. Before stopping
+it had independently confirmed 1900 males 21+ = 128,985 from a different scan copy
+(males-of-voting-age city table, printed p.173 in its copy).
