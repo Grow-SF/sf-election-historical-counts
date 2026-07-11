@@ -562,11 +562,15 @@ CA SoS status-page frozen-capture bracket (RUNBOOK 8).
 
 Mendocino row at capture 20160614032019 (2016-06-14 03:20:19 UTC): 100.0% precincts, Ballots Cast 11,320, Last Report 'Jun 8 4:00 a.m.'. FROZEN: the identical Ballots Cast figure 11,320 recurs across 5 captures, 2016-06-14 03:20:19 UTC through 2016-06-22 03:35:32 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20160614032019->20160622033532 (to end of window)" (scratchpad/sos-status-sweep.md).
 
+UPDATE (2026-07-10, primaries batch-1 integration): CORROBORATED via Mendocino's own "Election Summary Report" page (/acr/current.htm), self-titled "PRESIDENTIAL PRIMARY ELECTION JUNE 7, 2016 ... Final Election Night Report", internal timestamp "06/08/16 02:24:41", Cards Cast 11,320 (24.19%), 250/250 precincts (100%) -- a later capture of the same URL (17 days on) is byte-identical, independently matching this row's value exactly. See docs/research/pending-integration-2026-07-10/dossier-mendocino-ca-primaries.md Item 3.
+
 ### mendocino-ca 2018-06-05: PLAUSIBLE
 
 CA SoS status-page single-capture bracket (RUNBOOK 8).
 
 Mendocino row at capture 20180619011846 (2018-06-19 01:18:46 UTC): 100.0% precincts, Ballots Cast 19,049, Last Report 'Jun 6 3:57 a.m.'. SINGLE CAPTURE at 2018-06-19 01:18:46 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. Sweep bracket-evidence cross-check: "single capture 20180619011846, no later capture to confirm freeze" (scratchpad/sos-status-sweep.md).
+
+UPDATE (2026-07-10, primaries batch-1 integration): CORROBORATED (still PLAUSIBLE/secondary, not upgraded -- an independent route with no non-circular second leg either) by Anderson Valley Advertiser, "Mendocino County Today: Wednesday, June 6, 2018" (theava.com/archives/83237): "UPDATE (Wednesday 8:40am) With all precincts reporting and just over 40% of the ballots cast (19,049) the local trends are holding" -- an exact match to this row's value. CALIBRATION FLAG carried forward: 19,049/22,896 = 83.2% is well above this county's other primary years; kept flagged for human review though two independent sources now agree on the number. See docs/research/pending-integration-2026-07-10/dossier-mendocino-ca-primaries.md Item 4.
 
 ### napa-ca 2016-06-07: CONFIRMED
 
@@ -720,6 +724,8 @@ CA SoS status-page frozen-capture bracket (RUNBOOK 8).
 
 Mendocino row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 3,864, Last Report 'Jun 8 12:48 a.m.'. FROZEN: the identical Ballots Cast figure 3,864 recurs across 6 captures, 2022-06-08 09:42:59 UTC through 2022-06-13 22:59:28 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20220608094259->20220613225928 (to end of window)" (scratchpad/sos-status-sweep.md).
 
+UPDATE (2026-07-10, primaries batch-1 integration): CORROBORATED (secondary, weaker than this landed CONFIRMED bracket, kept for the record) by two news outlets: MendoFever's live-blog tracks 3,461 (8:06pm, first tranche, excluded) -> 3,597 (10:15pm) -> "12:32am, all precincts reporting"; The Mendocino Voice, attributed to county clerk Katrina Bartolomie: "Unofficial election results showed 3,864 registered voters' ballots were counted as of early morning Wednesday, June 8" -- an exact match to this row's value. See docs/research/pending-integration-2026-07-10/dossier-mendocino-ca-primaries.md Item 5.
+
 ### mendocino-ca 2022-11-08: CONFIRMED
 
 CA SoS status-page frozen-capture bracket (RUNBOOK 8).
@@ -731,6 +737,8 @@ Mendocino row at capture 20221109142729 (2022-11-09 14:27:29 UTC): 100.0% precin
 CA SoS status-page frozen-capture bracket (RUNBOOK 8).
 
 Mendocino row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 7,418, Last Report 'Mar 6 12:35 a.m.'. FROZEN: the identical Ballots Cast figure 7,418 recurs across 6 captures, 2024-03-06 14:44:09 UTC through 2024-03-11 13:59:17 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen ALL 7 remaining captures thru Mar 11 (never moved)" (scratchpad/sos-status-sweep.md).
+
+UPDATE (2026-07-10, primaries batch-1 integration): CORROBORATED (secondary, weaker than this landed CONFIRMED bracket, kept for the record) by The Mendocino Voice: "UPDATE 3/6/24 9:30 a.m.: Mendocino County's election results were updated after midnight on election night, and the current results include a total of 7,418 ballots, just over 14% of the county's 52,602 registered voters" -- an exact match to this row's value; MendoFever's independently-recovered 8:09pm first-tranche checkpoint (7,094) is explicitly excluded there. See docs/research/pending-integration-2026-07-10/dossier-mendocino-ca-primaries.md Item 6.
 
 ### napa-ca 2022-06-07: CONFIRMED
 

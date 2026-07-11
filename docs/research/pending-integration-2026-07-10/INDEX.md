@@ -28,7 +28,7 @@ dossier-madera-ca-primaries.md: Madera County primary election research. Status:
 
 dossier-mendocino-ca.md: Mendocino County general election research. Status: Pending integration.
 
-dossier-mendocino-ca-primaries.md: Mendocino County primary election research. Status: Pending integration.
+dossier-mendocino-ca-primaries.md: Mendocino County primary election research. Status: Integrated 2026-07-10 (backfill batch 1): 2012 dossier concluded null where the live dataset already had a SoS-sweep value (nothing to land). 2016/2018/2022/2024 already sourced with matching values, corroborated in place (no field changes; 2018 stays PLAUSIBLE/secondary with its calibration flag carried forward, both routes independently agree on the same unusually-high figure). 2014-06-03 is a VALUE DISAGREEMENT the dossier's subtraction-derived 9,498/57.86% (PLAUSIBLE/secondary) does not match the landed 8,669/52.80% (CONFIRMED/primary, SoS sweep); the landed value was NOT touched (stronger evidence class), flagged to the operator in the batch-1 report rather than silently resolved.
 
 dossier-napa-ca-primaries.md: Napa County primary election research. Status: Pending integration.
 
