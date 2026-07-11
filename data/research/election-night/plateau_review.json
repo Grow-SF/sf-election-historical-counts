@@ -435,10 +435,31 @@
  },
  {
   "slug": "sacramento-ca",
+  "date": "2012-06-05",
+  "verdict": "PLAUSIBLE",
+  "basis": "NewsBank newspaper report; self-describing turnout figure but no independent bracket/hold leg obtainable (RUNBOOK 8)",
+  "evidence": "NEWSBANK RECOVERY 2026-07-10: fills a documented null (dossier exhausted press-release archive, eresults.saccounty.net CDX, Sacramento Bee CDX). Sacramento Bee, June 6, 2012 (docref news/158D11D2DFBCFC18): '150,286 ... 23 percent'. No Wayback bracket exists to independently confirm this was the LAST report of election night, hence PLAUSIBLE not CONFIRMED. Source: docs/research/pending-integration-2026-07-10/dossier-sacramento-ca-primaries.md Item 1 (null) + newsbank-recovery.md log."
+ },
+ {
+  "slug": "sacramento-ca",
   "date": "2012-11-06",
   "verdict": "PLAUSIBLE",
   "basis": "distinct on-time capture exists but is currently unservable",
   "evidence": "CDX shows a distinct Nov 8 2012 8:53 PM PST capture (digest CYR7..., 10,563 bytes) differing from the 2013 FINAL-report capture (10,647 bytes); Wayback replay now 302-aliases it to 2013-02-15, which is why machine fetches see the Nov 30 report; the note's reading (Run Date 11/07/12 12:49 AM, 328,516 at 1,106/1,106) is temporally coherent but machine-unverifiable today"
+ },
+ {
+  "slug": "sacramento-ca",
+  "date": "2016-06-07",
+  "verdict": "REFUTED_AS_PLATEAU",
+  "basis": "kept as documented ceiling (RUNBOOK 5.2), PROVEN still-moving between the only two available captures",
+  "evidence": "eresults.saccounty.net SEMI-OFFICIAL report, Run Date 06/10/16 (3 days post-election), Ballots Cast 230,234; the only later capture (Run Date 06/17/16) shows 297,409, a 29% jump, proving the count was still climbing -- the opposite of the CONFIRMED 'held identical' pattern. comparable=false. Source: docs/research/pending-integration-2026-07-10/dossier-sacramento-ca-primaries.md Item 3."
+ },
+ {
+  "slug": "sacramento-ca",
+  "date": "2018-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "held-flat-then-jumped bracket on the VCA-era results app (RUNBOOK 8)",
+  "evidence": "sacresults.e-cers.com Default.aspx, hidden field hidVoterTurnout=124,609, 'Results Last Updated 6/6/2018 2:25:56 PM'; the Jun 9 capture shows hidVoterTurnout=154,435 (materially higher, proves the Jun 6 report was superseded); the Jul 8 capture shows 310,881, exactly the certified final. Source: docs/research/pending-integration-2026-07-10/dossier-sacramento-ca-primaries.md Item 4."
  },
  {
   "slug": "sacramento-ca",

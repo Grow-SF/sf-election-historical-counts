@@ -1687,6 +1687,16 @@
       "points": [
         {
           "year": 2012,
+          "type": "presidential-primary",
+          "pct": 64.57,
+          "ballots": 150286,
+          "final": 232743,
+          "confidence": "secondary",
+          "comparable": true,
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/158D11D2DFBCFC18"
+        },
+        {
+          "year": 2012,
           "type": "presidential",
           "pct": 62.93,
           "ballots": 328516,
@@ -1717,6 +1727,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 67.64,
+          "ballots": 230234,
+          "final": 340360,
+          "confidence": "secondary",
+          "comparable": false,
+          "source_url": "https://web.archive.org/web/20160611133801/https://eresults.saccounty.net/"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": 57.1,
           "ballots": 328744,
@@ -1724,6 +1744,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20161110185817/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 40.08,
+          "ballots": 124609,
+          "final": 310881,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20180607104634/http://sacresults.e-cers.com/default.aspx"
         },
         {
           "year": 2018,

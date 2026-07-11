@@ -29,6 +29,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for mendocino-ca 2012-11-06
       controller verdict: PLAUSIBLE (maintainer-approved approximation; self-description consistent but no independent bracket/hold leg obtainable (RUNBOOK 8))
 
+- [ ] **sacramento-ca 2012-06-05** (numerator NOT_FOUND)
+      claimed: night ballots **150,286**, certified final **232,743**, share **64.57%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/158D11D2DFBCFC18
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/2012-complete-sov.pdf
+      look for: NEWSBANK RECOVERY (2026-07-10). Fills the dossier's documented null: docs/research/pending-integration-2026-07-10/dossier-sacramento-ca-primaries.md Item 1 exhausted all three machine-research routes (press release archive did not exist yet in 2012, zero Wayback captures of eresults.saccounty.net du
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2012-06-05
+      controller verdict: PLAUSIBLE (NewsBank newspaper report; self-describing turnout figure but no independent bracket/hold leg obtainable (RUNBOOK 8))
+
 ## 2. Secondary-confidence rows (weakest sourcing, read closely)
 
 - [ ] **del-norte-ca 2012-11-06** (secondary confidence)
@@ -103,6 +111,22 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for placer-ca 2018-11-06
       controller verdict: REFUTED_AS_PLATEAU (page provably tracked the canvass)
 
+- [ ] **sacramento-ca 2012-06-05** (secondary confidence)
+      claimed: night ballots **150,286**, certified final **232,743**, share **64.57%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/158D11D2DFBCFC18
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/2012-complete-sov.pdf
+      look for: NEWSBANK RECOVERY (2026-07-10). Fills the dossier's documented null: docs/research/pending-integration-2026-07-10/dossier-sacramento-ca-primaries.md Item 1 exhausted all three machine-research routes (press release archive did not exist yet in 2012, zero Wayback captures of eresults.saccounty.net du
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2012-06-05
+      controller verdict: PLAUSIBLE (NewsBank newspaper report; self-describing turnout figure but no independent bracket/hold leg obtainable (RUNBOOK 8))
+
+- [ ] **sacramento-ca 2016-06-07** (secondary confidence)
+      claimed: night ballots **230,234**, certified final **340,360**, share **67.64%**
+      numerator URL: https://web.archive.org/web/20160611133801/https://eresults.saccounty.net/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf
+      look for: NEW ROW (2026-07-10). CEILING, not the plateau metric (RUNBOOK 5.2), and PROVEN still-moving. The eresults.saccounty.net root migrated to https around election day; only two real-content Wayback captures survive near this election, both labeled SEMI-OFFICIAL: 20160611133801 embeds RUN DATE 06/10/16 
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2016-06-07
+      controller verdict: REFUTED_AS_PLATEAU (kept as documented ceiling (RUNBOOK 5.2), PROVEN still-moving between the only two available captures)
+
 - [ ] **santa-clara-ca 2012-06-05** (secondary confidence)
       claimed: night ballots **234,342**, certified final **292,713**, share **80.06%**
       numerator URL: https://web.archive.org/web/20120607192808/http://www.sccgov.org/elections/results/jun2012/
@@ -136,6 +160,15 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-general/sov/03-voter-participation-stats-by-county.pdf
       look for: Certified final 256,972 ballots cast (CA SoS; election-day 93,581 + VBM 163,391; 56.24% of 456,891 registered). Pre-adoption, precinct-based (last midterm before VCA/e-pollbook/ASV in 2020). Election-night PLATEAU not sourceable. Fresno's 2018 GEMS results were served on the co.fresno.ca.us results 
       full flag: Certified final 256,972 ballots cast (CA SoS; election-day 93,581 + VBM 163,391; 56.24% of 456,891 registered). Pre-adoption, precinct-based (last midterm before VCA/e-pollbook/ASV in 2020). Election-night PLATEAU not sourceable. Fresno's 2018 GEMS results were served on the co.fresno.ca.us results page (/departments/county-clerk-registrar-of-voters/election-information/election-results/2018-november-general-election-results) with an embedded GEMS 'Election Summary Report'; that page's earliest Wayback capture is 2018-11-28, and by then the embed already showed a CANVASS report ('Unofficial Results 11/21/18 14:49:05', Cards Cast 239,032 of 455,662, 100% of 640 precincts) -- a mid-canvass figure 15 days out, NOT the election-night plateau. No no-dash election-night frozen file (Results20181106.htm) and no www2/2850/Post/2018Nov6 summary report were archived. News proxies give only day-after running framings (ABC30 abc30.com/fresno-county-elections-ballots-counting-votes/4642191/ 'more than 100,000 ballots still need to be counted'; GV Wire 11/7/2018) and are now both curl- and WebFetch-blocked (gvwire.com returns 403; McClatchy Fresno Bee blocked) -- FLAG for manual operator browser follow-up. Null per definition. RE-RESEARCH ATTEMPT (2026-07-10, gap-triage): applied the curl-the-Wayback-archived-copy bypass (runbook 6.7) to both named leads instead of their live-blocked hosts. It works technically (both fetch cleanly), but both turn out to be day-after canvass framings, not election-night reports: ABC30's piece (Wayback 20211021010755) has dateModified 2018-11-08T04:57:12Z = Nov 7 8:57 PM PST (~29 hours post-poll-close) and states the next update is Friday 3pm (canvass cadence); GV Wire's 'A Quick Look at Fresno Voter Turnout' (Wayback 20221204193036) has datePublished 2018-11-10T01:49:07Z = Nov 9 5:49 PM PST (3 days post-election, 'still 77,000 ballots left to process'). A fresh WebSearch for a same-night article with a specific count surfaced no new candidate. The live current county results page (fresnocountyca.gov/.../2018-NOVEMBER-GENERAL-ELECTION-RESULTS) links only the FINAL gems-election-summary-report PDF, no election-night-dated report; a CDX sweep for the runbook 6.3 Fresno filename pattern on fresnocountyca.gov for Nov 2018 returns zero (expected, that domain did not exist until 2024; the period-correct host co.fresno.ca.us was already checked exhaustively above). No same-night ballot count found anywhere; per runbook 6.7 stopping here. Value remains null.
+
+- [ ] **sacramento-ca 2012-06-05** (operator-flagged)
+      claimed: night ballots **150,286**, certified final **232,743**, share **64.57%**
+      numerator URL: https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/158D11D2DFBCFC18
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2012-primary/pdf/2012-complete-sov.pdf
+      look for: NEWSBANK RECOVERY (2026-07-10). Fills the dossier's documented null: docs/research/pending-integration-2026-07-10/dossier-sacramento-ca-primaries.md Item 1 exhausted all three machine-research routes (press release archive did not exist yet in 2012, zero Wayback captures of eresults.saccounty.net du
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2012-06-05
+      controller verdict: PLAUSIBLE (NewsBank newspaper report; self-describing turnout figure but no independent bracket/hold leg obtainable (RUNBOOK 8))
+      full flag: NEWSBANK RECOVERY (2026-07-10). Fills the dossier's documented null: docs/research/pending-integration-2026-07-10/dossier-sacramento-ca-primaries.md Item 1 exhausted all three machine-research routes (press release archive did not exist yet in 2012, zero Wayback captures of eresults.saccounty.net during the primary window, no Sacramento Bee article found via Wayback CDX) and left this row null. A subsequent NewsBank archive pass located the number directly: Sacramento Bee, June 6, 2012 edition (docref news/158D11D2DFBCFC18), '150,286 ... 23 percent' (turnout framing; the article's own dateline is the morning after election night). Confidence secondary (newspaper report, not an official release or archived results page). Certified final = Total Voters 232,743 (CA SoS SoV, embedded in the complete 2012-primary SOV PDF's Voter Participation Statistics by County table; no standalone participation-stats PDF exists for this election). Arithmetic: 150,286/232,743 = 64.57%. Pre-epollbook (adopted 2018-06); ASV never adopted. NewsBank requires an authenticated SFPL ezproxy session (FLAG for manual operator: the cited URL cannot be fetched by curl/machine check, same as every other NewsBank citation in this project; verify by hand via the SFPL portal). PROVENANCE FLAG: this figure was relayed via the batch-2 task brief citing docs/research/pending-integration-2026-07-10/newsbank-recovery.md; that file as committed in this worktree shows an earlier NewsBank pass blocked at NEEDS_LOGIN before reaching any Sacramento target, so this exact number/quote was not independently re-derived from a cached artifact in this repo by this agent -- flagged for human spot-check against the original NewsBank scan.
 
 - [ ] **santa-clara-ca 2012-06-05** (operator-flagged)
       claimed: night ballots **234,342**, certified final **292,713**, share **80.06%**
@@ -1147,6 +1180,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       look for: CA SoS per-county reporting-status page ('SF'-coded row), Sacramento County: 100.0% precincts reporting, Ballots Cast 328,744, Last Report stamp 'Nov 9 1:52 a.m.' (First Report 'Nov 8 8:07 p.m.') at Wayback capture 20161110185817 (2016-11-10 18:58:17 UTC). SINGLE CAPTURE at 2016-11-10 18:58:17 UTC c
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2016-11-08
       controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket (RUNBOOK 8))
+
+- [ ] **sacramento-ca 2018-06-05** (plateau check)
+      claimed: night ballots **124,609**, certified final **310,881**, share **40.08%**
+      numerator URL: https://web.archive.org/web/20180607104634/http://sacresults.e-cers.com/default.aspx
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: NEW ROW (2026-07-10). PLATEAU metric, held-flat-then-jumped bracket (RUNBOOK 8). This is the VCA/e-pollbook ROLLOUT election: county-tech record (data/research/county-tech/sacramento-ca.json) gives vote-center + epollbook adopted_year 2018, first_election '2018-06' -- the June 5, 2018 primary was th
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for sacramento-ca 2018-06-05
+      controller verdict: CONFIRMED (held-flat-then-jumped bracket on the VCA-era results app (RUNBOOK 8))
 
 - [ ] **sacramento-ca 2018-11-06** (plateau check)
       claimed: night ballots **185,623**, certified final **522,652**, share **35.52%**

@@ -277,14 +277,20 @@ verify_en_* scripts to regenerate).
 | riverside-ca | 2024-03-05 | numerator | 213,998 | VERIFIED | Riverside Vote Centers 928 928 100.0% 1,327,135 213,998 16% Mar 5 8:30 p.m. Mar 6 3:01 a.m. U |
 | riverside-ca | 2024-11-05 | denominator | 959,098 | VERIFIED | 1,345 1,646,951 1,372,548 170,437 788,661 959,098 82.23% 69.88% 58.23% |
 | riverside-ca | 2024-11-05 | numerator | 547,742 | VERIFIED | Vote Centers 1,345 1,345 100.0% 1,372,548 547,742 39.9% Nov 5 8:44 p.m. Nov 6 5:02 a.m. U |
+| sacramento-ca | 2012-06-05 | denominator | 232,743 | VERIFIED | nto 1,041 941,160 653,391 71,640 161,103 232,743 69.22% 35.62% 24.73% |
+| sacramento-ca | 2012-06-05 | numerator | 150,286 | NOT_FOUND |  |
 | sacramento-ca | 2012-11-06 | denominator | 522,045 | VERIFIED | 1,106 944,243 698,899 216,021 306,024 522,045 58.62% 74.70% 55.29% |
 | sacramento-ca | 2012-11-06 | numerator | 328,516 | VERIFIED | L . . . . . 698,899 BALLOTS CAST - TOTAL. . . . . . . 328,516 VOTER TURNOUT - TOTAL . . . . . . 47.00 |
 | sacramento-ca | 2014-06-03 | denominator | 203,850 | VERIFIED | ento 1,102 957,597 688,443 57,425 146,425 203,850 71.83% 29.61% 21.29% |
 | sacramento-ca | 2014-06-03 | numerator | 122,053 | VERIFIED | Sacramento 1,102 1,102 100.0% 688,443 122,053 17.7% Jun 3 8:09 p.m. Jun 4 12:11 a.m. FENU |
 | sacramento-ca | 2014-11-04 | denominator | 330,817 | VERIFIED | to 1,263 961,112 683,632 111,628 219,189 330,817 66.26% 48.39% 34.42% |
 | sacramento-ca | 2014-11-04 | numerator | 195,317 | VERIFIED | L . . . . . 683,632 BALLOTS CAST - TOTAL. . . . . . . 195,317 VOTER TURNOUT - TOTAL . . . . . . 28.57 |
+| sacramento-ca | 2016-06-07 | denominator | 340,360 | VERIFIED | Sacramento 1,172 984,952 715,975 112,023 228,337 340,360 67.09% 47.54% 34.56% |
+| sacramento-ca | 2016-06-07 | numerator | 230,234 | VERIFIED | FERENC. 154,928 21.64 BALLOTS CAST - TOTAL. . . . . . . 230,234 BALLOTS CAST - DEMOCRATIC A . . . . 120,301 26.03 |
 | sacramento-ca | 2016-11-08 | denominator | 575,711 | VERIFIED | nto 1,267 989,090 772,865 203,114 372,597 575,711 64.72% 74.49% 58.21% |
 | sacramento-ca | 2016-11-08 | numerator | 328,744 | VERIFIED | ramento 1,267 1,267 100.0% 772,865 328,744 42.5% Nov 8 8:07 p.m. Nov 9 1:52 a.m. SF |
+| sacramento-ca | 2018-06-05 | denominator | 310,881 | VERIFIED | 573 1,009,125 741,260 18,104 292,777 310,881 94.18% 41.94% 30.81% |
+| sacramento-ca | 2018-06-05 | numerator | 124,609 | VERIFIED | render-verified: raw HTML: <input type="hidden" name="hidVoterTurnout" id="hidVoterTurnout" value="124609" />, page titl |
 | sacramento-ca | 2018-11-06 | denominator | 522,652 | VERIFIED | 593 1,013,368 765,965 30,279 492,373 522,652 94.21% 68.23% 51.58% |
 | sacramento-ca | 2018-11-06 | numerator | 185,623 | VERIFIED | ( 100.00% ) Registered Voters: 185,623 of 764,998 ( 24.26% ) Ball |
 | sacramento-ca | 2022-06-07 | denominator | 336,014 | VERIFIED | 630 1,113,693 864,575 11,435 324,579 336,014 96.60% 38.86% 30.17% |

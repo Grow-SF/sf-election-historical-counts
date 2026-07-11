@@ -1,5 +1,12 @@
 [
  {
+  "slug": "sacramento-ca",
+  "date": "2018-06-05",
+  "url": "https://web.archive.org/web/20180607104634/http://sacresults.e-cers.com/default.aspx",
+  "evidence": "raw HTML: <input type=\"hidden\" name=\"hidVoterTurnout\" id=\"hidVoterTurnout\" value=\"124609\" />, page titled 'Unofficial 2018 Primary Election June 5, 2018', 'Results Last Updated 6/6/2018 2:25:56 PM'.",
+  "method": "curl fetch of the archived page; the ballots-cast number is baked into a hidden <input> element's value attribute (not AJAX-only), which the shared strip_html() tag-stripper (<[^>]+> regex) removes along with the surrounding tag markup, so the plain-text numerator check never sees it. Not a JS-rendering gap (no puppeteer was needed to obtain the value; curl already has it in the raw bytes), but the same evidence-manifest escape hatch applies. Independently re-verified 2026-07-10 (batch 2 backfill) by grepping the cached artifact directly."
+ },
+ {
   "slug": "nevada-ca",
   "date": "2018-06-05",
   "url": "https://yubanet.com/wp-content/uploads/2018/06/finalelectionnightupdate.pdf",
