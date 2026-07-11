@@ -52,7 +52,7 @@ dossier-santa-clara-ca-primaries.md: Santa Clara County primary election researc
 
 dossier-tehama-ca.md: Tehama County general election research. Status: Pending integration.
 
-dossier-tehama-ca-primaries.md: Tehama County primary election research. Status: Pending integration.
+dossier-tehama-ca-primaries.md: Tehama County primary election research. Status: Integrated 2026-07-10 (backfill batch 1): 2012/2014/2022 dossier concluded null where the live dataset already had SoS-sweep values (nothing to land); 2016-06-07 and 2018-06-05 are null in both the dossier and the live dataset (no row needed, same as this county's existing general-election gaps for those years); 2024-03-05 already CONFIRMED/primary with a matching value, corroborated in place.
 
 findings-rewrite-draft.md: Draft of consolidated research findings across recovery operations. Status: Pending editorial review before integration into public findings.
 
