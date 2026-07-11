@@ -43,6 +43,13 @@
  },
  {
   "slug": "fresno-ca",
+  "date": "2018-06-05",
+  "verdict": "REFUTED_AS_PLATEAU",
+  "basis": "earliest-surviving capture provably tracked the canvass past its own timestamp",
+  "evidence": "cited capture's internal GEMS timestamp is 06/08/18 14:21:09 (3 days post-election, Friday canvass-cadence), 'Unofficial Final Results' at 100% precincts, Cards Cast 112,403; the SAME URL's next available capture (2018-07-11) shows 'Official Final Results 06/26/18 14:38:06', Cards Cast 136,388 = certified exactly -- proves the count kept climbing after 06/08, so 112,403 is not the plateau; retained as a documented ceiling (comparable=false, secondary). Source: docs/research/pending-integration-2026-07-10/dossier-fresno-ca-primaries.md, 2018-06-05 item."
+ },
+ {
+  "slug": "fresno-ca",
   "date": "2024-11-05",
   "verdict": "CONFIRMED",
   "basis": "official county summary PDF, end of night",

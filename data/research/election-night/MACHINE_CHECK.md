@@ -57,6 +57,8 @@ verify_en_* scripts to regenerate).
 | fresno-ca | 2014-11-04 | numerator | 119,317 | VERIFIED | Fresno 577 577 100.0% 416,433 119,317 28.7% Nov 4 8:00 p.m. Nov 5 1:38 a.m. FENU |
 | fresno-ca | 2016-11-08 | denominator | 291,890 | VERIFIED | 592 583,238 437,423 131,787 160,103 291,890 54.85% 66.73% 50.05% |
 | fresno-ca | 2016-11-08 | numerator | 177,183 | VERIFIED | es." 11/9/2016 1:42:19 AM Registered Voters 437667 - Cards Cast 177183 40.48% Num. Report Precinct 592 - Num. Reporting  |
+| fresno-ca | 2018-06-05 | denominator | 136,388 | VERIFIED | 481 594,711 440,617 47,937 88,451 136,388 64.85% 30.95% 22.93% |
+| fresno-ca | 2018-06-05 | numerator | 112,403 | VERIFIED | Registered Voters 438782 - Cards Cast 112403 25.62% Num. Report Precinct 481 - Num. Reporting 481 100.0 |
 | fresno-ca | 2018-11-06 | denominator | 256,972 | VERIFIED | 640 597,497 456,891 93,581 163,391 256,972 63.58% 56.24% 43.01% |
 | fresno-ca | 2022-06-07 | denominator | 136,114 | VERIFIED | 328 642,055 498,759 10,371 125,743 136,114 92.38% 27.29% 21.20% |
 | fresno-ca | 2022-06-07 | numerator | 76,241 | VERIFIED | U Fresno 328 328 100.0% 498,759 76,241 15% Jun 7 8:12 p.m. Jun 7 11:00 p.m. SF |
