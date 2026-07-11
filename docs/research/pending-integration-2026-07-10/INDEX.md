@@ -36,7 +36,7 @@ dossier-nevada-ca-primaries.md: Nevada County primary election research with tec
 
 dossier-orange-ca-primaries.md: Orange County primary election research. Status: Integrated 2026-07-10 (backfill batch 2): 2022-06-07 and 2024-03-05 were already landed via the SoS status-page sweep (CONFIRMED/primary, bracketed), values matching the dossier exactly; equal evidence class, cross-cited as corroboration in the JSON note only. 2012-06-05, 2014-06-03, 2016-06-07, and 2018-06-05 were absent from the live dataset entirely and are now landed as new CONFIRMED/primary rows from the county's own ocvote.gov numbered-run report series with time-gap brackets.
 
-dossier-placer-ca-primaries.md: Placer County primary election research. Status: Pending integration.
+dossier-placer-ca-primaries.md: Placer County primary election research. Status: Integrated 2026-07-10 (backfill batch 2): 2012-06-05, 2016-06-07, 2024-03-05 were already landed via the SoS status-page sweep (CONFIRMED/primary), values matching the dossier (2012/2016, via the county's own GEMS report) and the placer-2024-03-retry.md recovery (2024, via the CA SoS's own electionresults.sos.ca.gov/returns/status page, the same route the sweep independently used) exactly; cross-cited as corroboration in the JSON note only. 2014-06-03 and 2022-06-07 already landed (CONFIRMED/primary) where the dossier concluded null; nothing to land. 2018-06-05 is null in both the dossier and the live dataset; no row needed. No new rows this pass -- all six primaries were already present.
 
 dossier-riverside-ca-primaries.md: Riverside County primary election research. Status: Pending integration.
 
@@ -68,7 +68,7 @@ newsbank-recovery.md: Results from NewsBank archive recovery (historical newspap
 
 placer-2018-general-retry.md: Retry recovery for Placer County 2018 general election; previous gaps addressed. Status: Pending integration.
 
-placer-2024-03-retry.md: Retry recovery for Placer County 2024 March primary election; web archive access rescan. Status: Pending integration.
+placer-2024-03-retry.md: Retry recovery for Placer County 2024 March primary election; web archive access rescan. Status: Integrated 2026-07-10 (backfill batch 2): the retry's recovered 69,436/135,869=51.11% figure (via electionresults.sos.ca.gov/returns/status) matches the already-landed live row exactly (same route independently found by the SoS status-page sweep); cross-cited as corroboration in the placer-ca.json 2024-03-05 note, alongside the dossier-placer-ca-primaries.md cross-cite for the same row.
 
 prelim-analysis.md: Preliminary statistical analysis of recovered datasets with confidence intervals. Status: Pending integration into analysis section after data validation complete.
 
