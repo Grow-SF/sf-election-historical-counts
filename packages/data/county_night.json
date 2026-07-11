@@ -1225,6 +1225,16 @@
         },
         {
           "year": 2018,
+          "type": "midterm-primary",
+          "pct": 42.14,
+          "ballots": 16346,
+          "final": 38792,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://yubanet.com/wp-content/uploads/2018/06/finalelectionnightupdate.pdf"
+        },
+        {
+          "year": 2018,
           "type": "midterm",
           "pct": 49.01,
           "ballots": 26956,

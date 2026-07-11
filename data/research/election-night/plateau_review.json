@@ -281,6 +281,13 @@
  },
  {
   "slug": "nevada-ca",
+  "date": "2018-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "county's own last-of-night report, self-titled and time-stamped, plus a multi-day posting-schedule gap",
+  "evidence": "'Cumulative Report - Unofficial' 11:06 PM 06/05/2018, 39/39 precincts, 16,346 ballots; posted at YubaNet live-blog's 11:23 PM entry captioned 'The final update for election night'; next update not until 'late Monday or maybe Tuesday' per morning-after article. Source: docs/research/pending-integration-2026-07-10/dossier-nevada-ca-primaries.md, 2018-06-05 item."
+ },
+ {
+  "slug": "nevada-ca",
   "date": "2018-11-06",
   "verdict": "CONFIRMED",
   "basis": "morning-after county statement",

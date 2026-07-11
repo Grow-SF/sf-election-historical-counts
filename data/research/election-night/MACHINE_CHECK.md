@@ -198,6 +198,8 @@ verify_en_* scripts to regenerate).
 | nevada-ca | 2016-06-07 | numerator | 27,852 | VERIFIED | Nevada 80 80 100.0% 66,149 27,852 42.1% Jun 7 9:18 p.m. Jun 8 12:50 a.m. CCU |
 | nevada-ca | 2016-11-08 | denominator | 56,800 | VERIFIED | 82 77,443 68,829 12,543 44,257 56,800 77.92% 82.52% 73.34% |
 | nevada-ca | 2016-11-08 | numerator | 34,728 | VERIFIED | asure A – Library system Measure A received 23,060 Yes votes, 68.99% of the 34,728 ballots counted as of tonight. Early  |
+| nevada-ca | 2018-06-05 | denominator | 38,792 | VERIFIED | 39 78,420 68,126 1,761 37,031 38,792 95.46% 56.94% 49.47% |
+| nevada-ca | 2018-06-05 | numerator | 16,346 | VERIFIED | render-verified: COUNTY OF NEVADA -- OFFICIAL BALLOT STATEWIDE DIRECT PRIMARY ELECTION -- June 05, 2018. Cumulative Repo |
 | nevada-ca | 2018-11-06 | denominator | 54,996 | VERIFIED | 68 78,603 68,954 3,059 51,937 54,996 94.44% 79.76% 69.97% |
 | nevada-ca | 2018-11-06 | numerator | 26,956 | VERIFIED | NEVADA CITY, Calif. November 7, 2018 – At the end of election night, 26,956 ballots have been counted in Nevada County,  |
 | nevada-ca | 2022-06-07 | denominator | 37,990 | VERIFIED | 78 82,123 75,406 1,932 36,058 37,990 94.91% 50.38% 46.26% |

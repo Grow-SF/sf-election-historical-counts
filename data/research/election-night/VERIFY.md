@@ -680,7 +680,7 @@ Colusa's registrar publishes exactly one results document per election, always t
 ---
 
 ### Nevada County
-*Adoption: e-pollbook 2018, ASV 2022.*
+*Adoption: e-pollbook 2014, ASV 2016 (corrected 2026-07-10 per the Nevada tech adjudication, scratchpad/nevada-tech-adjudication.md; caption was stale at "e-pollbook 2018, ASV 2022").*
 
 | Year | Type | Night ballots | Certified final | Share | Conf. | Numerator source (open & check) |
 |---|---|---:|---:|---:|---|---|
@@ -728,6 +728,7 @@ Colusa's registrar publishes exactly one results document per election, always t
 | 2012p | presidential-primary | 21,763 | 31,333 | 69.46% | primary | [link](https://web.archive.org/web/20120608222655/http://vote.sos.ca.gov/returns/status/) |
 | 2014p | statewide-primary | 17,752 | 27,596 | 64.33% | primary | [link](https://web.archive.org/web/20140606205510/http://vote.sos.ca.gov/returns/status/) |
 | 2016p | presidential-primary | 27,852 | 45,167 | 61.66% | primary | [link](https://web.archive.org/web/20160614032019/http://vote.sos.ca.gov/returns/status/) |
+| 2018p | statewide-primary | 16,346 | 38,792 | 42.14% | primary | [link](https://yubanet.com/wp-content/uploads/2018/06/finalelectionnightupdate.pdf) |
 | 2022p | statewide-primary | 17,574 | 37,990 | 46.26% | primary | [link](https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status) |
 | 2024p | presidential-primary | 21,753 | 39,579 | 54.96% | primary | [link](https://web.archive.org/web/20240306144409/https://electionresults.sos.ca.gov/returns/status) |
 
@@ -745,6 +746,10 @@ Colusa's registrar publishes exactly one results document per election, always t
   - numerator: <https://web.archive.org/web/20160614032019/http://vote.sos.ca.gov/returns/status/>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf>
   - look for: CA SoS per-county reporting-status page ('FENU'-coded row), Nevada County: 100.0% precincts reporting, Ballots Cast 27,852, Last Report stamp 'Jun 8 12:08 a.m.' (First Report 'Jun 7 9:38 p.m.') at Wayback capture 20160614032019 (2016-06-14 03:20:19 UTC). SINGLE CAPTURE at 2016-06-14 03:20:19 UTC carries this value. The next available capture (2016-06-17 06:35:08 UTC) jumps to 37,816 (Last Report 'Jun 14 12:34 p.m.'), confirming 27,852 was election night's last state before the canvass moved (non-circular bracket leg per RUNBOOK 8). NOT the pre-plateau first-tranche row (page's own early-evening captures, <99% precincts reporting, were excluded per RUNBOOK 1 and the grading discipline in scratchpad sos-status-sweep.md). Certified final 45,167 Total Voters (CA SoS Statement of Vote, Voter Participation Statistics by County, https://elections.cdn.sos.ca.gov/sov/2016-primary/03-voter-participation-stats-by-county.pdf). Arithmetic: 27,852/45,167 = 61.66%. vs_epollbook=post, vs_asv=post (per county_tech/adoption record: epollbook 2014, asv 2016). Grade CONFIRMED per RUNBOOK 8. Sourced from the 2026-07 CA SoS status-page sweep across the 19-county panel (scratchpad/sos-status-sweep.md, 2016-06-07 section); the cited capture and freeze/jump evidence above were independently re-derived here by matching this exact Ballots Cast figure against the raw per-capture status-page timeline (script scratchpad/build_cell_details.py), not merely transcribed from the sweep's prose summary.
+- **2018-06-05 statewide-primary** — night `16,346` / final `38,792` = `42.14%` (primary)
+  - numerator: <https://yubanet.com/wp-content/uploads/2018/06/finalelectionnightupdate.pdf>
+  - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf>
+  - look for: NEW ROW (2026-07-10). Nevada County's own 'Cumulative Report - Unofficial' for the June 5, 2018 primary, internal timestamp 11:06 PM, Precincts Reporting 39 of 39 = 100.00%, Total Number of Voters 16,346 of 68,023 = 24.03%. Posted by YubaNet's live-blog at its 11:23 PM entry captioned 'The final update for election night' (scanned/image PDF, read by rendering to PNG). Per-contest cross-check: Governor race Cast 16,113 + Over 67 + Under 166 = 16,346, internally consistent. NOT the first tranche (10:43 PM entry shows a still-rising Sheriff-race count, 14,975 cast). Morning-after YubaNet confirms the next update was not expected until 'late Monday or maybe Tuesday' (multi-day posting-schedule gap). Arithmetic: 16,346/38,792 = 42.14%. Certified final = Total Voters 38,792, CA SoS SoV. vs_epollbook=post (epollbook adopted 2014). vs_asv=post: CORRECTED from the source dossier's draft (vs_asv=pre, reasoning from the pre-adjudication adopted_year=2022); the county's ASV adoption year is now 2016, predating this election. Source: docs/research/pending-integration-2026-07-10/dossier-nevada-ca-primaries.md, 2018-06-05 item.
 - **2022-06-07 statewide-primary** — night `17,574` / final `37,990` = `46.26%` (primary)
   - numerator: <https://web.archive.org/web/20220608094259/https://electionresults.sos.ca.gov/returns/status>
   - denominator (SoS SoV): <https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/03-voter-participation-stats-by-county.pdf>

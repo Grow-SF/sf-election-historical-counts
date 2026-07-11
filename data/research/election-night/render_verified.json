@@ -1,5 +1,12 @@
 [
  {
+  "slug": "nevada-ca",
+  "date": "2018-06-05",
+  "url": "https://yubanet.com/wp-content/uploads/2018/06/finalelectionnightupdate.pdf",
+  "evidence": "COUNTY OF NEVADA -- OFFICIAL BALLOT STATEWIDE DIRECT PRIMARY ELECTION -- June 05, 2018. Cumulative Report -- Unofficial. 06/05/2018 11:06 PM. Precincts Reporting 39 of 39 = 100.00%. Total Number of Voters : 16,346 of 68,023 = 24.03%. Governor Cast Votes 16,113 Over Votes 67 Under Votes 166 (sums to 16,346).",
+  "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV 4245 PDF) archived PDF to PNG, read visually; independently re-verified 2026-07-10 (batch 2 backfill), matching the source dossier's transcription exactly."
+ },
+ {
   "slug": "san-bernardino-ca",
   "date": "2024-11-05",
   "url": "https://web.archive.org/web/20241106224114/https://elections.sbcounty.gov/elections/2024/1105/results/",

@@ -828,6 +828,14 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for nevada-ca 2016-11-08
       controller verdict: CONFIRMED (morning-after report of the official cumulative)
 
+- [ ] **nevada-ca 2018-06-05** (plateau check)
+      claimed: night ballots **16,346**, certified final **38,792**, share **42.14%**
+      numerator URL: https://yubanet.com/wp-content/uploads/2018/06/finalelectionnightupdate.pdf
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2018-primary/sov/03-voter-participation-stats-by-county.pdf
+      look for: PLATEAU = 16,346, the county's own 'Cumulative Report - Unofficial' for the June 5, 2018 primary, internal timestamp 11:06 PM, Precincts Reporting 39 of 39 = 100.00%. Posted by YubaNet's live-blog (yubanet.com/regional/june-2018-primary/) at its 11:23 PM entry captioned 'The final update for electio
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for nevada-ca 2018-06-05
+      controller verdict: CONFIRMED (county's own last-of-night report, self-titled and time-stamped, plus a multi-day posting-schedule gap)
+
 - [ ] **nevada-ca 2018-11-06** (plateau check)
       claimed: night ballots **26,956**, certified final **54,996**, share **49.01%**
       numerator URL: https://yubanet.com/regional/an-estimated-22000-ballots-remain-to-be-counted-in-nevada-county/
