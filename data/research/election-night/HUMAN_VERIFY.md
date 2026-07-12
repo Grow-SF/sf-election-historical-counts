@@ -1147,6 +1147,22 @@ note for any row is its detail bullet in VERIFY.md (same directory).
       your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-bernardino-ca 2024-11-05
       controller verdict: CONFIRMED (county posting schedule brackets the capture)
 
+- [ ] **san-diego-ca 2008-11-04** (plateau check)
+      claimed: night ballots **980,234**, certified final **1,245,947**, share **78.67%**
+      numerator URL: https://web.archive.org/web/20081106063312/http://vote.sos.ca.gov/Returns/status.htm
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2008-general/3_voter_part_stats_by_county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), San Diego County: 2,328 of 2,328 precincts (100.0%) reporting, Registered 1,488,157, Ballots Cast 980,234, First Report 'Nov 4 8:01 p.m.', Latest Report 'Nov 5 6:46 a.m.' (Report Type FENU), at Wayback capture 20081106063312 (2008-11-06 06:
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-diego-ca 2008-11-04
+      controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket, FENU->CCU transition (RUNBOOK 8))
+
+- [ ] **san-diego-ca 2010-11-02** (plateau check)
+      claimed: night ballots **663,326**, certified final **926,363**, share **71.61%**
+      numerator URL: https://web.archive.org/web/20101105215804/http://vote.sos.ca.gov/returns/status/
+      denominator URL: https://elections.cdn.sos.ca.gov/sov/2010-general/03-voter-particpation-stats-by-county.pdf
+      look for: CA SoS per-county reporting-status page ('FENU'-coded row), San Diego County: 2,050 of 2,050 precincts (100%) reporting, Registered 1,442,161, Ballots Cast 663,326, First Report 'Nov 2 8:02 p.m.', Latest Report 'Nov 3 2:22 a.m.' (Report Type FENU), at Wayback capture 20101105215804 (2010-11-05 21:58
+      your check: is this the LAST report posted on election night (the plateau)? full note: VERIFY.md detail bullet for san-diego-ca 2010-11-02
+      controller verdict: CONFIRMED (CA SoS status-page single-capture-then-jump bracket, FENU->CCU transition (RUNBOOK 8))
+
 - [ ] **san-diego-ca 2014-11-04** (plateau check)
       claimed: night ballots **509,214**, certified final **692,434**, share **73.54%**
       numerator URL: https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/

@@ -754,6 +754,28 @@ def main():
                         f"One-week reporting rate — {ow or 'n/a'}."),
             "finalSource": " · ".join(sorted(set(d["urls"]))),
             "observations": []})
+    # (f) San Diego night-share chart: the recovered SD county series (baked by
+    #     scripts/build_sd_history.py from data/research/san-diego-history/ plus
+    #     the cross-county panel). One record per PLOTTED point, so the chart's
+    #     "full citation" link resolves for San Diego too, not just SF. The
+    #     "sd-" id prefix keeps these from colliding with same-dated SF records.
+    sd_path = OUT.parent / "sd_night_history.json"
+    if sd_path.exists():
+        sd = json.loads(sd_path.read_text())
+        for e in sd["elections"]:
+            note = sd.get("artifactNotes", {}).get(e["id"], "")
+            bound = " (lower bound, not the night's true state)" if e.get("nightPartial") else ""
+            sources.append({
+                "id": f"sd-{e['id']}",
+                "name": f"San Diego County — {e['name']} ({e['id']})",
+                "summary": (f"{e['nightPct']}% counted by election night{bound}; "
+                            f"denominator {e['final']:,}."
+                            + (f" {note}" if note else "")),
+                "finalSource": (f"{e['nightSrc']} · dossier: "
+                                f"docs/research/night-recovery-2026-07-11-san-diego/{e['id']}.md · "
+                                f"dataset: data/research/san-diego-history/sd_night_history.csv"),
+                "observations": []})
+
     sources.sort(key=lambda s: s["id"], reverse=True)
     (OUT.parent / "sources.json").write_text(json.dumps(sources, indent=1))
     print(f"{len(sources)} source records -> sources.json")

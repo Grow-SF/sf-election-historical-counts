@@ -14,13 +14,20 @@ night share = ballots counted per the MORNING-AFTER paper (last pre-press count)
               / certified final for San Diego County
 ```
 
-- Numerator: the largest SINGLE-SEAT contest sum (all candidates in that one
-  contest) readable from the day-after San Diego Union's returns, city + county
-  as reported, with the precinct basis recorded. Multi-seat races are never
-  summed. This is a FLOOR of the night count.
+- Numerator, for the CDNC newspaper-era rows (1871-1928): the largest
+  SINGLE-SEAT contest sum (all candidates in that one contest) readable from
+  the day-after paper's returns, city + county as reported, with the precinct
+  basis recorded. Multi-seat races are never summed. This is a FLOOR of the
+  night count. The 1992 and 2004 news-derived rows take the numerator
+  differently: certified ballots cast minus the registrar's stated uncounted
+  remainder (see `denominators.md`).
 - Denominator: the same contest's certified San Diego County total from the CA
   SoS Statement of Vote / CA Blue Book (see `denominators.md`), NOT ballots
-  cast, so numerator and denominator share one definition.
+  cast, so numerator and denominator share one definition. Exception: the
+  news-derived 1992/2004 rows use certified total BALLOTS CAST as the
+  denominator (see `denominators.md`, section "Certified county BALLOTS CAST
+  (news-derived-floor denominators), 1988-2008"); there too numerator and
+  denominator share one definition, but a different one.
 - Gates (reject/flag on failure): masthead date == expected issue date;
   contest sum <= certified contest total; precincts-reported ratio <= 1;
   uncertain digits marked `[?]` and listed for human re-read.
@@ -43,6 +50,28 @@ night share = ballots counted per the MORNING-AFTER paper (last pre-press count)
 - CDNC rate-limits bursts: pause >=3s between navigations; on an empty TOC
   (0 sections) retry up to 3x with 20s backoff - issues that exist sometimes
   return empty under load.
+
+## The morning/afternoon trap (cost us the 1932 row; read this first)
+
+A "day-after issue" is only a night-count source if the paper was a **morning**
+paper. Establish the edition type BEFORE trusting any figure:
+
+- **Morning paper** (the San Diego Union: masthead reads "WEDNESDAY MORNING",
+  returns clocked "this morning" / "at 3 o'clock this morning"): the day-after
+  issue goes to press around 2-4 a.m. and captures the election-night plateau.
+  Valid.
+- **Afternoon/evening paper** (the Oceanside Blade-Tribune): the day-after
+  issue goes to press around midday, so its returns are clocked "this
+  afternoon" and describe a count that has already resumed the multi-day
+  canvass, 16-20 hours after polls closed. That is a next-day **CEILING**, not
+  a night count (RUNBOOK 5.2). The 1932 dossier initially recorded one as a
+  night count and had to be corrected.
+- **Weekly**: anything published days later is a canvass figure. Never a night
+  count.
+
+So every dossier must record (a) the paper's edition type and (b) the clock
+phrase the returns themselves carry. If the figure is afternoon-clocked, record
+it as a ceiling with a NULL share, and say so.
 
 ## Method per election (proven on 1908)
 
@@ -74,9 +103,20 @@ night share = ballots counted per the MORNING-AFTER paper (last pre-press count)
   early-1870s paper may be weekly and/or under a different CDNC code, so
   those dossiers document the nearest-after issue used).
 - CDNC `SDDU` has no 1914 issues at all and no November 1922 issues (verified
-  against the year selector and Nov 1922 calendar, 2026-07-11): 1914 and 1922
-  generals are NewsBank/microfilm targets, tracked as a separate leg (needs
-  an SFPL ezproxy login; NewsBank's San Diego Union coverage unprobed).
-- 2012-2024 rows already live in `data/research/election-night/san-diego-ca.json`
-  (the cross-county panel); the 1922-2010 gap is unrecovered.
+  against the year selector and Nov 1922 calendar, 2026-07-11), and NewsBank is
+  now ruled out too: `newsbank-probe.md` (2026-07-12, run under an authenticated
+  SFPL ezproxy session) found no San Diego Union source of any format before
+  1970 (image edition `CSD5-EEDT` starts 2018; text source `SDUB` starts 1970),
+  so 1914 and 1922 are MICROFILM-ONLY targets. The NewsBank leg itself is done:
+  its text-only `SDUB` follow-up (`sdub-text-probe.md`) is what produced the
+  1992 and 2004 rows.
+- 2008-2024 rows already live in `data/research/election-night/san-diego-ca.json`
+  (the cross-county panel), including the 2008 and 2010 rows this campaign
+  recovered from the CA SoS status page (`wayback-probe-1994-2010.md`).
+- Inside the 1922-2006 window the promoted CSV now carries 1924, 1928 (AP county
+  table in a remote paper: `ap-remote-basis` lower bounds), 1992 and 2004
+  (San Diego Union-Tribune via NewsBank: `news-derived`), plus 1932 as an
+  afternoon-clocked CEILING with a NULL share. The remaining years in that
+  window are dark, each probed and documented rather than silently skipped: see
+  the dark-years list in `data/research/san-diego-history/README.md`.
 - Promoted dataset: `data/research/san-diego-history/sd_night_history.csv`.

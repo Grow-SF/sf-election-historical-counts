@@ -43,6 +43,10 @@ const TARGETS = {
   // definition, so they stay out of the README trend chart even when their
   // night counts are recovered. Do not add a kinds= override here.
   "docs/img/night-share.png": { title: "How much of the vote was counted", range: NIGHT_RANGE },
+  // the SD island ignores URL range/kind state (fixed full range by design),
+  // so no range override; the title substring must include "San Diego" to
+  // not collide with the SF night-share <h3>
+  "docs/img/sd-night-share.png": { title: "San Diego County: how much of the vote" },
   "docs/img/turnout.png": { title: "Turnout of registered voters", range: TURNOUT_RANGE },
   "docs/img/vote-by-mail.png": { title: "Vote-by-mail share of ballots cast" },
   "docs/img/franchise-funnel.png": { title: "Who could vote", range: FUNNEL_RANGE },

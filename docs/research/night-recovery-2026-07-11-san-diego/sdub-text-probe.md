@@ -144,6 +144,170 @@ Verbatim quotes with figures:
 | 2004-11-02 | USABLE FIGURE | ~150,000-200,000 county ballots (provisional + absentee drop-offs) still to be counted, per Registrar Sally McPherson |
 | 2008-11-04 | USABLE FIGURE | 50,000-100,000 county provisional ballots still to be hand-verified/counted, per Registrar Deborah Seiler |
 
+## Extension probe 2026-07-12: 1970-1986
+
+Follow-up covering the seven generals *before* 1984-11-06 (the earliest issue
+probed above): 1970-11-03, 1974-11-05, 1976-11-02, 1978-11-07, 1980-11-04,
+1982-11-02, 1986-11-04 (1972 skipped as a known gap; 1984 already probed
+above). Same method as above (calendar-browse `issue-browse`, not the
+unreliable keyword-search grammar), plus one extra step this pass: before
+opening any article, walked the full-year calendar grid
+(`table.browsepub__month` for the November table) to check whether the
+election-day/day-after/day+2 dates have an issue *linked* at all, since
+`newsbank-probe.md`'s year-selector check (an available-years list) turned
+out to only prove an issue exists *somewhere* that year, not that the
+specific November dates are covered — 1970 and 1976 both show up as
+"present" years but have near-zero issues.
+
+Session note: the shared ezproxy session had logged out by the time this
+pass started (hit the SFPL `Access & Login` barcode/PIN wall on first
+navigation); re-authenticated via the pre-authorized SFPL card/PIN path
+before probing. Background tab only, off-screen window, one persistent tab
+reused across all navigations in this pass, closed at the end.
+
+### 1970-11-03 (day-after issue: 1970-11-04)
+
+SDUB's year-selector lists 1970 as an available year, but walking the full
+November calendar grid for 1970 shows only **one** linked issue that month:
+**November 21**. November 1-20 (which covers election day and both
+morning-after dates) have no issue at all — only 17 issues exist for all of
+1970 SDUB coverage.
+
+**Verdict: NO COVERAGE.** No issue of any kind exists for 1970-11-03,
+1970-11-04, or 1970-11-05.
+
+### 1974-11-05 (day-after issue: 1974-11-06)
+
+1974 is not in the SDUB year-selector's list of available years at all
+(confirmed interactively: `1974 present? false`), consistent with
+`newsbank-probe.md`'s documented gap (archive skips 1972-1974).
+
+**Verdict: NO COVERAGE.**
+
+### 1976-11-02 (day-after issue: 1976-11-03)
+
+1976 *is* listed as an available year, but the full November 1976 calendar
+grid shows **zero** linked issues for the entire month (all 30 days
+unlinked) — only 7 issues exist for all of 1976 SDUB coverage, none in
+November.
+
+**Verdict: NO COVERAGE.** No issue exists for 1976-11-02, 1976-11-03, or
+1976-11-04.
+
+### 1978-11-07 (day-after issue: 1978-11-08)
+
+1978 is not in the SDUB year-selector's list of available years (confirmed:
+`1978 present? false`), consistent with the documented 1978-1982 gap.
+
+**Verdict: NO COVERAGE.**
+
+### 1980-11-04 (day-after issue: 1980-11-05)
+
+1980 is not in the SDUB year-selector's list of available years (confirmed:
+`1980 present? false`).
+
+**Verdict: NO COVERAGE.**
+
+### 1982-11-02 (day-after issue: 1982-11-03)
+
+1982 is not in the SDUB year-selector's list of available years (confirmed:
+`1982 present? false`).
+
+**Verdict: NO COVERAGE.**
+
+### 1986-11-04 (day-after issue: 1986-11-05, plus 1986-11-06 checked)
+
+Unlike 1970/1976, 1986 has full daily coverage (370 issues that year, every
+November day linked) — continuous coverage starts in 1983 per
+`newsbank-probe.md`.
+
+Hits examined:
+- "Sample ballot errors blamed for voters' mistakes at polls" —
+  `news/11792268AC4015B4`, B-2, by A. Dahleen Glanton, Nov 5 issue
+- "Unofficial Results... - ...Scenes from an election day in San Diego" —
+  `news/1179226BB02B5F12`, A-5, by Chet Barfield, Column: ELECTION '86, Nov 5
+  issue (color piece analogous to the 1984 "Scenes from an election day"
+  article; no county figures at all — Election Central atmosphere only)
+- "City voters approve all three measures" — Nov 5 issue (title only,
+  not opened; city-scoped by title, deprioritized after the two
+  higher-priority registrar/turnout hits below turned up no usable figure)
+- "S.D. turnout of 51.2% is lowest in state - Record low 58% of California
+  voters go to polls" — `news/1179226E462E7DA4`, A-3, wire copy ("From News
+  Services"), Nov 6 issue
+- "County voter turnout lowest in state" — `news/11792272A308E643`, A-1, by
+  Anne Krueger, Column: ELECTION '86, Nov 6 issue (the registrar-focused
+  piece, analogous to 1988's "Officials pleased with turnout")
+- "Sample ballot print errors seen as threat to process" —
+  `news/1179227079FD217A`, B-5/B-6/B-4, by A. Dahleen Glanton, Column:
+  Election '86, Nov 6 issue (day+2 follow-up on the sample-ballot story)
+- Confirmed no SDUB "Title: ELECTION ... RESULTS" returns-box exists in
+  either the Nov 5 or Nov 6 issue title lists (unlike 2000/2004) — 1986's
+  SDUB text edition never carries one.
+
+Verbatim quotes with figures:
+- "About 700,000 sample ballots contained the wrong rotation for candidates
+  seeking the offices of governor, lieutenant governor, secretary of state
+  and controller... The registrar's office mailed out corrections to the
+  sample ballots... but complaints still came yesterday from several of the
+  999 precincts affected by the error." (B-2, "Sample ballot errors blamed")
+  — a ballots-**mailed**/precincts-affected-by-a-printing-error figure, not
+  a ballots-counted or absentees-remaining figure.
+- "The misprint, which also appeared on some 14,000 absentee ballots, was
+  the result of human error within the registrar's office..." (same
+  article) — 14,000 is the count of absentee ballots affected by the
+  printing error, not a "still to be counted" figure.
+- "Secretary of State March Fong Eu said 51.2 percent of San Diego County's
+  voters went to the polls Tuesday, compared with a 58 percent turnout
+  throughout California... In the lowest turnout for a gubernatorial
+  election in county history, just over half of San Diego County's 1.1
+  million registered voters cast ballots Tuesday." (A-3/A-1, both turnout
+  articles) — a turnout **percent** plus a rounded registration base, not an
+  exact raw ballots-cast count; excluded by the task's own criteria (same
+  exclusion applied to the 70%-turnout figure found for 1996).
+- "Boyer said about 2,100 ballots were mailed to voters who had called to
+  say they had never received their sample ballots... Voters throughout the
+  county received one of 496 versions [of sample ballots]." (A-1, "County
+  voter turnout lowest in state") — sample-ballot mailing logistics, not an
+  election-night ballots-counted/absentees-remaining figure.
+- "About 700,000 sample ballots and 14,000 absentee ballots contained the
+  wrong rotation..." (B-5, day+2 follow-up) — repeats the same
+  printing-error figures, no new count.
+
+**Verdict: NOT FOUND.** Both the wire-service turnout brief and the
+registrar-focused "County voter turnout lowest in state" piece (the same
+story-type that carried a usable absentee count in 1988/1992/2000/2004/2008)
+report only a **51.2 percent turnout** figure this year, not a raw
+ballots-counted or absentees-remaining number — 1986 SDUB coverage is
+dominated by the sample-ballot-printing-error story instead, which gives
+precise raw counts (700,000 sample ballots misprinted, 14,000 absentee
+ballots misprinted, 999 precincts affected, 2,100 re-mailed ballots) but all
+of them describe the **printing/mailing error**, not ballots counted or
+remaining to be counted on election night. No county-wide ballots-counted or
+absentees-remaining figure turned up in the 6 election-relevant articles
+opened across the day+1 and day+2 issues.
+
+## Summary table (extension, 1970-1986)
+
+| Election | Verdict | Figure |
+|---|---|---|
+| 1970-11-03 | NO COVERAGE | (SDUB has only 1 issue all November 1970, Nov 21; election dates uncovered) |
+| 1974-11-05 | NO COVERAGE | (year absent from SDUB entirely; known 1972-1974 gap) |
+| 1976-11-02 | NO COVERAGE | (SDUB has 0 issues all November 1976; only 7 issues that year) |
+| 1978-11-07 | NO COVERAGE | (year absent from SDUB entirely; known 1978-1982 gap) |
+| 1980-11-04 | NO COVERAGE | (year absent from SDUB entirely; known 1978-1982 gap) |
+| 1982-11-02 | NO COVERAGE | (year absent from SDUB entirely; known 1978-1982 gap) |
+| 1986-11-04 | NOT FOUND | (only a 51.2% county turnout figure found; the sample-ballot-printing-error story gives precise raw counts but all scoped to ballots misprinted/mailed, not counted/remaining) |
+
+Combined with the original probe, SDUB's usable-figure window for San Diego
+County is now fully bounded: **1988-2008 is the recoverable span** (five of
+six elections checked in that range yielded a usable remaining-ballots
+figure; 1996 was the one exception). Every general before 1988 that has been
+checked (1970, 1976, 1984, 1986, plus the confirmed-absent 1972/1974/1978/
+1980/1982) is either NO COVERAGE or NOT FOUND — none has yielded a raw
+county ballots-counted or absentees-remaining figure. If a floor is still
+needed for any pre-1988 election, microfilm/another archive remains the only
+path (per `newsbank-probe.md`'s existing recommendation).
+
 ## Recommendation
 
 **A recovery pass is worth it, with the metric reframed.** Five of seven target elections (1988, 1992, 2000, 2004, 2008) yielded a usable, precisely attributed San Diego County figure from SDUB's text-only archive — but in every case it is a **ballots-remaining-to-be-counted** figure (absentee or provisional), quoted directly from the county Registrar of Voters, not a positive "ballots counted by end of night" total and never a returns-box raw vote count. SDUB's own in-house results boxes ("Title: ELECTION ... COUNTY ELECTION RESULTS" / "Initial county returns") are formatted exclusively as percent-of-precincts-reporting plus candidate vote-share percentages across all seven elections checked — they never carry a raw ballot count, so they cannot substitute for or corroborate a count-based recovery on their own.

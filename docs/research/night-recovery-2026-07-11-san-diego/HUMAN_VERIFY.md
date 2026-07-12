@@ -488,7 +488,7 @@ grouped by dossier (screenshot : claimed value : fail criterion, condensed).
 - Final re-add: page-5 subtotal 756 + page-2 addendum subtotal 1,005 =
   1,761; candidate columns Estee 777/Budd 476/French 103/Webster 405.
 
-### 1896-11-03 (President floor 6,315, share 81.3% — mostly verification-pass-confirmed, see section 4)
+### 1896-11-03 (President floor 6,315, share 81.4% — mostly verification-pass-confirmed, see section 4)
 
 - `sd_18961104_p5_ztest_ward.png`: MESA GRANDE precinct — Bryan's figure is
   partly obscured by a page crease; the 2026-07-12 pass narrowed the
@@ -670,7 +670,7 @@ corrected a figure that was never part of the reported floor.
 | 1890-11-04 | Governor | 184 | 2.5% | High | 6 (0P+6S) |
 | 1892-11-08 | President | 673 | 8.7% | High (no flagged digits) | 9 (0P+9S) |
 | 1894-11-06 | Governor | 1,761 (revised) | 24.7% | Medium — several [?] flags + one included-despite-misprint judgment call (Oceanside) | 13 (4P+9S) |
-| 1896-11-03 | President | 6,315 | 81.3% | High, verification-pass-confirmed | 1 (0P+1S) |
+| 1896-11-03 | President | 6,315 | 81.4% | High, verification-pass-confirmed | 1 (0P+1S) |
 | 1898-11-08 | Governor | 4,589 | 64.5% | **Low-medium — whole table**, verification pass left it unresolved | 10 (10P+0S) |
 | 1900-11-06 | President | 3,672 (city-only proxy) | 53.0% | Medium — unresolved internal-consistency failure | 4 (1P+3S) |
 | 1902-11-04 | Governor | 4,202 | 65.1% | High (2 minor flags) | 7 (2P+5S) |

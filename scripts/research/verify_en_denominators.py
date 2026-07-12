@@ -14,6 +14,8 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from en_common import CACHE, fetch, find_number, load_rows, pdf_text
 
 SOV = {
+    2008: "https://elections.cdn.sos.ca.gov/sov/2008-general/3_voter_part_stats_by_county.pdf",
+    2010: "https://elections.cdn.sos.ca.gov/sov/2010-general/03-voter-particpation-stats-by-county.pdf",
     2012: "https://elections.cdn.sos.ca.gov/sov/2012-general/03-voter-participation-stats-by-county.pdf",
     2014: "https://elections.cdn.sos.ca.gov/sov/2014-general/pdf/03-voter-particpiation-stats-by-county.pdf",
     2016: "https://elections.cdn.sos.ca.gov/sov/2016-general/sov/03-voter-participation-stats-by-county.pdf",

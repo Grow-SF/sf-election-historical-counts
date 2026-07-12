@@ -1,7 +1,11 @@
 "use client";
 import { useMemo } from "react";
 import { filterElections } from "../lib/filter";
-import { ELECTIONS } from "../../../data/index";
+import {
+  ELECTIONS,
+  SD_NIGHT_HISTORY,
+  SD_ARTIFACT_NOTES,
+} from "../../../data/index";
 import { useUrlState } from "../lib/useUrlState";
 import { LongCountProvider, useLongCount } from "../lib/context";
 import FilterBar from "./FilterBar";
@@ -79,6 +83,54 @@ export function NightShare() {
         from={state.from}
         to={state.to}
         kinds={state.kinds}
+      />
+    </Island>
+  );
+}
+
+// why each dimmed San Diego point understates the true night count. Baked into
+// sd_night_history.json as `artifactNotes` by scripts/build_sd_history.py and
+// read from there, so the chart can never drift from the dataset.
+const SD_PARTIAL_NOTES: Record<string, string> = SD_ARTIFACT_NOTES;
+
+export function SanDiegoNightShare() {
+  // San Diego's recovered record, rendered by the same NightShareChart as the
+  // SF series. Fixed full range and no FilterBar: the series is sparse (~34
+  // points with a 1922-2004 hole) and mixes two denominator bases, so slicing
+  // it interactively invites misreading. SF-specific dressing is switched off:
+  // no era trends (too few points per era), no SF count-milestone verticals,
+  // no in-person floor diamonds (that overlay is an SF-only dataset).
+  return (
+    <Island>
+      <NightShareChart
+        elections={SD_NIGHT_HISTORY}
+        from={1868}
+        to={2026}
+        kinds={new Set(["General", "Primary"])}
+        config={{
+          title:
+            "San Diego County: how much of the vote was counted on election night",
+          subtitle: "Percent counted by election night, 1871–2024",
+          note: (
+            <>
+              Three sources, and their denominators differ. Before 1930: the
+              morning paper&apos;s largest contest sum over that
+              contest&apos;s certified county total. 1992 and 2004:
+              news-derived (certified ballots cast minus the registrar&apos;s
+              stated uncounted remainder). 2008 on: the county&apos;s final
+              election-night report over certified ballots cast. Dim dashed
+              dots are lower bounds only, where the paper printed majorities
+              instead of votes, omitted the city, printed the city alone with
+              no county total, or carried just a remote AP wire snapshot.
+            </>
+          ),
+          footer: null,
+          eraTrends: [],
+          flips: {},
+          partialNotes: SD_PARTIAL_NOTES,
+          useFloorDiamonds: false,
+          showEventLines: false,
+        }}
       />
     </Island>
   );

@@ -670,6 +670,10 @@ Notes:
   few votes. Gubernatorial figures are exact single-column reads.
 - 1920 Wikipedia display value for Harding in San Diego (19,286) is a digit transposition
   of the SOV's 19,826 (Wikipedia's own row total and percentage confirm).
+- A separate, later batch far below ("Summary table — San Diego County certified TOTAL
+  BALLOTS CAST, 1988-2008") covers 1988-2008 and reports a DIFFERENT kind of denominator:
+  certified total ballots cast (precinct + absentee/VBM voters), not a contest-sum. Do not
+  mix those rows with the "Contest sum (SD)" figures in this table.
 ---
 ## Scope extension (added after the original 15): 1886, 1890, 1894 gubernatorial generals
 
@@ -1133,3 +1137,885 @@ them (1872 President, 1875 Governor, 1876 President, all reading off one shared 
 the retrospective Hayes/Tilden columns reprinted in the 1880 and 1881 almanac editions)
 cross-validated exactly across independently typeset editions.
 ---
+
+## Certified county BALLOTS CAST (news-derived-floor denominators), 1988-2008
+
+Mission (distinct from the 1871-1920 batches above): for the generals of 1988-11-08,
+1992-11-03, 1996-11-05, 2000-11-07, 2004-11-02, and 2008-11-04, find San Diego County's
+certified **TOTAL BALLOTS CAST** — the SOV "Voter Participation Statistics by County"
+style figure (precinct voters + absentee/mail voters = total voters/ballots cast) — NOT a
+per-contest candidate-vote sum. This is a total-turnout denominator, the modern-era
+counterpart to the pre-1920 "total votes cast" column noted (rarely printed) in the batches
+above. Every county row in every year below satisfies precinct-voters + absentee-voters =
+total-voters exactly, confirming a clean machine/OCR read.
+
+Source map used: CA SoS "Statement of Vote" per-election directories on
+`elections.cdn.sos.ca.gov/sov/<year>-general/`, located either via the modern
+`sos.ca.gov/elections/prior-elections/statewide-election-results/...` landing page (which
+links the CDN PDFs) or, for 1992/1996/2000, via each election's own `index.htm` /
+`contents.htm` directory listing on the CDN itself. No archive.org source was needed for
+any of the six years — all six are on the CDN, including the two oldest (1988 general is
+the outlier: not on the CDN at all, recovered from archive.org).
+
+---
+### 1988-11-08 — General Election
+
+Source (primary): "Statement of Vote, November 8, 1988" (March Fong Eu, Secretary of
+State), archive.org item `statementofvote81988cali` (SFPL copy). Not present anywhere on
+the `elections.cdn.sos.ca.gov` CDN — 1988 predates the CDN's coverage (earliest CDN
+general found was 1992). Table "Voter Participation Statistics", printed p. vi (per the
+volume's own Contents page, djvu.txt line 97: "Voter Participation Statistics vi"), read
+from the PAGE IMAGE.
+
+San Diego County row (verbatim, all 9 columns):
+
+| Precincts | Eligible to Register | Registered to Vote | Precinct Voters | Absent Voters | Total Voters | % Registered | % Eligible |
+|---|---|---|---|---|---|---|---|
+| 2,562 | 1,481,457 | 1,258,868 | 665,390 | 225,393 | **890,783** | 70.76 | 60.13 |
+
+**Certified total ballots cast: 890,783.** Registration (registered to vote): 1,258,868.
+Arithmetic check: 665,390 + 225,393 = 890,783 exact.
+
+Provenance:
+- archive.org item `statementofvote81988cali`, page vi = leaf n13 =
+  https://archive.org/details/statementofvote81988cali/page/n13
+  (image fetched: https://archive.org/download/statementofvote81988cali/page/n13_w800.jpg)
+- Locating query: WebSearch `archive.org "statement of vote" 1988 california general
+  election archive.org` -> archive.org item `statementofvote81988cali`; djvu.txt fetched
+  (`https://archive.org/download/statementofvote81988cali/statementofvote81988cali_djvu.txt`,
+  1.7 MB) and grepped for `Voter Participation Statistics` (djvu.txt line 1469 is a
+  different, statewide-only 1910-1988 trend table titled "Comparative Voter Registration
+  and Participation"; the by-county table is the one titled plainly "Voter Participation
+  Statistics" at djvu.txt line 2260). The volume's own Contents listing (djvu.txt lines
+  88-102) gives the page map used to find the leaf: `Voter Registration Statistics, by
+  County iv`, `Comparative Registration and Vote Statistics, 1910-1988 v`, `Voter
+  Participation Statistics vi`, `... Voting Systems Used ... vii`, `Official Declaration
+  ... viii`, `Summary of Votes Cast ... 1`. An archive.org full-text "search inside" hit
+  for the exact figure `890,783` (`https://ia600908.us.archive.org/fulltext/inside.php?
+  item_id=statementofvote81988cali&doc=statementofvote81988cali&path=/26/items/
+  statementofvote81988cali&q=890%2C783`) returned raw sequence index 14, which is one leaf
+  off the true `n13`/page-vi image (confirmed leaves n14/n15/n16/n17 are pages
+  vii/viii/ix/x, i.e. the search index runs one ahead of the `nNN` leaf label in this item);
+  leaf n13 was located instead by walking the Contents page map and was confirmed by direct
+  visual inspection of the page image (header "Voter Participation Statistics", footer "vi").
+- Verbatim San Diego row read from the page image: "San Diego 2,562 1,481,457 1,258,868
+  665,390 225,393 890,783 70.76 60.13".
+- Statewide check (same page, "Total" row): 25,414 precincts, 19,051,776 eligible,
+  14,002,275 registered, 8,759,686 precinct voters, 1,434,853 absent voters, 10,194,539
+  total voters, 72.81% / 53.51% — internally consistent (8,759,686+1,434,853=10,194,539).
+
+Confidence: high (direct page-image read; row arithmetic and statewide-total arithmetic
+both check out exactly).
+
+---
+### 1992-11-03 — General Election
+
+Source (primary): CA SoS "Statement of Vote", November 3, 1992 General Election, table
+"Voter Participation Statistics by County", printed p. v. PDF:
+https://elections.cdn.sos.ca.gov/sov/1992-general/voter-participation-statistics.pdf
+(a single-page scanned/OCR'd PDF; `pdftotext -layout` produced a heavily garbled OCR
+layer — e.g. the county name itself OCR's as "San Die&o" — so the figure was confirmed by
+rendering the PDF page to a PNG with `pdftoppm -png -r 150` and reading it visually).
+
+San Diego County row (verbatim, all 9 columns; header calls the eligible-population column
+"Voting Age Population" / VAP, not "Eligible to Register", a naming difference from the
+1988/1996/2000/2004/2008 tables — same concept):
+
+| Precincts | VAP | Registered to Vote | Precinct Voters | Absent Voters | Total Voters | % Registered | % VAP |
+|---|---|---|---|---|---|---|---|
+| 2,813 | 1,895,544 | 1,382,383 | 758,408 | 244,506 | **1,002,914** | 72.55 | 52.91 |
+
+**Certified total ballots cast: 1,002,914.** Registration: 1,382,383. Arithmetic check:
+758,408 + 244,506 = 1,002,914 exact.
+
+Provenance:
+- PDF: https://elections.cdn.sos.ca.gov/sov/1992-general/voter-participation-statistics.pdf
+  (fetched to `sov1992_voterpart.pdf`; rendered to `sov1992_page-1.png` at 150 dpi and read
+  directly; printed page label "v" visible at page foot).
+- Locating query: WebSearch `archive.org "statement of vote" california 1992 general
+  election secretary of state` surfaced
+  `https://elections.cdn.sos.ca.gov/sov/1992-general/index.htm` as the CDN's own directory
+  page for this election; fetched and grepped for `href=` to enumerate every PDF in the
+  1992-general folder, which listed `voter-participation-statistics.pdf` alongside
+  `voter-registration-statistics.pdf`, `president.pdf`, etc.
+- Verbatim San Diego row read from the rendered page image: "San Diego 2,813 1,895,544
+  1,382,383 758,408 244,506 1,002,914 72.55 52.91".
+- Statewide check ("State Totals" row, same page): 25,942 precincts, 20,863,687 VAP,
+  15,101,473 registered, 9,424,003 precinct voters, 1,950,562 absent voters, 11,374,565
+  total voters, 75.32% / 54.52% — internally consistent
+  (9,424,003+1,950,562=11,374,565) and matches the well-known ~11.1-11.4M range for the
+  1992 CA presidential turnout.
+
+Confidence: high (direct page-image read of a clean, high-contrast scan; row and statewide
+arithmetic both check out exactly; OCR-text grep alone would have missed this row due to
+the "Die&o" garble, so the image read was required, not optional).
+
+---
+### 1996-11-05 — General Election
+
+Source (primary): CA SoS "Statement of Vote", November 5, 1996 General Election, table
+"Voter Participation Statistics by County", printed p. ix. PDF:
+https://elections.cdn.sos.ca.gov/sov/1996-general/voter-participation-statistic.pdf
+(note: filename is singular "statistic", not "statistics"). Single-page scanned image PDF
+(Creator "HP Digital Sending Device", no text layer at all — `pdftotext -layout` returned
+zero lines); rendered to PNG with `pdftoppm -png -r 150` and read visually.
+
+San Diego County row (verbatim, all 8 columns):
+
+| Precincts | Eligible to Register | Registered to Vote | Precinct Voters | Absent Voters | Total Voters | % Registered | % Eligible |
+|---|---|---|---|---|---|---|---|
+| 2,520 | 1,797,506 | 1,387,525 | 664,359 | 242,869 | **907,228** | 65.38 | 50.47 |
+
+**Certified total ballots cast: 907,228.** Registration: 1,387,525. Arithmetic check:
+664,359 + 242,869 = 907,228 exact.
+
+Provenance:
+- PDF: https://elections.cdn.sos.ca.gov/sov/1996-general/voter-participation-statistic.pdf
+  (fetched to `sov1996_voterpart.pdf`, 39,835 bytes, 1 page; rendered to
+  `sov1996_page-1.png`, 90,715 bytes, and read directly; printed page label "ix" visible at
+  page foot).
+- Locating query: same technique as 1992 — fetched
+  `https://elections.cdn.sos.ca.gov/sov/1996-general/index.htm`, grepped `href=`, found
+  `voter-participation-statistic.pdf` in the file list alongside `president.pdf`,
+  `measures.pdf`, etc.
+- Verbatim San Diego row read from the rendered page image: "San Diego 2,520 1,797,506
+  1,387,525 664,359 242,869 907,228 65.38% 50.47%".
+- Statewide check ("State Totals" row, same page): 28,359 precincts, 19,526,991 eligible,
+  15,662,075 registered, 8,185,425 precinct voters, 2,078,065 absent voters, 10,263,490
+  total voters, 65.53% / 52.58% — internally consistent (8,185,425+2,078,065=10,263,490).
+
+Confidence: high (direct page-image read of a clean scan; row and statewide arithmetic
+both check out exactly).
+
+---
+### 2000-11-07 — General Election
+
+Source (primary): CA SoS "Statement of Vote", November 7, 2000 General Election, table
+"Voter Participation Statistics by County" (the table literally names its total column
+"Ballots Cast", not "Total Voters" — the only one of the six years to use that exact
+label), printed p. vi. PDF page 3 of 6 within
+https://elections.cdn.sos.ca.gov/sov/2000-general/reg.pdf (a born-digital/OCR'd text PDF;
+`pdftotext -layout` extracted cleanly, no image read needed). The table spans two printed
+pages (vi: Alameda-Stanislaus; vii: Sutter-Yuba); San Diego falls on p. vi.
+
+San Diego County row (verbatim, all 8 columns):
+
+| Precincts | Eligible | Registered | Precinct Voters | Absentee Voters | Ballots Cast | % Registered | % Eligible |
+|---|---|---|---|---|---|---|---|
+| 3,568 | 1,975,413 | 1,411,672 | 691,903 | 286,666 | **978,569** | 69.32% | 49.54% |
+
+**Certified total ballots cast: 978,569.** Registration: 1,411,672. Arithmetic check:
+691,903 + 286,666 = 978,569 exact.
+
+Provenance:
+- PDF: https://elections.cdn.sos.ca.gov/sov/2000-general/reg.pdf (fetched to
+  `sov2000_reg.pdf`, 6 pages; `pdftotext -layout` to `sov2000_reg.txt`; San Diego row at
+  text line 144, on PDF page 3 = printed page vi, per a form-feed-delimited page count).
+- Locating query: WebSearch `sos.ca.gov prior-elections statewide-election-results
+  "November 7, 2000" statement of vote` surfaced
+  `https://elections.cdn.sos.ca.gov/sov/2000-general/contents.htm`; fetched and grepped
+  `HREF=` to enumerate the 2000-general folder's PDFs (`pres.pdf`, `us_sen.pdf`, `reg.pdf`,
+  `sum.pdf`, etc.); `reg.pdf` (labeled only "Registration" in the filename) turned out to
+  contain BOTH a Registration-by-Party table (text lines 1-96, printed pp. iv-v) AND the
+  Voter Participation Statistics / Ballots Cast table (text lines 102-182, printed pp.
+  vi-vii) in the same file.
+- Verbatim San Diego row (`grep -n -i "san diego" sov2000_reg.txt`, text line 144): "San
+  Diego              3,568   1,975,413      1,411,672    691,903      286,666     978,569
+  69.32%    49.54%".
+- Header row confirming the "Ballots Cast" column name verbatim (text line 106): "County
+  Precincts    Eligible    Registered      Voters       Voters Ballots Cast    Registered
+  Eligible" (with "Precinct"/"Absentee" as the sub-headers directly above "Voters"/"Voters"
+  on text line 105).
+- Statewide check (text line 95, "State Total"): 21,461,275 eligible, 15,707,307
+  registered, 7,134,601 precinct voters (approx., column alignment loosely OCR'd on the
+  totals row), consistent order of magnitude with the ~11M CA 2000 general turnout is NOT
+  applicable here — that state-total row belongs to the Registration-by-Party table (a
+  different table on the same PDF, lines 1-96), not the Ballots Cast table; the Ballots
+  Cast table's own state-total row was not separately re-verified but every individual
+  county row's precinct+absentee=ballots-cast arithmetic (San Diego included) checks out
+  exactly, which is the stronger per-row confirmation used throughout this document.
+
+Confidence: high (clean machine-extracted text, not OCR; row arithmetic checks out
+exactly; column header literally reads "Ballots Cast").
+
+---
+### 2004-11-02 — General Election
+
+Source (primary): CA SoS "Statement of Vote", November 2, 2004 General Election, table
+"Voter Participation Statistics by County", printed p. vii. PDF:
+https://elections.cdn.sos.ca.gov/sov/2004-general/sov_pref_pg7_8_voter_participation_stats.pdf
+(born-digital/text PDF, 2 pages; `pdftotext -layout` extracted cleanly). San Diego falls on
+PDF page 1 = printed p. vii (page 2 = printed p. viii, remaining counties Sutter-Yuba).
+
+San Diego County row (verbatim, all 8 columns):
+
+| Precincts | Eligible to Register | Registered Voters | Precinct Voters | Absentee Voters | Total Voters | % Registered | % Eligible |
+|---|---|---|---|---|---|---|---|
+| 2,235 | 1,966,240 | 1,513,300 | 799,586 | 345,449 | **1,145,035** | 75.66% | 58.23% |
+
+**Certified total ballots cast: 1,145,035.** Registration: 1,513,300. Arithmetic check:
+799,586 + 345,449 = 1,145,035 exact.
+
+Provenance:
+- PDF: https://elections.cdn.sos.ca.gov/sov/2004-general/sov_pref_pg7_8_voter_participation_stats.pdf
+  (fetched to `sov2004_voterpart.pdf`, 115,322 bytes, 2 pages; `pdftotext -layout` to
+  `sov2004_voterpart.txt`; San Diego row at text line 42, PDF page 1; printed page labels
+  "vii" and "viii" visible at text lines 53 and 80 respectively, confirming San Diego's row
+  falls on the "vii" page).
+- Locating query: WebSearch `sos.ca.gov prior-elections statewide-election-results
+  "November 2, 2004" statement of vote` (via the presidential-general-election page)
+  surfaced `https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/
+  presidential-general-election-november-2-2004/statement-vote`; fetched and grepped
+  `href="[^"]*\.pdf"` to enumerate every linked PDF, which listed
+  `sov_pref_pg7_8_voter_participation_stats.pdf` by name (self-describing filename).
+- Verbatim San Diego row (`grep -n -i "san diego" sov2004_voterpart.txt`, text line 42):
+  "San Diego              2,235    1,966,240    1,513,300       799,586         345,449
+  1,145,035   75.66%     58.23%".
+- Header confirmed at text lines 1-5: "VOTER PARTICIPATION STATISTICS BY COUNTY" /
+  "November 2, 2004 General Election" / "Number of Voters and Percents", column headers
+  "Number of Precincts / Eligible to Register / Registered Voters / Precinct Voters /
+  Absentee Voters / Total Voters / Percent of Registered / Percent of Eligible".
+
+Confidence: high (clean machine-extracted text, not OCR; row arithmetic checks out
+exactly).
+
+---
+### 2008-11-04 — General Election
+
+Source (primary): CA SoS "Statement of Vote", November 4, 2008 General Election, table
+"Voter Participation Statistics by County", printed p. 3 (this SOV volume numbers its
+front-matter tables with plain Arabic numerals, not roman numerals). PDF:
+https://elections.cdn.sos.ca.gov/sov/2008-general/3_voter_part_stats_by_county.pdf
+(born-digital/text PDF, 1 page; `pdftotext -layout` extracted cleanly).
+
+San Diego County row (verbatim, all 9 columns):
+
+| Precincts | Eligible to Register | Registered Voters | Precinct Voters | Vote-By-Mail Voters | Total Voters | % Vote-By-Mail | % Registered | % Eligible |
+|---|---|---|---|---|---|---|---|---|
+| 2,328 | 2,052,145 | 1,488,157 | 672,778 | 573,169 | **1,245,947** | 46.00% | 83.72% | 60.71% |
+
+**Certified total ballots cast: 1,245,947.** Registration: 1,488,157. Arithmetic check:
+672,778 + 573,169 = 1,245,947 exact. (2008 is the first of the six years to use
+"Vote-By-Mail Voters" instead of "Absentee Voters"/"Absent Voters" as the column label —
+reflecting the post-2000s permanent-vote-by-mail terminology shift — but it is the same
+concept: mail-cast ballots, as opposed to in-person precinct ballots.)
+
+Provenance:
+- PDF: https://elections.cdn.sos.ca.gov/sov/2008-general/3_voter_part_stats_by_county.pdf
+  (fetched to `sov2008_voterpart.pdf`, 14,072 bytes, 1 page; `pdftotext -layout` to
+  `sov2008_voterpart.txt`; San Diego row at text line 42; page-foot label "3" at text line
+  70/71 confirming the printed page number).
+- Locating query: WebSearch `sos.ca.gov statement of vote 2008 general election "voter
+  participation" county pdf` surfaced
+  `https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/
+  presidential-general-election-november-4-2008/statement-vote`; fetched and grepped
+  `href="[^"]*\.pdf"` to enumerate every linked PDF, which listed
+  `3_voter_part_stats_by_county.pdf` by name.
+- Verbatim San Diego row (`grep -n -i "san diego" sov2008_voterpart.txt`, text line 42):
+  "San Diego             2,328 2,052,145   1,488,157      672,778         573,169 1,245,947
+  46.00%     83.72%    60.71%".
+- Header confirmed at text lines 1-5: "VOTER PARTICIPATION STATISTICS BY COUNTY", column
+  headers "Number of / Eligible to Register / Registered / Precinct Vote-By-Mail / Total /
+  Percent of Vote-By-Mail Registered Eligible / Precincts / Voters / Voters / Voters
+  Voters / Voters".
+
+Confidence: high (clean machine-extracted text, not OCR; row arithmetic checks out
+exactly).
+
+---
+### 2010-11-02 — General Election
+
+Source (primary): CA SoS "Statement of Vote", November 2, 2010 General Election, table
+"Voter Participation Statistics by County", printed p. 3. PDF:
+https://elections.cdn.sos.ca.gov/sov/2010-general/03-voter-particpation-stats-by-county.pdf
+(note: filename misspells "particpation", a different typo from 2014's
+"particpiation" -- born-digital/text PDF, 1 page; `pdftotext -layout` extracted cleanly).
+
+San Diego County row (verbatim, all 9 columns):
+
+| Precincts | Eligible to Register | Registered Voters | Precinct Voters | Vote-By-Mail Voters | Total Voters | % Vote-By-Mail | % Registered | % Eligible |
+|---|---|---|---|---|---|---|---|---|
+| 2,050 | 2,099,557 | 1,442,161 | 416,188 | 510,175 | **926,363** | 55.07% | 64.23% | 44.12% |
+
+**Certified total ballots cast: 926,363.** Registration: 1,442,161. Arithmetic check:
+416,188 + 510,175 = 926,363 exact. Cross-check: the Registered Voters figure (1,442,161)
+matches the CA SoS election-night "County Reporting Status" page's "Reg'd Voters" column
+for San Diego exactly (see the election-night numerator row for this date), an independent
+confirmation across the two source families.
+
+Provenance:
+- PDF: https://elections.cdn.sos.ca.gov/sov/2010-general/03-voter-particpation-stats-by-county.pdf
+  (fetched to `sov2010_voterpart.pdf`, 11,906 bytes, 1 page; `pdftotext -layout` to
+  `sov2010_voterpart.txt`; San Diego row at text line 43; page-foot label "3" confirming the
+  printed page number).
+- Locating query: fetched `https://elections.cdn.sos.ca.gov/sov/2010-general/index.htm`
+  (200 OK; direct guesses at the 2008-style `3_voter_part_stats_by_county.pdf` filename all
+  403'd) and grepped `href="[^"]*\.pdf"` to enumerate every PDF in the 2010-general folder,
+  which listed `03-voter-particpation-stats-by-county.pdf` by name.
+- Verbatim San Diego row (`grep -n -i "san diego" sov2010_voterpart.txt`, text line 43):
+  "San Diego             2,050     2,099,557     1,442,161     416,188       510,175
+  926,363      55.07%     64.23%    44.12%".
+- Header confirmed at text lines 1-5: "VOTER PARTICIPATION STATISTICS BY COUNTY", column
+  headers "County / Number of Precincts / Eligible to Register / Registered Voters /
+  Precinct Voters / Vote-By-Mail Voters / Total Voters / Percent of Vote-By-Mail Voters /
+  Turnout Registered / Turnout Eligible".
+- State Total row (same page): 24,845 precincts, 23,551,699 eligible, 17,285,883
+  registered, 5,310,540 precinct voters, 4,989,852 vote-by-mail voters, 10,300,392 total
+  voters -- internally consistent (5,310,540+4,989,852=10,300,392).
+
+Confidence: high (clean machine-extracted text, not OCR; row arithmetic checks out
+exactly; independently cross-checked against the SoS election-night status page's
+registration figure).
+
+---
+## Summary table — San Diego County certified TOTAL BALLOTS CAST, 1988-2010
+
+**These are ballots cast (total-turnout denominators: precinct voters + absentee/VBM
+voters), NOT a contest-sum denominator.** Do not mix these rows with the "Contest sum
+(SD)" columns in the summary tables above (1884-1920 and pre-1884 batches), which are
+per-candidate-vote sums in a single top contest and are NOT directly comparable to a
+total-ballots-cast figure (a ballots-cast figure counts every ballot regardless of whether
+that top contest was voted; a contest-sum excludes undervotes in that specific contest).
+
+| Election | Ballots cast (SD, NOT a contest sum) | Registered (SD) | Confidence | Primary source |
+|---|---|---|---|---|
+| 1988-11-08 | 890,783 | 1,258,868 | high | SOV 1988 p.vi (archive.org statementofvote81988cali, page/n13) |
+| 1992-11-03 | 1,002,914 | 1,382,383 | high | SOV 1992-general p.v (elections.cdn.sos.ca.gov/sov/1992-general/voter-participation-statistics.pdf) |
+| 1996-11-05 | 907,228 | 1,387,525 | high | SOV 1996-general p.ix (elections.cdn.sos.ca.gov/sov/1996-general/voter-participation-statistic.pdf) |
+| 2000-11-07 | 978,569 | 1,411,672 | high | SOV 2000-general p.vi (elections.cdn.sos.ca.gov/sov/2000-general/reg.pdf, PDF p.3) |
+| 2004-11-02 | 1,145,035 | 1,513,300 | high | SOV 2004-general p.vii (elections.cdn.sos.ca.gov/sov/2004-general/sov_pref_pg7_8_voter_participation_stats.pdf) |
+| 2008-11-04 | 1,245,947 | 1,488,157 | high | SOV 2008-general p.3 (elections.cdn.sos.ca.gov/sov/2008-general/3_voter_part_stats_by_county.pdf) |
+| 2010-11-02 | 926,363 | 1,442,161 | high | SOV 2010-general p.3 (elections.cdn.sos.ca.gov/sov/2010-general/03-voter-particpation-stats-by-county.pdf) |
+
+NOT FOUND: none — all seven elections sourced at high confidence, each with an exact
+precinct+absentee(/VBM)=total arithmetic check on the San Diego row itself. Every year
+1992-2010 is on the modern `elections.cdn.sos.ca.gov` CDN (1992 and 1996 as scanned image
+PDFs requiring a visual page-image read; 2000/2004/2008/2010 as clean machine-readable text
+PDFs). 1988 is the sole exception, not present on the CDN at all, recovered instead from
+the archive.org-digitized SFPL copy of the bound SOV volume (same source family used for
+the 1884-1920 batch above, but a different bound volume/era). The 2010 row was added
+2026-07-12 to support the two election-night rows recovered in
+wayback-probe-1994-2010.md; it was not part of the original six-year (1988-2008) batch
+above and was sourced independently for this purpose.
+
+---
+## Scope extension (added 2026-07-12): seven 1924-1936 top-of-ticket generals
+
+Per `.claude/skills/sov-certified-turnout/SKILL.md` volume map. Presidential contests in
+this era still print one column per PRESIDENTIAL ELECTOR (13 electors per slate); the
+convention from the 1892-1920 batch continues: "highest elector" = the county's own
+maximum column value for that slate, "canonical elector" = the specific column whose
+STATEWIDE total matches the historically-known candidate total (found directly in the
+SOV's own printed totals row, used here as the cross-check rather than an external
+Wikipedia fetch). Contest sums use the highest-elector convention (sum of San Diego's
+highest column per slate, across ALL slates printed for the office, matching 1918/1920
+practice).
+
+## 1924-11-04 — President (Presidential Electors)
+
+Source (primary): "Statement of Vote ... General Election held on November 4, 1924"
+(Frank C. Jordan, Secretary of State), bound in archive.org item
+`statementofvote192430cali`. Ticket tables read from PAGE IMAGES, printed pp.4-11 (13
+electors per slate, two printed pages per slate). Four slates on the ballot: Republican
+(Coolidge), Democratic (Davis), Socialist (ballot label carrying La Follette/Wheeler as
+the CA fusion nominee), Prohibition.
+
+San Diego County per slate (highest elector; canonical first-listed/statewide-matching
+elector noted):
+
+| Slate (candidate) | San Diego votes (highest elector) | canonical elector |
+|---|---|---|
+| Republican (Coolidge) | 22,731 (McNab; statewide 732,893) | 22,726 (Cole; statewide 733,250) |
+| Democratic (Davis) | 2,954 (Kettner; statewide 104,392) | 2,944 (Phelan; statewide 105,514) |
+| Socialist (La Follette) | 20,200 (Rogers; statewide 424,649) | 20,200 (Rogers; statewide 424,649) |
+| Prohibition | 523 (Edwards; statewide 18,236) | 523 (Edwards; statewide 18,236) |
+| **Contest sum (highest-elector)** | **46,408** | |
+
+Note: the contest sum uses San Diego's own highest column per slate regardless of which
+elector is canonical (Kettner's SD=2,954 is San Diego's own Democratic max, even though
+his statewide total of 104,392 is below Phelan's canonical/historical 105,514) — the same
+highest-elector convention used throughout the 1892-1920 batch.
+
+Total votes cast for the county: not printed with these tables.
+
+Provenance (archive.org item `statementofvote192430cali`; images from
+https://archive.org/download/statementofvote192430cali/page/n<N>_w800.jpg):
+- Republican electors 1-3, printed p.4, leaf 100 = n99 (header "ELECTORS OF PRESIDENT
+  AND VICE / Republican"; San Diego row: 22,708 / 22,726 / 22,719 for Eshleman / Cole /
+  Cremin; totals 733,196 / 733,250 / 732,749).
+- Republican electors 4-13, printed p.5, leaf 101 = n100 (San Diego row: 22,721, 22,717,
+  22,718, 22,731, 22,722, 22,718, 22,722, 22,720, 22,716, 22,713; McNab column total
+  732,893 is the SD-max here).
+- Democratic electors 1-3, printed p.6, leaf 102 = n101 (header "ELECTORS OF PRESIDENT
+  AND VICE / Democratic"; San Diego row: 2,944 / 2,935 / 2,932 for Phelan / Jones / Del
+  Valle; Phelan total 105,514 matches Davis's known CA total).
+- Democratic electors 4-13, printed p.7, leaf 103 = n102 (San Diego row includes Kettner
+  2,954, statewide 104,392 — the SD-max column but not the canonical elector).
+- Socialist (La Follette ballot line) electors 1-3, printed p.8, leaf 104 = n103 (header
+  "ELECTORS OF PRESIDENT AND VICE / Socialist"; San Diego row: 20,200 / 20,197 / 20,194
+  for Rogers / Downing / Murphy; Rogers total 424,649 matches La Follette's known CA
+  total).
+- Socialist electors 4-13, printed p.9, leaf 105 = n104 (San Diego row max 20,195, all
+  below the page-1 Rogers max of 20,200).
+- Prohibition electors 1-3, printed p.10, leaf 106 = n105 (header "ELECTORS OF PRESIDENT
+  AND VICE / Prohibition"; San Diego row: 523 / 518 / 521 / 519 for Edwards / Meads /
+  Johnson / Boleyn; Edwards total 18,236 is the SD-max and canonical).
+- Prohibition electors 4-13 + Scattering, printed p.11, leaf 107 = n106 (San Diego row
+  max 522, below page-1 Edwards max of 523; Scattering column blank for San Diego).
+- Locating query: archive.org search-inside API
+  (`https://ia801400.us.archive.org/fulltext/inside.php?item_id=statementofvote192430cali&doc=statementofvote192430cali&path=/8/items/statementofvote192430cali&q=...`)
+  for `"ELECTORS OF PRESIDENT"` (hits at leaves 100/102/104/106, the four ticket-opening
+  pages) and for `Coolidge` (confirmed the primary-election delegate section at leaves
+  18-25 is a false-positive zone, unrelated to the November general).
+- Cross-check: SOV's own printed statewide totals match the well-known official 1924 CA
+  presidential result (Coolidge 733,250; Davis 105,514; La Follette 424,649) — no
+  external Wikipedia fetch needed since the canonical totals are printed on the same
+  pages as the San Diego row.
+
+Confidence: high (page-image reads of all 8 pages spanning all 4 slates; statewide
+totals on each page match the well-known official 1924 result for the top elector).
+
+---
+## 1926-11-02 — Governor
+
+Source (primary): "Statement of Vote ... General Election held on November 2, 1926"
+(Frank C. Jordan, Secretary of State), bound in archive.org item
+`statementofvote192430cali` (this compound volume runs 1924-1930). "FOR GOVERNOR." table
+read from the PAGE IMAGE (single column per candidate).
+
+San Diego County:
+
+| Candidate | San Diego votes |
+|---|---|
+| C. C. Young (Republican) | 29,994 |
+| Justus S. Wardell (Democratic) | 6,441 |
+| Upton Sinclair (Socialist) | 1,759 |
+| Scattering | blank (0) |
+| **Contest sum** | **38,194** |
+
+Total votes cast for the county: not printed with this table.
+
+Provenance:
+- archive.org item `statementofvote192430cali`, printed p.4 of the 1926 general
+  statement (a separately-paginated signature within the compound volume), leaf 206 = n205
+  = https://archive.org/download/statementofvote192430cali/page/n205_w800.jpg
+- Locating query: archive.org search-inside API q=`"FOR GOVERNOR"` returned four hits
+  (leaves 140, 206, 414, 450) inside this compound 1924-1930 volume; leaf 140 is the June
+  1926 DIRECT PRIMARY combined table (six Republican primary candidates including
+  Richardson and Young side by side, plus Prohibition write-ins for both — a primary
+  signature, not the general) and was rejected after its statewide totals (Young
+  327,596) failed to match the known 1926 general result; leaf 206 is the true November
+  general (statewide totals match exactly, see below); leaves 414/450 belong to 1930 (see
+  next section).
+- Verbatim San Diego row from image: "San Diego 29,994 | 6,441 | 1,759 | [blank]".
+- Statewide-total cross-check: printed totals row Young 814,815 / Wardell 282,451 /
+  Sinclair 45,972 / Scattering 874 = 1,144,112, matching Wikipedia's "1926 California
+  gubernatorial election" infobox exactly (Young 71.22%, Wardell 24.69%, Sinclair 4.02%,
+  total 1,144,112) — also matching the "Total of all votes cast for Governor, 1,144,112"
+  basis-of-percentage citation printed later in the same volume's 1928 initiative-measure
+  pages (leaf 271/407).
+
+Confidence: high (page-image read; statewide totals match Wikipedia exactly, digit for
+digit).
+
+---
+## 1928-11-06 — President (Presidential Electors)
+
+Source (primary): "Statement of Vote ... General Election held on November 6, 1928"
+(Frank C. Jordan, Secretary of State), bound in archive.org item
+`statementofvote192430cali` (same compound 1924-1930 volume). Ticket tables read from
+PAGE IMAGES, printed pp.4-7 (13 electors per slate, two printed pages per slate; the
+Republican slate here runs as a "Republican-Prohibition Parties" fusion line since Hoover
+won both parties' primary nominations under cross-filing). Two slates found by direct
+image inspection (Republican-Prohibition/Hoover, Democratic/Smith); a third-party
+Socialist (Thomas) line is on the ballot too (confirmed by the printed grand-total
+arithmetic, see cross-check) but was not independently page-image-read for San Diego —
+its SD figure (633) is taken from Wikipedia's county table, itself sourced to this same
+SOV (pp.4-13).
+
+San Diego County per slate (highest/canonical elector; all slates' totals matched their
+well-known official statewide figures on inspection):
+
+| Slate (candidate) | San Diego votes | statewide (canonical elector) |
+|---|---|---|
+| Republican-Prohibition (Hoover) | 47,769 | 1,162,323 |
+| Democratic (Smith) | 22,749 | 614,365 |
+| Socialist (Thomas) [Wikipedia xref, not page-image-read] | 633 | 19,595 |
+| Communist / other | 0 | 112 + 261 |
+| **Contest sum** | **71,151** | **1,796,656** |
+
+Total votes cast for the county: not printed with these tables (71,151 is the contest sum
+for President only).
+
+Provenance (archive.org item `statementofvote192430cali`; images from
+https://archive.org/download/statementofvote192430cali/page/n<N>_w1400.jpg):
+- Republican-Prohibition electors, counties Alameda-Orange, printed p.4, leaf 368 = n369
+  (header "ELECTORS OF PRESIDENT AND VICE PRESIDENT OF THE UNITED STATES /
+  Republican-Prohibition Parties"; landscape/rotated table, 13 named electors led by
+  R. Y. Williams through Harriet W. Works).
+- Republican-Prohibition electors, counties Placer-Yuba + Totals, printed p.5, leaf 369 =
+  n370 (San Diego row for the highest/canonical column: 47,769; column total 1,162,323,
+  matching Hoover's well-known official CA total exactly). This same leaf's right margin
+  shows bleed-through ghosting of "James D. Phelan" from the reverse side (the facing
+  Democratic-ticket leaf), not a real column on this page — verified by cropping (blank
+  paper, no data, at that position).
+- Democratic electors, counties Alameda-Orange, printed p.6, leaf 370 = n371 (header
+  "ELECTORS OF PRESIDENT AND VICE PRESIDENT OF THE UNITED STATES / Democratic Party";
+  13 named electors led by Curtis Hillyer through James D. Phelan).
+- Democratic electors, counties Placer-Yuba + Totals, printed p.7, leaf 371 = n372 (San
+  Diego row for the highest/canonical column: 22,749; column total 614,365, matching
+  Smith's well-known official CA total exactly).
+- Locating query: archive.org search-inside API q=`"General Election held on November 6,
+  1928"` (title-page hit at leaf 367); the phrase `"ELECTORS OF PRESIDENT"` returned NO
+  hits anywhere near this leaf range despite the table being present — the search index
+  silently misses these particular landscape/rotated table pages (their OCR text layer
+  does not tokenize into the expected phrase), so the table pages were located by direct
+  sequential image inspection starting a few leaves after the title-page hit, not by a
+  text search.
+- Cross-check: Wikipedia "1928 United States presidential election in California" county
+  table (cited there to this exact SOV, pp.4-13, archive.org item
+  `statementofvote192639cali/page/n235`, a sibling scan of the same statement) gives the
+  identical San Diego row (Republican 47,769 / Democratic 22,749 / Socialist 633 /
+  Communist 0, county total 71,151) and the identical statewide totals (1,162,323 /
+  614,365 / 19,595 / 112 / 261, grand total 1,796,656) — full agreement between the
+  independent page-image read (Republican, Democratic) and the Wikipedia-sourced SOV
+  transcription (Socialist, Communist, county total).
+
+Confidence: high for Republican and Democratic (independent page-image reads, statewide
+totals match known history exactly); high for the Socialist/Communist/total figures too,
+via the Wikipedia cross-reference to the same SOV pages (not independently re-verified
+against the image, per skill guidance to use Wikipedia as the fast/first path when the
+SOV table itself is unambiguous).
+
+---
+## 1930-11-04 — Governor
+
+Source (primary): "Statement of Vote ... General Election held on November 4, 1930"
+(Frank C. Jordan, Secretary of State), bound in archive.org item
+`statementofvote192430cali` (same compound 1924-1930 volume, final signature). "FOR
+GOVERNOR" table read from the PAGE IMAGE (single column per candidate).
+
+San Diego County:
+
+| Candidate | San Diego votes |
+|---|---|
+| James Rolph, Jr. (Republican) | 41,835 |
+| Milton K. Young (Democrat) | 13,985 |
+| Upton Sinclair (Socialist) | 1,887 |
+| Scattering | 2 |
+| **Contest sum** | **57,709** |
+
+Total votes cast for the county: not printed with this table.
+
+Provenance:
+- archive.org item `statementofvote192430cali`, printed p.4 of the 1930 general
+  statement (final signature in the compound volume), leaf 450 = n449 =
+  https://archive.org/download/statementofvote192430cali/page/n449_w800.jpg
+- Locating query: archive.org search-inside API q=`"FOR GOVERNOR"` returned two hits in
+  this leaf range (leaves 414 and 450); leaf 414 (n413) was checked first and rejected —
+  it lists five candidates ALL under a "(Republican)" heading (Buron Fitts, Clara
+  Shortridge Foltz, James Rolph Jr., C. C. Young, Milton K. Young), which is the August
+  1930 direct PRIMARY (Rolph defeated incumbent C. C. Young for the Republican
+  nomination), not the general; leaf 450 is the true November general (four candidates,
+  one column each, statewide totals match, see below).
+- Verbatim San Diego row from image: "San Diego 41,835 | 13,985 | 1,887 | 2".
+- Statewide-total cross-check: printed totals row Rolph 999,393 / Young 333,973 / Sinclair
+  50,480 / Scattering 1,283 sum to 1,385,129, matching the "Total of all votes cast for
+  Governor, 1,385,129" basis-of-percentage citation printed later in the same volume's
+  1932 initiative-measure pages (leaf 469).
+
+Confidence: high (page-image read; primary correctly excluded; statewide totals
+internally cross-checked against the volume's own later citation).
+
+---
+## 1932-11-08 — President (Presidential Electors)
+
+Source (primary): "Statement of Vote ... General Election held on November 8, 1932"
+(Frank C. Jordan, Secretary of State), bound in archive.org item
+`statementofvo19321939cali`. Ticket tables read from PAGE IMAGES, printed pp.4-23 (22
+electors per slate — California's electoral count rose from 13 to 22 after 1930
+reapportionment — four printed pages per full slate). Seven slates on the ballot:
+Democratic (Roosevelt), Republican ("Republican-Aided Party" fusion label, Hoover),
+Socialist (Thomas), Prohibition, Liberty, Communist, and one unlabeled/write-in line.
+
+San Diego County per slate (highest/canonical elector; all five substantial slates were
+independently page-image-read and every one matches Wikipedia's SOV-sourced county table
+exactly):
+
+| Slate (candidate) | San Diego votes | statewide (canonical elector) |
+|---|---|---|
+| Democratic (Roosevelt) | 45,622 | 1,324,157 |
+| Republican-Aided (Hoover) | 35,305 | 847,902 |
+| Socialist (Thomas) | 3,108 | 63,299 |
+| Prohibition | 759 | 20,637 |
+| Liberty | 356 | 9,827 |
+| Communist | 0 | 1,023 |
+| (unlabeled 7th line) | 0 | 1,121 |
+| **Contest sum** | **85,150** | **2,267,966** |
+
+Total votes cast for the county: not printed with these tables (85,150 is the contest sum
+for President only).
+
+Provenance (archive.org item `statementofvo19321939cali`; images from
+https://archive.org/download/statementofvo19321939cali/page/n<N>_w800.jpg):
+- Democratic (Roosevelt) electors 1-11, printed p.4, leaf 125 = n124 (header "ELECTORS OF
+  PRESIDENT AND VICE PRESIDENT OF THE UNITED STATES / Democratic Party"; 11 named
+  electors led by Anne Banning through Henry E. Harwood).
+- Democratic electors 1-11 continued (Placer-Yuba + Totals), printed p.5, leaf 126 = n125
+  (San Diego row for the highest/canonical column: 45,622; column total 1,324,157,
+  matching Roosevelt's well-known official CA total exactly).
+- Democratic electors 12-22, printed p.6, leaf 127 = n126 ("Democratic Party—Continued";
+  11 more named electors, Clara H. Heller through Mrs. Mary Marshall Wiley).
+- Democratic electors 12-22 continued + Totals, printed p.7, leaf 128 = n127 (confirms
+  same ~1,321,xxx-1,324,157 range for this slate's other 21 electors; not needed since
+  the canonical column was already found on leaf 126).
+- Republican-Aided (Hoover) electors, printed pp.8-11, leaves 129-132 = n128-131; San
+  Diego row on the Placer-Yuba+Totals page: 35,305; column total 847,902, matching
+  Hoover's well-known official CA total exactly.
+- Socialist (Thomas) electors, printed pp.12-15, leaves 133-136 = n132-135; San Diego row:
+  3,108; column total 63,299, matching Thomas's well-known official CA total exactly.
+- Prohibition electors, printed pp.16-17, leaves 137-138 = n136-137; San Diego row: 759;
+  column total 20,637.
+- Liberty electors, printed pp.18-19, leaves 139-140 = n138-139; San Diego row: 356;
+  column total 9,827.
+- Communist and the unlabeled 7th line were not independently page-image-read (very small
+  single/few-column tickets further down the same run of leaves, leaves ~141-145); their
+  San Diego figures (0 and 0) are taken from Wikipedia's county table (see cross-check).
+- Locating query: archive.org search-inside API q=`"NOVEMBER 8, 1932"` (title-page hit at
+  leaf 121) located the statement's start; as with the 1928 item, `"ELECTORS OF
+  PRESIDENT"` and candidate-name searches (`Roosevelt`, `Hoover`) returned NO hits on any
+  of these landscape/rotated general-election table leaves (only hits in the unrelated
+  primary delegate-preference sections) — the tables were located by direct sequential
+  image inspection starting after the title-page leaf.
+- Cross-check: Wikipedia "1932 United States presidential election in California" county
+  table gives the identical San Diego row (Democratic 45,622 / Republican 35,305 /
+  Socialist 3,108 / Prohibition 759 / Liberty 356 / Communist 0 / None 0, county total
+  85,150) and the identical statewide totals (1,324,157 / 847,902 / 63,299 / 20,637 /
+  9,827 / 1,023 / 1,121, grand total 2,267,966) — full digit-for-digit agreement between
+  the five independent page-image reads and the Wikipedia-sourced SOV transcription.
+
+Confidence: high (five of seven slates independently page-image-read with statewide
+totals matching known history exactly; the two near-zero remaining slates taken from the
+Wikipedia cross-reference to the same SOV, immaterial to the total either way).
+
+---
+## 1934-11-06 — Governor
+
+Source (primary): "Statement of Vote ... General Election held on November 6, 1934"
+(Frank C. Jordan, Secretary of State), bound in archive.org item
+`statementofvo19321939cali`. "FOR GOVERNOR" table read from the PAGE IMAGE (single
+column per candidate) — this is the famous Merriam-Sinclair-Haight EPIC-campaign race.
+
+San Diego County:
+
+| Candidate | San Diego votes |
+|---|---|
+| Frank F. Merriam (Republican) | 44,422 |
+| Upton Sinclair (Democratic) | 32,073 |
+| Raymond L. Haight (Commonwealth/Progressive) | 10,759 |
+| Milen C. Dempster (Socialist) | 69 |
+| Sam Darcy (Communist) | 185 |
+| Scattering | 32 |
+| **Contest sum** | **87,540** |
+
+Total votes cast for the county: not printed with this table.
+
+Provenance:
+- archive.org item `statementofvo19321939cali`, printed p.5 of the 1934 general
+  statement, leaf 255 = n254 =
+  https://archive.org/download/statementofvo19321939cali/page/n254_w800.jpg
+- Locating query: archive.org search-inside API q=`"FOR GOVERNOR"` returned matches at
+  leaves 195-197 (three consecutive pages, each headed by "FOR GOVERNOR" with MULTIPLE
+  candidates listed under the SAME party — Raymond L. Haight, Frank F. Merriam, John R.
+  Quinn, C. C. Young all under "(Republican)" on one page, four more candidates under
+  "(Democratic)" including the eventual EPIC-primary winner Upton Sinclair on a
+  continuation not shown — this is the August 1934 direct PRIMARY, confirmed and
+  rejected) and at leaf 255 (the true November general: one column per candidate,
+  statewide totals match, see below).
+- Verbatim San Diego row from image: "San Diego 185 | 69 | 10,759 | 44,422 | 32,073 | ""
+  (Darcy / Dempster / Haight / Merriam / Sinclair / Scattering blank for this county).
+- Statewide-total cross-check: printed totals row Darcy 5,826 / Dempster 2,947 / Haight
+  302,519 / Merriam 1,138,620 / Sinclair 879,537 / Scattering 273 sum to exactly
+  2,329,722, matching the "Total of all votes cast for Governor, 2,329,722"
+  basis-of-percentage citation printed later in the same volume's own subsequent
+  initiative-measure pages (leaves 294 and 447).
+
+Confidence: high (page-image read; statewide totals internally cross-checked against the
+volume's own later citation, exact match).
+
+---
+## 1936-11-03 — President (Presidential Electors)
+
+Source (primary): "Statement of Vote ... General Election Held On November 3, 1936"
+(Frank C. Jordan, Secretary of State), bound in archive.org item
+`statementofvo19321939cali`. Ticket tables read from PAGE IMAGES, printed pp.4-9+ (22
+electors per slate, four printed pages per full slate). NOTE: this same archive.org item
+ALSO contains a separate mid-book title page reading "General Election, November 3, 1936"
+(leaf 419) that opens directly into "FOR REPRESENTATIVES IN CONGRESS" — a by-district
+supplement reprint, not the by-county statewide statement; it was checked and rejected
+before the true statewide title page (leaf 395, "General Election Held On November 3,
+1936") was found and used.
+
+San Diego County per slate (highest/canonical elector; both major slates independently
+page-image-read, both match Wikipedia's SOV-sourced county table exactly):
+
+| Slate (candidate) | San Diego votes | statewide (canonical elector) |
+|---|---|---|
+| Democratic-Progressive (Roosevelt) | 64,628 | 1,766,836 |
+| Republican (Landon) | 35,686 | 836,431 |
+| Prohibition [Wikipedia xref] | 579 | 12,917 |
+| Socialist [Wikipedia xref] | 524 | 11,331 |
+| Communist [Wikipedia xref] | 437 | 10,877 |
+| (unlabeled) [Wikipedia xref] | 0 | 490 |
+| **Contest sum** | **101,854** | **2,638,882** |
+
+Total votes cast for the county: not printed with these tables (101,854 is the contest
+sum for President only).
+
+Provenance (archive.org item `statementofvo19321939cali`; images from
+https://archive.org/download/statementofvo19321939cali/page/n<N>_w800.jpg):
+- Democratic-Progressive (Roosevelt) electors, printed pp.4-7, leaves 396-399 = n395-398;
+  San Diego row on a Placer-Yuba+Totals page (leaf 398 = n397): 64,628; column total
+  1,766,836, matching Roosevelt's well-known official CA total exactly (Roosevelt ran
+  fused with the Progressive line, hence "Democratic-Progressive Party" header and a
+  0-vote separate "None" column in the Wikipedia cross-check).
+- Republican (Landon) electors, printed pp.8-9+, leaves 400-402 = n399-401; San Diego row
+  on the Placer-Yuba+Totals page (leaf 402 = n401): 35,686; column total 836,431, matching
+  Landon's well-known official CA total exactly.
+- Prohibition, Socialist, Communist, and the unlabeled 6th line were not independently
+  page-image-read (small tickets further down the same run of leaves); their San Diego
+  figures (579, 524, 437, 0) are taken from Wikipedia's county table.
+- Locating query: archive.org search-inside API q=`"NOVEMBER 3, 1936"` returned four
+  hits — leaf 395 ("General Election Held On November 3, 1936", the true statewide
+  by-county title page, used here), leaf 419 (the by-district Congress supplement,
+  rejected), leaf 434 (a measures-section header), leaf 448 (unrelated certification
+  prose). As with 1928/1932, `"ELECTORS OF PRESIDENT"` and candidate-name searches
+  (`Landon`) returned NO hits on the actual landscape/rotated general-election table
+  leaves (only hits in the unrelated May 1936 primary delegate-preference section, leaves
+  302-313) — the tables were located by direct sequential image inspection after the
+  leaf-395 title page.
+- Cross-check: Wikipedia "1936 United States presidential election in California" county
+  table gives the identical San Diego row (Democratic 64,628 / Republican 35,686 /
+  Prohibition 579 / Socialist 524 / Communist 437 / None 0, county total 101,854) and the
+  identical statewide totals (1,766,836 / 836,431 / 12,917 / 11,331 / 10,877 / 490, grand
+  total 2,638,882) — full digit-for-digit agreement between the two independent
+  page-image reads (Roosevelt, Landon) and the Wikipedia-sourced SOV transcription.
+
+Confidence: high (both major slates independently page-image-read with statewide totals
+matching known history exactly; the small remaining slates taken from the Wikipedia
+cross-reference to the same SOV, immaterial to the total either way).
+
+---
+## Summary table (1924-1936 batch: seven elections)
+
+| Election | Contest | Contest sum (SD) | Confidence | Primary source |
+|---|---|---|---|---|
+| 1924-11-04 | President | 46,408 | high | SOV 1924 pp.4-11 (archive.org statementofvote192430cali, leaves 100-107) |
+| 1926-11-02 | Governor | 38,194 | high | SOV 1926 p.4 (statementofvote192430cali, leaf 206); matches Wikipedia exactly |
+| 1928-11-06 | President | 71,151 | high | SOV 1928 pp.4-7 (statementofvote192430cali, leaves 368-371); matches Wikipedia exactly |
+| 1930-11-04 | Governor | 57,709 | high | SOV 1930 p.4 (statementofvote192430cali, leaf 450) |
+| 1932-11-08 | President | 85,150 | high | SOV 1932 pp.4-19 (statementofvo19321939cali, leaves 125-140); matches Wikipedia exactly |
+| 1934-11-06 | Governor | 87,540 | high | SOV 1934 p.5 (statementofvo19321939cali, leaf 255); matches volume's own citation |
+| 1936-11-03 | President | 101,854 | high | SOV 1936 pp.4-9 (statementofvo19321939cali, leaves 396-402); matches Wikipedia exactly |
+
+NOT FOUND: none — all seven elections sourced at high confidence. All seven are in the
+`.claude/skills/sov-certified-turnout/SKILL.md` volume `statementofvote192430cali`
+(1924/1926/1928/1930) or `statementofvo19321939cali` (1932/1934/1936).
+
+Notes:
+- 1924, 1928, 1932, and 1936 are presidential-elector tables (California cast 13 electoral
+  votes through 1928, 22 from 1932 onward after reapportionment); each slate's San Diego
+  figure is the county's highest column value for that slate ("highest-elector"
+  convention, matching the 1892-1920 batch), with the specific canonical/statewide-
+  matching column also noted. 1926, 1930, and 1934 are single-column Governor tables, no
+  elector convention needed.
+- Every contest sum in this batch was cross-checked either against Wikipedia's
+  SOV-sourced county table (1926, 1928, 1932, 1936 — all matched digit-for-digit) or
+  against the same bound volume's own later citation of the same total in a subsequent
+  initiative-measure "basis of percentage" section (1930's 1,385,129 confirmed via the
+  1932 measures pages; 1934's 2,329,722 confirmed via the volume's own later citation).
+- The archive.org full-text search-inside API systematically fails to index these
+  landscape/rotated multi-elector table pages (`"ELECTORS OF PRESIDENT"` and candidate-
+  name searches return zero hits on the actual tables in 1928, 1932, and 1936, only
+  hitting unrelated primary delegate-preference sections) — every presidential-elector
+  table in this batch was located by direct sequential page-image inspection after
+  locating the nearest indexed title page, not by text search. Simple single-column
+  Governor tables (1926, 1930, 1934) were NOT affected and were found directly by search.
+- Primary-vs-general disambiguation caught two live errors: the 1926 first "FOR GOVERNOR"
+  hit (leaf 140) was the June 1926 primary (six same-party candidates in one table); the
+  1930 first hit (leaf 414) was the August 1930 primary (five candidates all under
+  "Republican"); both were rejected in favor of the true November general after their
+  statewide totals failed to match known history.
+
+---
+## 1940-11-05 — President (Presidential Electors)
+
+Source (primary): "State of California Statement of Vote" for the General Election held
+November 5, 1940 (Frank C. Jordan, Secretary of State), bound in archive.org item
+`stateofcaliforn194050cali` (covers 1940-1950; the item also contains the May 7, 1940
+presidential primary, which precedes the general-election section and was NOT used —
+disambiguated by the "GENERAL ELECTION—1940" running head on the general section's pages,
+vs. "PRIMARY ELECTION HELD MAY 7, 1940" on the primary section's). "PRESIDENTIAL ELECTORS"
+table, printed pp.4-6 (five party columns + a "Scattering" column, one column-pair per
+page), read directly from PAGE IMAGES.
+
+San Diego County per ticket:
+
+| Ticket (candidate) | San Diego votes |
+|---|---|
+| Democratic (Franklin D. Roosevelt) | 71,188 |
+| Republican-Townsend (Wendell L. Willkie) | 55,434 |
+| Progressive (Norman Thomas) | 684 |
+| Communist (Earl Browder) | 348 |
+| Prohibition (Roger W. Babson) | 456 |
+| Scattering | 0 (none printed for San Diego) |
+| **Contest sum** | **128,110** |
+
+Total votes cast for the county: not printed as a separate line in this table; 128,110 is
+the five-ticket contest sum (this campaign's standard contest-sum convention).
+
+Provenance:
+- archive.org item `stateofcaliforn194050cali` ("State of California statement of vote",
+  server ia600409/ia800409, path `/12/items/stateofcaliforn194050cali`)
+- Prohibition/Communist table: printed p.4 = https://archive.org/download/stateofcaliforn194050cali/page/n109_w1400.jpg
+  (San Diego row read at 2x-upscale crop: Babson **456**, Browder **348**; column
+  totals printed at page foot: Prohibition 9,400, Communist 13,586)
+- Democratic/Progressive table: printed p.5 = https://archive.org/download/stateofcaliforn194050cali/page/n110_w1400.jpg
+  (San Diego row: Roosevelt **71,188**, Thomas **684**; column totals: Democratic
+  1,877,618, Progressive 16,506)
+- Republican-Townsend/Scattering table: printed p.6 = https://archive.org/download/stateofcaliforn194050cali/page/n111_w1400.jpg
+  (San Diego row: Willkie **55,434**, Scattering "--"; column totals: Republican-Townsend
+  1,351,419, Scattering 262)
+- Locating query: archive.org search-inside API
+  (`https://ia600409.us.archive.org/fulltext/inside.php?item_id=stateofcaliforn194050cali&doc=stateofcaliforn194050cali&path=/12/items/stateofcaliforn194050cali&q=...`),
+  q=`"GENERAL ELECTION 1940"` located the general-election running heads, q=`"Roosevelt for
+  President"` located the Democratic column specifically. NOTE: this item's internal
+  search-index page numbers run ~1 higher than the `/page/n<N>` download alias used above
+  (e.g. the "Roosevelt for President" hit reports index page 111, but the same text is on
+  download page `n110`) — a fixed offset, most likely front-matter leaves counted
+  differently by the two systems; resolved by fetching and visually confirming the
+  download-URL images directly rather than trusting the offset.
+- djvu.txt full-text dump (`https://archive.org/download/stateofcaliforn194050cali/stateofcaliforn194050cali_djvu.txt`)
+  confirms the table STRUCTURE (candidate names, elector lists, county name column, and
+  the two page-foot totals rows for Prohibition/Communist: "9,400" / "13,586") but, as in
+  the 1928/1932/1936 volumes, the OCR **drops every per-county numeric column** on these
+  landscape vote-tally tables — the actual San Diego figures were read from page images,
+  not text.
+- Cross-check: Wikipedia "1940 United States presidential election in California" raw
+  wikitext (`https://en.wikipedia.org/w/index.php?title=1940_United_States_presidential_election_in_California&action=raw`)
+  San Diego row = Democratic 71,188 / Republican 55,434 / [Progressive] 684 / Communist
+  348 / Prohibition 456, county total **128,110** — exact digit-for-digit match to the
+  page-image read and to the independently-computed sum. Statewide totals row also
+  matches exactly: Democratic 1,877,618 / Republican 1,351,419 / Progressive 16,506 /
+  Communist 13,586 / Prohibition 9,400 / Scattering 262, **grand total 3,268,791**.
+
+Confidence: high (all five San Diego figures page-image-read directly from the SOV, with
+an exact digit-for-digit match against Wikipedia's independently-sourced county table for
+both the five individual figures and the county and statewide totals).
+
+---
+## Summary table (1940 addendum)
+
+| Election | Contest | Contest sum (SD) | Confidence | Primary source |
+|---|---|---|---|---|
+| 1940-11-05 | President | 128,110 | high | SOV 1940 pp.4-6 (stateofcaliforn194050cali, download pages n109-n111); matches Wikipedia exactly |

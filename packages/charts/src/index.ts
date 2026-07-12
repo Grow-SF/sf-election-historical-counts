@@ -8,6 +8,7 @@ import "./charts.css";
 export {
   default as LongCount,
   NightShare,
+  SanDiegoNightShare,
   Vbm,
   CountySpeed,
   CountyNightShare,
