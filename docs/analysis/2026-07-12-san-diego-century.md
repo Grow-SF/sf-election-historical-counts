@@ -54,18 +54,33 @@ percent comparisons.
 | 1910-11 | Governor | 3,741 | 9,479 | 39.5% | 45/95 precincts at 3 a.m. |
 | 1912-11 | President | 17,566 | 21,728 | 80.8% | printed grand totals, 114 rows |
 | 1916-11 | President | 24,811 | 36,552 | 67.9% | 152/221 precincts |
+| 1914-11 | Governor | 3,543 | 34,955 | (10.1%) | remote wire, 20/178 precincts: a wire-coverage artifact |
 | 1918-11 | Governor | 4,502 | 25,100 | 17.9% | 63/221 precincts "complete" |
 | 1920-11 | President | 8,178 | 31,098 | 26.3% | 73/223 precincts, 5 a.m. EXTRA |
+| 1922-11 | Governor | 2,703 | 32,894 | (8.2%) | remote wire, 36/240 precincts: a wire-coverage artifact |
 | 1924-11 | President | 23,961 | 46,408 | (51.6%) | remote AP wire, 158/274 precincts: a lower bound, not the night |
+| 1926-11 | Governor | 22 | 38,194 | (0.1%) | the LA wire desk carried 2 of 308 precincts: 22 ballots |
 | 1928-11 | President | 5,432 | 71,151 | (7.6%) | remote AP wire, 31/310 precincts: a severe lower bound |
+| 1930-11 | Governor | 197 | 57,709 | (0.3%) | the LA wire desk carried ONE precinct of 384: 197 ballots |
 | 1936-11 | President | 32,370 | 101,854 | (31.8%) | a pre-dawn EXTRA, only 167 precincts at press: a lower bound |
 | 1940-11 | President | 114,410 | 128,110 | 89.3% | 550/596 precincts, a 6 a.m. special edition (see below) |
 
-Three more mid-century figures exist but are **ceilings, not night counts**, and
-so carry a null share and stay off the chart: 1932 (76,427), 1934 (71,193) and
-1944 (118,968) all come from routine *evening* editions whose returns are
-clocked to the afternoon after election day, when the canvass had already
-resumed. They bound the night from above, nothing more.
+Five more mid-century figures exist but are **ceilings, not night counts**, so
+they carry a null share and stay off the chart entirely: 1932 (76,427), 1934
+(71,193), 1942 (51,600), 1944 (118,968) and 1950 (152,068). All come from
+routine *evening* editions whose returns are clocked to the afternoon after
+election day, when the canvass had already resumed. They bound the night from
+above, which is the opposite of what the chart's axis means, so they cannot be
+plotted even as dimmed points.
+
+**And a warning about the dots near zero.** The parenthesised shares above,
+1914, 1922, 1926, 1928 and 1930, are the weakest class of number in this
+project. They come from *remote* papers: a Sacramento or Los Angeles wire desk
+printing whatever San Diego copy had reached it overnight. In 1930 that was a
+single precinct out of 384. These figures measure the wire's coverage of San
+Diego, not San Diego's count, and the county was certainly much further along
+than they imply. They are charted as dim lower bounds because they are the only
+witness those years have, but no trend should ever be drawn through them.
 
 **1940 is the era's high-water mark, and it nearly got away.** The Escondido
 Times-Advocate was an evening paper, which normally disqualifies its day-after
@@ -240,14 +255,17 @@ least obvious: hunt for *special editions*.
   crawls fall in gaps that swallow election night itself
   ([`wayback-probe-1994-2010.md`](../research/night-recovery-2026-07-11-san-diego/wayback-probe-1994-2010.md)).
 
-Still dark as a *night* count: **1914**, **1922**, **1926** (no county table
-printed), **1930** (embargoed until September 2026), **1932/1934/1944**
-(ceilings only), **1938**, **1942 and 1946-1990**, and **1994-2002 plus
-2006**. The remaining paths
-are microfilm, a cheap re-run of the embargoed years after September 2026, and
-more of what just worked for 1940: hunting the county's own dailies for
-election *specials*, which is the one thing that turns an evening paper into a
-night source.
+Still dark as a *night* count, after all six routes: **1938**, **1946**,
+**1948**, **1952-1990**, and **1994-2002 plus 2006**. Five further years
+(**1932, 1934, 1942, 1944, 1950**) yield only afternoon-clocked ceilings, and
+five more (**1914, 1922, 1926, 1928, 1930**) yield only remote-wire artifacts.
+The San Diego Union, the one paper that would settle all of them properly, is
+simply not digitized after 1922: a direct test confirms CDNC returns "no such
+issue" for its post-1922 dates, rather than the embargo lock screen it shows for
+other papers, so there is no release date to wait for. The only confirmed route
+to that paper for 1922-1990 is a personal Newspapers.com subscription, which no
+library card in reach provides (see
+[`newspapers-com-probe.md`](../research/night-recovery-2026-07-11-san-diego/newspapers-com-probe.md)).
 
 - **Pre-1871:** the San Diego Herald (1851-1860) is in CDNC but no statewide
   certified denominators are on file; out of scope.

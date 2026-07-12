@@ -36,6 +36,14 @@ ARTIFACT = {
     "1924-11-04": "a remote paper's AP county row at its press time (158 of 274 precincts) — the San Diego Union's own count that night was higher",
     "1928-11-06": "a remote paper's AP county row at its press time (only 31 of 310 precincts had reached the wire) — a severe undercount of the night, not a slow count",
     "1936-11-03": "a pre-dawn EXTRA that went to press with only 167 precincts in — a genuine night count, but an early-press snapshot, so the end-of-night total was higher",
+    # The wire-coverage artifacts. These plot near zero not because San Diego
+    # counted nothing, but because a distant paper's wire desk carried almost no
+    # San Diego copy overnight. They are the weakest class of point in the
+    # dataset; the note text and tooltips must say so plainly.
+    "1914-11-03": "a Sacramento paper's wire dispatch carrying just 20 of 178 precincts — it measures the wire's coverage, not San Diego's count, which was far further along",
+    "1922-11-07": "a Sacramento paper's wire table carrying just 36 of 240 precincts — the wire's coverage, not San Diego's count (a San Pedro paper's dawn bulletin already had 92 precincts)",
+    "1926-11-02": "the Los Angeles wire desk carried just 2 of San Diego's 308 precincts overnight — 22 ballots. This measures LA's coverage of San Diego, not San Diego's count",
+    "1930-11-04": "the Los Angeles wire desk carried a SINGLE precinct of San Diego's 384 — 197 ballots. This measures LA's coverage of San Diego, not San Diego's count",
 }
 
 NAME = {

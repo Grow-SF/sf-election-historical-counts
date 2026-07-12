@@ -98,6 +98,13 @@
   "observations": []
  },
  {
+  "id": "sd-1930-11-04",
+  "name": "San Diego County \u2014 Gubernatorial General (1930-11-04)",
+  "summary": "0.3% counted by election night (lower bound, not the night's true state); denominator 57,709. the Los Angeles wire desk carried a SINGLE precinct of San Diego's 384 \u2014 197 ballots. This measures LA's coverage of San Diego, not San Diego's count",
+  "finalSource": "Los Angeles Examiner (LAE19301105) county returns box \u2014 1 of 384 precincts (0.3%) reached the Los Angeles wire desk overnight \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1930-11-04.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
   "id": "sd-1928-11-06",
   "name": "San Diego County \u2014 Presidential General (1928-11-06)",
   "summary": "7.6% counted by election night (lower bound, not the night's true state); denominator 71,151. a remote paper's AP county row at its press time (only 31 of 310 precincts had reached the wire) \u2014 a severe undercount of the night, not a slow count",
@@ -105,10 +112,24 @@
   "observations": []
  },
  {
+  "id": "sd-1926-11-02",
+  "name": "San Diego County \u2014 Gubernatorial General (1926-11-02)",
+  "summary": "0.1% counted by election night (lower bound, not the night's true state); denominator 38,194. the Los Angeles wire desk carried just 2 of San Diego's 308 precincts overnight \u2014 22 ballots. This measures LA's coverage of San Diego, not San Diego's count",
+  "finalSource": "Los Angeles Examiner (LAE19261103) 'Vote of Counties in Southland' box \u2014 2 of 308 precincts (0.6%) reached the Los Angeles wire desk overnight \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1926-11-02.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
   "id": "sd-1924-11-04",
   "name": "San Diego County \u2014 Presidential General (1924-11-04)",
   "summary": "51.6% counted by election night (lower bound, not the night's true state); denominator 46,408. a remote paper's AP county row at its press time (158 of 274 precincts) \u2014 the San Diego Union's own count that night was higher",
   "finalSource": "Sacramento Union (SDU19241105) AP California county table \u2014 158 of 274 precincts (AP county table in a REMOTE paper, at its press time) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1924-11-04.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1922-11-07",
+  "name": "San Diego County \u2014 Gubernatorial General (1922-11-07)",
+  "summary": "8.2% counted by election night (lower bound, not the night's true state); denominator 32,894. a Sacramento paper's wire table carrying just 36 of 240 precincts \u2014 the wire's coverage, not San Diego's count (a San Pedro paper's dawn bulletin already had 92 precincts)",
+  "finalSource": "Sacramento Daily Union (SDU19221108) AP State Returns By Counties \u2014 36 of 240 precincts (15%), per the AP county table's own column \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1922-11-07.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
   "observations": []
  },
  {
@@ -130,6 +151,13 @@
   "name": "San Diego County \u2014 Presidential General (1916-11-07)",
   "summary": "67.9% counted by election night; denominator 36,552.",
   "finalSource": "SDDU19161108 p2 \u2014 152 of 221 precincts (prose; Benson/Hanly not printed) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1916-11-07.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1914-11-03",
+  "name": "San Diego County \u2014 Gubernatorial General (1914-11-03)",
+  "summary": "10.1% counted by election night (lower bound, not the night's true state); denominator 34,955. a Sacramento paper's wire dispatch carrying just 20 of 178 precincts \u2014 it measures the wire's coverage, not San Diego's count, which was far further along",
+  "finalSource": "Sacramento Daily Union (SDU19141104) wire dispatch, morning edition \u2014 20 of 178 precincts (11%), per a Sacramento wire dispatch \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1914-11-03.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
   "observations": []
  },
  {

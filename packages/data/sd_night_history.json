@@ -6,7 +6,11 @@
     "1900-11-06": "city-only total-vote proxy (the countywide table's total row was left blank) \u2014 the county night count was higher",
     "1924-11-04": "a remote paper's AP county row at its press time (158 of 274 precincts) \u2014 the San Diego Union's own count that night was higher",
     "1928-11-06": "a remote paper's AP county row at its press time (only 31 of 310 precincts had reached the wire) \u2014 a severe undercount of the night, not a slow count",
-    "1936-11-03": "a pre-dawn EXTRA that went to press with only 167 precincts in \u2014 a genuine night count, but an early-press snapshot, so the end-of-night total was higher"
+    "1936-11-03": "a pre-dawn EXTRA that went to press with only 167 precincts in \u2014 a genuine night count, but an early-press snapshot, so the end-of-night total was higher",
+    "1914-11-03": "a Sacramento paper's wire dispatch carrying just 20 of 178 precincts \u2014 it measures the wire's coverage, not San Diego's count, which was far further along",
+    "1922-11-07": "a Sacramento paper's wire table carrying just 36 of 240 precincts \u2014 the wire's coverage, not San Diego's count (a San Pedro paper's dawn bulletin already had 92 precincts)",
+    "1926-11-02": "the Los Angeles wire desk carried just 2 of San Diego's 308 precincts overnight \u2014 22 ballots. This measures LA's coverage of San Diego, not San Diego's count",
+    "1930-11-04": "the Los Angeles wire desk carried a SINGLE precinct of San Diego's 384 \u2014 197 ballots. This measures LA's coverage of San Diego, not San Diego's count"
   },
   "elections": [
     {
@@ -388,6 +392,24 @@
       "thresholds": {}
     },
     {
+      "id": "1914-11-03",
+      "name": "Gubernatorial General",
+      "kind": "General",
+      "year": 1914,
+      "final": 34955,
+      "registered": null,
+      "source": "archival",
+      "provisional": false,
+      "nReports": 1,
+      "nightPct": 10.1,
+      "nightPartial": true,
+      "nightSrc": "Sacramento Daily Union (SDU19141104) wire dispatch, morning edition \u2014 20 of 178 precincts (11%), per a Sacramento wire dispatch",
+      "srcShort": "Sacramento Daily Union (SDU19141104) wire dispatch, morning edition",
+      "vbmShare": null,
+      "pts": [],
+      "thresholds": {}
+    },
+    {
       "id": "1916-11-07",
       "name": "Presidential General",
       "kind": "General",
@@ -442,6 +464,24 @@
       "thresholds": {}
     },
     {
+      "id": "1922-11-07",
+      "name": "Gubernatorial General",
+      "kind": "General",
+      "year": 1922,
+      "final": 32894,
+      "registered": null,
+      "source": "archival",
+      "provisional": false,
+      "nReports": 1,
+      "nightPct": 8.2,
+      "nightPartial": true,
+      "nightSrc": "Sacramento Daily Union (SDU19221108) AP State Returns By Counties \u2014 36 of 240 precincts (15%), per the AP county table's own column",
+      "srcShort": "Sacramento Daily Union (SDU19221108) AP State Returns By Counties",
+      "vbmShare": null,
+      "pts": [],
+      "thresholds": {}
+    },
+    {
       "id": "1924-11-04",
       "name": "Presidential General",
       "kind": "General",
@@ -460,6 +500,24 @@
       "thresholds": {}
     },
     {
+      "id": "1926-11-02",
+      "name": "Gubernatorial General",
+      "kind": "General",
+      "year": 1926,
+      "final": 38194,
+      "registered": null,
+      "source": "archival",
+      "provisional": false,
+      "nReports": 1,
+      "nightPct": 0.1,
+      "nightPartial": true,
+      "nightSrc": "Los Angeles Examiner (LAE19261103) 'Vote of Counties in Southland' box \u2014 2 of 308 precincts (0.6%) reached the Los Angeles wire desk overnight",
+      "srcShort": "Los Angeles Examiner (LAE19261103) 'Vote of Counties in Southland' box",
+      "vbmShare": null,
+      "pts": [],
+      "thresholds": {}
+    },
+    {
       "id": "1928-11-06",
       "name": "Presidential General",
       "kind": "General",
@@ -473,6 +531,24 @@
       "nightPartial": true,
       "nightSrc": "Sacramento Union (SDU19281107) AP California county table \u2014 31 of 310 precincts (AP county table in a REMOTE paper, at its press time)",
       "srcShort": "Sacramento Union (SDU19281107) AP California county table",
+      "vbmShare": null,
+      "pts": [],
+      "thresholds": {}
+    },
+    {
+      "id": "1930-11-04",
+      "name": "Gubernatorial General",
+      "kind": "General",
+      "year": 1930,
+      "final": 57709,
+      "registered": null,
+      "source": "archival",
+      "provisional": false,
+      "nReports": 1,
+      "nightPct": 0.3,
+      "nightPartial": true,
+      "nightSrc": "Los Angeles Examiner (LAE19301105) county returns box \u2014 1 of 384 precincts (0.3%) reached the Los Angeles wire desk overnight",
+      "srcShort": "Los Angeles Examiner (LAE19301105) county returns box",
       "vbmShare": null,
       "pts": [],
       "thresholds": {}

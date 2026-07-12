@@ -113,15 +113,16 @@ export function SanDiegoNightShare() {
           subtitle: "Percent counted by election night, 1871–2024",
           note: (
             <>
-              Three sources, and their denominators differ. Before 1930: the
-              morning paper&apos;s largest contest sum over that
-              contest&apos;s certified county total. 1992 and 2004:
-              news-derived (certified ballots cast minus the registrar&apos;s
-              stated uncounted remainder). 2008 on: the county&apos;s final
-              election-night report over certified ballots cast. Dim dashed
-              dots are lower bounds only, where the paper printed majorities
-              instead of votes, omitted the city, printed the city alone with
-              no county total, or carried just a remote AP wire snapshot.
+              <strong>Dim dashed dots are lower bounds, not measurements.</strong>{" "}
+              The lowest of them sit near zero because a distant newspaper&apos;s
+              wire desk carried almost no San Diego copy overnight (in 1930, one
+              precinct of 384), not because San Diego counted nothing. Read only
+              the solid dots as the county&apos;s actual election-night count.
+              Denominators differ by era: through 1940, the paper&apos;s largest
+              contest sum over that contest&apos;s certified county total; 1992
+              and 2004, certified ballots cast minus the registrar&apos;s stated
+              uncounted remainder; 2008 on, the county&apos;s final
+              election-night report over certified ballots cast.
             </>
           ),
           footer: null,

@@ -2019,3 +2019,443 @@ both the five individual figures and the county and statewide totals).
 | Election | Contest | Contest sum (SD) | Confidence | Primary source |
 |---|---|---|---|---|
 | 1940-11-05 | President | 128,110 | high | SOV 1940 pp.4-6 (stateofcaliforn194050cali, download pages n109-n111); matches Wikipedia exactly |
+
+---
+## 1922-11-07 — Governor
+
+Source (primary): "Statement of Vote at General Election held on November 7, 1922" (Frank C.
+Jordan, Secretary of State), bound in archive.org item `statementofvo19081922cali` (the same
+compound 1908-1922 volume used for the 1918 and 1920 sections above; the 1922 statement is
+the last signature in it). "FOR GOVERNOR." table, printed p.12, read from the PAGE IMAGE
+(single column per candidate; column order on the page is Horr | Richardson | Woolwine |
+Scattering).
+
+San Diego County:
+
+| Candidate | San Diego votes |
+|---|---|
+| Alexander Horr (Socialist) | 1,823 |
+| Friend Wm. Richardson (Republican) | 22,792 |
+| Thomas Lee Woolwine (Democratic) | 8,271 |
+| Scattering | 8 |
+| **Contest sum** | **32,894** |
+
+Total votes cast for the county: **34,693** — this SOV *does* print a county total-ballots
+line (see the p.10 table below), so the undervote is measurable: 34,693 - 32,894 = 1,799
+(5.2%), a normal top-of-ticket undervote. The campaign's standard denominator convention
+(contest sum, for apples-to-apples with the contest-sum election-night numerator) keeps
+**32,894** as the denominator; 34,693 is recorded here as the ballots-cast cross-check.
+
+Provenance:
+- archive.org item `statementofvo19081922cali` ("Statement of vote", server ia801401,
+  path `/25/items/statementofvo19081922cali`), printed p.12 of the 1922 general statement,
+  leaf 418 = n417 = https://archive.org/details/statementofvo19081922cali/page/n417
+  (image: https://archive.org/download/statementofvo19081922cali/page/n417_w1400.jpg)
+- Locating query: archive.org search-inside API
+  (`https://ia801401.us.archive.org/fulltext/inside.php?item_id=statementofvo19081922cali&doc=statementofvo19081922cali&path=/25/items/statementofvo19081922cali&q=%22FOR+GOVERNOR%22`)
+  returned 12 hits; the last general-election hit inside the volume is API page 422, which
+  maps to download leaf n417 (this item's search-index page numbers run 5 higher than the
+  `/page/n<N>` download alias — the same fixed offset already established for 1918, where
+  API page 269 = leaf n264). Hits at API pages 214-218 and 269 are the 1914/1918
+  statements; the hit at 362 is an earlier signature; the 457 hit is the 1922
+  initiative-measure "basis of percentage" note.
+- Verbatim San Diego row from the page image: "San Diego 1,823 | 22,792 | 8,271 | 8".
+- Statewide cross-check: the printed totals row at the foot of the same page reads
+  Horr **41,418** / Richardson **576,445** / Woolwine **347,530** / Scattering **394**
+  = **965,787**, matching (a) Wikipedia's "1922 California gubernatorial election" infobox
+  exactly (Richardson 576,445 / 59.69%, Woolwine 347,530 / 35.98%, Horr 41,418 / 4.29%,
+  Scattering 394, total 965,787) and (b) the same volume's own printed note, "Total of all
+  votes cast for Governor 965,787", in the 1922 initiative-measure basis-of-percentage
+  pages.
+- County-row cross-check: Wikipedia's independently-transcribed 1922 by-county table (whose
+  `<ref>` cites this same SOV, p.12) gives the identical San Diego row — Richardson 22,792
+  (69.29%) / Woolwine 8,271 (25.14%) / Horr 1,823 (5.54%) / Scattering 8 (0.02%), total
+  votes cast for the contest **32,894** — a digit-for-digit match to the page-image read.
+- Ballots-cast cross-check: same volume, printed p.10, leaf 416 = n415 =
+  https://archive.org/download/statementofvo19081922cali/page/n415_w1400.jpg
+  ("REGISTRATION, VOTING PRECINCTS AND TOTAL VOTE CAST AT GENERAL ELECTION, NOVEMBER 7,
+  1922"): San Diego row = Republican 34,080 / Democratic 11,105 / Socialist 664 /
+  Prohibition 764 / Miscellaneous [blank] / Declined to state 8,735 / **total registered
+  55,348** / **voting precincts 240** / **total vote cast 34,693** (the five registration
+  columns sum to 55,348 exactly). The 240-precinct figure is the denominator the 1922
+  election-night newspaper tables report against.
+- djvu.txt (`https://archive.org/download/statementofvo19081922cali/statementofvo19081922cali_djvu.txt`,
+  1.0 MB) confirms the table's identity and its totals row (576,445 / 347,530 appear in
+  sequence immediately before the "FOR LIEUTENANT GOVERNOR" heading, and the page-12 folio
+  precedes the "FOR GOVERNOR." head) but the OCR de-tabulates the county rows into a single
+  unlabelled number stream — the San Diego figures were read from the page image, not text.
+
+Confidence: high (page-image read of both the county row and the statewide totals row;
+statewide totals match Wikipedia and the volume's own printed grand total digit for digit;
+the county row matches Wikipedia's independently-transcribed table digit for digit; and the
+contest sum sits correctly just under the separately-printed county ballots-cast figure).
+
+---
+## Summary table (1922 addendum)
+
+| Election | Contest | Contest sum (SD) | Ballots cast (SD, printed) | Confidence | Primary source |
+|---|---|---|---|---|---|
+| 1922-11-07 | Governor | 32,894 | 34,693 | high | SOV 1922 p.12 (statementofvo19081922cali, download page n417); ballots cast from p.10 (n415); matches Wikipedia exactly |
+
+---
+## 1914-11-03 — Governor
+
+Source (primary): "Statement of Vote at General Election held on November 3, 1914"
+(Frank C. Jordan, Secretary of State), bound in archive.org item `statementofvo19081922cali`
+(the same 1908-1922 volume used for 1912, 1916, 1918, 1920). "FOR GOVERNOR." table, printed
+p.8, read from the PAGE IMAGE (single column per candidate, six columns incl. Scattering).
+This is the first California general election in which women voted (1911 suffrage
+amendment), which is why San Diego's contest sum is ~1.6x its 1912 total-cast.
+
+San Diego County:
+
+| Candidate | San Diego votes |
+|---|---|
+| John D. Fredericks (Republican) | 14,365 |
+| Hiram W. Johnson (Progressive) | 14,152 |
+| J. B. Curtin (Democratic) | 2,864 |
+| Noble A. Richardson (Socialist) | 1,879 |
+| Clinton P. Moore (Prohibition) | 1,694 |
+| Scattering | 1 |
+| **Contest sum** | **34,955** |
+
+Total votes cast for the county: not printed with this table (the volume's 1912-style
+per-county "total vote cast" table is not repeated for 1914). Registration cross-check:
+same volume, printed p.6 "TOTAL REGISTRATION BY COUNTIES, 1914" gives San Diego **42,753**
+registered (statewide total registration 1,219,345), so the 34,955 contest sum is 81.8% of
+registration — plausible for 1914, and it confirms the county's real 1912→1914 growth
+(1912 total cast was 22,933) rather than an OCR artifact.
+
+Provenance (archive.org item `statementofvo19081922cali`, server ia801401, path
+/25/items/statementofvo19081922cali; images from
+https://archive.org/download/statementofvo19081922cali/page/n<leaf>_w1400.jpg):
+- "FOR GOVERNOR." table, printed p.8, leaf n71 =
+  https://archive.org/details/statementofvo19081922cali/page/n71
+  (image read: https://archive.org/download/statementofvo19081922cali/page/n71_w1400.jpg)
+- Locating query: archive.org search-inside API
+  (`https://ia801401.us.archive.org/fulltext/inside.php?item_id=statementofvo19081922cali&doc=statementofvo19081922cali&path=/25/items/statementofvo19081922cali&q=...`),
+  q=`"460,495"` (Johnson's statewide total) -> API page 76 = leaf n71; q=`"14,365"` returns
+  the same page. NOTE: this item's search-index page numbers run 5 higher than the
+  `/page/n<N>` download alias (API page 76 = leaf n71; API page 74 = leaf n69) — a fixed
+  front-matter offset, resolved by fetching and visually confirming the download-URL images.
+- Registration table, printed p.6, leaf n69 =
+  https://archive.org/download/statementofvo19081922cali/page/n69_w1400.jpg
+  (locating query: q=`"TOTAL REGISTRATION BY COUNTIES, 1914"` -> API page 74; San Diego row
+  "San Diego ........ 42,753")
+- Verbatim San Diego row from the p.8 image:
+  "San Diego 14,365 | 14,152 | 2,864 | 1,879 | 1,694 | 1"
+  (Fredericks / Johnson / Curtin / Richardson / Moore / Scattering)
+- Statewide totals row (same page, printed "Totals"): Fredericks 271,990 / Johnson 460,495 /
+  Curtin 116,121 / Richardson 50,716 / Moore 27,345 / Scattering 22 — sums to 926,689 and
+  matches the known 1914 result exactly (Johnson re-elected with 460,495, 49.7%). The
+  djvu.txt OCR of this same row mangles Fredericks as "271,960"; the page image reads
+  271,990, which is the historical figure — a reminder that the OCR text is not
+  digit-trustworthy on these tables.
+- Cross-check: Wikipedia "1914 California gubernatorial election" raw wikitext
+  (`https://en.wikipedia.org/w/index.php?title=1914_California_gubernatorial_election&action=raw`)
+  San Diego row = Progressive 14,152 / Republican 14,365 / Democratic 2,864 / Socialist 1,879
+  / Prohibition 1,694 / other 1, county total **34,955** — exact digit-for-digit match to the
+  page-image read and to the independently-computed sum.
+
+Confidence: high (page-image read of all six columns; statewide totals match known history
+exactly; Wikipedia's independently-sourced county table matches digit-for-digit; registration
+sanity-check consistent).
+
+---
+## Summary table (1914 addendum)
+
+| Election | Contest | Contest sum (SD) | Confidence | Primary source |
+|---|---|---|---|---|
+| 1914-11-03 | Governor | 34,955 | high | SOV 1914 p.8 (statementofvo19081922cali, leaf n71); matches Wikipedia exactly |
+
+---
+## 1942-11-03 — Governor
+
+Source (primary): "State of California Statement of Vote / General Election / November 3,
+1942" (Paul Peek, Secretary of State), bound in archive.org item
+`stateofcaliforn194050cali` (the same 1940-1950 volume used for 1940; it also contains the
+August 25, 1942 direct PRIMARY, which has its own "FOR GOVERNOR" table and was checked and
+rejected — the primary's title page and running heads read "PRIMARY ELECTION HELD AUGUST
+25, 1942", and its Governor table lists multiple same-party candidates, vs. the general's
+four-candidate one-column-per-candidate layout). "FOR GOVERNOR" table, printed p.4 — the
+whole 58-county table fits on ONE page — read directly from the PAGE IMAGE.
+
+San Diego County:
+
+| Candidate | San Diego votes |
+|---|---|
+| Culbert L. Olson (Democratic) | 35,113 |
+| Earl Warren (Republican) | 51,709 |
+| Nathan T. Porter (Townsend) | 906 |
+| Fred Dyster (Prohibition) | 579 |
+| Scattering | 0 (printed as dashes for San Diego) |
+| **Contest sum** | **88,307** |
+
+Total votes cast for the county: not printed with this table (88,307 is the four-candidate
+contest sum for Governor only; this campaign's standard contest-sum convention).
+
+Provenance:
+- archive.org item `stateofcaliforn194050cali` ("State of California statement of vote",
+  server ia600409/ia800409, path `/12/items/stateofcaliforn194050cali`)
+- 1942 general title page ("STATE OF CALIFORNIA / STATEMENT OF VOTE / GENERAL ELECTION /
+  NOVEMBER 3, 1942 / PARTY REGISTRATION, VOTING PRECINCTS, TOTAL VOTE CAST / Compiled By
+  PAUL PEEK, Secretary of State"), leaf 191 = n190 =
+  https://archive.org/download/stateofcaliforn194050cali/page/n190_w800.jpg
+- "FOR GOVERNOR" table, printed p.4, leaf 194 = n193 =
+  https://archive.org/download/stateofcaliforn194050cali/page/n193_w1400.jpg
+  (San Diego row read at 2x-upscale crop; page-foot totals row read at the same zoom)
+- Locating query: djvu.txt full-text dump
+  (`https://archive.org/download/stateofcaliforn194050cali/stateofcaliforn194050cali_djvu.txt`,
+  curl'd to disk and grepped, never read whole) — `grep -n "1942"` gave the Nov 3, 1942
+  general title page and the volume's own later "total of all votes cast for Governor"
+  citation; `grep -n "GOVERNOR"` gave four "FOR GOVERNOR" heads, of which the one
+  immediately following the "NOVEMBER 3, 1942" title block is the general (the earlier one
+  belongs to the Aug 25, 1942 primary). Leaf number resolved via the archive.org
+  search-inside API
+  (`https://ia600409.us.archive.org/fulltext/inside.php?item_id=stateofcaliforn194050cali&doc=stateofcaliforn194050cali&path=/12/items/stateofcaliforn194050cali&q=%22PARTY%20REGISTRATION%22`),
+  which returns the twelve section title pages of this volume at index pages 71, 107, 143,
+  **191**, 231, 263, 295, 335, 375, 407, 451, 495 (= the 1940 primary, 1940 general, 1942
+  primary, **1942 general**, ... 1950 general, in order); index 191 → download alias n190,
+  the same +1 offset documented for 1940 above, then printed p.4 = n193.
+- Verbatim San Diego row from image: "San Diego ... 35,113 | 51,709 | 906 | 579 | ------"
+  (Olson / Warren / Porter / Dyster / Scattering, the last a dashed rule = none).
+- Statewide-total cross-check: printed totals row Olson **932,995** / Warren **1,275,287** /
+  Porter **15,501** / Dyster **10,640** / Scattering **122** sums to exactly **2,234,545**,
+  matching (a) the volume's OWN later citation, printed twice in the measures sections:
+  "total of all votes cast for Governor at general election, November 3, 1942: 2,234,545";
+  (b) a contemporaneous handwritten annotation in the bottom margin of the scanned page
+  itself ("Total Vote for Governor 2,234,545"); and (c) known history — Warren 1,275,287
+  (57.07%) over incumbent Olson 932,995 (41.75%), Warren's first gubernatorial win.
+- Cross-check: Wikipedia "1942 California gubernatorial election" raw wikitext
+  (`https://en.wikipedia.org/w/index.php?title=1942_California_gubernatorial_election&action=raw`)
+  San Diego row = Warren 51,709 (58.56%) / Olson 35,113 (39.76%) / Porter 906 (1.03%) /
+  Dyster 579 (0.66%) / Scattering 0, **total votes cast 88,307** — exact digit-for-digit
+  match to the page-image read and to the independently-computed sum. Its `<ref name=
+  "results">` cites this same volume and page: "State of California Statement of Vote
+  General Election November 3, 1942 ... pages 4 ...
+  https://archive.org/details/stateofcaliforn194050cali/page/n193/mode/2up" — i.e. the
+  identical leaf n193 located here independently.
+- As in 1940, the djvu.txt OCR **drops every per-county numeric column** on this landscape
+  table (only the county-name column and the "FOR GOVERNOR" head survive), so the San Diego
+  figures were read from the page image, not from text.
+
+Confidence: high (all four San Diego figures page-image-read directly from the SOV; the
+statewide totals row sums exactly to the volume's own independently-printed 2,234,545
+citation AND matches known history; Wikipedia's independently-transcribed county table,
+citing the same leaf, agrees digit-for-digit including the 88,307 county total).
+
+---
+## Summary table (1942 addendum)
+
+| Election | Contest | Contest sum (SD) | Confidence | Primary source |
+|---|---|---|---|---|
+| 1942-11-03 | Governor | 88,307 | high | SOV 1942 p.4 (stateofcaliforn194050cali, download page n193); statewide totals sum to the volume's own 2,234,545 citation; matches Wikipedia exactly |
+
+---
+## 1944-11-07 — President (Presidential Electors)
+
+Source (primary): "State of California Statement of Vote" for the General Election held
+November 7, 1944 (Frank M. Jordan, Secretary of State), bound in archive.org item
+`stateofcaliforn194050cali` (the same 1940-1950 volume used for 1940 above; it also
+contains the May 16, 1944 CONSOLIDATED PRIMARY, which precedes the general-election
+section and was NOT used — disambiguated by the "CONSOLIDATED PRIMARY ELECTION — 1944"
+running head on the primary pages vs. the general section's certification, "the general
+election held on November seventh, 1944"). "PRESIDENTIAL ELECTORS" table, printed pp.4-6
+(two party columns on p.4, Prohibition on p.5, four write-in columns + Scattering on p.6),
+read directly from PAGE IMAGES.
+
+San Diego County per ticket:
+
+| Ticket (candidate) | San Diego votes |
+|---|---|
+| Republican (Thomas E. Dewey) | 75,746 |
+| Democratic (Franklin D. Roosevelt) | 89,959 |
+| Prohibition (Claude A. Watson) | 777 |
+| Norman Thomas (write-in) | 186 |
+| Darlington Hoopes (write-in) | 96 |
+| Edward A. Teichert (write-in) | 0 ("----" printed for San Diego) |
+| Aria A. Albaugh (write-in) | 0 ("----" printed for San Diego) |
+| Scattering | 0 ("----" printed for San Diego) |
+| **Contest sum** | **166,764** |
+
+Total votes cast for the county: not printed as a separate line in this table; 166,764 is
+the five-ticket contest sum (this campaign's standard contest-sum convention).
+
+Provenance:
+- archive.org item `stateofcaliforn194050cali` ("State of California statement of vote",
+  server ia800409, path `/12/items/stateofcaliforn194050cali`)
+- Republican/Democratic table: printed p.4 = https://archive.org/download/stateofcaliforn194050cali/page/n265_w1400.jpg
+  (San Diego row read at 2x-upscale crop: Dewey **75,746**, Roosevelt **89,959**; column
+  totals printed at page foot: Republican 1,512,965, Democratic 1,988,564)
+- Prohibition table: printed p.5 = https://archive.org/download/stateofcaliforn194050cali/page/n266_w1400.jpg
+  (San Diego row: Watson **777**; column total: Prohibition 14,770)
+- Write-in / Scattering table: printed p.6 = https://archive.org/download/stateofcaliforn194050cali/page/n267_w1400.jpg
+  (San Diego row read at 2x-upscale crop: Thomas **186**, Hoopes **96**, Teichert "----",
+  Albaugh "----", Scattering "----"; column totals: 2,515 / 1,408 / 180 / 147 / 326)
+- Locating query: archive.org search-inside API
+  (`https://ia800409.us.archive.org/fulltext/inside.php?item_id=stateofcaliforn194050cali&doc=stateofcaliforn194050cali&path=/12/items/stateofcaliforn194050cali&q=%22Claude+A.+Watson%2C+for+President%22`),
+  which returns exactly two hits — internal page 267 (the 1944 Prohibition elector column)
+  and internal page 411 (the 1948 one, Watson's running mate there being Dale H. Learn, not
+  Andrew Johnson) — pinning the 1944 general section unambiguously. As noted in the 1940
+  section above, this item's internal search-index page numbers run exactly 1 higher than
+  the `/page/n<N>` download alias (internal 267 = download `n266`); the three download-URL
+  images were fetched and visually confirmed rather than trusting the offset. The page span
+  was independently derived from the item's own `_hocr_pageindex.json` +
+  `_hocr_searchtext.txt` (character-offset → leaf map), which places "PRESIDENTIAL ELECTORS"
+  headings at leaves 110-112 (1940), **266-268 (1944)**, and 410-412 (1948 — recognizable by
+  Wallace's Independent-Progressive 190,381).
+- Verbatim San Diego rows as printed:
+  - p.4: `San Diego________  75,746 | 89,959`
+  - p.5: `San Diego________  777`
+  - p.6: `San Diego________  186 | 96 | ---- | ---- | ----`
+- djvu.txt full-text dump (`https://archive.org/download/stateofcaliforn194050cali/stateofcaliforn194050cali_djvu.txt`,
+  1.1 MB, curl'd to disk and grepped, never opened whole) DOES retain the numeric columns for
+  this volume's 1944 tables (unlike the 1928/1932/1936 volumes), and its San Diego figures
+  agree with the page-image read (75,746 / 89,959 in the p.4 column runs; "646 777 1,613"
+  bracketing San Diego between San Bernardino and San Francisco on p.5; "186 ... 96" on p.6).
+  The page images remain the recorded source; the OCR is a second, independent confirmation.
+- Cross-check: Wikipedia "1944 United States presidential election in California" raw
+  wikitext (`https://en.wikipedia.org/w/index.php?title=1944_United_States_presidential_election_in_California&action=raw`)
+  San Diego row = Democratic 89,959 / Republican 75,746 / Prohibition 777 / Others 282
+  (its own footnote: "186 for Thomas, 96 for Hoopes"), county total **166,764** — exact
+  digit-for-digit match to the page-image read and to the independently-computed sum
+  (89,959 + 75,746 + 777 + 186 + 96 = 166,764).
+- Statewide cross-check: page-foot totals read off the same three images — Democratic
+  (Roosevelt) 1,988,564 / Republican (Dewey) 1,512,965 / Prohibition (Watson) 14,770 /
+  Thomas 2,515 / Hoopes 1,408 / Teichert 180 / Albaugh 147 / Scattering 326, **grand total
+  3,520,875** — matching known history exactly (FDR carried California in 1944 with
+  1,988,564 votes, 56.48%, to Dewey's 1,512,965, 42.97%; 25 electoral votes) and matching
+  Wikipedia's statewide table digit-for-digit.
+
+Confidence: high (all five nonzero San Diego figures page-image-read directly from the SOV,
+with an exact digit-for-digit match against both the volume's own OCR text and Wikipedia's
+independently-sourced county table, and with statewide column totals matching known history
+exactly).
+
+---
+## Summary table (1944 addendum)
+
+| Election | Contest | Contest sum (SD) | Confidence | Primary source |
+|---|---|---|---|---|
+| 1944-11-07 | President | 166,764 | high | SOV 1944 pp.4-6 (stateofcaliforn194050cali, download pages n265-n267); matches Wikipedia exactly |
+
+---
+## 1950-11-07 — Governor
+
+Source (primary): "State of California Statement of Vote, General Election November 7, 1950"
+(Frank M. Jordan, Secretary of State), bound in archive.org item `stateofcaliforn194050cali`
+(the same 1940-1950 volume used for 1940/1942/1944/1948; the 1950s sibling
+`stateofcaliforn195262cali` starts at 1952 and was NOT needed). "FOR GOVERNOR" table,
+printed p.4 of the 1950 general statement, a simple three-column table (Earl Warren
+Republican / James Roosevelt Democratic / Scattering), read directly from the PAGE IMAGE.
+
+San Diego County:
+
+| Candidate | San Diego votes |
+|---|---|
+| Earl Warren (Republican, incumbent) | 128,309 |
+| James Roosevelt (Democratic) | 62,598 |
+| Scattering | 26 |
+| **Contest sum** | **190,933** |
+
+Total votes cast for the county: **193,262** — unlike most years in this campaign, the 1950
+statement DOES print a county total-ballots-cast line (printed p.3, "Registration, Voting
+Precincts and Total Vote Cast at the General Election, November 7, 1950"). The San Diego row
+reads: Democratic 151,068 / Republican 103,630 / Independent-Progressive 528 / Prohibition
+348 / Miscellaneous 263 / Declined to state 17,491 / **Total registered 273,328** / **Voting
+precincts 1,052** / **Total vote cast 193,262** / Percent of vote cast 70.71. The
+governor-contest sum (190,933) is 2,329 votes below total ballots cast (a 1.20% undervote,
+consistent with the 1.29% statewide undervote: 3,796,090 of 3,845,757). **190,933 is the
+contest sum** used as this campaign's standard denominator; 193,262 is the strictly larger
+all-ballots ceiling, recorded here because the SOV prints it (per the
+`sov-certified-turnout` skill's "prefer the printed total-votes-cast line if it exists,
+and say so").
+
+Note the printed **1,052 voting precincts** for San Diego County: this is exactly the
+precinct denominator the newspaper compilation in `1950-11-07.md` cites ("872 precincts of
+the county's 1,052"), so the SOV independently confirms the dossier's precinct basis.
+
+Provenance:
+- archive.org item `stateofcaliforn194050cali` ("State of California statement of vote",
+  server ia600409/ia800409, path `/12/items/stateofcaliforn194050cali`, 532 leaves)
+- Section title page (primary-vs-general disambiguation), leaf n494 =
+  https://archive.org/download/stateofcaliforn194050cali/page/n494_w800.jpg — reads verbatim
+  "STATE OF CALIFORNIA / STATEMENT OF VOTE / **GENERAL ELECTION** / **NOVEMBER 7, 1950** /
+  PARTY REGISTRATION, VOTING PRECINCTS, TOTAL VOTE CAST / Compiled by FRANK M. JORDAN,
+  SECRETARY OF STATE". The June 6, 1950 DIRECT PRIMARY is a separate, earlier section of the
+  same volume (its own title page at leaf n450), and was NOT used.
+- "FOR GOVERNOR" table: printed p.4, leaf n497 =
+  https://archive.org/download/stateofcaliforn194050cali/page/n497_w1400.jpg
+- "Registration, Voting Precincts and Total Vote Cast" table (landscape/rotated): printed
+  p.2 = leaf n495, printed p.3 (which carries the San Diego row) = leaf n496 =
+  https://archive.org/download/stateofcaliforn194050cali/page/n496_w1400.jpg
+- Locating query: archive.org search-inside API
+  (`https://ia600409.us.archive.org/fulltext/inside.php?item_id=stateofcaliforn194050cali&doc=stateofcaliforn194050cali&path=/12/items/stateofcaliforn194050cali&q=...`),
+  phrase-quoted on the unique statewide totals: q=`"2,461,754"` -> exactly 1 hit, index page
+  498; q=`"1,333,856"` -> exactly 1 hit, index page 498; q=`"3,796,090"` -> exactly 1 hit,
+  index page 519 (the volume's own basis-of-percentage line); q=`"NOVEMBER 7, 1950"` -> index
+  page 495 (the section title page). As flagged in the 1940 section, this item's
+  search-index page numbers run **1 higher** than the `/page/n<N>` download alias, so index
+  page 498 = download leaf `n497`. The offset was **calibrated, not assumed**: q=`"2,344,542"`
+  (the 1946 governor statewide total) returns index page 338, and download leaf `n337` is
+  indeed that 1946 "FOR GOVERNOR" page.
+- **Wikipedia's own SOV citation for this election is WRONG and was corrected here.** The
+  article's `ref name="results"` points at
+  `https://archive.org/details/stateofcaliforn194050cali/page/n337/mode/2up` — but leaf n337
+  is the **1946** general "FOR GOVERNOR" page (Earl Warren "Republican-Democratic" vs Henry
+  R. Schmidt, Prohibition; statewide totals 2,344,542 / 180,579), not 1950. The true 1950
+  governor page is leaf **n497**, established by the phrase-search calibration above and by
+  the page image itself.
+- Verbatim San Diego row from the printed p.4 image (read at 2x upscale crop; the two
+  neighbouring rows are given for row-alignment proof, since the county names are in a
+  separate leader-dotted column):
+  ```
+  San Bernardino ....   59,138    34,135    12
+  San Diego ..........  128,309   62,598    26
+  San Francisco ......  200,323   106,809    6
+  ```
+  (columns: Earl Warren Republican / James Roosevelt Democratic / Scattering)
+- djvu.txt full-text dump
+  (`https://archive.org/download/stateofcaliforn194050cali/stateofcaliforn194050cali_djvu.txt`)
+  independently confirms both major columns: the OCR reproduces the Warren column
+  (... San Bernardino 59,138, San Diego **128,309**, San Francisco 200,323 ... Totals
+  **2,461,754**) and the Roosevelt column (... 34,135, **62,598**, 106,809 ... Totals
+  **1,333,856**) in county order, with the header "FOR GOVERNOR / Counties / Earl Warren
+  Republican / James Roosevelt Democratic / Scattering". As in every other landscape tally in
+  this volume family, the OCR **drops the sparse Scattering column** entirely, so the San
+  Diego Scattering value (26) rests on the page image plus Wikipedia, not on OCR.
+- Statewide-total cross-check (three independent ways, all exact):
+  1. Printed totals row on p.4: Warren **2,461,754** / Roosevelt **1,333,856** / Scattering
+     **480**, summing to **3,796,090**.
+  2. The volume's **own later citation** of the same figure, on the propositions
+     basis-of-percentage page (index page 519): "*(Basis of percentage: 8 percent of total of
+     all votes cast for Governor at general election, November 7, 1950, to submit initiative
+     measures ... **Total of all votes cast for Governor November 7, 1950: 3,796,090**.)*"
+  3. Known history: the 1950 race was Warren's landslide third-term win, 2,461,754 (64.85%)
+     to Roosevelt's 1,333,856 (35.14%) — Warren carried every county in the state.
+- Statewide ballots-cast cross-check: p.3 totals row gives total registered **5,244,837**,
+  voting precincts **18,408**, total vote cast **3,845,757**, percentage 73.32 — and the six
+  registration columns (3,062,205 + 1,944,812 + 16,561 + 6,197 + 7,687 + 207,375) sum to
+  exactly 5,244,837, so the page's own arithmetic is self-consistent.
+- Cross-check: Wikipedia "1950 California gubernatorial election" raw wikitext
+  (`https://en.wikipedia.org/w/index.php?title=1950_California_gubernatorial_election&action=raw`)
+  San Diego row = Warren **128,309** (67.20%) / Roosevelt **62,598** (32.79%) / Scattering
+  **26** (0.01%) / margin 65,711 (34.42%) / county total **190,933** — exact digit-for-digit
+  match to the page-image read and to the independently-computed contest sum. Its statewide
+  row (2,461,754 / 1,333,856 / 480 / 3,796,090) matches too. (Wikipedia's "Total votes cast"
+  column is really the contest sum, 190,933; it is NOT the SOV's printed all-ballots figure
+  of 193,262.)
+
+Confidence: high (all three San Diego figures page-image-read directly from the SOV, with an
+exact digit-for-digit match against Wikipedia's independently-sourced county table and
+against the OCR for the two major columns; the statewide total is confirmed by the volume's
+own later basis-of-percentage citation and by known history; the SOV's own printed
+total-ballots-cast line and precinct count for San Diego corroborate the county row from a
+second, independent table in the same statement).
+
+---
+## Summary table (1950 addendum)
+
+| Election | Contest | Contest sum (SD) | Confidence | Primary source |
+|---|---|---|---|---|
+| 1950-11-07 | Governor | 190,933 | high | SOV 1950 p.4 (stateofcaliforn194050cali, download leaf n497); matches Wikipedia exactly. SOV also prints SD total ballots cast = 193,262 (p.3, leaf n496) |
