@@ -1,6 +1,7 @@
 // Pan-until-bottom image capture of one page as overlapping slices. Usage: node capture_page.js <url> <out.png>
 // Part of the archive-recovery runbook: docs/archive-recovery-runbook.md
-// Prereqs: Chrome --remote-debugging-port=9222 + active SFPL ezproxy session; puppeteer-core.
+// Prereqs: a browserURL from scripts/research/iso_chrome.sh (headless; see the focus-safe
+// launcher docs) with an authenticated SFPL ezproxy profile; puppeteer-core.
 // Writes to the gitignored mirror/ tree (licensed content - cited, never republished).
 
 const puppeteer = require('puppeteer-core');

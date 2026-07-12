@@ -91,18 +91,39 @@ Key access facts:
 ## Prerequisites for the NewsBank scripts
 
 The browser-automation scripts drive a logged-in Chrome over the DevTools
-protocol. They require:
-1. An SFPL library card and an **active ezproxy session** — the user logs in
-   manually (we never automate credential entry).
-2. Chrome launched with remote debugging and background throttling disabled:
-   ```
-   /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
-     --remote-debugging-port=9222 \
-     --disable-background-timer-throttling \
-     --disable-renderer-backgrounding \
-     --disable-backgrounding-occluded-windows
-   ```
-   (Throttling must be off or off-screen capture windows render blank.)
+protocol. All launching goes through the ONE sanctioned launcher,
+`scripts/research/iso_chrome.sh` (see
+`docs/superpowers/plans/2026-07-10-focus-safe-browser.md` for the design).
+Never launch Chrome any other way. Three launch modes are permanently
+banned, because each one can steal the user's focus:
+- `open -a "Google Chrome" ...` — routes to the user's own running Chrome.
+- a raw headful binary exec — can self-activate asynchronously; a
+  before/after focus check has a race and proves nothing.
+- any headful Chrome left running unattended — a parked login page can grab
+  focus later, with nobody watching.
+
+Requirements:
+1. An SFPL library card and an **active ezproxy session**. Credentials are
+   never automated: the human performs the one visible, user-initiated
+   **login ceremony** —
+   `ISO_CHROME_LOGIN_ACK=yes bash scripts/research/iso_chrome.sh login`
+   (the controller sets the ack latch only on the user's explicit go; an
+   agent cannot set it itself) opens a single visible Chrome window on the
+   NewsBank docref. The user logs in, then runs
+   `bash scripts/research/iso_chrome.sh stop` to tear the window down
+   immediately. That login lands in a dedicated `--user-data-dir` profile,
+   so every subsequent **headless** run against the same profile
+   (`bash scripts/research/iso_chrome.sh headless`) inherits the session
+   cookies until they expire — no further visible window is needed.
+2. Everyday work launches headless "new" Chrome only:
+   `bash scripts/research/iso_chrome.sh headless` prints a ready
+   `browserURL` for scripts that `puppeteer.connect()` to it. It also
+   disables background throttling
+   (`--disable-background-timer-throttling`,
+   `--disable-renderer-backgrounding`,
+   `--disable-backgrounding-occluded-windows`), since throttling must be
+   off or off-screen capture windows render blank. When a job is done, run
+   `bash scripts/research/iso_chrome.sh stop` to release the profile.
 3. `puppeteer-core` available to Node, and `tesseract` + Python `pillow`.
 4. Output goes to the **gitignored** `mirror/newsbank/` tree (licensed
    content — cited, never republished, never to a CDN). Only IDs/citations
@@ -110,13 +131,17 @@ protocol. They require:
 
 Every script aborts loudly if it hits the SFPL auth wall (text "Articles and
 Databases — Authentication") rather than saving login-page garbage. If that
-fires, ask the user to re-login, then resume.
+fires, ask the user to run the login ceremony above, then resume with
+headless workers on the same profile.
+`scripts/research/iso_probe.js <browserURL>` checks this non-interactively:
+exit 0 means authenticated, exit 3 means the auth wall was hit.
 
 `scripts/archive-recovery/` (all reference implementations; paths/URLs are
-hardcoded to this project + SFPL — adapt as needed):
+hardcoded to this project + SFPL — adapt as needed; they consume a
+`browserURL` from `iso_chrome.sh` rather than launching Chrome themselves):
 - `session_probe.js` — load a known doc; confirm the session is alive.
-- `window_login.js` / `window_park.js` — surface the login window top-left;
-  park ezproxy windows off-screen so they don't disrupt the user.
+- `window_login.js` / `window_park.js` — superseded by `iso_chrome.sh
+  login`'s ceremony window and headless-only workers; kept only as history.
 - `fetch_doc.js <DOCID> <ELECTION>` — save one Access World News text doc.
 - `harvest_text.js` — multi-paper text harvest: per election × date-window ×
   query, collect docrefs, fetch each (the winning vein for marquee races).

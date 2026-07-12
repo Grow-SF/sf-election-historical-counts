@@ -294,6 +294,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 81.16,
+          "ballots": 5020,
+          "final": 6185,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://drive.google.com/uc?export=download&id=1Y1Kj4-IqXW5uEgZh6c206EsmNoj9pSEN"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": 86.31,
           "ballots": 8450,
@@ -301,6 +311,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20161110185817/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 84.74,
+          "ballots": 4637,
+          "final": 5472,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://drive.google.com/uc?export=download&id=1xrb3b2KmuaR0EhVysw--eKyjXANMzy6k"
         },
         {
           "year": 2018,
@@ -414,6 +434,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20161112171743/http://www2.co.fresno.ca.us/2850/Results/Results20161108.htm"
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 82.41,
+          "ballots": 112403,
+          "final": 136388,
+          "confidence": "secondary",
+          "comparable": false,
+          "source_url": "https://web.archive.org/web/20180610030903/http://www.co.fresno.ca.us/departments/county-clerk-registrar-of-voters/election-information/election-results/results-for-june-5-2018-statewide-primary-election"
         },
         {
           "year": 2018,
@@ -544,9 +574,9 @@
           "pct": 57.78,
           "ballots": 8158,
           "final": 14119,
-          "confidence": "secondary",
+          "confidence": "primary",
           "comparable": true,
-          "source_url": "https://web.archive.org/web/20180619011846/http://vote.sos.ca.gov/returns/status/"
+          "source_url": "https://web.archive.org/web/20180610025440id_/http://publicapps.lakecountyca.gov:80/elections/results/result35.htm"
         },
         {
           "year": 2018,
@@ -653,6 +683,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 71.02,
+          "ballots": 1438909,
+          "final": 2026068,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://www.lavote.gov/Documents/News_Releases/06072016_semi-official-results.pdf"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": 65.07,
           "ballots": 2306321,
@@ -660,6 +700,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://www.lavote.gov/Documents/News_Releases/11082016-semi-official-results.pdf"
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 63.91,
+          "ballots": 952633,
+          "final": 1490502,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://www.lavote.gov/docs/rrcc/news-releases/06052018_semi-official-results.pdf"
         },
         {
           "year": 2018,
@@ -790,9 +840,9 @@
           "pct": 75.41,
           "ballots": 18258,
           "final": 24211,
-          "confidence": "secondary",
+          "confidence": "primary",
           "comparable": true,
-          "source_url": "https://web.archive.org/web/20180619011846/http://vote.sos.ca.gov/returns/status/"
+          "source_url": "https://web.archive.org/web/20260710214438/https://results.enr.clarityelections.com/CA/Madera/75694/204457/json/sum.json"
         },
         {
           "year": 2018,
@@ -1052,6 +1102,16 @@
         },
         {
           "year": 2018,
+          "type": "midterm-primary",
+          "pct": 40.22,
+          "ballots": 15091,
+          "final": 37525,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://www.napacounty.gov/DocumentCenter/View/8722/Final-Unofficial-Election-Night-Report---Primary-Election-06052018-1039pm-PDF"
+        },
+        {
+          "year": 2018,
           "type": "midterm",
           "pct": 38.11,
           "ballots": 21774,
@@ -1175,6 +1235,16 @@
         },
         {
           "year": 2018,
+          "type": "midterm-primary",
+          "pct": 42.14,
+          "ballots": 16346,
+          "final": 38792,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://yubanet.com/wp-content/uploads/2018/06/finalelectionnightupdate.pdf"
+        },
+        {
+          "year": 2018,
           "type": "midterm",
           "pct": 49.01,
           "ballots": 26956,
@@ -1238,6 +1308,16 @@
       "points": [
         {
           "year": 2012,
+          "type": "presidential-primary",
+          "pct": 73.93,
+          "ballots": 315584,
+          "final": 426869,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://ocvote.gov/fileadmin/live/pri2012/run09/cumulative.pdf"
+        },
+        {
+          "year": 2012,
           "type": "presidential",
           "pct": 76.12,
           "ballots": 862544,
@@ -1245,6 +1325,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://ocvote.gov/fileadmin/live/gen2012/Run09/cumulative.pdf"
+        },
+        {
+          "year": 2014,
+          "type": "midterm-primary",
+          "pct": 70.1,
+          "ballots": 238460,
+          "final": 340187,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://ocvote.gov/fileadmin/live/pri2014/run10/cumulative.pdf"
         },
         {
           "year": 2014,
@@ -1258,6 +1348,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 68.96,
+          "ballots": 477064,
+          "final": 691802,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://ocvote.gov/fileadmin/live/pri2016/Run%2010/cumulative.pdf"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": 66.59,
           "ballots": 825317,
@@ -1265,6 +1365,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://ocvote.gov/fileadmin/live/gen2016/Run%2011/cumulative.pdf"
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 58.13,
+          "ballots": 369267,
+          "final": 635224,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://ocvote.gov/fileadmin/live/pri2018/Run%2009/cumulative.pdf"
         },
         {
           "year": 2018,
@@ -1587,6 +1697,16 @@
       "points": [
         {
           "year": 2012,
+          "type": "presidential-primary",
+          "pct": 64.57,
+          "ballots": 150286,
+          "final": 232743,
+          "confidence": "secondary",
+          "comparable": true,
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/158D11D2DFBCFC18"
+        },
+        {
+          "year": 2012,
           "type": "presidential",
           "pct": 62.93,
           "ballots": 328516,
@@ -1617,6 +1737,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 67.64,
+          "ballots": 230234,
+          "final": 340360,
+          "confidence": "secondary",
+          "comparable": false,
+          "source_url": "https://web.archive.org/web/20160611133801/https://eresults.saccounty.net/"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": 57.1,
           "ballots": 328744,
@@ -1624,6 +1754,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20161110185817/http://vote.sos.ca.gov/returns/status/"
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 40.08,
+          "ballots": 124609,
+          "final": 310881,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20180607104634/http://sacresults.e-cers.com/default.aspx"
         },
         {
           "year": 2018,
@@ -1916,6 +2056,16 @@
       "points": [
         {
           "year": 2012,
+          "type": "presidential-primary",
+          "pct": 75.9,
+          "ballots": 93604,
+          "final": 123330,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://smcacre.gov/media/894/download?attachment"
+        },
+        {
+          "year": 2012,
           "type": "presidential",
           "pct": 70.79,
           "ballots": 204287,
@@ -2020,12 +2170,12 @@
         {
           "year": 2012,
           "type": "presidential-primary",
-          "pct": 80.06,
-          "ballots": 234342,
+          "pct": 65.32,
+          "ballots": 191198,
           "final": 292713,
           "confidence": "secondary",
-          "comparable": false,
-          "source_url": "https://web.archive.org/web/20120607192808/http://www.sccgov.org/elections/results/jun2012/"
+          "comparable": true,
+          "source_url": "https://infoweb-newsbank-com.ezproxy.sfpl.org/apps/news/document-view?p=WORLDNEWS&docref=news/13F42B5474747780"
         },
         {
           "year": 2012,
@@ -2039,6 +2189,16 @@
         },
         {
           "year": 2014,
+          "type": "midterm-primary",
+          "pct": 62.98,
+          "ballots": 166360,
+          "final": 264133,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20260710205734/https://results.enr.clarityelections.com/CA/Santa_Clara/51635/132035/json/sum.json"
+        },
+        {
+          "year": 2014,
           "type": "midterm",
           "pct": 58.16,
           "ballots": 235062,
@@ -2049,6 +2209,16 @@
         },
         {
           "year": 2016,
+          "type": "presidential-primary",
+          "pct": 65.55,
+          "ballots": 282389,
+          "final": 430779,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20260710205905/https://results.enr.clarityelections.com/CA/Santa_Clara/60535/171284/json/sum.json"
+        },
+        {
+          "year": 2016,
           "type": "presidential",
           "pct": 61.17,
           "ballots": 443269,
@@ -2056,6 +2226,16 @@
           "confidence": "primary",
           "comparable": true,
           "source_url": "https://web.archive.org/web/20260710174832/https://results.enr.clarityelections.com/CA/Santa_Clara/64404/182800/json/sum.json"
+        },
+        {
+          "year": 2018,
+          "type": "midterm-primary",
+          "pct": 53.12,
+          "ballots": 196184,
+          "final": 369332,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20260710210752/https://results.enr.clarityelections.com/CA/Santa_Clara/75369/204514/json/sum.json"
         },
         {
           "year": 2018,

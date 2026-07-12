@@ -538,11 +538,11 @@ CA SoS status-page frozen-capture bracket (RUNBOOK 8).
 
 Lake row at capture 20160614032019 (2016-06-14 03:20:19 UTC): 100.0% precincts, Ballots Cast 9,049, Last Report 'Jun 8 2:11 a.m.'. FROZEN: the identical Ballots Cast figure 9,049 recurs across 5 captures, 2016-06-14 03:20:19 UTC through 2016-06-22 03:35:32 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20160614032019->20160622033532 (to end of window)" (scratchpad/sos-status-sweep.md).
 
-### lake-ca 2018-06-05: PLAUSIBLE
+### lake-ca 2018-06-05: CONFIRMED
 
-CA SoS status-page single-capture bracket (RUNBOOK 8).
+County's own numbered results-report system (result35.htm), self-labeled preliminary results at 100% precincts, same-URL overwritten to the exact certified total 5 weeks later (RUNBOOK 8).
 
-Lake row at capture 20180619011846 (2018-06-19 01:18:46 UTC): 100.0% precincts, Ballots Cast 8,158, Last Report 'Jun 6 1:44 a.m.'. SINGLE CAPTURE at 2018-06-19 01:18:46 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. Sweep bracket-evidence cross-check: "single capture 20180619011846, no later capture to confirm freeze" (scratchpad/sos-status-sweep.md).
+UPGRADE (2026-07-10, primaries batch-1 integration): landed value retained (8,158/14,119 = 57.78%, same figure) but source and verdict upgraded from the SoS status-page single-capture PLAUSIBLE read (capture 20180619011846, Ballots Cast 8,158, Last Report 'Jun 6 1:44 a.m.', no later capture to confirm the freeze; retained in the JSON note as historical corroboration) to Lake County's own numbered results-report system, result35.htm (Wayback https://web.archive.org/web/20180610025440id_/http://publicapps.lakecountyca.gov:80/elections/results/result35.htm): "Election Results as of 06/06/2018 at 12:06:21 AM", "Completed Precincts: 70 of 70 PRELIMINARY RESULTS", Total Ballots Cast 8,158; the same URL's only later capture (2018-07-10, five weeks later) shows "Final Results for Election" / "COUNTY OF LAKE - Final Results", Total Ballots Cast 14,119, the exact certified total -- a same-URL-overwritten-to-certified-final bracket leg the SoS single-capture read lacked. Source: docs/research/pending-integration-2026-07-10/dossier-lake-ca-primaries.md Item 4.
 
 ### madera-ca 2016-06-07: CONFIRMED
 
@@ -562,11 +562,15 @@ CA SoS status-page frozen-capture bracket (RUNBOOK 8).
 
 Mendocino row at capture 20160614032019 (2016-06-14 03:20:19 UTC): 100.0% precincts, Ballots Cast 11,320, Last Report 'Jun 8 4:00 a.m.'. FROZEN: the identical Ballots Cast figure 11,320 recurs across 5 captures, 2016-06-14 03:20:19 UTC through 2016-06-22 03:35:32 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20160614032019->20160622033532 (to end of window)" (scratchpad/sos-status-sweep.md).
 
+UPDATE (2026-07-10, primaries batch-1 integration): CORROBORATED via Mendocino's own "Election Summary Report" page (/acr/current.htm), self-titled "PRESIDENTIAL PRIMARY ELECTION JUNE 7, 2016 ... Final Election Night Report", internal timestamp "06/08/16 02:24:41", Cards Cast 11,320 (24.19%), 250/250 precincts (100%) -- a later capture of the same URL (17 days on) is byte-identical, independently matching this row's value exactly. See docs/research/pending-integration-2026-07-10/dossier-mendocino-ca-primaries.md Item 3.
+
 ### mendocino-ca 2018-06-05: PLAUSIBLE
 
 CA SoS status-page single-capture bracket (RUNBOOK 8).
 
 Mendocino row at capture 20180619011846 (2018-06-19 01:18:46 UTC): 100.0% precincts, Ballots Cast 19,049, Last Report 'Jun 6 3:57 a.m.'. SINGLE CAPTURE at 2018-06-19 01:18:46 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. Sweep bracket-evidence cross-check: "single capture 20180619011846, no later capture to confirm freeze" (scratchpad/sos-status-sweep.md).
+
+UPDATE (2026-07-10, primaries batch-1 integration): CORROBORATED (still PLAUSIBLE/secondary, not upgraded -- an independent route with no non-circular second leg either) by Anderson Valley Advertiser, "Mendocino County Today: Wednesday, June 6, 2018" (theava.com/archives/83237): "UPDATE (Wednesday 8:40am) With all precincts reporting and just over 40% of the ballots cast (19,049) the local trends are holding" -- an exact match to this row's value. CALIBRATION FLAG carried forward: 19,049/22,896 = 83.2% is well above this county's other primary years; kept flagged for human review though two independent sources now agree on the number. See docs/research/pending-integration-2026-07-10/dossier-mendocino-ca-primaries.md Item 4.
 
 ### napa-ca 2016-06-07: CONFIRMED
 
@@ -638,11 +642,27 @@ CA SoS status-page frozen-capture bracket (RUNBOOK 8).
 
 Del Norte row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 4,019, Last Report 'Jun 7 10:25 p.m.'. FROZEN: the identical Ballots Cast figure 4,019 recurs across 4 captures, 2022-06-08 09:42:59 UTC through 2022-06-09 03:50:46 UTC, before the next available capture (2022-06-13 05:15:10 UTC) jumps to 5,929 (Last Report 'Jun 10 3:20 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen 20220608094259->20220609035046 then jumps to 5,929@Jun 10 3:20 p.m." (scratchpad/sos-status-sweep.md).
 
+UPDATE (2026-07-10, primaries batch-1 integration): CORROBORATED via Del Norte's own numbered 2022 primary election-night PDF series (Google Drive folder 'June 7, 2022 Statewide Direct Primary Election'), Release 3 of 4 (CreationDate 6/7/2022 10:06:43 PM PDT), self-titled "Final Report - Unoffficial Results / Election Night Totals", Voters Cast 4,019/15,317 (26.24%) -- independently matches this row's value exactly; bracket leg is Release 4 (3 days later), retitled "Election Update", Voters Cast up to 5,929. See docs/research/pending-integration-2026-07-10/dossier-del-norte-ca-primaries.md Item 5.
+
 ### del-norte-ca 2024-03-05: CONFIRMED
 
 CA SoS status-page frozen-capture bracket (RUNBOOK 8).
 
 Del Norte row at capture 20240306063830 (2024-03-06 06:38:30 UTC): 100.0% precincts, Ballots Cast 3,285, Last Report 'Mar 5 10:25 p.m.'. FROZEN: the identical Ballots Cast figure 3,285 recurs across 5 captures, 2024-03-06 06:38:30 UTC through 2024-03-08 15:51:26 UTC, before the next available capture (2024-03-09 19:45:02 UTC) jumps to 6,055 (Last Report 'Mar 8 3:28 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen thru 4 captures (Mar6-Mar7), jumps Mar9 to 6,055/Mar8 3:28pm" (scratchpad/sos-status-sweep.md).
+
+UPDATE (2026-07-10, primaries batch-1 integration): CORROBORATED via Del Norte's own numbered 2024 primary election-night PDF series (Google Drive folder 'March 5, 2024 Primary Election'), Release 3 of 5 (CreationDate 3/5/2024 9:51:11 PM PST), self-titled "Presidential Primary Election / 19 Precincts Reporting / Unofficial Results", Voters Cast 3,285/14,743 (22.28%) -- independently matches this row's value exactly; bracket leg is Release 4 (3 days later), retitled "Unofficial Results - Friday Report", Voters Cast up to 6,055. See docs/research/pending-integration-2026-07-10/dossier-del-norte-ca-primaries.md Item 6.
+
+### del-norte-ca 2016-06-07: CONFIRMED
+
+Self-titled "Final Election Night Report / Unofficial Results", last of a numbered on-night release series (numbering does NOT equal plateau position -- verified via each file's own CreationDate), next report 3 days later retitled "Friday Report" at a higher count (RUNBOOK 8).
+
+Landed 2026-07-10 (primaries batch-1 integration) from docs/research/pending-integration-2026-07-10/dossier-del-norte-ca-primaries.md Item 3. Release 3 of 5 in the county's numbered 2016 primary election-night PDF series, recovered live from the county's public Google Drive 'Elections Postings (Archive)' folder (drive.google.com/drive/folders/1nwgviB22IuQIVWjSquSY6Y_6APYvMgnH). Plateau determined by checking every release's actual PDF CreationDate: Release 1 9:04:28 PM, Release 2 10:01:22 PM, Release 3 11:09:27 PM (all election night 6/7/2016), Release 4 CreationDate Fri Jun 10 1:35:57 PM (3 days later), Release 5 CreationDate Wed Jun 15 5:05:29 PM (8 days later, filename-suffixed FINAL RESULTS). Release 3 self-titled "Final Election Night Report / Unofficial Results", printed page timestamp 6/7/2016 10:07:46 PM, 18/18 precincts (100.00%), Ballots Cast 5,020 of 13,525 (37.12%), stated directly (no ballot-card mislabel this file). Bracket leg: Release 4, retitled "Friday Report" (dropping "Election Night"), printed timestamp 6/10/2016 10:09:09 AM (3 days later), Ballots Cast 6,178 -- confirms Release 3 was the last report before the canvass resumed.
+
+### del-norte-ca 2018-06-05: CONFIRMED
+
+Late-night internal timestamp (self-description leg), last of a numbered on-night release series before a 2-days-later report explicitly relabeled "Update" at a higher count (bracket leg); front-page ballot figure disambiguated per the runbook's known Del Norte registered-voters/times-cast mislabel using the per-contest Times Cast cross-check (RUNBOOK 7.5, RUNBOOK 8).
+
+Landed 2026-07-10 (primaries batch-1 integration) from docs/research/pending-integration-2026-07-10/dossier-del-norte-ca-primaries.md Item 4. Release 4 of 6 in the county's numbered 2018 primary election-night PDF series (Google Drive folder 'June 5, 2018 Primary Election'). PDF CreationDate metadata: Release 1 8:01:24 PM, Release 2 9:07:40 PM, Release 3 9:28:06 PM, Release 4 9:46:30 PM (all election night 6/5/2018), Release 5 CreationDate Thu Jun 7 11:01:30 AM (2 days later), Release 6 CreationDate Thu Jun 14 4:56:20 PM (9 days later, "Final Uncertified"). Release 4 front page reads "TOTAL RESULT SUMMARY REPORT (UNOFFICIAL)", printed timestamp 6/5/2018 9:42:38 PM, 18/18 precincts (100%); front page prints "Registered Voters: 4,637 of 14,151 (32.77%)" and a separate "Ballots Cast: 9,284" (ballot cards, ~2x, many-contest statewide primary) -- disambiguated via the per-contest Times Cast row (GOVERNOR contest: "Times Cast ... Total 4,637/14,151 32.77%", an exact match), confirming 4,637 is the correct people-count. Bracket leg: Release 5, retitled "1st Update (6/7/2018)", printed timestamp 6/7/2018 10:58:12 AM (2 days later), Registered Voters field up to 5,347/14,151 -- confirms Release 4 was the last report before the canvass resumed. FLAG for manual operator carried in the JSON note (mislabel resolution is a ~2x swing if misread).
 
 ### fresno-ca 2022-06-07: CONFIRMED
 
@@ -704,6 +724,8 @@ CA SoS status-page frozen-capture bracket (RUNBOOK 8).
 
 Mendocino row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts, Ballots Cast 3,864, Last Report 'Jun 8 12:48 a.m.'. FROZEN: the identical Ballots Cast figure 3,864 recurs across 6 captures, 2022-06-08 09:42:59 UTC through 2022-06-13 22:59:28 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen 20220608094259->20220613225928 (to end of window)" (scratchpad/sos-status-sweep.md).
 
+UPDATE (2026-07-10, primaries batch-1 integration): CORROBORATED (secondary, weaker than this landed CONFIRMED bracket, kept for the record) by two news outlets: MendoFever's live-blog tracks 3,461 (8:06pm, first tranche, excluded) -> 3,597 (10:15pm) -> "12:32am, all precincts reporting"; The Mendocino Voice, attributed to county clerk Katrina Bartolomie: "Unofficial election results showed 3,864 registered voters' ballots were counted as of early morning Wednesday, June 8" -- an exact match to this row's value. See docs/research/pending-integration-2026-07-10/dossier-mendocino-ca-primaries.md Item 5.
+
 ### mendocino-ca 2022-11-08: CONFIRMED
 
 CA SoS status-page frozen-capture bracket (RUNBOOK 8).
@@ -715,6 +737,8 @@ Mendocino row at capture 20221109142729 (2022-11-09 14:27:29 UTC): 100.0% precin
 CA SoS status-page frozen-capture bracket (RUNBOOK 8).
 
 Mendocino row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 7,418, Last Report 'Mar 6 12:35 a.m.'. FROZEN: the identical Ballots Cast figure 7,418 recurs across 6 captures, 2024-03-06 14:44:09 UTC through 2024-03-11 13:59:17 UTC, holding to the end of the CDX capture window (no later capture available to show a jump). Sweep bracket-evidence cross-check: "frozen ALL 7 remaining captures thru Mar 11 (never moved)" (scratchpad/sos-status-sweep.md).
+
+UPDATE (2026-07-10, primaries batch-1 integration): CORROBORATED (secondary, weaker than this landed CONFIRMED bracket, kept for the record) by The Mendocino Voice: "UPDATE 3/6/24 9:30 a.m.: Mendocino County's election results were updated after midnight on election night, and the current results include a total of 7,418 ballots, just over 14% of the county's 52,602 registered voters" -- an exact match to this row's value; MendoFever's independently-recovered 8:09pm first-tranche checkpoint (7,094) is explicitly excluded there. See docs/research/pending-integration-2026-07-10/dossier-mendocino-ca-primaries.md Item 6.
 
 ### napa-ca 2022-06-07: CONFIRMED
 
@@ -841,3 +865,5 @@ Tehama row at capture 20220608094259 (2022-06-08 09:42:59 UTC): 100.0% precincts
 CA SoS status-page frozen-capture bracket (RUNBOOK 8).
 
 Tehama row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 7,998, Last Report 'Mar 5 11:34 p.m.'. FROZEN: the identical Ballots Cast figure 7,998 recurs across 4 captures, 2024-03-06 14:44:09 UTC through 2024-03-08 15:51:26 UTC, before the next available capture (2024-03-09 19:45:02 UTC) jumps to 10,596 (Last Report 'Mar 8 5:52 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: "frozen thru 4 captures, jumps Mar9 to 10,596/Mar8 5:52pm" (scratchpad/sos-status-sweep.md).
+
+UPDATE (2026-07-10, primaries batch-1 integration): CORROBORATED via Tehama's own official "Second Unofficial Report" (tehama.gov/wp-content/uploads/2024/03/), internal timestamp 3/5/2024 10:31:56 PM PST, 40/40 precincts (100%), "Total Registration and Turnout: 37,111 / 7,998" -- an exact match to this row's value; the report series' own next file (Third Unofficial Report) is dated 3 days later with nothing interposed, an independently-derived bracket-proof leg matching the landed SoS bracket's own conclusion. See docs/research/pending-integration-2026-07-10/dossier-tehama-ca-primaries.md Item 6.

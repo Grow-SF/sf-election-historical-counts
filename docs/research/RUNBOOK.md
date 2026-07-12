@@ -31,9 +31,11 @@ them:
 Topic index across the manuals: Wayback mechanics live here (7.1) and in the
 archive-recovery runbook's web/Wayback section; puppeteer renderers live
 here (section 4) for public pages and in `scripts/archive-recovery/` for
-SFPL/NewsBank (real logged-in Chrome via `--remote-debugging-port=9222`,
-never headless there); OCR (`tesseract`) belongs ONLY to the SF scan
-workflow: it is for locating/triaging results tables in scans, while
+SFPL/NewsBank (a logged-in session on a dedicated profile, reached only
+through `scripts/research/iso_chrome.sh` — headless "new" for every worker;
+the one visible window is the user-run login ceremony, see
+`docs/archive-recovery-runbook.md`); OCR (`tesseract`) belongs ONLY to the SF
+scan workflow: it is for locating/triaging results tables in scans, while
 model vision does the digit transcription; nothing in the county dataset
 needs OCR.
 
@@ -174,6 +176,8 @@ render_verified.json).
 | `fetch_clarity_versions.py` | Clarity CDN version brackets around each cited version (see 7.2) |
 | `render_wayback.cjs` | puppeteer render of a JS Wayback page: `WB_URL="https://web.archive.org/web/<ts>/<orig>" node scripts/research/render_wayback.cjs` |
 | `render_clarity_batch.cjs` | batch puppeteer render of Clarity pages |
+| `iso_chrome.sh <headless\|login\|stop\|status>` | the ONLY sanctioned Chrome launcher (focus-safe: headless "new" only, no window, cannot steal focus); `login` is the one visible ceremony, gated behind a human-set `ISO_CHROME_LOGIN_ACK=yes` latch an agent cannot set itself; see `docs/superpowers/plans/2026-07-10-focus-safe-browser.md` |
+| `iso_probe.js <browserURL>` | headless session-validity probe against an `iso_chrome.sh headless` profile; exit 0 authenticated, exit 3 auth wall |
 | `validate_county_tech.py`, `merge_county_tech.py` | county-tech record validation + merge into county_tech.json |
 | `validate_adoption_census.py` | validates `ca_adoption_census.json` (58-county schema + agreement with the researched county-tech records); exit 1 with one line per failure |
 | `estimate_tech_effect.py` | matched-years difference-in-differences estimator over `county_night.json` (headline effect, placebo, jackknife inference, scenario/MDE projections) |
@@ -288,10 +292,13 @@ tranche from end-of-night statements.
 
 ### 6.7 When a source blocks curl
 Some hosts 403 curl and WebFetch both (McClatchy papers, gvwire). Options,
-in order: the puppeteer renderers (they present a real Chrome); the real
-Claude-in-Chrome browser FROM THE MAIN SESSION ONLY (never from parallel
-subagents; it is one shared Chrome); else put `FLAG for manual operator` in
-the note and move on. Do not burn hours on a bot-wall.
+in order: the puppeteer renderers (they present a real Chrome); a headless
+Chrome via `scripts/research/iso_chrome.sh headless` (still no window, still
+cannot steal focus); else put `FLAG for manual operator` in the note and
+move on. Do not burn hours on a bot-wall. Browser escalation ends at
+headless `iso_chrome.sh` — never fall back to a subagent driving a visible
+browser (Claude-in-Chrome or otherwise); that is unscheduled and can steal
+the user's focus.
 
 ## 7. The gotcha catalog (every one of these bit us)
 

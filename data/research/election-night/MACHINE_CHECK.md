@@ -31,8 +31,12 @@ verify_en_* scripts to regenerate).
 | del-norte-ca | 2014-06-03 | numerator | 5,122 | VERIFIED | Del Norte 18 18 100.0% 12,398 5,122 41.3% Jun 3 8:32 p.m. Jun 3 10:14 p.m. FENU |
 | del-norte-ca | 2014-11-04 | denominator | 7,332 | VERIFIED | 18 18,253 12,750 2,980 4,352 7,332 59.36% 57.51% 40.17% |
 | del-norte-ca | 2014-11-04 | numerator | 6,539 | VERIFIED | render-verified: DEL_20141104_E Summary Report Del Norte County Nov. 4, 2014 General Election Unofficial. Registration & |
+| del-norte-ca | 2016-06-07 | denominator | 6,185 | VERIFIED | l Norte 18 18,073 13,585 2,184 4,001 6,185 64.69% 45.53% 34.22% |
+| del-norte-ca | 2016-06-07 | numerator | 5,020 | VERIFIED | render-verified: Election Summary Report Closed Primary County of Del Norte June 07, 2016. Final Election Night Report U |
 | del-norte-ca | 2016-11-08 | denominator | 9,790 | VERIFIED | 18 17,996 14,318 3,653 6,137 9,790 62.69% 68.38% 54.40% |
 | del-norte-ca | 2016-11-08 | numerator | 8,450 | VERIFIED | Del Norte 18 18 100.0% 14,318 8,450 59.0% Nov 8 8:30 p.m. Nov 8 11:38 p.m. SF |
+| del-norte-ca | 2018-06-05 | denominator | 5,472 | VERIFIED | 18 17,889 14,141 1,796 3,676 5,472 67.18% 38.70% 30.59% |
+| del-norte-ca | 2018-06-05 | numerator | 4,637 | VERIFIED | render-verified: TOTAL RESULT SUMMARY REPORT (UNOFFICIAL) STATEWIDE GUB PRIMARY ELECTION TUESDAY, JUNE 5, 2018. Register |
 | del-norte-ca | 2018-11-06 | denominator | 8,439 | VERIFIED | 18 18,039 14,150 2,898 5,541 8,439 65.66% 59.64% 46.78% |
 | del-norte-ca | 2018-11-06 | numerator | 7,127 | VERIFIED | render-verified: Page: 1 of 12 11/6/2018 9:42:38 PM. Summary for: All Contests, All Districts, All Tabulators, All Count |
 | del-norte-ca | 2022-06-07 | denominator | 5,989 | VERIFIED | 19 19,262 15,256 712 5,277 5,989 88.11% 39.26% 31.09% |
@@ -53,6 +57,8 @@ verify_en_* scripts to regenerate).
 | fresno-ca | 2014-11-04 | numerator | 119,317 | VERIFIED | Fresno 577 577 100.0% 416,433 119,317 28.7% Nov 4 8:00 p.m. Nov 5 1:38 a.m. FENU |
 | fresno-ca | 2016-11-08 | denominator | 291,890 | VERIFIED | 592 583,238 437,423 131,787 160,103 291,890 54.85% 66.73% 50.05% |
 | fresno-ca | 2016-11-08 | numerator | 177,183 | VERIFIED | es." 11/9/2016 1:42:19 AM Registered Voters 437667 - Cards Cast 177183 40.48% Num. Report Precinct 592 - Num. Reporting  |
+| fresno-ca | 2018-06-05 | denominator | 136,388 | VERIFIED | 481 594,711 440,617 47,937 88,451 136,388 64.85% 30.95% 22.93% |
+| fresno-ca | 2018-06-05 | numerator | 112,403 | VERIFIED | Registered Voters 438782 - Cards Cast 112403 25.62% Num. Report Precinct 481 - Num. Reporting 481 100.0 |
 | fresno-ca | 2018-11-06 | denominator | 256,972 | VERIFIED | 640 597,497 456,891 93,581 163,391 256,972 63.58% 56.24% 43.01% |
 | fresno-ca | 2022-06-07 | denominator | 136,114 | VERIFIED | 328 642,055 498,759 10,371 125,743 136,114 92.38% 27.29% 21.20% |
 | fresno-ca | 2022-06-07 | numerator | 76,241 | VERIFIED | U Fresno 328 328 100.0% 498,759 76,241 15% Jun 7 8:12 p.m. Jun 7 11:00 p.m. SF |
@@ -94,8 +100,12 @@ verify_en_* scripts to regenerate).
 | los-angeles-ca | 2014-06-03 | numerator | 636,186 | VERIFIED | os Angeles 4,870 4,870 100.0% 4,857,424 636,186 13.1% Jun 3 8:06 p.m. Jun 4 3:07 a.m. FENU |
 | los-angeles-ca | 2014-11-04 | denominator | 1,518,835 | VERIFIED | geles 5,027 6,096,320 4,897,915 941,812 577,023 1,518,835 37.99% 31.01% 24.91% |
 | los-angeles-ca | 2014-11-04 | numerator | 1,147,248 | VERIFIED | d semi-final official results for the Nov. 4, 2014 General Election. A total of 1,147,248 ballots were processed and cou |
+| los-angeles-ca | 2016-06-07 | denominator | 2,026,068 | VERIFIED | Los Angeles 4,698 6,199,606 4,909,904 1,303,989 722,079 2,026,068 35.64% 41.26% 32.68% |
+| los-angeles-ca | 2016-06-07 | numerator | 1,438,909 | VERIFIED | official results for the June 7, 2016 Presidential Primary Election. A total of 1,438,909 ballots were processed and cou |
 | los-angeles-ca | 2016-11-08 | denominator | 3,544,115 | VERIFIED | ngeles 4,988 6,222,266 5,253,427 2,260,467 1,283,648 3,544,115 36.22% 67.46% 56.96% |
 | los-angeles-ca | 2016-11-08 | numerator | 2,306,321 | VERIFIED | unced semi-final official results for the Nov. 8th General Election. A total of 2,306,321 ballots were processed and cou |
+| los-angeles-ca | 2018-06-05 | denominator | 1,490,502 | VERIFIED | 4,357 6,216,686 5,149,461 825,427 665,075 1,490,502 44.62% 28.94% 23.98% |
+| los-angeles-ca | 2018-06-05 | numerator | 952,633 | VERIFIED | official results for the June 5th Statewide Direct Primary Election. A total of 952,633 ballots were processed and count |
 | los-angeles-ca | 2018-11-06 | denominator | 3,023,417 | VERIFIED | 4,728 6,230,147 5,280,658 1,673,104 1,350,313 3,023,417 44.66% 57.25% 48.53% |
 | los-angeles-ca | 2018-11-06 | numerator | 1,975,855 | VERIFIED | announced semi-official results for the November 6 General Election. A total of 1,975,855 ballots were processed and cou |
 | los-angeles-ca | 2022-06-07 | denominator | 1,620,593 | VERIFIED | 3,293 6,677,886 5,615,370 248,821 1,371,772 1,620,593 84.65% 28.86% 24.27% |
@@ -119,7 +129,7 @@ verify_en_* scripts to regenerate).
 | madera-ca | 2016-11-08 | denominator | 44,186 | VERIFIED | 102 87,254 58,086 15,211 28,975 44,186 65.58% 76.07% 50.64% |
 | madera-ca | 2016-11-08 | numerator | 35,364 | VERIFIED | Absentee Ballots Cast 22,561 38.8% Total Ballots Cast 35,364 60.8% President and Vice President Completed Prec |
 | madera-ca | 2018-06-05 | denominator | 24,211 | VERIFIED | 69 89,532 54,848 1,995 22,216 24,211 91.76% 44.14% 27.04% |
-| madera-ca | 2018-06-05 | numerator | 18,258 | VERIFIED | U Madera 69 69 100.0% 54,848 18,258 33% Jun 5 9:07 p.m. Jun 6 12:20 a.m. SF |
+| madera-ca | 2018-06-05 | numerator | 18,258 | VERIFIED | 0 , "BCxContest" : 0 , "VF" : 1 , "TP" : 69 , "PR" : 69 , "TV" : 54815 , "BC" : 18258 , "RC" : 0 , "RO" : 0 , "CH" : [ " |
 | madera-ca | 2018-11-06 | denominator | 38,968 | VERIFIED | 69 89,818 57,418 4,434 34,534 38,968 88.62% 67.87% 43.39% |
 | madera-ca | 2018-11-06 | numerator | 28,159 | VERIFIED | 0 , "BCxContest" : 0 , "VF" : 1 , "TP" : 69 , "PR" : 62 , "TV" : 31713 , "BC" : 28159 , "RC" : 0 , "RO" : 0 , "CH" : [ " |
 | madera-ca | 2022-06-07 | denominator | 24,810 | VERIFIED | 33 93,606 71,979 1,333 23,477 24,810 94.63% 34.47% 26.50% |
@@ -166,6 +176,8 @@ verify_en_* scripts to regenerate).
 | napa-ca | 2016-06-07 | numerator | 20,427 | VERIFIED | Napa 167 167 100.0% 72,461 20,427 28.2% Jun 7 8:03 p.m. Jun 8 12:07 a.m. CCU |
 | napa-ca | 2016-11-08 | denominator | 63,255 | VERIFIED | 167 93,686 76,833 4,530 58,725 63,255 92.84% 82.33% 67.52% |
 | napa-ca | 2016-11-08 | numerator | 34,108 | VERIFIED | November 8, 2016 Precincts Reported: 167 of 167 (100.00%) Ballots Cast: 34,108 PRESIDENT/VICE PRESIDENT (Vote for 1) Pre |
+| napa-ca | 2018-06-05 | denominator | 37,525 | VERIFIED | 170 92,519 76,211 4 37,521 37,525 99.99% 49.24% 40.56% |
+| napa-ca | 2018-06-05 | numerator | 15,091 | VERIFIED | ECTION NAPA COUNTY Precincts Reported: 170 of 170 (100.00%) Registered Voters: 15,091 of 76,236 (19.80%) Ballots Cast: 3 |
 | napa-ca | 2018-11-06 | denominator | 57,132 | VERIFIED | 170 92,369 78,135 42 57,090 57,132 99.93% 73.12% 61.85% |
 | napa-ca | 2018-11-06 | numerator | 21,774 | VERIFIED | ION NIGHT REPORT Precincts Reported: 170 of 170 (100.00%) Registered Voters: 21,774 of 78,135 (27.87%) Ballots Cast: 43, |
 | napa-ca | 2022-06-07 | denominator | 36,285 | VERIFIED | 190 97,727 84,163 520 35,765 36,285 98.57% 43.11% 37.13% |
@@ -188,6 +200,8 @@ verify_en_* scripts to regenerate).
 | nevada-ca | 2016-06-07 | numerator | 27,852 | VERIFIED | Nevada 80 80 100.0% 66,149 27,852 42.1% Jun 7 9:18 p.m. Jun 8 12:50 a.m. CCU |
 | nevada-ca | 2016-11-08 | denominator | 56,800 | VERIFIED | 82 77,443 68,829 12,543 44,257 56,800 77.92% 82.52% 73.34% |
 | nevada-ca | 2016-11-08 | numerator | 34,728 | VERIFIED | asure A – Library system Measure A received 23,060 Yes votes, 68.99% of the 34,728 ballots counted as of tonight. Early  |
+| nevada-ca | 2018-06-05 | denominator | 38,792 | VERIFIED | 39 78,420 68,126 1,761 37,031 38,792 95.46% 56.94% 49.47% |
+| nevada-ca | 2018-06-05 | numerator | 16,346 | VERIFIED | render-verified: COUNTY OF NEVADA -- OFFICIAL BALLOT STATEWIDE DIRECT PRIMARY ELECTION -- June 05, 2018. Cumulative Repo |
 | nevada-ca | 2018-11-06 | denominator | 54,996 | VERIFIED | 68 78,603 68,954 3,059 51,937 54,996 94.44% 79.76% 69.97% |
 | nevada-ca | 2018-11-06 | numerator | 26,956 | VERIFIED | NEVADA CITY, Calif. November 7, 2018 – At the end of election night, 26,956 ballots have been counted in Nevada County,  |
 | nevada-ca | 2022-06-07 | denominator | 37,990 | VERIFIED | 78 82,123 75,406 1,932 36,058 37,990 94.91% 50.38% 46.26% |
@@ -198,12 +212,20 @@ verify_en_* scripts to regenerate).
 | nevada-ca | 2024-03-05 | numerator | 21,753 | VERIFIED | Nevada Vote Centers 108 108 100.0% 74,137 21,753 29% Mar 5 8:22 p.m. Mar 6 12:08 a.m. U |
 | nevada-ca | 2024-11-05 | denominator | 63,240 | VERIFIED | 118 81,096 75,654 8,047 55,193 63,240 87.28% 83.59% 77.98% |
 | nevada-ca | 2024-11-05 | numerator | 15,486 | VERIFIED | tal Percent Ballots Registered Percent 118 118 100.00% 15,486 75,881 20.41% Choice Part |
+| orange-ca | 2012-06-05 | denominator | 426,869 | VERIFIED | 1,976 1,916,528 1,612,145 145,474 281,395 426,869 65.92% 26.48% 22.27% |
+| orange-ca | 2012-06-05 | numerator | 315,584 | VERIFIED | 0 0.00% Total Ballots Cast 315,584 19.58% |
 | orange-ca | 2012-11-06 | denominator | 1,133,204 | VERIFIED | 1,977 1,925,205 1,683,001 552,018 581,186 1,133,204 51.29% 67.33% 58.86% |
 | orange-ca | 2012-11-06 | numerator | 862,544 | VERIFIED | 399,220 23.72% Total Ballots Cast 862,544 51.25% Complete Precincts: 184 of 184 |
+| orange-ca | 2014-06-03 | denominator | 340,187 | VERIFIED | 1,856 1,955,899 1,411,232 99,397 240,790 340,187 70.78% 24.11% 17.39% |
+| orange-ca | 2014-06-03 | numerator | 238,460 | VERIFIED | 4,412 1.88% Total Ballots Cast 238,460 16.90% Absentee Ballots Cast 319 5.70% RICH |
 | orange-ca | 2014-11-04 | denominator | 640,358 | VERIFIED | 1,863 1,963,747 1,424,216 252,472 387,886 640,358 60.57% 44.96% 32.61% |
 | orange-ca | 2014-11-04 | numerator | 464,313 | VERIFIED | 252,171 17.71% Total Ballots Cast 464,313 32.60% Complete Precincts: 1,863 of 1,863 |
+| orange-ca | 2016-06-07 | denominator | 691,802 | VERIFIED | Orange 1,597 2,000,797 1,395,380 283,619 408,183 691,802 59.00% 49.58% 34.58% |
+| orange-ca | 2016-06-07 | numerator | 477,064 | VERIFIED | 1,083 0.57% Total Ballots Cast 477,064 34.19% Vote-by-Mail Ballots Cast 373 9. |
 | orange-ca | 2016-11-08 | denominator | 1,239,405 | VERIFIED | e 1,668 2,009,188 1,535,691 516,801 722,604 1,239,405 58.30% 80.71% 61.69% |
 | orange-ca | 2016-11-08 | numerator | 825,317 | VERIFIED | 431,038 28.06% Total Ballots Cast 825,317 53.73% Complete Precincts: 168 of 168 |
+| orange-ca | 2018-06-05 | denominator | 635,224 | VERIFIED | 1,561 2,022,355 1,482,036 226,848 408,376 635,224 64.29% 42.86% 31.41% |
+| orange-ca | 2018-06-05 | numerator | 369,267 | VERIFIED | 30,590 8.79% 369,267 24.92% |
 | orange-ca | 2018-11-06 | denominator | 1,106,729 | VERIFIED | 1,546 2,028,366 1,560,111 393,423 713,306 1,106,729 64.45% 70.94% 54.56% |
 | orange-ca | 2018-11-06 | numerator | 650,671 | VERIFIED | 366,447 23.51% Total Ballots Cast 650,671 41.74% Complete Precincts: 1,546 of 1,546 |
 | orange-ca | 2022-06-07 | denominator | 636,497 | VERIFIED | 2,179 2,205,404 1,809,947 72,455 564,042 636,497 88.62% 35.17% 28.86% |
@@ -257,14 +279,20 @@ verify_en_* scripts to regenerate).
 | riverside-ca | 2024-03-05 | numerator | 213,998 | VERIFIED | Riverside Vote Centers 928 928 100.0% 1,327,135 213,998 16% Mar 5 8:30 p.m. Mar 6 3:01 a.m. U |
 | riverside-ca | 2024-11-05 | denominator | 959,098 | VERIFIED | 1,345 1,646,951 1,372,548 170,437 788,661 959,098 82.23% 69.88% 58.23% |
 | riverside-ca | 2024-11-05 | numerator | 547,742 | VERIFIED | Vote Centers 1,345 1,345 100.0% 1,372,548 547,742 39.9% Nov 5 8:44 p.m. Nov 6 5:02 a.m. U |
+| sacramento-ca | 2012-06-05 | denominator | 232,743 | VERIFIED | nto 1,041 941,160 653,391 71,640 161,103 232,743 69.22% 35.62% 24.73% |
+| sacramento-ca | 2012-06-05 | numerator | 150,286 | NOT_FOUND |  |
 | sacramento-ca | 2012-11-06 | denominator | 522,045 | VERIFIED | 1,106 944,243 698,899 216,021 306,024 522,045 58.62% 74.70% 55.29% |
 | sacramento-ca | 2012-11-06 | numerator | 328,516 | VERIFIED | L . . . . . 698,899 BALLOTS CAST - TOTAL. . . . . . . 328,516 VOTER TURNOUT - TOTAL . . . . . . 47.00 |
 | sacramento-ca | 2014-06-03 | denominator | 203,850 | VERIFIED | ento 1,102 957,597 688,443 57,425 146,425 203,850 71.83% 29.61% 21.29% |
 | sacramento-ca | 2014-06-03 | numerator | 122,053 | VERIFIED | Sacramento 1,102 1,102 100.0% 688,443 122,053 17.7% Jun 3 8:09 p.m. Jun 4 12:11 a.m. FENU |
 | sacramento-ca | 2014-11-04 | denominator | 330,817 | VERIFIED | to 1,263 961,112 683,632 111,628 219,189 330,817 66.26% 48.39% 34.42% |
 | sacramento-ca | 2014-11-04 | numerator | 195,317 | VERIFIED | L . . . . . 683,632 BALLOTS CAST - TOTAL. . . . . . . 195,317 VOTER TURNOUT - TOTAL . . . . . . 28.57 |
+| sacramento-ca | 2016-06-07 | denominator | 340,360 | VERIFIED | Sacramento 1,172 984,952 715,975 112,023 228,337 340,360 67.09% 47.54% 34.56% |
+| sacramento-ca | 2016-06-07 | numerator | 230,234 | VERIFIED | FERENC. 154,928 21.64 BALLOTS CAST - TOTAL. . . . . . . 230,234 BALLOTS CAST - DEMOCRATIC A . . . . 120,301 26.03 |
 | sacramento-ca | 2016-11-08 | denominator | 575,711 | VERIFIED | nto 1,267 989,090 772,865 203,114 372,597 575,711 64.72% 74.49% 58.21% |
 | sacramento-ca | 2016-11-08 | numerator | 328,744 | VERIFIED | ramento 1,267 1,267 100.0% 772,865 328,744 42.5% Nov 8 8:07 p.m. Nov 9 1:52 a.m. SF |
+| sacramento-ca | 2018-06-05 | denominator | 310,881 | VERIFIED | 573 1,009,125 741,260 18,104 292,777 310,881 94.18% 41.94% 30.81% |
+| sacramento-ca | 2018-06-05 | numerator | 124,609 | VERIFIED | render-verified: raw HTML: <input type="hidden" name="hidVoterTurnout" id="hidVoterTurnout" value="124609" />, page titl |
 | sacramento-ca | 2018-11-06 | denominator | 522,652 | VERIFIED | 593 1,013,368 765,965 30,279 492,373 522,652 94.21% 68.23% 51.58% |
 | sacramento-ca | 2018-11-06 | numerator | 185,623 | VERIFIED | ( 100.00% ) Registered Voters: 185,623 of 764,998 ( 24.26% ) Ball |
 | sacramento-ca | 2022-06-07 | denominator | 336,014 | VERIFIED | 630 1,113,693 864,575 11,435 324,579 336,014 96.60% 38.86% 30.17% |
@@ -308,6 +336,8 @@ verify_en_* scripts to regenerate).
 | san-diego-ca | 2024-03-05 | numerator | 425,572 | VERIFIED | taArray, colorObject, elem); })(); Ballots Counted 425,572 Mail Ballots 374,440 Vote Center Ballots |
 | san-diego-ca | 2024-11-05 | denominator | 1,503,018 | VERIFIED | 2,669 2,353,145 1,982,264 227,714 1,275,304 1,503,018 84.85% 75.82% 63.87% |
 | san-diego-ca | 2024-11-05 | numerator | 975,373 | VERIFIED | taArray, colorObject, elem); })(); Ballots Counted 975,373 Mail Ballots 787,702 Vote Center Ballots |
+| san-mateo-ca | 2012-06-05 | denominator | 123,330 | VERIFIED | eo 467 477,460 337,757 33,793 89,537 123,330 72.60% 36.51% 25.83% |
+| san-mateo-ca | 2012-06-05 | numerator | 93,604 | VERIFIED | 06/05/2012 11:46 PM Total Number of Voters : 93,604 of 337,702 = 27.72% |
 | san-mateo-ca | 2012-11-06 | denominator | 288,592 | VERIFIED | 468 479,562 361,486 119,212 169,380 288,592 58.69% 79.83% 60.18% |
 | san-mateo-ca | 2012-11-06 | numerator | 204,287 | VERIFIED | 11/07/2012 12:07 AM Total Number of Voters : 204,287 of 361,486 = 56.51% |
 | san-mateo-ca | 2014-06-03 | denominator | 97,447 | VERIFIED | eo 475 488,370 354,994 21,484 75,963 97,447 77.95% 27.45% 19.95% |
@@ -327,13 +357,19 @@ verify_en_* scripts to regenerate).
 | san-mateo-ca | 2024-11-05 | denominator | 337,241 | VERIFIED | 338 513,823 443,350 39,466 297,775 337,241 88.30% 76.07% 65.63% |
 | san-mateo-ca | 2024-11-05 | numerator | 213,421 | VERIFIED | taArray, colorObject, elem); })(); Ballots Counted 213,421 Vote by Mail Ballots 178,796 Vote Center |
 | santa-clara-ca | 2012-06-05 | denominator | 292,713 | VERIFIED | lara 874 1,116,131 755,117 55,518 237,195 292,713 81.03% 38.76% 26.23% |
-| santa-clara-ca | 2012-06-05 | numerator | 234,342 | VERIFIED | 455 Precinct Reporting Turnout 6.47% 48,887 31.03% 234,342 ⇑ Back To Top Nonpartisan Registration & Turnout |
+| santa-clara-ca | 2012-06-05 | numerator | 191,198 | NOT_FOUND |  |
 | santa-clara-ca | 2012-11-06 | denominator | 653,239 | VERIFIED | a 1,000 1,122,390 817,837 195,354 457,885 653,239 70.09% 79.87% 58.20% |
 | santa-clara-ca | 2012-11-06 | numerator | 438,348 | VERIFIED | 012 Registered Voters: 817,837 Ballots Cast: 438,348 Voter Turnout: 53.60 % Precincts P |
+| santa-clara-ca | 2014-06-03 | denominator | 264,133 | VERIFIED | Clara 1,026 1,150,600 805,922 50,290 213,843 264,133 80.96% 32.77% 22.96% |
+| santa-clara-ca | 2014-06-03 | numerator | 166,360 | VERIFIED | OR" , "K" : "3" , "VF" : 1 , "TP" : 1026 , "PR" : 1026 , "TV" : 805922 , "BC" : 166360 , "RC" : 0 , "RO" : 0 , "CH" : [  |
 | santa-clara-ca | 2014-11-04 | denominator | 404,166 | VERIFIED | ara 1,066 1,157,944 805,502 96,077 308,089 404,166 76.23% 50.18% 34.90% |
 | santa-clara-ca | 2014-11-04 | numerator | 235,062 | VERIFIED | OR" , "K" : "6" , "VF" : 1 , "TP" : 1066 , "PR" : 1066 , "TV" : 805502 , "BC" : 235062 , "RC" : 0 , "RO" : 0 , "CH" : [  |
+| santa-clara-ca | 2016-06-07 | denominator | 430,779 | VERIFIED | Santa Clara 932 1,186,947 788,063 110,976 319,803 430,779 74.24% 54.66% 36.29% |
+| santa-clara-ca | 2016-06-07 | numerator | 282,389 | VERIFIED | , "regvoters" : 0 , "VF" : 1 , "TP" : 932 , "PR" : 932 , "TV" : 788063 , "BC" : 282389 , "RC" : 0 , "RO" : 0 , "CH" : [  |
 | santa-clara-ca | 2016-11-08 | denominator | 724,596 | VERIFIED | lara 1,063 1,193,225 875,176 190,379 534,217 724,596 73.73% 82.79% 60.73% |
 | santa-clara-ca | 2016-11-08 | numerator | 443,269 | VERIFIED | "regvoters" : 0 , "VF" : 1 , "TP" : 1063 , "PR" : 1063 , "TV" : 875176 , "BC" : 443269 , "RC" : 0 , "RO" : 0 , "CH" : [  |
+| santa-clara-ca | 2018-06-05 | denominator | 369,332 | VERIFIED | 988 1,203,427 846,228 73,948 295,384 369,332 79.98% 43.64% 30.69% |
+| santa-clara-ca | 2018-06-05 | numerator | 196,184 | VERIFIED | "BCxContest" : 0 , "VF" : 1 , "TP" : 988 , "PR" : 988 , "TV" : 846228 , "BC" : 196184 , "RC" : 0 , "RO" : 0 , "CH" : [ " |
 | santa-clara-ca | 2018-11-06 | denominator | 625,425 | VERIFIED | 1,098 1,208,495 885,764 138,468 486,957 625,425 77.86% 70.61% 51.75% |
 | santa-clara-ca | 2018-11-06 | numerator | 304,303 | VERIFIED | BCxContest" : 0 , "VF" : 1 , "TP" : 1098 , "PR" : 1098 , "TV" : 885764 , "BC" : 304303 , "RC" : 0 , "RO" : 0 , "CH" : [  |
 | santa-clara-ca | 2022-06-07 | denominator | 357,848 | VERIFIED | 599 1,263,458 1,001,791 15,811 342,037 357,848 95.58% 35.72% 28.32% |

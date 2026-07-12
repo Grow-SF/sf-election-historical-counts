@@ -1,5 +1,19 @@
 [
  {
+  "slug": "sacramento-ca",
+  "date": "2018-06-05",
+  "url": "https://web.archive.org/web/20180607104634/http://sacresults.e-cers.com/default.aspx",
+  "evidence": "raw HTML: <input type=\"hidden\" name=\"hidVoterTurnout\" id=\"hidVoterTurnout\" value=\"124609\" />, page titled 'Unofficial 2018 Primary Election June 5, 2018', 'Results Last Updated 6/6/2018 2:25:56 PM'.",
+  "method": "curl fetch of the archived page; the ballots-cast number is baked into a hidden <input> element's value attribute (not AJAX-only), which the shared strip_html() tag-stripper (<[^>]+> regex) removes along with the surrounding tag markup, so the plain-text numerator check never sees it. Not a JS-rendering gap (no puppeteer was needed to obtain the value; curl already has it in the raw bytes), but the same evidence-manifest escape hatch applies. Independently re-verified 2026-07-10 (batch 2 backfill) by grepping the cached artifact directly."
+ },
+ {
+  "slug": "nevada-ca",
+  "date": "2018-06-05",
+  "url": "https://yubanet.com/wp-content/uploads/2018/06/finalelectionnightupdate.pdf",
+  "evidence": "COUNTY OF NEVADA -- OFFICIAL BALLOT STATEWIDE DIRECT PRIMARY ELECTION -- June 05, 2018. Cumulative Report -- Unofficial. 06/05/2018 11:06 PM. Precincts Reporting 39 of 39 = 100.00%. Total Number of Voters : 16,346 of 68,023 = 24.03%. Governor Cast Votes 16,113 Over Votes 67 Under Votes 166 (sums to 16,346).",
+  "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV 4245 PDF) archived PDF to PNG, read visually; independently re-verified 2026-07-10 (batch 2 backfill), matching the source dossier's transcription exactly."
+ },
+ {
   "slug": "san-bernardino-ca",
   "date": "2024-11-05",
   "url": "https://web.archive.org/web/20241106224114/https://elections.sbcounty.gov/elections/2024/1105/results/",
@@ -40,5 +54,19 @@
   "url": "https://drive.google.com/uc?export=download&id=1U3HX1aB8Fim-Ca6_qL_EdSPliM8OHpYB",
   "evidence": "Page: 1 of 6 11/5/2024 10:05:17 PM. Election Summary Report General Election Del Norte County November 05, 2024. Election Night Report Unofficial Results Final Report. Precincts Reported: 19 of 19 (100.00%) Voters Cast: 6,719 of 15,117 (44.45%).",
   "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV C5740 PDF) live Google Drive PDF to PNG, read visually; verified 2026-07-10."
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2016-06-07",
+  "url": "https://drive.google.com/uc?export=download&id=1Y1Kj4-IqXW5uEgZh6c206EsmNoj9pSEN",
+  "evidence": "Election Summary Report Closed Primary County of Del Norte June 07, 2016. Final Election Night Report Unofficial Results. Precincts Reported: 18 of 18 (100.00%) Registered Voters: 5,020 of 13,525 (37.12%) Ballots Cast: 5,020. Page timestamp 6/7/2016 10:07:46 PM.",
+  "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV C5240 PDF) live Google Drive PDF to PNG, read visually; verified 2026-07-10."
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2018-06-05",
+  "url": "https://drive.google.com/uc?export=download&id=1xrb3b2KmuaR0EhVysw--eKyjXANMzy6k",
+  "evidence": "TOTAL RESULT SUMMARY REPORT (UNOFFICIAL) STATEWIDE GUB PRIMARY ELECTION TUESDAY, JUNE 5, 2018. Registered Voters: 4,637 of 14,151 (32.77%). Governor contest Times Cast ... Total 4,637 / 14,151 32.77%. Page timestamp 6/5/2018 9:42:38 PM.",
+  "method": "pdftoppm -r 150 render of the scanned (no text layer, Creator: Canon iR-ADV C5240 PDF) live Google Drive PDF to PNG, read visually; verified 2026-07-10."
  }
 ]

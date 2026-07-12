@@ -43,6 +43,13 @@
  },
  {
   "slug": "fresno-ca",
+  "date": "2018-06-05",
+  "verdict": "REFUTED_AS_PLATEAU",
+  "basis": "earliest-surviving capture provably tracked the canvass past its own timestamp",
+  "evidence": "cited capture's internal GEMS timestamp is 06/08/18 14:21:09 (3 days post-election, Friday canvass-cadence), 'Unofficial Final Results' at 100% precincts, Cards Cast 112,403; the SAME URL's next available capture (2018-07-11) shows 'Official Final Results 06/26/18 14:38:06', Cards Cast 136,388 = certified exactly -- proves the count kept climbing after 06/08, so 112,403 is not the plateau; retained as a documented ceiling (comparable=false, secondary). Source: docs/research/pending-integration-2026-07-10/dossier-fresno-ca-primaries.md, 2018-06-05 item."
+ },
+ {
+  "slug": "fresno-ca",
   "date": "2024-11-05",
   "verdict": "CONFIRMED",
   "basis": "official county summary PDF, end of night",
@@ -106,10 +113,24 @@
  },
  {
   "slug": "los-angeles-ca",
+  "date": "2016-06-07",
+  "verdict": "CONFIRMED",
+  "basis": "RR/CC semi-final press release plus exact-arithmetic report-series bracket 3 days later",
+  "evidence": "'A total of 1,438,909 ballots were processed and counted'; June 10 update: '66,869 ballots processed since Election Night...total...now at 1,505,778' (1,438,909+66,869=1,505,778 exactly). Source: docs/research/pending-integration-2026-07-10/dossier-los-angeles-ca-primaries.md Item 3."
+ },
+ {
+  "slug": "los-angeles-ca",
   "date": "2016-11-08",
   "verdict": "CONFIRMED",
   "basis": "RR/CC semi-final press release states the election-night total",
   "evidence": "'A total of 2,306,321 ballots were processed and counted' (semi-final official, Nov 9 release)"
+ },
+ {
+  "slug": "los-angeles-ca",
+  "date": "2018-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "RR/CC semi-official press release plus exact-arithmetic report-series bracket 3 days later",
+  "evidence": "'A total of 952,633 ballots were processed and counted'; June 8 update: '83,267 ballots processed since Election Night...total...now 1,035,900' (952,633+83,267=1,035,900 exactly). Source: docs/research/pending-integration-2026-07-10/dossier-los-angeles-ca-primaries.md Item 4."
  },
  {
   "slug": "los-angeles-ca",
@@ -218,6 +239,13 @@
  },
  {
   "slug": "napa-ca",
+  "date": "2018-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "rollout election; county's own report-series titling (last report still labeled 'Election Night' vs the 'POST-Election Night' series 3 days later) plus late-night internal timestamp plus a later capture showing the count had moved",
+  "evidence": "'FINAL ELECTION NIGHT SEMIFINAL OFFICIAL CANVASS', stamp 6/5/2018 10:39:31 PM, 170/170 precincts, Times Cast 15,091/76,236 (19.80%, RUNBOOK 7.5 mislabel resolved via the Governor contest's own Times Cast row); First POST report (6/8/2018) shows 16,773, confirming movement resumed after a gap. Source: docs/research/pending-integration-2026-07-10/dossier-napa-ca-primaries.md Item 4."
+ },
+ {
+  "slug": "napa-ca",
   "date": "2018-11-06",
   "verdict": "CONFIRMED",
   "basis": "county titled last-of-night series",
@@ -260,6 +288,13 @@
  },
  {
   "slug": "nevada-ca",
+  "date": "2018-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "county's own last-of-night report, self-titled and time-stamped, plus a multi-day posting-schedule gap",
+  "evidence": "'Cumulative Report - Unofficial' 11:06 PM 06/05/2018, 39/39 precincts, 16,346 ballots; posted at YubaNet live-blog's 11:23 PM entry captioned 'The final update for election night'; next update not until 'late Monday or maybe Tuesday' per morning-after article. Source: docs/research/pending-integration-2026-07-10/dossier-nevada-ca-primaries.md, 2018-06-05 item."
+ },
+ {
+  "slug": "nevada-ca",
   "date": "2018-11-06",
   "verdict": "CONFIRMED",
   "basis": "morning-after county statement",
@@ -281,10 +316,24 @@
  },
  {
   "slug": "orange-ca",
+  "date": "2012-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "county report-series time-gap bracket (100% precincts, ~15.7-hour gap to next-day run)",
+  "evidence": "pri2012/run09/cumulative.pdf, Run Date/Time 06/06/2012 01:05:49 am, 315,584 ballots, 1,976/1,976 precincts; next run (run10) dated 06/06/2012 04:45:57 pm = 331,362. Source: docs/research/pending-integration-2026-07-10/dossier-orange-ca-primaries.md Item 1."
+ },
+ {
+  "slug": "orange-ca",
   "date": "2012-11-06",
   "verdict": "CONFIRMED",
   "basis": "county-archived night report with past-midnight stamp",
   "evidence": "UNOFFICIAL RESULTS cumulative stamped 11/07/2012 12:47:06 AM"
+ },
+ {
+  "slug": "orange-ca",
+  "date": "2014-06-03",
+  "verdict": "CONFIRMED",
+  "basis": "county report-series time-gap bracket (100% precincts, ~15.1-hour gap to next-day run)",
+  "evidence": "pri2014/run10/cumulative.pdf, Run Date/Time 06/04/2014 01:35:06 am, 238,460 ballots, 1,856/1,856 precincts; next run (run11) dated 06/04/2014 04:41:04 pm = 245,809. Source: docs/research/pending-integration-2026-07-10/dossier-orange-ca-primaries.md Item 2."
  },
  {
   "slug": "orange-ca",
@@ -295,10 +344,24 @@
  },
  {
   "slug": "orange-ca",
+  "date": "2016-06-07",
+  "verdict": "CONFIRMED",
+  "basis": "county report-series time-gap bracket (100% precincts, ~14.75-hour gap to next-day run, exact reconciliation to certified)",
+  "evidence": "pri2016/Run 10/cumulative.pdf, Run Date/Time 06/08/2016 02:11:01 am, 477,064 ballots, 1,597/1,597 precincts; next run (Run 11) dated 06/08/2016 04:55:50 pm = 492,060. Source: docs/research/pending-integration-2026-07-10/dossier-orange-ca-primaries.md Item 3."
+ },
+ {
+  "slug": "orange-ca",
   "date": "2016-11-08",
   "verdict": "CONFIRMED",
   "basis": "county-archived night report with past-midnight stamp",
   "evidence": "stamp 11/09/2016 01:55:57 AM"
+ },
+ {
+  "slug": "orange-ca",
+  "date": "2018-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "county report-series time-gap bracket (100% precincts, ~16.0-hour gap to next-day run), cross-checked against the 2018 general share",
+  "evidence": "pri2018/Run 09/cumulative.pdf, Run Date/Time 06/06/2018 12:55:42 am, 369,267 ballots, 1,561/1,561 precincts; next run (Run 10) dated 06/06/2018 04:55:41 pm = 383,375. Source: docs/research/pending-integration-2026-07-10/dossier-orange-ca-primaries.md Item 4."
  },
  {
   "slug": "orange-ca",
@@ -379,10 +442,31 @@
  },
  {
   "slug": "sacramento-ca",
+  "date": "2012-06-05",
+  "verdict": "PLAUSIBLE",
+  "basis": "NewsBank newspaper report; self-describing turnout figure but no independent bracket/hold leg obtainable (RUNBOOK 8)",
+  "evidence": "NEWSBANK RECOVERY 2026-07-10: fills a documented null (dossier exhausted press-release archive, eresults.saccounty.net CDX, Sacramento Bee CDX). Sacramento Bee, June 6, 2012 (docref news/158D11D2DFBCFC18): '150,286 ... 23 percent'. No Wayback bracket exists to independently confirm this was the LAST report of election night, hence PLAUSIBLE not CONFIRMED. Source: docs/research/pending-integration-2026-07-10/dossier-sacramento-ca-primaries.md Item 1 (null) + newsbank-recovery.md log."
+ },
+ {
+  "slug": "sacramento-ca",
   "date": "2012-11-06",
   "verdict": "PLAUSIBLE",
   "basis": "distinct on-time capture exists but is currently unservable",
   "evidence": "CDX shows a distinct Nov 8 2012 8:53 PM PST capture (digest CYR7..., 10,563 bytes) differing from the 2013 FINAL-report capture (10,647 bytes); Wayback replay now 302-aliases it to 2013-02-15, which is why machine fetches see the Nov 30 report; the note's reading (Run Date 11/07/12 12:49 AM, 328,516 at 1,106/1,106) is temporally coherent but machine-unverifiable today"
+ },
+ {
+  "slug": "sacramento-ca",
+  "date": "2016-06-07",
+  "verdict": "REFUTED_AS_PLATEAU",
+  "basis": "kept as documented ceiling (RUNBOOK 5.2), PROVEN still-moving between the only two available captures",
+  "evidence": "eresults.saccounty.net SEMI-OFFICIAL report, Run Date 06/10/16 (3 days post-election), Ballots Cast 230,234; the only later capture (Run Date 06/17/16) shows 297,409, a 29% jump, proving the count was still climbing -- the opposite of the CONFIRMED 'held identical' pattern. comparable=false. Source: docs/research/pending-integration-2026-07-10/dossier-sacramento-ca-primaries.md Item 3."
+ },
+ {
+  "slug": "sacramento-ca",
+  "date": "2018-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "held-flat-then-jumped bracket on the VCA-era results app (RUNBOOK 8)",
+  "evidence": "sacresults.e-cers.com Default.aspx, hidden field hidVoterTurnout=124,609, 'Results Last Updated 6/6/2018 2:25:56 PM'; the Jun 9 capture shows hidVoterTurnout=154,435 (materially higher, proves the Jun 6 report was superseded); the Jul 8 capture shows 310,881, exactly the certified final. Source: docs/research/pending-integration-2026-07-10/dossier-sacramento-ca-primaries.md Item 4."
  },
  {
   "slug": "sacramento-ca",
@@ -470,6 +554,13 @@
  },
  {
   "slug": "san-mateo-ca",
+  "date": "2012-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "self-described end-of-night interim report (11:46 PM timestamp, 100% precincts, 'Unofficial') distinct from the county's separately-linked certified-final document dated 2 weeks later",
+  "evidence": "media/894 'precinct report 5': 'Total Number of Voters : 93,604 of 337,702 = 27.72%', Precincts Reporting 467 of 467; sibling 'Results on PDF' link titled 'jun12 final 06 19' proves a later, distinct final canvass exists. Source: docs/research/pending-integration-2026-07-10/dossier-san-mateo-ca-primaries.md Item 1."
+ },
+ {
+  "slug": "san-mateo-ca",
   "date": "2012-11-06",
   "verdict": "CONFIRMED",
   "basis": "county-archived night turnout report",
@@ -513,9 +604,30 @@
  {
   "slug": "santa-clara-ca",
   "date": "2012-06-05",
-  "verdict": "REFUTED_AS_PLATEAU",
-  "basis": "earliest archived capture of the only election-night channel (legacy pre-Clarity sccgov.org page) is already ~23h post-poll-close with precincts at 100% and a once-daily canvass cadence; kept only as a documented ceiling per RUNBOOK 5.2, comparable:false",
-  "evidence": "Wayback CDX for sccgov.org/elections/results/jun2012/ has zero captures before 2012-06-07 12:28 PM PDT; that capture's internal 'Last Updated' is 6/6/2012 7:02:03 PM, Completed Precincts 874/874 (100%), 234,342 ballots. FREEZE TEST (retry 2026-07-10): the very next capture (20120608222327, 6/7 4:43 PM) reads 268,370, then 284,025 (6/8), growing to the certified 292,713 which froze July 3 - Dec 8 -- so 234,342 is a mid-canvass Wednesday-evening ceiling, not a frozen night state. Not-adopted scaling estimate (Nov-2012 own ratio reversed) implies ~223,152/76.24%; maintainer default is the 234,342/80.06% ceiling. FLAG for manual operator: missed June 5-6 capture and/or Mercury News NewsBank quote could upgrade"
+  "verdict": "REFUTED_AND_CORRECTED",
+  "basis": "NewsBank election-night newspaper report supersedes the documented ceiling",
+  "evidence": "REPLACES the prior 234,342/80.06% ceiling (sccgov.org page, capture 20120607192808, already ~23h post-poll-close and proven mid-canvass by the santa-clara-2012-06-retry.md freeze test). Milpitas Post/BANG, June 6, 2012 (docref news/13F42B5474747780): 191,198 ballots counted; corroborated by an AP wire item's ~96,000-ballot-uncounted framing (implying ~196,713/67.20%, bracketing the BANG figure). Corrected 234,342/80.06% (secondary, comparable=false) -> 191,198/65.32% (secondary, comparable=true). Confidence stays secondary (newspaper report); no independent bracket/hold leg beyond the AP corroboration, so not upgraded to CONFIRMED. PROVENANCE FLAG: relayed via the batch-2 task brief, not independently re-fetched from a cached NewsBank artifact in this repo. Source: docs/research/pending-integration-2026-07-10/dossier-santa-clara-ca-primaries.md Item 1 (documented the superseded ceiling) + newsbank-recovery.md log."
+ },
+ {
+  "slug": "santa-clara-ca",
+  "date": "2014-06-03",
+  "verdict": "CONFIRMED",
+  "basis": "election-night internal timestamp (2:39:54 AM the morning after) with precincts at 100%, plus a Clarity version bracket: the next published version is 37.5 hours later with a large jump",
+  "evidence": "sum.json BC=166360 at Clarity electionId 51635 version 132035 (now Wayback-archived, capture 20260710205734, per browser-recovery-sweep.md), electionsettings websiteupdatedat 6/4/2014 2:39:54 AM PDT, precincts 1026/1026; next version 132218 is 6/5/2014 4:13:39 PM PDT (BC 198,499), a 37h34m gap. Source: docs/research/pending-integration-2026-07-10/dossier-santa-clara-ca-primaries.md Item 2."
+ },
+ {
+  "slug": "santa-clara-ca",
+  "date": "2016-06-07",
+  "verdict": "CONFIRMED",
+  "basis": "election-night internal timestamp (3:49 AM the morning after) with precincts first reaching 100%, plus a cadence-break bracket",
+  "evidence": "sum.json BC=282389 at Clarity electionId 60535 version 171284 (now Wayback-archived, capture 20260710205905), electionsettings websiteupdatedat 6/8/2016 3:49:26 AM PDT, precincts 932/932; next version 171298 is 6/8/2016 8:43:21 AM PDT (BC 286,492), reporting rate collapsing >10x. Source: docs/research/pending-integration-2026-07-10/dossier-santa-clara-ca-primaries.md Item 3."
+ },
+ {
+  "slug": "santa-clara-ca",
+  "date": "2018-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "election-night internal timestamp (10:38 AM the morning after) with precincts first reaching 100%, plus an official-versions-array bracket",
+  "evidence": "sum.json BC=196184 at Clarity electionId 75369 version 204514 (now Wayback-archived, capture 20260710210752), electionsettings websiteupdatedat 6/6/2018 10:38:16 AM PDT, precincts 988/988 (complete official versions array of 91 entries); next entry 204549 is 6/6/2018 4:25:41 PM PDT (BC 205,809). Source: docs/research/pending-integration-2026-07-10/dossier-santa-clara-ca-primaries.md Item 4."
  },
  {
   "slug": "santa-clara-ca",
@@ -835,9 +947,9 @@
  {
   "slug": "lake-ca",
   "date": "2018-06-05",
-  "verdict": "PLAUSIBLE",
-  "basis": "CA SoS status-page single-capture bracket (RUNBOOK 8)",
-  "evidence": "Lake row at capture 20180619011846 (2018-06-19 01:18:46 UTC): 100.0% precincts, Ballots Cast 8,158, Last Report 'Jun 6 1:44 a.m.'. SINGLE CAPTURE at 2018-06-19 01:18:46 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. Sweep bracket-evidence cross-check: \"single capture 20180619011846, no later capture to confirm freeze\" (scratchpad/sos-status-sweep.md)."
+  "verdict": "CONFIRMED",
+  "basis": "county's own numbered results-report system (result35.htm), self-labeled preliminary results at 100% precincts, same-URL overwritten to the exact certified total 5 weeks later (upgraded 2026-07-10 from the SoS status-page single-capture PLAUSIBLE read, retained as historical corroboration)",
+  "evidence": "Wayback https://web.archive.org/web/20180610025440id_/http://publicapps.lakecountyca.gov:80/elections/results/result35.htm: \"Election Results as of 06/06/2018 at 12:06:21 AM\", \"Completed Precincts: 70 of 70 PRELIMINARY RESULTS\", Total Ballots Cast 8,158; only later capture of same URL (2018-07-10) shows \"Final Results for Election\" / \"COUNTY OF LAKE - Final Results\", Total Ballots Cast 14,119 (= certified). Source: docs/research/pending-integration-2026-07-10/dossier-lake-ca-primaries.md Item 4."
  },
  {
   "slug": "madera-ca",
@@ -849,9 +961,9 @@
  {
   "slug": "madera-ca",
   "date": "2018-06-05",
-  "verdict": "PLAUSIBLE",
-  "basis": "CA SoS status-page single-capture bracket (RUNBOOK 8)",
-  "evidence": "Madera row at capture 20180619011846 (2018-06-19 01:18:46 UTC): 100.0% precincts, Ballots Cast 18,258, Last Report 'Jun 6 12:20 a.m.'. SINGLE CAPTURE at 2018-06-19 01:18:46 UTC carries this value. No later capture is available anywhere in the CDX window for this election to independently confirm the freeze; self-describing but unbracketed, grade PLAUSIBLE per RUNBOOK 8. Sweep bracket-evidence cross-check: \"single capture 20180619011846, no later capture to confirm freeze\" (scratchpad/sos-status-sweep.md)."
+  "verdict": "CONFIRMED",
+  "basis": "UPGRADED (2026-07-10): Clarity version bracket, re-derived from CDN, supersedes the prior CA SoS single-capture PLAUSIBLE read",
+  "evidence": "cited v204457 stamped '6/6/2018 12:03:33 AM PDT', BC 18,258; next v204551 stamped '6/6/2018 4:45:04 PM PDT' (~17hrs later) still BC 18,258; only v204780 (6/8) shows the canvass resuming (22,247). Certified v206422 (6/19) BC=24,211 matches SoS SoV exactly. Same 18,258 value as the prior CA SoS single-capture read (retained as history in the JSON note), now with an independent bracket. Source: docs/research/pending-integration-2026-07-10/dossier-madera-ca-primaries.md Item 4."
  },
  {
   "slug": "mendocino-ca",
@@ -950,6 +1062,20 @@
   "verdict": "CONFIRMED",
   "basis": "CA SoS status-page frozen-capture bracket (RUNBOOK 8)",
   "evidence": "Del Norte row at capture 20240306063830 (2024-03-06 06:38:30 UTC): 100.0% precincts, Ballots Cast 3,285, Last Report 'Mar 5 10:25 p.m.'. FROZEN: the identical Ballots Cast figure 3,285 recurs across 5 captures, 2024-03-06 06:38:30 UTC through 2024-03-08 15:51:26 UTC, before the next available capture (2024-03-09 19:45:02 UTC) jumps to 6,055 (Last Report 'Mar 8 3:28 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: \"frozen thru 4 captures (Mar6-Mar7), jumps Mar9 to 6,055/Mar8 3:28pm\" (scratchpad/sos-status-sweep.md)."
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2016-06-07",
+  "verdict": "CONFIRMED",
+  "basis": "self-titled 'Final Election Night Report / Unofficial Results', last of a numbered on-night release series (numbering does NOT equal plateau position here -- verified via each file's own CreationDate), next report 3 days later retitled 'Friday Report' at a higher count",
+  "evidence": "Release 3/5, file CreationDate 6/7/2016 11:09:27 PM PDT / printed page stamp 10:07:46 PM, 18/18 precincts (100%), Ballots Cast 5,020/13,525 (37.12%); Release 4 (next in series, NOT the plateau despite the numbering) is CreationDate 6/10/2016 (3 days later), Ballots Cast 6,178 -- confirms Release 3 was the last report before the canvass resumed. Release 5 (6/15, 8 days later) explicitly filename-suffixed FINAL RESULTS. Source: docs/research/pending-integration-2026-07-10/dossier-del-norte-ca-primaries.md Item 3."
+ },
+ {
+  "slug": "del-norte-ca",
+  "date": "2018-06-05",
+  "verdict": "CONFIRMED",
+  "basis": "late-night internal timestamp (self-description leg), last of a numbered on-night release series before a 2-days-later report explicitly relabeled 'Update' at a higher count (bracket leg); front-page ballot figure disambiguated per the runbook's known Del Norte registered-voters/times-cast mislabel using the per-contest Times Cast cross-check",
+  "evidence": "Release 4/6, CreationDate 6/5/2018 9:46:30 PM PDT / printed page stamp 9:42:38 PM, 18/18 precincts (100%); front page 'Registered Voters: 4,637/14,151 (32.77%)' cross-checked against GOVERNOR contest Times Cast 4,637/14,151 (32.77%) -- exact match confirms 4,637 (not the front page's separately printed 'Ballots Cast: 9,284', which is ballot cards) is the true turnout figure. Release 5 (6/7, 2 days later) retitled '1st Update (6/7/2018)', Registered-Voters field up to 5,347/14,151 -- confirms Release 4 was the last report before the canvass resumed. Source: docs/research/pending-integration-2026-07-10/dossier-del-norte-ca-primaries.md Item 4."
  },
  {
   "slug": "fresno-ca",

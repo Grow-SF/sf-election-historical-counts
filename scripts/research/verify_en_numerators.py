@@ -54,6 +54,12 @@ def source_text(url, dest_base):
     dest = dest_base.with_suffix(".pdf" if is_pdf else ".html")
     if not fetch(wayback_raw(url), dest):
         return None, dest
+    # Sniff actual bytes rather than trusting the URL-based guess: a live
+    # (non-Wayback) document host can serve a PDF from a query-string path
+    # with no .pdf suffix and no "documentcenter" substring (e.g. San
+    # Mateo's smcacre.gov/media/<id>/download?attachment).
+    if not is_pdf and dest.read_bytes()[:4] == b"%PDF":
+        is_pdf = True
     if is_pdf:
         return pdf_text(dest), dest
     data = dest.read_bytes()

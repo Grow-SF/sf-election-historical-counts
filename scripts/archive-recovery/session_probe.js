@@ -1,6 +1,7 @@
 // Load a known NewsBank doc to confirm the SFPL ezproxy session is alive.
 // Part of the archive-recovery runbook: docs/archive-recovery-runbook.md
-// Prereqs: Chrome --remote-debugging-port=9222 + active SFPL ezproxy session; puppeteer-core.
+// Prereqs: a browserURL from scripts/research/iso_chrome.sh (headless; see the focus-safe
+// launcher docs) with an authenticated SFPL ezproxy profile; puppeteer-core.
 // Writes to the gitignored mirror/ tree (licensed content - cited, never republished).
 
 const puppeteer = require('puppeteer-core');
