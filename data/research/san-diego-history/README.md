@@ -1,4 +1,13 @@
-# `data/research/san-diego-history/`: San Diego County election-night history, 1884-1920
+# `data/research/san-diego-history/`: San Diego County election-night history, 1871-1920
+
+![San Diego County: how much of the vote was counted by election night, 1871-2024](../../../docs/img/sd-night-share.png)
+
+*Blue: this dataset's morning-paper floors (share of the certified same-contest
+total); hollow marks are newspaper-practice artifacts (majorities-only or
+missing city returns), not slow counts. Green: the modern panel's plateau
+shares (share of certified ballots cast), a different denominator basis.
+1882 is omitted (no certified denominator exists). Regenerate with
+`uv run --with matplotlib python3 scripts/research/plot_sd_night_history.py`.*
 
 Recovered morning-after (election-night) vote counts for San Diego County,
 extending the county's election-night record back from the modern panel
@@ -54,7 +63,8 @@ night_share_pct = night_floor / certified_contest_total
 
 ## Coverage and gaps
 
-Even-year November generals 1884-1920, except: **1914 and 1922** (CDNC has no
+Statewide generals 1871-1920 (25 elections; 1871/1875/1879 were September
+state elections), except: **1914 and 1922** (CDNC has no
 SDDU issues for those Novembers; NewsBank/microfilm targets, see
 `docs/missing.md` conventions) and **1912's odd gap notes / 1900's city-only
 basis** carried in `flags`. 2020s-era rows live in the cross-county panel, not
