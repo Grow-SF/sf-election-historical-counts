@@ -316,3 +316,16 @@ Practical implications for a recovery pass:
 - Treat the recovered figure as a **remainder**, not a count: if a reliable total-ballots-cast (or total-registered-voter) figure for the county is available from another source (e.g., the certified Statement of Vote), the election-night "counted" total can be back-computed as (total ballots cast) minus (SDUB's reported remainder), which is exactly how the 1988/1992/2000/2004/2008 articles frame it themselves ("about X ballots... will be counted the rest of the week").
 - The registrar-focused day-after "many voters, few problems" / "officials pleased with turnout" story is the reliable hit type across elections (present in 1988, 1992, 2000, 2004, 2008; absent — or at least not carrying a count that year — in 1984 and 1996). Prioritize opening that story first in any recovery run; it consistently outperforms the routine local-race roundup stories, which almost never carry raw numbers.
 - 1984 and 1996 remain genuinely NOT FOUND despite a reasonably broad search (10 and 6 election-relevant articles opened respectively) — a deeper sweep of every remaining local-race story in those two issues is unlikely to change the outcome, since SDUB's non-registrar prose is consistently percentage-driven with no raw counts. If a floor is needed for those two years, microfilm/another archive remains the only path (per `newsbank-probe.md`'s existing recommendation).
+
+
+## CORRECTION (2026-07-12): SDUB's coverage starts 1983, not 1970
+
+A fresh pull of SFPL's full 14,656-title NewsBank master catalog (see
+`sd-union-access-hunt.md`) shows the only San Diego title SFPL carries is
+"San Diego Union-Tribune, The (CA)" (pubname SDUB), TEXT only, **1983-Current**.
+Earlier notes in this campaign said 1970; that was wrong. It does not change any
+recovered row (the 1992 and 2004 news-derived floors both sit inside 1983+), but
+it does mean the 1970s were never reachable via SDUB in the first place, so the
+"empty across most of 1970-1986" phrasing overstated what was ever available.
+No standalone pre-merger San Diego Union or Evening Tribune title exists in
+SFPL's NewsBank catalog at all.

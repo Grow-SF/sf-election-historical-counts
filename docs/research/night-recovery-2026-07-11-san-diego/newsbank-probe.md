@@ -172,3 +172,16 @@ workflow depends on. If a night-count floor is needed for those three
 elections, the text search that already turned up 40 `docref=news` hits per
 date for 1996 and 2004 (109/114 including sub-results) is the place to start
 reading prose for a citywide total, not a table sweep.
+
+
+## CORRECTION (2026-07-12): SDUB's coverage starts 1983, not 1970
+
+A fresh pull of SFPL's full 14,656-title NewsBank master catalog (see
+`sd-union-access-hunt.md`) shows the only San Diego title SFPL carries is
+"San Diego Union-Tribune, The (CA)" (pubname SDUB), TEXT only, **1983-Current**.
+Earlier notes in this campaign said 1970; that was wrong. It does not change any
+recovered row (the 1992 and 2004 news-derived floors both sit inside 1983+), but
+it does mean the 1970s were never reachable via SDUB in the first place, so the
+"empty across most of 1970-1986" phrasing overstated what was ever available.
+No standalone pre-merger San Diego Union or Evening Tribune title exists in
+SFPL's NewsBank catalog at all.

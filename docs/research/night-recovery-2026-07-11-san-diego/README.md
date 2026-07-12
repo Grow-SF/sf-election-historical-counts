@@ -106,7 +106,7 @@ it as a ceiling with a NULL share, and say so.
   against the year selector and Nov 1922 calendar, 2026-07-11), and NewsBank is
   now ruled out too: `newsbank-probe.md` (2026-07-12, run under an authenticated
   SFPL ezproxy session) found no San Diego Union source of any format before
-  1970 (image edition `CSD5-EEDT` starts 2018; text source `SDUB` starts 1970),
+  1970 (image edition `CSD5-EEDT` starts 2018; text source `SDUB` starts 1983),
   so 1914 and 1922 are MICROFILM-ONLY targets. The NewsBank leg itself is done:
   its text-only `SDUB` follow-up (`sdub-text-probe.md`) is what produced the
   1992 and 2004 rows.
