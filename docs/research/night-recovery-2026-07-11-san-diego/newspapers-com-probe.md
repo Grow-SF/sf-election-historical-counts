@@ -245,3 +245,33 @@ count.
    **23 September 2026** is worth doing, but note what it buys: a remote AP wire
    snapshot, which this campaign records as a dimmed lower bound, not a clean
    night count.
+
+## CORRECTION (2026-07-12): Newspapers.com does NOT carry the San Diego Union
+
+The section above concluded that "a personal Newspapers.com subscription is the
+only confirmed route" to the San Diego Union for 1922-1990. **That was wrong, and
+it is withdrawn.** It was an inference from CDNC's embargo lock screen ("It is
+available now at newspapers.com"), which refers to the paper that is actually
+embargoed there (the SACRAMENTO Union), not to the San Diego Union. The
+inference was never tested.
+
+It has now been tested (see `newspapers-com-purchase-check.md` for the full
+evidence). Newspapers.com's catalog contains **zero years** of The San Diego
+Union, the San Diego Evening Tribune, or The San Diego Union-Tribune. Confirmed
+four ways: exact and sub-phrase keyword searches return `count:0`; an exhaustive
+enumeration of the 40 titles in their San Diego County location facet includes
+none of the three; direct paper-URL guesses 404. Positive controls (LA Times, SF
+Chronicle, Sacramento Bee) resolve normally, so the search API is not broken.
+
+**Consequence: do not buy a Newspapers.com subscription for this project.** No
+tier unlocks a title that is not in the catalog.
+
+Remaining untested leads for the San Diego Union after 1922:
+1. **GenealogyBank** (a NewsBank consumer product; NewsBank is the same vendor
+   whose SDUB text archive already gave us 1992 and 2004). Web search suggests
+   it may hold both San Diego titles. Untested. This is the next thing to probe.
+2. **San Diego Public Library in-branch microfilm** of the Union. Confirmed to
+   hold Tribune microfilm; the Union's holdings were not verified. Would need an
+   in-person visit or a scan-on-demand request.
+3. The **ProQuest San Diego Union-Tribune historical file**, if one exists under
+   an institutional subscription somewhere reachable.

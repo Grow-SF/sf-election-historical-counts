@@ -113,9 +113,10 @@ README's "morning/afternoon trap" section.
   settle every dark year properly, is not digitized after 1922. This was tested
   directly: CDNC returns "no such issue" for its post-1922 dates, as opposed to
   the rolling-embargo lock screen it shows for other papers, so there is no
-  release date to wait for. The only confirmed route to that paper for 1922-1990
-  is a personal Newspapers.com subscription; no library card within reach
-  provides it (`newspapers-com-probe.md`). One narrow exception is worth a
+  release date to wait for. Newspapers.com does NOT carry the title
+  at all (zero years, verified against their catalog: `newspapers-com-purchase-check.md`),
+  and no library card within reach provides it either. The untested leads are
+  GenealogyBank and San Diego Public Library's in-branch microfilm. One narrow exception is worth a
   revisit: the Sacramento Union's 1930 issue IS embargoed rather than absent,
   and unlocks 23 September 2026, though it would only improve a wire artifact.
 

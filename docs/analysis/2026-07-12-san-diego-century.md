@@ -262,10 +262,13 @@ five more (**1914, 1922, 1926, 1928, 1930**) yield only remote-wire artifacts.
 The San Diego Union, the one paper that would settle all of them properly, is
 simply not digitized after 1922: a direct test confirms CDNC returns "no such
 issue" for its post-1922 dates, rather than the embargo lock screen it shows for
-other papers, so there is no release date to wait for. The only confirmed route
-to that paper for 1922-1990 is a personal Newspapers.com subscription, which no
-library card in reach provides (see
-[`newspapers-com-probe.md`](../research/night-recovery-2026-07-11-san-diego/newspapers-com-probe.md)).
+other papers, so there is no release date to wait for. Newspapers.com, the obvious
+commercial fallback, turns out not to carry the San Diego Union at all: zero
+years, confirmed against their catalog and cross-checked with working controls
+(see
+[`newspapers-com-purchase-check.md`](../research/night-recovery-2026-07-11-san-diego/newspapers-com-purchase-check.md)).
+The untested leads that remain are GenealogyBank, which may hold the title, and
+San Diego Public Library's in-branch microfilm.
 
 - **Pre-1871:** the San Diego Herald (1851-1860) is in CDNC but no statewide
   certified denominators are on file; out of scope.
