@@ -288,6 +288,10 @@ verify_en_* scripts to regenerate).
 | san-bernardino-ca | 2024-03-05 | numerator | 150,018 | VERIFIED | dino Polling Place 2,824 2,824 100.0% 1,166,450 150,018 12% Mar 5 8:20 p.m. Mar 6 1:48 a.m. SF |
 | san-bernardino-ca | 2024-11-05 | denominator | 771,834 | VERIFIED | 2,872 1,472,596 1,197,953 154,974 616,860 771,834 79.92% 64.43% 52.41% |
 | san-bernardino-ca | 2024-11-05 | numerator | 434,108 | VERIFIED | render-verified: Precincts Reported: 2,872 of 2,872 (100.00%) Voters Cast: 434,108 of 1,198,556 (36.22%) Cards Cast: 1,2 |
+| san-diego-ca | 2008-11-04 | denominator | 1,245,947 | VERIFIED | San Diego 2,328 2,052,145 1,488,157 672,778 573,169 1,245,947 46.00% 83.72% 60.71% |
+| san-diego-ca | 2008-11-04 | numerator | 980,234 | VERIFIED | :49 p.m. 5 12:49 p.m. FENU San Diego 2,328 2,328 100.0% 1,488,157 980,234 65.9% 4 8:01 p.m. 5 6:46 a.m. FENU San Francis |
+| san-diego-ca | 2010-11-02 | denominator | 926,363 | VERIFIED | iego 2,050 2,099,557 1,442,161 416,188 510,175 926,363 55.07% 64.23% 44.12% |
+| san-diego-ca | 2010-11-02 | numerator | 663,326 | VERIFIED | FENU San Diego 2,050 2,050 100% 1,442,161 663,326 46% Nov 2 8:02 p.m. Nov 3 2:22 a.m. FENU San Franc |
 | san-diego-ca | 2012-06-05 | denominator | 548,462 | VERIFIED | go 1,643 2,084,578 1,465,269 187,942 360,520 548,462 65.73% 37.43% 26.31% |
 | san-diego-ca | 2012-11-06 | denominator | 1,203,265 | VERIFIED | go 2,064 2,094,093 1,563,093 528,258 675,007 1,203,265 56.10% 76.98% 57.46% |
 | san-diego-ca | 2014-06-03 | denominator | 420,700 | VERIFIED | ego 1,616 2,124,563 1,544,841 113,714 306,986 420,700 72.97% 27.23% 19.80% |

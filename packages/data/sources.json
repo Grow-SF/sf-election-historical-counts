@@ -1,5 +1,313 @@
 [
  {
+  "id": "sd-2024-11-05",
+  "name": "San Diego County \u2014 Presidential General (2024-11-05)",
+  "summary": "64.89% counted by election night; denominator 1,503,018.",
+  "finalSource": "https://web.archive.org/web/20241106165220/https://www.livevoterturnout.com/ENR/sandiegocaenr/20/en/Index_20.html \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/2024-11-05.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-2024-03-05",
+  "name": "San Diego County \u2014 Presidential Primary (2024-03-05)",
+  "summary": "60.44% counted by election night; denominator 704,068.",
+  "finalSource": "https://web.archive.org/web/20240306103630/https://www.livevoterturnout.com/ENR/sandiegocaenr/19/en/Index_19.html \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/2024-03-05.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-2022-11-08",
+  "name": "San Diego County \u2014 Midterm General (2022-11-08)",
+  "summary": "54.24% counted by election night; denominator 1,043,490.",
+  "finalSource": "https://web.archive.org/web/20221109172128/https://www.livevoterturnout.com/ENR/sandiegocaenr/16/en/Index_16.html \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/2022-11-08.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-2022-06-07",
+  "name": "San Diego County \u2014 Statewide Primary (2022-06-07)",
+  "summary": "61.78% counted by election night; denominator 674,608.",
+  "finalSource": "https://web.archive.org/web/20220608181901/https://www.livevoterturnout.com/ENR/sandiegocaenr/15/en/Index_15.html \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/2022-06-07.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-2018-11-06",
+  "name": "San Diego County \u2014 Midterm General (2018-11-06)",
+  "summary": "45.72% counted by election night; denominator 1,173,924.",
+  "finalSource": "https://web.archive.org/web/20181107120607/https://www.livevoterturnout.com/SanDiego/LiveResults/en/Index_5.html \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/2018-11-06.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-2018-06-05",
+  "name": "San Diego County \u2014 Statewide Primary (2018-06-05)",
+  "summary": "60.34% counted by election night; denominator 673,640.",
+  "finalSource": "https://web.archive.org/web/20180606114855/http://www.livevoterturnout.com/SanDiego/LiveResults/en/Index_3.html \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/2018-06-05.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-2016-06-07",
+  "name": "San Diego County \u2014 Presidential Primary (2016-06-07)",
+  "summary": "60.36% counted by election night; denominator 775,930.",
+  "finalSource": "https://web.archive.org/web/20160608190823/http://www.sdvote.com/content/rov/electioninfo/election.xml \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/2016-06-07.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-2014-11-04",
+  "name": "San Diego County \u2014 Midterm General (2014-11-04)",
+  "summary": "73.54% counted by election night; denominator 692,434.",
+  "finalSource": "https://web.archive.org/web/20141105141649/http://vote.sos.ca.gov/returns/status/ \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/2014-11-04.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-2010-11-02",
+  "name": "San Diego County \u2014 Midterm General (2010-11-02)",
+  "summary": "71.61% counted by election night; denominator 926,363.",
+  "finalSource": "https://web.archive.org/web/20101105215804/http://vote.sos.ca.gov/returns/status/ \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/2010-11-02.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-2008-11-04",
+  "name": "San Diego County \u2014 Presidential General (2008-11-04)",
+  "summary": "78.67% counted by election night; denominator 1,245,947.",
+  "finalSource": "https://web.archive.org/web/20081106063312/http://vote.sos.ca.gov/Returns/status.htm \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/2008-11-04.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-2004-11-02",
+  "name": "San Diego County \u2014 Presidential General (2004-11-02)",
+  "summary": "82.5% counted by election night; denominator 1,145,035.",
+  "finalSource": "San Diego Union-Tribune via NewsBank (SDUB), morning-after; see dossier \u2014 registrar's stated remainder (provisionals + absentee drop-offs), large end of the range subtracted \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/2004-11-02.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1992-11-03",
+  "name": "San Diego County \u2014 Presidential General (1992-11-03)",
+  "summary": "90.6% counted by election night; denominator 1,002,914.",
+  "finalSource": "San Diego Union-Tribune via NewsBank (SDUB), morning-after; see dossier \u2014 all 961 city precincts reporting; only absentees uncounted (registrar via San Diego Union-Tribune) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1992-11-03.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1940-11-05",
+  "name": "San Diego County \u2014 Presidential General (1940-11-05)",
+  "summary": "89.3% counted by election night; denominator 128,110.",
+  "finalSource": "Escondido Daily Times-Advocate (NCT19401106) 6 a.m. election special, front-page county table \u2014 550 of 596 county precincts, per the paper's own front-page county compilation \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1940-11-05.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1936-11-03",
+  "name": "San Diego County \u2014 Presidential General (1936-11-03)",
+  "summary": "31.8% counted by election night (lower bound, not the night's true state); denominator 101,854. a pre-dawn EXTRA that went to press with only 167 precincts in \u2014 a genuine night count, but an early-press snapshot, so the end-of-night total was higher",
+  "finalSource": "Escondido Daily Times-Advocate EXTRA (NCT19361104-02) county President table \u2014 167 precincts, in a pre-dawn 'EXTRA EXTRA' morning special (UP wire clocked 12:45-2 a.m.) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1936-11-03.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1930-11-04",
+  "name": "San Diego County \u2014 Gubernatorial General (1930-11-04)",
+  "summary": "0.3% counted by election night (lower bound, not the night's true state); denominator 57,709. the Los Angeles wire desk carried a SINGLE precinct of San Diego's 384 \u2014 197 ballots. This measures LA's coverage of San Diego, not San Diego's count",
+  "finalSource": "Los Angeles Examiner (LAE19301105) county returns box \u2014 1 of 384 precincts (0.3%) reached the Los Angeles wire desk overnight \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1930-11-04.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1928-11-06",
+  "name": "San Diego County \u2014 Presidential General (1928-11-06)",
+  "summary": "7.6% counted by election night (lower bound, not the night's true state); denominator 71,151. a remote paper's AP county row at its press time (only 31 of 310 precincts had reached the wire) \u2014 a severe undercount of the night, not a slow count",
+  "finalSource": "Sacramento Union (SDU19281107) AP California county table \u2014 31 of 310 precincts (AP county table in a REMOTE paper, at its press time) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1928-11-06.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1926-11-02",
+  "name": "San Diego County \u2014 Gubernatorial General (1926-11-02)",
+  "summary": "0.1% counted by election night (lower bound, not the night's true state); denominator 38,194. the Los Angeles wire desk carried just 2 of San Diego's 308 precincts overnight \u2014 22 ballots. This measures LA's coverage of San Diego, not San Diego's count",
+  "finalSource": "Los Angeles Examiner (LAE19261103) 'Vote of Counties in Southland' box \u2014 2 of 308 precincts (0.6%) reached the Los Angeles wire desk overnight \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1926-11-02.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1924-11-04",
+  "name": "San Diego County \u2014 Presidential General (1924-11-04)",
+  "summary": "51.6% counted by election night (lower bound, not the night's true state); denominator 46,408. a remote paper's AP county row at its press time (158 of 274 precincts) \u2014 the San Diego Union's own count that night was higher",
+  "finalSource": "Sacramento Union (SDU19241105) AP California county table \u2014 158 of 274 precincts (AP county table in a REMOTE paper, at its press time) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1924-11-04.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1922-11-07",
+  "name": "San Diego County \u2014 Gubernatorial General (1922-11-07)",
+  "summary": "8.2% counted by election night (lower bound, not the night's true state); denominator 32,894. a Sacramento paper's wire table carrying just 36 of 240 precincts \u2014 the wire's coverage, not San Diego's count (a San Pedro paper's dawn bulletin already had 92 precincts)",
+  "finalSource": "Sacramento Daily Union (SDU19221108) AP State Returns By Counties \u2014 36 of 240 precincts (15%), per the AP county table's own column \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1922-11-07.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1920-11-02",
+  "name": "San Diego County \u2014 Presidential General (1920-11-02)",
+  "summary": "26.3% counted by election night; denominator 31,098.",
+  "finalSource": "SDDU19201103 p1 \u2014 73 of 223 precincts, 5 a.m. EXTRA \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1920-11-02.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1918-11-05",
+  "name": "San Diego County \u2014 Gubernatorial General (1918-11-05)",
+  "summary": "17.9% counted by election night; denominator 25,100.",
+  "finalSource": "SDDU19181106 p1 \u2014 complete returns from 63 of 221 precincts \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1918-11-05.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1916-11-07",
+  "name": "San Diego County \u2014 Presidential General (1916-11-07)",
+  "summary": "67.9% counted by election night; denominator 36,552.",
+  "finalSource": "SDDU19161108 p2 \u2014 152 of 221 precincts (prose; Benson/Hanly not printed) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1916-11-07.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1914-11-03",
+  "name": "San Diego County \u2014 Gubernatorial General (1914-11-03)",
+  "summary": "10.1% counted by election night (lower bound, not the night's true state); denominator 34,955. a Sacramento paper's wire dispatch carrying just 20 of 178 precincts \u2014 it measures the wire's coverage, not San Diego's count, which was far further along",
+  "finalSource": "Sacramento Daily Union (SDU19141104) wire dispatch, morning edition \u2014 20 of 178 precincts (11%), per a Sacramento wire dispatch \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1914-11-03.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1912-11-05",
+  "name": "San Diego County \u2014 Presidential General (1912-11-05)",
+  "summary": "80.8% counted by election night; denominator 21,728.",
+  "finalSource": "SDDU19121106 county table p6 \u2014 114 precinct rows (68/73 city + 46 county) up to 2 a.m.; printed Grand totals \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1912-11-05.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1910-11-08",
+  "name": "San Diego County \u2014 Gubernatorial General (1910-11-08)",
+  "summary": "39.5% counted by election night; denominator 9,479.",
+  "finalSource": "SDDU19101109 p8 \u2014 45 of 95 precincts complete at 3 a.m. (day+2: 85/95 = 8736) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1910-11-08.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1908-11-03",
+  "name": "San Diego County \u2014 Presidential General (1908-11-03)",
+  "summary": "64.1% counted by election night; denominator 9,409.",
+  "finalSource": "SDDU19081104 county table p6 \u2014 61 precinct rows printed (19 city + 42 county); returns explicitly incomplete \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1908-11-03.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1906-11-06",
+  "name": "San Diego County \u2014 Gubernatorial General (1906-11-06)",
+  "summary": "25.8% counted by election night; denominator 7,800.",
+  "finalSource": "SDDU19061107 \u2014 41 precincts, explicitly partial \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1906-11-06.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1904-11-08",
+  "name": "San Diego County \u2014 Presidential General (1904-11-08)",
+  "summary": "87.0% counted by election night; denominator 7,241.",
+  "finalSource": "SDDU19041109 \u2014 near-complete (all but one city precinct, all but several outside) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1904-11-08.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1902-11-04",
+  "name": "San Diego County \u2014 Gubernatorial General (1902-11-04)",
+  "summary": "65.1% counted by election night; denominator 6,459.",
+  "finalSource": "SDDU19021105 \u2014 partial county returns; basis not enumerated by the paper \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1902-11-04.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1900-11-06",
+  "name": "San Diego County \u2014 Presidential General (1900-11-06)",
+  "summary": "53.0% counted by election night (lower bound, not the night's true state); denominator 6,931. city-only total-vote proxy (the countywide table's total row was left blank) \u2014 the county night count was higher",
+  "finalSource": "SDDU19001107 \u2014 San Diego CITY only; per-candidate city reads fail an internal consistency check (sum 3858 > Voters 3672); a re-read converged on the same digits but could not certify them, so the source of the overshoot is unidentified (misread or paper-side error, unresolved) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1900-11-06.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1898-11-08",
+  "name": "San Diego County \u2014 Gubernatorial General (1898-11-08)",
+  "summary": "64.5% counted by election night; denominator 7,117.",
+  "finalSource": "SDDU18981109 \u2014 18 city ward-precinct rows (2 blank, 5 incomplete) + ~68 printed back-country rows, only ~38 carrying figures; 4:30am canvass table \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1898-11-08.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1896-11-03",
+  "name": "San Diego County \u2014 Presidential General (1896-11-03)",
+  "summary": "81.4% counted by election night; denominator 7,762.",
+  "finalSource": "SDDU18961104 recap p5 \u2014 60 of 86 precincts (city + 42 county) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1896-11-03.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1894-11-06",
+  "name": "San Diego County \u2014 Gubernatorial General (1894-11-06)",
+  "summary": "24.7% counted by election night; denominator 7,124.",
+  "finalSource": "SDDU18941107 p5 + p2 continuation \u2014 6 city ward-precincts (p5) + 16 county precincts (p5 + page-2 continuation, all image-verified) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1894-11-06.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1892-11-08",
+  "name": "San Diego County \u2014 Presidential General (1892-11-08)",
+  "summary": "8.7% counted by election night (lower bound, not the night's true state); denominator 7,712. the morning paper printed no city returns at all \u2014 the true night count was far higher",
+  "finalSource": "SDDU18921109 \u2014 9 outlying precincts (8 complete + Wildomar partial); zero city precincts printed \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1892-11-08.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1890-11-04",
+  "name": "San Diego County \u2014 Gubernatorial General (1890-11-04)",
+  "summary": "2.5% counted by election night (lower bound, not the night's true state); denominator 7,306. the paper printed majorities, not raw votes, for all but 3 precincts \u2014 the true night count was far higher",
+  "finalSource": "SDDU18901105 \u2014 3 county precincts only (paper printed majorities, not raw votes, for the rest) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1890-11-04.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1888-11-06",
+  "name": "San Diego County \u2014 Presidential General (1888-11-06)",
+  "summary": "40.1% counted by election night; denominator 8,194.",
+  "finalSource": "SDDU18881107 \u2014 17 named precincts (13 city columns + 4 county; National City unreported) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1888-11-06.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1886-11-02",
+  "name": "San Diego County \u2014 Gubernatorial General (1886-11-02)",
+  "summary": "36.5% counted by election night; denominator 2,826.",
+  "finalSource": "SDDU18861103 \u2014 5 city wards + 9 county precincts \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1886-11-02.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1884-11-04",
+  "name": "San Diego County \u2014 Presidential General (1884-11-04)",
+  "summary": "41.3% counted by election night; denominator 1,965.",
+  "finalSource": "SDDU18841105 \u2014 9 named precincts (5 city wards + 4 county) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1884-11-04.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1880-11-02",
+  "name": "San Diego County \u2014 Presidential General (1880-11-02)",
+  "summary": "57.3% counted by election night; denominator 1,289.",
+  "finalSource": "SDDU18801103 precinct rows \u2014 city 5 wards + 9 outlying precincts at 3 a.m. \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1880-11-02.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1879-09-03",
+  "name": "San Diego County \u2014 Gubernatorial General (1879-09-03)",
+  "summary": "43.5% counted by election night; denominator 1,412.",
+  "finalSource": "SDDU18790904 aggregate \u2014 printed aggregate across 8 named precincts \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1879-09-03.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1876-11-07",
+  "name": "San Diego County \u2014 Presidential General (1876-11-07)",
+  "summary": "59.6% counted by election night; denominator 1,462.",
+  "finalSource": "SDDU18761108 TOTAL RESULT TO DATE \u2014 city 5 wards + 5 outlying precincts (~half the county's estimated vote) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1876-11-07.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1875-09-01",
+  "name": "San Diego County \u2014 Gubernatorial General (1875-09-01)",
+  "summary": "45.0% counted by election night; denominator 1,600.",
+  "finalSource": "SDDU18750902 precinct table \u2014 7 of 8+ precincts (Campo majorities-only excluded) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1875-09-01.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1872-11-05",
+  "name": "San Diego County \u2014 Presidential General (1872-11-05)",
+  "summary": "61.4% counted by election night; denominator 873.",
+  "finalSource": "SDDU18721106 recapitulation \u2014 SD city 5 wards + National City + San Luis Rey \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1872-11-05.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
+  "id": "sd-1871-09-06",
+  "name": "San Diego County \u2014 Gubernatorial General (1871-09-06)",
+  "summary": "42.4% counted by election night; denominator 1,285.",
+  "finalSource": "SDDU18710907 recapitulation \u2014 5/5 county precincts; New Town partial (289/515 counted) \u00b7 dossier: docs/research/night-recovery-2026-07-11-san-diego/1871-09-06.md \u00b7 dataset: data/research/san-diego-history/sd_night_history.csv",
+  "observations": []
+ },
+ {
   "id": "funnel-2024",
   "name": "2024 franchise composition (decennial census)",
   "summary": "population 870,014; voting-age 760,738; eligible citizens 663,453; registered 522,265; voted 412,231",
@@ -231,6 +539,13 @@
   "observations": []
  },
  {
+  "id": "county-tech-tehama-county",
+  "name": "Tehama County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: none (control). One-week reporting rate \u2014 n/a.",
+  "finalSource": "https://krcrtv.com/news/local/tehama-county-clerk-process-of-distinguishing-voter-fraud \u00b7 https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf \u00b7 https://www.sos.ca.gov/voters-choice-act",
+  "observations": []
+ },
+ {
   "id": "county-tech-santa-clara-county",
   "name": "Santa Clara County \u2014 counting technology & reporting speed",
   "summary": "Counting tech adopted: epollbook (2020), vote-center (2020). One-week reporting rate \u2014 2022: 85.0%, 2024: 93.0%, 2025: 99.1%.",
@@ -317,8 +632,8 @@
  {
   "id": "county-tech-nevada-county",
   "name": "Nevada County \u2014 counting technology & reporting speed",
-  "summary": "Counting tech adopted: asv (2022), epollbook (2018), vote-center (2018). One-week reporting rate \u2014 2022: 56.1%, 2024: 54.5%, 2025: 87.6%.",
-  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf \u00b7 https://www.nevadacountyca.gov/2321/Voters-Choice-Act-Overview \u00b7 https://www.nevadacountyca.gov/DocumentCenter/View/47536/Mail-Ballot-Processing-Infographic",
+  "summary": "Counting tech adopted: asv (2016), epollbook (2014), vote-center (2018). One-week reporting rate \u2014 2022: 56.1%, 2024: 54.5%, 2025: 87.6%.",
+  "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://nevco.legistar.com/LegislationDetail.aspx?GUID=F2AD1997-3E3E-4C30-80F7-21F54318ADDF&ID=2840587 \u00b7 https://web.archive.org/web/20150222033106/http://yubanet.com/regional/Trading-in-the-Paper---Nevada-County-s-Electronic-Poll-Book-Journey.php \u00b7 https://www.nevadacountyca.gov/2321/Voters-Choice-Act-Overview \u00b7 https://www.nevadacountyca.gov/DocumentCenter/View/47536/Mail-Ballot-Processing-Infographic",
   "observations": []
  },
  {
@@ -326,6 +641,13 @@
   "name": "Napa County \u2014 counting technology & reporting speed",
   "summary": "Counting tech adopted: epollbook (2018), vote-center (2018). One-week reporting rate \u2014 2022: 61.1%, 2024: 54.7%, 2025: 66.7%.",
   "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://www.napacounty.gov/3627/Challenged-Ballots \u00b7 https://www.napacounty.gov/DocumentCenter/View/29158/Napa-County-Draft-Election-Administration-Plan-updated-6-7-23-PDF \u00b7 https://www.sos.ca.gov/voters-choice-act",
+  "observations": []
+ },
+ {
+  "id": "county-tech-mendocino-county",
+  "name": "Mendocino County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: none (control). One-week reporting rate \u2014 n/a.",
+  "finalSource": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/03-voter-participation-stats-by-county.pdf \u00b7 https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf \u00b7 https://www.mendocinocounty.gov/Home/Components/News/News/6964/4035?arch=1",
   "observations": []
  },
  {
@@ -343,10 +665,31 @@
   "observations": []
  },
  {
+  "id": "county-tech-lake-county",
+  "name": "Lake County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: none (control). One-week reporting rate \u2014 n/a.",
+  "finalSource": "https://calvoter.org/content/%E2%80%98why-do-we-need-rush%E2%80%99-california%E2%80%99s-lake-county-may-have-nation%E2%80%99s-slowest-elections \u00b7 https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf \u00b7 https://www.sos.ca.gov/voters-choice-act/vca-participating-counties",
+  "observations": []
+ },
+ {
   "id": "county-tech-fresno-county",
   "name": "Fresno County \u2014 counting technology & reporting speed",
   "summary": "Counting tech adopted: asv (2020), epollbook (2020), vote-center (2020). One-week reporting rate \u2014 2022: 84.7%, 2024: 81.9%, 2025: 70.4%.",
   "finalSource": "https://calvoter.org/content/ballot-processing \u00b7 https://elections.cdn.sos.ca.gov/vca/eap/fresno-eap.pdf \u00b7 https://gvwire.com/2020/10/12/brandi-orth-vote-by-mail-signature-verification-ensures-safety-and-integrity/ \u00b7 https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf \u00b7 https://www.sos.ca.gov/administration/news-releases-and-advisories/2019-news-releases-and-advisories/fresno-county-adopts-voters-choice-act-2020-elections",
+  "observations": []
+ },
+ {
+  "id": "county-tech-del-norte-county",
+  "name": "Del Norte County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: none (control). One-week reporting rate \u2014 n/a.",
+  "finalSource": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf \u00b7 https://wildrivers.lostcoastoutpost.com/2020/sep/4/dubious-about-vote-mail-call-or-ask-del-norte-coun/",
+  "observations": []
+ },
+ {
+  "id": "county-tech-colusa-county",
+  "name": "Colusa County \u2014 counting technology & reporting speed",
+  "summary": "Counting tech adopted: none (control). One-week reporting rate \u2014 n/a.",
+  "finalSource": "https://votingsystems.cdn.sos.ca.gov/oversight/county-vsys/vot-tech-by-counties-2025-1.pdf \u00b7 https://www.countyofcolusaca.gov/197/Elections",
   "observations": []
  },
  {

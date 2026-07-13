@@ -93,6 +93,21 @@ type Hover =
   | { kind: "pt"; cx: number; cy: number; p: Pt }
   | { kind: "floor"; cx: number; cy: number; date: string; y: number };
 
+/** Jurisdiction-specific dressing. Every field defaults to the San Francisco
+ *  values this chart was built around, so existing SF renders are unchanged;
+ *  another jurisdiction (San Diego) passes its own. */
+export type NightShareConfig = {
+  title: string;
+  subtitle: string;
+  note: React.ReactNode;
+  footer: React.ReactNode | null; // null hides the SF era-milestones footer
+  eraTrends: [number, number][]; // [] disables trend dashes
+  flips: Record<string, string>;
+  partialNotes: Record<string, string>;
+  useFloorDiamonds: boolean; // SF's in-person floor overlay (NIGHT_FLOOR)
+  showEventLines: boolean; // the shared SF count milestones
+};
+
 type FloorPt = { x: number; y: number; date: string };
 type Stem = { x: number; y0: number; y1: number };
 
@@ -137,6 +152,7 @@ function NightMarks({
   floorPts,
   stems,
   trends,
+  flips,
   show,
   hide,
 }: {
@@ -144,6 +160,7 @@ function NightMarks({
   floorPts: FloorPt[];
   stems: Stem[];
   trends: Seg[];
+  flips: Record<string, string>;
   show: (h: Hover) => void;
   hide: () => void;
 }) {
@@ -216,7 +233,7 @@ function NightMarks({
         ) : (
           <circle cx={cx} cy={cy} r={6.5} fill={c} {...common} />
         );
-        if (!FLIPS[p.id]) return <g key={p.id}>{dot}</g>;
+        if (!flips[p.id]) return <g key={p.id}>{dot}</g>;
         // ring marks a race the election-night leader went on to lose
         return (
           <g key={p.id}>
@@ -240,17 +257,43 @@ function NightMarks({
   );
 }
 
+// The SF defaults: this chart's original, unchanged configuration.
+const SF_CONFIG: NightShareConfig = {
+  title: "How much of the vote was counted on election night",
+  subtitle: "Percent counted on election night, 1851–2026",
+  note: (
+    <>
+      Dim dashed dots are mid-count press snapshots (lower bounds, excluded
+      from the trend); rings mark races the election-night leader lost.
+    </>
+  ),
+  footer: (
+    <>
+      1926 voting machines · 1978 expanded absentee · 2002 permanent
+      vote-by-mail · 2020 COVID
+    </>
+  ),
+  eraTrends: ERA_TRENDS,
+  flips: FLIPS,
+  partialNotes: PARTIAL_NOTES,
+  useFloorDiamonds: true,
+  showEventLines: true,
+};
+
 export default function NightShareChart({
   elections,
   from,
   to,
   kinds,
+  config: configOverride,
 }: {
   elections: Election[];
   from: number;
   to: number;
   kinds: Set<string>;
+  config?: Partial<NightShareConfig>;
 }) {
+  const config: NightShareConfig = { ...SF_CONFIG, ...configOverride };
   const theme = useChartTheme();
   const { hover, show, hide, hold, clear } = useGraceHover<Hover>();
   // a hovered shape that unmounts on filter change never fires onMouseLeave
@@ -272,33 +315,37 @@ export default function NightShareChart({
     // mid-count partials understate the night - keep them out of every fit.
     const solid = pts.filter((p) => !p.partial);
     // one linear fit per voting era; the pre-1926 hand-count era is excluded
-    // (erratic, not a trend). Breaks: 1926 lever machines, 1978 expanded
+    // (erratic, not a trend). SF breaks: 1926 lever machines, 1978 expanded
     // absentee, 2002 permanent vote-by-mail, 2020 COVID.
-    const eraFits: (Fit | null)[] = ERA_TRENDS.map(([lo, hi]) =>
+    const eraFits: (Fit | null)[] = config.eraTrends.map(([lo, hi]) =>
       linearFit(
         solid.filter((p) => p.x >= lo && p.x < hi).map((p) => [p.x, p.y]),
       ),
     );
     return { pts, eraFits };
-  }, [elections]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [elections, config.eraTrends]);
 
   const floorPts = useMemo(
     () =>
-      NIGHT_FLOOR.filter((p) => {
-        const y = Number(p.date.slice(0, 4));
-        return y >= from && y <= to && kinds.has(displayKind(p.kind, y));
-      }).map((p) => ({ x: yearFrac(p.date), y: p.floorPct, date: p.date })),
-    [from, to, kinds],
+      config.useFloorDiamonds
+        ? NIGHT_FLOOR.filter((p) => {
+            const y = Number(p.date.slice(0, 4));
+            return y >= from && y <= to && kinds.has(displayKind(p.kind, y));
+          }).map((p) => ({ x: yearFrac(p.date), y: p.floorPct, date: p.date }))
+        : [],
+    [from, to, kinds, config.useFloorDiamonds],
   );
 
   // stem between an election's actual night share and its floor: the gap is
   // the share of mail that arrived early enough to make the night count
   const stems = useMemo(() => {
+    if (!config.useFloorDiamonds) return [];
     const floorBy = new Map(NIGHT_FLOOR.map((p) => [p.date, p.floorPct]));
     return pts
       .filter((p) => floorBy.has(p.id))
       .map((p) => ({ x: p.x, y0: floorBy.get(p.id) as number, y1: p.y }));
-  }, [pts]);
+  }, [pts, config.useFloorDiamonds]);
 
   const seg = (f: Fit | null) =>
     f && [
@@ -310,28 +357,24 @@ export default function NightShareChart({
   return (
     <div>
       <ChartFrame
-        title="How much of the vote was counted on election night"
-        subtitle="Percent counted on election night, 1851–2026"
-        note={
-          <>
-            Dim dashed dots are mid-count press snapshots (lower bounds,
-            excluded from the trend); rings mark races the election-night
-            leader lost.
-          </>
-        }
+        title={config.title}
+        subtitle={config.subtitle}
+        note={config.note}
       >
         <div className="smallcaps mb-2 flex flex-wrap items-center gap-x-5 gap-y-1 text-faint">
-          <span className="flex items-center gap-1.5">
-            <svg width="11" height="11" aria-hidden>
-              <path
-                d="M5.5 1 L10 5.5 L5.5 10 L1 5.5 Z"
-                fill="none"
-                stroke={theme.faint}
-                strokeWidth="1.2"
-              />
-            </svg>
-            in-person vote
-          </span>
+          {config.useFloorDiamonds && (
+            <span className="flex items-center gap-1.5">
+              <svg width="11" height="11" aria-hidden>
+                <path
+                  d="M5.5 1 L10 5.5 L5.5 10 L1 5.5 Z"
+                  fill="none"
+                  stroke={theme.faint}
+                  strokeWidth="1.2"
+                />
+              </svg>
+              in-person vote
+            </span>
+          )}
           <span className="flex items-center gap-1.5">
             <svg width="12" height="12" aria-hidden>
               <circle cx="6" cy="6" r="5" fill="var(--lc-rust)" />
@@ -361,16 +404,16 @@ export default function NightShareChart({
               </div>
               {hover.p.partial && (
                 <div className="max-w-52 text-xs italic text-faint">
-                  {PARTIAL_NOTES[hover.p.id] ??
+                  {config.partialNotes[hover.p.id] ??
                     "partial night snapshot — the true end-of-night share was higher"}
                 </div>
               )}
-              {FLIPS[hover.p.id] && (
+              {config.flips[hover.p.id] && (
                 <div
                   className="max-w-56 text-xs italic"
                   style={{ color: theme.gold }}
                 >
-                  {FLIPS[hover.p.id]}
+                  {config.flips[hover.p.id]}
                 </div>
               )}
               {hover.p.src && (
@@ -424,7 +467,8 @@ export default function NightShareChart({
               <CartesianGrid stroke={theme.rule} strokeDasharray="2 4" />
               {/* shared vote-counting milestones, identical across all charts
                   (incl. the 1926 voting-machine break that stabilized the count) */}
-              {eventLines(from, to, theme.gold, theme.faint)}
+              {config.showEventLines &&
+                eventLines(from, to, theme.gold, theme.faint)}
               <XAxis
                 type="number"
                 dataKey="x"
@@ -458,19 +502,19 @@ export default function NightShareChart({
                 floorPts={floorPts}
                 stems={stems}
                 trends={trends}
+                flips={config.flips}
                 show={show}
                 hide={hide}
               />
             </ComposedChart>
           </ResponsiveContainer>
         </div>
-        <p className="smallcaps mt-2 text-faint">
-          dashed verticals:{" "}
-          <span className="text-ink">
-            1926 voting machines · 1978 expanded absentee · 2002 permanent
-            vote-by-mail · 2020 COVID
-          </span>
-        </p>
+        {config.footer && (
+          <p className="smallcaps mt-2 text-faint">
+            dashed verticals:{" "}
+            <span className="text-ink">{config.footer}</span>
+          </p>
+        )}
       </ChartFrame>
     </div>
   );

@@ -1181,5 +1181,19 @@
   "verdict": "CONFIRMED",
   "basis": "CA SoS status-page frozen-capture bracket (RUNBOOK 8)",
   "evidence": "Tehama row at capture 20240306144409 (2024-03-06 14:44:09 UTC): 100.0% precincts, Ballots Cast 7,998, Last Report 'Mar 5 11:34 p.m.'. FROZEN: the identical Ballots Cast figure 7,998 recurs across 4 captures, 2024-03-06 14:44:09 UTC through 2024-03-08 15:51:26 UTC, before the next available capture (2024-03-09 19:45:02 UTC) jumps to 10,596 (Last Report 'Mar 8 5:52 p.m.'), marking the canvass resuming. Sweep bracket-evidence cross-check: \"frozen thru 4 captures, jumps Mar9 to 10,596/Mar8 5:52pm\" (scratchpad/sos-status-sweep.md)."
+ },
+ {
+  "slug": "san-diego-ca",
+  "date": "2008-11-04",
+  "verdict": "CONFIRMED",
+  "basis": "CA SoS status-page single-capture-then-jump bracket, FENU->CCU transition (RUNBOOK 8)",
+  "evidence": "San Diego row at capture 20081106063312 (2008-11-06 06:33:12 UTC): 100.0% precincts, Ballots Cast 980,234, Last Report 'Nov 5 6:46 a.m.', Report Type FENU. The next available capture (20081108032433, 2008-11-08 03:24:33 UTC) jumps to 1,051,756 (Last Report 'Nov 7 5:04 p.m.'), Report Type now CCU (county canvass update) -- the FENU->CCU transition plus the number moving upward is a clean non-circular bracket per RUNBOOK 8, confirming 980,234 was San Diego's last election-night figure. Recovered and independently re-verified via docs/research/night-recovery-2026-07-11-san-diego/wayback-probe-1994-2010.md (2008-11-04 section); both raw id_ captures re-fetched and San Diego's row re-read byte-for-byte during this pass."
+ },
+ {
+  "slug": "san-diego-ca",
+  "date": "2010-11-02",
+  "verdict": "CONFIRMED",
+  "basis": "CA SoS status-page single-capture-then-jump bracket, FENU->CCU transition (RUNBOOK 8)",
+  "evidence": "San Diego row at capture 20101105215804 (2010-11-05 21:58:04 UTC): 100% precincts, Ballots Cast 663,326, Last Report 'Nov 3 2:22 a.m.', Report Type FENU. The next available capture (20101110011312, 2010-11-10 01:13:12 UTC) jumps to 825,597 (57.2%, Last Report 'Nov 8 5:04 p.m.'), Report Type now CCU -- the same FENU->CCU non-circular bracket mechanic as the 2008 row, confirming 663,326 was San Diego's last election-night figure. Recovered and independently re-verified via docs/research/night-recovery-2026-07-11-san-diego/wayback-probe-1994-2010.md (2010-11-02 section); both raw id_ captures re-fetched and San Diego's row re-read byte-for-byte during this pass."
  }
 ]

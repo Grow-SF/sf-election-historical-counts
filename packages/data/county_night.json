@@ -2,7 +2,7 @@
   "metric": "election-night share = ballots in the last election-night report / certified-final ballots",
   "note": "San Francisco plus five researched never-adopter counties (Lake, Del Norte, Mendocino, Tehama, Colusa) are the no-new-tech controls; Colusa carries documented nulls (no surviving election-night report for any year) rather than sourced points. 2020 (presidential) is a COVID all-mail outlier; rows flagged comparable=false (e.g. Nevada 2024, a ballot-printer-defect outlier) are excluded from pre/post comparisons. The 2018-2020 statewide Voter's Choice Act all-mail shift is a confound independent of e-pollbooks/ASV.",
   "source": "data/research/election-night/ (per-county, verified) + SF DOE pipeline (packages/data/elections.json)",
-  "generated": "2026-07-10",
+  "generated": "2026-07-12",
   "jurisdictions": [
     {
       "name": "San Francisco",
@@ -1781,6 +1781,26 @@
         "vca": 2022
       },
       "points": [
+        {
+          "year": 2008,
+          "type": "presidential",
+          "pct": 78.67,
+          "ballots": 980234,
+          "final": 1245947,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20081106063312/http://vote.sos.ca.gov/Returns/status.htm"
+        },
+        {
+          "year": 2010,
+          "type": "midterm",
+          "pct": 71.61,
+          "ballots": 663326,
+          "final": 926363,
+          "confidence": "primary",
+          "comparable": true,
+          "source_url": "https://web.archive.org/web/20101105215804/http://vote.sos.ca.gov/returns/status/"
+        },
         {
           "year": 2012,
           "type": "presidential-primary",

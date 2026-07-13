@@ -54,6 +54,7 @@ e-day/VBM splits.
 | `sources/sf_june2026_vbm_returns_by_day.csv` | DoE daily VBM return tracking (hand-copied reference) | 2026 | per day |
 | `sources/sf_vote_by_district_1856_1863.csv` | votes cast by district, from a printed 1863 newspaper table | 1856–1863 | per district, per year |
 | `research/county-vbm/county_vbm_share.csv` | vote-by-mail composition for the 19-county comparison panel (mail vs. polling ballots, not SF-only) | 2012–2024 | per county, per election |
+| `research/san-diego-history/sd_night_history.csv` | San Diego County recovered election-night count floors (newspaper-era counterpart to SF's archival record, not SF-only) | 1871–1920 | per election |
 
 **Definitions used throughout** (they are not interchangeable):
 
@@ -388,6 +389,23 @@ elections from 2012 to 2024. It exists to let the comparison-panel research (see
 change in mail-ballot share from a genuine change in counting speed. Schema, exact
 source URLs, and verification notes:
 [`research/county-vbm/README.md`](research/county-vbm/README.md).
+
+---
+
+## `research/san-diego-history/`
+
+San Diego County's recovered election-night history, 1871-1920 (not
+SF-specific): the largest single-seat contest sum printed in the day-after San
+Diego Union (CDNC scans) over the same contest's certified county total (SoS
+Statement of Vote / CA Blue Book). The San Diego counterpart to SF's
+`sf_archival_canvass_points.csv`, with a same-contest denominator instead of
+ballots-cast (documented in the dataset README; the two definitions must not
+be mixed silently). Per-election evidence dossiers:
+[`../docs/research/night-recovery-2026-07-11-san-diego/`](../docs/research/night-recovery-2026-07-11-san-diego/);
+schema and caveats:
+[`research/san-diego-history/README.md`](research/san-diego-history/README.md);
+narrative:
+[`../docs/analysis/2026-07-12-san-diego-century.md`](../docs/analysis/2026-07-12-san-diego-century.md).
 
 ---
 
