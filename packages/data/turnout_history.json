@@ -2028,5 +2028,13 @@
   "ballots": 271520,
   "source": "exact",
   "kind": "Primary"
+ },
+ {
+  "date": "2026-11-03",
+  "turnoutPct": 65.6,
+  "registered": 535608,
+  "ballots": 351502,
+  "source": "exact",
+  "kind": "General"
  }
 ]

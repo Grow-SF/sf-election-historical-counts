@@ -212,6 +212,8 @@ def main():
             elif ("news-derived" in full_fs or "polled statement" in full_fs
                     or "semi-official" in full_fs.lower()):
                 tot_class = "news-derived complete count"
+            elif e and e.get("provisional"):
+                tot_class = "provisional (latest release; count not yet certified)"
             elif tot:
                 tot_class = "certified / official canvass"
             else:

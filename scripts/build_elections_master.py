@@ -107,6 +107,7 @@ P1 = [
  ("1975-12-11","Runoff"),    # Moscone–Barbagelata mayoral runoff
  ("1987-04-07","Special"),   # Special Congressional Election
  ("2026-06-02","Primary"),   # upcoming June 2026 primary
+ ("2026-11-03","General"),   # Nov 2026 consolidated general
 ]
 
 # --- P1R: 1907–1916 elections absent from the DataSF/SFPL indexes, found in the

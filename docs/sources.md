@@ -2,7 +2,7 @@
 
 # Data sources
 
-Every number in the Long Count dataset traces to a primary source. This file documents all 407 source records — what was consulted, what it established, and where to find it.
+Every number in the Long Count dataset traces to a primary source. This file documents all 408 source records — what was consulted, what it established, and where to find it.
 
 These records were previously displayed on the `/sources` page of the viz app. They now live here as a stable, version-controlled reference in the data repository.
 
@@ -515,6 +515,29 @@ Counting tech adopted: asv (2020), epollbook (2020), vote-center (2020). One-wee
 Share of ballots counted within one week of Election Day — Los Angeles, San Francisco, California average; 2022/2024/2025.
 
 **Source:** California Voter Foundation, “Ballot Processing” — https://calvoter.org/content/ballot-processing
+
+---
+
+### Consolidated General Election
+
+**ID:** `2026-11-03`
+
+**Certified final:** 351,502
+
+**Source:** SF Dept. of Elections certified results
+
+**Observations**
+
+| Date | Days after | Election night | Count | % of final | Source |
+|------|-----------:|:--------------:|------:|-----------:|--------|
+| 2026-11-03 | 0 | ✓ | 185,032 | 52.6% | SF Dept. of Elections results release — per-release summary report, reported 2026-11-03T23:45:23 - https://www.sfelections.org/results/20261103/data/20261103_4/summary.xml (validated against certified totals) |
+| 2026-11-04 | 1 |  | 206,320 | 58.7% | SF Dept. of Elections results release — per-release summary report, reported 2026-11-04T15:57:47 - https://www.sfelections.org/results/20261103/data/20261104/summary.xml (validated against certified totals) |
+| 2026-11-05 | 2 |  | 256,382 | 72.9% | SF Dept. of Elections results release — per-release summary report, reported 2026-11-05T15:58:45 - https://www.sfelections.org/results/20261103/data/20261105/summary.xml (validated against certified totals) |
+| 2026-11-06 | 3 |  | 307,917 | 87.6% | SF Dept. of Elections results release — per-release summary report, reported 2026-11-06T15:58:52 - https://www.sfelections.org/results/20261103/data/20261106/summary.xml (validated against certified totals) |
+| 2026-11-07 | 4 |  | 332,467 | 94.6% | SF Dept. of Elections results release — per-release summary report, reported 2026-11-07T16:00:36 - https://www.sfelections.org/results/20261103/data/20261107/summary.xml (validated against certified totals) |
+| 2026-11-08 | 5 |  | 342,844 | 97.5% | SF Dept. of Elections results release — per-release summary report, reported 2026-11-08T15:56:56 - https://www.sfelections.org/results/20261103/data/20261108/summary.xml (validated against certified totals) |
+| 2026-11-09 | 6 |  | 347,938 | 99.0% | SF Dept. of Elections results release — per-release summary report, reported 2026-11-09T15:56:56 - https://www.sfelections.org/results/20261103/data/20261109/summary.xml (validated against certified totals) |
+| 2026-11-10 | 7 |  | 351,502 | 100.0% | SF Dept. of Elections results release — per-release summary report, reported 2026-11-10T15:58:11 - https://www.sfelections.org/results/20261103/data/20261110/summary.xml (validated against certified totals) |
 
 ---
 

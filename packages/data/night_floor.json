@@ -634,5 +634,11 @@
   "floorPct": 11.4,
   "source": "exact",
   "kind": "Primary"
+ },
+ {
+  "date": "2026-11-03",
+  "floorPct": 12.3,
+  "source": "exact",
+  "kind": "General"
  }
 ]

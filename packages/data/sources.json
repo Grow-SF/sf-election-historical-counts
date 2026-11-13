@@ -357,6 +357,86 @@
   "observations": []
  },
  {
+  "id": "2026-11-03",
+  "name": "Consolidated General Election",
+  "final": 351502,
+  "finalSource": "SF Dept. of Elections certified results",
+  "observations": [
+   {
+    "date": "2026-11-03",
+    "days": 0,
+    "night": true,
+    "total": 185032,
+    "pct": 52.6,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, reported 2026-11-03T23:45:23 - https://www.sfelections.org/results/20261103/data/20261103_4/summary.xml (validated against certified totals)"
+   },
+   {
+    "date": "2026-11-04",
+    "days": 1,
+    "night": false,
+    "total": 206320,
+    "pct": 58.7,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, reported 2026-11-04T15:57:47 - https://www.sfelections.org/results/20261103/data/20261104/summary.xml (validated against certified totals)"
+   },
+   {
+    "date": "2026-11-05",
+    "days": 2,
+    "night": false,
+    "total": 256382,
+    "pct": 72.9,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, reported 2026-11-05T15:58:45 - https://www.sfelections.org/results/20261103/data/20261105/summary.xml (validated against certified totals)"
+   },
+   {
+    "date": "2026-11-06",
+    "days": 3,
+    "night": false,
+    "total": 307917,
+    "pct": 87.6,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, reported 2026-11-06T15:58:52 - https://www.sfelections.org/results/20261103/data/20261106/summary.xml (validated against certified totals)"
+   },
+   {
+    "date": "2026-11-07",
+    "days": 4,
+    "night": false,
+    "total": 332467,
+    "pct": 94.6,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, reported 2026-11-07T16:00:36 - https://www.sfelections.org/results/20261103/data/20261107/summary.xml (validated against certified totals)"
+   },
+   {
+    "date": "2026-11-08",
+    "days": 5,
+    "night": false,
+    "total": 342844,
+    "pct": 97.5,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, reported 2026-11-08T15:56:56 - https://www.sfelections.org/results/20261103/data/20261108/summary.xml (validated against certified totals)"
+   },
+   {
+    "date": "2026-11-09",
+    "days": 6,
+    "night": false,
+    "total": 347938,
+    "pct": 99.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, reported 2026-11-09T15:56:56 - https://www.sfelections.org/results/20261103/data/20261109/summary.xml (validated against certified totals)"
+   },
+   {
+    "date": "2026-11-10",
+    "days": 7,
+    "night": false,
+    "total": 351502,
+    "pct": 100.0,
+    "label": "SF Dept. of Elections results release",
+    "citation": "per-release summary report, reported 2026-11-10T15:58:11 - https://www.sfelections.org/results/20261103/data/20261110/summary.xml (validated against certified totals)"
+   }
+  ]
+ },
+ {
   "id": "2026-06-02",
   "name": "Consolidated Statewide Direct Primary Election",
   "final": 271520,
